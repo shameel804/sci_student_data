@@ -1,0 +1,4943 @@
+[
+    {
+        "q": "Where do we sleep at night?",
+        "type": "mcq",
+        "o": [
+            "Bedroom",
+            "Kitchen",
+            "Bathroom",
+            "Garden"
+        ]
+    },
+    {
+        "q": "Which of these is a natural thing?",
+        "type": "mcq",
+        "o": [
+            "Tree",
+            "Table",
+            "Car",
+            "Book"
+        ]
+    },
+    {
+        "q": "What do we call the place where children go to study with a teacher?",
+        "type": "short_answer",
+        "answers": [
+            "school"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should throw waste paper in the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "dustbin"
+        ],
+        "other_options": [
+            "water",
+            "floor",
+            "table",
+            "roof"
+        ]
+    },
+    {
+        "q": "A park is a community space.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is found in a classroom?",
+        "type": "mcq",
+        "o": [
+            "Blackboard",
+            "Bed",
+            "Sofa",
+            "Stove"
+        ]
+    },
+    {
+        "q": "Which of these is man-made?",
+        "type": "mcq",
+        "o": [
+            "Plastic bottle",
+            "Sun",
+            "Cloud",
+            "Mountain"
+        ]
+    },
+    {
+        "q": "What do we drink to stay healthy?",
+        "type": "short_answer",
+        "answers": [
+            "water"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We must keep our home ______.",
+        "type": "fill_blank",
+        "answers": [
+            "clean"
+        ],
+        "other_options": [
+            "dirty",
+            "messy",
+            "noisy",
+            "dark"
+        ]
+    },
+    {
+        "q": "A hospital is a place where sick people get treatment.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a living thing?",
+        "type": "mcq",
+        "o": [
+            "Dog",
+            "Rock",
+            "Chair",
+            "Pencil"
+        ]
+    },
+    {
+        "q": "Where does your family cook food?",
+        "type": "mcq",
+        "o": [
+            "Kitchen",
+            "Bathroom",
+            "Balcony",
+            "Hall"
+        ]
+    },
+    {
+        "q": "Which of these is a natural source of light?",
+        "type": "mcq",
+        "o": [
+            "Sun",
+            "Bulb",
+            "Tube light",
+            "Lamp"
+        ]
+    },
+    {
+        "q": "Name one thing you see in a playground.",
+        "type": "short_answer",
+        "answers": [
+            "swing",
+            "slide",
+            "see-saw"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ our hands before eating.",
+        "type": "fill_blank",
+        "answers": [
+            "wash"
+        ],
+        "other_options": [
+            "hide",
+            "shake",
+            "clap",
+            "fold"
+        ]
+    },
+    {
+        "q": "Trees give us fresh air.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a community helper?",
+        "type": "mcq",
+        "o": [
+            "Teacher",
+            "Ghost",
+            "Monster",
+            "Witch"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a natural thing?",
+        "type": "mcq",
+        "o": [
+            "Chair",
+            "River",
+            "Bird",
+            "Flower"
+        ]
+    },
+    {
+        "q": "Where does a postman work?",
+        "type": "mcq",
+        "o": [
+            "Post office",
+            "Hospital",
+            "School",
+            "Bank"
+        ]
+    },
+    {
+        "q": "Name one way to keep your school clean.",
+        "type": "short_answer",
+        "answers": [
+            "put trash in dustbin",
+            "do not litter",
+            "use dustbin"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a place where we borrow books.",
+        "type": "fill_blank",
+        "answers": [
+            "library"
+        ],
+        "other_options": [
+            "market",
+            "temple",
+            "cinema",
+            "park"
+        ]
+    },
+    {
+        "q": "Water is a man-made thing.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these do you see in the sky at night?",
+        "type": "mcq",
+        "o": [
+            "Moon",
+            "Table",
+            "Chair",
+            "Book"
+        ]
+    },
+    {
+        "q": "Which of these is a non-living thing?",
+        "type": "mcq",
+        "o": [
+            "Stone",
+            "Cat",
+            "Bird",
+            "Fish"
+        ]
+    },
+    {
+        "q": "What does a policeman do?",
+        "type": "short_answer",
+        "answers": [
+            "catches thieves",
+            "maintains law and order",
+            "protects people"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Plants need ______ to grow.",
+        "type": "fill_blank",
+        "answers": [
+            "water"
+        ],
+        "other_options": [
+            "plastic",
+            "metal",
+            "glass",
+            "cloth"
+        ]
+    },
+    {
+        "q": "A fire station has fire trucks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which room has a toilet and sink?",
+        "type": "mcq",
+        "o": [
+            "Bathroom",
+            "Bedroom",
+            "Living room",
+            "Dining room"
+        ]
+    },
+    {
+        "q": "Which of these is a living thing?",
+        "type": "mcq",
+        "o": [
+            "Grass",
+            "Toy",
+            "Shoe",
+            "Bag"
+        ]
+    },
+    {
+        "q": "What do we call the person who flies an airplane?",
+        "type": "short_answer",
+        "answers": [
+            "pilot"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We must not ______ trees.",
+        "type": "fill_blank",
+        "answers": [
+            "cut"
+        ],
+        "other_options": [
+            "water",
+            "plant",
+            "save",
+            "love"
+        ]
+    },
+    {
+        "q": "A bus stand is a community space.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is used to sit on in a classroom?",
+        "type": "mcq",
+        "o": [
+            "Bench",
+            "Stove",
+            "Sink",
+            "Tap"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made water body?",
+        "type": "mcq",
+        "o": [
+            "Swimming pool",
+            "River",
+            "Lake",
+            "Sea"
+        ]
+    },
+    {
+        "q": "Name one animal that lives in a forest.",
+        "type": "short_answer",
+        "answers": [
+            "lion",
+            "tiger",
+            "elephant",
+            "deer",
+            "monkey"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should turn off ______ when not in use to save electricity.",
+        "type": "fill_blank",
+        "answers": [
+            "lights",
+            "light",
+            "fans",
+            "fan"
+        ],
+        "other_options": [
+            "water",
+            "doors",
+            "windows",
+            "taps"
+        ]
+    },
+    {
+        "q": "A library is very noisy.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these helps us see at night in a room?",
+        "type": "mcq",
+        "o": [
+            "Bulb",
+            "Window",
+            "Door",
+            "Carpet"
+        ]
+    },
+    {
+        "q": "Which of these is found in a garden?",
+        "type": "mcq",
+        "o": [
+            "Flower",
+            "TV",
+            "Fridge",
+            "Oven"
+        ]
+    },
+    {
+        "q": "What do we call the person who puts out fires?",
+        "type": "short_answer",
+        "answers": [
+            "firefighter"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should not waste ______.",
+        "type": "fill_blank",
+        "answers": [
+            "water"
+        ],
+        "other_options": [
+            "time",
+            "money",
+            "food",
+            "all of these"
+        ]
+    },
+    {
+        "q": "Cars are man-made.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a place of worship?",
+        "type": "mcq",
+        "o": [
+            "Temple",
+            "Market",
+            "Cinema hall",
+            "Playground"
+        ]
+    },
+    {
+        "q": "Which of these is a natural thing?",
+        "type": "mcq",
+        "o": [
+            "Cloud",
+            "Bicycle",
+            "Building",
+            "Road"
+        ]
+    },
+    {
+        "q": "Name one thing in your bedroom.",
+        "type": "short_answer",
+        "answers": [
+            "bed",
+            "pillow",
+            "blanket",
+            "cupboard",
+            "lamp"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ grows from a seed.",
+        "type": "fill_blank",
+        "answers": [
+            "plant"
+        ],
+        "other_options": [
+            "stone",
+            "car",
+            "chair",
+            "table"
+        ]
+    },
+    {
+        "q": "We should play on the road.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a pet animal?",
+        "type": "mcq",
+        "o": [
+            "Dog",
+            "Lion",
+            "Tiger",
+            "Bear"
+        ]
+    },
+    {
+        "q": "Where does a doctor work?",
+        "type": "mcq",
+        "o": [
+            "Hospital",
+            "School",
+            "Bank",
+            "Post office"
+        ]
+    },
+    {
+        "q": "Which of these is a wild animal?",
+        "type": "mcq",
+        "o": [
+            "Zebra",
+            "Cow",
+            "Hen",
+            "Goat"
+        ]
+    },
+    {
+        "q": "What do we call the green part of a plant that makes food?",
+        "type": "short_answer",
+        "answers": [
+            "leaf",
+            "leaves"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Birds build ______ to live in.",
+        "type": "fill_blank",
+        "answers": [
+            "nests"
+        ],
+        "other_options": [
+            "holes",
+            "caves",
+            "houses",
+            "tents"
+        ]
+    },
+    {
+        "q": "The sun rises in the east.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is used to write on a blackboard?",
+        "type": "mcq",
+        "o": [
+            "Chalk",
+            "Pen",
+            "Pencil",
+            "Crayon"
+        ]
+    },
+    {
+        "q": "Which of these is a community space?",
+        "type": "mcq",
+        "o": [
+            "Park",
+            "Bedroom",
+            "Kitchen",
+            "Bathroom"
+        ]
+    },
+    {
+        "q": "What does a farmer grow?",
+        "type": "short_answer",
+        "answers": [
+            "crops",
+            "vegetables",
+            "fruits",
+            "food"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ lives in water.",
+        "type": "fill_blank",
+        "answers": [
+            "fish"
+        ],
+        "other_options": [
+            "dog",
+            "cat",
+            "bird",
+            "lion"
+        ]
+    },
+    {
+        "q": "We should keep our surroundings dirty.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is used to eat food?",
+        "type": "mcq",
+        "o": [
+            "Spoon",
+            "Book",
+            "Pen",
+            "Bag"
+        ]
+    },
+    {
+        "q": "Which of these is a non-living thing?",
+        "type": "mcq",
+        "o": [
+            "Rock",
+            "Butterfly",
+            "Frog",
+            "Snake"
+        ]
+    },
+    {
+        "q": "Name one thing we get from a tree.",
+        "type": "short_answer",
+        "answers": [
+            "fruit",
+            "wood",
+            "oxygen",
+            "shade",
+            "flower",
+            "leaf"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We keep food fresh in a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "refrigerator"
+        ],
+        "other_options": [
+            "oven",
+            "stove",
+            "sink",
+            "cupboard"
+        ]
+    },
+    {
+        "q": "A playground has swings.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is found in a kitchen?",
+        "type": "mcq",
+        "o": [
+            "Stove",
+            "Bed",
+            "Sofa",
+            "Study table"
+        ]
+    },
+    {
+        "q": "Which of these is a natural thing?",
+        "type": "mcq",
+        "o": [
+            "Star",
+            "Car",
+            "House",
+            "Road"
+        ]
+    },
+    {
+        "q": "What do we call the person who teaches us?",
+        "type": "short_answer",
+        "answers": [
+            "teacher"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the tap after washing hands.",
+        "type": "fill_blank",
+        "answers": [
+            "close",
+            "shut",
+            "turn off"
+        ],
+        "other_options": [
+            "open",
+            "break",
+            "hit",
+            "pull"
+        ]
+    },
+    {
+        "q": "A bus is a man-made thing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a source of water?",
+        "type": "mcq",
+        "o": [
+            "Well",
+            "Fridge",
+            "TV",
+            "Fan"
+        ]
+    },
+    {
+        "q": "Where do we keep our books at home?",
+        "type": "mcq",
+        "o": [
+            "Bookshelf",
+            "Sink",
+            "Stove",
+            "Fridge"
+        ]
+    },
+    {
+        "q": "Which of these flies in the sky?",
+        "type": "mcq",
+        "o": [
+            "Kite",
+            "Fish",
+            "Dog",
+            "Cat"
+        ]
+    },
+    {
+        "q": "Name one community helper who wears a uniform.",
+        "type": "short_answer",
+        "answers": [
+            "policeman",
+            "firefighter",
+            "postman",
+            "soldier"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ gives us milk.",
+        "type": "fill_blank",
+        "answers": [
+            "cow"
+        ],
+        "other_options": [
+            "tiger",
+            "lion",
+            "snake",
+            "frog"
+        ]
+    },
+    {
+        "q": "We should plant more trees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is used to wash clothes?",
+        "type": "mcq",
+        "o": [
+            "Washing machine",
+            "Microwave",
+            "Oven",
+            "Toaster"
+        ]
+    },
+    {
+        "q": "Which of these is a living thing?",
+        "type": "mcq",
+        "o": [
+            "Bird",
+            "Chair",
+            "Table",
+            "Book"
+        ]
+    },
+    {
+        "q": "What do we breathe in to live?",
+        "type": "short_answer",
+        "answers": [
+            "air",
+            "oxygen"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a place where we buy vegetables.",
+        "type": "fill_blank",
+        "answers": [
+            "market"
+        ],
+        "other_options": [
+            "school",
+            "library",
+            "hospital",
+            "park"
+        ]
+    },
+    {
+        "q": "A cinema hall is very quiet.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these gives us light during the day?",
+        "type": "mcq",
+        "o": [
+            "Sun",
+            "Moon",
+            "Stars",
+            "Candle"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made thing?",
+        "type": "mcq",
+        "o": [
+            "Building",
+            "Mountain",
+            "River",
+            "Cloud"
+        ]
+    },
+    {
+        "q": "Name one thing you see in a hospital.",
+        "type": "short_answer",
+        "answers": [
+            "doctor",
+            "nurse",
+            "bed",
+            "ambulance",
+            "medicine"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ waste paper.",
+        "type": "fill_blank",
+        "answers": [
+            "recycle"
+        ],
+        "other_options": [
+            "burn",
+            "throw",
+            "hide",
+            "eat"
+        ]
+    },
+    {
+        "q": "A fish lives in a tree.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a mode of transport?",
+        "type": "mcq",
+        "o": [
+            "Train",
+            "Apple",
+            "Book",
+            "Chair"
+        ]
+    },
+    {
+        "q": "Where do we sit and eat dinner at home?",
+        "type": "mcq",
+        "o": [
+            "Dining table",
+            "Bed",
+            "Sofa",
+            "Floor"
+        ]
+    },
+    {
+        "q": "Which of these is a natural thing?",
+        "type": "mcq",
+        "o": [
+            "Rain",
+            "Paper",
+            "Plastic",
+            "Glass"
+        ]
+    },
+    {
+        "q": "What do we call the person who delivers letters?",
+        "type": "short_answer",
+        "answers": [
+            "postman"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a place where we pray.",
+        "type": "fill_blank",
+        "answers": [
+            "temple",
+            "church",
+            "mosque",
+            "gurudwara"
+        ],
+        "other_options": [
+            "school",
+            "office",
+            "shop",
+            "garden"
+        ]
+    },
+    {
+        "q": "A river is a man-made thing.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these helps us to see?",
+        "type": "mcq",
+        "o": [
+            "Eyes",
+            "Ears",
+            "Nose",
+            "Tongue"
+        ]
+    },
+    {
+        "q": "Which of these is found in a living room?",
+        "type": "mcq",
+        "o": [
+            "Sofa",
+            "Stove",
+            "Sink",
+            "Toilet"
+        ]
+    },
+    {
+        "q": "Match the following places with what we do there:",
+        "type": "match",
+        "left": [
+            "School",
+            "Hospital",
+            "Park",
+            "Post office"
+        ],
+        "right": [
+            "Learn and study",
+            "Get treatment when sick",
+            "Play and run",
+            "Send letters"
+        ]
+    },
+    {
+        "q": "Match the following helpers with their work:",
+        "type": "match",
+        "left": [
+            "Teacher",
+            "Doctor",
+            "Policeman",
+            "Firefighter"
+        ],
+        "right": [
+            "Teaches students",
+            "Treats sick people",
+            "Catches thieves",
+            "Puts out fires"
+        ]
+    },
+    {
+        "q": "Match the following things as living or non-living:",
+        "type": "match",
+        "left": [
+            "Tree",
+            "Car",
+            "Dog",
+            "Chair"
+        ],
+        "right": [
+            "Living",
+            "Non-living",
+            "Living",
+            "Non-living"
+        ]
+    },
+    {
+        "q": "Match the following rooms with their use:",
+        "type": "match",
+        "left": [
+            "Bedroom",
+            "Kitchen",
+            "Bathroom",
+            "Living room"
+        ],
+        "right": [
+            "Sleeping",
+            "Cooking",
+            "Bathing",
+            "Watching TV with family"
+        ]
+    },
+    {
+        "q": "Match the following natural things with their source:",
+        "type": "match",
+        "left": [
+            "Sun",
+            "Moon",
+            "Stars",
+            "Clouds"
+        ],
+        "right": [
+            "Sky in day",
+            "Sky at night",
+            "Sky at night",
+            "Sky during rain"
+        ]
+    },
+    {
+        "q": "Match the following community spaces with their features:",
+        "type": "match",
+        "left": [
+            "Library",
+            "Playground",
+            "Market",
+            "Bus stop"
+        ],
+        "right": [
+            "Quiet reading",
+            "Swings and slides",
+            "Buying vegetables",
+            "Waiting for bus"
+        ]
+    },
+    {
+        "q": "Which of these is found in a school but NOT in a home?",
+        "type": "mcq",
+        "o": [
+            "Playground",
+            "Bed",
+            "Kitchen",
+            "Sofa"
+        ]
+    },
+    {
+        "q": "A mountain is a natural thing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Where do people go to borrow money?",
+        "type": "mcq",
+        "o": [
+            "Bank",
+            "Hospital",
+            "School",
+            "Park"
+        ]
+    },
+    {
+        "q": "We should not ______ plastic bags because they harm animals.",
+        "type": "fill_blank",
+        "answers": [
+            "litter",
+            "throw",
+            "leave"
+        ],
+        "other_options": [
+            "reuse",
+            "recycle",
+            "wash",
+            "fold"
+        ]
+    },
+    {
+        "q": "Which of these is a non-living thing that grows?",
+        "type": "mcq",
+        "o": [
+            "Crystal",
+            "Tree",
+            "Dog",
+            "Baby"
+        ]
+    },
+    {
+        "q": "Name one thing in your home that uses electricity.",
+        "type": "short_answer",
+        "answers": [
+            "fan",
+            "light",
+            "tv",
+            "fridge",
+            "computer",
+            "bulb"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space where we can buy fruits and vegetables.",
+        "type": "fill_blank",
+        "answers": [
+            "market"
+        ],
+        "other_options": [
+            "library",
+            "school",
+            "temple",
+            "cinema"
+        ]
+    },
+    {
+        "q": "Which of these is a living thing?",
+        "type": "mcq",
+        "o": [
+            "Mushroom",
+            "Stone",
+            "Pencil",
+            "Shoe"
+        ]
+    },
+    {
+        "q": "A police station is a community space.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call the solid, hard part of the Earth that we walk on?",
+        "type": "short_answer",
+        "answers": [
+            "land",
+            "ground",
+            "earth",
+            "soil"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the lights when we leave a room to save energy.",
+        "type": "fill_blank",
+        "answers": [
+            "turn off",
+            "switch off"
+        ],
+        "other_options": [
+            "turn on",
+            "break",
+            "cover",
+            "remove"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made source of water?",
+        "type": "mcq",
+        "o": [
+            "Tap",
+            "River",
+            "Lake",
+            "Sea"
+        ]
+    },
+    {
+        "q": "Which of these is a natural shelter for animals?",
+        "type": "mcq",
+        "o": [
+            "Cave",
+            "House",
+            "Shed",
+            "Garage"
+        ]
+    },
+    {
+        "q": "What do we call the layer of air surrounding the Earth?",
+        "type": "short_answer",
+        "answers": [
+            "atmosphere"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the door when we leave home.",
+        "type": "fill_blank",
+        "answers": [
+            "lock"
+        ],
+        "other_options": [
+            "open",
+            "break",
+            "paint",
+            "remove"
+        ]
+    },
+    {
+        "q": "A cinema hall is a community space where we watch movies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is found in a bedroom?",
+        "type": "mcq",
+        "o": [
+            "Pillow",
+            "Stove",
+            "Sink",
+            "Blackboard"
+        ]
+    },
+    {
+        "q": "Which of these is a natural thing?",
+        "type": "mcq",
+        "o": [
+            "Soil",
+            "Plastic bottle",
+            "Glass",
+            "Brick"
+        ]
+    },
+    {
+        "q": "Name one way to keep the air clean.",
+        "type": "short_answer",
+        "answers": [
+            "plant trees",
+            "reduce smoke",
+            "don't burn trash",
+            "use less car"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ has many shops where people buy different things.",
+        "type": "fill_blank",
+        "answers": [
+            "mall",
+            "market",
+            "shopping complex"
+        ],
+        "other_options": [
+            "school",
+            "temple",
+            "park",
+            "hospital"
+        ]
+    },
+    {
+        "q": "A desk is a man-made thing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these helps a plant make its food?",
+        "type": "mcq",
+        "o": [
+            "Sunlight",
+            "Moonlight",
+            "Starlight",
+            "Candlelight"
+        ]
+    },
+    {
+        "q": "Which of these is a community helper who keeps our city clean?",
+        "type": "mcq",
+        "o": [
+            "Sweeper",
+            "Doctor",
+            "Teacher",
+            "Pilot"
+        ]
+    },
+    {
+        "q": "What do we call the place where bees live?",
+        "type": "short_answer",
+        "answers": [
+            "hive",
+            "beehive"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should not ______ water.",
+        "type": "fill_blank",
+        "answers": [
+            "waste"
+        ],
+        "other_options": [
+            "drink",
+            "use",
+            "save",
+            "store"
+        ]
+    },
+    {
+        "q": "A park has many trees and benches.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-living thing that needs water?",
+        "type": "mcq",
+        "o": [
+            "Car",
+            "Dog",
+            "Tree",
+            "Bird"
+        ]
+    },
+    {
+        "q": "Where do we keep our clothes at home?",
+        "type": "mcq",
+        "o": [
+            "Wardrobe",
+            "Fridge",
+            "Oven",
+            "Sink"
+        ]
+    },
+    {
+        "q": "Which of these is a natural thing that gives us wood?",
+        "type": "mcq",
+        "o": [
+            "Tree",
+            "Plastic chair",
+            "Metal table",
+            "Glass bottle"
+        ]
+    },
+    {
+        "q": "Name one bird that you might see in your surroundings.",
+        "type": "short_answer",
+        "answers": [
+            "crow",
+            "sparrow",
+            "pigeon",
+            "parrot",
+            "eagle"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ our toys after playing.",
+        "type": "fill_blank",
+        "answers": [
+            "put away",
+            "keep back",
+            "arrange",
+            "tidy"
+        ],
+        "other_options": [
+            "throw",
+            "break",
+            "hide",
+            "forget"
+        ]
+    },
+    {
+        "q": "A factory is a natural thing.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a source of light at night in olden times?",
+        "type": "mcq",
+        "o": [
+            "Oil lamp",
+            "LED bulb",
+            "Tube light",
+            "Flashlight"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made thing?",
+        "type": "mcq",
+        "o": [
+            "Road",
+            "River",
+            "Mountain",
+            "Cloud"
+        ]
+    },
+    {
+        "q": "What do we call the person who grows crops and raises animals?",
+        "type": "short_answer",
+        "answers": [
+            "farmer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a place where sick animals are treated.",
+        "type": "fill_blank",
+        "answers": [
+            "vet clinic",
+            "animal hospital",
+            "veterinary hospital"
+        ],
+        "other_options": [
+            "zoo",
+            "forest",
+            "aquarium",
+            "pet shop"
+        ]
+    },
+    {
+        "q": "A swimming pool is a community space.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a living thing that cannot walk?",
+        "type": "mcq",
+        "o": [
+            "Tree",
+            "Dog",
+            "Cat",
+            "Cow"
+        ]
+    },
+    {
+        "q": "Where does a baker work?",
+        "type": "mcq",
+        "o": [
+            "Bakery",
+            "Hospital",
+            "School",
+            "Bank"
+        ]
+    },
+    {
+        "q": "Which of these is a natural thing found on the ground?",
+        "type": "mcq",
+        "o": [
+            "Grass",
+            "Carpet",
+            "Tile",
+            "Concrete"
+        ]
+    },
+    {
+        "q": "Name one thing we can recycle.",
+        "type": "short_answer",
+        "answers": [
+            "paper",
+            "plastic bottle",
+            "glass bottle",
+            "metal can"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ our nails regularly.",
+        "type": "fill_blank",
+        "answers": [
+            "cut",
+            "trim"
+        ],
+        "other_options": [
+            "paint",
+            "bite",
+            "hide",
+            "burn"
+        ]
+    },
+    {
+        "q": "An aquarium has only man-made things.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is used to keep food cold?",
+        "type": "mcq",
+        "o": [
+            "Refrigerator",
+            "Oven",
+            "Microwave",
+            "Toaster"
+        ]
+    },
+    {
+        "q": "Which of these is a community space for sports?",
+        "type": "mcq",
+        "o": [
+            "Stadium",
+            "Library",
+            "Museum",
+            "Church"
+        ]
+    },
+    {
+        "q": "What do we call the natural home of a fish?",
+        "type": "short_answer",
+        "answers": [
+            "water",
+            "river",
+            "lake",
+            "sea",
+            "ocean",
+            "pond"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should not ______ loud noises near a hospital.",
+        "type": "fill_blank",
+        "answers": [
+            "make",
+            "create",
+            "produce"
+        ],
+        "other_options": [
+            "hear",
+            "like",
+            "record",
+            "ignore"
+        ]
+    },
+    {
+        "q": "A forest has many trees and wild animals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a natural thing that gives us medicine?",
+        "type": "mcq",
+        "o": [
+            "Plant",
+            "Plastic bag",
+            "Glass bottle",
+            "Metal box"
+        ]
+    },
+    {
+        "q": "Which of these is found in a classroom?",
+        "type": "mcq",
+        "o": [
+            "Duster",
+            "Bed",
+            "Sofa",
+            "Stove"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made thing that flies?",
+        "type": "mcq",
+        "o": [
+            "Airplane",
+            "Bird",
+            "Bat",
+            "Butterfly"
+        ]
+    },
+    {
+        "q": "Name one insect you see around flowers.",
+        "type": "short_answer",
+        "answers": [
+            "butterfly",
+            "bee",
+            "ant",
+            "ladybug",
+            "grasshopper"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the fan when we feel cold.",
+        "type": "fill_blank",
+        "answers": [
+            "turn off",
+            "switch off",
+            "stop"
+        ],
+        "other_options": [
+            "turn on",
+            "speed up",
+            "break",
+            "cover"
+        ]
+    },
+    {
+        "q": "A museum displays only natural things.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a natural thing that changes shape slowly?",
+        "type": "mcq",
+        "o": [
+            "Rock",
+            "Plastic cup",
+            "Metal spoon",
+            "Glass bottle"
+        ]
+    },
+    {
+        "q": "Where does a chef work?",
+        "type": "mcq",
+        "o": [
+            "Restaurant",
+            "School",
+            "Bank",
+            "Post office"
+        ]
+    },
+    {
+        "q": "Which of these is a living thing that lives in soil?",
+        "type": "mcq",
+        "o": [
+            "Earthworm",
+            "Stone",
+            "Pebble",
+            "Sand"
+        ]
+    },
+    {
+        "q": "What do we call the natural satellite of the Earth?",
+        "type": "short_answer",
+        "answers": [
+            "moon"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ our school uniform neatly.",
+        "type": "fill_blank",
+        "answers": [
+            "wear"
+        ],
+        "other_options": [
+            "tear",
+            "paint",
+            "cut",
+            "hide"
+        ]
+    },
+    {
+        "q": "A zoo has only man-made things.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a community space for learning about history?",
+        "type": "mcq",
+        "o": [
+            "Museum",
+            "Cinema",
+            "Restaurant",
+            "Mall"
+        ]
+    },
+    {
+        "q": "Which of these is a natural thing that gives us water?",
+        "type": "mcq",
+        "o": [
+            "River",
+            "Tap",
+            "Tube well",
+            "Water tank"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made thing that stores water?",
+        "type": "mcq",
+        "o": [
+            "Bucket",
+            "River",
+            "Lake",
+            "Sea"
+        ]
+    },
+    {
+        "q": "Name one thing we do at school besides studying.",
+        "type": "short_answer",
+        "answers": [
+            "play",
+            "eat lunch",
+            "draw",
+            "sing",
+            "dance",
+            "sports"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the window to let fresh air in.",
+        "type": "fill_blank",
+        "answers": [
+            "open"
+        ],
+        "other_options": [
+            "close",
+            "break",
+            "paint",
+            "cover"
+        ]
+    },
+    {
+        "q": "A desert is a place with very little water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a living thing that grows in water?",
+        "type": "mcq",
+        "o": [
+            "Lotus",
+            "Stone",
+            "Plastic toy",
+            "Glass marble"
+        ]
+    },
+    {
+        "q": "Where does a tailor work?",
+        "type": "mcq",
+        "o": [
+            "Sewing shop",
+            "Hospital",
+            "School",
+            "Bank"
+        ]
+    },
+    {
+        "q": "Which of these is a natural thing that produces sound?",
+        "type": "mcq",
+        "o": [
+            "Thunder",
+            "Car horn",
+            "Bell",
+            "Drum"
+        ]
+    },
+    {
+        "q": "What do we call the person who drives a bus?",
+        "type": "short_answer",
+        "answers": [
+            "driver",
+            "bus driver"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should not ______ plants.",
+        "type": "fill_blank",
+        "answers": [
+            "uproot",
+            "pull out",
+            "destroy"
+        ],
+        "other_options": [
+            "water",
+            "plant",
+            "love",
+            "save"
+        ]
+    },
+    {
+        "q": "A bridge is a natural thing.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a community space for worship?",
+        "type": "mcq",
+        "o": [
+            "Church",
+            "Mall",
+            "Cinema",
+            "Restaurant"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made thing that helps us travel on water?",
+        "type": "mcq",
+        "o": [
+            "Boat",
+            "Fish",
+            "Whale",
+            "Crocodile"
+        ]
+    },
+    {
+        "q": "Which of these is a natural thing that gives us wool?",
+        "type": "mcq",
+        "o": [
+            "Sheep",
+            "Cotton plant",
+            "Silkworm",
+            "Plastic"
+        ]
+    },
+    {
+        "q": "Name one thing we should not do in a library.",
+        "type": "short_answer",
+        "answers": [
+            "talk loudly",
+            "shout",
+            "run",
+            "eat",
+            "make noise"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ our elders.",
+        "type": "fill_blank",
+        "answers": [
+            "respect",
+            "obey",
+            "listen to"
+        ],
+        "other_options": [
+            "ignore",
+            "shout at",
+            "push",
+            "laugh at"
+        ]
+    },
+    {
+        "q": "A volcano is a man-made thing.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is used to wash utensils?",
+        "type": "mcq",
+        "o": [
+            "Scrubber",
+            "Pen",
+            "Book",
+            "Bag"
+        ]
+    },
+    {
+        "q": "Which of these is a community space for public speaking?",
+        "type": "mcq",
+        "o": [
+            "Town hall",
+            "Park",
+            "Library",
+            "Gym"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made thing that gives us light?",
+        "type": "mcq",
+        "o": [
+            "Bulb",
+            "Firefly",
+            "Sun",
+            "Star"
+        ]
+    },
+    {
+        "q": "What do we call the solid white flakes that fall from clouds in winter?",
+        "type": "short_answer",
+        "answers": [
+            "snow"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the water while brushing teeth.",
+        "type": "fill_blank",
+        "answers": [
+            "not waste",
+            "turn off",
+            "save"
+        ],
+        "other_options": [
+            "leave running",
+            "drink",
+            "boil",
+            "freeze"
+        ]
+    },
+    {
+        "q": "A clock is a natural thing.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a living thing that can fly?",
+        "type": "mcq",
+        "o": [
+            "Parrot",
+            "Car",
+            "Train",
+            "Bus"
+        ]
+    },
+    {
+        "q": "Where does a cobbler work?",
+        "type": "mcq",
+        "o": [
+            "Shoe shop",
+            "Hospital",
+            "School",
+            "Bank"
+        ]
+    },
+    {
+        "q": "Which of these is a natural thing that changes with seasons?",
+        "type": "mcq",
+        "o": [
+            "Tree",
+            "Rock",
+            "Mountain",
+            "Plastic chair"
+        ]
+    },
+    {
+        "q": "Name one natural disaster.",
+        "type": "short_answer",
+        "answers": [
+            "earthquake",
+            "flood",
+            "cyclone",
+            "tsunami",
+            "volcano"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ our food before eating.",
+        "type": "fill_blank",
+        "answers": [
+            "wash",
+            "clean"
+        ],
+        "other_options": [
+            "throw",
+            "hide",
+            "burn",
+            "freeze"
+        ]
+    },
+    {
+        "q": "A garden has only natural things.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a man-made thing that keeps us warm?",
+        "type": "mcq",
+        "o": [
+            "Heater",
+            "Sun",
+            "Fire",
+            "Wool from sheep"
+        ]
+    },
+    {
+        "q": "Which of these is a community space for swimming?",
+        "type": "mcq",
+        "o": [
+            "Pool",
+            "Library",
+            "Museum",
+            "Cinema"
+        ]
+    },
+    {
+        "q": "Which of these is a natural thing that gives us honey?",
+        "type": "mcq",
+        "o": [
+            "Bee",
+            "Ant",
+            "Spider",
+            "Fly"
+        ]
+    },
+    {
+        "q": "What do we call the space where two or more roads meet?",
+        "type": "short_answer",
+        "answers": [
+            "crossing",
+            "intersection",
+            "junction"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should not ______ on the grass in a park.",
+        "type": "fill_blank",
+        "answers": [
+            "walk",
+            "run",
+            "step"
+        ],
+        "other_options": [
+            "sit",
+            "lie",
+            "play",
+            "roll"
+        ]
+    },
+    {
+        "q": "Match the following natural things with their colors:",
+        "type": "match",
+        "left": [
+            "Sky",
+            "Grass",
+            "Sun",
+            "Cloud"
+        ],
+        "right": [
+            "Blue",
+            "Green",
+            "Yellow",
+            "White"
+        ]
+    },
+    {
+        "q": "Match the following man-made things with their uses:",
+        "type": "match",
+        "left": [
+            "Clock",
+            "Comb",
+            "Spoon",
+            "Umbrella"
+        ],
+        "right": [
+            "Shows time",
+            "Combs hair",
+            "Eats food",
+            "Protects from rain"
+        ]
+    },
+    {
+        "q": "Match the following community spaces with the helper there:",
+        "type": "match",
+        "left": [
+            "School",
+            "Hospital",
+            "Bank",
+            "Post office"
+        ],
+        "right": [
+            "Teacher",
+            "Doctor",
+            "Clerk",
+            "Postman"
+        ]
+    },
+    {
+        "q": "Match the following animals with their homes:",
+        "type": "match",
+        "left": [
+            "Bird",
+            "Dog",
+            "Cow",
+            "Bee"
+        ],
+        "right": [
+            "Nest",
+            "Kennel",
+            "Shed",
+            "Hive"
+        ]
+    },
+    {
+        "q": "Match the following activities with the correct room at home:",
+        "type": "match",
+        "left": [
+            "Sleeping",
+            "Cooking",
+            "Studying",
+            "Bathing"
+        ],
+        "right": [
+            "Bedroom",
+            "Kitchen",
+            "Study room",
+            "Bathroom"
+        ]
+    },
+    {
+        "q": "Match the following plants with what they give us:",
+        "type": "match",
+        "left": [
+            "Mango tree",
+            "Cotton plant",
+            "Tea plant",
+            "Bamboo tree"
+        ],
+        "right": [
+            "Fruit",
+            "Cloth",
+            "Drink",
+            "Furniture"
+        ]
+    },
+    {
+        "q": "Which of these is a renewable natural resource?",
+        "type": "mcq",
+        "o": [
+            "Sunlight",
+            "Coal",
+            "Petroleum",
+            "Natural gas"
+        ]
+    },
+    {
+        "q": "A habitat is the natural home of a living thing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call the process of planting more trees in a deforested area?",
+        "type": "short_answer",
+        "answers": [
+            "reforestation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ garbage into biodegradable and non-biodegradable bins.",
+        "type": "fill_blank",
+        "answers": [
+            "separate",
+            "sort"
+        ],
+        "other_options": [
+            "mix",
+            "burn",
+            "bury",
+            "hide"
+        ]
+    },
+    {
+        "q": "Which of these is a non-renewable resource?",
+        "type": "mcq",
+        "o": [
+            "Coal",
+            "Wind",
+            "Water",
+            "Sunlight"
+        ]
+    },
+    {
+        "q": "Which of these is an example of a man-made ecosystem?",
+        "type": "mcq",
+        "o": [
+            "Garden",
+            "Forest",
+            "River",
+            "Ocean"
+        ]
+    },
+    {
+        "q": "Name one gas that plants absorb from the air.",
+        "type": "short_answer",
+        "answers": [
+            "carbon dioxide",
+            "co2"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a place where water covers most of the land.",
+        "type": "fill_blank",
+        "answers": [
+            "swamp",
+            "marsh",
+            "wetland"
+        ],
+        "other_options": [
+            "desert",
+            "mountain",
+            "forest",
+            "grassland"
+        ]
+    },
+    {
+        "q": "Plastic takes hundreds of years to decompose.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a biodegradable waste?",
+        "type": "mcq",
+        "o": [
+            "Banana peel",
+            "Plastic bottle",
+            "Glass jar",
+            "Metal can"
+        ]
+    },
+    {
+        "q": "Which of these helps reduce air pollution?",
+        "type": "mcq",
+        "o": [
+            "Planting trees",
+            "Burning trash",
+            "Driving old cars",
+            "Using plastic bags"
+        ]
+    },
+    {
+        "q": "What do we call the top layer of the Earth where plants grow?",
+        "type": "short_answer",
+        "answers": [
+            "soil",
+            "topsoil"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the 3 Rs: Reduce, Reuse, Recycle.",
+        "type": "fill_blank",
+        "answers": [
+            "follow",
+            "practice"
+        ],
+        "other_options": [
+            "ignore",
+            "forget",
+            "break",
+            "waste"
+        ]
+    },
+    {
+        "q": "A desert receives very little rainfall.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a natural resource that we drink?",
+        "type": "mcq",
+        "o": [
+            "Water",
+            "Air",
+            "Soil",
+            "Sunlight"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made material?",
+        "type": "mcq",
+        "o": [
+            "Plastic",
+            "Wood",
+            "Cotton",
+            "Wool"
+        ]
+    },
+    {
+        "q": "Name one animal that hibernates during winter.",
+        "type": "short_answer",
+        "answers": [
+            "bear",
+            "snake",
+            "frog",
+            "turtle",
+            "hedgehog"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space where art is displayed.",
+        "type": "fill_blank",
+        "answers": [
+            "art gallery",
+            "museum"
+        ],
+        "other_options": [
+            "market",
+            "cinema",
+            "park",
+            "restaurant"
+        ]
+    },
+    {
+        "q": "Trees produce oxygen during the day.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a cause of water pollution?",
+        "type": "mcq",
+        "o": [
+            "Factory waste",
+            "Planting trees",
+            "Rain",
+            "Sunlight"
+        ]
+    },
+    {
+        "q": "Which of these is a living part of an ecosystem?",
+        "type": "mcq",
+        "o": [
+            "Tree",
+            "Rock",
+            "Water",
+            "Air"
+        ]
+    },
+    {
+        "q": "What do we call animals that are active at night?",
+        "type": "short_answer",
+        "answers": [
+            "nocturnal animals"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should not ______ plastic because it releases harmful gases.",
+        "type": "fill_blank",
+        "answers": [
+            "burn"
+        ],
+        "other_options": [
+            "recycle",
+            "wash",
+            "store",
+            "fold"
+        ]
+    },
+    {
+        "q": "A lake is always man-made.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a greenhouse gas?",
+        "type": "mcq",
+        "o": [
+            "Carbon dioxide",
+            "Oxygen",
+            "Nitrogen",
+            "Hydrogen"
+        ]
+    },
+    {
+        "q": "Which of these is a natural way to keep our surroundings cool?",
+        "type": "mcq",
+        "o": [
+            "Trees",
+            "Air conditioner",
+            "Cooler",
+            "Fan"
+        ]
+    },
+    {
+        "q": "Name one material that can be recycled many times.",
+        "type": "short_answer",
+        "answers": [
+            "glass",
+            "aluminum",
+            "metal"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a place where scientists study stars and planets.",
+        "type": "fill_blank",
+        "answers": [
+            "observatory",
+            "planetarium"
+        ],
+        "other_options": [
+            "laboratory",
+            "school",
+            "library",
+            "hospital"
+        ]
+    },
+    {
+        "q": "Only humans cause pollution.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a natural fiber?",
+        "type": "mcq",
+        "o": [
+            "Cotton",
+            "Nylon",
+            "Polyester",
+            "Rayon"
+        ]
+    },
+    {
+        "q": "Which of these helps prevent soil erosion?",
+        "type": "mcq",
+        "o": [
+            "Planting grass",
+            "Removing trees",
+            "Plowing too much",
+            "Burning forests"
+        ]
+    },
+    {
+        "q": "What do we call the layer of water found under the ground?",
+        "type": "short_answer",
+        "answers": [
+            "groundwater"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ carpooling to reduce air pollution.",
+        "type": "fill_blank",
+        "answers": [
+            "use",
+            "practice",
+            "encourage"
+        ],
+        "other_options": [
+            "avoid",
+            "ignore",
+            "stop",
+            "hate"
+        ]
+    },
+    {
+        "q": "A zoo helps protect endangered animals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a natural disaster caused by heavy rain?",
+        "type": "mcq",
+        "o": [
+            "Flood",
+            "Earthquake",
+            "Volcano",
+            "Tsunami"
+        ]
+    },
+    {
+        "q": "Which of these is a community space for scientific experiments?",
+        "type": "mcq",
+        "o": [
+            "Laboratory",
+            "Library",
+            "Auditorium",
+            "Cafeteria"
+        ]
+    },
+    {
+        "q": "Name one fossil fuel.",
+        "type": "short_answer",
+        "answers": [
+            "coal",
+            "petroleum",
+            "oil",
+            "natural gas"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a low area of land between hills or mountains.",
+        "type": "fill_blank",
+        "answers": [
+            "valley"
+        ],
+        "other_options": [
+            "plateau",
+            "plain",
+            "desert",
+            "forest"
+        ]
+    },
+    {
+        "q": "Composting turns kitchen waste into fertilizer.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a natural source of energy?",
+        "type": "mcq",
+        "o": [
+            "Sun",
+            "Battery",
+            "Generator",
+            "Dynamo"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made structure that holds water?",
+        "type": "mcq",
+        "o": [
+            "Dam",
+            "Lake",
+            "Pond",
+            "Ocean"
+        ]
+    },
+    {
+        "q": "What do we call the process of Earth getting warmer?",
+        "type": "short_answer",
+        "answers": [
+            "global warming"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the chimney smoke to reduce air pollution.",
+        "type": "fill_blank",
+        "answers": [
+            "filter",
+            "clean",
+            "control"
+        ],
+        "other_options": [
+            "increase",
+            "ignore",
+            "enjoy",
+            "watch"
+        ]
+    },
+    {
+        "q": "A river flows from high land to low land.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-biodegradable waste?",
+        "type": "mcq",
+        "o": [
+            "Plastic bag",
+            "Apple core",
+            "Paper",
+            "Wood"
+        ]
+    },
+    {
+        "q": "Which of these is a natural habitat for polar bears?",
+        "type": "mcq",
+        "o": [
+            "Arctic",
+            "Desert",
+            "Forest",
+            "Grassland"
+        ]
+    },
+    {
+        "q": "Name one thing that contributes to noise pollution.",
+        "type": "short_answer",
+        "answers": [
+            "honking",
+            "loudspeaker",
+            "firecracker",
+            "drilling",
+            "airplane"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space for skating or cycling.",
+        "type": "fill_blank",
+        "answers": [
+            "skate park",
+            "velodrome",
+            "cycle track"
+        ],
+        "other_options": [
+            "library",
+            "museum",
+            "cinema",
+            "temple"
+        ]
+    },
+    {
+        "q": "Only cars cause air pollution.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a natural way to get water without a tap?",
+        "type": "mcq",
+        "o": [
+            "Well",
+            "Bottle",
+            "Bucket",
+            "Pipe"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made source of light at night?",
+        "type": "mcq",
+        "o": [
+            "Street light",
+            "Moon",
+            "Stars",
+            "Firefly"
+        ]
+    },
+    {
+        "q": "What do we call animals that eat only plants?",
+        "type": "short_answer",
+        "answers": [
+            "herbivores",
+            "herbivorous"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ old clothes to someone who needs them.",
+        "type": "fill_blank",
+        "answers": [
+            "donate",
+            "give"
+        ],
+        "other_options": [
+            "throw",
+            "burn",
+            "hide",
+            "forget"
+        ]
+    },
+    {
+        "q": "A waterfall is a man-made feature.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a natural resource used to make paper?",
+        "type": "mcq",
+        "o": [
+            "Trees",
+            "Plastic",
+            "Metal",
+            "Glass"
+        ]
+    },
+    {
+        "q": "Which of these is a community space where people exercise?",
+        "type": "mcq",
+        "o": [
+            "Gym",
+            "Cinema",
+            "Mall",
+            "Restaurant"
+        ]
+    },
+    {
+        "q": "Name one animal that lives in a desert.",
+        "type": "short_answer",
+        "answers": [
+            "camel",
+            "lizard",
+            "snake",
+            "scorpion",
+            "fox"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the tap if it is leaking.",
+        "type": "fill_blank",
+        "answers": [
+            "repair",
+            "fix",
+            "close tightly"
+        ],
+        "other_options": [
+            "ignore",
+            "cover",
+            "paint",
+            "break"
+        ]
+    },
+    {
+        "q": "Compost is made from plastic waste.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a renewable source of energy?",
+        "type": "mcq",
+        "o": [
+            "Wind",
+            "Coal",
+            "Natural gas",
+            "Petrol"
+        ]
+    },
+    {
+        "q": "Which of these is a natural resource we breathe?",
+        "type": "mcq",
+        "o": [
+            "Air",
+            "Soil",
+            "Water",
+            "Minerals"
+        ]
+    },
+    {
+        "q": "What do we call the process of cutting down many trees?",
+        "type": "short_answer",
+        "answers": [
+            "deforestation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the air conditioner temperature to save energy.",
+        "type": "fill_blank",
+        "answers": [
+            "increase",
+            "set higher",
+            "reduce use"
+        ],
+        "other_options": [
+            "decrease",
+            "ignore",
+            "break",
+            "cover"
+        ]
+    },
+    {
+        "q": "A pond is larger than an ocean.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a natural habitat for fish?",
+        "type": "mcq",
+        "o": [
+            "Aquarium",
+            "Bowl",
+            "Tank",
+            "Bucket"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made object that uses solar energy?",
+        "type": "mcq",
+        "o": [
+            "Solar panel",
+            "Battery",
+            "Generator",
+            "Motor"
+        ]
+    },
+    {
+        "q": "Name one thing that causes land pollution.",
+        "type": "short_answer",
+        "answers": [
+            "plastic",
+            "chemicals",
+            "pesticides",
+            "garbage",
+            "e-waste"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a very dry place with little rain.",
+        "type": "fill_blank",
+        "answers": [
+            "desert"
+        ],
+        "other_options": [
+            "forest",
+            "wetland",
+            "grassland",
+            "tundra"
+        ]
+    },
+    {
+        "q": "Trees absorb carbon dioxide and release oxygen.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a natural resource used to build houses?",
+        "type": "mcq",
+        "o": [
+            "Wood",
+            "Plastic",
+            "Glass",
+            "Steel"
+        ]
+    },
+    {
+        "q": "Which of these is a community space for emergency services?",
+        "type": "mcq",
+        "o": [
+            "Fire station",
+            "Mall",
+            "Cinema",
+            "Restaurant"
+        ]
+    },
+    {
+        "q": "What do we call animals that eat only meat?",
+        "type": "short_answer",
+        "answers": [
+            "carnivores",
+            "carnivorous"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the volume of the TV to avoid noise pollution.",
+        "type": "fill_blank",
+        "answers": [
+            "lower",
+            "reduce",
+            "turn down"
+        ],
+        "other_options": [
+            "increase",
+            "maximize",
+            "ignore",
+            "break"
+        ]
+    },
+    {
+        "q": "An ecosystem includes both living and non-living things.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a natural disaster caused by shaking of the ground?",
+        "type": "mcq",
+        "o": [
+            "Earthquake",
+            "Flood",
+            "Cyclone",
+            "Drought"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made material that comes from wood?",
+        "type": "mcq",
+        "o": [
+            "Paper",
+            "Plastic",
+            "Metal",
+            "Glass"
+        ]
+    },
+    {
+        "q": "Name one way to save water at home.",
+        "type": "short_answer",
+        "answers": [
+            "close tap while brushing",
+            "use bucket not hose",
+            "fix leaks",
+            "rainwater harvesting"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space for indoor games like chess.",
+        "type": "fill_blank",
+        "answers": [
+            "club",
+            "community center",
+            "game room"
+        ],
+        "other_options": [
+            "park",
+            "stadium",
+            "museum",
+            "library"
+        ]
+    },
+    {
+        "q": "A tsunami is a large ocean wave caused by an earthquake.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a natural habitat for a camel?",
+        "type": "mcq",
+        "o": [
+            "Desert",
+            "Forest",
+            "Ocean",
+            "River"
+        ]
+    },
+    {
+        "q": "Which of these is a non-living natural thing?",
+        "type": "mcq",
+        "o": [
+            "Rock",
+            "Tree",
+            "Bird",
+            "Fish"
+        ]
+    },
+    {
+        "q": "What do we call animals that eat both plants and meat?",
+        "type": "short_answer",
+        "answers": [
+            "omnivores",
+            "omnivorous"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the switch when not using an appliance.",
+        "type": "fill_blank",
+        "answers": [
+            "turn off",
+            "switch off"
+        ],
+        "other_options": [
+            "turn on",
+            "break",
+            "hide",
+            "cover"
+        ]
+    },
+    {
+        "q": "Match the following natural resources with their uses:",
+        "type": "match",
+        "left": [
+            "Water",
+            "Sun",
+            "Trees",
+            "Soil"
+        ],
+        "right": [
+            "Drinking",
+            "Light",
+            "Oxygen",
+            "Growing plants"
+        ]
+    },
+    {
+        "q": "Match the following types of waste with their examples:",
+        "type": "match",
+        "left": [
+            "Biodegradable",
+            "Non-biodegradable",
+            "Recyclable",
+            "Hazardous"
+        ],
+        "right": [
+            "Fruit peel",
+            "Plastic bag",
+            "Glass bottle",
+            "Battery"
+        ]
+    },
+    {
+        "q": "Match the following community spaces with their purpose:",
+        "type": "match",
+        "left": [
+            "Village panchayat",
+            "Courthouse",
+            "Fire station",
+            "Police station"
+        ],
+        "right": [
+            "Local governance",
+            "Justice and law",
+            "Put out fires",
+            "Maintain order"
+        ]
+    },
+    {
+        "q": "Match the following animals with their habitats:",
+        "type": "match",
+        "left": [
+            "Penguin",
+            "Camel",
+            "Elephant",
+            "Whale"
+        ],
+        "right": [
+            "Ice and snow",
+            "Desert",
+            "Forest",
+            "Ocean"
+        ]
+    },
+    {
+        "q": "Match the following pollutants with their type:",
+        "type": "match",
+        "left": [
+            "Smoke from cars",
+            "Loud music",
+            "Plastic in soil",
+            "Fertilizer in river"
+        ],
+        "right": [
+            "Air pollution",
+            "Noise pollution",
+            "Land pollution",
+            "Water pollution"
+        ]
+    },
+    {
+        "q": "Match the following natural phenomena with their descriptions:",
+        "type": "match",
+        "left": [
+            "Cyclone",
+            "Drought",
+            "Landslide",
+            "Avalanche"
+        ],
+        "right": [
+            "Strong wind storm",
+            "No rain for long time",
+            "Mud slides down hill",
+            "Snow slides down mountain"
+        ]
+    },
+    {
+        "q": "Which of these is a primary consumer in a food chain?",
+        "type": "mcq",
+        "o": [
+            "Rabbit",
+            "Grass",
+            "Lion",
+            "Eagle"
+        ]
+    },
+    {
+        "q": "The process by which water changes from liquid to vapor is called evaporation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call the solid form of water that falls from clouds?",
+        "type": "short_answer",
+        "answers": [
+            "snow",
+            "hail",
+            "hailstone"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a large natural stream of water that flows into a sea or ocean.",
+        "type": "fill_blank",
+        "answers": [
+            "river"
+        ],
+        "other_options": [
+            "lake",
+            "pond",
+            "canal",
+            "well"
+        ]
+    },
+    {
+        "q": "Which of these is a fossil fuel formed from dead sea creatures?",
+        "type": "mcq",
+        "o": [
+            "Petroleum",
+            "Coal",
+            "Peat",
+            "Charcoal"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made change to the environment?",
+        "type": "mcq",
+        "o": [
+            "Building a dam",
+            "Volcanic eruption",
+            "Flood",
+            "Earthquake"
+        ]
+    },
+    {
+        "q": "Name one greenhouse gas other than carbon dioxide.",
+        "type": "short_answer",
+        "answers": [
+            "methane",
+            "nitrous oxide",
+            "water vapor"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the use of single-use plastic.",
+        "type": "fill_blank",
+        "answers": [
+            "reduce",
+            "avoid",
+            "stop"
+        ],
+        "other_options": [
+            "increase",
+            "promote",
+            "ignore",
+            "like"
+        ]
+    },
+    {
+        "q": "Ozone layer protects us from harmful ultraviolet rays.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a biodegradable material that decomposes fastest?",
+        "type": "mcq",
+        "o": [
+            "Vegetable peel",
+            "Paper",
+            "Wood",
+            "Cotton cloth"
+        ]
+    },
+    {
+        "q": "Which of these is a natural phenomenon that causes soil enrichment?",
+        "type": "mcq",
+        "o": [
+            "Volcanic eruption",
+            "Deforestation",
+            "Flooding",
+            "Desertification"
+        ]
+    },
+    {
+        "q": "What do we call the process of rainwater seeping into the ground?",
+        "type": "short_answer",
+        "answers": [
+            "infiltration",
+            "percolation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space where scientific research is conducted.",
+        "type": "fill_blank",
+        "answers": [
+            "research center",
+            "laboratory",
+            "institute"
+        ],
+        "other_options": [
+            "school",
+            "college",
+            "library",
+            "museum"
+        ]
+    },
+    {
+        "q": "Chlorofluorocarbons (CFCs) harm the ozone layer.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a renewable source of energy that uses moving water?",
+        "type": "mcq",
+        "o": [
+            "Hydroelectric power",
+            "Solar power",
+            "Wind power",
+            "Geothermal power"
+        ]
+    },
+    {
+        "q": "Which of these is a natural indicator of air pollution?",
+        "type": "mcq",
+        "o": [
+            "Lichens",
+            "Butterflies",
+            "Sparrows",
+            "Ants"
+        ]
+    },
+    {
+        "q": "Name one element that is a major component of clean air.",
+        "type": "short_answer",
+        "answers": [
+            "nitrogen",
+            "oxygen"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the use of bicycles to reduce carbon emissions.",
+        "type": "fill_blank",
+        "answers": [
+            "encourage",
+            "promote"
+        ],
+        "other_options": [
+            "discourage",
+            "ban",
+            "ignore",
+            "hide"
+        ]
+    },
+    {
+        "q": "Acid rain is caused by air pollution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-renewable energy source?",
+        "type": "mcq",
+        "o": [
+            "Natural gas",
+            "Solar energy",
+            "Wind energy",
+            "Tidal energy"
+        ]
+    },
+    {
+        "q": "Which of these is a natural way to control pests in farming?",
+        "type": "mcq",
+        "o": [
+            "Using ladybugs",
+            "Using pesticides",
+            "Using chemicals",
+            "Using sprays"
+        ]
+    },
+    {
+        "q": "What do we call the gradual increase in Earth's average temperature?",
+        "type": "short_answer",
+        "answers": [
+            "global warming"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space where food is grown for the community.",
+        "type": "fill_blank",
+        "answers": [
+            "community garden",
+            "urban farm"
+        ],
+        "other_options": [
+            "market",
+            "mall",
+            "restaurant",
+            "cinema"
+        ]
+    },
+    {
+        "q": "Burning fossil fuels increases carbon dioxide in the atmosphere.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a renewable resource that comes from the Earth's heat?",
+        "type": "mcq",
+        "o": [
+            "Geothermal energy",
+            "Solar energy",
+            "Wind energy",
+            "Hydropower"
+        ]
+    },
+    {
+        "q": "Which of these is a natural habitat for mangrove trees?",
+        "type": "mcq",
+        "o": [
+            "Coastal wetlands",
+            "Deserts",
+            "Mountains",
+            "Grasslands"
+        ]
+    },
+    {
+        "q": "Name one gas released by rotting garbage without air.",
+        "type": "short_answer",
+        "answers": [
+            "methane"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the use of chemical fertilizers to protect soil.",
+        "type": "fill_blank",
+        "answers": [
+            "reduce",
+            "limit"
+        ],
+        "other_options": [
+            "increase",
+            "promote",
+            "ignore",
+            "like"
+        ]
+    },
+    {
+        "q": "Water vapor is a greenhouse gas.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a natural resource used to generate nuclear energy?",
+        "type": "mcq",
+        "o": [
+            "Uranium",
+            "Coal",
+            "Petroleum",
+            "Wood"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made disaster?",
+        "type": "mcq",
+        "o": [
+            "Oil spill",
+            "Earthquake",
+            "Volcano",
+            "Tsunami"
+        ]
+    },
+    {
+        "q": "What do we call the process of turning waste into new products?",
+        "type": "short_answer",
+        "answers": [
+            "recycling"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space where books are preserved for a long time.",
+        "type": "fill_blank",
+        "answers": [
+            "archive"
+        ],
+        "other_options": [
+            "library",
+            "school",
+            "bookstore",
+            "museum"
+        ]
+    },
+    {
+        "q": "Wind energy does not produce air pollution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a natural way to enrich soil?",
+        "type": "mcq",
+        "o": [
+            "Compost",
+            "Chemical fertilizer",
+            "Pesticide",
+            "Herbicide"
+        ]
+    },
+    {
+        "q": "Which of these is a renewable resource that comes from living things?",
+        "type": "mcq",
+        "o": [
+            "Biomass",
+            "Coal",
+            "Natural gas",
+            "Petroleum"
+        ]
+    },
+    {
+        "q": "Name one type of renewable energy that uses the sun.",
+        "type": "short_answer",
+        "answers": [
+            "solar energy",
+            "solar power"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ trees to prevent soil erosion.",
+        "type": "fill_blank",
+        "answers": [
+            "plant"
+        ],
+        "other_options": [
+            "cut",
+            "burn",
+            "uproot",
+            "ignore"
+        ]
+    },
+    {
+        "q": "Eutrophication is caused by excess nutrients in water bodies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a natural source of methane?",
+        "type": "mcq",
+        "o": [
+            "Wetlands",
+            "Deserts",
+            "Mountains",
+            "Oceans"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made structure that prevents flooding?",
+        "type": "mcq",
+        "o": [
+            "Levee",
+            "Dam",
+            "Bridge",
+            "Road"
+        ]
+    },
+    {
+        "q": "What do we call the variety of plant and animal life in a habitat?",
+        "type": "short_answer",
+        "answers": [
+            "biodiversity"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space for environmental education.",
+        "type": "fill_blank",
+        "answers": [
+            "nature center",
+            "eco-park"
+        ],
+        "other_options": [
+            "cinema",
+            "mall",
+            "restaurant",
+            "hotel"
+        ]
+    },
+    {
+        "q": "Solar panels convert sunlight directly into electricity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a greenhouse gas released by livestock?",
+        "type": "mcq",
+        "o": [
+            "Methane",
+            "Oxygen",
+            "Nitrogen",
+            "Helium"
+        ]
+    },
+    {
+        "q": "Which of these is a natural carbon sink?",
+        "type": "mcq",
+        "o": [
+            "Forest",
+            "Factory",
+            "Car",
+            "Power plant"
+        ]
+    },
+    {
+        "q": "Name one alternative fuel that is renewable.",
+        "type": "short_answer",
+        "answers": [
+            "biodiesel",
+            "ethanol",
+            "hydrogen"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the release of industrial smoke into the air.",
+        "type": "fill_blank",
+        "answers": [
+            "control",
+            "reduce",
+            "filter"
+        ],
+        "other_options": [
+            "increase",
+            "ignore",
+            "promote",
+            "like"
+        ]
+    },
+    {
+        "q": "Algae blooms in water are often caused by fertilizer runoff.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-renewable resource used in batteries?",
+        "type": "mcq",
+        "o": [
+            "Lithium",
+            "Water",
+            "Wind",
+            "Sunlight"
+        ]
+    },
+    {
+        "q": "Which of these is a natural disaster that causes a huge ocean wave?",
+        "type": "mcq",
+        "o": [
+            "Tsunami",
+            "Tornado",
+            "Cyclone",
+            "Blizzard"
+        ]
+    },
+    {
+        "q": "What do we call the process of collecting and using rainwater?",
+        "type": "short_answer",
+        "answers": [
+            "rainwater harvesting"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space where electronic waste is collected safely.",
+        "type": "fill_blank",
+        "answers": [
+            "e-waste collection center"
+        ],
+        "other_options": [
+            "garbage dump",
+            "landfill",
+            "market",
+            "school"
+        ]
+    },
+    {
+        "q": "Geothermal energy comes from inside the Earth.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a renewable resource that comes from ocean tides?",
+        "type": "mcq",
+        "o": [
+            "Tidal energy",
+            "Wave energy",
+            "Solar energy",
+            "Wind energy"
+        ]
+    },
+    {
+        "q": "Which of these is a natural cause of climate change?",
+        "type": "mcq",
+        "o": [
+            "Volcanic eruptions",
+            "Burning coal",
+            "Driving cars",
+            "Factory smoke"
+        ]
+    },
+    {
+        "q": "Name one metal that can be recycled infinitely without losing quality.",
+        "type": "short_answer",
+        "answers": [
+            "aluminum",
+            "gold",
+            "silver",
+            "copper"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ organic waste to make compost.",
+        "type": "fill_blank",
+        "answers": [
+            "separate",
+            "collect"
+        ],
+        "other_options": [
+            "burn",
+            "throw",
+            "mix",
+            "hide"
+        ]
+    },
+    {
+        "q": "Desertification turns fertile land into desert.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a fossil fuel formed from ancient plants?",
+        "type": "mcq",
+        "o": [
+            "Coal",
+            "Uranium",
+            "Lithium",
+            "Aluminum"
+        ]
+    },
+    {
+        "q": "Which of these is a natural way to cool a building without electricity?",
+        "type": "mcq",
+        "o": [
+            "Cross ventilation",
+            "Air conditioner",
+            "Cooler",
+            "Fan"
+        ]
+    },
+    {
+        "q": "What do we call the upper layer of the ocean where sunlight reaches?",
+        "type": "short_answer",
+        "answers": [
+            "photic zone",
+            "sunlight zone"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space for wind energy demonstration.",
+        "type": "fill_blank",
+        "answers": [
+            "wind farm",
+            "wind park"
+        ],
+        "other_options": [
+            "solar farm",
+            "power plant",
+            "factory",
+            "market"
+        ]
+    },
+    {
+        "q": "Biodiesel is made from vegetable oils or animal fats.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a natural resource that is found in the Earth's crust?",
+        "type": "mcq",
+        "o": [
+            "Minerals",
+            "Water",
+            "Air",
+            "Sunlight"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made material that takes the longest to decompose?",
+        "type": "mcq",
+        "o": [
+            "Glass",
+            "Paper",
+            "Wood",
+            "Cotton"
+        ]
+    },
+    {
+        "q": "Name one thing that causes thermal pollution in water.",
+        "type": "short_answer",
+        "answers": [
+            "hot water from factories",
+            "cooling water",
+            "power plant discharge"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the use of jute bags instead of plastic.",
+        "type": "fill_blank",
+        "answers": [
+            "promote",
+            "encourage"
+        ],
+        "other_options": [
+            "discourage",
+            "ban",
+            "ignore",
+            "reject"
+        ]
+    },
+    {
+        "q": "Match the following energy sources with their types:",
+        "type": "match",
+        "left": [
+            "Solar",
+            "Coal",
+            "Wind",
+            "Petroleum"
+        ],
+        "right": [
+            "Renewable",
+            "Non-renewable",
+            "Renewable",
+            "Non-renewable"
+        ]
+    },
+    {
+        "q": "Match the following environmental terms with their definitions:",
+        "type": "match",
+        "left": [
+            "Carbon footprint",
+            "Ecological balance",
+            "Sustainable development",
+            "Carbon offset"
+        ],
+        "right": [
+            "Total greenhouse gases emitted",
+            "Harmony between living things and environment",
+            "Meeting needs without harming future",
+            "Compensating for carbon emissions"
+        ]
+    },
+    {
+        "q": "Match the following community spaces with their green features:",
+        "type": "match",
+        "left": [
+            "Green building",
+            "Rain garden",
+            "Solar park",
+            "Biogas plant"
+        ],
+        "right": [
+            "Energy efficient",
+            "Manages stormwater",
+            "Generates solar electricity",
+            "Converts waste to fuel"
+        ]
+    },
+    {
+        "q": "Match the following pollutants with their sources:",
+        "type": "match",
+        "left": [
+            "Carbon monoxide",
+            "Sulfur dioxide",
+            "Lead",
+            "Particulate matter"
+        ],
+        "right": [
+            "Car exhaust",
+            "Coal burning",
+            "Battery recycling",
+            "Construction dust"
+        ]
+    },
+    {
+        "q": "Match the following natural cycles with their descriptions:",
+        "type": "match",
+        "left": [
+            "Water cycle",
+            "Carbon cycle",
+            "Nitrogen cycle",
+            "Oxygen cycle"
+        ],
+        "right": [
+            "Movement of water",
+            "Movement of carbon",
+            "Movement of nitrogen",
+            "Movement of oxygen"
+        ]
+    },
+    {
+        "q": "Match the following environmental laws with their focus:",
+        "type": "match",
+        "left": [
+            "Clean Air Act",
+            "Clean Water Act",
+            "Endangered Species Act",
+            "Resource Conservation Act"
+        ],
+        "right": [
+            "Air pollution control",
+            "Water pollution control",
+            "Protect threatened species",
+            "Waste management and recycling"
+        ]
+    },
+    {
+        "q": "Which of these is a biogeochemical cycle that involves transpiration?",
+        "type": "mcq",
+        "o": [
+            "Water cycle",
+            "Carbon cycle",
+            "Nitrogen cycle",
+            "Phosphorus cycle"
+        ]
+    },
+    {
+        "q": "Nitrogen fixation is the process of converting atmospheric nitrogen into ammonia.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call the process by which plants release water vapor through their leaves?",
+        "type": "short_answer",
+        "answers": [
+            "transpiration"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a long-term shift in weather patterns in a specific region.",
+        "type": "fill_blank",
+        "answers": [
+            "climate change"
+        ],
+        "other_options": [
+            "weather",
+            "season",
+            "storm",
+            "monsoon"
+        ]
+    },
+    {
+        "q": "Which of these is a primary greenhouse gas emitted by rice paddies?",
+        "type": "mcq",
+        "o": [
+            "Methane",
+            "Carbon dioxide",
+            "Nitrous oxide",
+            "Ozone"
+        ]
+    },
+    {
+        "q": "Which of these is a natural process that removes carbon dioxide from the atmosphere?",
+        "type": "mcq",
+        "o": [
+            "Photosynthesis",
+            "Respiration",
+            "Decomposition",
+            "Combustion"
+        ]
+    },
+    {
+        "q": "Name one negative effect of ozone depletion.",
+        "type": "short_answer",
+        "answers": [
+            "skin cancer",
+            "cataracts",
+            "damaged crops",
+            "weakened immune system"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The ______ is the natural home of an animal or plant.",
+        "type": "fill_blank",
+        "answers": [
+            "habitat"
+        ],
+        "other_options": [
+            "ecosystem",
+            "biome",
+            "niche",
+            "environment"
+        ]
+    },
+    {
+        "q": "Leaching of nutrients from soil is caused by excessive rainfall.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a renewable resource that is also a biofuel?",
+        "type": "mcq",
+        "o": [
+            "Ethanol",
+            "Coal",
+            "Natural gas",
+            "Petroleum"
+        ]
+    },
+    {
+        "q": "Which of these is a natural disaster caused by the lack of rain for a long time?",
+        "type": "mcq",
+        "o": [
+            "Drought",
+            "Flood",
+            "Cyclone",
+            "Landslide"
+        ]
+    },
+    {
+        "q": "What do we call the upper layer of the atmosphere that contains the ozone layer?",
+        "type": "short_answer",
+        "answers": [
+            "stratosphere"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space where hazardous waste is treated safely.",
+        "type": "fill_blank",
+        "answers": [
+            "hazardous waste facility"
+        ],
+        "other_options": [
+            "landfill",
+            "dump yard",
+            "recycling center",
+            "market"
+        ]
+    },
+    {
+        "q": "Ocean acidification is caused by absorption of carbon dioxide.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-renewable resource used in smartphones?",
+        "type": "mcq",
+        "o": [
+            "Rare earth minerals",
+            "Plastic",
+            "Glass",
+            "Aluminum"
+        ]
+    },
+    {
+        "q": "Which of these is a natural phenomenon that releases sulfur dioxide into the air?",
+        "type": "mcq",
+        "o": [
+            "Volcanic eruption",
+            "Forest fire",
+            "Cyclone",
+            "Earthquake"
+        ]
+    },
+    {
+        "q": "Name one type of symbiotic relationship in nature.",
+        "type": "short_answer",
+        "answers": [
+            "mutualism",
+            "commensalism",
+            "parasitism"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the use of HFCs in refrigerators to protect the environment.",
+        "type": "fill_blank",
+        "answers": [
+            "phase out",
+            "reduce",
+            "eliminate"
+        ],
+        "other_options": [
+            "increase",
+            "promote",
+            "ignore",
+            "store"
+        ]
+    },
+    {
+        "q": "The greenhouse effect is entirely harmful to life on Earth.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a renewable resource that uses heat from inside the Earth?",
+        "type": "mcq",
+        "o": [
+            "Geothermal energy",
+            "Solar energy",
+            "Wind energy",
+            "Tidal energy"
+        ]
+    },
+    {
+        "q": "Which of these is a natural source of nitrous oxide?",
+        "type": "mcq",
+        "o": [
+            "Soil bacteria",
+            "Cars",
+            "Factories",
+            "Power plants"
+        ]
+    },
+    {
+        "q": "What do we call the gradual breakdown of rocks by wind and water?",
+        "type": "short_answer",
+        "answers": [
+            "weathering"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space for monitoring air quality.",
+        "type": "fill_blank",
+        "answers": [
+            "air quality monitoring station"
+        ],
+        "other_options": [
+            "hospital",
+            "school",
+            "library",
+            "park"
+        ]
+    },
+    {
+        "q": "Albedo effect is the measure of how much sunlight a surface reflects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-renewable resource that is liquid?",
+        "type": "mcq",
+        "o": [
+            "Crude oil",
+            "Coal",
+            "Natural gas",
+            "Peat"
+        ]
+    },
+    {
+        "q": "Which of these is a natural carbon sink in the ocean?",
+        "type": "mcq",
+        "o": [
+            "Phytoplankton",
+            "Whales",
+            "Coral reefs",
+            "Seaweed"
+        ]
+    },
+    {
+        "q": "Name one greenhouse gas that is also a refrigerant.",
+        "type": "short_answer",
+        "answers": [
+            "hfc",
+            "hydrofluorocarbon",
+            "cfc",
+            "chlorofluorocarbon"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the temperature of refrigerators to reduce energy use.",
+        "type": "fill_blank",
+        "answers": [
+            "optimize",
+            "set correctly",
+            "not over-cool"
+        ],
+        "other_options": [
+            "increase",
+            "decrease",
+            "ignore",
+            "break"
+        ]
+    },
+    {
+        "q": "Dead zones in oceans are caused by oxygen depletion from nutrient pollution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a renewable resource that comes from the movement of rivers?",
+        "type": "mcq",
+        "o": [
+            "Hydropower",
+            "Solar power",
+            "Wind power",
+            "Geothermal power"
+        ]
+    },
+    {
+        "q": "Which of these is a natural cause of forest fires?",
+        "type": "mcq",
+        "o": [
+            "Lightning",
+            "Cigarette",
+            "Campfire",
+            "Arson"
+        ]
+    },
+    {
+        "q": "What do we call the process of wearing away land by wind or water?",
+        "type": "short_answer",
+        "answers": [
+            "erosion"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space for promoting zero waste living.",
+        "type": "fill_blank",
+        "answers": [
+            "zero waste store",
+            "refill shop"
+        ],
+        "other_options": [
+            "mall",
+            "supermarket",
+            "cinema",
+            "park"
+        ]
+    },
+    {
+        "q": "Bioaccumulation is the build-up of toxins in an organism over time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-renewable resource found in natural gas?",
+        "type": "mcq",
+        "o": [
+            "Methane",
+            "Propane",
+            "Butane",
+            "Ethane"
+        ]
+    },
+    {
+        "q": "Which of these is a natural process that releases carbon dioxide?",
+        "type": "mcq",
+        "o": [
+            "Respiration",
+            "Photosynthesis",
+            "Carbon sequestration",
+            "Mineralization"
+        ]
+    },
+    {
+        "q": "Name one element that is a major cause of eutrophication.",
+        "type": "short_answer",
+        "answers": [
+            "phosphorus",
+            "nitrogen"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the amount of meat we eat to reduce methane emissions.",
+        "type": "fill_blank",
+        "answers": [
+            "reduce",
+            "limit",
+            "cut down on"
+        ],
+        "other_options": [
+            "increase",
+            "promote",
+            "ignore",
+            "enjoy"
+        ]
+    },
+    {
+        "q": "The cryosphere includes all frozen water on Earth.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a renewable resource that uses ocean currents?",
+        "type": "mcq",
+        "o": [
+            "Marine current power",
+            "Tidal power",
+            "Wave power",
+            "Solar power"
+        ]
+    },
+    {
+        "q": "Which of these is a natural disaster that involves fast-moving snow?",
+        "type": "mcq",
+        "o": [
+            "Avalanche",
+            "Landslide",
+            "Mudslide",
+            "Rockfall"
+        ]
+    },
+    {
+        "q": "What do we call the process of converting sunlight directly into electricity?",
+        "type": "short_answer",
+        "answers": [
+            "photovoltaic effect",
+            "solar conversion"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space for carbon sequestration projects.",
+        "type": "fill_blank",
+        "answers": [
+            "carbon farm",
+            "reforestation project"
+        ],
+        "other_options": [
+            "park",
+            "garden",
+            "zoo",
+            "museum"
+        ]
+    },
+    {
+        "q": "Permafrost is ground that remains frozen for at least two years.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-renewable resource used in nuclear power?",
+        "type": "mcq",
+        "o": [
+            "Uranium-235",
+            "Plutonium-239",
+            "Thorium-232",
+            "All of these"
+        ]
+    },
+    {
+        "q": "Which of these is a natural feedback loop that amplifies global warming?",
+        "type": "mcq",
+        "o": [
+            "Ice-albedo feedback",
+            "Plant growth",
+            "Cloud formation",
+            "Ocean circulation"
+        ]
+    },
+    {
+        "q": "Name one gas that is both a greenhouse gas and an air pollutant.",
+        "type": "short_answer",
+        "answers": [
+            "ozone",
+            "nitrogen dioxide",
+            "sulfur dioxide"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ energy efficiency standards for appliances.",
+        "type": "fill_blank",
+        "answers": [
+            "improve",
+            "raise",
+            "strengthen"
+        ],
+        "other_options": [
+            "lower",
+            "remove",
+            "ignore",
+            "skip"
+        ]
+    },
+    {
+        "q": "Anthropogenic means caused by human activity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a renewable resource that is also a liquid biofuel?",
+        "type": "mcq",
+        "o": [
+            "Biodiesel",
+            "Biogas",
+            "Hydrogen",
+            "Methane"
+        ]
+    },
+    {
+        "q": "Which of these is a natural disaster involving a rotating column of air?",
+        "type": "mcq",
+        "o": [
+            "Tornado",
+            "Cyclone",
+            "Hurricane",
+            "Typhoon"
+        ]
+    },
+    {
+        "q": "What do we call the study of interactions between living things and their environment?",
+        "type": "short_answer",
+        "answers": [
+            "ecology"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space for renewable energy education.",
+        "type": "fill_blank",
+        "answers": [
+            "energy museum",
+            "science center"
+        ],
+        "other_options": [
+            "library",
+            "school",
+            "cinema",
+            "mall"
+        ]
+    },
+    {
+        "q": "Black carbon is a component of soot and contributes to global warming.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-renewable resource used in fertilizers?",
+        "type": "mcq",
+        "o": [
+            "Phosphate rock",
+            "Compost",
+            "Manure",
+            "Green manure"
+        ]
+    },
+    {
+        "q": "Which of these is a natural process that stores carbon in the soil?",
+        "type": "mcq",
+        "o": [
+            "Humification",
+            "Decomposition",
+            "Combustion",
+            "Respiration"
+        ]
+    },
+    {
+        "q": "Name one type of renewable energy that uses the temperature difference in ocean water.",
+        "type": "short_answer",
+        "answers": [
+            "otec",
+            "ocean thermal energy conversion"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the use of public transport to reduce per capita emissions.",
+        "type": "fill_blank",
+        "answers": [
+            "increase",
+            "promote",
+            "encourage"
+        ],
+        "other_options": [
+            "decrease",
+            "discourage",
+            "ban",
+            "ignore"
+        ]
+    },
+    {
+        "q": "Match the following atmospheric layers with their features:",
+        "type": "match",
+        "left": [
+            "Troposphere",
+            "Stratosphere",
+            "Mesosphere",
+            "Thermosphere"
+        ],
+        "right": [
+            "Weather occurs here",
+            "Ozone layer here",
+            "Meteors burn here",
+            "Auroras occur here"
+        ]
+    },
+    {
+        "q": "Match the following environmental concepts with their definitions:",
+        "type": "match",
+        "left": [
+            "Carrying capacity",
+            "Ecological footprint",
+            "Trophic level",
+            "Biomagnification"
+        ],
+        "right": [
+            "Max population an area can support",
+            "Human demand on nature",
+            "Position in food chain",
+            "Toxin increase up food chain"
+        ]
+    },
+    {
+        "q": "Match the following community initiatives with their goals:",
+        "type": "match",
+        "left": [
+            "Community composting",
+            "Plastic swap meet",
+            "Tree adoption program",
+            "Clean-up drive"
+        ],
+        "right": [
+            "Reduce organic waste",
+            "Reduce plastic waste",
+            "Increase green cover",
+            "Remove litter"
+        ]
+    },
+    {
+        "q": "Match the following pollutants with their health effects:",
+        "type": "match",
+        "left": [
+            "PM2.5",
+            "Lead",
+            "Ozone",
+            "Carbon monoxide"
+        ],
+        "right": [
+            "Lung disease",
+            "Brain damage in children",
+            "Respiratory irritation",
+            "Reduces oxygen in blood"
+        ]
+    },
+    {
+        "q": "Match the following natural resources with their extraction methods:",
+        "type": "match",
+        "left": [
+            "Coal",
+            "Crude oil",
+            "Natural gas",
+            "Uranium"
+        ],
+        "right": [
+            "Mining",
+            "Drilling",
+            "Fracking",
+            "Underground mining"
+        ]
+    },
+    {
+        "q": "Match the following international environmental agreements with their focus:",
+        "type": "match",
+        "left": [
+            "Montreal Protocol",
+            "Kyoto Protocol",
+            "Paris Agreement",
+            "Minamata Convention"
+        ],
+        "right": [
+            "Ozone layer protection",
+            "Greenhouse gas reduction",
+            "Climate change pact",
+            "Mercury control"
+        ]
+    },
+    {
+        "q": "Which of these is a biogeochemical cycle that does NOT have a gaseous phase?",
+        "type": "mcq",
+        "o": [
+            "Phosphorus cycle",
+            "Carbon cycle",
+            "Nitrogen cycle",
+            "Water cycle"
+        ]
+    },
+    {
+        "q": "Chemolithotrophs obtain energy from inorganic compounds like ammonia or hydrogen sulfide.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call the process where plants convert atmospheric nitrogen into usable form with help of bacteria?",
+        "type": "short_answer",
+        "answers": [
+            "nitrogen fixation",
+            "biological nitrogen fixation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The ______ is the part of the Earth where life exists, including land, water, and air.",
+        "type": "fill_blank",
+        "answers": [
+            "biosphere"
+        ],
+        "other_options": [
+            "atmosphere",
+            "lithosphere",
+            "hydrosphere",
+            "ecosphere"
+        ]
+    },
+    {
+        "q": "Which of these is a negative feedback loop that helps regulate Earth's temperature?",
+        "type": "mcq",
+        "o": [
+            "Increased cloud cover reflecting sunlight",
+            "Ice melting reducing albedo",
+            "Permafrost releasing methane",
+            "Forest fires releasing carbon"
+        ]
+    },
+    {
+        "q": "Which of these is an example of a climax community in ecological succession?",
+        "type": "mcq",
+        "o": [
+            "Old-growth forest",
+            "Pioneer grasses",
+            "Lichen on rock",
+            "Annual weeds"
+        ]
+    },
+    {
+        "q": "Name one type of extremophile that lives in hot springs.",
+        "type": "short_answer",
+        "answers": [
+            "thermophile",
+            "hyperthermophile"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space for restoring native ecosystems.",
+        "type": "fill_blank",
+        "answers": [
+            "restoration site",
+            "rewilding project"
+        ],
+        "other_options": [
+            "garden",
+            "park",
+            "zoo",
+            "aquarium"
+        ]
+    },
+    {
+        "q": "Keystone species have a disproportionately large effect on their environment relative to their abundance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a renewable resource that is derived from algae?",
+        "type": "mcq",
+        "o": [
+            "Algal biofuel",
+            "Corn ethanol",
+            "Soy biodiesel",
+            "Wood pellets"
+        ]
+    },
+    {
+        "q": "Which of these is a natural phenomenon that causes upwelling of nutrients in oceans?",
+        "type": "mcq",
+        "o": [
+            "Wind-driven currents",
+            "Tides",
+            "Tsunamis",
+            "Hurricanes"
+        ]
+    },
+    {
+        "q": "What do we call the process by which certain bacteria convert ammonia into nitrates?",
+        "type": "short_answer",
+        "answers": [
+            "nitrification"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The ______ is a community space for monitoring biodiversity using citizen science.",
+        "type": "fill_blank",
+        "answers": [
+            "bioblitz site",
+            "nature observation center"
+        ],
+        "other_options": [
+            "school",
+            "library",
+            "hospital",
+            "market"
+        ]
+    },
+    {
+        "q": "The Gaia hypothesis proposes that Earth functions as a single self-regulating organism.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-renewable resource used in the production of stainless steel?",
+        "type": "mcq",
+        "o": [
+            "Chromium",
+            "Iron",
+            "Nickel",
+            "Molybdenum"
+        ]
+    },
+    {
+        "q": "Which of these is an example of biological magnification in an ecosystem?",
+        "type": "mcq",
+        "o": [
+            "DDT in eagles",
+            "Oil spills on birds",
+            "Plastic in fish",
+            "Noise scaring whales"
+        ]
+    },
+    {
+        "q": "Name one greenhouse gas with a global warming potential higher than CO2.",
+        "type": "short_answer",
+        "answers": [
+            "methane",
+            "sf6",
+            "sulfur hexafluoride",
+            "nf3",
+            "nitrogen trifluoride"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the use of nitrogen-based fertilizers to reduce dead zones in oceans.",
+        "type": "fill_blank",
+        "answers": [
+            "optimize",
+            "reduce",
+            "manage better"
+        ],
+        "other_options": [
+            "increase",
+            "promote",
+            "ignore",
+            "subsidize"
+        ]
+    },
+    {
+        "q": "The concept of planetary boundaries defines a safe operating space for humanity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a renewable resource that uses osmotic pressure difference between fresh and salt water?",
+        "type": "mcq",
+        "o": [
+            "Salinity gradient power",
+            "Tidal power",
+            "Wave power",
+            "Ocean thermal power"
+        ]
+    },
+    {
+        "q": "Which of these is an example of a mycorrhizal relationship?",
+        "type": "mcq",
+        "o": [
+            "Fungus and plant roots",
+            "Algae and fungus",
+            "Bacteria and legumes",
+            "Ants and aphids"
+        ]
+    },
+    {
+        "q": "What do we call the process by which bacteria convert nitrates back into atmospheric nitrogen?",
+        "type": "short_answer",
+        "answers": [
+            "denitrification"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space for low-carbon urban design demonstration.",
+        "type": "fill_blank",
+        "answers": [
+            "eco-district",
+            "sustainable neighborhood"
+        ],
+        "other_options": [
+            "mall",
+            "cinema",
+            "stadium",
+            "parking lot"
+        ]
+    },
+    {
+        "q": "The Holocene epoch is the current geological epoch that began after the last ice age.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-renewable resource used in solar panel manufacturing?",
+        "type": "mcq",
+        "o": [
+            "Silver",
+            "Silicon",
+            "Aluminum",
+            "Copper"
+        ]
+    },
+    {
+        "q": "Which of these is an example of an ecosystem engineer?",
+        "type": "mcq",
+        "o": [
+            "Beaver",
+            "Lion",
+            "Eagle",
+            "Snake"
+        ]
+    },
+    {
+        "q": "Name one type of renewable energy that uses geothermal gradients in deep wells.",
+        "type": "short_answer",
+        "answers": [
+            "enhanced geothermal system",
+            "egs",
+            "deep geothermal"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the development of carbon capture and storage technologies.",
+        "type": "fill_blank",
+        "answers": [
+            "invest in",
+            "support",
+            "accelerate"
+        ],
+        "other_options": [
+            "ignore",
+            "oppose",
+            "delay",
+            "cancel"
+        ]
+    },
+    {
+        "q": "The Great Pacific Garbage Patch is primarily composed of microplastics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a renewable resource that uses the difference in salt concentration?",
+        "type": "mcq",
+        "o": [
+            "Osmotic power",
+            "Tidal power",
+            "Wave power",
+            "Hydropower"
+        ]
+    },
+    {
+        "q": "Which of these is an example of allopatric speciation?",
+        "type": "mcq",
+        "o": [
+            "Geographic separation",
+            "Behavioral isolation",
+            "Temporal isolation",
+            "Mechanical isolation"
+        ]
+    },
+    {
+        "q": "What do we call the process where a species evolves to resemble another species?",
+        "type": "short_answer",
+        "answers": [
+            "mimicry",
+            "batesian mimicry",
+            "mullerian mimicry"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space for testing circular economy models.",
+        "type": "fill_blank",
+        "answers": [
+            "circular economy hub",
+            "repair cafe"
+        ],
+        "other_options": [
+            "mall",
+            "supermarket",
+            "cinema",
+            "park"
+        ]
+    },
+    {
+        "q": "The Anthropocene is a proposed geological epoch defined by human impact on Earth.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-renewable resource used in electric vehicle batteries?",
+        "type": "mcq",
+        "o": [
+            "Cobalt",
+            "Nickel",
+            "Manganese",
+            "Graphite"
+        ]
+    },
+    {
+        "q": "Which of these is an example of a trophic cascade?",
+        "type": "mcq",
+        "o": [
+            "Wolves affecting river paths via deer",
+            "Bees pollinating flowers",
+            "Birds eating seeds",
+            "Fungi decomposing logs"
+        ]
+    },
+    {
+        "q": "Name one volatile organic compound (VOC) that contributes to ground-level ozone.",
+        "type": "short_answer",
+        "answers": [
+            "benzene",
+            "formaldehyde",
+            "toluene",
+            "xylene"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the production of short-lived climate pollutants like black carbon.",
+        "type": "fill_blank",
+        "answers": [
+            "phase out",
+            "reduce",
+            "eliminate"
+        ],
+        "other_options": [
+            "increase",
+            "promote",
+            "ignore",
+            "subsidize"
+        ]
+    },
+    {
+        "q": "The concept of natural capital includes all natural resources that provide ecosystem services.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a renewable resource that uses the kinetic energy of falling water without a dam?",
+        "type": "mcq",
+        "o": [
+            "Run-of-river hydropower",
+            "Tidal barrage",
+            "Pumped storage",
+            "Reservoir hydropower"
+        ]
+    },
+    {
+        "q": "Which of these is an example of aposematism in nature?",
+        "type": "mcq",
+        "o": [
+            "Bright colors warning of poison",
+            "Camouflage to hide",
+            "Mimicking a stick",
+            "Playing dead"
+        ]
+    },
+    {
+        "q": "What do we call the process where plants close stomata to reduce water loss?",
+        "type": "short_answer",
+        "answers": [
+            "stomatal closure",
+            "water conservation response"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community space for long-term ecological research.",
+        "type": "fill_blank",
+        "answers": [
+            "lter site",
+            "ecological research station"
+        ],
+        "other_options": [
+            "park",
+            "garden",
+            "zoo",
+            "aquarium"
+        ]
+    },
+    {
+        "q": "The concept of ecological debt refers to resource consumption exceeding Earth's capacity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-renewable resource used in wind turbine magnets?",
+        "type": "mcq",
+        "o": [
+            "Neodymium",
+            "Iron",
+            "Copper",
+            "Aluminum"
+        ]
+    },
+    {
+        "q": "Which of these is an example of r-selected species in ecology?",
+        "type": "mcq",
+        "o": [
+            "Insects",
+            "Elephants",
+            "Whales",
+            "Humans"
+        ]
+    },
+    {
+        "q": "Name one persistent organic pollutant (POP) banned by the Stockholm Convention.",
+        "type": "short_answer",
+        "answers": [
+            "ddt",
+            "dioxin",
+            "pcb",
+            "pcdd",
+            "pcdf",
+            "pah",
+            "hcb"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should ______ the use of hydrogen as a clean fuel where production is green.",
+        "type": "fill_blank",
+        "answers": [
+            "promote",
+            "encourage",
+            "scale up"
+        ],
+        "other_options": [
+            "ban",
+            "ignore",
+            "discourage",
+            "tax heavily"
+        ]
+    },
+    {
+        "q": "Match the following ecosystem services with their categories:",
+        "type": "match",
+        "left": [
+            "Pollination",
+            "Water purification",
+            "Flood control",
+            "Aesthetic value"
+        ],
+        "right": [
+            "Supporting",
+            "Regulating",
+            "Regulating",
+            "Cultural"
+        ]
+    },
+    {
+        "q": "Match the following ecological terms with their definitions:",
+        "type": "match",
+        "left": [
+            "Niche",
+            "Biome",
+            "Ecotone",
+            "Endemic species"
+        ],
+        "right": [
+            "Role of a species in ecosystem",
+            "Large area with similar climate",
+            "Transition zone between biomes",
+            "Species found only in one place"
+        ]
+    },
+    {
+        "q": "Match the following environmental remediation techniques with their descriptions:",
+        "type": "match",
+        "left": [
+            "Phytoremediation",
+            "Bioremediation",
+            "Mycoremediation",
+            "Biochar application"
+        ],
+        "right": [
+            "Plants remove toxins",
+            "Microbes break down pollutants",
+            "Fungi degrade contaminants",
+            "Charcoal improves soil and sequesters carbon"
+        ]
+    },
+    {
+        "q": "Match the following international environmental bodies with their roles:",
+        "type": "match",
+        "left": [
+            "IPCC",
+            "UNEP",
+            "CBD",
+            "GCF"
+        ],
+        "right": [
+            "Climate science assessment",
+            "Environmental coordination",
+            "Biodiversity conservation",
+            "Climate finance"
+        ]
+    },
+    {
+        "q": "Match the following sustainability metrics with their focus:",
+        "type": "match",
+        "left": [
+            "Ecological footprint",
+            "Water footprint",
+            "Carbon intensity",
+            "Material footprint"
+        ],
+        "right": [
+            "Land area needed",
+            "Freshwater volume used",
+            "Emissions per unit GDP",
+            "Raw materials consumed"
+        ]
+    },
+    {
+        "q": "Match the following environmental disasters with their locations:",
+        "type": "match",
+        "left": [
+            "Chernobyl",
+            "Bhopal gas tragedy",
+            "Exxon Valdez",
+            "Fukushima"
+        ],
+        "right": [
+            "Ukraine",
+            "India",
+            "Alaska",
+            "Japan"
+        ]
+    }
+]
