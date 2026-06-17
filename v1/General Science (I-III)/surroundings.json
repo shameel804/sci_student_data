@@ -20,6 +20,13 @@
         ]
     },
     {
+        "q": "How many colors are there in a rainbow?",
+        "type": "slider",
+        "min": 3,
+        "max": 10,
+        "correct": 7
+    },
+    {
         "q": "What do we call the place where children go to study with a teacher?",
         "type": "short_answer",
         "answers": [
@@ -87,9 +94,27 @@
         ]
     },
     {
+        "q": "Which of these is NOT a natural thing?",
+        "type": "odd_one_out",
+        "options": [
+            "Tree",
+            "River",
+            "Mountain",
+            "Car",
+            "Cloud"
+        ],
+        "correct": "Car"
+    },
+    {
         "q": "A hospital is a place where sick people get treatment.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: It gives us light during the day.",
+        "type": "word_scramble",
+        "answer": "SUN",
+        "decoys": "XYZ"
     },
     {
         "q": "Which of these is a living thing?",
@@ -102,6 +127,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: A tall plant with a wooden trunk.",
+        "type": "word_scramble",
+        "answer": "TREE",
+        "decoys": "LM"
+    },
+    {
         "q": "Where does your family cook food?",
         "type": "mcq",
         "o": [
@@ -109,6 +140,21 @@
             "Bathroom",
             "Balcony",
             "Hall"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "We should always throw our garbage in the [0].",
+        "dropdowns": [
+            {
+                "correct": "dustbin",
+                "options": [
+                    "dustbin",
+                    "river",
+                    "road"
+                ]
+            }
         ]
     },
     {
@@ -120,6 +166,30 @@
             "Tube light",
             "Lamp"
         ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Plants need [0] and water to grow.",
+        "dropdowns": [
+            {
+                "correct": "sunlight",
+                "options": [
+                    "darkness",
+                    "sunlight",
+                    "plastic"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the community helpers to where they work.",
+        "type": "memory",
+        "pairs": {
+            "Teacher": "School",
+            "Doctor": "Hospital",
+            "Postman": "Post Office"
+        }
     },
     {
         "q": "Name one thing you see in a playground.",
@@ -145,6 +215,15 @@
         ]
     },
     {
+        "q": "Match the rooms in a house to what we do in them.",
+        "type": "memory",
+        "pairs": {
+            "Kitchen": "Cooking",
+            "Bedroom": "Sleeping",
+            "Bathroom": "Washing"
+        }
+    },
+    {
         "q": "Trees give us fresh air.",
         "type": "true_false",
         "correct": "True"
@@ -158,6 +237,18 @@
             "Monster",
             "Witch"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Natural things, LEFT for Man-made things.",
+        "type": "swipe_cards",
+        "left_label": "Man-made",
+        "right_label": "Natural",
+        "cards": {
+            "Tree": "right",
+            "Car": "left",
+            "River": "right",
+            "Book": "left"
+        }
     },
     {
         "q": "Which of these is NOT a natural thing?",
@@ -355,6 +446,13 @@
         "correct": "False"
     },
     {
+        "q": "How many legs does a spider have?",
+        "type": "slider",
+        "min": 4,
+        "max": 10,
+        "correct": 8
+    },
+    {
         "q": "Which of these helps us see at night in a room?",
         "type": "mcq",
         "o": [
@@ -365,6 +463,18 @@
         ]
     },
     {
+        "q": "Which of these is NOT made by humans?",
+        "type": "odd_one_out",
+        "options": [
+            "Table",
+            "Chair",
+            "Pencil",
+            "Flower",
+            "Book"
+        ],
+        "correct": "Flower"
+    },
+    {
         "q": "Which of these is found in a garden?",
         "type": "mcq",
         "o": [
@@ -373,6 +483,12 @@
             "Fridge",
             "Oven"
         ]
+    },
+    {
+        "q": "Unscramble the word: Water falling from the clouds.",
+        "type": "word_scramble",
+        "answer": "RAIN",
+        "decoys": "QB"
     },
     {
         "q": "What do we call the person who puts out fires?",
@@ -401,6 +517,12 @@
         "correct": "True"
     },
     {
+        "q": "Unscramble the word: Moving air that we can feel.",
+        "type": "word_scramble",
+        "answer": "WIND",
+        "decoys": "PQX"
+    },
+    {
         "q": "Which of these is a place of worship?",
         "type": "mcq",
         "o": [
@@ -418,6 +540,21 @@
             "Bicycle",
             "Building",
             "Road"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A [0] gives us medicine when we are sick.",
+        "dropdowns": [
+            {
+                "correct": "doctor",
+                "options": [
+                    "farmer",
+                    "doctor",
+                    "driver"
+                ]
+            }
         ]
     },
     {
@@ -539,6 +676,21 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "We go to the [0] to read many books silently.",
+        "dropdowns": [
+            {
+                "correct": "library",
+                "options": [
+                    "kitchen",
+                    "library",
+                    "bathroom"
+                ]
+            }
+        ]
+    },
+    {
         "q": "A ______ lives in water.",
         "type": "fill_blank",
         "answers": [
@@ -555,6 +707,15 @@
         "q": "We should keep our surroundings dirty.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "Match the weather words to how they feel.",
+        "type": "memory",
+        "pairs": {
+            "Sun": "Hot",
+            "Snow": "Cold",
+            "Rain": "Wet"
+        }
     },
     {
         "q": "Which of these is used to eat food?",
@@ -715,6 +876,18 @@
         "correct": "True"
     },
     {
+        "q": "Swipe RIGHT for Living things, LEFT for Non-living things.",
+        "type": "swipe_cards",
+        "left_label": "Non-living",
+        "right_label": "Living",
+        "cards": {
+            "Dog": "right",
+            "Stone": "left",
+            "Boy": "right",
+            "Table": "left"
+        }
+    },
+    {
         "q": "Which of these is used to wash clothes?",
         "type": "mcq",
         "o": [
@@ -850,6 +1023,25 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Swipe RIGHT for Good habits, LEFT for Bad habits for our Earth.",
+        "type": "swipe_cards",
+        "left_label": "Bad Habit",
+        "right_label": "Good Habit",
+        "cards": {
+            "Wasting water": "left",
+            "Planting trees": "right",
+            "Littering": "left",
+            "Saving paper": "right"
+        }
+    },
+    {
+        "q": "How many wheels are on a normal car?",
+        "type": "slider",
+        "min": 2,
+        "max": 6,
+        "correct": 4
+    },
+    {
         "q": "A ______ is a place where we pray.",
         "type": "fill_blank",
         "answers": [
@@ -879,6 +1071,18 @@
             "Nose",
             "Tongue"
         ]
+    },
+    {
+        "q": "Which of these is a non-living thing?",
+        "type": "odd_one_out",
+        "options": [
+            "Dog",
+            "Tree",
+            "Boy",
+            "Rock",
+            "Bird"
+        ],
+        "correct": "Rock"
     },
     {
         "q": "Which of these is found in a living room?",
@@ -971,6 +1175,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: Plants grow in this dirt.",
+        "type": "word_scramble",
+        "answer": "SOIL",
+        "decoys": "KZ"
+    },
+    {
         "q": "Match the following community spaces with their features:",
         "type": "match",
         "left": [
@@ -1002,6 +1212,12 @@
         "correct": "True"
     },
     {
+        "q": "Unscramble the word: An animal that has feathers and flies.",
+        "type": "word_scramble",
+        "answer": "BIRD",
+        "decoys": "VW"
+    },
+    {
         "q": "Where do people go to borrow money?",
         "type": "mcq",
         "o": [
@@ -1009,6 +1225,21 @@
             "Hospital",
             "School",
             "Park"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The [0] gives us heat and light every day.",
+        "dropdowns": [
+            {
+                "correct": "sun",
+                "options": [
+                    "moon",
+                    "sun",
+                    "star"
+                ]
+            }
         ]
     },
     {
@@ -1048,6 +1279,21 @@
             "bulb"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "We must drink [0] water to stay healthy and strong.",
+        "dropdowns": [
+            {
+                "correct": "clean",
+                "options": [
+                    "dirty",
+                    "salty",
+                    "clean"
+                ]
+            }
+        ]
     },
     {
         "q": "A ______ is a community space where we can buy fruits and vegetables.",
@@ -1113,6 +1359,15 @@
         ]
     },
     {
+        "q": "Match the color of the bin to what goes inside.",
+        "type": "memory",
+        "pairs": {
+            "Blue bin": "Paper",
+            "Green bin": "Leaves",
+            "Red bin": "Plastic"
+        }
+    },
+    {
         "q": "Which of these is a natural shelter for animals?",
         "type": "mcq",
         "o": [
@@ -1121,6 +1376,15 @@
             "Shed",
             "Garage"
         ]
+    },
+    {
+        "q": "Match the school items with what they do.",
+        "type": "memory",
+        "pairs": {
+            "Pencil": "Writing",
+            "Eraser": "Rubbing",
+            "School bag": "Carrying"
+        }
     },
     {
         "q": "What do we call the layer of air surrounding the Earth?",
@@ -1220,6 +1484,18 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Day Sky, LEFT for Night Sky.",
+        "type": "swipe_cards",
+        "left_label": "Night Sky",
+        "right_label": "Day Sky",
+        "cards": {
+            "Sun": "right",
+            "Stars": "left",
+            "Moon": "left",
+            "Rainbow": "right"
+        }
+    },
+    {
         "q": "What do we call the place where bees live?",
         "type": "short_answer",
         "answers": [
@@ -1257,6 +1533,13 @@
         ]
     },
     {
+        "q": "How many days are in one week?",
+        "type": "slider",
+        "min": 5,
+        "max": 10,
+        "correct": 7
+    },
+    {
         "q": "Where do we keep our clothes at home?",
         "type": "mcq",
         "o": [
@@ -1265,6 +1548,18 @@
             "Oven",
             "Sink"
         ]
+    },
+    {
+        "q": "Which of these is a living thing?",
+        "type": "odd_one_out",
+        "options": [
+            "Pen",
+            "Toy",
+            "Bag",
+            "Cat",
+            "Shoe"
+        ],
+        "correct": "Cat"
     },
     {
         "q": "Which of these is a natural thing that gives us wood?",
@@ -1378,6 +1673,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: A bird's home made of twigs.",
+        "type": "word_scramble",
+        "answer": "NEST",
+        "decoys": "FQ"
+    },
+    {
         "q": "Which of these is a natural thing found on the ground?",
         "type": "mcq",
         "o": [
@@ -1386,6 +1687,12 @@
             "Tile",
             "Concrete"
         ]
+    },
+    {
+        "q": "Unscramble the word: A green place with swings and slides.",
+        "type": "word_scramble",
+        "answer": "PARK",
+        "decoys": "JZ"
     },
     {
         "q": "Name one thing we can recycle.",
@@ -1410,6 +1717,21 @@
             "bite",
             "hide",
             "burn"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A [0] is a large place with many wild animals and trees.",
+        "dropdowns": [
+            {
+                "correct": "forest",
+                "options": [
+                    "city",
+                    "forest",
+                    "house"
+                ]
+            }
         ]
     },
     {
@@ -1501,6 +1823,21 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Fishes live and breathe under the [0].",
+        "dropdowns": [
+            {
+                "correct": "water",
+                "options": [
+                    "sand",
+                    "air",
+                    "water"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Name one insect you see around flowers.",
         "type": "short_answer",
         "answers": [
@@ -1589,6 +1926,15 @@
         "correct": "False"
     },
     {
+        "q": "Match the animal to its home.",
+        "type": "memory",
+        "pairs": {
+            "Dog": "Kennel",
+            "Bird": "Nest",
+            "Bee": "Hive"
+        }
+    },
+    {
         "q": "Which of these is a community space for learning about history?",
         "type": "mcq",
         "o": [
@@ -1607,6 +1953,18 @@
             "Tube well",
             "Water tank"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Plant Eaters, LEFT for Meat Eaters.",
+        "type": "swipe_cards",
+        "left_label": "Meat Eater",
+        "right_label": "Plant Eater",
+        "cards": {
+            "Cow": "right",
+            "Lion": "left",
+            "Deer": "right",
+            "Tiger": "left"
+        }
     },
     {
         "q": "Which of these is a man-made thing that stores water?",
@@ -1719,6 +2077,18 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Water Transport, LEFT for Land Transport.",
+        "type": "swipe_cards",
+        "left_label": "Land",
+        "right_label": "Water",
+        "cards": {
+            "Boat": "right",
+            "Bus": "left",
+            "Ship": "right",
+            "Car": "left"
+        }
+    },
+    {
         "q": "Which of these is a man-made thing that helps us travel on water?",
         "type": "mcq",
         "o": [
@@ -1727,6 +2097,13 @@
             "Whale",
             "Crocodile"
         ]
+    },
+    {
+        "q": "How many months make up one whole year?",
+        "type": "slider",
+        "min": 10,
+        "max": 15,
+        "correct": 12
     },
     {
         "q": "Which of these is a natural thing that gives us wool?",
@@ -1764,6 +2141,17 @@
             "push",
             "laugh at"
         ]
+    },
+    {
+        "q": "Which of these is an outdoor activity?",
+        "type": "odd_one_out",
+        "options": [
+            "Reading a book",
+            "Sleeping",
+            "Watching TV",
+            "Flying a kite"
+        ],
+        "correct": "Flying a kite"
     },
     {
         "q": "A volcano is a man-made thing.",
@@ -1900,6 +2288,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: A table you sit at in school.",
+        "type": "word_scramble",
+        "answer": "DESK",
+        "decoys": "YB"
+    },
+    {
         "q": "Which of these is a community space for swimming?",
         "type": "mcq",
         "o": [
@@ -1908,6 +2302,12 @@
             "Museum",
             "Cinema"
         ]
+    },
+    {
+        "q": "Unscramble the word: It has pages and pictures to read.",
+        "type": "word_scramble",
+        "answer": "BOOK",
+        "decoys": "XV"
     },
     {
         "q": "Which of these is a natural thing that gives us honey?",
@@ -1920,6 +2320,21 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "We should always cross the road at the [0] crossing.",
+        "dropdowns": [
+            {
+                "correct": "zebra",
+                "options": [
+                    "lion",
+                    "zebra",
+                    "tiger"
+                ]
+            }
+        ]
+    },
+    {
         "q": "What do we call the space where two or more roads meet?",
         "type": "short_answer",
         "answers": [
@@ -1928,6 +2343,30 @@
             "junction"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "We use an [0] to stay dry when it rains.",
+        "dropdowns": [
+            {
+                "correct": "umbrella",
+                "options": [
+                    "towel",
+                    "umbrella",
+                    "sweater"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the plant part to its job.",
+        "type": "memory",
+        "pairs": {
+            "Root": "Drinks water",
+            "Leaf": "Makes food",
+            "Flower": "Grows seeds"
+        }
     },
     {
         "q": "We should not ______ on the grass in a park.",
@@ -1945,6 +2384,15 @@
         ]
     },
     {
+        "q": "Match the community place to what we do there.",
+        "type": "memory",
+        "pairs": {
+            "Park": "Playing",
+            "Market": "Buying",
+            "Zoo": "Seeing animals"
+        }
+    },
+    {
         "q": "Match the following natural things with their colors:",
         "type": "match",
         "left": [
@@ -1959,6 +2407,18 @@
             "Yellow",
             "White"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Summer things, LEFT for Winter things.",
+        "type": "swipe_cards",
+        "left_label": "Winter",
+        "right_label": "Summer",
+        "cards": {
+            "Hot sun": "right",
+            "Snow": "left",
+            "Woolen jacket": "left",
+            "Cotton shirt": "right"
+        }
     },
     {
         "q": "Match the following man-made things with their uses:",
@@ -1991,6 +2451,13 @@
             "Clerk",
             "Postman"
         ]
+    },
+    {
+        "q": "How many primary colors are there (red, yellow, blue)?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
     },
     {
         "q": "Match the following animals with their homes:",
@@ -2056,12 +2523,29 @@
         "correct": "True"
     },
     {
+        "q": "Which of these is an indoor activity?",
+        "type": "odd_one_out",
+        "options": [
+            "Running",
+            "Playing football",
+            "Riding a bike",
+            "Sleeping in bed"
+        ],
+        "correct": "Sleeping in bed"
+    },
+    {
         "q": "What do we call the process of planting more trees in a deforested area?",
         "type": "short_answer",
         "answers": [
             "reforestation"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: Hard material from trees to make furniture.",
+        "type": "word_scramble",
+        "answer": "WOOD",
+        "decoys": "QJ"
     },
     {
         "q": "We should ______ garbage into biodegradable and non-biodegradable bins.",
@@ -2135,6 +2619,12 @@
             "Glass jar",
             "Metal can"
         ]
+    },
+    {
+        "q": "Unscramble the word: Cars and buses drive on this.",
+        "type": "word_scramble",
+        "answer": "ROAD",
+        "decoys": "PZ"
     },
     {
         "q": "Which of these helps reduce air pollution?",
@@ -2236,6 +2726,21 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A cow eats grass and gives us [0] to drink.",
+        "dropdowns": [
+            {
+                "correct": "milk",
+                "options": [
+                    "juice",
+                    "milk",
+                    "tea"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these is a living part of an ecosystem?",
         "type": "mcq",
         "o": [
@@ -2264,6 +2769,21 @@
             "wash",
             "store",
             "fold"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "We buy fresh fruits and vegetables from the [0].",
+        "dropdowns": [
+            {
+                "correct": "market",
+                "options": [
+                    "park",
+                    "hospital",
+                    "market"
+                ]
+            }
         ]
     },
     {
@@ -2329,6 +2849,15 @@
             "Polyester",
             "Rayon"
         ]
+    },
+    {
+        "q": "Match our sense organs to what they do.",
+        "type": "memory",
+        "pairs": {
+            "Eyes": "Seeing",
+            "Ears": "Hearing",
+            "Nose": "Smelling"
+        }
     },
     {
         "q": "Which of these helps prevent soil erosion?",
@@ -2518,6 +3047,18 @@
         "correct": "False"
     },
     {
+        "q": "Swipe RIGHT for Outdoor games, LEFT for Indoor games.",
+        "type": "swipe_cards",
+        "left_label": "Indoor",
+        "right_label": "Outdoor",
+        "cards": {
+            "Ludo": "left",
+            "Football": "right",
+            "Chess": "left",
+            "Cricket": "right"
+        }
+    },
+    {
         "q": "Which of these is a natural way to get water without a tap?",
         "type": "mcq",
         "o": [
@@ -2526,6 +3067,18 @@
             "Bucket",
             "Pipe"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for items we Recycle, LEFT for items we throw in Trash.",
+        "type": "swipe_cards",
+        "left_label": "Trash",
+        "right_label": "Recycle",
+        "cards": {
+            "Plastic bottle": "right",
+            "Banana peel": "left",
+            "Cardboard box": "right",
+            "Used tissue": "left"
+        }
     },
     {
         "q": "Which of these is a man-made source of light at night?",
@@ -2547,6 +3100,13 @@
         "isCaseSensitive": false
     },
     {
+        "q": "How many senses do humans generally have?",
+        "type": "slider",
+        "min": 3,
+        "max": 8,
+        "correct": 5
+    },
+    {
         "q": "We should ______ old clothes to someone who needs them.",
         "type": "fill_blank",
         "answers": [
@@ -2564,6 +3124,18 @@
         "q": "A waterfall is a man-made feature.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "Which of these is NOT a healthy habit?",
+        "type": "odd_one_out",
+        "options": [
+            "Brushing teeth",
+            "Bathing daily",
+            "Washing hands",
+            "Eating mud",
+            "Sleeping well"
+        ],
+        "correct": "Eating mud"
     },
     {
         "q": "Which of these is a natural resource used to make paper?",
@@ -2628,6 +3200,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: You open and close this to enter a room.",
+        "type": "word_scramble",
+        "answer": "DOOR",
+        "decoys": "XC"
+    },
+    {
         "q": "Which of these is a natural resource we breathe?",
         "type": "mcq",
         "o": [
@@ -2666,6 +3244,42 @@
         "correct": "False"
     },
     {
+        "q": "Unscramble the word: An animal that swims with fins.",
+        "type": "word_scramble",
+        "answer": "FISH",
+        "decoys": "ZM"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Little bees collect nectar from flowers to make sweet [0].",
+        "dropdowns": [
+            {
+                "correct": "honey",
+                "options": [
+                    "sugar",
+                    "honey",
+                    "salt"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The sky looks mostly [0] on a clear, sunny morning.",
+        "dropdowns": [
+            {
+                "correct": "blue",
+                "options": [
+                    "red",
+                    "blue",
+                    "green"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these is a natural habitat for fish?",
         "type": "mcq",
         "o": [
@@ -2674,6 +3288,15 @@
             "Tank",
             "Bucket"
         ]
+    },
+    {
+        "q": "Match the object in the sky to when we see it.",
+        "type": "memory",
+        "pairs": {
+            "Sun": "Daytime",
+            "Moon": "Nighttime",
+            "Stars": "Twinkling"
+        }
     },
     {
         "q": "Which of these is a man-made object that uses solar energy?",
@@ -2726,6 +3349,15 @@
         ]
     },
     {
+        "q": "Match the vehicle to where it moves.",
+        "type": "memory",
+        "pairs": {
+            "Bus": "Road",
+            "Train": "Tracks",
+            "Airplane": "Sky"
+        }
+    },
+    {
         "q": "Which of these is a community space for emergency services?",
         "type": "mcq",
         "o": [
@@ -2734,6 +3366,18 @@
             "Cinema",
             "Restaurant"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Safe actions, LEFT for Unsafe actions.",
+        "type": "swipe_cards",
+        "left_label": "Unsafe",
+        "right_label": "Safe",
+        "cards": {
+            "Using zebra crossing": "right",
+            "Playing with fire": "left",
+            "Holding an adult's hand": "right",
+            "Running on the road": "left"
+        }
     },
     {
         "q": "What do we call animals that eat only meat?",
@@ -2763,6 +3407,13 @@
         "q": "An ecosystem includes both living and non-living things.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "How many hours are there in one whole day?",
+        "type": "slider",
+        "min": 12,
+        "max": 30,
+        "correct": 24
     },
     {
         "q": "Which of these is a natural disaster caused by shaking of the ground?",
@@ -2811,6 +3462,18 @@
         ]
     },
     {
+        "q": "Which of these does NOT belong in a classroom?",
+        "type": "odd_one_out",
+        "options": [
+            "Desk",
+            "Blackboard",
+            "Chalk",
+            "Bed",
+            "Eraser"
+        ],
+        "correct": "Bed"
+    },
+    {
         "q": "A tsunami is a large ocean wave caused by an earthquake.",
         "type": "true_false",
         "correct": "True"
@@ -2843,6 +3506,12 @@
             "omnivorous"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: A small body of still water for frogs and fish.",
+        "type": "word_scramble",
+        "answer": "POND",
+        "decoys": "KQ"
     },
     {
         "q": "We should ______ the switch when not using an appliance.",
@@ -2891,6 +3560,42 @@
         ]
     },
     {
+        "q": "Unscramble the word: The big white object we see in the night sky.",
+        "type": "word_scramble",
+        "answer": "MOON",
+        "decoys": "VB"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "After playing all day, we rest and sleep in our [0].",
+        "dropdowns": [
+            {
+                "correct": "bedroom",
+                "options": [
+                    "kitchen",
+                    "bedroom",
+                    "garage"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Long passenger trains travel fast on railway [0].",
+        "dropdowns": [
+            {
+                "correct": "tracks",
+                "options": [
+                    "roads",
+                    "tracks",
+                    "water"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Match the following community spaces with their purpose:",
         "type": "match",
         "left": [
@@ -2905,6 +3610,27 @@
             "Put out fires",
             "Maintain order"
         ]
+    },
+    {
+        "q": "Match the item to whether it is Natural or Man-made.",
+        "type": "memory",
+        "pairs": {
+            "Tree": "Natural",
+            "Car": "Man-made",
+            "River": "Natural"
+        }
+    },
+    {
+        "q": "Swipe RIGHT for Liquids (flows), LEFT for Solids (hard).",
+        "type": "swipe_cards",
+        "left_label": "Solid",
+        "right_label": "Liquid",
+        "cards": {
+            "Ice block": "left",
+            "Drinking water": "right",
+            "Wood log": "left",
+            "Milk": "right"
+        }
     },
     {
         "q": "Match the following animals with their habitats:",
@@ -3053,6 +3779,18 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Heavy things, LEFT for Light things.",
+        "type": "swipe_cards",
+        "left_label": "Light",
+        "right_label": "Heavy",
+        "cards": {
+            "Bird feather": "left",
+            "Big elephant": "right",
+            "School bus": "right",
+            "Cotton ball": "left"
+        }
+    },
+    {
         "q": "Which of these is a natural phenomenon that causes soil enrichment?",
         "type": "mcq",
         "o": [
@@ -3087,9 +3825,28 @@
         ]
     },
     {
+        "q": "How many fingers are there on one human hand?",
+        "type": "slider",
+        "min": 3,
+        "max": 7,
+        "correct": 5
+    },
+    {
         "q": "Chlorofluorocarbons (CFCs) harm the ozone layer.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Which of these does NOT belong in a kitchen?",
+        "type": "odd_one_out",
+        "options": [
+            "Stove",
+            "Spoon",
+            "Plate",
+            "Soap for bathing",
+            "Pan"
+        ],
+        "correct": "Soap for bathing"
     },
     {
         "q": "Which of these is a renewable source of energy that uses moving water?",
@@ -3100,6 +3857,12 @@
             "Wind power",
             "Geothermal power"
         ]
+    },
+    {
+        "q": "Unscramble the word: A twinkling point of light in the night sky.",
+        "type": "word_scramble",
+        "answer": "STAR",
+        "decoys": "GZ"
     },
     {
         "q": "Which of these is a natural indicator of air pollution?",
@@ -3168,6 +3931,12 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Unscramble the word: The green part of a plant attached to a branch.",
+        "type": "word_scramble",
+        "answer": "LEAF",
+        "decoys": "UQ"
+    },
+    {
         "q": "A ______ is a community space where food is grown for the community.",
         "type": "fill_blank",
         "answers": [
@@ -3197,6 +3966,21 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A pet dog usually sleeps outside in a small house called a [0].",
+        "dropdowns": [
+            {
+                "correct": "kennel",
+                "options": [
+                    "nest",
+                    "kennel",
+                    "web"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these is a natural habitat for mangrove trees?",
         "type": "mcq",
         "o": [
@@ -3213,6 +3997,30 @@
             "methane"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "To keep the air fresh, we should plant more [0] everywhere.",
+        "dropdowns": [
+            {
+                "correct": "trees",
+                "options": [
+                    "cars",
+                    "factories",
+                    "trees"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the Earth-saving action to its benefit.",
+        "type": "memory",
+        "pairs": {
+            "Planting": "More trees",
+            "Turning off": "Saves lights",
+            "Closing taps": "Saves water"
+        }
     },
     {
         "q": "We should ______ the use of chemical fertilizers to protect soil.",
@@ -3290,6 +4098,15 @@
         ]
     },
     {
+        "q": "Match the animal to the sound it makes.",
+        "type": "memory",
+        "pairs": {
+            "Dog": "Barks",
+            "Cat": "Meows",
+            "Cow": "Moos"
+        }
+    },
+    {
         "q": "Which of these is a renewable resource that comes from living things?",
         "type": "mcq",
         "o": [
@@ -3322,9 +4139,28 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Fast vehicles, LEFT for Slow animals.",
+        "type": "swipe_cards",
+        "left_label": "Slow",
+        "right_label": "Fast",
+        "cards": {
+            "Airplane": "right",
+            "Snail": "left",
+            "Train": "right",
+            "Tortoise": "left"
+        }
+    },
+    {
         "q": "Eutrophication is caused by excess nutrients in water bodies.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "How many wheels does a bicycle have?",
+        "type": "slider",
+        "min": 1,
+        "max": 4,
+        "correct": 2
     },
     {
         "q": "Which of these is a natural source of methane?",
@@ -3367,6 +4203,24 @@
             "restaurant",
             "hotel"
         ]
+    },
+    {
+        "q": "Which of these does NOT travel on land?",
+        "type": "odd_one_out",
+        "options": [
+            "Car",
+            "Bus",
+            "Train",
+            "Boat",
+            "Bicycle"
+        ],
+        "correct": "Boat"
+    },
+    {
+        "q": "Unscramble the word: We plant this in the ground to grow a flower.",
+        "type": "word_scramble",
+        "answer": "SEED",
+        "decoys": "JX"
     },
     {
         "q": "Solar panels convert sunlight directly into electricity.",
@@ -3480,6 +4334,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: A hard, solid piece of the earth's surface.",
+        "type": "word_scramble",
+        "answer": "ROCK",
+        "decoys": "WZ"
+    },
+    {
         "q": "Which of these is a natural cause of climate change?",
         "type": "mcq",
         "o": [
@@ -3487,6 +4347,21 @@
             "Burning coal",
             "Driving cars",
             "Factory smoke"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The [0] helps us learn new lessons at school.",
+        "dropdowns": [
+            {
+                "correct": "teacher",
+                "options": [
+                    "baker",
+                    "teacher",
+                    "policeman"
+                ]
+            }
         ]
     },
     {
@@ -3520,6 +4395,21 @@
         "correct": "True"
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Before eating food, we must wash our hands with water and [0].",
+        "dropdowns": [
+            {
+                "correct": "soap",
+                "options": [
+                    "mud",
+                    "oil",
+                    "soap"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these is a fossil fuel formed from ancient plants?",
         "type": "mcq",
         "o": [
@@ -3528,6 +4418,15 @@
             "Lithium",
             "Aluminum"
         ]
+    },
+    {
+        "q": "Match the words with their opposites.",
+        "type": "memory",
+        "pairs": {
+            "Hot": "Cold",
+            "Day": "Night",
+            "Clean": "Dirty"
+        }
     },
     {
         "q": "Which of these is a natural way to cool a building without electricity?",
@@ -3576,6 +4475,18 @@
             "Air",
             "Sunlight"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for School items, LEFT for Home items.",
+        "type": "swipe_cards",
+        "left_label": "Home",
+        "right_label": "School",
+        "cards": {
+            "Blackboard": "right",
+            "Bed": "left",
+            "Chalk": "right",
+            "Kitchen stove": "left"
+        }
     },
     {
         "q": "Which of these is a man-made material that takes the longest to decompose?",
@@ -3658,6 +4569,18 @@
             "Generates solar electricity",
             "Converts waste to fuel"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Wild Animals, LEFT for Pets.",
+        "type": "swipe_cards",
+        "left_label": "Pet",
+        "right_label": "Wild Animal",
+        "cards": {
+            "Lion": "right",
+            "Dog": "left",
+            "Tiger": "right",
+            "Cat": "left"
+        }
     },
     {
         "q": "Match the following pollutants with their sources:",

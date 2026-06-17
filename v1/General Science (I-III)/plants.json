@@ -20,6 +20,13 @@
         "isCaseSensitive": false
     },
     {
+        "q": "How many legs does an insect usually have?",
+        "type": "slider",
+        "min": 2,
+        "max": 10,
+        "correct": 6
+    },
+    {
         "q": "Which of these is NOT a part of a plant?",
         "type": "mcq",
         "o": [
@@ -104,6 +111,16 @@
         ]
     },
     {
+        "q": "Match the plant parts to their jobs.",
+        "type": "memory",
+        "pairs": {
+            "Root": "Absorbs water from the soil",
+            "Leaf": "Makes food for the plant",
+            "Flower": "Grows into a fruit",
+            "Stem": "Holds the plant straight"
+        }
+    },
+    {
         "q": "What do animals breathe in that plants give out?",
         "type": "short_answer",
         "answers": [
@@ -111,6 +128,29 @@
             "air"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT a pet animal?",
+        "type": "odd_one_out",
+        "options": [
+            "Dog",
+            "Cat",
+            "Lion",
+            "Hamster"
+        ],
+        "correct": "Lion"
+    },
+    {
+        "q": "Swipe LEFT for Herbivore (plant eater), RIGHT for Carnivore (meat eater).",
+        "type": "swipe_cards",
+        "left_label": "Herbivore",
+        "right_label": "Carnivore",
+        "cards": {
+            "Cow": "left",
+            "Lion": "right",
+            "Sheep": "left",
+            "Tiger": "right"
+        }
     },
     {
         "q": "Which of these is a wild animal?",
@@ -121,6 +161,12 @@
             "Goat",
             "Hen"
         ]
+    },
+    {
+        "q": "Unscramble the word: the part of the plant that grows under the soil.",
+        "type": "word_scramble",
+        "answer": "ROOT",
+        "decoys": "ZX"
     },
     {
         "q": "The thick, brown part of a tree is called the ______.",
@@ -213,6 +259,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The [0] fixes the plant in the soil, and the [1] holds the branches.",
+        "dropdowns": [
+            {
+                "correct": "root",
+                "options": [
+                    "root",
+                    "leaf",
+                    "flower"
+                ]
+            },
+            {
+                "correct": "stem",
+                "options": [
+                    "stem",
+                    "seed",
+                    "fruit"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Cows, goats, and horses eat grass. They are ______ animals.",
         "type": "fill_blank",
         "answers": [
@@ -241,6 +310,13 @@
             "Climber",
             "Herb"
         ]
+    },
+    {
+        "q": "How many legs does a spider have?",
+        "type": "slider",
+        "min": 4,
+        "max": 12,
+        "correct": 8
     },
     {
         "q": "Match the animal to its home:",
@@ -276,6 +352,16 @@
             "leaf"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Match the animal to its natural habitat.",
+        "type": "memory",
+        "pairs": {
+            "Camel": "Desert",
+            "Whale": "Ocean",
+            "Tiger": "Forest",
+            "Frog": "Pond"
+        }
     },
     {
         "q": "Which animal is the fastest runner on land?",
@@ -389,6 +475,29 @@
         ]
     },
     {
+        "q": "Which of these is NOT a water animal?",
+        "type": "odd_one_out",
+        "options": [
+            "Fish",
+            "Shark",
+            "Dolphin",
+            "Eagle"
+        ],
+        "correct": "Eagle"
+    },
+    {
+        "q": "Swipe LEFT for Wild Animal, RIGHT for Farm Animal.",
+        "type": "swipe_cards",
+        "left_label": "Wild Animal",
+        "right_label": "Farm Animal",
+        "cards": {
+            "Zebra": "left",
+            "Cow": "right",
+            "Bear": "left",
+            "Pig": "right"
+        }
+    },
+    {
         "q": "Frogs have moist skin.",
         "type": "true_false",
         "correct": "True"
@@ -417,6 +526,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: a small object produced by a plant to grow a new one.",
+        "type": "word_scramble",
+        "answer": "SEED",
+        "decoys": "QK"
+    },
+    {
         "q": "Which of these animals is kept as a pet and can talk?",
         "type": "mcq",
         "o": [
@@ -424,6 +539,29 @@
             "Sparrow",
             "Crow",
             "Eagle"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A tall and strong plant is called a [0], while a small plant with a soft green stem is an [1].",
+        "dropdowns": [
+            {
+                "correct": "tree",
+                "options": [
+                    "tree",
+                    "herb",
+                    "creeper"
+                ]
+            },
+            {
+                "correct": "herb",
+                "options": [
+                    "shrub",
+                    "herb",
+                    "tree"
+                ]
+            }
         ]
     },
     {
@@ -502,6 +640,13 @@
         ]
     },
     {
+        "q": "How many wings does a bird normally have?",
+        "type": "slider",
+        "min": 1,
+        "max": 6,
+        "correct": 2
+    },
+    {
         "q": "Where do fish live?",
         "type": "short_answer",
         "answers": [
@@ -548,6 +693,27 @@
         ]
     },
     {
+        "q": "Match the animal to its home.",
+        "type": "memory",
+        "pairs": {
+            "Bird": "Nest",
+            "Bee": "Hive",
+            "Rabbit": "Burrow",
+            "Spider": "Web"
+        }
+    },
+    {
+        "q": "Which of these is NOT a fruit?",
+        "type": "odd_one_out",
+        "options": [
+            "Apple",
+            "Banana",
+            "Potato",
+            "Mango"
+        ],
+        "correct": "Potato"
+    },
+    {
         "q": "What do we call plants that live for many years and have a thick, hard trunk?",
         "type": "short_answer",
         "answers": [
@@ -583,6 +749,18 @@
         "q": "All birds can fly.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "Swipe LEFT for Climber, RIGHT for Creeper.",
+        "type": "swipe_cards",
+        "left_label": "Climber",
+        "right_label": "Creeper",
+        "cards": {
+            "Grapevine": "left",
+            "Pumpkin": "right",
+            "Money plant": "left",
+            "Watermelon": "right"
+        }
     },
     {
         "q": "Match the plant part to what it does:",
@@ -774,6 +952,12 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Unscramble the word: the flat, green part of a plant.",
+        "type": "word_scramble",
+        "answer": "LEAF",
+        "decoys": "BQ"
+    },
+    {
         "q": "Which of these is a water plant?",
         "type": "mcq",
         "o": [
@@ -819,6 +1003,29 @@
             "grass"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Bees collect sweet juice from a [0] and make [1] in their hive.",
+        "dropdowns": [
+            {
+                "correct": "flower",
+                "options": [
+                    "root",
+                    "flower",
+                    "leaf"
+                ]
+            },
+            {
+                "correct": "honey",
+                "options": [
+                    "milk",
+                    "honey",
+                    "water"
+                ]
+            }
+        ]
     },
     {
         "q": "We get silk from the ______.",
@@ -873,6 +1080,23 @@
             "Fish and Berries",
             "Nectar"
         ]
+    },
+    {
+        "q": "How many main things does a plant need to grow well (sunlight, air, water, soil)?",
+        "type": "slider",
+        "min": 1,
+        "max": 8,
+        "correct": 4
+    },
+    {
+        "q": "Match the animal to its baby.",
+        "type": "memory",
+        "pairs": {
+            "Dog": "Puppy",
+            "Cat": "Kitten",
+            "Cow": "Calf",
+            "Hen": "Chick"
+        }
     },
     {
         "q": "A tadpole breathes through gills.",
@@ -1021,6 +1245,29 @@
         ]
     },
     {
+        "q": "Which of these do plants NOT need to grow?",
+        "type": "odd_one_out",
+        "options": [
+            "Water",
+            "Sunlight",
+            "Soil",
+            "Candy"
+        ],
+        "correct": "Candy"
+    },
+    {
+        "q": "Swipe LEFT for plants that give us Food, RIGHT for trees that give us Wood.",
+        "type": "swipe_cards",
+        "left_label": "Food",
+        "right_label": "Wood",
+        "cards": {
+            "Apple tree": "left",
+            "Tomato plant": "left",
+            "Teak tree": "right",
+            "Pine tree": "right"
+        }
+    },
+    {
         "q": "Which animal helps farmers pull heavy loads?",
         "type": "mcq",
         "o": [
@@ -1029,6 +1276,12 @@
             "Cat",
             "Hen"
         ]
+    },
+    {
+        "q": "Unscramble the word: the dirt where plants grow.",
+        "type": "word_scramble",
+        "answer": "SOIL",
+        "decoys": "YM"
     },
     {
         "q": "Cactus plants need a lot of water to survive.",
@@ -1166,6 +1419,29 @@
         "correct": "False"
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A [0] grows into a new plant when it gets the right amount of [1].",
+        "dropdowns": [
+            {
+                "correct": "seed",
+                "options": [
+                    "leaf",
+                    "seed",
+                    "fruit"
+                ]
+            },
+            {
+                "correct": "water",
+                "options": [
+                    "milk",
+                    "juice",
+                    "water"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Match the animal to its movement:",
         "type": "match",
         "left": [
@@ -1208,6 +1484,13 @@
             "Cheetah",
             "Leopard"
         ]
+    },
+    {
+        "q": "How many colors are in a rainbow?",
+        "type": "slider",
+        "min": 3,
+        "max": 10,
+        "correct": 7
     },
     {
         "q": "Leather comes from the ______ of animals like cattle and goats.",
@@ -1282,6 +1565,16 @@
         ]
     },
     {
+        "q": "Match the bird to its special feature.",
+        "type": "memory",
+        "pairs": {
+            "Duck": "Webbed feet for swimming",
+            "Parrot": "Curved beak for eating nuts",
+            "Woodpecker": "Strong beak for drilling wood",
+            "Penguin": "Uses wings to swim, not fly"
+        }
+    },
+    {
         "q": "Leaves of touch-me-not plant close when touched.",
         "type": "true_false",
         "correct": "True"
@@ -1295,6 +1588,17 @@
             "Omnivores",
             "Scavengers"
         ]
+    },
+    {
+        "q": "Which of these birds cannot fly?",
+        "type": "odd_one_out",
+        "options": [
+            "Sparrow",
+            "Crow",
+            "Ostrich",
+            "Pigeon"
+        ],
+        "correct": "Ostrich"
     },
     {
         "q": "Match the animal to its body covering:",
@@ -1313,6 +1617,18 @@
         ]
     },
     {
+        "q": "Swipe LEFT for Edible Leaves, RIGHT for Edible Roots.",
+        "type": "swipe_cards",
+        "left_label": "Leaves",
+        "right_label": "Roots",
+        "cards": {
+            "Spinach": "left",
+            "Carrot": "right",
+            "Cabbage": "left",
+            "Radish": "right"
+        }
+    },
+    {
         "q": "What is a baby horse called?",
         "type": "short_answer",
         "answers": [
@@ -1320,6 +1636,12 @@
             "colt"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: a very large, tall plant with a woody trunk.",
+        "type": "word_scramble",
+        "answer": "TREE",
+        "decoys": "VP"
     },
     {
         "q": "Which plant part is usually sweet and contains seeds?",
@@ -1358,6 +1680,29 @@
         "q": "Tigers are herbivores.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Leaves are usually [0] in color because they contain [1].",
+        "dropdowns": [
+            {
+                "correct": "green",
+                "options": [
+                    "blue",
+                    "green",
+                    "red"
+                ]
+            },
+            {
+                "correct": "chlorophyll",
+                "options": [
+                    "water",
+                    "chlorophyll",
+                    "nectar"
+                ]
+            }
+        ]
     },
     {
         "q": "What do we call trees that shed their leaves once a year?",
@@ -1402,6 +1747,13 @@
         ]
     },
     {
+        "q": "How many humps does a Bactrian camel have?",
+        "type": "slider",
+        "min": 1,
+        "max": 4,
+        "correct": 2
+    },
+    {
         "q": "Which of these animals sleeps while standing up?",
         "type": "mcq",
         "o": [
@@ -1410,6 +1762,16 @@
             "Dog",
             "Rabbit"
         ]
+    },
+    {
+        "q": "Match the animal to its sound.",
+        "type": "memory",
+        "pairs": {
+            "Lion": "Roar",
+            "Dog": "Bark",
+            "Duck": "Quack",
+            "Cow": "Moo"
+        }
     },
     {
         "q": "Dogs are carnivores.",
@@ -1470,6 +1832,17 @@
             "Ostrich",
             "Hen"
         ]
+    },
+    {
+        "q": "Which of these is NOT a seed we eat?",
+        "type": "odd_one_out",
+        "options": [
+            "Rice",
+            "Wheat",
+            "Corn",
+            "Wood"
+        ],
+        "correct": "Wood"
     },
     {
         "q": "The green color of leaves helps them to trap ______.",
@@ -1637,6 +2010,18 @@
         "correct": "False"
     },
     {
+        "q": "Swipe LEFT for Fruits with ONE seed, RIGHT for Fruits with MANY seeds.",
+        "type": "swipe_cards",
+        "left_label": "One Seed",
+        "right_label": "Many Seeds",
+        "cards": {
+            "Mango": "left",
+            "Papaya": "right",
+            "Peach": "left",
+            "Watermelon": "right"
+        }
+    },
+    {
         "q": "Which animal is known to have the best sense of smell?",
         "type": "mcq",
         "o": [
@@ -1748,6 +2133,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: the hard outer covering of a tree trunk.",
+        "type": "word_scramble",
+        "answer": "BARK",
+        "decoys": "JX"
+    },
+    {
         "q": "The sweet liquid that flowers produce to attract insects is called ______.",
         "type": "fill_blank",
         "answers": [
@@ -1768,6 +2159,29 @@
             "Cat",
             "Parrot",
             "Rabbit"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Animals that live with us in our houses are called [0] animals, and we must treat them with [1].",
+        "dropdowns": [
+            {
+                "correct": "pet",
+                "options": [
+                    "wild",
+                    "farm",
+                    "pet"
+                ]
+            },
+            {
+                "correct": "care",
+                "options": [
+                    "care",
+                    "anger",
+                    "stones"
+                ]
+            }
         ]
     },
     {
@@ -1793,6 +2207,13 @@
         "q": "Ants live together in a group called a colony.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "How many legs does a dog have?",
+        "type": "slider",
+        "min": 2,
+        "max": 8,
+        "correct": 4
     },
     {
         "q": "Which part of the plant transports water to leaves?",
@@ -1852,6 +2273,16 @@
         "correct": "False"
     },
     {
+        "q": "Match the living things to how they help each other.",
+        "type": "memory",
+        "pairs": {
+            "Plants give": "Oxygen for animals to breathe",
+            "Animals give": "Carbon dioxide for plants",
+            "Bees help in": "Pollinating flowers",
+            "Birds help in": "Spreading seeds"
+        }
+    },
+    {
         "q": "Match the animal to its adaptation:",
         "type": "match",
         "left": [
@@ -1900,6 +2331,17 @@
             "Vulture",
             "Ostrich"
         ]
+    },
+    {
+        "q": "Which of these is NOT a product we get from plants?",
+        "type": "odd_one_out",
+        "options": [
+            "Paper",
+            "Rubber",
+            "Cotton",
+            "Plastic"
+        ],
+        "correct": "Plastic"
     },
     {
         "q": "All insects have six legs.",
@@ -1986,6 +2428,18 @@
         ]
     },
     {
+        "q": "Swipe LEFT for Plant Eaters, RIGHT for Meat Eaters.",
+        "type": "swipe_cards",
+        "left_label": "Plant Eater",
+        "right_label": "Meat Eater",
+        "cards": {
+            "Elephant": "left",
+            "Crocodile": "right",
+            "Deer": "left",
+            "Wolf": "right"
+        }
+    },
+    {
         "q": "The stalk that attaches a leaf to the stem is called the ______.",
         "type": "fill_blank",
         "answers": [
@@ -2040,6 +2494,12 @@
             "Moist skin",
             "Gills for breathing"
         ]
+    },
+    {
+        "q": "Unscramble the word: hard material from the trunk of a tree.",
+        "type": "word_scramble",
+        "answer": "WOOD",
+        "decoys": "QZ"
     },
     {
         "q": "Name the process by which insects help transfer pollen between flowers.",
@@ -2109,6 +2569,29 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Plants release a gas called [0] which animals need to breathe, and animals breathe out [1] which plants use.",
+        "dropdowns": [
+            {
+                "correct": "oxygen",
+                "options": [
+                    "oxygen",
+                    "smoke",
+                    "nitrogen"
+                ]
+            },
+            {
+                "correct": "carbon dioxide",
+                "options": [
+                    "helium",
+                    "carbon dioxide",
+                    "oxygen"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these animals is an arachnid?",
         "type": "mcq",
         "o": [
@@ -2132,6 +2615,13 @@
         ]
     },
     {
+        "q": "How many antennae (feelers) does a butterfly have on its head?",
+        "type": "slider",
+        "min": 1,
+        "max": 6,
+        "correct": 2
+    },
+    {
         "q": "Which animal uses echolocation to find its prey?",
         "type": "mcq",
         "o": [
@@ -2145,6 +2635,16 @@
         "q": "Sharks have bones made of cartilage, not hard bone.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Match the plant type to its example.",
+        "type": "memory",
+        "pairs": {
+            "Tree": "Mango tree",
+            "Shrub": "Rose plant",
+            "Herb": "Mint",
+            "Creeper": "Pumpkin"
+        }
     },
     {
         "q": "Match the leaf venation to the plant type:",
@@ -2171,6 +2671,17 @@
             "Perennial",
             "Shrub"
         ]
+    },
+    {
+        "q": "Which of these is NOT an insect?",
+        "type": "odd_one_out",
+        "options": [
+            "Ant",
+            "Bee",
+            "Mosquito",
+            "Frog"
+        ],
+        "correct": "Frog"
     },
     {
         "q": "What do we call animals that eat dead and decaying matter?",
@@ -2214,6 +2725,18 @@
             "4"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe LEFT for animals with Wings, RIGHT for animals with NO Wings.",
+        "type": "swipe_cards",
+        "left_label": "Wings",
+        "right_label": "No Wings",
+        "cards": {
+            "Butterfly": "left",
+            "Earthworm": "right",
+            "Eagle": "left",
+            "Snail": "right"
+        }
     },
     {
         "q": "Which of these is a biennial plant?",
@@ -2270,6 +2793,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: a very small plant with a soft green stem.",
+        "type": "word_scramble",
+        "answer": "HERB",
+        "decoys": "ZX"
+    },
+    {
         "q": "What is the green pigment in plants called?",
         "type": "short_answer",
         "answers": [
@@ -2301,6 +2830,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A [0] has a bushy appearance with hard woody stems, while a [1] needs support to climb up.",
+        "dropdowns": [
+            {
+                "correct": "shrub",
+                "options": [
+                    "tree",
+                    "shrub",
+                    "herb"
+                ]
+            },
+            {
+                "correct": "climber",
+                "options": [
+                    "creeper",
+                    "climber",
+                    "tree"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which animal has the largest eyes in the animal kingdom?",
         "type": "mcq",
         "o": [
@@ -2314,6 +2866,13 @@
         "q": "Evergreen trees keep their leaves all year round.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "How many tentacles (arms) does an octopus have?",
+        "type": "slider",
+        "min": 4,
+        "max": 12,
+        "correct": 8
     },
     {
         "q": "What is the outermost layer of a plant stem called?",
@@ -2364,6 +2923,16 @@
         "correct": "False"
     },
     {
+        "q": "Match the living thing to its special feature.",
+        "type": "memory",
+        "pairs": {
+            "Camel": "Stores fat in its hump",
+            "Cactus": "Stores water in its thick stem",
+            "Fish": "Breathes underwater through gills",
+            "Frog": "Can live both on land and in water"
+        }
+    },
+    {
         "q": "Match the plant product to the part it comes from:",
         "type": "match",
         "left": [
@@ -2380,12 +2949,35 @@
         ]
     },
     {
+        "q": "Which of these would you NOT find in a hot desert?",
+        "type": "odd_one_out",
+        "options": [
+            "Camel",
+            "Cactus",
+            "Sand",
+            "Polar Bear"
+        ],
+        "correct": "Polar Bear"
+    },
+    {
         "q": "What is the term for an animal that lacks a backbone?",
         "type": "short_answer",
         "answers": [
             "invertebrate"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe LEFT for lives in Water, RIGHT for lives on Land.",
+        "type": "swipe_cards",
+        "left_label": "Water",
+        "right_label": "Land",
+        "cards": {
+            "Shark": "left",
+            "Horse": "right",
+            "Octopus": "left",
+            "Elephant": "right"
+        }
     },
     {
         "q": "Which of these plants has aerial roots?",
@@ -2446,6 +3038,12 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Unscramble the word: an animal that swims and breathes through gills.",
+        "type": "word_scramble",
+        "answer": "FISH",
+        "decoys": "WQ"
+    },
+    {
         "q": "The thick, fleshy leaves of a cactus store ______.",
         "type": "fill_blank",
         "answers": [
@@ -2456,6 +3054,29 @@
             "food",
             "salt",
             "sugar"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The [0] is known as the ship of the desert, and it often eats [1] plants.",
+        "dropdowns": [
+            {
+                "correct": "camel",
+                "options": [
+                    "horse",
+                    "camel",
+                    "donkey"
+                ]
+            },
+            {
+                "correct": "thorny",
+                "options": [
+                    "thorny",
+                    "aquatic",
+                    "snowy"
+                ]
+            }
         ]
     },
     {
@@ -2600,6 +3221,23 @@
         ]
     },
     {
+        "q": "How many long white tusks does an elephant usually have?",
+        "type": "slider",
+        "min": 1,
+        "max": 4,
+        "correct": 2
+    },
+    {
+        "q": "Match the farm animal to the useful thing it gives us.",
+        "type": "memory",
+        "pairs": {
+            "Cow": "Milk",
+            "Hen": "Eggs",
+            "Sheep": "Wool",
+            "Honeybee": "Honey"
+        }
+    },
+    {
         "q": "Plants release oxygen during the process of photosynthesis.",
         "type": "true_false",
         "correct": "True"
@@ -2621,6 +3259,17 @@
             "Ginger",
             "Onion"
         ]
+    },
+    {
+        "q": "Which of these things do we get from a PLANT, not an animal?",
+        "type": "odd_one_out",
+        "options": [
+            "Milk",
+            "Silk",
+            "Leather",
+            "Cotton"
+        ],
+        "correct": "Cotton"
     },
     {
         "q": "The hard covering of a seed is called the ______.",
@@ -2682,6 +3331,18 @@
             "flowers",
             "branches"
         ]
+    },
+    {
+        "q": "Swipe LEFT for living things that MAKE their own food, RIGHT for things that HUNT for food.",
+        "type": "swipe_cards",
+        "left_label": "Makes Food",
+        "right_label": "Hunts Food",
+        "cards": {
+            "Grass": "left",
+            "Tiger": "right",
+            "Mango tree": "left",
+            "Eagle": "right"
+        }
     },
     {
         "q": "Match the type of animal by its diet:",
@@ -2794,6 +3455,12 @@
             "photosynthesis",
             "respiration"
         ]
+    },
+    {
+        "q": "Unscramble the word: an animal covered in feathers.",
+        "type": "word_scramble",
+        "answer": "BIRD",
+        "decoys": "KZ"
     },
     {
         "q": "Which of these is a warm-blooded animal?",
@@ -2910,6 +3577,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "We should [0] plants because they give us [1] to breathe.",
+        "dropdowns": [
+            {
+                "correct": "grow",
+                "options": [
+                    "cut",
+                    "grow",
+                    "burn"
+                ]
+            },
+            {
+                "correct": "fresh air",
+                "options": [
+                    "fresh air",
+                    "dust",
+                    "smoke"
+                ]
+            }
+        ]
+    },
+    {
         "q": "The sharp, pointed structures on a cactus are actually modified ______.",
         "type": "fill_blank",
         "answers": [
@@ -2921,6 +3611,16 @@
             "flowers",
             "thorns"
         ]
+    },
+    {
+        "q": "Match the animal to how it moves.",
+        "type": "memory",
+        "pairs": {
+            "Bird": "Flies in the sky",
+            "Fish": "Swims in the water",
+            "Snake": "Slithers on the ground",
+            "Kangaroo": "Hops on its back legs"
+        }
     },
     {
         "q": "Which plant tissue is responsible for the transport of water and minerals from roots to leaves?",
@@ -2976,9 +3676,27 @@
         ]
     },
     {
+        "q": "Swipe LEFT for Fast animals, RIGHT for Slow animals.",
+        "type": "swipe_cards",
+        "left_label": "Fast Animal",
+        "right_label": "Slow Animal",
+        "cards": {
+            "Cheetah": "left",
+            "Snail": "right",
+            "Horse": "left",
+            "Tortoise": "right"
+        }
+    },
+    {
         "q": "All mammals give birth to live young.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "Unscramble the word: a large, strong wild animal with thick fur.",
+        "type": "word_scramble",
+        "answer": "BEAR",
+        "decoys": "QX"
     },
     {
         "q": "What type of symbiotic relationship exists between a clownfish and a sea anemone?",
@@ -2989,6 +3707,12 @@
             "Parasitism",
             "Competition"
         ]
+    },
+    {
+        "q": "Unscramble the word: a home built by a bird.",
+        "type": "word_scramble",
+        "answer": "NEST",
+        "decoys": "ZP"
     },
     {
         "q": "Match the plant hormone to its function:",
@@ -3027,6 +3751,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A [0] is a very large animal with a long [1] called a trunk.",
+        "dropdowns": [
+            {
+                "correct": "elephant",
+                "options": [
+                    "giraffe",
+                    "elephant",
+                    "rhino"
+                ]
+            },
+            {
+                "correct": "nose",
+                "options": [
+                    "tail",
+                    "ear",
+                    "nose"
+                ]
+            }
+        ]
+    },
+    {
         "q": "In a food chain, organisms that feed on primary consumers are called ______ consumers.",
         "type": "fill_blank",
         "answers": [
@@ -3037,6 +3784,29 @@
             "tertiary",
             "quaternary",
             "apex"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Plants absorb water from the [0] using their [1].",
+        "dropdowns": [
+            {
+                "correct": "soil",
+                "options": [
+                    "air",
+                    "sunlight",
+                    "soil"
+                ]
+            },
+            {
+                "correct": "roots",
+                "options": [
+                    "leaves",
+                    "flowers",
+                    "roots"
+                ]
+            }
         ]
     },
     {
@@ -3055,6 +3825,16 @@
         "correct": "True"
     },
     {
+        "q": "Match the animal to its special sleeping or waking habit.",
+        "type": "memory",
+        "pairs": {
+            "Owl": "Awake at night",
+            "Bat": "Hangs upside down to rest",
+            "Bear": "Sleeps through the cold winter",
+            "Rooster": "Crows early in the morning"
+        }
+    },
+    {
         "q": "What is the role of decomposers in an ecosystem?",
         "type": "short_answer",
         "answers": [
@@ -3063,6 +3843,18 @@
             "decompose organic matter"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe LEFT for animals active in the DAY, RIGHT for animals active at NIGHT.",
+        "type": "swipe_cards",
+        "left_label": "Day Active",
+        "right_label": "Night Active",
+        "cards": {
+            "Squirrel": "left",
+            "Owl": "right",
+            "Cow": "left",
+            "Bat": "right"
+        }
     },
     {
         "q": "Which of these is a viviparous plant?",
@@ -3160,9 +3952,21 @@
         ]
     },
     {
+        "q": "Unscramble the word: a wild animal that looks like a large dog.",
+        "type": "word_scramble",
+        "answer": "WOLF",
+        "decoys": "YJ"
+    },
+    {
         "q": "Amphibians have a three-chambered heart.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: a bird that quacks and swims.",
+        "type": "word_scramble",
+        "answer": "DUCK",
+        "decoys": "VK"
     },
     {
         "q": "What is the term for plants that grow on other plants without harming them?",
@@ -3228,6 +4032,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "An [0] is a bird that hunts at night and has big [1].",
+        "dropdowns": [
+            {
+                "correct": "owl",
+                "options": [
+                    "eagle",
+                    "owl",
+                    "parrot"
+                ]
+            },
+            {
+                "correct": "eyes",
+                "options": [
+                    "ears",
+                    "paws",
+                    "eyes"
+                ]
+            }
+        ]
+    },
+    {
         "q": "What is the name of the pigment responsible for red and purple colors in plants?",
         "type": "short_answer",
         "answers": [
@@ -3243,6 +4070,29 @@
             "Anther",
             "Filament",
             "Connective"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Some trees shed their [0] in autumn and grow new ones in [1].",
+        "dropdowns": [
+            {
+                "correct": "leaves",
+                "options": [
+                    "branches",
+                    "roots",
+                    "leaves"
+                ]
+            },
+            {
+                "correct": "spring",
+                "options": [
+                    "winter",
+                    "summer",
+                    "spring"
+                ]
+            }
         ]
     },
     {
@@ -3267,6 +4117,16 @@
             "Penicillium",
             "Agaricus"
         ]
+    },
+    {
+        "q": "Match the type of animal to what it eats.",
+        "type": "memory",
+        "pairs": {
+            "Herbivore": "Eats only plants",
+            "Carnivore": "Eats only meat",
+            "Omnivore": "Eats both plants and meat",
+            "Scavenger": "Eats dead animals"
+        }
     },
     {
         "q": "The waxy layer on leaves that prevents water loss is the ______.",
@@ -3295,6 +4155,18 @@
         "q": "Coral bleaching occurs when corals expel the algae living in their tissues.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Swipe LEFT for Eats Only Plants, RIGHT for Eats Plants and Meat.",
+        "type": "swipe_cards",
+        "left_label": "Only Plants",
+        "right_label": "Plants and Meat",
+        "cards": {
+            "Deer": "left",
+            "Human": "right",
+            "Rabbit": "left",
+            "Bear": "right"
+        }
     },
     {
         "q": "Match the digestive system type to the animal:",
@@ -3345,6 +4217,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: the soft meat of an animal.",
+        "type": "word_scramble",
+        "answer": "MEAT",
+        "decoys": "BZ"
+    },
+    {
         "q": "Which animal has the ability to produce electric shocks for hunting?",
         "type": "mcq",
         "o": [
@@ -3378,6 +4256,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: a shrub is also known as a...",
+        "type": "word_scramble",
+        "answer": "BUSH",
+        "decoys": "XR"
+    },
+    {
         "q": "The xylem tissue in plants is dead at maturity.",
         "type": "true_false",
         "correct": "True"
@@ -3389,6 +4273,29 @@
             "ethology"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "We eat the [0] of a potato plant and the [1] of a cauliflower plant.",
+        "dropdowns": [
+            {
+                "correct": "stem",
+                "options": [
+                    "root",
+                    "stem",
+                    "leaf"
+                ]
+            },
+            {
+                "correct": "flower",
+                "options": [
+                    "fruit",
+                    "flower",
+                    "seed"
+                ]
+            }
+        ]
     },
     {
         "q": "Which layer of the forest is characterized by dense vegetation and high biodiversity?",
@@ -3526,6 +4433,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "An [0] eats both plants and flesh, just like a [1].",
+        "dropdowns": [
+            {
+                "correct": "omnivore",
+                "options": [
+                    "herbivore",
+                    "carnivore",
+                    "omnivore"
+                ]
+            },
+            {
+                "correct": "bear",
+                "options": [
+                    "cow",
+                    "bear",
+                    "lion"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these animals has a hydrostatic skeleton?",
         "type": "mcq",
         "o": [
@@ -3555,6 +4485,16 @@
             "Tracheae",
             "Lungs"
         ]
+    },
+    {
+        "q": "Match the plant to its special use.",
+        "type": "memory",
+        "pairs": {
+            "Tulsi": "Used as medicine",
+            "Cotton": "Used to make clothes",
+            "Sugarcane": "Used to make sugar",
+            "Bamboo": "Used to make paper"
+        }
     },
     {
         "q": "What is the primary function of the smooth endoplasmic reticulum?",
@@ -3592,6 +4532,18 @@
         ]
     },
     {
+        "q": "Swipe LEFT for Common animals, RIGHT for Rare or Endangered animals.",
+        "type": "swipe_cards",
+        "left_label": "Common",
+        "right_label": "Endangered",
+        "cards": {
+            "Dog": "left",
+            "Panda": "right",
+            "Pigeon": "left",
+            "Tiger": "right"
+        }
+    },
+    {
         "q": "Which animal is known for its problem-solving skills and tool use?",
         "type": "mcq",
         "o": [
@@ -3627,6 +4579,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: a large wild cat with stripes.",
+        "type": "word_scramble",
+        "answer": "TIGER",
+        "decoys": "MW"
+    },
+    {
         "q": "The pigment that gives carrots their orange color is ______.",
         "type": "fill_blank",
         "answers": [
@@ -3639,6 +4597,12 @@
             "xanthophyll",
             "lycopene"
         ]
+    },
+    {
+        "q": "Unscramble the word: a living thing that grows in the earth and has a stem, leaves, and roots.",
+        "type": "word_scramble",
+        "answer": "PLANT",
+        "decoys": "CQ"
     },
     {
         "q": "Which animal group has a mantle and a muscular foot?",
@@ -3738,6 +4702,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Animals that are in danger of disappearing forever are called [0] animals, and we must [1] them.",
+        "dropdowns": [
+            {
+                "correct": "endangered",
+                "options": [
+                    "farm",
+                    "pet",
+                    "endangered"
+                ]
+            },
+            {
+                "correct": "protect",
+                "options": [
+                    "hunt",
+                    "protect",
+                    "ignore"
+                ]
+            }
+        ]
+    },
+    {
         "q": "The ______ is the fluid-filled cavity that cushions the developing embryo in mammals.",
         "type": "fill_blank",
         "answers": [
@@ -3816,6 +4803,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Neem and [0] are known as [1] plants because they help cure our illnesses.",
+        "dropdowns": [
+            {
+                "correct": "tulsi",
+                "options": [
+                    "rose",
+                    "tulsi",
+                    "grass"
+                ]
+            },
+            {
+                "correct": "medicinal",
+                "options": [
+                    "poisonous",
+                    "medicinal",
+                    "waste"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these is a jawless fish?",
         "type": "mcq",
         "o": [
@@ -3883,6 +4893,16 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Match the parts of the food chain.",
+        "type": "memory",
+        "pairs": {
+            "Sun": "Gives energy to the plants",
+            "Grass": "Makes its own food",
+            "Deer": "Eats the grass",
+            "Lion": "Eats the deer"
+        }
+    },
+    {
         "q": "Which of these animals possesses a true coelom derived from mesoderm?",
         "type": "mcq",
         "o": [
@@ -3922,6 +4942,24 @@
         "correct": "True"
     },
     {
+        "q": "Swipe LEFT for breathes Air on land, RIGHT for breathes in Water.",
+        "type": "swipe_cards",
+        "left_label": "Breathes Air",
+        "right_label": "Breathes in Water",
+        "cards": {
+            "Human": "left",
+            "Goldfish": "right",
+            "Bird": "left",
+            "Shark": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word: the liquid that plants need to drink.",
+        "type": "word_scramble",
+        "answer": "WATER",
+        "decoys": "ZX"
+    },
+    {
         "q": "What type of parthenogenesis occurs in honeybees where unfertilized eggs develop into males?",
         "type": "mcq",
         "o": [
@@ -3955,6 +4993,12 @@
             "water channels"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: a green amphibian that jumps.",
+        "type": "word_scramble",
+        "answer": "FROG",
+        "decoys": "YN"
     },
     {
         "q": "Which animal exhibits neoteny, retaining larval features into adulthood?",
@@ -4029,6 +5073,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "In a forest, a [0] might eat a leaf, and then a [1] might swoop down and eat that insect.",
+        "dropdowns": [
+            {
+                "correct": "caterpillar",
+                "options": [
+                    "lion",
+                    "caterpillar",
+                    "shark"
+                ]
+            },
+            {
+                "correct": "bird",
+                "options": [
+                    "bird",
+                    "tree",
+                    "rabbit"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which animal group possesses a lophophore for filter feeding?",
         "type": "mcq",
         "o": [
@@ -4036,6 +5103,29 @@
             "Mollusks",
             "Arthropods",
             "Chordates"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Plants and animals [0] on each other to live happily on [1].",
+        "dropdowns": [
+            {
+                "correct": "depend",
+                "options": [
+                    "fight",
+                    "depend",
+                    "jump"
+                ]
+            },
+            {
+                "correct": "Earth",
+                "options": [
+                    "Mars",
+                    "Earth",
+                    "Sun"
+                ]
+            }
         ]
     },
     {
@@ -4213,6 +5303,13 @@
         ]
     },
     {
+        "q": "How many toes does a cat usually have on its front paw?",
+        "type": "slider",
+        "min": 3,
+        "max": 7,
+        "correct": 5
+    },
+    {
         "q": "Animals in the phylum Porifera lack true tissues.",
         "type": "true_false",
         "correct": "True"
@@ -4225,6 +5322,17 @@
             "cell differentiation"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT a part of a tree?",
+        "type": "odd_one_out",
+        "options": [
+            "Trunk",
+            "Branch",
+            "Root",
+            "Feather"
+        ],
+        "correct": "Feather"
     },
     {
         "q": "Which plant pigment is responsible for detecting photoperiod?",

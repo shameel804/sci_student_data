@@ -22,6 +22,12 @@
         ]
     },
     {
+        "q": "Unscramble the word for the clear liquid we drink every day:",
+        "type": "word_scramble",
+        "answer": "WATER",
+        "decoys": "ZQ"
+    },
+    {
         "q": "Which of these is a form of water?",
         "type": "mcq",
         "o": [
@@ -41,6 +47,29 @@
             "colorless"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Fill in the blanks about our planet:",
+        "type": "inline_dropdown",
+        "text": "Water covers most of the [0], and many fish live in the salty [1].",
+        "dropdowns": [
+            {
+                "correct": "Earth",
+                "options": [
+                    "Moon",
+                    "Earth",
+                    "Sun"
+                ]
+            },
+            {
+                "correct": "ocean",
+                "options": [
+                    "sky",
+                    "ocean",
+                    "desert"
+                ]
+            }
+        ]
     },
     {
         "q": "Air is all around us.",
@@ -154,6 +183,18 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Does the item need water to live and grow?",
+        "type": "swipe_cards",
+        "left_label": "Needs Water",
+        "right_label": "Does Not Need",
+        "cards": {
+            "Growing tree": "left",
+            "Pet dog": "left",
+            "Teddy bear toy": "right",
+            "Reading book": "right"
+        }
+    },
+    {
         "q": "Clouds are made of tiny drops of ______.",
         "type": "fill_blank",
         "answers": [
@@ -164,6 +205,15 @@
             "smoke",
             "dust"
         ]
+    },
+    {
+        "q": "Match the weather season with the right clothing to wear.",
+        "type": "memory",
+        "pairs": {
+            "Summer heat": "Light cotton shirt",
+            "Winter cold": "Thick woolen sweater",
+            "Monsoon rain": "Waterproof raincoat"
+        }
     },
     {
         "q": "What do we use to protect ourselves from the rain?",
@@ -207,6 +257,25 @@
         "correct": "True"
     },
     {
+        "q": "Which of these does NOT need air to stay alive?",
+        "type": "odd_one_out",
+        "options": [
+            "Pet Dog",
+            "Tall Tree",
+            "Little Boy",
+            "Heavy Rock",
+            "Flying Bird"
+        ],
+        "correct": "Heavy Rock"
+    },
+    {
+        "q": "How many colors are there in a rainbow after it rains?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 7
+    },
+    {
         "q": "What colour is pure water?",
         "type": "mcq",
         "o": [
@@ -236,6 +305,35 @@
             "forecast"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word for the invisible gas all around us:",
+        "type": "word_scramble",
+        "answer": "AIR",
+        "decoys": "PL"
+    },
+    {
+        "q": "Choose the right words about the air around us:",
+        "type": "inline_dropdown",
+        "text": "We cannot [0] air with our eyes, but we can [1] it when the wind blows against our skin.",
+        "dropdowns": [
+            {
+                "correct": "see",
+                "options": [
+                    "see",
+                    "hear",
+                    "eat"
+                ]
+            },
+            {
+                "correct": "feel",
+                "options": [
+                    "taste",
+                    "feel",
+                    "hold"
+                ]
+            }
+        ]
     },
     {
         "q": "Which object floats on water?",
@@ -280,6 +378,18 @@
             "fresh",
             "good"
         ]
+    },
+    {
+        "q": "Is this action good or bad for the air we breathe?",
+        "type": "swipe_cards",
+        "left_label": "Good for Air",
+        "right_label": "Bad for Air",
+        "cards": {
+            "Planting many trees": "left",
+            "Riding bicycles": "left",
+            "Black car smoke": "right",
+            "Factory chemical fumes": "right"
+        }
     },
     {
         "q": "A rainbow appears when it is both rainy and sunny.",
@@ -331,6 +441,15 @@
         ]
     },
     {
+        "q": "Match the state of water to its correct name.",
+        "type": "memory",
+        "pairs": {
+            "Frozen ice block": "Solid state",
+            "Glass of drinking water": "Liquid state",
+            "Hot steam from kettle": "Gas state"
+        }
+    },
+    {
         "q": "Which of these is bad for the air?",
         "type": "mcq",
         "o": [
@@ -365,6 +484,18 @@
             "Floats",
             "Sinks"
         ]
+    },
+    {
+        "q": "Which of these is NOT a natural source where we find water?",
+        "type": "odd_one_out",
+        "options": [
+            "Large Lake",
+            "Small Pond",
+            "Flowing River",
+            "Wooden Bed",
+            "Deep Well"
+        ],
+        "correct": "Wooden Bed"
     },
     {
         "q": "Air takes up space.",
@@ -468,6 +599,13 @@
             "rainy season"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "At what temperature (in degrees Celsius) does liquid water freeze into hard ice?",
+        "type": "slider",
+        "min": 0,
+        "max": 50,
+        "correct": 0
     },
     {
         "q": "Which of these is a property of air?",
@@ -590,6 +728,12 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Unscramble the word for fast moving air:",
+        "type": "word_scramble",
+        "answer": "WIND",
+        "decoys": "KX"
+    },
+    {
         "q": "The liquid state of water is just called ______.",
         "type": "fill_blank",
         "answers": [
@@ -638,6 +782,29 @@
         ]
     },
     {
+        "q": "Choose the correct words for what happens when water gets freezing cold:",
+        "type": "inline_dropdown",
+        "text": "When water gets very cold in the freezer, it turns into [0], which is a hard [1].",
+        "dropdowns": [
+            {
+                "correct": "ice",
+                "options": [
+                    "steam",
+                    "ice",
+                    "juice"
+                ]
+            },
+            {
+                "correct": "solid",
+                "options": [
+                    "liquid",
+                    "solid",
+                    "gas"
+                ]
+            }
+        ]
+    },
+    {
         "q": "What do we call the large body of salt water?",
         "type": "mcq",
         "o": [
@@ -651,6 +818,18 @@
         "q": "We can only see air when it is windy.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "If you drop this in a bucket of water, does it float or sink?",
+        "type": "swipe_cards",
+        "left_label": "Floats on Top",
+        "right_label": "Sinks to Bottom",
+        "cards": {
+            "Light bird feather": "left",
+            "Hollow plastic ball": "left",
+            "Heavy gold coin": "right",
+            "Solid gray rock": "right"
+        }
     },
     {
         "q": "What is the weather like when we see lightning and hear thunder?",
@@ -756,6 +935,15 @@
         ]
     },
     {
+        "q": "Match the weather words to their simple meanings.",
+        "type": "memory",
+        "pairs": {
+            "Blowing wind": "Fast moving air",
+            "White cloud": "Tiny water drops floating high in sky",
+            "Heavy rain": "Water droplets falling down to earth"
+        }
+    },
+    {
         "q": "Which of these is a source of clean water?",
         "type": "mcq",
         "o": [
@@ -793,6 +981,18 @@
             "Monsoon",
             "Spring"
         ]
+    },
+    {
+        "q": "Which of these is NOT the name of a yearly season?",
+        "type": "odd_one_out",
+        "options": [
+            "Hot Summer",
+            "Cold Winter",
+            "Blooming Spring",
+            "Early Morning",
+            "Breezy Autumn"
+        ],
+        "correct": "Early Morning"
     },
     {
         "q": "What do we use to see clouds clearly?",
@@ -842,6 +1042,13 @@
             "turns into water"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Roughly what percentage (out of 100) of the Earth's surface is covered by water?",
+        "type": "slider",
+        "min": 10,
+        "max": 100,
+        "correct": 70
     },
     {
         "q": "Which of these is the most common gas in the air?",
@@ -910,6 +1117,12 @@
         ]
     },
     {
+        "q": "Unscramble the word for water droplets falling from clouds:",
+        "type": "word_scramble",
+        "answer": "RAIN",
+        "decoys": "CQ"
+    },
+    {
         "q": "Match the term with its description:",
         "type": "match",
         "left": [
@@ -926,9 +1139,53 @@
         ]
     },
     {
+        "q": "What happens when water is heated until it boils?",
+        "type": "inline_dropdown",
+        "text": "Boiling water turns it into invisible water [0], which floats up into the [1].",
+        "dropdowns": [
+            {
+                "correct": "vapor",
+                "options": [
+                    "ice",
+                    "vapor",
+                    "rock"
+                ]
+            },
+            {
+                "correct": "air",
+                "options": [
+                    "ground",
+                    "air",
+                    "ocean"
+                ]
+            }
+        ]
+    },
+    {
         "q": "A cyclone is a gentle breeze.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "Swipe left for things we use in the hot Summer, right for cold Winter.",
+        "type": "swipe_cards",
+        "left_label": "Summer Use",
+        "right_label": "Winter Use",
+        "cards": {
+            "Shade sun hat": "left",
+            "Cold ice cream": "left",
+            "Thick woolen coat": "right",
+            "Electric room heater": "right"
+        }
+    },
+    {
+        "q": "Match the special weather tool with what it helps us measure.",
+        "type": "memory",
+        "pairs": {
+            "Glass thermometer": "How hot or cold the temperature is",
+            "Roof wind vane": "Which direction the wind is blowing",
+            "Yard rain gauge": "The amount of rain that has fallen"
+        }
     },
     {
         "q": "What do we call the pattern of weather in a place over a long time?",
@@ -982,6 +1239,18 @@
         ]
     },
     {
+        "q": "Which of these items is NOT meant to help you stay dry in the rain?",
+        "type": "odd_one_out",
+        "options": [
+            "Plastic Raincoat",
+            "Rubber Gumboots",
+            "Large Umbrella",
+            "Dark Sunglasses",
+            "Waterproof Rain hat"
+        ],
+        "correct": "Dark Sunglasses"
+    },
+    {
         "q": "Air has no weight.",
         "type": "true_false",
         "correct": "False"
@@ -993,6 +1262,13 @@
             "precipitation"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "How many main seasons do most places experience in one full year?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 4
     },
     {
         "q": "Water changes into water vapor when ______.",
@@ -1080,6 +1356,12 @@
         "isCaseSensitive": true
     },
     {
+        "q": "Unscramble the word for cold, frozen solid water:",
+        "type": "word_scramble",
+        "answer": "ICE",
+        "decoys": "BM"
+    },
+    {
         "q": "Which of these is a sign of strong wind?",
         "type": "mcq",
         "o": [
@@ -1095,6 +1377,29 @@
         "correct": "True"
     },
     {
+        "q": "Complete the sentence about how the sky looks today:",
+        "type": "inline_dropdown",
+        "text": "A [0] day has lots of bright light and shadows, while a [1] day has gray skies hiding the sun.",
+        "dropdowns": [
+            {
+                "correct": "sunny",
+                "options": [
+                    "rainy",
+                    "sunny",
+                    "windy"
+                ]
+            },
+            {
+                "correct": "cloudy",
+                "options": [
+                    "clear",
+                    "cloudy",
+                    "hot"
+                ]
+            }
+        ]
+    },
+    {
         "q": "When clouds get too heavy, they release water as ______.",
         "type": "fill_blank",
         "answers": [
@@ -1108,6 +1413,18 @@
         ]
     },
     {
+        "q": "Is the item in a solid form or a liquid form?",
+        "type": "swipe_cards",
+        "left_label": "Solid Form",
+        "right_label": "Liquid Form",
+        "cards": {
+            "Frozen ice cube": "left",
+            "Packed snowball": "left",
+            "Falling rain drop": "right",
+            "Flowing tap water": "right"
+        }
+    },
+    {
         "q": "Where does a bird fly?",
         "type": "mcq",
         "o": [
@@ -1118,6 +1435,15 @@
         ]
     },
     {
+        "q": "Match the good environmental habit with its helpful result.",
+        "type": "memory",
+        "pairs": {
+            "Boiling drinking water": "Kills bad germs that make us sick",
+            "Planting green trees": "Adds clean oxygen to the air",
+            "Closing the running tap": "Saves fresh water from being wasted"
+        }
+    },
+    {
         "q": "What happens to water when it is heated for a long time?",
         "type": "mcq",
         "o": [
@@ -1126,6 +1452,18 @@
             "It becomes hard",
             "It changes colour"
         ]
+    },
+    {
+        "q": "Which of these words does NOT describe a type of weather?",
+        "type": "odd_one_out",
+        "options": [
+            "Brightly Sunny",
+            "Pouring Rainy",
+            "Overcast Cloudy",
+            "Feeling Sleepy",
+            "Blowing Windy"
+        ],
+        "correct": "Feeling Sleepy"
     },
     {
         "q": "The process of water changing into water vapour is called ______.",
@@ -1161,6 +1499,13 @@
         "q": "Cold air is heavier than warm air.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "How many different physical states can water naturally exist in (like solid, liquid, etc.)?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
     },
     {
         "q": "Which state of water can we hold in our hands?",
@@ -1259,6 +1604,12 @@
         ]
     },
     {
+        "q": "Unscramble the word for soft white frozen flakes falling in winter:",
+        "type": "word_scramble",
+        "answer": "SNOW",
+        "decoys": "FG"
+    },
+    {
         "q": "Which season is best for planting crops in most parts of India?",
         "type": "mcq",
         "o": [
@@ -1282,6 +1633,29 @@
             "Fresh water",
             "Solid water",
             "Treated water"
+        ]
+    },
+    {
+        "q": "What two important things do green plants need to stay alive and grow?",
+        "type": "inline_dropdown",
+        "text": "Plants drink [0] from the soil and absorb [1] from the bright sky to make their food.",
+        "dropdowns": [
+            {
+                "correct": "water",
+                "options": [
+                    "juice",
+                    "water",
+                    "milk"
+                ]
+            },
+            {
+                "correct": "sunlight",
+                "options": [
+                    "stars",
+                    "sunlight",
+                    "clouds"
+                ]
+            }
         ]
     },
     {
@@ -1491,6 +1865,18 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Is the air in these places moving fast or standing perfectly still?",
+        "type": "swipe_cards",
+        "left_label": "Moving Air",
+        "right_label": "Still Air",
+        "cards": {
+            "A strong gusty wind": "left",
+            "A gentle morning breeze": "left",
+            "A calm closed empty room": "right",
+            "Inside a tightly sealed cardboard box": "right"
+        }
+    },
+    {
         "q": "Match the air-related term with its meaning:",
         "type": "match",
         "left": [
@@ -1557,6 +1943,15 @@
             "spinning of the earth"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Match the everyday activity to the reason it needs air.",
+        "type": "memory",
+        "pairs": {
+            "Deep breathing": "Keeps our human bodies alive",
+            "Flying a paper kite": "Needs the pushing force of the wind",
+            "Burning a wax candle": "Needs oxygen gas to keep the flame lit"
+        }
     },
     {
         "q": "A hygrometer is used to measure humidity.",
@@ -1632,6 +2027,18 @@
         ]
     },
     {
+        "q": "Which of these is NOT something a person can safely drink?",
+        "type": "odd_one_out",
+        "options": [
+            "Filtered Water",
+            "Cow's Milk",
+            "Orange Juice",
+            "Dry Sand",
+            "Warm Tea"
+        ],
+        "correct": "Dry Sand"
+    },
+    {
         "q": "Which gas is essential for burning things?",
         "type": "short_answer",
         "answers": [
@@ -1643,6 +2050,13 @@
         "q": "Water boils at 100 degrees Celsius at sea level.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "How many hours does it take for the Earth to complete one full day and night cycle?",
+        "type": "slider",
+        "min": 10,
+        "max": 30,
+        "correct": 24
     },
     {
         "q": "Which of these is the safest drinking water?",
@@ -1702,6 +2116,12 @@
         ]
     },
     {
+        "q": "Unscramble the word for the fluffy shapes floating in the sky:",
+        "type": "word_scramble",
+        "answer": "CLOUD",
+        "decoys": "JX"
+    },
+    {
         "q": "Match the pollutant to its source:",
         "type": "match",
         "left": [
@@ -1752,6 +2172,29 @@
             "Dust and wind",
             "Smoke and fire",
             "Sand and heat"
+        ]
+    },
+    {
+        "q": "Complete the sentence about the dangers of dirty air:",
+        "type": "inline_dropdown",
+        "text": "Dirty, smoky air is called air [0], and breathing it in is very bad for our [1].",
+        "dropdowns": [
+            {
+                "correct": "pollution",
+                "options": [
+                    "fog",
+                    "pollution",
+                    "wind"
+                ]
+            },
+            {
+                "correct": "lungs",
+                "options": [
+                    "lungs",
+                    "ears",
+                    "hair"
+                ]
+            }
         ]
     },
     {
@@ -1919,9 +2362,42 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Is this type of water safe for a person to drink, or unsafe and dirty?",
+        "type": "swipe_cards",
+        "left_label": "Safe to Drink",
+        "right_label": "Unsafe",
+        "cards": {
+            "Fully boiled and cooled water": "left",
+            "Clean filtered tap water": "left",
+            "Muddy street puddle water": "right",
+            "Very salty ocean water": "right"
+        }
+    },
+    {
+        "q": "Match how we use water to the action it helps us do.",
+        "type": "memory",
+        "pairs": {
+            "Drinking from a glass": "Stops us from feeling thirsty",
+            "Washing in a machine": "Cleans our dirty clothes",
+            "Watering with a can": "Helps garden plants grow tall"
+        }
+    },
+    {
         "q": "We can see water vapour in the air on a hot day.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "Which of these choices is NOT a helpful or good way to use fresh water?",
+        "type": "odd_one_out",
+        "options": [
+            "Bathing daily",
+            "Drinking when thirsty",
+            "Washing hands before meals",
+            "Wasting it for no reason",
+            "Watering indoor plants"
+        ],
+        "correct": "Wasting it for no reason"
     },
     {
         "q": "Particles of dust in the air act as nuclei for water droplets to form.",
@@ -1999,9 +2475,22 @@
         ]
     },
     {
+        "q": "How many full glasses of water is it often recommended for a person to drink every day?",
+        "type": "slider",
+        "min": 2,
+        "max": 15,
+        "correct": 8
+    },
+    {
         "q": "The freezing point of water is 0 degrees Celsius.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Unscramble the word for dangerous weather with very strong winds and heavy rain:",
+        "type": "word_scramble",
+        "answer": "STORM",
+        "decoys": "YZ"
     },
     {
         "q": "Water is a universal ______.",
@@ -2036,6 +2525,29 @@
         ]
     },
     {
+        "q": "What object helps protect us when water falls from the sky?",
+        "type": "inline_dropdown",
+        "text": "We pop open a large [0] when it rains outside so our hair and clothes do not get [1].",
+        "dropdowns": [
+            {
+                "correct": "umbrella",
+                "options": [
+                    "book",
+                    "umbrella",
+                    "bag"
+                ]
+            },
+            {
+                "correct": "wet",
+                "options": [
+                    "dry",
+                    "wet",
+                    "warm"
+                ]
+            }
+        ]
+    },
+    {
         "q": "What instrument measures humidity?",
         "type": "short_answer",
         "answers": [
@@ -2059,6 +2571,18 @@
             "afternoon",
             "evening"
         ]
+    },
+    {
+        "q": "Can you see these things with your eyes, or are they completely invisible?",
+        "type": "swipe_cards",
+        "left_label": "Visible (Can See)",
+        "right_label": "Invisible (Cannot See)",
+        "cards": {
+            "Falling rain drops": "left",
+            "Big dark storm clouds": "left",
+            "The breeze around us": "right",
+            "The oxygen gas we breathe": "right"
+        }
     },
     {
         "q": "What are thin, wispy clouds high in the sky called?",
@@ -2107,6 +2631,15 @@
         ]
     },
     {
+        "q": "Match the thing we see in the sky with what it naturally does.",
+        "type": "memory",
+        "pairs": {
+            "The bright Sun": "Gives the Earth heat and light",
+            "A heavy dark cloud": "Brings heavy rain showers",
+            "A colorful Rainbow": "Shows an arch of seven colors"
+        }
+    },
+    {
         "q": "What force pulls rain down to the ground?",
         "type": "short_answer",
         "answers": [
@@ -2120,6 +2653,18 @@
         "correct": "True"
     },
     {
+        "q": "Which of these items does NOT float on top of a puddle of water?",
+        "type": "odd_one_out",
+        "options": [
+            "Fallen dry leaf",
+            "Light plastic toy",
+            "Folded paper boat",
+            "Heavy iron nail",
+            "Empty sealed bottle"
+        ],
+        "correct": "Heavy iron nail"
+    },
+    {
         "q": "What is the process by which water vapor turns into liquid water?",
         "type": "mcq",
         "o": [
@@ -2128,6 +2673,19 @@
             "Sublimation",
             "Transpiration"
         ]
+    },
+    {
+        "q": "How many main fluffy types of clouds are usually taught in basic science (Cirrus, Stratus, Cumulus)?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "Unscramble the word for the huge, hot yellow star we see in the daytime:",
+        "type": "word_scramble",
+        "answer": "SUN",
+        "decoys": "KV"
     },
     {
         "q": "The temperature at which water vapor condenses is called the ______ point.",
@@ -2149,6 +2707,29 @@
             "Stratosphere",
             "Mesosphere",
             "Thermosphere"
+        ]
+    },
+    {
+        "q": "How can we make sure our drinking water is healthy and safe?",
+        "type": "inline_dropdown",
+        "text": "You should always [0] or filter water from lakes before drinking it to kill dangerous [1].",
+        "dropdowns": [
+            {
+                "correct": "boil",
+                "options": [
+                    "freeze",
+                    "boil",
+                    "spill"
+                ]
+            },
+            {
+                "correct": "germs",
+                "options": [
+                    "fish",
+                    "germs",
+                    "vitamins"
+                ]
+            }
         ]
     },
     {
@@ -2258,6 +2839,18 @@
         "correct": "False"
     },
     {
+        "q": "Is this water source made by nature, or was it built by humans?",
+        "type": "swipe_cards",
+        "left_label": "Natural",
+        "right_label": "Man-made",
+        "cards": {
+            "Flowing mountain river": "left",
+            "Rainfall from clouds": "left",
+            "Tiled swimming pool": "right",
+            "Metal bathroom tap": "right"
+        }
+    },
+    {
         "q": "What do we call water that contains high levels of calcium and magnesium?",
         "type": "mcq",
         "o": [
@@ -2266,6 +2859,15 @@
             "Pure water",
             "Distilled water"
         ]
+    },
+    {
+        "q": "Match the type of water source with its best description.",
+        "type": "memory",
+        "pairs": {
+            "Wild River": "Fresh water flowing continuously over land",
+            "Dug Well": "Deep hole reaching underground water",
+            "Vast Ocean": "Huge body of very salty water"
+        }
     },
     {
         "q": "Match the type of wind with its direction:",
@@ -2397,6 +2999,25 @@
         ]
     },
     {
+        "q": "Which of these actions does NOT help keep the outdoor air clean and fresh?",
+        "type": "odd_one_out",
+        "options": [
+            "Planting lots of trees",
+            "Riding a bicycle instead of a car",
+            "Creating more green parks",
+            "Burning piles of plastic garbage",
+            "Walking to nearby places"
+        ],
+        "correct": "Burning piles of plastic garbage"
+    },
+    {
+        "q": "How many main compass directions does a wind vane point to (North, South, East, West)?",
+        "type": "slider",
+        "min": 2,
+        "max": 8,
+        "correct": 4
+    },
+    {
         "q": "What is the primary cause of tides in the ocean?",
         "type": "mcq",
         "o": [
@@ -2417,6 +3038,12 @@
             "wind",
             "clouds"
         ]
+    },
+    {
+        "q": "Unscramble the word for a long, natural stream of flowing fresh water:",
+        "type": "word_scramble",
+        "answer": "RIVER",
+        "decoys": "XQ"
     },
     {
         "q": "Which of these is NOT a state of water?",
@@ -2473,6 +3100,41 @@
             "Using coal stoves",
             "Driving alone daily"
         ]
+    },
+    {
+        "q": "Complete the sentence about how air moves around us:",
+        "type": "inline_dropdown",
+        "text": "Fast moving air is called [0], but a very soft, gentle movement of air is just a [1].",
+        "dropdowns": [
+            {
+                "correct": "wind",
+                "options": [
+                    "storm",
+                    "wind",
+                    "rain"
+                ]
+            },
+            {
+                "correct": "breeze",
+                "options": [
+                    "hurricane",
+                    "breeze",
+                    "tornado"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Is the water turning into invisible gas, or is the gas turning back into water drops?",
+        "type": "swipe_cards",
+        "left_label": "Evaporation (Water to Gas)",
+        "right_label": "Condensation (Gas to Water)",
+        "cards": {
+            "Sun drying up a street puddle": "left",
+            "Wet clothes drying on a line": "left",
+            "Wet dew forming on morning grass": "right",
+            "Cloudy fog appearing on a cold bathroom mirror": "right"
+        }
     },
     {
         "q": "Match the pollution type with its effect:",
@@ -2564,6 +3226,15 @@
         "correct": "True"
     },
     {
+        "q": "Match the scientific property to the correct substance.",
+        "type": "memory",
+        "pairs": {
+            "Air property": "Cannot be seen with eyes or held in hands",
+            "Water property": "Takes the exact shape of the cup holding it",
+            "Ice property": "Feels cold, hard, and keeps its own solid shape"
+        }
+    },
+    {
         "q": "What is a storm surge?",
         "type": "mcq",
         "o": [
@@ -2586,6 +3257,18 @@
             "Ratio of actual to max vapor",
             "Mass of vapor per mass of air"
         ]
+    },
+    {
+        "q": "Which of these statements is NOT a true property of air?",
+        "type": "odd_one_out",
+        "options": [
+            "It is completely invisible",
+            "It fills up empty balloons",
+            "It has a small amount of weight",
+            "It is colored bright purple",
+            "It is all around us everywhere"
+        ],
+        "correct": "It is colored bright purple"
     },
     {
         "q": "What do we call water that is safe for drinking?",
@@ -2669,6 +3352,13 @@
         ]
     },
     {
+        "q": "If a very calm, gentle breeze is blowing outside, what might its speed be in kilometers per hour?",
+        "type": "slider",
+        "min": 1,
+        "max": 20,
+        "correct": 5
+    },
+    {
         "q": "What is the chemical formula for carbon dioxide?",
         "type": "mcq",
         "o": [
@@ -2677,6 +3367,12 @@
             "C2O",
             "CHO2"
         ]
+    },
+    {
+        "q": "Unscramble the word for a large body of slow-moving or still water surrounded by land:",
+        "type": "word_scramble",
+        "answer": "LAKE",
+        "decoys": "ZP"
     },
     {
         "q": "The process of water passing through a filter to remove impurities is ______.",
@@ -2725,6 +3421,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about the different seasons we experience:",
+        "type": "inline_dropdown",
+        "text": "In the freezing season of [0], we wear thick warm clothes, but in the hot [1] we wear light, thin cotton.",
+        "dropdowns": [
+            {
+                "correct": "winter",
+                "options": [
+                    "summer",
+                    "winter",
+                    "spring"
+                ]
+            },
+            {
+                "correct": "summer",
+                "options": [
+                    "autumn",
+                    "summer",
+                    "monsoon"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Match the month to the typical Indian season:",
         "type": "match",
         "left": [
@@ -2770,6 +3489,18 @@
         ]
     },
     {
+        "q": "Are you more likely to do this on a bright sunny day, or a wet rainy day?",
+        "type": "swipe_cards",
+        "left_label": "Sunny Day",
+        "right_label": "Rainy Day",
+        "cards": {
+            "Wearing dark sunglasses": "left",
+            "Seeing your dark shadow on the ground": "left",
+            "Carrying an open umbrella": "right",
+            "Splashing and jumping in water puddles": "right"
+        }
+    },
+    {
         "q": "Which of these gases is used by plants for photosynthesis?",
         "type": "mcq",
         "o": [
@@ -2801,6 +3532,15 @@
             "Radiation",
             "Condensation"
         ]
+    },
+    {
+        "q": "Match the bad activity to the type of pollution it creates.",
+        "type": "memory",
+        "pairs": {
+            "Black smoke pouring from a factory chimney": "Causes Air pollution",
+            "Throwing plastic garbage bags into the river": "Causes Water pollution",
+            "Honking loud car horns in traffic all day": "Causes Noise pollution"
+        }
     },
     {
         "q": "The temperature at which air becomes saturated is the ______ point.",
@@ -2839,6 +3579,12 @@
         ]
     },
     {
+        "q": "Unscramble the word for a very small, quiet body of water where frogs might live:",
+        "type": "word_scramble",
+        "answer": "POND",
+        "decoys": "WQ"
+    },
+    {
         "q": "What happens to air molecules when air is compressed?",
         "type": "mcq",
         "o": [
@@ -2869,6 +3615,41 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Where does the Earth's natural heat and falling rain come from?",
+        "type": "inline_dropdown",
+        "text": "The glowing [0] provides warming heat for the Earth, and the dark grey [1] high above give us rain.",
+        "dropdowns": [
+            {
+                "correct": "Sun",
+                "options": [
+                    "Moon",
+                    "Sun",
+                    "Stars"
+                ]
+            },
+            {
+                "correct": "clouds",
+                "options": [
+                    "birds",
+                    "clouds",
+                    "airplanes"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "If you stir this into a glass of warm water, does it dissolve (disappear) or not?",
+        "type": "swipe_cards",
+        "left_label": "Dissolves in Water",
+        "right_label": "Does NOT Dissolve",
+        "cards": {
+            "Sweet white sugar": "left",
+            "Salty table salt": "left",
+            "Rough beach sand": "right",
+            "Yellow cooking oil": "right"
+        }
+    },
+    {
         "q": "The coldest layer of the atmosphere is the stratosphere.",
         "type": "true_false",
         "correct": "False"
@@ -2884,6 +3665,15 @@
         ]
     },
     {
+        "q": "Match the changing states of water to their scientific names.",
+        "type": "memory",
+        "pairs": {
+            "Evaporation process": "Liquid water heats up and turns into an invisible gas",
+            "Condensation process": "Invisible gas cools down and turns into liquid drops",
+            "Melting process": "Solid hard ice warms up and turns into liquid water"
+        }
+    },
+    {
         "q": "Which of these is a measure of air pollution?",
         "type": "mcq",
         "o": [
@@ -2892,6 +3682,12 @@
             "Wind Chill",
             "Heat Index"
         ]
+    },
+    {
+        "q": "Unscramble the word for the invisible gas that water turns into when heated:",
+        "type": "word_scramble",
+        "answer": "VAPOR",
+        "decoys": "XJ"
     },
     {
         "q": "Match the sea breeze pattern to the time of day:",
@@ -2903,6 +3699,29 @@
         "right": [
             "Daytime",
             "Nighttime"
+        ]
+    },
+    {
+        "q": "What happens to frozen ice when it is left in the warm summer heat?",
+        "type": "inline_dropdown",
+        "text": "If you leave a glass of solid ice outside in the sun, it will quickly [0] and become a flowing [1].",
+        "dropdowns": [
+            {
+                "correct": "melt",
+                "options": [
+                    "freeze",
+                    "melt",
+                    "grow"
+                ]
+            },
+            {
+                "correct": "liquid",
+                "options": [
+                    "liquid",
+                    "gas",
+                    "solid"
+                ]
+            }
         ]
     },
     {
@@ -2942,6 +3761,18 @@
         "correct": "True"
     },
     {
+        "q": "Does this action help save fresh water, or does it foolishly waste it?",
+        "type": "swipe_cards",
+        "left_label": "Smart Water Saver",
+        "right_label": "Careless Water Waster",
+        "cards": {
+            "Fixing pipes that are dripping and leaking": "left",
+            "Turning off the tap while scrubbing teeth": "left",
+            "Taking very long, slow showers every day": "right",
+            "Leaving the garden hose running on the grass": "right"
+        }
+    },
+    {
         "q": "What is the most abundant greenhouse gas in the atmosphere?",
         "type": "mcq",
         "o": [
@@ -2950,6 +3781,15 @@
             "Methane",
             "Nitrous oxide"
         ]
+    },
+    {
+        "q": "Match the type of extreme storm to its scary description.",
+        "type": "memory",
+        "pairs": {
+            "Summer Thunderstorm": "Lots of bright lightning flashes and loud booming sounds",
+            "Coastal Hurricane": "Very strong spinning winds and heavy, flooding rain",
+            "Winter Blizzard": "A huge, freezing storm with deep blinding snow"
+        }
     },
     {
         "q": "The energy source that drives the water cycle is the ______.",
@@ -3059,6 +3899,12 @@
         ]
     },
     {
+        "q": "Unscramble the word for a state of matter like the air we breathe:",
+        "type": "word_scramble",
+        "answer": "GAS",
+        "decoys": "YM"
+    },
+    {
         "q": "The measure of how hot or cold the air feels due to wind is wind ______.",
         "type": "fill_blank",
         "answers": [
@@ -3107,6 +3953,29 @@
         ]
     },
     {
+        "q": "How can you help protect the planet's resources at home?",
+        "type": "inline_dropdown",
+        "text": "We must all try to [0] fresh water by tightly turning off the [1] when we are brushing our teeth.",
+        "dropdowns": [
+            {
+                "correct": "save",
+                "options": [
+                    "waste",
+                    "save",
+                    "drink"
+                ]
+            },
+            {
+                "correct": "tap",
+                "options": [
+                    "light",
+                    "tap",
+                    "TV"
+                ]
+            }
+        ]
+    },
+    {
         "q": "The process of water soaking into the ground is called ______.",
         "type": "fill_blank",
         "answers": [
@@ -3117,6 +3986,18 @@
             "runoff",
             "precipitation"
         ]
+    },
+    {
+        "q": "Do you usually experience these things in warm tropical weather, or freezing cold weather?",
+        "type": "swipe_cards",
+        "left_label": "Warm Weather",
+        "right_label": "Cold Weather",
+        "cards": {
+            "Going swimming at the sandy beach": "left",
+            "Sweating heavily from the high heat": "left",
+            "Shivering outside without a thick jacket": "right",
+            "Building a frosty snowman in the yard": "right"
+        }
     },
     {
         "q": "Which gas in the atmosphere absorbs harmful ultraviolet radiation?",
@@ -3221,6 +4102,15 @@
         ]
     },
     {
+        "q": "Match the different things that can be found floating invisibly in the air.",
+        "type": "memory",
+        "pairs": {
+            "Helpful Oxygen": "The good gas that humans and animals breathe in",
+            "Carbon dioxide": "The gas that green plants use to make their food",
+            "Floating Dust": "Tiny bits of dry dirt in the air that make us sneeze"
+        }
+    },
+    {
         "q": "The water stored in the spaces between soil and rock particles underground is called ______.",
         "type": "fill_blank",
         "answers": [
@@ -3246,6 +4136,12 @@
         "q": "Acid rain is primarily caused by sulfur dioxide and nitrogen oxides in the atmosphere.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Unscramble the word for a single tiny bit of falling rain:",
+        "type": "word_scramble",
+        "answer": "DROP",
+        "decoys": "VT"
     },
     {
         "q": "Match the type of precipitation with its formation process:",
@@ -3283,6 +4179,29 @@
             "evaporation",
             "condensation",
             "melting"
+        ]
+    },
+    {
+        "q": "Where does the rain go after a quick shower ends?",
+        "type": "inline_dropdown",
+        "text": "Rainwater collects in small muddy [0] on the ground, which eventually dry up completely because of the sun's [1].",
+        "dropdowns": [
+            {
+                "correct": "puddles",
+                "options": [
+                    "hills",
+                    "puddles",
+                    "clouds"
+                ]
+            },
+            {
+                "correct": "heat",
+                "options": [
+                    "heat",
+                    "cold",
+                    "wind"
+                ]
+            }
         ]
     },
     {
@@ -3415,6 +4334,18 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Does this thing make the air smoky and dirty, or help keep it fresh and clean?",
+        "type": "swipe_cards",
+        "left_label": "Makes Air Dirty",
+        "right_label": "Keeps Air Clean",
+        "cards": {
+            "Grey exhaust smoke from many cars": "left",
+            "Thick dust blowing from a busy factory": "left",
+            "A large forest full of tall green trees": "right",
+            "Leafy green house plants near a window": "right"
+        }
+    },
+    {
         "q": "Match the ocean current with its temperature characteristic:",
         "type": "match",
         "left": [
@@ -3451,6 +4382,15 @@
             "runoff",
             "evaporation"
         ]
+    },
+    {
+        "q": "Match the common object to what it will do if dropped in a pool of water.",
+        "type": "memory",
+        "pairs": {
+            "Light wooden stick": "Stays up and floats happily on top of the water",
+            "Heavy solid stone": "Sinks straight down quickly to the bottom",
+            "Dry yellow sponge": "Soaks up the water like a thirsty towel"
+        }
     },
     {
         "q": "What type of front forms when a warm air mass is caught between two cold air masses?",
@@ -3497,6 +4437,12 @@
             "hardness",
             "turbidity"
         ]
+    },
+    {
+        "q": "Unscramble the word that describes how your clothes feel when you stand in the rain:",
+        "type": "word_scramble",
+        "answer": "WET",
+        "decoys": "JK"
     },
     {
         "q": "Which instrument is used to measure visibility in the atmosphere?",
@@ -3598,6 +4544,29 @@
         ]
     },
     {
+        "q": "Where do these different water animals naturally live?",
+        "type": "inline_dropdown",
+        "text": "Small animals like green frogs live in quiet fresh [0], while large sharks live in the deep, salty [1].",
+        "dropdowns": [
+            {
+                "correct": "ponds",
+                "options": [
+                    "trees",
+                    "ponds",
+                    "caves"
+                ]
+            },
+            {
+                "correct": "ocean",
+                "options": [
+                    "puddle",
+                    "ocean",
+                    "sky"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Match the type of cloud to its altitude classification:",
         "type": "match",
         "left": [
@@ -3641,6 +4610,12 @@
         ]
     },
     {
+        "q": "Unscramble the word that means having absolutely no water or moisture at all:",
+        "type": "word_scramble",
+        "answer": "DRY",
+        "decoys": "MN"
+    },
+    {
         "q": "What does the Enhanced Fujita scale measure?",
         "type": "short_answer",
         "answers": [
@@ -3669,9 +4644,38 @@
         ]
     },
     {
+        "q": "Complete this cool science fact about how temperature changes the air:",
+        "type": "inline_dropdown",
+        "text": "A colorful hot air [0] rises high up into the sky because warm heated air is [1] than heavy cold air.",
+        "dropdowns": [
+            {
+                "correct": "balloon",
+                "options": [
+                    "kite",
+                    "balloon",
+                    "bird"
+                ]
+            },
+            {
+                "correct": "lighter",
+                "options": [
+                    "heavier",
+                    "lighter",
+                    "thicker"
+                ]
+            }
+        ]
+    },
+    {
         "q": "An isohyet is a line joining points of equal rainfall.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Unscramble the word for the warm energy we get from the bright summer sun:",
+        "type": "word_scramble",
+        "answer": "HEAT",
+        "decoys": "ZX"
     },
     {
         "q": "The wearing away of land by natural forces is called soil ______.",
@@ -3700,6 +4704,35 @@
             "3-10 days",
             "10+ days to seasonal"
         ]
+    },
+    {
+        "q": "What happens outside when the weather suddenly turns very bad?",
+        "type": "inline_dropdown",
+        "text": "When the wind blows very fast and brings heavy crashing rain, it is called a [0], which can sometimes be very [1].",
+        "dropdowns": [
+            {
+                "correct": "storm",
+                "options": [
+                    "breeze",
+                    "storm",
+                    "fog"
+                ]
+            },
+            {
+                "correct": "dangerous",
+                "options": [
+                    "safe",
+                    "dangerous",
+                    "quiet"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Unscramble the word that describes how you feel when winter wind blows:",
+        "type": "word_scramble",
+        "answer": "COLD",
+        "decoys": "BP"
     },
     {
         "q": "What is the name of the phenomenon where cities are warmer than surrounding rural areas?",
@@ -3830,6 +4863,29 @@
             "tropical cyclones"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "What exactly is the white snow that covers the ground?",
+        "type": "inline_dropdown",
+        "text": "Snow is actually just made of frozen [0] crystals, and it usually falls down on us during the chilly season of [1].",
+        "dropdowns": [
+            {
+                "correct": "water",
+                "options": [
+                    "milk",
+                    "water",
+                    "cotton"
+                ]
+            },
+            {
+                "correct": "winter",
+                "options": [
+                    "summer",
+                    "winter",
+                    "spring"
+                ]
+            }
+        ]
     },
     {
         "q": "What weather phenomenon is associated with a sudden warming of the central Pacific Ocean?",
@@ -4014,6 +5070,12 @@
             "thermal pollution"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word for small balls of hard ice that sometimes fall from storm clouds:",
+        "type": "word_scramble",
+        "answer": "HAIL",
+        "decoys": "XR"
     },
     {
         "q": "Match the type of drought with its definition:",
@@ -4369,6 +5431,29 @@
             "50",
             "75",
             "90"
+        ]
+    },
+    {
+        "q": "Why is it so important that humans and animals breathe every minute?",
+        "type": "inline_dropdown",
+        "text": "We must breathe in [0] from the invisible air around us, which helps our organs and bodies stay [1].",
+        "dropdowns": [
+            {
+                "correct": "oxygen",
+                "options": [
+                    "dust",
+                    "oxygen",
+                    "smoke"
+                ]
+            },
+            {
+                "correct": "alive",
+                "options": [
+                    "asleep",
+                    "alive",
+                    "sick"
+                ]
+            }
         ]
     },
     {

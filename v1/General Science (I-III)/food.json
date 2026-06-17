@@ -133,6 +133,13 @@
         ]
     },
     {
+        "q": "How many glasses of water should we drink every day?",
+        "type": "slider",
+        "min": 2,
+        "max": 12,
+        "correct": 8
+    },
+    {
         "q": "It is good to wash your hands before eating.",
         "type": "true_false",
         "correct": "True"
@@ -148,12 +155,32 @@
         ]
     },
     {
+        "q": "Match the animal to the food it gives us.",
+        "type": "memory",
+        "pairs": {
+            "Cow": "Gives milk",
+            "Bee": "Makes honey",
+            "Hen": "Lays eggs"
+        }
+    },
+    {
         "q": "Name one fruit that is yellow and long.",
         "type": "short_answer",
         "answers": [
             "banana"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT a healthy food?",
+        "type": "odd_one_out",
+        "options": [
+            "Apple",
+            "Banana",
+            "Carrot",
+            "Candy"
+        ],
+        "correct": "Candy"
     },
     {
         "q": "Spinach, lettuce, and cabbage are ______.",
@@ -195,9 +222,27 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Animal Source, LEFT for Plant Source.",
+        "type": "swipe_cards",
+        "left_label": "Plant Source",
+        "right_label": "Animal Source",
+        "cards": {
+            "Apple": "left",
+            "Rice": "left",
+            "Milk": "right",
+            "Meat": "right"
+        }
+    },
+    {
         "q": "We should eat fruits and vegetables every day.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: A white healthy drink.",
+        "type": "word_scramble",
+        "answer": "MILK",
+        "decoys": "XQ"
     },
     {
         "q": "Which of these foods is a grain?",
@@ -256,6 +301,29 @@
             "honey",
             "flour",
             "salt"
+        ]
+    },
+    {
+        "q": "Complete the sentence about clean habits:",
+        "type": "inline_dropdown",
+        "text": "We must always [0] our hands before [1].",
+        "dropdowns": [
+            {
+                "correct": "wash",
+                "options": [
+                    "wash",
+                    "hide",
+                    "dirty"
+                ]
+            },
+            {
+                "correct": "eating",
+                "options": [
+                    "eating",
+                    "sleeping",
+                    "playing"
+                ]
+            }
         ]
     },
     {
@@ -331,6 +399,13 @@
         ]
     },
     {
+        "q": "How many main meals do we eat in a day?",
+        "type": "slider",
+        "min": 1,
+        "max": 6,
+        "correct": 3
+    },
+    {
         "q": "What is the sweet liquid made by bees called?",
         "type": "short_answer",
         "answers": [
@@ -339,9 +414,29 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Match the plant part to the vegetable.",
+        "type": "memory",
+        "pairs": {
+            "Cabbage": "Leaves we eat",
+            "Radish": "Root we eat",
+            "Sugarcane": "Stem we eat"
+        }
+    },
+    {
         "q": "We should eat our food slowly and chew it well.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a dairy product made from milk?",
+        "type": "odd_one_out",
+        "options": [
+            "Milk",
+            "Cheese",
+            "Yogurt",
+            "Apple"
+        ],
+        "correct": "Apple"
     },
     {
         "q": "Which of these is a whole fruit, not a juice?",
@@ -387,6 +482,18 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Swipe RIGHT for foods to Cook First, LEFT for foods to Eat Raw.",
+        "type": "swipe_cards",
+        "left_label": "Eat Raw",
+        "right_label": "Cook First",
+        "cards": {
+            "Cucumber": "left",
+            "Ripe Tomato": "left",
+            "Raw Chicken": "right",
+            "Dal": "right"
+        }
+    },
+    {
         "q": "Eating too many sweets is good for your teeth.",
         "type": "true_false",
         "correct": "False"
@@ -402,6 +509,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: A red or green crispy fruit.",
+        "type": "word_scramble",
+        "answer": "APPLE",
+        "decoys": "ZB"
+    },
+    {
         "q": "To stay healthy, we need a ______ diet.",
         "type": "fill_blank",
         "answers": [
@@ -412,6 +525,29 @@
             "sweet",
             "sour",
             "colorful"
+        ]
+    },
+    {
+        "q": "Complete the sentence about the use of food:",
+        "type": "inline_dropdown",
+        "text": "Food gives us [0] to work and [1].",
+        "dropdowns": [
+            {
+                "correct": "energy",
+                "options": [
+                    "energy",
+                    "sleep",
+                    "sadness"
+                ]
+            },
+            {
+                "correct": "play",
+                "options": [
+                    "play",
+                    "cry",
+                    "fall"
+                ]
+            }
         ]
     },
     {
@@ -471,6 +607,13 @@
         "correct": "False"
     },
     {
+        "q": "How many times a day should you brush your teeth to keep them healthy?",
+        "type": "slider",
+        "min": 0,
+        "max": 4,
+        "correct": 2
+    },
+    {
         "q": "Which part of a plant is a carrot?",
         "type": "mcq",
         "o": [
@@ -502,6 +645,15 @@
             "Onion",
             "Garlic"
         ]
+    },
+    {
+        "q": "Match the food to its taste.",
+        "type": "memory",
+        "pairs": {
+            "Lemon": "Sour taste",
+            "Honey": "Sweet taste",
+            "Potato chips": "Salty taste"
+        }
     },
     {
         "q": "Name one food made from wheat.",
@@ -560,6 +712,29 @@
             "Cheese",
             "Yogurt"
         ]
+    },
+    {
+        "q": "Which of these is NOT a vegetable?",
+        "type": "odd_one_out",
+        "options": [
+            "Carrot",
+            "Potato",
+            "Spinach",
+            "Mango"
+        ],
+        "correct": "Mango"
+    },
+    {
+        "q": "Swipe RIGHT for Junk Food, LEFT for Healthy Food.",
+        "type": "swipe_cards",
+        "left_label": "Healthy",
+        "right_label": "Junk Food",
+        "cards": {
+            "Spinach": "left",
+            "Apple": "left",
+            "Burger": "right",
+            "Cola": "right"
+        }
     },
     {
         "q": "We should eat ______ meals at regular times.",
@@ -637,6 +812,12 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Unscramble the word: Clear liquid we must drink daily.",
+        "type": "word_scramble",
+        "answer": "WATER",
+        "decoys": "JQ"
+    },
+    {
         "q": "Food gives us ______ to play and study.",
         "type": "fill_blank",
         "answers": [
@@ -704,6 +885,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about meal times:",
+        "type": "inline_dropdown",
+        "text": "We eat [0] in the morning before going to [1].",
+        "dropdowns": [
+            {
+                "correct": "breakfast",
+                "options": [
+                    "dinner",
+                    "breakfast",
+                    "lunch"
+                ]
+            },
+            {
+                "correct": "school",
+                "options": [
+                    "school",
+                    "bed",
+                    "moon"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these is a healthy fat?",
         "type": "mcq",
         "o": [
@@ -764,6 +968,13 @@
         ]
     },
     {
+        "q": "How many meals should you skip to be completely healthy?",
+        "type": "slider",
+        "min": 0,
+        "max": 5,
+        "correct": 0
+    },
+    {
         "q": "Which of these is a frozen dessert?",
         "type": "mcq",
         "o": [
@@ -797,6 +1008,15 @@
             "cabbage"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Match the food to its food group.",
+        "type": "memory",
+        "pairs": {
+            "Bread": "Energy-giving food",
+            "Egg": "Body-building food",
+            "Apple": "Protective food"
+        }
     },
     {
         "q": "We must always eat fresh and ______ food.",
@@ -838,6 +1058,17 @@
         ]
     },
     {
+        "q": "Which of these is NOT a protective food (fruit or vegetable)?",
+        "type": "odd_one_out",
+        "options": [
+            "Apple",
+            "Orange",
+            "Banana",
+            "Pizza"
+        ],
+        "correct": "Pizza"
+    },
+    {
         "q": "It is healthy to share food with friends.",
         "type": "true_false",
         "correct": "True"
@@ -851,6 +1082,18 @@
             "Egg",
             "Sugar"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Body-Building foods, LEFT for Energy Foods.",
+        "type": "swipe_cards",
+        "left_label": "Energy Food",
+        "right_label": "Body-Building",
+        "cards": {
+            "Bread": "left",
+            "Rice": "left",
+            "Egg": "right",
+            "Meat": "right"
+        }
     },
     {
         "q": "Name a food that is sour.",
@@ -876,6 +1119,12 @@
             "Tomato",
             "Rice"
         ]
+    },
+    {
+        "q": "Unscramble the word: Food from animals.",
+        "type": "word_scramble",
+        "answer": "MEAT",
+        "decoys": "YZ"
     },
     {
         "q": "Pizza and burgers are everyday foods.",
@@ -927,6 +1176,29 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Complete the sentence about eating habits:",
+        "type": "inline_dropdown",
+        "text": "We should always [0] our food properly before [1] it.",
+        "dropdowns": [
+            {
+                "correct": "chew",
+                "options": [
+                    "swallow",
+                    "chew",
+                    "throw"
+                ]
+            },
+            {
+                "correct": "swallowing",
+                "options": [
+                    "swallowing",
+                    "chewing",
+                    "spitting"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these is a cereal?",
         "type": "mcq",
         "o": [
@@ -935,6 +1207,13 @@
             "Cucumber",
             "Banana"
         ]
+    },
+    {
+        "q": "If you eat breakfast, lunch, and dinner, how many meals is that?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
     },
     {
         "q": "Butter is made from milk.",
@@ -1074,6 +1353,26 @@
         ]
     },
     {
+        "q": "Match the meal to the time of day.",
+        "type": "memory",
+        "pairs": {
+            "Morning": "Breakfast time",
+            "Afternoon": "Lunch time",
+            "Night": "Dinner time"
+        }
+    },
+    {
+        "q": "Which of these is NOT a root vegetable?",
+        "type": "odd_one_out",
+        "options": [
+            "Radish",
+            "Carrot",
+            "Turnip",
+            "Apple"
+        ],
+        "correct": "Apple"
+    },
+    {
         "q": "Which of these is a good source of healthy fats?",
         "type": "mcq",
         "o": [
@@ -1082,6 +1381,18 @@
             "Soft drink",
             "White rice"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Ready to Eat, LEFT for Wash First.",
+        "type": "swipe_cards",
+        "left_label": "Wash First",
+        "right_label": "Ready to Eat",
+        "cards": {
+            "Fresh Apple": "left",
+            "Grapes": "left",
+            "Packaged Biscuit": "right",
+            "Baked Bread": "right"
+        }
     },
     {
         "q": "Eating carrots is good for your eyesight.",
@@ -1095,6 +1406,35 @@
             "starch"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: An orange root vegetable.",
+        "type": "word_scramble",
+        "answer": "CARROT",
+        "decoys": "XJ"
+    },
+    {
+        "q": "Complete the sentence about health:",
+        "type": "inline_dropdown",
+        "text": "Healthy food helps us to [0] fast when we fall [1].",
+        "dropdowns": [
+            {
+                "correct": "heal",
+                "options": [
+                    "heal",
+                    "run",
+                    "cry"
+                ]
+            },
+            {
+                "correct": "sick",
+                "options": [
+                    "sick",
+                    "happy",
+                    "asleep"
+                ]
+            }
+        ]
     },
     {
         "q": "Which of these is a pulse (dal)?",
@@ -1221,6 +1561,13 @@
         ]
     },
     {
+        "q": "How many seconds should you wash your hands to kill germs?",
+        "type": "slider",
+        "min": 5,
+        "max": 40,
+        "correct": 20
+    },
+    {
         "q": "Eating too much salty food can lead to high blood pressure.",
         "type": "true_false",
         "correct": "True"
@@ -1327,6 +1674,15 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Match the fruit to its seeds.",
+        "type": "memory",
+        "pairs": {
+            "Mango": "Has one big seed",
+            "Papaya": "Has many seeds",
+            "Banana": "Has no large seeds"
+        }
+    },
+    {
         "q": "Which of these is a probiotic food?",
         "type": "mcq",
         "o": [
@@ -1391,6 +1747,17 @@
         ]
     },
     {
+        "q": "Which of these is NOT a stem we eat?",
+        "type": "odd_one_out",
+        "options": [
+            "Sugarcane",
+            "Potato",
+            "Ginger",
+            "Tomato"
+        ],
+        "correct": "Tomato"
+    },
+    {
         "q": "Which of these is a cruciferous vegetable?",
         "type": "mcq",
         "o": [
@@ -1418,6 +1785,18 @@
         "q": "Fat-free foods are always the healthiest choice.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "Swipe RIGHT for Winter Fruit, LEFT for Summer Fruit.",
+        "type": "swipe_cards",
+        "left_label": "Summer Fruit",
+        "right_label": "Winter Fruit",
+        "cards": {
+            "Mango": "left",
+            "Watermelon": "left",
+            "Apple": "right",
+            "Orange": "right"
+        }
     },
     {
         "q": "Which of these helps in the formation of hemoglobin?",
@@ -1492,6 +1871,12 @@
         "q": "Brown bread is healthier than white bread because it has more fiber.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: Baked food made from wheat.",
+        "type": "word_scramble",
+        "answer": "BREAD",
+        "decoys": "QZ"
     },
     {
         "q": "Name one food that is often fortified with Vitamin D.",
@@ -1605,6 +1990,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about milk:",
+        "type": "inline_dropdown",
+        "text": "Drinking [0] makes our [1] strong.",
+        "dropdowns": [
+            {
+                "correct": "milk",
+                "options": [
+                    "cola",
+                    "milk",
+                    "juice"
+                ]
+            },
+            {
+                "correct": "bones",
+                "options": [
+                    "hair",
+                    "bones",
+                    "eyes"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Name a food that is a natural prebiotic (feeds good gut bacteria).",
         "type": "short_answer",
         "answers": [
@@ -1705,6 +2113,13 @@
         ]
     },
     {
+        "q": "How many times should you eat junk food per week to stay perfectly healthy?",
+        "type": "slider",
+        "min": 0,
+        "max": 10,
+        "correct": 0
+    },
+    {
         "q": "A feeling of thirst is a signal that your body needs more ______.",
         "type": "fill_blank",
         "answers": [
@@ -1780,6 +2195,15 @@
             "meat eater",
             "carnivore"
         ]
+    },
+    {
+        "q": "Match the cooking method to its meaning.",
+        "type": "memory",
+        "pairs": {
+            "Boiling": "Cooking in hot water",
+            "Frying": "Cooking in hot oil",
+            "Baking": "Cooking in an oven"
+        }
     },
     {
         "q": "Name a common food that contains yeast.",
@@ -1896,6 +2320,17 @@
         ]
     },
     {
+        "q": "Which of these is NOT a leafy vegetable?",
+        "type": "odd_one_out",
+        "options": [
+            "Spinach",
+            "Cabbage",
+            "Mint",
+            "Potato"
+        ],
+        "correct": "Potato"
+    },
+    {
         "q": "What is the main ingredient in a smoothie?",
         "type": "short_answer",
         "answers": [
@@ -1961,6 +2396,47 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Bad Habit, LEFT for Good Habit.",
+        "type": "swipe_cards",
+        "left_label": "Good Habit",
+        "right_label": "Bad Habit",
+        "cards": {
+            "Chew slowly": "left",
+            "Wash hands": "left",
+            "Talk while eating": "right",
+            "Waste food": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word: Hard parts inside our body that need calcium.",
+        "type": "word_scramble",
+        "answer": "BONE",
+        "decoys": "XV"
+    },
+    {
+        "q": "Complete the sentence about bad eating habits:",
+        "type": "inline_dropdown",
+        "text": "Eating too much [0] food can give us a [1] ache.",
+        "dropdowns": [
+            {
+                "correct": "junk",
+                "options": [
+                    "healthy",
+                    "junk",
+                    "fresh"
+                ]
+            },
+            {
+                "correct": "stomach",
+                "options": [
+                    "stomach",
+                    "head",
+                    "leg"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Name one food that is a good source of zinc.",
         "type": "short_answer",
         "answers": [
@@ -1974,6 +2450,13 @@
         "isCaseSensitive": false
     },
     {
+        "q": "How many glasses of milk daily is usually recommended for strong bones?",
+        "type": "slider",
+        "min": 0,
+        "max": 5,
+        "correct": 2
+    },
+    {
         "q": "Which of these is a meal typically eaten at a celebration?",
         "type": "mcq",
         "o": [
@@ -1984,9 +2467,41 @@
         ]
     },
     {
+        "q": "Match the body part to what it does with food.",
+        "type": "memory",
+        "pairs": {
+            "Teeth": "Used to chew food",
+            "Tongue": "Used to taste food",
+            "Stomach": "Where food digests"
+        }
+    },
+    {
+        "q": "Which fruit does NOT have multiple small seeds?",
+        "type": "odd_one_out",
+        "options": [
+            "Watermelon",
+            "Papaya",
+            "Guava",
+            "Mango"
+        ],
+        "correct": "Mango"
+    },
+    {
         "q": "Dehydration occurs when the body lacks enough water.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Stale & Unsafe, LEFT for Fresh & Safe.",
+        "type": "swipe_cards",
+        "left_label": "Fresh & Safe",
+        "right_label": "Stale & Unsafe",
+        "cards": {
+            "Freshly cooked": "left",
+            "Clean fruit": "left",
+            "Uncovered food": "right",
+            "Fly-covered food": "right"
+        }
     },
     {
         "q": "Which of these is a fast food item?",
@@ -2046,6 +2561,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: White things in your mouth to chew food.",
+        "type": "word_scramble",
+        "answer": "TEETH",
+        "decoys": "ZK"
+    },
+    {
         "q": "Match the vitamin with its solubility type:",
         "type": "match",
         "left": [
@@ -2097,6 +2618,29 @@
             "pepsinogen"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about old food:",
+        "type": "inline_dropdown",
+        "text": "[0] food is bad for health and can make us [1].",
+        "dropdowns": [
+            {
+                "correct": "Stale",
+                "options": [
+                    "Fresh",
+                    "Stale",
+                    "Hot"
+                ]
+            },
+            {
+                "correct": "sick",
+                "options": [
+                    "sick",
+                    "strong",
+                    "fast"
+                ]
+            }
+        ]
     },
     {
         "q": "Which of these is a complex carbohydrate?",
@@ -2202,6 +2746,13 @@
         ]
     },
     {
+        "q": "How many legs does a cow, which gives us milk, have?",
+        "type": "slider",
+        "min": 2,
+        "max": 6,
+        "correct": 4
+    },
+    {
         "q": "The chemical process of fats turning rancid is called ______.",
         "type": "fill_blank",
         "answers": [
@@ -2246,12 +2797,32 @@
         ]
     },
     {
+        "q": "Match the food to its diet type.",
+        "type": "memory",
+        "pairs": {
+            "Paneer": "Vegetarian food",
+            "Chicken": "Non-vegetarian food",
+            "Apple": "Fruit from plants"
+        }
+    },
+    {
         "q": "What is the name of the condition where bones become weak and brittle?",
         "type": "short_answer",
         "answers": [
             "osteoporosis"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT a spice used to flavor food?",
+        "type": "odd_one_out",
+        "options": [
+            "Salt",
+            "Pepper",
+            "Turmeric",
+            "Milk"
+        ],
+        "correct": "Milk"
     },
     {
         "q": "Which of these additives prevents food from reacting with oxygen?",
@@ -2267,6 +2838,18 @@
         "q": "A person in a state of negative nitrogen balance is losing more protein than they eat.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Sweet, LEFT for Bitter.",
+        "type": "swipe_cards",
+        "left_label": "Bitter",
+        "right_label": "Sweet",
+        "cards": {
+            "Bitter gourd": "left",
+            "Neem leaf": "left",
+            "Honey": "right",
+            "Sugar": "right"
+        }
     },
     {
         "q": "The body stores excess glucose as glycogen in the liver and ______.",
@@ -2339,6 +2922,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: The meal we eat in the afternoon.",
+        "type": "word_scramble",
+        "answer": "LUNCH",
+        "decoys": "QX"
+    },
+    {
         "q": "Foods labeled 'fat-free' are always low in calories.",
         "type": "true_false",
         "correct": "False"
@@ -2377,6 +2966,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about safety:",
+        "type": "inline_dropdown",
+        "text": "We should keep food [0] to protect it from [1].",
+        "dropdowns": [
+            {
+                "correct": "covered",
+                "options": [
+                    "open",
+                    "covered",
+                    "dirty"
+                ]
+            },
+            {
+                "correct": "flies",
+                "options": [
+                    "flies",
+                    "sun",
+                    "air"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these is a food emulsifier?",
         "type": "mcq",
         "o": [
@@ -2385,6 +2997,13 @@
             "Salt",
             "Vinegar"
         ]
+    },
+    {
+        "q": "How many pieces of candy are in a healthy breakfast?",
+        "type": "slider",
+        "min": 0,
+        "max": 10,
+        "correct": 0
     },
     {
         "q": "Wild caught fish always has lower mercury levels than farmed fish.",
@@ -2406,6 +3025,15 @@
             "Requires Intrinsic Factor",
             "Active transport"
         ]
+    },
+    {
+        "q": "Match the dry fruit to its description.",
+        "type": "memory",
+        "pairs": {
+            "Almond": "Brown dry fruit",
+            "Cashew": "White curved dry fruit",
+            "Raisin": "Sweet dried grape"
+        }
     },
     {
         "q": "Which of these is classified as a trace mineral?",
@@ -2441,6 +3069,17 @@
         ]
     },
     {
+        "q": "Which of these is NOT a good breakfast food?",
+        "type": "odd_one_out",
+        "options": [
+            "Cereal",
+            "Toast",
+            "Milk",
+            "Ice cream"
+        ],
+        "correct": "Ice cream"
+    },
+    {
         "q": "The diet designed to stop hypertension is called the ______ diet.",
         "type": "fill_blank",
         "answers": [
@@ -2460,6 +3099,18 @@
             "ghrelin"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for Foods to Eat, LEFT for Liquids to Drink.",
+        "type": "swipe_cards",
+        "left_label": "Drink",
+        "right_label": "Eat",
+        "cards": {
+            "Water": "left",
+            "Milk": "left",
+            "Bread": "right",
+            "Rice": "right"
+        }
     },
     {
         "q": "Which of these cooking methods produces acrylamide?",
@@ -2564,6 +3215,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: What we must do to our hands before eating.",
+        "type": "word_scramble",
+        "answer": "WASH",
+        "decoys": "ZY"
+    },
+    {
         "q": "A calorie is a unit of energy.",
         "type": "true_false",
         "correct": "True"
@@ -2632,6 +3289,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about a good diet:",
+        "type": "inline_dropdown",
+        "text": "A [0] diet includes different types of [1].",
+        "dropdowns": [
+            {
+                "correct": "balanced",
+                "options": [
+                    "balanced",
+                    "poor",
+                    "sweet"
+                ]
+            },
+            {
+                "correct": "food",
+                "options": [
+                    "food",
+                    "toys",
+                    "stones"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these is a proteolytic enzyme?",
         "type": "mcq",
         "o": [
@@ -2652,6 +3332,13 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Energy, body-building, and protective are the main types of food groups. How many are there?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
         "q": "High fructose corn syrup is chemically similar to table sugar.",
         "type": "true_false",
         "correct": "True"
@@ -2665,6 +3352,15 @@
             "Freezing ice cream",
             "Boiling potatoes"
         ]
+    },
+    {
+        "q": "Match the type of water to its safety.",
+        "type": "memory",
+        "pairs": {
+            "Filtered water": "Safe to drink",
+            "Puddle water": "Unsafe to drink",
+            "Boiled water": "Germ-free water"
+        }
     },
     {
         "q": "The breakdown of starch by enzymes begins in the ______.",
@@ -2712,6 +3408,17 @@
             "adipocytes"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT a healthy drink?",
+        "type": "odd_one_out",
+        "options": [
+            "Water",
+            "Milk",
+            "Fresh Juice",
+            "Cola"
+        ],
+        "correct": "Cola"
     },
     {
         "q": "All processed foods are unhealthy.",
@@ -2916,6 +3623,24 @@
         "correct": "True"
     },
     {
+        "q": "Swipe RIGHT for Keep Outside, LEFT for Keep in Fridge.",
+        "type": "swipe_cards",
+        "left_label": "Keep in Fridge",
+        "right_label": "Keep Outside",
+        "cards": {
+            "Ice cream": "left",
+            "Fresh Milk": "left",
+            "Dry biscuits": "right",
+            "Uncut pumpkin": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word: Healthy sweet food that grows on trees.",
+        "type": "word_scramble",
+        "answer": "FRUIT",
+        "decoys": "XQ"
+    },
+    {
         "q": "Which of these is a non-nutritive sweetener?",
         "type": "mcq",
         "o": [
@@ -2923,6 +3648,29 @@
             "Honey",
             "Maple syrup",
             "Coconut sugar"
+        ]
+    },
+    {
+        "q": "Complete the sentence about teeth:",
+        "type": "inline_dropdown",
+        "text": "Eating too many [0] is bad for your [1].",
+        "dropdowns": [
+            {
+                "correct": "chocolates",
+                "options": [
+                    "vegetables",
+                    "chocolates",
+                    "fruits"
+                ]
+            },
+            {
+                "correct": "teeth",
+                "options": [
+                    "teeth",
+                    "hair",
+                    "ears"
+                ]
+            }
         ]
     },
     {
@@ -3087,6 +3835,15 @@
         ]
     },
     {
+        "q": "Match the plant food to the dish it makes.",
+        "type": "memory",
+        "pairs": {
+            "Wheat": "Used to make chapati",
+            "Rice": "Used to make idli",
+            "Potato": "Used to make fries"
+        }
+    },
+    {
         "q": "Which of these is an eicosanoid derived from arachidonic acid?",
         "type": "mcq",
         "o": [
@@ -3230,6 +3987,18 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Quick Energy, LEFT for Strong Bones.",
+        "type": "swipe_cards",
+        "left_label": "Strong Bones",
+        "right_label": "Quick Energy",
+        "cards": {
+            "Milk": "left",
+            "Cheese": "left",
+            "Sugar": "right",
+            "Butter": "right"
+        }
+    },
+    {
         "q": "Which of these amino acids is ketogenic only?",
         "type": "mcq",
         "o": [
@@ -3307,6 +4076,35 @@
             "Glycolysis inhibition",
             "Gluconeogenesis",
             "Lipolysis stimulation"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The part of the fruit that grows into a new plant.",
+        "type": "word_scramble",
+        "answer": "SEED",
+        "decoys": "BZ"
+    },
+    {
+        "q": "Complete the sentence about drinking:",
+        "type": "inline_dropdown",
+        "text": "We should drink plenty of [0] every day to stay [1].",
+        "dropdowns": [
+            {
+                "correct": "water",
+                "options": [
+                    "water",
+                    "soda",
+                    "oil"
+                ]
+            },
+            {
+                "correct": "healthy",
+                "options": [
+                    "healthy",
+                    "tired",
+                    "thirsty"
+                ]
+            }
         ]
     },
     {
@@ -3411,6 +4209,27 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Match the hygiene habit to when we do it.",
+        "type": "memory",
+        "pairs": {
+            "Wash": "Before eating",
+            "Brush": "After eating",
+            "Rinse": "Fruits and vegetables"
+        }
+    },
+    {
+        "q": "Swipe RIGHT for Dirty, LEFT for Clean.",
+        "type": "swipe_cards",
+        "left_label": "Clean",
+        "right_label": "Dirty",
+        "cards": {
+            "Washed apple": "left",
+            "Boiled water": "left",
+            "Muddy water": "right",
+            "Food with flies": "right"
+        }
+    },
+    {
         "q": "Which of these hormones promotes glycogenolysis in the liver?",
         "type": "mcq",
         "o": [
@@ -3419,6 +4238,12 @@
             "Somatostatin",
             "Thyroxine"
         ]
+    },
+    {
+        "q": "Unscramble the word: To prepare food by heating it.",
+        "type": "word_scramble",
+        "answer": "COOK",
+        "decoys": "XQ"
     },
     {
         "q": "Match the enzyme deficiency with the resulting condition:",
@@ -3520,6 +4345,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about the kitchen:",
+        "type": "inline_dropdown",
+        "text": "Food is cooked in clean [0] in the [1].",
+        "dropdowns": [
+            {
+                "correct": "utensils",
+                "options": [
+                    "utensils",
+                    "shoes",
+                    "leaves"
+                ]
+            },
+            {
+                "correct": "kitchen",
+                "options": [
+                    "kitchen",
+                    "bathroom",
+                    "bedroom"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these is a ketogenic condition?",
         "type": "mcq",
         "o": [
@@ -3539,6 +4387,15 @@
             "copper zinc"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Match the nutrient to its main job.",
+        "type": "memory",
+        "pairs": {
+            "Vitamins": "Protect from illness",
+            "Proteins": "Help body grow",
+            "Carbohydrates": "Give lots of energy"
+        }
     },
     {
         "q": "Cytochrome P450 enzymes are primarily involved in phase I detoxification reactions.",
@@ -3589,6 +4446,18 @@
             "minerals",
             "water"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for After Meal, LEFT for Before Meal.",
+        "type": "swipe_cards",
+        "left_label": "Before Meal",
+        "right_label": "After Meal",
+        "cards": {
+            "Wash hands": "left",
+            "Serve food": "left",
+            "Brush teeth": "right",
+            "Rinse mouth": "right"
+        }
     },
     {
         "q": "Name the major apolipoprotein of HDL.",
@@ -3675,6 +4544,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: Food helps our body to get bigger and ___.",
+        "type": "word_scramble",
+        "answer": "GROW",
+        "decoys": "VZ"
+    },
+    {
         "q": "Fructose metabolism bypasses the key regulatory step of glycolysis, which is phosphofructokinase.",
         "type": "true_false",
         "correct": "True"
@@ -3706,6 +4581,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about manners:",
+        "type": "inline_dropdown",
+        "text": "It is good manners to [0] your food with [1].",
+        "dropdowns": [
+            {
+                "correct": "share",
+                "options": [
+                    "share",
+                    "hide",
+                    "throw"
+                ]
+            },
+            {
+                "correct": "friends",
+                "options": [
+                    "friends",
+                    "enemies",
+                    "animals"
+                ]
+            }
+        ]
+    },
+    {
         "q": "The compound ______ acts as a phosphate carrier in oxidative phosphorylation.",
         "type": "fill_blank",
         "answers": [
@@ -3727,6 +4625,15 @@
             "nuclear factor erythroid 2-related factor 2"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Match the animal to what it provides.",
+        "type": "memory",
+        "pairs": {
+            "Goat": "Gives us meat",
+            "Cow": "Gives us dairy",
+            "Plant": "Gives us grains"
+        }
     },
     {
         "q": "Which of these substances is a precursor for bile acid synthesis?",
@@ -3819,6 +4726,18 @@
             "1",
             "2"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for From Animals, LEFT for From Plants.",
+        "type": "swipe_cards",
+        "left_label": "From Plants",
+        "right_label": "From Animals",
+        "cards": {
+            "Carrot": "left",
+            "Banana": "left",
+            "Fish": "right",
+            "Egg": "right"
+        }
     },
     {
         "q": "Name the peptide hormone that stimulates hunger and is produced in the stomach.",
@@ -3914,6 +4833,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: Our tongue helps us to ___ food.",
+        "type": "word_scramble",
+        "answer": "TASTE",
+        "decoys": "JQ"
+    },
+    {
         "q": "Which of these enzymes is the rate-limiting step of glycolysis?",
         "type": "mcq",
         "o": [
@@ -3955,6 +4880,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about digestion:",
+        "type": "inline_dropdown",
+        "text": "Digestion of food begins in the [0] with the help of [1].",
+        "dropdowns": [
+            {
+                "correct": "mouth",
+                "options": [
+                    "mouth",
+                    "stomach",
+                    "nose"
+                ]
+            },
+            {
+                "correct": "teeth",
+                "options": [
+                    "teeth",
+                    "hair",
+                    "eyes"
+                ]
+            }
+        ]
+    },
+    {
         "q": "The isoenzyme of hexokinase found in the liver with a high Km for glucose is ______.",
         "type": "fill_blank",
         "answers": [
@@ -3967,6 +4915,15 @@
             "hexokinase III",
             "fructokinase"
         ]
+    },
+    {
+        "q": "Match the food to its color.",
+        "type": "memory",
+        "pairs": {
+            "Tomato": "Red vegetable",
+            "Spinach": "Green vegetable",
+            "Lemon": "Yellow fruit"
+        }
     },
     {
         "q": "The compound 2,3-bisphosphoglycerate is a negative regulator of hemoglobin's oxygen affinity.",
@@ -4024,6 +4981,18 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Soft Food, LEFT for Hard Food.",
+        "type": "swipe_cards",
+        "left_label": "Hard Food",
+        "right_label": "Soft Food",
+        "cards": {
+            "Raw Carrot": "left",
+            "Walnut": "left",
+            "Ripe Banana": "right",
+            "Cooked Rice": "right"
+        }
+    },
+    {
         "q": "Which hormone increases the transcription of the PEPCK gene to stimulate gluconeogenesis?",
         "type": "mcq",
         "o": [
@@ -4034,9 +5003,38 @@
         ]
     },
     {
+        "q": "Unscramble the word: A dish of raw mixed vegetables.",
+        "type": "word_scramble",
+        "answer": "SALAD",
+        "decoys": "ZX"
+    },
+    {
         "q": "Aconitase is an iron-sulfur protein that catalyzes the isomerization of citrate to isocitrate.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about thirst:",
+        "type": "inline_dropdown",
+        "text": "When your body needs water, you feel [0], so you should [1].",
+        "dropdowns": [
+            {
+                "correct": "thirsty",
+                "options": [
+                    "thirsty",
+                    "hungry",
+                    "full"
+                ]
+            },
+            {
+                "correct": "drink",
+                "options": [
+                    "drink",
+                    "eat",
+                    "sleep"
+                ]
+            }
+        ]
     },
     {
         "q": "What is the name of the enzyme that converts retinal to retinoic acid?",
@@ -4048,6 +5046,12 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Unscramble the word: You must do this to your food before swallowing.",
+        "type": "word_scramble",
+        "answer": "CHEW",
+        "decoys": "YQ"
+    },
+    {
         "q": "Which of these enzymes is responsible for the first and rate-limiting step in bile acid synthesis?",
         "type": "mcq",
         "o": [
@@ -4055,6 +5059,29 @@
             "HMG-CoA reductase",
             "Sterol 27-hydroxylase",
             "Squalene epoxidase"
+        ]
+    },
+    {
+        "q": "Complete the sentence about farmers:",
+        "type": "inline_dropdown",
+        "text": "We must [0] the farmers who grow our [1].",
+        "dropdowns": [
+            {
+                "correct": "respect",
+                "options": [
+                    "respect",
+                    "ignore",
+                    "laugh at"
+                ]
+            },
+            {
+                "correct": "food",
+                "options": [
+                    "food",
+                    "clothes",
+                    "toys"
+                ]
+            }
         ]
     },
     {
@@ -4087,6 +5114,12 @@
             "Orlistat",
             "Acarbose"
         ]
+    },
+    {
+        "q": "Unscramble the word: Keep your hands and plates ___.",
+        "type": "word_scramble",
+        "answer": "CLEAN",
+        "decoys": "XZ"
     },
     {
         "q": "Which of these is a mechanism by which metformin reduces hepatic glucose output?",
@@ -4158,6 +5191,29 @@
         "correct": "True"
     },
     {
+        "q": "Complete the sentence about exercising:",
+        "type": "inline_dropdown",
+        "text": "Do not [0] immediately after eating a heavy [1].",
+        "dropdowns": [
+            {
+                "correct": "exercise",
+                "options": [
+                    "exercise",
+                    "sit",
+                    "breathe"
+                ]
+            },
+            {
+                "correct": "meal",
+                "options": [
+                    "meal",
+                    "book",
+                    "song"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Sirtuins are NAD+-dependent ______ enzymes that deacetylate target proteins.",
         "type": "fill_blank",
         "answers": [
@@ -4191,9 +5247,44 @@
         ]
     },
     {
+        "q": "Unscramble the word: Always eat ___ fruits and vegetables.",
+        "type": "word_scramble",
+        "answer": "FRESH",
+        "decoys": "VQ"
+    },
+    {
         "q": "The malonyl-CoA decarboxylase enzyme regulates the rate of fatty acid oxidation.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about screens and eating:",
+        "type": "inline_dropdown",
+        "text": "Watching [0] while eating makes us forget how much we [1].",
+        "dropdowns": [
+            {
+                "correct": "TV",
+                "options": [
+                    "TV",
+                    "birds",
+                    "stars"
+                ]
+            },
+            {
+                "correct": "eat",
+                "options": [
+                    "eat",
+                    "sleep",
+                    "talk"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Unscramble the word: A living thing that grows in soil and gives us food.",
+        "type": "word_scramble",
+        "answer": "PLANT",
+        "decoys": "ZX"
     },
     {
         "q": "In the fed state, elevated insulin activates protein phosphatase 1 which ______ glycogen synthase.",
@@ -4263,6 +5354,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about hunger:",
+        "type": "inline_dropdown",
+        "text": "When you feel [0], it means your body needs [1].",
+        "dropdowns": [
+            {
+                "correct": "hungry",
+                "options": [
+                    "hungry",
+                    "thirsty",
+                    "full"
+                ]
+            },
+            {
+                "correct": "food",
+                "options": [
+                    "food",
+                    "water",
+                    "air"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Name the mitochondrial transporter that imports pyruvate into the matrix.",
         "type": "short_answer",
         "answers": [
@@ -4300,6 +5414,12 @@
             "stearic acid",
             "arachidonic acid"
         ]
+    },
+    {
+        "q": "Unscramble the word: Eating good food keeps you in good ___.",
+        "type": "word_scramble",
+        "answer": "HEALTH",
+        "decoys": "QY"
     },
     {
         "q": "Name the protein that binds iron in the enterocyte and controls its release into the bloodstream.",
@@ -4433,6 +5553,29 @@
         "q": "Acetyl-CoA cannot be used for net gluconeogenesis in animals because the TCA cycle loses two carbons as CO2.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about fighting illness:",
+        "type": "inline_dropdown",
+        "text": "Eating [0] fruits gives us extra [1] to fight illness.",
+        "dropdowns": [
+            {
+                "correct": "fresh",
+                "options": [
+                    "fresh",
+                    "rotten",
+                    "dirty"
+                ]
+            },
+            {
+                "correct": "vitamins",
+                "options": [
+                    "vitamins",
+                    "fat",
+                    "sugar"
+                ]
+            }
+        ]
     },
     {
         "q": "The coenzyme form of vitamin B6, pyridoxal phosphate, forms a ______ intermediate with amino acid substrates.",

@@ -178,6 +178,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The [0] gives us bright daylight, and the [1] is the planet we call home.",
+        "dropdowns": [
+            {
+                "correct": "Sun",
+                "options": [
+                    "Moon",
+                    "Sun",
+                    "Star"
+                ]
+            },
+            {
+                "correct": "Earth",
+                "options": [
+                    "Mars",
+                    "Earth",
+                    "Jupiter"
+                ]
+            }
+        ]
+    },
+    {
         "q": "True or False: During daytime, we cannot see the Moon at all.",
         "type": "true_false",
         "correct": "False"
@@ -237,6 +260,12 @@
         "correct": "True"
     },
     {
+        "q": "Unscramble the word: The huge star that gives Earth its light and heat.",
+        "type": "word_scramble",
+        "answer": "SUN",
+        "decoys": "XZ"
+    },
+    {
         "q": "What do we call the path Earth takes around the Sun?",
         "type": "short_answer",
         "answers": [
@@ -271,6 +300,13 @@
         "q": "True or False: The Sun rises exactly in the east and sets exactly in the west every single day of the year everywhere on Earth.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "How many hours does it take for the Earth to spin completely around once?",
+        "type": "slider",
+        "min": 10,
+        "max": 30,
+        "correct": 24
     },
     {
         "q": "Which of these statements about Earth's rotation is correct?",
@@ -335,6 +371,38 @@
         ]
     },
     {
+        "q": "Match each celestial body with its fact.",
+        "type": "memory",
+        "pairs": {
+            "Sun": "A hot star that gives us heat",
+            "Earth": "The planet with land and oceans",
+            "Moon": "A rocky object moving around Earth"
+        }
+    },
+    {
+        "q": "Which of these does NOT belong in a list of things found in space?",
+        "type": "odd_one_out",
+        "options": [
+            "Sun",
+            "Moon",
+            "Earth",
+            "School Bus"
+        ],
+        "correct": "School Bus"
+    },
+    {
+        "q": "Swipe RIGHT for things you see during the Day, LEFT for the Night.",
+        "type": "swipe_cards",
+        "left_label": "Night",
+        "right_label": "Day",
+        "cards": {
+            "Bright Sun": "right",
+            "Dark Sky": "left",
+            "Twinkling Stars": "left",
+            "Bright Blue Sky": "right"
+        }
+    },
+    {
         "q": "When the Sun is highest in the sky at noon, it is ______.",
         "type": "mcq",
         "o": [
@@ -342,6 +410,29 @@
             "nighttime",
             "midnight",
             "evening"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "During the [0] we go to school and play, and at [1] it gets dark and we sleep.",
+        "dropdowns": [
+            {
+                "correct": "day",
+                "options": [
+                    "day",
+                    "night",
+                    "winter"
+                ]
+            },
+            {
+                "correct": "night",
+                "options": [
+                    "morning",
+                    "noon",
+                    "night"
+                ]
+            }
         ]
     },
     {
@@ -384,6 +475,21 @@
             "pole",
             "radius"
         ]
+    },
+    {
+        "q": "Unscramble the word: The big rocky ball that glows in the night sky.",
+        "type": "word_scramble",
+        "answer": "MOON",
+        "decoys": "QW"
+    },
+    {
+        "q": "Match the times of the day to what the Sun does.",
+        "type": "memory",
+        "pairs": {
+            "Sunrise": "The Sun comes up in the morning",
+            "Sunset": "The Sun goes down in the evening",
+            "Noon": "The Sun is highest in the sky"
+        }
     },
     {
         "q": "What do we call a Moon that looks like a half-circle?",
@@ -456,6 +562,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The Earth is shaped like a round [0] and it constantly [1] like a top.",
+        "dropdowns": [
+            {
+                "correct": "sphere",
+                "options": [
+                    "square",
+                    "sphere",
+                    "triangle"
+                ]
+            },
+            {
+                "correct": "spins",
+                "options": [
+                    "jumps",
+                    "falls",
+                    "spins"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Why do we have different seasons?",
         "type": "mcq",
         "o": [
@@ -488,6 +617,12 @@
             "cold",
             "far side"
         ]
+    },
+    {
+        "q": "Unscramble the word: The name of our home planet.",
+        "type": "word_scramble",
+        "answer": "EARTH",
+        "decoys": "J"
     },
     {
         "q": "True or False: The Moon orbits Earth once every 24 hours.",
@@ -818,6 +953,13 @@
         "isCaseSensitive": false
     },
     {
+        "q": "How many moons does the planet Earth have?",
+        "type": "slider",
+        "min": 0,
+        "max": 5,
+        "correct": 1
+    },
+    {
         "q": "Match the following:",
         "type": "match",
         "left": [
@@ -849,6 +991,26 @@
         ]
     },
     {
+        "q": "Match the correct descriptions for parts of a day.",
+        "type": "memory",
+        "pairs": {
+            "Daytime": "When it is bright outside",
+            "Nighttime": "When it is dark outside",
+            "Morning": "When we wake up and eat breakfast"
+        }
+    },
+    {
+        "q": "Which of these is NOT a real time of day?",
+        "type": "odd_one_out",
+        "options": [
+            "Morning",
+            "Afternoon",
+            "Evening",
+            "Apple"
+        ],
+        "correct": "Apple"
+    },
+    {
         "q": "About how many hours of daylight does the equator get each day on average?",
         "type": "fill_blank",
         "answers": [
@@ -868,6 +1030,18 @@
         "correct": "True"
     },
     {
+        "q": "Swipe RIGHT for Sun facts, LEFT for Moon facts.",
+        "type": "swipe_cards",
+        "left_label": "Moon",
+        "right_label": "Sun",
+        "cards": {
+            "Is very hot": "right",
+            "Is made of gray rock": "left",
+            "Provides our heat": "right",
+            "Only reflects light": "left"
+        }
+    },
+    {
         "q": "What do we call the changing appearance of the Moon as seen from Earth?",
         "type": "short_answer",
         "answers": [
@@ -876,6 +1050,29 @@
             "lunar phases"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Every morning the Sun rises in the [0] and every evening it sets in the [1].",
+        "dropdowns": [
+            {
+                "correct": "East",
+                "options": [
+                    "North",
+                    "East",
+                    "West"
+                ]
+            },
+            {
+                "correct": "West",
+                "options": [
+                    "South",
+                    "West",
+                    "East"
+                ]
+            }
+        ]
     },
     {
         "q": "Which of these is a basic feature of Earth's surface?",
@@ -901,6 +1098,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: The period when it is light out.",
+        "type": "word_scramble",
+        "answer": "DAY",
+        "decoys": "KV"
+    },
+    {
         "q": "True or False: The Sun is the only star in our solar system.",
         "type": "true_false",
         "correct": "True"
@@ -922,6 +1125,18 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Earth facts, LEFT for Sun facts.",
+        "type": "swipe_cards",
+        "left_label": "Sun",
+        "right_label": "Earth",
+        "cards": {
+            "We live right here": "right",
+            "Is a giant star": "left",
+            "Has trees and animals": "right",
+            "Is made of glowing gases": "left"
+        }
+    },
+    {
         "q": "Which of these is the hottest part of Earth?",
         "type": "mcq",
         "o": [
@@ -929,6 +1144,29 @@
             "The surface",
             "The atmosphere",
             "The oceans"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A [0] moon looks like a bright circle, and a [1] moon looks like a thin curved line.",
+        "dropdowns": [
+            {
+                "correct": "full",
+                "options": [
+                    "new",
+                    "full",
+                    "half"
+                ]
+            },
+            {
+                "correct": "crescent",
+                "options": [
+                    "crescent",
+                    "square",
+                    "flat"
+                ]
+            }
         ]
     },
     {
@@ -945,6 +1183,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: The time when we need lights to see outside.",
+        "type": "word_scramble",
+        "answer": "NIGHT",
+        "decoys": "B"
+    },
+    {
         "q": "True or False: The Sun's light allows us to see during daytime.",
         "type": "true_false",
         "correct": "True"
@@ -956,6 +1200,13 @@
             "atmosphere"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "How many main phases (shapes) does the Moon cycle through?",
+        "type": "slider",
+        "min": 2,
+        "max": 10,
+        "correct": 4
     },
     {
         "q": "Which of these happens once every 24 hours?",
@@ -1070,7 +1321,16 @@
         "correct": "True"
     },
     {
-        "q": "Earth’s rotation takes about 24 hours and causes day and night. What does Earth’s revolution around the Sun cause?",
+        "q": "Match the Moon phases with how they look.",
+        "type": "memory",
+        "pairs": {
+            "Full Moon": "Looks like a complete circle",
+            "Crescent Moon": "Looks like a curved banana",
+            "New Moon": "Hidden entirely from our view"
+        }
+    },
+    {
+        "q": "Earth\u2019s rotation takes about 24 hours and causes day and night. What does Earth\u2019s revolution around the Sun cause?",
         "type": "mcq",
         "o": [
             "A year and the seasons",
@@ -1094,13 +1354,59 @@
         ]
     },
     {
-        "q": "Which of these is true about the Moon’s size compared to Earth?",
+        "q": "Which of these is NOT a compass direction used to track the Sun?",
+        "type": "odd_one_out",
+        "options": [
+            "East",
+            "West",
+            "North",
+            "Up"
+        ],
+        "correct": "Up"
+    },
+    {
+        "q": "Swipe RIGHT for Morning actions, LEFT for Evening actions.",
+        "type": "swipe_cards",
+        "left_label": "Evening",
+        "right_label": "Morning",
+        "cards": {
+            "Watch the Sun rise": "right",
+            "Watch the Sun set": "left",
+            "Eat your breakfast": "right",
+            "Get ready for bed": "left"
+        }
+    },
+    {
+        "q": "Which of these is true about the Moon\u2019s size compared to Earth?",
         "type": "mcq",
         "o": [
             "The Moon is much smaller than Earth",
             "The Moon is larger than Earth",
             "The Moon is the same size as Earth",
             "The Moon is slightly bigger than Earth"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The [0] travels around our Earth, and the Earth travels around the [1].",
+        "dropdowns": [
+            {
+                "correct": "Moon",
+                "options": [
+                    "Sun",
+                    "Moon",
+                    "Star"
+                ]
+            },
+            {
+                "correct": "Sun",
+                "options": [
+                    "Moon",
+                    "Earth",
+                    "Sun"
+                ]
+            }
         ]
     },
     {
@@ -1119,7 +1425,7 @@
         ]
     },
     {
-        "q": "True or False: Earth’s axis is an imaginary line that runs from the North Pole to the South Pole.",
+        "q": "True or False: Earth\u2019s axis is an imaginary line that runs from the North Pole to the South Pole.",
         "type": "true_false",
         "correct": "True"
     },
@@ -1127,10 +1433,10 @@
         "q": "What is the main reason the Moon looks different each night?",
         "type": "mcq",
         "o": [
-            "We see different amounts of the Moon’s lit half as it orbits Earth",
+            "We see different amounts of the Moon\u2019s lit half as it orbits Earth",
             "The Moon changes shape",
             "Clouds cover parts of the Moon",
-            "Earth’s shadow falls on the Moon every night"
+            "Earth\u2019s shadow falls on the Moon every night"
         ]
     },
     {
@@ -1161,7 +1467,7 @@
         ]
     },
     {
-        "q": "Which statement about the Sun’s light is correct?",
+        "q": "Which statement about the Sun\u2019s light is correct?",
         "type": "mcq",
         "o": [
             "Sunlight takes about 8 minutes to reach Earth",
@@ -1249,6 +1555,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: A twinkling point of light far away in space.",
+        "type": "word_scramble",
+        "answer": "STAR",
+        "decoys": "PL"
+    },
+    {
         "q": "Match the following terms:",
         "type": "match",
         "left": [
@@ -1258,14 +1570,14 @@
             "Axis"
         ],
         "right": [
-            "Imaginary line around Earth’s middle",
-            "Top of Earth’s axis",
-            "Bottom of Earth’s axis",
+            "Imaginary line around Earth\u2019s middle",
+            "Top of Earth\u2019s axis",
+            "Bottom of Earth\u2019s axis",
             "Imaginary line Earth spins on"
         ]
     },
     {
-        "q": "True or False: The Moon’s gravity affects ocean tides on Earth.",
+        "q": "True or False: The Moon\u2019s gravity affects ocean tides on Earth.",
         "type": "true_false",
         "correct": "True"
     },
@@ -1280,7 +1592,7 @@
         ]
     },
     {
-        "q": "The darkest part of Earth’s shadow is called the ______.",
+        "q": "The darkest part of Earth\u2019s shadow is called the ______.",
         "type": "fill_blank",
         "answers": [
             "umbra"
@@ -1302,18 +1614,50 @@
         "isCaseSensitive": false
     },
     {
-        "q": "True or False: During a lunar eclipse, Earth’s shadow falls on the Moon.",
+        "q": "Match these space terms with their meanings.",
+        "type": "memory",
+        "pairs": {
+            "Star": "A huge glowing ball of fire and gas",
+            "Planet": "A large round body orbiting a star",
+            "Orbit": "The invisible path an object takes in space"
+        }
+    },
+    {
+        "q": "True or False: During a lunar eclipse, Earth\u2019s shadow falls on the Moon.",
         "type": "true_false",
         "correct": "True"
     },
     {
-        "q": "Which of these statements about the Sun’s heat is correct?",
+        "q": "Which of these statements about the Sun\u2019s heat is correct?",
         "type": "mcq",
         "o": [
-            "The Sun’s heat is caused by nuclear fusion in its core",
-            "The Sun’s heat comes from burning coal",
-            "The Sun’s heat comes from friction",
-            "The Sun’s heat is constant and never changes"
+            "The Sun\u2019s heat is caused by nuclear fusion in its core",
+            "The Sun\u2019s heat comes from burning coal",
+            "The Sun\u2019s heat comes from friction",
+            "The Sun\u2019s heat is constant and never changes"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Stars are actually very [0] in size, but they appear [1] to us because they are so far away.",
+        "dropdowns": [
+            {
+                "correct": "big",
+                "options": [
+                    "tiny",
+                    "small",
+                    "big"
+                ]
+            },
+            {
+                "correct": "small",
+                "options": [
+                    "small",
+                    "huge",
+                    "giant"
+                ]
+            }
         ]
     },
     {
@@ -1346,7 +1690,7 @@
         ]
     },
     {
-        "q": "True or False: Earth’s atmosphere scatters sunlight, which makes the sky look blue.",
+        "q": "True or False: Earth\u2019s atmosphere scatters sunlight, which makes the sky look blue.",
         "type": "true_false",
         "correct": "True"
     },
@@ -1392,7 +1736,7 @@
         "o": [
             "The Moon rotates exactly once for each orbit around Earth",
             "The Moon does not rotate",
-            "Earth’s gravity stops the Moon from rotating",
+            "Earth\u2019s gravity stops the Moon from rotating",
             "The far side is always dark"
         ]
     },
@@ -1423,14 +1767,27 @@
         "right": [
             "Energy from the Sun",
             "Sudden bright eruption on Sun",
-            "Dark cool area on Sun’s surface",
+            "Dark cool area on Sun\u2019s surface",
             "Stream of charged particles from Sun"
         ]
+    },
+    {
+        "q": "Unscramble the word: The feeling of warmth the Sun gives us.",
+        "type": "word_scramble",
+        "answer": "HEAT",
+        "decoys": "Z"
     },
     {
         "q": "True or False: The Moon has day and night just like Earth, but each lasts about two weeks.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Counting from the Sun, what position number is planet Earth?",
+        "type": "slider",
+        "min": 1,
+        "max": 8,
+        "correct": 3
     },
     {
         "q": "Which of these is a basic feature of the Moon?",
@@ -1469,6 +1826,15 @@
         "correct": "True"
     },
     {
+        "q": "Match the Sun's effects on us.",
+        "type": "memory",
+        "pairs": {
+            "Shadow": "The dark shape made by blocking sunlight",
+            "Light": "The brightness that helps us see",
+            "Heat": "The energy that keeps us warm"
+        }
+    },
+    {
         "q": "Which of these best describes why summer is warmer than winter?",
         "type": "mcq",
         "o": [
@@ -1479,7 +1845,7 @@
         ]
     },
     {
-        "q": "The lighter, outer part of Earth’s shadow is called the ______.",
+        "q": "The lighter, outer part of Earth\u2019s shadow is called the ______.",
         "type": "fill_blank",
         "answers": [
             "penumbra"
@@ -1508,7 +1874,7 @@
         ]
     },
     {
-        "q": "True or False: Earth’s distance from the Sun changes slightly during the year, but that is NOT the main cause of seasons.",
+        "q": "True or False: Earth\u2019s distance from the Sun changes slightly during the year, but that is NOT the main cause of seasons.",
         "type": "true_false",
         "correct": "True"
     },
@@ -1516,7 +1882,7 @@
         "q": "Which of these is a source of heat on Earth besides the Sun?",
         "type": "mcq",
         "o": [
-            "Earth’s hot core (geothermal energy)",
+            "Earth\u2019s hot core (geothermal energy)",
             "The Moon",
             "Stars at night",
             "Clouds"
@@ -1545,12 +1911,12 @@
         "isCaseSensitive": false
     },
     {
-        "q": "True or False: During a solar eclipse, the Moon completely covers the Sun’s disk for a few minutes.",
+        "q": "True or False: During a solar eclipse, the Moon completely covers the Sun\u2019s disk for a few minutes.",
         "type": "true_false",
         "correct": "True"
     },
     {
-        "q": "Which of these statements about Earth’s rotation speed is correct?",
+        "q": "Which of these statements about Earth\u2019s rotation speed is correct?",
         "type": "mcq",
         "o": [
             "At the equator, Earth spins at about 1,670 km/h",
@@ -1589,7 +1955,30 @@
         ]
     },
     {
-        "q": "True or False: The Sun’s surface temperature is about 5,500 degrees Celsius, while its core is millions of degrees.",
+        "q": "Which of these is NOT a real shape of the Moon?",
+        "type": "odd_one_out",
+        "options": [
+            "Full moon",
+            "Half moon",
+            "Crescent moon",
+            "Square moon"
+        ],
+        "correct": "Square moon"
+    },
+    {
+        "q": "Swipe RIGHT for Light, LEFT for Shadow.",
+        "type": "swipe_cards",
+        "left_label": "Shadow",
+        "right_label": "Light",
+        "cards": {
+            "Makes things bright": "right",
+            "Is a dark patch": "left",
+            "Comes directly from the Sun": "right",
+            "Appears when an object blocks the Sun": "left"
+        }
+    },
+    {
+        "q": "True or False: The Sun\u2019s surface temperature is about 5,500 degrees Celsius, while its core is millions of degrees.",
         "type": "true_false",
         "correct": "True"
     },
@@ -1597,7 +1986,7 @@
         "q": "Why does the Moon sometimes appear reddish during a total lunar eclipse?",
         "type": "mcq",
         "o": [
-            "Earth’s atmosphere bends red sunlight onto the Moon",
+            "Earth\u2019s atmosphere bends red sunlight onto the Moon",
             "The Moon turns into red cheese",
             "The Sun turns red during an eclipse",
             "Volcanoes on the Moon erupt red lava"
@@ -1632,13 +2021,36 @@
         "correct": "True"
     },
     {
-        "q": "Which of these statements about the Sun’s energy is correct?",
+        "q": "Which of these statements about the Sun\u2019s energy is correct?",
         "type": "mcq",
         "o": [
             "Solar energy powers the water cycle and wind",
             "Solar energy only gives light, not heat",
             "Solar energy is only useful during summer",
             "Solar energy cannot be captured by plants"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Your shadow is very [0] in the early morning and very [1] when the sun is right above your head.",
+        "dropdowns": [
+            {
+                "correct": "long",
+                "options": [
+                    "short",
+                    "long",
+                    "invisible"
+                ]
+            },
+            {
+                "correct": "short",
+                "options": [
+                    "long",
+                    "tall",
+                    "short"
+                ]
+            }
         ]
     },
     {
@@ -1655,13 +2067,19 @@
         ]
     },
     {
+        "q": "Unscramble the word: What makes the daytime bright.",
+        "type": "word_scramble",
+        "answer": "LIGHT",
+        "decoys": "C"
+    },
+    {
         "q": "Match the following:",
         "type": "match",
         "left": [
-            "Moon’s orbit around Earth",
-            "Earth’s orbit around Sun",
-            "Moon’s rotation period",
-            "Earth’s rotation period"
+            "Moon\u2019s orbit around Earth",
+            "Earth\u2019s orbit around Sun",
+            "Moon\u2019s rotation period",
+            "Earth\u2019s rotation period"
         ],
         "right": [
             "About 28 days",
@@ -1708,7 +2126,7 @@
         "isCaseSensitive": false
     },
     {
-        "q": "True or False: The Sun’s energy reaches Earth as electromagnetic radiation, including visible light, ultraviolet, and infrared.",
+        "q": "True or False: The Sun\u2019s energy reaches Earth as electromagnetic radiation, including visible light, ultraviolet, and infrared.",
         "type": "true_false",
         "correct": "True"
     },
@@ -1716,10 +2134,10 @@
         "q": "Which of these correctly describes why the Moon has craters but Earth has fewer visible craters?",
         "type": "mcq",
         "o": [
-            "Earth’s atmosphere and water erode craters over time",
+            "Earth\u2019s atmosphere and water erode craters over time",
             "Earth never got hit by asteroids",
-            "The Moon’s gravity attracts more asteroids",
-            "Earth’s craters are hidden inside volcanoes"
+            "The Moon\u2019s gravity attracts more asteroids",
+            "Earth\u2019s craters are hidden inside volcanoes"
         ]
     },
     {
@@ -1757,7 +2175,7 @@
         "correct": "True"
     },
     {
-        "q": "Which of these statements about Earth’s magnetic field is correct?",
+        "q": "Which of these statements about Earth\u2019s magnetic field is correct?",
         "type": "mcq",
         "o": [
             "It protects us from harmful solar wind",
@@ -1780,7 +2198,7 @@
         ]
     },
     {
-        "q": "What do we call the point in Earth’s orbit when it is closest to the Sun?",
+        "q": "What do we call the point in Earth\u2019s orbit when it is closest to the Sun?",
         "type": "short_answer",
         "answers": [
             "perihelion"
@@ -1796,7 +2214,7 @@
         "q": "Which of these best explains why stars are not visible during the day?",
         "type": "mcq",
         "o": [
-            "The Sun’s light scatters in Earth’s atmosphere and outshines them",
+            "The Sun\u2019s light scatters in Earth\u2019s atmosphere and outshines them",
             "Stars move to the other side of Earth during the day",
             "The Moon covers them",
             "Stars turn off during the day"
@@ -1837,7 +2255,7 @@
         "correct": "True"
     },
     {
-        "q": "Which of these is a basic feature of Earth’s interior?",
+        "q": "Which of these is a basic feature of Earth\u2019s interior?",
         "type": "mcq",
         "o": [
             "A solid iron inner core and liquid outer core",
@@ -1873,13 +2291,13 @@
         "correct": "True"
     },
     {
-        "q": "Which of these statements about Earth’s tilt is correct?",
+        "q": "Which of these statements about Earth\u2019s tilt is correct?",
         "type": "mcq",
         "o": [
-            "Earth’s axis is tilted about 23.5 degrees",
-            "Earth’s axis is not tilted at all",
-            "Earth’s axis tilts 90 degrees",
-            "Earth’s axis changes tilt every day"
+            "Earth\u2019s axis is tilted about 23.5 degrees",
+            "Earth\u2019s axis is not tilted at all",
+            "Earth\u2019s axis tilts 90 degrees",
+            "Earth\u2019s axis changes tilt every day"
         ]
     },
     {
@@ -1909,7 +2327,7 @@
             "Moon completely covers Sun (same apparent size)",
             "Moon covers center, leaves ring (Moon smaller)",
             "Moon covers part of Sun",
-            "Earth’s shadow completely covers Moon"
+            "Earth\u2019s shadow completely covers Moon"
         ]
     },
     {
@@ -1918,7 +2336,7 @@
         "correct": "True"
     },
     {
-        "q": "Which of these features is found on the Moon’s surface?",
+        "q": "Which of these features is found on the Moon\u2019s surface?",
         "type": "mcq",
         "o": [
             "Maria (dark flat plains)",
@@ -1949,12 +2367,47 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Swipe RIGHT for Living things, LEFT for Non-living things on Earth.",
+        "type": "swipe_cards",
+        "left_label": "Non-living",
+        "right_label": "Living",
+        "cards": {
+            "Green Tree": "right",
+            "Gray Rock": "left",
+            "Flying Bird": "right",
+            "Ocean Water": "left"
+        }
+    },
+    {
         "q": "True or False: Tides are caused only by the Sun, not the Moon.",
         "type": "true_false",
         "correct": "False"
     },
     {
-        "q": "Which of these statements about Earth’s atmosphere is correct?",
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The Earth is mostly covered by [0] in the huge oceans, and the rest is solid [1].",
+        "dropdowns": [
+            {
+                "correct": "water",
+                "options": [
+                    "sand",
+                    "water",
+                    "ice"
+                ]
+            },
+            {
+                "correct": "land",
+                "options": [
+                    "land",
+                    "clouds",
+                    "air"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these statements about Earth\u2019s atmosphere is correct?",
         "type": "mcq",
         "o": [
             "It is mostly nitrogen and oxygen",
@@ -1962,6 +2415,12 @@
             "It is mostly helium",
             "It is mostly hydrogen"
         ]
+    },
+    {
+        "q": "Unscramble the word: The huge blue space above our heads.",
+        "type": "word_scramble",
+        "answer": "SKY",
+        "decoys": "MO"
     },
     {
         "q": "The time when the Sun is directly overhead at the equator, giving equal day and night, is called an ______.",
@@ -1991,6 +2450,13 @@
             "Less than half lit",
             "More than half lit"
         ]
+    },
+    {
+        "q": "How many days are there in one complete week?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 7
     },
     {
         "q": "True or False: A blue Moon (second full Moon in a month) is actually blue in color.",
@@ -2031,18 +2497,27 @@
         "isCaseSensitive": false
     },
     {
-        "q": "True or False: The same side of the Moon always faces Earth because the Moon’s rotation and orbit periods are the same.",
+        "q": "Match these tools and people exploring space.",
+        "type": "memory",
+        "pairs": {
+            "Telescope": "A tool we look through to see far stars",
+            "Astronaut": "A brave person who travels to space",
+            "Spacesuit": "Special protective clothing worn in space"
+        }
+    },
+    {
+        "q": "True or False: The same side of the Moon always faces Earth because the Moon\u2019s rotation and orbit periods are the same.",
         "type": "true_false",
         "correct": "True"
     },
     {
-        "q": "Which of these statements about Earth’s oceans is correct?",
+        "q": "Which of these statements about Earth\u2019s oceans is correct?",
         "type": "mcq",
         "o": [
-            "Oceans cover about 71% of Earth’s surface",
-            "Oceans cover about 50% of Earth’s surface",
-            "Oceans cover about 90% of Earth’s surface",
-            "Oceans cover about 30% of Earth’s surface"
+            "Oceans cover about 71% of Earth\u2019s surface",
+            "Oceans cover about 50% of Earth\u2019s surface",
+            "Oceans cover about 90% of Earth\u2019s surface",
+            "Oceans cover about 30% of Earth\u2019s surface"
         ]
     },
     {
@@ -2078,7 +2553,7 @@
         ]
     },
     {
-        "q": "True or False: Earth’s rotation is gradually slowing down due to tidal forces from the Moon.",
+        "q": "True or False: Earth\u2019s rotation is gradually slowing down due to tidal forces from the Moon.",
         "type": "true_false",
         "correct": "True"
     },
@@ -2155,6 +2630,17 @@
         "correct": "True"
     },
     {
+        "q": "Which of these does NOT belong in the nighttime sky?",
+        "type": "odd_one_out",
+        "options": [
+            "Stars",
+            "Moon",
+            "Darkness",
+            "Rainbow"
+        ],
+        "correct": "Rainbow"
+    },
+    {
         "q": "Which of these statements explains why we do not have a solar eclipse every month?",
         "type": "mcq",
         "o": [
@@ -2162,6 +2648,41 @@
             "The Moon is too small",
             "The Sun is too bright",
             "Earth's rotation prevents it"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Summer features, LEFT for Winter features.",
+        "type": "swipe_cards",
+        "left_label": "Winter",
+        "right_label": "Summer",
+        "cards": {
+            "Feels very hot": "right",
+            "Feels very cold": "left",
+            "Has long days": "right",
+            "Often has falling snow": "left"
+        }
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "You should never look directly at the bright [0] because it can permanently hurt your [1].",
+        "dropdowns": [
+            {
+                "correct": "Sun",
+                "options": [
+                    "Moon",
+                    "Sun",
+                    "Earth"
+                ]
+            },
+            {
+                "correct": "eyes",
+                "options": [
+                    "ears",
+                    "eyes",
+                    "hands"
+                ]
+            }
         ]
     },
     {
@@ -2247,6 +2768,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: The circular path an object takes in space.",
+        "type": "word_scramble",
+        "answer": "ORBIT",
+        "decoys": "F"
+    },
+    {
         "q": "The angle of the Sun above the horizon at solar noon is called the Sun's ______.",
         "type": "fill_blank",
         "answers": [
@@ -2261,6 +2788,15 @@
         ]
     },
     {
+        "q": "Match the celestial bodies to what they are mostly made of or shaped like.",
+        "type": "memory",
+        "pairs": {
+            "Sphere": "The exact 3D round shape of our Earth",
+            "Rock and Dust": "What the Moon's surface is made of",
+            "Hot Gas": "What the burning Sun is made of"
+        }
+    },
+    {
         "q": "What do we call the phenomenon where the Moon appears to grow from new to full?",
         "type": "short_answer",
         "answers": [
@@ -2269,7 +2805,30 @@
         "isCaseSensitive": false
     },
     {
-        "q": "True or False: The Tropic of Cancer (23.5° N) marks the northernmost latitude where the Sun can be directly overhead.",
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The Moon does not make its own [0], it just acts like a mirror and bounces back the [1].",
+        "dropdowns": [
+            {
+                "correct": "light",
+                "options": [
+                    "water",
+                    "light",
+                    "wind"
+                ]
+            },
+            {
+                "correct": "Sun",
+                "options": [
+                    "Earth",
+                    "Sun",
+                    "Stars"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "True or False: The Tropic of Cancer (23.5\u00b0 N) marks the northernmost latitude where the Sun can be directly overhead.",
         "type": "true_false",
         "correct": "True"
     },
@@ -2351,6 +2910,12 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Unscramble the word: To turn round and round like a top.",
+        "type": "word_scramble",
+        "answer": "SPIN",
+        "decoys": "XY"
+    },
+    {
         "q": "True or False: The Sun's energy is produced by nuclear fusion, where hydrogen atoms combine to form helium.",
         "type": "true_false",
         "correct": "True"
@@ -2380,6 +2945,13 @@
         ]
     },
     {
+        "q": "About how many days does it take the Moon to orbit the Earth once?",
+        "type": "slider",
+        "min": 10,
+        "max": 40,
+        "correct": 28
+    },
+    {
         "q": "Match the following terms with their definitions:",
         "type": "match",
         "left": [
@@ -2396,9 +2968,29 @@
         ]
     },
     {
+        "q": "Match these geographic locations on Earth.",
+        "type": "memory",
+        "pairs": {
+            "Equator": "An imaginary line around the middle of Earth",
+            "North Pole": "The very top point of the Earth",
+            "South Pole": "The very bottom point of the Earth"
+        }
+    },
+    {
         "q": "True or False: During a partial lunar eclipse, only part of the Moon enters Earth's umbra.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT something we receive from the Sun?",
+        "type": "odd_one_out",
+        "options": [
+            "Light",
+            "Heat",
+            "Warmth",
+            "Cold Snow"
+        ],
+        "correct": "Cold Snow"
     },
     {
         "q": "Which of these statements about Earth's rotation axis is correct?",
@@ -2437,6 +3029,18 @@
         "q": "True or False: The Southern Hemisphere experiences opposite seasons to the Northern Hemisphere.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for things in the Sky, LEFT for things on the Ground.",
+        "type": "swipe_cards",
+        "left_label": "Ground",
+        "right_label": "Sky",
+        "cards": {
+            "White Clouds": "right",
+            "Green Grass": "left",
+            "Flying Eagles": "right",
+            "Brown Dirt": "left"
+        }
     },
     {
         "q": "Which of these best describes a first quarter Moon's position relative to Earth and Sun?",
@@ -2481,6 +3085,29 @@
         "q": "True or False: The Earth's orbit around the Sun is a perfect circle.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "When our side of Earth faces the Sun it is [0], and when we turn away into the shadow it is [1].",
+        "dropdowns": [
+            {
+                "correct": "day",
+                "options": [
+                    "day",
+                    "night",
+                    "summer"
+                ]
+            },
+            {
+                "correct": "night",
+                "options": [
+                    "day",
+                    "night",
+                    "winter"
+                ]
+            }
+        ]
     },
     {
         "q": "Which of these statements about the Sun's magnetic field is correct?",
@@ -2560,6 +3187,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: The shape of a ball or our planet.",
+        "type": "word_scramble",
+        "answer": "ROUND",
+        "decoys": "G"
+    },
+    {
         "q": "True or False: The same side of the Moon always faces Earth, so the far side was not seen until spacecraft visited.",
         "type": "true_false",
         "correct": "True"
@@ -2573,6 +3206,18 @@
             "Earth's axis does not wobble",
             "Earth's wobble causes day and night"
         ]
+    },
+    {
+        "q": "Swipe RIGHT if it is Safe to look at directly, LEFT if it is Unsafe.",
+        "type": "swipe_cards",
+        "left_label": "Unsafe",
+        "right_label": "Safe",
+        "cards": {
+            "The full Moon": "right",
+            "The bright Sun": "left",
+            "A tall tree": "right",
+            "A bright laser pointer": "left"
+        }
     },
     {
         "q": "The time between a new Moon and a first quarter Moon is about ______ days.",
@@ -2624,6 +3269,29 @@
             "chromosphere",
             "core",
             "radiative zone"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "We need the Sun's [0] to stay warm in the winter and its [1] so we can see where we are walking.",
+        "dropdowns": [
+            {
+                "correct": "heat",
+                "options": [
+                    "cold",
+                    "wind",
+                    "heat"
+                ]
+            },
+            {
+                "correct": "light",
+                "options": [
+                    "darkness",
+                    "light",
+                    "shadows"
+                ]
+            }
         ]
     },
     {
@@ -2768,6 +3436,12 @@
         "correct": "True"
     },
     {
+        "q": "Unscramble the word: The direction where the Sun comes up.",
+        "type": "word_scramble",
+        "answer": "EAST",
+        "decoys": "WQ"
+    },
+    {
         "q": "Which of these best describes why the Sun's corona is so hot (millions of degrees) while the photosphere is cooler?",
         "type": "mcq",
         "o": [
@@ -2838,6 +3512,22 @@
         ]
     },
     {
+        "q": "How many stars are naturally in our Solar System?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 1
+    },
+    {
+        "q": "Match the season with its description.",
+        "type": "memory",
+        "pairs": {
+            "Summer": "The hottest season with very long days",
+            "Winter": "The coldest season with very short days",
+            "Spring": "The season when baby animals are born and flowers bloom"
+        }
+    },
+    {
         "q": "What do we call the study of the movement of celestial bodies?",
         "type": "short_answer",
         "answers": [
@@ -2848,7 +3538,7 @@
         "isCaseSensitive": false
     },
     {
-        "q": "True or False: The Moon's surface temperature can reach 127°C during the lunar day and drop to -173°C at night.",
+        "q": "True or False: The Moon's surface temperature can reach 127\u00b0C during the lunar day and drop to -173\u00b0C at night.",
         "type": "true_false",
         "correct": "True"
     },
@@ -2856,14 +3546,25 @@
         "q": "Which of these correctly describes why Earth has seasons?",
         "type": "mcq",
         "o": [
-            "Earth's axial tilt (23.5°) causes different hemispheres to receive more direct sunlight at different times of year",
+            "Earth's axial tilt (23.5\u00b0) causes different hemispheres to receive more direct sunlight at different times of year",
             "Earth's distance from the Sun changes",
             "The Sun's output changes",
             "The Moon causes seasons"
         ]
     },
     {
-        "q": "The line on Earth at 66.5° north latitude where the sun can stay above or below the horizon for 24 hours is the ______ Circle.",
+        "q": "Which of these is NOT a word describing the shape of the Earth?",
+        "type": "odd_one_out",
+        "options": [
+            "Round",
+            "Sphere",
+            "Globe",
+            "Flat Triangle"
+        ],
+        "correct": "Flat Triangle"
+    },
+    {
+        "q": "The line on Earth at 66.5\u00b0 north latitude where the sun can stay above or below the horizon for 24 hours is the ______ Circle.",
         "type": "fill_blank",
         "answers": [
             "Arctic"
@@ -2890,6 +3591,18 @@
             "Region beyond umbra (annular eclipse)",
             "Three-dimensional shape of a shadow"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Hot things, LEFT for Cold things.",
+        "type": "swipe_cards",
+        "left_label": "Cold",
+        "right_label": "Hot",
+        "cards": {
+            "The Sun's surface": "right",
+            "Ice cubes": "left",
+            "A warm campfire": "right",
+            "A frosty snowman": "left"
+        }
     },
     {
         "q": "True or False: The Earth's magnetic field is generated by the motion of molten iron in its outer core.",
@@ -2935,6 +3648,29 @@
         "correct": "True"
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A brave [0] travels out into deep space riding inside a powerful [1].",
+        "dropdowns": [
+            {
+                "correct": "astronaut",
+                "options": [
+                    "farmer",
+                    "teacher",
+                    "astronaut"
+                ]
+            },
+            {
+                "correct": "rocket",
+                "options": [
+                    "rocket",
+                    "car",
+                    "boat"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these correctly describes a total lunar eclipse's visibility?",
         "type": "mcq",
         "o": [
@@ -2970,8 +3706,8 @@
         "right": [
             "12,742 km",
             "3,474 km",
-            "5.97 × 10^24 kg",
-            "7.35 × 10^22 kg"
+            "5.97 \u00d7 10^24 kg",
+            "7.35 \u00d7 10^22 kg"
         ]
     },
     {
@@ -3001,6 +3737,12 @@
             "Tropic",
             "Polar"
         ]
+    },
+    {
+        "q": "Unscramble the word: The direction where the Sun goes down.",
+        "type": "word_scramble",
+        "answer": "WEST",
+        "decoys": "JK"
     },
     {
         "q": "What do we call the phenomenon where the Moon appears larger when near the horizon?",
@@ -3099,6 +3841,15 @@
         ]
     },
     {
+        "q": "Match these big parts of the Earth.",
+        "type": "memory",
+        "pairs": {
+            "Ocean": "A massive body of salty water",
+            "Continent": "A massive unbroken area of land",
+            "Atmosphere": "The invisible blanket of air around the Earth"
+        }
+    },
+    {
         "q": "The point in the Moon's orbit where it crosses Earth's orbital plane from south to north is the ______ node.",
         "type": "fill_blank",
         "answers": [
@@ -3181,6 +3932,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Green plants need bright [0] from the sky to grow tall and make their own [1].",
+        "dropdowns": [
+            {
+                "correct": "sunlight",
+                "options": [
+                    "moonlight",
+                    "sunlight",
+                    "starlight"
+                ]
+            },
+            {
+                "correct": "food",
+                "options": [
+                    "toys",
+                    "food",
+                    "rocks"
+                ]
+            }
+        ]
+    },
+    {
         "q": "The time when the Moon's ascending node aligns with the Sun and Earth, causing eclipse seasons, occurs every ______ days.",
         "type": "fill_blank",
         "answers": [
@@ -3193,6 +3967,12 @@
             "27.3",
             "182.6"
         ]
+    },
+    {
+        "q": "Unscramble the word: When there is no light at all, it is...",
+        "type": "word_scramble",
+        "answer": "DARK",
+        "decoys": "V"
     },
     {
         "q": "Match the following tidal terms:",
@@ -3219,11 +3999,18 @@
         "q": "Which of these statements about Earth's core is correct?",
         "type": "mcq",
         "o": [
-            "The inner core is solid iron-nickel at about 5,700°C, the outer core is liquid",
+            "The inner core is solid iron-nickel at about 5,700\u00b0C, the outer core is liquid",
             "The entire core is liquid",
             "The entire core is solid",
             "The core is made of gas"
         ]
+    },
+    {
+        "q": "How many hours of daylight do we roughly have on an average day?",
+        "type": "slider",
+        "min": 4,
+        "max": 20,
+        "correct": 12
     },
     {
         "q": "The difference in Earth's distance from the Sun between perihelion (January) and aphelion (July) is about ______ million kilometers.",
@@ -3248,6 +4035,26 @@
             "saros cycle"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Match these times of the day with when they happen.",
+        "type": "memory",
+        "pairs": {
+            "Morning": "The very start of your day",
+            "Afternoon": "The middle part of the day after lunch",
+            "Evening": "The end of the day just before bedtime"
+        }
+    },
+    {
+        "q": "Which of these is NOT a natural part of the Earth's surface?",
+        "type": "odd_one_out",
+        "options": [
+            "Water",
+            "Land",
+            "Oceans",
+            "Fire"
+        ],
+        "correct": "Fire"
     },
     {
         "q": "True or False: Earth receives about 1,366 watts per square meter of solar power at the top of the atmosphere (solar constant), but it varies slightly.",
@@ -3309,7 +4116,7 @@
         ]
     },
     {
-        "q": "The layer of the Sun where temperature rises dramatically from about 6,000°C to over 1 million °C is the ______.",
+        "q": "The layer of the Sun where temperature rises dramatically from about 6,000\u00b0C to over 1 million \u00b0C is the ______.",
         "type": "fill_blank",
         "answers": [
             "transition region"
@@ -3320,6 +4127,18 @@
             "photosphere",
             "convective zone"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Fast things, LEFT for Slow things.",
+        "type": "swipe_cards",
+        "left_label": "Slow",
+        "right_label": "Fast",
+        "cards": {
+            "A zooming Rocket ship": "right",
+            "A crawling Snail": "left",
+            "Light traveling from the Sun": "right",
+            "A walking turtle": "left"
+        }
     },
     {
         "q": "What do we call the study of Earth's magnetic field?",
@@ -3369,16 +4188,39 @@
             "Corona"
         ],
         "right": [
-            "15 million °C",
-            "5,500 °C",
-            "4,000 to 20,000 °C",
-            "1-3 million °C"
+            "15 million \u00b0C",
+            "5,500 \u00b0C",
+            "4,000 to 20,000 \u00b0C",
+            "1-3 million \u00b0C"
         ]
     },
     {
         "q": "True or False: The Earth's oblateness (slightly flattened poles, bulging equator) is caused by its rotation.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "There are [0] days in a single week and [1] hours in a whole day.",
+        "dropdowns": [
+            {
+                "correct": "seven",
+                "options": [
+                    "five",
+                    "seven",
+                    "ten"
+                ]
+            },
+            {
+                "correct": "twenty-four",
+                "options": [
+                    "twelve",
+                    "twenty-four",
+                    "forty"
+                ]
+            }
+        ]
     },
     {
         "q": "Which of these statements about Earth's atmosphere layers is correct?",
@@ -3474,7 +4316,7 @@
         ]
     },
     {
-        "q": "The altitude of the Sun above the horizon at solar noon on the summer solstice at a latitude of 45°N is ______ degrees (assuming 23.5° tilt).",
+        "q": "The altitude of the Sun above the horizon at solar noon on the summer solstice at a latitude of 45\u00b0N is ______ degrees (assuming 23.5\u00b0 tilt).",
         "type": "fill_blank",
         "answers": [
             "68.5",
@@ -3666,6 +4508,12 @@
         "correct": "True"
     },
     {
+        "q": "Unscramble the word: How the blazing Sun feels if you get too close.",
+        "type": "word_scramble",
+        "answer": "HOT",
+        "decoys": "QZ"
+    },
+    {
         "q": "Which of these correctly describes the Moon's internal structure?",
         "type": "mcq",
         "o": [
@@ -3704,6 +4552,47 @@
             "Sun and Moon on opposite sides of Earth",
             "Sun and Moon on same side of Earth"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Big things, LEFT for Small things.",
+        "type": "swipe_cards",
+        "left_label": "Small",
+        "right_label": "Big",
+        "cards": {
+            "The massive Sun": "right",
+            "A tiny pebble": "left",
+            "The entire Earth": "right",
+            "A little crawling ant": "left"
+        }
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The beautiful sky looks [0] during a clear day and turns completely [1] at night.",
+        "dropdowns": [
+            {
+                "correct": "blue",
+                "options": [
+                    "green",
+                    "blue",
+                    "yellow"
+                ]
+            },
+            {
+                "correct": "black",
+                "options": [
+                    "white",
+                    "black",
+                    "orange"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Unscramble the word: What the bright stars do in the dark night sky.",
+        "type": "word_scramble",
+        "answer": "SHINE",
+        "decoys": "B"
     },
     {
         "q": "True or False: The Sun's granulation pattern (cell-like structure on photosphere) is caused by convection currents bringing hot plasma up and cool plasma down.",
@@ -3748,14 +4637,30 @@
         "correct": "True"
     },
     {
+        "q": "How many different seasons do we generally experience in one full year?",
+        "type": "slider",
+        "min": 1,
+        "max": 8,
+        "correct": 4
+    },
+    {
         "q": "Which of these correctly describes the temperature inversion in the Sun's atmosphere?",
         "type": "mcq",
         "o": [
-            "Temperature rises from 5,500°C (photosphere) to millions of degrees (corona) due to magnetic heating",
+            "Temperature rises from 5,500\u00b0C (photosphere) to millions of degrees (corona) due to magnetic heating",
             "Temperature steadily decreases outward",
             "Temperature is constant throughout",
             "Temperature is highest at the photosphere"
         ]
+    },
+    {
+        "q": "Match these important space science words.",
+        "type": "memory",
+        "pairs": {
+            "Gravity": "The invisible force that pulls us to the ground",
+            "Space": "The huge dark, empty area outside of Earth",
+            "Solar System": "Our Sun and all the planets orbiting around it"
+        }
     },
     {
         "q": "The time between a new Moon and a waxing crescent Moon is about ______ days.",
@@ -3770,6 +4675,29 @@
             "14",
             "21"
         ]
+    },
+    {
+        "q": "Which of these is NOT used by scientists to explore outer space?",
+        "type": "odd_one_out",
+        "options": [
+            "Astronaut",
+            "Telescope",
+            "Rocket",
+            "Bicycle"
+        ],
+        "correct": "Bicycle"
+    },
+    {
+        "q": "Swipe RIGHT for bodies of Water, LEFT for types of Land.",
+        "type": "swipe_cards",
+        "left_label": "Land",
+        "right_label": "Water",
+        "cards": {
+            "The Pacific Ocean": "right",
+            "A tall Mountain": "left",
+            "A flowing River": "right",
+            "A thick Forest": "left"
+        }
     },
     {
         "q": "Match the following Earth orientation parameters:",
@@ -3816,6 +4744,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A long telescope makes space objects that are very [0] look much [1] to our eyes.",
+        "dropdowns": [
+            {
+                "correct": "far",
+                "options": [
+                    "close",
+                    "far",
+                    "tiny"
+                ]
+            },
+            {
+                "correct": "closer",
+                "options": [
+                    "farther",
+                    "smaller",
+                    "closer"
+                ]
+            }
+        ]
+    },
+    {
         "q": "What do we call the region around Earth where the magnetic field traps charged particles from the solar wind?",
         "type": "short_answer",
         "answers": [
@@ -3828,6 +4779,12 @@
         "q": "True or False: The Sun's sound waves (p-mode oscillations) are used in helioseismology to study its interior structure.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: A different visual shape of the Moon we see over a month.",
+        "type": "word_scramble",
+        "answer": "PHASE",
+        "decoys": "X"
     },
     {
         "q": "Which of these correctly describes the difference between apogee and perigee of the Moon?",
@@ -3854,6 +4811,15 @@
         ]
     },
     {
+        "q": "Match the weather events with what they are.",
+        "type": "memory",
+        "pairs": {
+            "Clouds": "Fluffy white or gray shapes floating in the sky",
+            "Rain": "Drops of liquid water falling from the sky",
+            "Wind": "Moving air that you can feel on your face"
+        }
+    },
+    {
         "q": "Match the following eclipse types with the Moon's apparent size relative to Sun:",
         "type": "match",
         "left": [
@@ -3873,6 +4839,29 @@
         "q": "True or False: The Earth's rotation axis precesses because of gravitational torques from the Sun and Moon on Earth's equatorial bulge.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Fluffy clouds can temporarily block the [0] and cast a dark, cool [1] on the ground.",
+        "dropdowns": [
+            {
+                "correct": "Sun",
+                "options": [
+                    "Moon",
+                    "wind",
+                    "Sun"
+                ]
+            },
+            {
+                "correct": "shadow",
+                "options": [
+                    "light",
+                    "rainbow",
+                    "shadow"
+                ]
+            }
+        ]
     },
     {
         "q": "Which of these statements about the Moon's origin is most widely accepted?",
@@ -3899,6 +4888,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: The wet stuff that fills up the oceans and lakes.",
+        "type": "word_scramble",
+        "answer": "WATER",
+        "decoys": "L"
+    },
+    {
         "q": "What do we call the phenomenon where the Moon's orbit is inclined about 5 degrees to the ecliptic?",
         "type": "short_answer",
         "answers": [
@@ -3908,9 +4903,25 @@
         "isCaseSensitive": false
     },
     {
-        "q": "True or False: The Sun's photosphere has sunspots that appear dark because they are about 1,500°C cooler than the surrounding photosphere.",
+        "q": "True or False: The Sun's photosphere has sunspots that appear dark because they are about 1,500\u00b0C cooler than the surrounding photosphere.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "If you go to sleep at 8 PM and wake up at 6 AM for school, how many hours did you sleep?",
+        "type": "slider",
+        "min": 5,
+        "max": 15,
+        "correct": 10
+    },
+    {
+        "q": "Match the scientific adjectives to what they describe.",
+        "type": "memory",
+        "pairs": {
+            "Lunar": "A word that means relating to the Moon",
+            "Solar": "A word that means relating to the Sun",
+            "Terrestrial": "A word that means relating to the Earth"
+        }
     },
     {
         "q": "Which of these correctly describes the Earth's Van Allen radiation belts?",
@@ -3948,7 +4959,7 @@
         "right": [
             "149.6 million km",
             "384,400 km",
-            "≈ same as Earth-Sun",
+            "\u2248 same as Earth-Sun",
             "6,371 km"
         ]
     },
@@ -4037,6 +5048,17 @@
         ]
     },
     {
+        "q": "Which of these is NOT a way that the Earth moves in space?",
+        "type": "odd_one_out",
+        "options": [
+            "Spin",
+            "Rotate",
+            "Orbit",
+            "Jump"
+        ],
+        "correct": "Jump"
+    },
+    {
         "q": "True or False: The Moon's orbit is chaotic on timescales longer than 50 million years due to gravitational interactions with the Sun and planets.",
         "type": "true_false",
         "correct": "True"
@@ -4050,6 +5072,18 @@
             "There is no boundary; core and mantle mix",
             "It is located at Earth's surface"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Man-made objects, LEFT for Natural objects in space.",
+        "type": "swipe_cards",
+        "left_label": "Natural",
+        "right_label": "Man-made",
+        "cards": {
+            "A Satellite": "right",
+            "The Sun": "left",
+            "A Space Station": "right",
+            "The Moon": "left"
+        }
     },
     {
         "q": "The phenomenon where the Moon's perigee and apogee distances change due to solar perturbations has a period of ______ days.",
@@ -4219,6 +5253,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Earth's gravity safely keeps our feet on the [0] so we don't accidentally float away into [1].",
+        "dropdowns": [
+            {
+                "correct": "ground",
+                "options": [
+                    "ground",
+                    "clouds",
+                    "water"
+                ]
+            },
+            {
+                "correct": "space",
+                "options": [
+                    "space",
+                    "ocean",
+                    "house"
+                ]
+            }
+        ]
+    },
+    {
         "q": "The time for the Moon's perigee to advance by 360 degrees (apsidal precession) is about ______ years.",
         "type": "fill_blank",
         "answers": [
@@ -4240,6 +5297,12 @@
             "subdaily polar motion"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: The solid part of Earth we walk on.",
+        "type": "word_scramble",
+        "answer": "LAND",
+        "decoys": "P"
     },
     {
         "q": "True or False: The Earth's core super-rotates slightly faster than the mantle by about 0.2-0.5 degrees per year.",
@@ -4291,6 +5354,18 @@
         "q": "True or False: The Moon's crust is thinner on the near side (about 30-40 km) and thicker on the far side (about 60-80 km), a phenomenon called the lunar crustal dichotomy.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for things that are Up, LEFT for things that are Down.",
+        "type": "swipe_cards",
+        "left_label": "Down",
+        "right_label": "Up",
+        "cards": {
+            "The blue sky": "right",
+            "The dirt ground": "left",
+            "The shiny stars": "right",
+            "Your tied shoes": "left"
+        }
     },
     {
         "q": "Which of these statements about the lunar dynamo is correct?",
@@ -4367,11 +5442,11 @@
             "Distinctive swirl pattern with magnetic anomaly",
             "Weak magnetic field region",
             "Associated with crustal magnetic fields",
-            "Ancient field strength ~50 μT"
+            "Ancient field strength ~50 \u03bcT"
         ]
     },
     {
-        "q": "True or False: The Earth's rotation rate irregularity (ΔT) between atomic time and UT1 is known historically from eclipse records going back 2,700 years.",
+        "q": "True or False: The Earth's rotation rate irregularity (\u0394T) between atomic time and UT1 is known historically from eclipse records going back 2,700 years.",
         "type": "true_false",
         "correct": "True"
     },
@@ -4425,7 +5500,7 @@
         ]
     },
     {
-        "q": "The tidal phase lag δ between the tidal bulge and the tide-raising body is about ______ degrees for Earth.",
+        "q": "The tidal phase lag \u03b4 between the tidal bulge and the tide-raising body is about ______ degrees for Earth.",
         "type": "fill_blank",
         "answers": [
             "2.5",
@@ -4448,10 +5523,10 @@
             "Crustal temperature"
         ],
         "right": [
-            "1,300-1,500 °C",
-            "1,000-1,200 °C",
-            "1,200-1,400 °C",
-            "200-400 °C"
+            "1,300-1,500 \u00b0C",
+            "1,000-1,200 \u00b0C",
+            "1,200-1,400 \u00b0C",
+            "200-400 \u00b0C"
         ]
     },
     {
@@ -4463,7 +5538,7 @@
         "q": "Which of these statements about lunar paleomagnetism is correct?",
         "type": "mcq",
         "o": [
-            "Lunar samples record a magnetic field of 20-100 μT between 3.9 and 3.6 Ga, then field dropped sharply",
+            "Lunar samples record a magnetic field of 20-100 \u03bcT between 3.9 and 3.6 Ga, then field dropped sharply",
             "The Moon never had a magnetic field",
             "Lunar rocks show no magnetic properties",
             "The Moon's magnetic field is still present today"
@@ -4503,7 +5578,7 @@
         "q": "Which of these correctly describes the lunar gravitational field's C22 and S22 coefficients?",
         "type": "mcq",
         "o": [
-            "They represent the Moon's equatorial ellipticity and are about 2.5 × 10-5",
+            "They represent the Moon's equatorial ellipticity and are about 2.5 \u00d7 10-5",
             "They represent the Moon's mass",
             "They represent the Moon's rotation rate",
             "They are zero"
@@ -4836,10 +5911,10 @@
         "q": "The Moon's Clairaut constant (C - A)/C is measured to be approximately what value from lunar gravity data?",
         "type": "mcq",
         "o": [
-            "2.26 × 10⁻⁴",
-            "1.08 × 10⁻³",
-            "6.3 × 10⁻⁵",
-            "9.8 × 10⁻²"
+            "2.26 \u00d7 10\u207b\u2074",
+            "1.08 \u00d7 10\u207b\u00b3",
+            "6.3 \u00d7 10\u207b\u2075",
+            "9.8 \u00d7 10\u207b\u00b2"
         ]
     },
     {
@@ -4847,7 +5922,7 @@
         "type": "fill_blank",
         "answers": [
             "beta",
-            "γ",
+            "\u03b3",
             "beta and gamma"
         ],
         "other_options": [
@@ -4866,9 +5941,9 @@
         "q": "Which of these correctly describes the lunar core's electrical conductivity as inferred from magnetic field sounding?",
         "type": "mcq",
         "o": [
-            "About 10⁴ to 10⁵ S/m, consistent with iron-sulfur alloy with 5-10% sulfur",
+            "About 10\u2074 to 10\u2075 S/m, consistent with iron-sulfur alloy with 5-10% sulfur",
             "Zero (insulating)",
-            "10⁷ S/m (pure iron)",
+            "10\u2077 S/m (pure iron)",
             "1 S/m (semiconducting)"
         ]
     },
@@ -4878,7 +5953,7 @@
         "answers": [
             "0.299",
             "0.3",
-            "0.299 ± 0.001"
+            "0.299 \u00b1 0.001"
         ],
         "other_options": [
             "0.30",
@@ -4897,14 +5972,14 @@
             "Love number h"
         ],
         "right": [
-            "0.2990 ± 0.0005",
-            "0.2978 ± 0.0012",
-            "0.2985 ± 0.0010",
-            "0.6078 ± 0.0005"
+            "0.2990 \u00b1 0.0005",
+            "0.2978 \u00b1 0.0012",
+            "0.2985 \u00b1 0.0010",
+            "0.6078 \u00b1 0.0005"
         ]
     },
     {
-        "q": "True or False: The Moon's secular acceleration is measured at -25.858 ± 0.003 arcseconds/century² by lunar laser ranging, requiring tidal Q of Earth ~ 12.",
+        "q": "True or False: The Moon's secular acceleration is measured at -25.858 \u00b1 0.003 arcseconds/century\u00b2 by lunar laser ranging, requiring tidal Q of Earth ~ 12.",
         "type": "true_false",
         "correct": "True"
     },
@@ -4912,10 +5987,10 @@
         "q": "Which of these statements about the Earth's inner core differential rotation is correct based on seismic waves (Song & Richards 1996)?",
         "type": "mcq",
         "o": [
-            "Inner core super-rotates 0.2-0.5°/year faster than mantle, but some studies find no detectable rotation",
+            "Inner core super-rotates 0.2-0.5\u00b0/year faster than mantle, but some studies find no detectable rotation",
             "Inner core does not rotate",
             "Inner core rotates backward",
-            "Inner core rotates 10°/year faster"
+            "Inner core rotates 10\u00b0/year faster"
         ]
     },
     {
@@ -4923,7 +5998,7 @@
         "type": "fill_blank",
         "answers": [
             "1.5",
-            "1.5 ± 0.5"
+            "1.5 \u00b1 0.5"
         ],
         "other_options": [
             "0.1",
@@ -4962,7 +6037,7 @@
         "type": "fill_blank",
         "answers": [
             "30",
-            "30 ± 10"
+            "30 \u00b1 10"
         ],
         "other_options": [
             "10",
@@ -5027,7 +6102,7 @@
         "isCaseSensitive": false
     },
     {
-        "q": "True or False: The Moon's normalized polar moment of inertia C/MR² = 0.3931 ± 0.0002, implying a core radius of about 380 km if iron-rich.",
+        "q": "True or False: The Moon's normalized polar moment of inertia C/MR\u00b2 = 0.3931 \u00b1 0.0002, implying a core radius of about 380 km if iron-rich.",
         "type": "true_false",
         "correct": "True"
     },
@@ -5035,7 +6110,7 @@
         "q": "Which of these correctly describes the lunar mantle's electrical conductivity profile from SELENE (Kaguya) magnetometer data?",
         "type": "mcq",
         "o": [
-            "Conductivity increases from 10⁻⁵ S/m at 100 km to 10⁻² S/m at 800 km, consistent with olivine and partial melt",
+            "Conductivity increases from 10\u207b\u2075 S/m at 100 km to 10\u207b\u00b2 S/m at 800 km, consistent with olivine and partial melt",
             "Constant conductivity",
             "Zero conductivity",
             "Decreasing with depth"
@@ -5047,7 +6122,7 @@
         "answers": [
             "3.7",
             "3.7 TW",
-            "3.7 × 10¹² W"
+            "3.7 \u00d7 10\u00b9\u00b2 W"
         ],
         "other_options": [
             "1",
@@ -5073,7 +6148,7 @@
         ]
     },
     {
-        "q": "True or False: The Moon's gravity field from GRAIL shows a bulk density of 3.346 g/cm³, consistent with a Fe-depleted mantle and small core.",
+        "q": "True or False: The Moon's gravity field from GRAIL shows a bulk density of 3.346 g/cm\u00b3, consistent with a Fe-depleted mantle and small core.",
         "type": "true_false",
         "correct": "True"
     },
@@ -5091,7 +6166,7 @@
         "q": "The Earth's J2 (dynamic oblateness) secular decrease from GRACE is about ______ per year, due to post-glacial rebound.",
         "type": "fill_blank",
         "answers": [
-            "-2.6 × 10⁻¹¹",
+            "-2.6 \u00d7 10\u207b\u00b9\u00b9",
             "-2.6e-11"
         ],
         "other_options": [
@@ -5131,7 +6206,7 @@
         "type": "fill_blank",
         "answers": [
             "1.2",
-            "1.2 ± 0.2"
+            "1.2 \u00b1 0.2"
         ],
         "other_options": [
             "0.5",
@@ -5153,7 +6228,7 @@
             "~5 microseconds",
             "~0.02 ms",
             "~0.2 ms",
-            "10⁻¹⁰ rad/s"
+            "10\u207b\u00b9\u2070 rad/s"
         ]
     },
     {
@@ -5280,7 +6355,7 @@
         "isCaseSensitive": false
     },
     {
-        "q": "True or False: The Moon's moment of inertia difference (B-A)/C = 2.3 × 10⁻⁴, indicating a slight equatorial asymmetry aligned with Earth.",
+        "q": "True or False: The Moon's moment of inertia difference (B-A)/C = 2.3 \u00d7 10\u207b\u2074, indicating a slight equatorial asymmetry aligned with Earth.",
         "type": "true_false",
         "correct": "True"
     },
@@ -5312,9 +6387,9 @@
         "q": "Match the following lunar volatile species detected in LCROSS impact plume:",
         "type": "match",
         "left": [
-            "Water (H₂O)",
-            "Hydrogen sulfide (H₂S)",
-            "Methane (CH₄)",
+            "Water (H\u2082O)",
+            "Hydrogen sulfide (H\u2082S)",
+            "Methane (CH\u2084)",
             "Mercury (Hg)"
         ],
         "right": [
@@ -5333,9 +6408,9 @@
         "q": "Which of these statements about the lunar thermal state is correct from heat flow measurements (Apollo 15 and 17)?",
         "type": "mcq",
         "o": [
-            "Surface heat flow ~21 mW/m², implying a mantle U/Th abundance of ~30-40 ppb",
+            "Surface heat flow ~21 mW/m\u00b2, implying a mantle U/Th abundance of ~30-40 ppb",
             "Zero heat flow",
-            "Very high heat flow > 100 mW/m²",
+            "Very high heat flow > 100 mW/m\u00b2",
             "Heat flow only from impacts"
         ]
     },
@@ -5428,7 +6503,7 @@
         "type": "fill_blank",
         "answers": [
             "280",
-            "280 ± 20"
+            "280 \u00b1 20"
         ],
         "other_options": [
             "12",
@@ -5456,9 +6531,9 @@
         "q": "Which of these correctly describes the lunar paleomagnetic field intensity at 3.9 Ga from Apollo sample NTL (natural thermoluminescence) methods?",
         "type": "mcq",
         "o": [
-            "30-70 μT (similar to Earth's present field), dropping to near zero by 3.2 Ga",
+            "30-70 \u03bcT (similar to Earth's present field), dropping to near zero by 3.2 Ga",
             "Always zero",
-            "1,000 μT",
+            "1,000 \u03bcT",
             "100 nT"
         ]
     },
@@ -5598,7 +6673,7 @@
         "type": "fill_blank",
         "answers": [
             "433",
-            "433 ± 2"
+            "433 \u00b1 2"
         ],
         "other_options": [
             "365",
@@ -5632,7 +6707,7 @@
         ]
     },
     {
-        "q": "The lunar mantle potential temperature at 4.5 Ga was about ______ °C, inferred from magnesium suite rocks.",
+        "q": "The lunar mantle potential temperature at 4.5 Ga was about ______ \u00b0C, inferred from magnesium suite rocks.",
         "type": "fill_blank",
         "answers": [
             "1,500-1,600",
@@ -5670,10 +6745,10 @@
         "q": "Which of these statements about the lunar heat flow from Apollo 15 (4.8 km from Hadley Rille) is correct?",
         "type": "mcq",
         "o": [
-            "21 mW/m² ± 3, combined with Apollo 17 (14 mW/m² ± 2), giving average ~18 mW/m²",
-            "100 mW/m²",
-            "5 mW/m²",
-            "0 mW/m²"
+            "21 mW/m\u00b2 \u00b1 3, combined with Apollo 17 (14 mW/m\u00b2 \u00b1 2), giving average ~18 mW/m\u00b2",
+            "100 mW/m\u00b2",
+            "5 mW/m\u00b2",
+            "0 mW/m\u00b2"
         ]
     },
     {
@@ -5720,7 +6795,7 @@
         "type": "fill_blank",
         "answers": [
             "0.296",
-            "0.296 ± 0.002"
+            "0.296 \u00b1 0.002"
         ],
         "other_options": [
             "0.299",

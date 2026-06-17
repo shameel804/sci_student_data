@@ -30,6 +30,13 @@
         ]
     },
     {
+        "q": "How many senses do humans normally have?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 5
+    },
+    {
         "q": "Match the sense with the body part you use for it:",
         "type": "match",
         "left": [
@@ -59,6 +66,16 @@
             "Ears",
             "Nose"
         ]
+    },
+    {
+        "q": "Match the sense with its organ.",
+        "type": "memory",
+        "pairs": {
+            "Eyes": "Sight",
+            "Ears": "Hearing",
+            "Nose": "Smell",
+            "Tongue": "Taste"
+        }
     },
     {
         "q": "How many fingers does a human normally have on both hands together?",
@@ -205,6 +222,15 @@
         "correct": "True"
     },
     {
+        "q": "Match the digestion steps.",
+        "type": "memory",
+        "pairs": {
+            "Bite": "Use teeth",
+            "Swallow": "Down the throat",
+            "Digest": "In the stomach"
+        }
+    },
+    {
         "q": "We smell with our ______.",
         "type": "fill_blank",
         "answers": [
@@ -247,6 +273,17 @@
             "stomach",
             "lungs"
         ]
+    },
+    {
+        "q": "Which of these is NOT one of the five senses?",
+        "type": "odd_one_out",
+        "options": [
+            "Sight",
+            "Hearing",
+            "Touch",
+            "Jumping"
+        ],
+        "correct": "Jumping"
     },
     {
         "q": "Match the action with the main body part used:",
@@ -342,6 +379,18 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Healthy Habits, LEFT for Unhealthy Habits.",
+        "type": "swipe_cards",
+        "left_label": "Unhealthy",
+        "right_label": "Healthy",
+        "cards": {
+            "Brushing teeth": "right",
+            "Eating only candy": "left",
+            "Sleeping well": "right",
+            "Never bathing": "left"
+        }
+    },
+    {
         "q": "Which sense tells you if a lemon is sour?",
         "type": "mcq",
         "o": [
@@ -395,6 +444,12 @@
         ]
     },
     {
+        "q": "Unscramble the internal organ that pumps your blood.",
+        "type": "word_scramble",
+        "answer": "HEART",
+        "decoys": "XQ"
+    },
+    {
         "q": "Which of these is a part of your face?",
         "type": "mcq",
         "o": [
@@ -438,6 +493,12 @@
             "palms",
             "wrists"
         ]
+    },
+    {
+        "q": "Unscramble the red liquid that moves through your body.",
+        "type": "word_scramble",
+        "answer": "BLOOD",
+        "decoys": "ZJ"
     },
     {
         "q": "Which body part helps you taste food and talk?",
@@ -490,6 +551,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about vital organs:",
+        "type": "inline_dropdown",
+        "text": "The [0] pumps blood around the body, and the [1] help us breathe air.",
+        "dropdowns": [
+            {
+                "correct": "heart",
+                "options": [
+                    "stomach",
+                    "heart",
+                    "brain"
+                ]
+            },
+            {
+                "correct": "lungs",
+                "options": [
+                    "bones",
+                    "lungs",
+                    "kidneys"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Your heart is about the size of your fist.",
         "type": "true_false",
         "correct": "True"
@@ -508,6 +592,29 @@
             "Top of the arm",
             "Between hand and arm",
             "Between foot and leg"
+        ]
+    },
+    {
+        "q": "Complete the sentence about senses:",
+        "type": "inline_dropdown",
+        "text": "We use our [0] to see colorful things and our [1] to hear loud sounds.",
+        "dropdowns": [
+            {
+                "correct": "eyes",
+                "options": [
+                    "noses",
+                    "eyes",
+                    "hands"
+                ]
+            },
+            {
+                "correct": "ears",
+                "options": [
+                    "mouths",
+                    "ears",
+                    "feet"
+                ]
+            }
         ]
     },
     {
@@ -551,6 +658,13 @@
         ]
     },
     {
+        "q": "How many fingers are on two human hands?",
+        "type": "slider",
+        "min": 5,
+        "max": 20,
+        "correct": 10
+    },
+    {
         "q": "Your backbone is also called the ______.",
         "type": "fill_blank",
         "answers": [
@@ -561,6 +675,15 @@
             "skull",
             "jaw"
         ]
+    },
+    {
+        "q": "Match the internal organ with its job.",
+        "type": "memory",
+        "pairs": {
+            "Heart": "Pumps blood",
+            "Stomach": "Digests food",
+            "Brain": "Thinks and controls"
+        }
     },
     {
         "q": "What is the sense that tells you if something is hot or cold?",
@@ -576,6 +699,17 @@
         "q": "You use your nose to speak.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "Which of these is NOT a part of your head?",
+        "type": "odd_one_out",
+        "options": [
+            "Eyes",
+            "Nose",
+            "Mouth",
+            "Knee"
+        ],
+        "correct": "Knee"
     },
     {
         "q": "Which organ pumps blood to every part of your body?",
@@ -675,6 +809,18 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Inside the Body, LEFT for Outside the Body.",
+        "type": "swipe_cards",
+        "left_label": "Outside",
+        "right_label": "Inside",
+        "cards": {
+            "Heart": "right",
+            "Skin": "left",
+            "Brain": "right",
+            "Hair": "left"
+        }
+    },
+    {
         "q": "The brain is protected by a hard, round shell called the skull.",
         "type": "true_false",
         "correct": "True"
@@ -688,6 +834,18 @@
             "Eyelid",
             "Eyelash"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Hand parts, LEFT for Foot parts.",
+        "type": "swipe_cards",
+        "left_label": "Foot",
+        "right_label": "Hand",
+        "cards": {
+            "Thumb": "right",
+            "Heel": "left",
+            "Palm": "right",
+            "Toe": "left"
+        }
     },
     {
         "q": "How many toes do you have on one foot?",
@@ -717,6 +875,12 @@
         ]
     },
     {
+        "q": "Unscramble the hard parts that make up your skeleton.",
+        "type": "word_scramble",
+        "answer": "BONES",
+        "decoys": "W"
+    },
+    {
         "q": "Which of these is a facial feature?",
         "type": "mcq",
         "o": [
@@ -735,6 +899,35 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Unscramble what you use to bite into an apple.",
+        "type": "word_scramble",
+        "answer": "TEETH",
+        "decoys": "PK"
+    },
+    {
+        "q": "Complete the sentence about hygiene:",
+        "type": "inline_dropdown",
+        "text": "To stay clean and healthy, always wash your [0] with water and [1].",
+        "dropdowns": [
+            {
+                "correct": "hands",
+                "options": [
+                    "clothes",
+                    "hands",
+                    "shoes"
+                ]
+            },
+            {
+                "correct": "soap",
+                "options": [
+                    "mud",
+                    "soap",
+                    "juice"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Match the function with the correct organ:",
         "type": "match",
         "left": [
@@ -748,6 +941,29 @@
             "Brain",
             "Heart",
             "Small intestine"
+        ]
+    },
+    {
+        "q": "Complete the sentence about the skeleton:",
+        "type": "inline_dropdown",
+        "text": "The hard parts inside our body are called [0], and all together they make the [1].",
+        "dropdowns": [
+            {
+                "correct": "bones",
+                "options": [
+                    "muscles",
+                    "bones",
+                    "veins"
+                ]
+            },
+            {
+                "correct": "skeleton",
+                "options": [
+                    "skin",
+                    "skeleton",
+                    "brain"
+                ]
+            }
         ]
     },
     {
@@ -788,6 +1004,13 @@
         "correct": "False"
     },
     {
+        "q": "How many times a day is it best to brush your teeth?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
         "q": "What do you call the hard parts inside your mouth you must brush twice a day?",
         "type": "short_answer",
         "answers": [
@@ -826,6 +1049,16 @@
             "Hearing",
             "Sight"
         ]
+    },
+    {
+        "q": "Match the hygiene tool to what it cleans.",
+        "type": "memory",
+        "pairs": {
+            "Toothbrush": "Teeth",
+            "Soap": "Hands",
+            "Comb": "Hair",
+            "Nail clipper": "Nails"
+        }
     },
     {
         "q": "Your elbow is located in the middle of your arm.",
@@ -879,6 +1112,15 @@
         ]
     },
     {
+        "q": "Match the sleep items.",
+        "type": "memory",
+        "pairs": {
+            "Pajamas": "Bedtime clothes",
+            "Pillow": "Rests under head",
+            "Blanket": "Keeps you warm"
+        }
+    },
+    {
         "q": "Which body part pumps blood to the lungs to get oxygen?",
         "type": "mcq",
         "o": [
@@ -906,6 +1148,35 @@
         ]
     },
     {
+        "q": "Which of these is NOT used for keeping clean?",
+        "type": "odd_one_out",
+        "options": [
+            "Soap",
+            "Mud",
+            "Water",
+            "Shampoo"
+        ],
+        "correct": "Mud"
+    },
+    {
+        "q": "Swipe RIGHT for Upper Body, LEFT for Lower Body.",
+        "type": "swipe_cards",
+        "left_label": "Lower Body",
+        "right_label": "Upper Body",
+        "cards": {
+            "Shoulders": "right",
+            "Knees": "left",
+            "Chest": "right",
+            "Feet": "left"
+        }
+    },
+    {
+        "q": "Unscramble what you do at night to rest your body.",
+        "type": "word_scramble",
+        "answer": "SLEEP",
+        "decoys": "MY"
+    },
+    {
         "q": "Which body part helps you to blink and protect your eyes?",
         "type": "mcq",
         "o": [
@@ -919,6 +1190,12 @@
         "q": "Your arms are attached to your body at the shoulders.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Unscramble the healthiest drink for your body.",
+        "type": "word_scramble",
+        "answer": "WATER",
+        "decoys": "CQ"
     },
     {
         "q": "What is the soft, pink part inside your mouth that surrounds your teeth?",
@@ -952,6 +1229,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about eating:",
+        "type": "inline_dropdown",
+        "text": "Food goes down your throat into the [0] to be [1].",
+        "dropdowns": [
+            {
+                "correct": "stomach",
+                "options": [
+                    "lungs",
+                    "stomach",
+                    "heart"
+                ]
+            },
+            {
+                "correct": "digested",
+                "options": [
+                    "breathed",
+                    "digested",
+                    "smelled"
+                ]
+            }
+        ]
+    },
+    {
         "q": "What part of the body connects your foot to your leg?",
         "type": "mcq",
         "o": [
@@ -959,6 +1259,29 @@
             "Wrist",
             "Knee",
             "Elbow"
+        ]
+    },
+    {
+        "q": "Complete the sentence about limbs:",
+        "type": "inline_dropdown",
+        "text": "We have ten [0] on the ends of our hands and ten [1] on our feet.",
+        "dropdowns": [
+            {
+                "correct": "fingers",
+                "options": [
+                    "toes",
+                    "fingers",
+                    "nails"
+                ]
+            },
+            {
+                "correct": "toes",
+                "options": [
+                    "fingers",
+                    "toes",
+                    "knuckles"
+                ]
+            }
         ]
     },
     {
@@ -996,6 +1319,13 @@
             "pupil"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "How many hours of sleep should a child get each night?",
+        "type": "slider",
+        "min": 5,
+        "max": 15,
+        "correct": 10
     },
     {
         "q": "Match the bones to where they are found:",
@@ -1042,6 +1372,15 @@
         ]
     },
     {
+        "q": "Match the parts of the leg.",
+        "type": "memory",
+        "pairs": {
+            "Knee": "Middle joint of leg",
+            "Ankle": "Joint above foot",
+            "Thigh": "Top part of leg"
+        }
+    },
+    {
         "q": "Which hygiene tool do you use to clean between your teeth?",
         "type": "mcq",
         "o": [
@@ -1059,6 +1398,17 @@
             "bicep"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT an internal organ inside the body?",
+        "type": "odd_one_out",
+        "options": [
+            "Heart",
+            "Brain",
+            "Lungs",
+            "Hair"
+        ],
+        "correct": "Hair"
     },
     {
         "q": "Tears come out of your eyes and help to clean them.",
@@ -1139,6 +1489,18 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Keeping Clean, LEFT for Getting Dirty.",
+        "type": "swipe_cards",
+        "left_label": "Getting Dirty",
+        "right_label": "Keeping Clean",
+        "cards": {
+            "Wash hands": "right",
+            "Play in mud": "left",
+            "Take a bath": "right",
+            "Roll in dust": "left"
+        }
+    },
+    {
         "q": "Sweating is the body's way of cooling itself down.",
         "type": "true_false",
         "correct": "True"
@@ -1163,6 +1525,18 @@
             "soft spot"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for Good for Teeth, LEFT for Bad for Teeth.",
+        "type": "swipe_cards",
+        "left_label": "Bad",
+        "right_label": "Good",
+        "cards": {
+            "Drinking milk": "right",
+            "Eating lots of candy": "left",
+            "Brushing daily": "right",
+            "Drinking soda": "left"
+        }
     },
     {
         "q": "Which of the following helps to clot blood when you get a cut?",
@@ -1226,6 +1600,12 @@
         "q": "The liver is the largest internal organ in the human body.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Unscramble the wet drops on your skin when you get very hot.",
+        "type": "word_scramble",
+        "answer": "SWEAT",
+        "decoys": "ZX"
     },
     {
         "q": "The tube that carries urine from the kidney to the bladder is called the ______.",
@@ -1356,6 +1736,12 @@
         ]
     },
     {
+        "q": "Unscramble the sense you use your nose for.",
+        "type": "word_scramble",
+        "answer": "SMELL",
+        "decoys": "VK"
+    },
+    {
         "q": "The liquid part of blood, mostly made of water, is called ______.",
         "type": "fill_blank",
         "answers": [
@@ -1438,6 +1824,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about temperature:",
+        "type": "inline_dropdown",
+        "text": "When you are very cold, your body might [0], and when you are hot, you might [1].",
+        "dropdowns": [
+            {
+                "correct": "shiver",
+                "options": [
+                    "sweat",
+                    "shiver",
+                    "melt"
+                ]
+            },
+            {
+                "correct": "sweat",
+                "options": [
+                    "freeze",
+                    "sweat",
+                    "shiver"
+                ]
+            }
+        ]
+    },
+    {
         "q": "The master gland that controls all other glands in the body is the ______ gland.",
         "type": "fill_blank",
         "answers": [
@@ -1517,6 +1926,29 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Complete the sentence about the head:",
+        "type": "inline_dropdown",
+        "text": "The [0] is safe inside the head and does all your [1] and feeling.",
+        "dropdowns": [
+            {
+                "correct": "brain",
+                "options": [
+                    "heart",
+                    "brain",
+                    "lung"
+                ]
+            },
+            {
+                "correct": "thinking",
+                "options": [
+                    "eating",
+                    "thinking",
+                    "walking"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which sense allows you to feel vibrations?",
         "type": "mcq",
         "o": [
@@ -1552,6 +1984,13 @@
         "q": "The human nose can remember about 50,000 different smells.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "How many lungs do humans have inside their chest?",
+        "type": "slider",
+        "min": 1,
+        "max": 4,
+        "correct": 2
     },
     {
         "q": "The tubes that carry air from the trachea into the lungs are called ______.",
@@ -1654,6 +2093,15 @@
             "veins",
             "venules"
         ]
+    },
+    {
+        "q": "Match the parts of the arm.",
+        "type": "memory",
+        "pairs": {
+            "Elbow": "Middle joint of arm",
+            "Wrist": "Joint below hand",
+            "Shoulder": "Top of the arm"
+        }
     },
     {
         "q": "Which organ is part of both the digestive and endocrine systems?",
@@ -1836,6 +2284,15 @@
         "correct": "True"
     },
     {
+        "q": "Match the sick care items.",
+        "type": "memory",
+        "pairs": {
+            "Thermometer": "Checks for fever",
+            "Tissue": "Blow your nose",
+            "Bandage": "Covers a cut"
+        }
+    },
+    {
         "q": "Match the sense organ to the stimulus it detects:",
         "type": "match",
         "left": [
@@ -1881,6 +2338,17 @@
             "pelvic bone"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT a part of the human leg?",
+        "type": "odd_one_out",
+        "options": [
+            "Thigh",
+            "Calf",
+            "Shin",
+            "Elbow"
+        ],
+        "correct": "Elbow"
     },
     {
         "q": "Which muscle works automatically and is found in the heart only?",
@@ -1951,6 +2419,18 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Senses, LEFT for Body Parts.",
+        "type": "swipe_cards",
+        "left_label": "Body Part",
+        "right_label": "Sense",
+        "cards": {
+            "Sight": "right",
+            "Arm": "left",
+            "Taste": "right",
+            "Leg": "left"
+        }
+    },
+    {
         "q": "The body's defense system against disease is the ______ system.",
         "type": "fill_blank",
         "answers": [
@@ -1961,6 +2441,12 @@
             "respiratory",
             "muscular"
         ]
+    },
+    {
+        "q": "Unscramble the sense you use your tongue for.",
+        "type": "word_scramble",
+        "answer": "TASTE",
+        "decoys": "FQ"
     },
     {
         "q": "Match the organ with the primary waste it excretes:",
@@ -1987,6 +2473,12 @@
             "Fats",
             "Vitamins"
         ]
+    },
+    {
+        "q": "Unscramble the sense you use your skin for.",
+        "type": "word_scramble",
+        "answer": "TOUCH",
+        "decoys": "JW"
     },
     {
         "q": "Your skin is completely waterproof.",
@@ -2184,6 +2676,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about morning habits:",
+        "type": "inline_dropdown",
+        "text": "You should [0] your messy hair and [1] your teeth every morning.",
+        "dropdowns": [
+            {
+                "correct": "comb",
+                "options": [
+                    "wash",
+                    "comb",
+                    "cut"
+                ]
+            },
+            {
+                "correct": "brush",
+                "options": [
+                    "floss",
+                    "brush",
+                    "pull"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which part of the neuron transmits impulses away from the cell body?",
         "type": "mcq",
         "o": [
@@ -2208,6 +2723,29 @@
             "pharynx",
             "trachea",
             "bronchus"
+        ]
+    },
+    {
+        "q": "Complete the sentence about joints:",
+        "type": "inline_dropdown",
+        "text": "A [0] helps you bend your leg to run, and an [1] helps you bend your arm to throw.",
+        "dropdowns": [
+            {
+                "correct": "knee",
+                "options": [
+                    "ankle",
+                    "knee",
+                    "hip"
+                ]
+            },
+            {
+                "correct": "elbow",
+                "options": [
+                    "wrist",
+                    "elbow",
+                    "shoulder"
+                ]
+            }
         ]
     },
     {
@@ -2285,6 +2823,13 @@
         ]
     },
     {
+        "q": "How many baby teeth do children usually have in total?",
+        "type": "slider",
+        "min": 10,
+        "max": 30,
+        "correct": 20
+    },
+    {
         "q": "Match the hormone with its effect:",
         "type": "match",
         "left": [
@@ -2320,6 +2865,15 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Match the face parts.",
+        "type": "memory",
+        "pairs": {
+            "Eyebrow": "Hair above the eye",
+            "Lips": "Outside of mouth",
+            "Cheek": "Side of the face"
+        }
+    },
+    {
         "q": "The ______ is the largest part of the human brain, responsible for higher thinking.",
         "type": "fill_blank",
         "answers": [
@@ -2345,6 +2899,17 @@
         "q": "The right lung has three lobes while the left lung has two.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT used for eating food?",
+        "type": "odd_one_out",
+        "options": [
+            "Teeth",
+            "Tongue",
+            "Lips",
+            "Ear"
+        ],
+        "correct": "Ear"
     },
     {
         "q": "The process of making new red blood cells is called ______.",
@@ -2373,6 +2938,18 @@
             "Incomplete break common in children",
             "Bone shatters into multiple pieces"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Hard parts of the body, LEFT for Soft parts.",
+        "type": "swipe_cards",
+        "left_label": "Soft",
+        "right_label": "Hard",
+        "cards": {
+            "Bones": "right",
+            "Skin": "left",
+            "Teeth": "right",
+            "Tongue": "left"
+        }
     },
     {
         "q": "Which vitamin is essential for blood clotting?",
@@ -2414,6 +2991,18 @@
             "Shoulder",
             "Wrist"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Fast Heartbeat, LEFT for Slow Heartbeat.",
+        "type": "swipe_cards",
+        "left_label": "Slow",
+        "right_label": "Fast",
+        "cards": {
+            "Running fast": "right",
+            "Sleeping": "left",
+            "Jumping rope": "right",
+            "Sitting still": "left"
+        }
     },
     {
         "q": "The hormone melatonin regulates sleep-wake cycles and is produced by the pineal gland.",
@@ -2492,6 +3081,18 @@
         "correct": "True"
     },
     {
+        "q": "Unscramble the sense you use your eyes for.",
+        "type": "word_scramble",
+        "answer": "SIGHT",
+        "decoys": "RM"
+    },
+    {
+        "q": "Unscramble what you hear with your ears.",
+        "type": "word_scramble",
+        "answer": "SOUND",
+        "decoys": "XZ"
+    },
+    {
         "q": "The transparent jelly-like material inside the eye, behind the lens, is the ______ humor.",
         "type": "fill_blank",
         "answers": [
@@ -2550,6 +3151,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about body covering:",
+        "type": "inline_dropdown",
+        "text": "The [0] covers the whole outside of the body to [1] it from harm.",
+        "dropdowns": [
+            {
+                "correct": "skin",
+                "options": [
+                    "hair",
+                    "skin",
+                    "clothes"
+                ]
+            },
+            {
+                "correct": "protect",
+                "options": [
+                    "protect",
+                    "hurt",
+                    "color"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Where does hematopoiesis (blood cell formation) primarily occur in adults?",
         "type": "mcq",
         "o": [
@@ -2584,6 +3208,29 @@
             "haemoglobin"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about emotions:",
+        "type": "inline_dropdown",
+        "text": "When we are very sad we might [0], and salty tears will fall from our [1].",
+        "dropdowns": [
+            {
+                "correct": "cry",
+                "options": [
+                    "laugh",
+                    "cry",
+                    "sing"
+                ]
+            },
+            {
+                "correct": "eyes",
+                "options": [
+                    "ears",
+                    "eyes",
+                    "nose"
+                ]
+            }
+        ]
     },
     {
         "q": "Which organ system includes the thyroid, pituitary, and adrenal glands?",
@@ -2651,6 +3298,13 @@
         ]
     },
     {
+        "q": "How many ears do you use to hear sounds around you?",
+        "type": "slider",
+        "min": 1,
+        "max": 4,
+        "correct": 2
+    },
+    {
         "q": "What is the name of the protective sheath covering nerve fibers, speeding up impulses?",
         "type": "short_answer",
         "answers": [
@@ -2704,6 +3358,15 @@
             "Cornea",
             "Pupil"
         ]
+    },
+    {
+        "q": "Match the mouth parts to their use.",
+        "type": "memory",
+        "pairs": {
+            "Teeth": "Chewing food",
+            "Tongue": "Tasting flavors",
+            "Gums": "Holding teeth in place"
+        }
     },
     {
         "q": "The left ventricle has the thickest wall of all heart chambers.",
@@ -2806,6 +3469,15 @@
         ]
     },
     {
+        "q": "Match the hair care steps.",
+        "type": "memory",
+        "pairs": {
+            "Shampoo": "Washes the hair",
+            "Brush": "Untangles the hair",
+            "Towel": "Dries the hair"
+        }
+    },
+    {
         "q": "Which lobe of the brain processes visual information?",
         "type": "mcq",
         "o": [
@@ -2814,6 +3486,17 @@
             "Temporal lobe",
             "Parietal lobe"
         ]
+    },
+    {
+        "q": "Which of these is NOT a name of a finger?",
+        "type": "odd_one_out",
+        "options": [
+            "Thumb",
+            "Index",
+            "Pinky",
+            "Ankle"
+        ],
+        "correct": "Ankle"
     },
     {
         "q": "Ligaments connect muscles to bones.",
@@ -2831,6 +3514,18 @@
             "renal artery",
             "renal vein"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Daytime Habits, LEFT for Nighttime Habits.",
+        "type": "swipe_cards",
+        "left_label": "Nighttime",
+        "right_label": "Daytime",
+        "cards": {
+            "Wake up": "right",
+            "Go to sleep": "left",
+            "Go to school": "right",
+            "Put on pajamas": "left"
+        }
     },
     {
         "q": "Match the part of the respiratory system with the function:",
@@ -2915,6 +3610,18 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Unscramble the soft part on the side of your face.",
+        "type": "word_scramble",
+        "answer": "CHEEK",
+        "decoys": "LQ"
+    },
+    {
+        "q": "Unscramble the short, thick finger on your hand.",
+        "type": "word_scramble",
+        "answer": "THUMB",
+        "decoys": "PY"
+    },
+    {
         "q": "Which organ is responsible for detoxifying harmful substances in the blood?",
         "type": "mcq",
         "o": [
@@ -2922,6 +3629,29 @@
             "Kidney",
             "Spleen",
             "Pancreas"
+        ]
+    },
+    {
+        "q": "Complete the sentence about daily needs:",
+        "type": "inline_dropdown",
+        "text": "We need healthy [0] to grow strong and good [1] at night to rest our bodies.",
+        "dropdowns": [
+            {
+                "correct": "food",
+                "options": [
+                    "candy",
+                    "food",
+                    "toys"
+                ]
+            },
+            {
+                "correct": "sleep",
+                "options": [
+                    "running",
+                    "sleep",
+                    "playing"
+                ]
+            }
         ]
     },
     {
@@ -2934,6 +3664,29 @@
             "circulatory",
             "endocrine",
             "integumentary"
+        ]
+    },
+    {
+        "q": "Complete the sentence about body connection:",
+        "type": "inline_dropdown",
+        "text": "The [0] connects your head to the rest of your body at the [1].",
+        "dropdowns": [
+            {
+                "correct": "neck",
+                "options": [
+                    "spine",
+                    "neck",
+                    "arm"
+                ]
+            },
+            {
+                "correct": "shoulders",
+                "options": [
+                    "hips",
+                    "shoulders",
+                    "knees"
+                ]
+            }
         ]
     },
     {
@@ -2985,6 +3738,13 @@
             "leucocytes"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "How many seconds should you wash your hands to make sure germs are gone?",
+        "type": "slider",
+        "min": 5,
+        "max": 40,
+        "correct": 20
     },
     {
         "q": "Which muscle is responsible for breathing and separates the chest from the abdomen?",
@@ -3075,6 +3835,16 @@
         "correct": "False"
     },
     {
+        "q": "Match the action to the body part.",
+        "type": "memory",
+        "pairs": {
+            "Running": "Legs",
+            "Throwing": "Arms",
+            "Chewing": "Jaw",
+            "Blinking": "Eyelids"
+        }
+    },
+    {
         "q": "The ______ system provides the framework for the body and protects organs.",
         "type": "fill_blank",
         "answers": [
@@ -3085,6 +3855,29 @@
             "nervous",
             "circulatory"
         ]
+    },
+    {
+        "q": "Which of these is NOT a healthy habit?",
+        "type": "odd_one_out",
+        "options": [
+            "Sleeping well",
+            "Exercising",
+            "Eating dirt",
+            "Drinking water"
+        ],
+        "correct": "Eating dirt"
+    },
+    {
+        "q": "Swipe RIGHT for Breathing In, LEFT for Breathing Out.",
+        "type": "swipe_cards",
+        "left_label": "Breathing Out",
+        "right_label": "Breathing In",
+        "cards": {
+            "Inhale": "right",
+            "Exhale": "left",
+            "Chest rises": "right",
+            "Air leaves nose": "left"
+        }
     },
     {
         "q": "Match the part of the ear with how it contributes to hearing:",
@@ -3149,6 +3942,18 @@
         "q": "The human eye can distinguish about 10 million different colors.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT if you See it, LEFT if you Hear it.",
+        "type": "swipe_cards",
+        "left_label": "Hear it",
+        "right_label": "See it",
+        "cards": {
+            "Rainbow": "right",
+            "Music": "left",
+            "Painting": "right",
+            "Dog barking": "left"
+        }
     },
     {
         "q": "The ______ gland is located in the neck and regulates metabolism.",
@@ -3245,6 +4050,12 @@
         ]
     },
     {
+        "q": "Unscramble the joint that connects your leg to your foot.",
+        "type": "word_scramble",
+        "answer": "ANKLE",
+        "decoys": "DG"
+    },
+    {
         "q": "Match the hormone with the gland that secretes it:",
         "type": "match",
         "left": [
@@ -3261,6 +4072,12 @@
         ]
     },
     {
+        "q": "Unscramble the part that holds up your head.",
+        "type": "word_scramble",
+        "answer": "NECK",
+        "decoys": "QZ"
+    },
+    {
         "q": "Which phase of the cardiac cycle involves contraction of the ventricles?",
         "type": "mcq",
         "o": [
@@ -3271,9 +4088,55 @@
         ]
     },
     {
+        "q": "Complete the sentence about breathing:",
+        "type": "inline_dropdown",
+        "text": "When we breathe in, fresh air goes through the [0] and down the [1].",
+        "dropdowns": [
+            {
+                "correct": "nose",
+                "options": [
+                    "ear",
+                    "nose",
+                    "eye"
+                ]
+            },
+            {
+                "correct": "windpipe",
+                "options": [
+                    "food pipe",
+                    "windpipe",
+                    "vein"
+                ]
+            }
+        ]
+    },
+    {
         "q": "The glomerular filtration rate (GFR) is a measure of kidney function.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about using teeth:",
+        "type": "inline_dropdown",
+        "text": "You use your [0] to bite into an apple and your [1] to chew it up.",
+        "dropdowns": [
+            {
+                "correct": "front teeth",
+                "options": [
+                    "back teeth",
+                    "front teeth",
+                    "tongue"
+                ]
+            },
+            {
+                "correct": "back teeth",
+                "options": [
+                    "front teeth",
+                    "back teeth",
+                    "lips"
+                ]
+            }
+        ]
     },
     {
         "q": "The ______ bone forms the bridge of the nose.",
@@ -3307,6 +4170,13 @@
         "isCaseSensitive": false
     },
     {
+        "q": "How many kidneys does a healthy person usually have?",
+        "type": "slider",
+        "min": 1,
+        "max": 4,
+        "correct": 2
+    },
+    {
         "q": "The ______ is the fluid-filled cavity within the blastocyst.",
         "type": "fill_blank",
         "answers": [
@@ -3334,6 +4204,15 @@
             "Muscle contraction",
             "Primary inhibitory signal"
         ]
+    },
+    {
+        "q": "Match the breathing words.",
+        "type": "memory",
+        "pairs": {
+            "Inhale": "Breathe in",
+            "Exhale": "Breathe out",
+            "Windpipe": "Air tube"
+        }
     },
     {
         "q": "Which type of hypersensitivity reaction is known as anaphylaxis?",
@@ -3417,6 +4296,15 @@
             "Thalamus",
             "Hypothalamus"
         ]
+    },
+    {
+        "q": "Match the joint to what it bends.",
+        "type": "memory",
+        "pairs": {
+            "Neck": "Turns the head",
+            "Knee": "Bends the leg",
+            "Knuckle": "Bends the finger"
+        }
     },
     {
         "q": "What is the name of the valve located between the left atrium and left ventricle?",
@@ -3589,6 +4477,17 @@
         ]
     },
     {
+        "q": "Which of these is NOT a part of the eye area?",
+        "type": "odd_one_out",
+        "options": [
+            "Pupil",
+            "Iris",
+            "Eyelid",
+            "Nostril"
+        ],
+        "correct": "Nostril"
+    },
+    {
         "q": "Which type of bone cell is responsible for breaking down bone matrix?",
         "type": "mcq",
         "o": [
@@ -3642,6 +4541,18 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Wet things, LEFT for Dry things on/in the body.",
+        "type": "swipe_cards",
+        "left_label": "Dry",
+        "right_label": "Wet",
+        "cards": {
+            "Saliva": "right",
+            "Hair": "left",
+            "Tears": "right",
+            "Fingernails": "left"
+        }
+    },
+    {
         "q": "What is the name of the fluid produced by the ciliary body in the eye?",
         "type": "short_answer",
         "answers": [
@@ -3672,6 +4583,12 @@
         ]
     },
     {
+        "q": "Unscramble the line of bones in the middle of your back.",
+        "type": "word_scramble",
+        "answer": "SPINE",
+        "decoys": "BK"
+    },
+    {
         "q": "Schwann cells produce myelin in the peripheral nervous system.",
         "type": "true_false",
         "correct": "True"
@@ -3698,6 +4615,12 @@
             "sarcopenia"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the hard tips on the ends of your fingers.",
+        "type": "word_scramble",
+        "answer": "NAILS",
+        "decoys": "VX"
     },
     {
         "q": "Match the vitamin with its deficiency disease:",
@@ -3791,6 +4714,29 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Complete the sentence about the face:",
+        "type": "inline_dropdown",
+        "text": "Your [0] are the hair above your eyes and they help keep out [1].",
+        "dropdowns": [
+            {
+                "correct": "eyebrows",
+                "options": [
+                    "eyelashes",
+                    "eyebrows",
+                    "mustaches"
+                ]
+            },
+            {
+                "correct": "sweat",
+                "options": [
+                    "light",
+                    "sweat",
+                    "sound"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which type of epithelial tissue lines the respiratory tract and has cilia?",
         "type": "mcq",
         "o": [
@@ -3876,6 +4822,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about taking a breath:",
+        "type": "inline_dropdown",
+        "text": "Taking a big breath makes your [0] go up and out like a round [1].",
+        "dropdowns": [
+            {
+                "correct": "chest",
+                "options": [
+                    "stomach",
+                    "chest",
+                    "head"
+                ]
+            },
+            {
+                "correct": "balloon",
+                "options": [
+                    "rock",
+                    "balloon",
+                    "stick"
+                ]
+            }
+        ]
+    },
+    {
         "q": "The ______ reflex is a polysynaptic reflex that causes withdrawal from painful stimuli.",
         "type": "fill_blank",
         "answers": [
@@ -3902,6 +4871,13 @@
         "q": "Olfactory receptors are a type of chemoreceptor.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "How many eyes do we use to see the world?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
     },
     {
         "q": "The ______ vein is the only vein in the body that carries oxygenated blood.",
@@ -3971,6 +4947,15 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Match the bones.",
+        "type": "memory",
+        "pairs": {
+            "Skull": "Head bone",
+            "Ribs": "Chest bones",
+            "Spine": "Backbone"
+        }
+    },
+    {
         "q": "Which cartilage of the larynx is known as the Adam's apple?",
         "type": "mcq",
         "o": [
@@ -4030,6 +5015,17 @@
             "peritoneum"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT found inside the mouth?",
+        "type": "odd_one_out",
+        "options": [
+            "Saliva",
+            "Teeth",
+            "Brain",
+            "Tongue"
+        ],
+        "correct": "Brain"
     },
     {
         "q": "The ______ is the region of the retina where the optic nerve exits; it has no photoreceptors.",
@@ -4107,6 +5103,18 @@
         ]
     },
     {
+        "q": "Swipe RIGHT for Front of the body, LEFT for Back of the body.",
+        "type": "swipe_cards",
+        "left_label": "Back",
+        "right_label": "Front",
+        "cards": {
+            "Chest": "right",
+            "Spine": "left",
+            "Belly": "right",
+            "Shoulder blades": "left"
+        }
+    },
+    {
         "q": "The ______ is a network of capillaries in the nephron where filtration occurs.",
         "type": "fill_blank",
         "answers": [
@@ -4117,6 +5125,18 @@
             "peritubular network",
             "vasa recta"
         ]
+    },
+    {
+        "q": "Swipe RIGHT for Face parts, LEFT for Arm parts.",
+        "type": "swipe_cards",
+        "left_label": "Arm",
+        "right_label": "Face",
+        "cards": {
+            "Nose": "right",
+            "Elbow": "left",
+            "Chin": "right",
+            "Wrist": "left"
+        }
     },
     {
         "q": "Which cells form the blood-brain barrier?",
@@ -4184,6 +5204,12 @@
         "q": "The renal corpuscle consists of the glomerulus and Bowman's capsule.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Unscramble the two organs in your chest used for breathing.",
+        "type": "word_scramble",
+        "answer": "LUNGS",
+        "decoys": "TJ"
     },
     {
         "q": "The ______ is a C-shaped structure in the inner ear that detects rotational movement.",
@@ -4311,6 +5337,12 @@
         ]
     },
     {
+        "q": "Unscramble the parts that send feeling messages to the brain.",
+        "type": "word_scramble",
+        "answer": "NERVE",
+        "decoys": "WQ"
+    },
+    {
         "q": "The macula densa cells detect changes in sodium chloride concentration within the distal convoluted tubule.",
         "type": "true_false",
         "correct": "True"
@@ -4425,6 +5457,29 @@
         ]
     },
     {
+        "q": "Complete the sentence about the mouth:",
+        "type": "inline_dropdown",
+        "text": "Saliva is the watery [0] in your mouth that helps make dry food [1].",
+        "dropdowns": [
+            {
+                "correct": "liquid",
+                "options": [
+                    "gas",
+                    "liquid",
+                    "solid"
+                ]
+            },
+            {
+                "correct": "soft",
+                "options": [
+                    "hard",
+                    "soft",
+                    "spicy"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which complement pathway is activated by the binding of mannose-binding lectin to carbohydrates on pathogen surfaces?",
         "type": "mcq",
         "o": [
@@ -4432,6 +5487,29 @@
             "Classical pathway",
             "Alternative pathway",
             "Terminal pathway"
+        ]
+    },
+    {
+        "q": "Complete the sentence about being sick:",
+        "type": "inline_dropdown",
+        "text": "When you have to [0], it is best to cover your mouth with your [1].",
+        "dropdowns": [
+            {
+                "correct": "cough",
+                "options": [
+                    "smile",
+                    "cough",
+                    "blink"
+                ]
+            },
+            {
+                "correct": "elbow",
+                "options": [
+                    "hand",
+                    "elbow",
+                    "foot"
+                ]
+            }
         ]
     },
     {

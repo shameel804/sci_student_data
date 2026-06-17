@@ -1,5 +1,21 @@
 [
     {
+        "q": "How many legs does a normal dog (a living thing) have?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 4
+    },
+    {
+        "q": "Match each word to its description.",
+        "type": "memory",
+        "pairs": {
+            "Dog": "Living animal that barks",
+            "Rock": "Hard non-living object",
+            "Tree": "Living plant with a trunk"
+        }
+    },
+    {
         "q": "Which of these can grow and become bigger over time?",
         "type": "mcq",
         "o": [
@@ -17,6 +33,17 @@
             "oxygen"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT a living thing?",
+        "type": "odd_one_out",
+        "options": [
+            "Dog",
+            "Cat",
+            "Tree",
+            "Rock"
+        ],
+        "correct": "Rock"
     },
     {
         "q": "A chair can move on its own.",
@@ -108,6 +135,18 @@
         ]
     },
     {
+        "q": "Swipe LEFT for Living, RIGHT for Non-living.",
+        "type": "swipe_cards",
+        "left_label": "Living",
+        "right_label": "Non-living",
+        "cards": {
+            "Dog": "left",
+            "Car": "right",
+            "Tree": "left",
+            "Book": "right"
+        }
+    },
+    {
         "q": "Which of these is a living thing?",
         "type": "mcq",
         "o": [
@@ -180,6 +219,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: Getting bigger over time.",
+        "type": "word_scramble",
+        "answer": "GROW",
+        "decoys": "XZ"
+    },
+    {
         "q": "What is the basic need of every living animal?",
         "type": "mcq",
         "o": [
@@ -207,6 +252,36 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The [0] is a living thing, but the [1] is not.",
+        "dropdowns": [
+            {
+                "correct": "dog",
+                "options": [
+                    "dog",
+                    "rock",
+                    "toy"
+                ]
+            },
+            {
+                "correct": "rock",
+                "options": [
+                    "bird",
+                    "rock",
+                    "cat"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "How many basic needs do living things have (food, water, air, shelter)?",
+        "type": "slider",
+        "min": 1,
+        "max": 6,
+        "correct": 4
+    },
+    {
         "q": "Which of these living things has fur?",
         "type": "mcq",
         "o": [
@@ -225,6 +300,15 @@
             "minerals"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Match the basic needs.",
+        "type": "memory",
+        "pairs": {
+            "Food": "What living things eat",
+            "Water": "Liquid living things drink",
+            "Air": "Gas living things breathe"
+        }
     },
     {
         "q": "Which of these can reproduce or have babies?",
@@ -264,6 +348,18 @@
         ]
     },
     {
+        "q": "Which of these is NOT a non-living thing?",
+        "type": "odd_one_out",
+        "options": [
+            "Car",
+            "Book",
+            "Pencil",
+            "Bird",
+            "Desk"
+        ],
+        "correct": "Bird"
+    },
+    {
         "q": "Match the plant part to its function:",
         "type": "match",
         "left": [
@@ -280,6 +376,24 @@
         ]
     },
     {
+        "q": "Swipe LEFT for Needs Food, RIGHT for No Food Needed.",
+        "type": "swipe_cards",
+        "left_label": "Needs Food",
+        "right_label": "No Food Needed",
+        "cards": {
+            "Cat": "left",
+            "Robot": "right",
+            "Human": "left",
+            "Stone": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word: Taking in air to live.",
+        "type": "word_scramble",
+        "answer": "BREATHE",
+        "decoys": "QK"
+    },
+    {
         "q": "Which of these grows from a seed?",
         "type": "mcq",
         "o": [
@@ -287,6 +401,29 @@
             "Rock",
             "Sand",
             "Iron nail"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Living things [0] food, but non-living things [1] need food.",
+        "dropdowns": [
+            {
+                "correct": "eat",
+                "options": [
+                    "eat",
+                    "throw",
+                    "break"
+                ]
+            },
+            {
+                "correct": "do not",
+                "options": [
+                    "do",
+                    "always",
+                    "do not"
+                ]
+            }
         ]
     },
     {
@@ -325,6 +462,13 @@
         "correct": "False"
     },
     {
+        "q": "If a plant grows 2 leaves every week, how many leaves will it grow in 3 weeks?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 6
+    },
+    {
         "q": "Which of these reacts to touch by closing its leaves?",
         "type": "mcq",
         "o": [
@@ -333,6 +477,15 @@
             "Wooden stick",
             "Glass"
         ]
+    },
+    {
+        "q": "Match the life process to its meaning.",
+        "type": "memory",
+        "pairs": {
+            "Grow": "Getting bigger over time",
+            "Move": "Going from place to place",
+            "Reproduce": "Having babies"
+        }
     },
     {
         "q": "Animals get their energy by eating food.",
@@ -352,6 +505,17 @@
             "A dog",
             "A cat"
         ]
+    },
+    {
+        "q": "Which of these actions is NOT done by living things?",
+        "type": "odd_one_out",
+        "options": [
+            "Eating",
+            "Breathing",
+            "Growing",
+            "Rusting"
+        ],
+        "correct": "Rusting"
     },
     {
         "q": "Humans have ______ fingers on two hands.",
@@ -546,6 +710,24 @@
         "correct": "False"
     },
     {
+        "q": "Swipe LEFT for Grows, RIGHT for Stays Same Size.",
+        "type": "swipe_cards",
+        "left_label": "Grows",
+        "right_label": "Stays Same Size",
+        "cards": {
+            "Baby": "left",
+            "Plant": "left",
+            "Pencil": "right",
+            "Coin": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word: Something that is currently living.",
+        "type": "word_scramble",
+        "answer": "ALIVE",
+        "decoys": "ZP"
+    },
+    {
         "q": "Which of these living things can change its colour to hide?",
         "type": "mcq",
         "o": [
@@ -707,6 +889,29 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A puppy will [0] into a big dog, showing it is [1].",
+        "dropdowns": [
+            {
+                "correct": "grow",
+                "options": [
+                    "shrink",
+                    "grow",
+                    "melt"
+                ]
+            },
+            {
+                "correct": "living",
+                "options": [
+                    "living",
+                    "non-living",
+                    "a toy"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these is a non-living thing found in a park?",
         "type": "mcq",
         "o": [
@@ -754,6 +959,13 @@
         ]
     },
     {
+        "q": "How many wheels does a toy car (non-living) have?",
+        "type": "slider",
+        "min": 1,
+        "max": 8,
+        "correct": 4
+    },
+    {
         "q": "Match the animal to its young one:",
         "type": "match",
         "left": [
@@ -768,6 +980,15 @@
             "Calf",
             "Foal"
         ]
+    },
+    {
+        "q": "Match the daily object to its category.",
+        "type": "memory",
+        "pairs": {
+            "Toy": "Non-living plaything",
+            "Cat": "Living pet that meows",
+            "Sun": "Natural non-living star"
+        }
     },
     {
         "q": "What do we call the colourful part of a plant that helps attract insects?",
@@ -787,6 +1008,18 @@
             "Marble",
             "Bead"
         ]
+    },
+    {
+        "q": "Which of these is NOT a basic need for living things?",
+        "type": "odd_one_out",
+        "options": [
+            "Water",
+            "Air",
+            "Food",
+            "Toys",
+            "Shelter"
+        ],
+        "correct": "Toys"
     },
     {
         "q": "Humans use their ______ to walk and run.",
@@ -814,6 +1047,18 @@
             "Sunflower",
             "Bat"
         ]
+    },
+    {
+        "q": "Swipe LEFT for Breathes, RIGHT for Does Not Breathe.",
+        "type": "swipe_cards",
+        "left_label": "Breathes",
+        "right_label": "Does Not Breathe",
+        "cards": {
+            "Fish": "left",
+            "Bird": "left",
+            "Shoe": "right",
+            "Hat": "right"
+        }
     },
     {
         "q": "What do plants release into the air that we breathe in?",
@@ -933,6 +1178,35 @@
         ]
     },
     {
+        "q": "Unscramble the word: Liquid needed to live.",
+        "type": "word_scramble",
+        "answer": "WATER",
+        "decoys": "JX"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Plants need [0] to make their own food, but a [1] does not.",
+        "dropdowns": [
+            {
+                "correct": "sunlight",
+                "options": [
+                    "darkness",
+                    "dirt",
+                    "sunlight"
+                ]
+            },
+            {
+                "correct": "pencil",
+                "options": [
+                    "rabbit",
+                    "pencil",
+                    "frog"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Lions and tigers eat the flesh of other animals. They are called ______.",
         "type": "fill_blank",
         "answers": [
@@ -997,6 +1271,13 @@
         ]
     },
     {
+        "q": "How many eyes does a healthy human use to see the world?",
+        "type": "slider",
+        "min": 1,
+        "max": 4,
+        "correct": 2
+    },
+    {
         "q": "What gas do humans breathe out that plants use to make food?",
         "type": "short_answer",
         "answers": [
@@ -1025,6 +1306,15 @@
         "correct": "False"
     },
     {
+        "q": "Match the beginning stage to its form.",
+        "type": "memory",
+        "pairs": {
+            "Seed": "Grows into a living plant",
+            "Battery": "Powers non-living toys",
+            "Egg": "Hatches into a living bird"
+        }
+    },
+    {
         "q": "Which of these is an example of a non-living thing that was once part of a living thing?",
         "type": "mcq",
         "o": [
@@ -1051,6 +1341,17 @@
         ]
     },
     {
+        "q": "Which of these is a living thing?",
+        "type": "odd_one_out",
+        "options": [
+            "Sun",
+            "Moon",
+            "Stars",
+            "Elephant"
+        ],
+        "correct": "Elephant"
+    },
+    {
         "q": "What do we call an animal that eats both plants and animals?",
         "type": "short_answer",
         "answers": [
@@ -1058,6 +1359,18 @@
             "omnivores"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe LEFT for Man-made, RIGHT for Natural.",
+        "type": "swipe_cards",
+        "left_label": "Man-made",
+        "right_label": "Natural",
+        "cards": {
+            "House": "left",
+            "Sun": "right",
+            "Car": "left",
+            "Cloud": "right"
+        }
     },
     {
         "q": "Which of these is a living thing that does not move from its place?",
@@ -1119,6 +1432,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: What living things eat.",
+        "type": "word_scramble",
+        "answer": "FOOD",
+        "decoys": "VQ"
+    },
+    {
         "q": "What part of the plant holds it firmly in the soil?",
         "type": "short_answer",
         "answers": [
@@ -1154,6 +1473,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "When you touch a hot pan, you [0] it because you are [1].",
+        "dropdowns": [
+            {
+                "correct": "feel",
+                "options": [
+                    "ignore",
+                    "feel",
+                    "eat"
+                ]
+            },
+            {
+                "correct": "alive",
+                "options": [
+                    "alive",
+                    "asleep",
+                    "made of metal"
+                ]
+            }
+        ]
+    },
+    {
         "q": "A car moves, uses fuel, and gives out smoke. Why is it still a non-living thing?",
         "type": "mcq",
         "o": [
@@ -1175,6 +1517,13 @@
         "q": "Birds are the only living things that can fly.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "How many seeds are usually found inside a large mango?",
+        "type": "slider",
+        "min": 0,
+        "max": 5,
+        "correct": 1
     },
     {
         "q": "Which of these living things is warm-blooded?",
@@ -1270,6 +1619,15 @@
             "They are round",
             "They can be broken"
         ]
+    },
+    {
+        "q": "Match the flying object to its type.",
+        "type": "memory",
+        "pairs": {
+            "Bird": "Living thing with feathers",
+            "Airplane": "Non-living machine that flies",
+            "Cloud": "Non-living fluffy thing in sky"
+        }
     },
     {
         "q": "A robot can be programmed to clean the floor. Why is it non-living?",
@@ -1388,6 +1746,18 @@
             "Lion",
             "Human"
         ]
+    },
+    {
+        "q": "Which of these is a living thing?",
+        "type": "odd_one_out",
+        "options": [
+            "Robot",
+            "Computer",
+            "Phone",
+            "Teacher",
+            "Tablet"
+        ],
+        "correct": "Teacher"
     },
     {
         "q": "Insects have six legs, while spiders have ______ legs.",
@@ -1544,6 +1914,18 @@
         "correct": "False"
     },
     {
+        "q": "Swipe LEFT for Can Move On Its Own, RIGHT for Needs A Push.",
+        "type": "swipe_cards",
+        "left_label": "Can Move On Its Own",
+        "right_label": "Needs A Push",
+        "cards": {
+            "Tiger": "left",
+            "Wagon": "right",
+            "Horse": "left",
+            "Ball": "right"
+        }
+    },
+    {
         "q": "Which of these is a living thing that migrates to warmer places in winter?",
         "type": "mcq",
         "o": [
@@ -1574,6 +1956,12 @@
             "Metal spoon",
             "Glass window"
         ]
+    },
+    {
+        "q": "Unscramble the word: Living thing with roots and leaves.",
+        "type": "word_scramble",
+        "answer": "PLANT",
+        "decoys": "YZ"
     },
     {
         "q": "Match the animal to its sleeping place:",
@@ -1685,6 +2073,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A toy train needs a [0] to move, but a real horse moves on its [1].",
+        "dropdowns": [
+            {
+                "correct": "battery",
+                "options": [
+                    "carrot",
+                    "battery",
+                    "saddle"
+                ]
+            },
+            {
+                "correct": "own",
+                "options": [
+                    "own",
+                    "wheels",
+                    "tracks"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these non-living things is made from sand?",
         "type": "mcq",
         "o": [
@@ -1744,6 +2155,13 @@
         "q": "Mountains can grow taller over millions of years due to geological forces, but they are still non-living.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "How many wings does a living bird need to fly?",
+        "type": "slider",
+        "min": 1,
+        "max": 6,
+        "correct": 2
     },
     {
         "q": "Which of these is a living thing that builds dams in rivers?",
@@ -1814,6 +2232,15 @@
         ]
     },
     {
+        "q": "Match the object associated with water.",
+        "type": "memory",
+        "pairs": {
+            "Fish": "Living thing in water",
+            "Boat": "Non-living thing on water",
+            "Frog": "Living thing that jumps"
+        }
+    },
+    {
         "q": "Match the following to their categories:",
         "type": "match",
         "left": [
@@ -1828,6 +2255,18 @@
             "Non-living",
             "Living"
         ]
+    },
+    {
+        "q": "Which of these is NOT a baby living thing?",
+        "type": "odd_one_out",
+        "options": [
+            "Seed",
+            "Puppy",
+            "Kitten",
+            "Marble",
+            "Cub"
+        ],
+        "correct": "Marble"
     },
     {
         "q": "What is the fastest animal in the water?",
@@ -1904,6 +2343,18 @@
         "q": "Rabbits eat their own droppings to fully digest their food.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Swipe LEFT for Alive, RIGHT for Dead.",
+        "type": "swipe_cards",
+        "left_label": "Alive",
+        "right_label": "Dead",
+        "cards": {
+            "Running dog": "left",
+            "Dried fallen leaf": "right",
+            "Green grass": "left",
+            "Log in fire": "right"
+        }
     },
     {
         "q": "Which of these is a non-living thing that is magnetic?",
@@ -2023,6 +2474,12 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Unscramble the word: A living thing like a cat or dog.",
+        "type": "word_scramble",
+        "answer": "ANIMAL",
+        "decoys": "XW"
+    },
+    {
         "q": "A Venus flytrap closes its leaves when a fly lands on it. This shows that plants can ______ to stimuli.",
         "type": "fill_blank",
         "answers": [
@@ -2104,6 +2561,29 @@
         "correct": "False"
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Fish [0] underwater using their gills, which means they are [1] things.",
+        "dropdowns": [
+            {
+                "correct": "breathe",
+                "options": [
+                    "sink",
+                    "breathe",
+                    "drown"
+                ]
+            },
+            {
+                "correct": "living",
+                "options": [
+                    "dead",
+                    "non-living",
+                    "living"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these is a living thing that reproduces by laying eggs in water?",
         "type": "mcq",
         "o": [
@@ -2163,6 +2643,22 @@
         "q": "A crystal grows larger in a salt solution. This is living growth.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "A mother cat has a litter of kittens. If she has 5, how many new living things are born?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 5
+    },
+    {
+        "q": "Match the living process.",
+        "type": "memory",
+        "pairs": {
+            "Breathing": "Taking in air",
+            "Eating": "Taking in food",
+            "Growing": "Changing size"
+        }
     },
     {
         "q": "Which of these living things is a decomposer?",
@@ -2273,6 +2769,17 @@
         "correct": "False"
     },
     {
+        "q": "Which of these actions is NOT done by animals?",
+        "type": "odd_one_out",
+        "options": [
+            "Running",
+            "Jumping",
+            "Sleeping",
+            "Melting"
+        ],
+        "correct": "Melting"
+    },
+    {
         "q": "Which of these is a living thing that can survive without water for years?",
         "type": "mcq",
         "o": [
@@ -2291,6 +2798,18 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Swipe LEFT for Has Babies, RIGHT for Does Not Have Babies.",
+        "type": "swipe_cards",
+        "left_label": "Has Babies",
+        "right_label": "Does Not Have Babies",
+        "cards": {
+            "Chicken": "left",
+            "Cow": "left",
+            "Computer": "right",
+            "Desk": "right"
+        }
+    },
+    {
         "q": "A virus can reproduce inside a host, so it is classified as a living thing by all scientists.",
         "type": "true_false",
         "correct": "False"
@@ -2304,6 +2823,12 @@
             "Aluminum foil",
             "Wooden block"
         ]
+    },
+    {
+        "q": "Unscramble the word: A hard non-living thing found on the ground.",
+        "type": "word_scramble",
+        "answer": "ROCK",
+        "decoys": "KQ"
     },
     {
         "q": "The fin on the back of a fish that helps it balance is the ______ fin.",
@@ -2364,6 +2889,29 @@
             "Eagle",
             "Frog",
             "Shark"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A [0] is a natural non-living thing, while a [1] is a man-made non-living thing.",
+        "dropdowns": [
+            {
+                "correct": "cloud",
+                "options": [
+                    "cloud",
+                    "robot",
+                    "dog"
+                ]
+            },
+            {
+                "correct": "robot",
+                "options": [
+                    "flower",
+                    "sun",
+                    "robot"
+                ]
+            }
         ]
     },
     {
@@ -2453,6 +3001,13 @@
         ]
     },
     {
+        "q": "How many months in a year do plants need sunlight to stay alive?",
+        "type": "slider",
+        "min": 1,
+        "max": 12,
+        "correct": 12
+    },
+    {
         "q": "What is the term for an animal that eats mainly dead and decaying matter?",
         "type": "short_answer",
         "answers": [
@@ -2460,6 +3015,15 @@
             "decomposer"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Match the category definition.",
+        "type": "memory",
+        "pairs": {
+            "Man-made": "Created by humans",
+            "Natural": "Found in nature",
+            "Living": "Alive and growing"
+        }
     },
     {
         "q": "Fungi can make their own food using sunlight.",
@@ -2487,6 +3051,17 @@
             "leaf",
             "flower"
         ]
+    },
+    {
+        "q": "Which of these is NOT a real plant?",
+        "type": "odd_one_out",
+        "options": [
+            "Rose",
+            "Sunflower",
+            "Grass",
+            "Plastic Flower"
+        ],
+        "correct": "Plastic Flower"
     },
     {
         "q": "Which of these is a non-living thing that forms from cooled lava?",
@@ -2608,6 +3183,18 @@
         ]
     },
     {
+        "q": "Swipe LEFT for Living, RIGHT for Non-living.",
+        "type": "swipe_cards",
+        "left_label": "Living",
+        "right_label": "Non-living",
+        "cards": {
+            "Ant": "left",
+            "Chair": "right",
+            "Flower": "left",
+            "Table": "right"
+        }
+    },
+    {
         "q": "Water is a non-living thing that is essential for all living organisms.",
         "type": "true_false",
         "correct": "True"
@@ -2621,6 +3208,12 @@
             "Ladybug",
             "Honeybee"
         ]
+    },
+    {
+        "q": "Unscramble the word: Going from here to there.",
+        "type": "word_scramble",
+        "answer": "MOVE",
+        "decoys": "ZJ"
     },
     {
         "q": "What gas is essential for respiration in most living organisms?",
@@ -2679,6 +3272,29 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Living things can [0], which means they can have [1].",
+        "dropdowns": [
+            {
+                "correct": "reproduce",
+                "options": [
+                    "break",
+                    "rust",
+                    "reproduce"
+                ]
+            },
+            {
+                "correct": "babies",
+                "options": [
+                    "babies",
+                    "batteries",
+                    "screws"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Mushrooms are a type of plant.",
         "type": "true_false",
         "correct": "False"
@@ -2714,6 +3330,13 @@
             "Bamboo",
             "Paper"
         ]
+    },
+    {
+        "q": "How many times does a stone eat food in a day?",
+        "type": "slider",
+        "min": 0,
+        "max": 5,
+        "correct": 0
     },
     {
         "q": "Bats use echolocation to navigate in the dark.",
@@ -2777,9 +3400,29 @@
         ]
     },
     {
+        "q": "Match how things get their energy.",
+        "type": "memory",
+        "pairs": {
+            "Roots": "How plants drink water",
+            "Mouth": "How animals eat",
+            "Engine": "What makes a car move"
+        }
+    },
+    {
         "q": "All reptiles are cold-blooded.",
         "type": "true_false",
         "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-living vehicle?",
+        "type": "odd_one_out",
+        "options": [
+            "Lion",
+            "Tiger",
+            "Bear",
+            "Bicycle"
+        ],
+        "correct": "Bicycle"
     },
     {
         "q": "Which of these living things can sleep with one eye open?",
@@ -2827,6 +3470,18 @@
         "correct": "True"
     },
     {
+        "q": "Swipe LEFT for Natural, RIGHT for Man-made.",
+        "type": "swipe_cards",
+        "left_label": "Natural",
+        "right_label": "Man-made",
+        "cards": {
+            "River": "left",
+            "Mountain": "left",
+            "Bridge": "right",
+            "Road": "right"
+        }
+    },
+    {
         "q": "Which of these is a living thing that has a mantle and a muscular foot?",
         "type": "mcq",
         "o": [
@@ -2857,6 +3512,12 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Unscramble the word: Natural source of light for plants.",
+        "type": "word_scramble",
+        "answer": "SUN",
+        "decoys": "PQ"
+    },
+    {
         "q": "Which of these is a non-living thing that is an alloy?",
         "type": "mcq",
         "o": [
@@ -2882,6 +3543,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "You must give your pet cat [0] every day, but your teddy bear needs [1].",
+        "dropdowns": [
+            {
+                "correct": "food",
+                "options": [
+                    "food",
+                    "batteries",
+                    "oil"
+                ]
+            },
+            {
+                "correct": "nothing",
+                "options": [
+                    "water",
+                    "food",
+                    "nothing"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Match the disease to the organism that causes it:",
         "type": "match",
         "left": [
@@ -2896,6 +3580,13 @@
             "Fungus",
             "Bacteria"
         ]
+    },
+    {
+        "q": "How many legs does a living spider have?",
+        "type": "slider",
+        "min": 2,
+        "max": 12,
+        "correct": 8
     },
     {
         "q": "What do we call the study of living things?",
@@ -2966,6 +3657,27 @@
         ]
     },
     {
+        "q": "Match the small items.",
+        "type": "memory",
+        "pairs": {
+            "Puppy": "Baby dog",
+            "Kitten": "Baby cat",
+            "Doll": "Non-living toy baby"
+        }
+    },
+    {
+        "q": "Which of these is alive in the soil?",
+        "type": "odd_one_out",
+        "options": [
+            "Soil",
+            "Sand",
+            "Rock",
+            "Earthworm",
+            "Gravel"
+        ],
+        "correct": "Earthworm"
+    },
+    {
         "q": "The small, kidney-shaped openings on the surface of a leaf are ______.",
         "type": "fill_blank",
         "answers": [
@@ -2976,6 +3688,18 @@
             "veins",
             "roots"
         ]
+    },
+    {
+        "q": "Swipe LEFT for Needs Water, RIGHT for No Water Needed.",
+        "type": "swipe_cards",
+        "left_label": "Needs Water",
+        "right_label": "No Water Needed",
+        "cards": {
+            "Tree": "left",
+            "Camel": "left",
+            "Statue": "right",
+            "Bicycle": "right"
+        }
     },
     {
         "q": "Which of these is a non-living thing used to measure temperature?",
@@ -2998,12 +3722,41 @@
         ]
     },
     {
+        "q": "Unscramble the word: A non-living thing to play with.",
+        "type": "word_scramble",
+        "answer": "TOY",
+        "decoys": "WX"
+    },
+    {
         "q": "What is the term for the sum of all chemical reactions occurring within a living organism?",
         "type": "short_answer",
         "answers": [
             "metabolism"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A [0] cannot move by itself, but a [1] can walk.",
+        "dropdowns": [
+            {
+                "correct": "stone",
+                "options": [
+                    "dog",
+                    "stone",
+                    "baby"
+                ]
+            },
+            {
+                "correct": "boy",
+                "options": [
+                    "boy",
+                    "chair",
+                    "table"
+                ]
+            }
+        ]
     },
     {
         "q": "Bacteria and fungi that break down dead organic matter into simpler substances are called ______.",
@@ -3050,6 +3803,13 @@
         ]
     },
     {
+        "q": "How many hours a day does a rock need to sleep?",
+        "type": "slider",
+        "min": 0,
+        "max": 24,
+        "correct": 0
+    },
+    {
         "q": "What type of symbiotic relationship occurs when both organisms benefit?",
         "type": "short_answer",
         "answers": [
@@ -3074,6 +3834,15 @@
         "q": "A living thing that eats secondary consumers is a primary consumer.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "Match the environmental elements.",
+        "type": "memory",
+        "pairs": {
+            "Sunlight": "Plants need this to live",
+            "Soil": "Where plants grow",
+            "Plastic": "Material for non-living things"
+        }
     },
     {
         "q": "Which of these is an example of a non-living thing that is biodegradable?",
@@ -3162,6 +3931,18 @@
         ]
     },
     {
+        "q": "Swipe LEFT for Feels Pain, RIGHT for Cannot Feel.",
+        "type": "swipe_cards",
+        "left_label": "Feels Pain",
+        "right_label": "Cannot Feel",
+        "cards": {
+            "Puppy": "left",
+            "Boy": "left",
+            "Rock": "right",
+            "Glass": "right"
+        }
+    },
+    {
         "q": "The vascular tissue that transports food from leaves to other parts of the plant is the ______.",
         "type": "fill_blank",
         "answers": [
@@ -3171,6 +3952,35 @@
             "xylem",
             "cambium",
             "meristem"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A non-living machine that drives on roads.",
+        "type": "word_scramble",
+        "answer": "CAR",
+        "decoys": "ZQ"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Plants take in [0] from the soil through their [1].",
+        "dropdowns": [
+            {
+                "correct": "water",
+                "options": [
+                    "rocks",
+                    "water",
+                    "plastic"
+                ]
+            },
+            {
+                "correct": "roots",
+                "options": [
+                    "leaves",
+                    "roots",
+                    "branches"
+                ]
+            }
         ]
     },
     {
@@ -3190,6 +4000,15 @@
             "Brass",
             "Bronze"
         ]
+    },
+    {
+        "q": "Match the items.",
+        "type": "memory",
+        "pairs": {
+            "Ant": "Small living insect",
+            "Pencil": "Non-living writing tool",
+            "Apple": "Fruit from a living tree"
+        }
     },
     {
         "q": "An ecosystem consists of only the living organisms in an area.",
@@ -3244,9 +4063,27 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Swipe LEFT for Living, RIGHT for Non-living.",
+        "type": "swipe_cards",
+        "left_label": "Living",
+        "right_label": "Non-living",
+        "cards": {
+            "Elephant": "left",
+            "Mug": "right",
+            "Butterfly": "left",
+            "Plate": "right"
+        }
+    },
+    {
         "q": "All reptiles have a three-chambered heart.",
         "type": "true_false",
         "correct": "False"
+    },
+    {
+        "q": "Unscramble the word: A young living human.",
+        "type": "word_scramble",
+        "answer": "BABY",
+        "decoys": "KX"
     },
     {
         "q": "Which of these non-living things is an example of a colloid?",
@@ -3256,6 +4093,29 @@
             "Sugar water",
             "Salt solution",
             "Pure water"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "If a toy breaks, it is just [0], but if an animal gets hurt, it can [1].",
+        "dropdowns": [
+            {
+                "correct": "broken",
+                "options": [
+                    "sad",
+                    "bleeding",
+                    "broken"
+                ]
+            },
+            {
+                "correct": "heal",
+                "options": [
+                    "rust",
+                    "heal",
+                    "shrink"
+                ]
+            }
         ]
     },
     {
@@ -3281,6 +4141,15 @@
         ]
     },
     {
+        "q": "Match the sensory features.",
+        "type": "memory",
+        "pairs": {
+            "Feelings": "When you are happy or sad",
+            "Sensors": "How robots detect things",
+            "Instinct": "Animal behavior"
+        }
+    },
+    {
         "q": "Birds are endothermic, meaning they can generate their own body heat.",
         "type": "true_false",
         "correct": "True"
@@ -3294,6 +4163,24 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Swipe LEFT for Grows Older, RIGHT for Gets Rusty or Broken.",
+        "type": "swipe_cards",
+        "left_label": "Grows Older",
+        "right_label": "Gets Rusty or Broken",
+        "cards": {
+            "Person": "left",
+            "Dog": "left",
+            "Car": "right",
+            "Bike": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word: What a plant grows from in the soil.",
+        "type": "word_scramble",
+        "answer": "SEED",
+        "decoys": "QJ"
+    },
+    {
         "q": "Which of these non-living things demonstrates the property of malleability?",
         "type": "mcq",
         "o": [
@@ -3301,6 +4188,29 @@
             "Glass pane",
             "Ceramic tile",
             "Concrete block"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "We know a bird is [0] because it can [1] in the sky and has babies.",
+        "dropdowns": [
+            {
+                "correct": "alive",
+                "options": [
+                    "alive",
+                    "dead",
+                    "magic"
+                ]
+            },
+            {
+                "correct": "fly",
+                "options": [
+                    "sink",
+                    "melt",
+                    "fly"
+                ]
+            }
         ]
     },
     {
@@ -3332,12 +4242,33 @@
         ]
     },
     {
+        "q": "Match the internal parts.",
+        "type": "memory",
+        "pairs": {
+            "Heart": "Pumps blood in living things",
+            "Clock": "Ticks in a non-living machine",
+            "Lungs": "Used for breathing"
+        }
+    },
+    {
         "q": "What is the smallest unit of classification in taxonomy?",
         "type": "short_answer",
         "answers": [
             "species"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe LEFT for Plant, RIGHT for Animal.",
+        "type": "swipe_cards",
+        "left_label": "Plant",
+        "right_label": "Animal",
+        "cards": {
+            "Rose": "left",
+            "Lion": "right",
+            "Fern": "left",
+            "Monkey": "right"
+        }
     },
     {
         "q": "A theory in science is just a guess.",
@@ -3353,6 +4284,12 @@
             "Human",
             "Sparrow"
         ]
+    },
+    {
+        "q": "Unscramble the word: Invisible gas we breathe to stay alive.",
+        "type": "word_scramble",
+        "answer": "AIR",
+        "decoys": "ZX"
     },
     {
         "q": "The process by which a cell engulfs solid particles to bring them inside is ______.",
@@ -3429,6 +4366,29 @@
         ]
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A [0] is a non-living thing that we use to [1] words on paper.",
+        "dropdowns": [
+            {
+                "correct": "pencil",
+                "options": [
+                    "snake",
+                    "pencil",
+                    "worm"
+                ]
+            },
+            {
+                "correct": "write",
+                "options": [
+                    "eat",
+                    "write",
+                    "smell"
+                ]
+            }
+        ]
+    },
+    {
         "q": "A population is a group of organisms of different species living in the same area.",
         "type": "true_false",
         "correct": "False"
@@ -3462,6 +4422,15 @@
         ]
     },
     {
+        "q": "Match the state of being.",
+        "type": "memory",
+        "pairs": {
+            "Dead": "Once living but not anymore",
+            "Non-living": "Never was alive",
+            "Alive": "Currently living"
+        }
+    },
+    {
         "q": "The leaf stalk that attaches the leaf blade to the stem is the ______.",
         "type": "fill_blank",
         "answers": [
@@ -3487,6 +4456,18 @@
         "correct": "False"
     },
     {
+        "q": "Swipe LEFT for Has Senses, RIGHT for No Senses.",
+        "type": "swipe_cards",
+        "left_label": "Has Senses",
+        "right_label": "No Senses",
+        "cards": {
+            "Bat": "left",
+            "Snake": "left",
+            "Brick": "right",
+            "Mirror": "right"
+        }
+    },
+    {
         "q": "Which of these non-living things is a non-Newtonian fluid?",
         "type": "mcq",
         "o": [
@@ -3495,6 +4476,12 @@
             "Cooking oil",
             "Alcohol"
         ]
+    },
+    {
+        "q": "Unscramble the word: Living thing with feathers that flies.",
+        "type": "word_scramble",
+        "answer": "BIRD",
+        "decoys": "VQ"
     },
     {
         "q": "Match the nitrogenous waste to the animal group:",
@@ -3510,6 +4497,29 @@
             "Uric acid",
             "Ammonia",
             "Uric acid"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Trees [0] very slowly, but a plastic tree stays the same [1] forever.",
+        "dropdowns": [
+            {
+                "correct": "grow",
+                "options": [
+                    "walk",
+                    "grow",
+                    "run"
+                ]
+            },
+            {
+                "correct": "size",
+                "options": [
+                    "size",
+                    "color",
+                    "smell"
+                ]
+            }
         ]
     },
     {
@@ -3556,6 +4566,12 @@
             "Charcoal",
             "Diamond"
         ]
+    },
+    {
+        "q": "Unscramble the word: Something that is no longer living.",
+        "type": "word_scramble",
+        "answer": "DEAD",
+        "decoys": "PK"
     },
     {
         "q": "The Krebs cycle and electron transport chain occur inside the ______ of a cell.",
@@ -3678,6 +4694,29 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "All living things need [0], [1], and air to survive.",
+        "dropdowns": [
+            {
+                "correct": "food",
+                "options": [
+                    "food",
+                    "toys",
+                    "gold"
+                ]
+            },
+            {
+                "correct": "water",
+                "options": [
+                    "soda",
+                    "juice",
+                    "water"
+                ]
+            }
+        ]
+    },
+    {
         "q": "All protists are unicellular.",
         "type": "true_false",
         "correct": "False"
@@ -3706,6 +4745,35 @@
             "Stem elongation",
             "Cell division",
             "Seed dormancy"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A tall living plant with a trunk.",
+        "type": "word_scramble",
+        "answer": "TREE",
+        "decoys": "ZW"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A robot may [0] like a human, but it is [1] because it has no life.",
+        "dropdowns": [
+            {
+                "correct": "talk",
+                "options": [
+                    "grow",
+                    "talk",
+                    "sleep"
+                ]
+            },
+            {
+                "correct": "non-living",
+                "options": [
+                    "living",
+                    "breathing",
+                    "non-living"
+                ]
+            }
         ]
     },
     {
@@ -3872,6 +4940,12 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Unscramble the word: To touch or experience emotion like a living thing.",
+        "type": "word_scramble",
+        "answer": "FEEL",
+        "decoys": "XQ"
+    },
+    {
         "q": "Which of these non-living things is a shape memory alloy?",
         "type": "mcq",
         "o": [
@@ -3978,6 +5052,29 @@
         "isCaseSensitive": false
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The [0] gives light to the earth, but it is [1].",
+        "dropdowns": [
+            {
+                "correct": "sun",
+                "options": [
+                    "moon",
+                    "earth",
+                    "sun"
+                ]
+            },
+            {
+                "correct": "non-living",
+                "options": [
+                    "non-living",
+                    "living",
+                    "animal"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of the following is the most fundamental characteristic that distinguishes living systems from non-living systems at the molecular level?",
         "type": "mcq",
         "o": [
@@ -4009,6 +5106,12 @@
             "budding",
             "conjugation"
         ]
+    },
+    {
+        "q": "Unscramble the word: Dirt where plants grow their roots.",
+        "type": "word_scramble",
+        "answer": "SOIL",
+        "decoys": "JY"
     },
     {
         "q": "All ribozymes are purely made of protein.",
@@ -4069,6 +5172,29 @@
         "correct": "False"
     },
     {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "If you do not water a plant, it will [0], because water is a basic [1].",
+        "dropdowns": [
+            {
+                "correct": "die",
+                "options": [
+                    "run",
+                    "sing",
+                    "die"
+                ]
+            },
+            {
+                "correct": "need",
+                "options": [
+                    "toy",
+                    "need",
+                    "game"
+                ]
+            }
+        ]
+    },
+    {
         "q": "Which of these non-living complex systems exhibits 'exponential growth' of complexity similar to living systems but is purely algorithmic?",
         "type": "mcq",
         "o": [
@@ -4110,6 +5236,12 @@
         ]
     },
     {
+        "q": "Unscramble the word: Water falling from clouds that plants need.",
+        "type": "word_scramble",
+        "answer": "RAIN",
+        "decoys": "QZ"
+    },
+    {
         "q": "The use of inorganic electron donors (like hydrogen sulfide) by extremophiles to fix carbon is called ______.",
         "type": "fill_blank",
         "answers": [
@@ -4119,6 +5251,29 @@
             "photoautotrophy",
             "heterotrophy",
             "mixotrophy"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Even though a car can [0] very fast, it is [1] because it cannot breathe.",
+        "dropdowns": [
+            {
+                "correct": "move",
+                "options": [
+                    "move",
+                    "grow",
+                    "eat"
+                ]
+            },
+            {
+                "correct": "non-living",
+                "options": [
+                    "living",
+                    "non-living",
+                    "alive"
+                ]
+            }
         ]
     },
     {
