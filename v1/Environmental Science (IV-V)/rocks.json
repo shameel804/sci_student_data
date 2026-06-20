@@ -1,0 +1,6842 @@
+[
+    {
+        "q": "What is the hardness of a Diamond on the Mohs scale?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 10
+    },
+    {
+        "q": "What are rocks made of?",
+        "type": "mcq",
+        "o": [
+            "Minerals",
+            "Water",
+            "Air",
+            "Wood"
+        ]
+    },
+    {
+        "q": "Which type of rock is formed when magma or lava cools down?",
+        "type": "mcq",
+        "o": [
+            "Igneous rock",
+            "Sedimentary rock",
+            "Metamorphic rock",
+            "Fossil rock"
+        ]
+    },
+    {
+        "q": "A rock is a solid natural material made of one or more ______.",
+        "type": "fill_blank",
+        "answers": [
+            "minerals"
+        ],
+        "other_options": [
+            "metals",
+            "gases",
+            "liquids"
+        ]
+    },
+    {
+        "q": "What is the name of a scientist who studies rocks?",
+        "type": "short_answer",
+        "answers": [
+            "geologist",
+            "petrologist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the hardness of Talc, the softest mineral?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 1
+    },
+    {
+        "q": "Sandstone is an igneous rock.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match each rock type with how it is formed:",
+        "type": "match",
+        "left": [
+            "Igneous",
+            "Sedimentary",
+            "Metamorphic"
+        ],
+        "right": [
+            "Cooling of magma or lava",
+            "Piling up of sediments",
+            "Heat and pressure changing old rock"
+        ]
+    },
+    {
+        "q": "How many main categories of rocks are there?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "Which rock type is made from layers of sand, mud, and pebbles pressed together?",
+        "type": "mcq",
+        "o": [
+            "Sedimentary",
+            "Igneous",
+            "Metamorphic",
+            "Volcanic"
+        ]
+    },
+    {
+        "q": "Granite is commonly used for which purpose?",
+        "type": "mcq",
+        "o": [
+            "Kitchen countertops and buildings",
+            "Making glass windows",
+            "Writing on blackboards",
+            "Fuel for cars"
+        ]
+    },
+    {
+        "q": "What is the hardness of Quartz on the Mohs scale?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 7
+    },
+    {
+        "q": "Which property refers to the color of the powder left behind when a mineral is rubbed on a tile?",
+        "type": "mcq",
+        "o": [
+            "Streak",
+            "Luster",
+            "Hardness",
+            "Color"
+        ]
+    },
+    {
+        "q": "What is the highest possible number on the Mohs hardness scale?",
+        "type": "slider",
+        "min": 5,
+        "max": 15,
+        "correct": 10
+    },
+    {
+        "q": "Marble is a metamorphic rock formed from ______ under heat and pressure.",
+        "type": "fill_blank",
+        "answers": [
+            "limestone"
+        ],
+        "other_options": [
+            "sandstone",
+            "granite",
+            "shale"
+        ]
+    },
+    {
+        "q": "Chalk is a type of hard rock used for making statues.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which mineral is the hardest on Mohs scale?",
+        "type": "mcq",
+        "o": [
+            "Diamond",
+            "Quartz",
+            "Talc",
+            "Gypsum"
+        ]
+    },
+    {
+        "q": "What do we call the molten rock found beneath Earth's surface?",
+        "type": "short_answer",
+        "answers": [
+            "magma"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Pumice is a type of rock that can float on water because it has many ______.",
+        "type": "fill_blank",
+        "answers": [
+            "holes",
+            "pores",
+            "gas bubbles"
+        ],
+        "other_options": [
+            "crystals",
+            "layers",
+            "fossils"
+        ]
+    },
+    {
+        "q": "Which rock is formed from the remains of plants and animals?",
+        "type": "mcq",
+        "o": [
+            "Limestone",
+            "Marble",
+            "Basalt",
+            "Slate"
+        ]
+    },
+    {
+        "q": "Obsidian is a type of rock that looks like glass.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the mineral to its common use:",
+        "type": "match",
+        "left": [
+            "Quartz",
+            "Graphite",
+            "Hematite",
+            "Gypsum"
+        ],
+        "right": [
+            "Making glass and watches",
+            "Pencil lead",
+            "Extracting iron",
+            "Making plaster of Paris"
+        ]
+    },
+    {
+        "q": "How many elements make up Halite (table salt)?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "Which rock often contains fossils?",
+        "type": "mcq",
+        "o": [
+            "Sedimentary rock",
+            "Igneous rock",
+            "Metamorphic rock",
+            "Magma rock"
+        ]
+    },
+    {
+        "q": "What property describes how shiny or dull a mineral is?",
+        "type": "mcq",
+        "o": [
+            "Luster",
+            "Streak",
+            "Hardness",
+            "Cleavage"
+        ]
+    },
+    {
+        "q": "Name the type of rock formed when existing rocks are changed by extreme heat and pressure.",
+        "type": "short_answer",
+        "answers": [
+            "metamorphic",
+            "metamorphic rock"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Shale is a sedimentary rock that often breaks into very thin layers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which rock is used to make slate roofs and blackboards?",
+        "type": "mcq",
+        "o": [
+            "Slate",
+            "Granite",
+            "Marble",
+            "Sandstone"
+        ]
+    },
+    {
+        "q": "The Red Fort in India is mainly built using ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sandstone",
+            "red sandstone"
+        ],
+        "other_options": [
+            "marble",
+            "granite",
+            "limestone"
+        ]
+    },
+    {
+        "q": "Basalt is the most common igneous rock found on Earth's surface.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which term describes the way a mineral breaks along smooth, flat surfaces?",
+        "type": "mcq",
+        "o": [
+            "Cleavage",
+            "Fracture",
+            "Hardness",
+            "Luster"
+        ]
+    },
+    {
+        "q": "How many main types of weathering are there (physical and chemical)?",
+        "type": "slider",
+        "min": 1,
+        "max": 4,
+        "correct": 2
+    },
+    {
+        "q": "What metal is extracted from the mineral bauxite?",
+        "type": "mcq",
+        "o": [
+            "Aluminium",
+            "Iron",
+            "Copper",
+            "Gold"
+        ]
+    },
+    {
+        "q": "Rocks are always made of just one mineral.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the hardness of a typical human fingernail?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "The rock cycle shows how rocks change from one type to ______ over time.",
+        "type": "fill_blank",
+        "answers": [
+            "another"
+        ],
+        "other_options": [
+            "water",
+            "mineral",
+            "soil"
+        ]
+    },
+    {
+        "q": "Which rock is made from tiny grains of sand cemented together?",
+        "type": "mcq",
+        "o": [
+            "Sandstone",
+            "Granite",
+            "Marble",
+            "Obsidian"
+        ]
+    },
+    {
+        "q": "What is the name of the scale used to measure the hardness of minerals?",
+        "type": "short_answer",
+        "answers": [
+            "Mohs scale",
+            "Mohs hardness scale"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match each rock with its correct classification:",
+        "type": "match",
+        "left": [
+            "Granite",
+            "Limestone",
+            "Marble",
+            "Conglomerate",
+            "Basalt"
+        ],
+        "right": [
+            "Igneous",
+            "Sedimentary",
+            "Metamorphic",
+            "Sedimentary",
+            "Igneous"
+        ]
+    },
+    {
+        "q": "Lava is the name for magma once it reaches Earth's surface.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Talc is the softest mineral on Earth.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which rock is used to make cement and concrete?",
+        "type": "mcq",
+        "o": [
+            "Limestone",
+            "Marble",
+            "Slate",
+            "Pumice"
+        ]
+    },
+    {
+        "q": "A mineral that contains valuable metal is called an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "ore"
+        ],
+        "other_options": [
+            "crystal",
+            "gem",
+            "rock"
+        ]
+    },
+    {
+        "q": "What is the hardness of Corundum (which makes rubies and sapphires)?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 9
+    },
+    {
+        "q": "What is the name for a rock that has been changed by heat and pressure, meaning its name in Latin?",
+        "type": "short_answer",
+        "answers": [
+            "metamorphic"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a very common mineral found in sand?",
+        "type": "mcq",
+        "o": [
+            "Quartz",
+            "Diamond",
+            "Talc",
+            "Gypsum"
+        ]
+    },
+    {
+        "q": "What is the hardness of a standard glass plate on the Mohs scale?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 5
+    },
+    {
+        "q": "When magma cools slowly underground, it forms rocks with large crystals.",
+        "type": "mcq",
+        "o": [
+            "True",
+            "False"
+        ]
+    },
+    {
+        "q": "Match the use to the correct rock:",
+        "type": "match",
+        "left": [
+            "Tiles and flooring",
+            "Statues and monuments",
+            "Scrubbing and polishing"
+        ],
+        "right": [
+            "Slate",
+            "Marble",
+            "Pumice"
+        ]
+    },
+    {
+        "q": "The Taj Mahal is made of white ______.",
+        "type": "fill_blank",
+        "answers": [
+            "marble"
+        ],
+        "other_options": [
+            "granite",
+            "sandstone",
+            "quartzite"
+        ]
+    },
+    {
+        "q": "Coal is considered a rock even though it is made of plant material.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which igneous rock cools so fast that no crystals form?",
+        "type": "mcq",
+        "o": [
+            "Obsidian",
+            "Granite",
+            "Basalt",
+            "Pumice"
+        ]
+    },
+    {
+        "q": "Match the basic rock term with its simple definition.",
+        "type": "memory",
+        "pairs": {
+            "Igneous": "Made from fire or extreme heat",
+            "Sedimentary": "Made of settled layers of dirt and rock",
+            "Metamorphic": "Changed by heat and pressure",
+            "Minerals": "The building blocks of rocks"
+        }
+    },
+    {
+        "q": "What mineral is used to make pencil lead?",
+        "type": "short_answer",
+        "answers": [
+            "graphite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the mineral to its everyday use.",
+        "type": "memory",
+        "pairs": {
+            "Graphite": "Used to make pencil lead",
+            "Talc": "Used to make soft baby powder",
+            "Halite": "Used to make table salt",
+            "Quartz": "Used to make glass"
+        }
+    },
+    {
+        "q": "Fossil fuels like coal and oil are found in which type of rock?",
+        "type": "mcq",
+        "o": [
+            "Sedimentary",
+            "Igneous",
+            "Metamorphic",
+            "Volcanic"
+        ]
+    },
+    {
+        "q": "Match the parent rock to the metamorphic rock it turns into.",
+        "type": "memory",
+        "pairs": {
+            "Limestone": "Turns into Marble",
+            "Shale": "Turns into Slate",
+            "Sandstone": "Turns into Quartzite",
+            "Granite": "Turns into Gneiss"
+        }
+    },
+    {
+        "q": "Quartzite is a metamorphic rock formed from ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sandstone"
+        ],
+        "other_options": [
+            "limestone",
+            "shale",
+            "granite"
+        ]
+    },
+    {
+        "q": "What is a naturally occurring, solid, inorganic substance with a definite chemical makeup called?",
+        "type": "short_answer",
+        "answers": [
+            "mineral"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "All rocks on Earth are billions of years old.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which mineral is the main component of limestone and marble?",
+        "type": "mcq",
+        "o": [
+            "Calcite",
+            "Quartz",
+            "Feldspar",
+            "Mica"
+        ]
+    },
+    {
+        "q": "What is the process called where water, wind, or ice break down rocks?",
+        "type": "mcq",
+        "o": [
+            "Weathering",
+            "Melting",
+            "Cooling",
+            "Baking"
+        ]
+    },
+    {
+        "q": "Glass is made mostly from melting which mineral?",
+        "type": "mcq",
+        "o": [
+            "Silica (Quartz)",
+            "Calcite",
+            "Talc",
+            "Diamond"
+        ]
+    },
+    {
+        "q": "Match the term with its definition:",
+        "type": "match",
+        "left": [
+            "Erosion",
+            "Deposition",
+            "Compaction",
+            "Cementation"
+        ],
+        "right": [
+            "Moving of sediments",
+            "Dropping of sediments",
+            "Pressing sediments together",
+            "Gluing sediments with minerals"
+        ]
+    },
+    {
+        "q": "Match the famous monument to the rock used to build it.",
+        "type": "memory",
+        "pairs": {
+            "Taj Mahal": "Built with white Marble",
+            "Great Pyramids": "Built with Limestone blocks",
+            "Mount Rushmore": "Carved into solid Granite"
+        }
+    },
+    {
+        "q": "A rock that forms when magma cools slowly has ______ crystals.",
+        "type": "fill_blank",
+        "answers": [
+            "large",
+            "big"
+        ],
+        "other_options": [
+            "small",
+            "no",
+            "invisible"
+        ]
+    },
+    {
+        "q": "Which rock type is most likely to have ribbon-like layers or bands?",
+        "type": "mcq",
+        "o": [
+            "Metamorphic",
+            "Igneous",
+            "Sedimentary",
+            "Obsidian"
+        ]
+    },
+    {
+        "q": "Match the mineral to its natural color.",
+        "type": "memory",
+        "pairs": {
+            "Pyrite": "Looks like shiny gold",
+            "Hematite": "Has a reddish-brown color",
+            "Malachite": "Has a bright green color",
+            "Azurite": "Has a deep blue color"
+        }
+    },
+    {
+        "q": "Name one rock that is used for building houses.",
+        "type": "short_answer",
+        "answers": [
+            "granite",
+            "sandstone",
+            "limestone",
+            "marble",
+            "slate"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the testing tool to its hardness level.",
+        "type": "memory",
+        "pairs": {
+            "Fingernail": "Very soft testing tool",
+            "Glass Plate": "Medium hardness testing tool",
+            "Steel File": "Hard testing tool"
+        }
+    },
+    {
+        "q": "A diamond is a rock.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the rock cycle process to what it creates.",
+        "type": "memory",
+        "pairs": {
+            "Melting": "Creates hot liquid magma",
+            "Cooling": "Creates solid igneous rock",
+            "Extreme Pressure": "Creates metamorphic rock"
+        }
+    },
+    {
+        "q": "Conglomerate rock is easy to identify because it contains ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pebbles",
+            "rounded pebbles",
+            "large pebbles"
+        ],
+        "other_options": [
+            "fossils",
+            "gas holes",
+            "crystals"
+        ]
+    },
+    {
+        "q": "Gneiss is a metamorphic rock that used to be granite.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the chemical name for table salt, a mineral we eat?",
+        "type": "mcq",
+        "o": [
+            "Halite",
+            "Calcite",
+            "Quartz",
+            "Fluorite"
+        ]
+    },
+    {
+        "q": "Which rock floats on water?",
+        "type": "mcq",
+        "o": [
+            "Pumice",
+            "Marble",
+            "Slate",
+            "Sandstone"
+        ]
+    },
+    {
+        "q": "The process of breaking down rocks into smaller pieces is called weathering.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the gemstone to its beautiful color.",
+        "type": "memory",
+        "pairs": {
+            "Ruby": "Brilliant red",
+            "Sapphire": "Deep blue",
+            "Emerald": "Bright green",
+            "Amethyst": "Sparkling purple"
+        }
+    },
+    {
+        "q": "What type of rock is pumice?",
+        "type": "short_answer",
+        "answers": [
+            "igneous",
+            "igneous rock",
+            "volcanic rock"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the soil layer to its description.",
+        "type": "memory",
+        "pairs": {
+            "Topsoil": "Dark layer where plants grow best",
+            "Subsoil": "Middle layer with less organic matter",
+            "Bedrock": "Solid rock at the very bottom"
+        }
+    },
+    {
+        "q": "Match the color of streak to the mineral:",
+        "type": "match",
+        "left": [
+            "Hematite",
+            "Pyrite",
+            "Talc",
+            "Graphite"
+        ],
+        "right": [
+            "Red-brown",
+            "Greenish-black",
+            "White",
+            "Black"
+        ]
+    },
+    {
+        "q": "Sedimentary rocks often form in layers called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "strata",
+            "beds"
+        ],
+        "other_options": [
+            "veins",
+            "crystals",
+            "magma"
+        ]
+    },
+    {
+        "q": "Fossils are usually found in igneous rocks.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Copper is extracted from which ore?",
+        "type": "mcq",
+        "o": [
+            "Chalcopyrite",
+            "Bauxite",
+            "Hematite",
+            "Halite"
+        ]
+    },
+    {
+        "q": "Graphite feels greasy and is soft enough to leave a mark on paper.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which rock is used to make chalk sticks for writing on boards?",
+        "type": "mcq",
+        "o": [
+            "Chalk (limestone)",
+            "Slate",
+            "Sandstone",
+            "Graphite"
+        ]
+    },
+    {
+        "q": "Name the mineral used to make plaster for walls.",
+        "type": "short_answer",
+        "answers": [
+            "gypsum"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A geologist uses a hand lens to see tiny details in rocks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which rock is often used in its natural form as a chalkboard?",
+        "type": "mcq",
+        "o": [
+            "Slate",
+            "Marble",
+            "Limestone",
+            "Pumice"
+        ]
+    },
+    {
+        "q": "Mica is a mineral that can be peeled into thin, transparent ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sheets",
+            "flakes"
+        ],
+        "other_options": [
+            "rods",
+            "blocks",
+            "grains"
+        ]
+    },
+    {
+        "q": "What is the outermost layer of the Earth called?",
+        "type": "mcq",
+        "o": [
+            "Crust",
+            "Mantle",
+            "Core",
+            "Magma"
+        ]
+    },
+    {
+        "q": "The mineral magnetite is naturally magnetic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the weathering process to its type.",
+        "type": "memory",
+        "pairs": {
+            "Acid Rain": "Chemical weathering",
+            "Freezing Water": "Physical weathering from ice",
+            "Growing Roots": "Physical weathering from plants"
+        }
+    },
+    {
+        "q": "When lava cools quickly in water, it forms a glassy rock called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "obsidian"
+        ],
+        "other_options": [
+            "pumice",
+            "basalt",
+            "granite"
+        ]
+    },
+    {
+        "q": "Match the ore to the metal we get from it.",
+        "type": "memory",
+        "pairs": {
+            "Bauxite": "Source of Aluminum",
+            "Hematite": "Source of Iron",
+            "Cinnabar": "Source of Mercury"
+        }
+    },
+    {
+        "q": "Match the mineral to its typical crystal shape.",
+        "type": "memory",
+        "pairs": {
+            "Halite": "Forms perfect cubes",
+            "Quartz": "Forms six-sided hexagons",
+            "Mica": "Forms thin, flat sheets"
+        }
+    },
+    {
+        "q": "Rocks are classified based on how they are formed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a shiny yellow mineral often mistaken for gold?",
+        "type": "mcq",
+        "o": [
+            "Pyrite",
+            "Hematite",
+            "Quartz",
+            "Mica"
+        ]
+    },
+    {
+        "q": "What is the common name for pyrite?",
+        "type": "short_answer",
+        "answers": [
+            "fool's gold",
+            "fools gold"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Limestone is often formed from tiny shells and marine organism skeletons.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Mount Rushmore in the USA is carved into which type of rock?",
+        "type": "mcq",
+        "o": [
+            "Granite",
+            "Marble",
+            "Sandstone",
+            "Slate"
+        ]
+    },
+    {
+        "q": "Metals are extracted from rocks called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "ores"
+        ],
+        "other_options": [
+            "gems",
+            "crystals",
+            "fossils"
+        ]
+    },
+    {
+        "q": "Gold is usually found in its pure form as nuggets, not in an ore.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the rock to its grain description:",
+        "type": "match",
+        "left": [
+            "Granite",
+            "Obsidian",
+            "Sandstone",
+            "Shale"
+        ],
+        "right": [
+            "Coarse and grainy",
+            "Glassy with no grains",
+            "Sandy feeling",
+            "Smooth clay layers"
+        ]
+    },
+    {
+        "q": "Match the famous Earth feature to its rock type.",
+        "type": "memory",
+        "pairs": {
+            "Grand Canyon": "Made of sedimentary rock layers",
+            "Giant's Causeway": "Made of igneous rock columns",
+            "The Alps": "Contains many metamorphic rocks"
+        }
+    },
+    {
+        "q": "Which rock is an example of an organic sedimentary rock?",
+        "type": "mcq",
+        "o": [
+            "Coal",
+            "Conglomerate",
+            "Slate",
+            "Quartzite"
+        ]
+    },
+    {
+        "q": "Flint is a hard rock that can produce sparks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The color of a mineral's powder is called its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "streak"
+        ],
+        "other_options": [
+            "luster",
+            "shade",
+            "tint"
+        ]
+    },
+    {
+        "q": "What do we call the remains of ancient plants and animals found in rock?",
+        "type": "mcq",
+        "o": [
+            "Fossils",
+            "Minerals",
+            "Crystals",
+            "Ores"
+        ]
+    },
+    {
+        "q": "Name a rock that is smooth and often used in pool table beds.",
+        "type": "short_answer",
+        "answers": [
+            "slate"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Intrusive igneous rocks cool on the surface of the Earth.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which mineral is the primary ingredient in talcum powder?",
+        "type": "mcq",
+        "o": [
+            "Talc",
+            "Gypsum",
+            "Calcite",
+            "Quartz"
+        ]
+    },
+    {
+        "q": "A natural substance with a crystal structure is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mineral"
+        ],
+        "other_options": [
+            "rock",
+            "pebble",
+            "boulder"
+        ]
+    },
+    {
+        "q": "Which rock is best for constructing floors because it splits into flat, thin pieces?",
+        "type": "mcq",
+        "o": [
+            "Slate",
+            "Marble",
+            "Granite",
+            "Limestone"
+        ]
+    },
+    {
+        "q": "The solid rock under the soil is called the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "bedrock"
+        ],
+        "other_options": [
+            "subsoil",
+            "crust",
+            "regolith"
+        ]
+    },
+    {
+        "q": "Marble is often used by artists for making statues.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is NOT a characteristic used to identify minerals?",
+        "type": "mcq",
+        "o": [
+            "Temperature",
+            "Hardness",
+            "Luster",
+            "Streak"
+        ]
+    },
+    {
+        "q": "What is the name of the mineral that is a 10 on the Mohs hardness scale?",
+        "type": "short_answer",
+        "answers": [
+            "diamond"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Rocks melt to form magma in the Earth's mantle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the main difference between intrusive and extrusive igneous rocks?",
+        "type": "mcq",
+        "o": [
+            "Where they cool and crystal size",
+            "Their color only",
+            "Their weight only",
+            "Whether they contain fossils"
+        ]
+    },
+    {
+        "q": "Which mineral fizzes when acid is dropped on it?",
+        "type": "mcq",
+        "o": [
+            "Calcite",
+            "Quartz",
+            "Talc",
+            "Feldspar"
+        ]
+    },
+    {
+        "q": "The rock formed from compressed clay is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "shale"
+        ],
+        "other_options": [
+            "sandstone",
+            "limestone",
+            "conglomerate"
+        ]
+    },
+    {
+        "q": "What metal do we get from hematite and magnetite?",
+        "type": "short_answer",
+        "answers": [
+            "iron"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Metamorphic rocks are formed from existing rocks that are melted completely into magma first.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the mineral property to its meaning.",
+        "type": "memory",
+        "pairs": {
+            "Luster": "How it shines in the light",
+            "Streak": "The color of its powder",
+            "Cleavage": "How it breaks along flat surfaces"
+        }
+    },
+    {
+        "q": "Match the rock with its parent or original rock:",
+        "type": "match",
+        "left": [
+            "Quartzite",
+            "Slate",
+            "Marble",
+            "Gneiss"
+        ],
+        "right": [
+            "Sandstone",
+            "Shale",
+            "Limestone",
+            "Granite"
+        ]
+    },
+    {
+        "q": "Which type of rock forms when magma cools very quickly, often in water?",
+        "type": "mcq",
+        "o": [
+            "Extrusive igneous",
+            "Intrusive igneous",
+            "Sedimentary",
+            "Metamorphic"
+        ]
+    },
+    {
+        "q": "What does the word 'igneous' mean in Latin?",
+        "type": "mcq",
+        "o": [
+            "Fire",
+            "Water",
+            "Change",
+            "Layer"
+        ]
+    },
+    {
+        "q": "Which rock is commonly used to make statues because it is soft enough to carve?",
+        "type": "mcq",
+        "o": [
+            "Marble",
+            "Quartzite",
+            "Basalt",
+            "Gneiss"
+        ]
+    },
+    {
+        "q": "A mineral that is 1 on the Mohs scale is the softest and feels ______.",
+        "type": "fill_blank",
+        "answers": [
+            "greasy",
+            "soapy"
+        ],
+        "other_options": [
+            "rough",
+            "sharp",
+            "sticky"
+        ]
+    },
+    {
+        "q": "The parent rock of slate is shale.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for the appearance of broken surfaces in minerals that do not have cleavage?",
+        "type": "mcq",
+        "o": [
+            "Fracture",
+            "Cleavage",
+            "Streak",
+            "Luster"
+        ]
+    },
+    {
+        "q": "Granite mostly contains quartz, feldspar, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mica"
+        ],
+        "other_options": [
+            "calcite",
+            "diamond",
+            "halite"
+        ]
+    },
+    {
+        "q": "Name the lightweight volcanic rock used in beauty salons to remove dead skin.",
+        "type": "short_answer",
+        "answers": [
+            "pumice",
+            "pumice stone"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Weathering and erosion are the same process.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which process turns sediments into solid sedimentary rock?",
+        "type": "mcq",
+        "o": [
+            "Lithification",
+            "Crystallization",
+            "Foliation",
+            "Erosion"
+        ]
+    },
+    {
+        "q": "Match the mineral to its hardness on the Mohs scale (approximate):",
+        "type": "match",
+        "left": [
+            "Talc",
+            "Gypsum",
+            "Quartz",
+            "Diamond"
+        ],
+        "right": [
+            "1",
+            "2",
+            "7",
+            "10"
+        ]
+    },
+    {
+        "q": "Coal is formed from the remains of ______ that lived millions of years ago.",
+        "type": "fill_blank",
+        "answers": [
+            "plants",
+            "trees",
+            "vegetation"
+        ],
+        "other_options": [
+            "dinosaurs",
+            "fish",
+            "shells"
+        ]
+    },
+    {
+        "q": "Match the mineral to its everyday helpful use.",
+        "type": "memory",
+        "pairs": {
+            "Fluorite": "Helps keep teeth healthy in toothpaste",
+            "Copper": "Carries electricity in wires",
+            "Gypsum": "Used to make drywall for houses"
+        }
+    },
+    {
+        "q": "Which of these is NOT an igneous rock?",
+        "type": "odd_one_out",
+        "options": [
+            "Granite",
+            "Basalt",
+            "Obsidian",
+            "Pumice",
+            "Limestone"
+        ],
+        "correct": "Limestone"
+    },
+    {
+        "q": "Lava cools slower than magma underground.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which type of rock contains interlocking crystals if it cooled slowly?",
+        "type": "mcq",
+        "o": [
+            "Intrusive igneous",
+            "Extrusive igneous",
+            "Clastic sedimentary",
+            "Foliated metamorphic"
+        ]
+    },
+    {
+        "q": "What is the shiny, metallic luster mineral known as black gold or bubbly tar look?",
+        "type": "mcq",
+        "o": [
+            "Bitumen",
+            "Pyrite",
+            "Graphite",
+            "Magnetite"
+        ]
+    },
+    {
+        "q": "A rock containing a metal or useful mineral that can be mined for profit is called an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "ore"
+        ],
+        "other_options": [
+            "gem",
+            "crystal",
+            "alloy"
+        ]
+    },
+    {
+        "q": "Name the dark-colored igneous rock that makes up most of the ocean floor.",
+        "type": "short_answer",
+        "answers": [
+            "basalt"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Concrete is a naturally occurring rock.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which rock is known as 'black gold' and is a source of energy?",
+        "type": "mcq",
+        "o": [
+            "Petroleum (Oil)",
+            "Granite",
+            "Pumice",
+            "Marble"
+        ]
+    },
+    {
+        "q": "The heat that changes rocks into metamorphic rocks comes from magma and the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "earth's core",
+            "core",
+            "earth's interior"
+        ],
+        "other_options": [
+            "sun",
+            "wind",
+            "ocean"
+        ]
+    },
+    {
+        "q": "Which of these minerals is used to make jewelry?",
+        "type": "mcq",
+        "o": [
+            "Ruby",
+            "Gypsum",
+            "Halite",
+            "Feldspar"
+        ]
+    },
+    {
+        "q": "Match the rock property with its description:",
+        "type": "match",
+        "left": [
+            "Permeable",
+            "Impermeable",
+            "Durable",
+            "Soft"
+        ],
+        "right": [
+            "Allows water to pass through",
+            "Does not allow water through",
+            "Hard-wearing and long-lasting",
+            "Easily scratched"
+        ]
+    },
+    {
+        "q": "Sandstone is permeable, meaning water can soak through it.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a sedimentary rock?",
+        "type": "odd_one_out",
+        "options": [
+            "Sandstone",
+            "Shale",
+            "Conglomerate",
+            "Limestone",
+            "Marble"
+        ],
+        "correct": "Marble"
+    },
+    {
+        "q": "Which mineral is a 5 on the Mohs scale and often cannot be scratched by a fingernail?",
+        "type": "mcq",
+        "o": [
+            "Apatite",
+            "Calcite",
+            "Talc",
+            "Gypsum"
+        ]
+    },
+    {
+        "q": "What type of luster does quartz have?",
+        "type": "mcq",
+        "o": [
+            "Glassy/Vitreous",
+            "Metallic",
+            "Pearly",
+            "Dull"
+        ]
+    },
+    {
+        "q": "Rocks that bend or fold due to extreme pressure form ______ rocks.",
+        "type": "fill_blank",
+        "answers": [
+            "metamorphic"
+        ],
+        "other_options": [
+            "igneous",
+            "sedimentary",
+            "volcanic"
+        ]
+    },
+    {
+        "q": "Diamonds are formed under high temperature and pressure deep in the Earth's mantle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name of the metallic mineral that is the main source of lead?",
+        "type": "mcq",
+        "o": [
+            "Galena",
+            "Bauxite",
+            "Pyrite",
+            "Magnetite"
+        ]
+    },
+    {
+        "q": "Name the rock that is black, glassy, and has no crystals.",
+        "type": "short_answer",
+        "answers": [
+            "obsidian"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of sedimentary rock is made of pebbles cemented together?",
+        "type": "mcq",
+        "o": [
+            "Conglomerate",
+            "Shale",
+            "Sandstone",
+            "Limestone"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a metamorphic rock?",
+        "type": "odd_one_out",
+        "options": [
+            "Slate",
+            "Gneiss",
+            "Schist",
+            "Marble",
+            "Pumice"
+        ],
+        "correct": "Pumice"
+    },
+    {
+        "q": "The Taj Mahal is made of metamorphic rock.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is NOT a mineral used to make jewelry?",
+        "type": "odd_one_out",
+        "options": [
+            "Diamond",
+            "Ruby",
+            "Emerald",
+            "Gold",
+            "Coal"
+        ],
+        "correct": "Coal"
+    },
+    {
+        "q": "Galena has a high specific gravity, meaning it feels ______ for its size.",
+        "type": "fill_blank",
+        "answers": [
+            "heavy",
+            "dense"
+        ],
+        "other_options": [
+            "light",
+            "rough",
+            "cold"
+        ]
+    },
+    {
+        "q": "Match the fossil fuel to its physical state:",
+        "type": "match",
+        "left": [
+            "Coal",
+            "Oil",
+            "Natural Gas"
+        ],
+        "right": [
+            "Solid",
+            "Liquid",
+            "Gas"
+        ]
+    },
+    {
+        "q": "Which rock is the most abundant sedimentary rock on Earth?",
+        "type": "mcq",
+        "o": [
+            "Shale",
+            "Sandstone",
+            "Limestone",
+            "Coal"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a use for graphite?",
+        "type": "odd_one_out",
+        "options": [
+            "Pencils",
+            "Lubricants",
+            "Batteries",
+            "Windows"
+        ],
+        "correct": "Windows"
+    },
+    {
+        "q": "What is the term for the shape, size, and arrangement of grains in a rock?",
+        "type": "mcq",
+        "o": [
+            "Texture",
+            "Structure",
+            "Luster",
+            "Cleavage"
+        ]
+    },
+    {
+        "q": "The mineral used in toothpaste to prevent cavities is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "fluorite"
+        ],
+        "other_options": [
+            "calcite",
+            "quartz",
+            "gypsum"
+        ]
+    },
+    {
+        "q": "How does a conglomerate rock feel when you touch it?",
+        "type": "short_answer",
+        "answers": [
+            "rough",
+            "bumpy"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "All igneous rocks contain visible crystals.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a non-clastic sedimentary rock?",
+        "type": "mcq",
+        "o": [
+            "Limestone",
+            "Conglomerate",
+            "Sandstone",
+            "Shale"
+        ]
+    },
+    {
+        "q": "Marble is more resistant to acid rain than granite.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "The shiny flakes inside granite are usually the mineral ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mica",
+            "biotite",
+            "muscovite"
+        ],
+        "other_options": [
+            "quartz",
+            "feldspar",
+            "calcite"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a property used to identify minerals?",
+        "type": "odd_one_out",
+        "options": [
+            "Streak",
+            "Luster",
+            "Hardness",
+            "Cleavage",
+            "Size"
+        ],
+        "correct": "Size"
+    },
+    {
+        "q": "Match the gemstone to its color:",
+        "type": "match",
+        "left": [
+            "Ruby",
+            "Sapphire",
+            "Emerald",
+            "Amethyst"
+        ],
+        "right": [
+            "Red",
+            "Blue",
+            "Green",
+            "Purple"
+        ]
+    },
+    {
+        "q": "What is molten rock beneath the Earth's surface called?",
+        "type": "mcq",
+        "o": [
+            "Magma",
+            "Lava",
+            "Ash",
+            "Cinders"
+        ]
+    },
+    {
+        "q": "Extrusive rocks have large crystals because they cool slowly.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which mineral is the primary ore of aluminium?",
+        "type": "mcq",
+        "o": [
+            "Bauxite",
+            "Hematite",
+            "Galena",
+            "Chalcopyrite"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a cause of rock weathering?",
+        "type": "odd_one_out",
+        "options": [
+            "Wind",
+            "Water",
+            "Ice",
+            "Plant roots",
+            "Magma"
+        ],
+        "correct": "Magma"
+    },
+    {
+        "q": "Chalk, coquina, and fossiliferous limestone are examples of ______ sedimentary rocks.",
+        "type": "fill_blank",
+        "answers": [
+            "organic",
+            "biochemical"
+        ],
+        "other_options": [
+            "clastic",
+            "chemical",
+            "igneous"
+        ]
+    },
+    {
+        "q": "Name the rock that results from the metamorphism of sandstone.",
+        "type": "short_answer",
+        "answers": [
+            "quartzite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The term 'metamorphic' means 'change of form'.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a chemical sedimentary rock?",
+        "type": "mcq",
+        "o": [
+            "Rock salt",
+            "Sandstone",
+            "Conglomerate",
+            "Shale"
+        ]
+    },
+    {
+        "q": "Rocks made from broken pieces of other rocks are called ______ sedimentary rocks.",
+        "type": "fill_blank",
+        "answers": [
+            "clastic"
+        ],
+        "other_options": [
+            "chemical",
+            "organic",
+            "foliated"
+        ]
+    },
+    {
+        "q": "A streak plate is usually made of unglazed ______.",
+        "type": "fill_blank",
+        "answers": [
+            "porcelain"
+        ],
+        "other_options": [
+            "glass",
+            "metal",
+            "plastic"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a fossil fuel?",
+        "type": "odd_one_out",
+        "options": [
+            "Coal",
+            "Oil",
+            "Natural Gas",
+            "Quartz"
+        ],
+        "correct": "Quartz"
+    },
+    {
+        "q": "What is the most common mineral in Earth's crust?",
+        "type": "mcq",
+        "o": [
+            "Feldspar",
+            "Quartz",
+            "Mica",
+            "Calcite"
+        ]
+    },
+    {
+        "q": "Match the building material to the rock/mineral it comes from:",
+        "type": "match",
+        "left": [
+            "Glass",
+            "Cement",
+            "Plaster",
+            "Bricks"
+        ],
+        "right": [
+            "Silica sand (Quartz)",
+            "Limestone",
+            "Gypsum",
+            "Clay"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a rock created by volcanoes?",
+        "type": "odd_one_out",
+        "options": [
+            "Basalt",
+            "Pumice",
+            "Obsidian",
+            "Slate"
+        ],
+        "correct": "Slate"
+    },
+    {
+        "q": "Basalt cools slowly inside the Earth.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which rock is the main ingredient for making glass?",
+        "type": "mcq",
+        "o": [
+            "Quartzite/Sandstone",
+            "Marble",
+            "Slate",
+            "Pumice"
+        ]
+    },
+    {
+        "q": "What is the term for rocks that let water pass through them?",
+        "type": "short_answer",
+        "answers": [
+            "permeable",
+            "porous"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Foliation is a property often seen in metamorphic rocks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which rock is known for its red color and is used in the Red Fort?",
+        "type": "mcq",
+        "o": [
+            "Red Sandstone",
+            "Red Marble",
+            "Red Granite",
+            "Red Slate"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a mineral commonly used in building houses?",
+        "type": "odd_one_out",
+        "options": [
+            "Gypsum",
+            "Quartz",
+            "Calcite",
+            "Marble",
+            "Talc"
+        ],
+        "correct": "Talc"
+    },
+    {
+        "q": "The soft mineral gypsum is used to make wallboard and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "plaster"
+        ],
+        "other_options": [
+            "pencils",
+            "glass",
+            "jewelry"
+        ]
+    },
+    {
+        "q": "What is the color of the streak left by hematite?",
+        "type": "mcq",
+        "o": [
+            "Red-brown",
+            "Black",
+            "White",
+            "Green"
+        ]
+    },
+    {
+        "q": "Name the rock commonly used for kitchen countertops because it is hard and polishes well.",
+        "type": "short_answer",
+        "answers": [
+            "granite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The mineral quartz is harder than glass.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the rock type to the environment it forms in:",
+        "type": "match",
+        "left": [
+            "Igneous (Extrusive)",
+            "Sedimentary",
+            "Metamorphic (Regional)"
+        ],
+        "right": [
+            "On the surface (volcanoes)",
+            "Underwater (oceans/lakes)",
+            "Deep underground (mountain building)"
+        ]
+    },
+    {
+        "q": "Which process uses gravity, water, and wind to move rocks?",
+        "type": "mcq",
+        "o": [
+            "Erosion",
+            "Deposition",
+            "Compaction",
+            "Cementation"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for melted rock inside the Earth, LEFT for melted rock outside.",
+        "type": "swipe_cards",
+        "left_label": "Outside",
+        "right_label": "Inside",
+        "cards": {
+            "Magma": "right",
+            "Lava": "left",
+            "Mantle": "right",
+            "Volcano surface": "left"
+        }
+    },
+    {
+        "q": "Minerals have a definite ______ structure.",
+        "type": "fill_blank",
+        "answers": [
+            "crystal",
+            "crystalline"
+        ],
+        "other_options": [
+            "rocky",
+            "smooth",
+            "liquid"
+        ]
+    },
+    {
+        "q": "Kyanite is a mineral that has two different hardness levels.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which mineral looks like gold but is brittle and worthless?",
+        "type": "mcq",
+        "o": [
+            "Pyrite",
+            "Galena",
+            "Hematite",
+            "Magnetite"
+        ]
+    },
+    {
+        "q": "What is the dense, glassy, extrusive rock formed from lava?",
+        "type": "mcq",
+        "o": [
+            "Obsidian",
+            "Pumice",
+            "Granite",
+            "Gabbro"
+        ]
+    },
+    {
+        "q": "Petroleum, or crude oil, is found trapped in pores of ______ rock.",
+        "type": "fill_blank",
+        "answers": [
+            "sedimentary"
+        ],
+        "other_options": [
+            "igneous",
+            "metamorphic",
+            "volcanic"
+        ]
+    },
+    {
+        "q": "What is the name of the molten rock that erupts from a volcano?",
+        "type": "short_answer",
+        "answers": [
+            "lava"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Sandstone feels rough, like sandpaper.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following rocks is NOT sedimentary?",
+        "type": "mcq",
+        "o": [
+            "Granite",
+            "Chalk",
+            "Coal",
+            "Rock salt"
+        ]
+    },
+    {
+        "q": "Limestone reacts with acid because it contains calcium ______.",
+        "type": "fill_blank",
+        "answers": [
+            "carbonate"
+        ],
+        "other_options": [
+            "oxide",
+            "silicate",
+            "sulfate"
+        ]
+    },
+    {
+        "q": "Match the rock with its typical color:",
+        "type": "match",
+        "left": [
+            "Granite",
+            "Slate",
+            "Sandstone",
+            "Marble"
+        ],
+        "right": [
+            "Speckled grey/pink",
+            "Dark grey/black",
+            "Yellow/brown/red",
+            "White with streaks"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Igneous rock features, LEFT for Sedimentary rock features.",
+        "type": "swipe_cards",
+        "left_label": "Sedimentary",
+        "right_label": "Igneous",
+        "cards": {
+            "Visible crystals": "right",
+            "Contains fossils": "left",
+            "Made from lava": "right",
+            "Made of sand layers": "left"
+        }
+    },
+    {
+        "q": "Swipe RIGHT for Metallic luster, LEFT for Non-metallic luster.",
+        "type": "swipe_cards",
+        "left_label": "Non-metallic",
+        "right_label": "Metallic",
+        "cards": {
+            "Looks like shiny foil": "right",
+            "Looks like dull dirt": "left",
+            "Looks like a steel pan": "right",
+            "Looks like clear glass": "left"
+        }
+    },
+    {
+        "q": "All minerals are solids at room temperature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Weathering, LEFT for Erosion.",
+        "type": "swipe_cards",
+        "left_label": "Erosion",
+        "right_label": "Weathering",
+        "cards": {
+            "Breaking rocks apart": "right",
+            "Moving sand down a river": "left",
+            "Cracking from ice": "right",
+            "Wind blowing dirt away": "left"
+        }
+    },
+    {
+        "q": "Which rock floats on water?",
+        "type": "mcq",
+        "o": [
+            "Pumice",
+            "Basalt",
+            "Marble",
+            "Shale"
+        ]
+    },
+    {
+        "q": "The hardness test measures a mineral's resistance to being ______.",
+        "type": "fill_blank",
+        "answers": [
+            "scratched"
+        ],
+        "other_options": [
+            "broken",
+            "bent",
+            "melted"
+        ]
+    },
+    {
+        "q": "Name an example of an igneous rock that has large crystals.",
+        "type": "short_answer",
+        "answers": [
+            "granite",
+            "diorite",
+            "gabbro"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for Minerals, LEFT for Rocks.",
+        "type": "swipe_cards",
+        "left_label": "Rocks",
+        "right_label": "Minerals",
+        "cards": {
+            "Pure, single substance": "right",
+            "Mixture of many things": "left",
+            "Quartz": "right",
+            "Granite": "left"
+        }
+    },
+    {
+        "q": "Swipe RIGHT for Cleavage, LEFT for Fracture.",
+        "type": "swipe_cards",
+        "left_label": "Fracture",
+        "right_label": "Cleavage",
+        "cards": {
+            "Breaks into smooth, flat sheets": "right",
+            "Breaks into jagged, rough pieces": "left",
+            "Perfect cubes of salt": "right",
+            "Chipped, curved edges of glass": "left"
+        }
+    },
+    {
+        "q": "Apatite is the mineral that makes up your teeth and bones.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which term describes rocks that contain parallel layers of flat minerals?",
+        "type": "mcq",
+        "o": [
+            "Foliated",
+            "Non-foliated",
+            "Clastic",
+            "Vesicular"
+        ]
+    },
+    {
+        "q": "What gemstone is a green variety of the mineral beryl?",
+        "type": "mcq",
+        "o": [
+            "Emerald",
+            "Ruby",
+            "Sapphire",
+            "Topaz"
+        ]
+    },
+    {
+        "q": "Rocks that do not let water pass through are called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "impermeable",
+            "waterproof"
+        ],
+        "other_options": [
+            "porous",
+            "permeable",
+            "soft"
+        ]
+    },
+    {
+        "q": "Coal and petroleum are known as fossil fuels.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Intrusive rocks, LEFT for Extrusive rocks.",
+        "type": "swipe_cards",
+        "left_label": "Extrusive",
+        "right_label": "Intrusive",
+        "cards": {
+            "Cools slowly inside Earth": "right",
+            "Cools quickly outside Earth": "left",
+            "Has large crystals": "right",
+            "Has tiny or no crystals": "left"
+        }
+    },
+    {
+        "q": "What is the softest mineral on the Mohs scale?",
+        "type": "mcq",
+        "o": [
+            "Talc",
+            "Gypsum",
+            "Calcite",
+            "Fluorite"
+        ]
+    },
+    {
+        "q": "Khetri mines in Rajasthan are famous for which metal ore?",
+        "type": "mcq",
+        "o": [
+            "Copper",
+            "Iron",
+            "Gold",
+            "Aluminium"
+        ]
+    },
+    {
+        "q": "Slate is used for roofing because it has excellent ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cleavage",
+            "splitting property"
+        ],
+        "other_options": [
+            "hardness",
+            "color",
+            "weight"
+        ]
+    },
+    {
+        "q": "What is the name of the scale from 1 to 10 that ranks mineral hardness?",
+        "type": "short_answer",
+        "answers": [
+            "Mohs scale",
+            "mohs hardness scale"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for Renewable resources, LEFT for Non-renewable resources.",
+        "type": "swipe_cards",
+        "left_label": "Non-renewable",
+        "right_label": "Renewable",
+        "cards": {
+            "Sunlight": "right",
+            "Wind": "right",
+            "Coal": "left",
+            "Gold ore": "left"
+        }
+    },
+    {
+        "q": "You can identify a mineral by just looking at its color.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which rock is formed from the mineral halite?",
+        "type": "mcq",
+        "o": [
+            "Rock Salt",
+            "Limestone",
+            "Coal",
+            "Chalk"
+        ]
+    },
+    {
+        "q": "Match the igneous rock with its cooling environment:",
+        "type": "match",
+        "left": [
+            "Gabbro",
+            "Rhyolite",
+            "Diorite"
+        ],
+        "right": [
+            "Intrusive",
+            "Extrusive",
+            "Intrusive"
+        ]
+    },
+    {
+        "q": "Compact limestone that can take a polish is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "marble"
+        ],
+        "other_options": [
+            "slate",
+            "quartzite",
+            "gneiss"
+        ]
+    },
+    {
+        "q": "Pressure from above layers compacts sediments.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which rock is a major source of aluminium ore?",
+        "type": "mcq",
+        "o": [
+            "Bauxite",
+            "Magnetite",
+            "Pyrite",
+            "Galena"
+        ]
+    },
+    {
+        "q": "What is the main difference between conglomerate and breccia?",
+        "type": "mcq",
+        "o": [
+            "Conglomerate has rounded clasts; breccia has angular clasts",
+            "Conglomerate is igneous; breccia is sedimentary",
+            "Conglomerate has fossils; breccia does not",
+            "Conglomerate is older than breccia"
+        ]
+    },
+    {
+        "q": "Name the mineral that is a 2 on the Mohs scale and can be scratched by a fingernail.",
+        "type": "short_answer",
+        "answers": [
+            "gypsum"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Rocks do not contain any organic material.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Swipe RIGHT for facts about Diamond, LEFT for facts about Graphite.",
+        "type": "swipe_cards",
+        "left_label": "Graphite",
+        "right_label": "Diamond",
+        "cards": {
+            "Hardest mineral": "right",
+            "Softest mineral": "left",
+            "Used in jewelry": "right",
+            "Used in pencils": "left"
+        }
+    },
+    {
+        "q": "Which type of igneous rock has a composition between felsic and mafic?",
+        "type": "mcq",
+        "o": [
+            "Intermediate igneous rock",
+            "Felsic igneous rock",
+            "Mafic igneous rock",
+            "Ultramafic igneous rock"
+        ]
+    },
+    {
+        "q": "What property of a mineral describes its ability to resist being scratched?",
+        "type": "mcq",
+        "o": [
+            "Hardness",
+            "Tenacity",
+            "Cleavage",
+            "Fracture"
+        ]
+    },
+    {
+        "q": "Sedimentary rock formed when dissolved minerals precipitate out of water is called ______ sedimentary rock.",
+        "type": "fill_blank",
+        "answers": [
+            "chemical"
+        ],
+        "other_options": [
+            "clastic",
+            "organic",
+            "foliated"
+        ]
+    },
+    {
+        "q": "Which mineral is an ore of zinc and often forms tetrahedron-shaped crystals?",
+        "type": "short_answer",
+        "answers": [
+            "sphalerite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Regional metamorphism affects large areas due to mountain building.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the metamorphic rock with its metamorphic grade:",
+        "type": "match",
+        "left": [
+            "Slate",
+            "Phyllite",
+            "Schist",
+            "Gneiss"
+        ],
+        "right": [
+            "Low grade",
+            "Low-medium grade",
+            "Medium-high grade",
+            "High grade"
+        ]
+    },
+    {
+        "q": "What is the name for the texture in metamorphic rocks where mineral grains are aligned in bands?",
+        "type": "mcq",
+        "o": [
+            "Foliation",
+            "Stratification",
+            "Vesicular texture",
+            "Porphyritic texture"
+        ]
+    },
+    {
+        "q": "Which mineral is a member of the mica family and has perfect cleavage in one direction?",
+        "type": "mcq",
+        "o": [
+            "Biotite",
+            "Quartz",
+            "Feldspar",
+            "Olivine"
+        ]
+    },
+    {
+        "q": "Rocks that form from the cooling of magma below the surface are called ______ or plutonic rocks.",
+        "type": "fill_blank",
+        "answers": [
+            "intrusive"
+        ],
+        "other_options": [
+            "extrusive",
+            "volcanic",
+            "sedimentary"
+        ]
+    },
+    {
+        "q": "Name the process where sediments are glued together by minerals dissolved in water.",
+        "type": "short_answer",
+        "answers": [
+            "cementation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The mineral corundum has a hardness of 9 and includes sapphires and rubies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which rock cycle process involves sediments settling out of a transporting medium?",
+        "type": "mcq",
+        "o": [
+            "Deposition",
+            "Erosion",
+            "Weathering",
+            "Uplift"
+        ]
+    },
+    {
+        "q": "Which of the following is a non-foliated metamorphic rock?",
+        "type": "mcq",
+        "o": [
+            "Hornfels",
+            "Schist",
+            "Phyllite",
+            "Slate"
+        ]
+    },
+    {
+        "q": "Match the crystal system to its axes description:",
+        "type": "match",
+        "left": [
+            "Cubic",
+            "Tetragonal",
+            "Hexagonal",
+            "Orthorhombic"
+        ],
+        "right": [
+            "Three equal axes at 90 degrees",
+            "Three axes, two equal, all 90 degrees",
+            "Four axes, three equal in one plane",
+            "Three unequal axes at 90 degrees"
+        ]
+    },
+    {
+        "q": "What is the specific gravity of a mineral used to measure?",
+        "type": "mcq",
+        "o": [
+            "Density relative to water",
+            "Hardness relative to diamond",
+            "Color intensity",
+            "Magnetic strength"
+        ]
+    },
+    {
+        "q": "A porphyritic texture in an igneous rock indicates two stages of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cooling"
+        ],
+        "other_options": [
+            "melting",
+            "erosion",
+            "deposition"
+        ]
+    },
+    {
+        "q": "Diorite is the intrusive equivalent of which extrusive rock?",
+        "type": "mcq",
+        "o": [
+            "Andesite",
+            "Basalt",
+            "Rhyolite",
+            "Komatiite"
+        ]
+    },
+    {
+        "q": "Gabbro has a higher silica content than granite.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What economic mineral is the primary source of titanium?",
+        "type": "short_answer",
+        "answers": [
+            "ilmenite",
+            "rutile"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for Halite uses, LEFT for Gypsum uses.",
+        "type": "swipe_cards",
+        "left_label": "Gypsum",
+        "right_label": "Halite",
+        "cards": {
+            "Flavoring food": "right",
+            "Building walls": "left",
+            "Melting ice on roads": "right",
+            "Making plaster casts": "left"
+        }
+    },
+    {
+        "q": "Which sedimentary structure indicates the direction of water or wind flow?",
+        "type": "mcq",
+        "o": [
+            "Cross-bedding",
+            "Mud cracks",
+            "Concretions",
+            "Stromatolites"
+        ]
+    },
+    {
+        "q": "Contact metamorphism occurs when rocks are heated by nearby ______.",
+        "type": "fill_blank",
+        "answers": [
+            "magma",
+            "intrusion",
+            "pluton"
+        ],
+        "other_options": [
+            "glacier",
+            "river",
+            "wind"
+        ]
+    },
+    {
+        "q": "The mineral olivine weathers very quickly at the Earth's surface.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which type of chemical bonding is common in the mineral halite?",
+        "type": "mcq",
+        "o": [
+            "Ionic bonding",
+            "Covalent bonding",
+            "Metallic bonding",
+            "Van der Waals bonding"
+        ]
+    },
+    {
+        "q": "Match the rock to its dominant mineral composition:",
+        "type": "match",
+        "left": [
+            "Dunite",
+            "Anorthosite",
+            "Granite",
+            "Carbonatite"
+        ],
+        "right": [
+            "Olivine",
+            "Plagioclase feldspar",
+            "Quartz and alkali feldspar",
+            "Calcite or dolomite"
+        ]
+    },
+    {
+        "q": "What term describes the shape and arrangement of mineral grains in a rock?",
+        "type": "mcq",
+        "o": [
+            "Texture",
+            "Composition",
+            "Grade",
+            "Facies"
+        ]
+    },
+    {
+        "q": "A rock that contains vesicular texture forms from lava rich in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "gas",
+            "volatiles",
+            "bubbles"
+        ],
+        "other_options": [
+            "crystals",
+            "iron",
+            "silica"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Topsoil, LEFT for Bedrock.",
+        "type": "swipe_cards",
+        "left_label": "Bedrock",
+        "right_label": "Topsoil",
+        "cards": {
+            "Full of organic matter": "right",
+            "Solid, unbroken rock": "left",
+            "Worms live here": "right",
+            "Deepest layer": "left"
+        }
+    },
+    {
+        "q": "Name the extrusive igneous rock that has the same composition as granite.",
+        "type": "short_answer",
+        "answers": [
+            "rhyolite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The asthenosphere is a rigid layer of the upper mantle.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which law of stratigraphy states that older layers are below younger layers?",
+        "type": "mcq",
+        "o": [
+            "Law of Superposition",
+            "Law of Cross-cutting",
+            "Law of Inclusions",
+            "Law of Faunal Succession"
+        ]
+    },
+    {
+        "q": "The conversion of limestone to marble is an example of ______ metamorphism.",
+        "type": "fill_blank",
+        "answers": [
+            "contact",
+            "thermal"
+        ],
+        "other_options": [
+            "regional",
+            "dynamic",
+            "burial"
+        ]
+    },
+    {
+        "q": "Which mineral is fluorescent under ultraviolet light?",
+        "type": "mcq",
+        "o": [
+            "Fluorite",
+            "Halite",
+            "Quartz",
+            "Pyrite"
+        ]
+    },
+    {
+        "q": "Volcanic glass such as obsidian has a crystalline structure.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the sedimentary environment to the typical rock formed:",
+        "type": "match",
+        "left": [
+            "Deep marine",
+            "Desert dune",
+            "Swamp",
+            "Reef"
+        ],
+        "right": [
+            "Chert/Shale",
+            "Cross-bedded sandstone",
+            "Coal",
+            "Limestone"
+        ]
+    },
+    {
+        "q": "What is the name for the layering in sedimentary rocks?",
+        "type": "mcq",
+        "o": [
+            "Bedding",
+            "Foliation",
+            "Banding",
+            "Cleavage"
+        ]
+    },
+    {
+        "q": "Bowen's Reaction Series describes the order in which minerals ______ from cooling magma.",
+        "type": "fill_blank",
+        "answers": [
+            "crystallize"
+        ],
+        "other_options": [
+            "melt",
+            "dissolve",
+            "evaporate"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for minerals found in our food, LEFT for minerals NOT in food.",
+        "type": "swipe_cards",
+        "left_label": "Not in Food",
+        "right_label": "In Food",
+        "cards": {
+            "Calcium for strong bones": "right",
+            "Iron for healthy blood": "right",
+            "Gold for shiny rings": "left",
+            "Silver for making coins": "left"
+        }
+    },
+    {
+        "q": "A high-grade metamorphic rock that shows distinct banding of light and dark minerals is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "gneiss"
+        ],
+        "other_options": [
+            "schist",
+            "slate",
+            "phyllite"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Stalactites, LEFT for Stalagmites.",
+        "type": "swipe_cards",
+        "left_label": "Stalagmites",
+        "right_label": "Stalactites",
+        "cards": {
+            "Hang from the cave ceiling": "right",
+            "Grow from the cave ground": "left",
+            "Hold on tight to the roof": "right",
+            "Might reach the top someday": "left"
+        }
+    },
+    {
+        "q": "What is the mineral group that contains the carbonate ion (CO3) and fizzes in acid?",
+        "type": "mcq",
+        "o": [
+            "Carbonates",
+            "Silicates",
+            "Oxides",
+            "Sulfates"
+        ]
+    },
+    {
+        "q": "Name an ultramafic igneous rock found in the mantle.",
+        "type": "short_answer",
+        "answers": [
+            "peridotite",
+            "dunite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The color of a mineral in powdered form is always identical to the color of the hand sample.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which mineral is essential for the manufacture of computer chips?",
+        "type": "mcq",
+        "o": [
+            "Silicon (Quartz)",
+            "Copper",
+            "Gold",
+            "Graphite"
+        ]
+    },
+    {
+        "q": "Feldspar weathers chemically to form the clay mineral ______.",
+        "type": "fill_blank",
+        "answers": [
+            "kaolinite",
+            "kaolin"
+        ],
+        "other_options": [
+            "calcite",
+            "quartz",
+            "halite"
+        ]
+    },
+    {
+        "q": "Match the silica content to the magma type:",
+        "type": "match",
+        "left": [
+            "Felsic",
+            "Intermediate",
+            "Mafic",
+            "Ultramafic"
+        ],
+        "right": [
+            "High silica (>65%)",
+            "Moderate silica (55-65%)",
+            "Low silica (45-55%)",
+            "Very low silica (<45%)"
+        ]
+    },
+    {
+        "q": "Schist is a metamorphic rock characterized by a high content of which mineral?",
+        "type": "mcq",
+        "o": [
+            "Mica",
+            "Calcite",
+            "Quartz",
+            "Feldspar"
+        ]
+    },
+    {
+        "q": "The principle of uniformitarianism states that the present is the key to the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "past"
+        ],
+        "other_options": [
+            "future",
+            "unknown",
+            "center"
+        ]
+    },
+    {
+        "q": "Graphite and diamond are polymorphs because they have the same chemical composition but different structures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Sedimentary clues, LEFT for Igneous clues.",
+        "type": "swipe_cards",
+        "left_label": "Igneous",
+        "right_label": "Sedimentary",
+        "cards": {
+            "Contains ancient fossils": "right",
+            "Looks glassy like obsidian": "left",
+            "Has distinct striped layers": "right",
+            "Has gas bubbles from lava": "left"
+        }
+    },
+    {
+        "q": "Which of the following is an example of dynamic metamorphism?",
+        "type": "mcq",
+        "o": [
+            "Mylonite formation along fault zones",
+            "Marble formation near a pluton",
+            "Slate formation in a subduction zone",
+            "Hornfels formation in an aureole"
+        ]
+    },
+    {
+        "q": "What is the term for a tabular intrusive igneous body that cuts across rock layers?",
+        "type": "mcq",
+        "o": [
+            "Dike",
+            "Sill",
+            "Laccolith",
+            "Batholith"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Precious stones, LEFT for Base metals.",
+        "type": "swipe_cards",
+        "left_label": "Base Metals",
+        "right_label": "Precious Stones",
+        "cards": {
+            "Sparkling diamond": "right",
+            "Red ruby": "right",
+            "Heavy iron": "left",
+            "Useful copper": "left"
+        }
+    },
+    {
+        "q": "Name the process where rocks are dissolved by acidic water, common in limestone areas.",
+        "type": "short_answer",
+        "answers": [
+            "chemical weathering",
+            "carbonation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: Melted rock that is still under the ground.",
+        "type": "word_scramble",
+        "answer": "MAGMA",
+        "decoys": "XQZ"
+    },
+    {
+        "q": "Mud cracks in sedimentary rock indicate a dry environment that was once wet.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which rare igneous rock is composed almost entirely of pyroxene and olivine?",
+        "type": "mcq",
+        "o": [
+            "Pyroxenite",
+            "Anorthosite",
+            "Carbonatite",
+            "Komatite"
+        ]
+    },
+    {
+        "q": "Amethyst is a purple variety of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "quartz"
+        ],
+        "other_options": [
+            "corundum",
+            "beryl",
+            "topaz"
+        ]
+    },
+    {
+        "q": "Match the ore mineral to the metal extracted:",
+        "type": "match",
+        "left": [
+            "Cassiterite",
+            "Wolframite",
+            "Sphalerite",
+            "Malachite"
+        ],
+        "right": [
+            "Tin",
+            "Tungsten",
+            "Zinc",
+            "Copper"
+        ]
+    },
+    {
+        "q": "The specific gravity of galena is relatively high, around 7.5.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which agent of metamorphism is responsible for creating foliation?",
+        "type": "mcq",
+        "o": [
+            "Directed pressure",
+            "Heat only",
+            "Hydrothermal fluids",
+            "Confining pressure"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The remains of an ancient plant or animal found in rock.",
+        "type": "word_scramble",
+        "answer": "FOSSIL",
+        "decoys": "KJW"
+    },
+    {
+        "q": "What is the name of the fine-grained, glassy groundmass in a porphyritic rock?",
+        "type": "short_answer",
+        "answers": [
+            "matrix",
+            "groundmass"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Chert is a sedimentary rock composed of microcrystalline quartz.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which rock type is most likely to form from a pyroclastic flow?",
+        "type": "mcq",
+        "o": [
+            "Ignimbrite (Welded Tuff)",
+            "Basalt",
+            "Conglomerate",
+            "Slate"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A very common, hard mineral often found in sand.",
+        "type": "word_scramble",
+        "answer": "QUARTZ",
+        "decoys": "BPH"
+    },
+    {
+        "q": "A sedimentary rock composed mostly of shell fragments is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "coquina"
+        ],
+        "other_options": [
+            "breccia",
+            "arkose",
+            "greywacke"
+        ]
+    },
+    {
+        "q": "The boundary between the Earth's crust and mantle is the Mohorovicic discontinuity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which mineral has double refraction, meaning objects appear doubled when viewed through it?",
+        "type": "mcq",
+        "o": [
+            "Calcite",
+            "Fluorite",
+            "Halite",
+            "Magnetite"
+        ]
+    },
+    {
+        "q": "Match the rock with its metamorphic facies:",
+        "type": "match",
+        "left": [
+            "Blueschist",
+            "Eclogite",
+            "Granulite",
+            "Greenschist"
+        ],
+        "right": [
+            "High pressure, low temperature",
+            "Very high pressure, moderate temperature",
+            "High temperature, moderate pressure",
+            "Low-moderate temperature and pressure"
+        ]
+    },
+    {
+        "q": "What is the dominant mineral group in the Earth's crust?",
+        "type": "mcq",
+        "o": [
+            "Silicates",
+            "Carbonates",
+            "Oxides",
+            "Sulfides"
+        ]
+    },
+    {
+        "q": "An ophiolite sequence represents a slice of ancient ______ crust thrust onto land.",
+        "type": "fill_blank",
+        "answers": [
+            "oceanic"
+        ],
+        "other_options": [
+            "continental",
+            "volcanic",
+            "sedimentary"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The property that describes how a mineral shines.",
+        "type": "word_scramble",
+        "answer": "LUSTER",
+        "decoys": "VMC"
+    },
+    {
+        "q": "Name the mineral known as 'fool's gold'.",
+        "type": "short_answer",
+        "answers": [
+            "pyrite",
+            "iron pyrite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Radiometric dating can determine the absolute age of igneous rocks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which index mineral indicates high-grade metamorphism?",
+        "type": "mcq",
+        "o": [
+            "Sillimanite",
+            "Chlorite",
+            "Biotite",
+            "Garnet"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The process of moving broken rocks and dirt away.",
+        "type": "word_scramble",
+        "answer": "EROSION",
+        "decoys": "FQZ"
+    },
+    {
+        "q": "A sandstone with at least 25% feldspar is called an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "arkose"
+        ],
+        "other_options": [
+            "greywacke",
+            "quartz arenite",
+            "litharenite"
+        ]
+    },
+    {
+        "q": "Stalactites and stalagmites are deposits of the mineral calcite.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which process forms caves in limestone regions?",
+        "type": "mcq",
+        "o": [
+            "Chemical dissolution",
+            "Mechanical abrasion",
+            "Frost wedging",
+            "Exfoliation"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The type of rock made from cooled lava.",
+        "type": "word_scramble",
+        "answer": "IGNEOUS",
+        "decoys": "DKV"
+    },
+    {
+        "q": "What is the name for a concordant intrusive igneous body that runs parallel to bedding?",
+        "type": "mcq",
+        "o": [
+            "Sill",
+            "Dike",
+            "Batholith",
+            "Neck"
+        ]
+    },
+    {
+        "q": "Match the mineral to its crystal habit:",
+        "type": "match",
+        "left": [
+            "Quartz",
+            "Pyrite",
+            "Asbestos (Chrysotile)",
+            "Hematite"
+        ],
+        "right": [
+            "Hexagonal prisms",
+            "Cubic/Cubes",
+            "Fibrous",
+            "Botryoidal/Reniform"
+        ]
+    },
+    {
+        "q": "The rock cycle requires millions of years to complete a single loop.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is a product of mechanical weathering?",
+        "type": "mcq",
+        "o": [
+            "Frost wedging breaking rocks",
+            "Limestone dissolving",
+            "Feldspar turning to clay",
+            "Rust forming on minerals"
+        ]
+    },
+    {
+        "q": "Unscramble the word: When a mineral breaks along smooth, flat surfaces.",
+        "type": "word_scramble",
+        "answer": "CLEAVAGE",
+        "decoys": "XJZ"
+    },
+    {
+        "q": "What is the term for a mineral's resistance to breaking, bending, or crushing?",
+        "type": "short_answer",
+        "answers": [
+            "tenacity"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Migmatite is a rock that is part igneous and part metamorphic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which dark, fine-grained volcanic rock is rich in magnesium and iron?",
+        "type": "mcq",
+        "o": [
+            "Basalt",
+            "Rhyolite",
+            "Andesite",
+            "Granite"
+        ]
+    },
+    {
+        "q": "Bituminous coal is a low-grade metamorphic rock of organic origin.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Native elements are minerals composed of only a single element, such as gold or ______.",
+        "type": "fill_blank",
+        "answers": [
+            "copper",
+            "silver",
+            "diamond",
+            "sulfur"
+        ],
+        "other_options": [
+            "quartz",
+            "calcite",
+            "pyrite"
+        ]
+    },
+    {
+        "q": "Match the rock type to the plate tectonic setting:",
+        "type": "match",
+        "left": [
+            "Andesite",
+            "Peridotite",
+            "Greywacke",
+            "Mylonite"
+        ],
+        "right": [
+            "Convergent (Subduction)",
+            "Divergent (Mantle)",
+            "Accretionary wedge",
+            "Transform fault"
+        ]
+    },
+    {
+        "q": "What is the most common chemical sedimentary rock?",
+        "type": "mcq",
+        "o": [
+            "Limestone",
+            "Dolostone",
+            "Chert",
+            "Evaporite"
+        ]
+    },
+    {
+        "q": "How does a rock differ from a mineral?",
+        "type": "mcq",
+        "o": [
+            "A rock is a mixture of minerals; a mineral is pure",
+            "A mineral is harder than a rock",
+            "A rock is always smaller",
+            "A mineral has layers, a rock does not"
+        ]
+    },
+    {
+        "q": "A light-colored, coarse-grained, felsic intrusive rock is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "granite"
+        ],
+        "other_options": [
+            "diorite",
+            "gabbro",
+            "peridotite"
+        ]
+    },
+    {
+        "q": "Name the metamorphic rock formed from quartz sandstone.",
+        "type": "short_answer",
+        "answers": [
+            "quartzite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Ripple marks are structural features only found in metamorphic rocks.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following minerals is a sulfide?",
+        "type": "mcq",
+        "o": [
+            "Galena",
+            "Magnetite",
+            "Olivine",
+            "Calcite"
+        ]
+    },
+    {
+        "q": "The thickness of a sedimentary layer is called its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "bed thickness",
+            "stratum thickness"
+        ],
+        "other_options": [
+            "foliation",
+            "grade",
+            "texture"
+        ]
+    },
+    {
+        "q": "A fracture in the rock where movement has occurred is called a joint.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Unscramble the word: A lightweight volcanic rock that can float in water.",
+        "type": "word_scramble",
+        "answer": "PUMICE",
+        "decoys": "WQY"
+    },
+    {
+        "q": "Which rock is considered a chemical precipitate?",
+        "type": "mcq",
+        "o": [
+            "Rock Gypsum",
+            "Sandstone",
+            "Conglomerate",
+            "Shale"
+        ]
+    },
+    {
+        "q": "Match the physical property to its mineral example:",
+        "type": "match",
+        "left": [
+            "Magnetism",
+            "Taste",
+            "Smell",
+            "Double refraction"
+        ],
+        "right": [
+            "Magnetite",
+            "Halite",
+            "Sphalerite (sulfurous when scratched)",
+            "Calcite"
+        ]
+    },
+    {
+        "q": "What is the term for a discordant igneous body with an area greater than 100 km2?",
+        "type": "mcq",
+        "o": [
+            "Batholith",
+            "Stock",
+            "Laccolith",
+            "Lopolith"
+        ]
+    },
+    {
+        "q": "Name the coarse-grained igneous rock that is rich in plagioclase and pyroxene.",
+        "type": "short_answer",
+        "answers": [
+            "gabbro"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: The thick layer of hot, solid rock beneath Earth's crust.",
+        "type": "word_scramble",
+        "answer": "MANTLE",
+        "decoys": "ZXC"
+    },
+    {
+        "q": "The mineral quartz has no cleavage.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which type of coal has the highest carbon content and burns the cleanest?",
+        "type": "mcq",
+        "o": [
+            "Anthracite",
+            "Bituminous",
+            "Lignite",
+            "Peat"
+        ]
+    },
+    {
+        "q": "In a metamorphic rock, a large crystal surrounded by smaller crystals is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "porphyroblast"
+        ],
+        "other_options": [
+            "phenocryst",
+            "xenolith",
+            "amygdule"
+        ]
+    },
+    {
+        "q": "The primary minerals in granite are quartz, alkali feldspar, and plagioclase.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following rocks is most susceptible to chemical weathering?",
+        "type": "mcq",
+        "o": [
+            "Limestone",
+            "Quartzite",
+            "Granite",
+            "Slate"
+        ]
+    },
+    {
+        "q": "Evaporite deposits form due to ______ of water containing dissolved minerals.",
+        "type": "fill_blank",
+        "answers": [
+            "evaporation"
+        ],
+        "other_options": [
+            "melting",
+            "cooling",
+            "compaction"
+        ]
+    },
+    {
+        "q": "Match the soil horizon to its description:",
+        "type": "match",
+        "left": [
+            "O Horizon",
+            "A Horizon",
+            "B Horizon",
+            "C Horizon"
+        ],
+        "right": [
+            "Organic matter",
+            "Topsoil with humus",
+            "Subsoil with mineral accumulation",
+            "Weathered parent rock"
+        ]
+    },
+    {
+        "q": "What does the acid test usually indicate the presence of?",
+        "type": "mcq",
+        "o": [
+            "Carbonate minerals",
+            "Silicate minerals",
+            "Sulfide minerals",
+            "Oxide minerals"
+        ]
+    },
+    {
+        "q": "A volcanic mudflow is known as a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "lahar"
+        ],
+        "other_options": [
+            "tuff",
+            "breccia",
+            "agglomerate"
+        ]
+    },
+    {
+        "q": "Name the mineral with a hardness of 6 and pink color, often used in ceramics.",
+        "type": "short_answer",
+        "answers": [
+            "orthoclase",
+            "feldspar",
+            "potassium feldspar"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The terms 'phaneritic' and 'aphanitic' describe the texture of sedimentary rocks.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which metamorphic rock forms almost entirely from the mineral calcite or dolomite?",
+        "type": "mcq",
+        "o": [
+            "Marble",
+            "Slate",
+            "Schist",
+            "Gneiss"
+        ]
+    },
+    {
+        "q": "Rocks at the bottom of a river tend to be rounded due to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "abrasion"
+        ],
+        "other_options": [
+            "dissolving",
+            "melting",
+            "freezing"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A hard, speckled igneous rock used for kitchen counters.",
+        "type": "word_scramble",
+        "answer": "GRANITE",
+        "decoys": "JQV"
+    },
+    {
+        "q": "Which isotopic system is commonly used to date ancient igneous rocks using Uranium and Lead?",
+        "type": "mcq",
+        "o": [
+            "U-Pb dating",
+            "C-14 dating",
+            "K-Ar dating",
+            "Rb-Sr dating"
+        ]
+    },
+    {
+        "q": "What is the term for the change in mineral composition of a rock during metamorphism without melting?",
+        "type": "mcq",
+        "o": [
+            "Recrystallization",
+            "Anatexis",
+            "Diagenesis",
+            "Lithification"
+        ]
+    },
+    {
+        "q": "The process of limestone changing to dolostone by magnesium-rich fluids is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "dolomitization"
+        ],
+        "other_options": [
+            "silicification",
+            "serpentinization",
+            "carbonation"
+        ]
+    },
+    {
+        "q": "Name the dark-colored, accessory mineral commonly found in granite and used for radiometric dating.",
+        "type": "short_answer",
+        "answers": [
+            "zircon"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Curie point is the temperature above which a mineral loses its permanent magnetism.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the metamorphic texture with its description:",
+        "type": "match",
+        "left": [
+            "Porphyroblastic",
+            "Granoblastic",
+            "Lepidoblastic",
+            "Nematoblastic"
+        ],
+        "right": [
+            "Large crystals in fine matrix",
+            "Equigranular mosaic",
+            "Platy minerals aligned",
+            "Prismatic minerals aligned"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The color of a mineral when it is ground into powder.",
+        "type": "word_scramble",
+        "answer": "STREAK",
+        "decoys": "BZX"
+    },
+    {
+        "q": "Which rare earth element mineral group is crucial for modern electronics and magnets?",
+        "type": "mcq",
+        "o": [
+            "Bastnasite-Monazite group",
+            "Feldspar group",
+            "Pyroxene group",
+            "Carbonate group"
+        ]
+    },
+    {
+        "q": "What is the primary difference between greenschist and amphibolite facies?",
+        "type": "mcq",
+        "o": [
+            "Temperature and pressure conditions of formation",
+            "Parent rock composition",
+            "Tectonic setting",
+            "Grain size"
+        ]
+    },
+    {
+        "q": "A tabular intrusive body that is concordant with the surrounding rock layers is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sill"
+        ],
+        "other_options": [
+            "dike",
+            "batholith",
+            "stock"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The hardest known mineral.",
+        "type": "word_scramble",
+        "answer": "DIAMOND",
+        "decoys": "FWQ"
+    },
+    {
+        "q": "Basalt is the extrusive equivalent of plutonic gabbro.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which type of meteorite is composed mostly of iron-nickel alloys?",
+        "type": "mcq",
+        "o": [
+            "Iron meteorite",
+            "Stony meteorite",
+            "Stony-iron meteorite",
+            "Chondrite"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The scientific name for the mineral we use as table salt.",
+        "type": "word_scramble",
+        "answer": "HALITE",
+        "decoys": "QZX"
+    },
+    {
+        "q": "Name the diagnostic mineral of the blueschist facies indicating high-pressure, low-temperature metamorphism.",
+        "type": "short_answer",
+        "answers": [
+            "glaucophane",
+            "lawsonite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: A beautiful metamorphic rock formed from limestone.",
+        "type": "word_scramble",
+        "answer": "MARBLE",
+        "decoys": "JKV"
+    },
+    {
+        "q": "During fractional crystallization, the remaining magma becomes more mafic.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the sedimentary rock to its depositional environment:",
+        "type": "match",
+        "left": [
+            "Turbidite (Greywacke)",
+            "Evaporite",
+            "Tillite",
+            "Oolitic limestone"
+        ],
+        "right": [
+            "Deep marine fan",
+            "Arid basin/sabkha",
+            "Glacial",
+            "Shallow warm marine"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The mineral element found in milk that builds strong bones.",
+        "type": "word_scramble",
+        "answer": "CALCIUM",
+        "decoys": "ZQW"
+    },
+    {
+        "q": "Apatite is a major source of which element essential for agricultural fertilizer?",
+        "type": "mcq",
+        "o": [
+            "Phosphorus",
+            "Nitrogen",
+            "Potassium",
+            "Calcium"
+        ]
+    },
+    {
+        "q": "The study of trace elements in zircon provides clues about the early Earth's crust.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In Bowen's Reaction Series, the discontinuous branch starts with the mineral ______.",
+        "type": "fill_blank",
+        "answers": [
+            "olivine"
+        ],
+        "other_options": [
+            "quartz",
+            "biotite",
+            "pyroxene"
+        ]
+    },
+    {
+        "q": "Which geophysical method uses magnetic properties of rocks to find ore bodies?",
+        "type": "mcq",
+        "o": [
+            "Magnetic surveying",
+            "Seismic refraction",
+            "Gravity survey",
+            "Resistivity"
+        ]
+    },
+    {
+        "q": "What is the economic value of the mineral coltan?",
+        "type": "mcq",
+        "o": [
+            "Source of tantalum and niobium for electronics",
+            "Primary source of titanium",
+            "Used in construction steel",
+            "Mined for gold"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The thin, hard outer shell of the Earth.",
+        "type": "word_scramble",
+        "answer": "CRUST",
+        "decoys": "XPB"
+    },
+    {
+        "q": "The Mohorovicic discontinuity separates the mantle from the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "crust"
+        ],
+        "other_options": [
+            "core",
+            "lithosphere",
+            "asthenosphere"
+        ]
+    },
+    {
+        "q": "Name the process where minerals align perpendicular to directed pressure in metamorphic rocks.",
+        "type": "short_answer",
+        "answers": [
+            "foliation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Pahoehoe lava has a rough, jagged surface compared to aa lava.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following minerals is an end-member of the plagioclase feldspar series?",
+        "type": "mcq",
+        "o": [
+            "Anorthite",
+            "Orthoclase",
+            "Microcline",
+            "Sanidine"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A mountain that can erupt with hot lava and ash.",
+        "type": "word_scramble",
+        "answer": "VOLCANO",
+        "decoys": "QJZ"
+    },
+    {
+        "q": "Match the petrographic microscope observation to the property:",
+        "type": "match",
+        "left": [
+            "Pleochroism",
+            "Birefringence",
+            "Extinction angle",
+            "Relief"
+        ],
+        "right": [
+            "Color change on rotation",
+            "Splitting of light into two rays",
+            "Position of darkness on rotation",
+            "Difference in refractive index"
+        ]
+    },
+    {
+        "q": "A mafic magma typically has lower viscosity than a felsic magma.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for a group of rocks sharing a specific mineral assemblage indicating metamorphic conditions?",
+        "type": "mcq",
+        "o": [
+            "Metamorphic facies",
+            "Index mineral suite",
+            "Isograd",
+            "Texture"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A small, smooth rock found near water.",
+        "type": "word_scramble",
+        "answer": "PEBBLE",
+        "decoys": "XVM"
+    },
+    {
+        "q": "Kimberlite pipes are the primary source of which valuable gemstone?",
+        "type": "mcq",
+        "o": [
+            "Diamond",
+            "Ruby",
+            "Sapphire",
+            "Emerald"
+        ]
+    },
+    {
+        "q": "The formation of a new rock from high pressure without significant heat is called ______ metamorphism.",
+        "type": "fill_blank",
+        "answers": [
+            "shock",
+            "impact"
+        ],
+        "other_options": [
+            "contact",
+            "regional",
+            "burial"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The solid geometric shape that minerals naturally form.",
+        "type": "word_scramble",
+        "answer": "CRYSTAL",
+        "decoys": "WKQ"
+    },
+    {
+        "q": "Unscramble the word: A dark, heavy igneous rock that makes up the ocean floor.",
+        "type": "word_scramble",
+        "answer": "BASALT",
+        "decoys": "ZXV"
+    },
+    {
+        "q": "Name the aluminum silicate polymorph that forms at the highest temperatures.",
+        "type": "short_answer",
+        "answers": [
+            "sillimanite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about rock formation:",
+        "type": "inline_dropdown",
+        "text": "Weathering breaks rocks into tiny [0], which are then pressed together to form [1] rock.",
+        "dropdowns": [
+            {
+                "correct": "sediments",
+                "options": [
+                    "magma",
+                    "sediments",
+                    "crystals"
+                ]
+            },
+            {
+                "correct": "sedimentary",
+                "options": [
+                    "igneous",
+                    "sedimentary",
+                    "metamorphic"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Flux melting occurs at subduction zones when water lowers the melting point of the mantle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which texture describes an igneous rock with two distinct crystal sizes?",
+        "type": "mcq",
+        "o": [
+            "Porphyritic",
+            "Aphanitic",
+            "Phaneritic",
+            "Glassy"
+        ]
+    },
+    {
+        "q": "A calcareous rock metamorphosed at high grade forms a rock with silicate minerals like diopside, known as ______.",
+        "type": "fill_blank",
+        "answers": [
+            "skarn",
+            "calc-silicate rock"
+        ],
+        "other_options": [
+            "marble",
+            "hornfels",
+            "quartzite"
+        ]
+    },
+    {
+        "q": "Match the LIP (Large Igneous Province) to its geographic location:",
+        "type": "match",
+        "left": [
+            "Deccan Traps",
+            "Siberian Traps",
+            "Columbia River Basalts",
+            "Ontong Java Plateau"
+        ],
+        "right": [
+            "India",
+            "Russia",
+            "USA",
+            "Pacific Ocean"
+        ]
+    },
+    {
+        "q": "Which of the following is a common hydrothermal alteration mineral?",
+        "type": "mcq",
+        "o": [
+            "Sericite",
+            "Olivine",
+            "Nepheline",
+            "Leucite"
+        ]
+    },
+    {
+        "q": "The transition of peat to anthracite involves increasing pressure, temperature, and carbon content.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What economic geology term describes a mineral deposit large enough to be mined?",
+        "type": "mcq",
+        "o": [
+            "Ore reserve",
+            "Protore",
+            "Gangue",
+            "Tailings"
+        ]
+    },
+    {
+        "q": "Peridotite is the dominant rock type in the upper ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mantle"
+        ],
+        "other_options": [
+            "crust",
+            "core",
+            "lithosphere"
+        ]
+    },
+    {
+        "q": "Name the mineral that constitutes the majority of the Earth's lower mantle.",
+        "type": "short_answer",
+        "answers": [
+            "bridgmanite",
+            "silicate perovskite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "All komatiites are Proterozoic or younger.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which element is commonly concentrated in pegmatites, forming minerals like lepidolite?",
+        "type": "mcq",
+        "o": [
+            "Lithium",
+            "Iron",
+            "Copper",
+            "Zinc"
+        ]
+    },
+    {
+        "q": "Complete the sentence about the rock cycle:",
+        "type": "inline_dropdown",
+        "text": "The rock cycle is a [0] process where rocks are constantly [1] into new types.",
+        "dropdowns": [
+            {
+                "correct": "continuous",
+                "options": [
+                    "short",
+                    "continuous",
+                    "broken"
+                ]
+            },
+            {
+                "correct": "changing",
+                "options": [
+                    "changing",
+                    "staying",
+                    "growing"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Complete the sentence about metamorphic rocks:",
+        "type": "inline_dropdown",
+        "text": "Metamorphic rocks are formed deep underground by extreme [0] and high [1].",
+        "dropdowns": [
+            {
+                "correct": "heat",
+                "options": [
+                    "cold",
+                    "heat",
+                    "wind"
+                ]
+            },
+            {
+                "correct": "pressure",
+                "options": [
+                    "pressure",
+                    "sunlight",
+                    "water"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the clay mineral to its layer structure:",
+        "type": "match",
+        "left": [
+            "Kaolinite",
+            "Montmorillonite",
+            "Illite",
+            "Chlorite"
+        ],
+        "right": [
+            "1:1 layer",
+            "2:1 expandable layer",
+            "2:1 non-expandable layer",
+            "2:1:1 layer"
+        ]
+    },
+    {
+        "q": "What is the primary mineral in the Earth's continental crust by volume?",
+        "type": "mcq",
+        "o": [
+            "Feldspar",
+            "Quartz",
+            "Olivine",
+            "Pyroxene"
+        ]
+    },
+    {
+        "q": "The compositional layering in sedimentary rocks is termed bedding, while in metamorphic rocks it is ______ layering.",
+        "type": "fill_blank",
+        "answers": [
+            "metamorphic",
+            "gneissic"
+        ],
+        "other_options": [
+            "stratification",
+            "cross-bedding",
+            "graded"
+        ]
+    },
+    {
+        "q": "Garnet is an example of an index mineral for intermediate-grade metamorphism.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a volcanogenic massive sulfide deposit?",
+        "type": "mcq",
+        "o": [
+            "Kuroko-type",
+            "Banded iron formation",
+            "Placer",
+            "Porphyry copper"
+        ]
+    },
+    {
+        "q": "What is the term for the lowest grade of metamorphic conditions where burial occurs?",
+        "type": "mcq",
+        "o": [
+            "Zeolite facies",
+            "Granulite facies",
+            "Eclogite facies",
+            "Amphibolite facies"
+        ]
+    },
+    {
+        "q": "The process of converting sediment to rock is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "lithification",
+            "diagenesis"
+        ],
+        "other_options": [
+            "metamorphism",
+            "melting",
+            "erosion"
+        ]
+    },
+    {
+        "q": "Name the ultramafic rock composed almost entirely of olivine.",
+        "type": "short_answer",
+        "answers": [
+            "dunite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Miarolitic cavities are found in plutonic rocks and indicate the presence of fluids during crystallization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which mineral group has a sheet structure and includes talc and mica?",
+        "type": "mcq",
+        "o": [
+            "Phyllosilicates",
+            "Inosilicates",
+            "Tectosilicates",
+            "Nesosilicates"
+        ]
+    },
+    {
+        "q": "Match the volcanic landform to its characteristic rock:",
+        "type": "match",
+        "left": [
+            "Stratovolcano",
+            "Shield volcano",
+            "Cinder cone",
+            "Lava dome"
+        ],
+        "right": [
+            "Andesite",
+            "Basalt",
+            "Scoria",
+            "Rhyolite"
+        ]
+    },
+    {
+        "q": "A xenolith is a fragment of foreign rock trapped within an igneous body.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which type of metamorphism is driven solely by high impact pressure from meteorites?",
+        "type": "mcq",
+        "o": [
+            "Shock metamorphism",
+            "Dynamic metamorphism",
+            "Hydrothermal metamorphism",
+            "Burial metamorphism"
+        ]
+    },
+    {
+        "q": "The color of a mineral's streak is always identical to its external color.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "In isochemical metamorphism, the bulk chemical composition of the rock changes significantly.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which ore deposit type is associated with weathering in tropical environments?",
+        "type": "mcq",
+        "o": [
+            "Laterite",
+            "Kuroko",
+            "Kimberlite",
+            "Pegmatite"
+        ]
+    },
+    {
+        "q": "Complete the sentence about identifying minerals:",
+        "type": "inline_dropdown",
+        "text": "A mineral's [0] test reveals the color of its powder, which is more reliable than looking at its outside [1].",
+        "dropdowns": [
+            {
+                "correct": "streak",
+                "options": [
+                    "taste",
+                    "streak",
+                    "bounce"
+                ]
+            },
+            {
+                "correct": "color",
+                "options": [
+                    "color",
+                    "size",
+                    "weight"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The transformation of pyroxene to amphibole during cooling is an example of ______ reaction.",
+        "type": "fill_blank",
+        "answers": [
+            "hydration",
+            "retrograde"
+        ],
+        "other_options": [
+            "dehydration",
+            "oxidation",
+            "melting"
+        ]
+    },
+    {
+        "q": "Name the dense mineral used in drilling mud as a weighting agent.",
+        "type": "short_answer",
+        "answers": [
+            "barite",
+            "baryte"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Flood basalts are typically associated with hotspots and rifting.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the feldspar type to its crystal system:",
+        "type": "match",
+        "left": [
+            "Orthoclase",
+            "Microcline",
+            "Anorthite",
+            "Sanidine"
+        ],
+        "right": [
+            "Monoclinic",
+            "Triclinic",
+            "Triclinic",
+            "Monoclinic"
+        ]
+    },
+    {
+        "q": "Which rare igneous rock consists essentially of carbonate minerals?",
+        "type": "mcq",
+        "o": [
+            "Carbonatite",
+            "Komatite",
+            "Anorthosite",
+            "Lherzolite"
+        ]
+    },
+    {
+        "q": "Complete the sentence about crystal size:",
+        "type": "inline_dropdown",
+        "text": "When magma cools very [0], it doesn't have time to form large [1].",
+        "dropdowns": [
+            {
+                "correct": "quickly",
+                "options": [
+                    "quickly",
+                    "slowly",
+                    "warmly"
+                ]
+            },
+            {
+                "correct": "crystals",
+                "options": [
+                    "crystals",
+                    "fossils",
+                    "leaves"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The process where magma composition changes by assimilation of wall rock is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "contamination",
+            "assimilation"
+        ],
+        "other_options": [
+            "fractionation",
+            "liquation",
+            "sintering"
+        ]
+    },
+    {
+        "q": "What mineral is the main ore of uranium?",
+        "type": "mcq",
+        "o": [
+            "Uraninite (Pitchblende)",
+            "Monazite",
+            "Zircon",
+            "Scheelite"
+        ]
+    },
+    {
+        "q": "The aphanitic equivalent of diorite is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "andesite"
+        ],
+        "other_options": [
+            "rhyolite",
+            "basalt",
+            "komatiite"
+        ]
+    },
+    {
+        "q": "Name the characteristic high-pressure index mineral formed in eclogite facies, green in color.",
+        "type": "short_answer",
+        "answers": [
+            "omphacite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Tuff is a sedimentary rock formed from volcanic ash.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which petrological process describes the unmixing of a magma into two immiscible liquids?",
+        "type": "mcq",
+        "o": [
+            "Liquid immiscibility",
+            "Fractional crystallization",
+            "Partial melting",
+            "Thermal diffusion"
+        ]
+    },
+    {
+        "q": "Match the mineral to its specific gravity category (Low, Medium, High):",
+        "type": "match",
+        "left": [
+            "Quartz",
+            "Fluorite",
+            "Galena",
+            "Platinum"
+        ],
+        "right": [
+            "Low (2.6)",
+            "Medium (3.2)",
+            "High (7.5)",
+            "Very High (21)"
+        ]
+    },
+    {
+        "q": "Complete the sentence about Earth's structure:",
+        "type": "inline_dropdown",
+        "text": "We walk on the Earth's [0], but just below it lies the thick, hot [1].",
+        "dropdowns": [
+            {
+                "correct": "crust",
+                "options": [
+                    "crust",
+                    "core",
+                    "sky"
+                ]
+            },
+            {
+                "correct": "mantle",
+                "options": [
+                    "mantle",
+                    "crust",
+                    "ocean"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The texture of a rock that has cooled from a glass without crystals is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hyaline",
+            "glassy"
+        ],
+        "other_options": [
+            "phaneritic",
+            "aphanitic",
+            "porphyritic"
+        ]
+    },
+    {
+        "q": "Komatiite is an ultramafic volcanic rock mostly found in the Archean.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is NOT a process of chemical weathering?",
+        "type": "mcq",
+        "o": [
+            "Frost wedging",
+            "Hydrolysis",
+            "Oxidation",
+            "Carbonation"
+        ]
+    },
+    {
+        "q": "Complete the sentence about pumice:",
+        "type": "inline_dropdown",
+        "text": "Pumice is full of tiny [0] from trapped gas, making it the only rock that can [1].",
+        "dropdowns": [
+            {
+                "correct": "holes",
+                "options": [
+                    "diamonds",
+                    "holes",
+                    "lines"
+                ]
+            },
+            {
+                "correct": "float",
+                "options": [
+                    "float",
+                    "sink",
+                    "melt"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "In optical mineralogy, the Becke line test determines the relative ______ of minerals.",
+        "type": "fill_blank",
+        "answers": [
+            "relief",
+            "refractive index"
+        ],
+        "other_options": [
+            "birefringence",
+            "pleochroism",
+            "extinction angle"
+        ]
+    },
+    {
+        "q": "What is the dominant mineral in the Earth's inner core?",
+        "type": "mcq",
+        "o": [
+            "Iron-nickel alloy",
+            "Olivine",
+            "Perovskite",
+            "Feldspar"
+        ]
+    },
+    {
+        "q": "Complete the sentence about coal:",
+        "type": "inline_dropdown",
+        "text": "Coal is a special sedimentary rock because it is formed from the remains of ancient swamp [0], not from [1].",
+        "dropdowns": [
+            {
+                "correct": "plants",
+                "options": [
+                    "plants",
+                    "dinosaurs",
+                    "fish"
+                ]
+            },
+            {
+                "correct": "sand",
+                "options": [
+                    "sand",
+                    "water",
+                    "sunlight"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Name the mineral that is the hardest naturally occurring material.",
+        "type": "short_answer",
+        "answers": [
+            "diamond"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Ophiolites are slices of oceanic lithosphere emplaced on continental crust.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the metamorphic facies to its typical pressure-temperature ratio:",
+        "type": "match",
+        "left": [
+            "Zeolite",
+            "Blueschist",
+            "Granulite",
+            "Sanidinite"
+        ],
+        "right": [
+            "Low T, Low P",
+            "High P, Low T",
+            "High T, Moderate P",
+            "Very High T, Low P"
+        ]
+    },
+    {
+        "q": "Complete the sentence about obsidian:",
+        "type": "inline_dropdown",
+        "text": "Obsidian looks like dark, shiny [0] because the lava cooled incredibly [1] after an eruption.",
+        "dropdowns": [
+            {
+                "correct": "glass",
+                "options": [
+                    "glass",
+                    "dirt",
+                    "wood"
+                ]
+            },
+            {
+                "correct": "fast",
+                "options": [
+                    "slowly",
+                    "fast",
+                    "quietly"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of the following minerals forms in the cubic crystal system?",
+        "type": "mcq",
+        "o": [
+            "Pyrite",
+            "Quartz",
+            "Gypsum",
+            "Topaz"
+        ]
+    },
+    {
+        "q": "Complete the sentence about soil:",
+        "type": "inline_dropdown",
+        "text": "Healthy soil is made of weathered [0] pieces mixed with organic matter called [1].",
+        "dropdowns": [
+            {
+                "correct": "rock",
+                "options": [
+                    "plastic",
+                    "rock",
+                    "metal"
+                ]
+            },
+            {
+                "correct": "humus",
+                "options": [
+                    "humus",
+                    "magma",
+                    "quartz"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The silica content of a rock influences the viscosity of its parent magma.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "A special type of carbonatite that forms as a lava flow is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "natrocarbonatite"
+        ],
+        "other_options": [
+            "kimberlite",
+            "lamproite",
+            "komatiite"
+        ]
+    },
+    {
+        "q": "What is the study of rocks called?",
+        "type": "mcq",
+        "o": [
+            "Petrology",
+            "Mineralogy",
+            "Stratigraphy",
+            "Geochronology"
+        ]
+    },
+    {
+        "q": "Rutile and anatase are polymorphs of titanium dioxide.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The volcanic equivalent of a batholith is a large caldera-forming eruption.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which mineral is associated with an island arc and subduction zone setting?",
+        "type": "mcq",
+        "o": [
+            "Andesite (Amphibole/Plagioclase)",
+            "Nepheline syenite",
+            "Kimberlite",
+            "Tholeiitic basalt"
+        ]
+    },
+    {
+        "q": "The loss of water from a mineral structure during heating is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "dehydration"
+        ],
+        "other_options": [
+            "hydration",
+            "oxidation",
+            "reduction"
+        ]
+    },
+    {
+        "q": "Name the explosive volcanic rock composed of volcanic fragments larger than 64 mm.",
+        "type": "short_answer",
+        "answers": [
+            "volcanic breccia",
+            "agglomerate"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Placer deposits form when minerals are concentrated by moving water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which mineral is characterized by its rhombohedral cleavage and reaction with acid?",
+        "type": "mcq",
+        "o": [
+            "Dolomite (powdered)",
+            "Quartz",
+            "Orthoclase",
+            "Muscovite"
+        ]
+    },
+    {
+        "q": "Match the igneous rock texture to its formation environment:",
+        "type": "match",
+        "left": [
+            "Pegmatitic",
+            "Pyroclastic",
+            "Vesicular",
+            "Glassy"
+        ],
+        "right": [
+            "Intrusive, water-rich melt",
+            "Explosive eruption",
+            "Gassy lava flow",
+            "Rapid cooling of lava"
+        ]
+    },
+    {
+        "q": "The 'golden spike' or GSSP marks global stratigraphic boundaries using fossil evidence.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which property refers to the brightness and quality of reflected light from a mineral's surface?",
+        "type": "mcq",
+        "o": [
+            "Luster",
+            "Streak",
+            "Color",
+            "Fluorescence"
+        ]
+    },
+    {
+        "q": "The formation of banded iron formations peaked during the ______ Eon.",
+        "type": "fill_blank",
+        "answers": [
+            "Proterozoic"
+        ],
+        "other_options": [
+            "Archean",
+            "Phanerozoic",
+            "Hadean"
+        ]
+    },
+    {
+        "q": "What mineral group does forsterite belong to?",
+        "type": "short_answer",
+        "answers": [
+            "olivine",
+            "nesosilicate"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The mineral actinolite is an amphibole.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following rocks is considered a high-silica extrusive igneous rock?",
+        "type": "mcq",
+        "o": [
+            "Rhyolite",
+            "Basalt",
+            "Gabbro",
+            "Diorite"
+        ]
+    },
+    {
+        "q": "Complete the sentence about limestone:",
+        "type": "inline_dropdown",
+        "text": "Limestone is often formed in the [0] from the crushed [1] of tiny sea creatures.",
+        "dropdowns": [
+            {
+                "correct": "ocean",
+                "options": [
+                    "desert",
+                    "ocean",
+                    "volcano"
+                ]
+            },
+            {
+                "correct": "shells",
+                "options": [
+                    "bones",
+                    "leaves",
+                    "shells"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A vein of extremely coarse-grained granite is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pegmatite"
+        ],
+        "other_options": [
+            "aplite",
+            "lamprophyre",
+            "kimberlite"
+        ]
+    },
+    {
+        "q": "Hydrothermal fluids can precipitate minerals to form veins.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary mineral used in the production of phosphate fertilizers?",
+        "type": "mcq",
+        "o": [
+            "Apatite",
+            "Calcite",
+            "Sylvite",
+            "Fluorite"
+        ]
+    },
+    {
+        "q": "Match the index mineral to the metamorphic grade:",
+        "type": "match",
+        "left": [
+            "Chlorite",
+            "Biotite",
+            "Staurolite",
+            "Sillimanite"
+        ],
+        "right": [
+            "Low grade",
+            "Low-Medium grade",
+            "Medium-High grade",
+            "High grade"
+        ]
+    },
+    {
+        "q": "The texture of an igneous rock with no crystals is described as ______.",
+        "type": "fill_blank",
+        "answers": [
+            "glassy"
+        ],
+        "other_options": [
+            "porphyritic",
+            "phaneritic",
+            "fragmental"
+        ]
+    },
+    {
+        "q": "Name the process by which primitive mantle partially melts to form basalt.",
+        "type": "short_answer",
+        "answers": [
+            "partial melting",
+            "decompression melting"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Earth's outer core is solid.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which mineral is the ore of mercury?",
+        "type": "mcq",
+        "o": [
+            "Cinnabar",
+            "Galena",
+            "Sphalerite",
+            "Scheelite"
+        ]
+    },
+    {
+        "q": "What is the term for the spontaneous nucleation of crystals in a supersaturated magmatic liquid?",
+        "type": "mcq",
+        "o": [
+            "Homogeneous nucleation",
+            "Heterogeneous nucleation",
+            "Ostwald ripening",
+            "Spinodal decomposition"
+        ]
+    },
+    {
+        "q": "In the system CaO-MgO-SiO2, which decarbonation reaction defines the isograd for diopside formation?",
+        "type": "mcq",
+        "o": [
+            "Dolomite + Quartz -> Diopside + CO2",
+            "Calcite + Quartz -> Wollastonite + CO2",
+            "Tremolite + Calcite -> Diopside + CO2 + H2O",
+            "Forsterite + Calcite -> Monticellite + CO2"
+        ]
+    },
+    {
+        "q": "Complete the sentence about slate:",
+        "type": "inline_dropdown",
+        "text": "Slate is a metamorphic rock that easily splits into flat [0], making it great for building [1].",
+        "dropdowns": [
+            {
+                "correct": "sheets",
+                "options": [
+                    "sheets",
+                    "cubes",
+                    "balls"
+                ]
+            },
+            {
+                "correct": "roofs",
+                "options": [
+                    "roofs",
+                    "windows",
+                    "wires"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The solid-state re-equilibration of mineral phases during cooling is termed ______ metamorphism.",
+        "type": "fill_blank",
+        "answers": [
+            "retrograde"
+        ],
+        "other_options": [
+            "prograde",
+            "contact",
+            "dynamic"
+        ]
+    },
+    {
+        "q": "Name the thermodynamic phase rule used to determine the variance of a mineral assemblage.",
+        "type": "short_answer",
+        "answers": [
+            "gibbs phase rule",
+            "phase rule"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Coesite is a low-pressure polymorph of quartz.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the rare-earth element (REE) mineral to its typical host rock:",
+        "type": "match",
+        "left": [
+            "Bastnasite",
+            "Monazite",
+            "Xenotime",
+            "Allanite"
+        ],
+        "right": [
+            "Carbonatite",
+            "Granitic pegmatite",
+            "Granite",
+            "Syenite"
+        ]
+    },
+    {
+        "q": "Which phenomenon describes the rounding of crystals due to magmatic resorption?",
+        "type": "mcq",
+        "o": [
+            "Corrosion textures",
+            "Skeletal growth",
+            "Dendritic texture",
+            "Poikilitic texture"
+        ]
+    },
+    {
+        "q": "What is the critical resolved shear stress for dislocation glide in olivine at mantle conditions?",
+        "type": "mcq",
+        "o": [
+            "A few MPa to tens of MPa",
+            "Kilobars",
+            "Hundreds of Pascals",
+            "Gigapascals"
+        ]
+    },
+    {
+        "q": "Complete the sentence about cave formations:",
+        "type": "inline_dropdown",
+        "text": "Water dripping in caves leaves behind [0], which build up to form [1] hanging from the ceiling.",
+        "dropdowns": [
+            {
+                "correct": "minerals",
+                "options": [
+                    "plants",
+                    "minerals",
+                    "dirt"
+                ]
+            },
+            {
+                "correct": "stalactites",
+                "options": [
+                    "stalactites",
+                    "stalagmites",
+                    "geodes"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The diffusion-controlled growth of porphyroblasts can be modeled using ______ Law of diffusion.",
+        "type": "fill_blank",
+        "answers": [
+            "Fick's"
+        ],
+        "other_options": [
+            "Darcy's",
+            "Newton's",
+            "Stefan's"
+        ]
+    },
+    {
+        "q": "Name the high-pressure phase of ice thought to exist on ocean worlds.",
+        "type": "short_answer",
+        "answers": [
+            "ice vii",
+            "ice 7",
+            "ice-VII"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The schiller effect in labradorite is caused by rutile needles.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which substitution vector describes the plagioclase solid solution series?",
+        "type": "mcq",
+        "o": [
+            "NaSi <-> CaAl",
+            "Mg <-> Fe",
+            "K <-> Na",
+            "AlAl <-> MgSi"
+        ]
+    },
+    {
+        "q": "Match the petrogenetic grid boundary to the reaction type:",
+        "type": "match",
+        "left": [
+            "Univariant curve",
+            "Invariant point",
+            "Divariant field",
+            "Singular point"
+        ],
+        "right": [
+            "Reaction equilibrium",
+            "Intersection of reactions",
+            "Stability region",
+            "Degenerate reaction"
+        ]
+    },
+    {
+        "q": "Complete the sentence about sandstone:",
+        "type": "inline_dropdown",
+        "text": "Sandstone feels rough like [0] paper and is very porous, meaning [1] can easily soak into it.",
+        "dropdowns": [
+            {
+                "correct": "sand",
+                "options": [
+                    "sand",
+                    "wax",
+                    "glass"
+                ]
+            },
+            {
+                "correct": "water",
+                "options": [
+                    "water",
+                    "light",
+                    "heat"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the primary control on the width of a metamorphic aureole?",
+        "type": "mcq",
+        "o": [
+            "Pluton size, temperature, and depth",
+            "Grain size of the sediment",
+            "Pore fluid pressure",
+            "Strain rate"
+        ]
+    },
+    {
+        "q": "Complete the sentence about geodes:",
+        "type": "inline_dropdown",
+        "text": "A geode looks like an ordinary rock on the outside, but it is [0] inside and lined with beautiful [1].",
+        "dropdowns": [
+            {
+                "correct": "hollow",
+                "options": [
+                    "solid",
+                    "hollow",
+                    "flat"
+                ]
+            },
+            {
+                "correct": "crystals",
+                "options": [
+                    "crystals",
+                    "mud",
+                    "bugs"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Trace element partitioning between crystal and melt is described by the ______ coefficient Kd.",
+        "type": "fill_blank",
+        "answers": [
+            "distribution",
+            "partition"
+        ],
+        "other_options": [
+            "diffusion",
+            "exchange",
+            "activity"
+        ]
+    },
+    {
+        "q": "SHRIMP (Sensitive High-Resolution Ion Microprobe) is used for U-Pb dating of what mineral?",
+        "type": "short_answer",
+        "answers": [
+            "zircon"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "S-type granites are derived from the melting of igneous protoliths.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which element is the slowest diffusing species in silicate melts?",
+        "type": "mcq",
+        "o": [
+            "Silicon",
+            "Sodium",
+            "Potassium",
+            "Hydrogen"
+        ]
+    },
+    {
+        "q": "Complete the sentence about nature's recycling:",
+        "type": "inline_dropdown",
+        "text": "Because of the rock cycle, the Earth acts like a giant [0] machine, ensuring rocks are never truly [1].",
+        "dropdowns": [
+            {
+                "correct": "recycling",
+                "options": [
+                    "recycling",
+                    "freezing",
+                    "flying"
+                ]
+            },
+            {
+                "correct": "destroyed",
+                "options": [
+                    "destroyed",
+                    "seen",
+                    "heavy"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The transformation of coesite to quartz during exhumation is an example of a ______ reaction.",
+        "type": "fill_blank",
+        "answers": [
+            "reconstructive",
+            "polymorphic"
+        ],
+        "other_options": [
+            "displacive",
+            "order-disorder",
+            "dehydration"
+        ]
+    },
+    {
+        "q": "Melt inclusion homogenization provides direct evidence of the minimum temperature of magma entrapment.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the metamorphic facies series to its tectonic setting:",
+        "type": "match",
+        "left": [
+            "Franciscan type",
+            "Buchan type",
+            "Barrovian type",
+            "Abukuma type"
+        ],
+        "right": [
+            "Subduction (High P/T)",
+            "Arc/Back-arc (Low P/T)",
+            "Collisional (Intermediate P/T)",
+            "Extensional (Very Low P/T)"
+        ]
+    },
+    {
+        "q": "Which statistical method is commonly used to analyze grain size distribution in clastic rocks?",
+        "type": "mcq",
+        "o": [
+            "Weibull distribution analysis",
+            "Fourier transform",
+            "Mass spectrometry",
+            "X-ray diffraction"
+        ]
+    },
+    {
+        "q": "What is the CIPW norm used for in igneous petrology?",
+        "type": "mcq",
+        "o": [
+            "Calculating normative mineralogy from bulk chemistry",
+            "Measuring crystallographic orientation",
+            "Analyzing volatile content",
+            "Modeling melt viscosity"
+        ]
+    },
+    {
+        "q": "Complete the sentence about conglomerate rock:",
+        "type": "inline_dropdown",
+        "text": "A [0] rock is made of large, rounded [1] that are cemented together by nature.",
+        "dropdowns": [
+            {
+                "correct": "conglomerate",
+                "options": [
+                    "granite",
+                    "obsidian",
+                    "conglomerate"
+                ]
+            },
+            {
+                "correct": "pebbles",
+                "options": [
+                    "pebbles",
+                    "diamonds",
+                    "fossils"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Crystal-plastic deformation in quartz leads to the formation of ______ lamellae.",
+        "type": "fill_blank",
+        "answers": [
+            "Boehm",
+            "deformation"
+        ],
+        "other_options": [
+            "Carlsbad",
+            "Albite",
+            "Pericline"
+        ]
+    },
+    {
+        "q": "Name the mineral that is the best indicator of ultra-high pressure (UHP) metamorphism in crustal rocks.",
+        "type": "short_answer",
+        "answers": [
+            "coesite",
+            "diamond",
+            "microdiamond"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about clay:",
+        "type": "inline_dropdown",
+        "text": "Clay consists of extremely fine rock particles that become [0] when wet, perfect for making [1].",
+        "dropdowns": [
+            {
+                "correct": "sticky",
+                "options": [
+                    "dry",
+                    "sticky",
+                    "bouncy"
+                ]
+            },
+            {
+                "correct": "pottery",
+                "options": [
+                    "pottery",
+                    "glass",
+                    "clothing"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Complete the sentence about magnetite:",
+        "type": "inline_dropdown",
+        "text": "Magnetite is a special mineral because it is naturally [0] and attracts [1] objects.",
+        "dropdowns": [
+            {
+                "correct": "magnetic",
+                "options": [
+                    "magnetic",
+                    "electric",
+                    "hot"
+                ]
+            },
+            {
+                "correct": "iron",
+                "options": [
+                    "iron",
+                    "plastic",
+                    "wood"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The Benioff-Wadati zone directly samples the slab undergoing eclogitization.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which defect in the crystal lattice facilitates ionic conductivity in the mantle?",
+        "type": "mcq",
+        "o": [
+            "Vacancy (Schottky defect)",
+            "Edge dislocation",
+            "Screw dislocation",
+            "Stacking fault"
+        ]
+    },
+    {
+        "q": "The principle of detailed balancing applies to the equilibrium exchange of isotopes during mineral ______.",
+        "type": "fill_blank",
+        "answers": [
+            "fractionation"
+        ],
+        "other_options": [
+            "dissolution",
+            "precipitation",
+            "nucleation"
+        ]
+    },
+    {
+        "q": "EBSD (Electron Backscatter Diffraction) is used to determine what rock property?",
+        "type": "mcq",
+        "o": [
+            "Crystallographic preferred orientation",
+            "Bulk chemical composition",
+            "Trace element concentration",
+            "Porosity"
+        ]
+    },
+    {
+        "q": "What is the name for the aphanitic, mafic rock that contains essential feldspathoids?",
+        "type": "mcq",
+        "o": [
+            "Basanite",
+            "Basalt",
+            "Andesite",
+            "Dacite"
+        ]
+    },
+    {
+        "q": "Match the crystal habit to the mineral:",
+        "type": "match",
+        "left": [
+            "Acicular",
+            "Dendritic",
+            "Colloform",
+            "Reticulated"
+        ],
+        "right": [
+            "Rutile",
+            "Native copper",
+            "Malachite",
+            "Cerussite"
+        ]
+    },
+    {
+        "q": "The 'granite problem' refers to the difficulty in generating large volumes of granite by direct mantle melting.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which reaction series in metamorphic petrology describes the dehydration of pelitic rocks?",
+        "type": "mcq",
+        "o": [
+            "KFMASH system reactions",
+            "Bowen's Reaction Series",
+            "Urey reaction",
+            "Clausius-Clapeyron relation"
+        ]
+    },
+    {
+        "q": "In economic geology, the term 'proto-ore' refers to a mineralized rock that is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "uneconomic",
+            "sub-economic"
+        ],
+        "other_options": [
+            "weathered",
+            "supergene",
+            "oxidized"
+        ]
+    },
+    {
+        "q": "Name the very fine-grained white mica formed by the hydrolysis of feldspar during hydrothermal alteration.",
+        "type": "short_answer",
+        "answers": [
+            "sericite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The presence of lawsonite in a blueschist indicates prograde dehydration.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence about the importance of rocks:",
+        "type": "inline_dropdown",
+        "text": "Without rocks breaking down over millions of years, we would have no [0] to grow our [1].",
+        "dropdowns": [
+            {
+                "correct": "soil",
+                "options": [
+                    "soil",
+                    "water",
+                    "air"
+                ]
+            },
+            {
+                "correct": "food",
+                "options": [
+                    "food",
+                    "houses",
+                    "clothes"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which accessory mineral is used for U-Th/He thermochronometry?",
+        "type": "mcq",
+        "o": [
+            "Apatite",
+            "Quartz",
+            "Magnetite",
+            "Barite"
+        ]
+    },
+    {
+        "q": "The systematic increase in anorthite content of plagioclase from core to rim indicates ______ zoning.",
+        "type": "fill_blank",
+        "answers": [
+            "reverse"
+        ],
+        "other_options": [
+            "normal",
+            "oscillatory",
+            "sector"
+        ]
+    },
+    {
+        "q": "What laser-based technique provides in-situ trace element analysis in thin sections?",
+        "type": "mcq",
+        "o": [
+            "LA-ICP-MS",
+            "XRF",
+            "SEM",
+            "XRD"
+        ]
+    },
+    {
+        "q": "Match the silicate structure type to the Si:O ratio:",
+        "type": "match",
+        "left": [
+            "Nesosilicate",
+            "Inosilicate (single chain)",
+            "Phyllosilicate",
+            "Tectosilicate"
+        ],
+        "right": [
+            "1:4",
+            "1:3",
+            "2:5",
+            "1:2"
+        ]
+    },
+    {
+        "q": "The stability field of pyrope is increased by high Ca activity.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which mineral phase transition in the mantle marks the 410 km discontinuity?",
+        "type": "mcq",
+        "o": [
+            "Olivine to Wadsleyite",
+            "Wadsleyite to Ringwoodite",
+            "Ringwoodite to Bridgmanite",
+            "Pyroxene to Garnet"
+        ]
+    },
+    {
+        "q": "A rock showing a mylonitic texture must have undergone deformation by ______ creep.",
+        "type": "fill_blank",
+        "answers": [
+            "dislocation"
+        ],
+        "other_options": [
+            "diffusion",
+            "grain boundary sliding",
+            "cataclastic"
+        ]
+    },
+    {
+        "q": "Name the type of carbonatite containing predominantly dolomite.",
+        "type": "short_answer",
+        "answers": [
+            "beforsite",
+            "dolomite carbonatite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "LIPs (Large Igneous Provinces) are typically characterized by tholeiitic basalt.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which mineral exhibits a basalt-piercing point relationship in the CMAS system?",
+        "type": "mcq",
+        "o": [
+            "Diopside",
+            "Forsterite",
+            "Anorthite",
+            "Spinel"
+        ]
+    },
+    {
+        "q": "The Clapeyron slope for the olivine-wadsleyite transition is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "positive"
+        ],
+        "other_options": [
+            "negative",
+            "zero",
+            "vertical"
+        ]
+    },
+    {
+        "q": "What is the name of the equilibrium boundary where liquid, solid, and vapor phases coexist?",
+        "type": "mcq",
+        "o": [
+            "Solidus",
+            "Liquidus",
+            "Solvus",
+            "Eutectic"
+        ]
+    },
+    {
+        "q": "Match the subduction zone mineral to its elemental signature:",
+        "type": "match",
+        "left": [
+            "Antigorite",
+            "Lawsonite",
+            "Phengite",
+            "Glaucophane"
+        ],
+        "right": [
+            "Water carrier",
+            "Ca-Al silicate",
+            "High-K mica",
+            "Sodic amphibole"
+        ]
+    },
+    {
+        "q": "Goldschmidt's classification of elements is based on their affinity for iron, sulfur, oxygen, or atmosphere.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which thermodynamic variable is held constant in the Gibbs free energy minimization of a mineral assemblage?",
+        "type": "mcq",
+        "o": [
+            "Pressure and Temperature",
+            "Volume and Entropy",
+            "Internal Energy",
+            "Mass and Volume"
+        ]
+    },
+    {
+        "q": "The change in Gibbs free energy for a reaction is zero at ______.",
+        "type": "fill_blank",
+        "answers": [
+            "equilibrium"
+        ],
+        "other_options": [
+            "absolute zero",
+            "the solidus",
+            "the liquidus"
+        ]
+    },
+    {
+        "q": "Name the garnet end-member that represents the manganese component.",
+        "type": "short_answer",
+        "answers": [
+            "spessartine"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The aluminum solubility in orthopyroxene decreases with increasing pressure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following minerals is a component of the 'Rhaetian bone bed' facies?",
+        "type": "mcq",
+        "o": [
+            "Apatite (Collophane)",
+            "Haematite",
+            "Garnet",
+            "Tourmaline"
+        ]
+    },
+    {
+        "q": "The process of microvein growth by crack-seal mechanism involves ______ pressure solution.",
+        "type": "fill_blank",
+        "answers": [
+            "syn-kinematic"
+        ],
+        "other_options": [
+            "static",
+            "dynamic",
+            "isostatic"
+        ]
+    },
+    {
+        "q": "What fluid phase is most commonly associated with granulite facies metamorphism?",
+        "type": "mcq",
+        "o": [
+            "CO2-rich fluids",
+            "H2O-rich fluids",
+            "CH4-rich fluids",
+            "N2-rich fluids"
+        ]
+    },
+    {
+        "q": "Match the ore deposit model to the tectonic setting:",
+        "type": "match",
+        "left": [
+            "Porphyry Cu",
+            "Carlin-type Au",
+            "Komatiitic Ni",
+            "VMS"
+        ],
+        "right": [
+            "Continental arc",
+            "Back-arc extension",
+            "Archean greenstone",
+            "Extensional marine basin"
+        ]
+    },
+    {
+        "q": "Exsolution lamellae in pyroxenes result from changing pressure conditions.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which mineral spectrographic method detects the hydroxyl stretching band at 3620 cm-1?",
+        "type": "mcq",
+        "o": [
+            "FTIR spectroscopy",
+            "Raman spectroscopy",
+            "Mossbauer spectroscopy",
+            "Cathodoluminescence"
+        ]
+    },
+    {
+        "q": "The thermodynamic component Al2SiO5 can form kyanite, andalusite, or sillimanite, which are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "polymorphs"
+        ],
+        "other_options": [
+            "isotopes",
+            "isomorphs",
+            "allotropes"
+        ]
+    },
+    {
+        "q": "Name the high-temperature plagioclase structure stable above 1100 degrees C.",
+        "type": "short_answer",
+        "answers": [
+            "body-centered anorthite",
+            "C-1 anorthite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Hawaiian-Emperor seamount chain is an example of a mantle plume track.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which mineral is used as a pressure gauge using the Ti-in-quartz and Zr-in-rutile thermobarometers?",
+        "type": "mcq",
+        "o": [
+            "Quartz and Rutile",
+            "Garnet and Biotite",
+            "Olivine and Spinel",
+            "Feldspar and Mica"
+        ]
+    },
+    {
+        "q": "A positive Eu anomaly in a rock suggests accumulation of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "plagioclase feldspar"
+        ],
+        "other_options": [
+            "olivine",
+            "pyroxene",
+            "zircon"
+        ]
+    },
+    {
+        "q": "What is the name of the low-temperature, high-pressure metamorphic rock containing glaucophane and lawsonite?",
+        "type": "mcq",
+        "o": [
+            "Blueschist",
+            "Greenschist",
+            "Eclogite",
+            "Amphibolite"
+        ]
+    },
+    {
+        "q": "Match the radiogenic isotope to the parent nuclide:",
+        "type": "match",
+        "left": [
+            "143Nd",
+            "87Sr",
+            "206Pb",
+            "3He"
+        ],
+        "right": [
+            "147Sm",
+            "87Rb",
+            "238U",
+            "Primordial"
+        ]
+    },
+    {
+        "q": "The content of incompatible elements increases in the residual solid during partial melting.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which type of metamorphism leads to the formation of pseudotachylyte?",
+        "type": "mcq",
+        "o": [
+            "Frictional (Seismic)",
+            "Shock",
+            "Contact",
+            "Regional"
+        ]
+    },
+    {
+        "q": "Magmatic differentiation by crystal sinking is termed ______.",
+        "type": "fill_blank",
+        "answers": [
+            "fractional crystallization",
+            "gravity settling"
+        ],
+        "other_options": [
+            "thermogravitational diffusion",
+            "flowage differentiation",
+            "liquid immiscibility"
+        ]
+    },
+    {
+        "q": "Name the high-pressure phase transition of enstatite to a garnet-structured silicate.",
+        "type": "short_answer",
+        "answers": [
+            "majorite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Clapeyron slope for the quartz-coesite transition is negative.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which mineral is the dominant host for the Heat Producing Elements (HPE) in the continental crust?",
+        "type": "mcq",
+        "o": [
+            "Zircon, Monazite, Apatite",
+            "Quartz, Feldspar, Mica",
+            "Olivine, Pyroxene, Spinel",
+            "Calcite, Dolomite, Ankerite"
+        ]
+    },
+    {
+        "q": "The intersection of the metaluminous and peraluminous fields in granite classification relies on the ______ index.",
+        "type": "fill_blank",
+        "answers": [
+            "aluminum saturation",
+            "Shand's"
+        ],
+        "other_options": [
+            "alkali-lime",
+            "malic",
+            "differentiation"
+        ]
+    },
+    {
+        "q": "What is the term for the un-mixing of a solid solution into two distinct phases during cooling?",
+        "type": "mcq",
+        "o": [
+            "Exsolution",
+            "Anatexis",
+            "Sintering",
+            "Diagenesis"
+        ]
+    },
+    {
+        "q": "Match the polytype to the mineral:",
+        "type": "match",
+        "left": [
+            "2M1",
+            "1T",
+            "3R",
+            "6H"
+        ],
+        "right": [
+            "Muscovite",
+            "Pyrophyllite",
+            "Lizardite",
+            "Molybdenite"
+        ]
+    },
+    {
+        "q": "Isograds are lines of equal thermodynamic conditions representing the first appearance of an index mineral.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which element diffuses fastest in the crystal lattice of olivine?",
+        "type": "mcq",
+        "o": [
+            "Hydrogen",
+            "Iron",
+            "Magnesium",
+            "Silicon"
+        ]
+    },
+    {
+        "q": "The petrological term 'protolith' refers to the original ______ rock before metamorphism.",
+        "type": "fill_blank",
+        "answers": [
+            "parent"
+        ],
+        "other_options": [
+            "sedimentary",
+            "igneous",
+            "unaltered"
+        ]
+    },
+    {
+        "q": "Name the white, fibrous zeolite mineral common in low-grade metamorphic rocks.",
+        "type": "short_answer",
+        "answers": [
+            "laumontite",
+            "heulandite",
+            "stilbite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A-type granites are typically associated with orogenic convergent margins.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What does the Lever Rule calculate in phase petrology?",
+        "type": "mcq",
+        "o": [
+            "Proportions of phases in a two-phase region",
+            "The pressure of magma crystallization",
+            "The rate of crystal growth",
+            "The depth of metamorphism"
+        ]
+    },
+    {
+        "q": "The topology of a mineral stability field is bounded by ______ reactions.",
+        "type": "fill_blank",
+        "answers": [
+            "univariant"
+        ],
+        "other_options": [
+            "invariant",
+            "divariant",
+            "singular"
+        ]
+    },
+    {
+        "q": "Magnetite-ilmenite pairs are used as a geothermometer and oxygen barometer.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following textures indicates sub-solidus re-equilibration in plutonic rocks?",
+        "type": "mcq",
+        "o": [
+            "Kink bands in biotite",
+            "Dendritic olivine",
+            "Comb layering",
+            "Spinifex texture"
+        ]
+    },
+    {
+        "q": "The formula for the mineral sphene (titanite) is CaTiSiO5, an example of a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "nesosilicate"
+        ],
+        "other_options": [
+            "sorosilicate",
+            "cyclosilicate",
+            "inosilicate"
+        ]
+    },
+    {
+        "q": "Name the diagnostic ultramafic lava texture consisting of large, skeletal olivine crystals.",
+        "type": "short_answer",
+        "answers": [
+            "spinifex"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The reaction Forsterite + Anorthite = Garnet is a terminal reaction.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the dominant volatiles species in the C-O-H fluid system at eclogite facies?",
+        "type": "mcq",
+        "o": [
+            "H2O and CO2",
+            "CH4 and H2",
+            "SO2 and H2S",
+            "N2 and Ar"
+        ]
+    },
+    {
+        "q": "The conversion of pyrite to hematite under oxidizing conditions is called 'Boxwork' structure formation.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the ore texture to the genetic process:",
+        "type": "match",
+        "left": [
+            "Colloform banding",
+            "Cumulus texture",
+            "Brecciation",
+            "Comb structure"
+        ],
+        "right": [
+            "Epithermal open space filling",
+            "Magmatic settling",
+            "Tectonic hydrothermal",
+            "Pegmatite crystallization"
+        ]
+    },
+    {
+        "q": "The ionic radius of a cation largely controls its substitution in a crystal lattice.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which analytical technique uses X-ray absorption near-edge structure for valence state determination?",
+        "type": "mcq",
+        "o": [
+            "XANES",
+            "EPMA",
+            "CL",
+            "SIMS"
+        ]
+    },
+    {
+        "q": "What is the term for the non-equilibrium assemblage left over after a reaction fails to go to completion due to diffusion barriers?",
+        "type": "mcq",
+        "o": [
+            "Reaction texture (Corona/Symplectite)",
+            "Equilibrium assemblage",
+            "Porphyritic texture",
+            "Hyaline texture"
+        ]
+    },
+    {
+        "q": "In the Ti-in-biotite geothermometer, what compositional substitution is the primary control?",
+        "type": "mcq",
+        "o": [
+            "Ti + 2O -> Mg + 2OH",
+            "Ti -> Fe2+",
+            "Al -> Si",
+            "K -> Na"
+        ]
+    },
+    {
+        "q": "The mass-dependent fractionation of stable isotopes is primarily a function of the ______ of the isotopes.",
+        "type": "fill_blank",
+        "answers": [
+            "mass difference",
+            "relative mass"
+        ],
+        "other_options": [
+            "abundance",
+            "spin state",
+            "radius"
+        ]
+    },
+    {
+        "q": "Name the thermodynamic relation that describes the slope of a reaction boundary in P-T space.",
+        "type": "short_answer",
+        "answers": [
+            "Clausius-Clapeyron relation",
+            "Clapeyron equation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Ultra-high temperature (UHT) metamorphism is defined by temperatures exceeding 900 degrees C in the crust.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the ore forming process to the element association:",
+        "type": "match",
+        "left": [
+            "Magmatic sulfide",
+            "Lateral secretion",
+            "Porphyry",
+            "Placer"
+        ],
+        "right": [
+            "Ni-Cu-PGE",
+            "Au-Quartz vein",
+            "Cu-Mo-Au",
+            "Au-Sn-Ti"
+        ]
+    },
+    {
+        "q": "Which hypothetical mineral phase is believed to dominate the Earth's inner core alongside Fe-Ni?",
+        "type": "mcq",
+        "o": [
+            "Hexaferrum (HCP iron)",
+            "Ringwoodite",
+            "Bridgmanite",
+            "Calcium perovskite"
+        ]
+    },
+    {
+        "q": "The texture resulting from the ductile deformation of a rock in a high-strain shear zone is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mylonite"
+        ],
+        "other_options": [
+            "cataclasite",
+            "gouge",
+            "breccia"
+        ]
+    },
+    {
+        "q": "What is the dominant volatile phase in the mantle wedge above a subducting slab?",
+        "type": "mcq",
+        "o": [
+            "Aqueous fluids (H2O)",
+            "Carbon dioxide (CO2)",
+            "Methane (CH4)",
+            "Sulfur dioxide (SO2)"
+        ]
+    },
+    {
+        "q": "Partition coefficients for rare earth elements in garnet are heaviest REEs enriched relative to light REEs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which type of voltammetry is used to monitor redox state changes in silicates?",
+        "type": "mcq",
+        "o": [
+            "Cyclic voltammetry",
+            "Mass spectrometry",
+            "Infrared spectroscopy",
+            "Cathodoluminescence"
+        ]
+    },
+    {
+        "q": "Name the specific form of deformation twinning observed in calcite at low temperature.",
+        "type": "short_answer",
+        "answers": [
+            "e-twinning",
+            "mechanical twinning"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Gibbs energy minimization software 'Perple_X' and 'Theriak-Domino' are used for what purpose?",
+        "type": "mcq",
+        "o": [
+            "Calculating phase equilibrium diagrams and pseudosections",
+            "Measuring radiogenic isotopes",
+            "Modeling seismic wave velocities",
+            "Analyzing crystal orientation"
+        ]
+    },
+    {
+        "q": "The stable phase of carbon in the mantle below 150 km depth is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "diamond"
+        ],
+        "other_options": [
+            "graphite",
+            "lonsdaleite",
+            "cohenite"
+        ]
+    },
+    {
+        "q": "The 'Schreinemakers analysis' is used to determine the topology of petrogenetic grids.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the mineral to its characteristic infrared spectral band:",
+        "type": "match",
+        "left": [
+            "Kaolinite",
+            "Calcite",
+            "Olivine",
+            "Quartz"
+        ],
+        "right": [
+            "3695 cm-1 OH stretching",
+            "1430 cm-1 CO3 stretching",
+            "980 cm-1 SiO4 stretching",
+            "1080 cm-1 Si-O-Si stretching"
+        ]
+    },
+    {
+        "q": "Which rare high-pressure mineral structure is characterized by a percentage of edge-sharing octahedra?",
+        "type": "mcq",
+        "o": [
+            "Ilmenite structure",
+            "Perovskite structure",
+            "Spinel structure",
+            "Garnet structure"
+        ]
+    },
+    {
+        "q": "The Tschermak substitution in pyroxenes couples the exchange of Al-Al for ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Mg-Si"
+        ],
+        "other_options": [
+            "Ca-Na",
+            "Fe-Ti",
+            "K-Al"
+        ]
+    },
+    {
+        "q": "Name the accessory mineral used for Lu-Hf dating.",
+        "type": "short_answer",
+        "answers": [
+            "zircon",
+            "garnet"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Clapeyron slope for the breakdown of antigorite serpentine is negative.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which element ratio is considered a conservative tracer of subducted sediment in arc magmas?",
+        "type": "mcq",
+        "o": [
+            "Th/La",
+            "K/Rb",
+            "Sm/Nd",
+            "Zr/Hf"
+        ]
+    },
+    {
+        "q": "'Flame perthite' is a texture resulting from the partial replacement of K-feldspar by ______.",
+        "type": "fill_blank",
+        "answers": [
+            "albite",
+            "sodic plagioclase"
+        ],
+        "other_options": [
+            "quartz",
+            "microcline",
+            "muscovite"
+        ]
+    },
+    {
+        "q": "What is the stable polymorph of MgSiO3 at the CMB (Core-Mantle Boundary)?",
+        "type": "mcq",
+        "o": [
+            "Post-perovskite",
+            "Bridgmanite",
+            "Enstatite",
+            "Akimotoite"
+        ]
+    },
+    {
+        "q": "Match the LREE (Light Rare Earth Element) to its atomic number:",
+        "type": "match",
+        "left": [
+            "Lanthanum",
+            "Cerium",
+            "Neodymium",
+            "Samarium"
+        ],
+        "right": [
+            "57",
+            "58",
+            "60",
+            "62"
+        ]
+    },
+    {
+        "q": "The 'tweed' microstructure in alkali feldspar signals the onset of spinodal decomposition.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which mineral is the dominant agent for transporting water into the deep mantle?",
+        "type": "mcq",
+        "o": [
+            "Dense hydrous magnesium silicates (DHMS)",
+            "Mica",
+            "Amphibole",
+            "Clays"
+        ]
+    },
+    {
+        "q": "The chemical potential of a component must be ______ in all phases at equilibrium.",
+        "type": "fill_blank",
+        "answers": [
+            "equal",
+            "the same"
+        ],
+        "other_options": [
+            "different",
+            "maximized",
+            "minimized"
+        ]
+    },
+    {
+        "q": "Name the solid solution series between forsterite and fayalite.",
+        "type": "short_answer",
+        "answers": [
+            "olivine"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Cathodoluminescence (CL) images of zircons primarily reveal growth zoning and inherited cores.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which rare carbonate mineral of calcium, cerium, and lanthanum is diagnostic of igneous carbonatites?",
+        "type": "mcq",
+        "o": [
+            "Burbankite",
+            "Calcite",
+            "Dolomite",
+            "Ankerite"
+        ]
+    },
+    {
+        "q": "In the reaction boundary albite -> jadeite + quartz, the jadeite end-member stability increases with ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pressure"
+        ],
+        "other_options": [
+            "temperature",
+            "oxygen fugacity",
+            "silica activity"
+        ]
+    },
+    {
+        "q": "What is the precise crystal system of the mineral tourmaline?",
+        "type": "mcq",
+        "o": [
+            "Trigonal",
+            "Hexagonal",
+            "Monoclinic",
+            "Triclinic"
+        ]
+    },
+    {
+        "q": "Match the deformation mechanism to the depth/condition in the lithosphere:",
+        "type": "match",
+        "left": [
+            "Low-temperature plasticity",
+            "Dislocation creep",
+            "Diffusion creep (Coble)",
+            "Pressure solution"
+        ],
+        "right": [
+            "Shallow/Seismic zone",
+            "Mid-lower crust/Mantle",
+            "Grain boundary sliding (Fine grain)",
+            "Wet/Diagenetic environment"
+        ]
+    },
+    {
+        "q": "The Sm-Nd isotopic system is more resistant to metamorphic resetting than the Rb-Sr system.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which thermodynamic property is defined by the curvature of the G-X surface and drives spinodal decomposition?",
+        "type": "mcq",
+        "o": [
+            "Negative second derivative of Gibbs free energy",
+            "Positive volume change",
+            "Entropy of mixing",
+            "Enthalpy of formation"
+        ]
+    },
+    {
+        "q": "Ferropericlase is believed to be a dominant mineral in the lower mantle alongside ______.",
+        "type": "fill_blank",
+        "answers": [
+            "bridgmanite"
+        ],
+        "other_options": [
+            "ringwoodite",
+            "majorite",
+            "stishovite"
+        ]
+    },
+    {
+        "q": "Name the volatile-rich, silica-undersaturated igneous rock type associated with deep mantle sources and diamonds.",
+        "type": "short_answer",
+        "answers": [
+            "kimberlite",
+            "lamproite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The LREE/HREE ratio in crustal rocks increases with differentiation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which element is a compatible element in plagioclase feldspar during fractional crystallization?",
+        "type": "mcq",
+        "o": [
+            "Strontium (Sr)",
+            "Rubidium (Rb)",
+            "Barium (Ba)",
+            "Potassium (K)"
+        ]
+    },
+    {
+        "q": "The application of laser fluorination in isotope geochemistry is used primarily for the analysis of which element?",
+        "type": "mcq",
+        "o": [
+            "Oxygen",
+            "Carbon",
+            "Sulfur",
+            "Hydrogen"
+        ]
+    },
+    {
+        "q": "Garnet lherzolite xenoliths are direct samples of the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mantle",
+            "lithospheric mantle"
+        ],
+        "other_options": [
+            "core",
+            "lower crust",
+            "asthenosphere"
+        ]
+    },
+    {
+        "q": "The 'Kushiro boundary' refers to the pressure limit of amphibole stability in hydrous basalt.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the element to its Goldschmidt classification:",
+        "type": "match",
+        "left": [
+            "Uranium",
+            "Platinum",
+            "Sulfur",
+            "Argon"
+        ],
+        "right": [
+            "Lithophile",
+            "Siderophile",
+            "Chalcophile",
+            "Atmophile"
+        ]
+    },
+    {
+        "q": "Which analytical technique measures the oxygen isotope ratio in minerals using a focused primary ion beam?",
+        "type": "mcq",
+        "o": [
+            "SIMS (Secondary Ion Mass Spectrometry)",
+            "TIMS (Thermal Ionization)",
+            "MC-ICP-MS",
+            "EA-IRMS"
+        ]
+    },
+    {
+        "q": "The mineral 'majorite' is a high-pressure form of pyroxene with a ______ crystal structure.",
+        "type": "fill_blank",
+        "answers": [
+            "garnet"
+        ],
+        "other_options": [
+            "spinel",
+            "perovskite",
+            "ilmenite"
+        ]
+    },
+    {
+        "q": "Name the thermodynamic law defining the relationship between pressure, volume, and heat of a reaction.",
+        "type": "short_answer",
+        "answers": [
+            "Clausius-Clapeyron"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Wilson cycle' describes the opening and closing of ocean basins driven by mantle convection.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which terrane concept describes a slice of continental crust sandwiched in an accretionary prism?",
+        "type": "mcq",
+        "o": [
+            "Tectonic melange",
+            "Ophiolite",
+            "Strike-slip duplex",
+            "Allochthonous terrane"
+        ]
+    },
+    {
+        "q": "The variation of mineral composition across a single crystal as a function of radius is modeled using Rayleigh ______.",
+        "type": "fill_blank",
+        "answers": [
+            "fractionation",
+            "distillation"
+        ],
+        "other_options": [
+            "diffusion",
+            "partitioning",
+            "absorption"
+        ]
+    },
+    {
+        "q": "What is the name of the devolatilization reaction: muscovite + quartz -> K-feldspar + sillimanite + H2O?",
+        "type": "mcq",
+        "o": [
+            "Second sillimanite isograd",
+            "First melt reaction",
+            "Muscovite-out boundary",
+            "Wet solidus"
+        ]
+    },
+    {
+        "q": "Match the shock metamorphic effect to its pressure range:",
+        "type": "match",
+        "left": [
+            "Planar fractures (PFs)",
+            "Diaplectic glass",
+            "Stishovite formation",
+            "Vaporization"
+        ],
+        "right": [
+            "5-10 GPa",
+            "30-45 GPa",
+            "12-15 GPa",
+            ">50 GPa"
+        ]
+    },
+    {
+        "q": "Rutile is the high-pressure polymorph of TiO2 relative to anatase.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which mineral is the primary carrier of heat-producing elements (K, Th, U) in the continental lower crust?",
+        "type": "mcq",
+        "o": [
+            "Alkali feldspar and accessory phases",
+            "Olivine",
+            "Pyroxene",
+            "Garnet"
+        ]
+    },
+    {
+        "q": "The electrostatic valency principle for crystal structures was defined by ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Pauling"
+        ],
+        "other_options": [
+            "Goldschmidt",
+            "Bragg",
+            "Gibbs"
+        ]
+    },
+    {
+        "q": "Name the mineral group that constitutes the main sulfur reservoir in the mantle.",
+        "type": "short_answer",
+        "answers": [
+            "sulfides",
+            "monosulfide solid solution"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Gutenberg discontinuity marks the boundary between the solid mantle and liquid outer core.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which high-pressure mineral of Al2SiO5 is the stable phase in the mantle transition zone?",
+        "type": "mcq",
+        "o": [
+            "NAL phase (New Aluminous phase)",
+            "Sillimanite",
+            "Andalusite",
+            "Kyanite"
+        ]
+    },
+    {
+        "q": "The transfer of material by a fluid phase from areas of high pressure to low pressure is termed ______ transfer.",
+        "type": "fill_blank",
+        "answers": [
+            "solution transfer",
+            "pressure solution"
+        ],
+        "other_options": [
+            "vapor phase",
+            "hydrothermal",
+            "solid state"
+        ]
+    },
+    {
+        "q": "What is the technical name for the study of meteorites that contain chondrules?",
+        "type": "mcq",
+        "o": [
+            "Chondrite petrology",
+            "Achondrite astronomy",
+            "Irons meteorography",
+            "Tektite science"
+        ]
+    },
+    {
+        "q": "Match the pyroxene to its space group:",
+        "type": "match",
+        "left": [
+            "Diopside",
+            "Enstatite (Proto)",
+            "Pigeonitite",
+            "Jadeite"
+        ],
+        "right": [
+            "C2/c",
+            "Pbcn",
+            "P21/c",
+            "C2/c"
+        ]
+    },
+    {
+        "q": "The logarithmic depletions of elements in a spider diagram are normalized to a reference like chondrite or Primitive Mantle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which thermodynamic state variable is the Legendre transform of internal energy with respect to volume?",
+        "type": "mcq",
+        "o": [
+            "Enthalpy",
+            "Helmholtz free energy",
+            "Gibbs free energy",
+            "Entropy"
+        ]
+    },
+    {
+        "q": "The molar volume of pure phases is a critical input for ______ equations of state.",
+        "type": "fill_blank",
+        "answers": [
+            "solid solution",
+            "mixing"
+        ],
+        "other_options": [
+            "fluid dynamics",
+            "heat transfer",
+            "kinetic"
+        ]
+    },
+    {
+        "q": "Name the process where a mineral maintains its overall morphology but chemically changes internally.",
+        "type": "short_answer",
+        "answers": [
+            "pseudomorphism",
+            "replacement"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The post-peak decompression melting of metamorphic rocks produces 'leucosome' networks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a perfectly ordered intermediate plagioclase phase?",
+        "type": "mcq",
+        "o": [
+            "Boggild intergrowth (Labradorite)",
+            "Sanidine",
+            "Microcline",
+            "Anorthoclase"
+        ]
+    },
+    {
+        "q": "The equation R = R0 * (1 - F)^(D-1) describes the concentration of an element during ______.",
+        "type": "fill_blank",
+        "answers": [
+            "fractional melting",
+            "batch melting"
+        ],
+        "other_options": [
+            "crystal fractionation",
+            "assimilation",
+            "mixing"
+        ]
+    },
+    {
+        "q": "Which instrument uses an electron beam to produce X-rays for micro-chemical analysis in geology?",
+        "type": "mcq",
+        "o": [
+            "EPMA (Electron Probe Micro-Analyzer)",
+            "LA-ICP-MS",
+            "XRD",
+            "SHRIMP"
+        ]
+    },
+    {
+        "q": "Match the rock to its dominant secondary alteration type:",
+        "type": "match",
+        "left": [
+            "Granite (Greisen)",
+            "Peridotite",
+            "Andesite",
+            "Carbonatite"
+        ],
+        "right": [
+            "Muscovite/Topaz",
+            "Serpentinite",
+            "Propylitic",
+            "Fenitized"
+        ]
+    },
+    {
+        "q": "The entropy of mixing is zero for an ideal gas or liquid solution.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the key thermodynamic property that controls the formation of exsolution lamellae?",
+        "type": "mcq",
+        "o": [
+            "Positive energy of mixing",
+            "Negative volume change",
+            "Decreasing entropy",
+            "Increasing thermal conductivity"
+        ]
+    },
+    {
+        "q": "The standard state for a pure mineral at pressure and temperature of interest is its ______ phase.",
+        "type": "fill_blank",
+        "answers": [
+            "pure end-member"
+        ],
+        "other_options": [
+            "hydrated",
+            "mixed",
+            "glassy"
+        ]
+    },
+    {
+        "q": "Name the uranium-rich, metamict accessory mineral often used in geochronology.",
+        "type": "short_answer",
+        "answers": [
+            "zircon",
+            "monazite",
+            "uraninite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The crystallographic site preference of transition elements in spinel structure is controlled by Crystal Field Stabilization Energy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which rock type is the product of thermal metamorphism of impure limestone/siliceous dolomite?",
+        "type": "mcq",
+        "o": [
+            "Skarn",
+            "Hornfels",
+            "Marble",
+            "Quartzite"
+        ]
+    },
+    {
+        "q": "The topology of an isobaric T-X section is constrained by the 'Morey-Schreinemakers' rule of ______ contact.",
+        "type": "fill_blank",
+        "answers": [
+            "single"
+        ],
+        "other_options": [
+            "double",
+            "triple",
+            "sequential"
+        ]
+    },
+    {
+        "q": "What is the mechanism of diffusion driven by a gradient in chemical potential?",
+        "type": "mcq",
+        "o": [
+            "Chemical diffusion",
+            "Thermal diffusion",
+            "Barodiffusion",
+            "Self-diffusion"
+        ]
+    },
+    {
+        "q": "Match the element ratio to the process it traces:",
+        "type": "match",
+        "left": [
+            "Nb/Ta",
+            "Sr/Y",
+            "Ce/Pb",
+            "Eu/Eu*"
+        ],
+        "right": [
+            "Rutile fractionation",
+            "Garnet in source",
+            "Fluid addition from slab",
+            "Plagioclase fractionation"
+        ]
+    },
+    {
+        "q": "Lonsdaleite is a hexagonal polytype of diamond found in impact craters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which rare earth element is specifically concentrated in apatite from carbonatites?",
+        "type": "mcq",
+        "o": [
+            "Light REEs (La, Ce, Nd)",
+            "Heavy REEs (Yb, Lu)",
+            "Europium",
+            "Middle REEs (Gd, Tb)"
+        ]
+    },
+    {
+        "q": "The phase equilibrium constant K depends on the standard state Gibbs free energy change: dG0 = -RT ln(K).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name of the low-pressure polymorph of CaCO3 that forms in high-stress environments and meteorites?",
+        "type": "mcq",
+        "o": [
+            "Aragonite",
+            "Calcite",
+            "Vaterite",
+            "Dolomite"
+        ]
+    },
+    {
+        "q": "The specific heat capacity Cp of crystalline solids approaches zero at absolute zero according to the ______ Law.",
+        "type": "fill_blank",
+        "answers": [
+            "Third Law of Thermodynamics"
+        ],
+        "other_options": [
+            "First Law",
+            "Second Law",
+            "Newton's"
+        ]
+    },
+    {
+        "q": "Name the characteristic high-pressure, high-temperature mineral of the lower mantle with a silicate perovskite structure.",
+        "type": "short_answer",
+        "answers": [
+            "bridgmanite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of 'Obduction' refers to the emplacement of oceanic crust over continental crust.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which mineral indicator is used to estimate the oxygen fugacity of a magma using the ratio of Eu2+ to Eu3+?",
+        "type": "mcq",
+        "o": [
+            "Plagioclase feldspar (Eu anomaly)",
+            "Garnet",
+            "Clinopyroxene",
+            "Spinel"
+        ]
+    },
+    {
+        "q": "The term 'ZTR index' in heavy mineral analysis stands for Zircon, Tourmaline, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "rutile"
+        ],
+        "other_options": [
+            "quartz",
+            "feldspar",
+            "apatite"
+        ]
+    },
+    {
+        "q": "What is the name of the deep-focus earthquake mechanism triggered by the eclogitization of crust?",
+        "type": "mcq",
+        "o": [
+            "Transformational faulting (Anticrack theory)",
+            "Elastic rebound",
+            "Stick-slip friction",
+            "Hydro-fracturing"
+        ]
+    },
+    {
+        "q": "Match the sedimentary provenance type to its tectonic setting:",
+        "type": "match",
+        "left": [
+            "Recycled orogen",
+            "Craton interior",
+            "Magmatic arc",
+            "Continental block"
+        ],
+        "right": [
+            "Quartzose sands",
+            "Quartz arenites",
+            "Feldspathic sands",
+            "Lithic sands"
+        ]
+    },
+    {
+        "q": "The thermodynamic activity of a pure phase in its standard state is exactly 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which accessory mineral, containing uranium, is used for fission-track dating?",
+        "type": "mcq",
+        "o": [
+            "Apatite",
+            "Calcite",
+            "Quartz",
+            "Magnetite"
+        ]
+    },
+    {
+        "q": "The viscosity of a silicate melt decreases with the addition of network ______ like H2O.",
+        "type": "fill_blank",
+        "answers": [
+            "modifiers"
+        ],
+        "other_options": [
+            "formers",
+            "bridges",
+            "cations"
+        ]
+    },
+    {
+        "q": "Name the dense polymorph of silica stable at mantle pressures above 9 GPa.",
+        "type": "short_answer",
+        "answers": [
+            "stishovite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Siamese twins' law is a common contact twin in the mineral staurolite.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]

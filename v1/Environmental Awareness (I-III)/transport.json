@@ -1,0 +1,6813 @@
+[
+    {
+        "q": "How many colors are there in a standard traffic light?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "What do we call a vehicle that takes us from one place to another?",
+        "type": "mcq",
+        "o": [
+            "Transport",
+            "Kitchen",
+            "Bedroom",
+            "Garden"
+        ]
+    },
+    {
+        "q": "Which of these travels on land?",
+        "type": "mcq",
+        "o": [
+            "Car",
+            "Boat",
+            "Helicopter",
+            "Submarine"
+        ]
+    },
+    {
+        "q": "Name one vehicle that flies in the sky.",
+        "type": "short_answer",
+        "answers": [
+            "aeroplane",
+            "airplane",
+            "plane",
+            "helicopter",
+            "rocket",
+            "jet"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the transport to the path it travels on.",
+        "type": "memory",
+        "pairs": {
+            "Train": "Runs on tracks",
+            "Boat": "Floats on water",
+            "Car": "Drives on roads"
+        }
+    },
+    {
+        "q": "Which of these moves on water?",
+        "type": "mcq",
+        "o": [
+            "Ship",
+            "Bus",
+            "Train",
+            "Bicycle"
+        ]
+    },
+    {
+        "q": "Which of these does NOT belong to air transport?",
+        "type": "odd_one_out",
+        "options": [
+            "Helicopter",
+            "Airplane",
+            "Jet",
+            "Bicycle"
+        ],
+        "correct": "Bicycle"
+    },
+    {
+        "q": "Swipe RIGHT for Water transport, LEFT for Land transport.",
+        "type": "swipe_cards",
+        "left_label": "Land",
+        "right_label": "Water",
+        "cards": {
+            "Car": "left",
+            "Bus": "left",
+            "Boat": "right",
+            "Ship": "right"
+        }
+    },
+    {
+        "q": "A ______ is a long vehicle that runs on tracks.",
+        "type": "fill_blank",
+        "answers": [
+            "train"
+        ],
+        "other_options": [
+            "car",
+            "boat",
+            "plane"
+        ]
+    },
+    {
+        "q": "Which vehicle is used to carry many children to school?",
+        "type": "mcq",
+        "o": [
+            "School bus",
+            "Fire engine",
+            "Ambulance",
+            "Police car"
+        ]
+    },
+    {
+        "q": "What is the most common transport for short distances using our own energy?",
+        "type": "mcq",
+        "o": [
+            "Walking",
+            "Flying",
+            "Sailing",
+            "Diving"
+        ]
+    },
+    {
+        "q": "Cars and buses cause air pollution. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a mode of transport?",
+        "type": "mcq",
+        "o": [
+            "Table",
+            "Bicycle",
+            "Scooter",
+            "Van"
+        ]
+    },
+    {
+        "q": "What do you wear to stay safe while riding a bicycle?",
+        "type": "mcq",
+        "o": [
+            "Helmet",
+            "Gloves",
+            "Scarf",
+            "Sunglasses"
+        ]
+    },
+    {
+        "q": "Unscramble the word: a road vehicle with four wheels.",
+        "type": "word_scramble",
+        "answer": "CAR",
+        "decoys": "XYZ"
+    },
+    {
+        "q": "Where does a submarine travel?",
+        "type": "mcq",
+        "o": [
+            "Underwater",
+            "On roads",
+            "In the air",
+            "On tracks"
+        ]
+    },
+    {
+        "q": "We should cross the road at a ______ crossing.",
+        "type": "fill_blank",
+        "answers": [
+            "zebra"
+        ],
+        "other_options": [
+            "railway",
+            "river",
+            "sky"
+        ]
+    },
+    {
+        "q": "Match the vehicle with where it moves.",
+        "type": "match",
+        "left": [
+            "Car",
+            "Boat",
+            "Helicopter",
+            "Train"
+        ],
+        "right": [
+            "Road",
+            "Water",
+            "Air",
+            "Track"
+        ]
+    },
+    {
+        "q": "Which of these is an air transport?",
+        "type": "mcq",
+        "o": [
+            "Rocket",
+            "Truck",
+            "Canoe",
+            "Scooter"
+        ]
+    },
+    {
+        "q": "Why is transport important for us?",
+        "type": "mcq",
+        "o": [
+            "It helps us travel and move goods",
+            "It makes our food cold",
+            "It cleans our clothes",
+            "It grows plants"
+        ]
+    },
+    {
+        "q": "What is the colour of a stop sign?",
+        "type": "short_answer",
+        "answers": [
+            "red"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which transport runs on rails and carries many people in a city?",
+        "type": "mcq",
+        "o": [
+            "Metro train",
+            "Taxi",
+            "Rickshaw",
+            "Cycle"
+        ]
+    },
+    {
+        "q": "A hot air balloon travels in the air. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What should you always wear inside a car to be safe?",
+        "type": "mcq",
+        "o": [
+            "Seat belt",
+            "Hat",
+            "Socks",
+            "Raincoat"
+        ]
+    },
+    {
+        "q": "Complete the sentence about land vehicles:",
+        "type": "inline_dropdown",
+        "text": "A [0] runs on roads and a [1] runs on tracks.",
+        "dropdowns": [
+            {
+                "correct": "car",
+                "options": [
+                    "car",
+                    "boat",
+                    "plane"
+                ]
+            },
+            {
+                "correct": "train",
+                "options": [
+                    "train",
+                    "ship",
+                    "bus"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A ______ is a small boat often used on rivers.",
+        "type": "fill_blank",
+        "answers": [
+            "canoe"
+        ],
+        "other_options": [
+            "truck",
+            "plane",
+            "bus"
+        ]
+    },
+    {
+        "q": "Which of these is a land transport with two wheels?",
+        "type": "mcq",
+        "o": [
+            "Motorcycle",
+            "Ship",
+            "Glider",
+            "Ferry"
+        ]
+    },
+    {
+        "q": "What sound does a train horn make to warn people?",
+        "type": "short_answer",
+        "answers": [
+            "honk",
+            "horn",
+            "toot"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which vehicle helps take sick people to hospital?",
+        "type": "mcq",
+        "o": [
+            "Ambulance",
+            "Fire truck",
+            "Mail van",
+            "Garbage truck"
+        ]
+    },
+    {
+        "q": "Match the transport to its driver.",
+        "type": "memory",
+        "pairs": {
+            "Airplane": "Pilot",
+            "Ship": "Captain",
+            "Bus": "Driver"
+        }
+    },
+    {
+        "q": "Why should we not put our hands outside a moving bus?",
+        "type": "mcq",
+        "o": [
+            "To avoid getting hurt",
+            "To feel the wind",
+            "To wave at friends",
+            "To catch flies"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Air transport, LEFT for Land transport.",
+        "type": "swipe_cards",
+        "left_label": "Land",
+        "right_label": "Air",
+        "cards": {
+            "Helicopter": "right",
+            "Airplane": "right",
+            "Train": "left",
+            "Truck": "left"
+        }
+    },
+    {
+        "q": "Unscramble the word: a large vehicle that carries many people on the road.",
+        "type": "word_scramble",
+        "answer": "BUS",
+        "decoys": "QTZ"
+    },
+    {
+        "q": "Complete the sentence about water transport:",
+        "type": "inline_dropdown",
+        "text": "We use a [0] to travel across the river and a [1] travels deep underwater.",
+        "dropdowns": [
+            {
+                "correct": "boat",
+                "options": [
+                    "boat",
+                    "car",
+                    "train"
+                ]
+            },
+            {
+                "correct": "submarine",
+                "options": [
+                    "submarine",
+                    "helicopter",
+                    "bus"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "How many wheels does a standard bicycle have?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "Name a water transport that is big and carries goods across oceans.",
+        "type": "short_answer",
+        "answers": [
+            "ship",
+            "cargo ship",
+            "freighter",
+            "container ship"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is the slowest way to travel?",
+        "type": "mcq",
+        "o": [
+            "Walking",
+            "Cycling",
+            "Driving",
+            "Flying"
+        ]
+    },
+    {
+        "q": "A ______ has a siren and helps put out fires.",
+        "type": "fill_blank",
+        "answers": [
+            "fire engine"
+        ],
+        "other_options": [
+            "ambulance",
+            "police car",
+            "taxi"
+        ]
+    },
+    {
+        "q": "Which of these travels in space?",
+        "type": "mcq",
+        "o": [
+            "Spaceship",
+            "Submarine",
+            "Sailboat",
+            "Cable car"
+        ]
+    },
+    {
+        "q": "Walking is good for our health and the environment. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call a person who drives a train?",
+        "type": "mcq",
+        "o": [
+            "Loco pilot",
+            "Captain",
+            "Driver",
+            "Pilot"
+        ]
+    },
+    {
+        "q": "Which of these runs on electricity?",
+        "type": "mcq",
+        "o": [
+            "Electric car",
+            "Diesel bus",
+            "Petrol scooter",
+            "Steam train"
+        ]
+    },
+    {
+        "q": "Match the worker with their transport.",
+        "type": "match",
+        "left": [
+            "Pilot",
+            "Captain",
+            "Driver",
+            "Astronaut"
+        ],
+        "right": [
+            "Aeroplane",
+            "Ship",
+            "Bus",
+            "Spaceship"
+        ]
+    },
+    {
+        "q": "Which of these is a small water transport?",
+        "type": "mcq",
+        "o": [
+            "Raft",
+            "Truck",
+            "Helicopter",
+            "Tractor"
+        ]
+    },
+    {
+        "q": "What colour light on a traffic signal means 'Go'?",
+        "type": "short_answer",
+        "answers": [
+            "green"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "How many wheels does a tricycle have?",
+        "type": "mcq",
+        "o": [
+            "Three",
+            "One",
+            "Two",
+            "Four"
+        ]
+    },
+    {
+        "q": "A place where aeroplanes land and take off is called an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "airport"
+        ],
+        "other_options": [
+            "station",
+            "port",
+            "stand"
+        ]
+    },
+    {
+        "q": "Which transport uses animals to move?",
+        "type": "mcq",
+        "o": [
+            "Bullock cart",
+            "Metro train",
+            "Motorboat",
+            "Jet plane"
+        ]
+    },
+    {
+        "q": "Pulling or pushing a cart uses our own energy. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which vehicle is used to catch criminals?",
+        "type": "mcq",
+        "o": [
+            "Police car",
+            "Ambulance",
+            "School van",
+            "Garbage truck"
+        ]
+    },
+    {
+        "q": "Match the emergency vehicle to its job.",
+        "type": "memory",
+        "pairs": {
+            "Ambulance": "Helps sick people",
+            "Fire engine": "Puts out fires",
+            "Police car": "Catches robbers"
+        }
+    },
+    {
+        "q": "Name a transport that helps clean our streets.",
+        "type": "short_answer",
+        "answers": [
+            "garbage truck",
+            "sweeper truck",
+            "dustcart",
+            "rubbish lorry"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a public transport?",
+        "type": "mcq",
+        "o": [
+            "City bus",
+            "Private jet",
+            "Personal car",
+            "Bicycle"
+        ]
+    },
+    {
+        "q": "Which of these does NOT belong to water transport?",
+        "type": "odd_one_out",
+        "options": [
+            "Ship",
+            "Boat",
+            "Submarine",
+            "Train"
+        ],
+        "correct": "Train"
+    },
+    {
+        "q": "A vehicle that carries mail and letters is called a ______ van.",
+        "type": "fill_blank",
+        "answers": [
+            "mail",
+            "postal"
+        ],
+        "other_options": [
+            "fire",
+            "police",
+            "garbage"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a land transport?",
+        "type": "mcq",
+        "o": [
+            "Glider",
+            "Tractor",
+            "Jeep",
+            "Bicycle"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if it needs Fuel, LEFT if it is Man-powered.",
+        "type": "swipe_cards",
+        "left_label": "No Fuel",
+        "right_label": "Needs Fuel",
+        "cards": {
+            "Car": "right",
+            "Bus": "right",
+            "Bicycle": "left",
+            "Skateboard": "left"
+        }
+    },
+    {
+        "q": "What do we call the path where trains run?",
+        "type": "mcq",
+        "o": [
+            "Track",
+            "Road",
+            "Runway",
+            "Canal"
+        ]
+    },
+    {
+        "q": "A ______ is a vehicle pulled by horses.",
+        "type": "fill_blank",
+        "answers": [
+            "carriage"
+        ],
+        "other_options": [
+            "train",
+            "bus",
+            "plane"
+        ]
+    },
+    {
+        "q": "Unscramble the word: a small vehicle used on water.",
+        "type": "word_scramble",
+        "answer": "BOAT",
+        "decoys": "PLM"
+    },
+    {
+        "q": "Which of these is a water transport that goes completely underwater?",
+        "type": "mcq",
+        "o": [
+            "Submarine",
+            "Yacht",
+            "Canoe",
+            "Kayak"
+        ]
+    },
+    {
+        "q": "Which part of the car makes it stop?",
+        "type": "mcq",
+        "o": [
+            "Brakes",
+            "Steering wheel",
+            "Seat",
+            "Mirror"
+        ]
+    },
+    {
+        "q": "Using a cycle instead of a car helps reduce air pollution. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which animal is used for transport in deserts?",
+        "type": "mcq",
+        "o": [
+            "Camel",
+            "Dog",
+            "Cat",
+            "Fish"
+        ]
+    },
+    {
+        "q": "Name the vehicle that looks like a motorcycle but has three wheels and carries passengers.",
+        "type": "short_answer",
+        "answers": [
+            "auto rickshaw",
+            "auto",
+            "tuk-tuk",
+            "rickshaw"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What should we do before crossing the road?",
+        "type": "mcq",
+        "o": [
+            "Look both ways",
+            "Run fast",
+            "Close our eyes",
+            "Read a book"
+        ]
+    },
+    {
+        "q": "A ______ is a water transport that carries people across a river or a short sea route.",
+        "type": "fill_blank",
+        "answers": [
+            "ferry"
+        ],
+        "other_options": [
+            "bus",
+            "train",
+            "airplane"
+        ]
+    },
+    {
+        "q": "Complete the sentence about flying:",
+        "type": "inline_dropdown",
+        "text": "An [0] flies high in the sky and a [1] can hover in one place.",
+        "dropdowns": [
+            {
+                "correct": "airplane",
+                "options": [
+                    "airplane",
+                    "train",
+                    "bicycle"
+                ]
+            },
+            {
+                "correct": "helicopter",
+                "options": [
+                    "helicopter",
+                    "ship",
+                    "car"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these transports uses the wind to move?",
+        "type": "mcq",
+        "o": [
+            "Sailboat",
+            "Car",
+            "Train",
+            "Helicopter"
+        ]
+    },
+    {
+        "q": "What do we call a person who flies an aircraft?",
+        "type": "mcq",
+        "o": [
+            "Pilot",
+            "Driver",
+            "Captain",
+            "Cyclist"
+        ]
+    },
+    {
+        "q": "Match the transport with the number of wheels they usually have.",
+        "type": "match",
+        "left": [
+            "Bicycle",
+            "Car",
+            "Tricycle",
+            "Bus"
+        ],
+        "right": [
+            "Two",
+            "Four",
+            "Three",
+            "Many"
+        ]
+    },
+    {
+        "q": "Match the traffic light color to its meaning.",
+        "type": "memory",
+        "pairs": {
+            "Red": "Stop moving",
+            "Yellow": "Wait and be ready",
+            "Green": "Go safely"
+        }
+    },
+    {
+        "q": "Which of these is the fastest mode of transport?",
+        "type": "mcq",
+        "o": [
+            "Rocket",
+            "Bicycle",
+            "Boat",
+            "Car"
+        ]
+    },
+    {
+        "q": "Aeroplanes carry people and goods across countries and oceans. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Safe actions, LEFT for Unsafe actions.",
+        "type": "swipe_cards",
+        "left_label": "Unsafe",
+        "right_label": "Safe",
+        "cards": {
+            "Wearing a helmet": "right",
+            "Using zebra crossing": "right",
+            "Running across road": "left",
+            "Playing on the street": "left"
+        }
+    },
+    {
+        "q": "Where do ships dock to load and unload goods?",
+        "type": "mcq",
+        "o": [
+            "Port",
+            "Station",
+            "Airport",
+            "Bus stop"
+        ]
+    },
+    {
+        "q": "We should not play ______ the road.",
+        "type": "fill_blank",
+        "answers": [
+            "on",
+            "near"
+        ],
+        "other_options": [
+            "inside",
+            "above",
+            "under"
+        ]
+    },
+    {
+        "q": "Which of these is a small air transport with rotating blades on top?",
+        "type": "mcq",
+        "o": [
+            "Helicopter",
+            "Bus",
+            "Ship",
+            "Car"
+        ]
+    },
+    {
+        "q": "Why do we have zebra crossings on roads?",
+        "type": "mcq",
+        "o": [
+            "For people to cross safely",
+            "For animals to walk",
+            "For cars to park",
+            "For playing"
+        ]
+    },
+    {
+        "q": "What do ambulance and fire engine have that warns others to give way?",
+        "type": "short_answer",
+        "answers": [
+            "siren",
+            "loud siren",
+            "alarm"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT a water transport?",
+        "type": "mcq",
+        "o": [
+            "Truck",
+            "Boat",
+            "Ship",
+            "Raft"
+        ]
+    },
+    {
+        "q": "Unscramble the word: a very large boat that travels on oceans.",
+        "type": "word_scramble",
+        "answer": "SHIP",
+        "decoys": "WRY"
+    },
+    {
+        "q": "A ______ is an air transport without an engine that glides on air currents.",
+        "type": "fill_blank",
+        "answers": [
+            "glider"
+        ],
+        "other_options": [
+            "car",
+            "boat",
+            "bike"
+        ]
+    },
+    {
+        "q": "Which of these is used to carry heavy goods on farms?",
+        "type": "mcq",
+        "o": [
+            "Tractor",
+            "Scooter",
+            "Canoe",
+            "Bicycle"
+        ]
+    },
+    {
+        "q": "Cycling is a form of transport that does not use fuel. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about traffic signals:",
+        "type": "inline_dropdown",
+        "text": "The [0] light tells us to stop, and the [1] light tells us to go.",
+        "dropdowns": [
+            {
+                "correct": "red",
+                "options": [
+                    "red",
+                    "blue",
+                    "green"
+                ]
+            },
+            {
+                "correct": "green",
+                "options": [
+                    "green",
+                    "yellow",
+                    "black"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which transport is pulled by dogs in snowy areas?",
+        "type": "mcq",
+        "o": [
+            "Sled",
+            "Cart",
+            "Jeep",
+            "Van"
+        ]
+    },
+    {
+        "q": "What do we call a long line of train cars joined together?",
+        "type": "short_answer",
+        "answers": [
+            "train",
+            "railway train"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "How many wheels does a standard car have?",
+        "type": "slider",
+        "min": 2,
+        "max": 8,
+        "correct": 4
+    },
+    {
+        "q": "Match the animal to where it pulls a cart or carries people.",
+        "type": "memory",
+        "pairs": {
+            "Camel": "Desert sand",
+            "Dog sled": "Snow and ice",
+            "Bullock": "Village roads"
+        }
+    },
+    {
+        "q": "Which of these is a two-wheeled transport pulled by a person?",
+        "type": "mcq",
+        "o": [
+            "Rickshaw",
+            "Aeroplane",
+            "Helicopter",
+            "Ship"
+        ]
+    },
+    {
+        "q": "Match the vehicle with the fuel it often uses.",
+        "type": "match",
+        "left": [
+            "Petrol car",
+            "Electric train",
+            "Sailboat",
+            "Bicycle"
+        ],
+        "right": [
+            "Petrol",
+            "Electricity",
+            "Wind",
+            "Human energy"
+        ]
+    },
+    {
+        "q": "Which place do we go to catch a train?",
+        "type": "mcq",
+        "o": [
+            "Railway station",
+            "Airport",
+            "Bus stop",
+            "Harbour"
+        ]
+    },
+    {
+        "q": "A ______ carries many people in the sky.",
+        "type": "fill_blank",
+        "answers": [
+            "plane",
+            "aeroplane",
+            "airplane"
+        ],
+        "other_options": [
+            "boat",
+            "car",
+            "train"
+        ]
+    },
+    {
+        "q": "Which of these is a road safety rule?",
+        "type": "mcq",
+        "o": [
+            "Always wear a helmet on a bike",
+            "Always sleep on the road",
+            "Always run on the street",
+            "Always play near cars"
+        ]
+    },
+    {
+        "q": "Which of these does NOT have wheels?",
+        "type": "odd_one_out",
+        "options": [
+            "Car",
+            "Bus",
+            "Train",
+            "Boat"
+        ],
+        "correct": "Boat"
+    },
+    {
+        "q": "Walking on the footpath is unsafe. True or False?",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which transport can carry hundreds of passengers across the ocean?",
+        "type": "mcq",
+        "o": [
+            "Cruise ship",
+            "Raft",
+            "Canoe",
+            "Paddle boat"
+        ]
+    },
+    {
+        "q": "Name one thing that helps us see at night while driving.",
+        "type": "short_answer",
+        "answers": [
+            "headlight",
+            "headlights",
+            "street light",
+            "streetlight"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a vehicle specially made for farming?",
+        "type": "mcq",
+        "o": [
+            "Tractor",
+            "Scooter",
+            "Auto rickshaw",
+            "School bus"
+        ]
+    },
+    {
+        "q": "A ______ is a water transport with a sail.",
+        "type": "fill_blank",
+        "answers": [
+            "sailboat",
+            "yacht"
+        ],
+        "other_options": [
+            "truck",
+            "car",
+            "helicopter"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Public transport, LEFT for Private transport.",
+        "type": "swipe_cards",
+        "left_label": "Private",
+        "right_label": "Public",
+        "cards": {
+            "City Bus": "right",
+            "Metro Train": "right",
+            "Your own bicycle": "left",
+            "Family car": "left"
+        }
+    },
+    {
+        "q": "Which colour light on a traffic signal means 'Stop'?",
+        "type": "mcq",
+        "o": [
+            "Red",
+            "Yellow",
+            "Green",
+            "Blue"
+        ]
+    },
+    {
+        "q": "What is the name of a vehicle that travels on a single rail or track?",
+        "type": "mcq",
+        "o": [
+            "Monorail",
+            "Bicycle",
+            "Scooter",
+            "Bus"
+        ]
+    },
+    {
+        "q": "Which of these is a water transport with pedals?",
+        "type": "mcq",
+        "o": [
+            "Paddle boat",
+            "Submarine",
+            "Ship",
+            "Boat"
+        ]
+    },
+    {
+        "q": "Unscramble the word: a long vehicle that runs on rails.",
+        "type": "word_scramble",
+        "answer": "TRAIN",
+        "decoys": "KMX"
+    },
+    {
+        "q": "Aeroplanes take off and land at a port. True or False?",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Why is transport important for people living in villages?",
+        "type": "mcq",
+        "o": [
+            "To carry crops to market",
+            "To swim in the river",
+            "To climb mountains",
+            "To fly kites"
+        ]
+    },
+    {
+        "q": "Name a flying transport that helps put out forest fires.",
+        "type": "short_answer",
+        "answers": [
+            "helicopter",
+            "firefighting plane",
+            "water bomber"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT a way to travel on water?",
+        "type": "mcq",
+        "o": [
+            "Skateboard",
+            "Kayak",
+            "Canoe",
+            "Raft"
+        ]
+    },
+    {
+        "q": "A place where many buses stop to pick up people is called a bus ______.",
+        "type": "fill_blank",
+        "answers": [
+            "stop",
+            "stand"
+        ],
+        "other_options": [
+            "airport",
+            "port",
+            "track"
+        ]
+    },
+    {
+        "q": "What is the main use of a cargo ship?",
+        "type": "mcq",
+        "o": [
+            "Carrying goods",
+            "Fishing",
+            "Racing",
+            "Sightseeing"
+        ]
+    },
+    {
+        "q": "Match the air transport with its feature.",
+        "type": "match",
+        "left": [
+            "Helicopter",
+            "Rocket",
+            "Hot air balloon",
+            "Jet plane"
+        ],
+        "right": [
+            "Blades on top",
+            "Flies to space",
+            "Large balloon filled with hot air",
+            "Very fast and has jet engines"
+        ]
+    },
+    {
+        "q": "Which part of a bicycle helps it move forward?",
+        "type": "mcq",
+        "o": [
+            "Pedals and chain",
+            "Bell",
+            "Seat",
+            "Basket"
+        ]
+    },
+    {
+        "q": "Cars give out smoke that can make the air dirty. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a clean and green transport?",
+        "type": "mcq",
+        "o": [
+            "Bicycle",
+            "Diesel truck",
+            "Petrol car",
+            "Steam train"
+        ]
+    },
+    {
+        "q": "Complete the sentence about safety gear:",
+        "type": "inline_dropdown",
+        "text": "Always wear a [0] when riding a bike, and fasten your [1] in a car.",
+        "dropdowns": [
+            {
+                "correct": "helmet",
+                "options": [
+                    "helmet",
+                    "hat",
+                    "jacket"
+                ]
+            },
+            {
+                "correct": "seatbelt",
+                "options": [
+                    "seatbelt",
+                    "shoelace",
+                    "bag"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What do you call a person who rows a boat?",
+        "type": "mcq",
+        "o": [
+            "Boatman",
+            "Pilot",
+            "Driver",
+            "Captain"
+        ]
+    },
+    {
+        "q": "A ______ is an underground railway system in big cities.",
+        "type": "fill_blank",
+        "answers": [
+            "metro",
+            "subway"
+        ],
+        "other_options": [
+            "bus",
+            "tram",
+            "ferry"
+        ]
+    },
+    {
+        "q": "Which of these is NOT an emergency vehicle?",
+        "type": "mcq",
+        "o": [
+            "Ice cream van",
+            "Fire engine",
+            "Ambulance",
+            "Police car"
+        ]
+    },
+    {
+        "q": "Name the two-wheeled transport that you push with your foot.",
+        "type": "short_answer",
+        "answers": [
+            "scooter",
+            "kick scooter"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a slow land transport used to carry logs?",
+        "type": "mcq",
+        "o": [
+            "Elephant",
+            "Cheetah",
+            "Bird",
+            "Fish"
+        ]
+    },
+    {
+        "q": "What is the main reason we use transport to go to school?",
+        "type": "mcq",
+        "o": [
+            "To reach school on time",
+            "To play on the road",
+            "To meet animals",
+            "To see the river"
+        ]
+    },
+    {
+        "q": "We should always wear a ______ while riding a motorcycle.",
+        "type": "fill_blank",
+        "answers": [
+            "helmet"
+        ],
+        "other_options": [
+            "cap",
+            "scarf",
+            "sunglasses"
+        ]
+    },
+    {
+        "q": "A jet plane flies faster than a bird. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these vehicles is used to take out trapped miners from underground?",
+        "type": "mcq",
+        "o": [
+            "Rescue capsule",
+            "Racing car",
+            "Fishing boat",
+            "City bus"
+        ]
+    },
+    {
+        "q": "Name the water transport that is very light and used in Olympics.",
+        "type": "short_answer",
+        "answers": [
+            "kayak",
+            "canoe",
+            "rowing boat"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the name of a road that goes over a river or a valley?",
+        "type": "mcq",
+        "o": [
+            "Bridge",
+            "Tunnel",
+            "Track",
+            "Runway"
+        ]
+    },
+    {
+        "q": "Which of these is a cable car an example of?",
+        "type": "mcq",
+        "o": [
+            "Air transport",
+            "Land transport",
+            "Water transport",
+            "Space transport"
+        ]
+    },
+    {
+        "q": "Which vehicle is best to travel long distances on land without stopping for traffic?",
+        "type": "mcq",
+        "o": [
+            "Train",
+            "Auto rickshaw",
+            "Bicycle",
+            "Horse cart"
+        ]
+    },
+    {
+        "q": "What helps a ship float on water?",
+        "type": "mcq",
+        "o": [
+            "Its hollow shape and air inside",
+            "Its heavy anchor only",
+            "Its tall mast",
+            "Its colour"
+        ]
+    },
+    {
+        "q": "Name the fuel used in most aeroplanes.",
+        "type": "short_answer",
+        "answers": [
+            "jet fuel",
+            "aviation fuel",
+            "kerosene"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is an emergency vehicle with a loud siren?",
+        "type": "mcq",
+        "o": [
+            "Ambulance",
+            "Postal van",
+            "Delivery truck",
+            "Cable car"
+        ]
+    },
+    {
+        "q": "A ______ is a vehicle that can travel on both land and water.",
+        "type": "fill_blank",
+        "answers": [
+            "amphibious vehicle",
+            "amphibian",
+            "hovercraft"
+        ],
+        "other_options": [
+            "submarine",
+            "helicopter",
+            "metro"
+        ]
+    },
+    {
+        "q": "What is the main difference between a boat and a ship?",
+        "type": "mcq",
+        "o": [
+            "Ships are much bigger and go to sea",
+            "Boats fly in the air",
+            "Ships have wheels",
+            "Boats carry aeroplanes"
+        ]
+    },
+    {
+        "q": "Why should we avoid honking near hospitals and schools?",
+        "type": "mcq",
+        "o": [
+            "It causes noise pollution",
+            "It saves fuel",
+            "The horn stops working",
+            "The road gets wet"
+        ]
+    },
+    {
+        "q": "Which gas from vehicles pollutes the air the most?",
+        "type": "mcq",
+        "o": [
+            "Carbon dioxide",
+            "Oxygen",
+            "Nitrogen",
+            "Water vapour"
+        ]
+    },
+    {
+        "q": "Walking and cycling are forms of green transport. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the air transport to its special feature.",
+        "type": "memory",
+        "pairs": {
+            "Helicopter": "Has spinning blades on top",
+            "Hot air balloon": "Uses a big basket",
+            "Spacecraft": "Travels to the stars"
+        }
+    },
+    {
+        "q": "Name the device on a bicycle that makes a sound to warn others.",
+        "type": "short_answer",
+        "answers": [
+            "bell",
+            "horn",
+            "cycle bell"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these travels on a fixed wire or rope in hilly areas?",
+        "type": "mcq",
+        "o": [
+            "Cable car",
+            "Submarine",
+            "Tractor",
+            "Steam engine"
+        ]
+    },
+    {
+        "q": "A place where ships are repaired and kept is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "dock",
+            "shipyard"
+        ],
+        "other_options": [
+            "garage",
+            "hangar",
+            "stand"
+        ]
+    },
+    {
+        "q": "Match the vehicle part with its function.",
+        "type": "match",
+        "left": [
+            "Steering wheel",
+            "Brake",
+            "Wing",
+            "Anchor"
+        ],
+        "right": [
+            "Changes direction",
+            "Slows down or stops",
+            "Helps an aeroplane fly",
+            "Holds a ship in place"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if it has wheels, LEFT if it has NO wheels.",
+        "type": "swipe_cards",
+        "left_label": "No Wheels",
+        "right_label": "Has Wheels",
+        "cards": {
+            "Car": "right",
+            "Train": "right",
+            "Boat": "left",
+            "Hot Air Balloon": "left"
+        }
+    },
+    {
+        "q": "Which of these is a light rail transport that shares the road with cars?",
+        "type": "mcq",
+        "o": [
+            "Tram",
+            "Metro train",
+            "Bullet train",
+            "Goods train"
+        ]
+    },
+    {
+        "q": "How does a hot air balloon go up in the air?",
+        "type": "mcq",
+        "o": [
+            "By heating the air inside the balloon",
+            "By pedalling fast",
+            "By blowing air from a fan",
+            "By pushing the ground"
+        ]
+    },
+    {
+        "q": "Carrying many people in a single bus saves fuel and reduces pollution. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a special road for bicycles only?",
+        "type": "mcq",
+        "o": [
+            "Cycle lane",
+            "Highway",
+            "Runway",
+            "Track"
+        ]
+    },
+    {
+        "q": "Name an animal commonly used to carry heavy loads in hilly terrains.",
+        "type": "short_answer",
+        "answers": [
+            "mule",
+            "donkey",
+            "yak",
+            "horse"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these vehicles is used to dig and move soil?",
+        "type": "mcq",
+        "o": [
+            "Excavator",
+            "Car",
+            "Bicycle",
+            "Motorcycle"
+        ]
+    },
+    {
+        "q": "Unscramble the word: a flying vehicle with wings.",
+        "type": "word_scramble",
+        "answer": "PLANE",
+        "decoys": "VJQ"
+    },
+    {
+        "q": "A ______ is a fast train that runs on a magnetic track without wheels touching it.",
+        "type": "fill_blank",
+        "answers": [
+            "maglev train"
+        ],
+        "other_options": [
+            "steam train",
+            "diesel train",
+            "metro"
+        ]
+    },
+    {
+        "q": "Which of these is the most important safety device in a car?",
+        "type": "mcq",
+        "o": [
+            "Seat belt",
+            "Music system",
+            "Sunroof",
+            "Air freshener"
+        ]
+    },
+    {
+        "q": "What happens if a submarine fills its tanks with water?",
+        "type": "mcq",
+        "o": [
+            "It sinks",
+            "It floats higher",
+            "It flies",
+            "It stops moving"
+        ]
+    },
+    {
+        "q": "Which of these is a modern eco-friendly car that uses both petrol and battery?",
+        "type": "mcq",
+        "o": [
+            "Hybrid car",
+            "Steam car",
+            "Diesel truck",
+            "Bullock cart"
+        ]
+    },
+    {
+        "q": "A spaceship uses rockets to escape Earth's gravity. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do you call the area where passengers wait for a train?",
+        "type": "short_answer",
+        "answers": [
+            "platform"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is used to travel on snow?",
+        "type": "mcq",
+        "o": [
+            "Ski",
+            "Raft",
+            "Cart",
+            "Bicycle"
+        ]
+    },
+    {
+        "q": "Match the transport with its energy source.",
+        "type": "match",
+        "left": [
+            "Solar car",
+            "Steam train",
+            "Sailing yacht",
+            "Bullock cart"
+        ],
+        "right": [
+            "Sunlight",
+            "Coal",
+            "Wind",
+            "Animal power"
+        ]
+    },
+    {
+        "q": "Which of these is the main disadvantage of using too many private cars?",
+        "type": "mcq",
+        "o": [
+            "Traffic jams and pollution",
+            "More parking space",
+            "Empty roads",
+            "Faster travel"
+        ]
+    },
+    {
+        "q": "A ______ is a small engine used to pull train cars in a yard.",
+        "type": "fill_blank",
+        "answers": [
+            "shunter",
+            "locomotive",
+            "engine"
+        ],
+        "other_options": [
+            "boat",
+            "plane",
+            "truck"
+        ]
+    },
+    {
+        "q": "Which of these is a public water transport in a city like Venice?",
+        "type": "mcq",
+        "o": [
+            "Water bus",
+            "School bus",
+            "Cycle rickshaw",
+            "Metro"
+        ]
+    },
+    {
+        "q": "Why do aeroplanes have to fly very high in the sky?",
+        "type": "mcq",
+        "o": [
+            "To avoid birds, mountains, and weather",
+            "To look small",
+            "To save paint",
+            "To hear the engine better"
+        ]
+    },
+    {
+        "q": "Name the small wheel at the back of a big truck that helps with heavy loads.",
+        "type": "short_answer",
+        "answers": [
+            "tandem axle",
+            "extra wheel",
+            "support wheel"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a good habit while travelling in a bus?",
+        "type": "mcq",
+        "o": [
+            "Sit properly and do not push",
+            "Stand on the seat",
+            "Throw things outside",
+            "Shout loudly"
+        ]
+    },
+    {
+        "q": "A vehicle that collects garbage from houses keeps the city clean. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these helps to control traffic at crossings automatically?",
+        "type": "mcq",
+        "o": [
+            "Traffic lights",
+            "Zebra crossing",
+            "Footpath",
+            "Pillar"
+        ]
+    },
+    {
+        "q": "A ______ is a small engine boat often used for rescue or sport.",
+        "type": "fill_blank",
+        "answers": [
+            "speedboat",
+            "motorboat"
+        ],
+        "other_options": [
+            "ship",
+            "barge",
+            "ferry"
+        ]
+    },
+    {
+        "q": "Complete the sentence about crossing the street:",
+        "type": "inline_dropdown",
+        "text": "Hold an adult's [0] and walk on the [1] crossing.",
+        "dropdowns": [
+            {
+                "correct": "hand",
+                "options": [
+                    "hand",
+                    "foot",
+                    "ear"
+                ]
+            },
+            {
+                "correct": "zebra",
+                "options": [
+                    "zebra",
+                    "tiger",
+                    "lion"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is the main reason ships have a pointed front?",
+        "type": "mcq",
+        "o": [
+            "To cut through water easily",
+            "To look sharp",
+            "To carry more people",
+            "To store fish"
+        ]
+    },
+    {
+        "q": "What is the common name for a vehicle that carries dead bodies?",
+        "type": "mcq",
+        "o": [
+            "Hearse",
+            "Tractor",
+            "Jeep",
+            "Van"
+        ]
+    },
+    {
+        "q": "How many wheels does an auto-rickshaw have?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "Name a type of transport that uses a parachute and a small engine.",
+        "type": "short_answer",
+        "answers": [
+            "paramotor",
+            "powered parachute"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is the most comfortable way to travel very long distances across the ocean?",
+        "type": "mcq",
+        "o": [
+            "Cruise ship",
+            "Raft",
+            "Motorcycle",
+            "Bus"
+        ]
+    },
+    {
+        "q": "Match the transport to its speed.",
+        "type": "memory",
+        "pairs": {
+            "Bicycle": "Slow speed",
+            "Airplane": "Very fast speed",
+            "Walking": "Very slow speed"
+        }
+    },
+    {
+        "q": "Flying in an aeroplane is slower than walking. True or False?",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these vehicles is used to mix cement on the way to construction sites?",
+        "type": "mcq",
+        "o": [
+            "Concrete mixer truck",
+            "School bus",
+            "Race car",
+            "Tanker"
+        ]
+    },
+    {
+        "q": "Match the water transport with its main usage.",
+        "type": "match",
+        "left": [
+            "Fishing boat",
+            "Container ship",
+            "Ferry",
+            "Submarine"
+        ],
+        "right": [
+            "Catching fish",
+            "Carrying goods",
+            "Short distance passenger travel",
+            "Underwater exploration"
+        ]
+    },
+    {
+        "q": "Which of these is Man-powered and has NO engine?",
+        "type": "odd_one_out",
+        "options": [
+            "Bicycle",
+            "Car",
+            "Bus",
+            "Motorcycle"
+        ],
+        "correct": "Bicycle"
+    },
+    {
+        "q": "A ______ is a passenger vehicle pulled by a cable, usually up a mountain.",
+        "type": "fill_blank",
+        "answers": [
+            "funicular",
+            "cable car"
+        ],
+        "other_options": [
+            "bus",
+            "train",
+            "tram"
+        ]
+    },
+    {
+        "q": "Which of these air transports has no engine and depends on rising hot air?",
+        "type": "mcq",
+        "o": [
+            "Hot air balloon",
+            "Jet plane",
+            "Helicopter",
+            "Rocket"
+        ]
+    },
+    {
+        "q": "Which type of road user is most at risk and needs special safety care?",
+        "type": "mcq",
+        "o": [
+            "Pedestrians",
+            "Car drivers",
+            "Truck drivers",
+            "Bus drivers"
+        ]
+    },
+    {
+        "q": "Name the person who checks tickets on a bus or train.",
+        "type": "short_answer",
+        "answers": [
+            "conductor",
+            "ticket checker"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for Fast transport, LEFT for Slow transport.",
+        "type": "swipe_cards",
+        "left_label": "Slow",
+        "right_label": "Fast",
+        "cards": {
+            "Airplane": "right",
+            "Bullet Train": "right",
+            "Walking": "left",
+            "Tricycle": "left"
+        }
+    },
+    {
+        "q": "Which of these is an underground train network?",
+        "type": "mcq",
+        "o": [
+            "Subway",
+            "Flyover",
+            "Highway",
+            "Walkway"
+        ]
+    },
+    {
+        "q": "A bulldozer is used to push large amounts of soil or rubble. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these transports uses a large net to harvest from the sea?",
+        "type": "mcq",
+        "o": [
+            "Fishing trawler",
+            "Kayak",
+            "Speedboat",
+            "Canoe"
+        ]
+    },
+    {
+        "q": "Unscramble the word: a hard surface cars drive on.",
+        "type": "word_scramble",
+        "answer": "ROAD",
+        "decoys": "DFG"
+    },
+    {
+        "q": "A ______ is a type of truck that carries liquids like petrol or milk.",
+        "type": "fill_blank",
+        "answers": [
+            "tanker",
+            "tanker truck"
+        ],
+        "other_options": [
+            "dumper",
+            "car",
+            "jeep"
+        ]
+    },
+    {
+        "q": "What is the main function of a port or harbour?",
+        "type": "mcq",
+        "o": [
+            "To load and unload ships safely",
+            "To race motorcycles",
+            "To park aeroplanes",
+            "To grow crops"
+        ]
+    },
+    {
+        "q": "Complete the sentence about people who operate vehicles:",
+        "type": "inline_dropdown",
+        "text": "A [0] flies an airplane and a [1] drives a bus.",
+        "dropdowns": [
+            {
+                "correct": "pilot",
+                "options": [
+                    "pilot",
+                    "captain",
+                    "doctor"
+                ]
+            },
+            {
+                "correct": "driver",
+                "options": [
+                    "driver",
+                    "teacher",
+                    "farmer"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is the safest place to cross a busy road?",
+        "type": "mcq",
+        "o": [
+            "Zebra crossing",
+            "Anywhere",
+            "Near a turn",
+            "Between parked cars"
+        ]
+    },
+    {
+        "q": "Match the safety gear to where you wear it.",
+        "type": "memory",
+        "pairs": {
+            "Helmet": "On your head",
+            "Seatbelt": "Across your chest",
+            "Reflective jacket": "Over your clothes"
+        }
+    },
+    {
+        "q": "Name one advantage of travelling by public transport.",
+        "type": "short_answer",
+        "answers": [
+            "reduces traffic",
+            "cheaper",
+            "saves fuel",
+            "less pollution",
+            "eco-friendly"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these vehicles has a retractable ladder?",
+        "type": "mcq",
+        "o": [
+            "Fire engine",
+            "Police car",
+            "Ambulance",
+            "Taxi"
+        ]
+    },
+    {
+        "q": "A ______ is a two-wheeled cart pulled by a person, commonly found in parts of Asia.",
+        "type": "fill_blank",
+        "answers": [
+            "rickshaw",
+            "jinrikisha"
+        ],
+        "other_options": [
+            "chariot",
+            "wagon",
+            "bicycle"
+        ]
+    },
+    {
+        "q": "Match the land transport with the terrain it is best suited for.",
+        "type": "match",
+        "left": [
+            "Snowmobile",
+            "ATV",
+            "Camel cart",
+            "Tractor"
+        ],
+        "right": [
+            "Snow",
+            "Rough off-road",
+            "Desert sand",
+            "Farm field"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Green Light actions, LEFT for Red Light actions.",
+        "type": "swipe_cards",
+        "left_label": "Red Light",
+        "right_label": "Green Light",
+        "cards": {
+            "Stop walking": "left",
+            "Vehicles stop": "left",
+            "Cross the road": "right",
+            "Vehicles go": "right"
+        }
+    },
+    {
+        "q": "Which of these is NOT a safety measure inside a car?",
+        "type": "mcq",
+        "o": [
+            "Watching a movie while driving",
+            "Wearing a seat belt",
+            "Looking at mirrors",
+            "Using indicators"
+        ]
+    },
+    {
+        "q": "An electric car produces zero smoke from its engine. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: hard hat you wear on a bike.",
+        "type": "word_scramble",
+        "answer": "HELMET",
+        "decoys": "BZX"
+    },
+    {
+        "q": "Which of these vehicles is specifically built to carry ice cream and sell it?",
+        "type": "mcq",
+        "o": [
+            "Ice cream van",
+            "Garbage truck",
+            "Tanker",
+            "Crane"
+        ]
+    },
+    {
+        "q": "What are the large bags that open up during a car crash to protect you called?",
+        "type": "short_answer",
+        "answers": [
+            "airbags",
+            "air bags"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a heavy vehicle used to lift and move heavy objects?",
+        "type": "mcq",
+        "o": [
+            "Crane",
+            "Bicycle",
+            "Scooter",
+            "Rickshaw"
+        ]
+    },
+    {
+        "q": "A ______ is a flying machine with two large horizontal blades that spin.",
+        "type": "fill_blank",
+        "answers": [
+            "helicopter"
+        ],
+        "other_options": [
+            "car",
+            "bus",
+            "train"
+        ]
+    },
+    {
+        "q": "Which of these is most likely to cause an accident on the road?",
+        "type": "mcq",
+        "o": [
+            "Talking on the phone while driving",
+            "Driving slowly",
+            "Stopping at red lights",
+            "Wearing a helmet"
+        ]
+    },
+    {
+        "q": "Complete the sentence about emergency vehicles:",
+        "type": "inline_dropdown",
+        "text": "An [0] takes sick people to the hospital, and a [1] puts out fires.",
+        "dropdowns": [
+            {
+                "correct": "ambulance",
+                "options": [
+                    "ambulance",
+                    "taxi",
+                    "tractor"
+                ]
+            },
+            {
+                "correct": "fire engine",
+                "options": [
+                    "fire engine",
+                    "police car",
+                    "scooter"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What do you call the large road designed for fast traffic between cities?",
+        "type": "mcq",
+        "o": [
+            "Highway",
+            "Footpath",
+            "Cycle lane",
+            "Railway track"
+        ]
+    },
+    {
+        "q": "Sailboats are a clean form of water transport because they use wind. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "How many wings does a normal airplane have?",
+        "type": "slider",
+        "min": 0,
+        "max": 6,
+        "correct": 2
+    },
+    {
+        "q": "Which of these is a famous very fast train from Japan?",
+        "type": "mcq",
+        "o": [
+            "Shinkansen",
+            "Orient Express",
+            "Rajdhani",
+            "Trans-Siberian"
+        ]
+    },
+    {
+        "q": "Name the special type of mirror that helps drivers see vehicles behind them.",
+        "type": "short_answer",
+        "answers": [
+            "rearview mirror",
+            "side mirror",
+            "wing mirror"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these uses a propeller to move through water?",
+        "type": "mcq",
+        "o": [
+            "Motorboat",
+            "Raft",
+            "Kayak",
+            "Sailboat"
+        ]
+    },
+    {
+        "q": "Match the transport to the number of wheels.",
+        "type": "memory",
+        "pairs": {
+            "Tricycle": "Three wheels",
+            "Bicycle": "Two wheels",
+            "Car": "Four wheels"
+        }
+    },
+    {
+        "q": "A ______ is a small, light vehicle used to race on tracks.",
+        "type": "fill_blank",
+        "answers": [
+            "go-kart",
+            "kart"
+        ],
+        "other_options": [
+            "suv",
+            "bus",
+            "tractor"
+        ]
+    },
+    {
+        "q": "Which of these is the main reason trains are better than cars for long distance?",
+        "type": "mcq",
+        "o": [
+            "Carries more people and uses less fuel per person",
+            "Has more colours",
+            "Does not need wheels",
+            "Flies above traffic"
+        ]
+    },
+    {
+        "q": "What is the name for a group of vehicles travelling together?",
+        "type": "mcq",
+        "o": [
+            "Convoy",
+            "Fleet",
+            "Herd",
+            "Pack"
+        ]
+    },
+    {
+        "q": "Match the air transport with its speed characteristic.",
+        "type": "match",
+        "left": [
+            "Jumbo jet",
+            "Helicopter",
+            "Glider",
+            "Zeppelin"
+        ],
+        "right": [
+            "Very fast",
+            "Moderate, can hover",
+            "Slow, no engine",
+            "Slow, gas-filled airship"
+        ]
+    },
+    {
+        "q": "Which of these is a person who repairs cars called?",
+        "type": "mcq",
+        "o": [
+            "Mechanic",
+            "Pilot",
+            "Captain",
+            "Surgeon"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a traffic light color?",
+        "type": "odd_one_out",
+        "options": [
+            "Red",
+            "Blue",
+            "Green",
+            "Yellow"
+        ],
+        "correct": "Blue"
+    },
+    {
+        "q": "A submarine can stay underwater for many days. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these vehicles is used to transport prisoners?",
+        "type": "mcq",
+        "o": [
+            "Prison van",
+            "School bus",
+            "Camping van",
+            "Taxi"
+        ]
+    },
+    {
+        "q": "What do you call a vehicle that delivers packages to your doorstep?",
+        "type": "short_answer",
+        "answers": [
+            "delivery van",
+            "courier van",
+            "delivery truck"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a train that runs between countries in Europe?",
+        "type": "mcq",
+        "o": [
+            "Eurostar",
+            "Metro",
+            "Local train",
+            "Tram"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Four wheels, LEFT for Two wheels.",
+        "type": "swipe_cards",
+        "left_label": "Two Wheels",
+        "right_label": "Four Wheels",
+        "cards": {
+            "Bicycle": "left",
+            "Scooter": "left",
+            "Car": "right",
+            "Jeep": "right"
+        }
+    },
+    {
+        "q": "A ______ is a car that has an open top and can fold down its roof.",
+        "type": "fill_blank",
+        "answers": [
+            "convertible"
+        ],
+        "other_options": [
+            "suv",
+            "sedan",
+            "hatchback"
+        ]
+    },
+    {
+        "q": "Which of these is a big airport vehicle that loads luggage onto the plane?",
+        "type": "mcq",
+        "o": [
+            "Belt loader",
+            "Follow-me car",
+            "Tug",
+            "Bus"
+        ]
+    },
+    {
+        "q": "Traffic police help in controlling the movement of vehicles safely. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a huge truck used to carry logs from forests?",
+        "type": "mcq",
+        "o": [
+            "Logging truck",
+            "Tanker",
+            "Mail truck",
+            "Food truck"
+        ]
+    },
+    {
+        "q": "Unscramble the word: safety strap in a car.",
+        "type": "word_scramble",
+        "answer": "BELT",
+        "decoys": "XWQ"
+    },
+    {
+        "q": "Name the part of a boat that you use to row or steer.",
+        "type": "short_answer",
+        "answers": [
+            "oar",
+            "paddle"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is an old-fashioned train engine that used coal fire?",
+        "type": "mcq",
+        "o": [
+            "Steam engine",
+            "Diesel engine",
+            "Electric engine",
+            "Maglev engine"
+        ]
+    },
+    {
+        "q": "A ______ is a transport system where small cabins move on cables above the ground.",
+        "type": "fill_blank",
+        "answers": [
+            "gondola lift",
+            "cable car",
+            "ropeway"
+        ],
+        "other_options": [
+            "ferris wheel",
+            "roller coaster",
+            "lift"
+        ]
+    },
+    {
+        "q": "Complete the sentence about bicycles:",
+        "type": "inline_dropdown",
+        "text": "A bicycle has [0] wheels and you use your [1] to pedal.",
+        "dropdowns": [
+            {
+                "correct": "two",
+                "options": [
+                    "two",
+                    "four",
+                    "three"
+                ]
+            },
+            {
+                "correct": "feet",
+                "options": [
+                    "feet",
+                    "hands",
+                    "nose"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is the fastest land transport in the world?",
+        "type": "mcq",
+        "o": [
+            "Bullet train",
+            "Bicycle",
+            "Horse",
+            "Skateboard"
+        ]
+    },
+    {
+        "q": "Match the type of transport to who rides in it.",
+        "type": "memory",
+        "pairs": {
+            "School Bus": "Many students",
+            "Own Car": "Just your family",
+            "Taxi": "People who pay for a ride"
+        }
+    },
+    {
+        "q": "What is the name of a small seat for a baby inside a car?",
+        "type": "mcq",
+        "o": [
+            "Child safety seat",
+            "Stool",
+            "Sofa",
+            "Chair"
+        ]
+    },
+    {
+        "q": "A glider has a very loud engine. True or False?",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these vehicles helps to move injured players off the sports field?",
+        "type": "mcq",
+        "o": [
+            "Stretcher cart / Medical buggy",
+            "School bus",
+            "Race car",
+            "Helicopter"
+        ]
+    },
+    {
+        "q": "Match the road signs with their meaning.",
+        "type": "match",
+        "left": [
+            "Red octagon",
+            "Inverted triangle",
+            "Circle with red border",
+            "Blue rectangle"
+        ],
+        "right": [
+            "Stop",
+            "Give way / Yield",
+            "Prohibited / No entry",
+            "Information"
+        ]
+    },
+    {
+        "q": "Which of these is a big car used to travel with family on rough roads?",
+        "type": "mcq",
+        "o": [
+            "SUV",
+            "Race car",
+            "Hatchback",
+            "Sedan"
+        ]
+    },
+    {
+        "q": "Name the Indian space vehicle that took a rover to the Moon.",
+        "type": "short_answer",
+        "answers": [
+            "chandrayaan",
+            "chandrayaan 3"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a type of bus that has two levels, one on top of the other.",
+        "type": "fill_blank",
+        "answers": [
+            "double decker bus",
+            "double decker"
+        ],
+        "other_options": [
+            "single deck",
+            "mini bus",
+            "sleeper bus"
+        ]
+    },
+    {
+        "q": "Which of these air transports is filled with a gas lighter than air?",
+        "type": "mcq",
+        "o": [
+            "Blimp",
+            "Jet",
+            "Helicopter",
+            "Glider"
+        ]
+    },
+    {
+        "q": "What is the main purpose of an airstrip or runway?",
+        "type": "mcq",
+        "o": [
+            "For planes to land and take off",
+            "For cars to park",
+            "For ships to stop",
+            "For trains to run"
+        ]
+    },
+    {
+        "q": "A bicycle does not pollute the air at all. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Emergency vehicles, LEFT for Regular vehicles.",
+        "type": "swipe_cards",
+        "left_label": "Regular",
+        "right_label": "Emergency",
+        "cards": {
+            "Ambulance": "right",
+            "Fire Truck": "right",
+            "School Bus": "left",
+            "Taxi": "left"
+        }
+    },
+    {
+        "q": "Which of these is used to travel in space outside a spacecraft?",
+        "type": "mcq",
+        "o": [
+            "Jetpack or MMU",
+            "Bicycle",
+            "Car",
+            "Rocket"
+        ]
+    },
+    {
+        "q": "What is the name of a road that goes under the ground or a mountain?",
+        "type": "short_answer",
+        "answers": [
+            "tunnel",
+            "underpass"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: the round part that makes a car roll.",
+        "type": "word_scramble",
+        "answer": "WHEEL",
+        "decoys": "CVB"
+    },
+    {
+        "q": "What is the primary greenhouse gas emitted by petrol and diesel vehicles?",
+        "type": "mcq",
+        "o": [
+            "Carbon dioxide",
+            "Oxygen",
+            "Nitrogen",
+            "Hydrogen"
+        ]
+    },
+    {
+        "q": "Which part of a car converts harmful exhaust gases into less harmful ones?",
+        "type": "mcq",
+        "o": [
+            "Catalytic converter",
+            "Muffler",
+            "Air filter",
+            "Radiator"
+        ]
+    },
+    {
+        "q": "Name the system that uses satellites to help vehicles find routes.",
+        "type": "short_answer",
+        "answers": [
+            "GPS",
+            "Global Positioning System",
+            "sat nav",
+            "satellite navigation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these fuels is considered a cleaner alternative to petrol?",
+        "type": "mcq",
+        "o": [
+            "CNG",
+            "Coal",
+            "Wood",
+            "Diesel"
+        ]
+    },
+    {
+        "q": "A ______ is a large flat boat used to carry heavy goods on rivers and canals.",
+        "type": "fill_blank",
+        "answers": [
+            "barge"
+        ],
+        "other_options": [
+            "yacht",
+            "catamaran",
+            "dinghy"
+        ]
+    },
+    {
+        "q": "What is the main advantage of a hybrid car over a normal petrol car?",
+        "type": "mcq",
+        "o": [
+            "It uses both petrol and electric power, saving fuel",
+            "It can fly",
+            "It has more seats",
+            "It is slower"
+        ]
+    },
+    {
+        "q": "Which type of train floats above its track using powerful magnets?",
+        "type": "mcq",
+        "o": [
+            "Maglev train",
+            "Steam train",
+            "Diesel train",
+            "Monorail"
+        ]
+    },
+    {
+        "q": "Riding a bicycle helps reduce our carbon footprint. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these devices helps reduce the sound of a car engine?",
+        "type": "mcq",
+        "o": [
+            "Muffler",
+            "Headlight",
+            "Battery",
+            "Tyre"
+        ]
+    },
+    {
+        "q": "Name the Indian organization that launches satellites and space vehicles.",
+        "type": "short_answer",
+        "answers": [
+            "ISRO",
+            "Indian Space Research Organisation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a major cause of air pollution in cities?",
+        "type": "mcq",
+        "o": [
+            "Vehicle emissions",
+            "Planting trees",
+            "Rainwater",
+            "Cycling"
+        ]
+    },
+    {
+        "q": "A ______ is a two-wheeled electric vehicle that you stand on and steer by leaning.",
+        "type": "fill_blank",
+        "answers": [
+            "hoverboard",
+            "self-balancing scooter"
+        ],
+        "other_options": [
+            "skateboard",
+            "bicycle",
+            "motorbike"
+        ]
+    },
+    {
+        "q": "Match the transport mode with its typical infrastructure.",
+        "type": "match",
+        "left": [
+            "Aeroplane",
+            "Ship",
+            "Train",
+            "Car"
+        ],
+        "right": [
+            "Airport",
+            "Port",
+            "Railway station",
+            "Parking lot"
+        ]
+    },
+    {
+        "q": "Complete the sentence about moving goods:",
+        "type": "inline_dropdown",
+        "text": "A large [0] carries heavy things on the road, and a [1] ship carries things across the sea.",
+        "dropdowns": [
+            {
+                "correct": "truck",
+                "options": [
+                    "truck",
+                    "bicycle",
+                    "scooter"
+                ]
+            },
+            {
+                "correct": "cargo",
+                "options": [
+                    "cargo",
+                    "passenger",
+                    "flying"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is an Indian initiative for electric vehicles to reduce pollution?",
+        "type": "mcq",
+        "o": [
+            "FAME India scheme",
+            "Swachh Bharat",
+            "Make in India",
+            "Digital India"
+        ]
+    },
+    {
+        "q": "What is the unit used to measure the power of a car engine?",
+        "type": "mcq",
+        "o": [
+            "Horsepower",
+            "Kilogram",
+            "Litre",
+            "Metre"
+        ]
+    },
+    {
+        "q": "How many people is a standard motorcycle designed to carry safely?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "Electric vehicles have zero tailpipe emissions. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a shared bicycle system available in many cities?",
+        "type": "mcq",
+        "o": [
+            "Public bike sharing",
+            "Private jet",
+            "Personal car",
+            "Cargo truck"
+        ]
+    },
+    {
+        "q": "Match the water vehicle to its description.",
+        "type": "memory",
+        "pairs": {
+            "Submarine": "Travels under the water",
+            "Sailboat": "Uses the wind to move",
+            "Ferry": "Carries cars across a river"
+        }
+    },
+    {
+        "q": "Name the first Indian mission that successfully reached Mars orbit.",
+        "type": "short_answer",
+        "answers": [
+            "Mangalyaan",
+            "Mars Orbiter Mission",
+            "MOM"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT a renewable fuel source for transport?",
+        "type": "mcq",
+        "o": [
+            "Coal",
+            "Ethanol",
+            "Biodiesel",
+            "Electricity from solar"
+        ]
+    },
+    {
+        "q": "A ______ is a vehicle designed to test the safety of cars in crashes.",
+        "type": "fill_blank",
+        "answers": [
+            "crash test dummy",
+            "test dolly"
+        ],
+        "other_options": [
+            "prototype",
+            "concept car",
+            "simulator"
+        ]
+    },
+    {
+        "q": "Which of these methods helps to reduce traffic congestion in cities?",
+        "type": "mcq",
+        "o": [
+            "Carpooling",
+            "Driving alone",
+            "Honking more",
+            "Removing traffic lights"
+        ]
+    },
+    {
+        "q": "Which of these is NOT pulled by an animal?",
+        "type": "odd_one_out",
+        "options": [
+            "Horse cart",
+            "Bullock cart",
+            "Camel",
+            "Helicopter"
+        ],
+        "correct": "Helicopter"
+    },
+    {
+        "q": "Swipe RIGHT if it goes ON water, LEFT if it goes UNDER water.",
+        "type": "swipe_cards",
+        "left_label": "Under Water",
+        "right_label": "On Water",
+        "cards": {
+            "Submarine": "left",
+            "Scuba diver": "left",
+            "Sailboat": "right",
+            "Ferry": "right"
+        }
+    },
+    {
+        "q": "How does an electric train get its power?",
+        "type": "mcq",
+        "o": [
+            "From overhead wires or a third rail",
+            "From petrol",
+            "From burning coal inside",
+            "From solar panels on top only"
+        ]
+    },
+    {
+        "q": "Car tyres are made from natural rubber obtained from trees. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: what a red traffic light tells you to do.",
+        "type": "word_scramble",
+        "answer": "STOP",
+        "decoys": "YUI"
+    },
+    {
+        "q": "Which of these is a very fast passenger train in India?",
+        "type": "mcq",
+        "o": [
+            "Vande Bharat Express",
+            "Rajdhani Express",
+            "Shatabdi Express",
+            "Duronto Express"
+        ]
+    },
+    {
+        "q": "Name the fuel made from vegetable oils or animal fats used in diesel engines.",
+        "type": "short_answer",
+        "answers": [
+            "biodiesel"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is the main purpose of a traffic signal?",
+        "type": "mcq",
+        "o": [
+            "To manage the flow of vehicles and prevent accidents",
+            "To decorate the road",
+            "To help cars fly",
+            "To sell fuel"
+        ]
+    },
+    {
+        "q": "Match the ship type with its cargo.",
+        "type": "match",
+        "left": [
+            "Oil tanker",
+            "Container ship",
+            "Bulk carrier",
+            "LNG carrier"
+        ],
+        "right": [
+            "Crude oil",
+            "Metal boxes of goods",
+            "Grains or coal",
+            "Liquefied natural gas"
+        ]
+    },
+    {
+        "q": "A ______ is a portable device that provides oxygen to firefighters or divers.",
+        "type": "fill_blank",
+        "answers": [
+            "breathing apparatus",
+            "SCBA",
+            "oxygen cylinder"
+        ],
+        "other_options": [
+            "life jacket",
+            "parachute",
+            "helmet"
+        ]
+    },
+    {
+        "q": "Which of these is an alternative to reduce use of plastic in car interiors?",
+        "type": "mcq",
+        "o": [
+            "Using natural fibre composites",
+            "Using more leather",
+            "Using glass",
+            "Using steel only"
+        ]
+    },
+    {
+        "q": "Complete the sentence about animal transport:",
+        "type": "inline_dropdown",
+        "text": "In a desert, people ride a [0], and in a village, they might use a [1] cart.",
+        "dropdowns": [
+            {
+                "correct": "camel",
+                "options": [
+                    "camel",
+                    "fish",
+                    "monkey"
+                ]
+            },
+            {
+                "correct": "bullock",
+                "options": [
+                    "bullock",
+                    "lion",
+                    "eagle"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the name for a network of trains within a city and its suburbs?",
+        "type": "mcq",
+        "o": [
+            "Suburban railway",
+            "Metro rail",
+            "Long distance trains",
+            "Goods trains"
+        ]
+    },
+    {
+        "q": "Supersonic aircraft fly faster than the speed of sound. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a vehicle that cleans roads by sweeping and washing?",
+        "type": "mcq",
+        "o": [
+            "Road sweeper truck",
+            "Cement mixer",
+            "Dumper truck",
+            "Crane"
+        ]
+    },
+    {
+        "q": "Name the type of car that runs only on batteries and needs to be plugged in.",
+        "type": "short_answer",
+        "answers": [
+            "electric car",
+            "battery electric vehicle",
+            "BEV",
+            "EV"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the car part to its job.",
+        "type": "memory",
+        "pairs": {
+            "Steering wheel": "Turns the car left or right",
+            "Brakes": "Stops the car",
+            "Engine": "Makes the car move forward"
+        }
+    },
+    {
+        "q": "Which of these helps a ship to remain stable and not roll over in the water?",
+        "type": "mcq",
+        "o": [
+            "Ballast tanks",
+            "Sails",
+            "Propeller",
+            "Anchor"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Machines, LEFT for Animals.",
+        "type": "swipe_cards",
+        "left_label": "Animal",
+        "right_label": "Machine",
+        "cards": {
+            "Horse": "left",
+            "Camel": "left",
+            "Tractor": "right",
+            "Truck": "right"
+        }
+    },
+    {
+        "q": "A ______ is an aircraft with two pairs of wings, one above the other.",
+        "type": "fill_blank",
+        "answers": [
+            "biplane"
+        ],
+        "other_options": [
+            "monoplane",
+            "jet",
+            "glider"
+        ]
+    },
+    {
+        "q": "Which of these is a vehicle that uses hydrogen to produce electricity?",
+        "type": "mcq",
+        "o": [
+            "Fuel cell vehicle",
+            "Diesel car",
+            "Steam car",
+            "Kerosene jet"
+        ]
+    },
+    {
+        "q": "What is the visible cloud that comes out of a rocket during launch?",
+        "type": "mcq",
+        "o": [
+            "Exhaust gases and water vapour",
+            "Pure smoke",
+            "Cotton candy",
+            "Dust"
+        ]
+    },
+    {
+        "q": "Biofuels are made from renewable plant materials. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a high-speed railway project being developed in India?",
+        "type": "mcq",
+        "o": [
+            "Mumbai-Ahmedabad Bullet Train",
+            "Metro Neo",
+            "Monorail",
+            "Skybus"
+        ]
+    },
+    {
+        "q": "Unscramble the word: move on your feet.",
+        "type": "word_scramble",
+        "answer": "WALK",
+        "decoys": "NMB"
+    },
+    {
+        "q": "Name the American space agency that landed astronauts on the Moon.",
+        "type": "short_answer",
+        "answers": [
+            "NASA",
+            "National Aeronautics and Space Administration"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a disadvantage of using diesel over petrol?",
+        "type": "mcq",
+        "o": [
+            "Higher nitrogen oxide and particulate emissions",
+            "Better fuel economy",
+            "Lower carbon dioxide",
+            "Quieter engine"
+        ]
+    },
+    {
+        "q": "Complete the sentence about train travel:",
+        "type": "inline_dropdown",
+        "text": "You need to buy a [0] before getting on the train at the [1].",
+        "dropdowns": [
+            {
+                "correct": "ticket",
+                "options": [
+                    "ticket",
+                    "balloon",
+                    "candy"
+                ]
+            },
+            {
+                "correct": "station",
+                "options": [
+                    "station",
+                    "airport",
+                    "port"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A ______ is a type of ship that breaks ice to make a path for other ships.",
+        "type": "fill_blank",
+        "answers": [
+            "icebreaker"
+        ],
+        "other_options": [
+            "tanker",
+            "ferry",
+            "tugboat"
+        ]
+    },
+    {
+        "q": "Match the Indian transport project with its type.",
+        "type": "match",
+        "left": [
+            "Sagarmala",
+            "Bharatmala",
+            "UDAN",
+            "Dedicated Freight Corridor"
+        ],
+        "right": [
+            "Port development",
+            "Road development",
+            "Regional air connectivity",
+            "Rail freight network"
+        ]
+    },
+    {
+        "q": "Which of these is a reason why electric cars are better for cities?",
+        "type": "mcq",
+        "o": [
+            "Zero exhaust pollution",
+            "They are noisier",
+            "They use more oil",
+            "They cannot be charged at home"
+        ]
+    },
+    {
+        "q": "How many wheels does a unicycle have?",
+        "type": "slider",
+        "min": 1,
+        "max": 4,
+        "correct": 1
+    },
+    {
+        "q": "What does the term 'horsepower' refer to in vehicles?",
+        "type": "mcq",
+        "o": [
+            "Engine power output",
+            "Weight of the car",
+            "Number of horses pulling",
+            "Speed limit"
+        ]
+    },
+    {
+        "q": "A bicycle dynamo converts mechanical energy into electrical energy for lights. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the road crossing term to its meaning.",
+        "type": "memory",
+        "pairs": {
+            "Zebra crossing": "Black and white stripes on the road",
+            "Footpath": "Safe place where people walk",
+            "Traffic cop": "Blows a whistle to direct cars"
+        }
+    },
+    {
+        "q": "Which of these is a dedicated lane for buses to move faster in traffic?",
+        "type": "mcq",
+        "o": [
+            "Bus Rapid Transit corridor",
+            "Cycle lane",
+            "Footpath",
+            "Highway shoulder"
+        ]
+    },
+    {
+        "q": "What do you call a small, unmanned aircraft often used for photography?",
+        "type": "short_answer",
+        "answers": [
+            "drone",
+            "UAV",
+            "unmanned aerial vehicle"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a common type of engine in modern cars?",
+        "type": "mcq",
+        "o": [
+            "Internal combustion engine",
+            "Steam engine",
+            "Stirling engine",
+            "Nuclear engine"
+        ]
+    },
+    {
+        "q": "A ______ is a train that runs on a single rail, often elevated above the city.",
+        "type": "fill_blank",
+        "answers": [
+            "monorail"
+        ],
+        "other_options": [
+            "metro",
+            "tram",
+            "light rail"
+        ]
+    },
+    {
+        "q": "Which of these terms describes a vehicle's ability to use less fuel?",
+        "type": "mcq",
+        "o": [
+            "Fuel efficiency",
+            "Acceleration",
+            "Top speed",
+            "Torque"
+        ]
+    },
+    {
+        "q": "What is the primary purpose of a catalytic converter?",
+        "type": "mcq",
+        "o": [
+            "To reduce harmful emissions",
+            "To increase speed",
+            "To cool the engine",
+            "To play music"
+        ]
+    },
+    {
+        "q": "Carpooling means sharing a ride with others going the same way to reduce number of cars. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is an alternative to fossil fuel derived from corn or sugarcane?",
+        "type": "mcq",
+        "o": [
+            "Ethanol",
+            "Diesel",
+            "Kerosene",
+            "LPG"
+        ]
+    },
+    {
+        "q": "Which of these is NOT an emergency vehicle?",
+        "type": "odd_one_out",
+        "options": [
+            "Ambulance",
+            "Fire Engine",
+            "Police Car",
+            "Ice Cream Truck"
+        ],
+        "correct": "Ice Cream Truck"
+    },
+    {
+        "q": "Name the large vehicle that transports spacecraft to the launch pad.",
+        "type": "short_answer",
+        "answers": [
+            "crawler transporter",
+            "crawler",
+            "transporter"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a small, three-wheeled delivery vehicle common in Asia?",
+        "type": "mcq",
+        "o": [
+            "Tuk-tuk / Auto rickshaw",
+            "SUV",
+            "Sedan",
+            "Hatchback"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Nighttime safety, LEFT for Daytime safety.",
+        "type": "swipe_cards",
+        "left_label": "Daytime",
+        "right_label": "Nighttime",
+        "cards": {
+            "Sun visor": "left",
+            "Sunglasses": "left",
+            "Use headlights": "right",
+            "Wear reflectors": "right"
+        }
+    },
+    {
+        "q": "A ______ is an aircraft that can take off and land on water.",
+        "type": "fill_blank",
+        "answers": [
+            "seaplane",
+            "flying boat",
+            "floatplane"
+        ],
+        "other_options": [
+            "helicopter",
+            "jet",
+            "glider"
+        ]
+    },
+    {
+        "q": "Match the vehicle type with its main design feature.",
+        "type": "match",
+        "left": [
+            "SUV",
+            "Hatchback",
+            "Sedan",
+            "Convertible"
+        ],
+        "right": [
+            "High ground clearance",
+            "Rear door that opens upwards",
+            "Separate boot compartment",
+            "Foldable or removable roof"
+        ]
+    },
+    {
+        "q": "Which of these is a major port city on the western coast of India?",
+        "type": "mcq",
+        "o": [
+            "Mumbai",
+            "Chennai",
+            "Kolkata",
+            "Visakhapatnam"
+        ]
+    },
+    {
+        "q": "What is the name for the platform on a ship where the captain controls the vessel?",
+        "type": "mcq",
+        "o": [
+            "Bridge",
+            "Cockpit",
+            "Cabin",
+            "Deck"
+        ]
+    },
+    {
+        "q": "A vehicle's odometer measures the distance it has travelled. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a naturally occurring solid fuel used in old steam engines?",
+        "type": "mcq",
+        "o": [
+            "Coal",
+            "Petrol",
+            "CNG",
+            "Ethanol"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the color that means STOP.",
+        "type": "word_scramble",
+        "answer": "RED",
+        "decoys": "FGH"
+    },
+    {
+        "q": "What does CNG stand for as a vehicle fuel?",
+        "type": "short_answer",
+        "answers": [
+            "Compressed Natural Gas"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a large wind-powered water sport vehicle with a board and a sail?",
+        "type": "mcq",
+        "o": [
+            "Windsurfer",
+            "Kayak",
+            "Submarine",
+            "Catamaran"
+        ]
+    },
+    {
+        "q": "Complete the sentence about exploring the sky:",
+        "type": "inline_dropdown",
+        "text": "A [0] goes into space, while a [1] uses a big cloth bag full of hot air.",
+        "dropdowns": [
+            {
+                "correct": "rocket",
+                "options": [
+                    "rocket",
+                    "submarine",
+                    "car"
+                ]
+            },
+            {
+                "correct": "hot air balloon",
+                "options": [
+                    "hot air balloon",
+                    "train",
+                    "boat"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the transport to the sound it makes.",
+        "type": "memory",
+        "pairs": {
+            "Train": "Choo choo",
+            "Car horn": "Beep beep",
+            "Ambulance": "Wee woo wee woo"
+        }
+    },
+    {
+        "q": "A ______ is a circular intersection where traffic moves continuously around a centre island.",
+        "type": "fill_blank",
+        "answers": [
+            "roundabout",
+            "traffic circle"
+        ],
+        "other_options": [
+            "crossing",
+            "dead end",
+            "flyover"
+        ]
+    },
+    {
+        "q": "Which of these devices in a car stores electricity to start the engine?",
+        "type": "mcq",
+        "o": [
+            "Battery",
+            "Muffler",
+            "Tyre",
+            "Axle"
+        ]
+    },
+    {
+        "q": "What is the main purpose of an airbag in a car?",
+        "type": "mcq",
+        "o": [
+            "To protect passengers during a crash",
+            "To make the car lighter",
+            "To play music",
+            "To cool the air"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if it uses Rails, LEFT if it uses Roads.",
+        "type": "swipe_cards",
+        "left_label": "Roads",
+        "right_label": "Rails",
+        "cards": {
+            "Train": "right",
+            "Tram": "right",
+            "Car": "left",
+            "Bus": "left"
+        }
+    },
+    {
+        "q": "Using regenerative braking in electric cars helps recharge the battery while slowing down. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a type of vehicle that can tilt and turn quickly, like an auto rickshaw but enclosed?",
+        "type": "mcq",
+        "o": [
+            "Narrow track vehicle",
+            "School bus",
+            "Oil tanker",
+            "Dumper"
+        ]
+    },
+    {
+        "q": "Name the Indian port that is one of the busiest on the east coast.",
+        "type": "short_answer",
+        "answers": [
+            "Chennai port",
+            "Visakhapatnam port",
+            "Kolkata port"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a vehicle specially designed for ambulance services in remote or flooded areas?",
+        "type": "mcq",
+        "o": [
+            "Amphibious ambulance",
+            "School van",
+            "Police jeep",
+            "City bus"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the color that means GO.",
+        "type": "word_scramble",
+        "answer": "GREEN",
+        "decoys": "PLK"
+    },
+    {
+        "q": "Complete the sentence about two-wheelers:",
+        "type": "inline_dropdown",
+        "text": "A [0] has a motor and goes very fast, but a [1] relies on your legs.",
+        "dropdowns": [
+            {
+                "correct": "motorcycle",
+                "options": [
+                    "motorcycle",
+                    "tricycle",
+                    "skateboard"
+                ]
+            },
+            {
+                "correct": "bicycle",
+                "options": [
+                    "bicycle",
+                    "car",
+                    "bus"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A ______ is a type of bus that runs on electricity from overhead wires.",
+        "type": "fill_blank",
+        "answers": [
+            "trolleybus"
+        ],
+        "other_options": [
+            "tram",
+            "metro",
+            "coach"
+        ]
+    },
+    {
+        "q": "How many wheels does a tricycle have?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "Which of these is the main environmental benefit of public transport over private cars?",
+        "type": "mcq",
+        "o": [
+            "Lower emissions per person per km",
+            "More noise",
+            "Uses more fuel",
+            "Higher speed"
+        ]
+    },
+    {
+        "q": "What is the name of India's first solar-powered ferry?",
+        "type": "mcq",
+        "o": [
+            "Aditya",
+            "Vikrant",
+            "Arihant",
+            "Tarini"
+        ]
+    },
+    {
+        "q": "A ferry is a type of bridge. True or False?",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the space mission with its country or agency.",
+        "type": "match",
+        "left": [
+            "Artemis Program",
+            "Gaganyaan",
+            "Chang'e Program",
+            "Mars 2020 Perseverance"
+        ],
+        "right": [
+            "USA (NASA)",
+            "India (ISRO)",
+            "China (CNSA)",
+            "USA (NASA)"
+        ]
+    },
+    {
+        "q": "Which of these is a personal mobility device for a single person, often seen in airports?",
+        "type": "mcq",
+        "o": [
+            "Segway",
+            "Double decker bus",
+            "Train",
+            "Cable car"
+        ]
+    },
+    {
+        "q": "What is the name for the distance a vehicle can travel using one litre of fuel?",
+        "type": "short_answer",
+        "answers": [
+            "mileage",
+            "fuel economy",
+            "kilometres per litre"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a system that prevents the wheels from locking during hard braking?",
+        "type": "mcq",
+        "o": [
+            "ABS (Anti-lock Braking System)",
+            "GPS",
+            "ESP",
+            "AC"
+        ]
+    },
+    {
+        "q": "Match the transport to the fuel it needs.",
+        "type": "memory",
+        "pairs": {
+            "Car": "Petrol or Diesel",
+            "Electric train": "Electricity",
+            "Sailboat": "Wind energy"
+        }
+    },
+    {
+        "q": "A ______ is a type of transport that uses a vacuum tube to move pods at very high speeds.",
+        "type": "fill_blank",
+        "answers": [
+            "hyperloop"
+        ],
+        "other_options": [
+            "metro",
+            "highway",
+            "tram"
+        ]
+    },
+    {
+        "q": "Which of these is the major disadvantage of fossil fuel vehicles for the environment?",
+        "type": "mcq",
+        "o": [
+            "They release CO2 causing global warming",
+            "They are quiet",
+            "They can be recycled easily",
+            "They run on water"
+        ]
+    },
+    {
+        "q": "What is the role of a tugboat in a harbour?",
+        "type": "mcq",
+        "o": [
+            "To push or pull large ships safely to the dock",
+            "To carry passengers",
+            "To race in the sea",
+            "To clean the water"
+        ]
+    },
+    {
+        "q": "Bio-diesel can be made from used cooking oil. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these does NOT run on tracks or rails?",
+        "type": "odd_one_out",
+        "options": [
+            "Train",
+            "Tram",
+            "Metro",
+            "Scooter"
+        ],
+        "correct": "Scooter"
+    },
+    {
+        "q": "Which of these is a train that provides sleeper facilities for overnight journeys?",
+        "type": "mcq",
+        "o": [
+            "Sleeper class train",
+            "Local train",
+            "Metro train",
+            "Tram"
+        ]
+    },
+    {
+        "q": "Name the tube-like passage that connects the engine exhaust to the silencer.",
+        "type": "short_answer",
+        "answers": [
+            "exhaust pipe",
+            "tailpipe"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for Quiet transport, LEFT for Loud transport.",
+        "type": "swipe_cards",
+        "left_label": "Loud",
+        "right_label": "Quiet",
+        "cards": {
+            "Jet engine": "left",
+            "Fire alarm": "left",
+            "Bicycle": "right",
+            "Walking": "right"
+        }
+    },
+    {
+        "q": "Which of these is a vehicle that uses a mechanical arm to lift containers?",
+        "type": "mcq",
+        "o": [
+            "Reach stacker",
+            "Forklift",
+            "Tow truck",
+            "Bulldozer"
+        ]
+    },
+    {
+        "q": "A ______ is a type of bicycle with very fat tyres designed for snow or sand.",
+        "type": "fill_blank",
+        "answers": [
+            "fat bike",
+            "fat tyre bike"
+        ],
+        "other_options": [
+            "mountain bike",
+            "road bike",
+            "bmx"
+        ]
+    },
+    {
+        "q": "Unscramble the word: what boats float on.",
+        "type": "word_scramble",
+        "answer": "WATER",
+        "decoys": "JQX"
+    },
+    {
+        "q": "Complete the sentence about water safety:",
+        "type": "inline_dropdown",
+        "text": "When you are on a small boat, you should always wear a [0] so you can [1] if you fall in.",
+        "dropdowns": [
+            {
+                "correct": "life jacket",
+                "options": [
+                    "life jacket",
+                    "winter coat",
+                    "sweater"
+                ]
+            },
+            {
+                "correct": "float",
+                "options": [
+                    "float",
+                    "sink",
+                    "run"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is a famous Indian highway that connects major cities?",
+        "type": "mcq",
+        "o": [
+            "Golden Quadrilateral",
+            "Silk Route",
+            "Pan-American Highway",
+            "Route 66"
+        ]
+    },
+    {
+        "q": "Match the special transport to its job.",
+        "type": "memory",
+        "pairs": {
+            "Tractor": "Helps farmers grow food",
+            "Garbage truck": "Collects trash from homes",
+            "Tow truck": "Pulls broken cars to the shop"
+        }
+    },
+    {
+        "q": "What is a hybrid vehicle?",
+        "type": "mcq",
+        "o": [
+            "A vehicle that uses two or more power sources, like petrol engine and electric motor",
+            "A vehicle that works on water",
+            "A car with two steering wheels",
+            "A bike with three wheels"
+        ]
+    },
+    {
+        "q": "An aeroplane's black box is actually black in colour. True or False?",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Swipe RIGHT if it carries People, LEFT if it carries Goods/Cargo.",
+        "type": "swipe_cards",
+        "left_label": "Goods",
+        "right_label": "People",
+        "cards": {
+            "Cargo ship": "left",
+            "Goods train": "left",
+            "School bus": "right",
+            "Passenger plane": "right"
+        }
+    },
+    {
+        "q": "Which of these is a device that measures the speed of a vehicle?",
+        "type": "mcq",
+        "o": [
+            "Speedometer",
+            "Barometer",
+            "Thermometer",
+            "Anemometer"
+        ]
+    },
+    {
+        "q": "Match the Indian railway luxury train with its route theme.",
+        "type": "match",
+        "left": [
+            "Palace on Wheels",
+            "Maharajas' Express",
+            "Deccan Odyssey",
+            "Golden Chariot"
+        ],
+        "right": [
+            "Rajasthan heritage",
+            "Pan-India luxury",
+            "Maharashtra and Goa",
+            "South India heritage"
+        ]
+    },
+    {
+        "q": "Name the technology that uses sound waves to help self-driving cars detect objects.",
+        "type": "short_answer",
+        "answers": [
+            "ultrasonic sensor",
+            "ultrasound sensor",
+            "sonar"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a small, fuel-efficient car often preferred in cities?",
+        "type": "mcq",
+        "o": [
+            "Hatchback",
+            "Limousine",
+            "SUV",
+            "Pickup truck"
+        ]
+    },
+    {
+        "q": "A ______ is the main body frame of a car or any vehicle.",
+        "type": "fill_blank",
+        "answers": [
+            "chassis"
+        ],
+        "other_options": [
+            "cabin",
+            "cargo",
+            "cockpit"
+        ]
+    },
+    {
+        "q": "What is the main function of an intercooler in a turbocharged car?",
+        "type": "mcq",
+        "o": [
+            "To cool the compressed air from the turbo",
+            "To heat the engine",
+            "To play the radio",
+            "To charge the battery"
+        ]
+    },
+    {
+        "q": "Unscramble the word: what airplanes fly through.",
+        "type": "word_scramble",
+        "answer": "AIR",
+        "decoys": "VZC"
+    },
+    {
+        "q": "Which of these is a vehicle that helps to lift heavy pallets in a warehouse?",
+        "type": "mcq",
+        "o": [
+            "Forklift",
+            "Crane",
+            "Trolley",
+            "Bicycle"
+        ]
+    },
+    {
+        "q": "LPG stands for Liquefied Petroleum Gas and is used as an alternative vehicle fuel. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is an Indian waterway used for transporting goods?",
+        "type": "mcq",
+        "o": [
+            "National Waterway 1 (Ganga)",
+            "National Highway 44",
+            "Dedicated Freight Corridor",
+            "Suez Canal"
+        ]
+    },
+    {
+        "q": "What is the name of the device that generates electricity using the car engine's belt drive?",
+        "type": "short_answer",
+        "answers": [
+            "alternator"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the term for the resistance an object experiences when moving through air?",
+        "type": "mcq",
+        "o": [
+            "Drag",
+            "Thrust",
+            "Lift",
+            "Weight"
+        ]
+    },
+    {
+        "q": "Which international standard classifies vehicle emission levels, such as BS6 in India?",
+        "type": "mcq",
+        "o": [
+            "Bharat Stage norms",
+            "Euro norms",
+            "ISO 9001",
+            "LEED rating"
+        ]
+    },
+    {
+        "q": "Name the type of engine that uses compressed air and fuel ignition without a spark plug.",
+        "type": "short_answer",
+        "answers": [
+            "diesel engine",
+            "compression ignition engine"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the primary purpose of a turbocharger in an internal combustion engine?",
+        "type": "mcq",
+        "o": [
+            "To force more air into the engine for more power",
+            "To reduce fuel consumption completely",
+            "To cool the exhaust",
+            "To replace the battery"
+        ]
+    },
+    {
+        "q": "Complete the sentence about walking safely:",
+        "type": "inline_dropdown",
+        "text": "Always walk on the [0] and never play on the [1].",
+        "dropdowns": [
+            {
+                "correct": "footpath",
+                "options": [
+                    "footpath",
+                    "road",
+                    "railway track"
+                ]
+            },
+            {
+                "correct": "street",
+                "options": [
+                    "street",
+                    "park",
+                    "playground"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A ______ is a transmission system that changes gears automatically without a clutch pedal.",
+        "type": "fill_blank",
+        "answers": [
+            "automatic transmission",
+            "CVT",
+            "DCT",
+            "torque converter"
+        ],
+        "other_options": [
+            "manual gearbox",
+            "differential",
+            "crankshaft"
+        ]
+    },
+    {
+        "q": "Which of these describes the function of a differential in a car?",
+        "type": "mcq",
+        "o": [
+            "Allows wheels to rotate at different speeds while turning",
+            "Increases engine power",
+            "Filters exhaust gas",
+            "Steers the vehicle"
+        ]
+    },
+    {
+        "q": "CNG produces significantly lower particulate matter than diesel on combustion. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a type of electric vehicle that charges the battery using a petrol engine as a generator?",
+        "type": "mcq",
+        "o": [
+            "Series hybrid",
+            "Battery electric vehicle",
+            "Fuel cell vehicle",
+            "Solar car"
+        ]
+    },
+    {
+        "q": "Match the aerodynamic feature with its function on a vehicle.",
+        "type": "match",
+        "left": [
+            "Spoiler",
+            "Diffuser",
+            "Air dam",
+            "Side skirt"
+        ],
+        "right": [
+            "Reduces lift",
+            "Accelerates airflow under the car",
+            "Blocks air from going under the car",
+            "Reduces air entering from the sides"
+        ]
+    },
+    {
+        "q": "What is the chemical process in a hydrogen fuel cell that produces electricity?",
+        "type": "mcq",
+        "o": [
+            "Reverse electrolysis",
+            "Combustion",
+            "Nuclear fission",
+            "Distillation"
+        ]
+    },
+    {
+        "q": "Name the type of high-speed train technology that uses electromagnetic suspension.",
+        "type": "short_answer",
+        "answers": [
+            "maglev",
+            "magnetic levitation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which gas is primarily responsible for the greenhouse effect from vehicle exhaust?",
+        "type": "mcq",
+        "o": [
+            "Carbon dioxide",
+            "Oxygen",
+            "Hydrogen",
+            "Nitrogen"
+        ]
+    },
+    {
+        "q": "A ______ is a device that converts the rotational energy of a wheel into electrical energy in hybrid and electric cars.",
+        "type": "fill_blank",
+        "answers": [
+            "regenerative braking system",
+            "KERS",
+            "motor generator unit"
+        ],
+        "other_options": [
+            "alternator",
+            "dynamo",
+            "distributor"
+        ]
+    },
+    {
+        "q": "What does the term 'kerb weight' of a vehicle refer to?",
+        "type": "mcq",
+        "o": [
+            "Weight of the vehicle without passengers or cargo",
+            "Maximum loaded weight",
+            "Weight of the engine only",
+            "Weight of the fuel only"
+        ]
+    },
+    {
+        "q": "Which Indian port is the largest by cargo volume handled?",
+        "type": "mcq",
+        "o": [
+            "Mundra Port",
+            "Mumbai Port",
+            "Chennai Port",
+            "Kolkata Port"
+        ]
+    },
+    {
+        "q": "Biodiesel can be used directly in an unmodified diesel engine if it is pure B100. True or False?",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a sophisticated driver-assistance feature for maintaining safe following distance?",
+        "type": "mcq",
+        "o": [
+            "Adaptive Cruise Control",
+            "GPS Navigation",
+            "Radio",
+            "Air conditioning"
+        ]
+    },
+    {
+        "q": "Name the organization that manages the Indian railway network.",
+        "type": "short_answer",
+        "answers": [
+            "Indian Railways",
+            "Ministry of Railways"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the main reason for using lightweight materials like aluminium and carbon fibre in modern cars?",
+        "type": "mcq",
+        "o": [
+            "To improve fuel efficiency by reducing weight",
+            "To increase the car cost only",
+            "To make the car louder",
+            "To reduce tyre grip"
+        ]
+    },
+    {
+        "q": "A ______ is a type of ship that can carry standardised large metal boxes stacked high.",
+        "type": "fill_blank",
+        "answers": [
+            "container ship",
+            "cellular container vessel"
+        ],
+        "other_options": [
+            "bulk carrier",
+            "tanker",
+            "RoRo ship"
+        ]
+    },
+    {
+        "q": "Match the vehicle fluid with its primary function.",
+        "type": "match",
+        "left": [
+            "Engine oil",
+            "Brake fluid",
+            "Coolant",
+            "Transmission fluid"
+        ],
+        "right": [
+            "Lubricates engine parts",
+            "Transmits pedal force to brakes",
+            "Prevents engine overheating",
+            "Lubricates and cools gearbox"
+        ]
+    },
+    {
+        "q": "Which of these is an advantage of a continuously variable transmission (CVT) over a traditional automatic?",
+        "type": "mcq",
+        "o": [
+            "Smoother acceleration with infinite gear ratios",
+            "Fixed gear steps",
+            "Higher weight",
+            "Requires clutch pedal"
+        ]
+    },
+    {
+        "q": "What is the purpose of the Selective Catalytic Reduction (SCR) system in diesel vehicles?",
+        "type": "mcq",
+        "o": [
+            "To reduce nitrogen oxide emissions using AdBlue",
+            "To increase engine power",
+            "To clean engine oil",
+            "To filter air for the cabin"
+        ]
+    },
+    {
+        "q": "The International Maritime Organization (IMO) sets limits on sulphur content in ship fuel. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a system that prevents a vehicle from rolling backward on a slope?",
+        "type": "mcq",
+        "o": [
+            "Hill Hold Assist",
+            "Cruise Control",
+            "ABS",
+            "ESP"
+        ]
+    },
+    {
+        "q": "Name the vehicle type that uses a combination of a combustion engine and electric motor, where the electric motor is the primary drive.",
+        "type": "short_answer",
+        "answers": [
+            "plug-in hybrid",
+            "PHEV",
+            "range extender"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is the primary structural component of an aircraft's wing?",
+        "type": "mcq",
+        "o": [
+            "Spar",
+            "Fuselage",
+            "Rudder",
+            "Aileron"
+        ]
+    },
+    {
+        "q": "How many rails does a monorail travel on?",
+        "type": "slider",
+        "min": 1,
+        "max": 4,
+        "correct": 1
+    },
+    {
+        "q": "Which of these people does NOT drive a vehicle?",
+        "type": "odd_one_out",
+        "options": [
+            "Pilot",
+            "Captain",
+            "Driver",
+            "Teacher"
+        ],
+        "correct": "Teacher"
+    },
+    {
+        "q": "A ______ is a type of railway where trains are controlled remotely and run without a driver on board.",
+        "type": "fill_blank",
+        "answers": [
+            "driverless metro",
+            "unattended train operation",
+            "UTO",
+            "automated people mover"
+        ],
+        "other_options": [
+            "manual train",
+            "goods train",
+            "shatabdi"
+        ]
+    },
+    {
+        "q": "Which of these Indian metros has a fully underground and elevated driverless train system?",
+        "type": "mcq",
+        "o": [
+            "Delhi Metro Magenta Line",
+            "Mumbai Local Train",
+            "Kolkata Tram",
+            "Chennai Suburban"
+        ]
+    },
+    {
+        "q": "What is the main environmental benefit of using shore power (cold ironing) for ships at port?",
+        "type": "mcq",
+        "o": [
+            "Ships can turn off diesel generators and use grid electricity",
+            "Ships can repair engines",
+            "It cools the ship's engines",
+            "It loads cargo faster"
+        ]
+    },
+    {
+        "q": "Unscramble the word: to travel on a bicycle or horse.",
+        "type": "word_scramble",
+        "answer": "RIDE",
+        "decoys": "MKJ"
+    },
+    {
+        "q": "A vehicle's turning radius is determined by its wheelbase and maximum steering angle. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a device on aircraft wings that increases lift during takeoff and landing?",
+        "type": "mcq",
+        "o": [
+            "Flaps",
+            "Spoilers",
+            "Rudder",
+            "Elevator"
+        ]
+    },
+    {
+        "q": "Complete the sentence about sounds:",
+        "type": "inline_dropdown",
+        "text": "A fire engine makes a very loud [0] to tell other cars to move out of the [1].",
+        "dropdowns": [
+            {
+                "correct": "siren",
+                "options": [
+                    "siren",
+                    "song",
+                    "whisper"
+                ]
+            },
+            {
+                "correct": "way",
+                "options": [
+                    "way",
+                    "sky",
+                    "water"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Name the mission by ISRO that aims to send Indian astronauts to space.",
+        "type": "short_answer",
+        "answers": [
+            "Gaganyaan"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a type of battery most commonly used in modern electric vehicles?",
+        "type": "mcq",
+        "o": [
+            "Lithium-ion",
+            "Lead-acid",
+            "Nickel-cadmium",
+            "Alkaline"
+        ]
+    },
+    {
+        "q": "A ______ is a road junction where traffic crosses at different levels, allowing uninterrupted flow.",
+        "type": "fill_blank",
+        "answers": [
+            "interchange",
+            "flyover",
+            "grade separated junction"
+        ],
+        "other_options": [
+            "roundabout",
+            "toll plaza",
+            "zebra crossing"
+        ]
+    },
+    {
+        "q": "Unscramble the word: a piece of paper you buy to ride a train.",
+        "type": "word_scramble",
+        "answer": "TICKET",
+        "decoys": "WXZ"
+    },
+    {
+        "q": "Match the train type with its propulsion or track system.",
+        "type": "match",
+        "left": [
+            "Vande Bharat",
+            "Mumbai Local",
+            "Kolkata Tram",
+            "Metro Neo"
+        ],
+        "right": [
+            "Electric multiple unit with traction motors",
+            "25 kV AC overhead lines",
+            "Overhead wire, often shares road",
+            "Overhead wire, rubber-tyred or steel wheel"
+        ]
+    },
+    {
+        "q": "Complete the sentence about speeds:",
+        "type": "inline_dropdown",
+        "text": "A bullet train is very [0], while a bullock cart is very [1].",
+        "dropdowns": [
+            {
+                "correct": "fast",
+                "options": [
+                    "fast",
+                    "slow",
+                    "still"
+                ]
+            },
+            {
+                "correct": "slow",
+                "options": [
+                    "slow",
+                    "fast",
+                    "jumping"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these pollutants from diesel engines is responsible for causing smog and respiratory issues?",
+        "type": "mcq",
+        "o": [
+            "Nitrogen oxides (NOx)",
+            "Oxygen",
+            "Water vapour",
+            "Carbon monoxide only"
+        ]
+    },
+    {
+        "q": "What is the term for the maximum distance an electric vehicle can travel on a full charge?",
+        "type": "mcq",
+        "o": [
+            "Range",
+            "Mileage",
+            "Torque",
+            "Payload"
+        ]
+    },
+    {
+        "q": "High-octane fuel reduces knocking in high-compression petrol engines. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is the main function of a car's radiator?",
+        "type": "mcq",
+        "o": [
+            "To dissipate heat from engine coolant",
+            "To heat the cabin",
+            "To cool the fuel",
+            "To filter air"
+        ]
+    },
+    {
+        "q": "Name the navigational system that uses ground-based transmitters for aircraft guidance.",
+        "type": "short_answer",
+        "answers": [
+            "ILS",
+            "Instrument Landing System",
+            "VOR",
+            "NDB"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a technology that uses cameras and sensors to keep a car within its lane?",
+        "type": "mcq",
+        "o": [
+            "Lane Keeping Assist",
+            "Parking sensors",
+            "Tyre pressure monitor",
+            "Seat belt pretensioner"
+        ]
+    },
+    {
+        "q": "A ______ is a specialized truck designed to tow away illegally parked or broken-down vehicles.",
+        "type": "fill_blank",
+        "answers": [
+            "tow truck",
+            "recovery vehicle",
+            "wrecker"
+        ],
+        "other_options": [
+            "dumper",
+            "crane",
+            "ambulance"
+        ]
+    },
+    {
+        "q": "Which of these is the main reason for using active aerodynamics in high-performance cars?",
+        "type": "mcq",
+        "o": [
+            "To adjust downforce and reduce drag automatically",
+            "To change the colour of the car",
+            "To play music",
+            "To clean the windshield"
+        ]
+    },
+    {
+        "q": "What does the term 'deadweight tonnage' measure on a ship?",
+        "type": "mcq",
+        "o": [
+            "The total weight a ship can safely carry",
+            "The weight of the ship itself",
+            "The speed of the ship",
+            "The length of the ship"
+        ]
+    },
+    {
+        "q": "A scramjet engine works efficiently at subsonic speeds. True or False?",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which Indian mission successfully tested a scaled-down reusable launch vehicle?",
+        "type": "mcq",
+        "o": [
+            "RLV-TD (Reusable Launch Vehicle Technology Demonstrator)",
+            "Chandrayaan-2",
+            "Mangalyaan",
+            "Aryabhata"
+        ]
+    },
+    {
+        "q": "Name the type of vehicle that can both roll on roads and run on railway tracks.",
+        "type": "short_answer",
+        "answers": [
+            "road-rail vehicle",
+            "hi-rail",
+            "dual mode vehicle"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a central computer in a car that manages engine performance and emissions?",
+        "type": "mcq",
+        "o": [
+            "ECU (Engine Control Unit)",
+            "ABS module",
+            "Airbag module",
+            "Infotainment system"
+        ]
+    },
+    {
+        "q": "A ______ is a type of internal combustion engine where the piston moves up and down in a cylinder.",
+        "type": "fill_blank",
+        "answers": [
+            "reciprocating engine",
+            "piston engine"
+        ],
+        "other_options": [
+            "rotary engine",
+            "jet engine",
+            "steam turbine"
+        ]
+    },
+    {
+        "q": "Match the aircraft part with its control function.",
+        "type": "match",
+        "left": [
+            "Aileron",
+            "Elevator",
+            "Rudder",
+            "Flaps"
+        ],
+        "right": [
+            "Roll control",
+            "Pitch control",
+            "Yaw control",
+            "Increase lift"
+        ]
+    },
+    {
+        "q": "Which of these is a key feature of Bharat Stage VI (BS6) emission norms over BS4?",
+        "type": "mcq",
+        "o": [
+            "Mandatory on-board diagnostics and stricter NOx limits",
+            "Removal of catalytic converter",
+            "Allowing more sulphur in fuel",
+            "Banning all diesel cars"
+        ]
+    },
+    {
+        "q": "What is the main function of a driveshaft in a vehicle?",
+        "type": "mcq",
+        "o": [
+            "To transmit torque from the gearbox to the differential",
+            "To steer the car",
+            "To filter fuel",
+            "To cool the engine"
+        ]
+    },
+    {
+        "q": "Hydrogen fuel cell vehicles emit only water vapour and heat. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these describes a 'series-parallel hybrid' system?",
+        "type": "mcq",
+        "o": [
+            "The car can run on engine alone, electric motor alone, or both combined",
+            "Engine only generates electricity",
+            "Electric motor only assists starting",
+            "Car runs on water"
+        ]
+    },
+    {
+        "q": "Name the type of steel commonly used in modern car bodies for crash safety and weight reduction.",
+        "type": "short_answer",
+        "answers": [
+            "high strength steel",
+            "HSS",
+            "AHSS",
+            "advanced high strength steel"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a type of public transport that operates on a guideway and is often rubber-tyred?",
+        "type": "mcq",
+        "o": [
+            "Automated guideway transit",
+            "Conventional bus",
+            "Cycle rickshaw",
+            "Canoe"
+        ]
+    },
+    {
+        "q": "A ______ is an aerodynamic device on a truck cabin that reduces drag by smoothing airflow over the trailer gap.",
+        "type": "fill_blank",
+        "answers": [
+            "cab extender",
+            "fairing",
+            "air deflector"
+        ],
+        "other_options": [
+            "spoiler",
+            "bumper",
+            "fender"
+        ]
+    },
+    {
+        "q": "Which of these is the primary environmental concern with lead-acid batteries used in older EVs?",
+        "type": "mcq",
+        "o": [
+            "Lead is toxic and must be recycled properly",
+            "They produce too much energy",
+            "They are very light",
+            "They charge instantly"
+        ]
+    },
+    {
+        "q": "If a bus has 6 wheels, how many wheels does it have? (Use the slider)",
+        "type": "slider",
+        "min": 2,
+        "max": 10,
+        "correct": 6
+    },
+    {
+        "q": "What is the role of a supercapacitor in some hybrid and electric vehicles?",
+        "type": "mcq",
+        "o": [
+            "To provide quick bursts of power during acceleration",
+            "To replace the engine",
+            "To play music",
+            "To navigate GPS"
+        ]
+    },
+    {
+        "q": "The International Civil Aviation Organization sets global safety and emission standards for flights. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a key goal of the Indian Sagarmala project?",
+        "type": "mcq",
+        "o": [
+            "Port-led development and reducing logistics cost",
+            "Building airports",
+            "Making metro trains",
+            "Digging canals"
+        ]
+    },
+    {
+        "q": "Which of these is very SLOW?",
+        "type": "odd_one_out",
+        "options": [
+            "Rocket",
+            "Jet",
+            "Bullet Train",
+            "Tricycle"
+        ],
+        "correct": "Tricycle"
+    },
+    {
+        "q": "Match the alternative fuel with its source.",
+        "type": "match",
+        "left": [
+            "Methanol",
+            "Ethanol",
+            "Biodiesel",
+            "Biogas"
+        ],
+        "right": [
+            "Natural gas or biomass",
+            "Corn or sugarcane fermentation",
+            "Vegetable oils or animal fats",
+            "Anaerobic digestion of waste"
+        ]
+    },
+    {
+        "q": "Name the aerodynamic force that opposes the weight of an aircraft and keeps it in the air.",
+        "type": "short_answer",
+        "answers": [
+            "lift"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a vehicle designed to carry liquid cargo at controlled temperatures?",
+        "type": "mcq",
+        "o": [
+            "Insulated tanker",
+            "Flatbed truck",
+            "Container ship",
+            "Bulk carrier"
+        ]
+    },
+    {
+        "q": "A ______ is a train system that uses linear induction motors and a reaction plate between the rails.",
+        "type": "fill_blank",
+        "answers": [
+            "linear motor metro",
+            "LIM train"
+        ],
+        "other_options": [
+            "diesel multiple unit",
+            "horse tram",
+            "funicular"
+        ]
+    },
+    {
+        "q": "Which of these is a smart traffic management system component?",
+        "type": "mcq",
+        "o": [
+            "Adaptive traffic signal control",
+            "Static stop sign",
+            "Concrete barriers",
+            "Zebra crossing without lights"
+        ]
+    },
+    {
+        "q": "What is the primary advantage of a dual-clutch transmission (DCT) over a traditional automatic?",
+        "type": "mcq",
+        "o": [
+            "Faster gear shifts with less power loss",
+            "Cheaper manufacturing",
+            "Better for towing heavy loads",
+            "Uses only one clutch"
+        ]
+    },
+    {
+        "q": "A catalytic converter works best when the engine is cold. True or False?",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a measure to reduce 'road dust' pollution in cities?",
+        "type": "mcq",
+        "o": [
+            "Regular sweeping and water sprinkling",
+            "Planting trees on the moon",
+            "Removing all vehicles",
+            "Painting roads blue"
+        ]
+    },
+    {
+        "q": "Name the Indian rocket that carried the Chandrayaan-3 mission to the Moon.",
+        "type": "short_answer",
+        "answers": [
+            "LVM3",
+            "GSLV Mk III",
+            "Launch Vehicle Mark 3",
+            "Bahubali"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a vehicle system designed to protect pedestrians in a frontal collision?",
+        "type": "mcq",
+        "o": [
+            "Active hood or pop-up bonnet",
+            "Spoiler",
+            "Sunroof",
+            "Tow hook"
+        ]
+    },
+    {
+        "q": "A ______ is a ship designed to transport cars and other wheeled vehicles that can be driven on and off.",
+        "type": "fill_blank",
+        "answers": [
+            "RoRo ship",
+            "roll-on/roll-off ship",
+            "car carrier"
+        ],
+        "other_options": [
+            "container ship",
+            "bulk carrier",
+            "oil tanker"
+        ]
+    },
+    {
+        "q": "Match the road safety system with its description.",
+        "type": "match",
+        "left": [
+            "ESC",
+            "EBD",
+            "TCS",
+            "BAS"
+        ],
+        "right": [
+            "Electronic Stability Control",
+            "Electronic Brake-force Distribution",
+            "Traction Control System",
+            "Brake Assist System"
+        ]
+    },
+    {
+        "q": "Which of these is a direct environmental benefit of a plug-in hybrid vehicle (PHEV) over a conventional car?",
+        "type": "mcq",
+        "o": [
+            "Can run on electric-only mode for short trips with zero tailpipe emissions",
+            "Uses only diesel",
+            "Cannot be plugged in",
+            "Uses coal as fuel"
+        ]
+    },
+    {
+        "q": "What is the main use of a drone in the transport sector?",
+        "type": "mcq",
+        "o": [
+            "Surveillance, mapping, and delivery",
+            "Carrying passengers",
+            "Fighting fires",
+            "Sailing"
+        ]
+    },
+    {
+        "q": "The aerodynamic drag coefficient (Cd) is independent of a vehicle's frontal area. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these Indian government policies promotes electric vehicle manufacturing and adoption?",
+        "type": "mcq",
+        "o": [
+            "FAME II (Faster Adoption and Manufacturing of Electric Vehicles)",
+            "Ujjwala Yojana",
+            "Pradhan Mantri Awas Yojana",
+            "Beti Bachao Beti Padhao"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the person who flies an airplane.",
+        "type": "word_scramble",
+        "answer": "PILOT",
+        "decoys": "BQV"
+    },
+    {
+        "q": "Name the process of injecting a precise amount of fuel directly into the combustion chamber of a petrol engine.",
+        "type": "short_answer",
+        "answers": [
+            "GDI",
+            "direct injection",
+            "gasoline direct injection"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about where planes go:",
+        "type": "inline_dropdown",
+        "text": "Airplanes take off and land at the [0], and they park on the [1].",
+        "dropdowns": [
+            {
+                "correct": "airport",
+                "options": [
+                    "airport",
+                    "bus stand",
+                    "harbor"
+                ]
+            },
+            {
+                "correct": "runway",
+                "options": [
+                    "runway",
+                    "road",
+                    "track"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is a characteristic of a miller cycle engine often used in hybrids?",
+        "type": "mcq",
+        "o": [
+            "Delayed intake valve closing for better efficiency",
+            "Very high displacement",
+            "Uses diesel only",
+            "No spark plug"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the metal rails a train rides on.",
+        "type": "word_scramble",
+        "answer": "TRACK",
+        "decoys": "ZFG"
+    },
+    {
+        "q": "A ______ is a system that uses ultrasonic sensors to help a driver park by detecting obstacles.",
+        "type": "fill_blank",
+        "answers": [
+            "parking sensor",
+            "park assist",
+            "PDC"
+        ],
+        "other_options": [
+            "GPS",
+            "radio",
+            "speaker"
+        ]
+    },
+    {
+        "q": "Which of these is the main purpose of a vehicle's evaporative emission control system?",
+        "type": "mcq",
+        "o": [
+            "To capture fuel vapours from the tank and prevent their release",
+            "To cool the air conditioner",
+            "To pump exhaust gas",
+            "To heat the cabin"
+        ]
+    },
+    {
+        "q": "What is a major logistical advantage of the Dedicated Freight Corridor in India?",
+        "type": "mcq",
+        "o": [
+            "Faster and more efficient movement of goods trains",
+            "Passenger travel comfort",
+            "Airport connectivity",
+            "Ship navigation"
+        ]
+    },
+    {
+        "q": "AVGAS is a type of fuel used in piston-engine aircraft. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a material used in electric vehicle batteries that can be recycled?",
+        "type": "mcq",
+        "o": [
+            "Lithium",
+            "Sand",
+            "Water",
+            "Wood"
+        ]
+    },
+    {
+        "q": "Match the component with its role in electric vehicle powertrain.",
+        "type": "match",
+        "left": [
+            "Inverter",
+            "On-board charger",
+            "DC-DC converter",
+            "BMS"
+        ],
+        "right": [
+            "Converts DC to AC for motor",
+            "Converts AC grid power to DC to charge battery",
+            "Steps down high voltage to 12V for auxiliaries",
+            "Battery Management System"
+        ]
+    },
+    {
+        "q": "Complete the sentence about going to school:",
+        "type": "inline_dropdown",
+        "text": "Many children ride a yellow [0] to get to [1] safely.",
+        "dropdowns": [
+            {
+                "correct": "bus",
+                "options": [
+                    "bus",
+                    "boat",
+                    "airplane"
+                ]
+            },
+            {
+                "correct": "school",
+                "options": [
+                    "school",
+                    "the moon",
+                    "the ocean"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Name the international agreement aiming to reduce greenhouse gas emissions from international shipping.",
+        "type": "short_answer",
+        "answers": [
+            "IMO 2020",
+            "MARPOL Annex VI",
+            "EEDI",
+            "Energy Efficiency Design Index"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a method used to reduce rolling resistance in tyres to improve fuel economy?",
+        "type": "mcq",
+        "o": [
+            "Using silica-based tread compounds",
+            "Increasing tread depth",
+            "Reducing tyre pressure",
+            "Using solid rubber tyres"
+        ]
+    },
+    {
+        "q": "A ______ is a vehicle powered by an engine that runs on a mix of hydrogen and natural gas.",
+        "type": "fill_blank",
+        "answers": [
+            "HCNG vehicle",
+            "hydrogen compressed natural gas vehicle"
+        ],
+        "other_options": [
+            "petrol car",
+            "electric scooter",
+            "diesel bus"
+        ]
+    },
+    {
+        "q": "Which of these is a key function of a satellite in modern transport?",
+        "type": "mcq",
+        "o": [
+            "Enabling GPS based real-time vehicle tracking",
+            "Fixing flat tyres",
+            "Painting road markings",
+            "Directly powering cars"
+        ]
+    },
+    {
+        "q": "What is the main reason for the use of swept wings in commercial jet aircraft?",
+        "type": "mcq",
+        "o": [
+            "To reduce drag at high subsonic speeds",
+            "To increase fuel storage",
+            "To make the plane look good",
+            "To carry more passengers"
+        ]
+    },
+    {
+        "q": "A very large container ship can carry over 20,000 twenty-foot equivalent units. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is the main advantage of a 48-volt mild hybrid system over a traditional 12-volt system?",
+        "type": "mcq",
+        "o": [
+            "Supports higher electrification and better start-stop function",
+            "Produces more noise",
+            "Weighs more",
+            "Cannot power the engine"
+        ]
+    },
+    {
+        "q": "What does the Otto cycle describe in thermodynamics?",
+        "type": "mcq",
+        "o": [
+            "The idealized thermodynamic cycle for spark-ignition piston engines",
+            "The cycle of a steam turbine",
+            "The refrigeration cycle in an AC",
+            "The water flow cycle in a radiator"
+        ]
+    },
+    {
+        "q": "Name the metal catalyst commonly used in three-way catalytic converters to reduce NOx.",
+        "type": "short_answer",
+        "answers": [
+            "rhodium",
+            "palladium",
+            "platinum"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these describes the function of a limited-slip differential (LSD)?",
+        "type": "mcq",
+        "o": [
+            "Limits the difference in rotational speed between the two driven wheels to maximize traction",
+            "Locks both wheels always",
+            "Allows one wheel to spin freely",
+            "Disconnects the driveshaft"
+        ]
+    },
+    {
+        "q": "A ______ is a type of intake system that uses variable-length runners to optimize air charge across engine RPM.",
+        "type": "fill_blank",
+        "answers": [
+            "variable intake manifold",
+            "VIS",
+            "variable geometry intake"
+        ],
+        "other_options": [
+            "exhaust manifold",
+            "turbocharger",
+            "intercooler"
+        ]
+    },
+    {
+        "q": "In a turbojet engine, what is the purpose of the stator blades in the compressor?",
+        "type": "mcq",
+        "o": [
+            "To diffuse air and raise static pressure, guiding it to the next rotor stage",
+            "To inject fuel",
+            "To ignite the mixture",
+            "To exhaust gases"
+        ]
+    },
+    {
+        "q": "Match the aircraft engine type with its principle of operation.",
+        "type": "match",
+        "left": [
+            "Turbofan",
+            "Ramjet",
+            "Pulsejet",
+            "Turboprop"
+        ],
+        "right": [
+            "Bypass air for thrust and efficiency",
+            "No moving parts, relies on high speed",
+            "Intermittent combustion",
+            "Gas turbine drives a propeller"
+        ]
+    },
+    {
+        "q": "Which of these is the most advanced NOx reduction system in diesel vehicles requiring urea injection?",
+        "type": "mcq",
+        "o": [
+            "Selective Catalytic Reduction (SCR)",
+            "Exhaust Gas Recirculation (EGR)",
+            "Three-way catalyst",
+            "Diesel oxidation catalyst"
+        ]
+    },
+    {
+        "q": "The Atkinson cycle engine delays the closing of the intake valve to reduce pumping losses. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the phenomenon of premature combustion in a petrol engine causing a pinging sound called?",
+        "type": "mcq",
+        "o": [
+            "Knocking or detonation",
+            "Backfire",
+            "Afterfire",
+            "Vapor lock"
+        ]
+    },
+    {
+        "q": "Name the chemical formula for urea solution used in diesel SCR systems.",
+        "type": "short_answer",
+        "answers": [
+            "AdBlue",
+            "AUS 32",
+            "DEF",
+            "Diesel Exhaust Fluid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a type of hybrid vehicle topology where the engine and motor can independently drive the wheels?",
+        "type": "mcq",
+        "o": [
+            "Power-split or series-parallel hybrid",
+            "Micro hybrid",
+            "Mild hybrid only",
+            "Hydraulic hybrid"
+        ]
+    },
+    {
+        "q": "A ______ gearbox uses two automated clutches to achieve near-instantaneous gear changes.",
+        "type": "fill_blank",
+        "answers": [
+            "DCT",
+            "dual-clutch transmission",
+            "twin-clutch"
+        ],
+        "other_options": [
+            "CVT",
+            "torque converter",
+            "manual"
+        ]
+    },
+    {
+        "q": "What is the specific impulse (Isp) a measure of in rocketry?",
+        "type": "mcq",
+        "o": [
+            "Efficiency of a rocket engine, thrust per unit weight flow of propellant",
+            "Maximum temperature of the exhaust",
+            "Total weight of the rocket",
+            "Speed of sound at sea level"
+        ]
+    },
+    {
+        "q": "How many helmets should two people on a motorcycle wear in total?",
+        "type": "slider",
+        "min": 0,
+        "max": 4,
+        "correct": 2
+    },
+    {
+        "q": "Which of these is NOT used for safety in transport?",
+        "type": "odd_one_out",
+        "options": [
+            "Helmet",
+            "Seatbelt",
+            "Life jacket",
+            "Radio"
+        ],
+        "correct": "Radio"
+    },
+    {
+        "q": "Which of these classes of electric vehicle supply equipment (EVSE) provides DC fast charging?",
+        "type": "mcq",
+        "o": [
+            "Level 3 / DC Fast Charger",
+            "Level 1 AC",
+            "Level 2 AC",
+            "Trickle charger"
+        ]
+    },
+    {
+        "q": "The Wankel engine is a type of rotary internal combustion engine. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the sensor with its measurement parameter in an engine management system.",
+        "type": "match",
+        "left": [
+            "Mass Air Flow sensor",
+            "Knock sensor",
+            "Lambda sensor",
+            "Crankshaft position sensor"
+        ],
+        "right": [
+            "Intake air mass",
+            "Engine detonation vibrations",
+            "Oxygen content in exhaust",
+            "Engine RPM and piston position"
+        ]
+    },
+    {
+        "q": "Which of these refers to the integration of electric motors into the axle of a vehicle?",
+        "type": "mcq",
+        "o": [
+            "E-axle or electric drive unit",
+            "Transfer case",
+            "Propeller shaft",
+            "Differential cage"
+        ]
+    },
+    {
+        "q": "Name the Indian space vehicle that achieved a soft landing near the lunar south pole.",
+        "type": "short_answer",
+        "answers": [
+            "Chandrayaan-3",
+            "Vikram lander"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the primary reason for the use of high bypass ratio in modern turbofan engines?",
+        "type": "mcq",
+        "o": [
+            "To improve fuel efficiency and reduce noise",
+            "To increase exhaust speed",
+            "To reduce the engine size",
+            "To eliminate the need for a compressor"
+        ]
+    },
+    {
+        "q": "A ______ is a system that adjusts the valve lift and duration dynamically based on engine load and speed.",
+        "type": "fill_blank",
+        "answers": [
+            "variable valve timing",
+            "VVT",
+            "VTEC",
+            "Vanos"
+        ],
+        "other_options": [
+            "distributor",
+            "intercooler",
+            "exhaust manifold"
+        ]
+    },
+    {
+        "q": "Which of these is a characteristic of an HCCI (Homogeneous Charge Compression Ignition) engine?",
+        "type": "mcq",
+        "o": [
+            "Petrol-like fuel air mixture but ignites by compression like diesel",
+            "Uses only spark plugs",
+            "Requires pure hydrogen",
+            "Cannot use any fuel"
+        ]
+    },
+    {
+        "q": "What is the unit of battery capacity commonly used for electric vehicles?",
+        "type": "mcq",
+        "o": [
+            "Kilowatt-hour (kWh)",
+            "Ampere",
+            "Volt",
+            "Horsepower"
+        ]
+    },
+    {
+        "q": "A vehicle's electronic stability program (ESP) uses selective wheel braking to prevent oversteer or understeer. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: to steer a car down the road.",
+        "type": "word_scramble",
+        "answer": "DRIVE",
+        "decoys": "LKP"
+    },
+    {
+        "q": "Complete the sentence about paths:",
+        "type": "inline_dropdown",
+        "text": "Cars drive on smooth [0], and trains roll on metal [1].",
+        "dropdowns": [
+            {
+                "correct": "roads",
+                "options": [
+                    "roads",
+                    "water",
+                    "clouds"
+                ]
+            },
+            {
+                "correct": "tracks",
+                "options": [
+                    "tracks",
+                    "grass",
+                    "sand"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is a type of LiDAR sensor used in autonomous vehicles for 3D mapping?",
+        "type": "mcq",
+        "o": [
+            "Solid-state LiDAR",
+            "Ultrasonic sensor",
+            "Radar only",
+            "Camera only"
+        ]
+    },
+    {
+        "q": "Name the Indian port that is the first major port to become a 100% landlord port under the Major Port Authorities Act 2021.",
+        "type": "short_answer",
+        "answers": [
+            "Mormugao Port",
+            "Mormugao"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these describes the function of a vehicle's yaw rate sensor?",
+        "type": "mcq",
+        "o": [
+            "Measures the angular velocity around the vertical axis to detect rotation",
+            "Measures vehicle speed",
+            "Detects engine temperature",
+            "Monitors fuel level"
+        ]
+    },
+    {
+        "q": "A ______ is a device that reduces the toxicity of diesel exhaust by trapping soot particles and burning them off periodically.",
+        "type": "fill_blank",
+        "answers": [
+            "Diesel Particulate Filter",
+            "DPF"
+        ],
+        "other_options": [
+            "catalytic converter",
+            "muffler",
+            "intercooler"
+        ]
+    },
+    {
+        "q": "Match the phase of a 4-stroke engine cycle with the piston movement.",
+        "type": "match",
+        "left": [
+            "Intake",
+            "Compression",
+            "Power",
+            "Exhaust"
+        ],
+        "right": [
+            "Piston moves down",
+            "Piston moves up",
+            "Piston moves down",
+            "Piston moves up"
+        ]
+    },
+    {
+        "q": "Which of these Indian ports is a hub for container transshipment on the east coast?",
+        "type": "mcq",
+        "o": [
+            "Krishnapatnam Port",
+            "Mundra Port",
+            "Jawaharlal Nehru Port",
+            "Kandla Port"
+        ]
+    },
+    {
+        "q": "What is the main objective of the International Maritime Organization's EEXI regulation?",
+        "type": "mcq",
+        "o": [
+            "To mandate the energy efficiency of existing ships",
+            "To increase ship speed",
+            "To remove all tankers",
+            "To build new roads"
+        ]
+    },
+    {
+        "q": "A dual-fuel marine engine can operate on both heavy fuel oil and LNG. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a method to achieve positive crankcase ventilation (PCV) in an engine?",
+        "type": "mcq",
+        "o": [
+            "Re-routing blow-by gases back into the intake manifold to be burned",
+            "Venting gases directly to the atmosphere",
+            "Blocking the crankcase completely",
+            "Mixing with coolant"
+        ]
+    },
+    {
+        "q": "Name the open-source mapping platform used by many autonomous vehicle developers for high-definition maps.",
+        "type": "short_answer",
+        "answers": [
+            "OpenStreetMap",
+            "OSM",
+            "HD maps",
+            "Here maps"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these refers to a train system that can switch between different track gauges automatically?",
+        "type": "mcq",
+        "o": [
+            "Variable gauge system (e.g., Talgo RD)",
+            "Standard gauge only",
+            "Broad gauge only",
+            "Narrow gauge only"
+        ]
+    },
+    {
+        "q": "A ______ is a gearbox that provides an infinite number of effective gear ratios between a minimum and a maximum.",
+        "type": "fill_blank",
+        "answers": [
+            "CVT",
+            "continuously variable transmission"
+        ],
+        "other_options": [
+            "DCT",
+            "manual",
+            "automatic"
+        ]
+    },
+    {
+        "q": "What is the function of a swashplate in a helicopter rotor system?",
+        "type": "mcq",
+        "o": [
+            "To translate the pilot's cyclic and collective inputs into blade pitch changes",
+            "To start the engine",
+            "To steer the tail wheel",
+            "To fuel the aircraft"
+        ]
+    },
+    {
+        "q": "Which of these is a failure mode of a turbocharger due to extreme exhaust temperatures?",
+        "type": "mcq",
+        "o": [
+            "Coking and turbine wheel damage",
+            "Increased fuel efficiency",
+            "Better acceleration",
+            "Quiet operation"
+        ]
+    },
+    {
+        "q": "A supercapacitor has higher energy density than a lithium-ion battery. True or False?",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the autonomous driving level with its description per SAE J3016.",
+        "type": "match",
+        "left": [
+            "Level 2",
+            "Level 3",
+            "Level 4",
+            "Level 5"
+        ],
+        "right": [
+            "Partial automation, driver must monitor",
+            "Conditional automation, vehicle monitors",
+            "High automation, no driver needed in specific area",
+            "Full automation, no driver needed anywhere"
+        ]
+    },
+    {
+        "q": "Which of these is a sensor that measures the oxygen level in exhaust gas to adjust the air-fuel mixture?",
+        "type": "mcq",
+        "o": [
+            "Lambda sensor",
+            "Throttle position sensor",
+            "Crank sensor",
+            "MAP sensor"
+        ]
+    },
+    {
+        "q": "Name the type of rocket engine cycle where exhaust gases from a pre-burner drive the turbopumps.",
+        "type": "short_answer",
+        "answers": [
+            "staged combustion cycle",
+            "full flow staged combustion"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is the primary driver for the adoption of electric vertical take-off and landing (eVTOL) aircraft?",
+        "type": "mcq",
+        "o": [
+            "Urban air mobility and zero operational emissions",
+            "Faster ships",
+            "Longer train tracks",
+            "Truck racing"
+        ]
+    },
+    {
+        "q": "A ______ is a type of brake system that uses an electric motor to generate braking force and recover energy.",
+        "type": "fill_blank",
+        "answers": [
+            "regenerative braking",
+            "regen braking",
+            "KERS"
+        ],
+        "other_options": [
+            "drum brake",
+            "disc brake",
+            "parking brake"
+        ]
+    },
+    {
+        "q": "What is the primary benefit of using a carbon-ceramic brake disc over a traditional iron disc?",
+        "type": "mcq",
+        "o": [
+            "Higher thermal stability and reduced fade at extreme temperatures",
+            "Lower cost",
+            "Heavier weight",
+            "Softer pedal feel"
+        ]
+    },
+    {
+        "q": "Which of these is a system that sprays water into the intake charge to cool it and allow higher boost?",
+        "type": "mcq",
+        "o": [
+            "Water-methanol injection",
+            "Intercooler spray",
+            "Oil cooler",
+            "EGR cooler"
+        ]
+    },
+    {
+        "q": "The Doppler effect is used by police radar guns to measure vehicle speed. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is an Indian missile developed by DRDO that can be launched from a submarine?",
+        "type": "mcq",
+        "o": [
+            "K-4 (SLBM)",
+            "BrahMos",
+            "Prithvi",
+            "Akash"
+        ]
+    },
+    {
+        "q": "Name the type of welding commonly used in aircraft fuselage structures for its strength-to-weight ratio.",
+        "type": "short_answer",
+        "answers": [
+            "friction stir welding",
+            "FSW"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a characteristic of a permanent magnet synchronous motor (PMSM) used in many EVs?",
+        "type": "mcq",
+        "o": [
+            "High power density and efficiency using rare-earth magnets",
+            "Uses brushes",
+            "Requires only AC induction",
+            "Cannot be liquid cooled"
+        ]
+    },
+    {
+        "q": "A ______ is a thin metal disc that separates the combustion chamber from the crankcase in a two-stroke engine.",
+        "type": "fill_blank",
+        "answers": [
+            "cylinder head",
+            "piston",
+            "head gasket"
+        ],
+        "other_options": [
+            "carburettor",
+            "exhaust",
+            "muffler"
+        ]
+    },
+    {
+        "q": "Match the rocket propellant combination with its typical use.",
+        "type": "match",
+        "left": [
+            "Liquid oxygen/LH2",
+            "Solid propellant",
+            "Hypergolic propellant",
+            "Kerosene/LOX"
+        ],
+        "right": [
+            "Upper stage cryogenic engines",
+            "Boosters",
+            "Satellite thrusters",
+            "First stage like Saturn V F-1"
+        ]
+    },
+    {
+        "q": "Which of these is the main function of a torque converter in an automatic transmission?",
+        "type": "mcq",
+        "o": [
+            "To multiply torque and couple the engine to the gearbox fluidly",
+            "To shift gears manually",
+            "To brake the wheels",
+            "To cool the engine oil"
+        ]
+    },
+    {
+        "q": "What is the typical operating voltage of a modern battery electric vehicle traction system?",
+        "type": "mcq",
+        "o": [
+            "400-800 volts",
+            "12 volts",
+            "24 volts",
+            "48 volts"
+        ]
+    },
+    {
+        "q": "The term 'stoichiometric ratio' for petrol engines is approximately 14.7 parts air to 1 part fuel. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is an advanced driver assistance system (ADAS) feature that alerts drivers to vehicles in blind spots?",
+        "type": "mcq",
+        "o": [
+            "Blind Spot Detection (BSD)",
+            "Tyre Pressure Monitoring System (TPMS)",
+            "Automatic wiper",
+            "Keyless entry"
+        ]
+    },
+    {
+        "q": "Name the space vehicle that carried the first Indian astronaut Rakesh Sharma.",
+        "type": "short_answer",
+        "answers": [
+            "Soyuz T-11"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these materials is commonly used for the anode in a lithium-ion battery?",
+        "type": "mcq",
+        "o": [
+            "Graphite",
+            "Lead",
+            "Cadmium",
+            "Zinc"
+        ]
+    },
+    {
+        "q": "A ______ is a device that blends hydrogen with compressed natural gas to improve combustion and reduce emissions.",
+        "type": "fill_blank",
+        "answers": [
+            "HCNG blending unit",
+            "hydrogen mixer"
+        ],
+        "other_options": [
+            "turbocharger",
+            "intercooler",
+            "catalytic converter"
+        ]
+    },
+    {
+        "q": "Which of these is a non-destructive testing method used to inspect railway tracks for internal cracks?",
+        "type": "mcq",
+        "o": [
+            "Ultrasonic testing",
+            "Visual inspection only",
+            "Painting",
+            "Weighing"
+        ]
+    },
+    {
+        "q": "What is the purpose of the 'Ram air turbine' on an aircraft?",
+        "type": "mcq",
+        "o": [
+            "To provide emergency hydraulic or electrical power using airflow",
+            "To assist in landing",
+            "To start the main engines",
+            "To air-condition the cabin"
+        ]
+    },
+    {
+        "q": "A gyroscope is used in vehicle stability control systems to sense the rate of rotation. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a characteristic of the Indian Regional Navigation Satellite System (NavIC)?",
+        "type": "mcq",
+        "o": [
+            "Provides accurate position information over India and surrounding regions",
+            "Global coverage like GPS",
+            "Only used for military",
+            "Uses only ground stations"
+        ]
+    },
+    {
+        "q": "Match the brake system component with its function.",
+        "type": "match",
+        "left": [
+            "Master cylinder",
+            "Brake caliper",
+            "Brake booster",
+            "Proportioning valve"
+        ],
+        "right": [
+            "Generates hydraulic pressure",
+            "Clamps brake pads onto rotor",
+            "Multiplies pedal force using vacuum",
+            "Limits pressure to rear brakes to prevent lockup"
+        ]
+    },
+    {
+        "q": "Name the ISO standard that defines functional safety for road vehicles electrical and electronic systems.",
+        "type": "short_answer",
+        "answers": [
+            "ISO 26262"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is the primary function of a vehicle's exhaust gas recirculation (EGR) valve?",
+        "type": "mcq",
+        "o": [
+            "Recirculate a portion of exhaust gas to intake to reduce NOx",
+            "Increase engine noise",
+            "Cool the transmission",
+            "Heat the cabin"
+        ]
+    },
+    {
+        "q": "A ______ is a type of wheel bearing assembly that integrates the hub, bearing, and sometimes sensors.",
+        "type": "fill_blank",
+        "answers": [
+            "hub bearing unit",
+            "HBU",
+            "integrated wheel end"
+        ],
+        "other_options": [
+            "shock absorber",
+            "strut mount",
+            "tie rod"
+        ]
+    },
+    {
+        "q": "Which of these is a method of increasing the volumetric efficiency of an internal combustion engine?",
+        "type": "mcq",
+        "o": [
+            "Forced induction via turbocharger or supercharger",
+            "Increasing exhaust backpressure",
+            "Reducing valve size",
+            "Lowering engine RPM"
+        ]
+    },
+    {
+        "q": "What is the main hazard associated with hydrogen fuel tanks in vehicles?",
+        "type": "mcq",
+        "o": [
+            "High pressure storage and flammability risk",
+            "Corrosive liquid leak",
+            "Heavy weight",
+            "Solid residue buildup"
+        ]
+    },
+    {
+        "q": "The Black box in aircraft is painted bright orange for easy recovery. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these Indian warships is an indigenously built aircraft carrier?",
+        "type": "mcq",
+        "o": [
+            "INS Vikrant",
+            "INS Vikramaditya",
+            "INS Arihant",
+            "INS Kolkata"
+        ]
+    },
+    {
+        "q": "Name the American reusable cargo spacecraft that docked with the International Space Station.",
+        "type": "short_answer",
+        "answers": [
+            "SpaceX Dragon",
+            "Cargo Dragon",
+            "Dragon capsule"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a type of semi-trailer truck designed to carry extremely heavy or oversized loads?",
+        "type": "mcq",
+        "o": [
+            "Lowboy trailer",
+            "Tanker trailer",
+            "Reefer trailer",
+            "Dry van"
+        ]
+    },
+    {
+        "q": "A ______ is an aerodynamic ground-effect vehicle designed to skim just above the water or ground surface.",
+        "type": "fill_blank",
+        "answers": [
+            "ekranoplan",
+            "wing-in-ground-effect vehicle",
+            "WIG"
+        ],
+        "other_options": [
+            "hovercraft",
+            "seaplane",
+            "hydrofoil"
+        ]
+    },
+    {
+        "q": "Which of these is the main advantage of using a cable-stayed bridge over a suspension bridge for a medium span?",
+        "type": "mcq",
+        "o": [
+            "Less material usage and higher stiffness per cost",
+            "Better for very long spans only",
+            "Needs deep water foundation",
+            "Cannot support road traffic"
+        ]
+    },
+    {
+        "q": "What is 'aquaplaning' or 'hydroplaning' in vehicle dynamics?",
+        "type": "mcq",
+        "o": [
+            "Tyre loses road contact due to a layer of water",
+            "Car floats like a boat",
+            "Engine stops in rain",
+            "Windows fog up"
+        ]
+    },
+    {
+        "q": "A fuel cell electric vehicle (FCEV) battery is typically much larger than that of a battery electric vehicle (BEV). True or False?",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a government scheme in India for faster adoption of electric buses in cities?",
+        "type": "mcq",
+        "o": [
+            "FAME India Phase II - e-bus scheme",
+            "Jal Jeevan Mission",
+            "PM Gram Sadak Yojana",
+            "Smart Cities Mission only"
+        ]
+    },
+    {
+        "q": "Match the vehicle bus communication protocol with its characteristic.",
+        "type": "match",
+        "left": [
+            "CAN bus",
+            "LIN bus",
+            "FlexRay",
+            "MOST bus"
+        ],
+        "right": [
+            "Robust, multi-master for critical systems",
+            "Low cost, single-master for body electronics",
+            "High speed, deterministic for x-by-wire",
+            "Optical fiber for infotainment"
+        ]
+    },
+    {
+        "q": "Name the futuristic transport concept using capsules inside low-pressure tubes proposed by Elon Musk.",
+        "type": "short_answer",
+        "answers": [
+            "Hyperloop"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is the principle behind an aircraft's pitot-static system?",
+        "type": "mcq",
+        "o": [
+            "Measuring dynamic pressure vs static pressure to determine airspeed",
+            "Weighing the aircraft",
+            "Measuring fuel flow",
+            "Counting passengers"
+        ]
+    },
+    {
+        "q": "A ______ is a type of electric motor rotor that uses permanent magnets embedded inside the rotor core for high efficiency.",
+        "type": "fill_blank",
+        "answers": [
+            "IPM motor",
+            "interior permanent magnet motor"
+        ],
+        "other_options": [
+            "induction motor",
+            "brushed DC motor",
+            "stepper motor"
+        ]
+    },
+    {
+        "q": "Which of these is a primary source of microplastic pollution from road transport?",
+        "type": "mcq",
+        "o": [
+            "Tyre and brake wear particles",
+            "Engine oil leakage",
+            "Coolant spills",
+            "Battery acid"
+        ]
+    },
+    {
+        "q": "What is the typical compression ratio range of a modern direct injection turbocharged petrol engine?",
+        "type": "mcq",
+        "o": [
+            "9:1 to 12:1",
+            "5:1 to 7:1",
+            "15:1 to 20:1",
+            "22:1 to 30:1"
+        ]
+    },
+    {
+        "q": "Indian Railways' Project 'Mission Raftaar' aims to double the average speed of freight trains. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a vehicle-to-everything (V2X) communication technology that uses cellular networks?",
+        "type": "mcq",
+        "o": [
+            "C-V2X (Cellular Vehicle-to-Everything)",
+            "DSRC only",
+            "Bluetooth only",
+            "Wi-Fi only"
+        ]
+    },
+    {
+        "q": "In a homogeneous charge compression ignition (HCCI) engine, what controls the start of combustion?",
+        "type": "mcq",
+        "o": [
+            "Chemical kinetics of the fuel-air mixture and compression temperature",
+            "Spark plug timing",
+            "Direct fuel injection timing",
+            "Glow plug activation"
+        ]
+    },
+    {
+        "q": "Name the dimensionless number that characterizes the type of flow around an aircraft, comparing inertial forces to viscous forces.",
+        "type": "short_answer",
+        "answers": [
+            "Reynolds number",
+            "Re"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the primary purpose of a propfan or unducted fan engine concept?",
+        "type": "mcq",
+        "o": [
+            "To approach turbofan speeds with turboprop-like fuel efficiency",
+            "To eliminate the need for a compressor",
+            "To replace all jet engines with pistons",
+            "To fly without wings"
+        ]
+    },
+    {
+        "q": "A ______ is a type of rocket engine nozzle that automatically adjusts its expansion ratio to ambient pressure.",
+        "type": "fill_blank",
+        "answers": [
+            "aerospike nozzle",
+            "altitude compensating nozzle"
+        ],
+        "other_options": [
+            "bell nozzle",
+            "conical nozzle",
+            "plug nozzle"
+        ]
+    },
+    {
+        "q": "Which thermodynamic cycle best describes the process in a diesel engine?",
+        "type": "mcq",
+        "o": [
+            "Diesel cycle (constant pressure combustion)",
+            "Otto cycle",
+            "Brayton cycle",
+            "Rankine cycle"
+        ]
+    },
+    {
+        "q": "Match the type of hybrid vehicle architecture with its energy flow characteristic.",
+        "type": "match",
+        "left": [
+            "Series hybrid",
+            "Parallel hybrid",
+            "Power-split hybrid",
+            "Through-the-road hybrid"
+        ],
+        "right": [
+            "Engine generates electricity, motor drives wheels",
+            "Engine and motor both can drive wheels directly",
+            "Planetary gearset blends both inputs continuously",
+            "One axle driven by engine, other by electric motor"
+        ]
+    },
+    {
+        "q": "Which of these describes the function of a steer-by-wire system?",
+        "type": "mcq",
+        "o": [
+            "Electronic signals replace the mechanical connection between steering wheel and rack",
+            "Hydraulic hoses connect the steering to the wheels",
+            "The steering wheel is removed entirely",
+            "Engine power is used to steer"
+        ]
+    },
+    {
+        "q": "A synchrotron is used in automotive engineering to analyze material stresses at the atomic level. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the chief advantage of a lithium iron phosphate (LFP) battery over a nickel manganese cobalt (NMC) battery in EVs?",
+        "type": "mcq",
+        "o": [
+            "Superior thermal stability and longer cycle life, though lower energy density",
+            "Much higher energy density",
+            "Heavier weight",
+            "Uses liquid sodium"
+        ]
+    },
+    {
+        "q": "Name the standard communication protocol used between the charging station and electric vehicle to negotiate charging parameters.",
+        "type": "short_answer",
+        "answers": [
+            "ISO 15118",
+            "CCS",
+            "CHAdeMO",
+            "GB/T"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a technique used to reduce the radar cross-section (RCS) of stealth aircraft?",
+        "type": "mcq",
+        "o": [
+            "Faceted airframe geometry and radar-absorbent materials",
+            "Painting the aircraft bright red",
+            "Adding large vertical fins",
+            "Flying very slowly"
+        ]
+    },
+    {
+        "q": "A ______ transmission uses a belt and a pulley system with variable diameter sheaves to provide seamless ratio changes.",
+        "type": "fill_blank",
+        "answers": [
+            "CVT",
+            "continuously variable transmission"
+        ],
+        "other_options": [
+            "DCT",
+            "AMT",
+            "manual"
+        ]
+    },
+    {
+        "q": "What is the function of an interstage fairing in a multi-stage rocket?",
+        "type": "mcq",
+        "o": [
+            "To connect and protect the engines and separation mechanisms between stages",
+            "To store additional fuel",
+            "To control the rocket's colour",
+            "To generate lift"
+        ]
+    },
+    {
+        "q": "Which of these is the main mechanism of NOx formation in internal combustion engines?",
+        "type": "mcq",
+        "o": [
+            "Thermal NOx mechanism (Zeldovich mechanism)",
+            "Fuel-bound nitrogen conversion only",
+            "Sulphur oxidation",
+            "Carbon reduction"
+        ]
+    },
+    {
+        "q": "A supercharger consumes crankshaft power to compress air, whereas a turbocharger uses waste exhaust energy. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the advanced driver assistance sensor with its environmental limitation.",
+        "type": "match",
+        "left": [
+            "LiDAR",
+            "RADAR",
+            "Camera",
+            "Ultrasonic"
+        ],
+        "right": [
+            "Performance drops in heavy fog or snow",
+            "Can have difficulty with stationary objects",
+            "Sensitive to direct sunlight and dirt on lens",
+            "Very short range, limited to parking speeds"
+        ]
+    },
+    {
+        "q": "Which of these refers to the design principle of integrating battery cells directly into the vehicle structure?",
+        "type": "mcq",
+        "o": [
+            "Cell-to-pack or cell-to-chassis technology",
+            "Swappable battery technology",
+            "Lead-acid architecture",
+            "Generator mode"
+        ]
+    },
+    {
+        "q": "Name the superalloy commonly used for turbine blades in jet engines due to its high temperature strength.",
+        "type": "short_answer",
+        "answers": [
+            "Inconel",
+            "Nimonic",
+            "single crystal nickel superalloy"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What does the term 'boundary layer suction' refer to in advanced aircraft aerodynamics?",
+        "type": "mcq",
+        "o": [
+            "Removing the slow-moving air close to the wing surface to maintain laminar flow",
+            "Sucking in air for the engine",
+            "Venting the cabin pressure",
+            "Defrosting the wings"
+        ]
+    },
+    {
+        "q": "A ______ is a type of nuclear propulsion concept where a reactor heats hydrogen propellant to generate thrust for space travel.",
+        "type": "fill_blank",
+        "answers": [
+            "nuclear thermal rocket",
+            "NTR",
+            "NERVA"
+        ],
+        "other_options": [
+            "ion thruster",
+            "chemical rocket",
+            "solar sail"
+        ]
+    },
+    {
+        "q": "Which of these is the main function of an active suspension system in a vehicle?",
+        "type": "mcq",
+        "o": [
+            "Dynamically adjusts damping and/or spring rate to optimize ride and handling",
+            "Only raises the car for off-roading",
+            "Pumps the tyres automatically",
+            "Steers the rear wheels"
+        ]
+    },
+    {
+        "q": "In tribology, what is the 'Stribeck curve' used to describe?",
+        "type": "mcq",
+        "o": [
+            "The relationship between friction, lubrication regime, and bearing speed",
+            "Engine torque curve",
+            "Tyre wear rate",
+            "Aerodynamic drag"
+        ]
+    },
+    {
+        "q": "Modern Formula 1 cars use a kinetic energy recovery system (KERS) to boost acceleration. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is the primary reason for using a dry sump lubrication system in high performance cars?",
+        "type": "mcq",
+        "o": [
+            "Prevents oil starvation under high lateral acceleration and lowers engine center of gravity",
+            "Increases oil capacity only",
+            "Simplifies engine design",
+            "Cools the fuel"
+        ]
+    },
+    {
+        "q": "Name the navigation technique that uses accelerometers and gyroscopes to calculate position without external references.",
+        "type": "short_answer",
+        "answers": [
+            "Inertial navigation",
+            "INS",
+            "inertial navigation system",
+            "dead reckoning"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a characteristic of a 'blended wing body' aircraft design?",
+        "type": "mcq",
+        "o": [
+            "The fuselage and wing merge smoothly to generate lift and reduce drag",
+            "Separate cylindrical tube and wings",
+            "Helicopter rotors only",
+            "Vertical takeoff only"
+        ]
+    },
+    {
+        "q": "A ______ is a vehicle suspension geometry where the wheel moves vertically guided by a telescopic strut and a lower control arm.",
+        "type": "fill_blank",
+        "answers": [
+            "MacPherson strut",
+            "MacPherson"
+        ],
+        "other_options": [
+            "double wishbone",
+            "multi-link",
+            "trailing arm"
+        ]
+    },
+    {
+        "q": "Match the rocket engine cycle with its description.",
+        "type": "match",
+        "left": [
+            "Expander cycle",
+            "Gas generator cycle",
+            "Staged combustion",
+            "Pressure-fed"
+        ],
+        "right": [
+            "Fuel is heated to drive turbines",
+            "Some propellant is burned separately to drive pumps",
+            "Pre-burners drive pumps, all propellant goes to main chamber",
+            "High-pressure tank forces propellant into chamber, no pumps"
+        ]
+    },
+    {
+        "q": "Which of these is the dominant failure mode for lithium-ion batteries when overcharged or internally shorted?",
+        "type": "mcq",
+        "o": [
+            "Thermal runaway and potential fire",
+            "Gradual capacity fade",
+            "Freezing of electrolyte",
+            "Metal casing expansion only"
+        ]
+    },
+    {
+        "q": "What is the purpose of a 'squat and dive' control system in advanced chassis engineering?",
+        "type": "mcq",
+        "o": [
+            "To minimize pitch angle change during acceleration and braking",
+            "To make the car jump",
+            "To lower the roof",
+            "To increase drag"
+        ]
+    },
+    {
+        "q": "A lean NOx trap (LNT) operates by periodically storing NOx and then reducing it with a rich fuel pulse. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a long-range maritime patrol aircraft operated by the Indian Navy?",
+        "type": "mcq",
+        "o": [
+            "Boeing P-8I Neptune",
+            "Sukhoi Su-30MKI",
+            "HAL Tejas",
+            "Dornier 228"
+        ]
+    },
+    {
+        "q": "Name the Indian mission to study the Sun from the Lagrange point L1.",
+        "type": "short_answer",
+        "answers": [
+            "Aditya-L1"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the main function of a 'torque vectoring' differential in a high-performance car?",
+        "type": "mcq",
+        "o": [
+            "Actively distributes torque to individual wheels to improve cornering agility",
+            "Locks both axles",
+            "Disengages the driveshaft",
+            "Reverses the wheel rotation"
+        ]
+    },
+    {
+        "q": "A ______ is a type of aero-engine where the entire compressor and turbine assembly rotates around a fixed shaft.",
+        "type": "fill_blank",
+        "answers": [
+            "turbojet",
+            "gas turbine",
+            "jet engine"
+        ],
+        "other_options": [
+            "ramjet",
+            "pulsejet",
+            "scramjet"
+        ]
+    },
+    {
+        "q": "Which of these is a method of stabilizing a ship without using fins or ballast water exchange?",
+        "type": "mcq",
+        "o": [
+            "Gyroscopic stabilizers",
+            "Increasing cargo weight",
+            "Painting the hull red",
+            "Sailing against the wind"
+        ]
+    },
+    {
+        "q": "What is the primary benefit of a dual-axis steering system in a Formula 1 car (DAS)?",
+        "type": "mcq",
+        "o": [
+            "Adjusting toe angle while driving to manage tyre temperature and straight-line speed",
+            "Changing the gear ratio",
+            "Adjusting engine mapping",
+            "Controlling the rear wing"
+        ]
+    },
+    {
+        "q": "Hydrogen embrittlement is a risk when storing hydrogen at high pressure in steel tanks. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the autonomous vehicle sensor suite with its primary role.",
+        "type": "match",
+        "left": [
+            "High-definition map",
+            "IMU",
+            "GNSS",
+            "V2X communication"
+        ],
+        "right": [
+            "Provides pre-mapped static environmental data",
+            "Measures vehicle acceleration and rotation",
+            "Provides global position referencing",
+            "Talks to infrastructure and other vehicles"
+        ]
+    },
+    {
+        "q": "Which of these materials is considered a solid-state electrolyte candidate for next-generation batteries?",
+        "type": "mcq",
+        "o": [
+            "Lithium lanthanum zirconium oxide (LLZO)",
+            "Sulphuric acid",
+            "Lithium hexafluorophosphate",
+            "Water"
+        ]
+    },
+    {
+        "q": "Name the programming language predominantly used for safety-critical real-time software in automotive embedded systems.",
+        "type": "short_answer",
+        "answers": [
+            "C",
+            "C++",
+            "ADA",
+            "Rust"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the concept of a 'digital twin' in the context of aircraft maintenance?",
+        "type": "mcq",
+        "o": [
+            "A virtual real-time model of the physical aircraft used to predict failures",
+            "A backup pilot",
+            "A paper manual",
+            "A satellite image of the plane"
+        ]
+    },
+    {
+        "q": "A ______ is a type of jet engine designed to operate efficiently at hypersonic speeds by compressing air without a rotating compressor.",
+        "type": "fill_blank",
+        "answers": [
+            "scramjet",
+            "ramjet"
+        ],
+        "other_options": [
+            "turbofan",
+            "turboprop",
+            "helicopter"
+        ]
+    },
+    {
+        "q": "Which of these is the main purpose of an 'active grille shutter' on modern vehicles?",
+        "type": "mcq",
+        "o": [
+            "To close off the front grille to reduce aerodynamic drag when cooling is not needed",
+            "To make the car louder",
+            "To cool the brakes",
+            "To play air resistance sounds"
+        ]
+    },
+    {
+        "q": "What is the primary failure mode of a turbocharger when the engine is shut off immediately after high-load operation?",
+        "type": "mcq",
+        "o": [
+            "Oil coking in the bearing housing due to heat soak",
+            "Blade melting",
+            "Compressor housing cracking",
+            "Turbine shaft bending"
+        ]
+    },
+    {
+        "q": "The Global Maritime Distress and Safety System (GMDSS) uses satellite and terrestrial radio to automate distress alerts. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these Indian space ports is used to launch sounding rockets and small satellites?",
+        "type": "mcq",
+        "o": [
+            "Satish Dhawan Space Centre (Sriharikota)",
+            "TERLS (Thumba)",
+            "Vikram Sarabhai Space Centre",
+            "Space Application Centre"
+        ]
+    },
+    {
+        "q": "Match the type of hull with its hydrodynamic property.",
+        "type": "match",
+        "left": [
+            "Displacement hull",
+            "Planing hull",
+            "Catamaran",
+            "SWATH"
+        ],
+        "right": [
+            "Pushes water aside, speed limited by length",
+            "Rides on top of water at high speed",
+            "Two hulls for stability, reduced wake",
+            "Small waterplane area twin hull, very stable"
+        ]
+    },
+    {
+        "q": "Name the specific impulse of the CE-20 cryogenic engine developed by ISRO.",
+        "type": "short_answer",
+        "answers": [
+            "443 seconds",
+            "approx 443 s",
+            "4343 m/s"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is the primary advantage of a 'through-the-road' hybrid system?",
+        "type": "mcq",
+        "o": [
+            "Simpler integration as engine and electric motor drive different axles",
+            "All-wheel drive at all times",
+            "No battery needed",
+            "No engine needed"
+        ]
+    },
+    {
+        "q": "A ______ is an aircraft that uses helium or hot air for lift and has engines for forward movement and steering.",
+        "type": "fill_blank",
+        "answers": [
+            "airship",
+            "dirigible",
+            "blimp"
+        ],
+        "other_options": [
+            "helicopter",
+            "rocket",
+            "glider"
+        ]
+    },
+    {
+        "q": "What is the primary environmental concern regarding 'scrubber washwater' from ships?",
+        "type": "mcq",
+        "o": [
+            "Discharge of acidic water, heavy metals, and polycyclic aromatic hydrocarbons into the sea",
+            "It is too clean",
+            "It evaporates instantly",
+            "It turns into fresh water"
+        ]
+    },
+    {
+        "q": "Which of these is a requirement for an aircraft to achieve 'Extended-range Twin-engine Operational Performance Standards' (ETOPS) certification?",
+        "type": "mcq",
+        "o": [
+            "Proven reliability to fly long distances on a single engine",
+            "Must have four engines",
+            "Only for cargo",
+            "Cannot fly over water"
+        ]
+    },
+    {
+        "q": "Battery swapping is a strategy to overcome long charging times for electric vehicles. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a key technical challenge in designing a methane-fueled rocket engine (like Raptor or BE-4)?",
+        "type": "mcq",
+        "o": [
+            "Managing soot-free combustion and coking at high temperatures",
+            "Finding liquid methane",
+            "Storing methane at low pressure",
+            "Methane is too heavy"
+        ]
+    },
+    {
+        "q": "Name the Indian naval vessel class designed for ballistic missile defence at sea.",
+        "type": "short_answer",
+        "answers": [
+            "Project 15B",
+            "Visakhapatnam class",
+            "Kolkata class"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the function of a 'wastegate' in a turbocharged engine?",
+        "type": "mcq",
+        "o": [
+            "To bypass exhaust gas away from the turbine wheel to control boost pressure",
+            "To increase oil pressure",
+            "To cool the radiator",
+            "To open the exhaust valves"
+        ]
+    },
+    {
+        "q": "A ______ is a type of suspension that uses a series of links and arms to precisely control wheel motion throughout travel.",
+        "type": "fill_blank",
+        "answers": [
+            "multi-link suspension",
+            "5-link suspension"
+        ],
+        "other_options": [
+            "MacPherson strut",
+            "beam axle",
+            "leaf spring"
+        ]
+    },
+    {
+        "q": "Which of these describes a 'ground effect' vehicle?",
+        "type": "mcq",
+        "o": [
+            "An aircraft that flies at very low altitude to take advantage of increased lift and reduced drag",
+            "A car that digs into the ground",
+            "A boat that sinks",
+            "A train that runs underground"
+        ]
+    },
+    {
+        "q": "What is the role of a 'phased array antenna' in vehicle radar systems?",
+        "type": "mcq",
+        "o": [
+            "Electronic beam steering without moving parts for rapid scanning",
+            "Generating audible sound",
+            "Heating the cabin",
+            "Cooling the engine"
+        ]
+    },
+    {
+        "q": "The Karman line is the internationally recognized boundary of space, set at 100 km altitude. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a method to reduce cavitation damage on ship propellers?",
+        "type": "mcq",
+        "o": [
+            "Optimizing blade design and using cavitation-resistant materials",
+            "Painting the propeller",
+            "Reducing ship length",
+            "Increasing water temperature"
+        ]
+    },
+    {
+        "q": "Match the Indian railway gauge with its track width.",
+        "type": "match",
+        "left": [
+            "Broad gauge",
+            "Metre gauge",
+            "Narrow gauge"
+        ],
+        "right": [
+            "1676 mm",
+            "1000 mm",
+            "762 mm / 610 mm"
+        ]
+    },
+    {
+        "q": "Name the phenomenon where a rotating tire deforms and generates heat, contributing to rolling resistance.",
+        "type": "short_answer",
+        "answers": [
+            "hysteresis",
+            "tyre hysteresis"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is the main function of a 'diffuser' on a Formula 1 car floor?",
+        "type": "mcq",
+        "o": [
+            "To accelerate and expand airflow exiting from under the car, creating a low-pressure area",
+            "To slow the car down",
+            "To heat the tyres",
+            "To cool the engine"
+        ]
+    },
+    {
+        "q": "A ______ is a type of braking system that uses a magnetic field to create resistance and slow a vehicle without physical contact.",
+        "type": "fill_blank",
+        "answers": [
+            "eddy current brake",
+            "electromagnetic brake"
+        ],
+        "other_options": [
+            "disc brake",
+            "drum brake",
+            "parking brake"
+        ]
+    },
+    {
+        "q": "Which of these is a characteristic of a third-generation advanced high strength steel (AHSS) used in car bodies?",
+        "type": "mcq",
+        "o": [
+            "High tensile strength with improved formability for complex shapes",
+            "Very low strength",
+            "Heavy and brittle",
+            "Cannot be welded"
+        ]
+    },
+    {
+        "q": "What is the primary purpose of a 'starter generator' in a mild hybrid vehicle (BSG/ISG)?",
+        "type": "mcq",
+        "o": [
+            "To enable automatic start-stop and provide torque assist, generating electricity during deceleration",
+            "Only to start the engine",
+            "Only to charge the 12V battery",
+            "To replace the fuel tank"
+        ]
+    },
+    {
+        "q": "The Suez Canal significantly reduces the sea voyage distance between Asia and Europe. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a reusable, autonomous spaceplane designed by ISRO for low-cost space access?",
+        "type": "mcq",
+        "o": [
+            "RLV-TD (Reusable Launch Vehicle Technology Demonstrator)",
+            "PSLV",
+            "GSLV",
+            "SSLV"
+        ]
+    },
+    {
+        "q": "Name the multi-modal logistics park policy in India aimed at reducing freight costs and time.",
+        "type": "short_answer",
+        "answers": [
+            "Bharatmala Pariyojana",
+            "National Logistics Policy",
+            "PM Gati Shakti"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is the dominant wear mechanism in electric vehicle battery contacts and connectors?",
+        "type": "mcq",
+        "o": [
+            "Fretting corrosion due to micro-motion and vibration",
+            "Abrasive wear",
+            "Adhesive wear",
+            "Erosion by fluid"
+        ]
+    },
+    {
+        "q": "A ______ is a type of gear system that allows one wheel to rotate faster than the other during a turn.",
+        "type": "fill_blank",
+        "answers": [
+            "differential",
+            "open differential"
+        ],
+        "other_options": [
+            "transfer case",
+            "gearbox",
+            "clutch"
+        ]
+    },
+    {
+        "q": "What is the significance of the 'Ladakh tunnel' or Zojila tunnel project for transport in India?",
+        "type": "mcq",
+        "o": [
+            "All-weather connectivity between Kashmir and Ladakh, bypassing dangerous high passes",
+            "Connecting Mumbai and Delhi",
+            "Underwater rail link",
+            "Space launch pad"
+        ]
+    },
+    {
+        "q": "Which of these pollutants is primarily responsible for 'acid rain' from vehicle and industrial emissions?",
+        "type": "mcq",
+        "o": [
+            "Sulphur dioxide and nitrogen oxides",
+            "Carbon monoxide",
+            "Oxygen",
+            "Water vapour"
+        ]
+    },
+    {
+        "q": "The Chand Baori stepwell was used as a water transport channel in ancient India. True or False?",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the type of fuel cell with its operating temperature range.",
+        "type": "match",
+        "left": [
+            "PEMFC",
+            "SOFC",
+            "AFC",
+            "MCFC"
+        ],
+        "right": [
+            "Low temp (60-80 deg C)",
+            "High temp (800-1000 deg C)",
+            "Low temp (60-90 deg C, pure O2/H2)",
+            "High temp (600-700 deg C)"
+        ]
+    },
+    {
+        "q": "Which of these describes the function of the 'reaction wheel' in a spacecraft?",
+        "type": "mcq",
+        "o": [
+            "To provide fine attitude control by exchanging angular momentum with the spacecraft",
+            "To generate main propulsion",
+            "To cool the electronics",
+            "To deploy solar panels"
+        ]
+    },
+    {
+        "q": "Name the sustainable aviation fuel (SAF) production process that converts alcohols into jet fuel.",
+        "type": "short_answer",
+        "answers": [
+            "Alcohol-to-Jet",
+            "ATJ",
+            "Fischer-Tropsch"
+        ],
+        "isCaseSensitive": false
+    }
+]

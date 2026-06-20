@@ -1,0 +1,6111 @@
+[
+    {
+        "q": "How many main seasons are there usually in a year?",
+        "type": "slider",
+        "min": 1,
+        "max": 6,
+        "correct": 4
+    },
+    {
+        "q": "How many main seasons are there in a year?",
+        "type": "mcq",
+        "o": [
+            "Four",
+            "Two",
+            "Six",
+            "Eight"
+        ]
+    },
+    {
+        "q": "Which season is the coldest?",
+        "type": "mcq",
+        "o": [
+            "Winter",
+            "Summer",
+            "Spring",
+            "Autumn"
+        ]
+    },
+    {
+        "q": "During which season do flowers bloom?",
+        "type": "mcq",
+        "o": [
+            "Spring",
+            "Winter",
+            "Autumn",
+            "Summer"
+        ]
+    },
+    {
+        "q": "What do we call the season when leaves fall from trees?",
+        "type": "short_answer",
+        "answers": [
+            "autumn",
+            "fall"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We wear warm ______ in winter.",
+        "type": "fill_blank",
+        "answers": [
+            "clothes"
+        ],
+        "other_options": [
+            "shorts",
+            "swimsuits",
+            "t-shirts",
+            "flip-flops"
+        ]
+    },
+    {
+        "q": "It is very hot in winter.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the season to the weather.",
+        "type": "memory",
+        "pairs": {
+            "Summer": "Very hot",
+            "Winter": "Very cold",
+            "Monsoon": "Raining",
+            "Spring": "Pleasant and breezy"
+        }
+    },
+    {
+        "q": "Which season is the hottest?",
+        "type": "mcq",
+        "o": [
+            "Summer",
+            "Spring",
+            "Autumn",
+            "Winter"
+        ]
+    },
+    {
+        "q": "In which season do we see snow in some places?",
+        "type": "mcq",
+        "o": [
+            "Winter",
+            "Summer",
+            "Spring",
+            "Autumn"
+        ]
+    },
+    {
+        "q": "Which of these is NOT worn in winter?",
+        "type": "odd_one_out",
+        "options": [
+            "Sweater",
+            "Jacket",
+            "Scarf",
+            "Swimsuit"
+        ],
+        "correct": "Swimsuit"
+    },
+    {
+        "q": "What do trees grow in spring?",
+        "type": "mcq",
+        "o": [
+            "New leaves",
+            "Snow",
+            "Dry fruits",
+            "Ice"
+        ]
+    },
+    {
+        "q": "Match the season with what we like to do:",
+        "type": "match",
+        "left": [
+            "Summer",
+            "Winter",
+            "Spring",
+            "Autumn"
+        ],
+        "right": [
+            "Go swimming",
+            "Build a snowman",
+            "See flowers bloom",
+            "Collect colorful leaves"
+        ]
+    },
+    {
+        "q": "We use umbrellas mostly in the ______ season.",
+        "type": "fill_blank",
+        "answers": [
+            "rainy",
+            "monsoon"
+        ],
+        "other_options": [
+            "summer",
+            "winter",
+            "spring",
+            "autumn"
+        ]
+    },
+    {
+        "q": "Which season comes after winter?",
+        "type": "mcq",
+        "o": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter again"
+        ]
+    },
+    {
+        "q": "Birds build nests mostly in which season?",
+        "type": "mcq",
+        "o": [
+            "Spring",
+            "Autumn",
+            "Winter",
+            "Summer"
+        ]
+    },
+    {
+        "q": "Name a cold drink we enjoy in summer.",
+        "type": "short_answer",
+        "answers": [
+            "lemonade",
+            "juice",
+            "cold water",
+            "iced tea",
+            "smoothie",
+            "milkshake"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe LEFT for Summer, RIGHT for Winter.",
+        "type": "swipe_cards",
+        "left_label": "Summer",
+        "right_label": "Winter",
+        "cards": {
+            "Mangoes": "left",
+            "Snowman": "right",
+            "Cotton shirt": "left",
+            "Gloves": "right"
+        }
+    },
+    {
+        "q": "Days are longer in winter than in summer.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What color do many leaves turn in autumn?",
+        "type": "mcq",
+        "o": [
+            "Orange and red",
+            "Blue and purple",
+            "Only green",
+            "Pink and white"
+        ]
+    },
+    {
+        "q": "Which of these is a winter fruit?",
+        "type": "mcq",
+        "o": [
+            "Orange",
+            "Mango",
+            "Watermelon",
+            "Litchi"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The season when flowers bloom.",
+        "type": "word_scramble",
+        "answer": "SPRING",
+        "decoys": "XYZ"
+    },
+    {
+        "q": "In summer, we prefer to wear ______ clothes.",
+        "type": "fill_blank",
+        "answers": [
+            "cotton",
+            "light"
+        ],
+        "other_options": [
+            "woolen",
+            "heavy",
+            "leather",
+            "thick"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The item you use to stay dry in the rain.",
+        "type": "word_scramble",
+        "answer": "UMBRELLA",
+        "decoys": "KQT"
+    },
+    {
+        "q": "Complete the sentence about hot weather:",
+        "type": "inline_dropdown",
+        "text": "In [0], the weather is very hot and we like to eat [1].",
+        "dropdowns": [
+            {
+                "correct": "Summer",
+                "options": [
+                    "Summer",
+                    "Winter",
+                    "Spring"
+                ]
+            },
+            {
+                "correct": "ice cream",
+                "options": [
+                    "ice cream",
+                    "hot soup",
+                    "roasted nuts"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which season is also called the monsoon season?",
+        "type": "mcq",
+        "o": [
+            "Rainy season",
+            "Summer",
+            "Winter",
+            "Spring"
+        ]
+    },
+    {
+        "q": "Complete the sentence about falling leaves:",
+        "type": "inline_dropdown",
+        "text": "During [0], leaves change color and fall from trees. This season is also called [1].",
+        "dropdowns": [
+            {
+                "correct": "Autumn",
+                "options": [
+                    "Autumn",
+                    "Summer",
+                    "Winter"
+                ]
+            },
+            {
+                "correct": "Fall",
+                "options": [
+                    "Fall",
+                    "Spring",
+                    "Rainy"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What do farmers do in the rainy season?",
+        "type": "mcq",
+        "o": [
+            "Sow seeds",
+            "Harvest all crops",
+            "Make snowmen",
+            "Rake dry leaves"
+        ]
+    },
+    {
+        "q": "Animals like bears sleep for a long time in winter. This is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hibernation"
+        ],
+        "other_options": [
+            "migration",
+            "playing",
+            "hunting",
+            "eating"
+        ]
+    },
+    {
+        "q": "We wear woolen clothes to keep cool.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which season is best for flying kites?",
+        "type": "mcq",
+        "o": [
+            "Spring",
+            "Rainy season",
+            "Winter",
+            "Summer"
+        ]
+    },
+    {
+        "q": "What do we like to drink in winter to keep warm?",
+        "type": "mcq",
+        "o": [
+            "Hot chocolate",
+            "Cold lemonade",
+            "Ice cream shake",
+            "Cold water"
+        ]
+    },
+    {
+        "q": "In which season does the sun set very late?",
+        "type": "mcq",
+        "o": [
+            "Summer",
+            "Winter",
+            "Autumn",
+            "Spring"
+        ]
+    },
+    {
+        "q": "What do birds do in autumn to go to warmer places?",
+        "type": "short_answer",
+        "answers": [
+            "migrate",
+            "migration",
+            "fly south",
+            "travel"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The weather is very windy and leaves fall in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "autumn",
+            "fall"
+        ],
+        "other_options": [
+            "spring",
+            "summer",
+            "winter",
+            "monsoon"
+        ]
+    },
+    {
+        "q": "Match the season to the clothing.",
+        "type": "memory",
+        "pairs": {
+            "Raincoat": "Monsoon",
+            "Sweater": "Winter",
+            "Shorts": "Summer",
+            "Light jacket": "Autumn"
+        }
+    },
+    {
+        "q": "Which season has the most rainfall in many countries?",
+        "type": "mcq",
+        "o": [
+            "Monsoon or Rainy season",
+            "Summer",
+            "Winter",
+            "Spring"
+        ]
+    },
+    {
+        "q": "What do children like to play with in summer?",
+        "type": "mcq",
+        "o": [
+            "Water balloons",
+            "Snowballs",
+            "Dry leaves",
+            "Umbrellas"
+        ]
+    },
+    {
+        "q": "How many months are in a full year covering all seasons?",
+        "type": "slider",
+        "min": 1,
+        "max": 12,
+        "correct": 12
+    },
+    {
+        "q": "Match the clothing to the season:",
+        "type": "match",
+        "left": [
+            "Sweater",
+            "Raincoat",
+            "Swimsuit",
+            "Light jacket"
+        ],
+        "right": [
+            "Winter",
+            "Rainy season",
+            "Summer",
+            "Autumn"
+        ]
+    },
+    {
+        "q": "We eat ice cream mostly in winter.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the season between winter and summer called?",
+        "type": "mcq",
+        "o": [
+            "Spring",
+            "Autumn",
+            "Rainy season",
+            "Just cold season"
+        ]
+    },
+    {
+        "q": "Which of these is a summer fruit?",
+        "type": "mcq",
+        "o": [
+            "Watermelon",
+            "Apple",
+            "Orange",
+            "Pear"
+        ]
+    },
+    {
+        "q": "The rainy season comes after which hot season?",
+        "type": "mcq",
+        "o": [
+            "Summer",
+            "Winter",
+            "Spring",
+            "Autumn"
+        ]
+    },
+    {
+        "q": "Name a festival you celebrate in winter.",
+        "type": "short_answer",
+        "answers": [
+            "christmas",
+            "diwali",
+            "hanukkah",
+            "new year",
+            "lohri",
+            "christmas day"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We see a ______ in the sky during the rainy season.",
+        "type": "fill_blank",
+        "answers": [
+            "rainbow"
+        ],
+        "other_options": [
+            "snowman",
+            "dry leaf",
+            "hot sun",
+            "hailstorm"
+        ]
+    },
+    {
+        "q": "In which season do we celebrate Earth Day?",
+        "type": "mcq",
+        "o": [
+            "Spring",
+            "Winter",
+            "Autumn",
+            "Rainy season"
+        ]
+    },
+    {
+        "q": "What happens to ponds and lakes in summer?",
+        "type": "mcq",
+        "o": [
+            "They may dry up",
+            "They freeze solid",
+            "They fill with snow",
+            "They turn red"
+        ]
+    },
+    {
+        "q": "Butterflies are most active in the cold winter.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which season is harvest time for many crops?",
+        "type": "mcq",
+        "o": [
+            "Autumn",
+            "Spring",
+            "Winter",
+            "Summer"
+        ]
+    },
+    {
+        "q": "What do we use to protect from rain?",
+        "type": "mcq",
+        "o": [
+            "Raincoat or umbrella",
+            "Sunglasses",
+            "Sweater",
+            "Cap"
+        ]
+    },
+    {
+        "q": "Match the animal behavior to the season.",
+        "type": "memory",
+        "pairs": {
+            "Hibernation": "Winter",
+            "Bird Migration": "Autumn",
+            "Nesting": "Spring",
+            "Panting": "Summer"
+        }
+    },
+    {
+        "q": "In spring, the snow ______ and flowers grow.",
+        "type": "fill_blank",
+        "answers": [
+            "melts"
+        ],
+        "other_options": [
+            "freezes",
+            "stays",
+            "blows",
+            "dries"
+        ]
+    },
+    {
+        "q": "Which season is known for thunderstorms and lightning?",
+        "type": "mcq",
+        "o": [
+            "Summer or Rainy season",
+            "Winter",
+            "Spring only",
+            "Autumn only"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a summer activity?",
+        "type": "odd_one_out",
+        "options": [
+            "Swimming",
+            "Building sandcastles",
+            "Making a snowman",
+            "Eating ice cream"
+        ],
+        "correct": "Making a snowman"
+    },
+    {
+        "q": "What do we like to wear on our feet in summer?",
+        "type": "mcq",
+        "o": [
+            "Sandals or flip-flops",
+            "Snow boots",
+            "Woolen socks",
+            "Heavy shoes"
+        ]
+    },
+    {
+        "q": "Name an animal that hibernates in winter.",
+        "type": "short_answer",
+        "answers": [
+            "bear",
+            "hedgehog",
+            "bat",
+            "snake",
+            "frog",
+            "chipmunk"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe LEFT for Rainy weather, RIGHT for Sunny weather.",
+        "type": "swipe_cards",
+        "left_label": "Rainy",
+        "right_label": "Sunny",
+        "cards": {
+            "Puddles": "left",
+            "Sunglasses": "right",
+            "Rainbow": "left",
+            "Beach umbrella": "right"
+        }
+    },
+    {
+        "q": "During autumn, trees lose their ______.",
+        "type": "fill_blank",
+        "answers": [
+            "leaves"
+        ],
+        "other_options": [
+            "roots",
+            "branches",
+            "trunks",
+            "fruits"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The hot ball of gas shining brightly in Summer.",
+        "type": "word_scramble",
+        "answer": "SUN",
+        "decoys": "PQ"
+    },
+    {
+        "q": "Unscramble the word: The white fluffy stuff that falls in cold winters.",
+        "type": "word_scramble",
+        "answer": "SNOW",
+        "decoys": "MZ"
+    },
+    {
+        "q": "The sun feels hottest during winter afternoons.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these do we NOT usually do in winter?",
+        "type": "mcq",
+        "o": [
+            "Go surfing at the beach",
+            "Sit by the fireplace",
+            "Drink hot soup",
+            "Wear a scarf"
+        ]
+    },
+    {
+        "q": "What is the weather mostly like in spring?",
+        "type": "mcq",
+        "o": [
+            "Mild and pleasant",
+            "Freezing cold",
+            "Very hot and dry",
+            "Snowy and icy"
+        ]
+    },
+    {
+        "q": "Match the animal to its seasonal behavior:",
+        "type": "match",
+        "left": [
+            "Bear",
+            "Bird",
+            "Squirrel",
+            "Frog"
+        ],
+        "right": [
+            "Hibernates in winter",
+            "Migrates in autumn",
+            "Stores nuts for winter",
+            "Hides in mud in winter"
+        ]
+    },
+    {
+        "q": "Complete the sentence about rain and light:",
+        "type": "inline_dropdown",
+        "text": "When it rains, we see a [0] in the sky if the sun comes out. It has [1] colors.",
+        "dropdowns": [
+            {
+                "correct": "rainbow",
+                "options": [
+                    "rainbow",
+                    "cloud",
+                    "star"
+                ]
+            },
+            {
+                "correct": "seven",
+                "options": [
+                    "seven",
+                    "five",
+                    "ten"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which season has the shortest days in many places?",
+        "type": "mcq",
+        "o": [
+            "Winter",
+            "Summer",
+            "Spring",
+            "Autumn"
+        ]
+    },
+    {
+        "q": "Complete the sentence about resting animals:",
+        "type": "inline_dropdown",
+        "text": "Animals like bears go to [0] during the [1] season.",
+        "dropdowns": [
+            {
+                "correct": "sleep",
+                "options": [
+                    "sleep",
+                    "play",
+                    "hunt"
+                ]
+            },
+            {
+                "correct": "winter",
+                "options": [
+                    "winter",
+                    "summer",
+                    "spring"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What do bees collect in spring from flowers?",
+        "type": "mcq",
+        "o": [
+            "Nectar",
+            "Snow",
+            "Ice",
+            "Rainwater"
+        ]
+    },
+    {
+        "q": "We like to stay indoors near a heater in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "winter"
+        ],
+        "other_options": [
+            "summer",
+            "spring",
+            "autumn",
+            "rainy"
+        ]
+    },
+    {
+        "q": "Match the event or break to the typical season.",
+        "type": "memory",
+        "pairs": {
+            "Christmas": "Winter",
+            "Thanksgiving": "Autumn",
+            "Easter": "Spring",
+            "Long school break": "Summer"
+        }
+    },
+    {
+        "q": "Name a flower that blooms in spring.",
+        "type": "short_answer",
+        "answers": [
+            "tulip",
+            "daffodil",
+            "rose",
+            "lily",
+            "daisy",
+            "sunflower"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The rainy season brings relief from the summer heat.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is an autumn activity?",
+        "type": "mcq",
+        "o": [
+            "Raking fallen leaves",
+            "Planting new flower bulbs",
+            "Building a snow fort",
+            "Swimming in the lake"
+        ]
+    },
+    {
+        "q": "If Summer is 3 months long, and Winter is 3 months long, how many months total are they together?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 6
+    },
+    {
+        "q": "What do you see on grass early in the winter morning?",
+        "type": "mcq",
+        "o": [
+            "Frost or dew",
+            "Steam",
+            "Dry dust",
+            "Mud"
+        ]
+    },
+    {
+        "q": "In many places, which is the season of new beginnings?",
+        "type": "mcq",
+        "o": [
+            "Spring",
+            "Winter",
+            "Autumn",
+            "Rainy season"
+        ]
+    },
+    {
+        "q": "People often go to hill stations in which season to escape heat?",
+        "type": "mcq",
+        "o": [
+            "Summer",
+            "Winter",
+            "Rainy season",
+            "Spring"
+        ]
+    },
+    {
+        "q": "The ground is often covered with ______ snow in winter.",
+        "type": "fill_blank",
+        "answers": [
+            "white",
+            "cold"
+        ],
+        "other_options": [
+            "green",
+            "brown",
+            "yellow",
+            "red"
+        ]
+    },
+    {
+        "q": "Which season comes right before autumn?",
+        "type": "mcq",
+        "o": [
+            "Summer",
+            "Spring",
+            "Winter",
+            "Rainy season"
+        ]
+    },
+    {
+        "q": "What do we call a very heavy snowstorm?",
+        "type": "short_answer",
+        "answers": [
+            "blizzard",
+            "snowstorm"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Fruits like mangoes ripen in the rainy season in many countries.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the food to the season.",
+        "type": "memory",
+        "pairs": {
+            "Hot Cocoa": "Winter",
+            "Watermelon": "Summer",
+            "Roasted Corn": "Monsoon",
+            "Pumpkin Pie": "Autumn"
+        }
+    },
+    {
+        "q": "Which season is known for clear skies and mild weather?",
+        "type": "mcq",
+        "o": [
+            "Autumn",
+            "Summer",
+            "Winter",
+            "Rainy season"
+        ]
+    },
+    {
+        "q": "What do we often use in summer to keep cool indoors?",
+        "type": "mcq",
+        "o": [
+            "Fan or air cooler",
+            "Room heater",
+            "Fireplace",
+            "Hot water bottle"
+        ]
+    },
+    {
+        "q": "Match the season with the correct weather description:",
+        "type": "match",
+        "left": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Monsoon"
+        ],
+        "right": [
+            "Cold and snowy",
+            "Warm and breezy",
+            "Hot and sunny",
+            "Wet and cloudy"
+        ]
+    },
+    {
+        "q": "In which season do you need sunscreen the most?",
+        "type": "mcq",
+        "o": [
+            "Summer",
+            "Winter",
+            "Autumn",
+            "Rainy season"
+        ]
+    },
+    {
+        "q": "Days become shorter and nights longer in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "autumn",
+            "fall"
+        ],
+        "other_options": [
+            "spring",
+            "summer",
+            "rainy",
+            "monsoon"
+        ]
+    },
+    {
+        "q": "Which of these is a common winter illness?",
+        "type": "mcq",
+        "o": [
+            "Cold and flu",
+            "Heat stroke",
+            "Sunburn",
+            "Dehydration"
+        ]
+    },
+    {
+        "q": "What sound does rain make on the roof?",
+        "type": "mcq",
+        "o": [
+            "Pitter-patter",
+            "Roar",
+            "Whistle",
+            "Honk"
+        ]
+    },
+    {
+        "q": "Name a food you eat to keep warm in winter.",
+        "type": "short_answer",
+        "answers": [
+            "soup",
+            "stew",
+            "hot chocolate",
+            "tea",
+            "coffee",
+            "porridge"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The sun rises early in winter mornings.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these does NOT happen in Spring?",
+        "type": "odd_one_out",
+        "options": [
+            "Flowers bloom",
+            "Snow falls",
+            "Birds sing",
+            "Grass grows"
+        ],
+        "correct": "Snow falls"
+    },
+    {
+        "q": "Which of these is NOT a sign of spring?",
+        "type": "mcq",
+        "o": [
+            "Leaves falling from trees",
+            "Buds on branches",
+            "Birds singing early",
+            "Flowers blooming"
+        ]
+    },
+    {
+        "q": "What happens to the temperature in autumn?",
+        "type": "mcq",
+        "o": [
+            "It starts to cool down",
+            "It becomes the hottest",
+            "It stays the same as summer",
+            "It only gets warmer"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Winter clothes, RIGHT for Summer clothes.",
+        "type": "swipe_cards",
+        "left_label": "Winter",
+        "right_label": "Summer",
+        "cards": {
+            "Mittens": "left",
+            "Tank top": "right",
+            "Beanie": "left",
+            "Sandals": "right"
+        }
+    },
+    {
+        "q": "We eat hot pakoras and enjoy the smell of wet soil in the ______ season.",
+        "type": "fill_blank",
+        "answers": [
+            "rainy",
+            "monsoon"
+        ],
+        "other_options": [
+            "summer",
+            "winter",
+            "spring",
+            "autumn"
+        ]
+    },
+    {
+        "q": "Which season is best for planting most new trees?",
+        "type": "mcq",
+        "o": [
+            "Rainy season",
+            "Winter",
+            "Summer",
+            "Autumn"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The season when it rains a lot.",
+        "type": "word_scramble",
+        "answer": "MONSOON",
+        "decoys": "BW"
+    },
+    {
+        "q": "What do we mean by 'the weather is humid'?",
+        "type": "mcq",
+        "o": [
+            "There is a lot of moisture in the air",
+            "It is very cold and dry",
+            "Strong winds are blowing",
+            "Snow is falling heavily"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The sweet juicy red fruit eaten in Summer.",
+        "type": "word_scramble",
+        "answer": "WATERMELON",
+        "decoys": "JX"
+    },
+    {
+        "q": "Name an item of clothing that covers your hands in winter.",
+        "type": "short_answer",
+        "answers": [
+            "gloves",
+            "mittens"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Many animals have babies in spring.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about new life:",
+        "type": "inline_dropdown",
+        "text": "In Spring, baby [0] hatch from eggs and [1] start to grow leaves.",
+        "dropdowns": [
+            {
+                "correct": "birds",
+                "options": [
+                    "birds",
+                    "dogs",
+                    "cats"
+                ]
+            },
+            {
+                "correct": "trees",
+                "options": [
+                    "trees",
+                    "rocks",
+                    "clouds"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is a safety tip for summer?",
+        "type": "mcq",
+        "o": [
+            "Drink plenty of water",
+            "Wear many layers of wool",
+            "Light a campfire indoors",
+            "Stay outside during a thunderstorm"
+        ]
+    },
+    {
+        "q": "What covers the ground in many places during winter?",
+        "type": "mcq",
+        "o": [
+            "Snow",
+            "Flowers",
+            "Dry brown grass",
+            "Puddles of water"
+        ]
+    },
+    {
+        "q": "In the ______ season, the sky is often dark and cloudy all day.",
+        "type": "fill_blank",
+        "answers": [
+            "rainy",
+            "monsoon"
+        ],
+        "other_options": [
+            "summer",
+            "spring",
+            "autumn",
+            "winter"
+        ]
+    },
+    {
+        "q": "Which season is known as the 'season of mists and mellow fruitfulness'?",
+        "type": "mcq",
+        "o": [
+            "Autumn",
+            "Spring",
+            "Summer",
+            "Winter"
+        ]
+    },
+    {
+        "q": "What is the main reason seasons change?",
+        "type": "mcq",
+        "o": [
+            "The tilt of the Earth",
+            "The Moon moving",
+            "The stars twinkling",
+            "The wind blowing"
+        ]
+    },
+    {
+        "q": "Match the season to the holiday celebrated:",
+        "type": "match",
+        "left": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn"
+        ],
+        "right": [
+            "Christmas",
+            "Easter",
+            "Independence Day (USA)",
+            "Halloween"
+        ]
+    },
+    {
+        "q": "Ponds freeze in summer.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these animals changes its fur color to white in winter?",
+        "type": "mcq",
+        "o": [
+            "Arctic fox",
+            "Elephant",
+            "Tiger",
+            "Zebra"
+        ]
+    },
+    {
+        "q": "What do we call water falling from clouds in the rainy season?",
+        "type": "short_answer",
+        "answers": [
+            "rain",
+            "precipitation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In spring, baby ______ hatch from eggs in nests.",
+        "type": "fill_blank",
+        "answers": [
+            "birds",
+            "chicks"
+        ],
+        "other_options": [
+            "puppies",
+            "kittens",
+            "calves",
+            "cubs"
+        ]
+    },
+    {
+        "q": "Which season requires you to carry a water bottle more often?",
+        "type": "mcq",
+        "o": [
+            "Summer",
+            "Winter",
+            "Autumn",
+            "Rainy season"
+        ]
+    },
+    {
+        "q": "What are the first flowers of spring often called?",
+        "type": "mcq",
+        "o": [
+            "Early bloomers",
+            "Late bloomers",
+            "Night flowers",
+            "Snow flowers"
+        ]
+    },
+    {
+        "q": "Complete the sentence about storms:",
+        "type": "inline_dropdown",
+        "text": "A [0] is a sudden loud noise in the sky during a [1].",
+        "dropdowns": [
+            {
+                "correct": "thunder",
+                "options": [
+                    "thunder",
+                    "sunlight",
+                    "rainbow"
+                ]
+            },
+            {
+                "correct": "storm",
+                "options": [
+                    "storm",
+                    "sunny day",
+                    "clear night"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Farmers harvest pumpkins mostly in which season?",
+        "type": "mcq",
+        "o": [
+            "Autumn",
+            "Spring",
+            "Rainy season",
+            "Winter"
+        ]
+    },
+    {
+        "q": "Name a sport you can do on snow.",
+        "type": "short_answer",
+        "answers": [
+            "skiing",
+            "snowboarding",
+            "sledding",
+            "ice skating"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The days get warmer as spring turns into summer.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a rainy season problem?",
+        "type": "mcq",
+        "o": [
+            "Flooding on roads",
+            "Frozen pipes",
+            "Heat strokes",
+            "Very dry skin"
+        ]
+    },
+    {
+        "q": "Match the season to the tree's appearance.",
+        "type": "memory",
+        "pairs": {
+            "Spring": "Blossoms appear",
+            "Summer": "Full green leaves",
+            "Autumn": "Red and yellow leaves",
+            "Winter": "Bare branches"
+        }
+    },
+    {
+        "q": "What do people like to pick in autumn from orchards?",
+        "type": "mcq",
+        "o": [
+            "Apples and pumpkins",
+            "Snowballs and ice",
+            "Fresh green buds",
+            "Umbrellas and boots"
+        ]
+    },
+    {
+        "q": "We use a ______ to cover our head from the hot sun in summer.",
+        "type": "fill_blank",
+        "answers": [
+            "cap",
+            "hat",
+            "sunhat"
+        ],
+        "other_options": [
+            "scarf",
+            "raincoat",
+            "umbrella",
+            "gloves"
+        ]
+    },
+    {
+        "q": "What causes the four seasons on Earth?",
+        "type": "mcq",
+        "o": [
+            "The tilt of Earth's axis as it orbits the Sun",
+            "The distance between Earth and Moon",
+            "The changing speed of Earth's rotation",
+            "The movement of stars in the sky"
+        ]
+    },
+    {
+        "q": "During winter, the days are shorter because the Sun shines for fewer hours.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which season is characterized by new plant growth and baby animals being born?",
+        "type": "mcq",
+        "o": [
+            "Spring",
+            "Autumn",
+            "Summer",
+            "Winter"
+        ]
+    },
+    {
+        "q": "The process of leaves changing color and falling from trees in autumn is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "abscission",
+            "leaf fall",
+            "shedding"
+        ],
+        "other_options": [
+            "germination",
+            "pollination",
+            "photosynthesis",
+            "evaporation"
+        ]
+    },
+    {
+        "q": "Which of these is a common weather pattern in the monsoon season?",
+        "type": "mcq",
+        "o": [
+            "Heavy rainfall and high humidity",
+            "Dry winds and dust storms",
+            "Freezing temperatures and snowfall",
+            "Gentle breeze and scattered clouds"
+        ]
+    },
+    {
+        "q": "How many colors are in a rainbow that appears after rain?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 7
+    },
+    {
+        "q": "Name the hot, dry wind that blows during summer in northern India.",
+        "type": "short_answer",
+        "answers": [
+            "loo"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the season with the typical fruit harvested:",
+        "type": "match",
+        "left": [
+            "Summer",
+            "Winter",
+            "Spring",
+            "Autumn"
+        ],
+        "right": [
+            "Mango",
+            "Orange",
+            "Strawberry",
+            "Apple"
+        ]
+    },
+    {
+        "q": "Which season is often called the 'fall' season in North America?",
+        "type": "mcq",
+        "o": [
+            "Autumn",
+            "Spring",
+            "Winter",
+            "Summer"
+        ]
+    },
+    {
+        "q": "What do animals like squirrels do to prepare for winter?",
+        "type": "mcq",
+        "o": [
+            "Store food like nuts and seeds",
+            "Shed all their fur",
+            "Migrate to colder regions",
+            "Build new dams in rivers"
+        ]
+    },
+    {
+        "q": "We wear ______ clothes in summer to reflect sunlight and keep cool.",
+        "type": "fill_blank",
+        "answers": [
+            "light-colored",
+            "white",
+            "cotton"
+        ],
+        "other_options": [
+            "dark",
+            "woolen",
+            "leather",
+            "heavy"
+        ]
+    },
+    {
+        "q": "In which season do we typically see the most rainbows?",
+        "type": "mcq",
+        "o": [
+            "Rainy season or after rain",
+            "Dry summer",
+            "Cold winter",
+            "Windy autumn"
+        ]
+    },
+    {
+        "q": "Match the season to its opposite condition.",
+        "type": "memory",
+        "pairs": {
+            "Summer": "Winter",
+            "Spring": "Autumn",
+            "Rainy": "Dry",
+            "Day": "Night"
+        }
+    },
+    {
+        "q": "The Earth is closest to the Sun during winter in the Northern Hemisphere.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What term describes animals moving to warmer places for the winter?",
+        "type": "mcq",
+        "o": [
+            "Migration",
+            "Hibernation",
+            "Camouflage",
+            "Adaptation"
+        ]
+    },
+    {
+        "q": "During summer, it is important to drink plenty of water to avoid ______.",
+        "type": "fill_blank",
+        "answers": [
+            "dehydration",
+            "heatstroke"
+        ],
+        "other_options": [
+            "frostbite",
+            "shivering",
+            "coughing",
+            "sneezing"
+        ]
+    },
+    {
+        "q": "Which of these activities is most suitable for a windy autumn day?",
+        "type": "mcq",
+        "o": [
+            "Flying a kite",
+            "Building a snowman",
+            "Planting rice",
+            "Sunbathing at the beach"
+        ]
+    },
+    {
+        "q": "Name a type of tree that does not lose its leaves in autumn.",
+        "type": "short_answer",
+        "answers": [
+            "evergreen",
+            "pine",
+            "fir",
+            "spruce",
+            "cedar"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Spring tides (high tides) have nothing to do with the spring season.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the main difference between weather and climate?",
+        "type": "mcq",
+        "o": [
+            "Weather is short-term, climate is long-term",
+            "Weather is hot, climate is cold",
+            "Weather happens inside, climate happens outside",
+            "Weather is only about rain, climate is about sun"
+        ]
+    },
+    {
+        "q": "In which season do deciduous trees grow new leaves?",
+        "type": "mcq",
+        "o": [
+            "Spring",
+            "Autumn",
+            "Winter",
+            "Late summer"
+        ]
+    },
+    {
+        "q": "Match the traditional drink to the season:",
+        "type": "match",
+        "left": [
+            "Hot cocoa",
+            "Lemonade",
+            "Hot spiced tea (Chai)",
+            "Pumpkin spice latte"
+        ],
+        "right": [
+            "Winter",
+            "Summer",
+            "Rainy season",
+            "Autumn"
+        ]
+    },
+    {
+        "q": "Which of these items is NOT used to protect from rain?",
+        "type": "odd_one_out",
+        "options": [
+            "Umbrella",
+            "Raincoat",
+            "Gumboots",
+            "Sunglasses"
+        ],
+        "correct": "Sunglasses"
+    },
+    {
+        "q": "During the summer solstice, we experience the longest day of the year.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What happens to our shadow in winter compared to summer?",
+        "type": "mcq",
+        "o": [
+            "It becomes longer",
+            "It becomes shorter",
+            "It disappears completely",
+            "It stays the same length"
+        ]
+    },
+    {
+        "q": "Which season is associated with the festival of colors, Holi, in India?",
+        "type": "mcq",
+        "o": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ]
+    },
+    {
+        "q": "Farmers often plow their fields right after the first ______ of the rainy season.",
+        "type": "fill_blank",
+        "answers": [
+            "rainfall",
+            "shower",
+            "monsoon rain"
+        ],
+        "other_options": [
+            "frost",
+            "snow",
+            "heatwave",
+            "storm"
+        ]
+    },
+    {
+        "q": "Name a vegetable that grows in the winter season.",
+        "type": "short_answer",
+        "answers": [
+            "carrot",
+            "spinach",
+            "cauliflower",
+            "cabbage",
+            "broccoli",
+            "radish"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a characteristic of the summer season?",
+        "type": "mcq",
+        "o": [
+            "Long days and short nights",
+            "Short days and long nights",
+            "Equal day and night length",
+            "Constant twilight"
+        ]
+    },
+    {
+        "q": "What does a meteorologist study?",
+        "type": "mcq",
+        "o": [
+            "Weather and climate",
+            "Rocks and minerals",
+            "Stars and planets",
+            "Animals and plants"
+        ]
+    },
+    {
+        "q": "In autumn, the green pigment called ______ breaks down in leaves, revealing yellow and orange.",
+        "type": "fill_blank",
+        "answers": [
+            "chlorophyll"
+        ],
+        "other_options": [
+            "carotene",
+            "xanthophyll",
+            "melanin",
+            "hemoglobin"
+        ]
+    },
+    {
+        "q": "Which region experiences six months of daylight and six months of darkness?",
+        "type": "mcq",
+        "o": [
+            "The Poles (North and South)",
+            "The Equator",
+            "The Tropics",
+            "Temperate zones"
+        ]
+    },
+    {
+        "q": "You need an umbrella more often in winter than in the rainy season.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the term for a long period with little or no rain, often occurring in summer?",
+        "type": "mcq",
+        "o": [
+            "Drought",
+            "Flood",
+            "Blizzard",
+            "Monsoon"
+        ]
+    },
+    {
+        "q": "Match the animal adaptation to the season:",
+        "type": "match",
+        "left": [
+            "Thick fur grows",
+            "Shedding fur",
+            "Burrowing in mud",
+            "Bright feathers for mating"
+        ],
+        "right": [
+            "Winter preparation",
+            "Summer cooling",
+            "Dry season survival",
+            "Spring display"
+        ]
+    },
+    {
+        "q": "Which season is also known as the 'growing season' for most plants?",
+        "type": "mcq",
+        "o": [
+            "Spring to Summer",
+            "Winter to Spring",
+            "Autumn only",
+            "Late Winter"
+        ]
+    },
+    {
+        "q": "Name the frozen raindrops that sometimes fall during a winter storm.",
+        "type": "short_answer",
+        "answers": [
+            "hail",
+            "hailstones",
+            "sleet"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Puddles dry up faster on a hot summer day due to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "evaporation"
+        ],
+        "other_options": [
+            "condensation",
+            "freezing",
+            "precipitation",
+            "hibernation"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a type of seasonal precipitation?",
+        "type": "mcq",
+        "o": [
+            "Earthquake",
+            "Snow",
+            "Rain",
+            "Hail"
+        ]
+    },
+    {
+        "q": "During an equinox, day and night are nearly equal in length everywhere on Earth.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a 'seasonal allergy' often caused by in spring?",
+        "type": "mcq",
+        "o": [
+            "Pollen from flowers and trees",
+            "Snowflakes",
+            "Falling leaves",
+            "Short days"
+        ]
+    },
+    {
+        "q": "Which season is the best time for ice skating on frozen lakes?",
+        "type": "mcq",
+        "o": [
+            "Winter",
+            "Spring",
+            "Summer",
+            "Autumn"
+        ]
+    },
+    {
+        "q": "A ______ is used to measure the temperature outside during any season.",
+        "type": "fill_blank",
+        "answers": [
+            "thermometer"
+        ],
+        "other_options": [
+            "barometer",
+            "anemometer",
+            "rain gauge",
+            "seismometer"
+        ]
+    },
+    {
+        "q": "What do we call a place that has warm temperatures all year round with a wet and dry season?",
+        "type": "mcq",
+        "o": [
+            "Tropical region",
+            "Polar region",
+            "Temperate region",
+            "Alpine region"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Outdoor play, RIGHT for Indoor play.",
+        "type": "swipe_cards",
+        "left_label": "Outdoor",
+        "right_label": "Indoor",
+        "cards": {
+            "Flying kite": "left",
+            "Board games": "right",
+            "Swimming": "left",
+            "Reading by heater": "right"
+        }
+    },
+    {
+        "q": "Name the season in which Christmas is celebrated in Australia.",
+        "type": "short_answer",
+        "answers": [
+            "summer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the festival to the season it is commonly celebrated in:",
+        "type": "match",
+        "left": [
+            "Pongal",
+            "Mid-Autumn Festival",
+            "Baisakhi",
+            "Summer Solstice"
+        ],
+        "right": [
+            "Winter harvest",
+            "Autumn harvest",
+            "Spring harvest",
+            "Summer"
+        ]
+    },
+    {
+        "q": "The Sun's rays hit the Earth at a more direct angle in summer.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: A warm piece of clothing worn around the neck.",
+        "type": "word_scramble",
+        "answer": "SCARF",
+        "decoys": "PL"
+    },
+    {
+        "q": "Which of these is a common weather phenomenon in spring?",
+        "type": "mcq",
+        "o": [
+            "Unpredictable weather with rain and sun",
+            "Consistent blizzards",
+            "Daily heatwaves",
+            "Constant fog"
+        ]
+    },
+    {
+        "q": "Why do we feel colder in winter even if we are inside a house?",
+        "type": "mcq",
+        "o": [
+            "The outside temperature cools the house down",
+            "The Sun moves farther from Earth",
+            "Clouds trap heat inside",
+            "Trees release cold air"
+        ]
+    },
+    {
+        "q": "Water vapor in the air condenses to form ______ on grass in the early morning.",
+        "type": "fill_blank",
+        "answers": [
+            "dew"
+        ],
+        "other_options": [
+            "frost",
+            "snow",
+            "rain",
+            "hail"
+        ]
+    },
+    {
+        "q": "Which of these activities helps the environment in the spring season?",
+        "type": "mcq",
+        "o": [
+            "Planting trees and flowers",
+            "Burning dry leaves",
+            "Wasting water on lawns",
+            "Driving cars more often"
+        ]
+    },
+    {
+        "q": "What is a 'white Christmas'?",
+        "type": "mcq",
+        "o": [
+            "Christmas Day with snow on the ground",
+            "Wearing only white clothes for Christmas",
+            "Painting houses white for Christmas",
+            "Eating white-colored food only"
+        ]
+    },
+    {
+        "q": "Name a large-scale movement of air that changes with the seasons, like the monsoon.",
+        "type": "short_answer",
+        "answers": [
+            "wind",
+            "prevailing wind",
+            "trade wind",
+            "monsoon wind"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: The gentle wind that blows in Spring.",
+        "type": "word_scramble",
+        "answer": "BREEZE",
+        "decoys": "VQ"
+    },
+    {
+        "q": "Autumn leaves are swept into piles for fun and then must be composted or bagged.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In which season do you see 'Indian summer', a period of unseasonably warm, dry weather?",
+        "type": "mcq",
+        "o": [
+            "Autumn",
+            "Spring",
+            "Winter",
+            "Summer"
+        ]
+    },
+    {
+        "q": "What happens to some insects like mosquitoes during winter?",
+        "type": "mcq",
+        "o": [
+            "They become dormant or die off",
+            "They become more active",
+            "They change into birds",
+            "They grow extra legs"
+        ]
+    },
+    {
+        "q": "The winter solstice marks the shortest day of the year in the ______ Hemisphere.",
+        "type": "fill_blank",
+        "answers": [
+            "Northern"
+        ],
+        "other_options": [
+            "Southern",
+            "Eastern",
+            "Western",
+            "All"
+        ]
+    },
+    {
+        "q": "Complete the sentence about snowy fun:",
+        "type": "inline_dropdown",
+        "text": "To make a snowman, you need [0] snow and some [1] for his eyes.",
+        "dropdowns": [
+            {
+                "correct": "sticky",
+                "options": [
+                    "sticky",
+                    "hot",
+                    "dry"
+                ]
+            },
+            {
+                "correct": "stones",
+                "options": [
+                    "stones",
+                    "fire",
+                    "water"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which season is best for observing bright constellations like Orion in the night sky?",
+        "type": "mcq",
+        "o": [
+            "Winter",
+            "Summer",
+            "Spring",
+            "Rainy season"
+        ]
+    },
+    {
+        "q": "Match the seasonal hazard with the season:",
+        "type": "match",
+        "left": [
+            "Heatwave",
+            "Blizzard",
+            "Flood",
+            "Tornado (often)"
+        ],
+        "right": [
+            "Summer",
+            "Winter",
+            "Monsoon/Rainy",
+            "Spring"
+        ]
+    },
+    {
+        "q": "All places on Earth have exactly four distinct seasons.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence about hot weather clothes:",
+        "type": "inline_dropdown",
+        "text": "We wear [0] clothes in Summer to keep our bodies [1].",
+        "dropdowns": [
+            {
+                "correct": "cotton",
+                "options": [
+                    "cotton",
+                    "woolen",
+                    "plastic"
+                ]
+            },
+            {
+                "correct": "cool",
+                "options": [
+                    "cool",
+                    "warm",
+                    "wet"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What do we call the sound of thunder following lightning during a summer storm?",
+        "type": "mcq",
+        "o": [
+            "Thunderclap",
+            "Rain patter",
+            "Wind howl",
+            "Hail beat"
+        ]
+    },
+    {
+        "q": "Which of these season changes requires us to apply moisturizer more often?",
+        "type": "mcq",
+        "o": [
+            "Transition to winter (dry air)",
+            "Transition to summer (humid air)",
+            "Middle of rainy season",
+            "Peak of summer heat"
+        ]
+    },
+    {
+        "q": "Match the nature item to where it belongs.",
+        "type": "memory",
+        "pairs": {
+            "Snowflake": "Winter sky",
+            "Fallen leaf": "Autumn ground",
+            "Raindrop": "Monsoon cloud",
+            "Sunbeam": "Summer sky"
+        }
+    },
+    {
+        "q": "How many prongs or points does a typical drawn snowflake have?",
+        "type": "slider",
+        "min": 4,
+        "max": 8,
+        "correct": 6
+    },
+    {
+        "q": "Name a bird known for its long migration journey during seasonal changes.",
+        "type": "short_answer",
+        "answers": [
+            "arctic tern",
+            "swallow",
+            "crane",
+            "goose",
+            "stork"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Many flowers need the cold of ______ to germinate properly in spring.",
+        "type": "fill_blank",
+        "answers": [
+            "winter",
+            "cold stratification"
+        ],
+        "other_options": [
+            "summer",
+            "autumn",
+            "rain",
+            "heat"
+        ]
+    },
+    {
+        "q": "Match the tool to the season's activity.",
+        "type": "memory",
+        "pairs": {
+            "Shovel": "Clearing snow",
+            "Watering can": "Spring gardening",
+            "Towel": "Summer swimming",
+            "Rake": "Collecting autumn leaves"
+        }
+    },
+    {
+        "q": "Which season is known for 'April showers' that help May flowers grow?",
+        "type": "mcq",
+        "o": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ]
+    },
+    {
+        "q": "Why do we see our breath in cold winter air?",
+        "type": "mcq",
+        "o": [
+            "Warm, moist air from our lungs condenses",
+            "We breathe out smoke",
+            "Cold air freezes our lungs",
+            "It is just an illusion"
+        ]
+    },
+    {
+        "q": "We wear rubber boots or ______ to keep our feet dry in the rainy season.",
+        "type": "fill_blank",
+        "answers": [
+            "gumboots",
+            "rain boots",
+            "wellies"
+        ],
+        "other_options": [
+            "sandals",
+            "sneakers",
+            "slippers",
+            "ice skates"
+        ]
+    },
+    {
+        "q": "The tilt of the Earth's axis is about 23.5 degrees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a winter sport?",
+        "type": "mcq",
+        "o": [
+            "Snowboarding",
+            "Surfing",
+            "Water skiing",
+            "Scuba diving"
+        ]
+    },
+    {
+        "q": "What is the main source of energy that drives our weather and seasons?",
+        "type": "mcq",
+        "o": [
+            "The Sun",
+            "The Moon",
+            "Earth's core",
+            "Wind turbines"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a season?",
+        "type": "odd_one_out",
+        "options": [
+            "Autumn",
+            "Summer",
+            "Monday",
+            "Spring"
+        ],
+        "correct": "Monday"
+    },
+    {
+        "q": "Match the cloud type to the season it is commonly seen in:",
+        "type": "match",
+        "left": [
+            "Cumulonimbus",
+            "Cirrus",
+            "Stratus",
+            "Nimbostratus"
+        ],
+        "right": [
+            "Summer thunderstorms",
+            "Autumn fair weather",
+            "Spring fog",
+            "Winter steady rain/snow"
+        ]
+    },
+    {
+        "q": "What term describes the scientific study of seasonal changes in plants and animals?",
+        "type": "short_answer",
+        "answers": [
+            "phenology"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which season is often associated with the harvest moon?",
+        "type": "mcq",
+        "o": [
+            "Autumn",
+            "Spring",
+            "Summer",
+            "Winter"
+        ]
+    },
+    {
+        "q": "The first day of spring is also called the ______ equinox.",
+        "type": "fill_blank",
+        "answers": [
+            "vernal",
+            "spring"
+        ],
+        "other_options": [
+            "autumnal",
+            "summer",
+            "winter",
+            "fall"
+        ]
+    },
+    {
+        "q": "We must not stand under a tree during a thunderstorm in the rainy season.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these fruits is typically available in the autumn season?",
+        "type": "mcq",
+        "o": [
+            "Pomegranate",
+            "Mango",
+            "Watermelon",
+            "Litchi"
+        ]
+    },
+    {
+        "q": "What happens to the length of the day as we move from winter to summer?",
+        "type": "mcq",
+        "o": [
+            "It gradually increases",
+            "It gradually decreases",
+            "It stays exactly the same",
+            "It increases only at night"
+        ]
+    },
+    {
+        "q": "In which season does 'frost' form on the ground overnight?",
+        "type": "mcq",
+        "o": [
+            "Winter",
+            "Summer",
+            "Rainy season",
+            "Mid-autumn"
+        ]
+    },
+    {
+        "q": "A thick layer of warm clothing is essential to prevent ______ in extreme cold.",
+        "type": "fill_blank",
+        "answers": [
+            "hypothermia",
+            "frostbite"
+        ],
+        "other_options": [
+            "sunburn",
+            "dehydration",
+            "sweating",
+            "allergy"
+        ]
+    },
+    {
+        "q": "Name a popular summer vacation activity by the sea or lake.",
+        "type": "short_answer",
+        "answers": [
+            "swimming",
+            "sunbathing",
+            "building sandcastles",
+            "boating",
+            "surfing"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "All leaves turn red in autumn.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which season requires farmers to use scarecrows the most?",
+        "type": "mcq",
+        "o": [
+            "Summer and early autumn",
+            "Winter",
+            "Spring",
+            "Rainy season"
+        ]
+    },
+    {
+        "q": "What do we call rain that contains harmful acids due to pollution, often a problem in specific seasons?",
+        "type": "mcq",
+        "o": [
+            "Acid rain",
+            "Salty rain",
+            "Basic rain",
+            "Pure rain"
+        ]
+    },
+    {
+        "q": "Match the seasonal change to its cause:",
+        "type": "match",
+        "left": [
+            "Longer days in summer",
+            "Leaves falling in autumn",
+            "Flowers blooming in spring",
+            "Snowfall in winter"
+        ],
+        "right": [
+            "Earth's tilt toward Sun",
+            "Reduced sunlight and chlorophyll loss",
+            "Increased warmth and sunlight",
+            "Freezing temperatures in clouds"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Monsoon, RIGHT for Autumn.",
+        "type": "swipe_cards",
+        "left_label": "Monsoon",
+        "right_label": "Autumn",
+        "cards": {
+            "Rainboots": "left",
+            "Falling leaves": "right",
+            "Puddles": "left",
+            "Pumpkin": "right"
+        }
+    },
+    {
+        "q": "The monsoon season is crucial for agriculture in many Asian countries.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a key adaptation of camels for the hot summer desert?",
+        "type": "mcq",
+        "o": [
+            "Storing fat in humps, not water",
+            "Growing thick fur",
+            "Hibernating underground",
+            "Migrating to the North Pole"
+        ]
+    },
+    {
+        "q": "What color are the young rice seedlings planted in the rainy season?",
+        "type": "mcq",
+        "o": [
+            "Bright green",
+            "Dark brown",
+            "Bright red",
+            "Pale yellow"
+        ]
+    },
+    {
+        "q": "In temperate regions, spring starts in March, but in polar regions it starts much ______.",
+        "type": "fill_blank",
+        "answers": [
+            "later",
+            "delayed"
+        ],
+        "other_options": [
+            "earlier",
+            "faster",
+            "sooner",
+            "never"
+        ]
+    },
+    {
+        "q": "Name the layer of the atmosphere where most weather phenomena occur.",
+        "type": "short_answer",
+        "answers": [
+            "troposphere"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A raincoat is made of ______ material to repel water.",
+        "type": "fill_blank",
+        "answers": [
+            "waterproof",
+            "plastic",
+            "rubber",
+            "coated"
+        ],
+        "other_options": [
+            "cotton",
+            "wool",
+            "silk",
+            "absorbent"
+        ]
+    },
+    {
+        "q": "Unscramble the word: Animals sleeping all through winter.",
+        "type": "word_scramble",
+        "answer": "HIBERNATE",
+        "decoys": "KQ"
+    },
+    {
+        "q": "Which season is peak time for tornadoes in the central USA?",
+        "type": "mcq",
+        "o": [
+            "Spring",
+            "Winter",
+            "Autumn",
+            "Rainy season"
+        ]
+    },
+    {
+        "q": "Shorter days and less sunlight can sometimes make people feel sad in winter. This is called SAD.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a sign that winter is ending?",
+        "type": "mcq",
+        "o": [
+            "The first heavy snowfall",
+            "Snow melting",
+            "Birds returning from migration",
+            "Days getting noticeably longer"
+        ]
+    },
+    {
+        "q": "What do we call a sudden, heavy fall of snow?",
+        "type": "mcq",
+        "o": [
+            "Snowstorm or blizzard",
+            "Rain shower",
+            "Heatwave",
+            "Drizzle"
+        ]
+    },
+    {
+        "q": "A ______ is used to measure rainfall during the monsoon season.",
+        "type": "fill_blank",
+        "answers": [
+            "rain gauge",
+            "pluviometer"
+        ],
+        "other_options": [
+            "thermometer",
+            "barometer",
+            "anemometer",
+            "seismometer"
+        ]
+    },
+    {
+        "q": "Which season is ideal for drying clothes outside in the sun?",
+        "type": "mcq",
+        "o": [
+            "Summer",
+            "Rainy season",
+            "Winter",
+            "Autumn"
+        ]
+    },
+    {
+        "q": "Match the season with the corresponding crop cycle stage:",
+        "type": "match",
+        "left": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ],
+        "right": [
+            "Sowing/Planting",
+            "Growing/Ripening",
+            "Harvesting",
+            "Land fallow/Resting"
+        ]
+    },
+    {
+        "q": "Name the warm ocean current that affects winter weather in Europe.",
+        "type": "short_answer",
+        "answers": [
+            "gulf stream",
+            "north atlantic drift"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: The season that comes after Summer.",
+        "type": "word_scramble",
+        "answer": "AUTUMN",
+        "decoys": "CZ"
+    },
+    {
+        "q": "The summer season is the same time of year everywhere in the world.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a common springtime allergy trigger?",
+        "type": "mcq",
+        "o": [
+            "Tree pollen",
+            "Dry dust",
+            "Snow mold",
+            "Falling leaves"
+        ]
+    },
+    {
+        "q": "What is the primary reason for the difference in seasonal temperatures between the Equator and the Poles?",
+        "type": "mcq",
+        "o": [
+            "The angle at which sunlight hits the Earth's surface",
+            "The distance from the Moon",
+            "The speed of Earth's rotation",
+            "The amount of oxygen in the atmosphere"
+        ]
+    },
+    {
+        "q": "The Earth's orbit around the Sun is a perfect circle, causing equal season lengths.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which phenomenon causes cold, nutrient-rich water to rise to the ocean surface, affecting seasonal fishing patterns?",
+        "type": "mcq",
+        "o": [
+            "Upwelling",
+            "Downwelling",
+            "El Nino",
+            "La Nina"
+        ]
+    },
+    {
+        "q": "The ______ is the boundary between two different air masses, often causing a change in seasonal weather.",
+        "type": "fill_blank",
+        "answers": [
+            "front",
+            "weather front"
+        ],
+        "other_options": [
+            "isotherm",
+            "isobar",
+            "jet stream",
+            "trade wind"
+        ]
+    },
+    {
+        "q": "How does the specific heat capacity of water influence coastal climates across seasons?",
+        "type": "mcq",
+        "o": [
+            "It moderates temperatures, making winters warmer and summers cooler",
+            "It causes extreme temperature swings between seasons",
+            "It has no effect on seasonal weather",
+            "It makes all coastal areas tropical"
+        ]
+    },
+    {
+        "q": "Name the seasonal wind system that brings heavy rains to South and Southeast Asia.",
+        "type": "short_answer",
+        "answers": [
+            "monsoon",
+            "southwest monsoon"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about crops:",
+        "type": "inline_dropdown",
+        "text": "In Autumn, farmers [0] their crops because they are [1].",
+        "dropdowns": [
+            {
+                "correct": "harvest",
+                "options": [
+                    "harvest",
+                    "plant",
+                    "water"
+                ]
+            },
+            {
+                "correct": "ready",
+                "options": [
+                    "ready",
+                    "small",
+                    "green"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the seasonal event to its astronomical cause:",
+        "type": "match",
+        "left": [
+            "Summer Solstice",
+            "Winter Solstice",
+            "Vernal Equinox",
+            "Autumnal Equinox"
+        ],
+        "right": [
+            "Sun's direct rays at Tropic of Cancer",
+            "Sun's direct rays at Tropic of Capricorn",
+            "Sun's direct rays at Equator (March)",
+            "Sun's direct rays at Equator (September)"
+        ]
+    },
+    {
+        "q": "What is the term for a tropical cyclone that occurs in the Northwest Pacific Ocean, often during late summer?",
+        "type": "mcq",
+        "o": [
+            "Typhoon",
+            "Hurricane",
+            "Tornado",
+            "Monsoon"
+        ]
+    },
+    {
+        "q": "Complete the sentence about sun safety:",
+        "type": "inline_dropdown",
+        "text": "When it is very sunny, we should wear [0] to protect our [1].",
+        "dropdowns": [
+            {
+                "correct": "sunscreen",
+                "options": [
+                    "sunscreen",
+                    "sweaters",
+                    "gloves"
+                ]
+            },
+            {
+                "correct": "skin",
+                "options": [
+                    "skin",
+                    "teeth",
+                    "ears"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The layer of permanently frozen ground found in polar regions, which partially thaws in summer, is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "permafrost"
+        ],
+        "other_options": [
+            "tundra",
+            "taiga",
+            "glacier",
+            "bedrock"
+        ]
+    },
+    {
+        "q": "Which seasonal change triggers 'leaf abscission' in deciduous trees?",
+        "type": "mcq",
+        "o": [
+            "Reduced daylight and cooler temperatures",
+            "Increased rainfall and humidity",
+            "Longer days and warmer nights",
+            "Stronger winds and higher soil moisture"
+        ]
+    },
+    {
+        "q": "The ozone hole over Antarctica is most pronounced during the Southern Hemisphere spring.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the footprint to the season.",
+        "type": "memory",
+        "pairs": {
+            "Muddy boots": "Monsoon",
+            "Barefoot on sand": "Summer",
+            "Snow boots": "Winter",
+            "Sneakers on dry leaves": "Autumn"
+        }
+    },
+    {
+        "q": "During which season does the 'Midnight Sun' phenomenon occur above the Arctic Circle?",
+        "type": "mcq",
+        "o": [
+            "Summer",
+            "Winter",
+            "Spring Equinox",
+            "Autumn Equinox"
+        ]
+    },
+    {
+        "q": "How many days are in the shortest month, February, which is in Winter?",
+        "type": "slider",
+        "min": 25,
+        "max": 30,
+        "correct": 28
+    },
+    {
+        "q": "What is 'Virga'?",
+        "type": "mcq",
+        "o": [
+            "Rain that evaporates before hitting the ground",
+            "A type of winter fog",
+            "Frozen dew on grass",
+            "A spring flower blooming pattern"
+        ]
+    },
+    {
+        "q": "Match the sky to the season.",
+        "type": "memory",
+        "pairs": {
+            "Grey clouds": "Monsoon",
+            "Clear blue": "Summer",
+            "Starry cold night": "Winter",
+            "Pink blossom sunset": "Spring"
+        }
+    },
+    {
+        "q": "Match the agricultural term to its seasonal timing:",
+        "type": "match",
+        "left": [
+            "Kharif crop",
+            "Rabi crop",
+            "Zaid crop"
+        ],
+        "right": [
+            "Sown in monsoon, harvested in autumn",
+            "Sown in winter, harvested in spring",
+            "Grown in short summer season between Rabi and Kharif"
+        ]
+    },
+    {
+        "q": "Name the climate pattern characterized by the periodic warming of sea surface temperatures in the central and eastern Pacific Ocean.",
+        "type": "short_answer",
+        "answers": [
+            "el nino",
+            "elnino",
+            "enso"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which fruit or plant part is NOT typically from a summer plant?",
+        "type": "odd_one_out",
+        "options": [
+            "Watermelon",
+            "Mango",
+            "Pineapple",
+            "Acorn"
+        ],
+        "correct": "Acorn"
+    },
+    {
+        "q": "A sudden, rapid flooding event caused by heavy rainfall in a short period, common in summer, is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "flash flood"
+        ],
+        "other_options": [
+            "river flood",
+            "coastal flood",
+            "tidal surge",
+            "drought"
+        ]
+    },
+    {
+        "q": "Why are 'Sea Breezes' more common on summer afternoons?",
+        "type": "mcq",
+        "o": [
+            "Land heats up faster than water, creating a pressure difference",
+            "Water heats up faster than land, pushing air upwards",
+            "The Coriolis effect is strongest in summer",
+            "Tides are higher in summer"
+        ]
+    },
+    {
+        "q": "What is the primary ecological significance of forest fires in some regions during the dry summer/autumn?",
+        "type": "mcq",
+        "o": [
+            "They can clear dead underbrush and trigger seed germination",
+            "They permanently destroy all life in the forest",
+            "They only occur due to human negligence",
+            "They increase soil fertility through ash but kill all trees"
+        ]
+    },
+    {
+        "q": "The 'Indian Summer' describes a period of unseasonably warm, dry weather in autumn.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In hydrology, what represents the highest point on a river's annual flow regime, often due to snowmelt?",
+        "type": "mcq",
+        "o": [
+            "Spring Freshet",
+            "Base flow",
+            "Low flow",
+            "Autumnal recession"
+        ]
+    },
+    {
+        "q": "How does the 'Albedo effect' create a positive feedback loop for cold seasons?",
+        "type": "mcq",
+        "o": [
+            "Snow and ice reflect sunlight, cooling the surface and allowing more ice to form",
+            "Dark forests absorb heat, melting snow nearby",
+            "Oceans release heat in winter, warming the poles",
+            "Clouds trap heat and prevent winter from getting colder"
+        ]
+    },
+    {
+        "q": "The area where cold polar air meets warm tropical air, creating a belt of low pressure, is the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "polar front"
+        ],
+        "other_options": [
+            "intertropical convergence zone",
+            "horse latitudes",
+            "jet stream",
+            "trade winds"
+        ]
+    },
+    {
+        "q": "Which bird has the longest known migration, traveling from the Arctic to Antarctic with the seasons?",
+        "type": "mcq",
+        "o": [
+            "Arctic Tern",
+            "Albatross",
+            "Bar-headed Goose",
+            "Emperor Penguin"
+        ]
+    },
+    {
+        "q": "Name the pigment that gives autumn leaves their red and purple colors.",
+        "type": "short_answer",
+        "answers": [
+            "anthocyanin",
+            "anthocyanins"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the type of fog to its typical formation season:",
+        "type": "match",
+        "left": [
+            "Radiation fog",
+            "Advection fog",
+            "Valley fog",
+            "Steam fog"
+        ],
+        "right": [
+            "Autumn/Winter clear nights",
+            "Spring/Summer coastal winds",
+            "Winter in mountainous areas",
+            "Autumn over warm water bodies"
+        ]
+    },
+    {
+        "q": "The Dog Days of summer are named after the star Sirius, not because of pet behavior.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is 'Orographic Lift' and in which season is its effect most pronounced for rainfall?",
+        "type": "mcq",
+        "o": [
+            "Air forced to rise over mountains, cooling and condensing; common in monsoon/winter",
+            "Air sinking into valleys, warming and drying; common in summer",
+            "Ocean air moving onto land; common in spring",
+            "Rotation of air around a low pressure center; common in autumn"
+        ]
+    },
+    {
+        "q": "Which season is typically associated with the 'Stratospheric Polar Vortex' weakening?",
+        "type": "mcq",
+        "o": [
+            "Winter",
+            "Summer",
+            "Spring",
+            "Autumn"
+        ]
+    },
+    {
+        "q": "In seasonal agriculture, 'Zaid' crops are grown in the short season between ______ and Kharif.",
+        "type": "fill_blank",
+        "answers": [
+            "rabi"
+        ],
+        "other_options": [
+            "monsoon",
+            "autumn",
+            "winter",
+            "spring"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Spring, RIGHT for Winter.",
+        "type": "swipe_cards",
+        "left_label": "Spring",
+        "right_label": "Winter",
+        "cards": {
+            "Blooming tulip": "left",
+            "Icicle": "right",
+            "Baby chicks": "left",
+            "Fireplace": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word: Small drops of water on grass in the morning.",
+        "type": "word_scramble",
+        "answer": "DEW",
+        "decoys": "MN"
+    },
+    {
+        "q": "Explain why the Southern Hemisphere has milder seasons compared to the Northern Hemisphere.",
+        "type": "mcq",
+        "o": [
+            "The Southern Hemisphere has a higher proportion of ocean to land",
+            "The Earth is closer to the Sun during the Southern winter",
+            "The ozone hole cools the atmosphere",
+            "There are fewer mountains to block the wind"
+        ]
+    },
+    {
+        "q": "What is a 'Chinook' wind?",
+        "type": "mcq",
+        "o": [
+            "A warm, dry wind that descends the Rocky Mountains, often in winter/spring",
+            "A cold, wet wind from the Pacific Ocean in summer",
+            "A seasonal dust storm in the Sahara",
+            "A monsoon wind in Southeast Asia"
+        ]
+    },
+    {
+        "q": "Name the large-scale ocean-atmosphere climate interaction associated with cooler-than-average sea temperatures in the Pacific.",
+        "type": "short_answer",
+        "answers": [
+            "la nina",
+            "lanina"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The ______ biome is characterized by hot, dry summers and mild, wet winters.",
+        "type": "fill_blank",
+        "answers": [
+            "mediterranean",
+            "chaparral"
+        ],
+        "other_options": [
+            "tropical rainforest",
+            "boreal forest",
+            "tundra",
+            "savanna"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A huge storm with strong winds.",
+        "type": "word_scramble",
+        "answer": "HURRICANE",
+        "decoys": "XP"
+    },
+    {
+        "q": "The 'Little Ice Age' was a period of global warming that happened 500 years ago.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the main driver of the 'Burst of the Monsoon' in India?",
+        "type": "mcq",
+        "o": [
+            "The seasonal shift of the Intertropical Convergence Zone (ITCZ)",
+            "A sudden increase in ocean salinity",
+            "The eruption of volcanoes in the Indian Ocean",
+            "The melting of Himalayan glaciers"
+        ]
+    },
+    {
+        "q": "Match the seasonal lake turnover stage to the season:",
+        "type": "match",
+        "left": [
+            "Spring turnover",
+            "Summer stratification",
+            "Autumn turnover",
+            "Winter stratification"
+        ],
+        "right": [
+            "Surface water warms to 4\u00b0C and sinks",
+            "Warm, less dense water sits on top",
+            "Surface water cools to 4\u00b0C and sinks",
+            "Cold, less dense water (<4\u00b0C) sits on top"
+        ]
+    },
+    {
+        "q": "Complete the sentence about skies:",
+        "type": "inline_dropdown",
+        "text": "A [0] is made when light shines through [1] drops in the air.",
+        "dropdowns": [
+            {
+                "correct": "rainbow",
+                "options": [
+                    "rainbow",
+                    "shadow",
+                    "moon"
+                ]
+            },
+            {
+                "correct": "rain",
+                "options": [
+                    "rain",
+                    "milk",
+                    "oil"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which season is crucial for 'Ice-out' on lakes in cold climates?",
+        "type": "mcq",
+        "o": [
+            "Spring",
+            "Winter",
+            "Summer",
+            "Autumn"
+        ]
+    },
+    {
+        "q": "What is a 'Sundog' (Parhelion) and in which season is it most often observed?",
+        "type": "mcq",
+        "o": [
+            "A bright spot on a solar halo caused by ice crystals; common in winter",
+            "A type of heat mirage on roads; common in summer",
+            "A reflection of the moon in water; common in autumn",
+            "A rainbow formed by spring showers"
+        ]
+    },
+    {
+        "q": "The 'Sargasso Sea' is a region of the Atlantic Ocean known for floating ______ that provides seasonal habitat.",
+        "type": "fill_blank",
+        "answers": [
+            "sargassum",
+            "seaweed"
+        ],
+        "other_options": [
+            "plastic",
+            "icebergs",
+            "coral",
+            "plankton"
+        ]
+    },
+    {
+        "q": "Name the phenomenon where trees 'wake up' in spring due to sensing longer days, not just warmth.",
+        "type": "short_answer",
+        "answers": [
+            "photoperiodism"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Polar Night' refers to a period in summer when the sun never sets.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "How do 'Katabatic Winds' affect coastal Antarctica in winter?",
+        "type": "mcq",
+        "o": [
+            "Cold, dense air flows downhill from the high interior, creating extreme wind chills",
+            "Warm air from the ocean melts the ice shelves",
+            "They are gentle breezes that bring moisture",
+            "They only occur in summer and cause sea ice to crack"
+        ]
+    },
+    {
+        "q": "What role does the 'Jet Stream' play in seasonal weather variability?",
+        "type": "mcq",
+        "o": [
+            "It steers high and low-pressure systems and can bring extreme cold or hot spells",
+            "It directly causes rain every afternoon in the tropics",
+            "It is a river of water in the upper atmosphere",
+            "It only affects weather at the Equator"
+        ]
+    },
+    {
+        "q": "The term 'Vernalization' refers to the need for a period of cold to trigger a plant's ______.",
+        "type": "fill_blank",
+        "answers": [
+            "flowering",
+            "germination"
+        ],
+        "other_options": [
+            "leaf fall",
+            "root growth",
+            "wilting",
+            "dormancy"
+        ]
+    },
+    {
+        "q": "Complete the sentence about birds:",
+        "type": "inline_dropdown",
+        "text": "Some birds fly [0] during winter to find [1] weather.",
+        "dropdowns": [
+            {
+                "correct": "away",
+                "options": [
+                    "away",
+                    "up",
+                    "down"
+                ]
+            },
+            {
+                "correct": "warmer",
+                "options": [
+                    "warmer",
+                    "colder",
+                    "snowy"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which season sees the peak of the 'Wildebeest Migration' in the Serengeti?",
+        "type": "mcq",
+        "o": [
+            "The transition from dry to rainy season",
+            "The middle of the dry winter",
+            "The peak of summer heat",
+            "The height of the cold spring"
+        ]
+    },
+    {
+        "q": "Match the type of drought to its seasonal occurrence:",
+        "type": "match",
+        "left": [
+            "Meteorological drought",
+            "Agricultural drought",
+            "Hydrological drought",
+            "Socioeconomic drought"
+        ],
+        "right": [
+            "Lack of rainfall compared to average",
+            "Soil moisture insufficient for crops",
+            "Low streamflow and reservoir levels",
+            "Water supply fails to meet demand"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Hot Foods, RIGHT for Cold Foods.",
+        "type": "swipe_cards",
+        "left_label": "Eat Hot",
+        "right_label": "Eat Cold",
+        "cards": {
+            "Popsicle": "right",
+            "Stew": "left",
+            "Ice cream": "right",
+            "Hot Chocolate": "left"
+        }
+    },
+    {
+        "q": "How many months are in a single season if the year is divided equally into 4 seasons?",
+        "type": "slider",
+        "min": 1,
+        "max": 6,
+        "correct": 3
+    },
+    {
+        "q": "What is 'Mammatus Cloud' formation usually a sign of?",
+        "type": "mcq",
+        "o": [
+            "A severe thunderstorm, often in late spring or summer",
+            "A calm, clear winter day",
+            "Approaching gentle rain in autumn",
+            "A snowy night in early winter"
+        ]
+    },
+    {
+        "q": "Match the seasonal hazard.",
+        "type": "memory",
+        "pairs": {
+            "Sunburn": "Summer",
+            "Slipping on ice": "Winter",
+            "Getting soaked": "Monsoon",
+            "Blown by wind": "Autumn"
+        }
+    },
+    {
+        "q": "Which of these words is NOT related to Autumn?",
+        "type": "odd_one_out",
+        "options": [
+            "Harvest",
+            "Fall",
+            "Pumpkin",
+            "Sunburn"
+        ],
+        "correct": "Sunburn"
+    },
+    {
+        "q": "Name the hot, dry, dusty wind that blows from the Sahara into Southern Europe, often in spring/autumn.",
+        "type": "short_answer",
+        "answers": [
+            "sirocco",
+            "scirocco"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Ice Ages are caused primarily by the tilt of Earth's axis changing every year.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is 'Thundersnow'?",
+        "type": "mcq",
+        "o": [
+            "A snowstorm accompanied by thunder and lightning",
+            "The sound of snow falling on a roof",
+            "Frozen rain that creates thunder on impact",
+            "A special sound made by snowplows"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Wet environments, RIGHT for Dry environments.",
+        "type": "swipe_cards",
+        "left_label": "Wet",
+        "right_label": "Dry",
+        "cards": {
+            "Monsoon rain": "left",
+            "Desert Summer": "right",
+            "Puddle": "left",
+            "Sand dune": "right"
+        }
+    },
+    {
+        "q": "Which atmospheric layer contains the ozone layer that absorbs harmful UV radiation, peaking in spring?",
+        "type": "mcq",
+        "o": [
+            "Stratosphere",
+            "Troposphere",
+            "Mesosphere",
+            "Thermosphere"
+        ]
+    },
+    {
+        "q": "The 'Cryosphere'\u2014the frozen water part of Earth\u2014expands dramatically during the ______ season in each hemisphere.",
+        "type": "fill_blank",
+        "answers": [
+            "winter"
+        ],
+        "other_options": [
+            "summer",
+            "spring",
+            "autumn",
+            "rainy"
+        ]
+    },
+    {
+        "q": "Why does 'Sea Smoke' form over open water on extremely cold winter mornings?",
+        "type": "mcq",
+        "o": [
+            "Cold air meets relatively warmer water, causing evaporation and immediate condensation",
+            "Steam vents from underwater volcanoes activate in winter",
+            "Warm rain falls into the cold ocean",
+            "Ice on the surface melts and evaporates"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A bright flash of light in the sky during a storm.",
+        "type": "word_scramble",
+        "answer": "LIGHTNING",
+        "decoys": "QZ"
+    },
+    {
+        "q": "The 'Boreal Forest' or Taiga experiences one of the greatest temperature ranges between seasons. What is it?",
+        "type": "mcq",
+        "o": [
+            "Very cold winters and short, warm summers",
+            "Mild winters and hot summers",
+            "No seasonal variation",
+            "Always freezing"
+        ]
+    },
+    {
+        "q": "Match the seasonal moon name to its corresponding month/season:",
+        "type": "match",
+        "left": [
+            "Harvest Moon",
+            "Wolf Moon",
+            "Pink Moon",
+            "Sturgeon Moon"
+        ],
+        "right": [
+            "September/Autumn Equinox",
+            "January/Winter",
+            "April/Spring",
+            "August/Summer"
+        ]
+    },
+    {
+        "q": "Name the scale used to categorize the intensity of hurricanes, which peak in late summer.",
+        "type": "short_answer",
+        "answers": [
+            "saffir-simpson",
+            "saffir simpson scale",
+            "saffir simpson"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Summer Monsoon' in Asia is driven by a low-pressure system over the heated landmass.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is 'Ball Lightning'?",
+        "type": "mcq",
+        "o": [
+            "An unexplained spherical electrical phenomenon associated with thunderstorms",
+            "Lightning that strikes a football",
+            "A type of firework used in summer",
+            "The flash of a camera during a storm"
+        ]
+    },
+    {
+        "q": "How does the 'Coral Spawning' event on the Great Barrier Reef relate to seasons?",
+        "type": "mcq",
+        "o": [
+            "It is triggered by the full moon and warming water in late spring/early summer",
+            "It happens during the coldest winter night to protect eggs",
+            "It only occurs in autumn when water is murky",
+            "It is a random event unrelated to the season"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The loud sound that comes after lightning.",
+        "type": "word_scramble",
+        "answer": "THUNDER",
+        "decoys": "BK"
+    },
+    {
+        "q": "Complete the sentence about freezing water:",
+        "type": "inline_dropdown",
+        "text": "[0] are formed when water freezes into a solid [1].",
+        "dropdowns": [
+            {
+                "correct": "Icicles",
+                "options": [
+                    "Icicles",
+                    "Puddles",
+                    "Clouds"
+                ]
+            },
+            {
+                "correct": "shape",
+                "options": [
+                    "shape",
+                    "gas",
+                    "liquid"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Complete the sentence about day length:",
+        "type": "inline_dropdown",
+        "text": "In Summer, the days are [0] and the nights are [1].",
+        "dropdowns": [
+            {
+                "correct": "longer",
+                "options": [
+                    "longer",
+                    "shorter",
+                    "cold"
+                ]
+            },
+            {
+                "correct": "shorter",
+                "options": [
+                    "shorter",
+                    "longer",
+                    "bright"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A 'Haboob' is a type of intense ______ storm common in arid regions during summer monsoon patterns.",
+        "type": "fill_blank",
+        "answers": [
+            "dust",
+            "sand"
+        ],
+        "other_options": [
+            "rain",
+            "snow",
+            "ice",
+            "hail"
+        ]
+    },
+    {
+        "q": "Which geographical region has a 'Mediterranean Climate' with dry summers and wet winters?",
+        "type": "mcq",
+        "o": [
+            "Coastal California, Central Chile, Southwest Australia",
+            "The Amazon Rainforest",
+            "The Siberian Plain",
+            "The Sahara Desert"
+        ]
+    },
+    {
+        "q": "What is 'Frost Quake' (Cryoseism)?",
+        "type": "mcq",
+        "o": [
+            "A loud boom caused by soil and rock cracking from sudden freezing in winter",
+            "An earthquake triggered by melting snow in spring",
+            "A volcano erupting under a glacier",
+            "The sound of a glacier moving in summer"
+        ]
+    },
+    {
+        "q": "Match the butterfly migration to its season:",
+        "type": "match",
+        "left": [
+            "Monarch Butterfly (North America)",
+            "Painted Lady Butterfly"
+        ],
+        "right": [
+            "Autumn migration south, spring migration north",
+            "Spring/Summer migration from North Africa to Europe"
+        ]
+    },
+    {
+        "q": "What is the 'Tropic of Cancer'?",
+        "type": "mcq",
+        "o": [
+            "The northernmost latitude where the Sun can be directly overhead, during the June solstice",
+            "The line around the middle of the Earth",
+            "The southernmost latitude for direct sunlight in December",
+            "A disease caused by the summer sun"
+        ]
+    },
+    {
+        "q": "The 'Horn of Africa' experiences two rainy seasons due to the ITCZ passing over it ______ a year.",
+        "type": "fill_blank",
+        "answers": [
+            "twice",
+            "two times",
+            "2"
+        ],
+        "other_options": [
+            "once",
+            "three times",
+            "four times",
+            "never"
+        ]
+    },
+    {
+        "q": "Name the large, seasonal rotating body of air in the upper atmosphere that traps cold air at the poles.",
+        "type": "short_answer",
+        "answers": [
+            "polar vortex",
+            "stratospheric polar vortex"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "All deserts are hot all year round and do not have seasons.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the 'Barometer' used for in seasonal weather prediction?",
+        "type": "mcq",
+        "o": [
+            "Measuring atmospheric pressure, where falling pressure often indicates a storm",
+            "Measuring rainfall totals",
+            "Measuring wind direction",
+            "Measuring humidity levels"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Summer Day, RIGHT for Summer Night.",
+        "type": "swipe_cards",
+        "left_label": "Day",
+        "right_label": "Night",
+        "cards": {
+            "Sun block": "left",
+            "Stargazing": "right",
+            "Bright sky": "left",
+            "Fireflies": "right"
+        }
+    },
+    {
+        "q": "If a tree loses 5 leaves on Monday and 5 on Tuesday in Autumn, how many did it lose total?",
+        "type": "slider",
+        "min": 5,
+        "max": 15,
+        "correct": 10
+    },
+    {
+        "q": "Which season is the primary burn season for prescribed fires in many temperate forests?",
+        "type": "mcq",
+        "o": [
+            "Early spring or late autumn",
+            "Peak summer heat",
+            "Mid-winter cold",
+            "Height of the rainy season"
+        ]
+    },
+    {
+        "q": "Match the hobby to the season.",
+        "type": "memory",
+        "pairs": {
+            "Skiing": "Winter",
+            "Beach Volleyball": "Summer",
+            "Jumping in puddles": "Monsoon",
+            "Apple picking": "Autumn"
+        }
+    },
+    {
+        "q": "The 'ITCZ' stands for the Intertropical ______ Zone.",
+        "type": "fill_blank",
+        "answers": [
+            "convergence"
+        ],
+        "other_options": [
+            "convection",
+            "continental",
+            "climate",
+            "current"
+        ]
+    },
+    {
+        "q": "Which animal does NOT love the cold winter?",
+        "type": "odd_one_out",
+        "options": [
+            "Polar Bear",
+            "Penguin",
+            "Walrus",
+            "Camel"
+        ],
+        "correct": "Camel"
+    },
+    {
+        "q": "Swipe LEFT for Morning weather, RIGHT for Evening weather.",
+        "type": "swipe_cards",
+        "left_label": "Morning",
+        "right_label": "Evening",
+        "cards": {
+            "Sunrise": "left",
+            "Sunset": "right",
+            "Morning dew": "left",
+            "Twilight": "right"
+        }
+    },
+    {
+        "q": "How do 'Deciduous Trees' directly help their ecosystem prepare for spring?",
+        "type": "mcq",
+        "o": [
+            "Their fallen leaves decompose, enriching the soil for new growth",
+            "They block all sunlight in winter to keep the ground frozen",
+            "They attract animals that eat the snow",
+            "Their bare branches increase wind speed to dry the soil"
+        ]
+    },
+    {
+        "q": "Match the seasonal weather pattern to the country it affects:",
+        "type": "match",
+        "left": [
+            "Monsoon",
+            "Chinook",
+            "Sirocco",
+            "El Nino"
+        ],
+        "right": [
+            "India",
+            "Canada/USA",
+            "Mediterranean",
+            "Global (Pacific)"
+        ]
+    },
+    {
+        "q": "What is 'Graupel'?",
+        "type": "mcq",
+        "o": [
+            "Soft, small ice pellets formed when supercooled water droplets freeze on a snowflake",
+            "A type of hard, large hailstone",
+            "Fully liquid rain that freezes on the ground",
+            "A winter fog"
+        ]
+    },
+    {
+        "q": "The primary reason for seasonal temperature lag is that the Earth's surface takes time to ______ and cool down.",
+        "type": "fill_blank",
+        "answers": [
+            "heat up",
+            "warm"
+        ],
+        "other_options": [
+            "spin",
+            "rotate",
+            "orbit",
+            "reflect"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A piece of clothing for your hands in winter.",
+        "type": "word_scramble",
+        "answer": "GLOVES",
+        "decoys": "ZR"
+    },
+    {
+        "q": "Name the seasonal pathogen that causes the common cold to peak in cooler months.",
+        "type": "short_answer",
+        "answers": [
+            "rhinovirus",
+            "influenza virus",
+            "coronavirus"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: A coat you wear so the rain slides off.",
+        "type": "word_scramble",
+        "answer": "RAINCOAT",
+        "decoys": "WJ"
+    },
+    {
+        "q": "A 'Rain Shadow' desert forms on the leeward side of mountains and is typically lush in all seasons.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What causes the 'Green Flash' sometimes seen at sunset, more often in clear summer skies over the ocean?",
+        "type": "mcq",
+        "o": [
+            "The refraction of sunlight by the atmosphere separating colors",
+            "Pollution in the air catching fire",
+            "Light reflecting off green algae in the water",
+            "A trick of the eye caused by staring at the sun"
+        ]
+    },
+    {
+        "q": "Which biome's seasonal rhythm is defined by flooding and drought rather than summer and winter?",
+        "type": "mcq",
+        "o": [
+            "Tropical Wet/Dry (Savanna) and Floodplains",
+            "Boreal Forest (Taiga)",
+            "Temperate Deciduous Forest",
+            "Alpine Tundra"
+        ]
+    },
+    {
+        "q": "The 'Canary Current' upwelling is strongest in summer, fueling rich ______.",
+        "type": "fill_blank",
+        "answers": [
+            "fisheries",
+            "plankton blooms",
+            "marine life"
+        ],
+        "other_options": [
+            "deserts",
+            "glaciers",
+            "forests",
+            "cities"
+        ]
+    },
+    {
+        "q": "How does the precession of the Earth's axis affect seasonal intensity over a 26,000-year cycle?",
+        "type": "mcq",
+        "o": [
+            "It changes which hemisphere points towards the Sun at perihelion, altering season extremity",
+            "It reverses the magnetic poles, causing seasons to flip",
+            "It speeds up Earth's rotation, shortening all seasons equally",
+            "It has no measurable effect on seasons"
+        ]
+    },
+    {
+        "q": "The 'Quasi-Biennial Oscillation' (QBO) is a pattern of stratospheric winds that reverses direction seasonally.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the thermodynamic principle behind the formation of a 'Marine Layer' in coastal spring/summer?",
+        "type": "mcq",
+        "o": [
+            "An inversion layer traps cool, moist ocean air beneath a warmer air mass",
+            "The ocean heats up faster than the land, pushing clouds inland",
+            "Decreasing atmospheric CO2 causes localized cooling",
+            "A sudden drop in the jet stream pulls polar air to the coast"
+        ]
+    },
+    {
+        "q": "Complete the sentence about leaves:",
+        "type": "inline_dropdown",
+        "text": "Many [0] lose their leaves in [1] to save energy.",
+        "dropdowns": [
+            {
+                "correct": "trees",
+                "options": [
+                    "trees",
+                    "rocks",
+                    "animals"
+                ]
+            },
+            {
+                "correct": "Autumn",
+                "options": [
+                    "Autumn",
+                    "Spring",
+                    "Summer"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The specific astronomical alignment that causes a 'Super New Moon', influencing higher tidal ranges seasonally, is perigee-syzygy.",
+        "type": "fill_blank",
+        "answers": [
+            "perigee-syzygy",
+            "perigee syzygy"
+        ],
+        "other_options": [
+            "apogee-syzygy",
+            "aphelion",
+            "perihelion",
+            "quadrature"
+        ]
+    },
+    {
+        "q": "Complete the sentence about heat:",
+        "type": "inline_dropdown",
+        "text": "The [0] provides heat to the Earth, making [1] the hottest season.",
+        "dropdowns": [
+            {
+                "correct": "Sun",
+                "options": [
+                    "Sun",
+                    "Moon",
+                    "Stars"
+                ]
+            },
+            {
+                "correct": "Summer",
+                "options": [
+                    "Summer",
+                    "Winter",
+                    "Autumn"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the 'Ozone Quasi-Biennial Oscillation's' (QBO) role in modulating the winter polar vortex?",
+        "type": "mcq",
+        "o": [
+            "The QBO's easterly phase weakens the polar vortex, allowing cold air outbreaks",
+            "It destroys ozone, making the vortex stronger",
+            "It has no connection to the polar vortex at all",
+            "It heats the mesosphere, preventing polar night jet formation"
+        ]
+    },
+    {
+        "q": "Name the phenomenon where melting permafrost releases methane, amplifying seasonal warming in the Arctic.",
+        "type": "short_answer",
+        "answers": [
+            "arctic amplification",
+            "permafrost carbon feedback",
+            "positive feedback loop"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the teleconnection pattern to its seasonal weather impact:",
+        "type": "match",
+        "left": [
+            "Arctic Oscillation (AO)",
+            "North Atlantic Oscillation (NAO)",
+            "Pacific Decadal Oscillation (PDO)",
+            "Madden-Julian Oscillation (MJO)"
+        ],
+        "right": [
+            "Winter mid-latitude temperatures",
+            "Storm track strength over Europe",
+            "Multi-year Pacific SST patterns",
+            "Sub-seasonal tropical rainfall pulses"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Windy activities, RIGHT for Snowy activities.",
+        "type": "swipe_cards",
+        "left_label": "Wind",
+        "right_label": "Snow",
+        "cards": {
+            "Kite flying": "left",
+            "Sledding": "right",
+            "Rustling leaves": "left",
+            "Snowball fight": "right"
+        }
+    },
+    {
+        "q": "How does 'Ekman Spiral' dynamics change coastal upwelling intensity between spring and autumn?",
+        "type": "mcq",
+        "o": [
+            "Seasonal wind shifts change surface water transport direction, strengthening or weakening upwelling",
+            "The Coriolis force disappears in spring, stopping upwelling",
+            "Water density changes cause upwelling to only happen in winter",
+            "Tidal forces override wind forces twice a year"
+        ]
+    },
+    {
+        "q": "The 'Brewer-Dobson Circulation' is a seasonal atmospheric circulation that transports mass and ozone from the ______ to the poles.",
+        "type": "fill_blank",
+        "answers": [
+            "tropics",
+            "equator",
+            "tropical tropopause"
+        ],
+        "other_options": [
+            "stratosphere",
+            "mesosphere",
+            "ionosphere",
+            "ozone layer"
+        ]
+    },
+    {
+        "q": "If you wear 2 mittens, 1 hat, and 1 scarf, how many winter accessories are you wearing?",
+        "type": "slider",
+        "min": 1,
+        "max": 6,
+        "correct": 4
+    },
+    {
+        "q": "Match the seasonal insect or animal.",
+        "type": "memory",
+        "pairs": {
+            "Butterfly": "Spring",
+            "Mosquito": "Monsoon",
+            "Firefly": "Summer night",
+            "Arctic Fox": "Winter"
+        }
+    },
+    {
+        "q": "Which isotopic proxy in ice cores is used to reconstruct past seasonal temperature variations?",
+        "type": "mcq",
+        "o": [
+            "Oxygen-18 to Oxygen-16 ratio (\u03b418O)",
+            "Carbon-14 to Carbon-12 ratio",
+            "Uranium-238 to Lead-206 ratio",
+            "Potassium-40 to Argon-40 ratio"
+        ]
+    },
+    {
+        "q": "The 'Cryosat-2' satellite primarily monitors seasonal variations in the ______ of ice sheets.",
+        "type": "fill_blank",
+        "answers": [
+            "thickness",
+            "volume",
+            "elevation"
+        ],
+        "other_options": [
+            "color",
+            "salinity",
+            "temperature",
+            "density"
+        ]
+    },
+    {
+        "q": "Which of these clothes does NOT belong in a summer wardrobe?",
+        "type": "odd_one_out",
+        "options": [
+            "Shorts",
+            "T-shirt",
+            "Woolen cap",
+            "Flip-flops"
+        ],
+        "correct": "Woolen cap"
+    },
+    {
+        "q": "How does the 'Azores High' seasonal migration dictate the Mediterranean summer drought?",
+        "type": "mcq",
+        "o": [
+            "Its northward shift in summer blocks Atlantic moisture-laden westerlies",
+            "It weakens in summer, allowing tropical storms to form",
+            "It moves south in summer, pulling in cold air from the Alps",
+            "It creates a persistent low-pressure system over the Sahara"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Spring plants, RIGHT for Autumn plants.",
+        "type": "swipe_cards",
+        "left_label": "Spring",
+        "right_label": "Autumn",
+        "cards": {
+            "Buds opening": "left",
+            "Leaves turning brown": "right",
+            "Green shoots": "left",
+            "Leaves falling": "right"
+        }
+    },
+    {
+        "q": "The 'Atlantic Multidecadal Oscillation' (AMO) can enhance or suppress hurricane activity over a period of 20-40 years.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the 'Rossby Wave' mechanism behind winter cold air outbreaks?",
+        "type": "mcq",
+        "o": [
+            "Large meanders in the jet stream allow cold polar air to plunge southward",
+            "A straight, zonal flow blocks all north-south air exchange",
+            "They are ocean waves that push ice onto land",
+            "They only form in summer and bring heatwaves"
+        ]
+    },
+    {
+        "q": "Name the biological process where spring plankton blooms remove CO2 from the surface ocean to the deep sea.",
+        "type": "short_answer",
+        "answers": [
+            "biological pump",
+            "carbon pump",
+            "biological carbon pump"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the type of solar radiation to its seasonal influence on snowpack:",
+        "type": "match",
+        "left": [
+            "Shortwave radiation",
+            "Longwave radiation",
+            "Sensible heat flux",
+            "Latent heat flux"
+        ],
+        "right": [
+            "Primary driver of spring melt",
+            "Re-radiation from atmosphere/clouds",
+            "Turbulent heat transfer from air",
+            "Energy used for sublimation/condensation"
+        ]
+    },
+    {
+        "q": "What is the 'Sudden Stratospheric Warming' (SSW) event and its winter tropospheric consequence?",
+        "type": "mcq",
+        "o": [
+            "A rapid temperature spike in the polar stratosphere that can split the polar vortex, causing severe cold snaps below",
+            "A slow cooling of the troposphere due to ozone depletion",
+            "An eruption of warm gases from volcanoes into the mesosphere",
+            "The heating of the ionosphere by solar flares, melting ice caps"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The feeling of being very cold and shaking.",
+        "type": "word_scramble",
+        "answer": "SHIVER",
+        "decoys": "QC"
+    },
+    {
+        "q": "The 'Clausius-Clapeyron Relation' explains why atmospheric water vapor capacity increases by about 7% per ______ of warming.",
+        "type": "fill_blank",
+        "answers": [
+            "degree Celsius",
+            "1\u00b0C",
+            "one degree"
+        ],
+        "other_options": [
+            "10 degrees",
+            "percent",
+            "kilometer",
+            "hectopascal"
+        ]
+    },
+    {
+        "q": "How does 'Soil Moisture Anomaly' in spring influence the subsequent summer heatwave intensity?",
+        "type": "mcq",
+        "o": [
+            "Low spring soil moisture limits evapotranspiration, causing a positive feedback loop that amplifies summer heat",
+            "High spring moisture causes more clouds in summer, trapping heat",
+            "Spring soil has no impact on summer weather",
+            "Wet spring soils absorb solar energy faster, heating up the air"
+        ]
+    },
+    {
+        "q": "The 'North American Monsoon' (NAM) brings summer precipitation to the Southwest USA due to a shift in the subtropical ______.",
+        "type": "fill_blank",
+        "answers": [
+            "high",
+            "ridge",
+            "high pressure system"
+        ],
+        "other_options": [
+            "low",
+            "jet stream",
+            "trough",
+            "front"
+        ]
+    },
+    {
+        "q": "What is a 'Pineapple Express' in meteorological terms?",
+        "type": "mcq",
+        "o": [
+            "An atmospheric river bringing warm, moist air from Hawaii to the West Coast, often in winter",
+            "A fast train in the tropics",
+            "A summer trade wind pattern in the Caribbean",
+            "A seasonal current bringing tropical fish to Alaska"
+        ]
+    },
+    {
+        "q": "Unscramble the word: What you build on the beach in summer.",
+        "type": "word_scramble",
+        "answer": "SANDCASTLE",
+        "decoys": "KX"
+    },
+    {
+        "q": "The 'Eddy Covariance' method measures ecosystem-level carbon exchange to study seasonal carbon uptake.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What role do 'Stratospheric Aerosols' from volcanic eruptions play in seasonal climate anomalies?",
+        "type": "mcq",
+        "o": [
+            "They reflect incoming solar radiation, causing surface cooling that can last for several seasons",
+            "They trap outgoing longwave radiation, causing permanent summer-like conditions",
+            "They create ozone holes that cool only the winter pole",
+            "They only affect the color of sunsets"
+        ]
+    },
+    {
+        "q": "Name the specific layer in a temperate lake where the temperature changes most rapidly with depth during summer stratification.",
+        "type": "short_answer",
+        "answers": [
+            "thermocline",
+            "metalimnion"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "How does the 'Walker Circulation' change during an El Nino event, affecting seasonal rainfall globally?",
+        "type": "mcq",
+        "o": [
+            "It weakens or reverses, with rising motion shifting to the central/eastern Pacific, causing drought in the west",
+            "It strengthens dramatically, doubling rainfall in Australia",
+            "It stops all trade winds globally",
+            "It moves to the Atlantic Ocean basin"
+        ]
+    },
+    {
+        "q": "Match the phenological stage to the climatic trigger:",
+        "type": "match",
+        "left": [
+            "Budburst",
+            "Leaf coloring",
+            "Fruit ripening",
+            "Seed germination"
+        ],
+        "right": [
+            "Accumulated warmth (GDD)",
+            "Shortening photoperiod",
+            "Peak summer temperatures",
+            "First autumn rains"
+        ]
+    },
+    {
+        "q": "Complete the sentence about amphibians:",
+        "type": "inline_dropdown",
+        "text": "In the rainy season, you might see a [0] jumping near a [1].",
+        "dropdowns": [
+            {
+                "correct": "frog",
+                "options": [
+                    "frog",
+                    "camel",
+                    "lion"
+                ]
+            },
+            {
+                "correct": "pond",
+                "options": [
+                    "pond",
+                    "desert",
+                    "volcano"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The 'Geostrophic Wind' balance ignores which force, which is significant in the Ekman layer and affects seasonal monsoon flow?",
+        "type": "mcq",
+        "o": [
+            "Friction",
+            "Pressure Gradient Force",
+            "Coriolis Force",
+            "Gravity"
+        ]
+    },
+    {
+        "q": "The 'Green Sahara' periods occurred due to a much stronger African Monsoon driven by orbital ______.",
+        "type": "fill_blank",
+        "answers": [
+            "precession",
+            "obliquity",
+            "eccentricity"
+        ],
+        "other_options": [
+            "nutation",
+            "rotation",
+            "revolution",
+            "procession"
+        ]
+    },
+    {
+        "q": "What is a 'Sting Jet' in the context of a severe autumn/winter extratropical cyclone?",
+        "type": "mcq",
+        "o": [
+            "A transient, narrow airstream descending from the cloud head, causing extremely damaging surface winds",
+            "The main warm conveyor belt feeding the storm",
+            "The eye of the cyclone making landfall",
+            "A jet of ice crystals ejected from the top of the storm"
+        ]
+    },
+    {
+        "q": "Complete the sentence about melting snow:",
+        "type": "inline_dropdown",
+        "text": "When spring arrives, the snow begins to [0] and rivers get [1].",
+        "dropdowns": [
+            {
+                "correct": "melt",
+                "options": [
+                    "melt",
+                    "freeze",
+                    "grow"
+                ]
+            },
+            {
+                "correct": "full",
+                "options": [
+                    "full",
+                    "empty",
+                    "dry"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The 'Marine Isotope Stage 11' interglacial is an analog for our current Holocene, helping predict future seasonality.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "How does 'Fluvial Pluvial Flooding' differ from standard river flooding in the context of summer convection?",
+        "type": "mcq",
+        "o": [
+            "It is caused by intense local rainfall overwhelming urban drainage, not a river overflowing",
+            "It only happens in winter when snow melts slowly",
+            "It is a slow-onset event caused by prolonged drizzle",
+            "It only affects rivers that flow backward"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Heavy clothing, RIGHT for Light clothing.",
+        "type": "swipe_cards",
+        "left_label": "Heavy",
+        "right_label": "Light",
+        "cards": {
+            "Parka": "left",
+            "Cotton shorts": "right",
+            "Thick boots": "left",
+            "Sandals": "right"
+        }
+    },
+    {
+        "q": "Name the type of drought that specifically affects groundwater and streamflow, lagging behind a dry season by months.",
+        "type": "short_answer",
+        "answers": [
+            "hydrological drought"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the 'Beaufort Gyre' and how is it changing with seasonal Arctic ice melt?",
+        "type": "mcq",
+        "o": [
+            "A circulating ocean current in the Arctic Ocean that traps freshwater; its release is linked to ice-free summers",
+            "A wind pattern over Europe",
+            "A rotating storm system in the Southern Ocean",
+            "A deep sea trench in the Pacific"
+        ]
+    },
+    {
+        "q": "How many letters are in the word SUMMER?",
+        "type": "slider",
+        "min": 4,
+        "max": 8,
+        "correct": 6
+    },
+    {
+        "q": "Match the layer of the atmosphere to its seasonal temperature trend:",
+        "type": "match",
+        "left": [
+            "Mesosphere (Summer Pole)",
+            "Mesosphere (Winter Pole)",
+            "Stratosphere (Winter Pole)",
+            "Thermosphere"
+        ],
+        "right": [
+            "Coldest place on Earth",
+            "Relatively warmer",
+            "Can rapidly warm via SSW",
+            "High temperature, sensitive to solar cycles"
+        ]
+    },
+    {
+        "q": "The 'Circumpolar Deep Water' upwelling on the Antarctic continental shelf is accelerating ice shelf ______, with a seasonal peak in summer.",
+        "type": "fill_blank",
+        "answers": [
+            "melt",
+            "basal melting"
+        ],
+        "other_options": [
+            "freezing",
+            "growth",
+            "accumulation",
+            "calving"
+        ]
+    },
+    {
+        "q": "Match the season with its Indian name.",
+        "type": "memory",
+        "pairs": {
+            "Grishma": "Summer",
+            "Varsha": "Monsoon",
+            "Sharad": "Autumn",
+            "Hemant": "Winter"
+        }
+    },
+    {
+        "q": "What is the 'MJO' (Madden-Julian Oscillation) and its role in 'break periods' during the Indian Monsoon?",
+        "type": "mcq",
+        "o": [
+            "A 30-60 day tropical pulse; its dry phase suppresses convection, causing monsoon breaks",
+            "A permanent high-pressure zone over India",
+            "A seasonal shift in the Earth's magnetic field",
+            "A type of lightning storm in the Himalayas"
+        ]
+    },
+    {
+        "q": "The 'Latent Heat of Fusion' released when water freezes is a key factor in moderating air temperatures during autumn freeze-up.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "How does 'Isostatic Rebound' affect seasonal sea-level change perception in formerly glaciated regions?",
+        "type": "mcq",
+        "o": [
+            "Land is rising, masking some of the sea-level rise signal, but the rate is constant year-round, not seasonal",
+            "Land sinks in summer, amplifying high tides",
+            "It only affects the Southern Hemisphere",
+            "It causes rapid seasonal flooding every spring"
+        ]
+    },
+    {
+        "q": "What is 'Derecho'?",
+        "type": "mcq",
+        "o": [
+            "A widespread, long-lived windstorm associated with a band of rapidly moving showers or thunderstorms, mostly in summer",
+            "A slow-moving winter blizzard",
+            "A type of tornado over water",
+            "A sudden frost in spring"
+        ]
+    },
+    {
+        "q": "Name the wind system that is the main driver of the 'Antarctic Circumpolar Current', the strongest seasonal current on Earth.",
+        "type": "short_answer",
+        "answers": [
+            "roaring forties",
+            "furious fifties",
+            "screaming sixties",
+            "westerlies"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Coriolis Parameter' increases with latitude, explaining why the seasonal 'Rossby Number' decreases as you move ______.",
+        "type": "fill_blank",
+        "answers": [
+            "poleward",
+            "north",
+            "south",
+            "to higher latitudes"
+        ],
+        "other_options": [
+            "equatorward",
+            "east",
+            "west",
+            "upwards"
+        ]
+    },
+    {
+        "q": "Which of these sounds is NOT associated with the rainy season?",
+        "type": "odd_one_out",
+        "options": [
+            "Thunder",
+            "Splashing",
+            "Croaking frogs",
+            "Cracking ice"
+        ],
+        "correct": "Cracking ice"
+    },
+    {
+        "q": "What is the 'Lapse Rate Feedback' in the context of amplified Arctic warming?",
+        "type": "mcq",
+        "o": [
+            "In the Arctic, the stable atmosphere traps added heat near the surface, unlike the tropics where heat is efficiently radiated to space",
+            "A constant temperature profile from ground to space",
+            "A sudden cooling of the stratosphere",
+            "The rate at which snow melts in mountains"
+        ]
+    },
+    {
+        "q": "Match the seasonal wildfire type to its primary ignition source:",
+        "type": "match",
+        "left": [
+            "Boreal forest fire",
+            "California autumn fire",
+            "Tropical savanna fire",
+            "Spring agricultural fire"
+        ],
+        "right": [
+            "Lightning strikes in dry summer",
+            "Diablo/Santa Ana winds",
+            "Dry season land clearing",
+            "Prescribed burns before growing season"
+        ]
+    },
+    {
+        "q": "The 'Warm Conveyor Belt' is a key airflow within extratropical cyclones, most active in winter, transporting heat and moisture poleward.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What causes the 'Equatorial Cold Tongue' to develop seasonally in the eastern Pacific?",
+        "type": "mcq",
+        "o": [
+            "Trade winds push warm surface water west, allowing upwelling of cold water",
+            "The sun is weaker at the equator during summer",
+            "Antarctic bottom water surfaces at the equator",
+            "Excessive rainfall cools the surface"
+        ]
+    },
+    {
+        "q": "How does 'Lake Effect Snow' form in early winter?",
+        "type": "mcq",
+        "o": [
+            "Cold air passes over relatively warm lake water, picking up moisture and dumping it as snow downstream",
+            "Warm air hits a frozen lake and freezes instantly",
+            "Snow forms over the lake and drifts to land",
+            "Fish breathe out frozen vapor"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Harvesting, RIGHT for Planting.",
+        "type": "swipe_cards",
+        "left_label": "Harvest",
+        "right_label": "Planting",
+        "cards": {
+            "Autumn crops": "left",
+            "Spring garden": "right",
+            "Picking ripe apples": "left",
+            "Sowing seeds": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word: Dark fluffy things in the sky that bring rain.",
+        "type": "word_scramble",
+        "answer": "CLOUDS",
+        "decoys": "ZP"
+    },
+    {
+        "q": "Unscramble the word: A refreshing drink made of lemons in summer.",
+        "type": "word_scramble",
+        "answer": "LEMONADE",
+        "decoys": "VW"
+    },
+    {
+        "q": "The 'Accumulated Cyclone Energy' (ACE) index is used to measure the intensity and duration of a ______ season.",
+        "type": "fill_blank",
+        "answers": [
+            "hurricane",
+            "typhoon",
+            "cyclone",
+            "tropical storm"
+        ],
+        "other_options": [
+            "tornado",
+            "winter storm",
+            "monsoon",
+            "blizzard"
+        ]
+    },
+    {
+        "q": "Complete the sentence about cold storms:",
+        "type": "inline_dropdown",
+        "text": "A [0] is a storm with lots of snow and strong [1].",
+        "dropdowns": [
+            {
+                "correct": "blizzard",
+                "options": [
+                    "blizzard",
+                    "shower",
+                    "breeze"
+                ]
+            },
+            {
+                "correct": "winds",
+                "options": [
+                    "winds",
+                    "suns",
+                    "rains"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Name the phenomenon where sinking air on the lee side of mountains warms adiabatically, causing a rapid spring snowmelt wind.",
+        "type": "short_answer",
+        "answers": [
+            "foehn",
+            "chinook",
+            "foehn wind"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is 'Sastrugi'?",
+        "type": "mcq",
+        "o": [
+            "Sharp, irregular grooves or ridges formed on a snow surface by wind erosion, common in polar winters",
+            "A type of frozen soil",
+            "A seasonal river in Siberia",
+            "An Arctic flowering plant"
+        ]
+    },
+    {
+        "q": "The 'Wyrtki Jet' is a seasonal eastward current in the Indian Ocean that emerges between the monsoon winds.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about staying healthy:",
+        "type": "inline_dropdown",
+        "text": "Always drink plenty of [0] in summer so you don't get [1].",
+        "dropdowns": [
+            {
+                "correct": "water",
+                "options": [
+                    "water",
+                    "hot tea",
+                    "soup"
+                ]
+            },
+            {
+                "correct": "thirsty",
+                "options": [
+                    "thirsty",
+                    "cold",
+                    "sleepy"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "How does the 'Angular Momentum' conservation principle influence the strength of the winter subtropical jet?",
+        "type": "mcq",
+        "o": [
+            "Air moving poleward from the tropics must accelerate eastward, forming a strong jet stream",
+            "Air sinks straight down without moving sideways",
+            "It slows down the jet stream to zero",
+            "It causes the jet to reverse direction"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Hibernation, RIGHT for Migration.",
+        "type": "swipe_cards",
+        "left_label": "Hibernation",
+        "right_label": "Migration",
+        "cards": {
+            "Sleeping in a cave": "left",
+            "Flying south": "right",
+            "Bear in winter": "left",
+            "Flock of birds": "right"
+        }
+    },
+    {
+        "q": "What is the 'Maud Rise Polynya' in Antarctica, and why does it appear seasonally?",
+        "type": "mcq",
+        "o": [
+            "A recurring open water area in sea ice caused by ocean currents and upwelling, usually in winter",
+            "A mountain peak that collects snow in summer",
+            "A permanent hole in the ozone layer",
+            "A glacier that calves only in autumn"
+        ]
+    },
+    {
+        "q": "The 'Urban Heat Island' (UHI) effect can lengthen the local growing season compared to surrounding rural areas by delaying autumn frost.",
+        "type": "fill_blank",
+        "answers": [
+            "lengthen",
+            "extend",
+            "prolong"
+        ],
+        "other_options": [
+            "shorten",
+            "stop",
+            "neutralize",
+            "reverse"
+        ]
+    },
+    {
+        "q": "Match the seasonal oceanographic feature to its basin:",
+        "type": "match",
+        "left": [
+            "Agulhas Current",
+            "Kuroshio Current",
+            "Labrador Current",
+            "Somali Current"
+        ],
+        "right": [
+            "Southern Indian Ocean",
+            "Northwest Pacific",
+            "Northwest Atlantic",
+            "Western Indian Ocean (Monsoonal reversal)"
+        ]
+    },
+    {
+        "q": "Name the scale used for quantifying the severity of a tornado, which peaks in the spring season in the USA.",
+        "type": "short_answer",
+        "answers": [
+            "enhanced fujita",
+            "ef scale",
+            "fujita scale"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Diablo Winds' are hot, dry autumn winds in Northern California, analogous to Santa Ana winds.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "How does 'Transpiration' from trees affect the onset of the spring rainy season in the Amazon?",
+        "type": "mcq",
+        "o": [
+            "It recycles moisture back into the atmosphere, priming the system for the wet season transition",
+            "It stops all rain formation by drying the air",
+            "It only affects carbon dioxide, not water",
+            "It cools the ground so much that rain freezes"
+        ]
+    },
+    {
+        "q": "At what time (PM) might the sun set early in winter?",
+        "type": "slider",
+        "min": 1,
+        "max": 8,
+        "correct": 5
+    },
+    {
+        "q": "What is 'Aerosol Optical Depth' (AOD) and how does it signal a seasonal dust storm season?",
+        "type": "mcq",
+        "o": [
+            "A measure of the extinction of light by particles; it spikes during the spring/summer Saharan dust layer",
+            "The depth of the ocean where light penetrates in winter",
+            "A type of telescope for viewing the Sun",
+            "The measure of snow purity"
+        ]
+    },
+    {
+        "q": "The 'Siberian High' is a massive, semi-permanent cold-core high-pressure system that dominates the climate of Eurasia in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "winter"
+        ],
+        "other_options": [
+            "summer",
+            "spring",
+            "autumn",
+            "the rainy season"
+        ]
+    },
+    {
+        "q": "Match the footwear to the weather.",
+        "type": "memory",
+        "pairs": {
+            "Gumboots": "Muddy and raining",
+            "Sandals": "Hot and sunny",
+            "Snow boots": "Icy and freezing",
+            "Sneakers": "Cool autumn day"
+        }
+    },
+    {
+        "q": "What is the 'Planetary Boundary Layer' (PBL) depth cycle between a typical summer afternoon and a winter night?",
+        "type": "mcq",
+        "o": [
+            "It grows deep (1-2km) in summer from surface heating and collapses shallow (<100m) in winter nights",
+            "It stays exactly the same depth all year",
+            "It collapses in summer and grows in winter",
+            "It only exists over the ocean"
+        ]
+    },
+    {
+        "q": "Match the paleoclimate archive to the seasonal resolution it can provide:",
+        "type": "match",
+        "left": [
+            "Ice cores",
+            "Varved lake sediments",
+            "Coral skeletons",
+            "Tree rings"
+        ],
+        "right": [
+            "Sub-annual (isotopes)",
+            "Annual to seasonal layers",
+            "Seasonal growth bands",
+            "Annual rings"
+        ]
+    },
+    {
+        "q": "The 'Dryline' is a seasonal boundary between moist and dry air masses and is a focus for severe thunderstorm formation in the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "spring",
+            "great plains",
+            "tornado alley"
+        ],
+        "other_options": [
+            "winter",
+            "arctic",
+            "tropics",
+            "ocean"
+        ]
+    },
+    {
+        "q": "Which of these is NOT an autumn leaf color?",
+        "type": "odd_one_out",
+        "options": [
+            "Red",
+            "Yellow",
+            "Orange",
+            "Blue"
+        ],
+        "correct": "Blue"
+    },
+    {
+        "q": "Name the seasonal phenomenon where low-oxygen water upwells along the coast, causing fish kills, often in summer/autumn.",
+        "type": "short_answer",
+        "answers": [
+            "hypoxia",
+            "dead zone",
+            "anoxia"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Solar Cycle' (11-year) has a stronger effect on seasonal weather than the El Nino Southern Oscillation.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a 'Cap' (Capping Inversion) in severe weather meteorology?",
+        "type": "mcq",
+        "o": [
+            "A layer of warm air aloft that prevents thunderstorm development until it breaks, often leading to explosive storms in spring",
+            "A hat worn by meteorologists",
+            "The top of the stratosphere",
+            "A lid on a rain gauge"
+        ]
+    },
+    {
+        "q": "How does the 'Halocline' in the Arctic Ocean preserve the cold, fresh surface layer against warmer Atlantic water?",
+        "type": "mcq",
+        "o": [
+            "The strong salinity gradient keeps the layers separate, protecting sea ice even in summer",
+            "It mixes all layers uniformly",
+            "It only exists at the equator",
+            "It creates a magnetic barrier"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Freezing, RIGHT for Boiling.",
+        "type": "swipe_cards",
+        "left_label": "Freezing",
+        "right_label": "Boiling",
+        "cards": {
+            "Ice cube": "left",
+            "Kettle steam": "right",
+            "Frost": "left",
+            "Hot tea": "right"
+        }
+    },
+    {
+        "q": "The 'Pressure Gradient Force' is directed from high to low pressure and is balanced by Coriolis in the geostrophic wind that steers seasonal storms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: A small pool of rainwater on the ground.",
+        "type": "word_scramble",
+        "answer": "PUDDLE",
+        "decoys": "XQ"
+    },
+    {
+        "q": "What is 'Satellite Altimetry' used to monitor seasonally?",
+        "type": "mcq",
+        "o": [
+            "Changes in sea surface height, reflecting thermal expansion and melting ice",
+            "The color of autumn leaves from space",
+            "The migration path of birds",
+            "The depth of snow on a specific house"
+        ]
+    },
+    {
+        "q": "How does the 'Eliassen-Palm Flux' diagnose the propagation of planetary waves that drive Sudden Stratospheric Warmings in winter?",
+        "type": "mcq",
+        "o": [
+            "It quantifies wave activity flux from the troposphere to the stratosphere, showing vertical and meridional propagation",
+            "It measures the salinity flux in the deep ocean",
+            "It calculates the carbon exchange between soil and air",
+            "It tracks insect migration patterns"
+        ]
+    },
+    {
+        "q": "The 'Boreal-Tropical Lapse Rate Feedback' mechanism posits that upper tropospheric warming in the tropics is efficiently radiated to space, while Arctic surface warming remains trapped.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the role of 'Isentropic Potential Vorticity' (IPV) in diagnosing the dynamic tropopause during a winter cyclone bombogenesis?",
+        "type": "mcq",
+        "o": [
+            "A positive IPV anomaly at upper levels indicates stratospheric air descent, forcing rapid cyclogenesis",
+            "It measures the absolute humidity of the stratosphere",
+            "It is a constant value across all weather systems",
+            "It only applies to tropical convection"
+        ]
+    },
+    {
+        "q": "The spectral gap in the 'Van der Hoven Spectrum' of wind speeds distinguishes between ______ and microscale turbulence.",
+        "type": "fill_blank",
+        "answers": [
+            "synoptic",
+            "mesoscale"
+        ],
+        "other_options": [
+            "nanoscale",
+            "picoscale",
+            "gigascale",
+            "decadal"
+        ]
+    },
+    {
+        "q": "How does 'Equatorial Planetary Wave-Guide' theory explain the seasonal persistence of the QBO?",
+        "type": "mcq",
+        "o": [
+            "A confined region in the lower stratosphere where Kelvin and Rossby-gravity waves deposit momentum, driving the oscillation",
+            "A deep ocean current that reverses seasonally",
+            "A magnetic field line connecting the poles",
+            "A biological corridor for migrating species"
+        ]
+    },
+    {
+        "q": "Name the specific mesospheric cloud type that forms near the summer polar mesopause and indicates the coldest atmospheric temperatures.",
+        "type": "short_answer",
+        "answers": [
+            "polar mesospheric clouds",
+            "noctilucent clouds",
+            "pmc"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the atmospheric instability type to its seasonal severe weather outcome:",
+        "type": "match",
+        "left": [
+            "Conditional Instability",
+            "Potential Instability",
+            "Inertial Instability",
+            "Symmetric Instability"
+        ],
+        "right": [
+            "Deep, moist convection if parcel is lifted to LFC",
+            "Layer lifted to saturation releases CAPE",
+            "Rapid horizontal accelerations in jet streaks",
+            "Slantwise convection in bands of heavy snow"
+        ]
+    },
+    {
+        "q": "What is the 'Stratospheric Memory Effect' regarding winter climate predictions?",
+        "type": "mcq",
+        "o": [
+            "Anomalies in the stratospheric polar vortex in early winter can propagate downward, influencing the troposphere for weeks",
+            "The stratosphere stores water vapor from summer monsoons for winter rain",
+            "It describes the human memory of past severe winters",
+            "It is a computing term for climate model storage"
+        ]
+    },
+    {
+        "q": "Complete the sentence about beautiful nature:",
+        "type": "inline_dropdown",
+        "text": "The [0] season is the best time to see flowers [1].",
+        "dropdowns": [
+            {
+                "correct": "Spring",
+                "options": [
+                    "Spring",
+                    "Winter",
+                    "Autumn"
+                ]
+            },
+            {
+                "correct": "bloom",
+                "options": [
+                    "bloom",
+                    "freeze",
+                    "fall"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The 'Hoskins-Bretherton Model' of frontogenesis explains the collapse of horizontal temperature gradients into sharp seasonal fronts via ______.",
+        "type": "fill_blank",
+        "answers": [
+            "deformation",
+            "stretching deformation",
+            "shearing deformation"
+        ],
+        "other_options": [
+            "radiation",
+            "diffusion",
+            "evaporation",
+            "sublimation"
+        ]
+    },
+    {
+        "q": "How does 'Arctic-Midlatitude Teleconnection' via the tropically-excited Arctic warming mechanism function in winter?",
+        "type": "mcq",
+        "o": [
+            "Tropical convection excites Rossby waves that transport heat into the Arctic, weakening the thermal gradient and the jet stream",
+            "Hot air rises directly from the equator to the North Pole through a vertical shaft",
+            "Ocean currents reverse and carry tropical icebergs north",
+            "Solar radiation focuses on the Arctic due to ozone loss"
+        ]
+    },
+    {
+        "q": "The 'Thermal Wind Relation' dictates that in the Northern Hemisphere, a horizontal temperature gradient creates vertical wind shear with warm air on the ______ flank.",
+        "type": "fill_blank",
+        "answers": [
+            "right",
+            "east"
+        ],
+        "other_options": [
+            "left",
+            "west",
+            "north",
+            "south"
+        ]
+    },
+    {
+        "q": "What is the 'Entrainment Cap' in tropical cyclone intensity and how does seasonal ocean heat content affect it?",
+        "type": "mcq",
+        "o": [
+            "Upwelling of cold water limits intensity, but a deep warm layer (high OHC) reduces this, allowing rapid intensification in peak season",
+            "A layer of dry air that always destroys the storm in spring",
+            "A physical lid on the ocean surface",
+            "A legal limit on fishing during storm season"
+        ]
+    },
+    {
+        "q": "The 'Shapiro-Keyser Cyclone Model' describes the lifecycle of marine extratropical cyclones with a distinct fractured cold front and a bent-back ______ front.",
+        "type": "fill_blank",
+        "answers": [
+            "warm"
+        ],
+        "other_options": [
+            "cold",
+            "occluded",
+            "stationary",
+            "dry"
+        ]
+    },
+    {
+        "q": "Name the process where stratospheric ozone loss in spring leads to a stronger, colder polar vortex, delaying its breakup.",
+        "type": "short_answer",
+        "answers": [
+            "ozone hole feedback",
+            "ozone depletion feedback"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "How does 'Convective Aggregation' modulate the seasonal mean state of the ITCZ?",
+        "type": "mcq",
+        "o": [
+            "Self-organization of convection dries the surrounding environment, sustaining a narrow, intense ITCZ",
+            "Random scattering of clouds across the whole tropics",
+            "Clouds form only over the highest mountains",
+            "All thunderstorms merge into one single permanent storm"
+        ]
+    },
+    {
+        "q": "The 'Charney-Drazin non-acceleration theorem' states that under conservative conditions, planetary waves cannot change the zonal-mean flow, yet SSWs still happen due to ______.",
+        "type": "mcq",
+        "o": [
+            "Wave breaking and dissipation (non-linear processes)",
+            "Magnetic reversal of the poles",
+            "Solar eclipses",
+            "Gravitational pull of Jupiter"
+        ]
+    },
+    {
+        "q": "Match the climate index to its primary meteorological variable:",
+        "type": "match",
+        "left": [
+            "SOI (Southern Oscillation Index)",
+            "PDO (Pacific Decadal Oscillation)",
+            "SAM (Southern Annular Mode)",
+            "IOD (Indian Ocean Dipole)"
+        ],
+        "right": [
+            "Tahiti-Darwin sea level pressure difference",
+            "North Pacific SST anomalies",
+            "Pressure/mid-latitude westerly wind belt shift",
+            "West-East Indian Ocean SST gradient"
+        ]
+    },
+    {
+        "q": "The 'Bolling-Allerod' interstadial was a period of abrupt warming during the last deglaciation, with strong seasonal contrasts.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the 'Quasi-Stationary Planetary Wave' mechanism linking autumn snow cover in Siberia to winter Arctic Oscillation phase?",
+        "type": "mcq",
+        "o": [
+            "Enhanced snow cover forces a large-scale Rossby wave train that weakens the stratospheric polar vortex",
+            "Snow on the ground reflects all waves back into space",
+            "The snow insulates the ground, stopping all wind",
+            "It causes immediate melting of Arctic sea ice"
+        ]
+    },
+    {
+        "q": "The 'Mellor-Yamada-Nakanishi-Niino' (MYNN) scheme is a planetary boundary layer parameterization that calculates seasonal ______ fluxes.",
+        "type": "fill_blank",
+        "answers": [
+            "turbulent",
+            "eddy",
+            "heat and momentum"
+        ],
+        "other_options": [
+            "radiative",
+            "gravitational",
+            "magnetic",
+            "biological"
+        ]
+    },
+    {
+        "q": "How does 'Ice-Albedo Feedback' non-linearity accelerate the summer sea ice decline threshold?",
+        "type": "mcq",
+        "o": [
+            "As ice melts, darker ocean absorbs more heat, which melts more ice, creating a tipping point for an ice-free state",
+            "Ice reflects so much heat that melting creates a net cooling globally",
+            "The albedo of ice increases as it melts, balancing the system",
+            "Sea ice always recovers fully each winter regardless of feedbacks"
+        ]
+    },
+    {
+        "q": "Name the mathematical framework describing the bifurcation point where the winter stratospheric vortex transitions from a strong, cold state to a weak, warm state (SSW).",
+        "type": "short_answer",
+        "answers": [
+            "nonlinear resonance",
+            "catastrophe theory",
+            "bifurcation theory"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Cromwell Current' or Pacific Equatorial Undercurrent is a permanent subsurface current that strengthens seasonally during La Nina.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the 'Diabatic Heating' contribution to the development of the Asian Summer Monsoon Low?",
+        "type": "mcq",
+        "o": [
+            "Latent heat release from monsoon convection over the landmass deepens the thermal low",
+            "The Sun directly heating the upper atmosphere only",
+            "Cooling from the ocean freezes the land surface",
+            "Friction from mountains generates heat"
+        ]
+    },
+    {
+        "q": "Match the severe weather parameter to its seasonal threshold for tornadic supercells:",
+        "type": "match",
+        "left": [
+            "CAPE",
+            "0-1km Storm Relative Helicity",
+            "Lifted Condensation Level",
+            "Deep Layer Shear"
+        ],
+        "right": [
+            "Convective Available Potential Energy > 1000 J/kg",
+            "Low-level rotation potential > 150 m2/s2",
+            "Cloud base height < 1500m",
+            "0-6km bulk wind difference > 40 knots"
+        ]
+    },
+    {
+        "q": "How does the 'Gravity Wave Drag' parameterization in models simulate the seasonal breakdown of the polar vortex?",
+        "type": "mcq",
+        "o": [
+            "It accounts for sub-grid scale mountain waves and jet-generated waves that decelerate the vortex when resolved",
+            "It simulates the weight of air pressing down on the ice caps",
+            "It calculates the gravitational pull of the moon on the atmosphere",
+            "It measures sea-floor spreading rates"
+        ]
+    },
+    {
+        "q": "The 'Ekman Transport' convergence drives the subtropical gyres and varies seasonally with the wind stress curl, quantified by the ______ equation.",
+        "type": "fill_blank",
+        "answers": [
+            "sverdrup",
+            "sverdrup balance"
+        ],
+        "other_options": [
+            "bernoulli",
+            "navier-stokes",
+            "euler",
+            "laplace"
+        ]
+    },
+    {
+        "q": "What is the 'Yamal Peninsula' impact on global winter grain markets and its link to Siberian snow cover advance?",
+        "type": "mcq",
+        "o": [
+            "Anomalous October snow cover there is a precursor index for cold Northern Hemisphere winters, affecting fuel and grain demand",
+            "It is a major oil field that freezes over",
+            "It is a new volcanic island changing ocean currents",
+            "It refers to a political policy on grain exports"
+        ]
+    },
+    {
+        "q": "The 'Sverdrup Balance' quantifies the meridional mass transport in ocean gyres in relation to the curl of the wind stress.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the specific type of cloud that forms in the polar stratosphere at ~20km altitude and facilitates ozone destruction in spring.",
+        "type": "short_answer",
+        "answers": [
+            "polar stratospheric clouds",
+            "nacreous",
+            "mother of pearl",
+            "psc"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the 'Baroclinic Annular Mode' (BAM) and how does it shape storm tracks seasonally?",
+        "type": "mcq",
+        "o": [
+            "A dominant pattern of atmospheric variability measuring the strength of storm tracks via pressure variance",
+            "A permanent high-pressure zone over the equator",
+            "The annual cycle of the solar constant",
+            "A mode of tree ring growth in the taiga"
+        ]
+    },
+    {
+        "q": "The 'Browning-Eliassen Circulation' concept is essential for understanding the transverse ageostrophic circulation at a jet entrance that drives winter ______.",
+        "type": "fill_blank",
+        "answers": [
+            "frontogenesis",
+            "storm intensification"
+        ],
+        "other_options": [
+            "drought",
+            "monsoon rains",
+            "ozone healing",
+            "sea breeze"
+        ]
+    },
+    {
+        "q": "How does 'Brine Rejection' during sea ice formation drive the Thermohaline Circulation's seasonal deep water formation?",
+        "type": "mcq",
+        "o": [
+            "Salt expelled from freezing ice increases surface water density, causing it to sink and form North Atlantic Deep Water",
+            "Freshwater from melting ice dilutes the ocean, making it lighter",
+            "Ice absorbs salt, lightening the water column",
+            "It forms a barrier layer preventing any sinking"
+        ]
+    },
+    {
+        "q": "Match the monsoon system to its onset mechanism:",
+        "type": "match",
+        "left": [
+            "West African Monsoon",
+            "South Asian Monsoon",
+            "Australian Monsoon",
+            "North American Monsoon"
+        ],
+        "right": [
+            "Sahara-Sahel thermal low and ITCZ shift",
+            "Tibetan Plateau heating and land-sea contrast",
+            "Shift of the ITCZ southward in DJF",
+            "Rocky Mountain plateau heating and Gulf moisture"
+        ]
+    },
+    {
+        "q": "The 'Dole-Portmann diagnostic' isolates the role of diabatic heating in blocking events, distinguishing seasonal wave-breaking from thermal forcing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the 'S2S (Subseasonal-to-Seasonal) Prediction Gap' primarily attributed to?",
+        "type": "mcq",
+        "o": [
+            "The chaotic nature of the atmosphere losing memory of initial conditions faster than the boundary forcing (like SST) can assert itself",
+            "A lack of satellite coverage over the poles",
+            "Insufficient computing power to run daily weather models",
+            "A legal restriction on forecasting more than 2 weeks ahead"
+        ]
+    },
+    {
+        "q": "The 'Walker, Hadley, and Ferrel Cells' all shift poleward and intensify during the summer hemisphere season except for the ______ cell which weakens.",
+        "type": "fill_blank",
+        "answers": [
+            "hadley",
+            "tropical hadley"
+        ],
+        "other_options": [
+            "ferrel",
+            "polar",
+            "walker",
+            "sea breeze"
+        ]
+    },
+    {
+        "q": "How does 'Potential Vorticity Thinking' interpret the formation of a cut-off low during spring blocking episodes?",
+        "type": "mcq",
+        "o": [
+            "A positive PV anomaly (stratospheric air) is advected equatorward and pinched off, isolating a region of cyclonic circulation",
+            "Negative PV from the surface rises and blocks the sun",
+            "PV remains uniform everywhere, so no lows form",
+            "It is solely caused by mountain ranges"
+        ]
+    },
+    {
+        "q": "Name the dimensionless number that characterizes the relative importance of convection's latent heat to the background stratification in monsoon dynamics.",
+        "type": "short_answer",
+        "answers": [
+            "gross moist stability",
+            "convective richardson number"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is 'Aerosol-Cloud Interaction' (Indirect Effect) specific to the seasonal cycle of the South Asian brown cloud?",
+        "type": "mcq",
+        "o": [
+            "Pre-monsoon pollution aerosols increase cloud droplet number, suppressing warm rain and invigorating deep convection in monsoon onset",
+            "Aerosols completely dissolve clouds, causing a dry season",
+            "It only affects the color of the sunset",
+            "Pollution cools the land so much that the monsoon reverses"
+        ]
+    },
+    {
+        "q": "The 'Clausius-Clapeyron scaling' of extreme precipitation suggests a super-CC rate for short-duration convective events in summer due to latent heat release feedback.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the microphysical process to its seasonal precipitation type:",
+        "type": "match",
+        "left": [
+            "Bergeron-Findeisen process",
+            "Collision-coalescence",
+            "Riming",
+            "Aggregation"
+        ],
+        "right": [
+            "Winter mixed-phase clouds for snow",
+            "Tropical warm summer rain",
+            "Graupel/Hail in severe spring storms",
+            "Large snowflakes near 0\u00b0C"
+        ]
+    },
+    {
+        "q": "How does 'Stratospheric Sulfur Geoengineering' theoretically influence seasonal precipitation patterns?",
+        "type": "mcq",
+        "o": [
+            "Reduces global mean precipitation via decreased evaporation, with strong seasonal Sahelian drought risk",
+            "Increases summer monsoon rainfall everywhere",
+            "Has no effect on precipitation, only temperature",
+            "Causes permanent winter"
+        ]
+    },
+    {
+        "q": "The 'Wind-induced Surface Heat Exchange' (WISHE) mechanism for tropical cyclogenesis requires a finite amplitude initial disturbance and depends on seasonal sea surface enthalpy fluxes.",
+        "type": "fill_blank",
+        "answers": [
+            "wind-induced surface heat exchange"
+        ],
+        "other_options": [
+            "cloud radiation",
+            "evaporative cooling",
+            "subsidence warming",
+            "ozone depletion"
+        ]
+    },
+    {
+        "q": "What is the 'Polar Amplification' seasonal fingerprint in the lower stratosphere?",
+        "type": "mcq",
+        "o": [
+            "A cooling trend in the lower stratosphere in winter/spring due to CO2 trapping and ozone loss, against a backdrop of Arctic surface warming",
+            "Uniform warming of the entire atmospheric column",
+            "Warming of the mesosphere",
+            "A level of no temperature change throughout the year"
+        ]
+    },
+    {
+        "q": "Name the specific atmospheric river category scale used to forecast the impact of winter landfalling moisture plumes.",
+        "type": "short_answer",
+        "answers": [
+            "ar scale",
+            "atmospheric river scale",
+            "ralph scale"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'MJO' (Madden-Julian Oscillation) diurnal cycle interaction over the Maritime Continent is critical for triggering the onset of the Australian Summer Monsoon.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the 'Shannon Entropy' application in quantifying seasonal rainfall predictability?",
+        "type": "mcq",
+        "o": [
+            "It measures the uncertainty or information content in seasonal climate model ensemble forecasts",
+            "It calculates the total volume of rain",
+            "It describes the sound of thunder",
+            "It maps the electric charge of lightning"
+        ]
+    },
+    {
+        "q": "The 'Arctic Dipole Anomaly' pattern features opposing pressure centers over the Canadian Archipelago and the Kara-Laptev Seas, promoting summer ice export via the ______ Strait.",
+        "type": "fill_blank",
+        "answers": [
+            "fram"
+        ],
+        "other_options": [
+            "bering",
+            "gibraltar",
+            "malacca",
+            "dover"
+        ]
+    },
+    {
+        "q": "How does 'Kelvin Wave' activity on the equatorial thermocline serve as a precursor for El Nino development during boreal spring?",
+        "type": "mcq",
+        "o": [
+            "Downwelling Kelvin waves travel east, deepening the thermocline in the Eastern Pacific, suppressing cold upwelling and initiating warming",
+            "Upwelling waves cool the surface instantly",
+            "They rotate the Pacific plate",
+            "They have zero effect on ocean temperature"
+        ]
+    },
+    {
+        "q": "Match the isotopic ratio to its seasonal climate proxy:",
+        "type": "match",
+        "left": [
+            "d-excess in ice cores",
+            "\u03b413C in tree rings",
+            "Mg/Ca in foraminifera",
+            "\u03b42H in plant waxes"
+        ],
+        "right": [
+            "Past ocean evaporation/source temperature",
+            "Seasonal water stress and photosynthesis",
+            "Sea surface temperature (SST)",
+            "Paleo-monsoon intensity"
+        ]
+    },
+    {
+        "q": "The 'Summertime Continental Shelf Pump' hypothesis suggests shelf seas act as a net sink for atmospheric CO2 due to seasonal stratification and biological drawdown.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a 'Rogue Wave' in the context of seasonally extreme sea states?",
+        "type": "mcq",
+        "o": [
+            "A single, massive wave (Hmax/Hs > 2.0) arising from constructive interference, unpredictable but more common in winter storms",
+            "A tsunami caused by seasonal earthquakes",
+            "The normal tidal cycle in spring",
+            "A wave that travels backwards"
+        ]
+    },
+    {
+        "q": "The 'Moist Isentropic Density' coordinate framework is superior to pressure coordinates for diagnosing seasonal monsoon circulations because it explicitly tracks ______ surfaces.",
+        "type": "fill_blank",
+        "answers": [
+            "theta-e",
+            "equivalent potential temperature",
+            "moist entropy"
+        ],
+        "other_options": [
+            "pressure",
+            "height",
+            "geometric",
+            "topographic"
+        ]
+    },
+    {
+        "q": "How does the 'Turbulent Heat Flux' anomaly over the Kuroshio Extension region influence the North Pacific storm track in winter?",
+        "type": "mcq",
+        "o": [
+            "High heat release from the ocean sharpens the baroclinic zone, anchoring and intensifying cyclogenesis",
+            "It cools the atmosphere, killing all storms",
+            "The current reverses, pushing storms to the equator",
+            "It has no link to atmospheric dynamics"
+        ]
+    },
+    {
+        "q": "Name the seasonally-reversing, cross-equatorial, low-level jet that feeds the Indian monsoon.",
+        "type": "short_answer",
+        "answers": [
+            "somali jet",
+            "findlater jet",
+            "cross-equatorial low level jet"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Greenland Block' is a persistent high-pressure system that can force Arctic air into mid-latitudes, often linked to anomalous autumn snow cover in Eurasia.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the 'Convective Quasi-Equilibrium' closure assumption used in seasonal climate models?",
+        "type": "mcq",
+        "o": [
+            "Convection consumes CAPE at a rate that balances the generation by large-scale forcing, stabilizing the column",
+            "The atmosphere is always completely stable",
+            "Clouds form randomly with no pattern",
+            "Rain always falls at exactly 3 PM"
+        ]
+    },
+    {
+        "q": "The 'Chukchi Sea' ecosystem is showing a phenological shift, with early spring ice retreat causing a mismatch between phytoplankton blooms and ______ grazing.",
+        "type": "fill_blank",
+        "answers": [
+            "zooplankton",
+            "copepod"
+        ],
+        "other_options": [
+            "polar bear",
+            "walrus",
+            "whale",
+            "human"
+        ]
+    },
+    {
+        "q": "How does 'Teleconnection' between the Amazon Rainforest and the Southeast Asian Monsoon function via the Walker Circulation?",
+        "type": "mcq",
+        "o": [
+            "Amazon convection rises, sinks over the Pacific, and modifies the Indian Ocean Walker cell, suppressing or enhancing monsoon rainfall",
+            "Moisture travels in a straight line through the Earth's mantle",
+            "Birds migrate carrying rain seeds",
+            "There is absolutely no connection"
+        ]
+    },
+    {
+        "q": "Match the seasonal term to its glacio-eustatic definition:",
+        "type": "match",
+        "left": [
+            "Firn",
+            "Nev\u00e9",
+            "Sintering",
+            "Frazil Ice"
+        ],
+        "right": [
+            "Partially compacted snow surviving one melt season",
+            "Young granular snow",
+            "Ice crystal metamorphism",
+            "Fine ice crystals in supercooled turbulent water"
+        ]
+    },
+    {
+        "q": "The 'Methane Clathrate Gun Hypothesis' links destabilization of marine hydrates to rapid past warming events, primarily triggered by summer insolation peaks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the 'Great Salinity Anomaly' in the context of North Atlantic seasonal deep convection?",
+        "type": "mcq",
+        "o": [
+            "A large pool of anomalously fresh water circulating around the subpolar gyre, capping deep winter convection",
+            "A volcanic eruption of salt",
+            "A sudden increase in the saltiness of tropical rain",
+            "A name for the Sargasso Sea"
+        ]
+    },
+    {
+        "q": "The 'Ekman Pumping Velocity' is proportional to the curl of the wind stress and dictates seasonal nutrient fluxes in coastal ______.",
+        "type": "fill_blank",
+        "answers": [
+            "upwelling zones"
+        ],
+        "other_options": [
+            "downwelling zones",
+            "estuaries",
+            "fjords",
+            "river mouths"
+        ]
+    },
+    {
+        "q": "How does the 'Held-Hou Model' predict the width of the Hadley Cell and its seasonal migration using angular momentum conservation?",
+        "type": "mcq",
+        "o": [
+            "It assumes conservation of absolute angular momentum in the upper branch until the zonal wind becomes baroclinically unstable, setting the cell's poleward edge",
+            "It uses satellite gravity data to measure cell boundaries",
+            "It relies on surface friction alone to stop the cell",
+            "It predicts the Hadley Cell terminates strictly at 30 degrees latitude regardless of season"
+        ]
+    },
+    {
+        "q": "The 'Kuroshio Large Meander' state is a preferred phase of the Western Boundary Current path that persists for multiple seasons and alters regional air-sea heat fluxes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the 'Moist Static Energy Budget' framework's diagnostic for understanding the poleward shift of the summer monsoon ITCZ?",
+        "type": "mcq",
+        "o": [
+            "The ITCZ shifts to the hemisphere with the larger atmospheric energy import or net energy surplus",
+            "It moves towards the coldest hemisphere to balance temperature",
+            "It always stays exactly on the geographic equator",
+            "It follows the continent with the highest mountains"
+        ]
+    },
+    {
+        "q": "The 'Barotropic Energy Conversion' from the mean flow to eddies, quantified by the term -u'v' * du/dy, is a primary mechanism for ______ in autumn storm tracks.",
+        "type": "fill_blank",
+        "answers": [
+            "cyclogenesis",
+            "eddy growth",
+            "storm intensification"
+        ],
+        "other_options": [
+            "cloud dissipation",
+            "ozone formation",
+            "ocean acidification",
+            "desertification"
+        ]
+    },
+    {
+        "q": "How does 'Topographic Rossby Wave' excitation over the Tibetan Plateau anchor the South Asian High in boreal summer?",
+        "type": "mcq",
+        "o": [
+            "The plateau's elevation generates stationary planetary waves, creating an upper-level anticyclone essential for monsoon outflow",
+            "It creates a vacuum pulling air from the Indian Ocean",
+            "The mountains physically block all wind, forcing it back to Africa",
+            "Only latent heat from the plateau surface matters, not terrain height"
+        ]
+    },
+    {
+        "q": "Name the specific coastal-trapped wave phenomenon causing interannual variation in spring upwelling intensity off Peru.",
+        "type": "short_answer",
+        "answers": [
+            "coastal kelvin wave",
+            "equatorial kelvin wave",
+            "coastal trapped wave"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the reanalysis product to its specific strength in seasonal process studies:",
+        "type": "match",
+        "left": [
+            "ERA5",
+            "MERRA-2",
+            "JRA-55",
+            "CFSR"
+        ],
+        "right": [
+            "Resolution and land-surface coupling",
+            "Aerosol reanalysis",
+            "Tropical cyclone and typhoon analysis",
+            "Ocean-atmosphere coupling at 6-hourly"
+        ]
+    },
+    {
+        "q": "What is the 'Clear-Sky Longwave Feedback' and its role in amplifying the winter Arctic amplification signal?",
+        "type": "mcq",
+        "o": [
+            "The increase in downward longwave radiation due to higher temperatures and water vapor, even without clouds, trapping surface heat",
+            "Sunlight being converted to heat only when it is cloudy",
+            "A drop in pressure causing air to sink over the ice",
+            "Reflection of longwave radiation back into space by ice"
+        ]
+    },
+    {
+        "q": "The 'Lorenz Energy Cycle' decomposes atmospheric energy into zonal available potential and eddy kinetic energy, peaking in winter in the mid-latitudes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the 'Fujiwhara Effect' in the context of late-season binary cyclone interaction?",
+        "type": "mcq",
+        "o": [
+            "Two nearby cyclones rotating around a common center and potentially merging",
+            "A single storm splitting into two identical halves",
+            "Cyclones repelling each other like magnets",
+            "The effect of a volcanic eruption on a storm"
+        ]
+    },
+    {
+        "q": "The 'Air-Sea Transition Zone' is now recognized as a distinct marine layer whose temperature differs from the bulk SST, governing seasonal ______ exchange.",
+        "type": "fill_blank",
+        "answers": [
+            "heat",
+            "energy",
+            "gas",
+            "momentum"
+        ],
+        "other_options": [
+            "gravitational",
+            "magnetic",
+            "seismic",
+            "trophic"
+        ]
+    },
+    {
+        "q": "How does the 'Beta Drift' vector steer tropical cyclones poleward and westward in the summer hemisphere?",
+        "type": "mcq",
+        "o": [
+            "The interaction of the cyclone's circulation with the planetary vorticity gradient induces an asymmetric advection pattern, creating a steering force",
+            "The gravitational pull of the moon is stronger in summer",
+            "Ocean currents physically push the storm",
+            "Upper-level winds always point northwest in summer"
+        ]
+    },
+    {
+        "q": "Name the oceanographic term for the seasonally fluctuating current system east of New Zealand, linked to Rossby wave arrivals.",
+        "type": "short_answer",
+        "answers": [
+            "east auckland current",
+            "east cape current"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the 'Q-vector' form of the quasi-geostrophic omega equation primarily used to diagnose?",
+        "type": "mcq",
+        "o": [
+            "Vertical motion forcing in frontal zones, separating shear from confluence contributions in winter storms",
+            "The total amount of water vapor in a column",
+            "The speed of sound in the upper atmosphere",
+            "The reflection angle of radar beams"
+        ]
+    },
+    {
+        "q": "The 'Flavors of El Nino' concept (EP vs CP/Modoki) explains differing seasonal rainfall teleconnections based on the longitudinal location of maximum SST anomalies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the type of jet streak to its associated vertical motion quadrant:",
+        "type": "match",
+        "left": [
+            "Straight Jet Entrance",
+            "Straight Jet Exit",
+            "Cyclonically Curved Jet",
+            "Anticyclonically Curved Jet"
+        ],
+        "right": [
+            "Right-entrance ascent",
+            "Left-exit ascent",
+            "Enhanced trough-side ascent",
+            "Suppressed ascent"
+        ]
+    },
+    {
+        "q": "How does 'Subsurface Ocean Heat Content' (OHC) anomaly in the Gulf of Mexico fuel rapid intensification of autumn hurricanes before landfall?",
+        "type": "mcq",
+        "o": [
+            "Deep, warm water resists mixing-induced cooling at the surface, sustaining the enthalpy flux needed for intensification over shallow shelf waters",
+            "Warm water rises as steam directly into the hurricane eye",
+            "Cold water forces the hurricane to shrink and spin faster",
+            "It reduces friction between the ocean and the storm"
+        ]
+    },
+    {
+        "q": "The 'Atmospheric Bridge' mechanism refers to extratropical SST anomalies created by ENSO teleconnections, which then feedback onto the seasonal atmosphere.",
+        "type": "fill_blank",
+        "answers": [
+            "atmospheric bridge"
+        ],
+        "other_options": [
+            "ocean tunnel",
+            "land bridge",
+            "ice bridge",
+            "thermal lane"
+        ]
+    },
+    {
+        "q": "What is the 'Convective Lifespan' hypothesis regarding the seasonal evolution of the MJO's propagation speed?",
+        "type": "mcq",
+        "o": [
+            "Longer-lived convective systems in spring/summer moisten the column faster, creating a more favorable environment for faster eastward propagation",
+            "Storms live for exactly 24 hours, stopping exactly at midnight",
+            "Lifespan decreases to zero in summer, stopping propagation",
+            "Propagation speed is purely random and unlinked to lifespan"
+        ]
+    },
+    {
+        "q": "Name the process where differential solar heating across a pressure surface creates horizontal temperature gradients that generate available potential energy in the seasonal cycle.",
+        "type": "short_answer",
+        "answers": [
+            "diabatic heating gradient",
+            "differential heating"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Eady Model' of baroclinic instability specifies that the maximum growth rate for a wave is proportional to the vertical wind shear and inversely proportional to static stability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the 'Ocean Mesoscale Eddy Feedback' on the winter Kuroshio Extension storm track?",
+        "type": "mcq",
+        "o": [
+            "Sharp SST fronts associated with eddies restore near-surface baroclinicity, anchoring the storm track longitudinally",
+            "Eddies flatten the sea surface, reducing wind drag",
+            "They completely block all atmospheric flow",
+            "They only affect biological productivity"
+        ]
+    },
+    {
+        "q": "The 'Salt Fingering' and 'Diffusive Convection' double-diffusive processes contribute to vertical mixing in the Arctic halocline, preserving seasonal ice cover.",
+        "type": "fill_blank",
+        "answers": [
+            "double diffusion",
+            "double-diffusive convection"
+        ],
+        "other_options": [
+            "single diffusion",
+            "turbulent mixing",
+            "conduction",
+            "radiation"
+        ]
+    },
+    {
+        "q": "How does 'Stratospheric Water Vapor' act as a persistent forcing on the winter polar vortex decadal variability?",
+        "type": "mcq",
+        "o": [
+            "Increased water vapor radiatively cools the lower stratosphere, enhancing the thermal gradient that strengthens the vortex",
+            "It warms the stratosphere, breaking the vortex immediately",
+            "Water vapor has zero radiative effect at that altitude",
+            "It freezes out completely, creating a vacuum"
+        ]
+    },
+    {
+        "q": "Match the tropical instability wave type to its seasonal peak:",
+        "type": "match",
+        "left": [
+            "Equatorial TIW",
+            "Coastal TIW",
+            "Instability Vortices"
+        ],
+        "right": [
+            "Boreal summer/autumn in Pacific",
+            "Summer upwelling season",
+            "Shear instability edges of cold tongue"
+        ]
+    },
+    {
+        "q": "What is the 'Plankton Functional Type' (PFT) seasonal succession in the North Atlantic Bloom?",
+        "type": "mcq",
+        "o": [
+            "Diatoms dominate the early spring bloom, followed by coccolithophores and dinoflagellates in late summer as stratification peaks",
+            "All types bloom at exactly the same time in mid-winter",
+            "Bacteria dominate first, then fish, then whales",
+            "There is no pattern, it is completely random"
+        ]
+    },
+    {
+        "q": "The 'Upscale Energy Cascade' in mesoscale convective systems (MCS) transfers kinetic energy to larger scales, influencing the persistent summer ______ over the Plains.",
+        "type": "fill_blank",
+        "answers": [
+            "nocturnal low-level jet",
+            "llj",
+            "low level jet"
+        ],
+        "other_options": [
+            "arctic high",
+            "sea breeze",
+            "monsoon trough",
+            "jet stream"
+        ]
+    },
+    {
+        "q": "What is the 'Oxygen Minimum Zone' (OMZ) seasonal expansion driven by?",
+        "type": "mcq",
+        "o": [
+            "Increased summer stratification limiting ventilation combined with enhanced respiration of sinking organic matter",
+            "Winter cooling injecting oxygen into the deep sea",
+            "Sea ice melting releasing trapped oxygen bubbles",
+            "Photosynthesis producing oxygen at depth"
+        ]
+    },
+    {
+        "q": "Name the non-dimensional number comparing viscous forces to Coriolis forces, critical in the seasonal Ekman layer theory.",
+        "type": "short_answer",
+        "answers": [
+            "ekman number",
+            "ekman"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Seasonal Forecast Skill' of the NAO is limited by the 'signal-to-noise paradox' where models predict the ensemble mean better than the observed variability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "How does the 'Galloping GHGs' mechanism explain the asymmetry between seasonal cycles of CO2 in the Northern vs Southern Hemisphere?",
+        "type": "mcq",
+        "o": [
+            "The Northern Hemisphere's larger landmass and vegetation drive a deep summer drawdown and winter release, an amplitude much larger than the ocean-dominated south",
+            "The Southern Hemisphere has more cars",
+            "Mountains in the north block CO2 from moving south",
+            "The ozone hole eats CO2 in the south"
+        ]
+    },
+    {
+        "q": "The 'Zonal Wavenumber-Frequency Spectrum' analysis of precipitation isolates the seasonal signature of the MJO as a distinct peak separate from the background red noise.",
+        "type": "fill_blank",
+        "answers": [
+            "mjo",
+            "madden-julian oscillation"
+        ],
+        "other_options": [
+            "enso",
+            "qbo",
+            "nam",
+            "sam"
+        ]
+    },
+    {
+        "q": "What is the 'Bimodal Rainfall Distribution' in the Horn of Africa's seasonal cycle?",
+        "type": "mcq",
+        "o": [
+            "Two distinct rainy seasons (the 'long' and 'short' rains) driven by the twice-annual passage of the ITCZ and Indian Ocean dynamics",
+            "A single rain peak followed by a double dry spell",
+            "Rainfall that alternates between day and night",
+            "A cycle of exactly 30 days on and 30 days off"
+        ]
+    },
+    {
+        "q": "Match the aerosol type to its dominant seasonal source:",
+        "type": "match",
+        "left": [
+            "Black Carbon",
+            "Sea Salt",
+            "Mineral Dust",
+            "Biogenic Secondary Organic Aerosol"
+        ],
+        "right": [
+            "Winter biomass burning and fossil fuel",
+            "Winter storm/wave breaking",
+            "Spring/Summer Saharan and Asian deserts",
+            "Summer forest emissions"
+        ]
+    },
+    {
+        "q": "The 'Equatorial Undercurrent' (EUC) shoals to its shallowest depth during boreal spring, a critical factor for 'Atlantic Nino' onset.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the 'Dynamic Core' of an atmospheric model specifically tested with for seasonal climate sensitivity?",
+        "type": "mcq",
+        "o": [
+            "Held-Suarez test for idealized baroclinic wave maintenance and temperature gradients",
+            "Boiling a pot of water and observing steam",
+            "Running the model backward for 100 years",
+            "Testing on the surface of Mars only"
+        ]
+    },
+    {
+        "q": "The 'Wyrtki Jet' semi-annual signal in the equatorial Indian Ocean is a direct response to the zonal wind stress associated with the monsoon transition.",
+        "type": "fill_blank",
+        "answers": [
+            "wyrtki jet"
+        ],
+        "other_options": [
+            "gulf stream",
+            "kuroshio",
+            "antarctic circumpolar",
+            "agulhas"
+        ]
+    },
+    {
+        "q": "How does 'Moisture Recycling' in the Amazon contribute to the timing of the southern wet season onset?",
+        "type": "mcq",
+        "o": [
+            "Transpiration from the forest increases the local moisture supply, allowing the wet season to start before the arrival of large-scale maritime moisture flux",
+            "The Amazon river evaporates completely, forming a constant rain cloud",
+            "Recycling only happens during El Nino",
+            "It refers to industrial water treatment"
+        ]
+    },
+    {
+        "q": "Name the spectral analysis technique that isolates the amplitude and phase of the annual and semi-annual cycles in atmospheric time series.",
+        "type": "short_answer",
+        "answers": [
+            "fourier analysis",
+            "harmonic analysis"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Potential Intensity' theory of tropical cyclones posits that the maximum sustained wind speed is limited by the thermodynamic disequilibrium between the sea surface and the ______ air.",
+        "type": "fill_blank",
+        "answers": [
+            "outflow",
+            "upper troposphere",
+            "stratosphere-bound"
+        ],
+        "other_options": [
+            "inflow",
+            "boundary layer",
+            "eye",
+            "rainband"
+        ]
+    },
+    {
+        "q": "What is the 'North Atlantic Cold Blob' and its primary link to the seasonal weakening of the AMOC?",
+        "type": "mcq",
+        "o": [
+            "A region of pronounced sea surface cooling south of Greenland, attributed to reduced northward heat transport by a slowing Atlantic Meridional Overturning Circulation",
+            "A massive iceberg that calves every spring",
+            "A nickname for the Labrador Sea in summer",
+            "A cold air bubble trapped in the stratosphere"
+        ]
+    },
+    {
+        "q": "The 'Eliassen-Palm flux' convergence zone in the upper troposphere indicates where planetary waves deposit momentum, decelerating the zonal ______.",
+        "type": "fill_blank",
+        "answers": [
+            "wind",
+            "flow",
+            "jet"
+        ],
+        "other_options": [
+            "temperature",
+            "rainfall",
+            "pressure",
+            "humidity"
+        ]
+    },
+    {
+        "q": "The 'Gulf Stream Separation' latitude exhibits a seasonal cycle, shifting north in winter and south in summer due to wind stress curl changes.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "How does the 'Convective Memory' (soil moisture-precipitation feedback) manifest in the subseasonal evolution of the West African Monsoon?",
+        "type": "mcq",
+        "o": [
+            "Wet soil anomalies from early rainfall events sustain subsequent convection, promoting the northward jump of the rain belt",
+            "Dry soil suddenly erupts into a permanent lake",
+            "The soil records data on past rainfall like a computer",
+            "It only works over deserts with no vegetation"
+        ]
+    },
+    {
+        "q": "Match the satellite sensor to the seasonal variable it most accurately retrieves:",
+        "type": "match",
+        "left": [
+            "ASCAT",
+            "SMAP",
+            "CERES",
+            "CALIPSO"
+        ],
+        "right": [
+            "Ocean wind vectors",
+            "Soil moisture",
+            "Radiative budget/top of atmosphere fluxes",
+            "Aerosol and cloud vertical profiles"
+        ]
+    },
+    {
+        "q": "What is the 'Turbulence Closure Problem' in parameterizing the seasonal planetary boundary layer depth?",
+        "type": "mcq",
+        "o": [
+            "The governing equations contain more unknowns than equations, requiring assumptions (e.g., 1.5-order closure) about higher-order moments",
+            "The layer physically closes during winter due to ice",
+            "Legal restrictions on turbulence research",
+            "A mathematical proof that turbulence does not exist seasonally"
+        ]
+    },
+    {
+        "q": "The 'Lighthill-Ford Spontaneous Imbalance' theory describes the emission of gravity waves from a slowly evolving ______ flow, common near jet streaks.",
+        "type": "fill_blank",
+        "answers": [
+            "balanced",
+            "geostrophic"
+        ],
+        "other_options": [
+            "turbulent",
+            "convective",
+            "laminar",
+            "supersonic"
+        ]
+    },
+    {
+        "q": "Name the climate feedback mechanism involving the change in the vertical structure of the atmospheric response to greenhouse gases in the tropics vs. subtropics.",
+        "type": "short_answer",
+        "answers": [
+            "lapse-rate feedback",
+            "tropical lapse rate feedback"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "How does the 'African Easterly Wave' (AEW) genesis relate to the Saharan Heat Low dynamics in summer?",
+        "type": "mcq",
+        "o": [
+            "The heat low drives a strong mid-level African Easterly Jet, whose instabilities generate the waves that become tropical storms",
+            "The waves are caused by tides in Lake Chad",
+            "Extreme cold over the Sahara triggers waves",
+            "The waves originate in South America"
+        ]
+    },
+    {
+        "q": "The 'Swift-Hohenberg Equation' has been applied to model the mesoscale cellular convection patterns seen in winter cold-air outbreaks over warm oceans.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the 'Residual-Mean Meridional Overturning Circulation' in the stratosphere, and how does it drive tracer transport seasonally?",
+        "type": "mcq",
+        "o": [
+            "The net circulation consisting of the Brewer-Dobson circulation plus eddy mixing, transporting ozone and water vapor from tropics to poles in winter",
+            "The sinking air in the troposphere",
+            "The ocean's thermohaline circulation",
+            "The seasonal movement of the ITCZ"
+        ]
+    },
+    {
+        "q": "The 'Ice Nucleation Particle' (INP) concentration shows a strong seasonal cycle, with a minimum in summer ______ air masses.",
+        "type": "fill_blank",
+        "answers": [
+            "marine",
+            "tropical",
+            "clean"
+        ],
+        "other_options": [
+            "polar",
+            "continental",
+            "polluted",
+            "dusty"
+        ]
+    },
+    {
+        "q": "What is the 'Atlantic Meridional Mode' (AMM) and its cross-seasonal impact on Atlantic hurricane activity?",
+        "type": "mcq",
+        "o": [
+            "A coupled ocean-atmosphere mode of variability in the tropical Atlantic; a positive phase (warm north) enhances hurricane season activity",
+            "A shift in the magnetic meridian under the Atlantic",
+            "A strictly winter phenomenon affecting European snow",
+            "The migration of whales across the equator"
+        ]
+    },
+    {
+        "q": "Match the cloud feedback type to its net radiative effect on the seasonal climate system:",
+        "type": "match",
+        "left": [
+            "High cloud increase",
+            "Low cloud increase",
+            "Phase change (ice to water)",
+            "Cloud altitude rise"
+        ],
+        "right": [
+            "Positive feedback (traps heat)",
+            "Negative feedback (reflects sunlight)",
+            "Positive in warming (less ice, more water)",
+            "Positive (cools to space less efficiently)"
+        ]
+    },
+    {
+        "q": "The 'Volcanic Ash Encounter' danger for aviation peaks seasonally with the eruption of high-latitude volcanoes through the tropopause in summer.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "How does 'Empirical Orthogonal Function' (EOF) analysis separate the dominant modes of seasonal climate variability like ENSO?",
+        "type": "mcq",
+        "o": [
+            "It decomposes the space-time data into orthogonal spatial patterns (EOFs) and uncorrelated time series (PCs), ranking them by variance explained",
+            "It measures the physical height of atmospheric waves",
+            "It shuffles data randomly to find patterns",
+            "It is a type of satellite retrieval algorithm"
+        ]
+    },
+    {
+        "q": "The 'Condensation Level' differs from the Lifting Condensation Level (LCL) in that it applies to surface air heated solely by the ground in the summer mixed layer.",
+        "type": "fill_blank",
+        "answers": [
+            "convective condensation level",
+            "ccl"
+        ],
+        "other_options": [
+            "level of free convection",
+            "equilibrium level",
+            "mixed layer top",
+            "inversion base"
+        ]
+    },
+    {
+        "q": "Name the species of phytoplankton that dominates the Ross Sea polynya bloom in early austral summer.",
+        "type": "short_answer",
+        "answers": [
+            "phaeocystis antarctica",
+            "diatoms"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the 'Barotropic-Baroclinic Mode Decomposition' application in understanding equatorial seasonal kelvin wave dynamics?",
+        "type": "mcq",
+        "o": [
+            "It separates the depth-independent (barotropic) and depth-dependent (baroclinic) motions, isolating the wave structure that transmits ENSO signals",
+            "It measures the pressure at the bottom of the ocean only",
+            "It is a type of cloud classification",
+            "It refers to the separation of atmospheric layers by temperature"
+        ]
+    },
+    {
+        "q": "The 'Pacific-Japan (PJ) pattern' is a teleconnection excited by seasonal convection anomalies around the Philippines, affecting the East Asian summer monsoon.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "How does the 'Deep Convective Diabatic Heating Profile' in the tropics influence the mid-latitude Rossby wave train during winter?",
+        "type": "mcq",
+        "o": [
+            "Upper-level divergent outflow from tropical convection generates Rossby wave sources, propagating energy along great circle routes to the mid-latitudes",
+            "Tropical heat creates a vacuum sucking mid-latitude air in",
+            "It stops all wave propagation beyond 30 degrees",
+            "Only sensible heat, not latent heat, is important"
+        ]
+    },
+    {
+        "q": "The 'Moisture-Entrainment Limitation' on deep convection primarily acts through the dilution of buoyant parcels by entraining ambient dry air in the lower ______.",
+        "type": "fill_blank",
+        "answers": [
+            "troposphere",
+            "free troposphere"
+        ],
+        "other_options": [
+            "stratosphere",
+            "boundary layer",
+            "mesosphere",
+            "surface"
+        ]
+    },
+    {
+        "q": "What is the 'Sverdrup Relation' prediction for the seasonal variability of the subtropical gyre transport?",
+        "type": "mcq",
+        "o": [
+            "The total transport varies linearly with the overlying wind stress curl, strengthening in winter when the curl intensifies",
+            "The gyre stops completely in summer",
+            "Transport is strictly constant regardless of wind",
+            "It only applies to river outflow"
+        ]
+    },
+    {
+        "q": "Match the tropical pacific state to its thermocline depth characteristic:",
+        "type": "match",
+        "left": [
+            "El Nino",
+            "La Nina",
+            "Neutral",
+            "El Nino Modoki"
+        ],
+        "right": [
+            "Deep east, shallow west",
+            "Shallow east, deep west",
+            "Zonal gradient average",
+            "Deep central, normal west/east"
+        ]
+    },
+    {
+        "q": "The 'Arctic Haze' phenomenon is a seasonal pollution aerosol event peaking in late winter/early spring due to lack of wet scavenging and efficient long-range transport.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the 'Turbulent Flux Footprint' in the context of an eddy covariance tower measuring seasonal carbon fluxes?",
+        "type": "mcq",
+        "o": [
+            "The upwind source area contributing to the measured flux signal, which changes with wind direction and boundary layer stability",
+            "The base of the tower's physical footprint on the ground",
+            "A biological footprint of a scientist",
+            "The carbon emission of a passing car"
+        ]
+    }
+]

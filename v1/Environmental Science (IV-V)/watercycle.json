@@ -1,0 +1,6680 @@
+[
+    {
+        "q": "What percentage of the Earth is covered by water?",
+        "type": "slider",
+        "min": 0,
+        "max": 100,
+        "correct": 71
+    },
+    {
+        "q": "What is the process called when water changes from liquid to gas?",
+        "type": "mcq",
+        "o": [
+            "Evaporation",
+            "Condensation",
+            "Precipitation",
+            "Collection"
+        ]
+    },
+    {
+        "q": "What do we call water that falls from clouds?",
+        "type": "fill_blank",
+        "answers": [
+            "precipitation"
+        ],
+        "other_options": [
+            "evaporation",
+            "condensation",
+            "collection",
+            "transpiration"
+        ]
+    },
+    {
+        "q": "The water cycle has no beginning and no end.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is the largest source of water on Earth?",
+        "type": "mcq",
+        "o": [
+            "Oceans",
+            "Rivers",
+            "Lakes",
+            "Groundwater"
+        ]
+    },
+    {
+        "q": "What is the main source of energy that drives the water cycle?",
+        "type": "short_answer",
+        "answers": [
+            "sun",
+            "the sun",
+            "sunlight",
+            "solar energy"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match each term with its correct description:",
+        "type": "match",
+        "left": [
+            "Evaporation",
+            "Condensation",
+            "Precipitation",
+            "Collection"
+        ],
+        "right": [
+            "Water turns into vapor",
+            "Water vapor forms clouds",
+            "Water falls to Earth",
+            "Water gathers in bodies"
+        ]
+    },
+    {
+        "q": "When water vapor cools and turns back into liquid water, it is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "condensation"
+        ],
+        "other_options": [
+            "evaporation",
+            "precipitation",
+            "transpiration",
+            "infiltration"
+        ]
+    },
+    {
+        "q": "Most of Earth's water is freshwater that we can drink.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which form of precipitation is frozen water?",
+        "type": "mcq",
+        "o": [
+            "Hail",
+            "Rain",
+            "Drizzle",
+            "Mist"
+        ]
+    },
+    {
+        "q": "What are tiny water droplets that form on grass in the early morning called?",
+        "type": "short_answer",
+        "answers": [
+            "dew"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Clouds are made up of tiny water droplets or ______ crystals.",
+        "type": "fill_blank",
+        "answers": [
+            "ice"
+        ],
+        "other_options": [
+            "sand",
+            "salt",
+            "dust",
+            "smoke"
+        ]
+    },
+    {
+        "q": "Water stored underground is called groundwater.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do plants release into the air that adds to the water cycle?",
+        "type": "mcq",
+        "o": [
+            "Water vapor",
+            "Oxygen",
+            "Carbon dioxide",
+            "Nitrogen"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a type of precipitation?",
+        "type": "mcq",
+        "o": [
+            "Fog",
+            "Rain",
+            "Snow",
+            "Sleet"
+        ]
+    },
+    {
+        "q": "The process of water seeping into the soil is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "infiltration"
+        ],
+        "other_options": [
+            "condensation",
+            "evaporation",
+            "precipitation",
+            "collection"
+        ]
+    },
+    {
+        "q": "What percentage of Earth's surface is covered by water?",
+        "type": "mcq",
+        "o": [
+            "About 71%",
+            "About 50%",
+            "About 30%",
+            "About 90%"
+        ]
+    },
+    {
+        "q": "Oceans, rivers, lakes, and ice caps all hold water on Earth.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call the continuous movement of water on, above, and below Earth's surface?",
+        "type": "short_answer",
+        "answers": [
+            "water cycle",
+            "the water cycle",
+            "hydrologic cycle",
+            "the hydrologic cycle"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "When water evaporates from plants, it is specifically called:",
+        "type": "mcq",
+        "o": [
+            "Transpiration",
+            "Evaporation",
+            "Condensation",
+            "Precipitation"
+        ]
+    },
+    {
+        "q": "Match each water cycle step with its definition.",
+        "type": "memory",
+        "pairs": {
+            "Evaporation": "Water becomes gas",
+            "Condensation": "Gas becomes liquid cloud",
+            "Precipitation": "Water falls from sky"
+        }
+    },
+    {
+        "q": "Match the source with its type of water:",
+        "type": "match",
+        "left": [
+            "Glacier",
+            "Ocean",
+            "River",
+            "Aquifer"
+        ],
+        "right": [
+            "Frozen freshwater",
+            "Salt water",
+            "Flowing freshwater",
+            "Underground water"
+        ]
+    },
+    {
+        "q": "Why is the water cycle important for all living things?",
+        "type": "mcq",
+        "o": [
+            "It provides fresh water for life",
+            "It makes the air hot",
+            "It stops the rain",
+            "It creates salt"
+        ]
+    },
+    {
+        "q": "We should leave the tap running while brushing our teeth.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is NOT a form of precipitation?",
+        "type": "odd_one_out",
+        "options": [
+            "Rain",
+            "Snow",
+            "Hail",
+            "Sunshine"
+        ],
+        "correct": "Sunshine"
+    },
+    {
+        "q": "Rain, snow, sleet, and hail are all forms of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "precipitation"
+        ],
+        "other_options": [
+            "evaporation",
+            "condensation",
+            "collection",
+            "transpiration"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Saltwater, RIGHT for Freshwater.",
+        "type": "swipe_cards",
+        "left_label": "Saltwater",
+        "right_label": "Freshwater",
+        "cards": {
+            "Ocean": "left",
+            "River": "right",
+            "Sea": "left",
+            "Lake": "right"
+        }
+    },
+    {
+        "q": "Which of the following activities wastes the most water?",
+        "type": "mcq",
+        "o": [
+            "A leaking tap",
+            "Watering plants with a can",
+            "Taking a short shower",
+            "Using a bucket for washing"
+        ]
+    },
+    {
+        "q": "What is the layer of air surrounding Earth called?",
+        "type": "mcq",
+        "o": [
+            "Atmosphere",
+            "Hydrosphere",
+            "Lithosphere",
+            "Biosphere"
+        ]
+    },
+    {
+        "q": "What happens to a puddle of water on a hot, sunny day?",
+        "type": "short_answer",
+        "answers": [
+            "it evaporates",
+            "evaporates",
+            "it dries up",
+            "dries up",
+            "it disappears"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Clouds form during the process of evaporation.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these holds the most freshwater on Earth?",
+        "type": "mcq",
+        "o": [
+            "Glaciers and ice caps",
+            "Rivers",
+            "Lakes",
+            "Swamps"
+        ]
+    },
+    {
+        "q": "Water that flows over the land into rivers and streams is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "runoff"
+        ],
+        "other_options": [
+            "infiltration",
+            "precipitation",
+            "condensation",
+            "evaporation"
+        ]
+    },
+    {
+        "q": "Which of these is a way to conserve water at home?",
+        "type": "mcq",
+        "o": [
+            "Fixing leaky faucets",
+            "Washing the car every day",
+            "Filling the bathtub to the top",
+            "Watering the lawn at noon"
+        ]
+    },
+    {
+        "q": "What invisible gas does water turn into during evaporation?",
+        "type": "short_answer",
+        "answers": [
+            "water vapor",
+            "vapor",
+            "water vapour",
+            "vapour"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The water cycle helps clean and purify water naturally.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the liquid we need to survive.",
+        "type": "word_scramble",
+        "answer": "WATER",
+        "decoys": "XZ"
+    },
+    {
+        "q": "Match each water state with an example:",
+        "type": "match",
+        "left": [
+            "Solid",
+            "Liquid",
+            "Gas"
+        ],
+        "right": [
+            "Ice",
+            "Rain",
+            "Steam"
+        ]
+    },
+    {
+        "q": "Which of the following is the correct order of the water cycle?",
+        "type": "mcq",
+        "o": [
+            "Evaporation, Condensation, Precipitation, Collection",
+            "Precipitation, Collection, Evaporation, Condensation",
+            "Condensation, Precipitation, Collection, Evaporation",
+            "Collection, Evaporation, Condensation, Precipitation"
+        ]
+    },
+    {
+        "q": "A ______ is a large body of ice that moves slowly over land and stores fresh water.",
+        "type": "fill_blank",
+        "answers": [
+            "glacier"
+        ],
+        "other_options": [
+            "river",
+            "lake",
+            "ocean",
+            "pond"
+        ]
+    },
+    {
+        "q": "Using a bucket instead of a hose to wash a car is a good way to save water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call the water found beneath Earth's surface in soil and rock?",
+        "type": "mcq",
+        "o": [
+            "Groundwater",
+            "Runoff",
+            "Surface water",
+            "Atmospheric water"
+        ]
+    },
+    {
+        "q": "When it is very cold, rain can turn into ______.",
+        "type": "fill_blank",
+        "answers": [
+            "snow",
+            "ice"
+        ],
+        "other_options": [
+            "steam",
+            "dew",
+            "fog",
+            "mist"
+        ]
+    },
+    {
+        "q": "Name one natural source of fresh water suitable for drinking.",
+        "type": "short_answer",
+        "answers": [
+            "river",
+            "lake",
+            "spring",
+            "stream",
+            "groundwater",
+            "well"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Why is only a small amount of Earth's water available for drinking?",
+        "type": "mcq",
+        "o": [
+            "Most is salt water or frozen",
+            "It is all underground",
+            "It all evaporates",
+            "Animals drink it all"
+        ]
+    },
+    {
+        "q": "Match the conservation tip with its purpose:",
+        "type": "match",
+        "left": [
+            "Turn off tap while brushing",
+            "Collect rainwater",
+            "Take shorter showers",
+            "Fix leaks immediately"
+        ],
+        "right": [
+            "Saves gallons daily",
+            "Free water for garden",
+            "Reduces home water use",
+            "Prevents water waste"
+        ]
+    },
+    {
+        "q": "What forms when water vapor in the air condenses near the ground?",
+        "type": "mcq",
+        "o": [
+            "Fog",
+            "Hail",
+            "Rainbow",
+            "Lightning"
+        ]
+    },
+    {
+        "q": "The sun's heat causes water to change from liquid to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "gas",
+            "water vapor",
+            "vapor"
+        ],
+        "other_options": [
+            "solid",
+            "ice",
+            "liquid",
+            "crystal"
+        ]
+    },
+    {
+        "q": "All the water on Earth is brand new water, just created.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which season might have the most evaporation in a lake?",
+        "type": "mcq",
+        "o": [
+            "Summer",
+            "Winter",
+            "Spring",
+            "Autumn"
+        ]
+    },
+    {
+        "q": "What is one simple thing you can do at school to save water?",
+        "type": "short_answer",
+        "answers": [
+            "turn off taps",
+            "report leaks",
+            "close faucet",
+            "use refillable bottle",
+            "not waste water"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process where water vapor turns into liquid on a cold glass is called:",
+        "type": "mcq",
+        "o": [
+            "Condensation",
+            "Evaporation",
+            "Freezing",
+            "Melting"
+        ]
+    },
+    {
+        "q": "Match the water body to its description:",
+        "type": "match",
+        "left": [
+            "Pond",
+            "Ocean",
+            "Glacier",
+            "Stream"
+        ],
+        "right": [
+            "Small still water",
+            "Large salt water",
+            "Slow moving ice",
+            "Small flowing water"
+        ]
+    },
+    {
+        "q": "Plants need water to grow, which is part of why the water cycle is important.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about the water cycle:",
+        "type": "inline_dropdown",
+        "text": "The water cycle is powered mainly by the [0] and [1].",
+        "dropdowns": [
+            {
+                "correct": "Sun",
+                "options": [
+                    "Moon",
+                    "Sun",
+                    "Stars"
+                ]
+            },
+            {
+                "correct": "gravity",
+                "options": [
+                    "wind",
+                    "gravity",
+                    "magnetism"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is hail?",
+        "type": "mcq",
+        "o": [
+            "Balls of ice",
+            "Liquid rain",
+            "Soft snow",
+            "Water vapor"
+        ]
+    },
+    {
+        "q": "The water cycle recycles the same water over and over.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Water in oceans cannot evaporate because it is salty.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What percentage of Earth's water is salty ocean water?",
+        "type": "slider",
+        "min": 0,
+        "max": 100,
+        "correct": 97
+    },
+    {
+        "q": "Which of these is a frozen form of precipitation?",
+        "type": "mcq",
+        "o": [
+            "Snow",
+            "Drizzle",
+            "Shower",
+            "Mist"
+        ]
+    },
+    {
+        "q": "The water cycle helps to distribute ______ around the world.",
+        "type": "fill_blank",
+        "answers": [
+            "water",
+            "heat",
+            "moisture"
+        ],
+        "other_options": [
+            "salt",
+            "sand",
+            "rocks",
+            "oil"
+        ]
+    },
+    {
+        "q": "Water is a finite resource, meaning there is a limited amount.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the types of precipitation.",
+        "type": "memory",
+        "pairs": {
+            "Rain": "Liquid water drops falling",
+            "Snow": "Frozen ice crystals falling",
+            "Hail": "Solid ice balls falling from storms"
+        }
+    },
+    {
+        "q": "What do we call a scientist who studies water and the water cycle?",
+        "type": "mcq",
+        "o": [
+            "Hydrologist",
+            "Biologist",
+            "Astronomer",
+            "Geologist"
+        ]
+    },
+    {
+        "q": "What is the main difference between a sea and an ocean?",
+        "type": "mcq",
+        "o": [
+            "Seas are smaller and partly enclosed by land",
+            "Seas are fresh water",
+            "Oceans are smaller",
+            "There is no difference"
+        ]
+    },
+    {
+        "q": "______ is the process of water falling from clouds back to Earth.",
+        "type": "fill_blank",
+        "answers": [
+            "precipitation"
+        ],
+        "other_options": [
+            "evaporation",
+            "condensation",
+            "sublimation",
+            "transpiration"
+        ]
+    },
+    {
+        "q": "About how much of the human body is made of water?",
+        "type": "mcq",
+        "o": [
+            "About 60-70%",
+            "About 10%",
+            "About 95%",
+            "About 25%"
+        ]
+    },
+    {
+        "q": "Match the form of precipitation with its feature:",
+        "type": "match",
+        "left": [
+            "Rain",
+            "Snow",
+            "Hail",
+            "Sleet"
+        ],
+        "right": [
+            "Liquid drops",
+            "Soft ice crystals",
+            "Hard ice balls",
+            "Mix of rain and snow"
+        ]
+    },
+    {
+        "q": "Water is essential for all living things to survive.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a state of matter for water?",
+        "type": "odd_one_out",
+        "options": [
+            "Solid",
+            "Liquid",
+            "Gas",
+            "Magic"
+        ],
+        "correct": "Magic"
+    },
+    {
+        "q": "What do we call the water that is found in rivers, lakes, and streams?",
+        "type": "short_answer",
+        "answers": [
+            "surface water",
+            "fresh water",
+            "freshwater"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe LEFT for things that heat up, RIGHT for things that cool down.",
+        "type": "swipe_cards",
+        "left_label": "Heats up",
+        "right_label": "Cools down",
+        "cards": {
+            "Evaporating": "left",
+            "Condensing": "right",
+            "Melting": "left",
+            "Freezing": "right"
+        }
+    },
+    {
+        "q": "Which of the following helps to save water at home?",
+        "type": "mcq",
+        "o": [
+            "Using a bucket for mopping",
+            "Taking a long bath",
+            "Washing one dish at a time under running water",
+            "Ignoring a dripping tap"
+        ]
+    },
+    {
+        "q": "Unscramble this word for a repeating pattern.",
+        "type": "word_scramble",
+        "answer": "CYCLE",
+        "decoys": "QW"
+    },
+    {
+        "q": "A ______ is an area of land where all the water drains to a common point.",
+        "type": "fill_blank",
+        "answers": [
+            "watershed",
+            "catchment area",
+            "drainage basin"
+        ],
+        "other_options": [
+            "desert",
+            "mountain",
+            "volcano",
+            "island"
+        ]
+    },
+    {
+        "q": "When you see steam rising from a hot cup of tea, you are watching:",
+        "type": "mcq",
+        "o": [
+            "Evaporation",
+            "Precipitation",
+            "Condensation",
+            "Collection"
+        ]
+    },
+    {
+        "q": "Name the term for water that has been used in homes and industries that needs treatment.",
+        "type": "short_answer",
+        "answers": [
+            "wastewater",
+            "sewage",
+            "grey water",
+            "gray water"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Deep groundwater may take thousands of years to return to the surface.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence on temperature changes:",
+        "type": "inline_dropdown",
+        "text": "When water gets hot it [0], and when it cools it [1].",
+        "dropdowns": [
+            {
+                "correct": "evaporates",
+                "options": [
+                    "condenses",
+                    "freezes",
+                    "evaporates"
+                ]
+            },
+            {
+                "correct": "condenses",
+                "options": [
+                    "boils",
+                    "condenses",
+                    "melts"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these best describes the water cycle?",
+        "type": "mcq",
+        "o": [
+            "Water moving between Earth and atmosphere",
+            "Water staying still in the ocean",
+            "Water only moving in rivers",
+            "Water disappearing forever"
+        ]
+    },
+    {
+        "q": "Match the process with the state change:",
+        "type": "match",
+        "left": [
+            "Evaporation",
+            "Condensation",
+            "Freezing",
+            "Melting"
+        ],
+        "right": [
+            "Liquid to gas",
+            "Gas to liquid",
+            "Liquid to solid",
+            "Solid to liquid"
+        ]
+    },
+    {
+        "q": "We can survive without water for many weeks.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the layer of water on Earth called?",
+        "type": "mcq",
+        "o": [
+            "Hydrosphere",
+            "Atmosphere",
+            "Lithosphere",
+            "Biosphere"
+        ]
+    },
+    {
+        "q": "During the water cycle, water may be stored in lakes, which is part of the ______ stage.",
+        "type": "fill_blank",
+        "answers": [
+            "collection",
+            "storage"
+        ],
+        "other_options": [
+            "evaporation",
+            "condensation",
+            "precipitation",
+            "transpiration"
+        ]
+    },
+    {
+        "q": "What color is pure water?",
+        "type": "mcq",
+        "o": [
+            "Colorless",
+            "Blue",
+            "White",
+            "Green"
+        ]
+    },
+    {
+        "q": "Which of the following is a simple way to conserve water outdoors?",
+        "type": "mcq",
+        "o": [
+            "Watering plants in the early morning",
+            "Watering the sidewalk",
+            "Using a sprinkler in the afternoon sun",
+            "Hosing down the driveway daily"
+        ]
+    },
+    {
+        "q": "What do we call it when water vapor from plants enters the atmosphere?",
+        "type": "fill_blank",
+        "answers": [
+            "transpiration"
+        ],
+        "other_options": [
+            "evaporation",
+            "condensation",
+            "precipitation",
+            "respiration"
+        ]
+    },
+    {
+        "q": "Ice melting into water is an example of evaporation.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Why is ocean water not safe to drink directly?",
+        "type": "short_answer",
+        "answers": [
+            "it is salty",
+            "it has salt",
+            "contains salt",
+            "too much salt",
+            "high salinity"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which reservoir holds the second largest amount of Earth's water?",
+        "type": "mcq",
+        "o": [
+            "Glaciers and ice caps",
+            "Oceans",
+            "Groundwater",
+            "Lakes"
+        ]
+    },
+    {
+        "q": "The changing of water from one state to another is central to the water cycle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the term with its location in the water cycle:",
+        "type": "match",
+        "left": [
+            "Cloud",
+            "Puddle",
+            "Aquifer",
+            "Leaf surface"
+        ],
+        "right": [
+            "Atmosphere",
+            "Ground surface",
+            "Underground",
+            "Transpiration site"
+        ]
+    },
+    {
+        "q": "What is the boiling point of water in degrees Celsius?",
+        "type": "mcq",
+        "o": [
+            "100 degrees",
+            "0 degrees",
+            "50 degrees",
+            "200 degrees"
+        ]
+    },
+    {
+        "q": "Water exists in three states: solid, ______, and gas.",
+        "type": "fill_blank",
+        "answers": [
+            "liquid"
+        ],
+        "other_options": [
+            "plasma",
+            "vapor",
+            "crystal",
+            "energy"
+        ]
+    },
+    {
+        "q": "Dirty water should be treated before releasing it into rivers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What happens to water when it freezes?",
+        "type": "mcq",
+        "o": [
+            "It expands",
+            "It shrinks",
+            "It stays the same size",
+            "It disappears"
+        ]
+    },
+    {
+        "q": "What device is used to measure rainfall?",
+        "type": "short_answer",
+        "answers": [
+            "rain gauge",
+            "pluviometer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Slow, steady rain that lasts a long time is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "drizzle"
+        ],
+        "other_options": [
+            "shower",
+            "storm",
+            "hail",
+            "downpour"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a way to conserve water?",
+        "type": "mcq",
+        "o": [
+            "Letting the hose run while soaping the car",
+            "Installing low-flow showerheads",
+            "Collecting rainwater in a barrel",
+            "Turning off the tap while brushing teeth"
+        ]
+    },
+    {
+        "q": "The sun is the main engine behind the water cycle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call an underground layer of rock that holds water?",
+        "type": "mcq",
+        "o": [
+            "Aquifer",
+            "Glacier",
+            "Lake",
+            "River"
+        ]
+    },
+    {
+        "q": "What percentage of Earth's water is fresh water?",
+        "type": "slider",
+        "min": 0,
+        "max": 10,
+        "correct": 3
+    },
+    {
+        "q": "Water scarcity means having too much water.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the freezing point of water in degrees Celsius?",
+        "type": "short_answer",
+        "answers": [
+            "0",
+            "zero",
+            "0 degrees",
+            "zero degrees"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Water can only evaporate from oceans, not from rivers or lakes.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the terms related to temperature and water.",
+        "type": "memory",
+        "pairs": {
+            "Sun": "Provides energy for water cycle",
+            "Heating": "Causes water to evaporate",
+            "Cooling": "Causes vapor to condense"
+        }
+    },
+    {
+        "q": "Which is the first step in treating wastewater?",
+        "type": "mcq",
+        "o": [
+            "Filtering out large objects",
+            "Adding disinfectants",
+            "Letting it settle",
+            "Releasing into rivers"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a step in the water cycle?",
+        "type": "odd_one_out",
+        "options": [
+            "Evaporation",
+            "Condensation",
+            "Precipitation",
+            "Digestion"
+        ],
+        "correct": "Digestion"
+    },
+    {
+        "q": "Swipe LEFT for saving water, RIGHT for wasting water.",
+        "type": "swipe_cards",
+        "left_label": "Save Water",
+        "right_label": "Waste Water",
+        "cards": {
+            "Fixing a leak": "left",
+            "Taking a 30-minute shower": "right",
+            "Turning off tap while brushing": "left",
+            "Leaving hose running": "right"
+        }
+    },
+    {
+        "q": "Water vapor is water in its ______ state.",
+        "type": "fill_blank",
+        "answers": [
+            "gaseous",
+            "gas"
+        ],
+        "other_options": [
+            "solid",
+            "liquid",
+            "plasma",
+            "frozen"
+        ]
+    },
+    {
+        "q": "A drought happens when an area gets too much rain.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What are puffy, white clouds called that look like cotton?",
+        "type": "mcq",
+        "o": [
+            "Cumulus",
+            "Cirrus",
+            "Stratus",
+            "Fog"
+        ]
+    },
+    {
+        "q": "Match the water issue with its solution:",
+        "type": "match",
+        "left": [
+            "Drought",
+            "Pollution",
+            "Flood",
+            "Wastage"
+        ],
+        "right": [
+            "Save water",
+            "Clean waste",
+            "Build dams",
+            "Turn off taps"
+        ]
+    },
+    {
+        "q": "Why should we not throw chemicals down the drain?",
+        "type": "mcq",
+        "o": [
+            "They pollute water sources",
+            "They make water taste sweet",
+            "They clean the pipes",
+            "They evaporate safely"
+        ]
+    },
+    {
+        "q": "The place where a river meets an ocean is called its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mouth",
+            "delta",
+            "estuary"
+        ],
+        "other_options": [
+            "source",
+            "bank",
+            "bed",
+            "tributary"
+        ]
+    },
+    {
+        "q": "Unscramble the star that powers the water cycle.",
+        "type": "word_scramble",
+        "answer": "SUN",
+        "decoys": "KL"
+    },
+    {
+        "q": "Clouds are formed when water vapor evaporates.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the primary source of energy for the water cycle?",
+        "type": "mcq",
+        "o": [
+            "The Sun",
+            "The Moon",
+            "Wind",
+            "Earth's core"
+        ]
+    },
+    {
+        "q": "The process of water vapor turning into liquid water is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "condensation"
+        ],
+        "other_options": [
+            "evaporation",
+            "precipitation",
+            "infiltration",
+            "sublimation"
+        ]
+    },
+    {
+        "q": "Salt water makes up the majority of water on Earth.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which gas is released by plants during transpiration?",
+        "type": "mcq",
+        "o": [
+            "Water vapor",
+            "Oxygen",
+            "Carbon dioxide",
+            "Nitrogen"
+        ]
+    },
+    {
+        "q": "Name the solid form of water found in glaciers.",
+        "type": "short_answer",
+        "answers": [
+            "ice"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the cloud type with its appearance:",
+        "type": "match",
+        "left": [
+            "Cirrus",
+            "Cumulus",
+            "Stratus",
+            "Nimbus"
+        ],
+        "right": [
+            "Thin and wispy",
+            "Puffy and white",
+            "Flat and layered",
+            "Dark rain cloud"
+        ]
+    },
+    {
+        "q": "Complete the sentence about plants:",
+        "type": "inline_dropdown",
+        "text": "Plants release water vapor through [0], which is like plant [1].",
+        "dropdowns": [
+            {
+                "correct": "transpiration",
+                "options": [
+                    "respiration",
+                    "transpiration",
+                    "digestion"
+                ]
+            },
+            {
+                "correct": "sweating",
+                "options": [
+                    "drinking",
+                    "sweating",
+                    "sleeping"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Water seeping deep into the ground to refill aquifers is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "recharge",
+            "groundwater recharge"
+        ],
+        "other_options": [
+            "runoff",
+            "evaporation",
+            "precipitation",
+            "transpiration"
+        ]
+    },
+    {
+        "q": "A watershed is an area where all water drains to a single outlet.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What happens to the rate of evaporation on a windy day?",
+        "type": "mcq",
+        "o": [
+            "It increases",
+            "It decreases",
+            "It stays the same",
+            "It stops completely"
+        ]
+    },
+    {
+        "q": "Approximately what percentage of Earth's freshwater is found in glaciers?",
+        "type": "mcq",
+        "o": [
+            "About 68%",
+            "About 10%",
+            "About 30%",
+            "About 90%"
+        ]
+    },
+    {
+        "q": "Water conservation means using water wisely without wasting.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call a long period of time with little or no rainfall?",
+        "type": "short_answer",
+        "answers": [
+            "drought",
+            "dry spell"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which state of water has a definite shape and volume?",
+        "type": "mcq",
+        "o": [
+            "Solid",
+            "Liquid",
+            "Gas",
+            "Vapor"
+        ]
+    },
+    {
+        "q": "At what temperature (in Celsius) does water boil?",
+        "type": "slider",
+        "min": 50,
+        "max": 150,
+        "correct": 100
+    },
+    {
+        "q": "During ______, water from plants escapes into the air through tiny pores in leaves.",
+        "type": "fill_blank",
+        "answers": [
+            "transpiration"
+        ],
+        "other_options": [
+            "evaporation",
+            "condensation",
+            "respiration",
+            "photosynthesis"
+        ]
+    },
+    {
+        "q": "What is the term for water that flows across the surface of the land?",
+        "type": "mcq",
+        "o": [
+            "Runoff",
+            "Infiltration",
+            "Groundwater",
+            "Aquifer"
+        ]
+    },
+    {
+        "q": "Match the bodies of water with their description.",
+        "type": "memory",
+        "pairs": {
+            "Ocean": "Vast body of salt water",
+            "River": "Flowing body of fresh water",
+            "Glacier": "Slow moving mass of ice"
+        }
+    },
+    {
+        "q": "Match the water cycle term with its definition:",
+        "type": "match",
+        "left": [
+            "Sublimation",
+            "Deposition",
+            "Infiltration",
+            "Percolation"
+        ],
+        "right": [
+            "Solid to gas directly",
+            "Gas to solid directly",
+            "Water enters soil",
+            "Water moves through soil"
+        ]
+    },
+    {
+        "q": "Water is considered a renewable resource because of the water cycle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a fresh water source?",
+        "type": "odd_one_out",
+        "options": [
+            "River",
+            "Lake",
+            "Pond",
+            "Ocean"
+        ],
+        "correct": "Ocean"
+    },
+    {
+        "q": "Which of these is the largest freshwater lake in the world by volume?",
+        "type": "mcq",
+        "o": [
+            "Lake Baikal",
+            "Lake Superior",
+            "Lake Victoria",
+            "Caspian Sea"
+        ]
+    },
+    {
+        "q": "How does rainwater harvesting help conserve water?",
+        "type": "short_answer",
+        "answers": [
+            "collects rainwater for later use",
+            "stores rain",
+            "catches water",
+            "reduces runoff"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The air feels humid when there is a lot of water vapor in it.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe LEFT for Liquid water, RIGHT for Solid ice.",
+        "type": "swipe_cards",
+        "left_label": "Liquid Water",
+        "right_label": "Solid Ice",
+        "cards": {
+            "Rain": "left",
+            "Snow": "right",
+            "River water": "left",
+            "Glacier": "right"
+        }
+    },
+    {
+        "q": "What is the process called when water changes directly from solid ice to water vapor?",
+        "type": "mcq",
+        "o": [
+            "Sublimation",
+            "Evaporation",
+            "Condensation",
+            "Melting"
+        ]
+    },
+    {
+        "q": "A ______ is a natural stream of water flowing downhill towards an ocean or lake.",
+        "type": "fill_blank",
+        "answers": [
+            "river"
+        ],
+        "other_options": [
+            "pond",
+            "sea",
+            "glacier",
+            "aquifer"
+        ]
+    },
+    {
+        "q": "Unscramble this type of liquid precipitation.",
+        "type": "word_scramble",
+        "answer": "RAIN",
+        "decoys": "PM"
+    },
+    {
+        "q": "Which of the following sources of water is salty?",
+        "type": "mcq",
+        "o": [
+            "Sea",
+            "Glacier",
+            "River",
+            "Lake"
+        ]
+    },
+    {
+        "q": "The amount of water on Earth changes drastically every year.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What forms when condensed water vapor in clouds gets too heavy?",
+        "type": "mcq",
+        "o": [
+            "Precipitation",
+            "Sublimation",
+            "Infiltration",
+            "Transpiration"
+        ]
+    },
+    {
+        "q": "Complete the sentence about global water:",
+        "type": "inline_dropdown",
+        "text": "Most of Earth's water is [0] water found in the [1].",
+        "dropdowns": [
+            {
+                "correct": "salt",
+                "options": [
+                    "fresh",
+                    "salt",
+                    "dirty"
+                ]
+            },
+            {
+                "correct": "oceans",
+                "options": [
+                    "lakes",
+                    "rivers",
+                    "oceans"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the action with its effect on water conservation:",
+        "type": "match",
+        "left": [
+            "Drip irrigation",
+            "Mulching",
+            "Rain sensors",
+            "Low-flow toilets"
+        ],
+        "right": [
+            "Reduces evaporation in fields",
+            "Keeps soil moist",
+            "Stops sprinklers in rain",
+            "Uses less water per flush"
+        ]
+    },
+    {
+        "q": "Water stored in natural underground reservoirs is called an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "aquifer"
+        ],
+        "other_options": [
+            "glacier",
+            "oasis",
+            "canal",
+            "reservoir"
+        ]
+    },
+    {
+        "q": "At what temperature (in Celsius) does water freeze?",
+        "type": "slider",
+        "min": -50,
+        "max": 50,
+        "correct": 0
+    },
+    {
+        "q": "What is the chemical formula for water?",
+        "type": "short_answer",
+        "answers": [
+            "H2O",
+            "h2o"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of treating used water to make it reusable is called water reclamation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these processes involves a change from gas to liquid?",
+        "type": "mcq",
+        "o": [
+            "Condensation",
+            "Evaporation",
+            "Melting",
+            "Freezing"
+        ]
+    },
+    {
+        "q": "What do we call the point where a river begins?",
+        "type": "mcq",
+        "o": [
+            "Source",
+            "Mouth",
+            "Delta",
+            "Tributary"
+        ]
+    },
+    {
+        "q": "Installing a dual-flush toilet helps save water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the terms related to water movement on Earth.",
+        "type": "memory",
+        "pairs": {
+            "Transpiration": "Plants releasing water vapor",
+            "Runoff": "Water flowing over the ground",
+            "Groundwater": "Water soaked into the soil"
+        }
+    },
+    {
+        "q": "What are the tiny openings on leaves that release water vapor called?",
+        "type": "fill_blank",
+        "answers": [
+            "stomata",
+            "stoma"
+        ],
+        "other_options": [
+            "pores",
+            "veins",
+            "roots",
+            "cells"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a way to save water?",
+        "type": "odd_one_out",
+        "options": [
+            "Fix leaks",
+            "Short shower",
+            "Turn off tap",
+            "Leave tap running"
+        ],
+        "correct": "Leave tap running"
+    },
+    {
+        "q": "Which planet in our solar system is known to have a water cycle similar to Earth?",
+        "type": "mcq",
+        "o": [
+            "None",
+            "Mars",
+            "Venus",
+            "Jupiter"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Precipitation, RIGHT for Runoff.",
+        "type": "swipe_cards",
+        "left_label": "Precipitation",
+        "right_label": "Runoff",
+        "cards": {
+            "Rainstorm": "left",
+            "Snowfall": "left",
+            "Water flowing down a hill": "right",
+            "River stream": "right"
+        }
+    },
+    {
+        "q": "What is the name of the area where freshwater from a river meets salt water from the ocean?",
+        "type": "short_answer",
+        "answers": [
+            "estuary",
+            "mouth",
+            "delta"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Rainwater is naturally slightly acidic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble this frozen white precipitation.",
+        "type": "word_scramble",
+        "answer": "SNOW",
+        "decoys": "BV"
+    },
+    {
+        "q": "Which of the following is an example of surface water?",
+        "type": "mcq",
+        "o": [
+            "A pond",
+            "An aquifer",
+            "Soil moisture",
+            "A well"
+        ]
+    },
+    {
+        "q": "Match the water-related phenomenon with its cause:",
+        "type": "match",
+        "left": [
+            "Monsoon",
+            "Flood",
+            "Drought",
+            "Heatwave"
+        ],
+        "right": [
+            "Seasonal wind shift",
+            "Excessive rainfall",
+            "Prolonged dry period",
+            "High temperatures"
+        ]
+    },
+    {
+        "q": "A device that measures humidity in the air is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hygrometer"
+        ],
+        "other_options": [
+            "thermometer",
+            "barometer",
+            "anemometer",
+            "rain gauge"
+        ]
+    },
+    {
+        "q": "Polluted water can be naturally cleaned through the water cycle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence on fresh water sources:",
+        "type": "inline_dropdown",
+        "text": "We find fresh water mostly in [0] and [1].",
+        "dropdowns": [
+            {
+                "correct": "rivers",
+                "options": [
+                    "oceans",
+                    "seas",
+                    "rivers"
+                ]
+            },
+            {
+                "correct": "lakes",
+                "options": [
+                    "puddles",
+                    "lakes",
+                    "clouds"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the term for water that is suitable for drinking?",
+        "type": "mcq",
+        "o": [
+            "Potable water",
+            "Distilled water",
+            "Hard water",
+            "Soft water"
+        ]
+    },
+    {
+        "q": "What do you call rain with high levels of pollutants that harms the environment?",
+        "type": "short_answer",
+        "answers": [
+            "acid rain",
+            "acidic rain"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "How many main steps are usually taught in the basic water cycle?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 4
+    },
+    {
+        "q": "Glaciers contain more freshwater than all the rivers and lakes combined.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the states of water.",
+        "type": "memory",
+        "pairs": {
+            "Solid": "Ice or snow",
+            "Liquid": "Drinking water or rain",
+            "Gas": "Water vapor or steam"
+        }
+    },
+    {
+        "q": "Water vapor is invisible to the human eye.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a power source for the water cycle?",
+        "type": "odd_one_out",
+        "options": [
+            "Sun",
+            "Solar energy",
+            "Heat",
+            "Moon"
+        ],
+        "correct": "Moon"
+    },
+    {
+        "q": "What is the main reason sea water evaporates slower than fresh water?",
+        "type": "mcq",
+        "o": [
+            "Salt lowers the evaporation rate",
+            "Sea water is colder",
+            "Sea water is deeper",
+            "Waves stop evaporation"
+        ]
+    },
+    {
+        "q": "A ______ is a man-made lake used to store water for later use.",
+        "type": "fill_blank",
+        "answers": [
+            "reservoir"
+        ],
+        "other_options": [
+            "aquifer",
+            "canal",
+            "watershed",
+            "estuary"
+        ]
+    },
+    {
+        "q": "Which sector uses the most freshwater globally?",
+        "type": "mcq",
+        "o": [
+            "Agriculture",
+            "Industrial",
+            "Domestic",
+            "Recreational"
+        ]
+    },
+    {
+        "q": "Water is called the universal solvent because it dissolves many substances.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call a stream or river that flows into a larger river?",
+        "type": "mcq",
+        "o": [
+            "Tributary",
+            "Distributary",
+            "Estuary",
+            "Delta"
+        ]
+    },
+    {
+        "q": "Match the soil property with its effect on infiltration:",
+        "type": "match",
+        "left": [
+            "Sandy soil",
+            "Clay soil",
+            "Loamy soil",
+            "Rocky surface"
+        ],
+        "right": [
+            "Fast infiltration",
+            "Slow infiltration",
+            "Moderate infiltration",
+            "Very low infiltration"
+        ]
+    },
+    {
+        "q": "Swipe LEFT if it is in the sky, RIGHT if it is on the ground.",
+        "type": "swipe_cards",
+        "left_label": "In the Sky",
+        "right_label": "On the Ground",
+        "cards": {
+            "Clouds": "left",
+            "Falling rain": "left",
+            "Puddle": "right",
+            "Aquifer": "right"
+        }
+    },
+    {
+        "q": "Unscramble this word for balls of ice that fall from the sky.",
+        "type": "word_scramble",
+        "answer": "HAIL",
+        "decoys": "YZ"
+    },
+    {
+        "q": "The boundary between two watersheds is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "divide",
+            "water divide",
+            "ridge"
+        ],
+        "other_options": [
+            "valley",
+            "basin",
+            "channel",
+            "plain"
+        ]
+    },
+    {
+        "q": "What does the word 'hydro' mean in words like hydrosphere and hydrology?",
+        "type": "short_answer",
+        "answers": [
+            "water"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Artificial rain can be created through a process called cloud seeding.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What happens to water density when it freezes?",
+        "type": "mcq",
+        "o": [
+            "It decreases",
+            "It increases",
+            "It stays the same",
+            "It doubles"
+        ]
+    },
+    {
+        "q": "Puddles disappear faster on a sunny day because of increased ______.",
+        "type": "fill_blank",
+        "answers": [
+            "evaporation"
+        ],
+        "other_options": [
+            "condensation",
+            "precipitation",
+            "infiltration",
+            "runoff"
+        ]
+    },
+    {
+        "q": "What is a common unit used to measure water usage in homes?",
+        "type": "mcq",
+        "o": [
+            "Gallons",
+            "Miles",
+            "Pounds",
+            "Degrees"
+        ]
+    },
+    {
+        "q": "Wetlands act like natural sponges, absorbing water and reducing floods.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about precipitation types:",
+        "type": "inline_dropdown",
+        "text": "Precipitation can fall as liquid [0] or solid [1].",
+        "dropdowns": [
+            {
+                "correct": "rain",
+                "options": [
+                    "fog",
+                    "rain",
+                    "dew"
+                ]
+            },
+            {
+                "correct": "snow",
+                "options": [
+                    "wind",
+                    "rain",
+                    "snow"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of the following activities is the most efficient for watering a garden?",
+        "type": "mcq",
+        "o": [
+            "Drip irrigation",
+            "Sprinkler at noon",
+            "Flooding the bed",
+            "Hose spraying"
+        ]
+    },
+    {
+        "q": "Match the water problem with its impact:",
+        "type": "match",
+        "left": [
+            "Algal bloom",
+            "Oil spill",
+            "Sediment runoff",
+            "Thermal pollution"
+        ],
+        "right": [
+            "Depletes oxygen in water",
+            "Coats marine life",
+            "Clouds water bodies",
+            "Changes water temperature"
+        ]
+    },
+    {
+        "q": "What is the name for a very large ocean wave caused by an earthquake?",
+        "type": "mcq",
+        "o": [
+            "Tsunami",
+            "Tide",
+            "Rogue wave",
+            "Storm surge"
+        ]
+    },
+    {
+        "q": "Soil that is saturated with water cannot absorb any more, leading to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "runoff",
+            "surface runoff"
+        ],
+        "other_options": [
+            "infiltration",
+            "evaporation",
+            "condensation",
+            "percolation"
+        ]
+    },
+    {
+        "q": "What is the highest part of a wave called?",
+        "type": "short_answer",
+        "answers": [
+            "crest",
+            "peak"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Greywater is wastewater from toilets.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "How many states of matter can water naturally exist in?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "What process is the reverse of evaporation?",
+        "type": "mcq",
+        "o": [
+            "Condensation",
+            "Sublimation",
+            "Transpiration",
+            "Precipitation"
+        ]
+    },
+    {
+        "q": "A drought can be worsened by cutting down too many trees, known as ______.",
+        "type": "fill_blank",
+        "answers": [
+            "deforestation"
+        ],
+        "other_options": [
+            "afforestation",
+            "conservation",
+            "pollution",
+            "urbanization"
+        ]
+    },
+    {
+        "q": "The main source of water in rivers is direct precipitation.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the force that pulls rainwater down to the ground?",
+        "type": "short_answer",
+        "answers": [
+            "gravity",
+            "gravitational force",
+            "gravitational pull"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which ocean is the largest on Earth?",
+        "type": "mcq",
+        "o": [
+            "Pacific Ocean",
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean"
+        ]
+    },
+    {
+        "q": "Match the water state with the temperature range it requires:",
+        "type": "match",
+        "left": [
+            "Water freezes",
+            "Water boils",
+            "Ice melts",
+            "Steam condenses"
+        ],
+        "right": [
+            "Below 0 C",
+            "At 100 C",
+            "Above 0 C",
+            "Below 100 C"
+        ]
+    },
+    {
+        "q": "Why is the water cycle sometimes called a closed system?",
+        "type": "mcq",
+        "o": [
+            "The total amount of water stays the same",
+            "No water evaporates",
+            "Water disappears",
+            "It only happens indoors"
+        ]
+    },
+    {
+        "q": "Solid water (ice) is less dense than liquid water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match these forms of condensed water.",
+        "type": "memory",
+        "pairs": {
+            "Dew": "Water droplets formed on cool grass",
+            "Frost": "Ice crystals formed on freezing surfaces",
+            "Fog": "A cloud at ground level"
+        }
+    },
+    {
+        "q": "An area that is permanently frozen is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "permafrost"
+        ],
+        "other_options": [
+            "glacier",
+            "iceberg",
+            "tundra",
+            "taiga"
+        ]
+    },
+    {
+        "q": "Which of these is an example of water in its gas state?",
+        "type": "mcq",
+        "o": [
+            "Steam",
+            "Ice",
+            "Snow",
+            "Dew"
+        ]
+    },
+    {
+        "q": "What happens to water molecules when they gain heat?",
+        "type": "mcq",
+        "o": [
+            "They move faster and spread apart",
+            "They move slower and come closer",
+            "They stop moving",
+            "They change color"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a form of ice?",
+        "type": "odd_one_out",
+        "options": [
+            "Ice",
+            "Snow",
+            "Glacier",
+            "Steam"
+        ],
+        "correct": "Steam"
+    },
+    {
+        "q": "A thick layer of fog is essentially a ______ at ground level.",
+        "type": "fill_blank",
+        "answers": [
+            "cloud",
+            "stratus cloud"
+        ],
+        "other_options": [
+            "rain",
+            "dust storm",
+            "mist",
+            "vapor"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Natural sources, RIGHT for Man-made sources.",
+        "type": "swipe_cards",
+        "left_label": "Natural",
+        "right_label": "Man-made",
+        "cards": {
+            "Lake": "left",
+            "Ocean": "left",
+            "Water Dam": "right",
+            "Tap": "right"
+        }
+    },
+    {
+        "q": "Name the process of removing salt from seawater to make it drinkable.",
+        "type": "short_answer",
+        "answers": [
+            "desalination",
+            "desalinization",
+            "desalting"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Groundwater flows faster than river water.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is an effect of global warming on the water cycle?",
+        "type": "mcq",
+        "o": [
+            "Increased evaporation",
+            "Decreased precipitation",
+            "No change at all",
+            "Rivers freezing permanently"
+        ]
+    },
+    {
+        "q": "Match the type of flooding with its description:",
+        "type": "match",
+        "left": [
+            "Flash flood",
+            "River flood",
+            "Coastal flood",
+            "Urban flood"
+        ],
+        "right": [
+            "Sudden and intense",
+            "Gradual overflow",
+            "Storm surge driven",
+            "Poor drainage in cities"
+        ]
+    },
+    {
+        "q": "Water that has a high mineral content, specifically calcium and magnesium, is called ______ water.",
+        "type": "fill_blank",
+        "answers": [
+            "hard"
+        ],
+        "other_options": [
+            "soft",
+            "distilled",
+            "pure",
+            "spring"
+        ]
+    },
+    {
+        "q": "The Indus River is one of the longest rivers in Asia.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble this fluffy thing in the sky made of water drops.",
+        "type": "word_scramble",
+        "answer": "CLOUD",
+        "decoys": "JX"
+    },
+    {
+        "q": "What is the name of the rotating storm system that forms over warm ocean waters?",
+        "type": "mcq",
+        "o": [
+            "Hurricane",
+            "Tornado",
+            "Blizzard",
+            "Thunderstorm"
+        ]
+    },
+    {
+        "q": "What causes the drops of water to form on the outside of a cold glass?",
+        "type": "short_answer",
+        "answers": [
+            "condensation",
+            "water vapor condenses",
+            "moisture in air condenses"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Aquifers are unlimited and can never run out of water.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is water called when it is pure, with no dissolved minerals?",
+        "type": "mcq",
+        "o": [
+            "Distilled water",
+            "Hard water",
+            "Tap water",
+            "Mineral water"
+        ]
+    },
+    {
+        "q": "Planting more trees helps increase rainfall through the process of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "transpiration"
+        ],
+        "other_options": [
+            "evaporation",
+            "precipitation",
+            "condensation",
+            "irrigation"
+        ]
+    },
+    {
+        "q": "Complete the sentence about water on land:",
+        "type": "inline_dropdown",
+        "text": "Water that flows over ground is [0], but water that soaks below is [1].",
+        "dropdowns": [
+            {
+                "correct": "runoff",
+                "options": [
+                    "runoff",
+                    "rain",
+                    "vapor"
+                ]
+            },
+            {
+                "correct": "groundwater",
+                "options": [
+                    "ocean",
+                    "groundwater",
+                    "puddle"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Snowmelt in spring is a critical source of water for many rivers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "How does a rain barrel help conserve water?",
+        "type": "mcq",
+        "o": [
+            "It collects roof runoff for garden use",
+            "It cleans ocean water",
+            "It stops evaporation",
+            "It makes tap water cleaner"
+        ]
+    },
+    {
+        "q": "Match the river with the continent it is found on:",
+        "type": "match",
+        "left": [
+            "Nile",
+            "Amazon",
+            "Danube",
+            "Murray"
+        ],
+        "right": [
+            "Africa",
+            "South America",
+            "Europe",
+            "Australia"
+        ]
+    },
+    {
+        "q": "The scientific study of water movement and distribution is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hydrology"
+        ],
+        "other_options": [
+            "geology",
+            "meteorology",
+            "biology",
+            "seismology"
+        ]
+    },
+    {
+        "q": "What percentage of the human body is roughly made of water?",
+        "type": "slider",
+        "min": 10,
+        "max": 100,
+        "correct": 60
+    },
+    {
+        "q": "What type of cloud is associated with thunderstorms and heavy rain?",
+        "type": "mcq",
+        "o": [
+            "Cumulonimbus",
+            "Cirrus",
+            "Stratus",
+            "Altocumulus"
+        ]
+    },
+    {
+        "q": "Water can dissolve almost anything eventually, which is why it is called the universal ______.",
+        "type": "fill_blank",
+        "answers": [
+            "solvent"
+        ],
+        "other_options": [
+            "solution",
+            "solute",
+            "liquid",
+            "mixer"
+        ]
+    },
+    {
+        "q": "An iceberg is a large piece of freshwater ice that has broken off a glacier.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the first sign of a severe drought?",
+        "type": "mcq",
+        "o": [
+            "Soil becomes very dry and hard",
+            "Lakes overflow",
+            "Frequent heavy rain",
+            "Snowfall increases"
+        ]
+    },
+    {
+        "q": "Match the conservation action to its benefit.",
+        "type": "memory",
+        "pairs": {
+            "Turning off tap": "Saves water while brushing",
+            "Fixing leaks": "Stops wasted drips",
+            "Rain barrel": "Collects water for gardens"
+        }
+    },
+    {
+        "q": "What happens to the rate of evaporation as humidity increases?",
+        "type": "mcq",
+        "o": [
+            "It decreases",
+            "It increases",
+            "It stays the same",
+            "It stops completely"
+        ]
+    },
+    {
+        "q": "The conversion of water vapor directly into ice crystals without becoming liquid first is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "deposition"
+        ],
+        "other_options": [
+            "sublimation",
+            "condensation",
+            "freezing",
+            "precipitation"
+        ]
+    },
+    {
+        "q": "Which of these is NOT water in gas form?",
+        "type": "odd_one_out",
+        "options": [
+            "Water vapor",
+            "Steam",
+            "Gas",
+            "Ice cube"
+        ],
+        "correct": "Ice cube"
+    },
+    {
+        "q": "An artesian well taps into a confined aquifer where water flows out naturally due to pressure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe LEFT for Clean water, RIGHT for Polluted water.",
+        "type": "swipe_cards",
+        "left_label": "Clean Water",
+        "right_label": "Polluted Water",
+        "cards": {
+            "Mountain spring": "left",
+            "Oil spill in ocean": "right",
+            "Treated drinking water": "left",
+            "River with trash": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word for water in gas form.",
+        "type": "word_scramble",
+        "answer": "VAPOR",
+        "decoys": "QZ"
+    },
+    {
+        "q": "What is the term for the total amount of water lost from a surface through evaporation and plant transpiration combined?",
+        "type": "mcq",
+        "o": [
+            "Evapotranspiration",
+            "Condensation",
+            "Sublimation",
+            "Precipitation"
+        ]
+    },
+    {
+        "q": "Name the process where water moves upward through a narrow space against gravity.",
+        "type": "short_answer",
+        "answers": [
+            "capillary action",
+            "capillarity",
+            "wicking"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the water pollutant with its source:",
+        "type": "match",
+        "left": [
+            "Fertilizers",
+            "Oil",
+            "Plastic",
+            "Mercury"
+        ],
+        "right": [
+            "Agricultural runoff",
+            "Vehicle leaks",
+            "Improper disposal",
+            "Industrial discharge"
+        ]
+    },
+    {
+        "q": "Complete the sentence on saving water at home:",
+        "type": "inline_dropdown",
+        "text": "To save water, take shorter [0] and fix leaky [1].",
+        "dropdowns": [
+            {
+                "correct": "showers",
+                "options": [
+                    "showers",
+                    "naps",
+                    "walks"
+                ]
+            },
+            {
+                "correct": "pipes",
+                "options": [
+                    "cars",
+                    "pipes",
+                    "windows"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A body of rock that stores water but does not allow it to flow easily is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "confining layer",
+            "aquitard",
+            "aquiclude"
+        ],
+        "other_options": [
+            "aquifer",
+            "watershed",
+            "reservoir",
+            "spring"
+        ]
+    },
+    {
+        "q": "The Aral Sea has significantly shrunk mainly due to water diversion for irrigation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which term describes the zone underground where all pore spaces are completely filled with water?",
+        "type": "mcq",
+        "o": [
+            "Saturated zone",
+            "Unsaturated zone",
+            "Aeration zone",
+            "Surface zone"
+        ]
+    },
+    {
+        "q": "Approximately how long can a water molecule stay in the atmosphere before precipitating?",
+        "type": "mcq",
+        "o": [
+            "About 9 days",
+            "About 1 year",
+            "About 100 years",
+            "About 1 day"
+        ]
+    },
+    {
+        "q": "Weathering of rocks can be caused by repeated freezing and thawing of water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "To save water, what is a good maximum number of minutes to spend in the shower?",
+        "type": "slider",
+        "min": 1,
+        "max": 30,
+        "correct": 5
+    },
+    {
+        "q": "What is the term for a bend or curve in a river?",
+        "type": "short_answer",
+        "answers": [
+            "meander",
+            "bend",
+            "curve"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In water treatment, the process where heavy particles sink to the bottom is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sedimentation"
+        ],
+        "other_options": [
+            "filtration",
+            "disinfection",
+            "coagulation",
+            "aeration"
+        ]
+    },
+    {
+        "q": "Which gas becomes more soluble in water as water temperature decreases?",
+        "type": "mcq",
+        "o": [
+            "Oxygen",
+            "Carbon dioxide",
+            "Nitrogen",
+            "Helium"
+        ]
+    },
+    {
+        "q": "The primary source of water for most rivers during dry seasons is groundwater discharge.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the measure of the amount of water vapor present in the air compared to the maximum it can hold?",
+        "type": "mcq",
+        "o": [
+            "Relative humidity",
+            "Absolute humidity",
+            "Dew point",
+            "Vapor pressure"
+        ]
+    },
+    {
+        "q": "Match the water cycle reservoir with its typical residence time:",
+        "type": "match",
+        "left": [
+            "Atmosphere",
+            "Rivers",
+            "Lakes",
+            "Deep groundwater"
+        ],
+        "right": [
+            "9 days",
+            "2-6 months",
+            "50-100 years",
+            "Up to 10,000 years"
+        ]
+    },
+    {
+        "q": "The temperature at which air becomes saturated and water vapor condenses into dew is the ______ point.",
+        "type": "fill_blank",
+        "answers": [
+            "dew"
+        ],
+        "other_options": [
+            "freezing",
+            "boiling",
+            "saturation",
+            "cloud"
+        ]
+    },
+    {
+        "q": "Desertification can be worsened by poor water management and overgrazing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What type of aquifer is sandwiched between two impermeable layers of rock or clay?",
+        "type": "mcq",
+        "o": [
+            "Confined aquifer",
+            "Unconfined aquifer",
+            "Perched aquifer",
+            "Water table aquifer"
+        ]
+    },
+    {
+        "q": "What is the name of the land area where water drains into a specific river system?",
+        "type": "short_answer",
+        "answers": [
+            "watershed",
+            "drainage basin",
+            "catchment area",
+            "river basin"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which phenomenon describes the rapid evaporation of moisture from soils during heatwaves?",
+        "type": "mcq",
+        "o": [
+            "Flash drought",
+            "Hydrological drought",
+            "Meteorological drought",
+            "Socioeconomic drought"
+        ]
+    },
+    {
+        "q": "A cone of ______ forms around a well when water is pumped out faster than the aquifer can replenish.",
+        "type": "fill_blank",
+        "answers": [
+            "depression"
+        ],
+        "other_options": [
+            "elevation",
+            "saturation",
+            "infiltration",
+            "recharge"
+        ]
+    },
+    {
+        "q": "Cloud droplets typically need a surface like dust or salt to condense on, called condensation nuclei.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the water collection areas.",
+        "type": "memory",
+        "pairs": {
+            "Puddle": "Small pool of water on the ground",
+            "Cloud": "Mass of condensed water droplets in sky",
+            "Aquifer": "Underground layer of water-bearing rock"
+        }
+    },
+    {
+        "q": "Which of these is NOT a good use of water?",
+        "type": "odd_one_out",
+        "options": [
+            "Drinking",
+            "Washing",
+            "Farming",
+            "Polluting"
+        ],
+        "correct": "Polluting"
+    },
+    {
+        "q": "Match the irrigation method with its water efficiency:",
+        "type": "match",
+        "left": [
+            "Flood irrigation",
+            "Sprinkler",
+            "Drip irrigation",
+            "Subsurface drip"
+        ],
+        "right": [
+            "About 50% efficient",
+            "About 75% efficient",
+            "About 90% efficient",
+            "About 95% efficient"
+        ]
+    },
+    {
+        "q": "What is the term for the difference between precipitation and evapotranspiration in a region?",
+        "type": "mcq",
+        "o": [
+            "Water balance",
+            "Water table",
+            "Runoff ratio",
+            "Infiltration rate"
+        ]
+    },
+    {
+        "q": "List two major greenhouse gases that affect the intensity of the water cycle.",
+        "type": "short_answer",
+        "answers": [
+            "water vapor and carbon dioxide",
+            "H2O and CO2",
+            "water vapor, carbon dioxide"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The area where groundwater naturally flows to the surface is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "spring"
+        ],
+        "other_options": [
+            "well",
+            "geyser",
+            "seep",
+            "oasis"
+        ]
+    },
+    {
+        "q": "A 100-year flood means a flood of that magnitude will only happen once every 100 years.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which ocean current brings warm water to Western Europe, affecting its rainfall?",
+        "type": "mcq",
+        "o": [
+            "Gulf Stream",
+            "Canary Current",
+            "Labrador Current",
+            "Benguela Current"
+        ]
+    },
+    {
+        "q": "What do we call the process where cloud droplets collide and merge to become large enough to fall as rain?",
+        "type": "mcq",
+        "o": [
+            "Coalescence",
+            "Condensation",
+            "Sublimation",
+            "Deposition"
+        ]
+    },
+    {
+        "q": "Match the type of drought with its correct definition:",
+        "type": "match",
+        "left": [
+            "Meteorological",
+            "Agricultural",
+            "Hydrological",
+            "Socioeconomic"
+        ],
+        "right": [
+            "Lack of rain",
+            "Soil moisture deficit",
+            "Low streamflow",
+            "Water supply shortage"
+        ]
+    },
+    {
+        "q": "Swipe LEFT if safe to drink, RIGHT if unsafe to drink.",
+        "type": "swipe_cards",
+        "left_label": "Safe to Drink",
+        "right_label": "Unsafe to Drink",
+        "cards": {
+            "Filtered tap water": "left",
+            "Ocean water": "right",
+            "Muddy puddle": "right",
+            "Bottled spring water": "left"
+        }
+    },
+    {
+        "q": "A mass of floating ice broken off from a glacier is an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "iceberg"
+        ],
+        "other_options": [
+            "ice floe",
+            "glacier",
+            "ice shelf",
+            "pancake ice"
+        ]
+    },
+    {
+        "q": "Water in an unconfined aquifer is more susceptible to contamination than in a confined aquifer.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name of the process that adds chlorine or UV light to kill bacteria in water?",
+        "type": "mcq",
+        "o": [
+            "Disinfection",
+            "Filtration",
+            "Sedimentation",
+            "Coagulation"
+        ]
+    },
+    {
+        "q": "Unscramble the word for a flowing body of fresh water.",
+        "type": "word_scramble",
+        "answer": "RIVER",
+        "decoys": "KW"
+    },
+    {
+        "q": "What river carries the most water volume in the world?",
+        "type": "short_answer",
+        "answers": [
+            "Amazon",
+            "Amazon River",
+            "the Amazon"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about clouds:",
+        "type": "inline_dropdown",
+        "text": "Clouds are made of tiny [0] of liquid [1].",
+        "dropdowns": [
+            {
+                "correct": "drops",
+                "options": [
+                    "rocks",
+                    "drops",
+                    "stars"
+                ]
+            },
+            {
+                "correct": "water",
+                "options": [
+                    "milk",
+                    "juice",
+                    "water"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The water table always remains flat and horizontal regardless of the terrain.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What approximate percentage of the Earth's fresh water is trapped in glaciers and ice caps?",
+        "type": "slider",
+        "min": 0,
+        "max": 100,
+        "correct": 68
+    },
+    {
+        "q": "What is the term for a hot spring that intermittently erupts water and steam?",
+        "type": "mcq",
+        "o": [
+            "Geyser",
+            "Fumarole",
+            "Seep",
+            "Artesian well"
+        ]
+    },
+    {
+        "q": "The downward movement of water from the land surface into the soil is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "infiltration"
+        ],
+        "other_options": [
+            "percolation",
+            "runoff",
+            "seepage",
+            "capillary rise"
+        ]
+    },
+    {
+        "q": "What is the process where warm air holds more water vapor, leading to heavier rainfall events in a warmer climate?",
+        "type": "mcq",
+        "o": [
+            "Clausius-Clapeyron relation",
+            "Bernoulli principle",
+            "Coriolis effect",
+            "Hadley cell circulation"
+        ]
+    },
+    {
+        "q": "Gray water from sinks and showers can be reused for flushing toilets with proper treatment.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the water treatment stage with what it removes:",
+        "type": "match",
+        "left": [
+            "Screening",
+            "Coagulation",
+            "Filtration",
+            "Disinfection"
+        ],
+        "right": [
+            "Large debris",
+            "Fine suspended particles",
+            "Remaining solids",
+            "Pathogens"
+        ]
+    },
+    {
+        "q": "The rate of groundwater flow depends on the ______ of the soil and the hydraulic gradient.",
+        "type": "fill_blank",
+        "answers": [
+            "permeability",
+            "hydraulic conductivity"
+        ],
+        "other_options": [
+            "porosity",
+            "density",
+            "color",
+            "temperature"
+        ]
+    },
+    {
+        "q": "What is the term for the volume of water flowing through a river cross-section per second?",
+        "type": "mcq",
+        "o": [
+            "Discharge",
+            "Runoff",
+            "Velocity",
+            "Load"
+        ]
+    },
+    {
+        "q": "An oasis in a desert is typically formed by a natural spring.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the phenomenon where deep, nutrient-rich ocean water rises to the surface.",
+        "type": "short_answer",
+        "answers": [
+            "upwelling"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A levee is a natural or artificial wall that blocks water from going where it is not wanted.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following clouds is a mid-level cloud?",
+        "type": "mcq",
+        "o": [
+            "Altostratus",
+            "Cirrus",
+            "Stratus",
+            "Cumulonimbus"
+        ]
+    },
+    {
+        "q": "In the ______ stage of the water treatment process, chemicals are added to make particles clump together.",
+        "type": "fill_blank",
+        "answers": [
+            "coagulation",
+            "flocculation"
+        ],
+        "other_options": [
+            "sedimentation",
+            "filtration",
+            "disinfection",
+            "screening"
+        ]
+    },
+    {
+        "q": "What is the ratio of water vapor mass to total air mass called?",
+        "type": "mcq",
+        "o": [
+            "Specific humidity",
+            "Relative humidity",
+            "Dew point",
+            "Vapor pressure"
+        ]
+    },
+    {
+        "q": "Match the phase changes of water.",
+        "type": "memory",
+        "pairs": {
+            "Melting": "Solid ice turns to liquid water",
+            "Freezing": "Liquid water turns to solid ice",
+            "Boiling": "Liquid water rapidly turns to gas"
+        }
+    },
+    {
+        "q": "Match the river feature with its formation process:",
+        "type": "match",
+        "left": [
+            "Oxbow lake",
+            "Delta",
+            "Waterfall",
+            "Canyon"
+        ],
+        "right": [
+            "Cut off meander",
+            "Sediment deposition",
+            "Resistant rock layer",
+            "Long-term erosion"
+        ]
+    },
+    {
+        "q": "The process of nutrients enriching a water body causing excessive plant growth is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "eutrophication"
+        ],
+        "other_options": [
+            "acidification",
+            "salinization",
+            "sedimentation",
+            "desertification"
+        ]
+    },
+    {
+        "q": "Water is most dense at 4 degrees Celsius.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a problem for the water cycle?",
+        "type": "odd_one_out",
+        "options": [
+            "Drought",
+            "Flood",
+            "Water pollution",
+            "Planting trees"
+        ],
+        "correct": "Planting trees"
+    },
+    {
+        "q": "What do we call a low-lying area that is frequently flooded by a river?",
+        "type": "mcq",
+        "o": [
+            "Floodplain",
+            "Delta",
+            "Plateau",
+            "Canyon"
+        ]
+    },
+    {
+        "q": "What is the main source of energy for the global ocean circulation system?",
+        "type": "short_answer",
+        "answers": [
+            "sun",
+            "solar energy",
+            "the sun",
+            "sun and wind"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The hydrological cycle and the carbon cycle are completely separate and do not interact.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which instrument is used to measure the rate of evaporation?",
+        "type": "mcq",
+        "o": [
+            "Evaporimeter",
+            "Rain gauge",
+            "Anemometer",
+            "Psychrometer"
+        ]
+    },
+    {
+        "q": "______ is the process where water is absorbed from the soil by plant roots and moves up to the leaves.",
+        "type": "fill_blank",
+        "answers": [
+            "translocation",
+            "capillary action",
+            "transpiration stream"
+        ],
+        "other_options": [
+            "infiltration",
+            "percolation",
+            "condensation",
+            "photosynthesis"
+        ]
+    },
+    {
+        "q": "A stalactite forms on the floor of a cave from dripping water.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the term for the flat area of land next to a stream that forms from eroded sediment?",
+        "type": "mcq",
+        "o": [
+            "Alluvial plain",
+            "Moraine",
+            "Canyon",
+            "Plateau"
+        ]
+    },
+    {
+        "q": "Match the water measurement unit with what it measures:",
+        "type": "match",
+        "left": [
+            "Acre-foot",
+            "Cubic meter per second",
+            "Millimeters",
+            "Parts per million"
+        ],
+        "right": [
+            "Volume for irrigation",
+            "River discharge",
+            "Rainfall depth",
+            "Contaminant concentration"
+        ]
+    },
+    {
+        "q": "A sling ______ is used to measure relative humidity using two thermometers.",
+        "type": "fill_blank",
+        "answers": [
+            "psychrometer"
+        ],
+        "other_options": [
+            "barometer",
+            "thermometer",
+            "anemometer",
+            "hygrometer"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Vapor (Gas), RIGHT for Liquid water.",
+        "type": "swipe_cards",
+        "left_label": "Vapor (Gas)",
+        "right_label": "Liquid Water",
+        "cards": {
+            "Steam from pot": "left",
+            "Fog": "left",
+            "Raindrop": "right",
+            "Glass of water": "right"
+        }
+    },
+    {
+        "q": "Unscramble the largest body of saltwater.",
+        "type": "word_scramble",
+        "answer": "OCEAN",
+        "decoys": "XP"
+    },
+    {
+        "q": "Water molecules are polar, meaning they have a slight positive and slight negative end.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the boundary between the saturated zone and the unsaturated zone underground?",
+        "type": "mcq",
+        "o": [
+            "Water table",
+            "Aquifer",
+            "Spring line",
+            "Divide"
+        ]
+    },
+    {
+        "q": "What type of rain occurs when air is forced to rise over a mountain range?",
+        "type": "short_answer",
+        "answers": [
+            "orographic rain",
+            "relief rain",
+            "orographic precipitation",
+            "relief precipitation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Great Lakes contain about 20% of the world's unfrozen surface freshwater.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following substances is commonly used in cloud seeding?",
+        "type": "mcq",
+        "o": [
+            "Silver iodide",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Iron oxide"
+        ]
+    },
+    {
+        "q": "A ______ is a sudden overflow of water onto normally dry land.",
+        "type": "fill_blank",
+        "answers": [
+            "flood",
+            "inundation"
+        ],
+        "other_options": [
+            "drought",
+            "tsunami",
+            "tide",
+            "erosion"
+        ]
+    },
+    {
+        "q": "The rain shadow effect causes the windward side of a mountain to be dry.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which scale is used to classify hurricanes based on wind speed?",
+        "type": "mcq",
+        "o": [
+            "Saffir-Simpson scale",
+            "Richter scale",
+            "Fujita scale",
+            "Beaufort scale"
+        ]
+    },
+    {
+        "q": "What is the name for the network of pipes and drains that collect wastewater in a city?",
+        "type": "short_answer",
+        "answers": [
+            "sewer system",
+            "sewage system",
+            "sanitary sewer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about water states:",
+        "type": "inline_dropdown",
+        "text": "Water vapor is a [0], while a glacier is made of [1].",
+        "dropdowns": [
+            {
+                "correct": "gas",
+                "options": [
+                    "liquid",
+                    "solid",
+                    "gas"
+                ]
+            },
+            {
+                "correct": "solid",
+                "options": [
+                    "liquid",
+                    "solid",
+                    "gas"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Porosity is the measure of how easily water can flow through rock.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the term for the cyclical movement of water in the oceans driven by temperature and salinity differences?",
+        "type": "mcq",
+        "o": [
+            "Thermohaline circulation",
+            "Surface current",
+            "Tidal current",
+            "Gyres"
+        ]
+    },
+    {
+        "q": "Match the freshwater biome with its characteristic:",
+        "type": "match",
+        "left": [
+            "Marsh",
+            "Swamp",
+            "Bog",
+            "Fen"
+        ],
+        "right": [
+            "Grasses, no trees",
+            "Woody plants, trees",
+            "Acidic, peat moss",
+            "Alkaline, mineral-rich"
+        ]
+    },
+    {
+        "q": "The introduction of saltwater into freshwater aquifers near coasts is called ______ intrusion.",
+        "type": "fill_blank",
+        "answers": [
+            "saltwater",
+            "saline"
+        ],
+        "other_options": [
+            "freshwater",
+            "chemical",
+            "thermal",
+            "pollutant"
+        ]
+    },
+    {
+        "q": "Match why living things need water.",
+        "type": "memory",
+        "pairs": {
+            "Plants": "Need water to grow and make food",
+            "Animals": "Need water to drink and survive",
+            "Fish": "Need water to live in as a habitat"
+        }
+    },
+    {
+        "q": "El Nino events typically cause increased rainfall in Australia.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the process where algae blooms die and decompose, using up all the oxygen in the water?",
+        "type": "mcq",
+        "o": [
+            "Hypoxia",
+            "Eutrophication",
+            "Photosynthesis",
+            "Nitrification"
+        ]
+    },
+    {
+        "q": "In regions with karst topography, water dissolves limestone to form ______.",
+        "type": "fill_blank",
+        "answers": [
+            "caves",
+            "caverns",
+            "sinkholes"
+        ],
+        "other_options": [
+            "mountains",
+            "glaciers",
+            "volcanoes",
+            "deltas"
+        ]
+    },
+    {
+        "q": "Water is a very poor solvent for ionic compounds.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which term refers to the total amount of dissolved salts in water?",
+        "type": "mcq",
+        "o": [
+            "Salinity",
+            "Turbidity",
+            "Hardness",
+            "pH"
+        ]
+    },
+    {
+        "q": "What do we call a large, circular ocean current formed by wind patterns and Earth's rotation?",
+        "type": "short_answer",
+        "answers": [
+            "gyre",
+            "ocean gyre"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of reverse osmosis is used to filter water by pushing it through a membrane.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is NOT a type of wetland?",
+        "type": "mcq",
+        "o": [
+            "Savanna",
+            "Marsh",
+            "Swamp",
+            "Bog"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Fast moving water, RIGHT for Slow moving water.",
+        "type": "swipe_cards",
+        "left_label": "Fast",
+        "right_label": "Slow",
+        "cards": {
+            "Rain falling": "left",
+            "Surface runoff": "left",
+            "Water in a deep aquifer": "right",
+            "Glacier moving": "right"
+        }
+    },
+    {
+        "q": "The Indus Water Treaty governs water sharing of the Indus River system between India and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Pakistan"
+        ],
+        "other_options": [
+            "China",
+            "Bangladesh",
+            "Nepal",
+            "Afghanistan"
+        ]
+    },
+    {
+        "q": "Turbidity in water is a measure of how clear it is.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the waterborne disease with its cause:",
+        "type": "match",
+        "left": [
+            "Cholera",
+            "Typhoid",
+            "Dysentery",
+            "Giardiasis"
+        ],
+        "right": [
+            "Bacteria",
+            "Bacteria",
+            "Bacteria/Parasite",
+            "Parasite"
+        ]
+    },
+    {
+        "q": "Unscramble this large inland body of fresh water.",
+        "type": "word_scramble",
+        "answer": "LAKE",
+        "decoys": "ZM"
+    },
+    {
+        "q": "What is the term for the upper limit of the saturated zone in an unconfined aquifer?",
+        "type": "mcq",
+        "o": [
+            "Water table",
+            "Aquitard",
+            "Confining layer",
+            "Bedrock"
+        ]
+    },
+    {
+        "q": "A ______ is a bend in a river that eventually gets cut off, forming an oxbow lake.",
+        "type": "fill_blank",
+        "answers": [
+            "meander"
+        ],
+        "other_options": [
+            "tributary",
+            "delta",
+            "estuary",
+            "canyon"
+        ]
+    },
+    {
+        "q": "What is the main chemical compound responsible for hard water?",
+        "type": "short_answer",
+        "answers": [
+            "calcium carbonate",
+            "calcium and magnesium",
+            "CaCO3"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble this word for solid frozen water.",
+        "type": "word_scramble",
+        "answer": "ICE",
+        "decoys": "QY"
+    },
+    {
+        "q": "Water that is safe for drinking must have no dissolved minerals at all.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which process in the water cycle is primarily driven by gravity?",
+        "type": "mcq",
+        "o": [
+            "Runoff",
+            "Evaporation",
+            "Transpiration",
+            "Sublimation"
+        ]
+    },
+    {
+        "q": "Match the cloud abbreviation with its full name:",
+        "type": "match",
+        "left": [
+            "Cb",
+            "Ns",
+            "As",
+            "Ci"
+        ],
+        "right": [
+            "Cumulonimbus",
+            "Nimbostratus",
+            "Altostratus",
+            "Cirrus"
+        ]
+    },
+    {
+        "q": "The study of lakes and other inland water bodies is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "limnology"
+        ],
+        "other_options": [
+            "oceanography",
+            "hydrology",
+            "geology",
+            "ecology"
+        ]
+    },
+    {
+        "q": "An aquifer that is exposed at the surface and receives direct recharge is called unconfined.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary driver of thermohaline circulation in the oceans?",
+        "type": "mcq",
+        "o": [
+            "Density differences due to temperature and salinity",
+            "Wind stress on the surface",
+            "Tidal forces from the moon",
+            "Earth's rotation alone"
+        ]
+    },
+    {
+        "q": "Complete the sentence on water conservation:",
+        "type": "inline_dropdown",
+        "text": "We must [0] water because clean fresh water is [1].",
+        "dropdowns": [
+            {
+                "correct": "conserve",
+                "options": [
+                    "waste",
+                    "pollute",
+                    "conserve"
+                ]
+            },
+            {
+                "correct": "limited",
+                "options": [
+                    "unlimited",
+                    "limited",
+                    "everywhere"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The latent heat of vaporization for water is approximately ______ calories per gram.",
+        "type": "fill_blank",
+        "answers": [
+            "540",
+            "about 540",
+            "around 540"
+        ],
+        "other_options": [
+            "80",
+            "100",
+            "2260",
+            "340"
+        ]
+    },
+    {
+        "q": "Isotopic fractionation during evaporation enriches the remaining water in heavier isotopes of oxygen.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following soil textures has the highest water-holding capacity?",
+        "type": "mcq",
+        "o": [
+            "Clay",
+            "Silt",
+            "Sand",
+            "Loam"
+        ]
+    },
+    {
+        "q": "Name the zone in a groundwater system where pores are filled partly with water and partly with air.",
+        "type": "short_answer",
+        "answers": [
+            "vadose zone",
+            "unsaturated zone",
+            "zone of aeration"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about the cycle loop:",
+        "type": "inline_dropdown",
+        "text": "The water cycle has no [0] or [1]; it is a continuous loop.",
+        "dropdowns": [
+            {
+                "correct": "beginning",
+                "options": [
+                    "beginning",
+                    "middle",
+                    "sun"
+                ]
+            },
+            {
+                "correct": "end",
+                "options": [
+                    "rain",
+                    "end",
+                    "cloud"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The Palmer Drought Severity Index (PDSI) uses only precipitation data to assess drought severity.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the term for the maximum amount of water vapor the air can hold at a given temperature?",
+        "type": "mcq",
+        "o": [
+            "Saturation vapor pressure",
+            "Relative humidity",
+            "Specific humidity",
+            "Dew point depression"
+        ]
+    },
+    {
+        "q": "Match the drainage pattern with the geological structure it indicates:",
+        "type": "match",
+        "left": [
+            "Dendritic",
+            "Radial",
+            "Trellis",
+            "Rectangular"
+        ],
+        "right": [
+            "Flat-lying uniform rock",
+            "Volcanic cone",
+            "Folded mountains",
+            "Faulted jointed rock"
+        ]
+    },
+    {
+        "q": "A hydrograph plots river ______ against time during a storm event.",
+        "type": "fill_blank",
+        "answers": [
+            "discharge",
+            "flow",
+            "stage"
+        ],
+        "other_options": [
+            "velocity",
+            "depth",
+            "temperature",
+            "sediment"
+        ]
+    },
+    {
+        "q": "Advection fog forms when warm moist air moves over a cold surface.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which equation is used to calculate potential evapotranspiration based on temperature data?",
+        "type": "mcq",
+        "o": [
+            "Thornthwaite equation",
+            "Darcy's law",
+            "Bernoulli equation",
+            "Manning's formula"
+        ]
+    },
+    {
+        "q": "How does stomatal closure in plants affect the local water cycle?",
+        "type": "short_answer",
+        "answers": [
+            "reduces transpiration",
+            "decreases water loss",
+            "lowers evapotranspiration"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process where plants intercept precipitation on their leaves and it evaporates directly is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "interception loss",
+            "canopy interception"
+        ],
+        "other_options": [
+            "stemflow",
+            "throughfall",
+            "transpiration",
+            "infiltration"
+        ]
+    },
+    {
+        "q": "Match the locations of water.",
+        "type": "memory",
+        "pairs": {
+            "Surface water": "Water in lakes and rivers",
+            "Groundwater": "Water hidden beneath soil",
+            "Water vapor": "Invisible water gas in the air"
+        }
+    },
+    {
+        "q": "What type of cloud is most commonly seeded to induce precipitation?",
+        "type": "mcq",
+        "o": [
+            "Supercooled cumulus",
+            "Cirrus",
+            "Stratus",
+            "Altocumulus"
+        ]
+    },
+    {
+        "q": "A losing stream loses water to the groundwater system.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following methods is used for estimating regional evaporation from large water bodies?",
+        "type": "mcq",
+        "o": [
+            "Energy balance method",
+            "Lysimeter measurement",
+            "Tensiometer reading",
+            "Neutron probe"
+        ]
+    },
+    {
+        "q": "Match the irrigation efficiency term with its definition:",
+        "type": "match",
+        "left": [
+            "Conveyance efficiency",
+            "Application efficiency",
+            "Storage efficiency",
+            "Distribution uniformity"
+        ],
+        "right": [
+            "Water delivered to farm vs diverted",
+            "Water stored in root zone vs applied",
+            "Water in root zone vs needed",
+            "Evenness of application"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Home Use, RIGHT for Farm Use.",
+        "type": "swipe_cards",
+        "left_label": "Home Use",
+        "right_label": "Farm Use",
+        "cards": {
+            "Flushing toilet": "left",
+            "Taking a bath": "left",
+            "Irrigating crops": "right",
+            "Watering a huge cornfield": "right"
+        }
+    },
+    {
+        "q": "The science of measuring water in its various states as it moves through the hydrological cycle is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hydrometry"
+        ],
+        "other_options": [
+            "hydrology",
+            "meteorology",
+            "oceanography",
+            "climatology"
+        ]
+    },
+    {
+        "q": "What term describes the reduction in groundwater levels due to excessive pumping?",
+        "type": "mcq",
+        "o": [
+            "Groundwater mining",
+            "Artesian flow",
+            "Spring discharge",
+            "Base flow"
+        ]
+    },
+    {
+        "q": "The Revelle factor describes the ocean's capacity to absorb atmospheric carbon dioxide.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the dimensionless number that relates inertial forces to viscous forces in fluid flow.",
+        "type": "short_answer",
+        "answers": [
+            "Reynolds number",
+            "Re"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a barrier built across a river to control flow, store water, or generate electricity.",
+        "type": "fill_blank",
+        "answers": [
+            "dam"
+        ],
+        "other_options": [
+            "levee",
+            "weir",
+            "canal",
+            "aqueduct"
+        ]
+    },
+    {
+        "q": "Which of the following is a direct measurement technique for soil moisture in the field?",
+        "type": "mcq",
+        "o": [
+            "Time domain reflectometry (TDR)",
+            "Remote sensing via satellite",
+            "Pan evaporation",
+            "River stage recorder"
+        ]
+    },
+    {
+        "q": "Base flow in a river represents the contribution from groundwater discharge.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for the total salt content of a water body, often measured in practical salinity units?",
+        "type": "mcq",
+        "o": [
+            "Salinity",
+            "Turbidity",
+            "Alkalinity",
+            "Hardness"
+        ]
+    },
+    {
+        "q": "Match the wetland type with its hydrological regime:",
+        "type": "match",
+        "left": [
+            "Bog",
+            "Fen",
+            "Swamp",
+            "Marsh"
+        ],
+        "right": [
+            "Precipitation-fed, acidic",
+            "Groundwater-fed, alkaline",
+            "Forested, standing water",
+            "Herbaceous, fluctuating water"
+        ]
+    },
+    {
+        "q": "The Manning equation is used to calculate open channel ______.",
+        "type": "fill_blank",
+        "answers": [
+            "flow",
+            "velocity",
+            "discharge"
+        ],
+        "other_options": [
+            "evaporation",
+            "infiltration",
+            "precipitation",
+            "erosion"
+        ]
+    },
+    {
+        "q": "Unscramble this word for a single tiny bit of liquid.",
+        "type": "word_scramble",
+        "answer": "DROP",
+        "decoys": "VX"
+    },
+    {
+        "q": "What is the term for a subsurface layer that restricts water flow between aquifers?",
+        "type": "short_answer",
+        "answers": [
+            "aquitard",
+            "confining layer",
+            "aquiclude"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Evaporation pans typically overestimate actual evaporation from large water bodies.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which parameter is critical in Darcy's law for calculating groundwater flow rate?",
+        "type": "mcq",
+        "o": [
+            "Hydraulic conductivity",
+            "Specific yield",
+            "Porosity",
+            "Storativity"
+        ]
+    },
+    {
+        "q": "The ratio of the volume of voids to the total volume of soil is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "porosity"
+        ],
+        "other_options": [
+            "permeability",
+            "density",
+            "void ratio",
+            "specific yield"
+        ]
+    },
+    {
+        "q": "A lysimeter is a device used to accurately measure evapotranspiration from a soil sample.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which atmospheric circulation cell is responsible for the trade winds in the tropics?",
+        "type": "mcq",
+        "o": [
+            "Hadley cell",
+            "Ferrel cell",
+            "Polar cell",
+            "Walker circulation"
+        ]
+    },
+    {
+        "q": "Unscramble the energy form that causes evaporation.",
+        "type": "word_scramble",
+        "answer": "HEAT",
+        "decoys": "ZB"
+    },
+    {
+        "q": "What is the most common method for desalinating seawater at industrial scale in the Middle East?",
+        "type": "short_answer",
+        "answers": [
+            "multi-stage flash distillation",
+            "MSF",
+            "reverse osmosis",
+            "RO"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The term 'field capacity' refers to the amount of water soil can hold against gravity drainage.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the approximate pH of natural, unpolluted rainwater?",
+        "type": "mcq",
+        "o": [
+            "About 5.6",
+            "About 7.0",
+            "About 4.0",
+            "About 8.2"
+        ]
+    },
+    {
+        "q": "Match the limnology term with its definition:",
+        "type": "match",
+        "left": [
+            "Epilimnion",
+            "Metalimnion",
+            "Hypolimnion",
+            "Thermocline"
+        ],
+        "right": [
+            "Warm upper layer",
+            "Transition zone",
+            "Cold bottom layer",
+            "Rapid temperature change"
+        ]
+    },
+    {
+        "q": "The ______ number expresses the ratio of actual evapotranspiration to potential evapotranspiration.",
+        "type": "fill_blank",
+        "answers": [
+            "crop coefficient",
+            "Kc"
+        ],
+        "other_options": [
+            "pan coefficient",
+            "runoff coefficient",
+            "Manning's n",
+            "Reynolds number"
+        ]
+    },
+    {
+        "q": "The Ogallala Aquifer in the United States is an example of a confined aquifer.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which phenomenon explains the rapid drop in well water levels near a heavily pumped well?",
+        "type": "mcq",
+        "o": [
+            "Cone of depression",
+            "Artesian pressure",
+            "Saltwater intrusion",
+            "Capillary fringe"
+        ]
+    },
+    {
+        "q": "A ______ is a device that measures the pressure or tension of water in the soil.",
+        "type": "fill_blank",
+        "answers": [
+            "tensiometer"
+        ],
+        "other_options": [
+            "lysimeter",
+            "hygrometer",
+            "piezometer",
+            "anemometer"
+        ]
+    },
+    {
+        "q": "Complete the sentence on evaporation:",
+        "type": "inline_dropdown",
+        "text": "Evaporation changes [0] water into an invisible [1].",
+        "dropdowns": [
+            {
+                "correct": "liquid",
+                "options": [
+                    "solid",
+                    "liquid",
+                    "frozen"
+                ]
+            },
+            {
+                "correct": "gas",
+                "options": [
+                    "liquid",
+                    "gas",
+                    "solid"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the driving force behind overland flow during a heavy rainfall event?",
+        "type": "short_answer",
+        "answers": [
+            "gravity",
+            "gravitational force",
+            "gravitational pull"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the term for the flat, low-lying land adjacent to a river formed by its own sediments?",
+        "type": "mcq",
+        "o": [
+            "Floodplain",
+            "Alluvial fan",
+            "Delta",
+            "Terrace"
+        ]
+    },
+    {
+        "q": "The Pacific Decadal Oscillation (PDO) is a long-term ocean fluctuation that affects global water cycles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the cloud type with its typical altitude:",
+        "type": "match",
+        "left": [
+            "Cirrostratus",
+            "Altocumulus",
+            "Stratocumulus",
+            "Cumulonimbus"
+        ],
+        "right": [
+            "Above 6000m",
+            "2000-6000m",
+            "Below 2000m",
+            "Vertically developed"
+        ]
+    },
+    {
+        "q": "Complete the sentence on condensation:",
+        "type": "inline_dropdown",
+        "text": "Condensation forms [0] high up in the [1].",
+        "dropdowns": [
+            {
+                "correct": "clouds",
+                "options": [
+                    "rocks",
+                    "clouds",
+                    "birds"
+                ]
+            },
+            {
+                "correct": "sky",
+                "options": [
+                    "ocean",
+                    "sky",
+                    "ground"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the properties of pure water.",
+        "type": "memory",
+        "pairs": {
+            "Colorless": "Has no color",
+            "Odorless": "Has no smell",
+            "Tasteless": "Has no flavor"
+        }
+    },
+    {
+        "q": "A ______ is an underground geological formation that stores and transmits significant quantities of groundwater.",
+        "type": "fill_blank",
+        "answers": [
+            "aquifer"
+        ],
+        "other_options": [
+            "aquitard",
+            "aquiclude",
+            "water table",
+            "spring"
+        ]
+    },
+    {
+        "q": "Which of the following contributes the least to global freshwater withdrawal?",
+        "type": "mcq",
+        "o": [
+            "Domestic use",
+            "Agricultural irrigation",
+            "Industrial manufacturing",
+            "Thermoelectric power cooling"
+        ]
+    },
+    {
+        "q": "The hydrologic soil group classification (A, B, C, D) indicates the runoff potential of soils.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call the process of water soaking into the ground surface and moving downward?",
+        "type": "short_answer",
+        "answers": [
+            "infiltration",
+            "groundwater recharge"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe LEFT for Warm weather, RIGHT for Cold weather events.",
+        "type": "swipe_cards",
+        "left_label": "Warm Weather",
+        "right_label": "Cold Weather",
+        "cards": {
+            "Rain": "left",
+            "Dew": "left",
+            "Snow": "right",
+            "Frost": "right"
+        }
+    },
+    {
+        "q": "The depth at which wave motion in the ocean stops affecting the seafloor is called the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "wave base"
+        ],
+        "other_options": [
+            "thermocline",
+            "pycnocline",
+            "halocline",
+            "photic zone"
+        ]
+    },
+    {
+        "q": "Which water quality parameter measures the cloudiness or haziness of water?",
+        "type": "mcq",
+        "o": [
+            "Turbidity",
+            "Salinity",
+            "Conductivity",
+            "Alkalinity"
+        ]
+    },
+    {
+        "q": "Rain that freezes on contact with cold surfaces near the ground is called freezing rain.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the fluvial landform with its description:",
+        "type": "match",
+        "left": [
+            "Alluvial fan",
+            "Delta",
+            "Natural levee",
+            "Point bar"
+        ],
+        "right": [
+            "Fan at mountain front",
+            "River mouth deposit",
+            "Raised river bank",
+            "Inner meander deposit"
+        ]
+    },
+    {
+        "q": "Unscramble this word meaning lower temperature.",
+        "type": "word_scramble",
+        "answer": "COOL",
+        "decoys": "JQ"
+    },
+    {
+        "q": "What is the process called when rising air cools and water vapor condenses?",
+        "type": "mcq",
+        "o": [
+            "Adiabatic cooling",
+            "Radiative cooling",
+            "Conduction",
+            "Advection"
+        ]
+    },
+    {
+        "q": "Unscramble this action word for conserving water.",
+        "type": "word_scramble",
+        "answer": "SAVE",
+        "decoys": "XW"
+    },
+    {
+        "q": "The ______ is the zone where freshwater and saltwater mix in a coastal aquifer.",
+        "type": "fill_blank",
+        "answers": [
+            "transition zone",
+            "mixing zone",
+            "interface"
+        ],
+        "other_options": [
+            "vadose zone",
+            "recharge zone",
+            "phreatic zone",
+            "capillary fringe"
+        ]
+    },
+    {
+        "q": "Complete the sentence about puddles:",
+        "type": "inline_dropdown",
+        "text": "Puddles disappear due to [0] or by soaking into the [1].",
+        "dropdowns": [
+            {
+                "correct": "evaporation",
+                "options": [
+                    "condensation",
+                    "evaporation",
+                    "freezing"
+                ]
+            },
+            {
+                "correct": "ground",
+                "options": [
+                    "ground",
+                    "sky",
+                    "sun"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Snowpack acts as a natural reservoir, releasing water slowly during melt season.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for the maximum rate at which water can enter the soil under given conditions?",
+        "type": "mcq",
+        "o": [
+            "Infiltration capacity",
+            "Percolation rate",
+            "Hydraulic conductivity",
+            "Field capacity"
+        ]
+    },
+    {
+        "q": "Name the process by which water escapes from plants into the atmosphere as vapor.",
+        "type": "short_answer",
+        "answers": [
+            "transpiration"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Coriolis effect causes water draining from a sink to rotate clockwise in the Northern Hemisphere.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following substances increases the surface tension of water?",
+        "type": "mcq",
+        "o": [
+            "None; pure water has the highest surface tension",
+            "Soap",
+            "Detergent",
+            "Oil"
+        ]
+    },
+    {
+        "q": "The SCS Curve Number method is used to estimate ______ from a rainfall event.",
+        "type": "fill_blank",
+        "answers": [
+            "runoff",
+            "direct runoff",
+            "excess rainfall"
+        ],
+        "other_options": [
+            "evaporation",
+            "infiltration",
+            "interception",
+            "groundwater recharge"
+        ]
+    },
+    {
+        "q": "What term describes the thin layer of groundwater just above the water table held by capillary forces?",
+        "type": "mcq",
+        "o": [
+            "Capillary fringe",
+            "Vadose zone",
+            "Phreatic zone",
+            "Hyporheic zone"
+        ]
+    },
+    {
+        "q": "The walker circulation is an east-west atmospheric circulation pattern over the tropical Pacific.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the river transport process with its mechanism:",
+        "type": "match",
+        "left": [
+            "Solution",
+            "Suspension",
+            "Saltation",
+            "Traction"
+        ],
+        "right": [
+            "Dissolved minerals",
+            "Fine particles floating",
+            "Particles bouncing",
+            "Particles rolling"
+        ]
+    },
+    {
+        "q": "A device used to measure the electrical conductivity of water to infer salinity is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "conductivity meter",
+            "EC meter",
+            "salinity probe"
+        ],
+        "other_options": [
+            "pH meter",
+            "thermometer",
+            "anemometer",
+            "barometer"
+        ]
+    },
+    {
+        "q": "Complete the sentence about state changes:",
+        "type": "inline_dropdown",
+        "text": "Ice changing to water is called [0], and water to ice is [1].",
+        "dropdowns": [
+            {
+                "correct": "melting",
+                "options": [
+                    "melting",
+                    "freezing",
+                    "boiling"
+                ]
+            },
+            {
+                "correct": "freezing",
+                "options": [
+                    "melting",
+                    "freezing",
+                    "evaporating"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which ocean is the saltiest on average?",
+        "type": "mcq",
+        "o": [
+            "Atlantic Ocean",
+            "Pacific Ocean",
+            "Indian Ocean",
+            "Arctic Ocean"
+        ]
+    },
+    {
+        "q": "What is the name for a river that only flows after heavy rainfall in arid regions?",
+        "type": "short_answer",
+        "answers": [
+            "ephemeral stream",
+            "wadi",
+            "arroyo",
+            "intermittent river"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Transpiration alone accounts for the majority of water vapor released from a forest ecosystem.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which scale is used to measure the intensity of tornadoes?",
+        "type": "mcq",
+        "o": [
+            "Enhanced Fujita scale",
+            "Saffir-Simpson scale",
+            "Richter scale",
+            "Beaufort scale"
+        ]
+    },
+    {
+        "q": "The chemical weathering of feldspar minerals in rocks consumes CO2 and produces ______ ions in water.",
+        "type": "fill_blank",
+        "answers": [
+            "bicarbonate",
+            "HCO3"
+        ],
+        "other_options": [
+            "sulfate",
+            "chloride",
+            "nitrate",
+            "phosphate"
+        ]
+    },
+    {
+        "q": "What is the primary cause of sea level rise due to global warming?",
+        "type": "mcq",
+        "o": [
+            "Thermal expansion and melting ice",
+            "Increased precipitation",
+            "More evaporation",
+            "River runoff"
+        ]
+    },
+    {
+        "q": "Match the extreme weather events with water.",
+        "type": "memory",
+        "pairs": {
+            "Drought": "A long period with no rain",
+            "Flood": "Too much water overflowing on land",
+            "Hurricane": "A massive storm formed over warm oceans"
+        }
+    },
+    {
+        "q": "The albedo of snow is very low, meaning it absorbs most sunlight.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the irrigation method with its typical application efficiency:",
+        "type": "match",
+        "left": [
+            "Surface flooding",
+            "Sprinkler",
+            "Center pivot",
+            "Subsurface drip"
+        ],
+        "right": [
+            "40-60%",
+            "65-75%",
+            "75-85%",
+            "85-95%"
+        ]
+    },
+    {
+        "q": "The zone where surface water and groundwater mix in a stream bed is the ______ zone.",
+        "type": "fill_blank",
+        "answers": [
+            "hyporheic"
+        ],
+        "other_options": [
+            "phreatic",
+            "vadose",
+            "riparian",
+            "littoral"
+        ]
+    },
+    {
+        "q": "An ombrotrophic bog receives all its water and nutrients from precipitation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe LEFT for Plant Action, RIGHT for Sun Action.",
+        "type": "swipe_cards",
+        "left_label": "Plant Action",
+        "right_label": "Sun Action",
+        "cards": {
+            "Transpiration": "left",
+            "Roots absorbing water": "left",
+            "Heating the ocean": "right",
+            "Causing evaporation": "right"
+        }
+    },
+    {
+        "q": "What is the term for the amount of water that a soil can hold against gravity after excess has drained?",
+        "type": "short_answer",
+        "answers": [
+            "field capacity"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble this word for a dripping pipe.",
+        "type": "word_scramble",
+        "answer": "LEAK",
+        "decoys": "VZ"
+    },
+    {
+        "q": "What is the dominant ion in seawater?",
+        "type": "mcq",
+        "o": [
+            "Chloride",
+            "Sodium",
+            "Sulfate",
+            "Magnesium"
+        ]
+    },
+    {
+        "q": "Frost flowers are delicate ice structures that form on thin sea ice during calm, cold conditions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "A ______ is a storm characterized by a sudden, heavy downpour of rain, often short in duration.",
+        "type": "fill_blank",
+        "answers": [
+            "cloudburst",
+            "downpour"
+        ],
+        "other_options": [
+            "drizzle",
+            "monsoon",
+            "hurricane",
+            "blizzard"
+        ]
+    },
+    {
+        "q": "Which instrument measures atmospheric pressure, useful for weather and water cycle prediction?",
+        "type": "mcq",
+        "o": [
+            "Barometer",
+            "Thermometer",
+            "Anemometer",
+            "Hygrometer"
+        ]
+    },
+    {
+        "q": "Lentic ecosystems refer to flowing water systems like rivers and streams.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the water pollutant category with an example:",
+        "type": "match",
+        "left": [
+            "Pathogen",
+            "Nutrient",
+            "Heavy metal",
+            "Organic chemical"
+        ],
+        "right": [
+            "E. coli",
+            "Nitrate",
+            "Lead",
+            "Pesticides"
+        ]
+    },
+    {
+        "q": "The thermal capacity of water is relatively ______, which helps moderate Earth's climate.",
+        "type": "fill_blank",
+        "answers": [
+            "high",
+            "large",
+            "great"
+        ],
+        "other_options": [
+            "low",
+            "small",
+            "negligible",
+            "zero"
+        ]
+    },
+    {
+        "q": "What is the term for precipitation that never reaches the ground because it evaporates while falling?",
+        "type": "mcq",
+        "o": [
+            "Virga",
+            "Sleet",
+            "Graupel",
+            "Mist"
+        ]
+    },
+    {
+        "q": "The residence time of water in the atmosphere is longer than in the deep ocean.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the term for a period of unusually dry weather that persists long enough to cause problems?",
+        "type": "short_answer",
+        "answers": [
+            "drought"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A flume is a man-made channel used to measure stream flow based on water depth and velocity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which global climate pattern involves periodic warming of the central and eastern Pacific Ocean?",
+        "type": "mcq",
+        "o": [
+            "El Nino",
+            "La Nina",
+            "PDO",
+            "AMO"
+        ]
+    },
+    {
+        "q": "The rate at which water flows through a unit cross-section of aquifer is called the ______ velocity.",
+        "type": "fill_blank",
+        "answers": [
+            "Darcy",
+            "specific discharge"
+        ],
+        "other_options": [
+            "actual",
+            "seepage",
+            "apparent",
+            "effective"
+        ]
+    },
+    {
+        "q": "Where is the majority of Earth's accessible, unfrozen freshwater found?",
+        "type": "mcq",
+        "o": [
+            "Groundwater",
+            "Lakes",
+            "Rivers",
+            "Soil moisture"
+        ]
+    },
+    {
+        "q": "Unscramble this word for a sink faucet.",
+        "type": "word_scramble",
+        "answer": "TAP",
+        "decoys": "QK"
+    },
+    {
+        "q": "Breaking waves on the shore are a direct result of the moon's gravitational pull.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence about animals and water:",
+        "type": "inline_dropdown",
+        "text": "Animals gain water by [0] it, and lose it by [1].",
+        "dropdowns": [
+            {
+                "correct": "drinking",
+                "options": [
+                    "drinking",
+                    "seeing",
+                    "hearing"
+                ]
+            },
+            {
+                "correct": "sweating",
+                "options": [
+                    "sleeping",
+                    "sweating",
+                    "sitting"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the water cycle flux with its typical global estimate:",
+        "type": "match",
+        "left": [
+            "Ocean evaporation",
+            "Land precipitation",
+            "Ocean precipitation",
+            "Land evapotranspiration"
+        ],
+        "right": [
+            "About 413,000 km3/yr",
+            "About 111,000 km3/yr",
+            "About 373,000 km3/yr",
+            "About 71,000 km3/yr"
+        ]
+    },
+    {
+        "q": "Complete the sentence on water storage:",
+        "type": "inline_dropdown",
+        "text": "A [0] is a large wall that holds back water to make a [1].",
+        "dropdowns": [
+            {
+                "correct": "dam",
+                "options": [
+                    "dam",
+                    "bridge",
+                    "road"
+                ]
+            },
+            {
+                "correct": "lake",
+                "options": [
+                    "lake",
+                    "desert",
+                    "mountain"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A piezometer is used to measure the ______ of groundwater at a specific depth.",
+        "type": "fill_blank",
+        "answers": [
+            "pressure",
+            "head",
+            "potential"
+        ],
+        "other_options": [
+            "velocity",
+            "temperature",
+            "salinity",
+            "turbidity"
+        ]
+    },
+    {
+        "q": "The Caspian Sea is technically the world's largest lake.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary cause of the spring and neap tide cycle on Earth?",
+        "type": "mcq",
+        "o": [
+            "Alignment of Sun, Moon, and Earth",
+            "Surface wind patterns",
+            "Thermohaline circulation",
+            "Coriolis effect"
+        ]
+    },
+    {
+        "q": "What is the Clausius-Clapeyron relationship primarily used to describe in hydrology?",
+        "type": "mcq",
+        "o": [
+            "Increase in atmospheric water holding capacity with temperature",
+            "Decrease in precipitation with altitude",
+            "Rate of groundwater flow through porous media",
+            "Evaporation rate from open water surfaces"
+        ]
+    },
+    {
+        "q": "The dimensionless ratio of inertial to gravitational forces in open channel flow is the ______ number.",
+        "type": "fill_blank",
+        "answers": [
+            "Froude"
+        ],
+        "other_options": [
+            "Reynolds",
+            "Weber",
+            "Mach",
+            "Strouhal"
+        ]
+    },
+    {
+        "q": "Isotopic composition of precipitation becomes progressively lighter (more negative delta-O-18) with increasing altitude.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following best describes the Bowen ratio in energy balance studies?",
+        "type": "mcq",
+        "o": [
+            "Ratio of sensible heat flux to latent heat flux",
+            "Ratio of net radiation to soil heat flux",
+            "Ratio of evaporation to precipitation",
+            "Ratio of runoff to infiltration"
+        ]
+    },
+    {
+        "q": "Name the technique that uses natural or introduced tracers to date groundwater age.",
+        "type": "short_answer",
+        "answers": [
+            "isotope hydrology",
+            "environmental tracer dating",
+            "radioisotope dating",
+            "tritium dating",
+            "carbon-14 dating"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the water infrastructure.",
+        "type": "memory",
+        "pairs": {
+            "Well": "A deep hole dug to access groundwater",
+            "Dam": "A barrier built to store river water",
+            "Pipe": "A tube that carries water to homes"
+        }
+    },
+    {
+        "q": "The Penman-Monteith equation is considered the standard method for estimating reference evapotranspiration.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe LEFT for Conserving, RIGHT for Using Up.",
+        "type": "swipe_cards",
+        "left_label": "Conserving",
+        "right_label": "Using Up",
+        "cards": {
+            "Collecting rainwater": "left",
+            "Using a broom instead of hose": "left",
+            "Washing car with running hose": "right",
+            "Watering lawn every day": "right"
+        }
+    },
+    {
+        "q": "What phenomenon describes the abrupt shift in ecosystem state due to changes in the hydrological regime?",
+        "type": "mcq",
+        "o": [
+            "Regime shift",
+            "Hysteresis",
+            "Resilience loss",
+            "Tipping point cascade"
+        ]
+    },
+    {
+        "q": "Match the groundwater model type with its primary application:",
+        "type": "match",
+        "left": [
+            "MODFLOW",
+            "FEFLOW",
+            "HYDRUS",
+            "SWAT"
+        ],
+        "right": [
+            "3D saturated flow",
+            "Finite element flow/transport",
+            "Unsaturated zone flow",
+            "Watershed scale simulation"
+        ]
+    },
+    {
+        "q": "In karst hydrogeology, the zone of rapid turbulent flow in enlarged fractures is called the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "conduit zone",
+            "phreatic conduit"
+        ],
+        "other_options": [
+            "vadose zone",
+            "epikarst",
+            "diffuse flow zone",
+            "matrix zone"
+        ]
+    },
+    {
+        "q": "The deuterium excess parameter in precipitation isotopes is primarily an indicator of evaporative conditions at the moisture source.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a key assumption in the Dupuit-Forchheimer approximation for unconfined aquifer flow?",
+        "type": "mcq",
+        "o": [
+            "Horizontal flow and hydraulic gradient equals water table slope",
+            "Vertical flow dominates horizontal flow",
+            "Aquifer is perfectly confined",
+            "No recharge occurs in the system"
+        ]
+    },
+    {
+        "q": "The storage coefficient for a confined aquifer is primarily related to water and aquifer ______.",
+        "type": "fill_blank",
+        "answers": [
+            "compressibility"
+        ],
+        "other_options": [
+            "porosity",
+            "permeability",
+            "thickness",
+            "transmissivity"
+        ]
+    },
+    {
+        "q": "What does the term 'specific yield' represent in groundwater hydrology?",
+        "type": "short_answer",
+        "answers": [
+            "volume of water that drains by gravity from saturated rock",
+            "drainable porosity",
+            "effective porosity"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Priestley-Taylor coefficient is typically higher for advective conditions compared to equilibrium conditions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which statistical distribution is most commonly used for extreme flood frequency analysis?",
+        "type": "mcq",
+        "o": [
+            "Gumbel distribution",
+            "Normal distribution",
+            "Poisson distribution",
+            "Uniform distribution"
+        ]
+    },
+    {
+        "q": "Match the uncertainty source in climate-hydrology projections with its type:",
+        "type": "match",
+        "left": [
+            "Emission scenario",
+            "Global climate model",
+            "Downscaling method",
+            "Hydrological model structure"
+        ],
+        "right": [
+            "RCP pathway choice",
+            "GCM structural error",
+            "Statistical vs dynamical",
+            "Parameterization error"
+        ]
+    },
+    {
+        "q": "The ______ effect describes how precipitation isotope ratios decrease with increasing rainfall amount in a storm.",
+        "type": "fill_blank",
+        "answers": [
+            "amount effect"
+        ],
+        "other_options": [
+            "altitude effect",
+            "continental effect",
+            "latitude effect",
+            "temperature effect"
+        ]
+    },
+    {
+        "q": "Unscramble the word for a deep hole to get groundwater.",
+        "type": "word_scramble",
+        "answer": "WELL",
+        "decoys": "XP"
+    },
+    {
+        "q": "Unscramble the word for morning water droplets on grass.",
+        "type": "word_scramble",
+        "answer": "DEW",
+        "decoys": "ZM"
+    },
+    {
+        "q": "Which process primarily controls the isotopic fractionation of water during evaporation from the ocean?",
+        "type": "mcq",
+        "o": [
+            "Kinetic fractionation during diffusion",
+            "Equilibrium fractionation at the interface",
+            "Rayleigh distillation",
+            "Biological uptake"
+        ]
+    },
+    {
+        "q": "Soil moisture storage capacity is a key parameter in the SCS curve number method.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary advantage of using L-band passive microwave remote sensing for soil moisture retrieval?",
+        "type": "mcq",
+        "o": [
+            "Deeper penetration through vegetation canopy",
+            "Higher spatial resolution",
+            "Immunity to cloud cover",
+            "Simultaneous temperature measurement"
+        ]
+    },
+    {
+        "q": "The ______ law describes the exponential decrease in permeability with depth in crystalline rocks.",
+        "type": "fill_blank",
+        "answers": [
+            "exponential decay",
+            "depth-decay"
+        ],
+        "other_options": [
+            "Darcy",
+            "Manning",
+            "Thiem",
+            "Theis"
+        ]
+    },
+    {
+        "q": "Name the global network that monitors stable isotopes in precipitation worldwide.",
+        "type": "short_answer",
+        "answers": [
+            "GNIP",
+            "Global Network of Isotopes in Precipitation",
+            "IAEA GNIP"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence on drinking ocean water:",
+        "type": "inline_dropdown",
+        "text": "Water from oceans is [0] to drink without removing the [1].",
+        "dropdowns": [
+            {
+                "correct": "unsafe",
+                "options": [
+                    "safe",
+                    "unsafe",
+                    "ready"
+                ]
+            },
+            {
+                "correct": "salt",
+                "options": [
+                    "sugar",
+                    "salt",
+                    "sand"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The flashiness index of a stream increases with watershed urbanization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the basis for the unit hydrograph theory proposed by Sherman?",
+        "type": "mcq",
+        "o": [
+            "Linear superposition of runoff response to unit excess rainfall",
+            "Nonlinear reservoir routing through channels",
+            "Statistical correlation of peak flow to basin area",
+            "Darcy-scale groundwater discharge response"
+        ]
+    },
+    {
+        "q": "Match the water quality index parameter with its significance:",
+        "type": "match",
+        "left": [
+            "BOD",
+            "COD",
+            "DO",
+            "TDS"
+        ],
+        "right": [
+            "Biodegradable organics",
+            "Total oxidizable matter",
+            "Dissolved oxygen level",
+            "Total dissolved solids"
+        ]
+    },
+    {
+        "q": "The recession limb of a hydrograph primarily represents ______ discharge from the watershed.",
+        "type": "fill_blank",
+        "answers": [
+            "groundwater",
+            "baseflow"
+        ],
+        "other_options": [
+            "overland flow",
+            "interflow",
+            "channel precipitation",
+            "direct runoff"
+        ]
+    },
+    {
+        "q": "In flood frequency analysis, the return period is the reciprocal of the annual exceedance probability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which parameter does the Theis solution for transient well hydraulics rely on as the well function argument?",
+        "type": "mcq",
+        "o": [
+            "u = r\u00b2S / 4Tt",
+            "W(u) = -Ei(-u)",
+            "s = Q / 4\u03c0T",
+            "t = time since pumping"
+        ]
+    },
+    {
+        "q": "The concept of virtual water trade refers to the water embedded in traded ______.",
+        "type": "fill_blank",
+        "answers": [
+            "commodities",
+            "goods",
+            "products",
+            "agricultural products"
+        ],
+        "other_options": [
+            "services",
+            "energy",
+            "technology",
+            "labor"
+        ]
+    },
+    {
+        "q": "What is the primary mechanism for groundwater recharge in semi-arid regions with deep water tables?",
+        "type": "mcq",
+        "o": [
+            "Episodic focused recharge via ephemeral streams",
+            "Diffuse recharge from rainfall",
+            "Irrigation return flow",
+            "Lateral inflow from mountains"
+        ]
+    },
+    {
+        "q": "Complete the sentence on drawing water:",
+        "type": "inline_dropdown",
+        "text": "Groundwater is pumped up using a [0] that reaches down into an [1].",
+        "dropdowns": [
+            {
+                "correct": "well",
+                "options": [
+                    "well",
+                    "cloud",
+                    "bucket"
+                ]
+            },
+            {
+                "correct": "aquifer",
+                "options": [
+                    "aquifer",
+                    "ocean",
+                    "volcano"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "GRACE satellite mission measures changes in Earth's gravity field to infer terrestrial water storage changes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the aquifer test method with its analysis approach:",
+        "type": "match",
+        "left": [
+            "Theis method",
+            "Cooper-Jacob method",
+            "Hantush method",
+            "Neuman method"
+        ],
+        "right": [
+            "Confined transient",
+            "Semi-log approximation",
+            "Leaky confined",
+            "Unconfined delayed yield"
+        ]
+    },
+    {
+        "q": "What does the term 'hydraulic diffusivity' represent in groundwater flow equations?",
+        "type": "short_answer",
+        "answers": [
+            "ratio of transmissivity to storativity",
+            "T/S",
+            "T divided by S"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The concept of blue water refers to water in rivers, lakes, and aquifers, while green water refers to soil moisture.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In isotope hydrology, what does the 'deuterium excess' parameter (d = \u03b4D - 8*\u03b418O) primarily indicate?",
+        "type": "mcq",
+        "o": [
+            "Kinetic fractionation during evaporation at source",
+            "Altitude of precipitation",
+            "Amount of rainfall",
+            "Groundwater residence time"
+        ]
+    },
+    {
+        "q": "The ______ is the theoretical maximum depth of the mixing layer in a lake during summer stratification.",
+        "type": "fill_blank",
+        "answers": [
+            "thermocline depth",
+            "metalimnion depth"
+        ],
+        "other_options": [
+            "photic zone",
+            "compensation depth",
+            "Secchi depth",
+            "epilimnion thickness"
+        ]
+    },
+    {
+        "q": "Monte Carlo simulation is commonly used in hydrology for uncertainty analysis of model parameters.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a key diagnostic ratio used to identify the source of groundwater salinity?",
+        "type": "mcq",
+        "o": [
+            "Br/Cl ratio",
+            "Na/K ratio",
+            "Ca/Mg ratio",
+            "HCO3/SO4 ratio"
+        ]
+    },
+    {
+        "q": "Match the ecohydrological process with its scale of operation:",
+        "type": "match",
+        "left": [
+            "Stomatal conductance",
+            "Root water uptake",
+            "Riparian zone buffering",
+            "Continental recycling"
+        ],
+        "right": [
+            "Leaf level",
+            "Rhizosphere",
+            "Hillslope to reach",
+            "Regional to global"
+        ]
+    },
+    {
+        "q": "A variogram in geostatistics describes the spatial ______ of hydrological variables.",
+        "type": "fill_blank",
+        "answers": [
+            "correlation",
+            "dependence",
+            "autocorrelation",
+            "structure"
+        ],
+        "other_options": [
+            "distribution",
+            "average",
+            "intensity",
+            "frequency"
+        ]
+    },
+    {
+        "q": "The term 'hyporheic exchange' refers to the mixing of surface water and groundwater in the streambed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does the Budyko framework describe in catchment hydrology?",
+        "type": "mcq",
+        "o": [
+            "Long-term water-energy balance partitioning",
+            "Flood frequency distribution",
+            "Groundwater flow to wells",
+            "Sediment transport capacity"
+        ]
+    },
+    {
+        "q": "The ______ curve relates rainfall intensity to duration and frequency for engineering design.",
+        "type": "fill_blank",
+        "answers": [
+            "IDF",
+            "Intensity-Duration-Frequency"
+        ],
+        "other_options": [
+            "rating",
+            "hydrograph",
+            "unit",
+            "mass"
+        ]
+    },
+    {
+        "q": "What is the primary objective of baseflow separation in hydrograph analysis?",
+        "type": "short_answer",
+        "answers": [
+            "separate surface runoff from groundwater contribution",
+            "distinguish quickflow from baseflow",
+            "partition direct runoff and baseflow"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Nash-Sutcliffe efficiency coefficient ranges from negative infinity to 1, with 1 indicating perfect model fit.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which noble gas is commonly used to determine paleo-recharge temperatures in groundwater?",
+        "type": "mcq",
+        "o": [
+            "Xenon",
+            "Helium",
+            "Argon",
+            "Radon"
+        ]
+    },
+    {
+        "q": "Match the remote sensing satellite with its primary water-related measurement:",
+        "type": "match",
+        "left": [
+            "GRACE",
+            "SMAP",
+            "TRMM",
+            "ICESat"
+        ],
+        "right": [
+            "Terrestrial water storage",
+            "Soil moisture",
+            "Tropical rainfall",
+            "Ice sheet elevation"
+        ]
+    },
+    {
+        "q": "The ______ number in fluid mechanics determines whether flow in a pipe or channel is laminar or turbulent.",
+        "type": "fill_blank",
+        "answers": [
+            "Reynolds"
+        ],
+        "other_options": [
+            "Froude",
+            "Weber",
+            "Prandtl",
+            "Nusselt"
+        ]
+    },
+    {
+        "q": "The concept of 'environmental flows' refers to the quantity and quality of water needed to sustain freshwater ecosystems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the fundamental principle behind the use of CFCs and SF6 as groundwater age tracers?",
+        "type": "mcq",
+        "o": [
+            "Known historical atmospheric input functions",
+            "Radioactive decay rates",
+            "Stable isotope fractionation",
+            "Chemical reaction kinetics"
+        ]
+    },
+    {
+        "q": "Rainfall-runoff models that use physical laws are called ______ models, while those based on input-output relationships are empirical.",
+        "type": "fill_blank",
+        "answers": [
+            "process-based",
+            "physically-based",
+            "deterministic"
+        ],
+        "other_options": [
+            "stochastic",
+            "black-box",
+            "conceptual",
+            "lumped"
+        ]
+    },
+    {
+        "q": "What term describes the integrated water vapor transport in the atmosphere from ocean to land?",
+        "type": "mcq",
+        "o": [
+            "Atmospheric river",
+            "Jet stream",
+            "Hadley circulation",
+            "Monsoon trough"
+        ]
+    },
+    {
+        "q": "A rating curve relates river stage to discharge.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the commonly used index for assessing meteorological drought based solely on precipitation.",
+        "type": "short_answer",
+        "answers": [
+            "SPI",
+            "Standardized Precipitation Index"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Kling-Gupta efficiency (KGE) decomposes model error into correlation, bias, and variability components.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following describes the 'old water paradox' in catchment hydrology?",
+        "type": "mcq",
+        "o": [
+            "Stream water during storms is predominantly pre-event water",
+            "Groundwater is older than surface water",
+            "Ocean water is oldest in the cycle",
+            "Rainwater becomes old quickly"
+        ]
+    },
+    {
+        "q": "Match the soil-water potential component with its driving force:",
+        "type": "match",
+        "left": [
+            "Matric potential",
+            "Osmotic potential",
+            "Gravitational potential",
+            "Pressure potential"
+        ],
+        "right": [
+            "Capillary and adsorption",
+            "Solute concentration",
+            "Elevation difference",
+            "External pressure"
+        ]
+    },
+    {
+        "q": "______ is the branch of hydrology that deals with the chemical constituents of water and their reactions.",
+        "type": "fill_blank",
+        "answers": [
+            "Hydrochemistry",
+            "Water chemistry",
+            "Geochemistry of water"
+        ],
+        "other_options": [
+            "Hydrometry",
+            "Hydraulics",
+            "Limnology",
+            "Potamology"
+        ]
+    },
+    {
+        "q": "Riparian vegetation can significantly influence stream temperature through shading.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary control on the residence time of water in the ocean's deep layer?",
+        "type": "mcq",
+        "o": [
+            "Thermohaline circulation rate",
+            "Surface wave mixing",
+            "Tidal amplitude",
+            "Precipitation minus evaporation"
+        ]
+    },
+    {
+        "q": "A ______ is a graphical representation of the flow at a site over a long period, often a water year.",
+        "type": "fill_blank",
+        "answers": [
+            "flow duration curve"
+        ],
+        "other_options": [
+            "hydrograph",
+            "rating curve",
+            "mass curve",
+            "hyetograph"
+        ]
+    },
+    {
+        "q": "What is the dominant clay mineral in vertisols that causes significant shrink-swell behavior affecting hydrology?",
+        "type": "short_answer",
+        "answers": [
+            "smectite",
+            "montmorillonite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Shields parameter is used to predict the initiation of sediment motion in a stream.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which approach is typically used to model unsteady flow in open channels?",
+        "type": "mcq",
+        "o": [
+            "Saint-Venant equations",
+            "Darcy-Weisbach equation",
+            "Manning equation",
+            "Bernoulli equation"
+        ]
+    },
+    {
+        "q": "Match the glacier mass balance term with its definition:",
+        "type": "match",
+        "left": [
+            "Accumulation",
+            "Ablation",
+            "Equilibrium line",
+            "Net balance"
+        ],
+        "right": [
+            "Gain of ice mass",
+            "Loss of ice mass",
+            "Zero balance altitude",
+            "Total gain minus loss"
+        ]
+    },
+    {
+        "q": "The instrument used to measure the size distribution of raindrops is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "disdrometer"
+        ],
+        "other_options": [
+            "rain gauge",
+            "anemometer",
+            "hygrometer",
+            "barometer"
+        ]
+    },
+    {
+        "q": "The concept of maximum probable flood (PMF) is derived from probable maximum precipitation (PMP).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does the term 'specific conductivity' normalized to 25 degrees Celsius represent?",
+        "type": "mcq",
+        "o": [
+            "Ability of water to conduct electricity, related to ion content",
+            "Thermal conductivity of the water body",
+            "Rate of groundwater flow",
+            "Sediment transport capacity"
+        ]
+    },
+    {
+        "q": "A solute transport model in groundwater must account for advection, dispersion, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "reaction",
+            "decay",
+            "retardation",
+            "sorption"
+        ],
+        "other_options": [
+            "precipitation",
+            "evaporation",
+            "condensation",
+            "sublimation"
+        ]
+    },
+    {
+        "q": "The term 'piezometric surface' refers to the level to which water rises in a well penetrating a confined aquifer.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary reason for the low hydraulic conductivity of clay soils despite their high porosity?",
+        "type": "mcq",
+        "o": [
+            "Small pore sizes and high tortuosity",
+            "Large grain size",
+            "Low mineral content",
+            "High organic matter"
+        ]
+    },
+    {
+        "q": "Name the process where rising acidic groundwater dissolves limestone creating extensive cave systems.",
+        "type": "short_answer",
+        "answers": [
+            "karstification",
+            "carbonate dissolution",
+            "chemical weathering of limestone"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A hundred-year flood is guaranteed to occur exactly once every century.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is a common statistical test for detecting trends in hydrological time series?",
+        "type": "mcq",
+        "o": [
+            "Mann-Kendall test",
+            "Student t-test",
+            "Chi-square test",
+            "F-test"
+        ]
+    },
+    {
+        "q": "Match the karst feature with its formation process:",
+        "type": "match",
+        "left": [
+            "Doline",
+            "Polje",
+            "Uvala",
+            "Cockpit"
+        ],
+        "right": [
+            "Dissolution collapse",
+            "Large flat-floored basin",
+            "Coalesced dolines",
+            "Conical hill landscape"
+        ]
+    },
+    {
+        "q": "The ______ is the depth in a water body below which net primary production is zero due to lack of light.",
+        "type": "fill_blank",
+        "answers": [
+            "compensation depth",
+            "critical depth"
+        ],
+        "other_options": [
+            "photic depth",
+            "euphotic depth",
+            "Secchi depth",
+            "mixing depth"
+        ]
+    },
+    {
+        "q": "Floodplain restoration can attenuate flood peaks downstream by increasing water storage and roughness.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary mechanism that sustains flow in ephemeral streams between rainfall events in arid regions?",
+        "type": "mcq",
+        "o": [
+            "They do not sustain flow; they dry up completely",
+            "Groundwater baseflow",
+            "Snowmelt runoff",
+            "Lake discharge"
+        ]
+    },
+    {
+        "q": "A ______ is a plot of cumulative rainfall against time showing the progress of a storm.",
+        "type": "fill_blank",
+        "answers": [
+            "mass curve",
+            "hyetograph"
+        ],
+        "other_options": [
+            "hydrograph",
+            "rating curve",
+            "flow duration curve",
+            "intensity curve"
+        ]
+    },
+    {
+        "q": "In water footprint accounting, grey water refers to the volume of freshwater required to assimilate pollutants.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for the longitudinal profile of a river that represents its gradient from source to mouth?",
+        "type": "short_answer",
+        "answers": [
+            "long profile",
+            "thalweg profile",
+            "river profile"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Atterberg limits of soils define the water content boundaries between solid, plastic, and liquid states.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which satellite altimetry mission provided the most accurate measurements of global sea level rise?",
+        "type": "mcq",
+        "o": [
+            "TOPEX/Poseidon and Jason series",
+            "Landsat series",
+            "MODIS Terra/Aqua",
+            "Sentinel-2"
+        ]
+    },
+    {
+        "q": "Match the soil moisture regime with its description:",
+        "type": "match",
+        "left": [
+            "Aridic",
+            "Udic",
+            "Ustic",
+            "Xeric"
+        ],
+        "right": [
+            "Dry most of year",
+            "Moist year-round",
+            "Moist seasonally, dry other times",
+            "Dry summer, moist winter"
+        ]
+    },
+    {
+        "q": "The W\u00f6hler curve relates the ______ of a material to the number of cycles to failure, used in dam engineering.",
+        "type": "fill_blank",
+        "answers": [
+            "stress",
+            "load",
+            "fatigue stress"
+        ],
+        "other_options": [
+            "strain",
+            "temperature",
+            "pressure",
+            "flow rate"
+        ]
+    },
+    {
+        "q": "The term 'fracture flow' in hydrogeology implies that water moves primarily through cracks and fissures rather than pore spaces.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary assumption of the Dupuit-Forchheimer approximation in radial flow to a well?",
+        "type": "mcq",
+        "o": [
+            "Hydraulic gradient equals slope of the water table and flow is horizontal",
+            "Flow is strictly vertical and controlled by recharge",
+            "Aquifer is perfectly confined with no leakage",
+            "Transmissivity decreases linearly with distance from the well"
+        ]
+    },
+    {
+        "q": "In the Theis solution for transient confined aquifer flow, the well function W(u) approaches ______ for small values of u.",
+        "type": "fill_blank",
+        "answers": [
+            "-0.5772 - ln(u)",
+            "the Cooper-Jacob approximation",
+            "a logarithmic function"
+        ],
+        "other_options": [
+            "exp(-u)/u",
+            "sqrt(pi/4u)",
+            "erfc(sqrt(u))",
+            "bessel function"
+        ]
+    },
+    {
+        "q": "The Hantush-Jacob solution accounts for leakage from an adjacent aquifer through a confining layer.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which dimensionless parameter governs the transition from confined to unconfined behavior during a pumping test?",
+        "type": "mcq",
+        "o": [
+            "The Boulton delay index",
+            "The Reynolds number",
+            "The Froude number",
+            "The Peclet number"
+        ]
+    },
+    {
+        "q": "In multi-component reactive transport modeling, the stoichiometric matrix relates species to ______ reactions.",
+        "type": "fill_blank",
+        "answers": [
+            "equilibrium",
+            "kinetic",
+            "chemical"
+        ],
+        "other_options": [
+            "physical",
+            "biological",
+            "radioactive",
+            "phase-change"
+        ]
+    },
+    {
+        "q": "The double-porosity model in fractured rock hydrogeology conceptualizes distinct flow domains for fractures and matrix blocks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does the acronym PEST stand for in hydrological model calibration?",
+        "type": "mcq",
+        "o": [
+            "Parameter ESTimation",
+            "Precipitation-Evapotranspiration Simulation Tool",
+            "Probabilistic Ensemble Streamflow Transformer",
+            "Parallelized Environmental Solver Toolkit"
+        ]
+    },
+    {
+        "q": "Match the groundwater age tracer with its effective dating range:",
+        "type": "match",
+        "left": [
+            "Tritium (3H)",
+            "Carbon-14 (14C)",
+            "Krypton-81 (81Kr)",
+            "Chlorofluorocarbons (CFCs)"
+        ],
+        "right": [
+            "Up to ~60 years",
+            "Up to ~40,000 years",
+            "Up to ~1,300,000 years",
+            "Up to ~70 years"
+        ]
+    },
+    {
+        "q": "The spectral analysis of karst spring hydrographs reveals distinct ______ domains characterized by different recession coefficients.",
+        "type": "fill_blank",
+        "answers": [
+            "flow",
+            "recession",
+            "discharge"
+        ],
+        "other_options": [
+            "chemical",
+            "thermal",
+            "isotopic",
+            "biological"
+        ]
+    },
+    {
+        "q": "The specific storage of an aquifer is independent of the compressibility of water.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the fundamental principle underlying the Brutsaert-Nieber solution for baseflow recession analysis?",
+        "type": "mcq",
+        "o": [
+            "Linearized Boussinesq equation for unconfined aquifer drainage",
+            "Exponential decay of soil moisture storage",
+            "Power-law relationship between storage and discharge",
+            "Kinematic wave approximation for hillslope flow"
+        ]
+    },
+    {
+        "q": "In isotope hydrology, the local meteoric water line (LMWL) typically deviates from the global meteoric water line (GMWL) due to ______ conditions.",
+        "type": "fill_blank",
+        "answers": [
+            "local climatic",
+            "evaporative",
+            "regional"
+        ],
+        "other_options": [
+            "geothermal",
+            "tectonic",
+            "oceanic",
+            "atmospheric pressure"
+        ]
+    },
+    {
+        "q": "The Neumann solution for unconfined aquifer pumping tests incorporates both early-time and late-time Theis curves with delayed yield in between.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following equations describes non-Darcian flow in highly permeable media near pumping wells?",
+        "type": "mcq",
+        "o": [
+            "Forchheimer equation",
+            "Kozeny-Carman equation",
+            "Hagen-Poiseuille equation",
+            "Thiem equation"
+        ]
+    },
+    {
+        "q": "The ______ method uses temperature profiles in boreholes to estimate vertical groundwater flow velocity.",
+        "type": "fill_blank",
+        "answers": [
+            "temperature logging",
+            "distributed temperature sensing",
+            "DTS"
+        ],
+        "other_options": [
+            "resistivity",
+            "gamma ray",
+            "neutron",
+            "sonic"
+        ]
+    },
+    {
+        "q": "What is the primary source of uncertainty in using radiocarbon dating for very old groundwater (>30,000 years)?",
+        "type": "short_answer",
+        "answers": [
+            "dead carbon dissolution",
+            "carbonate dissolution",
+            "matrix diffusion",
+            "geogenic carbon input"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The concept of ecohydrological separation suggests that plants use water from different subsurface pools than streams.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which numerical technique is most commonly used to solve the Richards equation for variably saturated flow?",
+        "type": "mcq",
+        "o": [
+            "Finite difference with implicit Picard iteration",
+            "Spectral collocation method",
+            "Lattice Boltzmann method",
+            "Smoothed particle hydrodynamics"
+        ]
+    },
+    {
+        "q": "Match the geostatistical method with its primary purpose in hydrogeology:",
+        "type": "match",
+        "left": [
+            "Kriging",
+            "Sequential Gaussian Simulation",
+            "Markov Chain Monte Carlo",
+            "Ensemble Kalman Filter"
+        ],
+        "right": [
+            "Spatial interpolation",
+            "Uncertainty quantification",
+            "Bayesian parameter inference",
+            "Data assimilation in real-time"
+        ]
+    },
+    {
+        "q": "The transmissivity of a heterogeneous aquifer can be estimated from specific capacity data using the empirical ______ method.",
+        "type": "fill_blank",
+        "answers": [
+            "log-log",
+            "regression",
+            "correlation"
+        ],
+        "other_options": [
+            "gradient",
+            "normalized",
+            "inverse",
+            "direct"
+        ]
+    },
+    {
+        "q": "The Peclet number in solute transport quantifies the relative importance of advection to hydrodynamic dispersion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the fundamental assumption in the Cooper-Jacob straight-line method for analyzing pumping test data?",
+        "type": "mcq",
+        "o": [
+            "u is sufficiently small (u < 0.01)",
+            "The aquifer is perfectly confined and infinite",
+            "Flow is steady-state",
+            "Wellbore storage is negligible"
+        ]
+    },
+    {
+        "q": "The method of ______ is used to decompose a complex hydrograph into component waves for baseflow separation.",
+        "type": "fill_blank",
+        "answers": [
+            "digital filtering",
+            "recursive filtering",
+            "signal processing"
+        ],
+        "other_options": [
+            "graphical separation",
+            "chemical mass balance",
+            "isotope mixing",
+            "numerical integration"
+        ]
+    },
+    {
+        "q": "Name the dimensionless number used to characterize the stability of stratified flow in estuaries.",
+        "type": "short_answer",
+        "answers": [
+            "Richardson number",
+            "gradient Richardson number",
+            "bulk Richardson number"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In karst aquifer modeling, the MODFLOW Conduit Flow Process (CFP) allows for coupled laminar and turbulent flow.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a defining characteristic of a gaining stream?",
+        "type": "mcq",
+        "o": [
+            "Stream stage is lower than the adjacent water table",
+            "Stream stage is higher than the adjacent water table",
+            "No hydraulic connection with groundwater",
+            "Flow is entirely dependent on runoff"
+        ]
+    },
+    {
+        "q": "The ______ index is a topographic metric used in TOPMODEL to represent the propensity of a location to become saturated.",
+        "type": "fill_blank",
+        "answers": [
+            "topographic wetness",
+            "TWI",
+            "wetness"
+        ],
+        "other_options": [
+            "slope",
+            "curvature",
+            "elevation",
+            "aspect"
+        ]
+    },
+    {
+        "q": "The recession constant in Maillet's formula for baseflow recession is independent of catchment geology.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the primary mechanism for the formation of 'fairy circles' in arid ecosystems as related to hydrology?",
+        "type": "mcq",
+        "o": [
+            "Self-organized vegetation patterns driven by water competition",
+            "Termite activity altering soil infiltration",
+            "Spatially random rainfall distribution",
+            "Geogenic gas seeps"
+        ]
+    },
+    {
+        "q": "Match the type of uncertainty in hydrological modeling with its source:",
+        "type": "match",
+        "left": [
+            "Aleatory uncertainty",
+            "Epistemic uncertainty",
+            "Structural uncertainty",
+            "Parametric uncertainty"
+        ],
+        "right": [
+            "Inherent randomness of system",
+            "Lack of knowledge",
+            "Model conceptualization error",
+            "Calibration error"
+        ]
+    },
+    {
+        "q": "In stable isotope mixing models for hydrograph separation, the fraction of event water is calculated using ______ mass balance.",
+        "type": "fill_blank",
+        "answers": [
+            "isotopic",
+            "two-component",
+            "tracer"
+        ],
+        "other_options": [
+            "chemical",
+            "thermal",
+            "hydraulic",
+            "statistical"
+        ]
+    },
+    {
+        "q": "The concept of 'representative elementary volume' (REV) is essential for applying continuum mechanics to porous media.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the computational basis for the widely used SWAT model's hydrological response unit (HRU) concept?",
+        "type": "mcq",
+        "o": [
+            "Unique combinations of land use, soil type, and slope within sub-basins",
+            "Grid cells of uniform size across the entire watershed",
+            "Triangulated irregular network based on topography",
+            "Finite element mesh conforming to river network"
+        ]
+    },
+    {
+        "q": "The van Genuchten-Mualem model relates soil water retention to hydraulic conductivity using parameter ______.",
+        "type": "fill_blank",
+        "answers": [
+            "m = 1 - 1/n"
+        ],
+        "other_options": [
+            "alpha",
+            "theta_r",
+            "theta_s",
+            "K_s"
+        ]
+    },
+    {
+        "q": "What is the main advantage of using electrical resistivity tomography (ERT) for hydrogeological characterization?",
+        "type": "short_answer",
+        "answers": [
+            "non-invasive imaging of subsurface moisture and lithology",
+            "2D/3D mapping of resistivity contrasts",
+            "time-lapse monitoring of flow processes"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The depth of the weathering front in crystalline rock aquifers controls the available storage for groundwater.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following correctly describes the process of 'marine ice sheet instability'?",
+        "type": "mcq",
+        "o": [
+            "Grounding line retreat on retrograde slopes leading to irreversible ice loss",
+            "Surface meltwater percolating through ice and lubricating the bed",
+            "Calving of icebergs at the ice-ocean interface",
+            "Thermal expansion of ocean water melting marine-terminating glaciers"
+        ]
+    },
+    {
+        "q": "Match the advanced oxidation process with its target pollutant class:",
+        "type": "match",
+        "left": [
+            "UV/H2O2",
+            "Fenton reaction",
+            "Photocatalysis (TiO2/UV)",
+            "Ozonation"
+        ],
+        "right": [
+            "Endocrine disruptors",
+            "Industrial dyes",
+            "Pharmaceuticals",
+            "Pathogen disinfection"
+        ]
+    },
+    {
+        "q": "The ______ technique uses fiber optic cables to measure temperature along a borehole or stream reach with high spatial resolution.",
+        "type": "fill_blank",
+        "answers": [
+            "distributed temperature sensing",
+            "DTS",
+            "fiber optic DTS"
+        ],
+        "other_options": [
+            "thermocouple",
+            "thermistor string",
+            "infrared imaging",
+            "heat pulse"
+        ]
+    },
+    {
+        "q": "The advection-dispersion equation (ADE) fails to capture early arrival and late tailing of tracer breakthrough curves in heterogeneous media.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary assumption behind the use of the Thiem equation for steady-state radial flow to a well?",
+        "type": "mcq",
+        "o": [
+            "Fully penetrating well in a confined, homogeneous, isotropic aquifer",
+            "Transient flow to a partially penetrating well",
+            "Flow through an unconfined aquifer with delayed yield",
+            "Slug test response in a low-permeability formation"
+        ]
+    },
+    {
+        "q": "In thermochronology applied to landscape evolution, the ______ age records the time since a rock cooled below a closure temperature.",
+        "type": "fill_blank",
+        "answers": [
+            "cooling",
+            "apatite fission track",
+            "thermochronologic"
+        ],
+        "other_options": [
+            "depositional",
+            "crystallization",
+            "metamorphic",
+            "eruption"
+        ]
+    },
+    {
+        "q": "The concept of 'water yield' in a catchment context refers to the long-term average streamflow divided by precipitation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which method is most appropriate for estimating recharge in semi-arid regions with thick unsaturated zones?",
+        "type": "mcq",
+        "o": [
+            "Chloride mass balance",
+            "Water table fluctuation method",
+            "Darcy's law in the saturated zone",
+            "Baseflow recession analysis"
+        ]
+    },
+    {
+        "q": "Name the thermodynamic potential that describes the energy state of soil water relative to pure free water.",
+        "type": "short_answer",
+        "answers": [
+            "soil water potential",
+            "total water potential",
+            "chemical potential of water"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The dual-permeability model simulates flow in two interacting pore domains: matrix and macropores.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary advantage of using the GLUE (Generalized Likelihood Uncertainty Estimation) methodology?",
+        "type": "mcq",
+        "o": [
+            "No strict assumption about error structure; multiple acceptable models",
+            "Guaranteed convergence to global optimum parameter set",
+            "Computationally efficient for high-dimensional problems",
+            "Exact confidence intervals derived from statistical theory"
+        ]
+    },
+    {
+        "q": "Match the hydrogeophysical method with the physical property it measures:",
+        "type": "match",
+        "left": [
+            "Ground Penetrating Radar",
+            "Electrical Resistivity",
+            "Nuclear Magnetic Resonance",
+            "Seismic Refraction"
+        ],
+        "right": [
+            "Dielectric permittivity",
+            "Electrical conductivity",
+            "Water content directly",
+            "P-wave velocity"
+        ]
+    },
+    {
+        "q": "The critical zone is defined as the near-surface layer from the top of the vegetation canopy to the base of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "weathered bedrock",
+            "groundwater",
+            "the aquifer"
+        ],
+        "other_options": [
+            "soil",
+            "regolith",
+            "the root zone",
+            "the vadose zone"
+        ]
+    },
+    {
+        "q": "Boron isotopes (delta-11B) are used to trace sources of groundwater contamination from domestic wastewater.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the dominant mechanism for arsenic mobilization in reducing alluvial aquifers of South and Southeast Asia?",
+        "type": "mcq",
+        "o": [
+            "Reductive dissolution of iron oxyhydroxides",
+            "Oxidation of arsenopyrite minerals",
+            "Ion exchange with clay minerals",
+            "Anthropogenic contamination from pesticides"
+        ]
+    },
+    {
+        "q": "The method of ______ is used to infer aquifer hydraulic properties from the tidal response of groundwater levels.",
+        "type": "fill_blank",
+        "answers": [
+            "tidal analysis",
+            "tidal response",
+            "earth tide analysis"
+        ],
+        "other_options": [
+            "slug test",
+            "constant head test",
+            "pumping test",
+            "recovery analysis"
+        ]
+    },
+    {
+        "q": "What is the term for the process where CO2 is injected into deep saline aquifers for climate mitigation?",
+        "type": "short_answer",
+        "answers": [
+            "carbon capture and storage",
+            "CCS",
+            "geologic carbon sequestration",
+            "carbon sequestration"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Keeling plot method uses stable carbon isotopes to partition ecosystem respiration fluxes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which parameter in the Craig-Gordon model primarily controls the isotopic composition of evaporating water?",
+        "type": "mcq",
+        "o": [
+            "Relative humidity of the overlying air",
+            "Wind speed above the water surface",
+            "Water temperature",
+            "Salinity of the water"
+        ]
+    },
+    {
+        "q": "In the context of stochastic hydrology, the Hurst phenomenon refers to long-term ______ in hydrological time series.",
+        "type": "fill_blank",
+        "answers": [
+            "persistence",
+            "memory",
+            "dependence",
+            "autocorrelation"
+        ],
+        "other_options": [
+            "trend",
+            "periodicity",
+            "randomness",
+            "stationarity"
+        ]
+    },
+    {
+        "q": "The residence time distribution (RTD) of a catchment completely characterizes its transport properties independent of input.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What does the SUFI-2 algorithm in SWAT-CUP primarily optimize during calibration?",
+        "type": "mcq",
+        "o": [
+            "Parameter uncertainty ranges to bracket most observed data",
+            "Least squares fit to the observed hydrograph",
+            "Maximum likelihood estimation of parameters",
+            "Genetic algorithm evolution of parameter sets"
+        ]
+    },
+    {
+        "q": "Match the type of baseflow recession analysis with its underlying assumption:",
+        "type": "match",
+        "left": [
+            "Maillet (exponential)",
+            "Brutsaert-Nieber",
+            "Wittenberg",
+            "Vogel and Kroll"
+        ],
+        "right": [
+            "Linear reservoir",
+            "Boussinesq equation",
+            "Power-law relationship",
+            "Regional regression"
+        ]
+    },
+    {
+        "q": "The ______ number relates the rate of advection to the rate of diffusion in solute transport.",
+        "type": "fill_blank",
+        "answers": [
+            "Peclet"
+        ],
+        "other_options": [
+            "Reynolds",
+            "Froude",
+            "Schmidt",
+            "Sherwood"
+        ]
+    },
+    {
+        "q": "The diffusive wave approximation of the Saint-Venant equations neglects both inertial terms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the significance of the Gibbs diagram in hydrogeochemistry?",
+        "type": "mcq",
+        "o": [
+            "Delineates the dominant control on water chemistry: precipitation, rock, or evaporation",
+            "Classifies water types based on cation and anion ratios",
+            "Determines the saturation index of minerals",
+            "Calculates ion exchange capacity"
+        ]
+    },
+    {
+        "q": "What is the primary purpose of the 'shut-in' test during a packer test in fractured rock?",
+        "type": "short_answer",
+        "answers": [
+            "to measure pressure recovery and estimate formation properties",
+            "analysis of pressure decay",
+            "transient pressure response"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The sap flow velocity measured by heat pulse methods is directly proportional to transpiration rate.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which statistical technique is used to extract independent source signals from mixed chemical signatures in groundwater?",
+        "type": "mcq",
+        "o": [
+            "Independent Component Analysis (ICA)",
+            "Principal Component Analysis (PCA)",
+            "Cluster Analysis",
+            "Discriminant Analysis"
+        ]
+    },
+    {
+        "q": "The ______ ratio in groundwater is used as an indicator of the extent of water-rock interaction and cation exchange.",
+        "type": "fill_blank",
+        "answers": [
+            "sodium to chloride",
+            "Na/Cl",
+            "Na:Cl"
+        ],
+        "other_options": [
+            "calcium to magnesium",
+            "bicarbonate to sulfate",
+            "potassium to sodium",
+            "chloride to bromide"
+        ]
+    },
+    {
+        "q": "In hyporheic zone studies, the Damkohler number relates the reaction rate to the transport rate.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does the 'Shuttleworth-Wallace model' estimate that single-source models like Penman-Monteith do not?",
+        "type": "mcq",
+        "o": [
+            "Separate evaporation from soil and transpiration from canopy",
+            "Energy balance closure at the land surface",
+            "Atmospheric boundary layer feedback on evapotranspiration",
+            "Interception loss from wet canopies"
+        ]
+    },
+    {
+        "q": "Match the groundwater flow regime with its diagnostic Reynolds number range:",
+        "type": "match",
+        "left": [
+            "Darcian laminar",
+            "Non-Darcian laminar",
+            "Turbulent",
+            "Inertial"
+        ],
+        "right": [
+            "Re < 1",
+            "1 < Re < 10",
+            "Re > 100",
+            "10 < Re < 100"
+        ]
+    },
+    {
+        "q": "The cone of depression in an artesian aquifer expands at a rate determined by the aquifer ______.",
+        "type": "fill_blank",
+        "answers": [
+            "diffusivity",
+            "T/S",
+            "transmissivity divided by storativity"
+        ],
+        "other_options": [
+            "porosity",
+            "thickness",
+            "depth",
+            "conductivity"
+        ]
+    },
+    {
+        "q": "The Soil Conservation Service curve number method is theoretically limited to event-based simulations and cannot be used for continuous modeling.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the primary function of a Parshall flume in open channel hydrometry?",
+        "type": "mcq",
+        "o": [
+            "Measuring flow rate via a constricted throat causing critical flow",
+            "Aerating water to increase dissolved oxygen",
+            "Sediment trapping for bedload measurement",
+            "Fish passage around hydraulic structures"
+        ]
+    },
+    {
+        "q": "The atmospheric demand for water vapor is often represented by the vapor pressure ______.",
+        "type": "fill_blank",
+        "answers": [
+            "deficit",
+            "VPD",
+            "difference"
+        ],
+        "other_options": [
+            "saturation",
+            "partial",
+            "gradient",
+            "ratio"
+        ]
+    },
+    {
+        "q": "Name the thermodynamic cycle that describes the movement of atmospheric water vapor from ocean to land.",
+        "type": "short_answer",
+        "answers": [
+            "hydrologic cycle",
+            "water cycle",
+            "atmospheric water cycle"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Helium-4 accumulation in groundwater is solely derived from atmospheric sources.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following best describes the 'damping depth' in the context of soil temperature waves?",
+        "type": "mcq",
+        "o": [
+            "Depth where amplitude decreases to 1/e of surface value",
+            "Depth where temperature remains constant year-round",
+            "Depth of the active layer above permafrost",
+            "Depth of the rooting zone"
+        ]
+    },
+    {
+        "q": "Match the advanced water treatment technology with its primary removal mechanism:",
+        "type": "match",
+        "left": [
+            "Forward Osmosis",
+            "Electrodialysis",
+            "Membrane Distillation",
+            "Capacitive Deionization"
+        ],
+        "right": [
+            "Osmotic pressure gradient",
+            "Electric potential and ion-selective membranes",
+            "Vapor pressure and hydrophobic membrane",
+            "Electrostatic adsorption on electrodes"
+        ]
+    },
+    {
+        "q": "The modified Fournier index is used to quantify rainfall ______ for erosion risk assessment.",
+        "type": "fill_blank",
+        "answers": [
+            "erosivity",
+            "aggressiveness",
+            "intensity concentration"
+        ],
+        "other_options": [
+            "amount",
+            "frequency",
+            "duration",
+            "variability"
+        ]
+    },
+    {
+        "q": "Ecohydrological optimality theory suggests that vegetation adjusts its canopy conductance to maximize carbon gain while minimizing water loss.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary limitation of using conservative tracers for characterizing multi-phase flow in the vadose zone?",
+        "type": "mcq",
+        "o": [
+            "They only track the water phase, not air or NAPL movement",
+            "They sorb strongly to clay minerals",
+            "They degrade rapidly in aerobic conditions",
+            "Their density differs from water causing segregation"
+        ]
+    },
+    {
+        "q": "The Thornthwaite water balance model uses a ______ approach to track soil moisture storage.",
+        "type": "fill_blank",
+        "answers": [
+            "bookkeeping",
+            "bucket",
+            "accounting"
+        ],
+        "other_options": [
+            "physically-based",
+            "stochastic",
+            "finite element",
+            "analytical"
+        ]
+    },
+    {
+        "q": "Radon-222 in groundwater can be used to identify locations of submarine groundwater discharge.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of kriging with external drift in hydrogeological mapping?",
+        "type": "mcq",
+        "o": [
+            "Incorporating secondary variables like topography to improve water table interpolation",
+            "Estimating transmissivity from specific capacity data",
+            "Identifying outliers in water quality datasets",
+            "Simulating multiple equiprobable realizations of aquifer properties"
+        ]
+    },
+    {
+        "q": "What is the principle behind the 'dilution gauging' method for streamflow measurement?",
+        "type": "short_answer",
+        "answers": [
+            "conservation of tracer mass",
+            "mass balance of injected tracer",
+            "tracer dilution equation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The fractal dimension of a river network is related to the scaling exponent in Hack's law.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]

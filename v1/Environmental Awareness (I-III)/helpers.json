@@ -1,0 +1,6848 @@
+[
+    {
+        "q": "Who helps us when we are sick?",
+        "type": "mcq",
+        "o": [
+            "Doctor",
+            "Teacher",
+            "Baker",
+            "Driver"
+        ]
+    },
+    {
+        "q": "A ______ puts out fires.",
+        "type": "fill_blank",
+        "answers": [
+            "firefighter"
+        ],
+        "other_options": [
+            "policeman",
+            "postman",
+            "doctor"
+        ]
+    },
+    {
+        "q": "What does a teacher use to write on the blackboard?",
+        "type": "mcq",
+        "o": [
+            "Chalk",
+            "Stethoscope",
+            "Spatula",
+            "Whistle"
+        ]
+    },
+    {
+        "q": "We should say 'thank you' to community helpers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who brings us letters and parcels?",
+        "type": "mcq",
+        "o": [
+            "Postman",
+            "Plumber",
+            "Electrician",
+            "Carpenter"
+        ]
+    },
+    {
+        "q": "Name the person who grows crops for us.",
+        "type": "short_answer",
+        "answers": [
+            "farmer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Where does a doctor usually work?",
+        "type": "mcq",
+        "o": [
+            "Hospital",
+            "School",
+            "Police Station",
+            "Bank"
+        ]
+    },
+    {
+        "q": "A baker bakes bread in a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "bakery"
+        ],
+        "other_options": [
+            "hospital",
+            "garage",
+            "station"
+        ]
+    },
+    {
+        "q": "Match the helper with their vehicle:",
+        "type": "match",
+        "left": [
+            "Pilot",
+            "Sailor",
+            "Driver",
+            "Astronaut"
+        ],
+        "right": [
+            "Aeroplane",
+            "Ship",
+            "Bus",
+            "Spaceship"
+        ]
+    },
+    {
+        "q": "A policeman catches thieves.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which tool does a barber use?",
+        "type": "mcq",
+        "o": [
+            "Scissors",
+            "Wrench",
+            "Plough",
+            "Ladder"
+        ]
+    },
+    {
+        "q": "Who teaches us to read and write?",
+        "type": "mcq",
+        "o": [
+            "Teacher",
+            "Nurse",
+            "Chef",
+            "Sweeper"
+        ]
+    },
+    {
+        "q": "How many colors are in a standard traffic light used by traffic police?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "Unscramble the word: This person helps you learn new things in school.",
+        "type": "word_scramble",
+        "answer": "TEACHER",
+        "decoys": "QZ"
+    },
+    {
+        "q": "What does a chef use to cook food?",
+        "type": "mcq",
+        "o": [
+            "Pan",
+            "Hammer",
+            "Syringe",
+            "Hose"
+        ]
+    },
+    {
+        "q": "Complete the sentence about our food helpers:",
+        "type": "inline_dropdown",
+        "text": "The [0] grows food for us in the field, and the [1] cooks it in the restaurant.",
+        "dropdowns": [
+            {
+                "correct": "farmer",
+                "options": [
+                    "plumber",
+                    "farmer",
+                    "pilot"
+                ]
+            },
+            {
+                "correct": "chef",
+                "options": [
+                    "chef",
+                    "tailor",
+                    "mason"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "We must not tease the animals that helpers use, like police dogs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who fixes a leaking tap in our house?",
+        "type": "mcq",
+        "o": [
+            "Plumber",
+            "Tailor",
+            "Painter",
+            "Mason"
+        ]
+    },
+    {
+        "q": "Match the community helper to the tool they use.",
+        "type": "memory",
+        "pairs": {
+            "Doctor": "Stethoscope",
+            "Teacher": "Chalk",
+            "Firefighter": "Hose",
+            "Carpenter": "Hammer"
+        }
+    },
+    {
+        "q": "Which of these is NOT a tool used by a police officer?",
+        "type": "odd_one_out",
+        "options": [
+            "Whistle",
+            "Handcuffs",
+            "Badge",
+            "Radio",
+            "Oven"
+        ],
+        "correct": "Oven"
+    },
+    {
+        "q": "Name the place where a postman works.",
+        "type": "short_answer",
+        "answers": [
+            "post office"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "An ______ repairs electrical wires and switches.",
+        "type": "fill_blank",
+        "answers": [
+            "electrician"
+        ],
+        "other_options": [
+            "plumber",
+            "gardener",
+            "cobbler"
+        ]
+    },
+    {
+        "q": "Who stitches our clothes?",
+        "type": "mcq",
+        "o": [
+            "Tailor",
+            "Mechanic",
+            "Farmer",
+            "Sweeper"
+        ]
+    },
+    {
+        "q": "What does a gardener use to water plants?",
+        "type": "mcq",
+        "o": [
+            "Watering can",
+            "Saw",
+            "Trowel",
+            "Stethoscope"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for people who work outdoors, LEFT for indoors.",
+        "type": "swipe_cards",
+        "left_label": "Indoors",
+        "right_label": "Outdoors",
+        "cards": {
+            "Teacher": "left",
+            "Farmer": "right",
+            "Doctor": "left",
+            "Traffic Police": "right"
+        }
+    },
+    {
+        "q": "A firefighter uses a stethoscope to check patients.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who flies an aeroplane?",
+        "type": "mcq",
+        "o": [
+            "Pilot",
+            "Captain",
+            "Driver",
+            "Conductor"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person brings letters to your home.",
+        "type": "word_scramble",
+        "answer": "POSTMAN",
+        "decoys": "JZ"
+    },
+    {
+        "q": "Complete the sentence about our transport helpers:",
+        "type": "inline_dropdown",
+        "text": "The [0] drives the school bus on the road, and the [1] flies airplanes in the sky.",
+        "dropdowns": [
+            {
+                "correct": "bus driver",
+                "options": [
+                    "bus driver",
+                    "baker",
+                    "cobbler"
+                ]
+            },
+            {
+                "correct": "pilot",
+                "options": [
+                    "pilot",
+                    "sweeper",
+                    "farmer"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The person who cuts men's hair is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "barber"
+        ],
+        "other_options": [
+            "tailor",
+            "chef",
+            "butcher"
+        ]
+    },
+    {
+        "q": "How many wheels does a regular school bus driven by a bus driver have?",
+        "type": "slider",
+        "min": 2,
+        "max": 8,
+        "correct": 6
+    },
+    {
+        "q": "Which helper uses a whistle to control traffic?",
+        "type": "mcq",
+        "o": [
+            "Traffic police",
+            "Doctor",
+            "Postman",
+            "Librarian"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person cures us when we are sick.",
+        "type": "word_scramble",
+        "answer": "DOCTOR",
+        "decoys": "XK"
+    },
+    {
+        "q": "Match the helper to their tool:",
+        "type": "match",
+        "left": [
+            "Doctor",
+            "Carpenter",
+            "Farmer",
+            "Painter"
+        ],
+        "right": [
+            "Stethoscope",
+            "Saw",
+            "Plough",
+            "Brush"
+        ]
+    },
+    {
+        "q": "Who takes care of our teeth?",
+        "type": "mcq",
+        "o": [
+            "Dentist",
+            "Nurse",
+            "Vet",
+            "Optician"
+        ]
+    },
+    {
+        "q": "What does a cobbler mend?",
+        "type": "mcq",
+        "o": [
+            "Shoes",
+            "Books",
+            "Clothes",
+            "Furniture"
+        ]
+    },
+    {
+        "q": "We should throw stones at the sweeper's cart.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who drives a bus?",
+        "type": "short_answer",
+        "answers": [
+            "driver",
+            "bus driver"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about safety helpers:",
+        "type": "inline_dropdown",
+        "text": "A [0] uses a hose to put out fires, while a [1] uses a whistle to direct cars.",
+        "dropdowns": [
+            {
+                "correct": "firefighter",
+                "options": [
+                    "firefighter",
+                    "teacher",
+                    "baker"
+                ]
+            },
+            {
+                "correct": "traffic police",
+                "options": [
+                    "doctor",
+                    "traffic police",
+                    "vet"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A ______ keeps our neighborhood safe.",
+        "type": "fill_blank",
+        "answers": [
+            "policeman",
+            "police officer"
+        ],
+        "other_options": [
+            "watchman",
+            "fireman",
+            "postman"
+        ]
+    },
+    {
+        "q": "Where does a teacher work?",
+        "type": "mcq",
+        "o": [
+            "School",
+            "Clinic",
+            "Bank",
+            "Airport"
+        ]
+    },
+    {
+        "q": "Which helper brings milk to our homes?",
+        "type": "mcq",
+        "o": [
+            "Milkman",
+            "Postman",
+            "Baker",
+            "Newspaper vendor"
+        ]
+    },
+    {
+        "q": "A mechanic repairs cars and motorcycles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who builds houses and bridges?",
+        "type": "mcq",
+        "o": [
+            "Mason",
+            "Carpenter",
+            "Electrician",
+            "Blacksmith"
+        ]
+    },
+    {
+        "q": "Name the tool a soldier uses to protect the country.",
+        "type": "short_answer",
+        "answers": [
+            "gun",
+            "rifle"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What does a nurse use to check your temperature?",
+        "type": "mcq",
+        "o": [
+            "Thermometer",
+            "Scale",
+            "Tape",
+            "Scissors"
+        ]
+    },
+    {
+        "q": "The person who puts out fires works at a ______ station.",
+        "type": "fill_blank",
+        "answers": [
+            "fire"
+        ],
+        "other_options": [
+            "police",
+            "bus",
+            "railway"
+        ]
+    },
+    {
+        "q": "Who sells medicines to us?",
+        "type": "mcq",
+        "o": [
+            "Chemist",
+            "Grocer",
+            "Butcher",
+            "Florist"
+        ]
+    },
+    {
+        "q": "Match the helper with their role:",
+        "type": "match",
+        "left": [
+            "Vet",
+            "Librarian",
+            "Sweeper",
+            "Watchman"
+        ],
+        "right": [
+            "Treats animals",
+            "Issues books",
+            "Cleans streets",
+            "Guards buildings"
+        ]
+    },
+    {
+        "q": "What does a tailor use to measure cloth?",
+        "type": "mcq",
+        "o": [
+            "Measuring tape",
+            "Weighing scale",
+            "Stethoscope",
+            "Ladder"
+        ]
+    },
+    {
+        "q": "Match the community helper to the place they work.",
+        "type": "memory",
+        "pairs": {
+            "Police Officer": "Police Station",
+            "Baker": "Bakery",
+            "Farmer": "Farm",
+            "Chef": "Restaurant"
+        }
+    },
+    {
+        "q": "A librarian works in a bank.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who makes furniture from wood?",
+        "type": "mcq",
+        "o": [
+            "Carpenter",
+            "Blacksmith",
+            "Potter",
+            "Goldsmith"
+        ]
+    },
+    {
+        "q": "What does a blacksmith work with?",
+        "type": "mcq",
+        "o": [
+            "Iron",
+            "Wood",
+            "Clay",
+            "Gold"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a place where a doctor or nurse works?",
+        "type": "odd_one_out",
+        "options": [
+            "Hospital",
+            "Clinic",
+            "Dispensary",
+            "Medical Camp",
+            "Farm"
+        ],
+        "correct": "Farm"
+    },
+    {
+        "q": "Name the person who paints walls.",
+        "type": "short_answer",
+        "answers": [
+            "painter"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ sells fruits and vegetables.",
+        "type": "fill_blank",
+        "answers": [
+            "greengrocer",
+            "vendor"
+        ],
+        "other_options": [
+            "butcher",
+            "chemist",
+            "baker"
+        ]
+    },
+    {
+        "q": "Who takes care of sick animals?",
+        "type": "mcq",
+        "o": [
+            "Vet",
+            "Doctor",
+            "Nurse",
+            "Dentist"
+        ]
+    },
+    {
+        "q": "Which vehicle does an ambulance driver drive?",
+        "type": "mcq",
+        "o": [
+            "Ambulance",
+            "Fire truck",
+            "Police car",
+            "School bus"
+        ]
+    },
+    {
+        "q": "It is okay to honk loudly near a hospital.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who brings our newspaper in the morning?",
+        "type": "mcq",
+        "o": [
+            "Newspaper vendor",
+            "Postman",
+            "Milkman",
+            "Teacher"
+        ]
+    },
+    {
+        "q": "What does a watchman carry to protect the building at night?",
+        "type": "mcq",
+        "o": [
+            "Stick",
+            "Brush",
+            "Hammer",
+            "Needle"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for helpers who wear a uniform, LEFT for those who usually wear regular clothes.",
+        "type": "swipe_cards",
+        "left_label": "Regular Clothes",
+        "right_label": "Uniform",
+        "cards": {
+            "Police Officer": "right",
+            "Author": "left",
+            "Firefighter": "right",
+            "Artist": "left"
+        }
+    },
+    {
+        "q": "A sweeper keeps our surroundings ______.",
+        "type": "fill_blank",
+        "answers": [
+            "clean"
+        ],
+        "other_options": [
+            "dirty",
+            "noisy",
+            "dark"
+        ]
+    },
+    {
+        "q": "Who helps us in a library to find books?",
+        "type": "mcq",
+        "o": [
+            "Librarian",
+            "Teacher",
+            "Book seller",
+            "Principal"
+        ]
+    },
+    {
+        "q": "Match the community helper with their workplace:",
+        "type": "match",
+        "left": [
+            "Chef",
+            "Mechanic",
+            "Farmer",
+            "Dentist"
+        ],
+        "right": [
+            "Kitchen",
+            "Garage",
+            "Farm",
+            "Clinic"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person sews and stitches our clothes.",
+        "type": "word_scramble",
+        "answer": "TAILOR",
+        "decoys": "VW"
+    },
+    {
+        "q": "What does a potter make?",
+        "type": "mcq",
+        "o": [
+            "Pots",
+            "Shoes",
+            "Bread",
+            "Clothes"
+        ]
+    },
+    {
+        "q": "Complete the sentence about protection helpers:",
+        "type": "inline_dropdown",
+        "text": "A [0] protects our whole country, while a [1] protects our local neighborhood.",
+        "dropdowns": [
+            {
+                "correct": "soldier",
+                "options": [
+                    "soldier",
+                    "librarian",
+                    "doctor"
+                ]
+            },
+            {
+                "correct": "police officer",
+                "options": [
+                    "police officer",
+                    "chef",
+                    "tailor"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A pilot works on a ship.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "If a farmer plants seeds in 4 rows and adds 2 more rows, how many rows are there?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 6
+    },
+    {
+        "q": "Who catches fish for us to eat?",
+        "type": "mcq",
+        "o": [
+            "Fisherman",
+            "Butcher",
+            "Baker",
+            "Farmer"
+        ]
+    },
+    {
+        "q": "What is the main tool a fisherman uses?",
+        "type": "short_answer",
+        "answers": [
+            "net",
+            "fishing net"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ makes things out of gold and silver.",
+        "type": "fill_blank",
+        "answers": [
+            "goldsmith"
+        ],
+        "other_options": [
+            "blacksmith",
+            "carpenter",
+            "potter"
+        ]
+    },
+    {
+        "q": "Who sells meat?",
+        "type": "mcq",
+        "o": [
+            "Butcher",
+            "Baker",
+            "Greengrocer",
+            "Tailor"
+        ]
+    },
+    {
+        "q": "What does a bus conductor give you when you pay for the ticket?",
+        "type": "mcq",
+        "o": [
+            "Ticket",
+            "Medicine",
+            "Letter",
+            "Book"
+        ]
+    },
+    {
+        "q": "We must obey the traffic police to stay safe on roads.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who serves food in a restaurant?",
+        "type": "mcq",
+        "o": [
+            "Waiter",
+            "Chef",
+            "Manager",
+            "Cashier"
+        ]
+    },
+    {
+        "q": "A farmer uses a ______ to dig the soil.",
+        "type": "fill_blank",
+        "answers": [
+            "plough",
+            "hoe"
+        ],
+        "other_options": [
+            "hammer",
+            "brush",
+            "scissors"
+        ]
+    },
+    {
+        "q": "Where does a mechanic work?",
+        "type": "mcq",
+        "o": [
+            "Garage",
+            "Hospital",
+            "Kitchen",
+            "School"
+        ]
+    },
+    {
+        "q": "Match the helper with the item they make or sell:",
+        "type": "match",
+        "left": [
+            "Baker",
+            "Florist",
+            "Milkman",
+            "Cobbler"
+        ],
+        "right": [
+            "Bread",
+            "Flowers",
+            "Milk",
+            "Shoes"
+        ]
+    },
+    {
+        "q": "Who puts out the fire in the event of a fire emergency?",
+        "type": "short_answer",
+        "answers": [
+            "firefighter",
+            "fireman"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which helper uses a ladder to reach high places?",
+        "type": "mcq",
+        "o": [
+            "Firefighter",
+            "Cobbler",
+            "Barber",
+            "Tailor"
+        ]
+    },
+    {
+        "q": "A plumber fixes lights and fans.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who guards the country's borders?",
+        "type": "mcq",
+        "o": [
+            "Soldier",
+            "Policeman",
+            "Watchman",
+            "Traffic police"
+        ]
+    },
+    {
+        "q": "What does a carpenter use to cut wood?",
+        "type": "mcq",
+        "o": [
+            "Saw",
+            "Plough",
+            "Syringe",
+            "Needle"
+        ]
+    },
+    {
+        "q": "The person who treats eye problems is an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "eye doctor",
+            "ophthalmologist",
+            "optometrist"
+        ],
+        "other_options": [
+            "dentist",
+            "vet",
+            "surgeon"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person helps the doctor in the hospital.",
+        "type": "word_scramble",
+        "answer": "NURSE",
+        "decoys": "VP"
+    },
+    {
+        "q": "Who collects garbage from our homes?",
+        "type": "mcq",
+        "o": [
+            "Sweeper",
+            "Postman",
+            "Gardener",
+            "Watchman"
+        ]
+    },
+    {
+        "q": "What does a grocer sell?",
+        "type": "mcq",
+        "o": [
+            "Groceries",
+            "Shoes",
+            "Bicycles",
+            "Computers"
+        ]
+    },
+    {
+        "q": "Name the person who drives a train.",
+        "type": "short_answer",
+        "answers": [
+            "loco pilot",
+            "train driver",
+            "engine driver"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A nurse helps the doctor in taking care of patients.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about medical helpers:",
+        "type": "inline_dropdown",
+        "text": "We go to the [0] when we are sick, and the [1] gives us our medicine.",
+        "dropdowns": [
+            {
+                "correct": "hospital",
+                "options": [
+                    "school",
+                    "bank",
+                    "hospital"
+                ]
+            },
+            {
+                "correct": "nurse",
+                "options": [
+                    "nurse",
+                    "pilot",
+                    "sweeper"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Who makes and repairs locks and keys?",
+        "type": "mcq",
+        "o": [
+            "Locksmith",
+            "Blacksmith",
+            "Carpenter",
+            "Mason"
+        ]
+    },
+    {
+        "q": "A tailor uses a needle and ______ to stitch.",
+        "type": "fill_blank",
+        "answers": [
+            "thread"
+        ],
+        "other_options": [
+            "chalk",
+            "glue",
+            "paper"
+        ]
+    },
+    {
+        "q": "Which helper works in a hospital and helps in operations?",
+        "type": "mcq",
+        "o": [
+            "Surgeon",
+            "Vet",
+            "Dentist",
+            "Chemist"
+        ]
+    },
+    {
+        "q": "Match the transport with the helper:",
+        "type": "match",
+        "left": [
+            "Postman",
+            "Army man",
+            "Pilot",
+            "Astronaut"
+        ],
+        "right": [
+            "Cycle/Bike",
+            "Tank",
+            "Aeroplane",
+            "Rocket"
+        ]
+    },
+    {
+        "q": "Match the transport helper to their vehicle.",
+        "type": "memory",
+        "pairs": {
+            "Pilot": "Airplane",
+            "Bus Driver": "School Bus",
+            "Train Driver": "Train",
+            "Astronaut": "Spacecraft"
+        }
+    },
+    {
+        "q": "What does a gardener do?",
+        "type": "mcq",
+        "o": [
+            "Takes care of plants",
+            "Teaches students",
+            "Sells flowers",
+            "Paints houses"
+        ]
+    },
+    {
+        "q": "A driver can drive a car without a license if he is careful.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who applies bandages on wounds?",
+        "type": "mcq",
+        "o": [
+            "Nurse",
+            "Sweeper",
+            "Postman",
+            "Blacksmith"
+        ]
+    },
+    {
+        "q": "A scientist works in a ______ to do experiments.",
+        "type": "fill_blank",
+        "answers": [
+            "laboratory",
+            "lab"
+        ],
+        "other_options": [
+            "kitchen",
+            "garden",
+            "garage"
+        ]
+    },
+    {
+        "q": "Which of these is NOT something a farmer grows?",
+        "type": "odd_one_out",
+        "options": [
+            "Wheat",
+            "Rice",
+            "Corn",
+            "Oats",
+            "Cement"
+        ],
+        "correct": "Cement"
+    },
+    {
+        "q": "What does an artist use to draw?",
+        "type": "mcq",
+        "o": [
+            "Paintbrush",
+            "Saw",
+            "Stethoscope",
+            "Wrench"
+        ]
+    },
+    {
+        "q": "Name the place where you buy bread.",
+        "type": "short_answer",
+        "answers": [
+            "bakery",
+            "baker's shop"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Who brings our food order to the table in a restaurant?",
+        "type": "mcq",
+        "o": [
+            "Waiter",
+            "Chef",
+            "Manager",
+            "Cleaner"
+        ]
+    },
+    {
+        "q": "A mason uses cement and ______ to build walls.",
+        "type": "fill_blank",
+        "answers": [
+            "bricks"
+        ],
+        "other_options": [
+            "scissors",
+            "needle",
+            "thread"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for helpers working with wood, LEFT for those working with food.",
+        "type": "swipe_cards",
+        "left_label": "Works with Food",
+        "right_label": "Works with Wood",
+        "cards": {
+            "Baker": "left",
+            "Carpenter": "right",
+            "Chef": "left",
+            "Lumberjack": "right"
+        }
+    },
+    {
+        "q": "Which helper takes us to the moon?",
+        "type": "mcq",
+        "o": [
+            "Astronaut",
+            "Pilot",
+            "Sailor",
+            "Driver"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person cuts our hair.",
+        "type": "word_scramble",
+        "answer": "BARBER",
+        "decoys": "XZ"
+    },
+    {
+        "q": "We should always bully the community helpers.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence about cleaning helpers:",
+        "type": "inline_dropdown",
+        "text": "The [0] cleans the streets every morning, helping our environment stay [1].",
+        "dropdowns": [
+            {
+                "correct": "sweeper",
+                "options": [
+                    "sweeper",
+                    "dentist",
+                    "pilot"
+                ]
+            },
+            {
+                "correct": "clean",
+                "options": [
+                    "clean",
+                    "dirty",
+                    "noisy"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Who cuts and sells meat?",
+        "type": "mcq",
+        "o": [
+            "Butcher",
+            "Baker",
+            "Milkman",
+            "Grocer"
+        ]
+    },
+    {
+        "q": "What does a chemist give us when we are sick?",
+        "type": "mcq",
+        "o": [
+            "Medicines",
+            "Food",
+            "Books",
+            "Tools"
+        ]
+    },
+    {
+        "q": "Match the community helper with their uniform item:",
+        "type": "match",
+        "left": [
+            "Policeman",
+            "Doctor",
+            "Chef",
+            "Firefighter"
+        ],
+        "right": [
+            "Cap and badge",
+            "White coat",
+            "Apron and hat",
+            "Helmet and jacket"
+        ]
+    },
+    {
+        "q": "Who repairs water pipes?",
+        "type": "short_answer",
+        "answers": [
+            "plumber"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ helps a sailor to steer the ship.",
+        "type": "fill_blank",
+        "answers": [
+            "captain"
+        ],
+        "other_options": [
+            "pilot",
+            "driver",
+            "conductor"
+        ]
+    },
+    {
+        "q": "What does a watchman do?",
+        "type": "mcq",
+        "o": [
+            "Guards our homes and buildings",
+            "Fights fires",
+            "Catches criminals",
+            "Delivers milk"
+        ]
+    },
+    {
+        "q": "A barber cuts our nails.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who helps us to withdraw money from a bank?",
+        "type": "mcq",
+        "o": [
+            "Bank teller",
+            "Postman",
+            "Librarian",
+            "Teacher"
+        ]
+    },
+    {
+        "q": "Which helper uses a blackboard to teach?",
+        "type": "mcq",
+        "o": [
+            "Teacher",
+            "Doctor",
+            "Tailor",
+            "Mechanic"
+        ]
+    },
+    {
+        "q": "The person who flies a plane is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pilot"
+        ],
+        "other_options": [
+            "driver",
+            "captain",
+            "sailor"
+        ]
+    },
+    {
+        "q": "What does a postman deliver to our doorstep?",
+        "type": "mcq",
+        "o": [
+            "Letters and parcels",
+            "Food and water",
+            "Clothes and shoes",
+            "Furniture"
+        ]
+    },
+    {
+        "q": "Name the person who keeps our teeth healthy.",
+        "type": "short_answer",
+        "answers": [
+            "dentist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Who treats patients in a hospital and performs surgeries?",
+        "type": "mcq",
+        "o": [
+            "Surgeon",
+            "Nurse",
+            "Ward boy",
+            "Receptionist"
+        ]
+    },
+    {
+        "q": "How many hands does a clock have that a teacher uses to teach time to students?",
+        "type": "slider",
+        "min": 1,
+        "max": 4,
+        "correct": 3
+    },
+    {
+        "q": "A person who repairs taps and pipes is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "plumber"
+        ],
+        "other_options": [
+            "electrician",
+            "carpenter",
+            "mason"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person grows crops and vegetables.",
+        "type": "word_scramble",
+        "answer": "FARMER",
+        "decoys": "BQ"
+    },
+    {
+        "q": "What does a firefighter use to put out a fire?",
+        "type": "mcq",
+        "o": [
+            "Water hose",
+            "Syringe",
+            "Chalk",
+            "Scissors"
+        ]
+    },
+    {
+        "q": "We must not litter the streets because it makes the sweeper's job harder.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about educational helpers:",
+        "type": "inline_dropdown",
+        "text": "The [0] teaches students in a large [1].",
+        "dropdowns": [
+            {
+                "correct": "teacher",
+                "options": [
+                    "teacher",
+                    "driver",
+                    "cobbler"
+                ]
+            },
+            {
+                "correct": "school",
+                "options": [
+                    "hospital",
+                    "school",
+                    "farm"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Who drives a school van to pick up and drop children?",
+        "type": "mcq",
+        "o": [
+            "Driver",
+            "Pilot",
+            "Captain",
+            "Guard"
+        ]
+    },
+    {
+        "q": "Name the place where a chef works.",
+        "type": "short_answer",
+        "answers": [
+            "kitchen",
+            "restaurant",
+            "hotel"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the helper to the action they do.",
+        "type": "memory",
+        "pairs": {
+            "Barber": "Cuts hair",
+            "Cobbler": "Mends shoes",
+            "Postman": "Delivers mail",
+            "Tailor": "Sews clothes"
+        }
+    },
+    {
+        "q": "Which tool does a mason use to spread cement?",
+        "type": "mcq",
+        "o": [
+            "Trowel",
+            "Hammer",
+            "Saw",
+            "Needle"
+        ]
+    },
+    {
+        "q": "A ______ repairs cars and motorcycles in a garage.",
+        "type": "fill_blank",
+        "answers": [
+            "mechanic"
+        ],
+        "other_options": [
+            "driver",
+            "pilot",
+            "cobbler"
+        ]
+    },
+    {
+        "q": "Match the helper with the material they work with:",
+        "type": "match",
+        "left": [
+            "Carpenter",
+            "Blacksmith",
+            "Potter",
+            "Goldsmith"
+        ],
+        "right": [
+            "Wood",
+            "Iron",
+            "Clay",
+            "Gold"
+        ]
+    },
+    {
+        "q": "A librarian sells books to students.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who helps the pilot by serving food and taking care of passengers in a plane?",
+        "type": "mcq",
+        "o": [
+            "Air hostess",
+            "Bus conductor",
+            "Waiter",
+            "Receptionist"
+        ]
+    },
+    {
+        "q": "What does an electrician use to test if electricity is flowing?",
+        "type": "mcq",
+        "o": [
+            "Tester",
+            "Plough",
+            "Stethoscope",
+            "Whistle"
+        ]
+    },
+    {
+        "q": "We should offer water to the postman on a hot day.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who stitches and mends our shoes?",
+        "type": "mcq",
+        "o": [
+            "Cobbler",
+            "Tailor",
+            "Barber",
+            "Carpenter"
+        ]
+    },
+    {
+        "q": "Name the vehicle a firefighter drives.",
+        "type": "short_answer",
+        "answers": [
+            "fire truck",
+            "fire engine"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "An ______ designs buildings and houses.",
+        "type": "fill_blank",
+        "answers": [
+            "architect"
+        ],
+        "other_options": [
+            "mason",
+            "painter",
+            "plumber"
+        ]
+    },
+    {
+        "q": "Where does a farmer store his grains?",
+        "type": "mcq",
+        "o": [
+            "Granary",
+            "Garage",
+            "Kitchen",
+            "Library"
+        ]
+    },
+    {
+        "q": "Which helper uses a weighing scale to measure vegetables?",
+        "type": "mcq",
+        "o": [
+            "Greengrocer",
+            "Baker",
+            "Butcher",
+            "Tailor"
+        ]
+    },
+    {
+        "q": "A dentist fixes broken bones in our body.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who sails a ship across the ocean?",
+        "type": "mcq",
+        "o": [
+            "Sailor",
+            "Pilot",
+            "Driver",
+            "Astronaut"
+        ]
+    },
+    {
+        "q": "What does an optician check?",
+        "type": "mcq",
+        "o": [
+            "Eyes",
+            "Teeth",
+            "Heart",
+            "Bones"
+        ]
+    },
+    {
+        "q": "A ______ helps the teacher to manage the school office.",
+        "type": "fill_blank",
+        "answers": [
+            "clerk",
+            "administrator"
+        ],
+        "other_options": [
+            "principal",
+            "librarian",
+            "peon"
+        ]
+    },
+    {
+        "q": "Who draws maps and plans for buildings?",
+        "type": "mcq",
+        "o": [
+            "Architect",
+            "Mason",
+            "Painter",
+            "Carpenter"
+        ]
+    },
+    {
+        "q": "Which of these is NOT part of a firefighter's equipment?",
+        "type": "odd_one_out",
+        "options": [
+            "Helmet",
+            "Hose",
+            "Fire Engine",
+            "Ladder",
+            "Chalkboard"
+        ],
+        "correct": "Chalkboard"
+    },
+    {
+        "q": "Match the problem with the correct helper:",
+        "type": "match",
+        "left": [
+            "Leaking pipe",
+            "Broken chair",
+            "Sick dog",
+            "Hair needs cutting"
+        ],
+        "right": [
+            "Plumber",
+            "Carpenter",
+            "Vet",
+            "Barber"
+        ]
+    },
+    {
+        "q": "Name the person who takes care of a garden.",
+        "type": "short_answer",
+        "answers": [
+            "gardener",
+            "mali"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Who brings emergency patients to the hospital quickly?",
+        "type": "mcq",
+        "o": [
+            "Ambulance driver",
+            "Taxi driver",
+            "Bus driver",
+            "Pilot"
+        ]
+    },
+    {
+        "q": "What does a traffic police officer hold to stop vehicles?",
+        "type": "mcq",
+        "o": [
+            "Stop sign or baton",
+            "Stethoscope",
+            "Blackboard",
+            "Hose"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for safety helpers, LEFT for health helpers.",
+        "type": "swipe_cards",
+        "left_label": "Health",
+        "right_label": "Safety",
+        "cards": {
+            "Doctor": "left",
+            "Police Officer": "right",
+            "Nurse": "left",
+            "Firefighter": "right"
+        }
+    },
+    {
+        "q": "It is okay to make fun of a cobbler repairing our shoes.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who applies stitches to a deep cut on your skin?",
+        "type": "mcq",
+        "o": [
+            "Doctor",
+            "Nurse",
+            "Teacher",
+            "Vet"
+        ]
+    },
+    {
+        "q": "A person who studies stars and planets is an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "astronomer"
+        ],
+        "other_options": [
+            "astronaut",
+            "pilot",
+            "sailor"
+        ]
+    },
+    {
+        "q": "Which helper works with a printing press to make books?",
+        "type": "mcq",
+        "o": [
+            "Printer",
+            "Publisher",
+            "Writer",
+            "Librarian"
+        ]
+    },
+    {
+        "q": "What does a nurse use to give you an injection?",
+        "type": "mcq",
+        "o": [
+            "Syringe",
+            "Hammer",
+            "Saw",
+            "Plough"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person fixes broken pipes and taps.",
+        "type": "word_scramble",
+        "answer": "PLUMBER",
+        "decoys": "KQ"
+    },
+    {
+        "q": "A postman sorts letters at the post office before delivering them.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who operates a crane on a construction site?",
+        "type": "mcq",
+        "o": [
+            "Crane operator",
+            "Mason",
+            "Architect",
+            "Painter"
+        ]
+    },
+    {
+        "q": "Name the tool a carpenter uses to make holes in wood.",
+        "type": "short_answer",
+        "answers": [
+            "drill",
+            "drill machine"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about showing gratitude:",
+        "type": "inline_dropdown",
+        "text": "We should always show [0] to community helpers and say [1] when they help us.",
+        "dropdowns": [
+            {
+                "correct": "respect",
+                "options": [
+                    "respect",
+                    "money",
+                    "toys"
+                ]
+            },
+            {
+                "correct": "thank you",
+                "options": [
+                    "thank you",
+                    "go away",
+                    "nothing"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A ______ sells flowers and makes bouquets.",
+        "type": "fill_blank",
+        "answers": [
+            "florist"
+        ],
+        "other_options": [
+            "gardener",
+            "greengrocer",
+            "baker"
+        ]
+    },
+    {
+        "q": "Who helps you when you get lost in a mall or fair?",
+        "type": "mcq",
+        "o": [
+            "Policeman",
+            "Firefighter",
+            "Doctor",
+            "Librarian"
+        ]
+    },
+    {
+        "q": "What instrument does a vet use to listen to an animal's heartbeat?",
+        "type": "mcq",
+        "o": [
+            "Stethoscope",
+            "Thermometer",
+            "Weighing scale",
+            "Syringe"
+        ]
+    },
+    {
+        "q": "Match the helper with the book they might read:",
+        "type": "match",
+        "left": [
+            "Doctor",
+            "Chef",
+            "Farmer",
+            "Astronaut"
+        ],
+        "right": [
+            "Medical journal",
+            "Recipe book",
+            "Almanac",
+            "Space manual"
+        ]
+    },
+    {
+        "q": "A tailor only stitches clothes for women.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who repairs our wristwatches and clocks?",
+        "type": "mcq",
+        "o": [
+            "Watchmaker",
+            "Cobbler",
+            "Locksmith",
+            "Electrician"
+        ]
+    },
+    {
+        "q": "What does a blacksmith use to heat iron?",
+        "type": "mcq",
+        "o": [
+            "Furnace",
+            "Oven",
+            "Fridge",
+            "Microwave"
+        ]
+    },
+    {
+        "q": "We should patiently wait for our turn at the doctor's clinic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who flies a spaceship to outer space?",
+        "type": "mcq",
+        "o": [
+            "Astronaut",
+            "Pilot",
+            "Sailor",
+            "Driver"
+        ]
+    },
+    {
+        "q": "A person who reports news on TV is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "news reporter",
+            "journalist"
+        ],
+        "other_options": [
+            "teacher",
+            "actor",
+            "singer"
+        ]
+    },
+    {
+        "q": "What does a railway guard wave before the train starts?",
+        "type": "mcq",
+        "o": [
+            "Green flag",
+            "White coat",
+            "Chalk",
+            "Whistle"
+        ]
+    },
+    {
+        "q": "Name the helper who sweeps and mops the floors in a building.",
+        "type": "short_answer",
+        "answers": [
+            "sweeper",
+            "janitor",
+            "cleaner"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "How many legs does a police rescue horse have?",
+        "type": "slider",
+        "min": 2,
+        "max": 6,
+        "correct": 4
+    },
+    {
+        "q": "Who loads and unloads luggage at a railway station?",
+        "type": "mcq",
+        "o": [
+            "Coolie",
+            "Driver",
+            "Guard",
+            "Ticket checker"
+        ]
+    },
+    {
+        "q": "A fisherman uses a tractor to plough the field.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which helper makes sure that the game rules are followed in a football match?",
+        "type": "mcq",
+        "o": [
+            "Referee",
+            "Coach",
+            "Player",
+            "Audience"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person catches thieves and keeps us safe.",
+        "type": "word_scramble",
+        "answer": "POLICE",
+        "decoys": "ZJ"
+    },
+    {
+        "q": "What does a milkman carry to deliver milk?",
+        "type": "mcq",
+        "o": [
+            "Milk cans or crates",
+            "Syringe",
+            "Blackboard",
+            "Hose"
+        ]
+    },
+    {
+        "q": "A gardener uses a ______ to trim the bushes.",
+        "type": "fill_blank",
+        "answers": [
+            "hedge trimmer",
+            "shears"
+        ],
+        "other_options": [
+            "saw",
+            "hammer",
+            "drill"
+        ]
+    },
+    {
+        "q": "Match the helper with the fuel they use:",
+        "type": "match",
+        "left": [
+            "Driver",
+            "Pilot",
+            "Astronaut",
+            "Blacksmith"
+        ],
+        "right": [
+            "Petrol/Diesel",
+            "Aviation fuel",
+            "Rocket fuel",
+            "Coal"
+        ]
+    },
+    {
+        "q": "Who teaches us to swim?",
+        "type": "mcq",
+        "o": [
+            "Swimming coach",
+            "Teacher",
+            "Doctor",
+            "Librarian"
+        ]
+    },
+    {
+        "q": "What does a butcher use to cut meat?",
+        "type": "mcq",
+        "o": [
+            "Cleaver",
+            "Scissors",
+            "Ruler",
+            "Brush"
+        ]
+    },
+    {
+        "q": "Complete the sentence about builders and fixers:",
+        "type": "inline_dropdown",
+        "text": "A [0] fixes broken water pipes, and a [1] builds wooden tables.",
+        "dropdowns": [
+            {
+                "correct": "plumber",
+                "options": [
+                    "plumber",
+                    "chef",
+                    "barber"
+                ]
+            },
+            {
+                "correct": "carpenter",
+                "options": [
+                    "carpenter",
+                    "police",
+                    "judge"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A chemist can give you any medicine without a doctor's prescription.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match these tools to the correct community helper.",
+        "type": "memory",
+        "pairs": {
+            "Plumber": "Wrench",
+            "Nurse": "Syringe",
+            "Traffic Police": "Whistle",
+            "Painter": "Paintbrush"
+        }
+    },
+    {
+        "q": "Who treats heart problems?",
+        "type": "mcq",
+        "o": [
+            "Cardiologist",
+            "Dentist",
+            "Vet",
+            "Optician"
+        ]
+    },
+    {
+        "q": "Name the person who operates an X-ray machine.",
+        "type": "short_answer",
+        "answers": [
+            "radiologist",
+            "x-ray technician"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ sells stationery items like pens and notebooks.",
+        "type": "fill_blank",
+        "answers": [
+            "stationer"
+        ],
+        "other_options": [
+            "grocer",
+            "chemist",
+            "butcher"
+        ]
+    },
+    {
+        "q": "Who delivers food from restaurants to our homes?",
+        "type": "mcq",
+        "o": [
+            "Delivery person",
+            "Waiter",
+            "Chef",
+            "Cashier"
+        ]
+    },
+    {
+        "q": "Which tool is most important for a tailor?",
+        "type": "mcq",
+        "o": [
+            "Sewing machine",
+            "Stethoscope",
+            "Wrench",
+            "Ladder"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a supply used by a teacher?",
+        "type": "odd_one_out",
+        "options": [
+            "Books",
+            "Pencils",
+            "Whiteboard",
+            "Eraser",
+            "Stethoscope"
+        ],
+        "correct": "Stethoscope"
+    },
+    {
+        "q": "We should never call 112 (emergency number) for fun or as a joke.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who controls the crowd during a big festival or rally?",
+        "type": "mcq",
+        "o": [
+            "Policeman",
+            "Firefighter",
+            "Nurse",
+            "Postman"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for helpers who fix things, LEFT for those who build things.",
+        "type": "swipe_cards",
+        "left_label": "Builds Things",
+        "right_label": "Fixes Things",
+        "cards": {
+            "Mason": "left",
+            "Mechanic": "right",
+            "Carpenter": "left",
+            "Plumber": "right"
+        }
+    },
+    {
+        "q": "What does a receptionist use to answer calls?",
+        "type": "mcq",
+        "o": [
+            "Telephone",
+            "Syringe",
+            "Hammer",
+            "Brush"
+        ]
+    },
+    {
+        "q": "Match the helper to the sound they are associated with:",
+        "type": "match",
+        "left": [
+            "Firefighter",
+            "Postman",
+            "Ambulance driver",
+            "Teacher"
+        ],
+        "right": [
+            "Siren",
+            "Doorbell/Whistle",
+            "Siren",
+            "Bell"
+        ]
+    },
+    {
+        "q": "A cook and a chef are exactly the same with no difference.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who supervises the work of masons and laborers on a construction site?",
+        "type": "mcq",
+        "o": [
+            "Supervisor",
+            "Architect",
+            "Plumber",
+            "Interior designer"
+        ]
+    },
+    {
+        "q": "What does a dairy farmer raise?",
+        "type": "mcq",
+        "o": [
+            "Cows and buffaloes",
+            "Fish",
+            "Birds",
+            "Bees"
+        ]
+    },
+    {
+        "q": "A ______ fixes the wiring when the lights go out in our house.",
+        "type": "fill_blank",
+        "answers": [
+            "electrician"
+        ],
+        "other_options": [
+            "plumber",
+            "mason",
+            "carpenter"
+        ]
+    },
+    {
+        "q": "Who applies mehndi (henna) on hands during festivals?",
+        "type": "mcq",
+        "o": [
+            "Mehndi artist",
+            "Tailor",
+            "Barber",
+            "Florist"
+        ]
+    },
+    {
+        "q": "Name the person who drives a taxi.",
+        "type": "short_answer",
+        "answers": [
+            "taxi driver",
+            "cab driver"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What does a potter use to shape the clay?",
+        "type": "mcq",
+        "o": [
+            "Potter's wheel",
+            "Saw",
+            "Anvil",
+            "Ladder"
+        ]
+    },
+    {
+        "q": "A scientist who studies rocks and earth is called a geologist.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: This person checks our teeth to keep them healthy.",
+        "type": "word_scramble",
+        "answer": "DENTIST",
+        "decoys": "WZ"
+    },
+    {
+        "q": "Who protects the Prime Minister and other important leaders?",
+        "type": "mcq",
+        "o": [
+            "Security guard / Commando",
+            "Traffic police",
+            "Watchman",
+            "Soldier"
+        ]
+    },
+    {
+        "q": "Which helper uses a cash register to bill the items?",
+        "type": "mcq",
+        "o": [
+            "Cashier",
+            "Manager",
+            "Sweeper",
+            "Security guard"
+        ]
+    },
+    {
+        "q": "A lifeguard works at a bank to keep money safe.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence about building helpers:",
+        "type": "inline_dropdown",
+        "text": "A [0] lays bricks to build houses, and an [1] fixes the wiring for lights.",
+        "dropdowns": [
+            {
+                "correct": "mason",
+                "options": [
+                    "mason",
+                    "driver",
+                    "vet"
+                ]
+            },
+            {
+                "correct": "electrician",
+                "options": [
+                    "electrician",
+                    "farmer",
+                    "baker"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Who takes care of people's hair and beauty?",
+        "type": "mcq",
+        "o": [
+            "Beautician",
+            "Barber",
+            "Tailor",
+            "Dentist"
+        ]
+    },
+    {
+        "q": "A person who studies and treats skin diseases is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "dermatologist"
+        ],
+        "other_options": [
+            "cardiologist",
+            "dentist",
+            "vet"
+        ]
+    },
+    {
+        "q": "What does a baker use to bake a cake?",
+        "type": "mcq",
+        "o": [
+            "Oven",
+            "Fridge",
+            "Trowel",
+            "Saw"
+        ]
+    },
+    {
+        "q": "Match the person with their main crop/plant:",
+        "type": "match",
+        "left": [
+            "Farmer",
+            "Gardener",
+            "Florist",
+            "Forester"
+        ],
+        "right": [
+            "Wheat/Rice",
+            "Flowers and Grass",
+            "Bouquets",
+            "Trees"
+        ]
+    },
+    {
+        "q": "Who drives a rickshaw?",
+        "type": "short_answer",
+        "answers": [
+            "rickshaw puller",
+            "auto driver",
+            "rickshaw driver"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A postman delivers 5 letters in the morning and 3 in the afternoon. How many total?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 8
+    },
+    {
+        "q": "Which helper uses a net to catch butterflies for study?",
+        "type": "mcq",
+        "o": [
+            "Entomologist",
+            "Fisherman",
+            "Gardener",
+            "Vet"
+        ]
+    },
+    {
+        "q": "A conductor checks tickets on a bus or train.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who designs the look of a room or house, choosing colors and furniture?",
+        "type": "mcq",
+        "o": [
+            "Interior designer",
+            "Architect",
+            "Mason",
+            "Painter"
+        ]
+    },
+    {
+        "q": "What does a jeweler use to examine gems closely?",
+        "type": "mcq",
+        "o": [
+            "Magnifying glass",
+            "Stethoscope",
+            "Telescope",
+            "Microphone"
+        ]
+    },
+    {
+        "q": "A seamstress is a woman who stitches clothes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who helps a pilot by navigating the plane and talking to the control tower?",
+        "type": "mcq",
+        "o": [
+            "Co-pilot",
+            "Air hostess",
+            "Mechanic",
+            "Driver"
+        ]
+    },
+    {
+        "q": "The person who patrols the forest to protect wildlife is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "forest guard",
+            "ranger"
+        ],
+        "other_options": [
+            "soldier",
+            "policeman",
+            "watchman"
+        ]
+    },
+    {
+        "q": "What does a grocer use to weigh sugar and pulses?",
+        "type": "mcq",
+        "o": [
+            "Weighing scale",
+            "Measuring tape",
+            "Thermometer",
+            "Ladder"
+        ]
+    },
+    {
+        "q": "Name the tool a fisherman uses to catch fish.",
+        "type": "short_answer",
+        "answers": [
+            "net",
+            "fishing rod",
+            "hook"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Who puts a plaster on a small cut on your knee?",
+        "type": "mcq",
+        "o": [
+            "Nurse or Doctor",
+            "Teacher",
+            "Postman",
+            "Chef"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person bakes fresh bread.",
+        "type": "word_scramble",
+        "answer": "BAKER",
+        "decoys": "XW"
+    },
+    {
+        "q": "Complete the sentence about market helpers:",
+        "type": "inline_dropdown",
+        "text": "You can buy fresh vegetables from the [0] and fresh bread from the [1].",
+        "dropdowns": [
+            {
+                "correct": "grocer",
+                "options": [
+                    "grocer",
+                    "mason",
+                    "tailor"
+                ]
+            },
+            {
+                "correct": "baker",
+                "options": [
+                    "baker",
+                    "vet",
+                    "sweeper"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the helper with the season they are busiest:",
+        "type": "match",
+        "left": [
+            "Farmer",
+            "Tailor",
+            "Firefighter",
+            "Lifeguard"
+        ],
+        "right": [
+            "Monsoon/Harvest",
+            "Festival season",
+            "Summer",
+            "Summer"
+        ]
+    },
+    {
+        "q": "A watchman sleeps during his duty and it is perfectly okay.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who operates the big screen and lights in a movie theatre?",
+        "type": "mcq",
+        "o": [
+            "Projectionist",
+            "Actor",
+            "Ticket seller",
+            "Cleaner"
+        ]
+    },
+    {
+        "q": "Match the uniform item to the helper who wears it.",
+        "type": "memory",
+        "pairs": {
+            "Doctor": "White Coat",
+            "Builder": "Yellow Hard Hat",
+            "Chef": "White Apron",
+            "Judge": "Black Robe"
+        }
+    },
+    {
+        "q": "Which of these is NOT a tool used by a carpenter?",
+        "type": "odd_one_out",
+        "options": [
+            "Hammer",
+            "Nails",
+            "Saw",
+            "Wood",
+            "Thermometer"
+        ],
+        "correct": "Thermometer"
+    },
+    {
+        "q": "What does an artist use to sculpt a statue?",
+        "type": "mcq",
+        "o": [
+            "Chisel and hammer",
+            "Sewing machine",
+            "Oven",
+            "Net"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for helpers using heat/fire, LEFT for those using water.",
+        "type": "swipe_cards",
+        "left_label": "Uses Water",
+        "right_label": "Uses Heat/Fire",
+        "cards": {
+            "Firefighter": "left",
+            "Chef": "right",
+            "Car Wash Worker": "left",
+            "Welder": "right"
+        }
+    },
+    {
+        "q": "A person who makes candles is a chandler.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who drives a bulldozer to clear land?",
+        "type": "mcq",
+        "o": [
+            "Bulldozer operator",
+            "Crane operator",
+            "Tractor driver",
+            "Mason"
+        ]
+    },
+    {
+        "q": "An ______ looks after a museum and its artifacts.",
+        "type": "fill_blank",
+        "answers": [
+            "curator"
+        ],
+        "other_options": [
+            "librarian",
+            "artist",
+            "scientist"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person sweeps and cleans our roads.",
+        "type": "word_scramble",
+        "answer": "SWEEPER",
+        "decoys": "JQ"
+    },
+    {
+        "q": "Which helper works at night cleaning offices and buildings?",
+        "type": "mcq",
+        "o": [
+            "Janitor",
+            "Security guard",
+            "Watchman",
+            "Postman"
+        ]
+    },
+    {
+        "q": "Name the person who repairs bicycles.",
+        "type": "short_answer",
+        "answers": [
+            "cycle repairer",
+            "mechanic",
+            "bike mechanic"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What does a railway porter help you with?",
+        "type": "mcq",
+        "o": [
+            "Carrying luggage",
+            "Driving the train",
+            "Checking tickets",
+            "Selling food"
+        ]
+    },
+    {
+        "q": "A zookeeper only plays with animals all day.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who is responsible for maintaining law and order in a city?",
+        "type": "mcq",
+        "o": [
+            "Police Commissioner",
+            "Mayor",
+            "Judge",
+            "Fire Chief"
+        ]
+    },
+    {
+        "q": "A person who studies weather patterns and forecasts rain is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "meteorologist"
+        ],
+        "other_options": [
+            "geologist",
+            "astronomer",
+            "biologist"
+        ]
+    },
+    {
+        "q": "What does a civil engineer primarily design?",
+        "type": "mcq",
+        "o": [
+            "Bridges and roads",
+            "Software",
+            "Electrical circuits",
+            "Airplanes"
+        ]
+    },
+    {
+        "q": "A traffic warden has the same legal powers as a police officer to arrest people.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who operates a sonar machine to find schools of fish?",
+        "type": "mcq",
+        "o": [
+            "Fisherman",
+            "Sailor",
+            "Marine biologist",
+            "Coast guard"
+        ]
+    },
+    {
+        "q": "Complete the sentence about library helpers:",
+        "type": "inline_dropdown",
+        "text": "The [0] keeps the library quiet and helps us find good [1] to read.",
+        "dropdowns": [
+            {
+                "correct": "librarian",
+                "options": [
+                    "librarian",
+                    "police",
+                    "chef"
+                ]
+            },
+            {
+                "correct": "books",
+                "options": [
+                    "books",
+                    "food",
+                    "pipes"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "How many scissors does a barber usually hold to cut hair at one time?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 1
+    },
+    {
+        "q": "Name the specialist doctor who treats bone fractures.",
+        "type": "short_answer",
+        "answers": [
+            "orthopedic",
+            "orthopaedic surgeon",
+            "bone doctor"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which helper uses a theodolite for surveying land?",
+        "type": "mcq",
+        "o": [
+            "Surveyor",
+            "Architect",
+            "Mason",
+            "Geologist"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person cooks food in a restaurant.",
+        "type": "word_scramble",
+        "answer": "CHEF",
+        "decoys": "QY"
+    },
+    {
+        "q": "A ______ helps lawyers by researching laws and preparing documents.",
+        "type": "fill_blank",
+        "answers": [
+            "paralegal",
+            "legal assistant"
+        ],
+        "other_options": [
+            "judge",
+            "clerk",
+            "receptionist"
+        ]
+    },
+    {
+        "q": "Complete the sentence about personal care helpers:",
+        "type": "inline_dropdown",
+        "text": "The [0] cuts our hair, and the [1] stitches our clothes.",
+        "dropdowns": [
+            {
+                "correct": "barber",
+                "options": [
+                    "barber",
+                    "farmer",
+                    "sailor"
+                ]
+            },
+            {
+                "correct": "tailor",
+                "options": [
+                    "tailor",
+                    "doctor",
+                    "pilot"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the medical specialist with the body part they treat:",
+        "type": "match",
+        "left": [
+            "Cardiologist",
+            "Nephrologist",
+            "Pulmonologist",
+            "Neurologist"
+        ],
+        "right": [
+            "Heart",
+            "Kidneys",
+            "Lungs",
+            "Brain"
+        ]
+    },
+    {
+        "q": "Match the helper to the animals they work with.",
+        "type": "memory",
+        "pairs": {
+            "Veterinarian (Vet)": "Sick Pets",
+            "Zookeeper": "Wild Animals",
+            "Farmer": "Farm Animals",
+            "Dog Walker": "Neighborhood Dogs"
+        }
+    },
+    {
+        "q": "A paramedic can perform minor surgeries at the accident site.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who is responsible for controlling air traffic to prevent collisions?",
+        "type": "mcq",
+        "o": [
+            "Air traffic controller",
+            "Pilot",
+            "Co-pilot",
+            "Ground staff"
+        ]
+    },
+    {
+        "q": "What instrument does a marine biologist use to study underwater life?",
+        "type": "mcq",
+        "o": [
+            "Submarine or Scuba gear",
+            "Telescope",
+            "Microscope",
+            "Stethoscope"
+        ]
+    },
+    {
+        "q": "A curator only works in a zoo.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who manages the entire school and its staff?",
+        "type": "mcq",
+        "o": [
+            "Principal",
+            "Teacher",
+            "Clerk",
+            "Librarian"
+        ]
+    },
+    {
+        "q": "Name the professional who designs bridges, dams, and tunnels.",
+        "type": "short_answer",
+        "answers": [
+            "civil engineer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A person who flies a drone for photography or surveillance is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "drone pilot",
+            "drone operator"
+        ],
+        "other_options": [
+            "astronaut",
+            "pilot",
+            "photographer"
+        ]
+    },
+    {
+        "q": "Which helper repairs air conditioners and refrigerators?",
+        "type": "mcq",
+        "o": [
+            "HVAC technician",
+            "Electrician",
+            "Plumber",
+            "Mechanic"
+        ]
+    },
+    {
+        "q": "Which of these is NOT an item used by a tailor?",
+        "type": "odd_one_out",
+        "options": [
+            "Thread",
+            "Needle",
+            "Cloth",
+            "Scissors",
+            "Tractor"
+        ],
+        "correct": "Tractor"
+    },
+    {
+        "q": "What does a beekeeper raise?",
+        "type": "mcq",
+        "o": [
+            "Bees",
+            "Birds",
+            "Fish",
+            "Cows"
+        ]
+    },
+    {
+        "q": "We should never enter a construction site without a hard hat.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who analyzes evidence in a laboratory to solve crimes?",
+        "type": "mcq",
+        "o": [
+            "Forensic scientist",
+            "Detective",
+            "Policeman",
+            "Lawyer"
+        ]
+    },
+    {
+        "q": "What does a cartographer make?",
+        "type": "mcq",
+        "o": [
+            "Maps",
+            "Pottery",
+            "Furniture",
+            "Clothes"
+        ]
+    },
+    {
+        "q": "A ______ translates spoken words from one language to another instantly.",
+        "type": "fill_blank",
+        "answers": [
+            "interpreter"
+        ],
+        "other_options": [
+            "translator",
+            "writer",
+            "teacher"
+        ]
+    },
+    {
+        "q": "Who operates a power loom to weave cloth in large quantities?",
+        "type": "mcq",
+        "o": [
+            "Weaver",
+            "Tailor",
+            "Carpenter",
+            "Blacksmith"
+        ]
+    },
+    {
+        "q": "Match the professional with the type of vehicle they drive:",
+        "type": "match",
+        "left": [
+            "Chauffeur",
+            "Tractor driver",
+            "Forklift operator",
+            "Jockey"
+        ],
+        "right": [
+            "Luxury car",
+            "Tractor",
+            "Forklift",
+            "Racehorse"
+        ]
+    },
+    {
+        "q": "Name the person who takes care of passengers on a train.",
+        "type": "short_answer",
+        "answers": [
+            "TTE",
+            "ticket examiner",
+            "train conductor",
+            "guard"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Who manages the lighting, sound, and sets in a theatre play?",
+        "type": "mcq",
+        "o": [
+            "Stage crew",
+            "Actors",
+            "Director",
+            "Audience"
+        ]
+    },
+    {
+        "q": "What does a phlebotomist do?",
+        "type": "mcq",
+        "o": [
+            "Draws blood",
+            "Checks eyes",
+            "Fixes teeth",
+            "Operates X-ray"
+        ]
+    },
+    {
+        "q": "A botanist studies animals and their habitats.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who inspects food quality in restaurants and factories?",
+        "type": "mcq",
+        "o": [
+            "Food inspector",
+            "Chef",
+            "Doctor",
+            "Policeman"
+        ]
+    },
+    {
+        "q": "A person who operates a backhoe to dig foundations is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "excavator operator",
+            "backhoe operator"
+        ],
+        "other_options": [
+            "crane operator",
+            "bulldozer driver",
+            "mason"
+        ]
+    },
+    {
+        "q": "Which professional helps people recover from injuries through exercises?",
+        "type": "mcq",
+        "o": [
+            "Physiotherapist",
+            "Surgeon",
+            "Nurse",
+            "Chemist"
+        ]
+    },
+    {
+        "q": "What does a sound engineer use to record music?",
+        "type": "mcq",
+        "o": [
+            "Mixing console",
+            "Stethoscope",
+            "Telescope",
+            "Trowel"
+        ]
+    },
+    {
+        "q": "A detective is exactly the same as a patrol police officer.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who designs the layout and graphics for a newspaper or magazine?",
+        "type": "mcq",
+        "o": [
+            "Graphic designer",
+            "Editor",
+            "Printer",
+            "Journalist"
+        ]
+    },
+    {
+        "q": "Name the helper who uses a backhoe loader on roads.",
+        "type": "short_answer",
+        "answers": [
+            "JCB operator",
+            "excavator operator",
+            "backhoe operator"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for helpers working in a hospital, LEFT for those in a school.",
+        "type": "swipe_cards",
+        "left_label": "School",
+        "right_label": "Hospital",
+        "cards": {
+            "Teacher": "left",
+            "Doctor": "right",
+            "Principal": "left",
+            "Nurse": "right"
+        }
+    },
+    {
+        "q": "A ______ writes the code for computer programs and apps.",
+        "type": "fill_blank",
+        "answers": [
+            "programmer",
+            "coder",
+            "software developer"
+        ],
+        "other_options": [
+            "graphic designer",
+            "engineer",
+            "scientist"
+        ]
+    },
+    {
+        "q": "Who helps a judge by keeping order in the court?",
+        "type": "mcq",
+        "o": [
+            "Bailiff",
+            "Lawyer",
+            "Clerk",
+            "Witness"
+        ]
+    },
+    {
+        "q": "Which helper uses a mannequin to display clothes in a shop?",
+        "type": "mcq",
+        "o": [
+            "Window dresser",
+            "Tailor",
+            "Cashier",
+            "Security guard"
+        ]
+    },
+    {
+        "q": "Match the scientist with their field of study:",
+        "type": "match",
+        "left": [
+            "Seismologist",
+            "Volcanologist",
+            "Paleontologist",
+            "Ecologist"
+        ],
+        "right": [
+            "Earthquakes",
+            "Volcanoes",
+            "Fossils",
+            "Ecosystems"
+        ]
+    },
+    {
+        "q": "An EMT (Emergency Medical Technician) can drive an ambulance but cannot give first aid.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who manages the train's departure and arrival signals at a station?",
+        "type": "mcq",
+        "o": [
+            "Station master",
+            "Loco pilot",
+            "Guard",
+            "Coolie"
+        ]
+    },
+    {
+        "q": "What does an anatomist study?",
+        "type": "mcq",
+        "o": [
+            "Structure of living things",
+            "Planets and stars",
+            "Weather",
+            "Rocks"
+        ]
+    },
+    {
+        "q": "We should always follow the safety instructions given by a lifeguard at the pool.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who operates an ultrasound machine on pregnant women?",
+        "type": "mcq",
+        "o": [
+            "Sonographer",
+            "Radiologist",
+            "Nurse",
+            "Surgeon"
+        ]
+    },
+    {
+        "q": "A ______ represents people in a court of law.",
+        "type": "fill_blank",
+        "answers": [
+            "lawyer",
+            "advocate",
+            "attorney"
+        ],
+        "other_options": [
+            "judge",
+            "police",
+            "witness"
+        ]
+    },
+    {
+        "q": "What does an ophthalmologist treat?",
+        "type": "mcq",
+        "o": [
+            "Eye diseases",
+            "Skin problems",
+            "Heart issues",
+            "Bone injuries"
+        ]
+    },
+    {
+        "q": "Name the professional who creates perfumes and fragrances.",
+        "type": "short_answer",
+        "answers": [
+            "perfumer",
+            "fragrance chemist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Who drives a metro train?",
+        "type": "mcq",
+        "o": [
+            "Metro operator",
+            "Loco pilot",
+            "Driver",
+            "Guard"
+        ]
+    },
+    {
+        "q": "What does an archivist preserve?",
+        "type": "mcq",
+        "o": [
+            "Historical records",
+            "Food",
+            "Wildlife",
+            "Plants"
+        ]
+    },
+    {
+        "q": "A dietician prescribes medicines for fever.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who installs and repairs solar panels?",
+        "type": "mcq",
+        "o": [
+            "Solar technician",
+            "Electrician",
+            "Plumber",
+            "Roofer"
+        ]
+    },
+    {
+        "q": "A person who writes news articles for newspapers is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "journalist",
+            "reporter",
+            "correspondent"
+        ],
+        "other_options": [
+            "editor",
+            "printer",
+            "publisher"
+        ]
+    },
+    {
+        "q": "Which helper uses a seismograph?",
+        "type": "mcq",
+        "o": [
+            "Seismologist",
+            "Meteorologist",
+            "Astronomer",
+            "Geologist"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person sails ships across the ocean.",
+        "type": "word_scramble",
+        "answer": "SAILOR",
+        "decoys": "YZ"
+    },
+    {
+        "q": "Match the aviation professional with their role:",
+        "type": "match",
+        "left": [
+            "Pilot",
+            "Navigator",
+            "Cabin crew",
+            "Ground staff"
+        ],
+        "right": [
+            "Flies the plane",
+            "Maps the route",
+            "Serves passengers",
+            "Loads luggage"
+        ]
+    },
+    {
+        "q": "Name the professional who designs robots.",
+        "type": "short_answer",
+        "answers": [
+            "robotics engineer",
+            "roboticist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Who treats gum diseases and performs root canals?",
+        "type": "mcq",
+        "o": [
+            "Endodontist",
+            "Orthodontist",
+            "Dentist",
+            "Hygienist"
+        ]
+    },
+    {
+        "q": "What does a genealogist study?",
+        "type": "mcq",
+        "o": [
+            "Family history",
+            "Genes",
+            "Rocks",
+            "Weather"
+        ]
+    },
+    {
+        "q": "A coroner is a doctor who treats living patients in an emergency room.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who examines a dead body to find the cause of death?",
+        "type": "mcq",
+        "o": [
+            "Forensic pathologist",
+            "Surgeon",
+            "Detective",
+            "Nurse"
+        ]
+    },
+    {
+        "q": "A ______ operates the concrete mixer truck.",
+        "type": "fill_blank",
+        "answers": [
+            "mixer operator",
+            "concrete truck driver"
+        ],
+        "other_options": [
+            "crane operator",
+            "mason",
+            "architect"
+        ]
+    },
+    {
+        "q": "Which professional audits the financial accounts of a company?",
+        "type": "mcq",
+        "o": [
+            "Auditor",
+            "Accountant",
+            "Bank teller",
+            "Cashier"
+        ]
+    },
+    {
+        "q": "Complete the sentence about fixing helpers:",
+        "type": "inline_dropdown",
+        "text": "A [0] repairs broken cars in a large [1].",
+        "dropdowns": [
+            {
+                "correct": "mechanic",
+                "options": [
+                    "mechanic",
+                    "doctor",
+                    "tailor"
+                ]
+            },
+            {
+                "correct": "garage",
+                "options": [
+                    "garage",
+                    "hospital",
+                    "sky"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What does a nephrologist treat?",
+        "type": "mcq",
+        "o": [
+            "Kidney diseases",
+            "Nerve problems",
+            "Lung issues",
+            "Heart blockages"
+        ]
+    },
+    {
+        "q": "Match the technical helper with the system they fix:",
+        "type": "match",
+        "left": [
+            "Locksmith",
+            "Glazier",
+            "Upholsterer",
+            "Roofer"
+        ],
+        "right": [
+            "Locks",
+            "Glass windows",
+            "Furniture fabric",
+            "Roof tiles"
+        ]
+    },
+    {
+        "q": "A herpetologist studies snakes and reptiles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who helps a film director by managing the schedule, crew, and budget?",
+        "type": "mcq",
+        "o": [
+            "Producer",
+            "Actor",
+            "Writer",
+            "Editor"
+        ]
+    },
+    {
+        "q": "Name the person who operates an escalator or elevator for repairs.",
+        "type": "short_answer",
+        "answers": [
+            "elevator technician",
+            "lift mechanic"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What does a chiropractor manipulate to relieve body pain?",
+        "type": "mcq",
+        "o": [
+            "Spine and joints",
+            "Heart valves",
+            "Brain nerves",
+            "Eye lenses"
+        ]
+    },
+    {
+        "q": "A ______ creates special effects for movies using computers.",
+        "type": "fill_blank",
+        "answers": [
+            "VFX artist",
+            "animator"
+        ],
+        "other_options": [
+            "actor",
+            "cameraman",
+            "director"
+        ]
+    },
+    {
+        "q": "Who manages a farm that grows grapes for wine?",
+        "type": "mcq",
+        "o": [
+            "Viticulturist",
+            "Botanist",
+            "Gardener",
+            "Farmer"
+        ]
+    },
+    {
+        "q": "How many hoses is a firefighter holding if they have one in each hand?",
+        "type": "slider",
+        "min": 0,
+        "max": 4,
+        "correct": 2
+    },
+    {
+        "q": "What instrument does an audiologist use to test hearing?",
+        "type": "mcq",
+        "o": [
+            "Audiometer",
+            "Thermometer",
+            "Stethoscope",
+            "X-ray machine"
+        ]
+    },
+    {
+        "q": "A speech therapist only helps people who stutter.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who designs the interior layout of an aircraft?",
+        "type": "mcq",
+        "o": [
+            "Aircraft interior designer",
+            "Pilot",
+            "Mechanic",
+            "Air hostess"
+        ]
+    },
+    {
+        "q": "What does a limnologist study?",
+        "type": "mcq",
+        "o": [
+            "Inland waters like lakes",
+            "Limbs of the body",
+            "Lemon trees",
+            "Lime stones"
+        ]
+    },
+    {
+        "q": "A ______ calibrates and repairs precision measuring instruments.",
+        "type": "fill_blank",
+        "answers": [
+            "metrologist",
+            "instrument technician"
+        ],
+        "other_options": [
+            "watchmaker",
+            "scientist",
+            "engineer"
+        ]
+    },
+    {
+        "q": "Match the professional with the environment they work in:",
+        "type": "match",
+        "left": [
+            "Oceanographer",
+            "Speleologist",
+            "Forester",
+            "Arborist"
+        ],
+        "right": [
+            "Ocean",
+            "Caves",
+            "Forest",
+            "Trees in cities"
+        ]
+    },
+    {
+        "q": "Who inspects buildings for fire safety hazards and violations?",
+        "type": "mcq",
+        "o": [
+            "Fire marshal",
+            "Firefighter",
+            "Architect",
+            "Mason"
+        ]
+    },
+    {
+        "q": "Name the professional who designs prosthetics for amputees.",
+        "type": "short_answer",
+        "answers": [
+            "prosthetist",
+            "prosthetics designer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: This person flies airplanes.",
+        "type": "word_scramble",
+        "answer": "PILOT",
+        "decoys": "KM"
+    },
+    {
+        "q": "Which helper uses a geiger counter?",
+        "type": "mcq",
+        "o": [
+            "Nuclear physicist",
+            "Seismologist",
+            "Meteorologist",
+            "Ecologist"
+        ]
+    },
+    {
+        "q": "What does a cytologist study?",
+        "type": "mcq",
+        "o": [
+            "Cells",
+            "Weather",
+            "Planets",
+            "Rocks"
+        ]
+    },
+    {
+        "q": "An anesthesiologist is the doctor who performs the main surgery.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who operates a pumper truck at a fire scene?",
+        "type": "mcq",
+        "o": [
+            "Fire engineer",
+            "Fire chief",
+            "Paramedic",
+            "Volunteer"
+        ]
+    },
+    {
+        "q": "Complete the sentence about dental helpers:",
+        "type": "inline_dropdown",
+        "text": "A [0] checks our teeth to make sure they are healthy, and tells us to [1] daily.",
+        "dropdowns": [
+            {
+                "correct": "dentist",
+                "options": [
+                    "dentist",
+                    "postman",
+                    "guard"
+                ]
+            },
+            {
+                "correct": "brush",
+                "options": [
+                    "brush",
+                    "eat",
+                    "sing"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A ______ manages the water supply and sewage systems in a city.",
+        "type": "fill_blank",
+        "answers": [
+            "water engineer",
+            "sanitary engineer"
+        ],
+        "other_options": [
+            "plumber",
+            "civil engineer",
+            "electrician"
+        ]
+    },
+    {
+        "q": "What does a hematologist study?",
+        "type": "mcq",
+        "o": [
+            "Blood",
+            "Liver",
+            "Brain",
+            "Skin"
+        ]
+    },
+    {
+        "q": "Who paints the road markings like zebra crossings?",
+        "type": "mcq",
+        "o": [
+            "Road marker",
+            "Traffic police",
+            "Civil engineer",
+            "Painter"
+        ]
+    },
+    {
+        "q": "Match the helper to the product they create.",
+        "type": "memory",
+        "pairs": {
+            "Baker": "Bread",
+            "Chef": "Hot Meals",
+            "Farmer": "Fresh Crops",
+            "Carpenter": "Wooden Furniture"
+        }
+    },
+    {
+        "q": "A podiatrist is a doctor for your hands and fingers.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is NOT equipment used by a chef?",
+        "type": "odd_one_out",
+        "options": [
+            "Pots",
+            "Pans",
+            "Spatula",
+            "Stove",
+            "Syringe"
+        ],
+        "correct": "Syringe"
+    },
+    {
+        "q": "Match the musical professional with their role:",
+        "type": "match",
+        "left": [
+            "Conductor",
+            "Composer",
+            "Lyricist",
+            "Vocalist"
+        ],
+        "right": [
+            "Leads orchestra",
+            "Writes music",
+            "Writes words",
+            "Sings songs"
+        ]
+    },
+    {
+        "q": "Name the scientist who studies volcanoes.",
+        "type": "short_answer",
+        "answers": [
+            "volcanologist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Who rehabilitates wild animals injured in the forest?",
+        "type": "mcq",
+        "o": [
+            "Wildlife rehabilitator",
+            "Vet",
+            "Zookeeper",
+            "Ranger"
+        ]
+    },
+    {
+        "q": "What does a silviculturist manage?",
+        "type": "mcq",
+        "o": [
+            "Forest growth for timber",
+            "Silk production",
+            "Silver mining",
+            "Soil quality"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for helpers working with plants, LEFT for those working with animals.",
+        "type": "swipe_cards",
+        "left_label": "Animals",
+        "right_label": "Plants",
+        "cards": {
+            "Vet": "left",
+            "Gardener": "right",
+            "Zookeeper": "left",
+            "Farmer": "right"
+        }
+    },
+    {
+        "q": "A geriatrician treats children with birth defects.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who extracts teeth that are damaged beyond repair?",
+        "type": "mcq",
+        "o": [
+            "Oral surgeon",
+            "Orthodontist",
+            "Hygienist",
+            "Dentist"
+        ]
+    },
+    {
+        "q": "A ______ repairs the delicate mechanisms inside a piano.",
+        "type": "fill_blank",
+        "answers": [
+            "piano tuner",
+            "piano technician"
+        ],
+        "other_options": [
+            "musician",
+            "carpenter",
+            "electrician"
+        ]
+    },
+    {
+        "q": "Which helper uses an altimeter frequently?",
+        "type": "mcq",
+        "o": [
+            "Pilot",
+            "Sailor",
+            "Driver",
+            "Astronomer"
+        ]
+    },
+    {
+        "q": "What does a horticulturist specialize in?",
+        "type": "mcq",
+        "o": [
+            "Garden cultivation",
+            "Animal breeding",
+            "Fish farming",
+            "Forest conservation"
+        ]
+    },
+    {
+        "q": "Who is the head of the municipal corporation responsible for civic amenities?",
+        "type": "mcq",
+        "o": [
+            "Mayor",
+            "Governor",
+            "Chief Minister",
+            "Prime Minister"
+        ]
+    },
+    {
+        "q": "A person who studies the effects of radiation on living organisms is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "radiobiologist"
+        ],
+        "other_options": [
+            "radiologist",
+            "oncologist",
+            "physicist"
+        ]
+    },
+    {
+        "q": "What does a cryptographer do?",
+        "type": "mcq",
+        "o": [
+            "Creates and breaks codes",
+            "Studies ancient tombs",
+            "Analyzes soil samples",
+            "Maps underground caves"
+        ]
+    },
+    {
+        "q": "A notary public can solemnize marriages in all countries.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who calibrates and repairs high-precision instruments like atomic clocks?",
+        "type": "mcq",
+        "o": [
+            "Horologist",
+            "Watchmaker",
+            "Physicist",
+            "Engineer"
+        ]
+    },
+    {
+        "q": "Name the specialist who treats disorders of the immune system.",
+        "type": "short_answer",
+        "answers": [
+            "immunologist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which professional designs and oversees the installation of heating, ventilation, and air conditioning systems?",
+        "type": "mcq",
+        "o": [
+            "HVAC engineer",
+            "Electrician",
+            "Plumber",
+            "Civil engineer"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person mends and fixes our torn shoes.",
+        "type": "word_scramble",
+        "answer": "COBBLER",
+        "decoys": "XQ"
+    },
+    {
+        "q": "A ______ restores and preserves ancient artifacts and monuments.",
+        "type": "fill_blank",
+        "answers": [
+            "conservator",
+            "restorer"
+        ],
+        "other_options": [
+            "archaeologist",
+            "historian",
+            "curator"
+        ]
+    },
+    {
+        "q": "Match the legal professional with their duty:",
+        "type": "match",
+        "left": [
+            "Prosecutor",
+            "Defense attorney",
+            "Magistrate",
+            "Notary"
+        ],
+        "right": [
+            "Represents the state",
+            "Defends the accused",
+            "Presides over minor cases",
+            "Witnesses document signing"
+        ]
+    },
+    {
+        "q": "Complete the sentence about waste management helpers:",
+        "type": "inline_dropdown",
+        "text": "The [0] takes away our trash in a large [1].",
+        "dropdowns": [
+            {
+                "correct": "garbage collector",
+                "options": [
+                    "garbage collector",
+                    "pilot",
+                    "teacher"
+                ]
+            },
+            {
+                "correct": "truck",
+                "options": [
+                    "truck",
+                    "airplane",
+                    "boat"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "An oncologist treats patients with broken bones.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who operates a hyperbaric chamber for deep-sea divers with decompression sickness?",
+        "type": "mcq",
+        "o": [
+            "Hyperbaric technician",
+            "Nurse",
+            "Marine biologist",
+            "Sailor"
+        ]
+    },
+    {
+        "q": "What instrument does an acoustical engineer use to measure sound levels?",
+        "type": "mcq",
+        "o": [
+            "Sound level meter",
+            "Barometer",
+            "Thermometer",
+            "Hygrometer"
+        ]
+    },
+    {
+        "q": "A perfusionist operates the heart-lung machine during cardiac surgery.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "How many stethoscopes does a doctor usually wear around their neck at once?",
+        "type": "slider",
+        "min": 0,
+        "max": 3,
+        "correct": 1
+    },
+    {
+        "q": "Who designs costumes for theatre and film productions?",
+        "type": "mcq",
+        "o": [
+            "Costume designer",
+            "Tailor",
+            "Fashion designer",
+            "Dresser"
+        ]
+    },
+    {
+        "q": "Name the professional who studies and treats foot and ankle disorders.",
+        "type": "short_answer",
+        "answers": [
+            "podiatrist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A person who flies a helicopter for emergency medical services is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "helicopter pilot",
+            "medevac pilot"
+        ],
+        "other_options": [
+            "airline pilot",
+            "drone pilot",
+            "astronaut"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person is a doctor for our pets.",
+        "type": "word_scramble",
+        "answer": "VET",
+        "decoys": "ZXC"
+    },
+    {
+        "q": "Which helper assesses and treats swallowing disorders?",
+        "type": "mcq",
+        "o": [
+            "Speech-language pathologist",
+            "Dietician",
+            "ENT specialist",
+            "Gastroenterologist"
+        ]
+    },
+    {
+        "q": "What does an epigraphist study?",
+        "type": "mcq",
+        "o": [
+            "Ancient inscriptions",
+            "Earthquakes",
+            "Epidemics",
+            "Evolution"
+        ]
+    },
+    {
+        "q": "A wildlife forensics expert uses DNA to track poachers and illegal trade.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who manages the logistics of disaster relief operations?",
+        "type": "mcq",
+        "o": [
+            "Logistics coordinator",
+            "Firefighter",
+            "Paramedic",
+            "Police chief"
+        ]
+    },
+    {
+        "q": "Complete the sentence about mail helpers:",
+        "type": "inline_dropdown",
+        "text": "The [0] delivers letters right to our [1].",
+        "dropdowns": [
+            {
+                "correct": "postman",
+                "options": [
+                    "postman",
+                    "teacher",
+                    "driver"
+                ]
+            },
+            {
+                "correct": "mailbox",
+                "options": [
+                    "mailbox",
+                    "oven",
+                    "fridge"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the community helper to the building they work in.",
+        "type": "memory",
+        "pairs": {
+            "Teacher": "School",
+            "Nurse": "Hospital",
+            "Mechanic": "Garage",
+            "Librarian": "Library"
+        }
+    },
+    {
+        "q": "Which of these is NOT a tool used by a gardener?",
+        "type": "odd_one_out",
+        "options": [
+            "Watering Can",
+            "Rake",
+            "Spade",
+            "Seeds",
+            "Handcuffs"
+        ],
+        "correct": "Handcuffs"
+    },
+    {
+        "q": "What does a tribologist study?",
+        "type": "mcq",
+        "o": [
+            "Friction and lubrication",
+            "Tribal cultures",
+            "Rivers",
+            "Ancient texts"
+        ]
+    },
+    {
+        "q": "A ______ repairs and tunes musical instruments to perfect pitch.",
+        "type": "fill_blank",
+        "answers": [
+            "instrument technician",
+            "luthier",
+            "piano tuner"
+        ],
+        "other_options": [
+            "musician",
+            "composer",
+            "conductor"
+        ]
+    },
+    {
+        "q": "Who investigates plane crashes and other transportation accidents?",
+        "type": "mcq",
+        "o": [
+            "Accident investigator",
+            "Detective",
+            "Forensic scientist",
+            "Safety inspector"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for jobs often done at night, LEFT for daytime jobs.",
+        "type": "swipe_cards",
+        "left_label": "Daytime",
+        "right_label": "Nighttime",
+        "cards": {
+            "Teacher": "left",
+            "Night Watchman": "right",
+            "Librarian": "left",
+            "Astronomer": "right"
+        }
+    },
+    {
+        "q": "Match the medical technician with the equipment they operate:",
+        "type": "match",
+        "left": [
+            "Radiographer",
+            "Dialysis technician",
+            "Perfusionist",
+            "EEG technologist"
+        ],
+        "right": [
+            "X-ray machine",
+            "Kidney dialysis machine",
+            "Heart-lung machine",
+            "Brain wave monitor"
+        ]
+    },
+    {
+        "q": "Name the professional who creates and restores stained glass windows.",
+        "type": "short_answer",
+        "answers": [
+            "stained glass artist",
+            "glazier"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Who prescribes corrective lenses and contact lenses?",
+        "type": "mcq",
+        "o": [
+            "Optometrist",
+            "Ophthalmologist",
+            "Optician",
+            "Pharmacist"
+        ]
+    },
+    {
+        "q": "What does a pyrotechnician handle?",
+        "type": "mcq",
+        "o": [
+            "Fireworks displays",
+            "Volcanic eruptions",
+            "Forest fires",
+            "Welding"
+        ]
+    },
+    {
+        "q": "An endocrinologist treats hormonal imbalances and gland disorders.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: This person decides the laws in a court.",
+        "type": "word_scramble",
+        "answer": "JUDGE",
+        "decoys": "VK"
+    },
+    {
+        "q": "Who designs and manages waste treatment plants for a city?",
+        "type": "mcq",
+        "o": [
+            "Sanitation engineer",
+            "Civil engineer",
+            "Plumber",
+            "Environmentalist"
+        ]
+    },
+    {
+        "q": "A ______ analyzes handwriting to verify the authenticity of documents.",
+        "type": "fill_blank",
+        "answers": [
+            "handwriting expert",
+            "document examiner"
+        ],
+        "other_options": [
+            "graphologist",
+            "forensic scientist",
+            "detective"
+        ]
+    },
+    {
+        "q": "Which scientist studies glaciers and ice sheets?",
+        "type": "mcq",
+        "o": [
+            "Glaciologist",
+            "Geologist",
+            "Meteorologist",
+            "Oceanographer"
+        ]
+    },
+    {
+        "q": "What does a sommelier specialize in?",
+        "type": "mcq",
+        "o": [
+            "Wine and beverage service",
+            "Cooking sauces",
+            "Baking bread",
+            "Brewing beer"
+        ]
+    },
+    {
+        "q": "A cinematographer is responsible for the lighting and camera work in a film.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who treats patients with cancerous tumors using radiation therapy?",
+        "type": "mcq",
+        "o": [
+            "Radiation oncologist",
+            "Radiologist",
+            "Surgeon",
+            "Chemotherapist"
+        ]
+    },
+    {
+        "q": "Name the professional who designs and maintains golf courses.",
+        "type": "short_answer",
+        "answers": [
+            "golf course architect",
+            "greenkeeper"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ studies the chemical composition of rocks and minerals.",
+        "type": "fill_blank",
+        "answers": [
+            "geochemist"
+        ],
+        "other_options": [
+            "geologist",
+            "chemist",
+            "mineralogist"
+        ]
+    },
+    {
+        "q": "Who operates a synchrotron particle accelerator for scientific research?",
+        "type": "mcq",
+        "o": [
+            "Accelerator physicist",
+            "Nuclear engineer",
+            "Radiologist",
+            "Astronomer"
+        ]
+    },
+    {
+        "q": "Which helper rescues people stranded on mountains?",
+        "type": "mcq",
+        "o": [
+            "Mountain rescue team",
+            "Coast guard",
+            "Firefighter",
+            "Paramedic"
+        ]
+    },
+    {
+        "q": "Match the environmental professional with their focus:",
+        "type": "match",
+        "left": [
+            "Hydrologist",
+            "Atmospheric scientist",
+            "Soil scientist",
+            "Conservation biologist"
+        ],
+        "right": [
+            "Water cycle",
+            "Air and climate",
+            "Soil health",
+            "Endangered species"
+        ]
+    },
+    {
+        "q": "A kinesiologist studies human movement and body mechanics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who oversees the drilling operations on an oil rig?",
+        "type": "mcq",
+        "o": [
+            "Toolpusher",
+            "Geologist",
+            "Roughneck",
+            "Engineer"
+        ]
+    },
+    {
+        "q": "What does a vexillologist study?",
+        "type": "mcq",
+        "o": [
+            "Flags",
+            "Vexing problems",
+            "Banners",
+            "Stamps"
+        ]
+    },
+    {
+        "q": "Complete the sentence about security helpers:",
+        "type": "inline_dropdown",
+        "text": "A [0] guards buildings at night so we can feel [1].",
+        "dropdowns": [
+            {
+                "correct": "watchman",
+                "options": [
+                    "watchman",
+                    "baker",
+                    "sweeper"
+                ]
+            },
+            {
+                "correct": "safe",
+                "options": [
+                    "safe",
+                    "scared",
+                    "hungry"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A ______ designs and builds dams, levees, and canals for water management.",
+        "type": "fill_blank",
+        "answers": [
+            "hydraulic engineer"
+        ],
+        "other_options": [
+            "civil engineer",
+            "hydrologist",
+            "mechanical engineer"
+        ]
+    },
+    {
+        "q": "Who coordinates the response to a bioterrorism attack or disease outbreak?",
+        "type": "mcq",
+        "o": [
+            "Epidemiologist",
+            "Infectious disease doctor",
+            "CDC officer",
+            "Policeman"
+        ]
+    },
+    {
+        "q": "What does an arachnologist study?",
+        "type": "mcq",
+        "o": [
+            "Spiders and scorpions",
+            "Birds",
+            "Insects",
+            "Reptiles"
+        ]
+    },
+    {
+        "q": "Name the professional who analyzes satellite imagery for intelligence agencies.",
+        "type": "short_answer",
+        "answers": [
+            "imagery analyst",
+            "geospatial intelligence analyst"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A periodontist focuses on the gums and supporting structures of teeth.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "A baker bakes a dozen cookies. How many cookies is that?",
+        "type": "slider",
+        "min": 6,
+        "max": 15,
+        "correct": 12
+    },
+    {
+        "q": "Who operates the remote-controlled submarine robots used in deep-sea exploration?",
+        "type": "mcq",
+        "o": [
+            "ROV pilot",
+            "Submarine captain",
+            "Marine biologist",
+            "Sailor"
+        ]
+    },
+    {
+        "q": "What does a numismatist collect and study?",
+        "type": "mcq",
+        "o": [
+            "Coins and currency",
+            "Stamps",
+            "Rocks",
+            "Bones"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person lays bricks and cement.",
+        "type": "word_scramble",
+        "answer": "MASON",
+        "decoys": "PQ"
+    },
+    {
+        "q": "A ______ designs the artificial limbs that athletes use in Paralympic events.",
+        "type": "fill_blank",
+        "answers": [
+            "prosthetist",
+            "biomedical engineer"
+        ],
+        "other_options": [
+            "doctor",
+            "coach",
+            "physiotherapist"
+        ]
+    },
+    {
+        "q": "Who manages the breeding and health of animals in a zoo?",
+        "type": "mcq",
+        "o": [
+            "Zoo curator",
+            "Vet",
+            "Zookeeper",
+            "Biologist"
+        ]
+    },
+    {
+        "q": "Match the space professional with their duty:",
+        "type": "match",
+        "left": [
+            "Mission control specialist",
+            "Payload specialist",
+            "Flight surgeon",
+            "Spacecraft designer"
+        ],
+        "right": [
+            "Monitors spacecraft from Earth",
+            "Handles specific experiments",
+            "Manages astronaut health",
+            "Engineers the spaceship"
+        ]
+    },
+    {
+        "q": "An otorhinolaryngologist treats only ear infections.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who investigates the cause of a building collapse?",
+        "type": "mcq",
+        "o": [
+            "Structural engineer",
+            "Civil engineer",
+            "Forensic investigator",
+            "Architect"
+        ]
+    },
+    {
+        "q": "What does a philatelist collect?",
+        "type": "mcq",
+        "o": [
+            "Stamps",
+            "Coins",
+            "Rocks",
+            "Antiques"
+        ]
+    },
+    {
+        "q": "Name the specialist nurse who administers anesthesia.",
+        "type": "short_answer",
+        "answers": [
+            "CRNA",
+            "nurse anesthetist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ studies tree rings to date historical events and climate changes.",
+        "type": "fill_blank",
+        "answers": [
+            "dendrochronologist"
+        ],
+        "other_options": [
+            "botanist",
+            "archaeologist",
+            "geologist"
+        ]
+    },
+    {
+        "q": "Complete the sentence about animal helpers:",
+        "type": "inline_dropdown",
+        "text": "A [0] treats our sick pets, and a [1] feeds wild animals in the zoo.",
+        "dropdowns": [
+            {
+                "correct": "vet",
+                "options": [
+                    "vet",
+                    "chef",
+                    "mason"
+                ]
+            },
+            {
+                "correct": "zookeeper",
+                "options": [
+                    "zookeeper",
+                    "plumber",
+                    "barber"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Who designs the user interface and experience for websites and apps?",
+        "type": "mcq",
+        "o": [
+            "UX/UI designer",
+            "Graphic designer",
+            "Programmer",
+            "Web developer"
+        ]
+    },
+    {
+        "q": "What does a cosmologist study?",
+        "type": "mcq",
+        "o": [
+            "Origin and structure of the universe",
+            "Makeup and cosmetics",
+            "City planning",
+            "Space travel"
+        ]
+    },
+    {
+        "q": "A phlebotomist is licensed to perform blood transfusions.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who maintains the electrical grid and power distribution for a region?",
+        "type": "mcq",
+        "o": [
+            "Electrical grid operator",
+            "Electrician",
+            "Power plant engineer",
+            "Lineman"
+        ]
+    },
+    {
+        "q": "What does a lepidopterist study?",
+        "type": "mcq",
+        "o": [
+            "Butterflies and moths",
+            "Leopards",
+            "Leap year cycles",
+            "Leprosy"
+        ]
+    },
+    {
+        "q": "A ______ interprets satellite weather data to issue storm warnings.",
+        "type": "fill_blank",
+        "answers": [
+            "meteorologist"
+        ],
+        "other_options": [
+            "astronomer",
+            "geologist",
+            "oceanographer"
+        ]
+    },
+    {
+        "q": "Match the helper to the physical work they do.",
+        "type": "memory",
+        "pairs": {
+            "Painter": "Paints walls",
+            "Mechanic": "Fixes cars",
+            "Sweeper": "Cleans streets",
+            "Mason": "Lays bricks"
+        }
+    },
+    {
+        "q": "Match the forensic expert with their specialty:",
+        "type": "match",
+        "left": [
+            "Forensic accountant",
+            "Forensic odontologist",
+            "Forensic psychologist",
+            "Digital forensics analyst"
+        ],
+        "right": [
+            "Financial crimes",
+            "Dental identification",
+            "Criminal behavior analysis",
+            "Computer data recovery"
+        ]
+    },
+    {
+        "q": "Who designs the complex pipe systems in chemical plants and oil refineries?",
+        "type": "mcq",
+        "o": [
+            "Piping engineer",
+            "Plumber",
+            "Chemical engineer",
+            "Mechanical engineer"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a tool used by a plumber?",
+        "type": "odd_one_out",
+        "options": [
+            "Wrench",
+            "Pipes",
+            "Plunger",
+            "Sealant",
+            "Stamps"
+        ],
+        "correct": "Stamps"
+    },
+    {
+        "q": "Name the professional who studies lakes, rivers, and wetlands.",
+        "type": "short_answer",
+        "answers": [
+            "limnologist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What does a myrmecologist study?",
+        "type": "mcq",
+        "o": [
+            "Ants",
+            "Mice",
+            "Moss",
+            "Mummies"
+        ]
+    },
+    {
+        "q": "An audiologist performs surgical procedures on the inner ear.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who analyzes the flight data recorder (black box) after a crash?",
+        "type": "mcq",
+        "o": [
+            "Aviation safety analyst",
+            "Pilot",
+            "Mechanic",
+            "Air traffic controller"
+        ]
+    },
+    {
+        "q": "A ______ brews beer and oversees the fermentation process.",
+        "type": "fill_blank",
+        "answers": [
+            "brewmaster"
+        ],
+        "other_options": [
+            "sommelier",
+            "bartender",
+            "chemist"
+        ]
+    },
+    {
+        "q": "Which helper maps the ocean floor using sonar technology?",
+        "type": "mcq",
+        "o": [
+            "Hydrographer",
+            "Cartographer",
+            "Marine biologist",
+            "Fisherman"
+        ]
+    },
+    {
+        "q": "What does an agronomist specialize in?",
+        "type": "mcq",
+        "o": [
+            "Soil and crop management",
+            "Animal husbandry",
+            "Weather prediction",
+            "Farm machinery"
+        ]
+    },
+    {
+        "q": "A genetic counselor performs gene editing on human embryos routinely.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Swipe RIGHT for helpers who stay in one town, LEFT for those who travel far.",
+        "type": "swipe_cards",
+        "left_label": "Travels Far",
+        "right_label": "Stays Local",
+        "cards": {
+            "Pilot": "left",
+            "Baker": "right",
+            "Train Driver": "left",
+            "Dentist": "right"
+        }
+    },
+    {
+        "q": "Who designs the props used in a movie or theatre production?",
+        "type": "mcq",
+        "o": [
+            "Prop master",
+            "Set designer",
+            "Carpenter",
+            "Artist"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person protects the gates of a building.",
+        "type": "word_scramble",
+        "answer": "GUARD",
+        "decoys": "ZP"
+    },
+    {
+        "q": "Name the professional who carves or designs tombstones and memorials.",
+        "type": "short_answer",
+        "answers": [
+            "memorial mason",
+            "monumental mason"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ operates the large cranes that load and unload container ships at ports.",
+        "type": "fill_blank",
+        "answers": [
+            "dockworker",
+            "crane operator",
+            "stevedore"
+        ],
+        "other_options": [
+            "sailor",
+            "truck driver",
+            "forklift operator"
+        ]
+    },
+    {
+        "q": "What does a teuthologist study?",
+        "type": "mcq",
+        "o": [
+            "Squids and octopuses",
+            "Teeth",
+            "Technology",
+            "Tectonic plates"
+        ]
+    },
+    {
+        "q": "Who plans and organizes funerals and memorial services?",
+        "type": "mcq",
+        "o": [
+            "Funeral director",
+            "Priest",
+            "Doctor",
+            "Florist"
+        ]
+    },
+    {
+        "q": "Complete the sentence about cobblers:",
+        "type": "inline_dropdown",
+        "text": "The [0] mends our torn shoes using strong [1].",
+        "dropdowns": [
+            {
+                "correct": "cobbler",
+                "options": [
+                    "cobbler",
+                    "farmer",
+                    "vet"
+                ]
+            },
+            {
+                "correct": "leather",
+                "options": [
+                    "leather",
+                    "glass",
+                    "water"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the rare specialist with their subject:",
+        "type": "match",
+        "left": [
+            "Campanologist",
+            "Scripophily expert",
+            "Deltiologist",
+            "Falerist"
+        ],
+        "right": [
+            "Bells",
+            "Old stock certificates",
+            "Postcards",
+            "Medals and badges"
+        ]
+    },
+    {
+        "q": "An endodontist performs root canal treatments.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who trains bomb-sniffing dogs to detect explosives?",
+        "type": "mcq",
+        "o": [
+            "K9 handler",
+            "Vet",
+            "Policeman",
+            "Security guard"
+        ]
+    },
+    {
+        "q": "Match the tool to the correct community helper.",
+        "type": "memory",
+        "pairs": {
+            "Tailor": "Needle",
+            "Mason": "Trowel",
+            "Cleaner": "Broom",
+            "Gardener": "Rake"
+        }
+    },
+    {
+        "q": "What does an anthropologist study?",
+        "type": "mcq",
+        "o": [
+            "Human societies and cultures",
+            "Insects",
+            "Dinosaurs",
+            "Stars"
+        ]
+    },
+    {
+        "q": "A ______ monitors and controls the flow of natural gas through pipelines.",
+        "type": "fill_blank",
+        "answers": [
+            "pipeline controller"
+        ],
+        "other_options": [
+            "plumber",
+            "gas station attendant",
+            "chemist"
+        ]
+    },
+    {
+        "q": "Who ensures that a building is accessible for people with disabilities?",
+        "type": "mcq",
+        "o": [
+            "Accessibility consultant",
+            "Architect",
+            "Interior designer",
+            "Civil engineer"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for helpers providing services, LEFT for those protecting people.",
+        "type": "swipe_cards",
+        "left_label": "Protects People",
+        "right_label": "Provides Services",
+        "cards": {
+            "Soldier": "left",
+            "Barber": "right",
+            "Police Officer": "left",
+            "Tailor": "right"
+        }
+    },
+    {
+        "q": "Name the professional who studies mosses, liverworts, and hornworts.",
+        "type": "short_answer",
+        "answers": [
+            "bryologist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What does a primatologist study?",
+        "type": "mcq",
+        "o": [
+            "Apes and monkeys",
+            "Primitive humans",
+            "Early plants",
+            "Prime numbers"
+        ]
+    },
+    {
+        "q": "A microbiologist studies macroscopic organisms visible to the naked eye.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who operates the sonar and radar systems on a naval warship?",
+        "type": "mcq",
+        "o": [
+            "Sonar technician",
+            "Captain",
+            "Sailor",
+            "Gunner"
+        ]
+    },
+    {
+        "q": "What does a bioclimatologist study?",
+        "type": "mcq",
+        "o": [
+            "Effects of climate on living things",
+            "Microbes in the air",
+            "Bicycle design",
+            "Organic chemistry"
+        ]
+    },
+    {
+        "q": "A ______ designs the special makeup and prosthetics for monsters in horror films.",
+        "type": "fill_blank",
+        "answers": [
+            "SFX makeup artist",
+            "prosthetic makeup artist"
+        ],
+        "other_options": [
+            "beautician",
+            "costume designer",
+            "actor"
+        ]
+    },
+    {
+        "q": "Match the unusual medical specialist with their focus:",
+        "type": "match",
+        "left": [
+            "Trichologist",
+            "Rhinologist",
+            "Bariatrician",
+            "Gerontologist"
+        ],
+        "right": [
+            "Hair and scalp",
+            "Nose and sinuses",
+            "Weight loss and obesity",
+            "Aging process"
+        ]
+    },
+    {
+        "q": "Unscramble the word: This person drives a big vehicle to take kids to school.",
+        "type": "word_scramble",
+        "answer": "DRIVER",
+        "decoys": "QX"
+    },
+    {
+        "q": "Who restores the engine and body of vintage automobiles?",
+        "type": "mcq",
+        "o": [
+            "Classic car restorer",
+            "Mechanic",
+            "Auto body painter",
+            "Engineer"
+        ]
+    },
+    {
+        "q": "A person who studies mold and fungi is a mycologist.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does an ethologist study?",
+        "type": "mcq",
+        "o": [
+            "Animal behavior in natural conditions",
+            "Ethics and morals",
+            "Ethnic groups",
+            "Ethernet networks"
+        ]
+    },
+    {
+        "q": "Name the professional who designs and manages flood control systems.",
+        "type": "short_answer",
+        "answers": [
+            "flood control engineer",
+            "hydraulic engineer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Who is the constitutional head of the judiciary responsible for interpreting the law at the highest level?",
+        "type": "mcq",
+        "o": [
+            "Chief Justice",
+            "Attorney General",
+            "Law Minister",
+            "Governor"
+        ]
+    },
+    {
+        "q": "A person who studies the biomechanics of human gait and designs corrective orthotics is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "orthotist",
+            "pedorthist"
+        ],
+        "other_options": [
+            "podiatrist",
+            "physiotherapist",
+            "prosthetist"
+        ]
+    },
+    {
+        "q": "What does a quantum physicist primarily investigate?",
+        "type": "mcq",
+        "o": [
+            "Subatomic particles and their interactions",
+            "Black holes and galaxies",
+            "Weather patterns",
+            "Earth's tectonic plates"
+        ]
+    },
+    {
+        "q": "A rhetorician specializes in the study of volcanoes and magma.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who conducts a forensic audit to detect embezzlement and financial fraud in corporations?",
+        "type": "mcq",
+        "o": [
+            "Forensic accountant",
+            "Auditor",
+            "Tax inspector",
+            "Bank manager"
+        ]
+    },
+    {
+        "q": "Name the specialist who interprets chromosomal abnormalities and genetic disorders.",
+        "type": "short_answer",
+        "answers": [
+            "cytogeneticist",
+            "clinical geneticist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which professional uses a cryostat to prepare frozen tissue sections for immediate microscopic analysis?",
+        "type": "mcq",
+        "o": [
+            "Histotechnologist",
+            "Pathologist",
+            "Surgeon",
+            "Lab technician"
+        ]
+    },
+    {
+        "q": "Complete the final sentence about community helpers:",
+        "type": "inline_dropdown",
+        "text": "Community helpers make our lives [0] and keep our city [1].",
+        "dropdowns": [
+            {
+                "correct": "easier",
+                "options": [
+                    "easier",
+                    "harder",
+                    "slower"
+                ]
+            },
+            {
+                "correct": "running",
+                "options": [
+                    "running",
+                    "stopping",
+                    "breaking"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A ______ investigates the psychological motives behind criminal behavior and creates offender profiles.",
+        "type": "fill_blank",
+        "answers": [
+            "criminal profiler",
+            "forensic psychologist"
+        ],
+        "other_options": [
+            "detective",
+            "sociologist",
+            "psychiatrist"
+        ]
+    },
+    {
+        "q": "Match the way we show respect to the correct helper.",
+        "type": "memory",
+        "pairs": {
+            "All Helpers": "Say thank you",
+            "Police Officer": "Listen to rules",
+            "Doctor": "Follow health advice",
+            "Librarian": "Stay quiet"
+        }
+    },
+    {
+        "q": "Match the niche engineering field with its focus:",
+        "type": "match",
+        "left": [
+            "Tribology engineer",
+            "Cryogenics engineer",
+            "Photonics engineer",
+            "Mechatronics engineer"
+        ],
+        "right": [
+            "Friction and wear reduction",
+            "Ultra-low temperature systems",
+            "Light-based technology",
+            "Robotics and automation"
+        ]
+    },
+    {
+        "q": "An immunologist and an allergist treat exactly the same range of conditions without any overlap.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Swipe RIGHT for helpers using a normal car or walking, LEFT for those using special vehicles.",
+        "type": "swipe_cards",
+        "left_label": "Special Vehicle",
+        "right_label": "Normal/Walking",
+        "cards": {
+            "Firefighter": "left",
+            "Librarian": "right",
+            "Garbage Collector": "left",
+            "Grocer": "right"
+        }
+    },
+    {
+        "q": "Who calibrates the highly sensitive instruments used in navigation, aerospace, and defense?",
+        "type": "mcq",
+        "o": [
+            "Metrology engineer",
+            "Mechanical engineer",
+            "Physicist",
+            "Horologist"
+        ]
+    },
+    {
+        "q": "What does a thanatologist study?",
+        "type": "mcq",
+        "o": [
+            "Death and the practices associated with it",
+            "Ancient Greek mythology",
+            "Thorium reactors",
+            "Marine life"
+        ]
+    },
+    {
+        "q": "Match the helper to the main material they work with.",
+        "type": "memory",
+        "pairs": {
+            "Carpenter": "Wood",
+            "Tailor": "Cloth",
+            "Mason": "Cement",
+            "Blacksmith": "Metal"
+        }
+    },
+    {
+        "q": "A somnologist treats sleep disorders using cognitive behavioral therapy and medical devices.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who manages the integrity of a spacecraft's thermal protection system during atmospheric re-entry?",
+        "type": "mcq",
+        "o": [
+            "Thermal engineer",
+            "Aerospace engineer",
+            "Astronaut",
+            "Mission controller"
+        ]
+    },
+    {
+        "q": "Name the professional who restores and preserves ancient manuscripts and parchment.",
+        "type": "short_answer",
+        "answers": [
+            "papyrologist",
+            "manuscript conservator"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ designs the complex algorithms that encrypt sensitive data for national security.",
+        "type": "fill_blank",
+        "answers": [
+            "cryptologist",
+            "cryptography engineer"
+        ],
+        "other_options": [
+            "mathematician",
+            "programmer",
+            "hacker"
+        ]
+    },
+    {
+        "q": "Which expert analyzes the linguistic patterns in a ransom note to identify the criminal?",
+        "type": "mcq",
+        "o": [
+            "Forensic linguist",
+            "Graphologist",
+            "Detective",
+            "Psychologist"
+        ]
+    },
+    {
+        "q": "What does a nephrologist surgically remove?",
+        "type": "mcq",
+        "o": [
+            "They do not perform surgery; they treat kidney diseases medically",
+            "Kidney stones only",
+            "Diseased bladders",
+            "Adrenal glands"
+        ]
+    },
+    {
+        "q": "A dendrologist focuses specifically on the cultivation of ornamental shrubs.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who operates a scanning electron microscope to analyze gunshot residue in criminal cases?",
+        "type": "mcq",
+        "o": [
+            "Forensic microscopist",
+            "Forensic chemist",
+            "Ballistics expert",
+            "Detective"
+        ]
+    },
+    {
+        "q": "What does an oenologist specialize in?",
+        "type": "mcq",
+        "o": [
+            "The science of wine and winemaking",
+            "Oil extraction from seeds",
+            "Olive cultivation",
+            "Barley fermentation"
+        ]
+    },
+    {
+        "q": "A ______ interprets the spectral lines of stars to determine their chemical composition and velocity.",
+        "type": "fill_blank",
+        "answers": [
+            "astrophysicist",
+            "spectroscopist"
+        ],
+        "other_options": [
+            "astronomer",
+            "meteorologist",
+            "cosmologist"
+        ]
+    },
+    {
+        "q": "Who designs the life support systems for submarines and space stations?",
+        "type": "mcq",
+        "o": [
+            "Life support engineer",
+            "Environmental engineer",
+            "Marine engineer",
+            "Aerospace engineer"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for jobs where helpers get very dirty, LEFT for jobs focused on cleaning.",
+        "type": "swipe_cards",
+        "left_label": "Cleans Things",
+        "right_label": "Gets Dirty",
+        "cards": {
+            "Sweeper": "left",
+            "Coal Miner": "right",
+            "Laundry Worker": "left",
+            "Potter": "right"
+        }
+    },
+    {
+        "q": "Match the highly specialized surgeon with the body system:",
+        "type": "match",
+        "left": [
+            "Neurosurgeon",
+            "Cardiothoracic surgeon",
+            "Hepatobiliary surgeon",
+            "Vascular surgeon"
+        ],
+        "right": [
+            "Brain and spine",
+            "Heart and lungs",
+            "Liver and bile ducts",
+            "Arteries and veins"
+        ]
+    },
+    {
+        "q": "Name the professional who studies ancient pollen and spores to reconstruct past environments.",
+        "type": "short_answer",
+        "answers": [
+            "palynologist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Who oversees the safety protocols and containment of lethal viruses in a BSL-4 laboratory?",
+        "type": "mcq",
+        "o": [
+            "Biosafety officer",
+            "Epidemiologist",
+            "Virologist",
+            "Lab technician"
+        ]
+    },
+    {
+        "q": "Match the emergency problem to the helper who fixes it.",
+        "type": "memory",
+        "pairs": {
+            "Plumber": "Leaky tap",
+            "Dentist": "Toothache",
+            "Firefighter": "Big fire",
+            "Mechanic": "Broken engine"
+        }
+    },
+    {
+        "q": "What does a seismologist use to predict the exact time of an earthquake?",
+        "type": "mcq",
+        "o": [
+            "They cannot predict exact times; they study wave patterns and probabilities",
+            "Richter scale",
+            "Seismograph",
+            "Theodolite"
+        ]
+    },
+    {
+        "q": "A mixologist is a scientist who studies the mixing of chemicals in a laboratory.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Swipe RIGHT for jobs in noisy places, LEFT for jobs in quiet places.",
+        "type": "swipe_cards",
+        "left_label": "Quiet Place",
+        "right_label": "Noisy Place",
+        "cards": {
+            "Librarian": "left",
+            "Factory Worker": "right",
+            "Museum Guard": "left",
+            "Construction Worker": "right"
+        }
+    },
+    {
+        "q": "Who adjusts the delicate flight surfaces and control systems of an experimental aircraft?",
+        "type": "mcq",
+        "o": [
+            "Flight test engineer",
+            "Pilot",
+            "Mechanic",
+            "Aerodynamicist"
+        ]
+    },
+    {
+        "q": "A ______ studies parasitic organisms like tapeworms and their life cycles to develop treatments.",
+        "type": "fill_blank",
+        "answers": [
+            "parasitologist"
+        ],
+        "other_options": [
+            "microbiologist",
+            "epidemiologist",
+            "veterinarian"
+        ]
+    },
+    {
+        "q": "Which expert reconstructs facial features from a skull for identification purposes?",
+        "type": "mcq",
+        "o": [
+            "Forensic sculptor",
+            "Forensic anthropologist",
+            "Plastic surgeon",
+            "Artist"
+        ]
+    },
+    {
+        "q": "What does a vexillographer design?",
+        "type": "mcq",
+        "o": [
+            "Flags",
+            "Heraldic emblems",
+            "Postage stamps",
+            "Currency notes"
+        ]
+    },
+    {
+        "q": "A chiropractor has a Doctor of Medicine degree and can prescribe medication.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who manages the complex logistics of moving an entire military battalion across continents?",
+        "type": "mcq",
+        "o": [
+            "Logistics officer",
+            "Infantry commander",
+            "Pilot",
+            "Navigator"
+        ]
+    },
+    {
+        "q": "Name the professional who calibrates radiation therapy machines to deliver precise doses to tumors.",
+        "type": "short_answer",
+        "answers": [
+            "medical physicist",
+            "health physicist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the helper to their mode of transportation.",
+        "type": "memory",
+        "pairs": {
+            "Pilot": "Airplane",
+            "Sailor": "Ship",
+            "Postman": "Mail Truck",
+            "Bus Driver": "School Bus"
+        }
+    },
+    {
+        "q": "A ______ analyzes the air pressure waves caused by explosions to design safer buildings.",
+        "type": "fill_blank",
+        "answers": [
+            "blast engineer",
+            "explosives engineer"
+        ],
+        "other_options": [
+            "structural engineer",
+            "fire marshal",
+            "physicist"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for jobs working with metal, LEFT for jobs working with paper.",
+        "type": "swipe_cards",
+        "left_label": "Works with Paper",
+        "right_label": "Works with Metal",
+        "cards": {
+            "Author": "left",
+            "Blacksmith": "right",
+            "Postman": "left",
+            "Mechanic": "right"
+        }
+    },
+    {
+        "q": "What does an apiologist study?",
+        "type": "mcq",
+        "o": [
+            "Honeybees",
+            "Apes and monkeys",
+            "Apple cultivation",
+            "Surgical robots"
+        ]
+    },
+    {
+        "q": "Match the environmental helper to how they help the earth.",
+        "type": "memory",
+        "pairs": {
+            "Garbage Collector": "Removes trash",
+            "Gardener": "Plants trees",
+            "Forest Ranger": "Protects woods",
+            "Sweeper": "Cleans paths"
+        }
+    },
+    {
+        "q": "Who designs and maintains the large telescopes in observatories like Mauna Kea?",
+        "type": "mcq",
+        "o": [
+            "Telescope engineer",
+            "Astronomer",
+            "Optical physicist",
+            "Cosmologist"
+        ]
+    },
+    {
+        "q": "Match the rare professional with their unique skill:",
+        "type": "match",
+        "left": [
+            "Master cooper",
+            "Wheelwright",
+            "Thatcher",
+            "Fletcher"
+        ],
+        "right": [
+            "Makes wooden barrels",
+            "Builds wooden wheels",
+            "Thatches roofs with straw",
+            "Makes arrows"
+        ]
+    },
+    {
+        "q": "A neonatologist treats elderly patients in the ICU.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who manages the decommissioning and safe storage of nuclear waste?",
+        "type": "mcq",
+        "o": [
+            "Nuclear engineer",
+            "Environmental scientist",
+            "Health physicist",
+            "Chemical engineer"
+        ]
+    },
+    {
+        "q": "What does a campanologist do?",
+        "type": "mcq",
+        "o": [
+            "Rings church bells using complex mathematical patterns",
+            "Studies camping and outdoor survival",
+            "Makes campaign strategies",
+            "Catalogues campus plants"
+        ]
+    },
+    {
+        "q": "A ______ designs the tactile paving and auditory signals for visually impaired pedestrians.",
+        "type": "fill_blank",
+        "answers": [
+            "accessibility engineer",
+            "inclusive design consultant"
+        ],
+        "other_options": [
+            "civil engineer",
+            "architect",
+            "urban planner"
+        ]
+    },
+    {
+        "q": "Which scientist studies the effects of microgravity on bone density loss in astronauts?",
+        "type": "mcq",
+        "o": [
+            "Space physiologist",
+            "Orthopedic surgeon",
+            "Astronomer",
+            "Biochemist"
+        ]
+    },
+    {
+        "q": "What does a cecidologist study?",
+        "type": "mcq",
+        "o": [
+            "Plant galls caused by insects",
+            "Cecilia plants",
+            "Blind spots in vision",
+            "Cicada sounds"
+        ]
+    },
+    {
+        "q": "Name the professional who analyzes the acoustic signature of a submarine to identify its nation of origin.",
+        "type": "short_answer",
+        "answers": [
+            "acoustic intelligence analyst",
+            "sonar analyst"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A lepidopterist is an expert in the study of reptiles and amphibians.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who operates the remote manipulator arm on the International Space Station?",
+        "type": "mcq",
+        "o": [
+            "Robotics officer",
+            "Astronaut",
+            "Pilot",
+            "Flight engineer"
+        ]
+    },
+    {
+        "q": "What does a geomicrobiologist study?",
+        "type": "mcq",
+        "o": [
+            "Microbes that interact with geological processes",
+            "Microbes in the soil only",
+            "Geometric shapes of bacteria",
+            "Magnetic rocks"
+        ]
+    },
+    {
+        "q": "A ______ paints the incredibly realistic backgrounds and backdrops used in film and theatre.",
+        "type": "fill_blank",
+        "answers": [
+            "scenic artist",
+            "backdrop painter"
+        ],
+        "other_options": [
+            "muralist",
+            "set designer",
+            "prop master"
+        ]
+    },
+    {
+        "q": "Who manages the sustainable harvesting and regeneration of a forest for timber production?",
+        "type": "mcq",
+        "o": [
+            "Silviculturist",
+            "Arborist",
+            "Forester",
+            "Conservationist"
+        ]
+    },
+    {
+        "q": "Match the emerging tech professional with their role:",
+        "type": "match",
+        "left": [
+            "Blockchain architect",
+            "Quantum algorithm developer",
+            "AI ethicist",
+            "Digital twin engineer"
+        ],
+        "right": [
+            "Designs decentralized ledgers",
+            "Codes for quantum computers",
+            "Ensures AI fairness and safety",
+            "Creates virtual replicas of systems"
+        ]
+    },
+    {
+        "q": "What does a phytopathologist study?",
+        "type": "mcq",
+        "o": [
+            "Plant diseases",
+            "Photosynthesis efficiency",
+            "Phytoplankton in oceans",
+            "Plant genetics"
+        ]
+    },
+    {
+        "q": "A phthisiologist is a specialist in the treatment of tuberculosis.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who choreographs the complex fight scenes in action movies to ensure safety and realism?",
+        "type": "mcq",
+        "o": [
+            "Fight choreographer",
+            "Stunt coordinator",
+            "Director",
+            "Martial artist"
+        ]
+    },
+    {
+        "q": "Name the professional who tunes the massive pipe organs in cathedrals.",
+        "type": "short_answer",
+        "answers": [
+            "organ tuner",
+            "organ technician"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ analyzes the chemical traces left by a fire to determine if it was arson.",
+        "type": "fill_blank",
+        "answers": [
+            "fire debris analyst",
+            "forensic chemist"
+        ],
+        "other_options": [
+            "firefighter",
+            "detective",
+            "insurance agent"
+        ]
+    },
+    {
+        "q": "What does a noologist study?",
+        "type": "mcq",
+        "o": [
+            "The mind and intellect",
+            "Ancient laws",
+            "Noodles",
+            "Nothingness"
+        ]
+    },
+    {
+        "q": "Who models the spread of invasive species using satellite data and climate models?",
+        "type": "mcq",
+        "o": [
+            "Invasion ecologist",
+            "Entomologist",
+            "Biogeographer",
+            "Satellite analyst"
+        ]
+    },
+    {
+        "q": "A diabetologist is a surgeon who performs pancreas transplants.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who engineers the taste and texture of processed foods to ensure consistency?",
+        "type": "mcq",
+        "o": [
+            "Food technologist",
+            "Chef",
+            "Chemist",
+            "Nutritionist"
+        ]
+    },
+    {
+        "q": "What does a phenologist track?",
+        "type": "mcq",
+        "o": [
+            "Timing of seasonal biological events",
+            "Phantom limb pain",
+            "Phenolic compounds",
+            "Phone usage patterns"
+        ]
+    },
+    {
+        "q": "A ______ designs the specialized suits worn by firefighters to withstand extreme heat.",
+        "type": "fill_blank",
+        "answers": [
+            "protective equipment designer",
+            "textile engineer"
+        ],
+        "other_options": [
+            "fashion designer",
+            "tailor",
+            "safety officer"
+        ]
+    },
+    {
+        "q": "Match the physics specialist with their study:",
+        "type": "match",
+        "left": [
+            "Cryogenics physicist",
+            "Acoustician",
+            "Optical physicist",
+            "Plasma physicist"
+        ],
+        "right": [
+            "Extreme cold",
+            "Sound waves",
+            "Light and lasers",
+            "Ionized gases"
+        ]
+    },
+    {
+        "q": "Who operates the lock system in a canal to raise and lower ships?",
+        "type": "mcq",
+        "o": [
+            "Lockmaster",
+            "Harbor pilot",
+            "Captain",
+            "Sailor"
+        ]
+    },
+    {
+        "q": "Name the professional who tests the aerodynamics of new car designs in a wind tunnel.",
+        "type": "short_answer",
+        "answers": [
+            "aerodynamicist",
+            "wind tunnel engineer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What does an eschatologist study?",
+        "type": "mcq",
+        "o": [
+            "End times and ultimate destiny of humanity",
+            "Escargot and snails",
+            "Thermodynamic entropy",
+            "Escher drawings"
+        ]
+    },
+    {
+        "q": "An electrophysiologist treats heart rhythm disorders using catheters and ablation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who designs the complex sewer and drainage networks for a mega-city to prevent flooding?",
+        "type": "mcq",
+        "o": [
+            "Hydraulic engineer",
+            "Sanitation engineer",
+            "Urban planner",
+            "Civil engineer"
+        ]
+    },
+    {
+        "q": "What does an aerobiologist study?",
+        "type": "mcq",
+        "o": [
+            "Airborne particles like pollen and spores",
+            "Aerobics and exercise science",
+            "Airplane biology",
+            "Aerosol cans"
+        ]
+    },
+    {
+        "q": "A ______ creates the glass eyes used in taxidermy, dolls, and prosthetic eyes.",
+        "type": "fill_blank",
+        "answers": [
+            "ocularist",
+            "prosthetic eye maker"
+        ],
+        "other_options": [
+            "glass blower",
+            "jeweler",
+            "optometrist"
+        ]
+    },
+    {
+        "q": "Who coordinates the psychological negotiation with hostage-takers?",
+        "type": "mcq",
+        "o": [
+            "Crisis negotiator",
+            "SWAT commander",
+            "Detective",
+            "FBI agent"
+        ]
+    },
+    {
+        "q": "What does a cynologist study and train?",
+        "type": "mcq",
+        "o": [
+            "Dogs",
+            "Ancient Greek cynics",
+            "Cyanobacteria",
+            "Sailing knots"
+        ]
+    },
+    {
+        "q": "Match the extreme environment researcher with their zone:",
+        "type": "match",
+        "left": [
+            "Speleologist",
+            "Limnologist",
+            "Oceanographer",
+            "Volcanologist"
+        ],
+        "right": [
+            "Deep caves",
+            "Freshwater lakes",
+            "Deep sea",
+            "Active volcanoes"
+        ]
+    },
+    {
+        "q": "A gestalt therapist focuses on analyzing childhood dreams exclusively.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who restores the faded paint of priceless masterpieces in an art gallery?",
+        "type": "mcq",
+        "o": [
+            "Art conservator",
+            "Artist",
+            "Curator",
+            "Forger"
+        ]
+    },
+    {
+        "q": "Name the specialist who analyzes bite marks on a victim's body to identify the attacker.",
+        "type": "short_answer",
+        "answers": [
+            "forensic odontologist",
+            "forensic dentist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ operates the machine that applies the final, ultra-smooth coating to giant telescope mirrors.",
+        "type": "fill_blank",
+        "answers": [
+            "optical coater",
+            "thin films engineer"
+        ],
+        "other_options": [
+            "glass blower",
+            "astronomer",
+            "painter"
+        ]
+    },
+    {
+        "q": "What does a paleopathologist study?",
+        "type": "mcq",
+        "o": [
+            "Ancient diseases in human remains",
+            "Old stone tools",
+            "Dinosaur fossils",
+            "Ancient writing"
+        ]
+    },
+    {
+        "q": "Who manages the complex electrical load balancing of a national power grid?",
+        "type": "mcq",
+        "o": [
+            "Grid systems operator",
+            "Electrical engineer",
+            "Lineman",
+            "Power plant manager"
+        ]
+    },
+    {
+        "q": "A pyrotechnician and a bomb disposal expert have interchangeable job roles.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who creates the detailed topographical maps used by hikers and the military?",
+        "type": "mcq",
+        "o": [
+            "Topographer",
+            "Cartographer",
+            "Surveyor",
+            "Geologist"
+        ]
+    },
+    {
+        "q": "What does an ichthyologist study?",
+        "type": "mcq",
+        "o": [
+            "Fish",
+            "Itchy skin conditions",
+            "Birds",
+            "Ice and glaciers"
+        ]
+    },
+    {
+        "q": "A ______ writes the technical specifications and content for medical devices and software.",
+        "type": "fill_blank",
+        "answers": [
+            "medical writer",
+            "technical writer"
+        ],
+        "other_options": [
+            "doctor",
+            "journalist",
+            "programmer"
+        ]
+    },
+    {
+        "q": "Match the jewel crafting expert with their specialty:",
+        "type": "match",
+        "left": [
+            "Gemologist",
+            "Lapidary",
+            "Diamond grader",
+            "Engraver"
+        ],
+        "right": [
+            "Identifies and grades gems",
+            "Cuts and polishes stones",
+            "Assesses diamond quality",
+            "Carves designs on metal"
+        ]
+    },
+    {
+        "q": "Who pilots a bathyscaphe to the deepest parts of the ocean?",
+        "type": "mcq",
+        "o": [
+            "Deep-sea explorer",
+            "Submarine captain",
+            "Marine biologist",
+            "Fisherman"
+        ]
+    },
+    {
+        "q": "A geriatric social worker provides counseling and support specifically for children.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What does an ethnobotanist study?",
+        "type": "mcq",
+        "o": [
+            "How different cultures use native plants",
+            "Ethnic conflicts over land",
+            "Botany of the arctic",
+            "Telecommunication networks"
+        ]
+    },
+    {
+        "q": "Name the professional who sequences the genome of an unknown pathogen during an outbreak.",
+        "type": "short_answer",
+        "answers": [
+            "genomic epidemiologist",
+            "bioinformatician",
+            "molecular biologist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ shapes the heated glass material to make the curved screens for smartphones.",
+        "type": "fill_blank",
+        "answers": [
+            "glass press operator",
+            "thermoforming technician"
+        ],
+        "other_options": [
+            "glass blower",
+            "glazier",
+            "electronic engineer"
+        ]
+    },
+    {
+        "q": "Who manages the secure international shipment of priceless museum exhibits?",
+        "type": "mcq",
+        "o": [
+            "Registrar",
+            "Curator",
+            "Conservator",
+            "Security guard"
+        ]
+    },
+    {
+        "q": "Who serves as the principal legal advisor to the government and represents it in the Supreme Court?",
+        "type": "mcq",
+        "o": [
+            "Attorney General",
+            "Chief Justice",
+            "Solicitor General",
+            "Law Minister"
+        ]
+    },
+    {
+        "q": "A person who uses particle accelerators to analyze the elemental composition of ancient pottery without destroying it is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "archaeometrist",
+            "nuclear physicist"
+        ],
+        "other_options": [
+            "potter",
+            "historian",
+            "chemist"
+        ]
+    },
+    {
+        "q": "What does a noetic scientist study?",
+        "type": "mcq",
+        "o": [
+            "Consciousness and the mind",
+            "Nautical navigation",
+            "Notable historical figures",
+            "Nocturnal animals"
+        ]
+    },
+    {
+        "q": "A diplomat enjoys full legal immunity for any crime they commit in the host country.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who calibrates the atomic clocks that govern GPS satellites and global time standards?",
+        "type": "mcq",
+        "o": [
+            "Time metrologist",
+            "Horologist",
+            "Astrophysicist",
+            "Aerospace engineer"
+        ]
+    },
+    {
+        "q": "Name the professional who specializes in the removal of landmines and unexploded ordnance.",
+        "type": "short_answer",
+        "answers": [
+            "EOD technician",
+            "bomb disposal expert",
+            "deminer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which engineer designs the complex folding mechanisms for satellite solar panels?",
+        "type": "mcq",
+        "o": [
+            "Deployment systems engineer",
+            "Mechanical engineer",
+            "Robotics engineer",
+            "Solar technician"
+        ]
+    },
+    {
+        "q": "A ______ analyzes the isotopic ratios in water molecules to trace the source of pollution.",
+        "type": "fill_blank",
+        "answers": [
+            "isotope hydrologist"
+        ],
+        "other_options": [
+            "chemist",
+            "environmentalist",
+            "geologist"
+        ]
+    },
+    {
+        "q": "Match the expert with the type of artifact they handle:",
+        "type": "match",
+        "left": [
+            "Epigrapher",
+            "Numismatist",
+            "Philatelist",
+            "Vexillologist"
+        ],
+        "right": [
+            "Stone inscriptions",
+            "Ancient coins",
+            "Rare stamps",
+            "Historic flags"
+        ]
+    },
+    {
+        "q": "A hematologist-oncologist treats both benign blood disorders and blood cancers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who operates the centrifuge that enriches uranium for nuclear fuel?",
+        "type": "mcq",
+        "o": [
+            "Nuclear fuel technician",
+            "Chemical engineer",
+            "Health physicist",
+            "Reactor operator"
+        ]
+    },
+    {
+        "q": "What does a carpologist specifically study?",
+        "type": "mcq",
+        "o": [
+            "Ancient seeds and fruits",
+            "Carp fish breeding",
+            "Carpal tunnel syndrome",
+            "Carpentry joints"
+        ]
+    },
+    {
+        "q": "An endocrinologist performs thyroidectomies as a routine part of their practice.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who designs the life-critical software that controls a fly-by-wire aircraft?",
+        "type": "mcq",
+        "o": [
+            "Avionics software engineer",
+            "Pilot",
+            "Aerospace engineer",
+            "Game developer"
+        ]
+    },
+    {
+        "q": "Name the scientist who reconstructs past climate conditions from ice cores drilled in Antarctica.",
+        "type": "short_answer",
+        "answers": [
+            "paleoclimatologist",
+            "glaciologist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ creates the realistic animal sounds used in movies using unconventional tools.",
+        "type": "fill_blank",
+        "answers": [
+            "Foley artist"
+        ],
+        "other_options": [
+            "sound engineer",
+            "composer",
+            "voice actor"
+        ]
+    },
+    {
+        "q": "Which professional uses a synchrotron to reveal the hidden layers beneath a famous painting?",
+        "type": "mcq",
+        "o": [
+            "Heritage scientist",
+            "Art historian",
+            "Curator",
+            "Radiologist"
+        ]
+    },
+    {
+        "q": "What does a horologist repair?",
+        "type": "mcq",
+        "o": [
+            "Clocks and timepieces",
+            "Horse saddles",
+            "Human hormonal systems",
+            "Horoscopes"
+        ]
+    },
+    {
+        "q": "A proctologist and a colorectal surgeon have the exact same surgical privileges.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who manages the complex decompression schedules for saturation divers working on deep-sea oil rigs?",
+        "type": "mcq",
+        "o": [
+            "Diving supervisor",
+            "Marine biologist",
+            "Hyperbaric nurse",
+            "Ship captain"
+        ]
+    },
+    {
+        "q": "What does a dendrochronologist primarily use to date historical buildings?",
+        "type": "mcq",
+        "o": [
+            "Tree rings in wooden beams",
+            "Carbon-14 decay",
+            "Thermoluminescence",
+            "Stratigraphy"
+        ]
+    },
+    {
+        "q": "A ______ negotiates treaties and represents their nation's interests in a foreign embassy.",
+        "type": "fill_blank",
+        "answers": [
+            "diplomat",
+            "ambassador",
+            "foreign service officer"
+        ],
+        "other_options": [
+            "politician",
+            "spy",
+            "soldier"
+        ]
+    },
+    {
+        "q": "Who engineers the specific formulations of pharmaceutical drugs for mass production?",
+        "type": "mcq",
+        "o": [
+            "Process chemist",
+            "Pharmacist",
+            "Doctor",
+            "Biologist"
+        ]
+    },
+    {
+        "q": "Match the signal intelligence professional with their focus:",
+        "type": "match",
+        "left": [
+            "Cryptanalyst",
+            "Traffic analyst",
+            "ELINT analyst",
+            "COMINT analyst"
+        ],
+        "right": [
+            "Breaks encrypted codes",
+            "Studies communication patterns",
+            "Analyzes electronic signals",
+            "Intercepts voice/text data"
+        ]
+    },
+    {
+        "q": "Name the professional who designs the interior of ambulances for maximum efficiency and safety.",
+        "type": "short_answer",
+        "answers": [
+            "ambulance interior designer",
+            "industrial designer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What does an arachnologist fear?",
+        "type": "mcq",
+        "o": [
+            "Nothing necessarily; it is just a scientific study of spiders",
+            "All spiders are venomous",
+            "Cobwebs",
+            "Scorpion stings"
+        ]
+    },
+    {
+        "q": "A biostatistician designs clinical trials and analyzes the efficacy of new vaccines.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who operates the laser interferometers that detect gravitational waves?",
+        "type": "mcq",
+        "o": [
+            "Interferometer operator",
+            "Astrophysicist",
+            "Optical engineer",
+            "Cosmologist"
+        ]
+    },
+    {
+        "q": "What does a pomologist cultivate?",
+        "type": "mcq",
+        "o": [
+            "Fruit trees",
+            "Pomeranians",
+            "Ponds",
+            "Potatoes"
+        ]
+    },
+    {
+        "q": "A ______ designs the complex molds used to cast metal engine blocks in a foundry.",
+        "type": "fill_blank",
+        "answers": [
+            "patternmaker",
+            "foundry engineer"
+        ],
+        "other_options": [
+            "blacksmith",
+            "welder",
+            "mason"
+        ]
+    },
+    {
+        "q": "Who manages the international nuclear fusion experiment (ITER) tokamak reactor operations?",
+        "type": "mcq",
+        "o": [
+            "Fusion physicist",
+            "Nuclear engineer",
+            "Reactor operator",
+            "Health physicist"
+        ]
+    },
+    {
+        "q": "What does a scatologist study to understand animal diets?",
+        "type": "mcq",
+        "o": [
+            "Fossilized or fresh feces",
+            "Scattered rocks",
+            "Scale models",
+            "Scat singing"
+        ]
+    },
+    {
+        "q": "A medical illustrator draws the diagrams for medical textbooks and must have artistic and anatomical knowledge.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who maintains the strict sterile environment and cell lines in an in-vitro fertilization clinic?",
+        "type": "mcq",
+        "o": [
+            "Embryologist",
+            "Gynecologist",
+            "Nurse",
+            "Lab technician"
+        ]
+    },
+    {
+        "q": "Name the professional who analyzes the dynamic stresses on a skyscraper during an earthquake.",
+        "type": "short_answer",
+        "answers": [
+            "structural dynamics engineer",
+            "earthquake engineer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ tests the viscosity and shear stability of engine lubricants.",
+        "type": "fill_blank",
+        "answers": [
+            "tribologist",
+            "lubrication engineer"
+        ],
+        "other_options": [
+            "mechanic",
+            "chemist",
+            "driver"
+        ]
+    },
+    {
+        "q": "What does an osmologist study?",
+        "type": "mcq",
+        "o": [
+            "The sense of smell and odors",
+            "Osmosis in cells",
+            "Ostrich farming",
+            "Osmium metal"
+        ]
+    },
+    {
+        "q": "Who designs the breathing gas mixtures for deep-sea divers to avoid nitrogen narcosis?",
+        "type": "mcq",
+        "o": [
+            "Diving physiologist",
+            "Chemist",
+            "Marine biologist",
+            "Hyperbaric nurse"
+        ]
+    },
+    {
+        "q": "Match the forensic science specialty with the evidence analyzed:",
+        "type": "match",
+        "left": [
+            "Forensic palynology",
+            "Forensic entomology",
+            "Forensic anthropology",
+            "Forensic serology"
+        ],
+        "right": [
+            "Pollen and spores",
+            "Insects on remains",
+            "Human bones",
+            "Blood and bodily fluids"
+        ]
+    },
+    {
+        "q": "A vulcanologist only studies volcanoes on Earth.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who designs the complex algorithms that stabilize a quadcopter drone in heavy winds?",
+        "type": "mcq",
+        "o": [
+            "Control systems engineer",
+            "Programmer",
+            "Robotics engineer",
+            "Pilot"
+        ]
+    },
+    {
+        "q": "What does a nephologist study?",
+        "type": "mcq",
+        "o": [
+            "Clouds",
+            "Kidneys",
+            "Nepotism",
+            "Ancient Egypt"
+        ]
+    },
+    {
+        "q": "A ______ creates the 3D-printed titanium implants used to replace damaged skull sections.",
+        "type": "fill_blank",
+        "answers": [
+            "craniofacial engineer",
+            "biomedical implant designer"
+        ],
+        "other_options": [
+            "neurosurgeon",
+            "dentist",
+            "plastic surgeon"
+        ]
+    },
+    {
+        "q": "Who interprets the regulations of the International Civil Aviation Organization for a national airline?",
+        "type": "mcq",
+        "o": [
+            "Aviation regulatory specialist",
+            "Pilot",
+            "Air traffic controller",
+            "Lawyer"
+        ]
+    },
+    {
+        "q": "What does a pogonologist study?",
+        "type": "mcq",
+        "o": [
+            "Beards and facial hair",
+            "Pogo sticks",
+            "Political systems",
+            "Porcelain"
+        ]
+    },
+    {
+        "q": "Name the professional who analyzes the trajectory of bullets and shell casings at a crime scene.",
+        "type": "short_answer",
+        "answers": [
+            "ballistician",
+            "ballistics expert",
+            "firearms examiner"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A rheologist studies the deformation and flow of matter under stress.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who operates the solar furnace that concentrates sunlight to melt refractory metals?",
+        "type": "mcq",
+        "o": [
+            "Solar materials scientist",
+            "Blacksmith",
+            "Welder",
+            "Solar panel installer"
+        ]
+    },
+    {
+        "q": "What does a bryologist study?",
+        "type": "mcq",
+        "o": [
+            "Mosses and liverworts",
+            "Brilliant minds",
+            "Brain tumors",
+            "Brine shrimp"
+        ]
+    },
+    {
+        "q": "A ______ designs the intricate gear trains and complications in luxury mechanical watches.",
+        "type": "fill_blank",
+        "answers": [
+            "watchmaker",
+            "horological engineer"
+        ],
+        "other_options": [
+            "jeweler",
+            "physicist",
+            "metrologist"
+        ]
+    },
+    {
+        "q": "Who manages the genetic database and breeding program for critically endangered species?",
+        "type": "mcq",
+        "o": [
+            "Conservation geneticist",
+            "Zookeeper",
+            "Vet",
+            "Ecologist"
+        ]
+    },
+    {
+        "q": "Match the flight deck professional with their task:",
+        "type": "match",
+        "left": [
+            "Pilot in command",
+            "First officer",
+            "Flight engineer",
+            "Navigator"
+        ],
+        "right": [
+            "Commander of the aircraft",
+            "Second-in-command co-pilot",
+            "Monitors aircraft systems",
+            "Plots the course"
+        ]
+    },
+    {
+        "q": "What does a pteridologist study?",
+        "type": "mcq",
+        "o": [
+            "Ferns and horsetails",
+            "Pterodactyls",
+            "Pterodactyl fossils",
+            "Pieridae butterflies"
+        ]
+    },
+    {
+        "q": "A neonatologist is a pediatrician who specializes in newborn infants, especially those born prematurely.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who calibrates the magnetic coils in an MRI machine to ensure crystal-clear soft tissue imaging?",
+        "type": "mcq",
+        "o": [
+            "MRI physicist",
+            "Radiologist",
+            "Radiographer",
+            "Electrician"
+        ]
+    },
+    {
+        "q": "Name the professional who analyzes the volatile organic compounds in breath to diagnose diseases.",
+        "type": "short_answer",
+        "answers": [
+            "breath analyst",
+            "metabolomics scientist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ fabricates the custom glass vacuum tubes used in high-end audio amplifiers.",
+        "type": "fill_blank",
+        "answers": [
+            "glass blower",
+            "tube fabricator"
+        ],
+        "other_options": [
+            "electrician",
+            "audio engineer",
+            "physicist"
+        ]
+    },
+    {
+        "q": "What does an areologist study?",
+        "type": "mcq",
+        "o": [
+            "The planet Mars",
+            "Areas of mathematics",
+            "Aerial warfare",
+            "Arrowheads"
+        ]
+    },
+    {
+        "q": "Who directs the intricate hand-signals and ground movements of planes on an aircraft carrier deck?",
+        "type": "mcq",
+        "o": [
+            "Yellow shirt (Aircraft handler)",
+            "Pilot",
+            "Air traffic controller",
+            "Captain"
+        ]
+    },
+    {
+        "q": "A pyrologist is a specialist who puts out forest fires.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who engineers the microscopic transistors on a silicon chip using photolithography?",
+        "type": "mcq",
+        "o": [
+            "Process engineer",
+            "Electrical engineer",
+            "Programmer",
+            "Physicist"
+        ]
+    },
+    {
+        "q": "What does a xylologist study?",
+        "type": "mcq",
+        "o": [
+            "The structure and identification of wood",
+            "Xylophones and music",
+            "X-ray technology",
+            "Xerophytes"
+        ]
+    },
+    {
+        "q": "A ______ designs the explosive charges that demolish a skyscraper to fall exactly within its footprint.",
+        "type": "fill_blank",
+        "answers": [
+            "demolition expert",
+            "implosion engineer"
+        ],
+        "other_options": [
+            "architect",
+            "structural engineer",
+            "firefighter"
+        ]
+    },
+    {
+        "q": "Match the hydro-specialist with their water body:",
+        "type": "match",
+        "left": [
+            "Potamologist",
+            "Limnologist",
+            "Oceanographer",
+            "Glaciologist"
+        ],
+        "right": [
+            "Rivers",
+            "Lakes",
+            "Oceans",
+            "Glaciers"
+        ]
+    },
+    {
+        "q": "Who analyzes the light curves of distant stars to detect exoplanets transiting them?",
+        "type": "mcq",
+        "o": [
+            "Exoplanet hunter",
+            "Astrophysicist",
+            "Cosmologist",
+            "Telescope operator"
+        ]
+    },
+    {
+        "q": "An otologist is a neurosurgeon who operates on the optic nerve.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What does a zymologist study?",
+        "type": "mcq",
+        "o": [
+            "Fermentation and enzymes",
+            "Zygotes",
+            "Zinc mining",
+            "Zoo animals"
+        ]
+    },
+    {
+        "q": "Name the professional who designs the custom rubber compounds for Formula 1 racing tires.",
+        "type": "short_answer",
+        "answers": [
+            "tire compound engineer",
+            "rubber technologist"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ interprets the contour lines on a map to plan a military assault route.",
+        "type": "fill_blank",
+        "answers": [
+            "military cartographer",
+            "terrain analyst"
+        ],
+        "other_options": [
+            "soldier",
+            "pilot",
+            "geologist"
+        ]
+    },
+    {
+        "q": "Who manages the precise temperature and humidity controls in a museum to preserve mummies?",
+        "type": "mcq",
+        "o": [
+            "Conservator",
+            "Curator",
+            "HVAC technician",
+            "Archaeologist"
+        ]
+    },
+    {
+        "q": "What does a melittologist study?",
+        "type": "mcq",
+        "o": [
+            "Bees",
+            "Melons",
+            "Melting points",
+            "Melodies"
+        ]
+    },
+    {
+        "q": "A reproductive endocrinologist helps couples with infertility issues through IVF.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who operates the nuclear reactor on a submarine or aircraft carrier?",
+        "type": "mcq",
+        "o": [
+            "Reactor officer",
+            "Captain",
+            "Nuclear physicist",
+            "Engineer"
+        ]
+    },
+    {
+        "q": "What does a fulminologist study?",
+        "type": "mcq",
+        "o": [
+            "Lightning",
+            "Fulminating diseases",
+            "Fulcrum mechanics",
+            "Full moon effects"
+        ]
+    },
+    {
+        "q": "A ______ creates the wax models used to cast bronze statues in the lost-wax casting process.",
+        "type": "fill_blank",
+        "answers": [
+            "wax sculptor",
+            "foundry artist"
+        ],
+        "other_options": [
+            "potter",
+            "blacksmith",
+            "jeweler"
+        ]
+    },
+    {
+        "q": "Match the intelligence analyst with the data they scrutinize:",
+        "type": "match",
+        "left": [
+            "GEOINT analyst",
+            "SIGINT analyst",
+            "MASINT analyst",
+            "OSINT analyst"
+        ],
+        "right": [
+            "Satellite imagery",
+            "Intercepted signals",
+            "Material and spectral data",
+            "Publicly available data"
+        ]
+    },
+    {
+        "q": "Who monitors the structural health of a dam using strain gauges and piezometers?",
+        "type": "mcq",
+        "o": [
+            "Dam safety engineer",
+            "Civil engineer",
+            "Hydrologist",
+            "Geologist"
+        ]
+    },
+    {
+        "q": "Name the scientist who extracts DNA from Neanderthal bones to study human evolution.",
+        "type": "short_answer",
+        "answers": [
+            "paleogeneticist",
+            "ancient DNA researcher"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What does a cetologist study?",
+        "type": "mcq",
+        "o": [
+            "Whales, dolphins, and porpoises",
+            "Cetus constellation",
+            "Cetaceans in captivity",
+            "Cell biology"
+        ]
+    },
+    {
+        "q": "A phronologist studies the bumps on a person's skull to determine character.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Who designs the precise aerodynamic shape of a bobsled to minimize drag?",
+        "type": "mcq",
+        "o": [
+            "Aerodynamicist",
+            "Mechanical engineer",
+            "Athlete",
+            "Coach"
+        ]
+    },
+    {
+        "q": "What does a campanologist study?",
+        "type": "mcq",
+        "o": [
+            "Bells and bell ringing",
+            "Campaign strategies",
+            "Campus architecture",
+            "Camping equipment"
+        ]
+    },
+    {
+        "q": "A ______ calibrates the devices that measure radiation exposure for nuclear workers.",
+        "type": "fill_blank",
+        "answers": [
+            "health physicist",
+            "dosimetrist"
+        ],
+        "other_options": [
+            "nuclear engineer",
+            "radiologist",
+            "safety inspector"
+        ]
+    },
+    {
+        "q": "Who operates the wind tunnel that tests the aerodynamics of a new skyscraper model?",
+        "type": "mcq",
+        "o": [
+            "Wind engineer",
+            "Civil engineer",
+            "Architect",
+            "Physicist"
+        ]
+    },
+    {
+        "q": "Match the linguistics expert with their analysis domain:",
+        "type": "match",
+        "left": [
+            "Phonetician",
+            "Morphologist",
+            "Syntactician",
+            "Semanticist"
+        ],
+        "right": [
+            "Speech sounds",
+            "Word structure",
+            "Sentence grammar",
+            "Meaning of words"
+        ]
+    },
+    {
+        "q": "What does a vexillologist study?",
+        "type": "mcq",
+        "o": [
+            "The history and design of flags",
+            "Vexing psychological puzzles",
+            "Vexatious litigation",
+            "Vector graphics"
+        ]
+    },
+    {
+        "q": "An electrophysiologist performs heart bypass surgery.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who analyzes the specific frequencies of whale songs to track migration patterns?",
+        "type": "mcq",
+        "o": [
+            "Marine bioacoustician",
+            "Cetologist",
+            "Oceanographer",
+            "Marine biologist"
+        ]
+    },
+    {
+        "q": "Name the professional who designs the sealed environments for terrariums and biodomes.",
+        "type": "short_answer",
+        "answers": [
+            "closed system ecologist",
+            "biodome engineer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ carves the intricate wooden blocks used to print patterns on textiles.",
+        "type": "fill_blank",
+        "answers": [
+            "block maker",
+            "wood carver"
+        ],
+        "other_options": [
+            "tailor",
+            "printer",
+            "carpenter"
+        ]
+    },
+    {
+        "q": "What does a cryptozoologist seek to find?",
+        "type": "mcq",
+        "o": [
+            "Hidden or legendary animals like Bigfoot",
+            "Secret codes and ciphers",
+            "Underground tombs",
+            "Cryptocurrency miners"
+        ]
+    },
+    {
+        "q": "Who maintains the perfect vacuum and cryogenic temperatures inside a particle collider beam pipe?",
+        "type": "mcq",
+        "o": [
+            "Accelerator technician",
+            "Cryogenics engineer",
+            "Physicist",
+            "Vacuum engineer"
+        ]
+    },
+    {
+        "q": "A pediatric surgeon is fully trained to operate on adults in their general practice.",
+        "type": "true_false",
+        "correct": "False"
+    }
+]

@@ -1,0 +1,7018 @@
+[
+    {
+        "q": "Which of these is a natural resource?",
+        "type": "mcq",
+        "o": [
+            "Water",
+            "Plastic bottle",
+            "Steel spoon",
+            "Glass window"
+        ]
+    },
+    {
+        "q": "What do we call resources that can be replaced quickly by nature?",
+        "type": "short_answer",
+        "answers": [
+            "renewable resources",
+            "renewable"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The sun is a ______ source of energy.",
+        "type": "fill_blank",
+        "answers": [
+            "renewable"
+        ],
+        "other_options": [
+            "non-renewable",
+            "artificial",
+            "man-made"
+        ]
+    },
+    {
+        "q": "Match each resource with its correct type:",
+        "type": "match",
+        "left": [
+            "Sunlight",
+            "Coal",
+            "Wind",
+            "Petrol"
+        ],
+        "right": [
+            "Renewable",
+            "Non-renewable",
+            "Renewable",
+            "Non-renewable"
+        ]
+    },
+    {
+        "q": "Plastic is a natural resource.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is a non-renewable resource?",
+        "type": "mcq",
+        "o": [
+            "Coal",
+            "Sunlight",
+            "Wind",
+            "Trees"
+        ]
+    },
+    {
+        "q": "Turning off the tap while brushing teeth is an example of:",
+        "type": "mcq",
+        "o": [
+            "Water conservation",
+            "Air pollution",
+            "Soil erosion",
+            "Deforestation"
+        ]
+    },
+    {
+        "q": "Soil is a non-renewable resource because it forms very fast.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "About what percentage of Earth's surface is covered by water?",
+        "type": "slider",
+        "min": 0,
+        "max": 100,
+        "correct": 71
+    },
+    {
+        "q": "What is the main source of energy for the Earth?",
+        "type": "short_answer",
+        "answers": [
+            "sun",
+            "sunlight",
+            "solar energy"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Coal and petroleum are also called ______ fuels.",
+        "type": "fill_blank",
+        "answers": [
+            "fossil"
+        ],
+        "other_options": [
+            "renewable",
+            "natural",
+            "bio"
+        ]
+    },
+    {
+        "q": "Which of these is a way to save trees?",
+        "type": "mcq",
+        "o": [
+            "Using less paper",
+            "Cutting more trees",
+            "Burning leaves",
+            "Using more wood"
+        ]
+    },
+    {
+        "q": "Match the natural resource to what it helps us make.",
+        "type": "memory",
+        "pairs": {
+            "Wood": "Furniture",
+            "Coal": "Electricity",
+            "Cotton": "Clothes",
+            "Sand": "Glass"
+        }
+    },
+    {
+        "q": "Air is a renewable resource.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the term with its meaning:",
+        "type": "match",
+        "left": [
+            "Recycle",
+            "Reduce",
+            "Reuse"
+        ],
+        "right": [
+            "Make something new from old items",
+            "Use less of something",
+            "Use the same item again"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a renewable resource?",
+        "type": "odd_one_out",
+        "options": [
+            "Solar",
+            "Wind",
+            "Water",
+            "Coal"
+        ],
+        "correct": "Coal"
+    },
+    {
+        "q": "Which of these is NOT a fossil fuel?",
+        "type": "mcq",
+        "o": [
+            "Wood",
+            "Coal",
+            "Petroleum",
+            "Natural gas"
+        ]
+    },
+    {
+        "q": "Planting more trees is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "afforestation"
+        ],
+        "other_options": [
+            "deforestation",
+            "pollution",
+            "harvesting"
+        ]
+    },
+    {
+        "q": "Swipe left for Natural resources, right for Man-made items.",
+        "type": "swipe_cards",
+        "left_label": "Natural",
+        "right_label": "Man-made",
+        "cards": {
+            "Tree": "left",
+            "River": "left",
+            "Plastic bottle": "right",
+            "Glass jar": "right"
+        }
+    },
+    {
+        "q": "Rainwater harvesting helps to save:",
+        "type": "mcq",
+        "o": [
+            "Water",
+            "Air",
+            "Sunlight",
+            "Soil"
+        ]
+    },
+    {
+        "q": "Unscramble: The type of natural energy we get from the sun.",
+        "type": "word_scramble",
+        "answer": "SOLAR",
+        "decoys": "ZQX"
+    },
+    {
+        "q": "What gas do plants use to make food?",
+        "type": "short_answer",
+        "answers": [
+            "carbon dioxide",
+            "CO2"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Using a cloth bag instead of a plastic bag is an example of:",
+        "type": "mcq",
+        "o": [
+            "Reuse",
+            "Recycle",
+            "Waste",
+            "Pollution"
+        ]
+    },
+    {
+        "q": "Minerals are a renewable resource.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence about how trees help us:",
+        "type": "inline_dropdown",
+        "text": "Trees take in [0] and release [1] for us to breathe.",
+        "dropdowns": [
+            {
+                "correct": "carbon dioxide",
+                "options": [
+                    "oxygen",
+                    "carbon dioxide",
+                    "nitrogen"
+                ]
+            },
+            {
+                "correct": "oxygen",
+                "options": [
+                    "oxygen",
+                    "smoke",
+                    "helium"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which resource do we get from oceans for food?",
+        "type": "mcq",
+        "o": [
+            "Fish",
+            "Coal",
+            "Iron",
+            "Gold"
+        ]
+    },
+    {
+        "q": "The three R's of conservation are Reduce, ______, and Recycle.",
+        "type": "fill_blank",
+        "answers": [
+            "Reuse"
+        ],
+        "other_options": [
+            "Reject",
+            "Repair",
+            "Remove"
+        ]
+    },
+    {
+        "q": "Which of these is a renewable source of energy?",
+        "type": "mcq",
+        "o": [
+            "Solar energy",
+            "Coal",
+            "Natural gas",
+            "Diesel"
+        ]
+    },
+    {
+        "q": "Cutting down forests is called deforestation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the outer layer of the Earth on which plants grow called?",
+        "type": "short_answer",
+        "answers": [
+            "soil",
+            "topsoil",
+            "earth"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these helps to reduce air pollution?",
+        "type": "mcq",
+        "o": [
+            "Planting trees",
+            "Burning crackers",
+            "Driving more cars",
+            "Cutting forests"
+        ]
+    },
+    {
+        "q": "Natural resources are provided by nature and used by:",
+        "type": "mcq",
+        "o": [
+            "Humans",
+            "Only animals",
+            "Only plants",
+            "Only birds"
+        ]
+    },
+    {
+        "q": "Unscramble: Moving air that can be used to make clean power.",
+        "type": "word_scramble",
+        "answer": "WIND",
+        "decoys": "BTM"
+    },
+    {
+        "q": "Match the resource with its use:",
+        "type": "match",
+        "left": [
+            "Petroleum",
+            "Sunlight",
+            "Forests",
+            "Water"
+        ],
+        "right": [
+            "Fuel for vehicles",
+            "Solar energy",
+            "Timber and oxygen",
+            "Drinking and irrigation"
+        ]
+    },
+    {
+        "q": "Non-renewable resources take ______ of years to form.",
+        "type": "fill_blank",
+        "answers": [
+            "millions"
+        ],
+        "other_options": [
+            "hundreds",
+            "thousands",
+            "tens"
+        ]
+    },
+    {
+        "q": "Which of these is the correct order of waste management?",
+        "type": "mcq",
+        "o": [
+            "Reduce, Reuse, Recycle",
+            "Recycle, Reduce, Reuse",
+            "Reuse, Recycle, Reduce",
+            "Reduce, Recycle, Reuse"
+        ]
+    },
+    {
+        "q": "All natural resources are unlimited.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the process of collecting and storing rainwater called?",
+        "type": "short_answer",
+        "answers": [
+            "rainwater harvesting",
+            "water harvesting"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We should switch off lights when not in use to save:",
+        "type": "mcq",
+        "o": [
+            "Electricity",
+            "Water",
+            "Paper",
+            "Food"
+        ]
+    },
+    {
+        "q": "A ______ is a place where waste is buried under the ground.",
+        "type": "fill_blank",
+        "answers": [
+            "landfill"
+        ],
+        "other_options": [
+            "pond",
+            "forest",
+            "garden"
+        ]
+    },
+    {
+        "q": "Which gas is most abundant in the air?",
+        "type": "mcq",
+        "o": [
+            "Nitrogen",
+            "Oxygen",
+            "Carbon dioxide",
+            "Hydrogen"
+        ]
+    },
+    {
+        "q": "Using public transport helps reduce:",
+        "type": "mcq",
+        "o": [
+            "Air pollution",
+            "Noise only",
+            "Water usage",
+            "Soil fertility"
+        ]
+    },
+    {
+        "q": "Match the word with its correct action:",
+        "type": "match",
+        "left": [
+            "Reduce",
+            "Reuse",
+            "Recycle",
+            "Refuse"
+        ],
+        "right": [
+            "Say no to plastic bags",
+            "Donate old clothes",
+            "Make compost from leaves",
+            "Take shorter showers"
+        ]
+    },
+    {
+        "q": "Complete the sentence about our resources:",
+        "type": "inline_dropdown",
+        "text": "[0] resources can be naturally replaced, while [1] resources run out over time.",
+        "dropdowns": [
+            {
+                "correct": "Renewable",
+                "options": [
+                    "Renewable",
+                    "Non-renewable",
+                    "Artificial"
+                ]
+            },
+            {
+                "correct": "Non-renewable",
+                "options": [
+                    "Renewable",
+                    "Non-renewable",
+                    "Magical"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Wildlife is a part of our natural resources.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the solid form of water called?",
+        "type": "short_answer",
+        "answers": [
+            "ice"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the '3 Rs' of conservation to their exact meaning.",
+        "type": "memory",
+        "pairs": {
+            "Reduce": "Use less of something",
+            "Reuse": "Use something again",
+            "Recycle": "Make a new product from an old one"
+        }
+    },
+    {
+        "q": "Petroleum is refined to make:",
+        "type": "mcq",
+        "o": [
+            "Petrol and diesel",
+            "Paper and wood",
+            "Glass and plastic",
+            "Sand and cement"
+        ]
+    },
+    {
+        "q": "Overuse of fertilizers can harm the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "soil"
+        ],
+        "other_options": [
+            "air",
+            "space",
+            "stars"
+        ]
+    },
+    {
+        "q": "Which of these is a type of renewable energy?",
+        "type": "mcq",
+        "o": [
+            "Wind energy",
+            "Kerosene",
+            "LPG",
+            "Coal"
+        ]
+    },
+    {
+        "q": "Glass can be recycled.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name one thing made from wood.",
+        "type": "short_answer",
+        "answers": [
+            "furniture",
+            "paper",
+            "pencil",
+            "table",
+            "chair"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We must save fuel for:",
+        "type": "mcq",
+        "o": [
+            "Future generations",
+            "Wasting money",
+            "Increasing pollution",
+            "Running out quickly"
+        ]
+    },
+    {
+        "q": "A resource that will run out someday is called a ______ resource.",
+        "type": "fill_blank",
+        "answers": [
+            "non-renewable",
+            "non renewable"
+        ],
+        "other_options": [
+            "plentiful",
+            "endless",
+            "fast-forming"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a natural fiber?",
+        "type": "mcq",
+        "o": [
+            "Nylon",
+            "Cotton",
+            "Wool",
+            "Silk"
+        ]
+    },
+    {
+        "q": "Match the natural resource with its category:",
+        "type": "match",
+        "left": [
+            "Gold",
+            "Fish",
+            "Air",
+            "Copper"
+        ],
+        "right": [
+            "Mineral",
+            "Animal",
+            "Atmospheric",
+            "Mineral"
+        ]
+    },
+    {
+        "q": "Leaving the refrigerator door open saves energy.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the layer of gases surrounding Earth called?",
+        "type": "short_answer",
+        "answers": [
+            "atmosphere",
+            "air"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Old newspapers can be recycled into:",
+        "type": "mcq",
+        "o": [
+            "New paper",
+            "Glass",
+            "Metal",
+            "Fuel"
+        ]
+    },
+    {
+        "q": "We should keep the tap running while scrubbing dishes.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "A person who studies rocks and minerals is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "geologist"
+        ],
+        "other_options": [
+            "biologist",
+            "chemist",
+            "doctor"
+        ]
+    },
+    {
+        "q": "Which of these is the most common method to purify water at home?",
+        "type": "mcq",
+        "o": [
+            "Boiling",
+            "Freezing",
+            "Adding soil",
+            "Adding salt"
+        ]
+    },
+    {
+        "q": "Erosion is the loss of the top layer of:",
+        "type": "mcq",
+        "o": [
+            "Soil",
+            "Water",
+            "Air",
+            "Trees"
+        ]
+    },
+    {
+        "q": "What do we call energy from the sun?",
+        "type": "short_answer",
+        "answers": [
+            "solar energy",
+            "solar power",
+            "sunlight"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe left if Biodegradable (rots naturally), right if Non-biodegradable.",
+        "type": "swipe_cards",
+        "left_label": "Biodegradable",
+        "right_label": "Non-biodegradable",
+        "cards": {
+            "Apple core": "left",
+            "Paper bag": "left",
+            "Plastic toy": "right",
+            "Styrofoam cup": "right"
+        }
+    },
+    {
+        "q": "Match the conservation practice with its benefit:",
+        "type": "match",
+        "left": [
+            "Terrace farming",
+            "Drip irrigation",
+            "Wind turbines",
+            "Car pooling"
+        ],
+        "right": [
+            "Stops soil erosion",
+            "Saves water",
+            "Generates electricity",
+            "Reduces air pollution"
+        ]
+    },
+    {
+        "q": "Using a bicycle instead of a car helps save fuel.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Fossil fuels like coal are formed from dead:",
+        "type": "mcq",
+        "o": [
+            "Plants and animals",
+            "Rocks and sand",
+            "Water and air",
+            "Plastic and glass"
+        ]
+    },
+    {
+        "q": "Unscramble: The liquid natural resource all living things need to survive.",
+        "type": "word_scramble",
+        "answer": "WATER",
+        "decoys": "JVK"
+    },
+    {
+        "q": "What is the main reason we should not waste paper?",
+        "type": "mcq",
+        "o": [
+            "To save trees",
+            "To save water",
+            "To save oil",
+            "To save metals"
+        ]
+    },
+    {
+        "q": "Complete the sentence about saving our daily resources:",
+        "type": "inline_dropdown",
+        "text": "Turning off the tap while brushing saves [0], and turning off empty room lights saves [1].",
+        "dropdowns": [
+            {
+                "correct": "water",
+                "options": [
+                    "water",
+                    "electricity",
+                    "soil"
+                ]
+            },
+            {
+                "correct": "electricity",
+                "options": [
+                    "water",
+                    "electricity",
+                    "wind"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "How many Rs are in the famous waste-saving rule (Reduce, Reuse, Recycle)?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "The ______ is a major source of fresh water on Earth.",
+        "type": "fill_blank",
+        "answers": [
+            "river",
+            "glacier"
+        ],
+        "other_options": [
+            "ocean",
+            "desert",
+            "volcano"
+        ]
+    },
+    {
+        "q": "Recycling metal cans helps save:",
+        "type": "mcq",
+        "o": [
+            "Minerals and energy",
+            "Only water",
+            "Only air",
+            "Only trees"
+        ]
+    },
+    {
+        "q": "Forests are called the lungs of the Earth.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT considered a fossil fuel?",
+        "type": "odd_one_out",
+        "options": [
+            "Oil",
+            "Natural Gas",
+            "Coal",
+            "Sunlight"
+        ],
+        "correct": "Sunlight"
+    },
+    {
+        "q": "Name a natural resource used to build houses.",
+        "type": "short_answer",
+        "answers": [
+            "wood",
+            "stone",
+            "sand",
+            "clay",
+            "bamboo"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "An item that breaks down naturally into the soil is called:",
+        "type": "mcq",
+        "o": [
+            "Biodegradable",
+            "Non-biodegradable",
+            "Metal",
+            "Plastic"
+        ]
+    },
+    {
+        "q": "Strip cropping and shelter belts help to conserve:",
+        "type": "mcq",
+        "o": [
+            "Soil",
+            "Water",
+            "Air",
+            "Minerals"
+        ]
+    },
+    {
+        "q": "Match the waste item with its type:",
+        "type": "match",
+        "left": [
+            "Vegetable peels",
+            "Plastic bag",
+            "Paper",
+            "Glass bottle"
+        ],
+        "right": [
+            "Biodegradable",
+            "Non-biodegradable",
+            "Biodegradable",
+            "Non-biodegradable"
+        ]
+    },
+    {
+        "q": "Dams are built on rivers to store water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the states of water to where you find them in nature.",
+        "type": "memory",
+        "pairs": {
+            "Solid": "Glaciers and snow",
+            "Liquid": "Rivers and oceans",
+            "Gas": "Water vapor in clouds"
+        }
+    },
+    {
+        "q": "What is the main gas needed for burning fuel?",
+        "type": "short_answer",
+        "answers": [
+            "oxygen",
+            "O2"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Turning vegetable waste into a natural fertilizer is called:",
+        "type": "mcq",
+        "o": [
+            "Composting",
+            "Burning",
+            "Landfilling",
+            "Dumping"
+        ]
+    },
+    {
+        "q": "Natural gas is a renewable resource.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "A substance that makes the environment dirty is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pollutant",
+            "pollution"
+        ],
+        "other_options": [
+            "fertilizer",
+            "nutrient",
+            "mineral"
+        ]
+    },
+    {
+        "q": "Swipe left if the action is Good for Earth, right if it is Bad for Earth.",
+        "type": "swipe_cards",
+        "left_label": "Good for Earth",
+        "right_label": "Bad for Earth",
+        "cards": {
+            "Planting trees": "left",
+            "Recycling paper": "left",
+            "Littering trash": "right",
+            "Wasting fresh water": "right"
+        }
+    },
+    {
+        "q": "Which of these is a way to keep the air clean?",
+        "type": "mcq",
+        "o": [
+            "Planting more trees",
+            "Burning plastic",
+            "Using coal stoves",
+            "Spraying chemicals"
+        ]
+    },
+    {
+        "q": "What are national parks and sanctuaries meant to protect?",
+        "type": "short_answer",
+        "answers": [
+            "wildlife",
+            "animals",
+            "forests",
+            "nature"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The core of the Earth is made up of hot, molten rock called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "magma"
+        ],
+        "other_options": [
+            "water",
+            "air",
+            "wood"
+        ]
+    },
+    {
+        "q": "Which of these is a man-made resource?",
+        "type": "mcq",
+        "o": [
+            "Plastic",
+            "Wood",
+            "Coal",
+            "Wind"
+        ]
+    },
+    {
+        "q": "Wasting food also wastes the water and energy used to produce it.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these activities causes deforestation?",
+        "type": "mcq",
+        "o": [
+            "Logging for wood",
+            "Planting saplings",
+            "Watering plants",
+            "Protecting forests"
+        ]
+    },
+    {
+        "q": "Unscramble: A black rock we dig from the ground and burn for energy.",
+        "type": "word_scramble",
+        "answer": "COAL",
+        "decoys": "PZW"
+    },
+    {
+        "q": "Match the energy source with its type:",
+        "type": "match",
+        "left": [
+            "Hydropower",
+            "Uranium",
+            "Geothermal",
+            "Diesel"
+        ],
+        "right": [
+            "Renewable",
+            "Non-renewable",
+            "Renewable",
+            "Non-renewable"
+        ]
+    },
+    {
+        "q": "We should use more plastic to save the environment.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What do we call the careful use of resources so they last longer?",
+        "type": "short_answer",
+        "answers": [
+            "conservation",
+            "sustainable use",
+            "saving"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Cars and factories release smoke that causes ______ pollution.",
+        "type": "fill_blank",
+        "answers": [
+            "air"
+        ],
+        "other_options": [
+            "water",
+            "soil",
+            "noise"
+        ]
+    },
+    {
+        "q": "Metal can be recycled to make new metal products.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these objects is biodegradable?",
+        "type": "mcq",
+        "o": [
+            "Wooden stick",
+            "Plastic cup",
+            "Glass jar",
+            "Iron nail"
+        ]
+    },
+    {
+        "q": "Why is soil important?",
+        "type": "mcq",
+        "o": [
+            "It grows plants",
+            "It makes cars run",
+            "It cleans the air",
+            "It creates sunlight"
+        ]
+    },
+    {
+        "q": "What is the name for energy produced by flowing water?",
+        "type": "short_answer",
+        "answers": [
+            "hydropower",
+            "hydroelectricity",
+            "water energy"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about deep earth fuels:",
+        "type": "inline_dropdown",
+        "text": "[0] take millions of years to form underground from the remains of dead [1].",
+        "dropdowns": [
+            {
+                "correct": "Fossil fuels",
+                "options": [
+                    "Fossil fuels",
+                    "Renewable fuels",
+                    "Solar fuels"
+                ]
+            },
+            {
+                "correct": "plants and animals",
+                "options": [
+                    "plants and animals",
+                    "rocks and sand",
+                    "plastic bottles"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The protective layer around the Earth that blocks harmful rays is the ______ layer.",
+        "type": "fill_blank",
+        "answers": [
+            "ozone"
+        ],
+        "other_options": [
+            "oxygen",
+            "nitrogen",
+            "carbon"
+        ]
+    },
+    {
+        "q": "Which of these helps in soil conservation?",
+        "type": "mcq",
+        "o": [
+            "Planting grass and trees",
+            "Removing all vegetation",
+            "Cutting hills",
+            "Burning stubble"
+        ]
+    },
+    {
+        "q": "Solar panels turn sunlight into electricity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "A mixture of smoke and fog is called:",
+        "type": "mcq",
+        "o": [
+            "Smog",
+            "Dew",
+            "Frost",
+            "Mist"
+        ]
+    },
+    {
+        "q": "Match the item with how to dispose of it correctly:",
+        "type": "match",
+        "left": [
+            "Banana peel",
+            "Empty soda can",
+            "Battery",
+            "Old magazine"
+        ],
+        "right": [
+            "Compost bin",
+            "Recycle bin",
+            "Hazardous waste",
+            "Paper bank"
+        ]
+    },
+    {
+        "q": "Name a metal found in rocks.",
+        "type": "short_answer",
+        "answers": [
+            "iron",
+            "copper",
+            "gold",
+            "silver",
+            "aluminium"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Overgrazing by animals can lead to soil ______.",
+        "type": "fill_blank",
+        "answers": [
+            "erosion"
+        ],
+        "other_options": [
+            "fertility",
+            "formation",
+            "growth"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a way to conserve energy at home?",
+        "type": "mcq",
+        "o": [
+            "Leaving the TV on all night",
+            "Using LED bulbs",
+            "Unplugging idle chargers",
+            "Opening curtains for natural light"
+        ]
+    },
+    {
+        "q": "The 3 R's stand for Reduce, Recycle, and Reuse.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call energy sources like the sun and wind that won't run out?",
+        "type": "mcq",
+        "o": [
+            "Renewable energy",
+            "Fossil fuels",
+            "Nuclear power",
+            "Thermal power"
+        ]
+    },
+    {
+        "q": "Unscramble: Tall plants that give us the resource of wood and clean the air.",
+        "type": "word_scramble",
+        "answer": "TREES",
+        "decoys": "XQO"
+    },
+    {
+        "q": "E-waste refers to old and discarded:",
+        "type": "mcq",
+        "o": [
+            "Electronic devices",
+            "Food items",
+            "Paper products",
+            "Garden waste"
+        ]
+    },
+    {
+        "q": "What is the science of farming and growing crops called?",
+        "type": "short_answer",
+        "answers": [
+            "agriculture",
+            "farming"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We must protect the environment to ensure a safe future.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is an example of a renewable resource?",
+        "type": "mcq",
+        "o": [
+            "Forests",
+            "Coal",
+            "Petroleum",
+            "Natural gas"
+        ]
+    },
+    {
+        "q": "What is the term for making new products from used materials?",
+        "type": "short_answer",
+        "answers": [
+            "recycling",
+            "recycle"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of cutting down trees without replanting leads to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "deforestation"
+        ],
+        "other_options": [
+            "afforestation",
+            "irrigation",
+            "harvesting"
+        ]
+    },
+    {
+        "q": "Match the conservation method with what it saves:",
+        "type": "match",
+        "left": [
+            "Mulching",
+            "Rain gardens",
+            "Energy Star appliances",
+            "No-till farming"
+        ],
+        "right": [
+            "Soil moisture",
+            "Water drainage",
+            "Electricity",
+            "Soil structure"
+        ]
+    },
+    {
+        "q": "All renewable resources are unlimited and can never run out.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence about where paper comes from:",
+        "type": "inline_dropdown",
+        "text": "Paper is primarily made from [0], so when we save paper, we are helping to save [1].",
+        "dropdowns": [
+            {
+                "correct": "wood",
+                "options": [
+                    "wood",
+                    "plastic",
+                    "metal"
+                ]
+            },
+            {
+                "correct": "forests",
+                "options": [
+                    "forests",
+                    "oceans",
+                    "deserts"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Burning of fossil fuels releases which greenhouse gas?",
+        "type": "mcq",
+        "o": [
+            "Carbon dioxide",
+            "Oxygen",
+            "Nitrogen",
+            "Helium"
+        ]
+    },
+    {
+        "q": "Using both sides of a paper is an act of:",
+        "type": "mcq",
+        "o": [
+            "Reducing waste",
+            "Polluting air",
+            "Wasting water",
+            "Cutting trees"
+        ]
+    },
+    {
+        "q": "What is the main gas produced by plants during photosynthesis?",
+        "type": "short_answer",
+        "answers": [
+            "oxygen",
+            "O2"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The gradual increase in the Earth's temperature is called global ______.",
+        "type": "fill_blank",
+        "answers": [
+            "warming"
+        ],
+        "other_options": [
+            "cooling",
+            "freezing",
+            "erosion"
+        ]
+    },
+    {
+        "q": "Which natural resource is used to make glass?",
+        "type": "mcq",
+        "o": [
+            "Sand",
+            "Coal",
+            "Wood",
+            "Cotton"
+        ]
+    },
+    {
+        "q": "How many separate bins do we usually use at minimum to separate wet waste (compost) from dry waste (recyclable)?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "Ozone layer protects us from harmful UV rays.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a cause of water pollution?",
+        "type": "mcq",
+        "o": [
+            "Factory waste dumped in rivers",
+            "Planting trees near rivers",
+            "Rainwater flowing into lakes",
+            "Fish swimming in oceans"
+        ]
+    },
+    {
+        "q": "Match the clean energy equipment to its natural resource.",
+        "type": "memory",
+        "pairs": {
+            "Solar panels": "Sunlight",
+            "Wind turbines": "Moving air",
+            "Hydropower dams": "Flowing water"
+        }
+    },
+    {
+        "q": "Match the resource with its classification:",
+        "type": "match",
+        "left": [
+            "Tidal energy",
+            "Natural gas",
+            "Biomass",
+            "Uranium"
+        ],
+        "right": [
+            "Renewable",
+            "Non-renewable",
+            "Renewable",
+            "Non-renewable"
+        ]
+    },
+    {
+        "q": "What is the outermost solid layer of Earth called?",
+        "type": "short_answer",
+        "answers": [
+            "crust",
+            "earth's crust"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Fossil fuels are found deep inside the Earth's ______.",
+        "type": "fill_blank",
+        "answers": [
+            "crust"
+        ],
+        "other_options": [
+            "core",
+            "oceans",
+            "mountains"
+        ]
+    },
+    {
+        "q": "Which of these things can NOT go into a garden compost bin?",
+        "type": "odd_one_out",
+        "options": [
+            "Dry leaves",
+            "Vegetable peels",
+            "Eggshells",
+            "Plastic bags"
+        ],
+        "correct": "Plastic bags"
+    },
+    {
+        "q": "Which 3R principle means to use less of a resource?",
+        "type": "mcq",
+        "o": [
+            "Reduce",
+            "Reuse",
+            "Recycle",
+            "Recover"
+        ]
+    },
+    {
+        "q": "Plastic can decompose in the soil within one month.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Acid rain damages buildings and harms trees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe left for Renewable energy sources, right for Non-renewable.",
+        "type": "swipe_cards",
+        "left_label": "Renewable",
+        "right_label": "Non-renewable",
+        "cards": {
+            "Sunlight": "left",
+            "Wind power": "left",
+            "Oil and petroleum": "right",
+            "Natural Gas": "right"
+        }
+    },
+    {
+        "q": "Which of these is a good practice to save fuel?",
+        "type": "mcq",
+        "o": [
+            "Carpooling",
+            "Driving alone",
+            "Speeding",
+            "Idling the engine"
+        ]
+    },
+    {
+        "q": "Large areas of ice found near the poles are called:",
+        "type": "mcq",
+        "o": [
+            "Glaciers",
+            "Volcanoes",
+            "Deserts",
+            "Valleys"
+        ]
+    },
+    {
+        "q": "Unscramble: Decayed food and plants used as natural fertilizer for soil.",
+        "type": "word_scramble",
+        "answer": "COMPOST",
+        "decoys": "XQ"
+    },
+    {
+        "q": "Name a renewable resource from animals used for clothing.",
+        "type": "short_answer",
+        "answers": [
+            "wool",
+            "silk",
+            "leather"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of collecting and storing rain from roofs is called ______ harvesting.",
+        "type": "fill_blank",
+        "answers": [
+            "rainwater"
+        ],
+        "other_options": [
+            "sunlight",
+            "crop",
+            "wind"
+        ]
+    },
+    {
+        "q": "Complete the sentence about harming the environment:",
+        "type": "inline_dropdown",
+        "text": "[0] makes our natural resources like air, water, or soil [1] and unsafe to use.",
+        "dropdowns": [
+            {
+                "correct": "Pollution",
+                "options": [
+                    "Pollution",
+                    "Conservation",
+                    "Recycling"
+                ]
+            },
+            {
+                "correct": "dirty",
+                "options": [
+                    "dirty",
+                    "clean",
+                    "sparkling"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is a non-renewable resource found in liquid form?",
+        "type": "mcq",
+        "o": [
+            "Petroleum",
+            "Wind",
+            "Sunlight",
+            "Water"
+        ]
+    },
+    {
+        "q": "Match the human activity with its environmental impact:",
+        "type": "match",
+        "left": [
+            "Excessive use of air conditioners",
+            "Overfishing",
+            "Mining",
+            "Deforestation"
+        ],
+        "right": [
+            "Global warming",
+            "Depletion of marine life",
+            "Land degradation",
+            "Loss of habitat"
+        ]
+    },
+    {
+        "q": "Unscramble: The name of the planet we live on and must protect together.",
+        "type": "word_scramble",
+        "answer": "EARTH",
+        "decoys": "ZKX"
+    },
+    {
+        "q": "LPG stands for Liquefied Petroleum Gas.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary use of a windmill?",
+        "type": "mcq",
+        "o": [
+            "Generate electricity",
+            "Grind grains only",
+            "Pump water only",
+            "Store wind"
+        ]
+    },
+    {
+        "q": "A material that does not break down easily in the environment is called:",
+        "type": "mcq",
+        "o": [
+            "Non-biodegradable",
+            "Biodegradable",
+            "Compostable",
+            "Edible"
+        ]
+    },
+    {
+        "q": "Name the hard, solid part of the Earth made of rocks.",
+        "type": "short_answer",
+        "answers": [
+            "lithosphere",
+            "crust"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Using a bucket instead of a shower saves more ______.",
+        "type": "fill_blank",
+        "answers": [
+            "water"
+        ],
+        "other_options": [
+            "electricity",
+            "soap",
+            "time"
+        ]
+    },
+    {
+        "q": "Which element is common to all fossil fuels?",
+        "type": "mcq",
+        "o": [
+            "Carbon",
+            "Nitrogen",
+            "Oxygen",
+            "Iron"
+        ]
+    },
+    {
+        "q": "Complete the sentence about where wild creatures live:",
+        "type": "inline_dropdown",
+        "text": "A [0] is a natural home and environment for wild plants and [1].",
+        "dropdowns": [
+            {
+                "correct": "habitat",
+                "options": [
+                    "habitat",
+                    "factory",
+                    "city"
+                ]
+            },
+            {
+                "correct": "animals",
+                "options": [
+                    "animals",
+                    "cars",
+                    "buildings"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "We should not burn dry leaves because it causes air pollution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a sustainable farming practice?",
+        "type": "mcq",
+        "o": [
+            "Crop rotation",
+            "Slash and burn",
+            "Excessive use of pesticides",
+            "Monocropping only"
+        ]
+    },
+    {
+        "q": "Match the environmental problem with its solution:",
+        "type": "match",
+        "left": [
+            "Soil erosion",
+            "Oil spills",
+            "Smog",
+            "Land pollution"
+        ],
+        "right": [
+            "Planting cover crops",
+            "Bioremediation",
+            "Reducing vehicle use",
+            "Composting waste"
+        ]
+    },
+    {
+        "q": "What do we call the network of food chains in an ecosystem?",
+        "type": "short_answer",
+        "answers": [
+            "food web",
+            "foodweb"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the specific cause to the type of pollution it creates.",
+        "type": "memory",
+        "pairs": {
+            "Car exhaust smoke": "Air pollution",
+            "Chemical spills in rivers": "Water pollution",
+            "Loud factory machines": "Noise pollution"
+        }
+    },
+    {
+        "q": "Coal is also known as 'Black ______'.",
+        "type": "fill_blank",
+        "answers": [
+            "gold"
+        ],
+        "other_options": [
+            "diamond",
+            "silver",
+            "oil"
+        ]
+    },
+    {
+        "q": "Which gas is required for combustion or burning?",
+        "type": "mcq",
+        "o": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon dioxide",
+            "Hydrogen"
+        ]
+    },
+    {
+        "q": "Swipe left if the action Saves Energy, right if it Wastes Energy.",
+        "type": "swipe_cards",
+        "left_label": "Saves Energy",
+        "right_label": "Wastes Energy",
+        "cards": {
+            "Using LED bulbs": "left",
+            "Carpooling to school": "left",
+            "Leaving fridge door open": "right",
+            "Empty room with AC on": "right"
+        }
+    },
+    {
+        "q": "Solar energy can only be used during the daytime.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Unscramble: A flat material we write on that is made from chopped tree pulp.",
+        "type": "word_scramble",
+        "answer": "PAPER",
+        "decoys": "VZ"
+    },
+    {
+        "q": "What is the main source of water for rivers and lakes?",
+        "type": "mcq",
+        "o": [
+            "Rain",
+            "Sea",
+            "Desert",
+            "Factory"
+        ]
+    },
+    {
+        "q": "Complete the sentence about one of the 3 Rs:",
+        "type": "inline_dropdown",
+        "text": "When we [0] an item, we use it again instead of throwing it in the [1].",
+        "dropdowns": [
+            {
+                "correct": "reuse",
+                "options": [
+                    "reuse",
+                    "reduce",
+                    "burn"
+                ]
+            },
+            {
+                "correct": "trash",
+                "options": [
+                    "trash",
+                    "closet",
+                    "school"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Wearing a sweater instead of turning up the heater saves:",
+        "type": "mcq",
+        "o": [
+            "Energy",
+            "Clothes",
+            "Water",
+            "Time"
+        ]
+    },
+    {
+        "q": "Name a rock that is used as a fuel.",
+        "type": "short_answer",
+        "answers": [
+            "coal"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "How many total continents are there on Earth that hold our global natural resources?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 7
+    },
+    {
+        "q": "The wise use and protection of natural resources is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "conservation"
+        ],
+        "other_options": [
+            "pollution",
+            "deforestation",
+            "extraction"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a renewable energy source?",
+        "type": "mcq",
+        "o": [
+            "Nuclear power",
+            "Geothermal energy",
+            "Tidal energy",
+            "Wave energy"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a real natural source of water?",
+        "type": "odd_one_out",
+        "options": [
+            "Lake",
+            "River",
+            "Ocean",
+            "Sidewalk puddle"
+        ],
+        "correct": "Sidewalk puddle"
+    },
+    {
+        "q": "Recycling one ton of paper saves approximately 17 trees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the layer of the atmosphere with its feature:",
+        "type": "match",
+        "left": [
+            "Troposphere",
+            "Stratosphere",
+            "Mesosphere",
+            "Thermosphere"
+        ],
+        "right": [
+            "Weather occurs here",
+            "Contains ozone layer",
+            "Meteors burn up",
+            "Satellites orbit here"
+        ]
+    },
+    {
+        "q": "What is the term for energy stored inside the Earth?",
+        "type": "short_answer",
+        "answers": [
+            "geothermal energy",
+            "geothermal"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the household waste item to the correct bin it should go in.",
+        "type": "memory",
+        "pairs": {
+            "Empty clean soda can": "Recycling bin",
+            "Old apple core": "Compost bin",
+            "Sticky candy wrapper": "Trash bin"
+        }
+    },
+    {
+        "q": "Which human activity contributes most to carbon dioxide increase?",
+        "type": "mcq",
+        "o": [
+            "Burning fossil fuels",
+            "Breathing",
+            "Walking",
+            "Swimming"
+        ]
+    },
+    {
+        "q": "Wetlands act as natural sponges that soak up excess:",
+        "type": "mcq",
+        "o": [
+            "Water",
+            "Air",
+            "Sunlight",
+            "Wind"
+        ]
+    },
+    {
+        "q": "Oil spills mainly affect aquatic life.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "A resource that can be used directly without processing is a ______ resource.",
+        "type": "fill_blank",
+        "answers": [
+            "natural",
+            "raw"
+        ],
+        "other_options": [
+            "artificial",
+            "plastic",
+            "man-made"
+        ]
+    },
+    {
+        "q": "Which of these is the cleanest fossil fuel?",
+        "type": "mcq",
+        "o": [
+            "Natural gas",
+            "Coal",
+            "Petrol",
+            "Diesel"
+        ]
+    },
+    {
+        "q": "Swipe left if the item is Recyclable, right if it is Non-recyclable.",
+        "type": "swipe_cards",
+        "left_label": "Recyclable",
+        "right_label": "Non-recyclable",
+        "cards": {
+            "Aluminum soda can": "left",
+            "Clean cardboard box": "left",
+            "Styrofoam drinking cup": "right",
+            "Used greasy tissue": "right"
+        }
+    },
+    {
+        "q": "Name the process where water turns into water vapour.",
+        "type": "short_answer",
+        "answers": [
+            "evaporation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the term with its definition:",
+        "type": "match",
+        "left": [
+            "Irrigation",
+            "Organic farming",
+            "Aquaculture",
+            "Silviculture"
+        ],
+        "right": [
+            "Watering crops",
+            "Farming without chemicals",
+            "Farming fish",
+            "Managing forests"
+        ]
+    },
+    {
+        "q": "Aluminium cans are biodegradable.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a direct use of solar energy?",
+        "type": "mcq",
+        "o": [
+            "Drying clothes outside",
+            "Running a petrol car",
+            "Drilling for oil",
+            "Mining coal"
+        ]
+    },
+    {
+        "q": "Dead and decaying matter that enriches the soil is called:",
+        "type": "mcq",
+        "o": [
+            "Humus",
+            "Plastic",
+            "Metal",
+            "Glass"
+        ]
+    },
+    {
+        "q": "What is the continuous movement of water on Earth called?",
+        "type": "short_answer",
+        "answers": [
+            "water cycle",
+            "hydrologic cycle"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble: The invisible gas we breathe in that plants constantly produce.",
+        "type": "word_scramble",
+        "answer": "OXYGEN",
+        "decoys": "WQ"
+    },
+    {
+        "q": "Hydroelectric power plants use the force of flowing ______ to make electricity.",
+        "type": "fill_blank",
+        "answers": [
+            "water"
+        ],
+        "other_options": [
+            "air",
+            "sunlight",
+            "fire"
+        ]
+    },
+    {
+        "q": "Complete the sentence about clean solar energy:",
+        "type": "inline_dropdown",
+        "text": "Solar panels are clever devices that change [0] directly into usable [1].",
+        "dropdowns": [
+            {
+                "correct": "sunlight",
+                "options": [
+                    "sunlight",
+                    "moonlight",
+                    "rain"
+                ]
+            },
+            {
+                "correct": "electricity",
+                "options": [
+                    "electricity",
+                    "food",
+                    "plastic"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Unscramble: A man-made material that takes hundreds of years to break down in nature.",
+        "type": "word_scramble",
+        "answer": "PLASTIC",
+        "decoys": "MBX"
+    },
+    {
+        "q": "What happens when we overuse groundwater?",
+        "type": "mcq",
+        "o": [
+            "Water table goes down",
+            "Water table rises",
+            "Floods occur",
+            "Earthquakes happen"
+        ]
+    },
+    {
+        "q": "Sustainable development meets present needs without compromising future needs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which state of water is found in glaciers?",
+        "type": "mcq",
+        "o": [
+            "Solid",
+            "Liquid",
+            "Gas",
+            "Plasma"
+        ]
+    },
+    {
+        "q": "Match the type of coal with its carbon content:",
+        "type": "match",
+        "left": [
+            "Peat",
+            "Lignite",
+            "Bituminous",
+            "Anthracite"
+        ],
+        "right": [
+            "Lowest carbon",
+            "Medium-low carbon",
+            "High carbon",
+            "Highest carbon"
+        ]
+    },
+    {
+        "q": "Complete the sentence about better shopping habits:",
+        "type": "inline_dropdown",
+        "text": "Cloth bags are much better than [0] bags because they can be washed and reused, creating less [1].",
+        "dropdowns": [
+            {
+                "correct": "plastic",
+                "options": [
+                    "plastic",
+                    "cotton",
+                    "jute"
+                ]
+            },
+            {
+                "correct": "waste",
+                "options": [
+                    "waste",
+                    "food",
+                    "oxygen"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Smoke from factories mixes with rain to form:",
+        "type": "mcq",
+        "o": [
+            "Acid rain",
+            "Clean water",
+            "Fresh air",
+            "Fertile soil"
+        ]
+    },
+    {
+        "q": "Name the gas that makes up about 78% of the air.",
+        "type": "short_answer",
+        "answers": [
+            "nitrogen",
+            "N2"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of treating waste water to make it clean again is called water ______.",
+        "type": "fill_blank",
+        "answers": [
+            "treatment",
+            "purification"
+        ],
+        "other_options": [
+            "pollution",
+            "wasting",
+            "mixing"
+        ]
+    },
+    {
+        "q": "Which of these is a major threat to coral reefs?",
+        "type": "mcq",
+        "o": [
+            "Rising ocean temperatures",
+            "More fish swimming",
+            "Clean water",
+            "Scuba diving only"
+        ]
+    },
+    {
+        "q": "Geothermal energy is derived from heat inside the Earth.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the fertile soil deposited by rivers called?",
+        "type": "mcq",
+        "o": [
+            "Alluvial soil",
+            "Desert sand",
+            "Black soil",
+            "Rocky soil"
+        ]
+    },
+    {
+        "q": "Match the alternative fuel with its source:",
+        "type": "match",
+        "left": [
+            "Biodiesel",
+            "Ethanol",
+            "Biogas",
+            "Hydrogen fuel cell"
+        ],
+        "right": [
+            "Vegetable oils",
+            "Corn or sugarcane",
+            "Cow dung/plant waste",
+            "Water and electricity"
+        ]
+    },
+    {
+        "q": "CNG is a liquid fuel used in vehicles.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Approximately how many hundreds of years does it take for a standard plastic bottle to decompose? (e.g., 4 = 400 years)",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 4
+    },
+    {
+        "q": "What is the term for animals that live naturally in an area?",
+        "type": "short_answer",
+        "answers": [
+            "wildlife",
+            "fauna"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Throwing plastic waste in the sea harms ______ life.",
+        "type": "fill_blank",
+        "answers": [
+            "marine",
+            "aquatic"
+        ],
+        "other_options": [
+            "land",
+            "forest",
+            "desert"
+        ]
+    },
+    {
+        "q": "Which of these is a consequence of deforestation?",
+        "type": "mcq",
+        "o": [
+            "Loss of animal habitat",
+            "Increase in rainfall",
+            "Cleaner air",
+            "More fertile soil"
+        ]
+    },
+    {
+        "q": "What energy transformation happens in a solar panel?",
+        "type": "mcq",
+        "o": [
+            "Light to electricity",
+            "Wind to light",
+            "Water to heat",
+            "Sound to light"
+        ]
+    },
+    {
+        "q": "Match the animal to the helpful natural resource it provides for humans.",
+        "type": "memory",
+        "pairs": {
+            "Dairy Cow": "Milk",
+            "Fluffy Sheep": "Wool",
+            "Farm Hen": "Eggs",
+            "Honeybee": "Honey"
+        }
+    },
+    {
+        "q": "Recycling plastic reduces the need for new crude oil.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name a metal that can be recycled endlessly without losing quality.",
+        "type": "short_answer",
+        "answers": [
+            "aluminium",
+            "aluminum",
+            "aluminium metal"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a community of living things and their environment.",
+        "type": "fill_blank",
+        "answers": [
+            "ecosystem"
+        ],
+        "other_options": [
+            "city",
+            "factory",
+            "machine"
+        ]
+    },
+    {
+        "q": "Which of these gases traps heat in the atmosphere?",
+        "type": "mcq",
+        "o": [
+            "Methane",
+            "Oxygen",
+            "Nitrogen",
+            "Argon"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a green (eco-friendly) way to travel around your town?",
+        "type": "odd_one_out",
+        "options": [
+            "Walking",
+            "Biking",
+            "Riding a shared bus",
+            "Driving a huge truck alone"
+        ],
+        "correct": "Driving a huge truck alone"
+    },
+    {
+        "q": "Turn off the tap while you ______ to save water.",
+        "type": "fill_blank",
+        "answers": [
+            "brush",
+            "brush teeth",
+            "soap"
+        ],
+        "other_options": [
+            "eat",
+            "sleep",
+            "run"
+        ]
+    },
+    {
+        "q": "Which of these is an example of reusing?",
+        "type": "mcq",
+        "o": [
+            "Refilling a glass bottle",
+            "Melting a glass bottle",
+            "Burying a glass bottle",
+            "Breaking a glass bottle"
+        ]
+    },
+    {
+        "q": "Match the natural disaster with its possible environmental trigger:",
+        "type": "match",
+        "left": [
+            "Drought",
+            "Landslide",
+            "Flood",
+            "Dust storm"
+        ],
+        "right": [
+            "Deforestation",
+            "Mining on slopes",
+            "Heavy rain",
+            "Soil erosion"
+        ]
+    },
+    {
+        "q": "Worms in a compost bin help break down waste faster.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for electricity generated by water?",
+        "type": "short_answer",
+        "answers": [
+            "hydroelectricity",
+            "hydropower",
+            "hydroelectric power"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which layer of soil is best for growing plants?",
+        "type": "mcq",
+        "o": [
+            "Topsoil",
+            "Bedrock",
+            "Subsoil",
+            "Gravel"
+        ]
+    },
+    {
+        "q": "Used cooking oil can be converted into biodiesel.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call a place where garbage is dumped and covered with soil?",
+        "type": "mcq",
+        "o": [
+            "Sanitary landfill",
+            "Playground",
+            "Park",
+            "Farm"
+        ]
+    },
+    {
+        "q": "Swipe left for Living resources, right for Non-living resources.",
+        "type": "swipe_cards",
+        "left_label": "Living Resources",
+        "right_label": "Non-living Resources",
+        "cards": {
+            "Forest trees": "left",
+            "Ocean fish": "left",
+            "Iron minerals": "right",
+            "Bright Sunlight": "right"
+        }
+    },
+    {
+        "q": "Name a natural fiber obtained from animals.",
+        "type": "short_answer",
+        "answers": [
+            "wool",
+            "silk"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble: Hard structural material that comes directly from the trunks of trees.",
+        "type": "word_scramble",
+        "answer": "WOOD",
+        "decoys": "KF"
+    },
+    {
+        "q": "To protect wildlife, we create protected areas called ______ parks.",
+        "type": "fill_blank",
+        "answers": [
+            "national"
+        ],
+        "other_options": [
+            "city",
+            "amusement",
+            "industrial"
+        ]
+    },
+    {
+        "q": "Complete the sentence about saving water from the sky:",
+        "type": "inline_dropdown",
+        "text": "Rainwater [0] is a great way to collect and store rain for [1] use during dry seasons.",
+        "dropdowns": [
+            {
+                "correct": "harvesting",
+                "options": [
+                    "harvesting",
+                    "wasting",
+                    "spilling"
+                ]
+            },
+            {
+                "correct": "future",
+                "options": [
+                    "future",
+                    "past",
+                    "immediate"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these items takes the longest time to decompose?",
+        "type": "mcq",
+        "o": [
+            "Glass bottle",
+            "Paper bag",
+            "Cotton cloth",
+            "Banana peel"
+        ]
+    },
+    {
+        "q": "Burning waste in the open increases air pollution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the renewable energy type with its technology:",
+        "type": "match",
+        "left": [
+            "Solar",
+            "Wind",
+            "Geothermal",
+            "Tidal"
+        ],
+        "right": [
+            "Photovoltaic cell",
+            "Turbine",
+            "Heat pump",
+            "Barrage"
+        ]
+    },
+    {
+        "q": "Unscramble: The top layer of the earth where all our plants and crops grow.",
+        "type": "word_scramble",
+        "answer": "SOIL",
+        "decoys": "PQ"
+    },
+    {
+        "q": "Which of these is a threat to biodiversity?",
+        "type": "mcq",
+        "o": [
+            "Habitat destruction",
+            "Planting trees",
+            "Organic farming",
+            "Conservation"
+        ]
+    },
+    {
+        "q": "What is the name for resources that are found everywhere on Earth?",
+        "type": "mcq",
+        "o": [
+            "Ubiquitous resources",
+            "Localized resources",
+            "Mineral resources",
+            "Biotic resources"
+        ]
+    },
+    {
+        "q": "Name the process where gas changes back into liquid droplets.",
+        "type": "short_answer",
+        "answers": [
+            "condensation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Contour ploughing and terrace farming prevent soil ______ on hills.",
+        "type": "fill_blank",
+        "answers": [
+            "erosion"
+        ],
+        "other_options": [
+            "pollution",
+            "formation",
+            "growth"
+        ]
+    },
+    {
+        "q": "Which of these is a primary air pollutant from vehicles?",
+        "type": "mcq",
+        "o": [
+            "Carbon monoxide",
+            "Oxygen",
+            "Water vapor",
+            "Nitrogen"
+        ]
+    },
+    {
+        "q": "Using disposable plastic cups is an eco-friendly habit.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the term for the variety of life on Earth?",
+        "type": "short_answer",
+        "answers": [
+            "biodiversity",
+            "biological diversity"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a biotic resource?",
+        "type": "mcq",
+        "o": [
+            "Forests",
+            "Minerals",
+            "Water",
+            "Air"
+        ]
+    },
+    {
+        "q": "What is the scientific term for the water-holding layer of rock underground?",
+        "type": "short_answer",
+        "answers": [
+            "aquifer",
+            "aquifers"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of converting waste into usable fuel is called waste-to-______.",
+        "type": "fill_blank",
+        "answers": [
+            "energy"
+        ],
+        "other_options": [
+            "water",
+            "air",
+            "food"
+        ]
+    },
+    {
+        "q": "Match the greenhouse gas with its main source:",
+        "type": "match",
+        "left": [
+            "Methane",
+            "Nitrous oxide",
+            "Fluorinated gases",
+            "Carbon dioxide"
+        ],
+        "right": [
+            "Livestock farming",
+            "Fertilizer use",
+            "Refrigerants",
+            "Burning fossil fuels"
+        ]
+    },
+    {
+        "q": "Recycling an aluminium can saves 95% of the energy needed to make a new one.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for planting trees in an area that was not previously forested?",
+        "type": "mcq",
+        "o": [
+            "Afforestation",
+            "Deforestation",
+            "Reforestation",
+            "Exploitation"
+        ]
+    },
+    {
+        "q": "Soil becomes less fertile when crops are grown continuously without adding nutrients. This is called soil:",
+        "type": "mcq",
+        "o": [
+            "Depletion",
+            "Conservation",
+            "Fertilization",
+            "Saturation"
+        ]
+    },
+    {
+        "q": "Name the chemical used to test the pH of soil.",
+        "type": "short_answer",
+        "answers": [
+            "litmus",
+            "ph indicator",
+            "universal indicator"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Resources that are found only in specific places are called ______ resources.",
+        "type": "fill_blank",
+        "answers": [
+            "localized",
+            "localised"
+        ],
+        "other_options": [
+            "ubiquitous",
+            "renewable",
+            "biotic"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a way to reduce carbon footprint?",
+        "type": "mcq",
+        "o": [
+            "Using private jets frequently",
+            "Eating locally grown food",
+            "Using renewable energy",
+            "Walking short distances"
+        ]
+    },
+    {
+        "q": "CNG stands for Compressed Natural Gas.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the type of erosion with its cause:",
+        "type": "match",
+        "left": [
+            "Sheet erosion",
+            "Gully erosion",
+            "Wind erosion",
+            "Coastal erosion"
+        ],
+        "right": [
+            "Heavy rain on plains",
+            "Concentrated water flow",
+            "Strong winds in deserts",
+            "Waves hitting shores"
+        ]
+    },
+    {
+        "q": "Which fossil fuel is found in solid form?",
+        "type": "mcq",
+        "o": [
+            "Coal",
+            "Petroleum",
+            "Natural gas",
+            "Crude oil"
+        ]
+    },
+    {
+        "q": "What is the main cause of the greenhouse effect?",
+        "type": "short_answer",
+        "answers": [
+            "greenhouse gases",
+            "carbon dioxide",
+            "trapping of heat"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The practice of growing different crops in the same field in different seasons is called crop ______.",
+        "type": "fill_blank",
+        "answers": [
+            "rotation"
+        ],
+        "other_options": [
+            "pollution",
+            "burning",
+            "wasting"
+        ]
+    },
+    {
+        "q": "Complete the sentence about keeping our soil healthy:",
+        "type": "inline_dropdown",
+        "text": "The roots of trees act like strong anchors to hold the [0] together and prevent soil [1] from wind and water.",
+        "dropdowns": [
+            {
+                "correct": "soil",
+                "options": [
+                    "soil",
+                    "rocks",
+                    "clouds"
+                ]
+            },
+            {
+                "correct": "erosion",
+                "options": [
+                    "erosion",
+                    "growth",
+                    "coloring"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is a consequence of ozone layer depletion?",
+        "type": "mcq",
+        "o": [
+            "Increased skin cancer cases",
+            "More oxygen in the air",
+            "Colder climate",
+            "Higher rainfall"
+        ]
+    },
+    {
+        "q": "Hydropower is a completely pollution-free energy source with zero environmental impact.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which term describes the removal of salt from seawater?",
+        "type": "mcq",
+        "o": [
+            "Desalination",
+            "Salination",
+            "Evaporation",
+            "Condensation"
+        ]
+    },
+    {
+        "q": "Match the water body with its percentage of Earth's total water:",
+        "type": "match",
+        "left": [
+            "Oceans",
+            "Ice caps and glaciers",
+            "Groundwater",
+            "Rivers and lakes"
+        ],
+        "right": [
+            "97.4%",
+            "1.9%",
+            "0.5%",
+            "0.01%"
+        ]
+    },
+    {
+        "q": "What is the term for species that are at risk of extinction?",
+        "type": "short_answer",
+        "answers": [
+            "endangered species",
+            "endangered"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A large area of an ecosystem protected by law is called a biosphere ______.",
+        "type": "fill_blank",
+        "answers": [
+            "reserve"
+        ],
+        "other_options": [
+            "hotel",
+            "factory",
+            "market"
+        ]
+    },
+    {
+        "q": "Which of these is a recyclable resource?",
+        "type": "mcq",
+        "o": [
+            "Copper wire",
+            "Coal ash",
+            "Crude oil",
+            "Natural gas"
+        ]
+    },
+    {
+        "q": "Silk is a natural fibre obtained from an insect.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is 'black gold' a common nickname for?",
+        "type": "mcq",
+        "o": [
+            "Petroleum",
+            "Coal",
+            "Iron",
+            "Gold"
+        ]
+    },
+    {
+        "q": "Name a renewable fuel made from plant material or animal waste.",
+        "type": "short_answer",
+        "answers": [
+            "biogas",
+            "biofuel",
+            "biodiesel",
+            "ethanol"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Using chemical fertilizers in excess can cause water pollution through a process called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "eutrophication"
+        ],
+        "other_options": [
+            "condensation",
+            "evaporation",
+            "sedimentation"
+        ]
+    },
+    {
+        "q": "Which of the following is an inexhaustible resource?",
+        "type": "mcq",
+        "o": [
+            "Solar energy",
+            "Coal",
+            "Forests",
+            "Minerals"
+        ]
+    },
+    {
+        "q": "Jute is a natural fibre obtained from the stem of the jute plant.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the mineral with its common use:",
+        "type": "match",
+        "left": [
+            "Bauxite",
+            "Hematite",
+            "Limestone",
+            "Graphite"
+        ],
+        "right": [
+            "Aluminium production",
+            "Iron extraction",
+            "Cement manufacturing",
+            "Pencil lead"
+        ]
+    },
+    {
+        "q": "What type of resource is groundwater considered to be?",
+        "type": "mcq",
+        "o": [
+            "Renewable but exhaustible",
+            "Non-renewable",
+            "Inexhaustible",
+            "Artificial"
+        ]
+    },
+    {
+        "q": "Match the mined mineral to its common everyday use.",
+        "type": "memory",
+        "pairs": {
+            "Iron": "Building strong bridges",
+            "Gold": "Making shiny jewelry",
+            "Copper": "Conducting electricity in wires"
+        }
+    },
+    {
+        "q": "Name the process where water bodies become too rich in nutrients, killing fish.",
+        "type": "short_answer",
+        "answers": [
+            "eutrophication",
+            "algal bloom"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The cultivation of fish and other water animals for food is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "aquaculture",
+            "pisciculture"
+        ],
+        "other_options": [
+            "agriculture",
+            "sericulture",
+            "horticulture"
+        ]
+    },
+    {
+        "q": "Which gas is mainly responsible for the formation of acid rain?",
+        "type": "mcq",
+        "o": [
+            "Sulphur dioxide",
+            "Oxygen",
+            "Nitrogen",
+            "Ammonia"
+        ]
+    },
+    {
+        "q": "Swipe left if the action Protects Nature, right if it Harms Nature.",
+        "type": "swipe_cards",
+        "left_label": "Protects Nature",
+        "right_label": "Harms Nature",
+        "cards": {
+            "Picking up park trash": "left",
+            "Making garden compost": "left",
+            "Cutting down rainforests": "right",
+            "Spilling oil in oceans": "right"
+        }
+    },
+    {
+        "q": "Wind energy is an example of an abiotic resource.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call resources that are derived from living organisms?",
+        "type": "mcq",
+        "o": [
+            "Biotic resources",
+            "Abiotic resources",
+            "Mineral resources",
+            "Synthetic resources"
+        ]
+    },
+    {
+        "q": "Unscramble: A hard, shiny natural resource dug from deep in the earth, like iron or copper.",
+        "type": "word_scramble",
+        "answer": "METAL",
+        "decoys": "YJ"
+    },
+    {
+        "q": "Match the conservation term with its strategy:",
+        "type": "match",
+        "left": [
+            "In-situ conservation",
+            "Ex-situ conservation",
+            "Reduce",
+            "Recycle"
+        ],
+        "right": [
+            "Protecting animals in the wild",
+            "Zoos and seed banks",
+            "Buying less",
+            "Processing waste"
+        ]
+    },
+    {
+        "q": "Complete the sentence about animal protection zones:",
+        "type": "inline_dropdown",
+        "text": "Wildlife [0] are special protected forest areas where animals can live [1] from hunters.",
+        "dropdowns": [
+            {
+                "correct": "sanctuaries",
+                "options": [
+                    "sanctuaries",
+                    "zoos",
+                    "cages"
+                ]
+            },
+            {
+                "correct": "safely",
+                "options": [
+                    "safely",
+                    "dangerously",
+                    "scared"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the study of soil called?",
+        "type": "short_answer",
+        "answers": [
+            "pedology",
+            "soil science"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The practice of cutting only mature trees and leaving younger ones is called selective ______.",
+        "type": "fill_blank",
+        "answers": [
+            "logging"
+        ],
+        "other_options": [
+            "burning",
+            "wasting",
+            "grazing"
+        ]
+    },
+    {
+        "q": "Which of these is a major cause of desertification?",
+        "type": "mcq",
+        "o": [
+            "Overgrazing",
+            "Heavy rainfall",
+            "Afforestation",
+            "Crop rotation"
+        ]
+    },
+    {
+        "q": "Out of 100 drops of water on Earth, about how many drops are fresh water we can easily reach and drink? (Hint: It is very small!)",
+        "type": "slider",
+        "min": 0,
+        "max": 10,
+        "correct": 1
+    },
+    {
+        "q": "The ozone layer is found in the troposphere.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which mineral is used in toothpaste to prevent cavities?",
+        "type": "mcq",
+        "o": [
+            "Fluoride",
+            "Calcium",
+            "Iron",
+            "Zinc"
+        ]
+    },
+    {
+        "q": "Which of these everyday items is NOT made from wood or tree pulp?",
+        "type": "odd_one_out",
+        "options": [
+            "Writing paper",
+            "Wooden pencil",
+            "Dining table",
+            "Iron nail"
+        ],
+        "correct": "Iron nail"
+    },
+    {
+        "q": "Name the international protocol aimed at reducing greenhouse gas emissions.",
+        "type": "short_answer",
+        "answers": [
+            "kyoto protocol",
+            "paris agreement",
+            "montreal protocol"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A place where waste is burned at very high temperatures is called an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "incinerator"
+        ],
+        "other_options": [
+            "landfill",
+            "compost pit",
+            "recycling bin"
+        ]
+    },
+    {
+        "q": "Which type of resource is natural gas?",
+        "type": "mcq",
+        "o": [
+            "Conventional energy resource",
+            "Non-conventional energy resource",
+            "Biotic resource",
+            "Renewable resource"
+        ]
+    },
+    {
+        "q": "Using drip irrigation in farming helps conserve water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the natural large-scale ecosystem to its correct description.",
+        "type": "memory",
+        "pairs": {
+            "Forest": "Area packed with many tall trees",
+            "Desert": "Very dry area with sand and cactus",
+            "Ocean": "Huge body of deep saltwater"
+        }
+    },
+    {
+        "q": "Swipe left to Turn Off, right to Leave On for safety.",
+        "type": "swipe_cards",
+        "left_label": "Turn Off to Save",
+        "right_label": "Leave On for Safety",
+        "cards": {
+            "Tap while soaping hands": "left",
+            "Room light when leaving": "left",
+            "Security light at night": "right",
+            "Home smoke detector": "right"
+        }
+    },
+    {
+        "q": "Unscramble: A clear, breakable material made by melting natural sand at very high heat.",
+        "type": "word_scramble",
+        "answer": "GLASS",
+        "decoys": "XW"
+    },
+    {
+        "q": "Match the air pollutant with its health effect:",
+        "type": "match",
+        "left": [
+            "Carbon monoxide",
+            "Sulphur dioxide",
+            "Lead",
+            "Particulate matter"
+        ],
+        "right": [
+            "Reduces oxygen in blood",
+            "Breathing difficulties",
+            "Damages nervous system",
+            "Lung damage"
+        ]
+    },
+    {
+        "q": "What is the name for the total amount of greenhouse gases produced by human activities?",
+        "type": "short_answer",
+        "answers": [
+            "carbon footprint"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about managing our forests:",
+        "type": "inline_dropdown",
+        "text": "[0] is the harmful practice of clearing away trees, while [1] is the helpful practice of planting new trees.",
+        "dropdowns": [
+            {
+                "correct": "Deforestation",
+                "options": [
+                    "Deforestation",
+                    "Afforestation",
+                    "Farming"
+                ]
+            },
+            {
+                "correct": "afforestation",
+                "options": [
+                    "afforestation",
+                    "deforestation",
+                    "logging"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of the following is considered a 'clean fuel'?",
+        "type": "mcq",
+        "o": [
+            "CNG",
+            "Diesel",
+            "Petrol",
+            "Kerosene"
+        ]
+    },
+    {
+        "q": "Unscramble: The everyday word for items we throw away that eventually end up in giant landfills.",
+        "type": "word_scramble",
+        "answer": "TRASH",
+        "decoys": "BCZ"
+    },
+    {
+        "q": "The layer of soil permanently frozen in cold regions is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "permafrost"
+        ],
+        "other_options": [
+            "topsoil",
+            "subsoil",
+            "bedrock"
+        ]
+    },
+    {
+        "q": "Complete the sentence about household water waste:",
+        "type": "inline_dropdown",
+        "text": "A [0] pipe or dripping faucet can silently waste a huge amount of [1] over a long time.",
+        "dropdowns": [
+            {
+                "correct": "leaky",
+                "options": [
+                    "leaky",
+                    "new",
+                    "dry"
+                ]
+            },
+            {
+                "correct": "water",
+                "options": [
+                    "water",
+                    "electricity",
+                    "gas"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Biomass is a form of renewable energy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "How many main oceans exist on Earth to hold our vital marine resources?",
+        "type": "slider",
+        "min": 1,
+        "max": 7,
+        "correct": 5
+    },
+    {
+        "q": "Which country is the world's largest producer of wind energy?",
+        "type": "mcq",
+        "o": [
+            "China",
+            "USA",
+            "India",
+            "Brazil"
+        ]
+    },
+    {
+        "q": "Match the aquatic ecosystem with its type:",
+        "type": "match",
+        "left": [
+            "Lake",
+            "River",
+            "Estuary",
+            "Coral reef"
+        ],
+        "right": [
+            "Lentic",
+            "Lotic",
+            "Brackish water",
+            "Marine"
+        ]
+    },
+    {
+        "q": "What is the main chemical element in diamonds?",
+        "type": "short_answer",
+        "answers": [
+            "carbon",
+            "C"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the plant part to the food resource it provides us to eat.",
+        "type": "memory",
+        "pairs": {
+            "Root": "Orange Carrot",
+            "Leaf": "Green Spinach",
+            "Fruit": "Red Apple",
+            "Seed": "Sunflower seed"
+        }
+    },
+    {
+        "q": "The process of turning barren land into fertile land is called land ______.",
+        "type": "fill_blank",
+        "answers": [
+            "reclamation"
+        ],
+        "other_options": [
+            "pollution",
+            "erosion",
+            "degradation"
+        ]
+    },
+    {
+        "q": "Which of the following is an abiotic component of an ecosystem?",
+        "type": "mcq",
+        "o": [
+            "Temperature",
+            "Bacteria",
+            "Plants",
+            "Animals"
+        ]
+    },
+    {
+        "q": "Geothermal energy is unreliable and stops at night.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a key cause of biodiversity loss?",
+        "type": "mcq",
+        "o": [
+            "Habitat fragmentation",
+            "Building birdhouses",
+            "Reforestation",
+            "Organic farming"
+        ]
+    },
+    {
+        "q": "Name the hardest natural substance found on Earth.",
+        "type": "short_answer",
+        "answers": [
+            "diamond"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Plastic waste in oceans breaks down into tiny particles called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "microplastics"
+        ],
+        "other_options": [
+            "sand",
+            "salt",
+            "pebbles"
+        ]
+    },
+    {
+        "q": "Which of these types of coal has the highest carbon content?",
+        "type": "mcq",
+        "o": [
+            "Anthracite",
+            "Peat",
+            "Lignite",
+            "Bituminous"
+        ]
+    },
+    {
+        "q": "Tidal energy is produced by the movement of waves.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the type of forest with its characteristic:",
+        "type": "match",
+        "left": [
+            "Tropical rainforest",
+            "Taiga",
+            "Temperate deciduous",
+            "Mangrove"
+        ],
+        "right": [
+            "High rainfall, high biodiversity",
+            "Coniferous, cold climate",
+            "Shed leaves in autumn",
+            "Found in coastal swamps"
+        ]
+    },
+    {
+        "q": "What is the term for species that are found only in one specific region?",
+        "type": "short_answer",
+        "answers": [
+            "endemic species",
+            "endemic"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which natural resource is extracted through mining?",
+        "type": "mcq",
+        "o": [
+            "Iron ore",
+            "Rice",
+            "Cotton",
+            "Milk"
+        ]
+    },
+    {
+        "q": "The quality of air is measured by the Air Quality ______.",
+        "type": "fill_blank",
+        "answers": [
+            "index"
+        ],
+        "other_options": [
+            "map",
+            "chart",
+            "graph"
+        ]
+    },
+    {
+        "q": "Which of these is an effect of global warming?",
+        "type": "mcq",
+        "o": [
+            "Rising sea levels",
+            "Decreasing temperatures",
+            "More icebergs forming",
+            "Forest expansion"
+        ]
+    },
+    {
+        "q": "Nuclear energy is a renewable energy source.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these moving things does NOT run using natural wind power?",
+        "type": "odd_one_out",
+        "options": [
+            "Sailboat on a lake",
+            "Large wind turbine",
+            "Paper kite",
+            "Living room television"
+        ],
+        "correct": "Living room television"
+    },
+    {
+        "q": "Match the farming method with its description:",
+        "type": "match",
+        "left": [
+            "Contour farming",
+            "Terrace farming",
+            "Strip cropping",
+            "Zero tillage"
+        ],
+        "right": [
+            "Plowing across slopes",
+            "Steps cut on steep hills",
+            "Alternating crops in strips",
+            "No plowing of soil"
+        ]
+    },
+    {
+        "q": "What is the main element found in coal?",
+        "type": "short_answer",
+        "answers": [
+            "carbon",
+            "C"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The sun provides energy directly in the form of heat and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "light"
+        ],
+        "other_options": [
+            "coal",
+            "oil",
+            "gas"
+        ]
+    },
+    {
+        "q": "Which of these vehicles causes the least pollution?",
+        "type": "mcq",
+        "o": [
+            "Electric car",
+            "Diesel truck",
+            "Petrol scooter",
+            "Aeroplane"
+        ]
+    },
+    {
+        "q": "What is the name for the top layer of a forest formed by tree crowns?",
+        "type": "short_answer",
+        "answers": [
+            "canopy"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A substance introduced into the environment that has harmful effects is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pollutant"
+        ],
+        "other_options": [
+            "nutrient",
+            "vitamin",
+            "fertilizer"
+        ]
+    },
+    {
+        "q": "Which of these countries is known for its extensive use of geothermal energy?",
+        "type": "mcq",
+        "o": [
+            "Iceland",
+            "Saudi Arabia",
+            "Australia",
+            "India"
+        ]
+    },
+    {
+        "q": "Sustainable forestry ensures that forest resources are available forever.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the rock type with its example:",
+        "type": "match",
+        "left": [
+            "Igneous",
+            "Sedimentary",
+            "Metamorphic"
+        ],
+        "right": [
+            "Granite",
+            "Sandstone",
+            "Marble"
+        ]
+    },
+    {
+        "q": "What energy source uses heat from within the Earth?",
+        "type": "short_answer",
+        "answers": [
+            "geothermal energy",
+            "geothermal"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Natural gas is mainly composed of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "methane"
+        ],
+        "other_options": [
+            "oxygen",
+            "propane",
+            "butane"
+        ]
+    },
+    {
+        "q": "Swipe left for Fresh water sources, right for Salt water sources.",
+        "type": "swipe_cards",
+        "left_label": "Fresh water",
+        "right_label": "Salt water",
+        "cards": {
+            "Mountain river": "left",
+            "Drinking lake": "left",
+            "Pacific Ocean": "right",
+            "Dead Sea": "right"
+        }
+    },
+    {
+        "q": "Which of these is a renewable resource but can be exhausted if overused?",
+        "type": "mcq",
+        "o": [
+            "Groundwater",
+            "Coal",
+            "Petroleum",
+            "Natural gas"
+        ]
+    },
+    {
+        "q": "The Chipko movement was a movement to protect trees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble: A massive, deep body of salt water covering much of the Earth.",
+        "type": "word_scramble",
+        "answer": "OCEAN",
+        "decoys": "KV"
+    },
+    {
+        "q": "What is the scientific term for a species that no longer exists?",
+        "type": "short_answer",
+        "answers": [
+            "extinct",
+            "extinct species"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about hidden water sources:",
+        "type": "inline_dropdown",
+        "text": "[0] is stored deep under the earth's surface and can be carefully drawn up using deep [1].",
+        "dropdowns": [
+            {
+                "correct": "Groundwater",
+                "options": [
+                    "Groundwater",
+                    "Rainwater",
+                    "Ocean water"
+                ]
+            },
+            {
+                "correct": "wells",
+                "options": [
+                    "wells",
+                    "buckets",
+                    "clouds"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a method of soil conservation?",
+        "type": "mcq",
+        "o": [
+            "Slash and burn farming",
+            "Contour bunding",
+            "Terracing",
+            "Afforestation"
+        ]
+    },
+    {
+        "q": "Plastic bags can block drains and cause flooding in cities.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the type of waste with its decomposition time:",
+        "type": "match",
+        "left": [
+            "Paper",
+            "Cotton cloth",
+            "Aluminium can",
+            "Glass bottle"
+        ],
+        "right": [
+            "2-6 weeks",
+            "1-5 months",
+            "200-500 years",
+            "1 million years"
+        ]
+    },
+    {
+        "q": "Which mineral is the primary source of aluminium?",
+        "type": "mcq",
+        "o": [
+            "Bauxite",
+            "Hematite",
+            "Galena",
+            "Quartz"
+        ]
+    },
+    {
+        "q": "Name the type of soil that is best for growing cotton.",
+        "type": "short_answer",
+        "answers": [
+            "black soil",
+            "regur soil"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The removal of the top fertile layer of soil by wind or water is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "erosion",
+            "soil erosion"
+        ],
+        "other_options": [
+            "pollution",
+            "deposition",
+            "conservation"
+        ]
+    },
+    {
+        "q": "Which of these is an example of a localized resource?",
+        "type": "mcq",
+        "o": [
+            "Copper deposits in Chile",
+            "Sunlight",
+            "Air",
+            "Oceans"
+        ]
+    },
+    {
+        "q": "Biodiesel is made from animal fats or vegetable oils.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for energy derived from ocean tides?",
+        "type": "short_answer",
+        "answers": [
+            "tidal energy",
+            "tidal power"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Gobar gas plants use cow dung to produce ______ gas.",
+        "type": "fill_blank",
+        "answers": [
+            "biogas",
+            "methane"
+        ],
+        "other_options": [
+            "oxygen",
+            "nitrogen",
+            "chlorine"
+        ]
+    },
+    {
+        "q": "Which of these is the biggest advantage of solar energy?",
+        "type": "mcq",
+        "o": [
+            "It is inexhaustible",
+            "It works best at night",
+            "It is expensive",
+            "It causes pollution"
+        ]
+    },
+    {
+        "q": "Match the environmental movement with its focus:",
+        "type": "match",
+        "left": [
+            "Chipko Movement",
+            "Silent Spring",
+            "Appiko Movement",
+            "Narmada Bachao Andolan"
+        ],
+        "right": [
+            "Hugging trees to protect",
+            "Dangers of pesticides",
+            "Similar to Chipko in South India",
+            "Save river and displaced people"
+        ]
+    },
+    {
+        "q": "Unscramble: A flowing body of fresh water that travels down towards the sea.",
+        "type": "word_scramble",
+        "answer": "RIVER",
+        "decoys": "QZ"
+    },
+    {
+        "q": "Complete the sentence about washing vehicles smartly:",
+        "type": "inline_dropdown",
+        "text": "Using a simple [0] of water to wash a car saves much more water than leaving a [1] running the whole time.",
+        "dropdowns": [
+            {
+                "correct": "bucket",
+                "options": [
+                    "bucket",
+                    "hose",
+                    "sprinkler"
+                ]
+            },
+            {
+                "correct": "hose",
+                "options": [
+                    "hose",
+                    "bucket",
+                    "cup"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "CFCs are safe chemicals that do not harm the environment.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the name for the variety of plant and animal life in a habitat?",
+        "type": "mcq",
+        "o": [
+            "Biodiversity",
+            "Population",
+            "Community",
+            "Species"
+        ]
+    },
+    {
+        "q": "Match the ocean resource to how humans commonly use it.",
+        "type": "memory",
+        "pairs": {
+            "Ocean Fish": "Eaten as healthy seafood",
+            "Sea Salt": "Used to flavor our meals",
+            "Kelp and Seaweed": "Used to wrap sushi rolls",
+            "Oysters": "Provide shiny pearls for jewelry"
+        }
+    },
+    {
+        "q": "Name the process by which plants release water vapor into the air.",
+        "type": "short_answer",
+        "answers": [
+            "transpiration"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Kyoto Protocol was an international agreement to reduce ______ gas emissions.",
+        "type": "fill_blank",
+        "answers": [
+            "greenhouse"
+        ],
+        "other_options": [
+            "oxygen",
+            "nitrogen",
+            "steam"
+        ]
+    },
+    {
+        "q": "Swipe left if the item Causes Air Pollution, right if it uses Clean Energy.",
+        "type": "swipe_cards",
+        "left_label": "Causes Pollution",
+        "right_label": "Clean Energy",
+        "cards": {
+            "Gasoline car": "left",
+            "Coal power plant": "left",
+            "Pedal Bicycle": "right",
+            "Solar panel farm": "right"
+        }
+    },
+    {
+        "q": "Which of these is a direct cause of soil pollution?",
+        "type": "mcq",
+        "o": [
+            "Excessive pesticide use",
+            "Planting cover crops",
+            "Using compost",
+            "Mulching"
+        ]
+    },
+    {
+        "q": "Petroleum refineries separate crude oil into different fractions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name for the molten rock found beneath the Earth's surface?",
+        "type": "short_answer",
+        "answers": [
+            "magma"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A resource that is created by humans from natural resources is called a ______ resource.",
+        "type": "fill_blank",
+        "answers": [
+            "man-made",
+            "artificial",
+            "human-made"
+        ],
+        "other_options": [
+            "natural",
+            "biotic",
+            "abiotic"
+        ]
+    },
+    {
+        "q": "Which of these is a stock resource?",
+        "type": "mcq",
+        "o": [
+            "Hydrogen for fuel cells",
+            "Solar energy",
+            "Wind energy",
+            "Tidal energy"
+        ]
+    },
+    {
+        "q": "What is the term for the maximum number of fish that can be caught without harming the population?",
+        "type": "short_answer",
+        "answers": [
+            "maximum sustainable yield",
+            "sustainable yield",
+            "MSY"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process where fertile land turns into desert due to drought or deforestation is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "desertification"
+        ],
+        "other_options": [
+            "eutrophication",
+            "acidification",
+            "urbanization"
+        ]
+    },
+    {
+        "q": "Match the mineral with its primary mining country:",
+        "type": "match",
+        "left": [
+            "Lithium",
+            "Cobalt",
+            "Rare earth elements",
+            "Diamond"
+        ],
+        "right": [
+            "Australia",
+            "Democratic Republic of Congo",
+            "China",
+            "Russia"
+        ]
+    },
+    {
+        "q": "Soil formation is a very fast geological process.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which protocol was designed to phase out substances that deplete the ozone layer?",
+        "type": "mcq",
+        "o": [
+            "Montreal Protocol",
+            "Kyoto Protocol",
+            "Paris Agreement",
+            "Basel Convention"
+        ]
+    },
+    {
+        "q": "Unscramble: The 'R' conservation word that means to use a container or item again.",
+        "type": "word_scramble",
+        "answer": "REUSE",
+        "decoys": "JX"
+    },
+    {
+        "q": "What is the main component of biogas?",
+        "type": "short_answer",
+        "answers": [
+            "methane",
+            "CH4"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about species in severe danger:",
+        "type": "inline_dropdown",
+        "text": "[0] species are animals or plants that are at severe risk of total [1].",
+        "dropdowns": [
+            {
+                "correct": "Endangered",
+                "options": [
+                    "Endangered",
+                    "Common",
+                    "Domestic"
+                ]
+            },
+            {
+                "correct": "extinction",
+                "options": [
+                    "extinction",
+                    "growth",
+                    "overpopulation"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A species that indicates the health of an ecosystem is called a ______ species.",
+        "type": "fill_blank",
+        "answers": [
+            "indicator",
+            "keystone"
+        ],
+        "other_options": [
+            "invasive",
+            "extinct",
+            "domestic"
+        ]
+    },
+    {
+        "q": "How many legs does a honeybee (a very important natural pollinator for our food) have?",
+        "type": "slider",
+        "min": 2,
+        "max": 10,
+        "correct": 6
+    },
+    {
+        "q": "Which of these is NOT a greenhouse gas?",
+        "type": "mcq",
+        "o": [
+            "Nitrogen",
+            "Methane",
+            "Water vapor",
+            "Ozone"
+        ]
+    },
+    {
+        "q": "Tidal energy is considered a non-renewable resource.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the soil type with its characteristic:",
+        "type": "match",
+        "left": [
+            "Laterite soil",
+            "Black soil",
+            "Alluvial soil",
+            "Arid soil"
+        ],
+        "right": [
+            "Rich in iron, low fertility",
+            "High moisture holding",
+            "Most fertile, river deposits",
+            "Sandy, low organic matter"
+        ]
+    },
+    {
+        "q": "Which country is the largest producer of hydroelectricity in the world?",
+        "type": "mcq",
+        "o": [
+            "China",
+            "Canada",
+            "Brazil",
+            "USA"
+        ]
+    },
+    {
+        "q": "What is the term for fuels produced from biomass?",
+        "type": "short_answer",
+        "answers": [
+            "biofuels",
+            "biofuel"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The circular economy aims to design out waste and keep materials in use.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a good way to save electricity at home?",
+        "type": "odd_one_out",
+        "options": [
+            "Use natural window daylight",
+            "Turn off the ceiling fan when leaving",
+            "Leave the fridge open to cool the kitchen",
+            "Use energy-saving LED light bulbs"
+        ],
+        "correct": "Leave the fridge open to cool the kitchen"
+    },
+    {
+        "q": "Which of these is a major threat to mangrove forests?",
+        "type": "mcq",
+        "o": [
+            "Aquaculture expansion",
+            "Increased rainfall",
+            "Coral growth",
+            "Low tides"
+        ]
+    },
+    {
+        "q": "The area drained by a single river system is called its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "watershed",
+            "drainage basin",
+            "catchment area"
+        ],
+        "other_options": [
+            "estuary",
+            "delta",
+            "tributary"
+        ]
+    },
+    {
+        "q": "Match the renewable energy challenge with its description:",
+        "type": "match",
+        "left": [
+            "Intermittency",
+            "Land use conflict",
+            "High upfront cost",
+            "Resource location"
+        ],
+        "right": [
+            "Solar only works in day",
+            "Turbines vs farming",
+            "Expensive installation",
+            "Dams need rivers"
+        ]
+    },
+    {
+        "q": "Which type of resource is considered a flow resource?",
+        "type": "mcq",
+        "o": [
+            "Wind",
+            "Coal",
+            "Natural gas",
+            "Uranium"
+        ]
+    },
+    {
+        "q": "What is the name for the international agreement to limit global warming to 1.5 degrees Celsius?",
+        "type": "short_answer",
+        "answers": [
+            "paris agreement",
+            "paris climate accord",
+            "paris accord"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Leaded petrol was phased out because lead is a neurotoxin.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a secondary pollutant?",
+        "type": "mcq",
+        "o": [
+            "Ground-level ozone",
+            "Carbon monoxide",
+            "Sulphur dioxide",
+            "Volcanic ash"
+        ]
+    },
+    {
+        "q": "The practice of grazing animals on public lands is called open ______.",
+        "type": "fill_blank",
+        "answers": [
+            "grazing",
+            "pasture"
+        ],
+        "other_options": [
+            "farming",
+            "mining",
+            "logging"
+        ]
+    },
+    {
+        "q": "Match the natural disaster to its negative effect on the environment.",
+        "type": "memory",
+        "pairs": {
+            "Drought": "Long period with no rain at all",
+            "Flood": "Too much water overflowing dry land",
+            "Forest Fire": "Burns down large areas of trees rapidly"
+        }
+    },
+    {
+        "q": "Match the water pollutant with its source:",
+        "type": "match",
+        "left": [
+            "Mercury",
+            "Nitrates",
+            "Thermal pollution",
+            "Sediment"
+        ],
+        "right": [
+            "Industrial discharge",
+            "Fertilizer runoff",
+            "Power plant cooling water",
+            "Soil erosion from construction"
+        ]
+    },
+    {
+        "q": "Which of these gases is mainly responsible for trapping heat in the atmosphere?",
+        "type": "mcq",
+        "o": [
+            "Carbon dioxide",
+            "Oxygen",
+            "Nitrogen",
+            "Hydrogen"
+        ]
+    },
+    {
+        "q": "Name the layer of the atmosphere that reflects radio waves.",
+        "type": "short_answer",
+        "answers": [
+            "ionosphere"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Fracking is a method used to extract natural gas from deep underground rocks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe left if the activity mainly Consumes Water, right if it mainly Consumes Electricity.",
+        "type": "swipe_cards",
+        "left_label": "Consumes Water",
+        "right_label": "Consumes Electricity",
+        "cards": {
+            "Watering the garden": "left",
+            "Taking a long shower": "left",
+            "Watching Television": "right",
+            "Charging a smartphone": "right"
+        }
+    },
+    {
+        "q": "Unscramble: The physical world outside including all plants, animals, and landscapes.",
+        "type": "word_scramble",
+        "answer": "NATURE",
+        "decoys": "FW"
+    },
+    {
+        "q": "Which country has the largest geothermal power capacity?",
+        "type": "mcq",
+        "o": [
+            "United States",
+            "Iceland",
+            "Philippines",
+            "Indonesia"
+        ]
+    },
+    {
+        "q": "The term 'Water Table' refers to the top of the ______ zone.",
+        "type": "fill_blank",
+        "answers": [
+            "saturated"
+        ],
+        "other_options": [
+            "unsaturated",
+            "dry",
+            "rocky"
+        ]
+    },
+    {
+        "q": "Match the conservation strategy with its scale:",
+        "type": "match",
+        "left": [
+            "Seed banks",
+            "Wildlife corridors",
+            "Biosphere reserves",
+            "Community forestry"
+        ],
+        "right": [
+            "Ex-situ genetic preservation",
+            "Landscape connectivity",
+            "Large ecosystem protection",
+            "Local participation"
+        ]
+    },
+    {
+        "q": "Complete the sentence about global climate change:",
+        "type": "inline_dropdown",
+        "text": "When ice at the North and South poles melts due to global [0], the sea levels around the world will [1].",
+        "dropdowns": [
+            {
+                "correct": "warming",
+                "options": [
+                    "warming",
+                    "cooling",
+                    "freezing"
+                ]
+            },
+            {
+                "correct": "rise",
+                "options": [
+                    "rise",
+                    "fall",
+                    "stay the same"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is an example of carbon sequestration?",
+        "type": "mcq",
+        "o": [
+            "Planting a forest",
+            "Burning coal",
+            "Driving a car",
+            "Making cement"
+        ]
+    },
+    {
+        "q": "What is the primary ingredient in making glass?",
+        "type": "short_answer",
+        "answers": [
+            "silica",
+            "sand",
+            "silicon dioxide"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble: The specific color we often use to describe things that are eco-friendly.",
+        "type": "word_scramble",
+        "answer": "GREEN",
+        "decoys": "ZJ"
+    },
+    {
+        "q": "The polar ice caps contain the majority of Earth's fresh water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a non-point source of pollution?",
+        "type": "mcq",
+        "o": [
+            "Urban runoff",
+            "Factory pipe discharge",
+            "Sewage treatment outlet",
+            "Oil tanker spill"
+        ]
+    },
+    {
+        "q": "Complete the sentence about our environmental impact:",
+        "type": "inline_dropdown",
+        "text": "A [0] footprint is a special way to measure how much our daily actions negatively impact the [1].",
+        "dropdowns": [
+            {
+                "correct": "carbon",
+                "options": [
+                    "carbon",
+                    "oxygen",
+                    "water"
+                ]
+            },
+            {
+                "correct": "environment",
+                "options": [
+                    "environment",
+                    "economy",
+                    "school"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A chemical pesticide that accumulates in the food chain is called a persistent ______ pollutant.",
+        "type": "fill_blank",
+        "answers": [
+            "organic"
+        ],
+        "other_options": [
+            "inorganic",
+            "metallic",
+            "acidic"
+        ]
+    },
+    {
+        "q": "Match the fuel with its approximate efficiency:",
+        "type": "match",
+        "left": [
+            "Coal power plant",
+            "Diesel engine",
+            "Solar cell",
+            "Wind turbine"
+        ],
+        "right": [
+            "33%",
+            "40%",
+            "20%",
+            "45%"
+        ]
+    },
+    {
+        "q": "What is the term for electricity generated by the flow of fresh water?",
+        "type": "short_answer",
+        "answers": [
+            "hydroelectricity",
+            "hydropower",
+            "hydroelectric power"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "How many natural satellites (like the Moon) does Earth have orbiting it?",
+        "type": "slider",
+        "min": 0,
+        "max": 5,
+        "correct": 1
+    },
+    {
+        "q": "Which of these is an advantage of nuclear power?",
+        "type": "mcq",
+        "o": [
+            "Low greenhouse gas emissions",
+            "Renewable fuel source",
+            "No radioactive waste",
+            "Low construction cost"
+        ]
+    },
+    {
+        "q": "The albedo effect refers to the reflectivity of Earth's surface.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the phenomenon where a body of water becomes overly enriched with minerals and nutrients.",
+        "type": "short_answer",
+        "answers": [
+            "eutrophication"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of removing salt from ocean water requires a lot of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "energy"
+        ],
+        "other_options": [
+            "sand",
+            "wood",
+            "plastic"
+        ]
+    },
+    {
+        "q": "Which of the following is a sustainable substitute for petroleum-based plastics?",
+        "type": "mcq",
+        "o": [
+            "Bioplastics",
+            "PVC",
+            "Polystyrene",
+            "Nylon"
+        ]
+    },
+    {
+        "q": "Match the ecosystem service with its category:",
+        "type": "match",
+        "left": [
+            "Pollination",
+            "Water purification",
+            "Climate regulation",
+            "Recreation"
+        ],
+        "right": [
+            "Supporting",
+            "Provisioning",
+            "Regulating",
+            "Cultural"
+        ]
+    },
+    {
+        "q": "Rare earth metals are extremely common and easy to extract.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the main source of energy for the water cycle?",
+        "type": "mcq",
+        "o": [
+            "The Sun",
+            "The Moon",
+            "Earth's core",
+            "Wind"
+        ]
+    },
+    {
+        "q": "Name a radioactive element used as a fuel in nuclear power plants.",
+        "type": "short_answer",
+        "answers": [
+            "uranium",
+            "plutonium",
+            "thorium"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The loss of fertile topsoil due to heavy rainfall is called ______ erosion.",
+        "type": "fill_blank",
+        "answers": [
+            "sheet",
+            "rill"
+        ],
+        "other_options": [
+            "gully",
+            "coastal",
+            "wind"
+        ]
+    },
+    {
+        "q": "Which of these countries relies almost entirely on renewable energy for electricity?",
+        "type": "mcq",
+        "o": [
+            "Iceland",
+            "Saudi Arabia",
+            "Russia",
+            "South Africa"
+        ]
+    },
+    {
+        "q": "The Great Pacific Garbage Patch is primarily composed of plastics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the dam with the river it is built on:",
+        "type": "match",
+        "left": [
+            "Hoover Dam",
+            "Aswan Dam",
+            "Three Gorges Dam",
+            "Itaipu Dam"
+        ],
+        "right": [
+            "Colorado River",
+            "Nile River",
+            "Yangtze River",
+            "Parana River"
+        ]
+    },
+    {
+        "q": "What is the primary ore of iron?",
+        "type": "short_answer",
+        "answers": [
+            "hematite",
+            "magnetite",
+            "iron ore"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a benefit of agroforestry?",
+        "type": "mcq",
+        "o": [
+            "Improves soil health",
+            "Increases desertification",
+            "Reduces biodiversity",
+            "Depletes water resources"
+        ]
+    },
+    {
+        "q": "Match the mode of transport to the type of fuel or power it uses.",
+        "type": "memory",
+        "pairs": {
+            "Standard Car": "Gasoline",
+            "Sailboat": "Wind",
+            "Bicycle": "Human muscle power",
+            "Electric Train": "Electricity"
+        }
+    },
+    {
+        "q": "Anaerobic digestion breaks down organic matter without ______.",
+        "type": "fill_blank",
+        "answers": [
+            "oxygen"
+        ],
+        "other_options": [
+            "water",
+            "sunlight",
+            "heat"
+        ]
+    },
+    {
+        "q": "Volcanic eruptions can release gases that cool the Earth's climate.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is considered 'blue carbon'?",
+        "type": "mcq",
+        "o": [
+            "Carbon stored in mangroves",
+            "Carbon in diamonds",
+            "Carbon in the atmosphere",
+            "Carbon in coal"
+        ]
+    },
+    {
+        "q": "Name the international body that assesses the science related to climate change.",
+        "type": "short_answer",
+        "answers": [
+            "IPCC",
+            "Intergovernmental Panel on Climate Change"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The hole in the ozone layer is primarily located over ______.",
+        "type": "fill_blank",
+        "answers": [
+            "antarctica"
+        ],
+        "other_options": [
+            "the equator",
+            "europe",
+            "north america"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a good habit for protecting the Earth?",
+        "type": "odd_one_out",
+        "options": [
+            "Planting a fruit seed in soil",
+            "Walking to the nearby park",
+            "Throwing candy wrappers on the road",
+            "Taking your own cloth bag to the store"
+        ],
+        "correct": "Throwing candy wrappers on the road"
+    },
+    {
+        "q": "Swipe left for Natural light sources, right for Artificial (man-made) light.",
+        "type": "swipe_cards",
+        "left_label": "Natural Light",
+        "right_label": "Artificial Light",
+        "cards": {
+            "The Sun": "left",
+            "Twinkling stars": "left",
+            "Battery flashlight": "right",
+            "Electric desk lamp": "right"
+        }
+    },
+    {
+        "q": "Which type of rock is formed by heat and pressure?",
+        "type": "mcq",
+        "o": [
+            "Metamorphic",
+            "Igneous",
+            "Sedimentary",
+            "Volcanic"
+        ]
+    },
+    {
+        "q": "Run-of-the-river hydroelectric plants require a large reservoir.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Unscramble: The scientific word for a wild animal's natural living environment.",
+        "type": "word_scramble",
+        "answer": "HABITAT",
+        "decoys": "CQ"
+    },
+    {
+        "q": "Match the conservation term with its meaning:",
+        "type": "match",
+        "left": [
+            "Restoration",
+            "Preservation",
+            "Mitigation",
+            "Remediation"
+        ],
+        "right": [
+            "Fixing damaged ecosystems",
+            "Protecting untouched nature",
+            "Reducing climate impact",
+            "Cleaning up pollutants"
+        ]
+    },
+    {
+        "q": "What is the process of plants releasing water vapor called?",
+        "type": "short_answer",
+        "answers": [
+            "transpiration"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about waste breakdown in the ground:",
+        "type": "inline_dropdown",
+        "text": "[0] waste like banana peels rots away naturally, but synthetic [1] stays in the ground forever.",
+        "dropdowns": [
+            {
+                "correct": "Biodegradable",
+                "options": [
+                    "Biodegradable",
+                    "Toxic",
+                    "Radioactive"
+                ]
+            },
+            {
+                "correct": "plastic",
+                "options": [
+                    "plastic",
+                    "paper",
+                    "wood"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is an invasive species?",
+        "type": "mcq",
+        "o": [
+            "Water hyacinth",
+            "Indian tiger",
+            "Panda",
+            "Cactus in desert"
+        ]
+    },
+    {
+        "q": "The practice of planting different crops in alternating bands to prevent erosion is strip ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cropping"
+        ],
+        "other_options": [
+            "mining",
+            "fishing",
+            "burning"
+        ]
+    },
+    {
+        "q": "Unscramble: A large area of wild land heavily covered with trees and undergrowth.",
+        "type": "word_scramble",
+        "answer": "FOREST",
+        "decoys": "ZX"
+    },
+    {
+        "q": "Liquefied Petroleum Gas (LPG) is heavier than air.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which country is the world leader in solar energy production?",
+        "type": "mcq",
+        "o": [
+            "China",
+            "Germany",
+            "USA",
+            "Japan"
+        ]
+    },
+    {
+        "q": "What is the main chemical compound in limestone?",
+        "type": "short_answer",
+        "answers": [
+            "calcium carbonate",
+            "CaCO3"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about actively helping nature:",
+        "type": "inline_dropdown",
+        "text": "We can actively [0] the environment and improve air quality by planting more [1].",
+        "dropdowns": [
+            {
+                "correct": "protect",
+                "options": [
+                    "protect",
+                    "destroy",
+                    "pollute"
+                ]
+            },
+            {
+                "correct": "trees",
+                "options": [
+                    "trees",
+                    "factories",
+                    "cars"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "High-level radioactive waste is easy to dispose of safely.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a method of biological pest control?",
+        "type": "mcq",
+        "o": [
+            "Introducing ladybugs",
+            "Spraying DDT",
+            "Using plastic sheets",
+            "Setting fires"
+        ]
+    },
+    {
+        "q": "A system that combines trees and crops on the same land is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "agroforestry"
+        ],
+        "other_options": [
+            "monoculture",
+            "aquaculture",
+            "hydroponics"
+        ]
+    },
+    {
+        "q": "Match the renewable energy source with its storage method:",
+        "type": "match",
+        "left": [
+            "Solar thermal",
+            "Pumped hydro",
+            "Battery electric",
+            "Compressed air"
+        ],
+        "right": [
+            "Molten salt",
+            "Water reservoir on hill",
+            "Lithium-ion cells",
+            "Underground caverns"
+        ]
+    },
+    {
+        "q": "What is the term for the gradual build-up of substances in an organism?",
+        "type": "short_answer",
+        "answers": [
+            "bioaccumulation",
+            "bio-accumulation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a fossil fuel?",
+        "type": "mcq",
+        "o": [
+            "Peat",
+            "Wood",
+            "Biofuel",
+            "Alcohol"
+        ]
+    },
+    {
+        "q": "Coral bleaching is caused by rising ocean temperatures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the term for the total weight of living organisms in a given area.",
+        "type": "short_answer",
+        "answers": [
+            "biomass"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The IUCN Red List categorizes species based on their ______ status.",
+        "type": "fill_blank",
+        "answers": [
+            "conservation",
+            "extinction"
+        ],
+        "other_options": [
+            "health",
+            "size",
+            "color"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a type of solar technology?",
+        "type": "mcq",
+        "o": [
+            "Piezoelectric cell",
+            "Photovoltaic cell",
+            "Solar thermal collector",
+            "Concentrated solar power"
+        ]
+    },
+    {
+        "q": "Match the resource saving tip to the correct category of conservation.",
+        "type": "memory",
+        "pairs": {
+            "Write on both sides of a page": "Saving Paper",
+            "Fix leaking bathroom taps": "Saving Water",
+            "Unplug fully charged devices": "Saving Electricity"
+        }
+    },
+    {
+        "q": "Swipe left for Flora (Plants), right for Fauna (Animals).",
+        "type": "swipe_cards",
+        "left_label": "Flora (Plants)",
+        "right_label": "Fauna (Animals)",
+        "cards": {
+            "Tall pine tree": "left",
+            "Yellow blooming daisy": "left",
+            "Wild jungle tiger": "right",
+            "African wild elephant": "right"
+        }
+    },
+    {
+        "q": "Match the environmental treaty with its year:",
+        "type": "match",
+        "left": [
+            "Ramsar Convention",
+            "CITES",
+            "Stockholm Convention",
+            "Minamata Convention"
+        ],
+        "right": [
+            "1971",
+            "1973",
+            "2001",
+            "2013"
+        ]
+    },
+    {
+        "q": "Platinum is used in catalytic converters to reduce vehicle emissions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name of the open ocean zone where sunlight reaches?",
+        "type": "short_answer",
+        "answers": [
+            "photic zone",
+            "euphotic zone",
+            "sunlight zone"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The shift from fossil fuels to low-carbon energy is called energy ______.",
+        "type": "fill_blank",
+        "answers": [
+            "transition"
+        ],
+        "other_options": [
+            "crisis",
+            "pollution",
+            "extraction"
+        ]
+    },
+    {
+        "q": "Which country mines the most coal?",
+        "type": "mcq",
+        "o": [
+            "China",
+            "India",
+            "USA",
+            "Australia"
+        ]
+    },
+    {
+        "q": "Natural resources on Earth are evenly distributed among all nations.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the environmental issue with its primary cause:",
+        "type": "match",
+        "left": [
+            "Acid rain",
+            "Dead zones in oceans",
+            "Deforestation in Amazon",
+            "Smog in cities"
+        ],
+        "right": [
+            "SO2 and NOx emissions",
+            "Fertilizer runoff",
+            "Cattle ranching",
+            "Vehicle and industry emissions"
+        ]
+    },
+    {
+        "q": "Which of these is an example of green infrastructure?",
+        "type": "mcq",
+        "o": [
+            "Green roofs",
+            "Concrete dams",
+            "Highway overpass",
+            "Plastic pipes"
+        ]
+    },
+    {
+        "q": "What is the chemical formula of ozone?",
+        "type": "short_answer",
+        "answers": [
+            "O3"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "A fuel rod in a nuclear reactor contains enriched ______ pellets.",
+        "type": "fill_blank",
+        "answers": [
+            "uranium"
+        ],
+        "other_options": [
+            "coal",
+            "wood",
+            "oil"
+        ]
+    },
+    {
+        "q": "Which of these practices is part of integrated pest management?",
+        "type": "mcq",
+        "o": [
+            "Using pest-resistant crop varieties",
+            "Spraying pesticides weekly",
+            "Removing all insects",
+            "Monocropping"
+        ]
+    },
+    {
+        "q": "Unscramble: The power needed to do work, like heating a home or moving a car.",
+        "type": "word_scramble",
+        "answer": "ENERGY",
+        "decoys": "VW"
+    },
+    {
+        "q": "The process of carbon dioxide dissolving in seawater causes ocean acidification.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the metal that is liquid at room temperature and used in thermometers.",
+        "type": "short_answer",
+        "answers": [
+            "mercury",
+            "Hg"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about dirty city air:",
+        "type": "inline_dropdown",
+        "text": "[0] is a harmful type of air pollution in cities that looks a lot like a thick, dirty [1].",
+        "dropdowns": [
+            {
+                "correct": "Smog",
+                "options": [
+                    "Smog",
+                    "Rain",
+                    "Snow"
+                ]
+            },
+            {
+                "correct": "fog",
+                "options": [
+                    "fog",
+                    "cloud",
+                    "rainbow"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Vertical farming is an example of ______ agriculture.",
+        "type": "fill_blank",
+        "answers": [
+            "urban",
+            "indoor"
+        ],
+        "other_options": [
+            "traditional",
+            "desert",
+            "nomadic"
+        ]
+    },
+    {
+        "q": "Which of these resources is used in the production of solar panels?",
+        "type": "mcq",
+        "o": [
+            "Silicon",
+            "Iron",
+            "Copper",
+            "Lead"
+        ]
+    },
+    {
+        "q": "What is the absolute maximum number of plastic bags you should ever throw into the ocean?",
+        "type": "slider",
+        "min": 0,
+        "max": 10,
+        "correct": 0
+    },
+    {
+        "q": "Hydrogen fuel cells produce only water as a byproduct.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the type of water with its salinity:",
+        "type": "match",
+        "left": [
+            "Fresh water",
+            "Brackish water",
+            "Saline water",
+            "Brine"
+        ],
+        "right": [
+            "Less than 0.5 ppt",
+            "0.5 to 30 ppt",
+            "30 to 50 ppt",
+            "Greater than 50 ppt"
+        ]
+    },
+    {
+        "q": "What is the term for the land that drains into a river system?",
+        "type": "short_answer",
+        "answers": [
+            "watershed",
+            "catchment",
+            "drainage basin"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT a renewable energy source?",
+        "type": "mcq",
+        "o": [
+            "Nuclear fission",
+            "Geothermal",
+            "Wave power",
+            "Solar thermal"
+        ]
+    },
+    {
+        "q": "The Convention on Biological Diversity was signed at the Earth Summit in Rio de Janeiro.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "A facility that converts waste into electricity is a waste-to-______ plant.",
+        "type": "fill_blank",
+        "answers": [
+            "energy"
+        ],
+        "other_options": [
+            "water",
+            "gas",
+            "oil"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a helpful natural resource for our survival?",
+        "type": "odd_one_out",
+        "options": [
+            "Clean breathable air",
+            "Fresh drinking water",
+            "Healthy fertile soil",
+            "Toxic factory waste"
+        ],
+        "correct": "Toxic factory waste"
+    },
+    {
+        "q": "Which of these is a critical mineral for electric vehicle batteries?",
+        "type": "mcq",
+        "o": [
+            "Lithium",
+            "Iron",
+            "Copper",
+            "Zinc"
+        ]
+    },
+    {
+        "q": "Name the phenomenon where heat is trapped by the Earth's atmosphere.",
+        "type": "short_answer",
+        "answers": [
+            "greenhouse effect"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the environmental science word to its exact opposite.",
+        "type": "memory",
+        "pairs": {
+            "Renewable": "Non-renewable",
+            "Natural": "Man-made",
+            "Biodegradable": "Non-biodegradable"
+        }
+    },
+    {
+        "q": "Match the resource conflict with its region:",
+        "type": "match",
+        "left": [
+            "Water scarcity",
+            "Oil disputes",
+            "Timber conflict",
+            "Diamond conflict"
+        ],
+        "right": [
+            "Middle East",
+            "Niger Delta",
+            "Indonesia/Borneo",
+            "Sierra Leone"
+        ]
+    },
+    {
+        "q": "Permaculture is a system of agricultural design based on natural ecosystems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for the maximum population size an environment can sustain indefinitely?",
+        "type": "mcq",
+        "o": [
+            "Carrying capacity",
+            "Ecological footprint",
+            "Biodiversity index",
+            "Trophic level"
+        ]
+    },
+    {
+        "q": "Define the term 'virtual water'.",
+        "type": "short_answer",
+        "answers": [
+            "hidden water used to produce goods",
+            "water embedded in production",
+            "indirect water use"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Haber-Bosch process synthesizes ammonia for fertilizers but consumes significant amounts of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "natural gas",
+            "methane",
+            "fossil fuel"
+        ],
+        "other_options": [
+            "water",
+            "sunlight",
+            "wind"
+        ]
+    },
+    {
+        "q": "Match the biogeochemical cycle with its primary reservoir:",
+        "type": "match",
+        "left": [
+            "Carbon cycle",
+            "Nitrogen cycle",
+            "Phosphorus cycle",
+            "Sulfur cycle"
+        ],
+        "right": [
+            "Atmosphere and oceans",
+            "Atmosphere",
+            "Rocks and sediments",
+            "Rocks and sediments"
+        ]
+    },
+    {
+        "q": "The Keeling Curve measures the atmospheric concentration of oxygen.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is an example of a positive feedback loop in climate change?",
+        "type": "mcq",
+        "o": [
+            "Melting ice reduces albedo, increasing heat absorption",
+            "Increased CO2 leads to more plant growth",
+            "Clouds reflect sunlight back to space",
+            "Oceans dissolve excess atmospheric carbon"
+        ]
+    },
+    {
+        "q": "What does the term 'Hubbert's Peak' refer to?",
+        "type": "short_answer",
+        "answers": [
+            "peak oil production",
+            "maximum oil extraction rate",
+            "peak oil"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe left if the activity Needs Soil to work, right if it Does Not Need Soil.",
+        "type": "swipe_cards",
+        "left_label": "Needs Soil",
+        "right_label": "Does Not Need Soil",
+        "cards": {
+            "Growing wheat crops": "left",
+            "Planting oak trees": "left",
+            "Flying a paper kite": "right",
+            "Installing solar panels": "right"
+        }
+    },
+    {
+        "q": "The process where deep, cold, nutrient-rich water rises to the surface is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "upwelling"
+        ],
+        "other_options": [
+            "downwelling",
+            "eutrophication",
+            "stratification"
+        ]
+    },
+    {
+        "q": "Which international agreement regulates the transboundary movement of hazardous wastes?",
+        "type": "mcq",
+        "o": [
+            "Basel Convention",
+            "Montreal Protocol",
+            "CITES",
+            "Ramsar Convention"
+        ]
+    },
+    {
+        "q": "Ocean acidification is primarily caused by the absorption of sulphur dioxide.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the ecological concept with its definition:",
+        "type": "match",
+        "left": [
+            "Ecological niche",
+            "Trophic cascade",
+            "Keystone species",
+            "Edge effect"
+        ],
+        "right": [
+            "Role of an organism in its ecosystem",
+            "Predator controls prey affecting ecosystem",
+            "Species with disproportionate impact on environment",
+            "Changes at boundaries between habitats"
+        ]
+    },
+    {
+        "q": "Which rare earth element is critical for manufacturing powerful permanent magnets used in wind turbines?",
+        "type": "mcq",
+        "o": [
+            "Neodymium",
+            "Lithium",
+            "Cobalt",
+            "Gallium"
+        ]
+    },
+    {
+        "q": "Explain the concept of 'Environmental Kuznets Curve'.",
+        "type": "short_answer",
+        "answers": [
+            "environmental degradation first increases then decreases with economic growth",
+            "inverted U relationship between GDP and pollution"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The total area of land and water required to support a population is its ecological ______.",
+        "type": "fill_blank",
+        "answers": [
+            "footprint"
+        ],
+        "other_options": [
+            "reserve",
+            "niche",
+            "limit"
+        ]
+    },
+    {
+        "q": "Which of the following is a characteristic of an oligotrophic lake?",
+        "type": "mcq",
+        "o": [
+            "Low nutrient levels and high oxygen",
+            "High nutrient levels and low oxygen",
+            "Turbid water with algae blooms",
+            "Dead zones with no life"
+        ]
+    },
+    {
+        "q": "The Montreal Protocol successfully addressed the issue of ozone depletion and also helped slow climate change.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the type of mining with its environmental impact:",
+        "type": "match",
+        "left": [
+            "Open-pit mining",
+            "Mountaintop removal",
+            "Placer mining",
+            "In-situ leaching"
+        ],
+        "right": [
+            "Acid mine drainage",
+            "Valley fill and stream burial",
+            "Sediment in waterways",
+            "Groundwater contamination"
+        ]
+    },
+    {
+        "q": "What is the primary reason for 'peak phosphorus' concerns?",
+        "type": "mcq",
+        "o": [
+            "Finite phosphate rock reserves for fertilizers",
+            "Phosphorus is too expensive to mine",
+            "Phosphorus causes global warming",
+            "Phosphorus evaporates quickly"
+        ]
+    },
+    {
+        "q": "Name the treaty that aims to conserve and sustainably use marine biological diversity in areas beyond national jurisdiction.",
+        "type": "short_answer",
+        "answers": [
+            "high seas treaty",
+            "BBNJ treaty",
+            "treaty of the high seas"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The albedo effect is a measure of how much solar radiation is ______ by a surface.",
+        "type": "fill_blank",
+        "answers": [
+            "reflected"
+        ],
+        "other_options": [
+            "absorbed",
+            "transmitted",
+            "emitted"
+        ]
+    },
+    {
+        "q": "Unscramble: The 'R' conservation word that means to make smaller in amount or use less of something.",
+        "type": "word_scramble",
+        "answer": "REDUCE",
+        "decoys": "KM"
+    },
+    {
+        "q": "Which of these is NOT a tipping point in the climate system?",
+        "type": "mcq",
+        "o": [
+            "Annual monsoon variability",
+            "Amazon rainforest dieback",
+            "West Antarctic ice sheet collapse",
+            "Atlantic Meridional Overturning Circulation shutdown"
+        ]
+    },
+    {
+        "q": "Hydraulic fracturing is primarily used to extract tight gas and oil from shale formations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the carbon capture method with its description:",
+        "type": "match",
+        "left": [
+            "Post-combustion",
+            "Pre-combustion",
+            "Oxy-fuel combustion",
+            "Direct air capture"
+        ],
+        "right": [
+            "Captures CO2 from flue gas",
+            "Gasifies fuel before burning",
+            "Burns fuel in pure oxygen",
+            "Removes CO2 from ambient air"
+        ]
+    },
+    {
+        "q": "What is 'stranded asset' risk in the context of fossil fuels?",
+        "type": "mcq",
+        "o": [
+            "Reserves becoming economically unviable due to climate policies",
+            "Oil tankers getting stuck in ice",
+            "Fuel pumps breaking down",
+            "Coal mines flooding"
+        ]
+    },
+    {
+        "q": "Define the term 'Anthropocene'.",
+        "type": "short_answer",
+        "answers": [
+            "current geological epoch defined by human impact",
+            "age of humans",
+            "human-dominated epoch"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The nine planetary boundaries framework was developed by the Stockholm Resilience Centre.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The process where nutrients accumulate in a water body leading to algal blooms is cultural ______.",
+        "type": "fill_blank",
+        "answers": [
+            "eutrophication"
+        ],
+        "other_options": [
+            "sedimentation",
+            "acidification",
+            "stratification"
+        ]
+    },
+    {
+        "q": "Which metal is essential for the cathode in most lithium-ion batteries?",
+        "type": "mcq",
+        "o": [
+            "Cobalt",
+            "Iron",
+            "Zinc",
+            "Lead"
+        ]
+    },
+    {
+        "q": "Complete the sentence about a special, slimy composting method:",
+        "type": "inline_dropdown",
+        "text": "[0] is a cool process that uses hungry earthworms to break down old food [1] into super rich soil.",
+        "dropdowns": [
+            {
+                "correct": "Vermicomposting",
+                "options": [
+                    "Vermicomposting",
+                    "Burning",
+                    "Littering"
+                ]
+            },
+            {
+                "correct": "waste",
+                "options": [
+                    "waste",
+                    "plastic",
+                    "metal"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What phenomenon describes the amplification of climate change effects in polar regions?",
+        "type": "short_answer",
+        "answers": [
+            "polar amplification",
+            "arctic amplification"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the international environmental organization with its focus:",
+        "type": "match",
+        "left": [
+            "IUCN",
+            "UNEP",
+            "WWF",
+            "Greenpeace"
+        ],
+        "right": [
+            "Global conservation status",
+            "Environmental policy coordination",
+            "Wildlife and habitat preservation",
+            "Direct action and advocacy"
+        ]
+    },
+    {
+        "q": "Which of the following is a deep-sea mineral resource?",
+        "type": "mcq",
+        "o": [
+            "Polymetallic nodules",
+            "Bauxite",
+            "Hematite",
+            "Uraninite"
+        ]
+    },
+    {
+        "q": "Biochar is a form of charcoal used to improve soil fertility and sequester carbon.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Explain the concept of 'water-energy-food nexus'.",
+        "type": "short_answer",
+        "answers": [
+            "interdependence between water, energy, and food systems",
+            "integrated management of water, energy, and food"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble: The average weather conditions of a place over a very long time.",
+        "type": "word_scramble",
+        "answer": "CLIMATE",
+        "decoys": "GQ"
+    },
+    {
+        "q": "The slow, downhill movement of soil and rock particles under gravity is called soil ______.",
+        "type": "fill_blank",
+        "answers": [
+            "creep"
+        ],
+        "other_options": [
+            "flow",
+            "fall",
+            "slide"
+        ]
+    },
+    {
+        "q": "Which of the following is a 'non-market' ecosystem service valuation method?",
+        "type": "mcq",
+        "o": [
+            "Contingent valuation",
+            "Market pricing",
+            "Replacement cost",
+            "Hedonic pricing"
+        ]
+    },
+    {
+        "q": "The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) is the biodiversity equivalent of the IPCC.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the type of drought with its definition:",
+        "type": "match",
+        "left": [
+            "Meteorological drought",
+            "Agricultural drought",
+            "Hydrological drought",
+            "Socioeconomic drought"
+        ],
+        "right": [
+            "Low precipitation",
+            "Soil moisture deficit",
+            "Low streamflow/groundwater",
+            "Water supply vs demand imbalance"
+        ]
+    },
+    {
+        "q": "Complete the final sentence about our planet:",
+        "type": "inline_dropdown",
+        "text": "Let us all work hard together to [0] our beautiful natural [1] for future generations!",
+        "dropdowns": [
+            {
+                "correct": "conserve",
+                "options": [
+                    "conserve",
+                    "waste",
+                    "hide"
+                ]
+            },
+            {
+                "correct": "resources",
+                "options": [
+                    "resources",
+                    "buildings",
+                    "roads"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the main chemical compound in phosphate fertilizers?",
+        "type": "mcq",
+        "o": [
+            "Calcium phosphate",
+            "Ammonium nitrate",
+            "Potassium chloride",
+            "Magnesium sulfate"
+        ]
+    },
+    {
+        "q": "Name the process where saltwater intrudes into freshwater aquifers due to over-pumping.",
+        "type": "short_answer",
+        "answers": [
+            "saltwater intrusion",
+            "saline intrusion"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Kigali Amendment to the Montreal Protocol phases down the use of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "HFCs",
+            "hydrofluorocarbons"
+        ],
+        "other_options": [
+            "CFCs",
+            "carbon dioxide",
+            "methane"
+        ]
+    },
+    {
+        "q": "Which of the following countries has the largest proven oil reserves?",
+        "type": "mcq",
+        "o": [
+            "Venezuela",
+            "Saudi Arabia",
+            "Canada",
+            "Iran"
+        ]
+    },
+    {
+        "q": "The term 'NIMBY' in environmental planning stands for Not In My Backyard.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary purpose of a Strategic Environmental Assessment (SEA)?",
+        "type": "short_answer",
+        "answers": [
+            "assess environmental impacts of policies and plans",
+            "evaluate environmental effects of proposed programs"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the greenhouse gas with its Global Warming Potential (GWP) relative to CO2 over 100 years:",
+        "type": "match",
+        "left": [
+            "Carbon dioxide",
+            "Methane",
+            "Nitrous oxide",
+            "Sulphur hexafluoride"
+        ],
+        "right": [
+            "1",
+            "28-36",
+            "265-298",
+            "23,500"
+        ]
+    },
+    {
+        "q": "Which of these is an example of 'greenwashing'?",
+        "type": "mcq",
+        "o": [
+            "Company claiming to be eco-friendly while polluting",
+            "Planting trees to offset emissions",
+            "Using recycled packaging",
+            "Investing in renewable energy"
+        ]
+    },
+    {
+        "q": "Enhanced oil recovery (EOR) techniques can sometimes utilize captured carbon dioxide.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The exclusive economic zone (EEZ) extends ______ nautical miles from a country's coastline.",
+        "type": "fill_blank",
+        "answers": [
+            "200"
+        ],
+        "other_options": [
+            "12",
+            "50",
+            "100"
+        ]
+    },
+    {
+        "q": "What is the term for species introduced accidentally or intentionally that harm native ecosystems?",
+        "type": "mcq",
+        "o": [
+            "Invasive alien species",
+            "Endemic species",
+            "Keystone species",
+            "Indicator species"
+        ]
+    },
+    {
+        "q": "Define the term 'climate justice'.",
+        "type": "short_answer",
+        "answers": [
+            "fair treatment of all people regarding climate change impacts",
+            "addressing disproportionate climate impacts on vulnerable groups"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the mineral with its critical use in renewable technology:",
+        "type": "match",
+        "left": [
+            "Tellurium",
+            "Gallium",
+            "Dysprosium",
+            "Indium"
+        ],
+        "right": [
+            "Thin-film solar panels",
+            "LEDs and chips",
+            "EV motor magnets",
+            "Touch screens"
+        ]
+    },
+    {
+        "q": "Which of the following is a characteristic of a 'circular economy'?",
+        "type": "mcq",
+        "o": [
+            "Product-as-a-service models",
+            "Planned obsolescence",
+            "Single-use packaging",
+            "Incineration without energy recovery"
+        ]
+    },
+    {
+        "q": "Ocean thermal energy conversion (OTEC) uses temperature differences between surface and deep water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name of the satellite mission that monitored Earth's gravity field to track water mass changes?",
+        "type": "short_answer",
+        "answers": [
+            "GRACE",
+            "Gravity Recovery and Climate Experiment"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of breaking down plastic into its chemical building blocks is called chemical ______.",
+        "type": "fill_blank",
+        "answers": [
+            "recycling"
+        ],
+        "other_options": [
+            "incineration",
+            "composting",
+            "landfilling"
+        ]
+    },
+    {
+        "q": "Which country accounts for the majority of global rare earth element production?",
+        "type": "mcq",
+        "o": [
+            "China",
+            "Australia",
+            "USA",
+            "Myanmar"
+        ]
+    },
+    {
+        "q": "The Jevons paradox suggests that increased resource efficiency can lead to increased consumption.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Explain the concept of 'net zero emissions'.",
+        "type": "short_answer",
+        "answers": [
+            "balancing emitted greenhouse gases with removal",
+            "no net addition of greenhouse gases to atmosphere"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the groundwater recharge method with its description:",
+        "type": "match",
+        "left": [
+            "Spreading basins",
+            "Injection wells",
+            "Induced infiltration",
+            "Rooftop rainwater harvesting"
+        ],
+        "right": [
+            "Surface water percolates down",
+            "Direct pumping into aquifer",
+            "Pulling river water into wells",
+            "Collecting rain from roofs"
+        ]
+    },
+    {
+        "q": "Which of the following represents the largest anthropogenic use of freshwater globally?",
+        "type": "mcq",
+        "o": [
+            "Irrigation",
+            "Industrial manufacturing",
+            "Domestic use",
+            "Thermoelectric power"
+        ]
+    },
+    {
+        "q": "The Paris Agreement's Article 6 deals with voluntary international carbon market mechanisms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary ore of lithium in brine deposits?",
+        "type": "mcq",
+        "o": [
+            "Lithium chloride",
+            "Lithium carbonate",
+            "Spodumene",
+            "Lithium mica"
+        ]
+    },
+    {
+        "q": "Define 'soil carbon sequestration'.",
+        "type": "short_answer",
+        "answers": [
+            "process of capturing atmospheric CO2 into soil organic matter",
+            "storing carbon in soils"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Minamata Convention aims to protect human health from emissions and releases of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mercury"
+        ],
+        "other_options": [
+            "lead",
+            "arsenic",
+            "cadmium"
+        ]
+    },
+    {
+        "q": "Which of the following is a 'carbon sink'?",
+        "type": "mcq",
+        "o": [
+            "Peatlands",
+            "Deserts",
+            "Glaciers",
+            "Urban areas"
+        ]
+    },
+    {
+        "q": "Match the renewable energy source with its capacity factor range:",
+        "type": "match",
+        "left": [
+            "Solar PV",
+            "Onshore wind",
+            "Offshore wind",
+            "Hydropower"
+        ],
+        "right": [
+            "15-25%",
+            "25-35%",
+            "35-45%",
+            "40-60%"
+        ]
+    },
+    {
+        "q": "What is the term for the removal of dissolved salts from water?",
+        "type": "short_answer",
+        "answers": [
+            "desalination",
+            "desalinization"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Biomagnification refers to the decrease in concentration of toxins at higher trophic levels.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is a 'grey infrastructure' solution for flood management?",
+        "type": "mcq",
+        "o": [
+            "Concrete levees",
+            "Wetland restoration",
+            "Floodplain zoning",
+            "Riparian planting"
+        ]
+    },
+    {
+        "q": "Name the international organization that certifies sustainable seafood.",
+        "type": "short_answer",
+        "answers": [
+            "Marine Stewardship Council",
+            "MSC"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Right to Repair' movement promotes fixing products instead of replacing them to reduce electronic waste.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The process where atmospheric nitrogen is converted into usable compounds by lightning is ______ fixation.",
+        "type": "fill_blank",
+        "answers": [
+            "atmospheric",
+            "abiotic"
+        ],
+        "other_options": [
+            "biological",
+            "industrial",
+            "geological"
+        ]
+    },
+    {
+        "q": "Which of the following has the highest energy return on investment (EROI)?",
+        "type": "mcq",
+        "o": [
+            "Coal in early 1900s",
+            "Solar PV today",
+            "Canadian oil sands",
+            "Corn ethanol"
+        ]
+    },
+    {
+        "q": "Match the waste management hierarchy level with its action:",
+        "type": "match",
+        "left": [
+            "Most preferred",
+            "Second",
+            "Third",
+            "Least preferred"
+        ],
+        "right": [
+            "Prevention",
+            "Reuse",
+            "Recycling",
+            "Disposal"
+        ]
+    },
+    {
+        "q": "What is the common term for methane hydrates found under permafrost and ocean floor?",
+        "type": "short_answer",
+        "answers": [
+            "fire ice",
+            "clathrates",
+            "methane ice"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a 'critical raw material' for the European Union?",
+        "type": "mcq",
+        "o": [
+            "Antimony",
+            "Sand",
+            "Coal",
+            "Copper"
+        ]
+    },
+    {
+        "q": "The Tundra ecosystem stores vast amounts of carbon in its frozen soil.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Define 'regenerative agriculture'.",
+        "type": "short_answer",
+        "answers": [
+            "farming that restores soil health and biodiversity",
+            "holistic land management improving ecosystem services"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The gradual sinking of land due to groundwater extraction is called land ______.",
+        "type": "fill_blank",
+        "answers": [
+            "subsidence"
+        ],
+        "other_options": [
+            "uplift",
+            "erosion",
+            "accretion"
+        ]
+    },
+    {
+        "q": "Which country is the largest exporter of liquefied natural gas (LNG)?",
+        "type": "mcq",
+        "o": [
+            "Australia",
+            "Qatar",
+            "USA",
+            "Russia"
+        ]
+    },
+    {
+        "q": "The Aral Sea disaster was primarily caused by excessive water diversion for cotton irrigation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the type of renewable hydrogen with its production method:",
+        "type": "match",
+        "left": [
+            "Green hydrogen",
+            "Blue hydrogen",
+            "Grey hydrogen",
+            "Pink hydrogen"
+        ],
+        "right": [
+            "Electrolysis using renewables",
+            "Natural gas with carbon capture",
+            "Natural gas without capture",
+            "Nuclear-powered electrolysis"
+        ]
+    },
+    {
+        "q": "What does the acronym 'PFAS' stand for in environmental pollution?",
+        "type": "short_answer",
+        "answers": [
+            "per- and polyfluoroalkyl substances",
+            "forever chemicals"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is NOT a category in the IUCN Red List?",
+        "type": "mcq",
+        "o": [
+            "Secure",
+            "Critically Endangered",
+            "Near Threatened",
+            "Vulnerable"
+        ]
+    },
+    {
+        "q": "The Planetary Boundaries framework identifies safe operating limits for nine Earth system processes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The Global Environment Facility (GEF) provides funding for environmental projects in developing countries.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for energy that is generated from differences in salt concentration between freshwater and seawater?",
+        "type": "mcq",
+        "o": [
+            "Blue energy or osmotic power",
+            "Geothermal energy",
+            "Tidal energy",
+            "Wave energy"
+        ]
+    },
+    {
+        "q": "Name the chemical element commonly used in nuclear fission reactions.",
+        "type": "short_answer",
+        "answers": [
+            "uranium",
+            "plutonium",
+            "thorium"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The emission trading system that caps total emissions and allows trading is called cap-and-______.",
+        "type": "fill_blank",
+        "answers": [
+            "trade"
+        ],
+        "other_options": [
+            "tax",
+            "spend",
+            "fine"
+        ]
+    },
+    {
+        "q": "Which of the following best describes 'deep decarbonization'?",
+        "type": "mcq",
+        "o": [
+            "Reducing emissions to near zero across all sectors",
+            "Offsetting emissions with tree planting only",
+            "Switching from coal to natural gas",
+            "Buying carbon credits internationally"
+        ]
+    },
+    {
+        "q": "Microplastics can cross the blood-brain barrier in animals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the soil conservation technique with its description:",
+        "type": "match",
+        "left": [
+            "Vetiver grass strips",
+            "Keyline design",
+            "Biochar application",
+            "Swales"
+        ],
+        "right": [
+            "Natural barrier on contours",
+            "Water harvesting landform",
+            "Carbon-rich soil amendment",
+            "Shallow ditches for water infiltration"
+        ]
+    },
+    {
+        "q": "What is the term for the geological epoch proposed to succeed the Holocene, marking significant human impact?",
+        "type": "mcq",
+        "o": [
+            "Anthropocene",
+            "Pleistocene",
+            "Miocene",
+            "Eocene"
+        ]
+    },
+    {
+        "q": "Define 'planetary boundaries' and name the one considered to have the highest risk currently.",
+        "type": "short_answer",
+        "answers": [
+            "safe operating space for humanity, biosphere integrity",
+            "environmental limits, genetic diversity loss"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of using plants to remove, degrade, or stabilize contaminants in soil is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "phytoremediation"
+        ],
+        "other_options": [
+            "biomagnification",
+            "bioaccumulation",
+            "eutrophication"
+        ]
+    },
+    {
+        "q": "Match the rare earth element with its primary high-tech application:",
+        "type": "match",
+        "left": [
+            "Europium",
+            "Yttrium",
+            "Terbium",
+            "Praseodymium"
+        ],
+        "right": [
+            "Red phosphors in screens",
+            "Superconductors and lasers",
+            "Green phosphors",
+            "Aircraft engine alloys"
+        ]
+    },
+    {
+        "q": "The Clausius-Clapeyron relation explains that a warmer atmosphere holds less moisture, reducing extreme rainfall.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is a major limitation of the Levelized Cost of Energy (LCOE) metric?",
+        "type": "mcq",
+        "o": [
+            "Ignores grid integration and intermittency costs",
+            "Overestimates solar costs",
+            "Excludes capital expenditure",
+            "Includes only fuel costs"
+        ]
+    },
+    {
+        "q": "Explain the 'Dunning-Kruger effect' in the context of environmental policy making.",
+        "type": "short_answer",
+        "answers": [
+            "unskilled individuals overestimate their competence in complex environmental issues",
+            "low ability leads to overconfidence in ecological matters"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The stoichiometric ratio of carbon, nitrogen, and phosphorus in marine phytoplankton is known as the ______ ratio.",
+        "type": "fill_blank",
+        "answers": [
+            "Redfield"
+        ],
+        "other_options": [
+            "Goldilocks",
+            "Stokes",
+            "Prandtl"
+        ]
+    },
+    {
+        "q": "Which international legal principle holds polluters responsible for environmental damage?",
+        "type": "mcq",
+        "o": [
+            "Polluter pays principle",
+            "Precautionary principle",
+            "Common but differentiated responsibility",
+            "Intergenerational equity"
+        ]
+    },
+    {
+        "q": "Enhanced weathering involves spreading finely ground silicate rocks to accelerate natural CO2 absorption.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the climate model scenario (CMIP) with its representative concentration pathway:",
+        "type": "match",
+        "left": [
+            "SSP1-1.9",
+            "SSP2-4.5",
+            "SSP3-7.0",
+            "SSP5-8.5"
+        ],
+        "right": [
+            "Very low emissions",
+            "Intermediate emissions",
+            "High emissions",
+            "Very high emissions"
+        ]
+    },
+    {
+        "q": "What is the primary reason for the controversy surrounding deep-sea mining in the Clarion-Clipperton Zone?",
+        "type": "mcq",
+        "o": [
+            "Destruction of unique nodule-dependent ecosystems",
+            "Risk of oil spills",
+            "High water pressure",
+            "Piracy concerns"
+        ]
+    },
+    {
+        "q": "Name the economist known for the theory of 'Tragedy of the Commons'.",
+        "type": "short_answer",
+        "answers": [
+            "Garrett Hardin",
+            "Hardin"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The phenomenon where climate change impacts the very ability to generate accurate climate models is called model ______.",
+        "type": "fill_blank",
+        "answers": [
+            "drift",
+            "bias",
+            "collapse"
+        ],
+        "other_options": [
+            "expansion",
+            "accuracy",
+            "output"
+        ]
+    },
+    {
+        "q": "Which of the following is a 'negative emission technology'?",
+        "type": "mcq",
+        "o": [
+            "Bioenergy with carbon capture and storage (BECCS)",
+            "Ultra-supercritical coal combustion",
+            "Combined cycle gas turbine",
+            "Pressurized water reactor"
+        ]
+    },
+    {
+        "q": "The AMOC (Atlantic Meridional Overturning Circulation) weakening is a tipping point primarily affecting Western Europe's climate.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the environmental treaty with its specific focus:",
+        "type": "match",
+        "left": [
+            "Bonn Convention",
+            "Cartagena Protocol",
+            "Nagoya Protocol",
+            "Rotterdam Convention"
+        ],
+        "right": [
+            "Migratory species",
+            "Biosafety of GMOs",
+            "Access and benefit sharing",
+            "Prior informed consent for chemicals"
+        ]
+    },
+    {
+        "q": "What does the term 'Hothouse Earth' describe in climate science?",
+        "type": "mcq",
+        "o": [
+            "A self-reinforcing path to a much warmer climate state",
+            "A greenhouse with extreme temperatures",
+            "Earth's historical volcanic period",
+            "Urban heat island effect"
+        ]
+    },
+    {
+        "q": "Define 'exergy' in the context of resource efficiency.",
+        "type": "short_answer",
+        "answers": [
+            "maximum useful work available from energy",
+            "available energy quality measure"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Keeling Curve shows a steady decline in atmospheric CO2 since 1958.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which element, extracted as a byproduct of zinc mining, is critical for thin-film photovoltaics?",
+        "type": "mcq",
+        "o": [
+            "Cadmium",
+            "Lithium",
+            "Silicon",
+            "Lead"
+        ]
+    },
+    {
+        "q": "The concept of 'Great Acceleration' refers to the exponential growth of socio-economic and Earth system trends since the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1950s",
+            "mid-20th century",
+            "industrial revolution"
+        ],
+        "other_options": [
+            "1800s",
+            "1900",
+            "2000"
+        ]
+    },
+    {
+        "q": "Match the soil order (USDA taxonomy) with its characteristic:",
+        "type": "match",
+        "left": [
+            "Oxisols",
+            "Vertisols",
+            "Andisols",
+            "Gelisols"
+        ],
+        "right": [
+            "Highly weathered, tropical",
+            "High clay content, shrink-swell",
+            "Volcanic ash derived",
+            "Permafrost affected"
+        ]
+    },
+    {
+        "q": "What is the primary mechanism by which stratospheric sulfate aerosol injection cools the planet?",
+        "type": "mcq",
+        "o": [
+            "Increasing Earth's albedo by reflecting sunlight",
+            "Absorbing CO2 from the atmosphere",
+            "Dissolving clouds",
+            "Blocking infrared radiation from Earth"
+        ]
+    },
+    {
+        "q": "Name the specific process by which permafrost thaw releases carbon as methane instead of CO2.",
+        "type": "short_answer",
+        "answers": [
+            "anaerobic decomposition",
+            "methanogenesis"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Rebound Effect in energy efficiency means that savings are partially offset by increased consumption.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a 'forever chemical'?",
+        "type": "mcq",
+        "o": [
+            "Perfluorooctanoic acid (PFOA)",
+            "Sodium chloride",
+            "Ethanol",
+            "Acetic acid"
+        ]
+    },
+    {
+        "q": "Explain Elinor Ostrom's contribution to resource management theory.",
+        "type": "short_answer",
+        "answers": [
+            "design principles for managing common pool resources",
+            "community-based governance of commons"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of induced seismicity is often linked to the disposal of ______ from oil and gas extraction.",
+        "type": "fill_blank",
+        "answers": [
+            "wastewater",
+            "produced water",
+            "brine"
+        ],
+        "other_options": [
+            "crude oil",
+            "natural gas",
+            "drilling mud"
+        ]
+    },
+    {
+        "q": "Which isotope ratio is used as a proxy to reconstruct past atmospheric CO2 levels in ice cores?",
+        "type": "mcq",
+        "o": [
+            "Oxygen-18 to Oxygen-16",
+            "Carbon-14 to Carbon-12",
+            "Uranium-235 to Uranium-238",
+            "Deuterium to Hydrogen"
+        ]
+    },
+    {
+        "q": "Silicon carbide is a rare mineral resource primarily used in solar panels.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the geoengineering technique with its potential side effect:",
+        "type": "match",
+        "left": [
+            "Stratospheric aerosol injection",
+            "Marine cloud brightening",
+            "Ocean iron fertilization",
+            "Space sunshades"
+        ],
+        "right": [
+            "Ozone depletion",
+            "Regional climate disruption",
+            "Deep ocean anoxia",
+            "Prohibitive launch costs"
+        ]
+    },
+    {
+        "q": "What is the term for the point at which resource extraction costs exceed revenues, leading to irreversible mine closure?",
+        "type": "mcq",
+        "o": [
+            "Cut-off grade",
+            "Ore threshold",
+            "Yield point",
+            "Peak mineral"
+        ]
+    },
+    {
+        "q": "Define the concept of 'Material Flow Analysis' (MFA).",
+        "type": "short_answer",
+        "answers": [
+            "systematic assessment of material flows and stocks in a defined system",
+            "tracking resources from extraction to disposal"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The EKC hypothesis suggests that environmental degradation always decreases with GDP growth.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which country holds the largest known reserves of lithium?",
+        "type": "mcq",
+        "o": [
+            "Chile",
+            "Australia",
+            "China",
+            "Argentina"
+        ]
+    },
+    {
+        "q": "Name the international body that regulates seabed mining in international waters.",
+        "type": "short_answer",
+        "answers": [
+            "International Seabed Authority",
+            "ISA"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The loss of symbiotic algae from coral due to stress is known as coral ______.",
+        "type": "fill_blank",
+        "answers": [
+            "bleaching"
+        ],
+        "other_options": [
+            "shedding",
+            "dying",
+            "fading"
+        ]
+    },
+    {
+        "q": "Which of the following represents a 'scope 3' emission under the GHG Protocol?",
+        "type": "mcq",
+        "o": [
+            "Emissions from the use of sold products",
+            "On-site fuel combustion",
+            "Purchased electricity generation",
+            "Company-owned vehicle emissions"
+        ]
+    },
+    {
+        "q": "The term 'Anthropogenic Biomes' or 'Anthromes' describes ecosystems shaped by human land use.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the type of solar fuel with its production pathway:",
+        "type": "match",
+        "left": [
+            "Solar hydrogen",
+            "Synthetic methane",
+            "Solar methanol",
+            "Green ammonia"
+        ],
+        "right": [
+            "Photoelectrolysis of water",
+            "Methanation of hydrogen",
+            "Hydrogen + CO2",
+            "Hydrogen + nitrogen"
+        ]
+    },
+    {
+        "q": "What is the precise chemical definition of a 'clathrate' or 'gas hydrate'?",
+        "type": "mcq",
+        "o": [
+            "Ice-like solid where gas is trapped in a water molecule cage",
+            "Liquid gas under high pressure",
+            "Frozen gas without water molecules",
+            "Gas dissolved in deep freshwater"
+        ]
+    },
+    {
+        "q": "Explain the principle of 'Common But Differentiated Responsibilities and Respective Capabilities' (CBDR-RC).",
+        "type": "short_answer",
+        "answers": [
+            "shared global duty for environment with differing national capacities and historical contributions",
+            "equity principle in international environmental law"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Haber-Bosch process' synthesizes ammonia but has a massive ______ footprint.",
+        "type": "fill_blank",
+        "answers": [
+            "carbon",
+            "energy"
+        ],
+        "other_options": [
+            "water",
+            "land",
+            "nitrogen"
+        ]
+    },
+    {
+        "q": "Which of the following is a key characteristic of a 'resilient' socio-ecological system?",
+        "type": "mcq",
+        "o": [
+            "Ability to absorb disturbance and reorganize while retaining function",
+            "Rapid linear growth",
+            "Strictly stable equilibrium state",
+            "Monoculture structure"
+        ]
+    },
+    {
+        "q": "Zeolites are used as catalysts in the petrochemical industry to crack heavy hydrocarbons.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the marine ecosystem with its primary productivity level:",
+        "type": "match",
+        "left": [
+            "Open ocean gyres",
+            "Coastal upwelling zones",
+            "Coral reefs",
+            "Estuaries"
+        ],
+        "right": [
+            "Very low",
+            "Very high",
+            "High",
+            "Highest"
+        ]
+    },
+    {
+        "q": "What is the main environmental concern regarding 'produced water' from oil extraction?",
+        "type": "mcq",
+        "o": [
+            "High salinity and toxic metals",
+            "Pure freshwater contamination",
+            "Radioactive steam release",
+            "Solid plastic pollution"
+        ]
+    },
+    {
+        "q": "Define 'telecoupling' in environmental science.",
+        "type": "short_answer",
+        "answers": [
+            "socioeconomic and environmental interactions over large distances",
+            "distant connections between coupled human and natural systems"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The term 'Moebius strip' is used to describe the linear take-make-dispose economy.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which metal is the primary conductor in most high-voltage overhead power lines?",
+        "type": "mcq",
+        "o": [
+            "Aluminium",
+            "Copper",
+            "Silver",
+            "Gold"
+        ]
+    },
+    {
+        "q": "Name the specific hypothesis stating that darker surfaces cause higher temperatures in urban areas.",
+        "type": "short_answer",
+        "answers": [
+            "urban heat island effect",
+            "UHI"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The circular economy model distinguishes between technical and ______ nutrient cycles.",
+        "type": "fill_blank",
+        "answers": [
+            "biological"
+        ],
+        "other_options": [
+            "geological",
+            "chemical",
+            "physical"
+        ]
+    },
+    {
+        "q": "Which of the following radionuclides has the longest half-life in nuclear waste?",
+        "type": "mcq",
+        "o": [
+            "Plutonium-239",
+            "Cesium-137",
+            "Strontium-90",
+            "Iodine-131"
+        ]
+    },
+    {
+        "q": "The concept of 'Limits to Growth' was published by the Club of Rome in 1972.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the forest carbon pool with its storage component:",
+        "type": "match",
+        "left": [
+            "Above-ground biomass",
+            "Below-ground biomass",
+            "Dead wood",
+            "Soil organic carbon"
+        ],
+        "right": [
+            "Tree trunks and leaves",
+            "Root systems",
+            "Standing and fallen dead trees",
+            "Humus and decomposed matter"
+        ]
+    },
+    {
+        "q": "What is 'coltan', and why is it geopolitically significant?",
+        "type": "mcq",
+        "o": [
+            "Tantalum ore used in electronics, mined in conflict zones",
+            "Rare gas for semiconductor manufacturing",
+            "Synthetic diamond for cutting tools",
+            "Biofuel feedstock for aviation"
+        ]
+    },
+    {
+        "q": "Explain the difference between 'green water' and 'blue water' footprints.",
+        "type": "short_answer",
+        "answers": [
+            "green water is rainwater used by plants, blue water is surface/groundwater consumed",
+            "green is precipitation, blue is irrigation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Global Footprint Network calculates the annual date when humanity exceeds Earth's biocapacity called Earth ______ Day.",
+        "type": "fill_blank",
+        "answers": [
+            "Overshoot"
+        ],
+        "other_options": [
+            "Capacity",
+            "Limit",
+            "Balance"
+        ]
+    },
+    {
+        "q": "Which of the following is a 'critical zone' in Earth system science?",
+        "type": "mcq",
+        "o": [
+            "The near-surface environment from bedrock to treetop",
+            "The deep ocean trenches",
+            "The molten outer core",
+            "The high stratosphere"
+        ]
+    },
+    {
+        "q": "Monoculture plantation forestry is a perfect substitute for natural old-growth forests in terms of biodiversity.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the term for the unintended release of genetically modified organisms into the wild?",
+        "type": "short_answer",
+        "answers": [
+            "genetic pollution",
+            "gene flow",
+            "transgene escape"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the type of radioactive waste with its disposal concept:",
+        "type": "match",
+        "left": [
+            "Low-level waste",
+            "Intermediate-level waste",
+            "High-level waste",
+            "Transuranic waste"
+        ],
+        "right": [
+            "Near-surface disposal",
+            "Deep geological repository",
+            "Vitrification and deep burial",
+            "Deep salt beds"
+        ]
+    },
+    {
+        "q": "Which element is essential for the catalyst in polymer electrolyte membrane (PEM) fuel cells?",
+        "type": "mcq",
+        "o": [
+            "Platinum",
+            "Iron",
+            "Nickel",
+            "Zinc"
+        ]
+    },
+    {
+        "q": "The Stockholm Convention targets 'dirty dozen' persistent organic pollutants (POPs).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Define 'technosphere' in the context of anthropogenic mass flow.",
+        "type": "short_answer",
+        "answers": [
+            "total human-made physical structures and objects",
+            "built environment and manufactured products"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The specific point in a river where wastewater is discharged is called an ______ point.",
+        "type": "fill_blank",
+        "answers": [
+            "outfall",
+            "discharge"
+        ],
+        "other_options": [
+            "inlet",
+            "weir",
+            "tributary"
+        ]
+    },
+    {
+        "q": "Which of the following best defines 'panarchy' in resilience theory?",
+        "type": "mcq",
+        "o": [
+            "Cross-scale, nested adaptive cycles of change",
+            "A hierarchical government system for nature",
+            "Total global chaos",
+            "Strict linear ecological succession"
+        ]
+    },
+    {
+        "q": "Name the specific phenomenon where high-altitude clouds trap infrared radiation, contributing to warming.",
+        "type": "short_answer",
+        "answers": [
+            "cirrus cloud forcing",
+            "cloud radiative forcing",
+            "greenhouse effect of cirrus"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Selenium pollution is a significant environmental concern associated with coal ash ponds.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the water quality parameter with its indicator:",
+        "type": "match",
+        "left": [
+            "BOD",
+            "COD",
+            "TDS",
+            "Turbidity"
+        ],
+        "right": [
+            "Oxygen demand by bacteria",
+            "Chemical oxidation demand",
+            "Total dissolved solids",
+            "Water clarity"
+        ]
+    },
+    {
+        "q": "What is the 'Paradox of the Plankton'?",
+        "type": "mcq",
+        "o": [
+            "High diversity of plankton despite limited resources",
+            "Plankton sinking to the bottom",
+            "Plankton eating fish",
+            "Plankton producing oxygen"
+        ]
+    },
+    {
+        "q": "Explain the term 'Shifting Baseline Syndrome' in ecology.",
+        "type": "short_answer",
+        "answers": [
+            "generational acceptance of degraded environments as normal",
+            "changing perception of what is pristine due to lack of historical context"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Albedo modification' geoengineering techniques aim to reduce CO2 concentrations directly.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is a technique for 'in-situ' recovery of heavy oil and bitumen?",
+        "type": "mcq",
+        "o": [
+            "Steam-assisted gravity drainage (SAGD)",
+            "Open-pit excavation",
+            "Bucket-wheel extraction",
+            "Highwall mining"
+        ]
+    },
+    {
+        "q": "Name the specific bacteria that converts ammonium to nitrite in the nitrogen cycle.",
+        "type": "short_answer",
+        "answers": [
+            "nitrosomonas",
+            "ammonia-oxidizing bacteria"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The rapid expansion of low-quality buildings in urban fringes mixing residential and agricultural land is known as urban ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sprawl"
+        ],
+        "other_options": [
+            "planning",
+            "renewal",
+            "density"
+        ]
+    },
+    {
+        "q": "Which country leads the world in the production of graphite, critical for battery anodes?",
+        "type": "mcq",
+        "o": [
+            "China",
+            "Canada",
+            "Madagascar",
+            "Brazil"
+        ]
+    },
+    {
+        "q": "The United Nations Convention on the Law of the Sea (UNCLOS) defines the 'Area' as mineral resources outside national jurisdiction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the type of wind turbine with its design:",
+        "type": "match",
+        "left": [
+            "Horizontal-axis",
+            "Vertical-axis Darrieus",
+            "Vertical-axis Savonius",
+            "Bladeless"
+        ],
+        "right": [
+            "Propeller-like blades",
+            "Egg-beater shape",
+            "Scoop drum shape",
+            "Vortex-induced vibration"
+        ]
+    },
+    {
+        "q": "What is the primary purpose of the 'Eco-Management and Audit Scheme' (EMAS)?",
+        "type": "mcq",
+        "o": [
+            "Evaluating and improving organizational environmental performance",
+            "Certifying organic food products",
+            "Setting global emission limits",
+            "Enforcing fishing quotas"
+        ]
+    },
+    {
+        "q": "Define 'Life Cycle Assessment' (LCA).",
+        "type": "short_answer",
+        "answers": [
+            "assessment of environmental impacts of a product from cradle to grave",
+            "systematic analysis of product's life stages"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Brundtland Commission' formally defined sustainable development.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which element is the primary dopant in n-type silicon solar cells?",
+        "type": "mcq",
+        "o": [
+            "Phosphorus",
+            "Boron",
+            "Gallium",
+            "Arsenic"
+        ]
+    },
+    {
+        "q": "Name the international organization that sets standards for sustainable forest management.",
+        "type": "short_answer",
+        "answers": [
+            "Forest Stewardship Council",
+            "FSC",
+            "Programme for the Endorsement of Forest Certification",
+            "PEFC"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The phenomenon where ice loss from Greenland alters ocean salinity and circulation is called freshwater ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hosing",
+            "forcing"
+        ],
+        "other_options": [
+            "injection",
+            "dilution",
+            "expansion"
+        ]
+    },
+    {
+        "q": "Which of the following best describes 'atmospheric river' events?",
+        "type": "mcq",
+        "o": [
+            "Narrow corridors of concentrated moisture transport in the atmosphere",
+            "Wind streams in the upper troposphere",
+            "Rivers flowing upwards during hurricanes",
+            "Pathways of air pollution across continents"
+        ]
+    },
+    {
+        "q": "Thorium-fueled nuclear reactors produce less long-lived transuranic waste than uranium-fueled ones.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the 'Earth Summit' with its key outcome:",
+        "type": "match",
+        "left": [
+            "Rio 1992",
+            "Johannesburg 2002",
+            "Rio+20 2012",
+            "SDGs 2015"
+        ],
+        "right": [
+            "Agenda 21, UNFCCC",
+            "Focus on implementation",
+            "Green economy concept",
+            "17 Sustainable Development Goals"
+        ]
+    },
+    {
+        "q": "What is the main biochemical mechanism of 'ocean acidification'?",
+        "type": "mcq",
+        "o": [
+            "CO2 dissolves, forms carbonic acid, lowers pH",
+            "Acid rain runoff into seas",
+            "Sulfuric acid from thermal vents",
+            "Nitric acid from agricultural runoff"
+        ]
+    },
+    {
+        "q": "Explain the concept of 'regenerative braking' in electric vehicles and its effect on resource efficiency.",
+        "type": "short_answer",
+        "answers": [
+            "captures kinetic energy to recharge battery, reduces brake wear and energy consumption",
+            "energy recovery system increasing vehicle efficiency"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Basel Convention was strengthened by the 'Plastic Waste Amendments' in 2019.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which chemical is used as a refrigerant and has an extremely high global warming potential?",
+        "type": "mcq",
+        "o": [
+            "R-404A",
+            "Ammonia",
+            "Carbon dioxide",
+            "Propane"
+        ]
+    },
+    {
+        "q": "Define 'environmental justice'.",
+        "type": "short_answer",
+        "answers": [
+            "fair treatment and involvement of all people in environmental policy regardless of background",
+            "equitable distribution of environmental benefits and burdens"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The 'Great Oxidation Event' was caused by ancient cyanobacteria producing oxygen, drastically changing Earth's atmosphere.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]

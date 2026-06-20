@@ -1,0 +1,7174 @@
+[
+    {
+        "q": "Which of these is a type of house?",
+        "type": "mcq",
+        "o": [
+            "Igloo",
+            "Car",
+            "Chair",
+            "Table"
+        ]
+    },
+    {
+        "q": "A house made of ice is called an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "igloo"
+        ],
+        "other_options": [
+            "hut",
+            "tent",
+            "flat",
+            "iglu"
+        ]
+    },
+    {
+        "q": "We use bricks to build houses. True or False?",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the place where you cook food at home.",
+        "type": "short_answer",
+        "answers": [
+            "kitchen"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What do we call a house that moves on water?",
+        "type": "mcq",
+        "o": [
+            "Houseboat",
+            "Caravan",
+            "Tent",
+            "Skyscraper"
+        ]
+    },
+    {
+        "q": "Match the house type to where it is found:",
+        "type": "match",
+        "left": [
+            "Igloo",
+            "Houseboat",
+            "Tent",
+            "Skyscraper"
+        ],
+        "right": [
+            "Snowy places",
+            "Lakes and rivers",
+            "Camping sites",
+            "Big cities"
+        ]
+    },
+    {
+        "q": "Wood comes from trees and is used to make houses.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which room do we use for sleeping?",
+        "type": "mcq",
+        "o": [
+            "Bedroom",
+            "Kitchen",
+            "Bathroom",
+            "Garage"
+        ]
+    },
+    {
+        "q": "How many wheels does a typical small caravan have?",
+        "type": "slider",
+        "min": 2,
+        "max": 8,
+        "correct": 4
+    },
+    {
+        "q": "What is a house on wheels called?",
+        "type": "mcq",
+        "o": [
+            "Caravan",
+            "Castle",
+            "Igloo",
+            "Cave"
+        ]
+    },
+    {
+        "q": "Mud and straw are used to build a ______ in villages.",
+        "type": "fill_blank",
+        "answers": [
+            "hut"
+        ],
+        "other_options": [
+            "igloo",
+            "tent",
+            "boat",
+            "flat"
+        ]
+    },
+    {
+        "q": "We must keep our house clean to stay healthy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do you open to let fresh air into the room?",
+        "type": "short_answer",
+        "answers": [
+            "window",
+            "windows"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the type of house with the material it is mostly made of.",
+        "type": "memory",
+        "pairs": {
+            "Igloo": "Ice and Snow",
+            "Tent": "Canvas cloth",
+            "Hut": "Mud and Straw",
+            "Treehouse": "Wood and Branches"
+        }
+    },
+    {
+        "q": "Which building material is made from mud baked in fire?",
+        "type": "mcq",
+        "o": [
+            "Bricks",
+            "Plastic",
+            "Paper",
+            "Glass"
+        ]
+    },
+    {
+        "q": "A ______ is a very tall building with many floors.",
+        "type": "fill_blank",
+        "answers": [
+            "skyscraper"
+        ],
+        "other_options": [
+            "hut",
+            "tent",
+            "igloo",
+            "bunglow"
+        ]
+    },
+    {
+        "q": "People live in tents for camping trips.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a type of house?",
+        "type": "odd_one_out",
+        "options": [
+            "Bungalow",
+            "Apartment",
+            "Igloo",
+            "Apple",
+            "Caravan"
+        ],
+        "correct": "Apple"
+    },
+    {
+        "q": "Which type of house do kings and queens live in?",
+        "type": "mcq",
+        "o": [
+            "Palace",
+            "Hut",
+            "Tent",
+            "Flat"
+        ]
+    },
+    {
+        "q": "Where do we take a bath or shower?",
+        "type": "mcq",
+        "o": [
+            "Bathroom",
+            "Kitchen",
+            "Living room",
+            "Balcony"
+        ]
+    },
+    {
+        "q": "Name one material used to make a strong roof.",
+        "type": "short_answer",
+        "answers": [
+            "tiles",
+            "tin",
+            "concrete",
+            "metal",
+            "slate"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Many families live in different flats in the same tall building.",
+        "type": "mcq",
+        "o": [
+            "Apartment building",
+            "Hut",
+            "Farmhouse",
+            "Houseboat"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if it is Man-made, LEFT if it is Natural.",
+        "type": "swipe_cards",
+        "left_label": "Natural",
+        "right_label": "Man-made",
+        "cards": {
+            "Cave": "left",
+            "Apartment": "right",
+            "Tree trunk": "left",
+            "Tent": "right"
+        }
+    },
+    {
+        "q": "Match the room with what we do there:",
+        "type": "match",
+        "left": [
+            "Kitchen",
+            "Bedroom",
+            "Bathroom",
+            "Living room"
+        ],
+        "right": [
+            "Cooking food",
+            "Sleeping",
+            "Taking a bath",
+            "Sitting with family"
+        ]
+    },
+    {
+        "q": "A house made of cloth and poles for camping is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "tent"
+        ],
+        "other_options": [
+            "igloo",
+            "hut",
+            "flat",
+            "castle"
+        ]
+    },
+    {
+        "q": "Glass windows let sunlight come into the house.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a natural building material?",
+        "type": "mcq",
+        "o": [
+            "Wood",
+            "Plastic",
+            "Glass",
+            "Metal"
+        ]
+    },
+    {
+        "q": "What is a single-floor house with a garden called?",
+        "type": "short_answer",
+        "answers": [
+            "bungalow"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "We must throw garbage in the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "dustbin",
+            "bin"
+        ],
+        "other_options": [
+            "floor",
+            "garden",
+            "river",
+            "road"
+        ]
+    },
+    {
+        "q": "People who live in cold snowy areas often build igloos.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word for a house made of solid snow or ice.",
+        "type": "word_scramble",
+        "answer": "IGLOO",
+        "decoys": "XYZ"
+    },
+    {
+        "q": "Which of these helps keep flies away from the house?",
+        "type": "mcq",
+        "o": [
+            "Door screens",
+            "Carpets",
+            "Curtains",
+            "Pictures"
+        ]
+    },
+    {
+        "q": "A house made of snow and ice is called an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "igloo"
+        ],
+        "other_options": [
+            "flat",
+            "hut",
+            "cave",
+            "tent"
+        ]
+    },
+    {
+        "q": "What is the room where guests sit in a house?",
+        "type": "mcq",
+        "o": [
+            "Drawing room",
+            "Bathroom",
+            "Kitchen",
+            "Store room"
+        ]
+    },
+    {
+        "q": "Metal is used to make window frames and pipes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the part of the house that connects two floors.",
+        "type": "short_answer",
+        "answers": [
+            "stairs",
+            "staircase"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Early humans lived in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "caves"
+        ],
+        "other_options": [
+            "flats",
+            "tents",
+            "igloos",
+            "palaces"
+        ]
+    },
+    {
+        "q": "Match the house to its main building material:",
+        "type": "match",
+        "left": [
+            "Igloo",
+            "Wooden house",
+            "Hut",
+            "Modern building"
+        ],
+        "right": [
+            "Ice",
+            "Wood",
+            "Mud and straw",
+            "Cement and bricks"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a room in a house?",
+        "type": "mcq",
+        "o": [
+            "Garden",
+            "Kitchen",
+            "Bedroom",
+            "Bathroom"
+        ]
+    },
+    {
+        "q": "We sit with our family and watch TV in the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "living room",
+            "drawing room",
+            "hall"
+        ],
+        "other_options": [
+            "kitchen",
+            "bathroom",
+            "garage",
+            "balcony"
+        ]
+    },
+    {
+        "q": "Clean homes help us stay away from diseases.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the underground floor of a building called?",
+        "type": "short_answer",
+        "answers": [
+            "basement"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A house that keeps floating on water is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "houseboat"
+        ],
+        "other_options": [
+            "car",
+            "tent",
+            "igloo",
+            "hut"
+        ]
+    },
+    {
+        "q": "Which of these is used to make doors?",
+        "type": "mcq",
+        "o": [
+            "Wood",
+            "Glass",
+            "Cloth",
+            "Paper"
+        ]
+    },
+    {
+        "q": "Ceiling fans help to keep the room cool.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we use a garage for?",
+        "type": "mcq",
+        "o": [
+            "Parking cars",
+            "Cooking food",
+            "Sleeping",
+            "Bathing"
+        ]
+    },
+    {
+        "q": "Complete the sentence about cold places:",
+        "type": "inline_dropdown",
+        "text": "An igloo is made of [0] and is found in very [1] places.",
+        "dropdowns": [
+            {
+                "correct": "ice",
+                "options": [
+                    "mud",
+                    "ice",
+                    "wood"
+                ]
+            },
+            {
+                "correct": "cold",
+                "options": [
+                    "hot",
+                    "cold",
+                    "warm"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "How many walls are there in a standard square-shaped room?",
+        "type": "slider",
+        "min": 2,
+        "max": 6,
+        "correct": 4
+    },
+    {
+        "q": "A ______ is a very big and grand house.",
+        "type": "fill_blank",
+        "answers": [
+            "mansion",
+            "palace"
+        ],
+        "other_options": [
+            "hut",
+            "flat",
+            "tent",
+            "igloo"
+        ]
+    },
+    {
+        "q": "Grass, leaves, and mud are natural building materials.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the opening in the wall to enter a room.",
+        "type": "short_answer",
+        "answers": [
+            "door",
+            "doorway"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which facility supplies water to our taps?",
+        "type": "mcq",
+        "o": [
+            "Water pipes",
+            "Electric wires",
+            "Gas stove",
+            "Fan"
+        ]
+    },
+    {
+        "q": "Match the room with the main activity we do there.",
+        "type": "memory",
+        "pairs": {
+            "Kitchen": "Cooking food",
+            "Bedroom": "Sleeping",
+            "Bathroom": "Taking a bath",
+            "Dining Room": "Eating meals"
+        }
+    },
+    {
+        "q": "The top covering of a house is called the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "roof"
+        ],
+        "other_options": [
+            "floor",
+            "wall",
+            "door",
+            "window"
+        ]
+    },
+    {
+        "q": "Small houses in villages made of mud and thatch are called huts.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a type of temporary house?",
+        "type": "mcq",
+        "o": [
+            "Tent",
+            "Flat",
+            "Bungalow",
+            "Palace"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a building material for strong houses?",
+        "type": "odd_one_out",
+        "options": [
+            "Brick",
+            "Cement",
+            "Steel",
+            "Watermelon",
+            "Stone"
+        ],
+        "correct": "Watermelon"
+    },
+    {
+        "q": "Swipe RIGHT for Dirty habits, LEFT for Clean habits.",
+        "type": "swipe_cards",
+        "left_label": "Clean",
+        "right_label": "Dirty",
+        "cards": {
+            "Sweeping floor": "left",
+            "Spilling juice": "right",
+            "Dusting tables": "left",
+            "Muddy shoes on bed": "right"
+        }
+    },
+    {
+        "q": "What is a room used for studying or working called?",
+        "type": "short_answer",
+        "answers": [
+            "study room",
+            "study"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "An apartment is also called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "flat"
+        ],
+        "other_options": [
+            "tent",
+            "hut",
+            "igloo",
+            "caravan"
+        ]
+    },
+    {
+        "q": "Unscramble the word for a house that moves on wheels.",
+        "type": "word_scramble",
+        "answer": "CARAVAN",
+        "decoys": "BQ"
+    },
+    {
+        "q": "Which of these is a household facility?",
+        "type": "mcq",
+        "o": [
+            "Electricity",
+            "Mountain",
+            "River",
+            "Forest"
+        ]
+    },
+    {
+        "q": "Cement mixed with water and sand becomes hard like stone.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about workers:",
+        "type": "inline_dropdown",
+        "text": "A [0] helps us fix broken water pipes, while a [1] makes wooden chairs.",
+        "dropdowns": [
+            {
+                "correct": "plumber",
+                "options": [
+                    "painter",
+                    "plumber",
+                    "tailor"
+                ]
+            },
+            {
+                "correct": "carpenter",
+                "options": [
+                    "mason",
+                    "carpenter",
+                    "doctor"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the material to its use:",
+        "type": "match",
+        "left": [
+            "Glass",
+            "Wood",
+            "Bricks",
+            "Steel"
+        ],
+        "right": [
+            "Windows",
+            "Furniture",
+            "Walls",
+            "Pillars"
+        ]
+    },
+    {
+        "q": "Which of these is a clean fuel used in kitchens?",
+        "type": "mcq",
+        "o": [
+            "LPG gas",
+            "Wood fire",
+            "Coal",
+            "Kerosene"
+        ]
+    },
+    {
+        "q": "A house with wheels that a car can pull is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "caravan"
+        ],
+        "other_options": [
+            "boat",
+            "plane",
+            "bike",
+            "bus"
+        ]
+    },
+    {
+        "q": "Open windows let in fresh air and sunlight.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Where do we keep our car in a house?",
+        "type": "short_answer",
+        "answers": [
+            "garage"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT a building material?",
+        "type": "mcq",
+        "o": [
+            "Water",
+            "Cement",
+            "Bricks",
+            "Steel"
+        ]
+    },
+    {
+        "q": "The floor of a house is usually covered with ______.",
+        "type": "fill_blank",
+        "answers": [
+            "tiles",
+            "carpet",
+            "marble"
+        ],
+        "other_options": [
+            "curtain",
+            "fan",
+            "light",
+            "cupboard"
+        ]
+    },
+    {
+        "q": "People living in hot deserts sometimes use thick mud walls to keep cool.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is made of glass?",
+        "type": "mcq",
+        "o": [
+            "Windowpane",
+            "Door frame",
+            "Roof tile",
+            "Brick wall"
+        ]
+    },
+    {
+        "q": "How many times a day should you brush your teeth to stay healthy?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "Name the person who designs houses and buildings.",
+        "type": "short_answer",
+        "answers": [
+            "architect"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A house on a farm is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "farmhouse"
+        ],
+        "other_options": [
+            "igloo",
+            "flat",
+            "tent",
+            "boat"
+        ]
+    },
+    {
+        "q": "Which of these is a permanent house?",
+        "type": "mcq",
+        "o": [
+            "Bungalow",
+            "Tent",
+            "Caravan",
+            "Houseboat"
+        ]
+    },
+    {
+        "q": "Match the pet animal with its correct home.",
+        "type": "memory",
+        "pairs": {
+            "Dog": "Kennel",
+            "Horse": "Stable",
+            "Bird": "Nest",
+            "Fish": "Aquarium"
+        }
+    },
+    {
+        "q": "Wires carry electricity to light up our homes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a small, simple house often found in forests or hills called?",
+        "type": "mcq",
+        "o": [
+            "Cabin",
+            "Castle",
+            "Skyscraper",
+            "Stadium"
+        ]
+    },
+    {
+        "q": "We store food and keep it fresh in a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "refrigerator",
+            "fridge"
+        ],
+        "other_options": [
+            "oven",
+            "sink",
+            "table",
+            "chair"
+        ]
+    },
+    {
+        "q": "Plastic pipes are often used for plumbing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name a place in the house where you can play outdoors.",
+        "type": "short_answer",
+        "answers": [
+            "garden",
+            "backyard",
+            "courtyard",
+            "lawn"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the dwelling to the people who might stay there:",
+        "type": "match",
+        "left": [
+            "Soldiers",
+            "Students",
+            "King",
+            "Campers"
+        ],
+        "right": [
+            "Barracks",
+            "Hostel",
+            "Palace",
+            "Tent"
+        ]
+    },
+    {
+        "q": "Which of these helps to keep a home clean?",
+        "type": "mcq",
+        "o": [
+            "Broom",
+            "Television",
+            "Sofa",
+            "Bed"
+        ]
+    },
+    {
+        "q": "The thick liquid used to join bricks is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mortar",
+            "cement"
+        ],
+        "other_options": [
+            "paint",
+            "oil",
+            "glue",
+            "water"
+        ]
+    },
+    {
+        "q": "A door protects us from wind, rain, and animals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a room in a house?",
+        "type": "odd_one_out",
+        "options": [
+            "Kitchen",
+            "Bedroom",
+            "Bathroom",
+            "Living Room",
+            "Cloud"
+        ],
+        "correct": "Cloud"
+    },
+    {
+        "q": "What is the area outside a house where plants are grown?",
+        "type": "short_answer",
+        "answers": [
+            "garden",
+            "yard",
+            "backyard"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for Cold weather houses, LEFT for Hot weather houses.",
+        "type": "swipe_cards",
+        "left_label": "Hot Weather",
+        "right_label": "Cold Weather",
+        "cards": {
+            "Igloo": "right",
+            "Mud hut with flat roof": "left",
+            "Thick ice house": "right",
+            "Thin cotton tent": "left"
+        }
+    },
+    {
+        "q": "Which of these is a source of water for a home?",
+        "type": "mcq",
+        "o": [
+            "Tap",
+            "Lamp",
+            "Fan",
+            "Chair"
+        ]
+    },
+    {
+        "q": "An ______ is a house made by Eskimos from blocks of ice.",
+        "type": "fill_blank",
+        "answers": [
+            "igloo"
+        ],
+        "other_options": [
+            "hut",
+            "cabin",
+            "tent",
+            "flat"
+        ]
+    },
+    {
+        "q": "Good ventilation means fresh air can easily flow through the house.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the room where we cook food.",
+        "type": "word_scramble",
+        "answer": "KITCHEN",
+        "decoys": "ZM"
+    },
+    {
+        "q": "Which of these has a curved roof and wheels?",
+        "type": "mcq",
+        "o": [
+            "Caravan",
+            "Igloo",
+            "Cave",
+            "Apartment"
+        ]
+    },
+    {
+        "q": "Name the small room on a roof or top floor.",
+        "type": "short_answer",
+        "answers": [
+            "attic"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is used to cover the floor and keep feet warm.",
+        "type": "fill_blank",
+        "answers": [
+            "carpet",
+            "rug"
+        ],
+        "other_options": [
+            "curtain",
+            "door",
+            "window",
+            "ceiling"
+        ]
+    },
+    {
+        "q": "Huts are made of strong materials like steel and concrete.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a building tool?",
+        "type": "mcq",
+        "o": [
+            "Trowel",
+            "Spoon",
+            "Plate",
+            "Cup"
+        ]
+    },
+    {
+        "q": "Black smoke from cooking fires makes the home dirty.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What type of house is built high above the ground on poles?",
+        "type": "mcq",
+        "o": [
+            "Stilt house",
+            "Basement house",
+            "Cave house",
+            "Tree house"
+        ]
+    },
+    {
+        "q": "We keep clothes in a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "wardrobe",
+            "cupboard",
+            "closet"
+        ],
+        "other_options": [
+            "sink",
+            "tub",
+            "fan",
+            "heater"
+        ]
+    },
+    {
+        "q": "Name the machine that keeps the air cool inside the house.",
+        "type": "short_answer",
+        "answers": [
+            "air conditioner",
+            "ac",
+            "cooler"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about home hygiene:",
+        "type": "inline_dropdown",
+        "text": "We should always keep our house [0] to stay [1] and avoid falling sick.",
+        "dropdowns": [
+            {
+                "correct": "clean",
+                "options": [
+                    "dirty",
+                    "messy",
+                    "clean"
+                ]
+            },
+            {
+                "correct": "healthy",
+                "options": [
+                    "weak",
+                    "healthy",
+                    "tired"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is a clean home practice?",
+        "type": "mcq",
+        "o": [
+            "Throwing garbage in dustbin",
+            "Leaving food on floor",
+            "Keeping shoes on bed",
+            "Writing on walls"
+        ]
+    },
+    {
+        "q": "Curtains are hung on windows to block or let in light.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "If a building has 5 floors and 2 flats on each floor, how many flats are there?",
+        "type": "slider",
+        "min": 5,
+        "max": 15,
+        "correct": 10
+    },
+    {
+        "q": "A house made of wood in a cold, mountainous area is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "log cabin",
+            "cabin"
+        ],
+        "other_options": [
+            "igloo",
+            "flat",
+            "palace",
+            "hut"
+        ]
+    },
+    {
+        "q": "Match the house type to its special feature:",
+        "type": "match",
+        "left": [
+            "Stilt house",
+            "Igloo",
+            "Houseboat",
+            "Caravan"
+        ],
+        "right": [
+            "Raised on poles",
+            "Made of ice",
+            "Floats on water",
+            "Has wheels"
+        ]
+    },
+    {
+        "q": "Which of these is used to cook food in a kitchen?",
+        "type": "mcq",
+        "o": [
+            "Stove",
+            "Bed",
+            "Sofa",
+            "Bookshelf"
+        ]
+    },
+    {
+        "q": "The pipe taking dirty water away from the house is the ______ pipe.",
+        "type": "fill_blank",
+        "answers": [
+            "drain"
+        ],
+        "other_options": [
+            "water",
+            "gas",
+            "electric",
+            "air"
+        ]
+    },
+    {
+        "q": "We can keep our house clean by sweeping the floor every day.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the outer covering of a wall called?",
+        "type": "short_answer",
+        "answers": [
+            "plaster",
+            "paint",
+            "wallpaper"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the construction worker with their main building material.",
+        "type": "memory",
+        "pairs": {
+            "Mason": "Bricks and cement",
+            "Carpenter": "Wood and nails",
+            "Plumber": "Water pipes",
+            "Electrician": "Wires and bulbs"
+        }
+    },
+    {
+        "q": "Which of these is a part of a door?",
+        "type": "mcq",
+        "o": [
+            "Hinge",
+            "Curtain",
+            "Carpet",
+            "Tiles"
+        ]
+    },
+    {
+        "q": "Steel and iron are used to build strong frameworks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name a type of glass used in windows to make them strong.",
+        "type": "short_answer",
+        "answers": [
+            "frosted",
+            "toughened",
+            "stained"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a temporary house for nomads?",
+        "type": "mcq",
+        "o": [
+            "Tent",
+            "Castle",
+            "Skyscraper",
+            "Cottage"
+        ]
+    },
+    {
+        "q": "The kitchen should always have a ______ to let out smoke.",
+        "type": "fill_blank",
+        "answers": [
+            "chimney",
+            "exhaust fan",
+            "window"
+        ],
+        "other_options": [
+            "carpet",
+            "cupboard",
+            "sofa",
+            "mirror"
+        ]
+    },
+    {
+        "q": "A flat is a single-floor home inside a big building.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a good habit for keeping a home clean?",
+        "type": "odd_one_out",
+        "options": [
+            "Sweeping",
+            "Mopping",
+            "Littering",
+            "Dusting",
+            "Wiping"
+        ],
+        "correct": "Littering"
+    },
+    {
+        "q": "Which of these is a permanent house?",
+        "type": "mcq",
+        "o": [
+            "Bungalow",
+            "Tent",
+            "Caravan",
+            "Camping trailer"
+        ]
+    },
+    {
+        "q": "We use ______ to make pots, tiles, and sometimes walls.",
+        "type": "fill_blank",
+        "answers": [
+            "clay"
+        ],
+        "other_options": [
+            "plastic",
+            "glass",
+            "iron",
+            "paper"
+        ]
+    },
+    {
+        "q": "People living in very cold areas often use ice blocks to build their houses.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the machine used to heat water in bathrooms.",
+        "type": "short_answer",
+        "answers": [
+            "geyser",
+            "water heater"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is a house built between trees or on a tree branch called?",
+        "type": "mcq",
+        "o": [
+            "Tree house",
+            "Stilt house",
+            "Houseboat",
+            "Cave"
+        ]
+    },
+    {
+        "q": "Match the house with the type of climate it suits:",
+        "type": "match",
+        "left": [
+            "Igloo",
+            "Tent",
+            "Mud hut",
+            "Brick house"
+        ],
+        "right": [
+            "Very cold",
+            "Dry desert",
+            "Hot plains",
+            "Moderate climate"
+        ]
+    },
+    {
+        "q": "Thatch is made of dry leaves and is often used for roofs in villages.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Temporary houses, LEFT for Permanent houses.",
+        "type": "swipe_cards",
+        "left_label": "Permanent",
+        "right_label": "Temporary",
+        "cards": {
+            "Caravan": "right",
+            "Brick Bungalow": "left",
+            "Tent": "right",
+            "Concrete Apartment": "left"
+        }
+    },
+    {
+        "q": "Unscramble the word for a house made of canvas cloth used for camping.",
+        "type": "word_scramble",
+        "answer": "TENT",
+        "decoys": "PLK"
+    },
+    {
+        "q": "Which room do we usually find a sofa in?",
+        "type": "mcq",
+        "o": [
+            "Living room",
+            "Kitchen",
+            "Bathroom",
+            "Store room"
+        ]
+    },
+    {
+        "q": "A building having many flats is called an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "apartment",
+            "apartment building"
+        ],
+        "other_options": [
+            "igloo",
+            "hut",
+            "tent",
+            "caravan"
+        ]
+    },
+    {
+        "q": "What type of house is built on poles in flood-prone areas?",
+        "type": "mcq",
+        "o": [
+            "Stilt house",
+            "Basement",
+            "Underground house",
+            "Penthouse"
+        ]
+    },
+    {
+        "q": "Cement becomes very hard when mixed with water and sand.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the opening on the roof or wall that lets air and light into the attic.",
+        "type": "short_answer",
+        "answers": [
+            "skylight",
+            "ventilator"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which material is made by heating sand?",
+        "type": "mcq",
+        "o": [
+            "Glass",
+            "Wood",
+            "Brick",
+            "Steel"
+        ]
+    },
+    {
+        "q": "A ______ is a room right under the roof of a house.",
+        "type": "fill_blank",
+        "answers": [
+            "attic"
+        ],
+        "other_options": [
+            "basement",
+            "garage",
+            "hall",
+            "porch"
+        ]
+    },
+    {
+        "q": "Electricity is an important household facility.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call a large tent used by soldiers or for exhibitions?",
+        "type": "mcq",
+        "o": [
+            "Marquee",
+            "Igloo",
+            "Cave",
+            "Hut"
+        ]
+    },
+    {
+        "q": "Where do we keep our books in a house?",
+        "type": "short_answer",
+        "answers": [
+            "bookshelf",
+            "study table",
+            "rack"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the household item with its purpose:",
+        "type": "match",
+        "left": [
+            "Curtain",
+            "Carpet",
+            "Lampshade",
+            "Dustbin"
+        ],
+        "right": [
+            "Blocks light",
+            "Covers floor",
+            "Softens light",
+            "Holds garbage"
+        ]
+    },
+    {
+        "q": "Which of these is used to cover roofs?",
+        "type": "mcq",
+        "o": [
+            "Tiles",
+            "Curtains",
+            "Carpets",
+            "Towels"
+        ]
+    },
+    {
+        "q": "A house that can be packed and carried is a ______ house.",
+        "type": "fill_blank",
+        "answers": [
+            "temporary",
+            "portable"
+        ],
+        "other_options": [
+            "permanent",
+            "strong",
+            "fixed",
+            "solid"
+        ]
+    },
+    {
+        "q": "Kitchens should have proper smoke outlets for clean air.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a small, round house made of mud and thatch?",
+        "type": "mcq",
+        "o": [
+            "Hut",
+            "Flat",
+            "Castle",
+            "Villa"
+        ]
+    },
+    {
+        "q": "Name the soft material used to cover furniture and cushions.",
+        "type": "short_answer",
+        "answers": [
+            "foam",
+            "cotton",
+            "fabric",
+            "cloth"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a house where monks or nuns live together.",
+        "type": "fill_blank",
+        "answers": [
+            "monastery",
+            "convent"
+        ],
+        "other_options": [
+            "palace",
+            "hotel",
+            "motel",
+            "flat"
+        ]
+    },
+    {
+        "q": "Most modern homes have a separate room for washing clothes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which facility gives us bright light in the dark?",
+        "type": "mcq",
+        "o": [
+            "Electric bulbs",
+            "Gas stoves",
+            "Water tanks",
+            "Door locks"
+        ]
+    },
+    {
+        "q": "A house made of animal skin and wooden poles by Native Americans is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "tepee",
+            "tipi",
+            "wigwam"
+        ],
+        "other_options": [
+            "igloo",
+            "cabin",
+            "castle",
+            "shed"
+        ]
+    },
+    {
+        "q": "Complete the sentence about camping:",
+        "type": "inline_dropdown",
+        "text": "A tent is a [0] house that people often use when they go [1] in the forest.",
+        "dropdowns": [
+            {
+                "correct": "temporary",
+                "options": [
+                    "permanent",
+                    "heavy",
+                    "temporary"
+                ]
+            },
+            {
+                "correct": "camping",
+                "options": [
+                    "swimming",
+                    "camping",
+                    "shopping"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "How many blades does a standard ceiling fan usually have?",
+        "type": "slider",
+        "min": 2,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "Match the cleaning tool with its correct action.",
+        "type": "memory",
+        "pairs": {
+            "Broom": "Sweeping the dry floor",
+            "Mop": "Washing the floor with water",
+            "Duster": "Wiping dirt from tables",
+            "Vacuum": "Sucking up dust from carpets"
+        }
+    },
+    {
+        "q": "A clean home stops the spread of germs and pests.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT found in a bathroom usually?",
+        "type": "mcq",
+        "o": [
+            "Cooking stove",
+            "Bathtub",
+            "Shower",
+            "Washbasin"
+        ]
+    },
+    {
+        "q": "Name the small building used to keep a car safe.",
+        "type": "short_answer",
+        "answers": [
+            "garage",
+            "shed"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "People who move from place to place live in ______ houses.",
+        "type": "fill_blank",
+        "answers": [
+            "temporary",
+            "movable",
+            "portable"
+        ],
+        "other_options": [
+            "permanent",
+            "big",
+            "small",
+            "strong"
+        ]
+    },
+    {
+        "q": "Which of these animals is used to carry tents and luggage in deserts?",
+        "type": "mcq",
+        "o": [
+            "Camel",
+            "Horse",
+            "Elephant",
+            "Dog"
+        ]
+    },
+    {
+        "q": "Match the location to the home found there:",
+        "type": "match",
+        "left": [
+            "Switzerland Alps",
+            "Arctic region",
+            "African plains",
+            "Indian cities"
+        ],
+        "right": [
+            "Wooden chalet",
+            "Igloo",
+            "Mud hut",
+            "Flats"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a piece of furniture found in a house?",
+        "type": "odd_one_out",
+        "options": [
+            "Bed",
+            "Sofa",
+            "Dining Chair",
+            "Oak Tree",
+            "Cupboard"
+        ],
+        "correct": "Oak Tree"
+    },
+    {
+        "q": "Plumbing is the system of pipes that brings water and removes waste.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is used to make windows?",
+        "type": "mcq",
+        "o": [
+            "Glass",
+            "Brick",
+            "Mud",
+            "Straw"
+        ]
+    },
+    {
+        "q": "Name the machine that keeps food fresh and cold.",
+        "type": "short_answer",
+        "answers": [
+            "refrigerator",
+            "fridge"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a large piece of cloth used to divide a room or cover a window.",
+        "type": "fill_blank",
+        "answers": [
+            "curtain"
+        ],
+        "other_options": [
+            "towel",
+            "blanket",
+            "sheet",
+            "mat"
+        ]
+    },
+    {
+        "q": "Ventilation means letting stale air out and fresh air in.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a house carved into a mountain or rocky cliff called?",
+        "type": "mcq",
+        "o": [
+            "Cave house",
+            "Boat house",
+            "Tree house",
+            "Bus house"
+        ]
+    },
+    {
+        "q": "Bamboo is a strong, natural material used in building.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which room is closest to the main entrance to greet guests?",
+        "type": "mcq",
+        "o": [
+            "Foyer",
+            "Bedroom",
+            "Garage",
+            "Attic"
+        ]
+    },
+    {
+        "q": "The ______ is the strong base on which the whole building stands.",
+        "type": "fill_blank",
+        "answers": [
+            "foundation"
+        ],
+        "other_options": [
+            "roof",
+            "wall",
+            "window",
+            "chimney"
+        ]
+    },
+    {
+        "q": "Name the pipe that carries smoke from a fireplace outside.",
+        "type": "short_answer",
+        "answers": [
+            "chimney"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a common building material in coastal areas?",
+        "type": "mcq",
+        "o": [
+            "Coconut wood",
+            "Ice blocks",
+            "Animal skin",
+            "Plastic sheets"
+        ]
+    },
+    {
+        "q": "A ______ is used to climb from one floor to another inside the house.",
+        "type": "fill_blank",
+        "answers": [
+            "staircase",
+            "stairs"
+        ],
+        "other_options": [
+            "ladder",
+            "ramp",
+            "lift",
+            "elevator"
+        ]
+    },
+    {
+        "q": "Roofs made of tin sheets are very heavy and bad for rainy areas.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the safest room to be in during a storm, often underground?",
+        "type": "mcq",
+        "o": [
+            "Basement",
+            "Attic",
+            "Balcony",
+            "Terrace"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Weak materials, LEFT for Strong materials.",
+        "type": "swipe_cards",
+        "left_label": "Strong",
+        "right_label": "Weak",
+        "cards": {
+            "Solid Brick": "left",
+            "Dry Straw": "right",
+            "Steel beam": "left",
+            "Wet mud": "right"
+        }
+    },
+    {
+        "q": "Match the waste disposal item to its function:",
+        "type": "match",
+        "left": [
+            "Dustbin",
+            "Drain",
+            "Compost pit",
+            "Recycle bin"
+        ],
+        "right": [
+            "Collects daily trash",
+            "Carries dirty water",
+            "Makes natural fertilizer",
+            "Sorts reusable items"
+        ]
+    },
+    {
+        "q": "Unscramble the word for the tool used to sweep the floor.",
+        "type": "word_scramble",
+        "answer": "BROOM",
+        "decoys": "XJ"
+    },
+    {
+        "q": "Windows only let in light, not air.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a special house for sick or injured people?",
+        "type": "mcq",
+        "o": [
+            "Hospital",
+            "School",
+            "Mall",
+            "Hotel"
+        ]
+    },
+    {
+        "q": "Name the small hut usually built for a dog.",
+        "type": "short_answer",
+        "answers": [
+            "kennel",
+            "dog house"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A house built completely from stone is very weak.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the open space in the middle of a traditional Indian house called?",
+        "type": "mcq",
+        "o": [
+            "Courtyard",
+            "Basement",
+            "Garage",
+            "Attic"
+        ]
+    },
+    {
+        "q": "______ is a sticky grey powder used to hold bricks together.",
+        "type": "fill_blank",
+        "answers": [
+            "cement"
+        ],
+        "other_options": [
+            "flour",
+            "sand",
+            "mud",
+            "clay"
+        ]
+    },
+    {
+        "q": "Complete the sentence about strong houses:",
+        "type": "inline_dropdown",
+        "text": "Strong and permanent houses are usually made of [0] and [1].",
+        "dropdowns": [
+            {
+                "correct": "bricks",
+                "options": [
+                    "straw",
+                    "leaves",
+                    "bricks"
+                ]
+            },
+            {
+                "correct": "cement",
+                "options": [
+                    "ice",
+                    "cement",
+                    "paper"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is a natural light source for a home during the day?",
+        "type": "mcq",
+        "o": [
+            "Sunlight",
+            "Candle",
+            "Lamp",
+            "Torch"
+        ]
+    },
+    {
+        "q": "It is healthy to sleep with all windows tightly shut all the time.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the room or building for cooking called in a school or hotel?",
+        "type": "short_answer",
+        "answers": [
+            "kitchen",
+            "mess"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a small house built with logs of wood.",
+        "type": "fill_blank",
+        "answers": [
+            "log cabin",
+            "cabin"
+        ],
+        "other_options": [
+            "igloo",
+            "tent",
+            "palace",
+            "flat"
+        ]
+    },
+    {
+        "q": "Stainless steel is a good material for kitchen sinks because it does not rust.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these animals lives in a stable?",
+        "type": "mcq",
+        "o": [
+            "Horse",
+            "Dog",
+            "Cat",
+            "Hen"
+        ]
+    },
+    {
+        "q": "Match the animal to the home built for it:",
+        "type": "match",
+        "left": [
+            "Bird",
+            "Dog",
+            "Horse",
+            "Cow"
+        ],
+        "right": [
+            "Nest",
+            "Kennel",
+            "Stable",
+            "Shed"
+        ]
+    },
+    {
+        "q": "A bungalow has stairs inside to go to different floors.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a type of stone used in buildings?",
+        "type": "mcq",
+        "o": [
+            "Granite",
+            "Cotton",
+            "Silk",
+            "Paper"
+        ]
+    },
+    {
+        "q": "Name the person who cuts and joins wood to make doors and windows.",
+        "type": "short_answer",
+        "answers": [
+            "carpenter"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A house made of canvas and supported by a metal frame in a garden is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "gazebo",
+            "marquee"
+        ],
+        "other_options": [
+            "igloo",
+            "cabin",
+            "barn",
+            "shed"
+        ]
+    },
+    {
+        "q": "How many legs does a small tripod sitting stool have?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "Toilets and bathrooms should be kept dry and clean to prevent germs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a common roofing material in hilly areas?",
+        "type": "mcq",
+        "o": [
+            "Slate",
+            "Mud",
+            "Ice",
+            "Cloth"
+        ]
+    },
+    {
+        "q": "We use a ______ to clean the floor quickly.",
+        "type": "fill_blank",
+        "answers": [
+            "mop",
+            "vacuum cleaner"
+        ],
+        "other_options": [
+            "broom",
+            "dustpan",
+            "rag",
+            "brush"
+        ]
+    },
+    {
+        "q": "What is the outside wall of a building facing the street called?",
+        "type": "short_answer",
+        "answers": [
+            "facade",
+            "front wall"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Steel frames make skyscrapers very strong and tall.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a type of house found in forests?",
+        "type": "mcq",
+        "o": [
+            "Tree house",
+            "Underground bunker",
+            "Submarine",
+            "Penthouse"
+        ]
+    },
+    {
+        "q": "A ______ is a small wooden house in the mountains.",
+        "type": "fill_blank",
+        "answers": [
+            "chalet"
+        ],
+        "other_options": [
+            "igloo",
+            "flat",
+            "hut",
+            "tent"
+        ]
+    },
+    {
+        "q": "Old cloth and rags can be used for cleaning surfaces.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which part of the house stops rain from entering directly?",
+        "type": "mcq",
+        "o": [
+            "Eaves",
+            "Floor",
+            "Doorstep",
+            "Pillar"
+        ]
+    },
+    {
+        "q": "Name the room where families usually have meals together.",
+        "type": "short_answer",
+        "answers": [
+            "dining room"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the type of wall to the material:",
+        "type": "match",
+        "left": [
+            "Brick wall",
+            "Wooden wall",
+            "Glass wall",
+            "Stone wall"
+        ],
+        "right": [
+            "Clay bricks",
+            "Timber planks",
+            "Tempered glass",
+            "Granite blocks"
+        ]
+    },
+    {
+        "q": "Which material is best for a clear view outside?",
+        "type": "mcq",
+        "o": [
+            "Glass",
+            "Brick",
+            "Wood",
+            "Metal"
+        ]
+    },
+    {
+        "q": "A ______ is a portable house used by soldiers in the field.",
+        "type": "fill_blank",
+        "answers": [
+            "tent",
+            "barracks"
+        ],
+        "other_options": [
+            "igloo",
+            "flat",
+            "villa",
+            "palace"
+        ]
+    },
+    {
+        "q": "Match the material to the part of the house it is usually used for.",
+        "type": "memory",
+        "pairs": {
+            "Glass": "Transparent windows",
+            "Wood": "Strong doors",
+            "Steel": "Locks and keys",
+            "Tiles": "Bathroom floors"
+        }
+    },
+    {
+        "q": "Dark and damp rooms are healthy for living.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is NOT a function of a house?",
+        "type": "mcq",
+        "o": [
+            "Flying in the sky",
+            "Protection from weather",
+            "Privacy for family",
+            "Place to rest"
+        ]
+    },
+    {
+        "q": "Name the small open space attached to a flat, usually at a height.",
+        "type": "short_answer",
+        "answers": [
+            "balcony",
+            "terrace"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Concrete is a mixture of cement, sand, water, and gravel.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a home for birds built by humans called?",
+        "type": "mcq",
+        "o": [
+            "Birdhouse",
+            "Kennel",
+            "Stable",
+            "Aquarium"
+        ]
+    },
+    {
+        "q": "Which of these is NOT an animal you would keep as a pet in a house?",
+        "type": "odd_one_out",
+        "options": [
+            "Dog",
+            "Cat",
+            "Goldfish",
+            "Parrot",
+            "Lion"
+        ],
+        "correct": "Lion"
+    },
+    {
+        "q": "A ______ is a rough, simple shelter built in a forest.",
+        "type": "fill_blank",
+        "answers": [
+            "lean-to",
+            "shack"
+        ],
+        "other_options": [
+            "palace",
+            "castle",
+            "tower",
+            "dome"
+        ]
+    },
+    {
+        "q": "Which of these is a very large farm building for storing grain or animals?",
+        "type": "mcq",
+        "o": [
+            "Barn",
+            "Igloo",
+            "Tent",
+            "Garage"
+        ]
+    },
+    {
+        "q": "Sand is the only material needed to make glass.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What do we call the metal framework inside concrete to make it stronger?",
+        "type": "short_answer",
+        "answers": [
+            "reinforcement",
+            "rebar",
+            "steel rods"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for Bathroom items, LEFT for Kitchen items.",
+        "type": "swipe_cards",
+        "left_label": "Kitchen",
+        "right_label": "Bathroom",
+        "cards": {
+            "Gas Stove": "left",
+            "Shower head": "right",
+            "Refrigerator": "left",
+            "Bar of Soap": "right"
+        }
+    },
+    {
+        "q": "A house with a dome-shaped roof and a circular base is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "igloo",
+            "dome"
+        ],
+        "other_options": [
+            "flat",
+            "tent",
+            "cabin",
+            "hut"
+        ]
+    },
+    {
+        "q": "Dust and cobwebs should be removed regularly to keep the house clean.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word for the top covering of a house.",
+        "type": "word_scramble",
+        "answer": "ROOF",
+        "decoys": "VWX"
+    },
+    {
+        "q": "Which of these is an eco-friendly building material?",
+        "type": "mcq",
+        "o": [
+            "Bamboo",
+            "Plastic blocks",
+            "Cement bags",
+            "Asbestos sheets"
+        ]
+    },
+    {
+        "q": "Complete the sentence about cleaning floors:",
+        "type": "inline_dropdown",
+        "text": "First we use a [0] to sweep the dry dust, and then we use a [1] to wash the floor.",
+        "dropdowns": [
+            {
+                "correct": "broom",
+                "options": [
+                    "towel",
+                    "broom",
+                    "spoon"
+                ]
+            },
+            {
+                "correct": "mop",
+                "options": [
+                    "mop",
+                    "hammer",
+                    "plate"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The area under the door where you wipe your shoes is the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "doormat",
+            "doorstep"
+        ],
+        "other_options": [
+            "carpet",
+            "threshold",
+            "rug",
+            "floor"
+        ]
+    },
+    {
+        "q": "Pipes bring water into the house and take waste water out.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a type of apartment on the top floor of a building?",
+        "type": "mcq",
+        "o": [
+            "Penthouse",
+            "Basement",
+            "Cellar",
+            "Bungalow"
+        ]
+    },
+    {
+        "q": "Name the professional who fixes water pipes and taps.",
+        "type": "short_answer",
+        "answers": [
+            "plumber"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the house to the number of floors it typically has:",
+        "type": "match",
+        "left": [
+            "Skyscraper",
+            "Bungalow",
+            "Apartment",
+            "Hut"
+        ],
+        "right": [
+            "Many floors",
+            "One floor",
+            "Several floors",
+            "One floor"
+        ]
+    },
+    {
+        "q": "A healthy home needs both sunlight and fresh air.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a synthetic (man-made) material?",
+        "type": "mcq",
+        "o": [
+            "Plastic",
+            "Wood",
+            "Sand",
+            "Stone"
+        ]
+    },
+    {
+        "q": "A ______ is a large building where goods are manufactured.",
+        "type": "fill_blank",
+        "answers": [
+            "factory"
+        ],
+        "other_options": [
+            "house",
+            "school",
+            "hotel",
+            "shop"
+        ]
+    },
+    {
+        "q": "Earthquakes do not affect the choice of building materials.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the main entrance platform of a house called?",
+        "type": "short_answer",
+        "answers": [
+            "porch",
+            "verandah",
+            "doorstep"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a type of residence for students?",
+        "type": "mcq",
+        "o": [
+            "Hostel",
+            "Hospital",
+            "Factory",
+            "Office"
+        ]
+    },
+    {
+        "q": "How many pairs of shoes fit in a 3-shelf shoe rack if each shelf holds exactly 2 pairs?",
+        "type": "slider",
+        "min": 2,
+        "max": 8,
+        "correct": 6
+    },
+    {
+        "q": "Match the type of weather to the roof type needed.",
+        "type": "memory",
+        "pairs": {
+            "Heavy Rain": "Sloping roof so water falls",
+            "Heavy Snow": "Slanted roof to let snow slide off",
+            "Hot and Dry": "Flat roof to keep it cool"
+        }
+    },
+    {
+        "q": "A portable bed used for camping is called a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sleeping bag",
+            "camp bed"
+        ],
+        "other_options": [
+            "sofa",
+            "mattress",
+            "carpet",
+            "cushion"
+        ]
+    },
+    {
+        "q": "Washing hands before eating is a good clean home habit.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a type of mud house with a flat roof in dry areas?",
+        "type": "mcq",
+        "o": [
+            "Adobe house",
+            "Igloo",
+            "Chalet",
+            "Log cabin"
+        ]
+    },
+    {
+        "q": "Name a facility that supplies warm air in very cold houses.",
+        "type": "short_answer",
+        "answers": [
+            "heater",
+            "fireplace",
+            "central heating"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the professional to the job:",
+        "type": "match",
+        "left": [
+            "Carpenter",
+            "Electrician",
+            "Plumber",
+            "Mason"
+        ],
+        "right": [
+            "Makes furniture",
+            "Fixes wires",
+            "Fixes pipes",
+            "Lays bricks"
+        ]
+    },
+    {
+        "q": "What is a person who lives next door to you called?",
+        "type": "mcq",
+        "o": [
+            "Neighbour",
+            "Stranger",
+            "Visitor",
+            "Guest"
+        ]
+    },
+    {
+        "q": "A ______ is a plot of open land right around a house.",
+        "type": "fill_blank",
+        "answers": [
+            "yard",
+            "compound"
+        ],
+        "other_options": [
+            "roof",
+            "balcony",
+            "attic",
+            "basement"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a worker who helps build a house?",
+        "type": "odd_one_out",
+        "options": [
+            "Carpenter",
+            "Mason",
+            "Plumber",
+            "Electrician",
+            "Clown"
+        ],
+        "correct": "Clown"
+    },
+    {
+        "q": "Air conditioners and fans help in keeping the indoor air fresh naturally.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which material is made by mixing cement, sand, gravel, and water?",
+        "type": "mcq",
+        "o": [
+            "Concrete",
+            "Mortar",
+            "Plaster",
+            "Clay"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Bedroom items, LEFT for Living Room items.",
+        "type": "swipe_cards",
+        "left_label": "Living Room",
+        "right_label": "Bedroom",
+        "cards": {
+            "Large Sofa": "left",
+            "Comfortable Bed": "right",
+            "Television": "left",
+            "Sleeping Pillow": "right"
+        }
+    },
+    {
+        "q": "A house built underground to save energy is called an ______ house.",
+        "type": "fill_blank",
+        "answers": [
+            "earth-sheltered",
+            "underground"
+        ],
+        "other_options": [
+            "tree",
+            "stilt",
+            "floating",
+            "pent"
+        ]
+    },
+    {
+        "q": "Terracotta tiles are made from baked clay and used for roofing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word for the room where we sleep at night.",
+        "type": "word_scramble",
+        "answer": "BEDROOM",
+        "decoys": "QZ"
+    },
+    {
+        "q": "Name the horizontal beam placed above doors and windows to support the wall above.",
+        "type": "short_answer",
+        "answers": [
+            "lintel"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is a large, luxurious country house called?",
+        "type": "mcq",
+        "o": [
+            "Villa",
+            "Tent",
+            "Hut",
+            "Flat"
+        ]
+    },
+    {
+        "q": "Complete the sentence about sunlight:",
+        "type": "inline_dropdown",
+        "text": "Sunlight is good for the house because it kills [0] and gives us [1] in winter.",
+        "dropdowns": [
+            {
+                "correct": "germs",
+                "options": [
+                    "plants",
+                    "germs",
+                    "pets"
+                ]
+            },
+            {
+                "correct": "warmth",
+                "options": [
+                    "warmth",
+                    "cold",
+                    "rain"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the architectural style to its common feature:",
+        "type": "match",
+        "left": [
+            "Victorian",
+            "Modern",
+            "Gothic",
+            "Colonial"
+        ],
+        "right": [
+            "Ornate details",
+            "Clean straight lines",
+            "Pointed arches",
+            "Large columns"
+        ]
+    },
+    {
+        "q": "Vaulted ceilings help keep rooms cooler in hot climates.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which room is specifically designed for washing and drying clothes?",
+        "type": "mcq",
+        "o": [
+            "Laundry room",
+            "Kitchen",
+            "Bathroom",
+            "Living room"
+        ]
+    },
+    {
+        "q": "A ______ is a window that projects outward from the wall of a house.",
+        "type": "fill_blank",
+        "answers": [
+            "bay window"
+        ],
+        "other_options": [
+            "skylight",
+            "porthole",
+            "dormer",
+            "clerestory"
+        ]
+    },
+    {
+        "q": "Name the plastic material used for water pipes and window frames.",
+        "type": "short_answer",
+        "answers": [
+            "pvc",
+            "polyvinyl chloride",
+            "upvc"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a traditional Japanese house style with sliding doors?",
+        "type": "mcq",
+        "o": [
+            "Minka",
+            "Chalet",
+            "Igloo",
+            "Teepee"
+        ]
+    },
+    {
+        "q": "The triangular wall at the end of a pitched roof is the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "gable"
+        ],
+        "other_options": [
+            "eaves",
+            "dormer",
+            "parapet",
+            "cornice"
+        ]
+    },
+    {
+        "q": "Insulation in walls keeps a house warm in winter and cool in summer.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call a house that uses solar panels on the roof?",
+        "type": "mcq",
+        "o": [
+            "Solar-powered home",
+            "Wind-powered home",
+            "Gas-powered home",
+            "Oil-powered home"
+        ]
+    },
+    {
+        "q": "Match the roof type to its shape:",
+        "type": "match",
+        "left": [
+            "Gable roof",
+            "Hip roof",
+            "Flat roof",
+            "Mansard roof"
+        ],
+        "right": [
+            "Inverted V-shape",
+            "Slopes on all four sides",
+            "Almost level",
+            "Double slope on each side"
+        ]
+    },
+    {
+        "q": "A ______ is a small window above a door, usually to let in light.",
+        "type": "fill_blank",
+        "answers": [
+            "fanlight",
+            "transom"
+        ],
+        "other_options": [
+            "skylight",
+            "porthole",
+            "bay window",
+            "slider"
+        ]
+    },
+    {
+        "q": "Which of these is a pest that often damages wooden structures?",
+        "type": "mcq",
+        "o": [
+            "Termite",
+            "Housefly",
+            "Mosquito",
+            "Ant"
+        ]
+    },
+    {
+        "q": "Name the sharp, needle-like leaves used for thatching roofs in Europe.",
+        "type": "short_answer",
+        "answers": [
+            "pine needles",
+            "reed",
+            "straw"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Gutters collect rainwater from the roof and channel it away.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a floating home permanently anchored?",
+        "type": "mcq",
+        "o": [
+            "Houseboat",
+            "Sailboat",
+            "Raft",
+            "Canoe"
+        ]
+    },
+    {
+        "q": "How many water taps are usually on a simple bathroom sink?",
+        "type": "slider",
+        "min": 0,
+        "max": 4,
+        "correct": 1
+    },
+    {
+        "q": "A ______ is a room or space directly under a sloping roof.",
+        "type": "fill_blank",
+        "answers": [
+            "attic"
+        ],
+        "other_options": [
+            "cellar",
+            "basement",
+            "garage",
+            "porch"
+        ]
+    },
+    {
+        "q": "Asbestos is a safe material often used in modern homes.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the board running along the bottom of an interior wall called?",
+        "type": "mcq",
+        "o": [
+            "Skirting board",
+            "Crown molding",
+            "Door frame",
+            "Wall panel"
+        ]
+    },
+    {
+        "q": "Name the traditional arched dwelling made of ice blocks.",
+        "type": "short_answer",
+        "answers": [
+            "igloo"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the household system to its function:",
+        "type": "match",
+        "left": [
+            "HVAC",
+            "Plumbing",
+            "Electrical wiring",
+            "Solar panels"
+        ],
+        "right": [
+            "Heating and cooling",
+            "Water supply",
+            "Power supply",
+            "Generates electricity"
+        ]
+    },
+    {
+        "q": "Which of these is a house built of logs stacked horizontally?",
+        "type": "mcq",
+        "o": [
+            "Log cabin",
+            "Igloo",
+            "Adobe house",
+            "Wattle and daub"
+        ]
+    },
+    {
+        "q": "A ______ is a small, roofed entrance outside the main door.",
+        "type": "fill_blank",
+        "answers": [
+            "portico"
+        ],
+        "other_options": [
+            "garage",
+            "cellar",
+            "attic",
+            "dormer"
+        ]
+    },
+    {
+        "q": "Double-glazed windows have two glass panes for better insulation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the decorative trim around a window or door opening called?",
+        "type": "mcq",
+        "o": [
+            "Casing",
+            "Sill",
+            "Jamb",
+            "Threshold"
+        ]
+    },
+    {
+        "q": "Name the device that measures the amount of electricity used in a home.",
+        "type": "short_answer",
+        "answers": [
+            "electric meter",
+            "meter",
+            "power meter"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a dome-shaped snow dwelling?",
+        "type": "mcq",
+        "o": [
+            "Igloo",
+            "Yurt",
+            "Teepee",
+            "Wigwam"
+        ]
+    },
+    {
+        "q": "A ______ is a small space for keeping garden tools.",
+        "type": "fill_blank",
+        "answers": [
+            "shed"
+        ],
+        "other_options": [
+            "garage",
+            "basement",
+            "hall",
+            "porch"
+        ]
+    },
+    {
+        "q": "A conservatory is a room with glass walls and roof to enjoy sunlight.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the special house with where you would find it.",
+        "type": "memory",
+        "pairs": {
+            "Caravan": "Moving on roads",
+            "Houseboat": "Floating on lakes",
+            "Treehouse": "Built on high branches",
+            "Igloo": "In snowy areas"
+        }
+    },
+    {
+        "q": "Which of these is a fire-resistant building material?",
+        "type": "mcq",
+        "o": [
+            "Gypsum board",
+            "Dry wood",
+            "Thatch",
+            "Paper"
+        ]
+    },
+    {
+        "q": "Name the underground room used for storing wine and food.",
+        "type": "short_answer",
+        "answers": [
+            "cellar",
+            "wine cellar"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT found in a bathroom?",
+        "type": "odd_one_out",
+        "options": [
+            "Soap",
+            "Shampoo",
+            "Towel",
+            "Toothbrush",
+            "Frying pan"
+        ],
+        "correct": "Frying pan"
+    },
+    {
+        "q": "Match the flooring material to its description:",
+        "type": "match",
+        "left": [
+            "Marble",
+            "Wooden parquet",
+            "Vinyl",
+            "Ceramic tile"
+        ],
+        "right": [
+            "Natural stone, shiny",
+            "Small wood blocks pattern",
+            "Synthetic, soft feel",
+            "Baked clay, durable"
+        ]
+    },
+    {
+        "q": "A ______ is a projecting structure from a wall, usually with a railing.",
+        "type": "fill_blank",
+        "answers": [
+            "balcony"
+        ],
+        "other_options": [
+            "staircase",
+            "chimney",
+            "gutter",
+            "ridge"
+        ]
+    },
+    {
+        "q": "Radiant floor heating warms a room from the ceiling down.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Swipe RIGHT for Tool, LEFT for Worker.",
+        "type": "swipe_cards",
+        "left_label": "Worker",
+        "right_label": "Tool",
+        "cards": {
+            "Carpenter": "left",
+            "Hammer": "right",
+            "Plumber": "left",
+            "Wrench": "right"
+        }
+    },
+    {
+        "q": "What is the name for a Native American tent made of buffalo hide?",
+        "type": "mcq",
+        "o": [
+            "Teepee",
+            "Igloo",
+            "Yurt",
+            "Longhouse"
+        ]
+    },
+    {
+        "q": "______ is the process of treating rubber or plastic for use as insulation on wires.",
+        "type": "fill_blank",
+        "answers": [
+            "vulcanization",
+            "extrusion"
+        ],
+        "other_options": [
+            "oxidation",
+            "galvanization",
+            "anodizing",
+            "plating"
+        ]
+    },
+    {
+        "q": "Hardwood like teak is preferred for furniture due to its durability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a nomadic tent used in Central Asia?",
+        "type": "mcq",
+        "o": [
+            "Yurt",
+            "Teepee",
+            "Igloo",
+            "Mudhif"
+        ]
+    },
+    {
+        "q": "Name the vertical channel that carries smoke from a fireplace.",
+        "type": "short_answer",
+        "answers": [
+            "chimney",
+            "flue"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is a house with one thick wall shared with a neighbouring house called?",
+        "type": "mcq",
+        "o": [
+            "Semi-detached",
+            "Detached",
+            "Terrace",
+            "Bungalow"
+        ]
+    },
+    {
+        "q": "A ______ is a window installed on a sloping roof.",
+        "type": "fill_blank",
+        "answers": [
+            "skylight",
+            "roof window"
+        ],
+        "other_options": [
+            "bay window",
+            "casement",
+            "slider",
+            "hopper"
+        ]
+    },
+    {
+        "q": "Clay tiles keep houses cooler than metal sheets in summer.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a water-efficient bathroom fixture?",
+        "type": "mcq",
+        "o": [
+            "Large rain shower head with no flow control",
+            "Low-flow faucet",
+            "Dual-flush toilet",
+            "Sensor tap"
+        ]
+    },
+    {
+        "q": "Match the construction term to its meaning:",
+        "type": "match",
+        "left": [
+            "Rafter",
+            "Joist",
+            "Stud",
+            "Sill plate"
+        ],
+        "right": [
+            "Supports the roof",
+            "Supports the floor",
+            "Vertical wall frame",
+            "Bottom horizontal beam"
+        ]
+    },
+    {
+        "q": "A ______ is a communal residential building found in some Native American cultures.",
+        "type": "fill_blank",
+        "answers": [
+            "longhouse",
+            "pueblo"
+        ],
+        "other_options": [
+            "igloo",
+            "castle",
+            "villa",
+            "lodge"
+        ]
+    },
+    {
+        "q": "Name the strong, thick paper used as a backing for wall tiles or drywall.",
+        "type": "short_answer",
+        "answers": [
+            "backer board",
+            "gypsum board",
+            "drywall"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A septic tank is a small container for storing drinking water.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a mobile house made from a converted bus?",
+        "type": "mcq",
+        "o": [
+            "Skoolie",
+            "Caravan",
+            "RV",
+            "Truck camper"
+        ]
+    },
+    {
+        "q": "The curved structure spanning an opening is called an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "arch"
+        ],
+        "other_options": [
+            "column",
+            "beam",
+            "lintel",
+            "truss"
+        ]
+    },
+    {
+        "q": "Storm shutters protect windows from flying debris during cyclones.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call a house built with a frame of timber and filled with mud?",
+        "type": "mcq",
+        "o": [
+            "Wattle and daub house",
+            "Log cabin",
+            "Adobe house",
+            "Cob house"
+        ]
+    },
+    {
+        "q": "Name the flat board at the base of a window frame.",
+        "type": "short_answer",
+        "answers": [
+            "window sill",
+            "sill"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is an open gallery or balcony, often with a roof, attached to a house.",
+        "type": "fill_blank",
+        "answers": [
+            "verandah",
+            "porch"
+        ],
+        "other_options": [
+            "attic",
+            "garage",
+            "cellar",
+            "turret"
+        ]
+    },
+    {
+        "q": "Which of these is a common house type in earthquake-prone Japan?",
+        "type": "mcq",
+        "o": [
+            "Flexible wooden frame house",
+            "Heavy concrete bunker",
+            "All-glass house",
+            "Dry stone house"
+        ]
+    },
+    {
+        "q": "A thatched roof has excellent insulation properties.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word for the material mostly used to make tables and chairs.",
+        "type": "word_scramble",
+        "answer": "WOOD",
+        "decoys": "RT"
+    },
+    {
+        "q": "What is the small tower on a castle or building called?",
+        "type": "mcq",
+        "o": [
+            "Turret",
+            "Dome",
+            "Spire",
+            "Pillar"
+        ]
+    },
+    {
+        "q": "Match the type of window to its opening mechanism:",
+        "type": "match",
+        "left": [
+            "Casement",
+            "Sliding",
+            "Awning",
+            "Double-hung"
+        ],
+        "right": [
+            "Hinged on the side",
+            "Moves horizontally",
+            "Hinged at the top",
+            "Moves vertically"
+        ]
+    },
+    {
+        "q": "A ______ is a water-resistant floor covering made of stone chips and cement.",
+        "type": "fill_blank",
+        "answers": [
+            "terrazzo"
+        ],
+        "other_options": [
+            "linoleum",
+            "vinyl",
+            "parquet",
+            "carpet"
+        ]
+    },
+    {
+        "q": "Name the hard coating applied to walls to make them smooth and white.",
+        "type": "short_answer",
+        "answers": [
+            "plaster",
+            "putty"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Lightweight concrete blocks are heavier than solid concrete blocks.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence about animal homes:",
+        "type": "inline_dropdown",
+        "text": "Wild birds build a [0] in the trees, while a pet dog sleeps in a [1].",
+        "dropdowns": [
+            {
+                "correct": "nest",
+                "options": [
+                    "web",
+                    "nest",
+                    "hive"
+                ]
+            },
+            {
+                "correct": "kennel",
+                "options": [
+                    "kennel",
+                    "stable",
+                    "cave"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these is a round tent-like dwelling used by Mongolian nomads?",
+        "type": "mcq",
+        "o": [
+            "Ger",
+            "Teepee",
+            "Adobe",
+            "Longhouse"
+        ]
+    },
+    {
+        "q": "The horizontal board along the edge of a roof is called the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "fascia"
+        ],
+        "other_options": [
+            "gable",
+            "rafter",
+            "truss",
+            "soffit"
+        ]
+    },
+    {
+        "q": "If you clean your room for 10 minutes and sweep the hall for 5 minutes, how many total minutes did you work?",
+        "type": "slider",
+        "min": 5,
+        "max": 20,
+        "correct": 15
+    },
+    {
+        "q": "Recycling water from sinks for flushing toilets is called greywater recycling.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a type of dwelling carved into soft rock cliffs?",
+        "type": "mcq",
+        "o": [
+            "Cliff dwelling",
+            "Stilt house",
+            "Lighthouse",
+            "Windmill"
+        ]
+    },
+    {
+        "q": "Name the professional who installs and repairs roof gutters and downpipes.",
+        "type": "short_answer",
+        "answers": [
+            "roof plumber",
+            "gutter installer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a vertical support pillar made of stone or concrete.",
+        "type": "fill_blank",
+        "answers": [
+            "column",
+            "pillar"
+        ],
+        "other_options": [
+            "beam",
+            "lintel",
+            "joist",
+            "stud"
+        ]
+    },
+    {
+        "q": "Match the good habit with its action.",
+        "type": "memory",
+        "pairs": {
+            "Throwing trash": "Use the dustbin",
+            "Taking off shoes": "Put them in shoe rack",
+            "Washing hands": "Use soap and water",
+            "Folding clothes": "Keep in cupboard"
+        }
+    },
+    {
+        "q": "Which of these is a long, narrow house with shared side walls?",
+        "type": "mcq",
+        "o": [
+            "Terraced house",
+            "Semi-detached",
+            "Bungalow",
+            "Farmhouse"
+        ]
+    },
+    {
+        "q": "Earthbag construction uses bags filled with soil to build walls.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the system that collects rainwater from roofs for later use?",
+        "type": "mcq",
+        "o": [
+            "Rainwater harvesting",
+            "Greywater recycling",
+            "Desalination",
+            "Distillation"
+        ]
+    },
+    {
+        "q": "A ______ is a small building or part of a building that is higher than the main roof.",
+        "type": "fill_blank",
+        "answers": [
+            "tower",
+            "turret",
+            "spire"
+        ],
+        "other_options": [
+            "basement",
+            "ditch",
+            "tunnel",
+            "ramp"
+        ]
+    },
+    {
+        "q": "Vernacular architecture refers to buildings made using local materials and traditions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the flat concrete platform that forms the base of a building.",
+        "type": "short_answer",
+        "answers": [
+            "slab",
+            "foundation slab"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a house built on a framework of large bamboo or wooden poles?",
+        "type": "mcq",
+        "o": [
+            "Stilt house",
+            "Basement house",
+            "Tent",
+            "Cave"
+        ]
+    },
+    {
+        "q": "Match the insulation material to its origin:",
+        "type": "match",
+        "left": [
+            "Fiberglass",
+            "Sheep's wool",
+            "Cellulose",
+            "Polystyrene"
+        ],
+        "right": [
+            "Recycled glass",
+            "Animal fleece",
+            "Recycled paper",
+            "Petroleum-based"
+        ]
+    },
+    {
+        "q": "A ______ is a recessed, often arched space in a wall.",
+        "type": "fill_blank",
+        "answers": [
+            "alcove",
+            "niche"
+        ],
+        "other_options": [
+            "column",
+            "beam",
+            "eaves",
+            "dormer"
+        ]
+    },
+    {
+        "q": "Copper pipes are sometimes used for plumbing because they resist rust.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the small, enclosed structure on a rooftop giving access to stairs called?",
+        "type": "mcq",
+        "o": [
+            "Penthouse",
+            "Cellar",
+            "Bunker",
+            "Shed"
+        ]
+    },
+    {
+        "q": "Name the device on the roof that spins to pull hot air out of the attic.",
+        "type": "short_answer",
+        "answers": [
+            "turbine vent",
+            "whirlybird"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT found in a kitchen?",
+        "type": "odd_one_out",
+        "options": [
+            "Spoon",
+            "Plate",
+            "Bowl",
+            "Stove",
+            "Pillow"
+        ],
+        "correct": "Pillow"
+    },
+    {
+        "q": "Which of these is a traditional reed house built in the marshes of Iraq?",
+        "type": "mcq",
+        "o": [
+            "Mudhif",
+            "Igloo",
+            "Teepee",
+            "Yurt"
+        ]
+    },
+    {
+        "q": "A ______ is a vertical pipe carrying waste water down from the upper floors.",
+        "type": "fill_blank",
+        "answers": [
+            "soil stack",
+            "downpipe"
+        ],
+        "other_options": [
+            "gutter",
+            "flue",
+            "duct",
+            "conduit"
+        ]
+    },
+    {
+        "q": "Sump pumps are used in basements to prevent flooding.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is an opening on a roof to let in fresh air?",
+        "type": "mcq",
+        "o": [
+            "Roof vent",
+            "Chimney cap",
+            "Skylight frame",
+            "Gutter guard"
+        ]
+    },
+    {
+        "q": "______ is a building technique using layers of stones without mortar.",
+        "type": "fill_blank",
+        "answers": [
+            "dry stone"
+        ],
+        "other_options": [
+            "brickwork",
+            "concrete",
+            "wattle",
+            "cob"
+        ]
+    },
+    {
+        "q": "Name the tall, pointed structure on top of a church or cathedral.",
+        "type": "short_answer",
+        "answers": [
+            "spire",
+            "steeple"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the door type to its feature:",
+        "type": "match",
+        "left": [
+            "French door",
+            "Sliding door",
+            "Pocket door",
+            "Flush door"
+        ],
+        "right": [
+            "Glass panes full length",
+            "Moves sideways",
+            "Slides into wall cavity",
+            "Smooth flat surface"
+        ]
+    },
+    {
+        "q": "A cantilever is a beam supported only at one end.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a house made of stacked turf and grass in Iceland?",
+        "type": "mcq",
+        "o": [
+            "Turf house",
+            "Igloo",
+            "Log cabin",
+            "Stilt house"
+        ]
+    },
+    {
+        "q": "A ______ is a horizontal structural member supporting a ceiling or floor.",
+        "type": "fill_blank",
+        "answers": [
+            "joist",
+            "beam"
+        ],
+        "other_options": [
+            "stud",
+            "rafter",
+            "sill",
+            "lintel"
+        ]
+    },
+    {
+        "q": "Smart home technology can control lights, locks, and thermostats.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Night time, LEFT for Day time.",
+        "type": "swipe_cards",
+        "left_label": "Day Time",
+        "right_label": "Night Time",
+        "cards": {
+            "Bright Sun": "left",
+            "Glowing Moon": "right",
+            "Natural sunlight inside": "left",
+            "Turning on electric lights": "right"
+        }
+    },
+    {
+        "q": "What is the decorative molding along the top of a wall near the ceiling called?",
+        "type": "mcq",
+        "o": [
+            "Crown molding",
+            "Baseboard",
+            "Chair rail",
+            "Wainscot"
+        ]
+    },
+    {
+        "q": "Name the underground concrete structure that holds a building steady.",
+        "type": "short_answer",
+        "answers": [
+            "footing",
+            "foundation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word for homes inside a tall apartment building.",
+        "type": "word_scramble",
+        "answer": "FLATS",
+        "decoys": "QW"
+    },
+    {
+        "q": "A ______ house uses thick walls made from a mixture of clay, sand, and straw.",
+        "type": "fill_blank",
+        "answers": [
+            "cob"
+        ],
+        "other_options": [
+            "adobe",
+            "brick",
+            "wattle",
+            "timber"
+        ]
+    },
+    {
+        "q": "Polycarbonate sheets are sometimes used as unbreakable roofing in sheds.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about roofs in rainy areas:",
+        "type": "inline_dropdown",
+        "text": "Houses in places with heavy rain have [0] roofs so the water can slide [1] easily.",
+        "dropdowns": [
+            {
+                "correct": "sloping",
+                "options": [
+                    "flat",
+                    "sloping",
+                    "round"
+                ]
+            },
+            {
+                "correct": "down",
+                "options": [
+                    "up",
+                    "inside",
+                    "down"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "How many hinges are typically used to hold a standard bedroom door to the wall?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "Which of these is a multi-story house where each floor belongs to different families?",
+        "type": "mcq",
+        "o": [
+            "Apartment building",
+            "Bungalow",
+            "Villa",
+            "Farmhouse"
+        ]
+    },
+    {
+        "q": "Match the healthy home element with its benefit.",
+        "type": "memory",
+        "pairs": {
+            "Sunlight": "Dries up dampness",
+            "Fresh air": "Helps us breathe well",
+            "Indoor Plants": "Gives fresh oxygen",
+            "Wire mesh on windows": "Stops mosquitoes"
+        }
+    },
+    {
+        "q": "Match the type of foundation to the soil condition:",
+        "type": "match",
+        "left": [
+            "Raft foundation",
+            "Pile foundation",
+            "Strip foundation",
+            "Pad foundation"
+        ],
+        "right": [
+            "Soft soil",
+            "Deep soft soil",
+            "Load-bearing walls",
+            "Isolated columns"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a house that moves?",
+        "type": "odd_one_out",
+        "options": [
+            "Caravan",
+            "Houseboat",
+            "Tent on a cart",
+            "Brick wall",
+            "Motorhome"
+        ],
+        "correct": "Brick wall"
+    },
+    {
+        "q": "A ______ is a covered walkway open on one side, typically with columns.",
+        "type": "fill_blank",
+        "answers": [
+            "colonnade",
+            "arcade"
+        ],
+        "other_options": [
+            "tunnel",
+            "bridge",
+            "ramp",
+            "atrium"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Outside the house, LEFT for Inside the house.",
+        "type": "swipe_cards",
+        "left_label": "Inside",
+        "right_label": "Outside",
+        "cards": {
+            "Kitchen sink": "left",
+            "Garden area": "right",
+            "Bedroom closet": "left",
+            "Front gate": "right"
+        }
+    },
+    {
+        "q": "Proper drainage around the house prevents dampness and mold.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word for the worker who fixes water pipes.",
+        "type": "word_scramble",
+        "answer": "PLUMBER",
+        "decoys": "YX"
+    },
+    {
+        "q": "Which structural system uses a rigid frame of beams and columns to resist wind loads?",
+        "type": "mcq",
+        "o": [
+            "Moment-resisting frame",
+            "Load-bearing wall",
+            "Cantilever slab",
+            "Truss bridge"
+        ]
+    },
+    {
+        "q": "Complete the sentence about caravans:",
+        "type": "inline_dropdown",
+        "text": "A caravan moves on [0] and can easily travel from one [1] to another.",
+        "dropdowns": [
+            {
+                "correct": "wheels",
+                "options": [
+                    "water",
+                    "wheels",
+                    "tracks"
+                ]
+            },
+            {
+                "correct": "place",
+                "options": [
+                    "place",
+                    "planet",
+                    "ocean"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A ______ is a space between the ceiling and the roof, often used for ventilation.",
+        "type": "fill_blank",
+        "answers": [
+            "attic"
+        ],
+        "other_options": [
+            "crawlspace",
+            "basement",
+            "mezzanine",
+            "plenum"
+        ]
+    },
+    {
+        "q": "Rammed earth construction uses a mixture of soil, clay, and cement compacted into forms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the bathroom item with its correct use.",
+        "type": "memory",
+        "pairs": {
+            "Soap": "Washing the body",
+            "Towel": "Drying off water",
+            "Toothbrush": "Cleaning teeth",
+            "Bucket": "Holding bath water"
+        }
+    },
+    {
+        "q": "Name the structural element that distributes the load from a column to the soil.",
+        "type": "short_answer",
+        "answers": [
+            "footing",
+            "foundation footing"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is a building method using large prefabricated panels assembled on-site called?",
+        "type": "mcq",
+        "o": [
+            "Panelized construction",
+            "Stick framing",
+            "Balloon framing",
+            "Modular pod"
+        ]
+    },
+    {
+        "q": "Match the foundation type to its depth characteristic:",
+        "type": "match",
+        "left": [
+            "Shallow foundation",
+            "Deep foundation",
+            "Mat foundation",
+            "Caisson foundation"
+        ],
+        "right": [
+            "Depth less than width",
+            "Depth exceeds width",
+            "Entire slab floats",
+            "Watertight cylinder sunk deep"
+        ]
+    },
+    {
+        "q": "A clerestory window is a row of windows placed high on a wall to bring in natural light.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a sustainable building certification system?",
+        "type": "mcq",
+        "o": [
+            "LEED",
+            "FDA",
+            "FEMA",
+            "OSHA"
+        ]
+    },
+    {
+        "q": "The ______ is the vertical distance between two consecutive floors in a building.",
+        "type": "fill_blank",
+        "answers": [
+            "floor height",
+            "storey height"
+        ],
+        "other_options": [
+            "clear height",
+            "headroom",
+            "plenum depth",
+            "ceiling void"
+        ]
+    },
+    {
+        "q": "Name the structural member that transfers roof loads to the walls in traditional framing.",
+        "type": "short_answer",
+        "answers": [
+            "rafter",
+            "truss"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a traditional Scandinavian log house technique?",
+        "type": "mcq",
+        "o": [
+            "Scribed log building",
+            "Half-timbering",
+            "Wattle and daub",
+            "Cob building"
+        ]
+    },
+    {
+        "q": "A ______ is a triangular structural framework used to support roofs and bridges.",
+        "type": "fill_blank",
+        "answers": [
+            "truss"
+        ],
+        "other_options": [
+            "arch",
+            "vault",
+            "dome",
+            "cantilever"
+        ]
+    },
+    {
+        "q": "Geothermal heat pumps use the constant temperature of the earth to heat and cool homes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for a building that produces as much energy as it consumes?",
+        "type": "mcq",
+        "o": [
+            "Net-zero energy building",
+            "Passive house",
+            "Smart home",
+            "Off-grid cabin"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Bad Habits, LEFT for Good Habits.",
+        "type": "swipe_cards",
+        "left_label": "Good Habit",
+        "right_label": "Bad Habit",
+        "cards": {
+            "Flushing the toilet": "left",
+            "Leaving lights on all day": "right",
+            "Using the dustbin": "left",
+            "Wasting tap water": "right"
+        }
+    },
+    {
+        "q": "Match the building material to its embodied energy level:",
+        "type": "match",
+        "left": [
+            "Concrete",
+            "Wood",
+            "Steel",
+            "Bamboo"
+        ],
+        "right": [
+            "High embodied energy",
+            "Low embodied energy",
+            "Very high embodied energy",
+            "Very low embodied energy"
+        ]
+    },
+    {
+        "q": "Unscramble the word for a very small house made of mud and straw.",
+        "type": "word_scramble",
+        "answer": "HUT",
+        "decoys": "ZPR"
+    },
+    {
+        "q": "Unscramble the word for the room where we take a shower.",
+        "type": "word_scramble",
+        "answer": "BATHROOM",
+        "decoys": "JQ"
+    },
+    {
+        "q": "A ______ is a structural wall that carries the weight of the floors and roof above.",
+        "type": "fill_blank",
+        "answers": [
+            "load-bearing wall"
+        ],
+        "other_options": [
+            "partition wall",
+            "curtain wall",
+            "shear wall",
+            "veneer wall"
+        ]
+    },
+    {
+        "q": "Phase-change materials in walls can store and release heat to regulate indoor temperature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the device that converts sunlight directly into electricity for a home.",
+        "type": "short_answer",
+        "answers": [
+            "solar panel",
+            "photovoltaic panel",
+            "PV panel"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a high-performance building standard emphasizing air-tightness?",
+        "type": "mcq",
+        "o": [
+            "Passivhaus",
+            "Baroque",
+            "Bauhaus",
+            "Gothic"
+        ]
+    },
+    {
+        "q": "Complete the sentence about throwing waste:",
+        "type": "inline_dropdown",
+        "text": "Always throw your [0] only inside the [1] to keep the house clean.",
+        "dropdowns": [
+            {
+                "correct": "garbage",
+                "options": [
+                    "clothes",
+                    "garbage",
+                    "toys"
+                ]
+            },
+            {
+                "correct": "dustbin",
+                "options": [
+                    "bed",
+                    "sofa",
+                    "dustbin"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The ______ is the main horizontal member at the top of a wall that ties studs together.",
+        "type": "fill_blank",
+        "answers": [
+            "top plate",
+            "wall plate"
+        ],
+        "other_options": [
+            "sole plate",
+            "header",
+            "sill",
+            "blocking"
+        ]
+    },
+    {
+        "q": "Cross-laminated timber is a weak material only used for temporary structures.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is a curved structure spanning a space, often made of wedge-shaped stones?",
+        "type": "mcq",
+        "o": [
+            "Arch",
+            "Beam",
+            "Column",
+            "Slab"
+        ]
+    },
+    {
+        "q": "Complete the sentence about growing plants at home:",
+        "type": "inline_dropdown",
+        "text": "Potted plants in our balcony need fresh [0] and warm [1] to grow big.",
+        "dropdowns": [
+            {
+                "correct": "water",
+                "options": [
+                    "milk",
+                    "water",
+                    "oil"
+                ]
+            },
+            {
+                "correct": "sunlight",
+                "options": [
+                    "sunlight",
+                    "darkness",
+                    "wind"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the air quality term to its definition:",
+        "type": "match",
+        "left": [
+            "VOC",
+            "PM2.5",
+            "Radon",
+            "Mold spore"
+        ],
+        "right": [
+            "Volatile organic compound",
+            "Fine particulate matter",
+            "Radioactive soil gas",
+            "Fungal reproductive unit"
+        ]
+    },
+    {
+        "q": "A ______ is a vertical shaft in a multi-story building for pipes and ducts.",
+        "type": "fill_blank",
+        "answers": [
+            "chase",
+            "riser shaft"
+        ],
+        "other_options": [
+            "stud bay",
+            "joist space",
+            "soffit",
+            "plenum"
+        ]
+    },
+    {
+        "q": "Match the kitchen item with its function.",
+        "type": "memory",
+        "pairs": {
+            "Gas Stove": "Cooking raw food",
+            "Refrigerator": "Keeping food cold",
+            "Kitchen Sink": "Washing dirty plates",
+            "Cupboards": "Storing dry groceries"
+        }
+    },
+    {
+        "q": "Name the water-resistant barrier installed behind shower tiles.",
+        "type": "short_answer",
+        "answers": [
+            "waterproofing membrane",
+            "shower liner",
+            "backer board"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a type of prefabricated home built in a factory?",
+        "type": "mcq",
+        "o": [
+            "Modular home",
+            "Stick-built home",
+            "Site-built home",
+            "Adobe home"
+        ]
+    },
+    {
+        "q": "The ______ is the horizontal member that supports the ends of floor joists at a staircase opening.",
+        "type": "fill_blank",
+        "answers": [
+            "header",
+            "trimmer"
+        ],
+        "other_options": [
+            "sill",
+            "stud",
+            "rafter",
+            "purlin"
+        ]
+    },
+    {
+        "q": "Green roofs provide insulation and reduce stormwater runoff.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for a wall panel made of a foam core between two rigid boards?",
+        "type": "mcq",
+        "o": [
+            "Structural insulated panel",
+            "Oriented strand board",
+            "Plywood sheathing",
+            "Gypsum board"
+        ]
+    },
+    {
+        "q": "A ______ is a horizontal member placed between studs to provide rigidity and fire blocking.",
+        "type": "fill_blank",
+        "answers": [
+            "blocking",
+            "nogging"
+        ],
+        "other_options": [
+            "header",
+            "sill",
+            "brace",
+            "joist"
+        ]
+    },
+    {
+        "q": "Thermal bridging occurs when a conductive material bypasses wall insulation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the device that recovers heat from exhaust air and preheats incoming fresh air.",
+        "type": "short_answer",
+        "answers": [
+            "heat recovery ventilator",
+            "HRV",
+            "energy recovery ventilator",
+            "ERV"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a traditional English building technique using woven sticks and clay?",
+        "type": "mcq",
+        "o": [
+            "Wattle and daub",
+            "Cob",
+            "Rammed earth",
+            "Adobe"
+        ]
+    },
+    {
+        "q": "Match the roof covering to its typical lifespan:",
+        "type": "match",
+        "left": [
+            "Asphalt shingles",
+            "Clay tiles",
+            "Slate roof",
+            "Metal roof"
+        ],
+        "right": [
+            "20-30 years",
+            "50-100 years",
+            "100+ years",
+            "40-70 years"
+        ]
+    },
+    {
+        "q": "A ______ is the outermost covering of a roof where it meets the gable wall.",
+        "type": "fill_blank",
+        "answers": [
+            "bargeboard",
+            "verge board"
+        ],
+        "other_options": [
+            "fascia",
+            "soffit",
+            "cornice",
+            "flashing"
+        ]
+    },
+    {
+        "q": "Earthship homes are self-sufficient dwellings made from recycled materials.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Electricity, LEFT for Water.",
+        "type": "swipe_cards",
+        "left_label": "Uses Water",
+        "right_label": "Uses Electricity",
+        "cards": {
+            "Bathroom Tap": "left",
+            "Light Bulb": "right",
+            "Shower Head": "left",
+            "Ceiling Fan": "right"
+        }
+    },
+    {
+        "q": "What is the name for a building system where floors and walls are cast in one continuous pour?",
+        "type": "mcq",
+        "o": [
+            "Monolithic construction",
+            "Tilt-up construction",
+            "Precast construction",
+            "Post-tensioned"
+        ]
+    },
+    {
+        "q": "A ______ is a thin, flexible sheet of metal used to prevent water seepage at roof joints.",
+        "type": "fill_blank",
+        "answers": [
+            "flashing"
+        ],
+        "other_options": [
+            "shingle",
+            "tile",
+            "underlayment",
+            "felt"
+        ]
+    },
+    {
+        "q": "Unscramble the word for the material that makes windows clear to see through.",
+        "type": "word_scramble",
+        "answer": "GLASS",
+        "decoys": "MZ"
+    },
+    {
+        "q": "Name the horizontal board fixed to the lower ends of rafters to support gutters.",
+        "type": "short_answer",
+        "answers": [
+            "fascia board"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a composite material made of wood strands and resin?",
+        "type": "mcq",
+        "o": [
+            "Oriented strand board",
+            "Plywood",
+            "MDF",
+            "Hardboard"
+        ]
+    },
+    {
+        "q": "The ______ is the underside of an eave, porch, or staircase.",
+        "type": "fill_blank",
+        "answers": [
+            "soffit"
+        ],
+        "other_options": [
+            "fascia",
+            "gable",
+            "lintel",
+            "parapet"
+        ]
+    },
+    {
+        "q": "Unscramble the word for the tool that washes floors with water.",
+        "type": "word_scramble",
+        "answer": "MOP",
+        "decoys": "BC"
+    },
+    {
+        "q": "Complete the sentence about washing hands:",
+        "type": "inline_dropdown",
+        "text": "Before eating, you should use [0] to wash hands and a clean [1] to dry them.",
+        "dropdowns": [
+            {
+                "correct": "soap",
+                "options": [
+                    "sand",
+                    "soap",
+                    "glue"
+                ]
+            },
+            {
+                "correct": "towel",
+                "options": [
+                    "paper",
+                    "leaf",
+                    "towel"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Post-tensioned concrete uses steel tendons tightened after the concrete has hardened.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for a wall with a cavity between inner and outer layers for moisture control?",
+        "type": "mcq",
+        "o": [
+            "Cavity wall",
+            "Solid wall",
+            "Shear wall",
+            "Retaining wall"
+        ]
+    },
+    {
+        "q": "Match the framing member to its location:",
+        "type": "match",
+        "left": [
+            "King stud",
+            "Jack stud",
+            "Cripple stud",
+            "Sill plate"
+        ],
+        "right": [
+            "Full height beside opening",
+            "Supports the header",
+            "Above or below opening",
+            "Bottom of wall frame"
+        ]
+    },
+    {
+        "q": "A ______ is a heavy timber or steel beam supporting the load above a wide opening.",
+        "type": "fill_blank",
+        "answers": [
+            "lintel",
+            "header"
+        ],
+        "other_options": [
+            "sill",
+            "joist",
+            "purlin",
+            "rafter"
+        ]
+    },
+    {
+        "q": "Complete the sentence about tall buildings:",
+        "type": "inline_dropdown",
+        "text": "A very tall building with many homes is called an [0] building, and each home is a [1].",
+        "dropdowns": [
+            {
+                "correct": "apartment",
+                "options": [
+                    "hut",
+                    "apartment",
+                    "igloo"
+                ]
+            },
+            {
+                "correct": "flat",
+                "options": [
+                    "tent",
+                    "cave",
+                    "flat"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the pest or insect to the reason it might enter the house.",
+        "type": "memory",
+        "pairs": {
+            "Mosquito": "Stagnant water near house",
+            "Housefly": "Uncovered sweet food",
+            "Cockroach": "Dirty garbage bin",
+            "Ants": "Crumbs dropped on the floor"
+        }
+    },
+    {
+        "q": "Name the rigid foam insulation applied to the exterior of a foundation wall.",
+        "type": "short_answer",
+        "answers": [
+            "extruded polystyrene",
+            "XPS",
+            "rigid foam board"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Breathable building membranes allow moisture vapor to escape while blocking liquid water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a type of movable home on a chassis, built after 1976 in the US?",
+        "type": "mcq",
+        "o": [
+            "Manufactured home",
+            "Site-built home",
+            "Log cabin",
+            "Stone cottage"
+        ]
+    },
+    {
+        "q": "The ______ is the distance a beam or slab can safely extend beyond its support.",
+        "type": "fill_blank",
+        "answers": [
+            "cantilever",
+            "overhang"
+        ],
+        "other_options": [
+            "span",
+            "rise",
+            "run",
+            "pitch"
+        ]
+    },
+    {
+        "q": "Mycelium insulation is made from the root structure of fungi.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the vertical pipe that vents sewer gases through the roof called?",
+        "type": "mcq",
+        "o": [
+            "Vent stack",
+            "Soil pipe",
+            "Drain line",
+            "Trap arm"
+        ]
+    },
+    {
+        "q": "A ______ is a type of foundation wall made of poured concrete reinforced with steel.",
+        "type": "fill_blank",
+        "answers": [
+            "reinforced concrete wall"
+        ],
+        "other_options": [
+            "dry stone wall",
+            "brick veneer",
+            "cavity wall",
+            "stud wall"
+        ]
+    },
+    {
+        "q": "Name the process of strengthening existing building foundations.",
+        "type": "short_answer",
+        "answers": [
+            "underpinning"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the HVAC component to its function:",
+        "type": "match",
+        "left": [
+            "Compressor",
+            "Evaporator coil",
+            "Condenser coil",
+            "Air handler"
+        ],
+        "right": [
+            "Pressurizes refrigerant",
+            "Absorbs indoor heat",
+            "Releases heat outside",
+            "Circulates conditioned air"
+        ]
+    },
+    {
+        "q": "A ______ is a structural element that resists lateral forces, such as wind or earthquakes.",
+        "type": "fill_blank",
+        "answers": [
+            "shear wall",
+            "bracing panel"
+        ],
+        "other_options": [
+            "partition",
+            "veneer",
+            "soffit",
+            "curtain wall"
+        ]
+    },
+    {
+        "q": "ICF stands for Insulated Concrete Forms, used for energy-efficient walls.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Animal Houses, LEFT for Human Houses.",
+        "type": "swipe_cards",
+        "left_label": "Human House",
+        "right_label": "Animal House",
+        "cards": {
+            "Wooden Cabin": "left",
+            "Bird Nest": "right",
+            "Brick Bungalow": "left",
+            "Bee Hive": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word for the place that protects us from rain, cold, and wild animals.",
+        "type": "word_scramble",
+        "answer": "HOUSE",
+        "decoys": "FQ"
+    },
+    {
+        "q": "Which of these is a dome-shaped structure made of pentagons and hexagons?",
+        "type": "mcq",
+        "o": [
+            "Geodesic dome",
+            "Barrel vault",
+            "Groin vault",
+            "Onion dome"
+        ]
+    },
+    {
+        "q": "The ______ is the flat portion of a stair step where you place your foot.",
+        "type": "fill_blank",
+        "answers": [
+            "tread"
+        ],
+        "other_options": [
+            "riser",
+            "stringer",
+            "nosing",
+            "baluster"
+        ]
+    },
+    {
+        "q": "Name the engineered wood product made of thin wood veneers glued together.",
+        "type": "short_answer",
+        "answers": [
+            "plywood",
+            "laminated veneer lumber",
+            "LVL"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a large building divided into separate living units, often with a central courtyard?",
+        "type": "mcq",
+        "o": [
+            "Condominium complex",
+            "Single-family detached",
+            "Tiny house",
+            "Earthship"
+        ]
+    },
+    {
+        "q": "A ______ is a convex roof shape, curving outward, often seen in Japanese architecture.",
+        "type": "fill_blank",
+        "answers": [
+            "curved roof",
+            "sweeping roof"
+        ],
+        "other_options": [
+            "mansard",
+            "gambrel",
+            "butterfly",
+            "saltbox"
+        ]
+    },
+    {
+        "q": "Living walls or vertical gardens can improve air quality inside and outside.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for a wall that does not carry structural loads?",
+        "type": "mcq",
+        "o": [
+            "Partition wall",
+            "Load-bearing wall",
+            "Shear wall",
+            "Foundation wall"
+        ]
+    },
+    {
+        "q": "Match the sustainable building standard to its region:",
+        "type": "match",
+        "left": [
+            "BREEAM",
+            "LEED",
+            "Green Star",
+            "CASBEE"
+        ],
+        "right": [
+            "United Kingdom",
+            "United States",
+            "Australia",
+            "Japan"
+        ]
+    },
+    {
+        "q": "A ______ is a covered opening in the roof with its own small roof, adding light and space.",
+        "type": "fill_blank",
+        "answers": [
+            "dormer"
+        ],
+        "other_options": [
+            "skylight",
+            "turret",
+            "cupola",
+            "lantern"
+        ]
+    },
+    {
+        "q": "Unscramble the word for the person who makes beds and chairs from wood.",
+        "type": "word_scramble",
+        "answer": "CARPENTER",
+        "decoys": "BZ"
+    },
+    {
+        "q": "Name the valve in plumbing that prevents contaminated water from flowing backwards.",
+        "type": "short_answer",
+        "answers": [
+            "backflow preventer",
+            "check valve"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a house made of stacked, mortared stones?",
+        "type": "mcq",
+        "o": [
+            "Stone masonry house",
+            "Log house",
+            "Timber frame",
+            "Steel frame"
+        ]
+    },
+    {
+        "q": "The ______ is the vertical part between two treads on a staircase.",
+        "type": "fill_blank",
+        "answers": [
+            "riser"
+        ],
+        "other_options": [
+            "tread",
+            "stringer",
+            "nosing",
+            "handrail"
+        ]
+    },
+    {
+        "q": "Cool roofs are designed to reflect more sunlight and absorb less heat.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about parts of a room:",
+        "type": "inline_dropdown",
+        "text": "The [0] covers the top of the house outside, and the [1] is what we walk on inside.",
+        "dropdowns": [
+            {
+                "correct": "roof",
+                "options": [
+                    "floor",
+                    "roof",
+                    "door"
+                ]
+            },
+            {
+                "correct": "floor",
+                "options": [
+                    "window",
+                    "wall",
+                    "floor"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Complete the sentence about kitchen habits:",
+        "type": "inline_dropdown",
+        "text": "We must always keep our food [0] so that dirty [1] do not sit on it.",
+        "dropdowns": [
+            {
+                "correct": "covered",
+                "options": [
+                    "open",
+                    "covered",
+                    "hidden"
+                ]
+            },
+            {
+                "correct": "flies",
+                "options": [
+                    "birds",
+                    "flies",
+                    "cats"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is a house where the main living areas are on a single floor but split at varying levels?",
+        "type": "mcq",
+        "o": [
+            "Split-level home",
+            "Ranch style",
+            "Colonial style",
+            "Cape Cod"
+        ]
+    },
+    {
+        "q": "A ______ is a shallow trench filled with gravel and a perforated pipe to redirect water.",
+        "type": "fill_blank",
+        "answers": [
+            "French drain"
+        ],
+        "other_options": [
+            "sewer line",
+            "culvert",
+            "swale",
+            "catch basin"
+        ]
+    },
+    {
+        "q": "Name the small, often decorative tower on a building, typically providing a view.",
+        "type": "short_answer",
+        "answers": [
+            "turret",
+            "belvedere",
+            "cupola"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a house type built around a central open courtyard in many cultures?",
+        "type": "mcq",
+        "o": [
+            "Courtyard house",
+            "Shotgun house",
+            "Row house",
+            "Mews house"
+        ]
+    },
+    {
+        "q": "The ______ is the trim board placed at the floor level along the base of an interior wall.",
+        "type": "fill_blank",
+        "answers": [
+            "baseboard",
+            "skirting board"
+        ],
+        "other_options": [
+            "crown molding",
+            "chair rail",
+            "casing",
+            "wainscot"
+        ]
+    },
+    {
+        "q": "Rain gardens are designed to capture roof runoff and let it soak into the ground.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a long, narrow house with rooms arranged one behind the other, no hallway?",
+        "type": "mcq",
+        "o": [
+            "Shotgun house",
+            "Ranch house",
+            "Saltbox",
+            "Tudor"
+        ]
+    },
+    {
+        "q": "Match the foundation problem to its typical cause:",
+        "type": "match",
+        "left": [
+            "Settlement cracks",
+            "Bowing walls",
+            "Damp basement",
+            "Uneven floors"
+        ],
+        "right": [
+            "Soil compaction",
+            "Hydrostatic pressure",
+            "Poor drainage",
+            "Failed pier or footing"
+        ]
+    },
+    {
+        "q": "A ______ is a type of roof with two slopes on each side, the lower slope being steeper.",
+        "type": "fill_blank",
+        "answers": [
+            "mansard roof"
+        ],
+        "other_options": [
+            "gable",
+            "hip",
+            "shed",
+            "butterfly"
+        ]
+    },
+    {
+        "q": "Smart glass can change its opacity to control light and heat entering the room.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the U-shaped pipe under a sink that traps water to block sewer gases.",
+        "type": "short_answer",
+        "answers": [
+            "p-trap",
+            "trap"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a house built into a hillside with only one side exposed?",
+        "type": "mcq",
+        "o": [
+            "Bermed home",
+            "Stilt home",
+            "Floating home",
+            "Tree house"
+        ]
+    },
+    {
+        "q": "The ______ is the angle of a roof slope, often expressed as a ratio of rise to run.",
+        "type": "fill_blank",
+        "answers": [
+            "pitch"
+        ],
+        "other_options": [
+            "span",
+            "gable",
+            "rake",
+            "eave"
+        ]
+    },
+    {
+        "q": "Aerated concrete blocks trap air bubbles, making them lighter and more insulating.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name for a self-contained living unit attached to a main house, often for elderly relatives?",
+        "type": "mcq",
+        "o": [
+            "Granny flat",
+            "Penthouse",
+            "Studio",
+            "Loft"
+        ]
+    },
+    {
+        "q": "A ______ is a vertical board running up the edge of a gable roof from the eaves to the ridge.",
+        "type": "fill_blank",
+        "answers": [
+            "barge rafter"
+        ],
+        "other_options": [
+            "fascia",
+            "soffit",
+            "purlin",
+            "valley rafter"
+        ]
+    },
+    {
+        "q": "Tiny houses on wheels are generally regulated as RVs rather than permanent homes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a building strategy using the mass of materials to moderate indoor temperature?",
+        "type": "mcq",
+        "o": [
+            "Thermal mass",
+            "Active solar",
+            "Photovoltaics",
+            "Wind turbine"
+        ]
+    },
+    {
+        "q": "Name the horizontal structural member running along the ridge of a roof.",
+        "type": "short_answer",
+        "answers": [
+            "ridge beam",
+            "ridge board"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the window style to its typical operation:",
+        "type": "match",
+        "left": [
+            "Hopper window",
+            "Pivot window",
+            "Jalousie window",
+            "Picture window"
+        ],
+        "right": [
+            "Opens inward at bottom",
+            "Rotates on central axis",
+            "Glass slats that open together",
+            "Fixed, does not open"
+        ]
+    },
+    {
+        "q": "Match the source of light in a house with its type.",
+        "type": "memory",
+        "pairs": {
+            "The Sun": "Natural daytime light",
+            "Electric Bulb": "Artificial light",
+            "Candle": "Light from fire",
+            "Window": "Lets natural light inside"
+        }
+    },
+    {
+        "q": "A ______ is a secondary roof plane that meets the main roof at a valley.",
+        "type": "fill_blank",
+        "answers": [
+            "dormer",
+            "gablet"
+        ],
+        "other_options": [
+            "soffit",
+            "fascia",
+            "parapet",
+            "cupola"
+        ]
+    },
+    {
+        "q": "Hempcrete is a biocomposite material made from hemp hurds and lime.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for carefully placing a building on a site to maximize solar gain?",
+        "type": "mcq",
+        "o": [
+            "Passive solar design",
+            "Active solar array",
+            "Geothermal exchange",
+            "Wind harvesting"
+        ]
+    },
+    {
+        "q": "The ______ is the bottom horizontal member of a door or window frame.",
+        "type": "fill_blank",
+        "answers": [
+            "sill",
+            "threshold"
+        ],
+        "other_options": [
+            "header",
+            "jamb",
+            "casing",
+            "lintel"
+        ]
+    },
+    {
+        "q": "Radon mitigation systems pull radioactive gas from under the foundation and vent it safely.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In structural engineering, what does the term 'moment' refer to?",
+        "type": "mcq",
+        "o": [
+            "Tendency of a force to cause rotation",
+            "Duration of load application",
+            "Elastic deformation limit",
+            "Critical damping factor"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Recycle Bin, LEFT for Compost Bin.",
+        "type": "swipe_cards",
+        "left_label": "Compost Bin",
+        "right_label": "Recycle Bin",
+        "cards": {
+            "Banana Peel": "left",
+            "Empty Plastic Bottle": "right",
+            "Apple Core": "left",
+            "Old Newspaper": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word for a house that floats on a lake or river.",
+        "type": "word_scramble",
+        "answer": "HOUSEBOAT",
+        "decoys": "XL"
+    },
+    {
+        "q": "A ______ is a vertical member used in framing that is shorter than a full stud, placed above or below an opening.",
+        "type": "fill_blank",
+        "answers": [
+            "cripple stud",
+            "jack stud"
+        ],
+        "other_options": [
+            "king stud",
+            "trimmer",
+            "header",
+            "sill plate"
+        ]
+    },
+    {
+        "q": "Autoclaved aerated concrete has a higher thermal resistance than standard concrete.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the structural failure mode where a column suddenly bends under compressive load.",
+        "type": "short_answer",
+        "answers": [
+            "buckling"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word for the basket where we throw wrappers and dirt.",
+        "type": "word_scramble",
+        "answer": "DUSTBIN",
+        "decoys": "PY"
+    },
+    {
+        "q": "Which foundation system uses a grid of ground beams on deep piles to reduce differential settlement?",
+        "type": "mcq",
+        "o": [
+            "Piled raft foundation",
+            "Pad footing",
+            "Strip footing",
+            "Caisson"
+        ]
+    },
+    {
+        "q": "Complete the sentence about ventilation:",
+        "type": "inline_dropdown",
+        "text": "Fresh cool air enters the house through open [0] and [1].",
+        "dropdowns": [
+            {
+                "correct": "windows",
+                "options": [
+                    "walls",
+                    "windows",
+                    "roofs"
+                ]
+            },
+            {
+                "correct": "doors",
+                "options": [
+                    "chimneys",
+                    "doors",
+                    "floors"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the timber grading method to its basis:",
+        "type": "match",
+        "left": [
+            "Visual grading",
+            "Machine stress rating",
+            "Proof grading",
+            "MSR"
+        ],
+        "right": [
+            "Eye-based defect check",
+            "Mechanical bending test",
+            "Pass-fail load test",
+            "Non-destructive stiffness test"
+        ]
+    },
+    {
+        "q": "Complete the sentence about finishing a house:",
+        "type": "inline_dropdown",
+        "text": "A [0] gives beautiful colors to the walls, and an [1] makes the fans work.",
+        "dropdowns": [
+            {
+                "correct": "painter",
+                "options": [
+                    "plumber",
+                    "painter",
+                    "mason"
+                ]
+            },
+            {
+                "correct": "electrician",
+                "options": [
+                    "carpenter",
+                    "electrician",
+                    "tailor"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the basic part of a house with what it does.",
+        "type": "memory",
+        "pairs": {
+            "Roof": "Protects from rain overhead",
+            "Walls": "Divides the rooms",
+            "Floor": "Provides a flat space to walk",
+            "Foundation": "Keeps the house standing strong"
+        }
+    },
+    {
+        "q": "The ______ is the interface between the building structure and the ground that isolates seismic motion.",
+        "type": "fill_blank",
+        "answers": [
+            "base isolation system",
+            "seismic damper"
+        ],
+        "other_options": [
+            "shear wall",
+            "moment frame",
+            "tie beam",
+            "bracing"
+        ]
+    },
+    {
+        "q": "Fiber-reinforced polymer wraps can strengthen existing concrete columns without adding weight.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for the controlled destruction of a structure after its service life?",
+        "type": "mcq",
+        "o": [
+            "Deconstruction",
+            "Renovation",
+            "Retrofitting",
+            "Adaptive reuse"
+        ]
+    },
+    {
+        "q": "Name the high-strength steel strands used to pre-compress concrete beams.",
+        "type": "short_answer",
+        "answers": [
+            "tendons",
+            "prestressing strands"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of glass has a ceramic frit pattern to reduce solar heat gain?",
+        "type": "mcq",
+        "o": [
+            "Fritted glass",
+            "Annealed glass",
+            "Laminated glass",
+            "Toughened glass"
+        ]
+    },
+    {
+        "q": "A ______ is a horizontal beam that spans an opening and distributes the load from above to the adjacent vertical supports.",
+        "type": "fill_blank",
+        "answers": [
+            "lintel",
+            "header"
+        ],
+        "other_options": [
+            "joist",
+            "purlin",
+            "rafter",
+            "girt"
+        ]
+    },
+    {
+        "q": "Diaphragm action in floors transfers lateral loads to vertical shear walls.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the wood joint to its structural application:",
+        "type": "match",
+        "left": [
+            "Mortise and tenon",
+            "Dovetail",
+            "Scarf joint",
+            "Finger joint"
+        ],
+        "right": [
+            "Beam-to-column connection",
+            "Drawer corner joint",
+            "End-to-end beam splice",
+            "Laminated timber end-joining"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Winter items, LEFT for Summer items in the house.",
+        "type": "swipe_cards",
+        "left_label": "Summer",
+        "right_label": "Winter",
+        "cards": {
+            "Ceiling Fan on High": "left",
+            "Room Heater": "right",
+            "Thin Cotton Bedsheets": "left",
+            "Thick Woolen Blankets": "right"
+        }
+    },
+    {
+        "q": "The ______ is the depth of the neutral axis in a reinforced concrete beam at balanced failure.",
+        "type": "fill_blank",
+        "answers": [
+            "balanced depth",
+            "critical depth"
+        ],
+        "other_options": [
+            "effective depth",
+            "cover depth",
+            "lever arm",
+            "gross depth"
+        ]
+    },
+    {
+        "q": "What is the building enclosure principle that separates interior and exterior environments called?",
+        "type": "mcq",
+        "o": [
+            "Building envelope",
+            "Thermal envelope",
+            "Air barrier",
+            "Vapor retarder"
+        ]
+    },
+    {
+        "q": "Name the phenomenon where moisture moves through building materials by vapor pressure difference.",
+        "type": "short_answer",
+        "answers": [
+            "vapor diffusion",
+            "vapor drive"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a measure of a material's ability to resist heat flow?",
+        "type": "mcq",
+        "o": [
+            "R-value",
+            "U-value",
+            "K-value",
+            "C-value"
+        ]
+    },
+    {
+        "q": "A ______ is a secondary horizontal member spanning between rafters to support roof sheathing in metal buildings.",
+        "type": "fill_blank",
+        "answers": [
+            "purlin"
+        ],
+        "other_options": [
+            "joist",
+            "girt",
+            "truss",
+            "rafter"
+        ]
+    },
+    {
+        "q": "Cross-laminated timber panels can be used as load-bearing walls and floors in tall wood buildings.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word for tall wooden poles that hold houses safely above flood water.",
+        "type": "word_scramble",
+        "answer": "STILTS",
+        "decoys": "MQ"
+    },
+    {
+        "q": "Which structural system uses an outer tube of closely spaced columns to resist lateral loads?",
+        "type": "mcq",
+        "o": [
+            "Tube frame",
+            "Shear core",
+            "Moment frame",
+            "Braced frame"
+        ]
+    },
+    {
+        "q": "The ______ is the vertical distance from the top of the foundation to the highest point of the roof.",
+        "type": "fill_blank",
+        "answers": [
+            "building height",
+            "overall height"
+        ],
+        "other_options": [
+            "eave height",
+            "ridge height",
+            "clear height",
+            "parapet height"
+        ]
+    },
+    {
+        "q": "Match the seismic design concept to its description:",
+        "type": "match",
+        "left": [
+            "Ductility",
+            "Redundancy",
+            "Base isolation",
+            "Energy dissipation"
+        ],
+        "right": [
+            "Plastic deformation without collapse",
+            "Multiple load paths",
+            "Decouples ground from structure",
+            "Dampers absorb motion"
+        ]
+    },
+    {
+        "q": "Unscramble the word for hard red blocks used by masons to build strong walls.",
+        "type": "word_scramble",
+        "answer": "BRICKS",
+        "decoys": "YZ"
+    },
+    {
+        "q": "Efflorescence on masonry is caused by soluble salts migrating to the surface with moisture.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the instrument used to measure the relative humidity inside a wall cavity.",
+        "type": "short_answer",
+        "answers": [
+            "hygrometer",
+            "humidity sensor",
+            "moisture probe"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the process of injecting grout into soil to improve its bearing capacity called?",
+        "type": "mcq",
+        "o": [
+            "Soil stabilization",
+            "Compaction",
+            "Excavation",
+            "Dewatering"
+        ]
+    },
+    {
+        "q": "A ______ is a vertical board that forms the side of a window or door opening.",
+        "type": "fill_blank",
+        "answers": [
+            "jamb"
+        ],
+        "other_options": [
+            "sill",
+            "casing",
+            "threshold",
+            "stop"
+        ]
+    },
+    {
+        "q": "ETFE cushions are a lightweight alternative to glass for large-span roofs.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a dynamic test to determine soil properties?",
+        "type": "mcq",
+        "o": [
+            "Standard penetration test",
+            "Atterberg limits test",
+            "Proctor compaction test",
+            "Sieve analysis"
+        ]
+    },
+    {
+        "q": "The ______ is a system of beams and columns that supports the weight of a building above the foundation.",
+        "type": "fill_blank",
+        "answers": [
+            "superstructure"
+        ],
+        "other_options": [
+            "substructure",
+            "envelope",
+            "plinth",
+            "podium"
+        ]
+    },
+    {
+        "q": "Name the type of bolt embedded in wet concrete to secure sill plates.",
+        "type": "short_answer",
+        "answers": [
+            "anchor bolt",
+            "j-bolt"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these represents the measure of thermal transmittance through a building element?",
+        "type": "mcq",
+        "o": [
+            "U-value",
+            "R-value",
+            "K-value",
+            "Lambda value"
+        ]
+    },
+    {
+        "q": "Match the foundation element to its construction method:",
+        "type": "match",
+        "left": [
+            "Bored pile",
+            "Driven pile",
+            "Screw pile",
+            "Caisson"
+        ],
+        "right": [
+            "Drilled hole filled with concrete",
+            "Hammered into ground",
+            "Twisted into soil",
+            "Sunk as a watertight chamber"
+        ]
+    },
+    {
+        "q": "A ______ is the graphical representation of the temperature change across a building assembly.",
+        "type": "fill_blank",
+        "answers": [
+            "thermal gradient",
+            "temperature profile"
+        ],
+        "other_options": [
+            "psychrometric chart",
+            "heat map",
+            "Mollier diagram",
+            "comfort zone"
+        ]
+    },
+    {
+        "q": "Hysteresis in hygroscopic materials helps moderate indoor humidity by buffering moisture.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a structural element that extends beyond its support and is anchored at only one end?",
+        "type": "mcq",
+        "o": [
+            "Cantilever",
+            "Simply supported beam",
+            "Continuous beam",
+            "Fixed-end beam"
+        ]
+    },
+    {
+        "q": "Name the narrow strip of material used to create a space between two building elements for drainage or ventilation.",
+        "type": "short_answer",
+        "answers": [
+            "spacer",
+            "batten",
+            "furring strip"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The ______ is the horizontal structural member at the bottom of a wall frame.",
+        "type": "fill_blank",
+        "answers": [
+            "sole plate",
+            "bottom plate"
+        ],
+        "other_options": [
+            "top plate",
+            "header",
+            "sill",
+            "band joist"
+        ]
+    },
+    {
+        "q": "Triple-glazed windows with low-e coatings can achieve U-values below 1.0 W/m2K.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these describes the bending strength of a structural member before failure?",
+        "type": "mcq",
+        "o": [
+            "Flexural strength",
+            "Compressive strength",
+            "Tensile strength",
+            "Shear strength"
+        ]
+    },
+    {
+        "q": "A ______ is a raised horizontal band separating different floor levels on a building facade.",
+        "type": "fill_blank",
+        "answers": [
+            "string course",
+            "belt course"
+        ],
+        "other_options": [
+            "cornice",
+            "plinth",
+            "parapet",
+            "dentil"
+        ]
+    },
+    {
+        "q": "Complete the sentence about sharing spaces:",
+        "type": "inline_dropdown",
+        "text": "Families eat their dinner together in the [0] room and watch TV in the [1] room.",
+        "dropdowns": [
+            {
+                "correct": "dining",
+                "options": [
+                    "bedroom",
+                    "dining",
+                    "bathroom"
+                ]
+            },
+            {
+                "correct": "living",
+                "options": [
+                    "living",
+                    "kitchen",
+                    "garage"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Building integrated photovoltaics replace conventional building materials in parts of the envelope.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the device used to tension cables in post-tensioned concrete.",
+        "type": "short_answer",
+        "answers": [
+            "hydraulic jack",
+            "stressing jack"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about unique houses:",
+        "type": "inline_dropdown",
+        "text": "A [0] is built high up in the branches, while a [1] floats on water.",
+        "dropdowns": [
+            {
+                "correct": "treehouse",
+                "options": [
+                    "igloo",
+                    "treehouse",
+                    "tent"
+                ]
+            },
+            {
+                "correct": "houseboat",
+                "options": [
+                    "hut",
+                    "bungalow",
+                    "houseboat"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the term for the upward movement of a foundation due to expansive soil?",
+        "type": "mcq",
+        "o": [
+            "Heave",
+            "Settlement",
+            "Subsidence",
+            "Liquefaction"
+        ]
+    },
+    {
+        "q": "Match the steel connection type to its fixity condition:",
+        "type": "match",
+        "left": [
+            "Welded moment connection",
+            "Simple shear connection",
+            "Semi-rigid connection",
+            "Pinned connection"
+        ],
+        "right": [
+            "Full fixity, resists moment",
+            "No moment transfer",
+            "Partial moment transfer",
+            "Free rotation allowed"
+        ]
+    },
+    {
+        "q": "The ______ is the uppermost horizontal band on a classical building facade, just below the roofline.",
+        "type": "fill_blank",
+        "answers": [
+            "cornice"
+        ],
+        "other_options": [
+            "frieze",
+            "architrave",
+            "pediment",
+            "capital"
+        ]
+    },
+    {
+        "q": "Thermal decoupling refers to separating interior and exterior structural elements to prevent heat flow.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a measure of the airtightness of a building envelope?",
+        "type": "mcq",
+        "o": [
+            "ACH50",
+            "R-value",
+            "STC",
+            "SHGC"
+        ]
+    },
+    {
+        "q": "A ______ is a horizontal structural member in a timber roof that supports rafters at mid-span.",
+        "type": "fill_blank",
+        "answers": [
+            "collar tie",
+            "purlin"
+        ],
+        "other_options": [
+            "joist",
+            "truss",
+            "strutting beam",
+            "hanging beam"
+        ]
+    },
+    {
+        "q": "Name the plastic state of concrete where it can be molded and placed into forms.",
+        "type": "short_answer",
+        "answers": [
+            "plastic state",
+            "fresh state",
+            "workable state"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the process of cutting slots into masonry to install services called?",
+        "type": "mcq",
+        "o": [
+            "Chasing",
+            "Grinding",
+            "Notching",
+            "Scabbling"
+        ]
+    },
+    {
+        "q": "The ______ is the clear internal height of a room from finished floor to finished ceiling.",
+        "type": "fill_blank",
+        "answers": [
+            "headroom",
+            "ceiling height"
+        ],
+        "other_options": [
+            "floor height",
+            "storey height",
+            "plenum height",
+            "structural height"
+        ]
+    },
+    {
+        "q": "Dynamic compaction is a ground improvement technique that drops heavy weights from cranes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a unit of measurement for sound insulation between dwelling units?",
+        "type": "mcq",
+        "o": [
+            "STC",
+            "NRC",
+            "IIC",
+            "dB"
+        ]
+    },
+    {
+        "q": "Match the wood defect to its description:",
+        "type": "match",
+        "left": [
+            "Wane",
+            "Shake",
+            "Bow",
+            "Check"
+        ],
+        "right": [
+            "Missing wood at the edge",
+            "Separation along grain",
+            "Lengthwise curvature",
+            "Small crack along grain"
+        ]
+    },
+    {
+        "q": "A ______ is the internal angle where two roof slopes meet, channeling water downward.",
+        "type": "fill_blank",
+        "answers": [
+            "valley"
+        ],
+        "other_options": [
+            "ridge",
+            "hip",
+            "gable",
+            "eave"
+        ]
+    },
+    {
+        "q": "Superplasticizers in concrete reduce water content while maintaining workability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the method of constructing walls by pouring concrete into a moving formwork.",
+        "type": "short_answer",
+        "answers": [
+            "slip forming",
+            "slipform construction"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the ratio of the maximum load a structure can carry to the design load?",
+        "type": "mcq",
+        "o": [
+            "Factor of safety",
+            "Load factor",
+            "Performance ratio",
+            "Margin of error"
+        ]
+    },
+    {
+        "q": "The ______ is the vertical member supporting the handrail on a staircase.",
+        "type": "fill_blank",
+        "answers": [
+            "baluster",
+            "newel post"
+        ],
+        "other_options": [
+            "stringer",
+            "tread",
+            "riser",
+            "nosing"
+        ]
+    },
+    {
+        "q": "Acid etching is a process used to prepare concrete surfaces before applying coatings.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a high-density engineered wood product used for structural beams?",
+        "type": "mcq",
+        "o": [
+            "Laminated veneer lumber",
+            "Particleboard",
+            "Medium density fiberboard",
+            "Fiber cement board"
+        ]
+    },
+    {
+        "q": "A ______ is a projecting ornamental molding along the top of a building facade, typically part of the entablature.",
+        "type": "fill_blank",
+        "answers": [
+            "cornice"
+        ],
+        "other_options": [
+            "frieze",
+            "architrave",
+            "pediment",
+            "capital"
+        ]
+    },
+    {
+        "q": "Name the curved transition between a wall and ceiling, typically formed with plaster or trim.",
+        "type": "short_answer",
+        "answers": [
+            "cove",
+            "coving"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these describes a reinforced concrete slab cast on the ground, not supported by beams?",
+        "type": "mcq",
+        "o": [
+            "Slab-on-grade",
+            "Suspended slab",
+            "Waffle slab",
+            "Composite slab"
+        ]
+    },
+    {
+        "q": "Match the ventilation strategy to its driving force:",
+        "type": "match",
+        "left": [
+            "Stack effect",
+            "Cross ventilation",
+            "Mechanical ventilation",
+            "Wind-driven ventilation"
+        ],
+        "right": [
+            "Buoyancy of warm air",
+            "Pressure difference across openings",
+            "Fans and ductwork",
+            "Wind pressure on facade"
+        ]
+    },
+    {
+        "q": "The ______ is the horizontal structural member that forms the edge of a floor opening for stairs.",
+        "type": "fill_blank",
+        "answers": [
+            "trimmer joist",
+            "header joist"
+        ],
+        "other_options": [
+            "band joist",
+            "rim joist",
+            "common joist",
+            "tail joist"
+        ]
+    },
+    {
+        "q": "Electrochromic glass changes its tint in response to an applied voltage.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for the upward force exerted by water on a submerged or partially submerged structure?",
+        "type": "mcq",
+        "o": [
+            "Buoyancy",
+            "Hydrostatic pressure",
+            "Capillary action",
+            "Osmosis"
+        ]
+    },
+    {
+        "q": "A ______ is a small projecting roof over a door or window to shed rainwater.",
+        "type": "fill_blank",
+        "answers": [
+            "canopy",
+            "awning"
+        ],
+        "other_options": [
+            "portico",
+            "loggia",
+            "pergola",
+            "cupola"
+        ]
+    },
+    {
+        "q": "Name the measure of a material's resistance to water vapor transmission.",
+        "type": "short_answer",
+        "answers": [
+            "vapor permeance",
+            "perm rating",
+            "vapor resistance factor"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a type of deep foundation formed by drilling and filling with reinforced concrete?",
+        "type": "mcq",
+        "o": [
+            "Bored pile",
+            "Strip footing",
+            "Pad footing",
+            "Raft slab"
+        ]
+    },
+    {
+        "q": "The ______ is the decorative block at the top of a column, supporting the architrave.",
+        "type": "fill_blank",
+        "answers": [
+            "capital"
+        ],
+        "other_options": [
+            "base",
+            "shaft",
+            "fluting",
+            "pedestal"
+        ]
+    },
+    {
+        "q": "Infill wall panels in frame structures may contribute to stiffness if not properly isolated.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a structural system that uses a central rigid core to resist lateral loads?",
+        "type": "mcq",
+        "o": [
+            "Shear core",
+            "Tube frame",
+            "Space frame",
+            "Flat plate"
+        ]
+    },
+    {
+        "q": "A ______ is a vertical barrier placed at the edge of a roof or balcony to prevent falls.",
+        "type": "fill_blank",
+        "answers": [
+            "parapet",
+            "balustrade",
+            "guardrail"
+        ],
+        "other_options": [
+            "eave",
+            "cornice",
+            "fascia",
+            "soffit"
+        ]
+    },
+    {
+        "q": "Carbon fiber reinforced polymer sheets have a higher tensile strength than steel by weight.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the phenomenon where moisture rises from the ground through porous masonry by capillary action.",
+        "type": "short_answer",
+        "answers": [
+            "rising damp",
+            "capillary rise"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a measure of a material's ability to store heat?",
+        "type": "mcq",
+        "o": [
+            "Specific heat capacity",
+            "Thermal conductivity",
+            "Thermal diffusivity",
+            "Emissivity"
+        ]
+    },
+    {
+        "q": "Match the glazing coating to its purpose:",
+        "type": "match",
+        "left": [
+            "Low-emissivity coating",
+            "Solar control coating",
+            "Anti-reflective coating",
+            "Self-cleaning coating"
+        ],
+        "right": [
+            "Reflects infrared heat",
+            "Blocks solar radiation",
+            "Reduces visible reflection",
+            "Breaks down dirt with UV"
+        ]
+    },
+    {
+        "q": "The ______ is a structural element that spans between columns to support floor slabs in steel construction.",
+        "type": "fill_blank",
+        "answers": [
+            "girder",
+            "primary beam"
+        ],
+        "other_options": [
+            "joist",
+            "purlin",
+            "girt",
+            "stud"
+        ]
+    },
+    {
+        "q": "Tuned mass dampers in skyscrapers counteract sway caused by wind loads.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name of the horizontal timber at the base of a stud wall?",
+        "type": "mcq",
+        "o": [
+            "Sill plate",
+            "Top plate",
+            "Header",
+            "Trimmer"
+        ]
+    },
+    {
+        "q": "A ______ is a vertical member that divides a window into smaller sections.",
+        "type": "fill_blank",
+        "answers": [
+            "mullion"
+        ],
+        "other_options": [
+            "transom",
+            "muntin",
+            "jamb",
+            "sash"
+        ]
+    },
+    {
+        "q": "Straw bale construction can achieve very high R-values when properly detailed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the device in a plumbing system that prevents sewer gases from entering the building.",
+        "type": "short_answer",
+        "answers": [
+            "trap",
+            "water seal",
+            "p-trap"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is the ratio of a material's strain to the applied stress?",
+        "type": "mcq",
+        "o": [
+            "Modulus of elasticity",
+            "Poisson's ratio",
+            "Yield strength",
+            "Ultimate strength"
+        ]
+    },
+    {
+        "q": "The ______ is the vertical board running along the side of a flight of stairs, supporting the treads.",
+        "type": "fill_blank",
+        "answers": [
+            "stringer"
+        ],
+        "other_options": [
+            "newel",
+            "baluster",
+            "handrail",
+            "nosing"
+        ]
+    },
+    {
+        "q": "Photocatalytic concrete contains titanium dioxide that breaks down air pollutants when exposed to sunlight.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a structural panel made of a rigid foam core faced with oriented strand board?",
+        "type": "mcq",
+        "o": [
+            "Structural insulated panel",
+            "Cross-laminated timber",
+            "Fiber cement sheet",
+            "Gypsum board"
+        ]
+    },
+    {
+        "q": "Match the soil type to its drainage characteristic:",
+        "type": "match",
+        "left": [
+            "Gravel",
+            "Sand",
+            "Silt",
+            "Clay"
+        ],
+        "right": [
+            "Excellent drainage",
+            "Good drainage",
+            "Fair drainage",
+            "Very poor drainage"
+        ]
+    },
+    {
+        "q": "A ______ is a projecting corner stone at the edge of a building.",
+        "type": "fill_blank",
+        "answers": [
+            "quoins"
+        ],
+        "other_options": [
+            "corbel",
+            "pilaster",
+            "capital",
+            "coping"
+        ]
+    },
+    {
+        "q": "Thermal inertia is a building's ability to slowly respond to temperature changes due to its mass.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the horizontal roof member supporting common rafters at the ridge.",
+        "type": "short_answer",
+        "answers": [
+            "ridge board",
+            "ridge beam"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a construction method where concrete walls are cast horizontally then lifted into place?",
+        "type": "mcq",
+        "o": [
+            "Tilt-up construction",
+            "Slip forming",
+            "Shotcrete",
+            "ICF"
+        ]
+    },
+    {
+        "q": "The ______ is a drainage plane created by a gap behind wall cladding to allow water to escape.",
+        "type": "fill_blank",
+        "answers": [
+            "rainscreen",
+            "drainage cavity"
+        ],
+        "other_options": [
+            "air barrier",
+            "vapor barrier",
+            "sheathing",
+            "underlayment"
+        ]
+    },
+    {
+        "q": "Mass timber buildings can be constructed to heights exceeding 18 storeys under modern codes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In the Eurocode system, which limit state deals with excessive deformation and cracking?",
+        "type": "mcq",
+        "o": [
+            "Serviceability limit state",
+            "Ultimate limit state",
+            "Fatigue limit state",
+            "Accidental limit state"
+        ]
+    },
+    {
+        "q": "The ______ is the volumetric ratio of water to cementitious materials in a concrete mix, critical for strength and durability.",
+        "type": "fill_blank",
+        "answers": [
+            "water-cement ratio",
+            "w/c ratio"
+        ],
+        "other_options": [
+            "aggregate ratio",
+            "slump value",
+            "air content",
+            "cement factor"
+        ]
+    },
+    {
+        "q": "Fracture mechanics theory applies to timber connections when analyzing crack propagation at bolt holes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the admixture that causes controlled expansion in concrete to compensate for drying shrinkage.",
+        "type": "short_answer",
+        "answers": [
+            "shrinkage compensating admixture",
+            "expansive agent",
+            "type K admixture"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which structural analysis method accounts for material nonlinearity and second-order P-Delta effects?",
+        "type": "mcq",
+        "o": [
+            "Nonlinear static pushover analysis",
+            "Linear elastic analysis",
+            "Modal response spectrum analysis",
+            "Equivalent lateral force procedure"
+        ]
+    },
+    {
+        "q": "Match the concrete degradation mechanism to its primary cause:",
+        "type": "match",
+        "left": [
+            "Alkali-silica reaction",
+            "Carbonation",
+            "Sulfate attack",
+            "Chloride ingress"
+        ],
+        "right": [
+            "Reactive aggregates with alkalis",
+            "CO2 dissolving in pore water",
+            "Sulfate ions reacting with cement paste",
+            "Seawater or deicing salt exposure"
+        ]
+    },
+    {
+        "q": "The ______ is a dimensionless coefficient describing the shape of the elastic spectrum in seismic design.",
+        "type": "fill_blank",
+        "answers": [
+            "behavior factor",
+            "q factor",
+            "response modification coefficient"
+        ],
+        "other_options": [
+            "importance factor",
+            "zone factor",
+            "damping ratio",
+            "participation factor"
+        ]
+    },
+    {
+        "q": "Hygrothermal simulation tools like WUFI model coupled heat and moisture transport through building envelopes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the rheological model that describes the time-dependent deformation of concrete under sustained load?",
+        "type": "mcq",
+        "o": [
+            "Burgers model",
+            "Hooke's law",
+            "Mohr-Coulomb criterion",
+            "Tresca yield criterion"
+        ]
+    },
+    {
+        "q": "Name the type of cement containing high tricalcium aluminate content, susceptible to sulfate attack.",
+        "type": "short_answer",
+        "answers": [
+            "Type III cement",
+            "high early strength cement",
+            "C3A rich cement"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which welding process is most common for structural steel connections in shop fabrication?",
+        "type": "mcq",
+        "o": [
+            "Submerged arc welding",
+            "Shielded metal arc welding",
+            "Gas tungsten arc welding",
+            "Oxyacetylene welding"
+        ]
+    },
+    {
+        "q": "A ______ is a structural fuse element in seismic design that yields in a controlled manner to protect the main structure.",
+        "type": "fill_blank",
+        "answers": [
+            "buckling restrained brace",
+            "BRB",
+            "dissipative element"
+        ],
+        "other_options": [
+            "shear wall",
+            "moment frame",
+            "base isolator",
+            "tie beam"
+        ]
+    },
+    {
+        "q": "The Biot number relates internal thermal resistance of a solid to its surface thermal resistance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the nondestructive testing method to its application:",
+        "type": "match",
+        "left": [
+            "Ultrasonic pulse velocity",
+            "Rebound hammer test",
+            "Ground penetrating radar",
+            "Impact echo"
+        ],
+        "right": [
+            "Assesses concrete uniformity",
+            "Estimates surface hardness",
+            "Locates reinforcement and voids",
+            "Detects delamination and thickness"
+        ]
+    },
+    {
+        "q": "The ______ is the time-dependent strain in concrete under constant sustained stress.",
+        "type": "fill_blank",
+        "answers": [
+            "creep"
+        ],
+        "other_options": [
+            "shrinkage",
+            "relaxation",
+            "elastic strain",
+            "plastic flow"
+        ]
+    },
+    {
+        "q": "What is the term for a structural steel member loaded primarily in tension along its longitudinal axis?",
+        "type": "mcq",
+        "o": [
+            "Tie",
+            "Strut",
+            "Beam",
+            "Column"
+        ]
+    },
+    {
+        "q": "Name the coefficient representing the lateral contraction strain divided by the longitudinal extension strain in a material under tension.",
+        "type": "short_answer",
+        "answers": [
+            "Poisson's ratio",
+            "Poisson ratio"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which connection type provides full moment transfer between a beam and column in steel frames?",
+        "type": "mcq",
+        "o": [
+            "End-plate moment connection",
+            "Double angle shear connection",
+            "Single plate shear tab",
+            "Seated connection"
+        ]
+    },
+    {
+        "q": "The ______ is the maximum compressive stress a material can withstand without undergoing buckling.",
+        "type": "fill_blank",
+        "answers": [
+            "critical buckling stress",
+            "Euler stress"
+        ],
+        "other_options": [
+            "yield stress",
+            "bearing stress",
+            "shear stress",
+            "tensile stress"
+        ]
+    },
+    {
+        "q": "Strain hardening in reinforcing steel allows redistribution of stresses at critical sections before failure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a limit state for structural steel members under cyclic loading?",
+        "type": "mcq",
+        "o": [
+            "Fatigue",
+            "Flexural buckling",
+            "Lateral torsional buckling",
+            "Web crippling"
+        ]
+    },
+    {
+        "q": "Match the wood species to its durability class:",
+        "type": "match",
+        "left": [
+            "Teak",
+            "Douglas fir",
+            "Spruce",
+            "Western red cedar"
+        ],
+        "right": [
+            "Class 1, very durable",
+            "Class 3, moderately durable",
+            "Class 4, slightly durable",
+            "Class 2, durable"
+        ]
+    },
+    {
+        "q": "The ______ is a measurement of the softness or flow of a concrete mix before setting.",
+        "type": "fill_blank",
+        "answers": [
+            "slump"
+        ],
+        "other_options": [
+            "compaction factor",
+            "Vebe time",
+            "flow table spread",
+            "air content"
+        ]
+    },
+    {
+        "q": "What is the process of applying a protective zinc coating to steel to prevent corrosion?",
+        "type": "mcq",
+        "o": [
+            "Galvanization",
+            "Anodizing",
+            "Electroplating",
+            "Powder coating"
+        ]
+    },
+    {
+        "q": "Name the parameter used in fire engineering that describes the thermal response of building materials to fire exposure.",
+        "type": "short_answer",
+        "answers": [
+            "thermal inertia",
+            "k-rho-c factor",
+            "thermal diffusivity"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ is a structural system with a doubly curved surface, resisting loads primarily through membrane action.",
+        "type": "fill_blank",
+        "answers": [
+            "shell structure",
+            "thin shell"
+        ],
+        "other_options": [
+            "space frame",
+            "truss",
+            "folded plate",
+            "cable net"
+        ]
+    },
+    {
+        "q": "In braced frames, diagonal members carry axial loads, reducing lateral drift compared to moment frames.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these describes a material that exhibits different strength in tension and compression?",
+        "type": "mcq",
+        "o": [
+            "Anisotropic",
+            "Isotropic",
+            "Homogeneous",
+            "Orthotropic"
+        ]
+    },
+    {
+        "q": "The ______ is the distance between points of zero moment in a column, affecting its buckling length.",
+        "type": "fill_blank",
+        "answers": [
+            "effective length",
+            "buckling length"
+        ],
+        "other_options": [
+            "clear span",
+            "development length",
+            "lap length",
+            "anchorage length"
+        ]
+    },
+    {
+        "q": "Match the structural form to the primary load-carrying mechanism:",
+        "type": "match",
+        "left": [
+            "Arch",
+            "Cable",
+            "Dome",
+            "Membrane"
+        ],
+        "right": [
+            "Compression",
+            "Tension",
+            "Membrane compression",
+            "Surface tension"
+        ]
+    },
+    {
+        "q": "Fiber Bragg grating sensors embedded in concrete can monitor strain and temperature in real time.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the type of prestressing where tendons are tensioned before concrete is cast.",
+        "type": "short_answer",
+        "answers": [
+            "pre-tensioning",
+            "pretensioning"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the lateral displacement at the top of a building relative to its height called?",
+        "type": "mcq",
+        "o": [
+            "Drift index",
+            "Sway coefficient",
+            "Shear strain",
+            "Base rotation"
+        ]
+    },
+    {
+        "q": "The ______ is the minimum concrete cover required to protect reinforcement from corrosion and fire damage.",
+        "type": "fill_blank",
+        "answers": [
+            "clear cover",
+            "nominal cover"
+        ],
+        "other_options": [
+            "spacing",
+            "lap length",
+            "embedment depth",
+            "development length"
+        ]
+    },
+    {
+        "q": "Wind tunnel testing using the boundary layer approach accurately models turbulence and terrain effects on tall buildings.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a dynamic analysis method that combines modal responses using statistical rules?",
+        "type": "mcq",
+        "o": [
+            "Response spectrum analysis",
+            "Time history analysis",
+            "Pushover analysis",
+            "Linear static analysis"
+        ]
+    },
+    {
+        "q": "A ______ is a structural member subjected to both axial compression and bending moment simultaneously.",
+        "type": "fill_blank",
+        "answers": [
+            "beam-column"
+        ],
+        "other_options": [
+            "tie",
+            "strut",
+            "truss",
+            "brace"
+        ]
+    },
+    {
+        "q": "High-strength concrete above 60 MPa typically exhibits more brittle failure than normal-strength concrete.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the plastic hinge concept that allows reinforced concrete beams to rotate while maintaining load capacity during earthquakes.",
+        "type": "short_answer",
+        "answers": [
+            "ductile hinge",
+            "plastic hinge rotation",
+            "yield mechanism"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a flat slab system with enlarged column heads to resist punching shear?",
+        "type": "mcq",
+        "o": [
+            "Drop panel",
+            "Capital",
+            "Shear rail",
+            "Stud rail"
+        ]
+    },
+    {
+        "q": "Match the fire protection method to its application for steel:",
+        "type": "match",
+        "left": [
+            "Intumescent paint",
+            "Spray-applied fireproofing",
+            "Concrete encasement",
+            "Fire-resistant boards"
+        ],
+        "right": [
+            "Expands when heated to insulate",
+            "Cementitious spray coating",
+            "Full concrete cover around steel",
+            "Pre-formed panels fixed to steel"
+        ]
+    },
+    {
+        "q": "The ______ is the total vertical deformation of a structural member under load, including both short-term and long-term effects.",
+        "type": "fill_blank",
+        "answers": [
+            "deflection"
+        ],
+        "other_options": [
+            "camber",
+            "settlement",
+            "elongation",
+            "drift"
+        ]
+    },
+    {
+        "q": "Timber strength decreases with increasing moisture content up to the fiber saturation point.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for the controlled redistribution of internal forces as a structure approaches its ultimate capacity?",
+        "type": "mcq",
+        "o": [
+            "Plastic redistribution",
+            "Elastic shortening",
+            "Creep recovery",
+            "Stress relaxation"
+        ]
+    },
+    {
+        "q": "A ______ is a high-strength steel rod or strand used to tie structural elements together, particularly in precast concrete.",
+        "type": "fill_blank",
+        "answers": [
+            "tendon",
+            "tie rod",
+            "post-tensioning bar"
+        ],
+        "other_options": [
+            "anchor bolt",
+            "shear stud",
+            "dowel",
+            "spiral"
+        ]
+    },
+    {
+        "q": "Name the branch of mechanics that deals with the equilibrium of bodies at rest under the action of forces.",
+        "type": "short_answer",
+        "answers": [
+            "statics"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a common construction joint in concrete slabs-on-grade?",
+        "type": "mcq",
+        "o": [
+            "Saw-cut control joint",
+            "Expansion joint",
+            "Construction joint",
+            "Isolation joint"
+        ]
+    },
+    {
+        "q": "The ______ is the resistance of a structural element to twisting deformation.",
+        "type": "fill_blank",
+        "answers": [
+            "torsional stiffness",
+            "torsional rigidity"
+        ],
+        "other_options": [
+            "flexural stiffness",
+            "axial stiffness",
+            "shear rigidity",
+            "bending resistance"
+        ]
+    },
+    {
+        "q": "The P-Delta effect refers to the additional moment caused by axial loads acting through lateral displacements.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a self-consolidating concrete with high flowability that requires no mechanical vibration?",
+        "type": "mcq",
+        "o": [
+            "SCC",
+            "HPC",
+            "LWC",
+            "RCC"
+        ]
+    },
+    {
+        "q": "Match the structural failure mode to its typical cause:",
+        "type": "match",
+        "left": [
+            "Shear failure",
+            "Flexural failure",
+            "Bearing failure",
+            "Bond failure"
+        ],
+        "right": [
+            "Diagonal cracking near supports",
+            "Crushing of concrete in compression",
+            "Local crushing at support points",
+            "Splitting along reinforcing bars"
+        ]
+    },
+    {
+        "q": "The ______ is a system of parallel beams spanning in one direction supporting a concrete slab.",
+        "type": "fill_blank",
+        "answers": [
+            "one-way slab system",
+            "beam and slab system"
+        ],
+        "other_options": [
+            "flat plate",
+            "flat slab",
+            "waffle slab",
+            "two-way slab"
+        ]
+    },
+    {
+        "q": "Name the effect where the compressive strength of concrete appears higher under rapid loading rates.",
+        "type": "short_answer",
+        "answers": [
+            "strain rate effect",
+            "dynamic increase factor"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which connection type in structural steel uses high-strength bolts tightened to induce clamping friction?",
+        "type": "mcq",
+        "o": [
+            "Slip-critical connection",
+            "Bearing-type connection",
+            "Pinned connection",
+            "Welded connection"
+        ]
+    },
+    {
+        "q": "A ______ is a shallow, elongated concrete footing that supports a continuous wall.",
+        "type": "fill_blank",
+        "answers": [
+            "strip footing",
+            "continuous footing"
+        ],
+        "other_options": [
+            "pad footing",
+            "mat foundation",
+            "pile cap",
+            "grade beam"
+        ]
+    },
+    {
+        "q": "Damping ratio in buildings typically increases with amplitude of vibration due to nonlinear material behavior.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the primary purpose of providing confinement reinforcement in concrete columns?",
+        "type": "mcq",
+        "o": [
+            "Increase ductility and prevent bar buckling",
+            "Resist bending moments",
+            "Reduce shrinkage cracking",
+            "Improve bond strength"
+        ]
+    },
+    {
+        "q": "The ______ is the maximum displacement a structure can undergo before collapse, divided by the yield displacement.",
+        "type": "fill_blank",
+        "answers": [
+            "ductility factor",
+            "displacement ductility"
+        ],
+        "other_options": [
+            "overstrength factor",
+            "response modification",
+            "importance factor",
+            "amplification factor"
+        ]
+    },
+    {
+        "q": "Name the limit state governing the formation of the first crack in reinforced concrete members.",
+        "type": "short_answer",
+        "answers": [
+            "cracking limit state",
+            "serviceability cracking"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a type of structural collapse where floors progressively fail in a chain reaction?",
+        "type": "mcq",
+        "o": [
+            "Progressive collapse",
+            "Buckling collapse",
+            "Overturning",
+            "Foundation failure"
+        ]
+    },
+    {
+        "q": "Match the concrete curing method to its purpose:",
+        "type": "match",
+        "left": [
+            "Steam curing",
+            "Water ponding",
+            "Curing compound",
+            "Wet burlap"
+        ],
+        "right": [
+            "Accelerate strength gain",
+            "Continuous moisture supply",
+            "Forms a membrane seal",
+            "Retains moisture on surface"
+        ]
+    },
+    {
+        "q": "The ______ is the ratio of the lateral deflection at the top of a building to its total height.",
+        "type": "fill_blank",
+        "answers": [
+            "drift ratio",
+            "interstory drift"
+        ],
+        "other_options": [
+            "aspect ratio",
+            "slenderness ratio",
+            "damping ratio",
+            "ductility ratio"
+        ]
+    },
+    {
+        "q": "Shape memory alloys in dampers can self-center a structure after an earthquake by recovering their original shape.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the critical temperature at which structural steel typically loses significant strength in a fire?",
+        "type": "mcq",
+        "o": [
+            "538 degrees Celsius",
+            "200 degrees Celsius",
+            "1000 degrees Celsius",
+            "150 degrees Celsius"
+        ]
+    },
+    {
+        "q": "A ______ is the design philosophy ensuring a structure can sustain local damage without disproportionate overall collapse.",
+        "type": "fill_blank",
+        "answers": [
+            "robustness",
+            "structural integrity"
+        ],
+        "other_options": [
+            "ductility",
+            "redundancy",
+            "resilience",
+            "serviceability"
+        ]
+    },
+    {
+        "q": "Name the type of reinforced concrete slab with ribs in two directions, resembling a waffle pattern.",
+        "type": "short_answer",
+        "answers": [
+            "waffle slab",
+            "two-way joist slab"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is an energy dissipation device using a metal element yielding in shear or bending?",
+        "type": "mcq",
+        "o": [
+            "Metallic damper",
+            "Viscous damper",
+            "Friction damper",
+            "Tuned mass damper"
+        ]
+    },
+    {
+        "q": "The ______ is the upward curvature intentionally built into a beam to counteract expected deflection.",
+        "type": "fill_blank",
+        "answers": [
+            "camber"
+        ],
+        "other_options": [
+            "prestress",
+            "sag",
+            "hogging",
+            "sweep"
+        ]
+    },
+    {
+        "q": "Alkali-activated cements can reduce embodied carbon by 80 percent compared to ordinary Portland cement.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the structural analysis that considers the deformed shape of the structure under load?",
+        "type": "mcq",
+        "o": [
+            "Second-order analysis",
+            "First-order analysis",
+            "Linear elastic analysis",
+            "Rigid body analysis"
+        ]
+    },
+    {
+        "q": "Match the seismic design approach to its performance objective:",
+        "type": "match",
+        "left": [
+            "Force-based design",
+            "Displacement-based design",
+            "Performance-based design",
+            "Capacity design"
+        ],
+        "right": [
+            "Elastic force demand",
+            "Target displacement as basis",
+            "Multiple performance levels",
+            "Hierarchy of yielding"
+        ]
+    },
+    {
+        "q": "The ______ is the portion of a beam between supports where bending moment is maximum and shear is low.",
+        "type": "fill_blank",
+        "answers": [
+            "mid-span region",
+            "constant moment region"
+        ],
+        "other_options": [
+            "end region",
+            "support region",
+            "shear span",
+            "inflection point"
+        ]
+    },
+    {
+        "q": "Name the structural configuration where vertical elements are discontinuous at certain levels, creating a soft story.",
+        "type": "short_answer",
+        "answers": [
+            "soft story",
+            "weak story",
+            "vertical irregularity"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Friction dampers dissipate seismic energy through heat generated by sliding surfaces under clamping force.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these describes a pile that derives its capacity primarily from friction along its shaft?",
+        "type": "mcq",
+        "o": [
+            "Friction pile",
+            "End-bearing pile",
+            "Batter pile",
+            "Compaction pile"
+        ]
+    },
+    {
+        "q": "The ______ is the horizontal force resisted by a structure divided by its total weight.",
+        "type": "fill_blank",
+        "answers": [
+            "base shear coefficient",
+            "seismic coefficient"
+        ],
+        "other_options": [
+            "drift ratio",
+            "ductility factor",
+            "overstrength factor",
+            "capacity ratio"
+        ]
+    },
+    {
+        "q": "Ultra-high performance concrete has compressive strengths exceeding 150 MPa with steel fiber reinforcement.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for the process of strengthening an existing structure to meet current codes?",
+        "type": "mcq",
+        "o": [
+            "Seismic retrofit",
+            "New construction",
+            "Demolition",
+            "Decommissioning"
+        ]
+    },
+    {
+        "q": "A ______ is a deep vertical structural element transmitting loads from superstructure to competent soil or rock.",
+        "type": "fill_blank",
+        "answers": [
+            "pile",
+            "caisson"
+        ],
+        "other_options": [
+            "footing",
+            "grade beam",
+            "pier",
+            "raft"
+        ]
+    },
+    {
+        "q": "Name the failure mode where concrete cover separates from the reinforcement along the tension face of a beam.",
+        "type": "short_answer",
+        "answers": [
+            "spalling",
+            "cover delamination"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a method to assess the dynamic characteristics of a full-scale building?",
+        "type": "mcq",
+        "o": [
+            "Operational modal analysis",
+            "Schmidt hammer test",
+            "Core sampling",
+            "Half-cell potential"
+        ]
+    },
+    {
+        "q": "The ______ is the maximum load a soil can support without undergoing shear failure or excessive settlement.",
+        "type": "fill_blank",
+        "answers": [
+            "bearing capacity",
+            "ultimate bearing capacity"
+        ],
+        "other_options": [
+            "shear strength",
+            "consolidation pressure",
+            "allowable stress",
+            "settlement limit"
+        ]
+    },
+    {
+        "q": "In capacity design, ductile elements are designed to yield while brittle elements remain elastic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a structural damping system using a fluid forced through an orifice to dissipate energy?",
+        "type": "mcq",
+        "o": [
+            "Viscous damper",
+            "Friction damper",
+            "Viscoelastic damper",
+            "Metallic yielding damper"
+        ]
+    },
+    {
+        "q": "Match the structural irregularity to its definition:",
+        "type": "match",
+        "left": [
+            "Torsional irregularity",
+            "Mass irregularity",
+            "Stiffness irregularity",
+            "Vertical geometric irregularity"
+        ],
+        "right": [
+            "Eccentricity between mass and rigidity",
+            "Floor mass differs by more than 150%",
+            "Soft story exists",
+            "Setback in vertical profile"
+        ]
+    },
+    {
+        "q": "The ______ is the depth from the extreme compression fiber to the centroid of tension reinforcement.",
+        "type": "fill_blank",
+        "answers": [
+            "effective depth"
+        ],
+        "other_options": [
+            "overall depth",
+            "cover depth",
+            "neutral axis depth",
+            "lever arm"
+        ]
+    },
+    {
+        "q": "Fiber reinforced polymer composites are anisotropic, meaning their properties vary with direction of loading.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the principle stating that strain distribution across a concrete section remains linear up to failure.",
+        "type": "short_answer",
+        "answers": [
+            "Bernoulli's principle",
+            "plane sections remain plane",
+            "Navier-Bernoulli hypothesis"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a type of concrete made with lightweight aggregates to reduce structural dead load?",
+        "type": "mcq",
+        "o": [
+            "Lightweight aggregate concrete",
+            "Heavyweight concrete",
+            "Mass concrete",
+            "Self-compacting concrete"
+        ]
+    },
+    {
+        "q": "The ______ is the horizontal reaction at the base of an arch or a dome structure.",
+        "type": "fill_blank",
+        "answers": [
+            "thrust"
+        ],
+        "other_options": [
+            "shear",
+            "moment",
+            "axial load",
+            "bearing pressure"
+        ]
+    },
+    {
+        "q": "Time-dependent losses in prestressed concrete include creep, shrinkage, and relaxation of tendons.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for a structural connection that allows relative movement between elements?",
+        "type": "mcq",
+        "o": [
+            "Movement joint",
+            "Fixed joint",
+            "Moment connection",
+            "Rigid link"
+        ]
+    },
+    {
+        "q": "A ______ is the structural component that resists horizontal loads by spanning vertically between floors, acting as a deep beam.",
+        "type": "fill_blank",
+        "answers": [
+            "shear wall"
+        ],
+        "other_options": [
+            "moment frame",
+            "braced frame",
+            "diaphragm",
+            "collector"
+        ]
+    },
+    {
+        "q": "Name the effect where the actual yield strength of steel exceeds the specified nominal yield strength.",
+        "type": "short_answer",
+        "answers": [
+            "overstrength",
+            "actual to nominal ratio"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these materials exhibits significant viscoelastic behavior, with stiffness dependent on loading rate and temperature?",
+        "type": "mcq",
+        "o": [
+            "Asphalt",
+            "Steel",
+            "Granite",
+            "Glass"
+        ]
+    },
+    {
+        "q": "The ______ is the differential vertical movement between adjacent supports of a structural element.",
+        "type": "fill_blank",
+        "answers": [
+            "differential settlement"
+        ],
+        "other_options": [
+            "uniform settlement",
+            "heave",
+            "uplift",
+            "consolidation"
+        ]
+    },
+    {
+        "q": "Liquefaction of saturated loose sands during earthquakes can cause complete loss of bearing capacity.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]
