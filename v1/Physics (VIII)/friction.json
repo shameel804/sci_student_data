@@ -1,0 +1,5199 @@
+[
+    {
+        "q": "What is friction?",
+        "type": "mcq",
+        "o": [
+            "A force that opposes motion between two surfaces in contact",
+            "A force that pulls objects downward",
+            "A type of energy stored in objects",
+            "The speed of a moving object"
+        ]
+    },
+    {
+        "q": "Friction always acts in the direction of motion.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which type of friction acts on an object when it is not moving?",
+        "type": "mcq",
+        "o": [
+            "Static friction",
+            "Sliding friction",
+            "Rolling friction",
+            "Fluid friction"
+        ]
+    },
+    {
+        "q": "Name the force that opposes motion between two surfaces in contact.",
+        "type": "short_answer",
+        "answers": [
+            "friction",
+            "frictional force"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of friction occurs when an object slides over a surface?",
+        "type": "mcq",
+        "o": [
+            "Sliding friction",
+            "Static friction",
+            "Rolling friction",
+            "Air resistance"
+        ]
+    },
+    {
+        "q": "The ______________ friction is the friction that acts on objects when they are rolling over a surface.",
+        "type": "fill_blank",
+        "answers": [
+            "rolling"
+        ],
+        "other_options": [
+            "static",
+            "sliding",
+            "fluid"
+        ]
+    },
+    {
+        "q": "Match the type of friction with its description:",
+        "type": "match",
+        "left": [
+            "Static friction",
+            "Sliding friction",
+            "Rolling friction",
+            "Fluid friction"
+        ],
+        "right": [
+            "Friction on stationary objects",
+            "Friction when one surface slides over another",
+            "Friction when an object rolls",
+            "Friction in liquids and gases"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of sliding friction?",
+        "type": "mcq",
+        "o": [
+            "Rubbing hands together",
+            "A ball rolling on the ground",
+            "A book kept on a table",
+            "A fish swimming in water"
+        ]
+    },
+    {
+        "q": "What type of friction is experienced by a boat moving through water?",
+        "type": "mcq",
+        "o": [
+            "Fluid friction",
+            "Static friction",
+            "Sliding friction",
+            "Rolling friction"
+        ]
+    },
+    {
+        "q": "Friction is always harmful and has no advantages.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is an advantage of friction?",
+        "type": "mcq",
+        "o": [
+            "It allows us to walk without slipping",
+            "It reduces the life of machine parts",
+            "It produces heat in engines",
+            "It causes wear and tear"
+        ]
+    },
+    {
+        "q": "The friction force depends on the ______________ of the surfaces in contact.",
+        "type": "fill_blank",
+        "answers": [
+            "nature"
+        ],
+        "other_options": [
+            "color",
+            "temperature",
+            "weight"
+        ]
+    },
+    {
+        "q": "Which factor does NOT affect the magnitude of friction?",
+        "type": "mcq",
+        "o": [
+            "Color of the surface",
+            "Nature of the surface",
+            "Weight of the object",
+            "Roughness of the surface"
+        ]
+    },
+    {
+        "q": "What happens to friction if the surfaces are pressed harder together?",
+        "type": "mcq",
+        "o": [
+            "Friction increases",
+            "Friction decreases",
+            "Friction remains the same",
+            "Friction disappears"
+        ]
+    },
+    {
+        "q": "Name one substance used to reduce friction between machine parts.",
+        "type": "short_answer",
+        "answers": [
+            "lubricant",
+            "oil",
+            "grease",
+            "graphite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Smooth surfaces have more friction than rough surfaces.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which method is used to reduce friction by placing a layer of fluid between surfaces?",
+        "type": "mcq",
+        "o": [
+            "Lubrication",
+            "Polishing",
+            "Increasing weight",
+            "Making surfaces rough"
+        ]
+    },
+    {
+        "q": "How many main types of solid friction are there?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "Match the type of friction with its description.",
+        "type": "memory",
+        "pairs": {
+            "Static Friction": "Friction when an object is at rest",
+            "Sliding Friction": "Friction when an object moves over a surface",
+            "Rolling Friction": "Friction when an object uses wheels",
+            "Fluid Friction": "Friction exerted by liquids and gases"
+        }
+    },
+    {
+        "q": "Why do we use ball bearings in machines?",
+        "type": "mcq",
+        "o": [
+            "To reduce friction by converting sliding friction to rolling friction",
+            "To increase friction for better grip",
+            "To make the machine heavier",
+            "To reduce the weight of the machine"
+        ]
+    },
+    {
+        "q": "Match the method with its effect on friction:",
+        "type": "match",
+        "left": [
+            "Polishing",
+            "Lubrication",
+            "Using ball bearings",
+            "Making grooves on tires"
+        ],
+        "right": [
+            "Reduces friction",
+            "Reduces friction",
+            "Reduces friction",
+            "Increases friction"
+        ]
+    },
+    {
+        "q": "Which of these is a disadvantage of friction?",
+        "type": "mcq",
+        "o": [
+            "It causes wear and tear of machine parts",
+            "It helps us walk",
+            "It allows vehicles to stop",
+            "It helps us hold objects"
+        ]
+    },
+    {
+        "q": "The ______________ of an object affects the friction between it and the surface.",
+        "type": "fill_blank",
+        "answers": [
+            "weight"
+        ],
+        "other_options": [
+            "shape",
+            "color",
+            "volume"
+        ]
+    },
+    {
+        "q": "Fluid friction is also known as ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "drag"
+        ],
+        "other_options": [
+            "static",
+            "sliding",
+            "rolling"
+        ]
+    },
+    {
+        "q": "What type of friction acts on a book kept on a table?",
+        "type": "mcq",
+        "o": [
+            "Static friction",
+            "Sliding friction",
+            "Rolling friction",
+            "No friction"
+        ]
+    },
+    {
+        "q": "Which of the following would have the highest friction?",
+        "type": "mcq",
+        "o": [
+            "A rough concrete floor",
+            "A polished marble floor",
+            "An ice surface",
+            "An oily surface"
+        ]
+    },
+    {
+        "q": "Friction produces heat when two surfaces rub against each other.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of treads on vehicle tires?",
+        "type": "mcq",
+        "o": [
+            "To increase friction for better grip on the road",
+            "To reduce the weight of the tire",
+            "To make the tire look attractive",
+            "To decrease friction for speed"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a method to reduce friction?",
+        "type": "odd_one_out",
+        "options": [
+            "Using oil",
+            "Using grease",
+            "Using ball bearings",
+            "Adding sand"
+        ],
+        "correct": "Adding sand"
+    },
+    {
+        "q": "Name the special shape given to objects moving through fluids to reduce fluid friction.",
+        "type": "short_answer",
+        "answers": [
+            "streamlined",
+            "streamlined shape",
+            "aerodynamic shape"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which sport uses powder to increase friction for a better grip?",
+        "type": "mcq",
+        "o": [
+            "Gymnastics",
+            "Swimming",
+            "Ice skating",
+            "Cycling"
+        ]
+    },
+    {
+        "q": "The friction between two surfaces can be reduced by making them ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "smooth"
+        ],
+        "other_options": [
+            "rough",
+            "heavy",
+            "thick"
+        ]
+    },
+    {
+        "q": "Match the situation with the type of friction:",
+        "type": "match",
+        "left": [
+            "A car moving on a road",
+            "A fish swimming in water",
+            "A box pushed on a rough floor",
+            "A bicycle wheel turning"
+        ],
+        "right": [
+            "Rolling friction",
+            "Fluid friction",
+            "Sliding friction",
+            "Rolling friction"
+        ]
+    },
+    {
+        "q": "What is the main reason for using lubricants like oil in engines?",
+        "type": "mcq",
+        "o": [
+            "To reduce friction and prevent overheating",
+            "To increase friction for better performance",
+            "To clean the engine parts",
+            "To add weight to the engine"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a method to reduce friction?",
+        "type": "mcq",
+        "o": [
+            "Making surfaces rougher",
+            "Using ball bearings",
+            "Applying lubricants",
+            "Polishing surfaces"
+        ]
+    },
+    {
+        "q": "Static friction is generally greater than sliding friction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What happens when you spill oil on a floor?",
+        "type": "mcq",
+        "o": [
+            "Friction decreases, making it slippery",
+            "Friction increases, making it sticky",
+            "Friction remains the same",
+            "The floor becomes rough"
+        ]
+    },
+    {
+        "q": "Which type of friction is the smallest among the following?",
+        "type": "mcq",
+        "o": [
+            "Rolling friction",
+            "Static friction",
+            "Sliding friction",
+            "All are equal"
+        ]
+    },
+    {
+        "q": "The frictional force exerted by fluids is called ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "drag",
+            "fluid friction"
+        ],
+        "other_options": [
+            "static friction",
+            "weight",
+            "pressure"
+        ]
+    },
+    {
+        "q": "Why do gymnasts apply chalk powder on their hands?",
+        "type": "short_answer",
+        "answers": [
+            "to increase friction",
+            "for better grip",
+            "to absorb sweat and increase grip"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following shapes experiences the least fluid friction?",
+        "type": "mcq",
+        "o": [
+            "Streamlined shape",
+            "Flat shape",
+            "Irregular shape",
+            "Cubical shape"
+        ]
+    },
+    {
+        "q": "Friction can be reduced by increasing the weight on the object.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the unit of friction force?",
+        "type": "mcq",
+        "o": [
+            "Newton",
+            "Joule",
+            "Watt",
+            "Pascal"
+        ]
+    },
+    {
+        "q": "Match the surface condition with friction level:",
+        "type": "match",
+        "left": [
+            "Very smooth wet ice",
+            "Rough sandpaper",
+            "Oiled metal surface",
+            "Dry concrete road"
+        ],
+        "right": [
+            "Very low friction",
+            "Very high friction",
+            "Low friction",
+            "High friction"
+        ]
+    },
+    {
+        "q": "Which of these activities does NOT depend on friction?",
+        "type": "mcq",
+        "o": [
+            "A rocket moving in outer space",
+            "A person walking on the road",
+            "A car braking at a signal",
+            "Writing with a pencil on paper"
+        ]
+    },
+    {
+        "q": "The ______________ the surface, the more is the friction.",
+        "type": "fill_blank",
+        "answers": [
+            "rougher"
+        ],
+        "other_options": [
+            "smoother",
+            "softer",
+            "harder"
+        ]
+    },
+    {
+        "q": "What type of friction helps a parachute slow down a skydiver?",
+        "type": "mcq",
+        "o": [
+            "Fluid friction or air resistance",
+            "Sliding friction",
+            "Static friction",
+            "Rolling friction"
+        ]
+    },
+    {
+        "q": "Name a solid lubricant commonly used in machines.",
+        "type": "short_answer",
+        "answers": [
+            "graphite",
+            "graphite powder"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which factor does NOT increase friction?",
+        "type": "mcq",
+        "o": [
+            "Polishing the surface",
+            "Increasing roughness",
+            "Increasing the weight of the object",
+            "Pressing surfaces harder together"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for actions that Increase friction, LEFT for actions that Decrease friction.",
+        "type": "swipe_cards",
+        "left_label": "Decrease Friction",
+        "right_label": "Increase Friction",
+        "cards": {
+            "Applying brake pads": "right",
+            "Using lubricants": "left",
+            "Treads on tires": "right",
+            "Polishing a surface": "left"
+        }
+    },
+    {
+        "q": "Ball bearings use the principle of rolling friction being less than sliding friction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Why is it easier to slide on ice than on a concrete road?",
+        "type": "mcq",
+        "o": [
+            "Ice has a smoother surface, so less friction",
+            "Ice is colder, which reduces weight",
+            "Concrete is softer than ice",
+            "Ice applies a magnetic force"
+        ]
+    },
+    {
+        "q": "Which of these is an example of using friction intentionally?",
+        "type": "mcq",
+        "o": [
+            "Brake pads in a bicycle stopping the wheel",
+            "Adding oil to a door hinge",
+            "Polishing a car's surface",
+            "Using streamlined design for an airplane"
+        ]
+    },
+    {
+        "q": "The soles of shoes have grooves to ______________ friction.",
+        "type": "fill_blank",
+        "answers": [
+            "increase"
+        ],
+        "other_options": [
+            "decrease",
+            "eliminate",
+            "maintain"
+        ]
+    },
+    {
+        "q": "What is the role of air in fluid friction?",
+        "type": "mcq",
+        "o": [
+            "Air exerts drag on moving objects",
+            "Air increases the weight of objects",
+            "Air eliminates friction completely",
+            "Air converts static friction to sliding friction"
+        ]
+    },
+    {
+        "q": "Match the object with its method of friction management:",
+        "type": "match",
+        "left": [
+            "Bicycle chain",
+            "Car tires",
+            "Ice skates",
+            "Hinge of a door"
+        ],
+        "right": [
+            "Oil lubrication",
+            "Treads for grip",
+            "Low friction for sliding",
+            "Oil or grease lubrication"
+        ]
+    },
+    {
+        "q": "Friction is a contact force.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following statements about friction is true?",
+        "type": "mcq",
+        "o": [
+            "Friction always opposes motion",
+            "Friction always helps motion",
+            "Friction is absent in liquids",
+            "Friction is a non-contact force"
+        ]
+    },
+    {
+        "q": "What is one way to increase friction on a slippery floor?",
+        "type": "short_answer",
+        "answers": [
+            "sprinkle sand",
+            "add a rough mat",
+            "make grooves"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which science concept explains why it is hard to push a heavy box on a rough floor?",
+        "type": "mcq",
+        "o": [
+            "High friction between the box and the floor",
+            "Low gravity acting on the box",
+            "The box is streamlined",
+            "There is no friction"
+        ]
+    },
+    {
+        "q": "The friction between the tip of a pen and paper allows us to ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "write"
+        ],
+        "other_options": [
+            "erase",
+            "paint",
+            "cut"
+        ]
+    },
+    {
+        "q": "Which of the following surfaces would provide the LEAST friction for a moving object?",
+        "type": "mcq",
+        "o": [
+            "Wet ice",
+            "Sandpaper",
+            "Carpet",
+            "Concrete"
+        ]
+    },
+    {
+        "q": "Streamlined bodies help reduce fluid friction in water and air.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In which direction does friction act relative to the motion of an object?",
+        "type": "mcq",
+        "o": [
+            "Opposite to the direction of motion",
+            "In the same direction as motion",
+            "Perpendicular to the motion",
+            "Friction has no direction"
+        ]
+    },
+    {
+        "q": "What causes wear and tear in machine parts over time?",
+        "type": "mcq",
+        "o": [
+            "Friction",
+            "Weight",
+            "Color change",
+            "Magnetism"
+        ]
+    },
+    {
+        "q": "Match the friction type to its everyday example:",
+        "type": "match",
+        "left": [
+            "Static friction",
+            "Sliding friction",
+            "Rolling friction",
+            "Fluid friction"
+        ],
+        "right": [
+            "A ladder leaning on a wall",
+            "Skiing on snow",
+            "A skateboard wheel moving",
+            "A submarine underwater"
+        ]
+    },
+    {
+        "q": "The shape of an airplane is streamlined to reduce ______________ friction.",
+        "type": "fill_blank",
+        "answers": [
+            "fluid",
+            "air"
+        ],
+        "other_options": [
+            "static",
+            "sliding",
+            "rolling"
+        ]
+    },
+    {
+        "q": "Why do we use lubricants?",
+        "type": "short_answer",
+        "answers": [
+            "to reduce friction",
+            "to make surfaces slippery",
+            "to prevent wear and tear"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "If there was no friction, what would happen when you try to walk?",
+        "type": "mcq",
+        "o": [
+            "You would slip and not be able to move forward",
+            "You would walk faster",
+            "You would walk normally",
+            "Your weight would decrease"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a contact force?",
+        "type": "mcq",
+        "o": [
+            "Magnetic force",
+            "Frictional force",
+            "Normal force",
+            "Tension force"
+        ]
+    },
+    {
+        "q": "Friction is always greater on a rough surface than on a smooth surface, given other conditions are the same.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the main cause of friction at the microscopic level?",
+        "type": "mcq",
+        "o": [
+            "Irregularities or roughness of surfaces interlocking",
+            "Magnetic attraction between surfaces",
+            "Chemical reaction between surfaces",
+            "Gravitational pull between surfaces"
+        ]
+    },
+    {
+        "q": "The grooves on the surface of a tire help to ______________ water and prevent slipping.",
+        "type": "fill_blank",
+        "answers": [
+            "disperse",
+            "channel",
+            "remove"
+        ],
+        "other_options": [
+            "absorb",
+            "heat",
+            "collect"
+        ]
+    },
+    {
+        "q": "Which of the following increases friction?",
+        "type": "mcq",
+        "o": [
+            "Sprinkling sand on an icy path",
+            "Applying oil to machinery",
+            "Polishing furniture",
+            "Waxing a floor"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A substance used to reduce friction.",
+        "type": "word_scramble",
+        "answer": "LUBRICANT",
+        "decoys": "XYZ"
+    },
+    {
+        "q": "Name the type of friction that prevents a parked car from moving on a slight slope.",
+        "type": "short_answer",
+        "answers": [
+            "static friction"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these sports requires minimizing friction for maximum performance?",
+        "type": "mcq",
+        "o": [
+            "Ice skating",
+            "Rock climbing",
+            "Gymnastics",
+            "Weightlifting"
+        ]
+    },
+    {
+        "q": "Match the scenario with the correct term:",
+        "type": "match",
+        "left": [
+            "Friction produces heat",
+            "Friction causes wear",
+            "Friction allows walking",
+            "Friction is reduced"
+        ],
+        "right": [
+            "Rubbing hands together",
+            "Soles of shoes wearing out",
+            "Non-slip bathroom mats",
+            "Oil in a car engine"
+        ]
+    },
+    {
+        "q": "Friction only occurs between solid surfaces.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What happens to fluid friction as the speed of an object through the fluid increases?",
+        "type": "mcq",
+        "o": [
+            "Fluid friction increases",
+            "Fluid friction decreases",
+            "Fluid friction stays constant",
+            "Fluid friction becomes zero"
+        ]
+    },
+    {
+        "q": "The science of studying friction and lubrication is called ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "tribology"
+        ],
+        "other_options": [
+            "biology",
+            "geology",
+            "ecology"
+        ]
+    },
+    {
+        "q": "Which of the following materials is commonly used for brake pads?",
+        "type": "mcq",
+        "o": [
+            "A high-friction material",
+            "A low-friction material",
+            "A perfectly smooth material",
+            "A liquid lubricant"
+        ]
+    },
+    {
+        "q": "Why do ships have a streamlined shape?",
+        "type": "short_answer",
+        "answers": [
+            "to reduce fluid friction",
+            "to reduce drag",
+            "to move easily through water"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "If you push a book on a table and it moves slowly and stops, what force caused it to stop?",
+        "type": "mcq",
+        "o": [
+            "Sliding friction",
+            "Static friction",
+            "Rolling friction",
+            "No force"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of rolling friction?",
+        "type": "mcq",
+        "o": [
+            "A suitcase wheel moving at the airport",
+            "A box pushed on a ramp",
+            "A person skydiving",
+            "A climber holding a rock"
+        ]
+    },
+    {
+        "q": "Friction can be completely eliminated if surfaces are polished perfectly.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "The friction between the eraser and paper helps to ______________ the pencil marks.",
+        "type": "fill_blank",
+        "answers": [
+            "erase",
+            "remove"
+        ],
+        "other_options": [
+            "draw",
+            "color",
+            "write"
+        ]
+    },
+    {
+        "q": "What is the main difference between static friction and sliding friction?",
+        "type": "mcq",
+        "o": [
+            "Static friction acts on stationary objects, sliding friction acts on moving objects",
+            "Static friction is always smaller than sliding friction",
+            "Sliding friction acts on stationary objects",
+            "There is no difference"
+        ]
+    },
+    {
+        "q": "Match the body part with how it uses friction:",
+        "type": "match",
+        "left": [
+            "Feet",
+            "Hands",
+            "Fingertips",
+            "Tongue"
+        ],
+        "right": [
+            "Walking or running",
+            "Holding objects",
+            "Sensing texture",
+            "Tasting food (requires friction to sense)"
+        ]
+    },
+    {
+        "q": "Which of the following reduces friction in a car engine?",
+        "type": "mcq",
+        "o": [
+            "Engine oil",
+            "Sand",
+            "Water",
+            "Air"
+        ]
+    },
+    {
+        "q": "Why do mountaineers wear shoes with spikes?",
+        "type": "short_answer",
+        "answers": [
+            "to increase friction",
+            "for better grip on ice",
+            "to prevent slipping"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A book is resting on an inclined plane and does not slide down because of ______________ friction.",
+        "type": "fill_blank",
+        "answers": [
+            "static"
+        ],
+        "other_options": [
+            "sliding",
+            "rolling",
+            "fluid"
+        ]
+    },
+    {
+        "q": "Which of the following is true about rolling friction?",
+        "type": "mcq",
+        "o": [
+            "It is less than sliding friction",
+            "It is greater than static friction",
+            "It is the same as sliding friction",
+            "It is the largest type of friction"
+        ]
+    },
+    {
+        "q": "Friction is responsible for the ignition of a matchstick.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a lubricant?",
+        "type": "mcq",
+        "o": [
+            "A substance that reduces friction between surfaces",
+            "A substance that increases friction",
+            "A tool used to measure friction",
+            "A type of solid surface"
+        ]
+    },
+    {
+        "q": "Which of these vehicles is designed to minimize fluid friction?",
+        "type": "mcq",
+        "o": [
+            "A submarine with a streamlined body",
+            "A school bus",
+            "A construction crane",
+            "A tractor"
+        ]
+    },
+    {
+        "q": "Match the animal adaptation to its friction-related function:",
+        "type": "match",
+        "left": [
+            "Fish scales",
+            "Arctic hare feet",
+            "Gecko toe pads",
+            "Snake belly scales"
+        ],
+        "right": [
+            "Reduce fluid friction",
+            "Increase grip on ice/snow",
+            "High friction for climbing",
+            "High friction for crawling"
+        ]
+    },
+    {
+        "q": "Complete the sentence about friction.",
+        "type": "inline_dropdown",
+        "text": "Friction always opposes the [0] between the surfaces in [1].",
+        "dropdowns": [
+            {
+                "correct": "motion",
+                "options": [
+                    "color",
+                    "motion",
+                    "temperature"
+                ]
+            },
+            {
+                "correct": "contact",
+                "options": [
+                    "air",
+                    "vacuum",
+                    "contact"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The force of friction always helps us in everyday tasks.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "In space, there is no air resistance because there is no ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "air",
+            "atmosphere",
+            "fluid"
+        ],
+        "other_options": [
+            "gravity",
+            "matter",
+            "force"
+        ]
+    },
+    {
+        "q": "Name the type of friction that acts on a kite flying in the sky.",
+        "type": "short_answer",
+        "answers": [
+            "fluid friction",
+            "air resistance",
+            "drag"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of friction is the largest for the same two surfaces?",
+        "type": "mcq",
+        "o": [
+            "Static friction",
+            "Sliding friction",
+            "Rolling friction",
+            "Fluid friction"
+        ]
+    },
+    {
+        "q": "A heavy box is harder to push than a light box because friction depends on ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "weight",
+            "mass",
+            "normal force"
+        ],
+        "other_options": [
+            "color",
+            "volume",
+            "shape"
+        ]
+    },
+    {
+        "q": "Friction is independent of the surface area in contact.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Why do we use graphite powder as a dry lubricant?",
+        "type": "short_answer",
+        "answers": [
+            "it reduces friction without attracting dust",
+            "it is a solid lubricant",
+            "it does not attract dirt"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following scenarios shows friction as a disadvantage?",
+        "type": "mcq",
+        "o": [
+            "A machine part overheating due to rubbing",
+            "Walking on a road without slipping",
+            "Holding a pen to write",
+            "A car braking safely"
+        ]
+    },
+    {
+        "q": "What happens to the frictional force if you press your hands together harder?",
+        "type": "mcq",
+        "o": [
+            "It increases",
+            "It decreases",
+            "It stays the same",
+            "It disappears"
+        ]
+    },
+    {
+        "q": "Match the type of lubricant with its example:",
+        "type": "match",
+        "left": [
+            "Liquid lubricant",
+            "Semi-solid lubricant",
+            "Solid lubricant",
+            "Gas lubricant"
+        ],
+        "right": [
+            "Engine oil",
+            "Grease",
+            "Graphite powder",
+            "Air in hovercraft"
+        ]
+    },
+    {
+        "q": "Sliding friction is also known as ______________ friction.",
+        "type": "fill_blank",
+        "answers": [
+            "kinetic",
+            "dynamic"
+        ],
+        "other_options": [
+            "static",
+            "rolling",
+            "fluid"
+        ]
+    },
+    {
+        "q": "Which of these materials would make the best flooring for a factory where workers push heavy loads?",
+        "type": "mcq",
+        "o": [
+            "Smooth polished concrete",
+            "Rough sandpaper-like surface",
+            "Soft rubber matting",
+            "Wet muddy ground"
+        ]
+    },
+    {
+        "q": "Friction is a necessary evil.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which force opposes the motion of a bicycle when you stop pedaling on a flat road?",
+        "type": "mcq",
+        "o": [
+            "Friction and air resistance",
+            "Only gravity",
+            "Only magnetic force",
+            "No force acts"
+        ]
+    },
+    {
+        "q": "What is the function of synovial fluid in our joints?",
+        "type": "short_answer",
+        "answers": [
+            "reduce friction",
+            "lubricate the joints",
+            "allow smooth movement"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The interlocking of surface irregularities causes ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "friction"
+        ],
+        "other_options": [
+            "gravity",
+            "magnetism",
+            "inertia"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a disadvantage of friction?",
+        "type": "mcq",
+        "o": [
+            "It allows vehicles to accelerate safely",
+            "It causes wear and tear of shoes",
+            "It produces unwanted heat in engines",
+            "It requires extra fuel to overcome it"
+        ]
+    },
+    {
+        "q": "If you apply 20 units of force to a heavy box and it does not move, what is the static friction force in units?",
+        "type": "slider",
+        "min": 0,
+        "max": 40,
+        "correct": 20
+    },
+    {
+        "q": "Why does a matchstick light when struck against a rough surface?",
+        "type": "mcq",
+        "o": [
+            "Friction generates heat, igniting the chemicals",
+            "The surface is cold and absorbs heat",
+            "Chemicals react with oxygen in the air",
+            "The matchstick has a battery inside"
+        ]
+    },
+    {
+        "q": "Match the method with its effect on friction:",
+        "type": "match",
+        "left": [
+            "Adding wheels",
+            "Using bearings",
+            "Streamlining",
+            "Making spikes"
+        ],
+        "right": [
+            "Reduces friction",
+            "Reduces friction",
+            "Reduces fluid friction",
+            "Increases friction"
+        ]
+    },
+    {
+        "q": "Air resistance increases as the surface area of a falling object increases.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following surfaces creates the most friction with a rubber shoe?",
+        "type": "mcq",
+        "o": [
+            "A rough asphalt road",
+            "A wet tile floor",
+            "A smooth ice rink",
+            "A polished wooden floor"
+        ]
+    },
+    {
+        "q": "Name the principle used by hovercrafts to reduce friction.",
+        "type": "short_answer",
+        "answers": [
+            "air cushion",
+            "air lubrication",
+            "ground effect"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The friction between your hand and a warm cup of tea is an example of ______________ friction.",
+        "type": "fill_blank",
+        "answers": [
+            "static"
+        ],
+        "other_options": [
+            "sliding",
+            "rolling",
+            "fluid"
+        ]
+    },
+    {
+        "q": "Which of the following is a method to reduce friction in a bicycle chain?",
+        "type": "mcq",
+        "o": [
+            "Applying grease",
+            "Removing the pedals",
+            "Adding weight to the chain",
+            "Painting the chain"
+        ]
+    },
+    {
+        "q": "What is the primary reason cars are streamlined?",
+        "type": "mcq",
+        "o": [
+            "To reduce air resistance and improve fuel efficiency",
+            "To increase friction with the air",
+            "To look attractive",
+            "To increase the weight of the car"
+        ]
+    },
+    {
+        "q": "Match the surface with its relative friction level:",
+        "type": "match",
+        "left": [
+            "Teflon coated pan",
+            "Rubber grip mat",
+            "Wet marble floor",
+            "Sandpaper"
+        ],
+        "right": [
+            "Very low",
+            "High",
+            "Low",
+            "Very high"
+        ]
+    },
+    {
+        "q": "Friction helps a nail stay in the wall.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which type of friction is acting when you write with a pencil on paper?",
+        "type": "mcq",
+        "o": [
+            "Sliding friction",
+            "Static friction",
+            "Rolling friction",
+            "Fluid friction"
+        ]
+    },
+    {
+        "q": "The tread pattern on tires is designed to channel water away and prevent ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "hydroplaning",
+            "aquaplaning",
+            "slipping"
+        ],
+        "other_options": [
+            "rolling",
+            "heating",
+            "wearing"
+        ]
+    },
+    {
+        "q": "Why is it difficult to walk on a muddy, slippery path?",
+        "type": "short_answer",
+        "answers": [
+            "friction is low",
+            "not enough grip",
+            "the surface is slippery"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is 'drag' in the context of physics?",
+        "type": "mcq",
+        "o": [
+            "The frictional force exerted by fluids on a moving object",
+            "The weight of an object in water",
+            "The force that pushes a rocket upwards",
+            "The magnetic attraction between objects"
+        ]
+    },
+    {
+        "q": "Which factor directly influences the heat produced by friction?",
+        "type": "mcq",
+        "o": [
+            "The magnitude of friction and speed of rubbing",
+            "The color of the objects",
+            "The smell of the surfaces",
+            "The temperature of the surrounding air only"
+        ]
+    },
+    {
+        "q": "Polishing a surface can reduce friction, but if polished too much to an atomic level, friction can increase due to molecular attraction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the part of a car with its friction requirement:",
+        "type": "match",
+        "left": [
+            "Tires",
+            "Engine cylinders",
+            "Brake pads",
+            "Windshield"
+        ],
+        "right": [
+            "High friction for grip",
+            "Low friction via oil",
+            "High friction to stop",
+            "Streamlined to reduce drag"
+        ]
+    },
+    {
+        "q": "The science of friction, wear, and lubrication is ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "tribology"
+        ],
+        "other_options": [
+            "biology",
+            "geology",
+            "psychology"
+        ]
+    },
+    {
+        "q": "Which of the following would be the best shape for a deep-sea diving vehicle to minimize water resistance?",
+        "type": "mcq",
+        "o": [
+            "A streamlined, torpedo-like shape",
+            "A flat, wide shape",
+            "A boxy, angular shape",
+            "An irregular, jagged shape"
+        ]
+    },
+    {
+        "q": "What type of friction allows a conveyor belt to carry items upward without them slipping?",
+        "type": "mcq",
+        "o": [
+            "Static friction",
+            "Sliding friction",
+            "Rolling friction",
+            "Fluid friction"
+        ]
+    },
+    {
+        "q": "Name a daily-life activity where you intentionally reduce friction.",
+        "type": "short_answer",
+        "answers": [
+            "oiling door hinges",
+            "applying lotion to skin",
+            "ice skating",
+            "waxing a car"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "An object moving in a vacuum experiences no fluid friction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following increases friction by changing the nature of the surface?",
+        "type": "mcq",
+        "o": [
+            "Sprinkling powder on a carrom board",
+            "Adding oil to a sewing machine",
+            "Polishing a marble floor",
+            "Using a trolley to move luggage"
+        ]
+    },
+    {
+        "q": "The ______________ of a surface is a measure of its roughness or smoothness and directly affects friction.",
+        "type": "fill_blank",
+        "answers": [
+            "texture",
+            "nature"
+        ],
+        "other_options": [
+            "color",
+            "temperature",
+            "age"
+        ]
+    },
+    {
+        "q": "Why do athletes wear spiked shoes?",
+        "type": "mcq",
+        "o": [
+            "To increase friction and prevent slipping on the track",
+            "To reduce friction and run faster",
+            "To make the shoes lighter",
+            "To protect the track from damage"
+        ]
+    },
+    {
+        "q": "Match the real-life example to the friction concept.",
+        "type": "memory",
+        "pairs": {
+            "Lighting a match": "Friction produces heat",
+            "Soles of shoes wearing out": "Friction causes wear and tear",
+            "Writing on a blackboard": "Friction allows us to leave chalk marks",
+            "Applying powder on carrom board": "Friction is reduced for smoother play"
+        }
+    },
+    {
+        "q": "Which of the following best describes the relationship between friction and heat?",
+        "type": "mcq",
+        "o": [
+            "Friction converts kinetic energy into thermal energy (heat)",
+            "Friction is a form of cold energy",
+            "Friction has no relation to heat",
+            "Heat reduces friction to zero"
+        ]
+    },
+    {
+        "q": "Which of these objects does NOT use a streamlined shape to reduce fluid friction?",
+        "type": "odd_one_out",
+        "options": [
+            "Airplane",
+            "Submarine",
+            "Bird",
+            "Square block"
+        ],
+        "correct": "Square block"
+    },
+    {
+        "q": "Match the sport with the friction technique used:",
+        "type": "match",
+        "left": [
+            "Ice hockey",
+            "Rock climbing",
+            "Swimming",
+            "Carrom"
+        ],
+        "right": [
+            "Minimize friction for speed",
+            "Maximize friction for grip",
+            "Streamlined suits",
+            "Fine powder for optimal grip"
+        ]
+    },
+    {
+        "q": "Fluid friction is generally less than dry sliding friction for the same normal force.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for the maximum static friction just before an object starts moving?",
+        "type": "mcq",
+        "o": [
+            "Limiting friction",
+            "Dynamic friction",
+            "Rolling friction",
+            "Terminal friction"
+        ]
+    },
+    {
+        "q": "Why do we apply moisturizer or lotion to our skin?",
+        "type": "short_answer",
+        "answers": [
+            "to reduce friction between skin and clothes",
+            "to soothe skin",
+            "to prevent chafing"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The friction between two surfaces decreases when they are ______________ hard together.",
+        "type": "fill_blank",
+        "answers": [
+            "not pressed",
+            "loose"
+        ],
+        "other_options": [
+            "pressed",
+            "rubbed",
+            "heated"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of fluid friction being beneficial?",
+        "type": "mcq",
+        "o": [
+            "A parachute slowing down a skydiver",
+            "A boat's engine overheating",
+            "A swimmer feeling tired due to water resistance",
+            "A car's fuel consumption increasing at high speeds"
+        ]
+    },
+    {
+        "q": "What happens to the friction between the road and a bicycle tire when the tire pressure is very low (a flat tire)?",
+        "type": "mcq",
+        "o": [
+            "Friction increases due to a larger contact patch",
+            "Friction decreases to zero",
+            "Friction remains exactly the same",
+            "Rolling friction becomes fluid friction"
+        ]
+    },
+    {
+        "q": "Match the scientific term with its definition:",
+        "type": "match",
+        "left": [
+            "Friction",
+            "Lubricant",
+            "Drag",
+            "Streamlined"
+        ],
+        "right": [
+            "Force opposing motion",
+            "Substance reducing friction",
+            "Fluid friction",
+            "Shape to reduce fluid friction"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Advantages of friction, LEFT for Disadvantages.",
+        "type": "swipe_cards",
+        "left_label": "Disadvantage",
+        "right_label": "Advantage",
+        "cards": {
+            "Walking on the ground": "right",
+            "Forest fires from rubbing branches": "left",
+            "Holding a glass of water": "right",
+            "Machine parts getting hot": "left"
+        }
+    },
+    {
+        "q": "In a vacuum, a feather and a hammer fall at the same rate because there is no air resistance acting on them.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following best explains why a heavier object experiences more friction?",
+        "type": "mcq",
+        "o": [
+            "It presses harder on the surface, increasing the interlocking of irregularities",
+            "It has a larger surface area",
+            "It is moving slower",
+            "It has a darker color"
+        ]
+    },
+    {
+        "q": "The ______________ force is the force exerted by a surface perpendicular to an object resting on it, affecting friction.",
+        "type": "fill_blank",
+        "answers": [
+            "normal"
+        ],
+        "other_options": [
+            "gravitational",
+            "magnetic",
+            "tension"
+        ]
+    },
+    {
+        "q": "Name the device used to measure the force of friction.",
+        "type": "short_answer",
+        "answers": [
+            "spring balance",
+            "dynamometer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which design feature of modern swimsuits helps swimmers reduce fluid friction?",
+        "type": "mcq",
+        "o": [
+            "Smooth, textured fabric mimicking shark skin",
+            "Bright, flashy colors",
+            "Increased weight of the fabric",
+            "Loose-fitting design"
+        ]
+    },
+    {
+        "q": "What is a common household substance that can be used as an emergency lubricant?",
+        "type": "mcq",
+        "o": [
+            "Cooking oil",
+            "Lemon juice",
+            "Salt water",
+            "Vinegar"
+        ]
+    },
+    {
+        "q": "Match the problem caused by friction with a solution:",
+        "type": "match",
+        "left": [
+            "Overheating machine parts",
+            "Wear of shoe soles",
+            "Difficulty sliding heavy furniture",
+            "Air resistance on airplanes"
+        ],
+        "right": [
+            "Use lubricating oil",
+            "Use harder wearing material",
+            "Put felt pads or use a trolley",
+            "Streamlined design"
+        ]
+    },
+    {
+        "q": "Friction is a field force like gravity or magnetism.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Why does a fish have a slimy, scaly body?",
+        "type": "mcq",
+        "o": [
+            "To reduce fluid friction in water",
+            "To increase friction to swim faster",
+            "To attract other fish",
+            "To store water for droughts"
+        ]
+    },
+    {
+        "q": "Brake pads are an example of a ______________ friction application.",
+        "type": "fill_blank",
+        "answers": [
+            "high",
+            "large",
+            "maximum"
+        ],
+        "other_options": [
+            "low",
+            "small",
+            "zero"
+        ]
+    },
+    {
+        "q": "What is the term for the friction that acts between layers of a fluid?",
+        "type": "short_answer",
+        "answers": [
+            "viscosity",
+            "internal friction",
+            "fluid friction"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: The force that opposes motion.",
+        "type": "word_scramble",
+        "answer": "FRICTION",
+        "decoys": "QW"
+    },
+    {
+        "q": "Which of the following statements is correct about rolling friction?",
+        "type": "mcq",
+        "o": [
+            "It is less than sliding friction because the area of contact is smaller and there is no interlocking",
+            "It is the same as sliding friction",
+            "It is greater than static friction",
+            "It only acts in fluids"
+        ]
+    },
+    {
+        "q": "What is the primary reason for adding grooves to the soles of sports shoes?",
+        "type": "mcq",
+        "o": [
+            "To increase grip and friction with the ground",
+            "To make the shoes lighter",
+            "To decrease friction for sliding",
+            "To make cleaning the soles easier"
+        ]
+    },
+    {
+        "q": "Match the everyday object with how it uses friction:",
+        "type": "match",
+        "left": [
+            "Pencil eraser",
+            "Matchbox",
+            "Zipper",
+            "Knot in a rope"
+        ],
+        "right": [
+            "High friction to erase marks",
+            "Friction to ignite",
+            "Friction to hold teeth together",
+            "Friction to stay tied"
+        ]
+    },
+    {
+        "q": "The coefficient of friction is the same for all pairs of materials.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is an example of static friction?",
+        "type": "mcq",
+        "o": [
+            "A ladder leaning against a wall without sliding",
+            "A sled sliding down a snowy hill",
+            "A ball bearing rolling inside a race",
+            "An airplane flying through clouds"
+        ]
+    },
+    {
+        "q": "The friction that exists between a book and a table when you gently push the book but it doesn't move is called ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "static friction"
+        ],
+        "other_options": [
+            "kinetic friction",
+            "rolling friction",
+            "drag"
+        ]
+    },
+    {
+        "q": "Why is it easier to slide a box across a floor when it is on a blanket rather than directly on the bare floor?",
+        "type": "short_answer",
+        "answers": [
+            "the blanket reduces friction",
+            "the blanket has a smoother surface",
+            "it acts as a lubricant layer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is NOT a way to reduce fluid friction on a car?",
+        "type": "mcq",
+        "o": [
+            "Adding a large spoiler perpendicular to the airflow",
+            "Designing a curved, sloping windshield",
+            "Using smooth, continuous body panels",
+            "Eliminating protruding mirrors"
+        ]
+    },
+    {
+        "q": "What effect does rain have on the friction between a car tire and the road?",
+        "type": "mcq",
+        "o": [
+            "It usually decreases friction",
+            "It increases friction significantly",
+            "It turns static friction into rolling friction",
+            "It has no effect on friction"
+        ]
+    },
+    {
+        "q": "Match the condition of a surface with its effect on friction:",
+        "type": "match",
+        "left": [
+            "Wet road",
+            "Icy road",
+            "Sand on the road",
+            "Dry asphalt road"
+        ],
+        "right": [
+            "Decreased friction",
+            "Highly decreased friction",
+            "Increased friction",
+            "High, normal friction"
+        ]
+    },
+    {
+        "q": "A hovercraft reduces friction by creating an air cushion, changing dry friction to fluid friction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a correct example of friction being essential for a task?",
+        "type": "mcq",
+        "o": [
+            "Lighting a matchstick",
+            "Wearing out of car tires",
+            "Feeling the heat on a laptop fan",
+            "A door hinge squeaking"
+        ]
+    },
+    {
+        "q": "The study of the motion of objects through air is called ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "aerodynamics"
+        ],
+        "other_options": [
+            "hydrodynamics",
+            "tribology",
+            "kinematics"
+        ]
+    },
+    {
+        "q": "What is the main purpose of using talcum powder on a carrom board?",
+        "type": "mcq",
+        "o": [
+            "To reduce friction for smooth sliding of the striker",
+            "To increase friction for better control",
+            "To change the color of the board",
+            "To protect the board from moisture"
+        ]
+    },
+    {
+        "q": "Name the type of friction that is least in magnitude, all other factors being equal.",
+        "type": "short_answer",
+        "answers": [
+            "rolling friction"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Why are machine parts periodically oiled or greased?",
+        "type": "mcq",
+        "o": [
+            "To reduce friction and prevent excessive wear and overheating",
+            "To increase friction for better performance",
+            "To make the parts heavier",
+            "To change the color of the parts"
+        ]
+    },
+    {
+        "q": "Which of the following materials is a solid lubricant?",
+        "type": "mcq",
+        "o": [
+            "Graphite",
+            "Water",
+            "Mustard oil",
+            "Petrol"
+        ]
+    },
+    {
+        "q": "Match the type of friction with the condition required for it to act:",
+        "type": "match",
+        "left": [
+            "Static friction",
+            "Kinetic friction",
+            "Fluid friction",
+            "Rolling friction"
+        ],
+        "right": [
+            "Object is stationary",
+            "Object is sliding",
+            "Object moves through liquid/gas",
+            "Object rolls over a surface"
+        ]
+    },
+    {
+        "q": "Friction always produces light.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following will likely experience the highest fluid friction?",
+        "type": "mcq",
+        "o": [
+            "A flat piece of paper falling",
+            "A crumpled ball of paper falling",
+            "A streamlined missile",
+            "A needle falling point-first"
+        ]
+    },
+    {
+        "q": "The resistance offered by a liquid to an object moving through it depends on the ______________ of the liquid.",
+        "type": "fill_blank",
+        "answers": [
+            "viscosity",
+            "density"
+        ],
+        "other_options": [
+            "color",
+            "volume",
+            "taste"
+        ]
+    },
+    {
+        "q": "Complete the sentence about rolling friction.",
+        "type": "inline_dropdown",
+        "text": "It is always [0] to roll than to [1] a body over another.",
+        "dropdowns": [
+            {
+                "correct": "easier",
+                "options": [
+                    "harder",
+                    "easier",
+                    "impossible"
+                ]
+            },
+            {
+                "correct": "slide",
+                "options": [
+                    "lift",
+                    "push",
+                    "slide"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Why is it difficult to climb a smooth, greasy pole?",
+        "type": "short_answer",
+        "answers": [
+            "friction is very low",
+            "lack of grip",
+            "the surface is slippery"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following correctly describes the role of friction in walking?",
+        "type": "mcq",
+        "o": [
+            "Static friction pushes you forward as you push back on the ground",
+            "Sliding friction pulls you forward",
+            "Rolling friction pushes your feet along",
+            "Fluid friction lifts your feet"
+        ]
+    },
+    {
+        "q": "How does adding wheels to a heavy suitcase affect the force needed to move it?",
+        "type": "mcq",
+        "o": [
+            "It converts sliding friction to rolling friction, greatly reducing the effort",
+            "It increases friction, making it harder to pull",
+            "It has no effect on the effort required",
+            "It eliminates all friction"
+        ]
+    },
+    {
+        "q": "Match the friction level with the walking surface:",
+        "type": "match",
+        "left": [
+            "Normal dry pavement",
+            "Black ice",
+            "Soft sand",
+            "Wet grass"
+        ],
+        "right": [
+            "High friction",
+            "Extremely low friction",
+            "Very high friction",
+            "Moderately low friction"
+        ]
+    },
+    {
+        "q": "Air resistance is a type of static friction.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the primary component of grease that makes it effective as a lubricant?",
+        "type": "mcq",
+        "o": [
+            "A thickener with oil, allowing it to stay in place",
+            "Pure water that evaporates to cool parts",
+            "Solid sand particles that polish surfaces",
+            "A strong acid that melts surface irregularities"
+        ]
+    },
+    {
+        "q": "Friction does not depend on the weight of an object.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "The force that resists the motion of an object rolling over a surface is ______________ friction.",
+        "type": "fill_blank",
+        "answers": [
+            "rolling"
+        ],
+        "other_options": [
+            "static",
+            "sliding",
+            "fluid"
+        ]
+    },
+    {
+        "q": "If a suitcase requires 50 units of force to drag, but only 10 units of force to pull on wheels, how many units of force are saved?",
+        "type": "slider",
+        "min": 10,
+        "max": 60,
+        "correct": 40
+    },
+    {
+        "q": "Name the natural lubricant in the human body that reduces friction between bones at a joint.",
+        "type": "short_answer",
+        "answers": [
+            "synovial fluid",
+            "cartilage"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which shape is best for an object designed to sink rapidly to the bottom of the ocean?",
+        "type": "mcq",
+        "o": [
+            "A streamlined, narrow shape to minimize drag",
+            "A flat, wide shape to maximize drag",
+            "A hollow sphere to trap air",
+            "A parachute-like shape"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of kinetic friction?",
+        "type": "mcq",
+        "o": [
+            "A hockey puck sliding on ice",
+            "A chair standing on a floor",
+            "A car parked on a slope",
+            "A book resting on a shelf"
+        ]
+    },
+    {
+        "q": "What is the coefficient of friction?",
+        "type": "mcq",
+        "o": [
+            "The ratio of the force of friction to the normal force between two surfaces",
+            "The product of mass and acceleration",
+            "The measure of an object's weight",
+            "The distance an object slides before stopping"
+        ]
+    },
+    {
+        "q": "Limiting friction is the minimum force required to keep a body moving once it has started.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following statements is true about the coefficient of friction?",
+        "type": "mcq",
+        "o": [
+            "It is a dimensionless quantity",
+            "It has units of Newtons",
+            "It is always greater than 1",
+            "It depends on the surface area"
+        ]
+    },
+    {
+        "q": "The force of friction is directly proportional to the ______________ force.",
+        "type": "fill_blank",
+        "answers": [
+            "normal"
+        ],
+        "other_options": [
+            "gravitational",
+            "tension",
+            "applied"
+        ]
+    },
+    {
+        "q": "Name the law of friction that states that the force of friction is independent of the apparent area of contact.",
+        "type": "short_answer",
+        "answers": [
+            "second law of friction",
+            "law of friction"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Why does kinetic friction remain constant even when the speed of the sliding object changes?",
+        "type": "mcq",
+        "o": [
+            "Because the interlocking and breaking of surface bonds is independent of speed",
+            "Because faster objects have less mass",
+            "Because the normal force changes with speed",
+            "Kinetic friction does change with speed"
+        ]
+    },
+    {
+        "q": "Match the friction concept with its characteristic:",
+        "type": "match",
+        "left": [
+            "Static friction",
+            "Kinetic friction",
+            "Limiting friction",
+            "Coefficient of friction"
+        ],
+        "right": [
+            "Varies from zero to maximum",
+            "Constant for given surfaces and speed",
+            "Maximum value of static friction",
+            "Ratio of friction to normal force"
+        ]
+    },
+    {
+        "q": "Which factor does NOT directly influence the coefficient of static friction between two dry surfaces?",
+        "type": "mcq",
+        "o": [
+            "The contact area between the surfaces",
+            "The materials of the two surfaces",
+            "The roughness of the surfaces",
+            "The presence of any oxide layers"
+        ]
+    },
+    {
+        "q": "What happens to the coefficient of friction if the normal force is doubled?",
+        "type": "mcq",
+        "o": [
+            "It remains constant",
+            "It doubles",
+            "It halves",
+            "It becomes zero"
+        ]
+    },
+    {
+        "q": "Friction between two surfaces can be explained solely by the mechanical interlocking of surface irregularities.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "The ______________ force is the external force required to just initiate motion in a body at rest.",
+        "type": "fill_blank",
+        "answers": [
+            "limiting friction",
+            "limiting"
+        ],
+        "other_options": [
+            "kinetic",
+            "dynamic",
+            "rolling"
+        ]
+    },
+    {
+        "q": "Why is Teflon used as a non-stick coating?",
+        "type": "short_answer",
+        "answers": [
+            "it has a very low coefficient of friction",
+            "it is chemically inert and smooth",
+            "it prevents food from sticking"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following represents the correct relationship?",
+        "type": "mcq",
+        "o": [
+            "Static friction is greater than or equal to kinetic friction",
+            "Kinetic friction is always greater than static friction",
+            "Rolling friction is greater than sliding friction",
+            "Static friction is always less than kinetic friction"
+        ]
+    },
+    {
+        "q": "A block of wood is pulled at a constant velocity across a surface. What can be said about the forces?",
+        "type": "mcq",
+        "o": [
+            "The pulling force equals the kinetic friction force",
+            "The pulling force is less than the kinetic friction",
+            "The pulling force is zero",
+            "The friction is static"
+        ]
+    },
+    {
+        "q": "Match the term with its related fluid friction concept.",
+        "type": "memory",
+        "pairs": {
+            "Drag": "Another name for fluid friction",
+            "Streamlining": "A shape designed to reduce drag",
+            "Air": "A gaseous fluid that exerts friction",
+            "Water": "A liquid fluid that exerts friction"
+        }
+    },
+    {
+        "q": "Match the material pair with their typical friction characteristic:",
+        "type": "match",
+        "left": [
+            "Rubber on dry concrete",
+            "Steel on ice",
+            "Teflon on steel",
+            "Leather on metal"
+        ],
+        "right": [
+            "Very high coefficient",
+            "Very low coefficient",
+            "Extremely low coefficient",
+            "Moderate coefficient"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of friction depending on adhesion?",
+        "type": "mcq",
+        "o": [
+            "A gecko sticking to a wall using van der Waals forces",
+            "Sandpaper grinding down wood",
+            "A ball bearing rolling in grease",
+            "A parachute opening in the air"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a fluid?",
+        "type": "odd_one_out",
+        "options": [
+            "Water",
+            "Air",
+            "Honey",
+            "Brick"
+        ],
+        "correct": "Brick"
+    },
+    {
+        "q": "Adhesive wear in friction is caused by the ______________ of micro-welds between surface peaks.",
+        "type": "fill_blank",
+        "answers": [
+            "shearing",
+            "breaking"
+        ],
+        "other_options": [
+            "cooling",
+            "painting",
+            "polishing"
+        ]
+    },
+    {
+        "q": "What is the SI unit of the coefficient of friction?",
+        "type": "mcq",
+        "o": [
+            "It is unitless",
+            "Newton",
+            "Newton per meter",
+            "Joule"
+        ]
+    },
+    {
+        "q": "The force of static friction is always exactly equal to the product of the coefficient of static friction and the normal force.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the main difference between dry friction and fluid friction?",
+        "type": "mcq",
+        "o": [
+            "Dry friction is between solid surfaces; fluid friction involves layers of fluid",
+            "Fluid friction is always greater than dry friction",
+            "Dry friction does not produce heat",
+            "Fluid friction only acts on stationary objects"
+        ]
+    },
+    {
+        "q": "Name the phenomenon where two perfectly smooth, clean metal surfaces can cold-weld together in a vacuum, drastically increasing friction.",
+        "type": "short_answer",
+        "answers": [
+            "cold welding",
+            "galling",
+            "adhesion"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Why does a car skid more easily on a wet road than a dry one?",
+        "type": "mcq",
+        "o": [
+            "A thin layer of water reduces the actual contact between tire and road asperities",
+            "Water acts as a powerful glue",
+            "Wet roads have more roughness",
+            "Tires expand in water"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for High Friction surfaces, LEFT for Low Friction surfaces.",
+        "type": "swipe_cards",
+        "left_label": "Low Friction",
+        "right_label": "High Friction",
+        "cards": {
+            "Sandpaper": "right",
+            "Wet marble floor": "left",
+            "Gravel road": "right",
+            "Ice": "left"
+        }
+    },
+    {
+        "q": "What is the primary role of anti-lock braking systems (ABS)?",
+        "type": "mcq",
+        "o": [
+            "To prevent wheels from locking, maintaining static friction at the threshold of skidding",
+            "To increase sliding friction for a faster stop",
+            "To decrease the weight of the car",
+            "To apply lubricant to the brakes"
+        ]
+    },
+    {
+        "q": "Match the tribology term with its definition:",
+        "type": "match",
+        "left": [
+            "Wear",
+            "Lubrication",
+            "Asperity",
+            "Tribofilm"
+        ],
+        "right": [
+            "Progressive loss of material",
+            "Interposing a substance to reduce friction",
+            "Microscopic peak on a surface",
+            "A protective layer formed by lubricant reaction"
+        ]
+    },
+    {
+        "q": "The force of friction acts parallel to the surfaces in contact and opposite to the direction of motion or applied force.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following best describes 'boundary lubrication'?",
+        "type": "mcq",
+        "o": [
+            "Surfaces are separated by a molecular-thin layer of lubricant that adheres to them",
+            "Surfaces are completely separated by a thick fluid film",
+            "No lubricant is present",
+            "The lubricant is a gas"
+        ]
+    },
+    {
+        "q": "The energy lost due to friction primarily gets converted into ______________ energy.",
+        "type": "fill_blank",
+        "answers": [
+            "thermal",
+            "heat"
+        ],
+        "other_options": [
+            "light",
+            "sound",
+            "electrical"
+        ]
+    },
+    {
+        "q": "Why are heavy-duty machines often lubricated with oil circulated under pressure?",
+        "type": "short_answer",
+        "answers": [
+            "to form a hydrodynamic film that completely separates metal surfaces",
+            "to reduce friction and wear",
+            "to cool the engine"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In which scenario is rolling resistance NOT a type of friction?",
+        "type": "mcq",
+        "o": [
+            "A frictionless bearing on a shaft",
+            "A car tire on a road",
+            "A train wheel on a rail",
+            "A bowling ball on an alley"
+        ]
+    },
+    {
+        "q": "What happens to the viscosity of most liquids as temperature increases?",
+        "type": "mcq",
+        "o": [
+            "It decreases",
+            "It increases",
+            "It remains constant",
+            "It becomes zero"
+        ]
+    },
+    {
+        "q": "Match the type of wear with its cause:",
+        "type": "match",
+        "left": [
+            "Abrasive wear",
+            "Adhesive wear",
+            "Fatigue wear",
+            "Corrosive wear"
+        ],
+        "right": [
+            "Hard particles or asperities cutting",
+            "Micro-welds tearing off material",
+            "Repeated stress cycles",
+            "Chemical reaction with the surface"
+        ]
+    },
+    {
+        "q": "The maximum static friction is always less than or equal to the kinetic friction for the same surfaces.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which material is known for having an exceptionally low coefficient of friction and is often used in high-performance bearings?",
+        "type": "mcq",
+        "o": [
+            "Polytetrafluoroethylene (PTFE / Teflon)",
+            "Steel",
+            "Rubber",
+            "Glass"
+        ]
+    },
+    {
+        "q": "A graph showing friction force versus applied force for a stationary object shows a linear increase up to the ______________ point.",
+        "type": "fill_blank",
+        "answers": [
+            "limiting"
+        ],
+        "other_options": [
+            "breaking",
+            "sliding",
+            "rolling"
+        ]
+    },
+    {
+        "q": "What is the primary effect of adding nanoparticles to lubricating oil?",
+        "type": "mcq",
+        "o": [
+            "They can fill surface irregularities and form a protective tribofilm, further reducing friction",
+            "They increase the viscosity of the oil significantly",
+            "They evaporate to cool the surfaces",
+            "They stick to magnets inside the engine"
+        ]
+    },
+    {
+        "q": "Why does a heavier car generally require a longer distance to stop, given the same brakes and tires?",
+        "type": "mcq",
+        "o": [
+            "Because while friction force increases with weight, the kinetic energy increases linearly as well",
+            "Heavier cars have lower friction",
+            "Heavier cars have smaller tires",
+            "The friction force does not increase with weight"
+        ]
+    },
+    {
+        "q": "Name the type of friction that occurs between the layers of a fluid and is a measure of the fluid's resistance to flow.",
+        "type": "short_answer",
+        "answers": [
+            "viscosity",
+            "internal friction",
+            "viscous friction"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: Another name for fluid friction.",
+        "type": "word_scramble",
+        "answer": "DRAG",
+        "decoys": "BXZ"
+    },
+    {
+        "q": "Match the scientist with their contribution to friction science:",
+        "type": "match",
+        "left": [
+            "Amontons",
+            "Coulomb",
+            "Bowden and Tabor",
+            "Stribeck"
+        ],
+        "right": [
+            "Laws of friction",
+            "Distinguished static and kinetic friction",
+            "Adhesion theory of friction",
+            "Studied journal bearing friction regimes"
+        ]
+    },
+    {
+        "q": "Friction is a non-conservative force.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following correctly describes hydrodynamic lubrication?",
+        "type": "mcq",
+        "o": [
+            "A continuous fluid film completely separates the surfaces, and pressure is generated by the motion",
+            "Surfaces are in direct metal-to-metal contact",
+            "A solid lubricant powder separates the surfaces",
+            "Lubrication is only effective when stationary"
+        ]
+    },
+    {
+        "q": "What is the primary reason for the stick-slip phenomenon?",
+        "type": "mcq",
+        "o": [
+            "The difference between static and kinetic friction coefficients",
+            "The presence of a magnetic field",
+            "The constant value of kinetic friction",
+            "The object's color changing"
+        ]
+    },
+    {
+        "q": "The ______________ effect describes how friction can cause vibrations, leading to sound (like a violin bow on a string).",
+        "type": "fill_blank",
+        "answers": [
+            "stick-slip"
+        ],
+        "other_options": [
+            "Doppler",
+            "butterfly",
+            "greenhouse"
+        ]
+    },
+    {
+        "q": "Why do curling stones 'curl' or curve on ice?",
+        "type": "short_answer",
+        "answers": [
+            "asymmetrical friction from the stone's rotation and microscopic melting of ice",
+            "differential friction",
+            "scratching of the ice"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is NOT a function of a lubricant?",
+        "type": "mcq",
+        "o": [
+            "Increase the coefficient of friction between surfaces",
+            "Reduce wear",
+            "Transfer heat away from surfaces",
+            "Remove contaminants and debris"
+        ]
+    },
+    {
+        "q": "A block sliding down an incline at a constant velocity implies that the coefficient of kinetic friction is equal to the ______________ of the incline angle.",
+        "type": "fill_blank",
+        "answers": [
+            "tangent"
+        ],
+        "other_options": [
+            "sine",
+            "cosine",
+            "cotangent"
+        ]
+    },
+    {
+        "q": "Which factor primarily determines the transition from static friction to kinetic friction?",
+        "type": "mcq",
+        "o": [
+            "Overcoming the maximum interlocking and adhesive forces between surface asperities",
+            "The object reaching a specific speed",
+            "A change in the object's color",
+            "The temperature dropping below zero"
+        ]
+    },
+    {
+        "q": "What is the main advantage of an air bearing (aerostatic bearing)?",
+        "type": "mcq",
+        "o": [
+            "Extremely low friction and zero wear, ideal for high-precision machines",
+            "They are cheaper than regular ball bearings",
+            "They can support infinite weight",
+            "They work best in dusty environments"
+        ]
+    },
+    {
+        "q": "Match the friction regime with the Stribeck curve region:",
+        "type": "match",
+        "left": [
+            "Boundary lubrication",
+            "Mixed lubrication",
+            "Hydrodynamic lubrication"
+        ],
+        "right": [
+            "High friction, surface contact",
+            "Intermediate friction, partial contact",
+            "Low friction, full film separation"
+        ]
+    },
+    {
+        "q": "Friction is independent of the material properties and only depends on surface roughness.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following statements about fluid friction (drag) is correct?",
+        "type": "mcq",
+        "o": [
+            "It is proportional to the square of the velocity for high-speed objects in air",
+            "It is inversely proportional to velocity",
+            "It does not depend on the fluid density",
+            "It is only present in liquids, not gases"
+        ]
+    },
+    {
+        "q": "What is the primary wear mechanism when two dry metal surfaces slide against each other under a heavy load?",
+        "type": "mcq",
+        "o": [
+            "Adhesive wear due to micro-welding",
+            "Pure chemical dissolution",
+            "Ultraviolet degradation",
+            "Thermal expansion wear"
+        ]
+    },
+    {
+        "q": "Name the metal alloy commonly used for plain bearings due to its low friction properties against steel.",
+        "type": "short_answer",
+        "answers": [
+            "babbitt",
+            "bronze",
+            "brass"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The ______________ law of friction states that the friction force is directly proportional to the normal load.",
+        "type": "fill_blank",
+        "answers": [
+            "first"
+        ],
+        "other_options": [
+            "second",
+            "third",
+            "fourth"
+        ]
+    },
+    {
+        "q": "Why is static friction generally greater than kinetic friction?",
+        "type": "mcq",
+        "o": [
+            "Because more time allows for stronger adhesion and plastic deformation of asperities",
+            "Because kinetic friction is an illusion",
+            "Because static objects weigh more",
+            "Because moving objects are hotter"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of triboluminescence?",
+        "type": "mcq",
+        "o": [
+            "Light emitted when crushing a sugar crystal",
+            "A bulb glowing due to electricity",
+            "Fireflies emitting light",
+            "A matchstick burning"
+        ]
+    },
+    {
+        "q": "Match the motion type with the dominant friction:",
+        "type": "match",
+        "left": [
+            "Piston in engine cylinder",
+            "Fidget spinner bearing",
+            "Hovercraft over water",
+            "Driving a screw into wood"
+        ],
+        "right": [
+            "Sliding friction",
+            "Rolling friction",
+            "Fluid friction",
+            "Static friction (holding)"
+        ]
+    },
+    {
+        "q": "A lubricant's 'viscosity index' indicates how much its viscosity changes with temperature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the physical origin of van der Waals forces that contribute to friction?",
+        "type": "mcq",
+        "o": [
+            "Temporary fluctuations in electron clouds creating dipoles between molecules",
+            "Strong magnetic fields in all atoms",
+            "Gravitational attraction between small objects",
+            "Permanent chemical bonds forming"
+        ]
+    },
+    {
+        "q": "Which regime of the Stribeck curve provides the lowest friction?",
+        "type": "mcq",
+        "o": [
+            "Full fluid film (hydrodynamic) lubrication",
+            "Boundary lubrication",
+            "Mixed lubrication",
+            "Dry friction"
+        ]
+    },
+    {
+        "q": "The friction encountered by a skydiver reaching terminal velocity is purely skin friction.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "A bronze statue turning green is an example of ______________ wear.",
+        "type": "fill_blank",
+        "answers": [
+            "corrosive",
+            "corrosion"
+        ],
+        "other_options": [
+            "abrasive",
+            "adhesive",
+            "fatigue"
+        ]
+    },
+    {
+        "q": "What is the primary technical reason for cross-hatch honing patterns on new engine cylinder walls?",
+        "type": "mcq",
+        "o": [
+            "To retain oil for lubrication and assist piston ring seating",
+            "To decrease friction by polishing the wall",
+            "To make the cylinder look textured",
+            "To increase cylinder wall weight"
+        ]
+    },
+    {
+        "q": "Name the dimensionless number used to characterize the lubrication regime in a journal bearing.",
+        "type": "short_answer",
+        "answers": [
+            "sommerfeld number",
+            "bearing characteristic number"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Why does adding a thin film of oil to a surface sometimes *increase* the friction for a static object on an incline?",
+        "type": "mcq",
+        "o": [
+            "The surface tension of the oil can create a suction effect, increasing adhesion",
+            "Oil always reduces friction without exception",
+            "Oil solidifies under pressure",
+            "Oil changes the color, confusing the observer"
+        ]
+    },
+    {
+        "q": "What is 'fretting wear'?",
+        "type": "mcq",
+        "o": [
+            "Wear occurring at the interface of two surfaces subjected to small amplitude oscillatory motion",
+            "Wear caused by a single large impact",
+            "Wear due to chemical dissolution of the entire surface",
+            "Wear from a surface being exposed to sunlight"
+        ]
+    },
+    {
+        "q": "Match the application with the specific friction technology:",
+        "type": "match",
+        "left": [
+            "Magnetic levitation train",
+            "Friction stir welding",
+            "Ice skate on ice",
+            "Pencil on paper"
+        ],
+        "right": [
+            "Eliminates friction via magnetic fields",
+            "Uses friction to generate heat for welding",
+            "Relies on pressure-melting for low friction",
+            "Controlled abrasion to leave a mark"
+        ]
+    },
+    {
+        "q": "Complete the sentence about interlocking.",
+        "type": "inline_dropdown",
+        "text": "Friction is caused by the [0] of [1] on the two surfaces.",
+        "dropdowns": [
+            {
+                "correct": "interlocking",
+                "options": [
+                    "separation",
+                    "interlocking",
+                    "melting"
+                ]
+            },
+            {
+                "correct": "irregularities",
+                "options": [
+                    "colors",
+                    "shadows",
+                    "irregularities"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The angle of repose is the steepest angle at which a pile of granular material is stable, and it is related to the coefficient of static friction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following best explains why ABS brakes can stop a car faster than locked wheels on most surfaces?",
+        "type": "mcq",
+        "o": [
+            "It maintains the tire at the peak of the mu-slip curve, maximizing friction",
+            "It reduces the car's mass",
+            "It applies a constant, low friction force",
+            "It converts sliding to fluid friction"
+        ]
+    },
+    {
+        "q": "In the context of friction, what are 'asperities'?",
+        "type": "mcq",
+        "o": [
+            "Microscopic peaks and valleys on a solid surface",
+            "Chemical compounds added to lubricants",
+            "The molecules of water trapped between surfaces",
+            "A type of ancient measuring tool"
+        ]
+    },
+    {
+        "q": "The ______________ is the point on a tire's contact patch where the friction force acts, influencing vehicle stability.",
+        "type": "fill_blank",
+        "answers": [
+            "center of pressure"
+        ],
+        "other_options": [
+            "center of gravity",
+            "roll center",
+            "instant center"
+        ]
+    },
+    {
+        "q": "Why is diamond-like carbon (DLC) coating used on some high-performance engine parts?",
+        "type": "short_answer",
+        "answers": [
+            "for its extremely high hardness and low coefficient of friction",
+            "to reduce wear and friction",
+            "as a solid lubricant"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is true about the friction of polymers?",
+        "type": "mcq",
+        "o": [
+            "It often involves viscoelastic deformation, making it depend on speed and temperature more than metals",
+            "It is always lower than metal-on-metal friction",
+            "It is perfectly explained by Amontons' laws",
+            "Polymers have no friction"
+        ]
+    },
+    {
+        "q": "What is the main mechanism of friction reduction by a liquid lubricant?",
+        "type": "mcq",
+        "o": [
+            "Creating a thin, easily sheared fluid layer between the solid surfaces",
+            "Chemically dissolving the surface peaks",
+            "Magnetically repelling the surfaces apart",
+            "Cooling the surfaces to make them contract"
+        ]
+    },
+    {
+        "q": "Match the type of drag with its cause:",
+        "type": "match",
+        "left": [
+            "Skin friction drag",
+            "Form drag",
+            "Wave drag",
+            "Induced drag"
+        ],
+        "right": [
+            "Fluid shear stress on the surface",
+            "Pressure difference from shape",
+            "Shock waves at transonic/supersonic speeds",
+            "Downwash from lifting surfaces"
+        ]
+    },
+    {
+        "q": "The kinetic friction force is constant for a given pair of materials and does not depend on the relative sliding speed.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the mechanism behind the extremely low friction of articular cartilage in joints?",
+        "type": "mcq",
+        "o": [
+            "A combination of fluid film lubrication and a specialized, hydrated surface layer",
+            "The presence of hard, dry bone-on-bone contact",
+            "High friction is better for joints",
+            "Magnetic repulsion between bones"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of purposely using high friction in an engineering design?",
+        "type": "mcq",
+        "o": [
+            "A bolted joint, where friction between threads prevents loosening",
+            "A ball bearing in a wheel",
+            "A hovercraft skirt",
+            "An air hockey table"
+        ]
+    },
+    {
+        "q": "The study of friction at the atomic scale is called ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "nanotribology"
+        ],
+        "other_options": [
+            "macrotribology",
+            "classical mechanics",
+            "thermodynamics"
+        ]
+    },
+    {
+        "q": "Name the famous experiment used to measure the coefficient of friction by tilting a plane until an object starts to slide.",
+        "type": "short_answer",
+        "answers": [
+            "inclined plane experiment",
+            "angle of repose method"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is a boundary lubricant additive (like ZDDP) designed to do?",
+        "type": "mcq",
+        "o": [
+            "Form a sacrificial tribofilm on surfaces to protect them under high pressure when the oil film collapses",
+            "Increase the viscosity of the oil",
+            "Change the color of the oil",
+            "Evaporate to cool the metal"
+        ]
+    },
+    {
+        "q": "Friction is a fundamental force in physics, like gravity and electromagnetism.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is a direct consequence of the first law of Amontons?",
+        "type": "mcq",
+        "o": [
+            "Doubling the weight of an object on a table doubles the maximum static friction force",
+            "Smooth surfaces always have less friction",
+            "Friction is independent of material",
+            "Friction increases with speed"
+        ]
+    },
+    {
+        "q": "What is the primary difference between the coefficient of static friction and the coefficient of kinetic friction for the same material pair?",
+        "type": "mcq",
+        "o": [
+            "The coefficient of static friction is typically higher than the coefficient of kinetic friction",
+            "They are always exactly equal",
+            "The coefficient of kinetic friction is always higher",
+            "They have different units"
+        ]
+    },
+    {
+        "q": "Match the lubricant state with its physical form:",
+        "type": "match",
+        "left": [
+            "Liquid",
+            "Grease",
+            "Solid",
+            "Gas"
+        ],
+        "right": [
+            "Hydrodynamic film",
+            "Semi-solid matrix",
+            "Lamellar solid like MoS2",
+            "Air bearing film"
+        ]
+    },
+    {
+        "q": "The Archard wear equation predicts that the volume of wear material is inversely proportional to the material's hardness.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does the Stribeck curve specifically plot?",
+        "type": "mcq",
+        "o": [
+            "The coefficient of friction against the bearing parameter (viscosity x speed / load)",
+            "The wear rate against sliding distance",
+            "The temperature against time of operation",
+            "The normal force against the surface roughness"
+        ]
+    },
+    {
+        "q": "In the context of friction, what is the 'ploughing' component?",
+        "type": "mcq",
+        "o": [
+            "The force required for a hard asperity to deform and displace material from a softer surface",
+            "The adhesive force between two flat surfaces",
+            "The force of a lubricant being squeezed out",
+            "The bouncing of surfaces over each other"
+        ]
+    },
+    {
+        "q": "The ______________ effect explains why the coefficient of friction can increase dramatically for extremely clean, smooth surfaces in a vacuum.",
+        "type": "fill_blank",
+        "answers": [
+            "cold welding",
+            "adhesive",
+            "galling"
+        ],
+        "other_options": [
+            "Doppler",
+            "butterfly",
+            "greenhouse"
+        ]
+    },
+    {
+        "q": "Name the phenomenon where the friction force is not constant but oscillates during sliding, often associated with a squeaking sound.",
+        "type": "short_answer",
+        "answers": [
+            "stick-slip",
+            "stick slip"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following best describes 'elastohydrodynamic lubrication' (EHL)?",
+        "type": "mcq",
+        "o": [
+            "A lubrication regime where elastic deformation of the surfaces and the pressure-viscosity effect of the lubricant are significant",
+            "Lubrication using only solid graphite",
+            "A dry friction regime with no lubricant present",
+            "Lubrication at extremely low pressures"
+        ]
+    },
+    {
+        "q": "What is the primary function of a molybdenum disulfide (MoS2) solid lubricant in space applications?",
+        "type": "mcq",
+        "o": [
+            "It provides excellent lubrication in a vacuum where liquid lubricants would evaporate",
+            "It acts as a coolant for electronics",
+            "It increases friction for robotic grips",
+            "It serves as a structural adhesive"
+        ]
+    },
+    {
+        "q": "Match the lubrication mechanism with its description:",
+        "type": "match",
+        "left": [
+            "Boundary lubrication",
+            "Mixed lubrication",
+            "Hydrodynamic lubrication",
+            "Elastohydrodynamic lubrication"
+        ],
+        "right": [
+            "Load supported by chemical tribofilms",
+            "Load shared by fluid film and asperity contact",
+            "Load supported by a thick fluid film",
+            "Load supported by a thin film with surface deformation"
+        ]
+    },
+    {
+        "q": "The rate-independent component of friction, where the dynamic friction is less than the static, is modeled by the ______________ friction model.",
+        "type": "fill_blank",
+        "answers": [
+            "Coulomb",
+            "coulomb"
+        ],
+        "other_options": [
+            "viscous",
+            "Stribeck",
+            "Dahl"
+        ]
+    },
+    {
+        "q": "Why does the coefficient of friction for rubber on a rough road often exceed 1.0?",
+        "type": "mcq",
+        "o": [
+            "Because rubber exhibits significant hysteresis and mechanical interlocking, not just adhesion",
+            "Because rubber is always sticky",
+            "Because the calculation is done without normal force",
+            "It never exceeds 1.0; this is a myth"
+        ]
+    },
+    {
+        "q": "How many factors mainly affect the friction between two solid surfaces? (Hint: Nature of surfaces and the force pressing them).",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "A car's tires rely on static friction during cornering. If the centripetal force required exceeds the maximum static friction, what happens?",
+        "type": "mcq",
+        "o": [
+            "The car skids and kinetic friction takes over, reducing control",
+            "The car stops instantly",
+            "The static friction increases to match it perfectly",
+            "The car flips over"
+        ]
+    },
+    {
+        "q": "The 'angle of friction' is mathematically defined as the arctangent of the ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "coefficient of friction"
+        ],
+        "other_options": [
+            "weight",
+            "velocity",
+            "contact area"
+        ]
+    },
+    {
+        "q": "Why is a differential mechanism essential for a car's driven wheels when cornering?",
+        "type": "short_answer",
+        "answers": [
+            "to allow the outer wheel to rotate faster than the inner wheel, preventing tire scrubbing and sliding friction from cornering",
+            "to reduce sliding friction",
+            "to manage speed differences"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the profession with how they handle friction.",
+        "type": "memory",
+        "pairs": {
+            "Gymnast": "Applies coarse substance to hands to increase grip",
+            "Mechanic": "Applies grease to machine parts to reduce wear",
+            "Shoemaker": "Creates grooved soles to prevent slipping",
+            "Swimmer": "Wears a tight cap and suit to reduce drag"
+        }
+    },
+    {
+        "q": "Which of the following is an example of 'useful wear'?",
+        "type": "mcq",
+        "o": [
+            "The polishing of surfaces during the running-in period to smooth out asperities",
+            "The destruction of a bearing due to lack of oil",
+            "The erosion of a turbine blade by particles",
+            "The wearing out of a car tire"
+        ]
+    },
+    {
+        "q": "In the Bowden and Tabor adhesion theory of friction, the true area of contact is proportional to the ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "normal load",
+            "applied force"
+        ],
+        "other_options": [
+            "apparent area",
+            "sliding speed",
+            "temperature"
+        ]
+    },
+    {
+        "q": "What is 'friction anisotropy'?",
+        "type": "mcq",
+        "o": [
+            "The property of a surface having a different friction coefficient depending on the direction of sliding",
+            "The friction being independent of temperature",
+            "The friction force varying with time",
+            "The equal friction in all directions"
+        ]
+    },
+    {
+        "q": "Friction is a fundamental force of nature, distinct from the electromagnetic force.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following best describes the 'running-in' or 'wear-in' process?",
+        "type": "mcq",
+        "o": [
+            "The controlled initial wear of machine parts to remove high spots and optimize the surface conformity",
+            "A process to rapidly destroy a component for testing",
+            "The painting of machine parts for decoration",
+            "The melting of surfaces to bond them together"
+        ]
+    },
+    {
+        "q": "What is the primary cause of 'fretting corrosion'?",
+        "type": "mcq",
+        "o": [
+            "Very small amplitude oscillatory motion between two surfaces causing wear and oxidation",
+            "Steady, high-speed sliding",
+            "A single, large impact load",
+            "Immersion in a static acid bath"
+        ]
+    },
+    {
+        "q": "Match the friction model with its characteristic:",
+        "type": "match",
+        "left": [
+            "Coulomb model",
+            "Viscous model",
+            "Stribeck model",
+            "LuGre model"
+        ],
+        "right": [
+            "Constant kinetic friction",
+            "Friction proportional to velocity",
+            "Captures friction-velocity curve dip",
+            "Captures pre-sliding displacement and rate-dependence"
+        ]
+    },
+    {
+        "q": "The Dahl friction model is used to simulate the ______________ behavior of friction in the pre-sliding regime.",
+        "type": "fill_blank",
+        "answers": [
+            "hysteretic",
+            "spring-like",
+            "pre-sliding"
+        ],
+        "other_options": [
+            "viscous",
+            "sliding",
+            "rolling"
+        ]
+    },
+    {
+        "q": "Name a common environmental factor that can cause a dramatic increase in the friction coefficient of graphite.",
+        "type": "short_answer",
+        "answers": [
+            "absence of water vapor",
+            "vacuum",
+            "outgassing"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these forces is NOT a contact force?",
+        "type": "odd_one_out",
+        "options": [
+            "Friction",
+            "Muscular force",
+            "Air resistance",
+            "Magnetic force"
+        ],
+        "correct": "Magnetic force"
+    },
+    {
+        "q": "Why is kinetic friction often modeled as being lower than static friction?",
+        "type": "mcq",
+        "o": [
+            "Because once sliding, the time for strong adhesive junction growth is limited",
+            "Because moving objects weigh less",
+            "Because static friction is an illusion",
+            "Because kinetic friction is always zero"
+        ]
+    },
+    {
+        "q": "Which of the following is a key characteristic of non-Newtonian lubricants under high pressure?",
+        "type": "mcq",
+        "o": [
+            "They may exhibit a piezo-viscous effect, where viscosity increases exponentially with pressure",
+            "They always solidify under pressure",
+            "Their viscosity decreases predictably with pressure",
+            "They evaporate instantly"
+        ]
+    },
+    {
+        "q": "In a plain journal bearing at rest, the shaft rests on the bottom of the bearing. This condition is characterized by ______________ lubrication.",
+        "type": "fill_blank",
+        "answers": [
+            "boundary"
+        ],
+        "other_options": [
+            "hydrodynamic",
+            "elastohydrodynamic",
+            "air"
+        ]
+    },
+    {
+        "q": "Which of the following methods is used to measure the coefficient of friction at the nanoscale?",
+        "type": "mcq",
+        "o": [
+            "Friction Force Microscopy (FFM)",
+            "Standard bathroom scale",
+            "Liquid-in-glass thermometer",
+            "Barometer"
+        ]
+    },
+    {
+        "q": "The 'third body' in tribology refers to ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "wear debris and lubricant film between two rubbing surfaces"
+        ],
+        "other_options": [
+            "a third dimension of measurement",
+            "a third scientist observing",
+            "an unrelated bystander object"
+        ]
+    },
+    {
+        "q": "Why is ceramic-on-ceramic used for hip joint replacements, despite being brittle?",
+        "type": "short_answer",
+        "answers": [
+            "extremely low wear rate due to hardness and wettability by synovial fluid",
+            "low friction",
+            "biocompatibility"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is the correct formula for the maximum static friction force (f_s)?",
+        "type": "mcq",
+        "o": [
+            "f_s = mu_s * N",
+            "f_s = mu_k * N",
+            "f_s = mu_r * N",
+            "f_s = mu_s + N"
+        ]
+    },
+    {
+        "q": "What is the effect of a 'wheel lockup' during hard braking without ABS?",
+        "type": "mcq",
+        "o": [
+            "The tire transitions from static to kinetic friction with the road, reducing braking force and losing steering control",
+            "The braking force increases to infinity",
+            "The car becomes immune to friction",
+            "The tires roll faster"
+        ]
+    },
+    {
+        "q": "Match the type of gear with its predominant friction loss:",
+        "type": "match",
+        "left": [
+            "Spur gear",
+            "Worm gear",
+            "Hypoid gear"
+        ],
+        "right": [
+            "Primarily rolling friction",
+            "High sliding friction",
+            "High sliding friction requiring extreme pressure additives"
+        ]
+    },
+    {
+        "q": "The coefficient of friction is an intrinsic material property independent of the testing environment.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is an example of a passive friction control technique?",
+        "type": "mcq",
+        "o": [
+            "Applying a solid lubricant coating that does not change during operation",
+            "Using a magneto-rheological fluid to change friction on demand",
+            "Heating the surface with an electric current to change friction",
+            "Using ultrasonic vibrations to control friction in real-time"
+        ]
+    },
+    {
+        "q": "What is the primary purpose of a friction modifier additive in engine oil?",
+        "type": "mcq",
+        "o": [
+            "To reduce boundary friction and improve fuel economy",
+            "To increase the oil's viscosity",
+            "To change the color of the oil",
+            "To prevent oil leaks"
+        ]
+    },
+    {
+        "q": "The ______________ model of friction considers that the actual contact area increases due to junction growth from tangential stress.",
+        "type": "fill_blank",
+        "answers": [
+            "Bowden and Tabor"
+        ],
+        "other_options": [
+            "Amontons",
+            "Coulomb",
+            "Stribeck"
+        ]
+    },
+    {
+        "q": "Why does water act as a poor lubricant for most metals?",
+        "type": "short_answer",
+        "answers": [
+            "it has low viscosity and promotes corrosion",
+            "it evaporates quickly",
+            "it does not form a strong boundary film"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is 'traction' in the context of vehicle dynamics?",
+        "type": "mcq",
+        "o": [
+            "The friction force between the drive wheels and the ground used for acceleration",
+            "The vehicle's air resistance",
+            "The weight of the vehicle on the rear axle",
+            "The driver's skill"
+        ]
+    },
+    {
+        "q": "In an internal combustion engine, the piston ring-cylinder liner contact primarily operates in which lubrication regime?",
+        "type": "mcq",
+        "o": [
+            "It transitions between boundary, mixed, and hydrodynamic lubrication during the stroke",
+            "Purely hydrodynamic all the time",
+            "Purely dry friction",
+            "Elastohydrodynamic everywhere"
+        ]
+    },
+    {
+        "q": "Match the term with its definition in wear mechanics:",
+        "type": "match",
+        "left": [
+            "Wear rate",
+            "Wear coefficient",
+            "Hardness",
+            "Load"
+        ],
+        "right": [
+            "Volume loss per distance",
+            "Dimensionless factor of wear severity",
+            "Material resistance to deformation",
+            "Normal force applied"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for types of Solid Friction, LEFT for Fluid Friction.",
+        "type": "swipe_cards",
+        "left_label": "Fluid Friction",
+        "right_label": "Solid Friction",
+        "cards": {
+            "Static": "right",
+            "Drag in water": "left",
+            "Rolling": "right",
+            "Air resistance": "left"
+        }
+    },
+    {
+        "q": "The 'Memorized Friction' concept in the LuGre model refers to the state variable that captures the average deflection of surface asperities.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a typical value for the coefficient of kinetic friction between steel and ice?",
+        "type": "mcq",
+        "o": [
+            "0.03 to 0.05",
+            "0.5 to 0.7",
+            "1.0 to 1.5",
+            "2.0 to 2.5"
+        ]
+    },
+    {
+        "q": "What is the physical meaning of a negative friction-velocity slope in a friction model?",
+        "type": "mcq",
+        "o": [
+            "It can lead to friction-induced vibrations and instability, like machine tool chatter",
+            "Friction becomes a pushing force",
+            "The surfaces move without any energy loss",
+            "It is physically impossible"
+        ]
+    },
+    {
+        "q": "A ______________ fluid is a smart material whose viscosity changes dramatically under a magnetic field, used for active friction control.",
+        "type": "fill_blank",
+        "answers": [
+            "magnetorheological",
+            "MR"
+        ],
+        "other_options": [
+            "electrorheological",
+            "Newtonian",
+            "thixotropic"
+        ]
+    },
+    {
+        "q": "Why are diamond-like carbon (DLC) coatings often doped with hydrogen or silicon?",
+        "type": "short_answer",
+        "answers": [
+            "to further reduce the coefficient of friction by passivating dangling carbon bonds",
+            "to improve wear resistance in specific environments"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is true about 'friction polymer' or 'tribopolymer'?",
+        "type": "mcq",
+        "o": [
+            "It is a polymeric film formed in situ on rubbing surfaces from the degradation of lubricants or fuels",
+            "It is a pre-applied plastic coating",
+            "It is the metal alloy of a bearing",
+            "It is a tool for measuring friction"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The type of friction that is the strongest.",
+        "type": "word_scramble",
+        "answer": "STATIC",
+        "decoys": "JQK"
+    },
+    {
+        "q": "The 'slip ratio' of a driving tire is 0% when the tire is rolling freely and 100% when it is ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "spinning without moving",
+            "locked",
+            "skidding"
+        ],
+        "other_options": [
+            "inflated",
+            "worn",
+            "balanced"
+        ]
+    },
+    {
+        "q": "What is the primary function of extreme pressure (EP) additives in gear oils?",
+        "type": "mcq",
+        "o": [
+            "To react chemically with the metal surface to form a sacrificial layer that prevents welding under extreme loads",
+            "To simply increase the oil's viscosity",
+            "To clean the gear teeth",
+            "To cool the gearbox"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a primary function of synovial fluid in human joints?",
+        "type": "mcq",
+        "o": [
+            "To produce red blood cells for the joint",
+            "To lubricate the articular cartilage",
+            "To provide shock absorption",
+            "To transport nutrients and waste"
+        ]
+    },
+    {
+        "q": "Match the material with its typical tribological application:",
+        "type": "match",
+        "left": [
+            "PTFE (Teflon)",
+            "Tungsten carbide",
+            "Babbitt metal",
+            "Silicon nitride"
+        ],
+        "right": [
+            "Low-friction coating",
+            "Extreme wear resistance",
+            "Soft bearing lining",
+            "High-temp ceramic bearing"
+        ]
+    },
+    {
+        "q": "The Stribeck curve indicates that the transition from boundary to mixed lubrication is accompanied by a sharp increase in friction.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following best describes 'friction stir welding'?",
+        "type": "mcq",
+        "o": [
+            "A solid-state joining process that uses a rotating tool to generate frictional heat and plasticize the material",
+            "A method of reducing friction between two parts",
+            "A type of adhesive bonding using static electricity",
+            "A lubrication technique for drilling"
+        ]
+    },
+    {
+        "q": "Why is the real area of contact much smaller than the apparent area of contact for engineering surfaces?",
+        "type": "mcq",
+        "o": [
+            "Because contact only occurs at the peaks of surface asperities",
+            "Because surfaces are always perfectly flat",
+            "Because of a magnetic repulsion between the surfaces",
+            "Because the weight of the object flattens the entire surface"
+        ]
+    },
+    {
+        "q": "The 'size effect' in tribology refers to the observation that friction often increases when the contact size decreases to the ______________ scale.",
+        "type": "fill_blank",
+        "answers": [
+            "nano",
+            "micro"
+        ],
+        "other_options": [
+            "macro",
+            "kilo",
+            "mega"
+        ]
+    },
+    {
+        "q": "Name the dimensionless quantity that describes the ratio of lubricant film thickness to composite surface roughness.",
+        "type": "short_answer",
+        "answers": [
+            "lambda ratio",
+            "specific film thickness",
+            "film parameter"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the primary mechanism of friction reduction by adding carbon nanotubes to a polymer composite?",
+        "type": "mcq",
+        "o": [
+            "They can act as a solid lubricant and improve the load-bearing capacity of the polymer",
+            "They dramatically increase the polymer's electrical conductivity",
+            "They change the color of the polymer",
+            "They make the polymer absorb more water"
+        ]
+    },
+    {
+        "q": "Which of the following factors most significantly affects the 'stick-slip' frequency of a bowed violin string?",
+        "type": "mcq",
+        "o": [
+            "The coefficient of friction of the rosin and the string's tension and mass",
+            "The color of the violin",
+            "The temperature of the audience",
+            "The age of the violin maker"
+        ]
+    },
+    {
+        "q": "In contact mechanics, the Hertzian contact theory applies to which type of contact?",
+        "type": "mcq",
+        "o": [
+            "Frictionless, non-conforming elastic contact between two curved bodies",
+            "Rough surfaces in plastic deformation",
+            "Two perfectly flat, conforming surfaces",
+            "A hard tool ploughing through a soft metal"
+        ]
+    },
+    {
+        "q": "Match the friction term with its driving mechanism:",
+        "type": "match",
+        "left": [
+            "Adhesion component",
+            "Deformation component",
+            "Hysteresis component",
+            "Fluid viscous drag"
+        ],
+        "right": [
+            "Bonding and shearing of junctions",
+            "Ploughing of hard asperities",
+            "Internal damping in viscoelastic materials",
+            "Shear stress in a fluid film"
+        ]
+    },
+    {
+        "q": "The Archard wear law predicts that the wear volume is linearly proportional to the sliding distance but inversely proportional to the hardness of the softer material.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which statement best describes the function of a lubricant's 'detergent' additive?",
+        "type": "mcq",
+        "o": [
+            "To neutralize acidic byproducts and prevent the formation of deposits and sludge on hot surfaces",
+            "To increase the viscosity of the oil",
+            "To lower the pour point of the oil",
+            "To color the oil blue"
+        ]
+    },
+    {
+        "q": "What is 'hydroplaning' or 'aquaplaning'?",
+        "type": "mcq",
+        "o": [
+            "A condition where a tire loses contact with the road surface due to a layer of water, causing a total loss of friction",
+            "An advanced racing technique to save fuel",
+            "Driving a car on water like a boat",
+            "Applying water as a lubricant"
+        ]
+    },
+    {
+        "q": "The ______________ wear mechanism is characterized by the removal of material from a surface by hard, sharp particles.",
+        "type": "fill_blank",
+        "answers": [
+            "abrasive"
+        ],
+        "other_options": [
+            "adhesive",
+            "fatigue",
+            "corrosive"
+        ]
+    },
+    {
+        "q": "Name a technique used to texture surfaces with micro-dimples to improve lubrication by acting as fluid reservoirs and debris traps.",
+        "type": "short_answer",
+        "answers": [
+            "laser surface texturing",
+            "micro-coining",
+            "surface engineering"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a key advantage of a gas foil bearing?",
+        "type": "mcq",
+        "o": [
+            "It uses the process gas as the lubricant, eliminating the need for oil systems in high-speed turbomachinery",
+            "It is the cheapest bearing available",
+            "It can support extremely high loads at zero speed",
+            "It requires a complex external oil pump"
+        ]
+    },
+    {
+        "q": "The phenomenon of 'superlubricity' refers to a state where friction is ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "nearly zero",
+            "negligible"
+        ],
+        "other_options": [
+            "infinite",
+            "doubled",
+            "constant"
+        ]
+    },
+    {
+        "q": "Why is friction important in the process of bolting or fastening?",
+        "type": "mcq",
+        "o": [
+            "The friction in the threads and under the bolt head is what prevents the bolt from loosening under vibration",
+            "Friction is not involved in bolting",
+            "Friction melts the bolt for a tighter fit",
+            "Friction is only important for removing bolts"
+        ]
+    },
+    {
+        "q": "Match the non-destructive testing method with the wear detection capability:",
+        "type": "match",
+        "left": [
+            "Ferrography",
+            "Spectroscopy",
+            "Vibration analysis",
+            "Visual inspection"
+        ],
+        "right": [
+            "Captures and analyzes wear particles",
+            "Determines elemental composition of wear debris",
+            "Detects misalignment or imbalance causing wear",
+            "Checks for obvious surface damage"
+        ]
+    },
+    {
+        "q": "For a block on an inclined plane, the static friction is independent of the angle of the incline up to the point of impending motion.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the primary reason that the coefficient of friction is not a true material constant?",
+        "type": "mcq",
+        "o": [
+            "Because it depends on the system conditions like load, speed, temperature, and environment, not just the material pair",
+            "Because it is always exactly 0.5",
+            "Because it only applies to liquids",
+            "Because it is a constant, making the premise false"
+        ]
+    },
+    {
+        "q": "What is the fundamental operating principle of a 'Fluid Dynamic Bearing' in a computer fan?",
+        "type": "mcq",
+        "o": [
+            "A thin layer of fluid is drawn into the bearing gap by the rotation, pressurizing it to separate the shaft and sleeve",
+            "It uses permanent magnets to levitate the fan",
+            "It relies on direct metal-to-metal contact for stability",
+            "It uses compressed air from an external tank"
+        ]
+    },
+    {
+        "q": "The term 'tribocorrosion' describes the combined action of ______________ and ______________ on a material surface.",
+        "type": "fill_blank",
+        "answers": [
+            "wear",
+            "corrosion"
+        ],
+        "other_options": [
+            "friction",
+            "lubrication",
+            "heating",
+            "cooling"
+        ]
+    },
+    {
+        "q": "In the context of nanotribology, what does the Tomlinson model describe?",
+        "type": "mcq",
+        "o": [
+            "A simple spring-mass model describing stick-slip motion at the atomic lattice scale",
+            "The fluid drag on a nanoparticle in a solvent",
+            "The macroscopic wear of a car tire",
+            "The thermal conductivity of a lubricant film"
+        ]
+    },
+    {
+        "q": "Complete the sentence about heat and friction.",
+        "type": "inline_dropdown",
+        "text": "When you rub your hands vigorously for a few minutes, they feel [0] because friction produces [1].",
+        "dropdowns": [
+            {
+                "correct": "warm",
+                "options": [
+                    "cold",
+                    "warm",
+                    "wet"
+                ]
+            },
+            {
+                "correct": "heat",
+                "options": [
+                    "light",
+                    "electricity",
+                    "heat"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the primary mechanism of superlubricity observed between misoriented graphene layers?",
+        "type": "mcq",
+        "o": [
+            "Structural incommensurability cancels out lateral forces between the sliding surfaces",
+            "Strong covalent bonding between the layers",
+            "The presence of a water monolayer",
+            "Magnetic levitation of the carbon atoms"
+        ]
+    },
+    {
+        "q": "The Prandtl-Tomlinson model predicts that stick-slip motion disappears when the system's ______________ exceeds a critical value.",
+        "type": "fill_blank",
+        "answers": [
+            "elastic stiffness",
+            "damping coefficient"
+        ],
+        "other_options": [
+            "mass",
+            "temperature",
+            "velocity"
+        ]
+    },
+    {
+        "q": "Name the instrument used to simultaneously measure normal and lateral forces between a fine tip and a surface at the atomic level.",
+        "type": "short_answer",
+        "answers": [
+            "friction force microscope",
+            "FFM",
+            "atomic force microscope in lateral force mode"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following best describes the concept of 'contact aging' in static friction?",
+        "type": "mcq",
+        "o": [
+            "The time-dependent increase in the real contact area due to plastic creep of asperities, increasing static friction",
+            "The surfaces rusting over time",
+            "The lubricant evaporating slowly",
+            "The static friction decreasing over time"
+        ]
+    },
+    {
+        "q": "What is the fundamental difference between the LuGre and the Bouc-Wen friction models?",
+        "type": "mcq",
+        "o": [
+            "The LuGre model is physics-based on bristle deflection, while Bouc-Wen is a phenomenological hysteresis model not specifically derived for friction",
+            "LuGre is for fluids, Bouc-Wen is for solids",
+            "Bouc-Wen is older and now obsolete for all friction modeling",
+            "There is no difference; they are mathematically identical"
+        ]
+    },
+    {
+        "q": "In the rate-and-state friction laws used in seismology, the 'state variable' typically represents the ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "evolving population of asperity contacts",
+            "age of the fault",
+            "temperature of the rock"
+        ],
+        "other_options": [
+            "color of the mineral",
+            "distance from the epicenter"
+        ]
+    },
+    {
+        "q": "Why is the friction coefficient of a single-asperity contact often higher than that of a macroscopic multi-asperity contact?",
+        "type": "short_answer",
+        "answers": [
+            "due to a larger adhesive contribution relative to the load and absence of loosely held wear debris",
+            "the real pressure is higher",
+            "ploughing is dominant"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following materials systems has demonstrated structural superlubricity?",
+        "type": "mcq",
+        "o": [
+            "Graphite sliding against a tungsten tip with specific orientation",
+            "Steel on steel with a thick oil film",
+            "Rubber on wet asphalt",
+            "Any two polished copper surfaces"
+        ]
+    },
+    {
+        "q": "What is the role of 'atomic oxygen' in the friction behavior of materials in Low Earth Orbit (LEO)?",
+        "type": "mcq",
+        "o": [
+            "It can erode and oxidize surfaces, chemically altering the tribology of coatings like MoS2",
+            "It acts as a perfect lubricant in space",
+            "It has no effect on materials in a vacuum",
+            "It freezes and forms a protective ice layer"
+        ]
+    },
+    {
+        "q": "Match the friction model with its primary mathematical characteristic:",
+        "type": "match",
+        "left": [
+            "Coulomb",
+            "Stribeck",
+            "Dahl",
+            "Leuven"
+        ],
+        "right": [
+            "Signum function",
+            "Empirical curve of friction vs. velocity",
+            "Differential equation for pre-sliding",
+            "Enhanced state-variable model with non-local memory"
+        ]
+    },
+    {
+        "q": "The 'flash temperature' in a sliding contact is the ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "instantaneous temperature rise at the microscopic asperity junctions"
+        ],
+        "other_options": [
+            "ambient room temperature",
+            "temperature of the lubricant sump",
+            "bulk temperature of the component"
+        ]
+    },
+    {
+        "q": "The critical shear stress in the junction growth theory proposed by Tabor is often linked to the material's yield stress in pure shear.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following describes the 'thermo-mechanical instability' in friction brakes?",
+        "type": "mcq",
+        "o": [
+            "The formation of hot spots on the brake disc due to positive feedback between thermal expansion, local pressure increase, and resulting friction heat",
+            "The uniform cooling of the entire brake pad",
+            "The chemical breakdown of the brake fluid",
+            "The noise generated by perfectly smooth rotors"
+        ]
+    },
+    {
+        "q": "What is the primary mechanism by which DLC coatings reduce friction in dry nitrogen environments?",
+        "type": "mcq",
+        "o": [
+            "Passivation of dangling carbon sigma bonds by hydrogen, creating a repulsive dipole layer",
+            "Melting and flowing like a liquid",
+            "Evaporation to form a gas cushion",
+            "Magnetic repulsion from the iron in the steel counterface"
+        ]
+    },
+    {
+        "q": "The relationship between friction force and the logarithm of velocity, often seen in rock friction, is described by the parameter 'a' in rate-and-state laws, signifying a ______________ effect.",
+        "type": "fill_blank",
+        "answers": [
+            "direct velocity strengthening",
+            "velocity weakening"
+        ],
+        "other_options": [
+            "lubrication",
+            "thermal",
+            "inertial"
+        ]
+    },
+    {
+        "q": "Name the phenomenon where a liquid lubricant transitions to a glass-like solid state under extreme confinement and pressure, drastically changing friction.",
+        "type": "short_answer",
+        "answers": [
+            "confined liquid solidification",
+            "interfacial phase transition",
+            "lubricant glass transition"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which advanced manufacturing technique is used to create bio-inspired friction textures mimicking snake skin?",
+        "type": "mcq",
+        "o": [
+            "Femtosecond laser surface texturing",
+            "Traditional sand casting",
+            "Hand filing with a rasp",
+            "Spray painting"
+        ]
+    },
+    {
+        "q": "In a journal bearing undergoing 'oil whirl', the instability is caused by the ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "cross-coupled stiffness and damping of the fluid film exceeding the system's structural damping"
+        ],
+        "other_options": [
+            "misalignment of the shaft",
+            "cold start of the oil pump",
+            "cavitation of the oil"
+        ]
+    },
+    {
+        "q": "Why can the coefficient of friction for a soft elastomer on a hard surface exceed 1.0 significantly?",
+        "type": "mcq",
+        "o": [
+            "Because the adhesion component of friction, where the interface can be stronger than the bulk shear strength of the rubber, becomes dominant",
+            "Because the weight of the rubber changes",
+            "Because static friction has a different unit",
+            "The statement is false; a coefficient cannot exceed 1.0"
+        ]
+    },
+    {
+        "q": "What is the 'third body' concept in tribology, as advanced by Maurice Godet?",
+        "type": "mcq",
+        "o": [
+            "An interfacial layer composed of wear particles and lubricant that separates the first bodies and transmits load",
+            "A third scientist analyzing the experiment",
+            "The Earth acting on the friction pair via gravity",
+            "The air between the two surfaces"
+        ]
+    },
+    {
+        "q": "Match the advanced solid lubricant coating with its optimal application environment:",
+        "type": "match",
+        "left": [
+            "MoS2",
+            "DLC (a-C:H)",
+            "WS2",
+            "PbO"
+        ],
+        "right": [
+            "Vacuum or dry inert gas",
+            "Low-humidity air",
+            "Higher temperature than MoS2",
+            "High temperature ceramic lubrication"
+        ]
+    },
+    {
+        "q": "The 'archard wear coefficient' K for a material pair is equivalent to the probability that an asperity contact event will produce a wear particle.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is NOT a component of the 'Run-in' surface?",
+        "type": "mcq",
+        "o": [
+            "A completely amorphous, glassy layer formed by melting the top 2mm of the bulk material",
+            "A nano-crystalline 'tribomaterial' layer",
+            "A chemically modified layer (oxide)",
+            "A plastically deformed subsurface zone"
+        ]
+    },
+    {
+        "q": "What is the primary tribological challenge in a total artificial heart?",
+        "type": "mcq",
+        "o": [
+            "Achieving zero hemolysis (blood cell rupture) while maintaining minimal wear on the contacting surfaces without liquid lubricants",
+            "Finding a material that is bright red",
+            "Keeping the device perfectly still",
+            "Using the densest possible metal for durability"
+        ]
+    },
+    {
+        "q": "The 'Leuven' friction model improved upon the 'LuGre' model by incorporating a ______________ function for the hysteresis loops.",
+        "type": "fill_blank",
+        "answers": [
+            "non-local memory hysteresis",
+            "stacking"
+        ],
+        "other_options": [
+            "purely linear",
+            "time-invariant",
+            "Markov"
+        ]
+    },
+    {
+        "q": "What does the 'specific wear rate' or 'wear factor' (k) represent in the Archard equation (V = k * P * S)?",
+        "type": "mcq",
+        "o": [
+            "The volume of material removed per unit load per unit sliding distance",
+            "The speed at which the surface polishes itself",
+            "The critical temperature at which seizure occurs",
+            "The ratio of hardness to elastic modulus"
+        ]
+    },
+    {
+        "q": "Name the physical effect where the contact area between a sphere and a flat is larger during unloading than loading due to adhesion.",
+        "type": "short_answer",
+        "answers": [
+            "JKR adhesion hysteresis",
+            "Johnson-Kendall-Roberts effect",
+            "DMT to JKR transition"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a characteristic of a 'velocity-weakening' friction material?",
+        "type": "mcq",
+        "o": [
+            "The friction coefficient decreases as the sliding speed increases, potentially leading to unstable slip and stick-slip",
+            "The friction coefficient increases linearly with speed",
+            "The material becomes completely liquid at high speed",
+            "The friction is independent of speed"
+        ]
+    },
+    {
+        "q": "What is the primary difference between 'abrasive' and 'erosive' wear?",
+        "type": "mcq",
+        "o": [
+            "Abrasive wear involves hard particles or asperities sliding under load, while erosive wear is caused by the impact of fluid-borne particles",
+            "They are exactly the same phenomenon",
+            "Erosive wear only happens in space",
+            "Abrasive wear is a chemical process"
+        ]
+    },
+    {
+        "q": "Match the dimensionless number with its tribological significance:",
+        "type": "match",
+        "left": [
+            "Sommerfeld number",
+            "Hersey number",
+            "Lambda ratio",
+            "Biot number"
+        ],
+        "right": [
+            "Bearing performance parameter",
+            "Journal bearing friction factor",
+            "Lubricant film thickness relative to roughness",
+            "Ratio of surface convection to conduction"
+        ]
+    },
+    {
+        "q": "In fretting wear, the debris is often trapped in the contact zone, leading to a transition from adhesive to abrasive wear and accelerating damage.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which polymer is known for its self-lubricating properties due to its lamellar crystalline structure?",
+        "type": "mcq",
+        "o": [
+            "Ultra-high-molecular-weight polyethylene (UHMWPE)",
+            "Polystyrene",
+            "PVC",
+            "Epoxy resin"
+        ]
+    },
+    {
+        "q": "The 'Greenwood-Williamson' model describes the contact of a ______________ surface against a flat plane.",
+        "type": "fill_blank",
+        "answers": [
+            "randomly rough",
+            "gaussian rough"
+        ],
+        "other_options": [
+            "perfectly smooth",
+            "single asperity",
+            "viscoelastic"
+        ]
+    },
+    {
+        "q": "Why is PFPE (perfluoropolyether) used as a lubricant in hard disk drives?",
+        "type": "short_answer",
+        "answers": [
+            "it has extremely low vapor pressure, high thermal stability, and forms a mobile monolayer to replenish the contact",
+            "it is a solid film",
+            "it conducts electricity"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the core principle of 'biomimetic tribology'?",
+        "type": "mcq",
+        "o": [
+            "Imitating natural surfaces and lubricants, like gecko feet or shark skin, to design optimal friction systems",
+            "Using only biological materials like wood and bone",
+            "Testing friction on live animals",
+            "Ignoring nature and focusing purely on synthetic chemistry"
+        ]
+    },
+    {
+        "q": "Which of the following is true regarding the 'Persson contact mechanics' theory?",
+        "type": "mcq",
+        "o": [
+            "It can predict the full area of contact as a function of magnification, from macro to atomic scale, for fractal surfaces",
+            "It is only valid for perfectly flat surfaces",
+            "It ignores all surface roughness",
+            "It assumes all contacts are purely plastic"
+        ]
+    },
+    {
+        "q": "The 'friction noise' spectrum from an automotive brake can be analyzed to predict the onset of ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "brake squeal",
+            "thermal cracking"
+        ],
+        "other_options": [
+            "engine knock",
+            "tire deflation",
+            "fuel efficiency"
+        ]
+    },
+    {
+        "q": "The Tabor parameter (mu) in adhesive contact mechanics represents the ratio of elastic deformation to the effective range of surface forces.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a key difference between the JKR and DMT adhesion models?",
+        "type": "mcq",
+        "o": [
+            "JKR assumes short-range adhesion inside the contact zone suitable for soft materials, while DMT assumes long-range forces outside the zone for hard materials",
+            "JKR is for liquids, DMT is for solids",
+            "DMT uses quantum mechanics, JKR uses classical mechanics",
+            "There is absolutely no difference between them"
+        ]
+    },
+    {
+        "q": "What is 'magneto-tribology'?",
+        "type": "mcq",
+        "o": [
+            "The study of friction and wear influenced by magnetic fields, often involving magnetorheological fluids or magnetic materials",
+            "Using friction to generate a magnetic field",
+            "The friction between two magnets always being zero",
+            "Using magnets to physically separate rubbing surfaces"
+        ]
+    },
+    {
+        "q": "Match the type of wear with the diagnostic feature on the worn surface:",
+        "type": "match",
+        "left": [
+            "Abrasive wear",
+            "Adhesive wear",
+            "Surface fatigue",
+            "Tribocorrosion"
+        ],
+        "right": [
+            "Grooves and scratches",
+            "Torn craters and smearing",
+            "Pits and spalls",
+            "Reaction product films with cracking"
+        ]
+    },
+    {
+        "q": "The Reynolds equation is a fundamental differential equation in tribology that describes the ______________ in a thin fluid film for lubrication.",
+        "type": "fill_blank",
+        "answers": [
+            "pressure distribution"
+        ],
+        "other_options": [
+            "temperature gradient",
+            "wear particle size",
+            "electrical resistance"
+        ]
+    },
+    {
+        "q": "Name the quantum mechanical effect responsible for the primary attractive forces in the JKR adhesion theory.",
+        "type": "short_answer",
+        "answers": [
+            "van der Waals forces",
+            "London dispersion forces"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the significance of the 'parameter of plasticity' (psi) in rough surface contact?",
+        "type": "mcq",
+        "o": [
+            "It determines whether the contact is predominantly elastic or plastic for a given surface topography and material",
+            "It measures the fluid pressure in the lubricant",
+            "It is the angle at which sliding begins",
+            "It represents the electrical resistance of the contact"
+        ]
+    },
+    {
+        "q": "Which of the following is a strategy to actively control friction using 'smart tribological surfaces'?",
+        "type": "mcq",
+        "o": [
+            "Applying an electric field to change the surface chemistry or lubricant viscosity in situ",
+            "Painting the surface a different color",
+            "Increasing the ambient humidity indiscriminately",
+            "Operating the machine at a random speed"
+        ]
+    },
+    {
+        "q": "The 'Lubrication Approximation' in fluid mechanics assumes that the ______________ is much smaller than the characteristic length, simplifying the Navier-Stokes equations to the Reynolds equation.",
+        "type": "fill_blank",
+        "answers": [
+            "film thickness"
+        ],
+        "other_options": [
+            "density",
+            "velocity",
+            "viscosity"
+        ]
+    },
+    {
+        "q": "Why does the friction of diamond decrease dramatically in a humid environment compared to a vacuum?",
+        "type": "short_answer",
+        "answers": [
+            "adsorbed water molecules passivate the dangling surface carbon bonds, reducing the adhesive interaction"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the 'Morrow effect' in fretting fatigue?",
+        "type": "mcq",
+        "o": [
+            "The reduction in the fatigue life of a material due to the surface damage and micro-cracks initiated by fretting wear",
+            "The improvement of fatigue life by polishing the surface",
+            "A method of lubrication using only water",
+            "The melting of two surfaces due to vibration"
+        ]
+    },
+    {
+        "q": "Which of the following best describes the concept of 'Tribosystem Analysis'?",
+        "type": "mcq",
+        "o": [
+            "A holistic approach that examines the interacting elements (base body, counterbody, interfacial medium, environment) to understand friction and wear",
+            "A simple measurement of the hardness of a single component",
+            "The chemical analysis of the lubricant only",
+            "A visual inspection with the naked eye"
+        ]
+    },
+    {
+        "q": "Match the polymer composite additive with its primary tribological function:",
+        "type": "match",
+        "left": [
+            "Graphite",
+            "Short carbon fibers",
+            "Nano-silica",
+            "PTFE micropowder"
+        ],
+        "right": [
+            "Solid lubricant",
+            "Reinforcement and load support",
+            "Improved thermal stability",
+            "Reduced matrix friction"
+        ]
+    },
+    {
+        "q": "The term 'scuffing' specifically refers to a severe form of adhesive wear characterized by gross plastic deformation and the transfer of large particles, often leading to seizure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a physical explanation for the velocity-strengthening regime at very high sliding speeds?",
+        "type": "mcq",
+        "o": [
+            "The thermal softening of asperity contacts limits the junction strength, requiring a higher load to maintain sliding",
+            "The surfaces become magnetically charged",
+            "The static friction coefficient becomes infinite",
+            "The wear rate drops to zero"
+        ]
+    },
+    {
+        "q": "What is the primary function of 'textured surfaces' in hydrodynamic lubrication?",
+        "type": "mcq",
+        "o": [
+            "To act as micro-hydrodynamic bearings, generating additional pressure lift and serving as debris traps",
+            "To increase the friction coefficient to prevent slipping",
+            "To purely provide a decorative finish",
+            "To absorb all the lubricant"
+        ]
+    },
+    {
+        "q": "The 'Walker' parameter in fretting maps distinguishes between ______________ regimes.",
+        "type": "fill_blank",
+        "answers": [
+            "stick, mixed-slip, and gross-slip"
+        ],
+        "other_options": [
+            "sliding, rolling, and static",
+            "dry, wet, and boundary",
+            "elastic, plastic, and fracture"
+        ]
+    },
+    {
+        "q": "What is 'ion beam assisted deposition' (IBAD) used for in advanced tribological coatings?",
+        "type": "mcq",
+        "o": [
+            "To create a highly dense, well-adhered, graded interface between the coating and substrate for durable low-friction layers",
+            "To clean the surface purely for painting",
+            "To make the surface radioactive for tracking wear",
+            "To melt the substrate for alloying"
+        ]
+    },
+    {
+        "q": "Name the dimensionless number that describes the ratio of fluid inertia forces to viscous forces in a lubricant film, which can become significant in high-speed bearings.",
+        "type": "short_answer",
+        "answers": [
+            "Reynolds number",
+            "Re"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is the correct definition of 'cavitation erosion'?",
+        "type": "mcq",
+        "o": [
+            "Wear caused by the repeated nucleation, growth, and violent collapse of vapor bubbles in a fluid near a surface",
+            "The rubbing of two solid surfaces together",
+            "The chemical dissolution of a metal by an acid",
+            "The melting of a material by laser heating"
+        ]
+    },
+    {
+        "q": "The 'Hersey number' (viscosity * velocity / load) is directly proportional to the coefficient of friction in the ______________ lubrication regime.",
+        "type": "fill_blank",
+        "answers": [
+            "hydrodynamic",
+            "full-film"
+        ],
+        "other_options": [
+            "boundary",
+            "dry",
+            "elastohydrodynamic"
+        ]
+    },
+    {
+        "q": "What is the primary difference between two-body and three-body abrasive wear?",
+        "type": "mcq",
+        "o": [
+            "In two-body wear, hard asperities or bonded particles cut the surface, while in three-body wear, loose particles roll and slide between the surfaces",
+            "Two-body wear is faster than three-body wear",
+            "Three-body wear always requires water",
+            "There is no difference"
+        ]
+    },
+    {
+        "q": "Match the type of friction coefficient measurement with its application:",
+        "type": "match",
+        "left": [
+            "Pin-on-disk",
+            "Reciprocating",
+            "Thrust washer",
+            "Traction test rig"
+        ],
+        "right": [
+            "Rotational sliding",
+            "Linear back-and-forth motion",
+            "Flat-on-flat rotational contact",
+            "Measuring tire grip on asphalt"
+        ]
+    },
+    {
+        "q": "The 'zero wear' concept implies that no material is ever removed from a surface during rubbing.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following materials is a MAX phase ceramic, known for its machinability and layered structure that provides self-lubrication?",
+        "type": "mcq",
+        "o": [
+            "Ti3SiC2",
+            "Diamond",
+            "Alumina (Al2O3)",
+            "Soda-lime glass"
+        ]
+    },
+    {
+        "q": "What is the primary role of 'anti-wear' additives like ZDDP in engine oil?",
+        "type": "mcq",
+        "o": [
+            "To thermally decompose and form a tough, sacrificial polyphosphate tribofilm on surfaces to prevent metal-to-metal contact",
+            "To increase the viscosity of the oil",
+            "To clean the combustion chamber",
+            "To dye the oil green"
+        ]
+    },
+    {
+        "q": "The ______________ equation governs the fluid film pressure in a lubricated contact, forming the basis of classical lubrication theory.",
+        "type": "fill_blank",
+        "answers": [
+            "Reynolds"
+        ],
+        "other_options": [
+            "Navier-Stokes",
+            "Archard",
+            "Euler"
+        ]
+    },
+    {
+        "q": "Name the specific type of wear that occurs when a metal surface is subjected to repeated rolling contact, leading to subsurface crack formation and material spalling.",
+        "type": "short_answer",
+        "answers": [
+            "pitting",
+            "spalling",
+            "contact fatigue"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In the context of the Frenkel-Kontorova model adapted for friction, what does the 'winding number' or 'atomic misfit' parameter directly control?",
+        "type": "mcq",
+        "o": [
+            "The transition between superlubric sliding and stick-slip motion at the atomic scale",
+            "The thermal conductivity of the interface",
+            "The chemical reactivity of the surface atoms",
+            "The electrical resistance of the contact junction"
+        ]
+    },
+    {
+        "q": "Which quantum-mechanical mechanism is primarily responsible for energy dissipation in electronic friction during atomic-scale sliding?",
+        "type": "mcq",
+        "o": [
+            "Excitation of electron-hole pairs in the substrate by the moving adsorbate",
+            "Direct nuclear scattering between the sliding atoms",
+            "Compton scattering of photons at the interface",
+            "Thermionic emission of electrons into the vacuum gap"
+        ]
+    },
+    {
+        "q": "The 'rate-state friction' (RSF) constitutive law uses the Dieterich or Ruina evolution laws for the state variable, which physically represent the evolution of ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "the real contact area or asperity population age",
+            "the temperature of the fault gouge",
+            "the chemical concentration of water"
+        ],
+        "other_options": [
+            "the color of the rock",
+            "the electromagnetic field"
+        ]
+    },
+    {
+        "q": "Name the theorem or principle stating that the friction force is exactly zero for any perfectly crystalline, incommensurate contact in the limit of infinitely large systems with conservative forces.",
+        "type": "short_answer",
+        "answers": [
+            "superlubricity theorem",
+            "incommensurability theorem"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the primary theoretical framework describing the transition from static to dynamic friction as a dynamic critical phenomenon?",
+        "type": "mcq",
+        "o": [
+            "Depinning theory of elastic manifolds in disordered media",
+            "Classical Amontons-Coulomb law",
+            "Navier-Stokes equations for turbulent flow",
+            "Maxwell's equations of electromagnetism"
+        ]
+    },
+    {
+        "q": "Which of the following best describes 'phononic friction' in the context of a perfectly flat, commensurate interface without wear?",
+        "type": "mcq",
+        "o": [
+            "The irreversible energy transfer from the sliding center-of-mass motion into the thermal vibrations (phonons) of the lattice",
+            "The emission of audible sound during stick-slip",
+            "Friction caused by the Doppler shift of passing cars",
+            "The amplification of sound waves by the rubbing surfaces"
+        ]
+    },
+    {
+        "q": "Match the advanced simulation method with the tribological phenomenon it is best suited to model:",
+        "type": "match",
+        "left": [
+            "Reactive Molecular Dynamics",
+            "Density Functional Theory",
+            "Phase-Field Modeling",
+            "Discrete Dislocation Dynamics"
+        ],
+        "right": [
+            "Tribochemical reactions under shear",
+            "Adhesion and charge transfer at ideal interfaces",
+            "Microstructure evolution in wear tracks",
+            "Plasticity and junction growth in asperities"
+        ]
+    },
+    {
+        "q": "In the LeRoy et al. model for the aging of static friction, the logarithmic time dependence of static friction is derived from ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "thermally activated plastic creep of asperities",
+            "the evaporation of lubricant",
+            "the oxidation of the metal surface"
+        ],
+        "other_options": [
+            "the changing color of the surface",
+            "the melting of the bulk material"
+        ]
+    },
+    {
+        "q": "The concept of 'geometrically necessary dislocations' (GNDs) is crucial for understanding friction because they accommodate strain gradients and contribute to the ______________ of the sub-surface layer.",
+        "type": "fill_blank",
+        "answers": [
+            "size-dependent hardening",
+            "tribologically transformed structure"
+        ],
+        "other_options": [
+            "electrical conductivity",
+            "magnetic permeability",
+            "thermal expansion"
+        ]
+    },
+    {
+        "q": "Why does the 'Rice-Ruina' rate-and-state parameter (a-b) govern the transition from stable sliding (creep) to unstable stick-slip (earthquakes)?",
+        "type": "mcq",
+        "o": [
+            "It quantifies the competition between direct velocity strengthening (a) and evolution-driven weakening (b); if (a-b) is negative, the system is velocity-weakening and unstable",
+            "It measures the absolute temperature of the fault",
+            "It is directly proportional to the cohesive strength of the rock",
+            "It only applies to man-made polymers, not rocks"
+        ]
+    },
+    {
+        "q": "What is the 'thermolubricity' effect observed in atomic force microscopy experiments?",
+        "type": "mcq",
+        "o": [
+            "A dramatic reduction in atomic-scale friction at high sliding speeds due to thermal activation assisting the tip over the surface potential barriers",
+            "The melting of the tip due to excessive heat",
+            "The use of a heated liquid lubricant",
+            "The evaporation of the water meniscus at the contact"
+        ]
+    },
+    {
+        "q": "Match the type of surface force apparatus (SFA) configuration with what it measures:",
+        "type": "match",
+        "left": [
+            "SFA with mica sheets",
+            "AFM in colloidal probe mode",
+            "Quartz Crystal Microbalance",
+            "Nano-indenter with lateral force sensor"
+        ],
+        "right": [
+            "Confinement and layering of liquids",
+            "Single-asperity elastic contact",
+            "Ultra-low friction of absorbed monolayers",
+            "Ploughing friction and hardness"
+        ]
+    },
+    {
+        "q": "In the context of nanotribology, the effective 'viscosity' of a liquid confined to a few molecular layers between atomically smooth surfaces can increase by orders of magnitude compared to the bulk, a phenomenon directly linked to its ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "molecular relaxation time and layering",
+            "increased boiling point"
+        ],
+        "other_options": [
+            "decreased density",
+            "color change"
+        ]
+    },
+    {
+        "q": "Name the critical exponent that describes the power-law decay of the friction force near the depinning transition for an elastic interface sliding over a disordered substrate.",
+        "type": "short_answer",
+        "answers": [
+            "friction exponent",
+            "depinning exponent",
+            "beta"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the primary role of the 'tribologically transformed structure' (TTS) in the wear of metals?",
+        "type": "mcq",
+        "o": [
+            "A mechanically mixed, nano-crystalline surface layer that mediates the detachment of wear particles and can either protect or accelerate wear",
+            "A purely cosmetic surface discoloration",
+            "A pre-existing heat treatment layer from manufacturing",
+            "A monolayer of water on the surface"
+        ]
+    },
+    {
+        "q": "Which of the following best defines the 'Loschmidt paradox' related to friction?",
+        "type": "mcq",
+        "o": [
+            "The apparent contradiction between the microscopic time-reversibility of physical laws and the macroscopic irreversibility of friction generating entropy",
+            "The sudden disappearance of friction at absolute zero",
+            "The fact that friction always doubles with temperature",
+            "The inability to measure friction below the noise floor"
+        ]
+    },
+    {
+        "q": "The state-of-the-art 'coupled Eulerian-Lagrangian' (CEL) finite element method is used in tribology to model ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "extreme plastic deformation and material flow during severe abrasive or adhesive wear"
+        ],
+        "other_options": [
+            "the chemical reaction of the lubricant",
+            "the color of the wear surface",
+            "the ambient air temperature"
+        ]
+    },
+    {
+        "q": "What is the physical origin of the 'Shapiro steps' analogy in the dynamics of friction at the atomic scale under an AC drive?",
+        "type": "mcq",
+        "o": [
+            "Mode-locking phenomena where the sliding velocity locks to rational multiples of the external driving frequency",
+            "The electrostatic discharge between surfaces",
+            "The chemical etching of the substrate",
+            "The magnetic alignment of the atoms"
+        ]
+    },
+    {
+        "q": "In the context of the 'Prandtl-Tomlinson' model, thermal activation over the energy barrier leads to a logarithmic dependence of friction on velocity at low speeds, specifically F \u221d const - |ln(v)|^2/3 according to ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "the thermally activated creep theory",
+            "the Sang-Nasper scaling"
+        ],
+        "other_options": [
+            "Amontons law",
+            "Archard wear law",
+            "the Sommerfeld number"
+        ]
+    },
+    {
+        "q": "Why is the study of 'amorphous carbon' films crucial for the theory of superlubricity in non-incommensurate systems?",
+        "type": "mcq",
+        "o": [
+            "Hydrogen-passivated dangling bonds in the amorphous carbon create a closed-shell surface that exhibits extremely weak van der Waals interaction without requiring lattice matching",
+            "Amorphous carbon is perfectly crystalline",
+            "It is the hardest material known",
+            "It melts at room temperature"
+        ]
+    },
+    {
+        "q": "Match the advanced synchrotron technique with the tribological insight it provides:",
+        "type": "match",
+        "left": [
+            "X-ray microtomography",
+            "X-ray diffraction (XRD)",
+            "X-ray photoelectron spectroscopy (XPS)",
+            "X-ray fluorescence (XRF)"
+        ],
+        "right": [
+            "3D visualization of subsurface cracks and wear debris",
+            "Mapping residual stress and phase transformation in wear tracks",
+            "Chemical state of tribofilms (nanometers deep)",
+            "Elemental composition mapping of wear scars"
+        ]
+    },
+    {
+        "q": "The 'Meyer hardness' test provided an early empirical observation that friction could be related to material properties, suggesting the friction force is proportional to ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "the contact area",
+            "the yield strength"
+        ],
+        "other_options": [
+            "the sliding speed",
+            "the temperature",
+            "the electrical resistance"
+        ]
+    },
+    {
+        "q": "Name the specific type of 'solid solution strengthening' that occurs at a sliding interface when environmental species (like oxygen or nitrogen) diffuse into the metal matrix, changing its mechanical and tribological response.",
+        "type": "short_answer",
+        "answers": [
+            "internal oxidation",
+            "tribo-diffusion",
+            "mechanochemical alloying"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the fundamental mechanism behind 'environmental embrittlement' affecting friction and wear?",
+        "type": "mcq",
+        "o": [
+            "Adsorption of gases (like hydrogen) reduces the surface energy required for crack propagation, accelerating surface fatigue and fracture wear",
+            "The lubricant evaporating and leaving the contact dry",
+            "The surface melting due to frictional heat",
+            "The metal expanding due to temperature"
+        ]
+    },
+    {
+        "q": "Which of the following is a correct mathematical statement of the 'Murnaghan-Coulomb' failure criterion for an adhesive junction?",
+        "type": "mcq",
+        "o": [
+            "Shear failure of the junction occurs when the interfacial shear stress plus a fraction of the normal stress exceeds the critical shear strength",
+            "Friction is always equal to mu * N",
+            "Wear volume is linear with load",
+            "The contact is perfectly elastic"
+        ]
+    },
+    {
+        "q": "The ______________ parameter in the Goryacheva model describes the critical ratio of the adhesive force to elastic force dictating the transition from a saturated to an unsaturated contact area.",
+        "type": "fill_blank",
+        "answers": [
+            "Tabor",
+            "Maugis"
+        ],
+        "other_options": [
+            "Sommerfeld",
+            "Reynolds",
+            "Archard"
+        ]
+    },
+    {
+        "q": "What is the 'surface free energy' paradox in adhesion and friction?",
+        "type": "mcq",
+        "o": [
+            "Although the thermodynamic work of adhesion predicts strong bonding for most clean surfaces, real friction is low due to intervening contaminants and irreversible plastic work",
+            "Surfaces always repel each other in a vacuum",
+            "Surface energy is only a property of liquids",
+            "Friction is always higher than the predicted adhesion energy"
+        ]
+    },
+    {
+        "q": "Match the friction mechanism with its characteristic scaling law:",
+        "type": "match",
+        "left": [
+            "Amontons' friction",
+            "Adhesive friction of single asperity",
+            "Rate-state friction",
+            "Viscous drag"
+        ],
+        "right": [
+            "F \u221d L (Load)",
+            "F \u221d A_real (True contact area)",
+            "F \u221d log(v) at steady state",
+            "F \u221d v (Velocity)"
+        ]
+    },
+    {
+        "q": "In contact mechanics, the 'Persson's contact mechanics theory' solves for the full distribution of interfacial separations and is exact in the limit of ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "full contact",
+            "infinite pressure"
+        ],
+        "other_options": [
+            "zero load",
+            "point contact",
+            "liquid interface"
+        ]
+    },
+    {
+        "q": "Name the specific state variable evolution law in rate-and-state friction that incorporates a cutoff for perfect time-dependent healing at zero slip rate, giving infinite slope at the origin.",
+        "type": "short_answer",
+        "answers": [
+            "Dieterich law",
+            "aging law"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Why does the friction force for a nanotube sliding on graphite exhibit a periodic fluctuation with a 60-degree symmetry?",
+        "type": "mcq",
+        "o": [
+            "It reflects the six-fold rotational symmetry of the underlying graphite lattice and the commensurability of the nanotube shell",
+            "The nanotube is magnetically aligned with the Earth",
+            "The measurement equipment has a 60 Hz noise",
+            "The nanotube is dissolving and reforming"
+        ]
+    },
+    {
+        "q": "What is the 'ploughing friction' component in a hard spherical tip sliding on a soft metal mathematically proportional to?",
+        "type": "mcq",
+        "o": [
+            "The projected area of the contact in the direction of motion times the flow pressure (hardness) of the soft material",
+            "The square root of the sliding speed",
+            "The temperature of the contact",
+            "The surface tension of the metal"
+        ]
+    },
+    {
+        "q": "The 'Hamaker constant' is a fundamental parameter in ______________ forces that dominate adhesion at the micro/nanoscale.",
+        "type": "fill_blank",
+        "answers": [
+            "van der Waals",
+            "London dispersion"
+        ],
+        "other_options": [
+            "electrostatic",
+            "magnetic",
+            "gravitational"
+        ]
+    },
+    {
+        "q": "Friction is always a surface effect and never involves energy dissipation in the bulk of a material.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is a direct consequence of the fluctuation-dissipation theorem in nanotribology?",
+        "type": "mcq",
+        "o": [
+            "The random thermal forces from the environment that cause Brownian motion of the AFM tip are linked to the viscous damping (friction) experienced by the tip",
+            "The friction force is independent of temperature",
+            "Stick-slip motion only occurs at absolute zero",
+            "The wear rate is exactly proportional to the sliding distance"
+        ]
+    },
+    {
+        "q": "What is the key physical parameter that the 'Eyring model' uses to connect shear stress to shear rate in confined liquid films?",
+        "type": "mcq",
+        "o": [
+            "The activation volume for molecular motion",
+            "The Young's modulus of the confining solid",
+            "The magnetic susceptibility of the liquid",
+            "The refractive index of the liquid"
+        ]
+    },
+    {
+        "q": "Match the following wear mechanism with its atomic-scale driving force:",
+        "type": "match",
+        "left": [
+            "Atom-by-atom attrition",
+            "Oxidative wear",
+            "Delamination wear",
+            "Grain boundary cracking"
+        ],
+        "right": [
+            "Shearing of individual adsorbed atoms from the tip",
+            "Thermally activated oxide growth and removal",
+            "Subsurface crack propagation linking under shear stress",
+            "Dislocation pile-up at boundaries causing void nucleation"
+        ]
+    },
+    {
+        "q": "In the context of the 'Greenwood-Williamson' contact model, the 'plasticity index' (psi) depends on the material properties (E*, H) and the surface topography (sigma, R). If psi is greater than 1, the contact is predominantly ______________.",
+        "type": "fill_blank",
+        "answers": [
+            "plastic"
+        ],
+        "other_options": [
+            "elastic",
+            "liquid-like",
+            "superconducting"
+        ]
+    },
+    {
+        "q": "Name the type of specific interfacial wave (elastic wave) that is generated by stick-slip motion on a fault line, dispersing and contributing to the earthquake rupture dynamics.",
+        "type": "short_answer",
+        "answers": [
+            "Rayleigh wave",
+            "Love wave",
+            "seismic wave"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the 'velocity dependence of the dynamical friction coefficient' in the thermally activated Prandtl-Tomlinson model at the limit of T approaching 0?",
+        "type": "mcq",
+        "o": [
+            "The friction force becomes independent of velocity and approaches the athermal depinning force",
+            "The friction force goes to zero",
+            "The friction force becomes infinite",
+            "The friction follows a perfect linear viscous law"
+        ]
+    },
+    {
+        "q": "Which of the following best describes the 'mechanochemical' or 'tribochemical' polishing (CMP) mechanism?",
+        "type": "mcq",
+        "o": [
+            "Synergistic action of chemical softening of the surface layer and mechanical abrasion to remove the softened material at an atomic level",
+            "Purely mechanical grinding of a material",
+            "Pure chemical dissolution without any mechanical action",
+            "Magnetic alignment of abrasive particles"
+        ]
+    },
+    {
+        "q": "The 'Stefan adhesion' force is directly related to the viscosity of a fluid and the speed of separation, acting as a rate-dependent ______________ component in friction.",
+        "type": "fill_blank",
+        "answers": [
+            "viscous",
+            "squeeze-film"
+        ],
+        "other_options": [
+            "Coulomb",
+            "static",
+            "hysteresis"
+        ]
+    },
+    {
+        "q": "The dynamic coefficient of friction for a viscoelastic material like rubber is typically higher than the static coefficient due to the adhesion hysteresis at high speeds.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the 'Kapitza resistance' or 'thermal boundary resistance' relevance in nanotribology?",
+        "type": "mcq",
+        "o": [
+            "It causes a temperature jump at the sliding interface, concentrating frictional heat at the contacting asperities and potentially causing local melting",
+            "It measures the electrical contact resistance",
+            "It is a measure of the optical clarity of the interface",
+            "It describes the magnetic repulsion between surfaces"
+        ]
+    },
+    {
+        "q": "Which of the following is the correct definition of 'acoustic emission' in tribological monitoring?",
+        "type": "mcq",
+        "o": [
+            "The high-frequency elastic stress waves generated by the rapid release of energy from sources such as crack propagation, plastic deformation, or asperity fracture during wear",
+            "The normal sound of an engine running",
+            "The thermal radiation from a hot surface",
+            "The vibration of a machine at its running frequency"
+        ]
+    },
+    {
+        "q": "Match the term with its definition in the context of surface science and friction:",
+        "type": "match",
+        "left": [
+            "Passivation",
+            "Tribofilm",
+            "Dangling bond",
+            "Adsorbate"
+        ],
+        "right": [
+            "Chemical saturation of surface atoms to reduce adhesion",
+            "A layer formed on a surface during rubbing",
+            "An unsatisfied valence on a surface atom",
+            "A molecule bound to a surface"
+        ]
+    },
+    {
+        "q": "The friction coefficient of a boundary-lubricated system depends heavily on the 'surface coverage' of the lubricant molecules, often described by the ______________ isotherm.",
+        "type": "fill_blank",
+        "answers": [
+            "Langmuir",
+            "Freundlich"
+        ],
+        "other_options": [
+            "Archard",
+            "Sommerfeld",
+            "Stribeck"
+        ]
+    },
+    {
+        "q": "Name the theorem in elastic contact mechanics that states that the addition of adhesion simply changes the effective load, allowing the use of purely elastic solutions (like Hertz) to calculate the contact area.",
+        "type": "short_answer",
+        "answers": [
+            "Maugis-Dugdale model",
+            "JKR theory",
+            "contact mechanics adhesion theorem"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In the context of friction at high loads, what is the 'Archard wear coefficient' K physically bounded by?",
+        "type": "mcq",
+        "o": [
+            "It is a dimensionless probability bounded between 0 and 1, representing the chance an asperity encounter forms a loose wear particle",
+            "It is a measure of hardness and can be greater than 10",
+            "It is a speed measured in meters per second",
+            "It is a temperature measured in Kelvin"
+        ]
+    },
+    {
+        "q": "What does the 'Hurst exponent' quantify in the context of engineering surface roughness?",
+        "type": "mcq",
+        "o": [
+            "The self-affine fractal scaling behavior of the surface topography",
+            "The hardness of the surface coating",
+            "The friction coefficient at high speed",
+            "The viscosity of the coolant"
+        ]
+    },
+    {
+        "q": "The ______________ effect describes the observation that the contact angle of a liquid on a surface depends on the history of the liquid-surface contact, often due to chemical heterogeneity or surface roughness created by wear.",
+        "type": "fill_blank",
+        "answers": [
+            "contact angle hysteresis"
+        ],
+        "other_options": [
+            "butterfly",
+            "greenhouse",
+            "Doppler"
+        ]
+    },
+    {
+        "q": "Why does the statistical nature of asperity heights (assumed Gaussian) fail for very smooth or worn surfaces?",
+        "type": "short_answer",
+        "answers": [
+            "the height distribution becomes skewed and non-Gaussian as high peaks are removed, violating the assumptions of classic statistical contact models",
+            "the surface becomes perfectly flat"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a correct depiction of 'Makin's criterion' for the transition from plowing to cutting in abrasive wear?",
+        "type": "mcq",
+        "o": [
+            "The attack angle of the abrasive particle must exceed a critical value for a chip to form; below this, material is just plastically displaced (plowing)",
+            "The temperature must exceed the melting point",
+            "The sliding speed must be zero",
+            "The abrasive particle must be softer than the surface"
+        ]
+    },
+    {
+        "q": "The 'Ruina slip law' evolution equation for the state variable theta in rate-state friction has the characteristic that it requires ______________ to evolve.",
+        "type": "fill_blank",
+        "answers": [
+            "slip",
+            "non-zero velocity",
+            "displacement"
+        ],
+        "other_options": [
+            "time only",
+            "temperature change",
+            "magnetic field"
+        ]
+    },
+    {
+        "q": "What is 'triboplasma'?",
+        "type": "mcq",
+        "o": [
+            "A low-temperature plasma generated by the intense electric fields resulting from the charging of surfaces during peeling or sliding (tribocharging)",
+            "The liquid metal formed during severe adhesive wear",
+            "The chemical vapor deposited coating on a cutting tool",
+            "A type of lubricant additive"
+        ]
+    },
+    {
+        "q": "In the context of the 'Schallamach waves' for elastomer friction, what are they?",
+        "type": "mcq",
+        "o": [
+            "Macroscopic detachment waves that propagate across the contact interface, effectively acting as a mechanism for relative motion via peeling rather than pure sliding",
+            "Sound waves traveling through the metal substrate",
+            "Shock waves in the lubricant film",
+            "Electromagnetic waves emitted by the rubber"
+        ]
+    },
+    {
+        "q": "Match the type of AFM friction mode with the measured quantity:",
+        "type": "match",
+        "left": [
+            "Contact mode Lateral Force Microscopy",
+            "Torsional resonance mode",
+            "Friction Force Spectroscopy",
+            "Force Modulation Microscopy"
+        ],
+        "right": [
+            "Static friction and stick-slip",
+            "Low-amplitude dynamic friction",
+            "Friction vs. load curve",
+            "Elastic modulus mapping"
+        ]
+    },
+    {
+        "q": "The 'Evans and Polanyi' transition state theory applied to nanotribology states that the activation energy for an atomic slip event is lowered by the ______________ force.",
+        "type": "fill_blank",
+        "answers": [
+            "instantaneous spring",
+            "lateral",
+            "applied shear"
+        ],
+        "other_options": [
+            "normal",
+            "magnetic",
+            "gravitational"
+        ]
+    },
+    {
+        "q": "Name the specific high-pressure phase of water ice (Ice VII) that can theoretically be formed in the extreme contact pressures of an elastohydrodynamic contact or a sharp AFM tip, drastically changing the friction.",
+        "type": "short_answer",
+        "answers": [
+            "Ice VII",
+            "high-pressure ice"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In the adhesion theory of friction, the true contact area is proportional to the normal load L. What happens to this relationship if the surface is extremely smooth and adhesion becomes a major contributor (JKR regime)?",
+        "type": "mcq",
+        "o": [
+            "The contact area becomes proportional to L^(2/3) at low loads due to the dominance of surface forces over elasticity",
+            "The relationship remains perfectly linear",
+            "The contact area becomes independent of load",
+            "The contact area disappears completely"
+        ]
+    },
+    {
+        "q": "What is the fundamental mechanism of 'electroadhesion' for active friction control?",
+        "type": "mcq",
+        "o": [
+            "Applying an electric field to create an attractive electrostatic pressure (Maxwell stress) between two surfaces, increasing the normal load and thus friction",
+            "Using a battery to power the sliding motion",
+            "Ionizing the air to create a lubricating plasma",
+            "Electroplating a soft metal onto the surface"
+        ]
+    },
+    {
+        "q": "The ______________ number in tribology describes the ratio of the frictional power to the heat conducted away, indicating the potential for thermal instability.",
+        "type": "fill_blank",
+        "answers": [
+            "Biot",
+            "Peclet"
+        ],
+        "other_options": [
+            "Reynolds",
+            "Sommerfeld",
+            "Mach"
+        ]
+    },
+    {
+        "q": "Friction is an emergent phenomenon that cannot be derived directly from first principles quantum mechanics without statistical averaging and multiscale modeling.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]

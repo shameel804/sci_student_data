@@ -1,12 +1,5 @@
 [
     {
-        "q": "What percentage of the Earth is covered by water?",
-        "type": "slider",
-        "min": 0,
-        "max": 100,
-        "correct": 71
-    },
-    {
         "q": "What is the process called when water changes from liquid to gas?",
         "type": "mcq",
         "o": [
@@ -183,6 +176,13 @@
             "the hydrologic cycle"
         ],
         "isCaseSensitive": false
+    },
+    {
+        "q": "What percentage of the Earth is covered by water?",
+        "type": "slider",
+        "min": 0,
+        "max": 100,
+        "correct": 71
     },
     {
         "q": "When water evaporates from plants, it is specifically called:",

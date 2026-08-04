@@ -1,0 +1,6381 @@
+[
+    {
+        "q": "What is heat?",
+        "type": "mcq",
+        "o": [
+            "A form of energy that flows from a hotter object to a colder one",
+            "A measure of how heavy an object is",
+            "A type of liquid found in thermometers",
+            "The speed of an object"
+        ]
+    },
+    {
+        "q": "Name the instrument used to measure temperature.",
+        "type": "short_answer",
+        "answers": [
+            "thermometer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The SI unit of heat energy is the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "joule"
+        ],
+        "other_options": [
+            "calorie",
+            "watt",
+            "newton",
+            "degree"
+        ]
+    },
+    {
+        "q": "Which of the following is a method of heat transfer?",
+        "type": "mcq",
+        "o": [
+            "Conduction",
+            "Condensation",
+            "Evaporation",
+            "Sublimation"
+        ]
+    },
+    {
+        "q": "Heat always flows from a colder object to a hotter object.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "In which direction does heat naturally flow?",
+        "type": "mcq",
+        "o": [
+            "From a hotter object to a colder object",
+            "From a colder object to a hotter object",
+            "Only upward",
+            "Only downward"
+        ]
+    },
+    {
+        "q": "Match each term with its correct description:",
+        "type": "match",
+        "left": [
+            "Temperature",
+            "Heat",
+            "Thermometer",
+            "Joule"
+        ],
+        "right": [
+            "Measure of hotness or coldness",
+            "A form of energy",
+            "Device to measure temperature",
+            "SI unit of energy"
+        ]
+    },
+    {
+        "q": "The normal human body temperature is approximately ______ degrees Celsius.",
+        "type": "fill_blank",
+        "answers": [
+            "37"
+        ],
+        "other_options": [
+            "100",
+            "0",
+            "50",
+            "25"
+        ]
+    },
+    {
+        "q": "Which material is the best conductor of heat?",
+        "type": "mcq",
+        "o": [
+            "Copper",
+            "Wood",
+            "Plastic",
+            "Rubber"
+        ]
+    },
+    {
+        "q": "What is the normal human body temperature in degrees Celsius?",
+        "type": "slider",
+        "min": 30,
+        "max": 45,
+        "correct": 37
+    },
+    {
+        "q": "What is the boiling point of pure water at sea level in degrees Celsius?",
+        "type": "short_answer",
+        "answers": [
+            "100",
+            "100 degrees Celsius",
+            "100 C"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the temperature terms with their correct freezing and boiling points for water.",
+        "type": "memory",
+        "pairs": {
+            "Celsius freezing point": "0 degrees",
+            "Celsius boiling point": "100 degrees",
+            "Fahrenheit freezing point": "32 degrees",
+            "Fahrenheit boiling point": "212 degrees"
+        }
+    },
+    {
+        "q": "Match each term with its correct definition.",
+        "type": "memory",
+        "pairs": {
+            "Temperature": "Measure of the degree of hotness",
+            "Heat": "A form of energy that flows",
+            "Thermometer": "Device used to measure temperature"
+        }
+    },
+    {
+        "q": "Which of these is a good insulator of heat?",
+        "type": "mcq",
+        "o": [
+            "Styrofoam",
+            "Iron",
+            "Aluminum",
+            "Silver"
+        ]
+    },
+    {
+        "q": "Convection cannot occur in solids.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a source of heat energy?",
+        "type": "odd_one_out",
+        "options": [
+            "Sun",
+            "Fire",
+            "Friction",
+            "Ice block"
+        ],
+        "correct": "Ice block"
+    },
+    {
+        "q": "The process by which heat from the Sun reaches the Earth is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "radiation"
+        ],
+        "other_options": [
+            "conduction",
+            "convection",
+            "evaporation",
+            "condensation"
+        ]
+    },
+    {
+        "q": "Which scale of temperature is commonly used in scientific work?",
+        "type": "mcq",
+        "o": [
+            "Kelvin",
+            "Celsius",
+            "Fahrenheit",
+            "Rankine"
+        ]
+    },
+    {
+        "q": "In which state of matter does convection occur most easily?",
+        "type": "mcq",
+        "o": [
+            "Liquids and gases",
+            "Solids only",
+            "Solids and liquids",
+            "Gases only"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Hot items, LEFT for Cold items.",
+        "type": "swipe_cards",
+        "left_label": "Cold",
+        "right_label": "Hot",
+        "cards": {
+            "Boiling water": "right",
+            "Ice cube": "left",
+            "Surface of the Sun": "right",
+            "Liquid nitrogen": "left"
+        }
+    },
+    {
+        "q": "Name a liquid commonly used in laboratory thermometers.",
+        "type": "short_answer",
+        "answers": [
+            "mercury",
+            "alcohol"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The transfer of heat through a solid by the vibration of particles is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "conduction"
+        ],
+        "other_options": [
+            "convection",
+            "radiation",
+            "insulation",
+            "expansion"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A device used to measure temperature.",
+        "type": "word_scramble",
+        "answer": "THERMOMETER",
+        "decoys": "XYZ"
+    },
+    {
+        "q": "Which of the following expands the most when heated?",
+        "type": "mcq",
+        "o": [
+            "Gases",
+            "Solids",
+            "Liquids",
+            "All expand equally"
+        ]
+    },
+    {
+        "q": "Wearing dark clothes in summer helps keep the body cool.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Unscramble the word: A form of energy that causes the sensation of hotness.",
+        "type": "word_scramble",
+        "answer": "HEAT",
+        "decoys": "KLP"
+    },
+    {
+        "q": "What is the freezing point of pure water in degrees Celsius?",
+        "type": "short_answer",
+        "answers": [
+            "0",
+            "0 degrees Celsius",
+            "0 C"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of heat transfer does not require any medium?",
+        "type": "mcq",
+        "o": [
+            "Radiation",
+            "Conduction",
+            "Convection",
+            "None of these"
+        ]
+    },
+    {
+        "q": "The clinical thermometer is used to measure the temperature of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "human body",
+            "body"
+        ],
+        "other_options": [
+            "boiling water",
+            "room",
+            "soil",
+            "food"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "[0] is a measure of the degree of hotness of an object, while [1] is the energy transferred between objects.",
+        "dropdowns": [
+            {
+                "correct": "Temperature",
+                "options": [
+                    "Heat",
+                    "Temperature",
+                    "Pressure"
+                ]
+            },
+            {
+                "correct": "Heat",
+                "options": [
+                    "Heat",
+                    "Temperature",
+                    "Work"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the following materials with their heat property:",
+        "type": "match",
+        "left": [
+            "Silver",
+            "Glass wool",
+            "Water",
+            "Air"
+        ],
+        "right": [
+            "Excellent conductor",
+            "Good insulator",
+            "Poor conductor",
+            "Poor conductor"
+        ]
+    },
+    {
+        "q": "Which thermometer has a kink in its capillary tube?",
+        "type": "mcq",
+        "o": [
+            "Clinical thermometer",
+            "Laboratory thermometer",
+            "Digital thermometer",
+            "Maximum-minimum thermometer"
+        ]
+    },
+    {
+        "q": "Land heats up faster than water during the day.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The range of a clinical thermometer is typically from ______ degrees Celsius to ______ degrees Celsius.",
+        "type": "fill_blank",
+        "answers": [
+            "35",
+            "42"
+        ],
+        "other_options": [
+            "0",
+            "100",
+            "50",
+            "20"
+        ]
+    },
+    {
+        "q": "What causes a metal lid on a glass jar to loosen when placed under hot water?",
+        "type": "mcq",
+        "o": [
+            "The metal lid expands more than the glass",
+            "The glass shrinks",
+            "The metal melts slightly",
+            "The water dissolves the metal"
+        ]
+    },
+    {
+        "q": "Which mode of heat transfer is responsible for a sea breeze?",
+        "type": "mcq",
+        "o": [
+            "Convection",
+            "Conduction",
+            "Radiation",
+            "Induction"
+        ]
+    },
+    {
+        "q": "Name the type of energy transferred due to a temperature difference.",
+        "type": "short_answer",
+        "answers": [
+            "heat",
+            "heat energy",
+            "thermal energy"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The standard unit of temperature in science is [0], but we often use [1] in our daily lives.",
+        "dropdowns": [
+            {
+                "correct": "Kelvin",
+                "options": [
+                    "Celsius",
+                    "Kelvin",
+                    "Fahrenheit"
+                ]
+            },
+            {
+                "correct": "Celsius",
+                "options": [
+                    "Kelvin",
+                    "Celsius",
+                    "Joule"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A wooden handle on a frying pan is used because wood is a good ______ of heat.",
+        "type": "fill_blank",
+        "answers": [
+            "insulator"
+        ],
+        "other_options": [
+            "conductor",
+            "radiator",
+            "absorber",
+            "reflector"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a temperature scale?",
+        "type": "mcq",
+        "o": [
+            "Joule",
+            "Celsius",
+            "Fahrenheit",
+            "Kelvin"
+        ]
+    },
+    {
+        "q": "In a solid, heat is transferred mainly by convection.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the normal room temperature considered to be in degrees Celsius?",
+        "type": "short_answer",
+        "answers": [
+            "25",
+            "20 to 25",
+            "around 25"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A ______ surface is a better absorber of heat than a shiny surface.",
+        "type": "fill_blank",
+        "answers": [
+            "black",
+            "dark"
+        ],
+        "other_options": [
+            "white",
+            "silver",
+            "polished",
+            "transparent"
+        ]
+    },
+    {
+        "q": "Which process involves the movement of heated fluid itself?",
+        "type": "mcq",
+        "o": [
+            "Convection",
+            "Conduction",
+            "Radiation",
+            "Reflection"
+        ]
+    },
+    {
+        "q": "The increase in size of a material due to heating is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "thermal expansion"
+        ],
+        "other_options": [
+            "contraction",
+            "conduction",
+            "melting",
+            "radiation"
+        ]
+    },
+    {
+        "q": "Why are gaps left between railway tracks?",
+        "type": "mcq",
+        "o": [
+            "To allow for thermal expansion in summer",
+            "To make the ride smoother",
+            "To save material",
+            "To allow rainwater to drain"
+        ]
+    },
+    {
+        "q": "Heat can be transferred through a vacuum.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which metal is commonly used in the coil of a room heater?",
+        "type": "mcq",
+        "o": [
+            "Nichrome",
+            "Copper",
+            "Aluminum",
+            "Iron"
+        ]
+    },
+    {
+        "q": "Match the temperature scale with its lower fixed point (water freezes):",
+        "type": "match",
+        "left": [
+            "Celsius",
+            "Fahrenheit",
+            "Kelvin"
+        ],
+        "right": [
+            "0 degrees",
+            "32 degrees",
+            "273 K"
+        ]
+    },
+    {
+        "q": "What is the maximum temperature on a standard clinical thermometer in degrees Celsius?",
+        "type": "slider",
+        "min": 35,
+        "max": 50,
+        "correct": 42
+    },
+    {
+        "q": "The transfer of heat by direct contact between particles is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "conduction"
+        ],
+        "other_options": [
+            "convection",
+            "radiation",
+            "vibration",
+            "diffusion"
+        ]
+    },
+    {
+        "q": "Name a metal that is a poor conductor of heat.",
+        "type": "short_answer",
+        "answers": [
+            "lead",
+            "stainless steel",
+            "mercury"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which device uses a bimetallic strip to control temperature?",
+        "type": "mcq",
+        "o": [
+            "Thermostat",
+            "Barometer",
+            "Hygrometer",
+            "Ammeter"
+        ]
+    },
+    {
+        "q": "A laboratory thermometer has a kink in the capillary.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "The degree of hotness or coldness of an object is called its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "temperature"
+        ],
+        "other_options": [
+            "heat",
+            "energy",
+            "thermal capacity",
+            "specific heat"
+        ]
+    },
+    {
+        "q": "Why are cooking utensils often made of metals?",
+        "type": "mcq",
+        "o": [
+            "Because metals are good conductors of heat",
+            "Because metals are shiny",
+            "Because metals are cheap",
+            "Because metals are insulators"
+        ]
+    },
+    {
+        "q": "What is the primary reason hot air balloons rise?",
+        "type": "mcq",
+        "o": [
+            "Hot air is less dense and rises due to convection",
+            "The balloon is pushed by wind",
+            "Hot air is heavier than cold air",
+            "The balloon absorbs radiation"
+        ]
+    },
+    {
+        "q": "Which color of clothing is best for keeping cool in summer?",
+        "type": "mcq",
+        "o": [
+            "White",
+            "Black",
+            "Dark blue",
+            "Dark green"
+        ]
+    },
+    {
+        "q": "Name the process of heat transfer that involves electromagnetic waves.",
+        "type": "short_answer",
+        "answers": [
+            "radiation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The handle of a screwdriver is made of plastic or wood because they are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "insulators"
+        ],
+        "other_options": [
+            "conductors",
+            "absorbers",
+            "radiators",
+            "reflectors"
+        ]
+    },
+    {
+        "q": "What happens to the density of a substance when it is heated?",
+        "type": "mcq",
+        "o": [
+            "It generally decreases",
+            "It always increases",
+            "It remains the same",
+            "It first increases then decreases"
+        ]
+    },
+    {
+        "q": "Convection currents are observed in solids.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following describes a bimetallic strip?",
+        "type": "mcq",
+        "o": [
+            "Two different metals bonded together that bend when heated",
+            "A single metal strip used in thermometers",
+            "A plastic strip used for insulation",
+            "A paper strip that changes color with heat"
+        ]
+    },
+    {
+        "q": "Match the application with the heat transfer principle:",
+        "type": "match",
+        "left": [
+            "Heating a pan on a stove",
+            "Warming hands near a fire",
+            "Room heater warming a room",
+            "Thermos flask"
+        ],
+        "right": [
+            "Conduction",
+            "Radiation",
+            "Convection",
+            "Minimizes all three"
+        ]
+    },
+    {
+        "q": "Digital thermometers often use ______ to display temperature.",
+        "type": "fill_blank",
+        "answers": [
+            "LCD",
+            "liquid crystal display"
+        ],
+        "other_options": [
+            "mercury",
+            "alcohol",
+            "spring",
+            "magnet"
+        ]
+    },
+    {
+        "q": "What is the melting point of ice in Kelvin?",
+        "type": "short_answer",
+        "answers": [
+            "273 K",
+            "273",
+            "273 kelvin"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the type of thermometer with its use.",
+        "type": "memory",
+        "pairs": {
+            "Clinical thermometer": "Measures human body temperature",
+            "Laboratory thermometer": "Measures temperature of chemicals",
+            "Digital thermometer": "Modern device that uses no mercury"
+        }
+    },
+    {
+        "q": "Which of these is an example of thermal expansion in liquids?",
+        "type": "mcq",
+        "o": [
+            "Mercury rising in a thermometer",
+            "A metal rod becoming longer",
+            "A balloon expanding in the sun",
+            "Cracks in a concrete road"
+        ]
+    },
+    {
+        "q": "Water is an excellent conductor of heat.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "The transfer of heat in fluids by the actual movement of particles is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "convection"
+        ],
+        "other_options": [
+            "conduction",
+            "radiation",
+            "absorption",
+            "emission"
+        ]
+    },
+    {
+        "q": "Why does a tile floor feel colder than a carpet on a winter morning?",
+        "type": "mcq",
+        "o": [
+            "Tile is a better conductor and draws heat from feet faster",
+            "Tile has a lower temperature",
+            "Carpet generates heat",
+            "Tile reflects heat away"
+        ]
+    },
+    {
+        "q": "Which instrument measures the maximum and minimum temperature of a day?",
+        "type": "mcq",
+        "o": [
+            "Six's thermometer",
+            "Clinical thermometer",
+            "Laboratory thermometer",
+            "Digital thermometer"
+        ]
+    },
+    {
+        "q": "What is the normal human body temperature in Fahrenheit?",
+        "type": "short_answer",
+        "answers": [
+            "98.6",
+            "98.6 F",
+            "98.6 degrees Fahrenheit"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In the Celsius scale, there are ______ divisions between the freezing and boiling points of water.",
+        "type": "fill_blank",
+        "answers": [
+            "100"
+        ],
+        "other_options": [
+            "180",
+            "273",
+            "32",
+            "212"
+        ]
+    },
+    {
+        "q": "Which metal is commonly used in thermometers due to its uniform expansion?",
+        "type": "mcq",
+        "o": [
+            "Mercury",
+            "Iron",
+            "Copper",
+            "Aluminum"
+        ]
+    },
+    {
+        "q": "A vacuum flask reduces heat transfer by using a vacuum between two walls.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following transfers heat fastest?",
+        "type": "mcq",
+        "o": [
+            "Conduction in metals",
+            "Conduction in wood",
+            "Convection in water",
+            "Convection in air"
+        ]
+    },
+    {
+        "q": "Which of these is NOT typically used as a liquid in traditional glass thermometers?",
+        "type": "odd_one_out",
+        "options": [
+            "Mercury",
+            "Alcohol",
+            "Gallium alloy",
+            "Milk"
+        ],
+        "correct": "Milk"
+    },
+    {
+        "q": "The fact that a tightly sealed bottle cap can be opened by running hot water over it demonstrates ______.",
+        "type": "fill_blank",
+        "answers": [
+            "thermal expansion"
+        ],
+        "other_options": [
+            "conduction",
+            "insulation",
+            "convection",
+            "radiation"
+        ]
+    },
+    {
+        "q": "Match the scientist with the temperature scale they developed:",
+        "type": "match",
+        "left": [
+            "Anders Celsius",
+            "Daniel Fahrenheit",
+            "Lord Kelvin"
+        ],
+        "right": [
+            "Celsius scale",
+            "Fahrenheit scale",
+            "Kelvin scale"
+        ]
+    },
+    {
+        "q": "Why are overhead power lines sometimes seen sagging?",
+        "type": "mcq",
+        "o": [
+            "Due to thermal expansion in hot weather",
+            "Because of wind",
+            "Because they are poorly installed",
+            "Due to thermal contraction"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Laboratory Thermometer facts, LEFT for Clinical Thermometer facts.",
+        "type": "swipe_cards",
+        "left_label": "Clinical",
+        "right_label": "Laboratory",
+        "cards": {
+            "Has a kink near the bulb": "left",
+            "Range is usually 35 to 42 Celsius": "left",
+            "Does not have a kink": "right",
+            "Range is usually -10 to 110 Celsius": "right"
+        }
+    },
+    {
+        "q": "Name the SI unit of temperature.",
+        "type": "short_answer",
+        "answers": [
+            "kelvin",
+            "K"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Air is a good conductor of heat.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "The substance in a clinical thermometer that expands is ______ or alcohol.",
+        "type": "fill_blank",
+        "answers": [
+            "mercury"
+        ],
+        "other_options": [
+            "water",
+            "gas",
+            "iron",
+            "copper"
+        ]
+    },
+    {
+        "q": "What causes the 'heat haze' seen above a hot road surface?",
+        "type": "mcq",
+        "o": [
+            "Convection currents in the air",
+            "Reflection of light from the road",
+            "Steam rising from the road",
+            "Radiation from the road"
+        ]
+    },
+    {
+        "q": "Which type of heat transfer is used in a microwave oven?",
+        "type": "mcq",
+        "o": [
+            "Radiation",
+            "Conduction",
+            "Convection",
+            "Induction"
+        ]
+    },
+    {
+        "q": "The silvering on the walls of a vacuum flask reduces heat loss by ______.",
+        "type": "fill_blank",
+        "answers": [
+            "radiation"
+        ],
+        "other_options": [
+            "conduction",
+            "convection",
+            "absorption",
+            "convection"
+        ]
+    },
+    {
+        "q": "During a fever, body temperature usually goes above the normal range.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which liquid is safer to use in a thermometer, mercury or alcohol?",
+        "type": "mcq",
+        "o": [
+            "Alcohol, because mercury is toxic",
+            "Mercury, because it is safer",
+            "Both are equally safe",
+            "Neither can be used"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Toxic/Dangerous, LEFT for Safe.",
+        "type": "swipe_cards",
+        "left_label": "Safe",
+        "right_label": "Toxic",
+        "cards": {
+            "Digital thermometer sensor": "left",
+            "Alcohol in a tube": "left",
+            "Mercury liquid": "right",
+            "Broken thermometer glass": "right"
+        }
+    },
+    {
+        "q": "What is the name for the circular movement in a heated fluid?",
+        "type": "short_answer",
+        "answers": [
+            "convection current",
+            "convection currents"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: The toxic liquid metal used in older thermometers.",
+        "type": "word_scramble",
+        "answer": "MERCURY",
+        "decoys": "QZ"
+    },
+    {
+        "q": "A ______ thermometer uses a thermistor to measure temperature.",
+        "type": "fill_blank",
+        "answers": [
+            "digital"
+        ],
+        "other_options": [
+            "clinical",
+            "laboratory",
+            "maximum-minimum",
+            "mercury"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The bend in a clinical thermometer that prevents liquid from falling.",
+        "type": "word_scramble",
+        "answer": "KINK",
+        "decoys": "JX"
+    },
+    {
+        "q": "Which of the following does NOT affect the rate of radiation from a body?",
+        "type": "mcq",
+        "o": [
+            "Its mass",
+            "Its surface area",
+            "Its surface color",
+            "Its temperature"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A [0] thermometer has a small [1] near the bulb to prevent the mercury level from falling on its own.",
+        "dropdowns": [
+            {
+                "correct": "clinical",
+                "options": [
+                    "laboratory",
+                    "clinical",
+                    "digital"
+                ]
+            },
+            {
+                "correct": "kink",
+                "options": [
+                    "bulb",
+                    "kink",
+                    "scale"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the material with its thermal conductivity level:",
+        "type": "match",
+        "left": [
+            "Diamond",
+            "Water",
+            "Air",
+            "Wood"
+        ],
+        "right": [
+            "Very high",
+            "Medium",
+            "Very low",
+            "Low"
+        ]
+    },
+    {
+        "q": "The phenomenon of sea breeze during the day is due to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "convection"
+        ],
+        "other_options": [
+            "radiation",
+            "conduction",
+            "evaporation",
+            "reflection"
+        ]
+    },
+    {
+        "q": "A metal spoon placed in a hot cup of tea becomes hot due to convection.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "In which unit is heat energy often measured in food?",
+        "type": "mcq",
+        "o": [
+            "Calorie",
+            "Joule",
+            "Watt",
+            "Newton"
+        ]
+    },
+    {
+        "q": "A clinical thermometer should be sterilized in boiling water.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Before using a clinical thermometer, it should be washed with an [0] solution and given a few [1] to bring the level down.",
+        "dropdowns": [
+            {
+                "correct": "antiseptic",
+                "options": [
+                    "acidic",
+                    "basic",
+                    "antiseptic"
+                ]
+            },
+            {
+                "correct": "jerks",
+                "options": [
+                    "heats",
+                    "jerks",
+                    "drops"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What happens to the particles in a solid when it is heated?",
+        "type": "mcq",
+        "o": [
+            "They vibrate more vigorously",
+            "They stop moving",
+            "They move freely around",
+            "They contract"
+        ]
+    },
+    {
+        "q": "Name two poor conductors (insulators) of heat.",
+        "type": "short_answer",
+        "answers": [
+            "wood and plastic",
+            "plastic and wood",
+            "rubber and glass",
+            "wood, plastic"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The absolute zero temperature is ______ Kelvin.",
+        "type": "fill_blank",
+        "answers": [
+            "0",
+            "zero"
+        ],
+        "other_options": [
+            "100",
+            "273",
+            "373",
+            "-273"
+        ]
+    },
+    {
+        "q": "Which part of a refrigerator is usually placed at the top?",
+        "type": "mcq",
+        "o": [
+            "The freezer compartment",
+            "The vegetable tray",
+            "The door shelves",
+            "The compressor"
+        ]
+    },
+    {
+        "q": "All metals are good conductors of heat.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "At what temperature does water freeze on the Fahrenheit scale?",
+        "type": "slider",
+        "min": 0,
+        "max": 100,
+        "correct": 32
+    },
+    {
+        "q": "Which of the following is a poor emitter of heat radiation?",
+        "type": "mcq",
+        "o": [
+            "A shiny silver surface",
+            "A dull black surface",
+            "A dark red surface",
+            "A rough surface"
+        ]
+    },
+    {
+        "q": "The boiling point of water in the Kelvin scale is ______ K.",
+        "type": "fill_blank",
+        "answers": [
+            "373"
+        ],
+        "other_options": [
+            "273",
+            "100",
+            "0",
+            "212"
+        ]
+    },
+    {
+        "q": "Match the part of a thermos flask with its function:",
+        "type": "match",
+        "left": [
+            "Vacuum between walls",
+            "Silvered surfaces",
+            "Stopper/cap",
+            "Outer casing"
+        ],
+        "right": [
+            "Prevents conduction and convection",
+            "Reflects radiation",
+            "Minimizes convection",
+            "Provides protection"
+        ]
+    },
+    {
+        "q": "What is the primary advantage of using alcohol in thermometers for very cold regions?",
+        "type": "mcq",
+        "o": [
+            "It has a lower freezing point than mercury",
+            "It is cheaper than mercury",
+            "It is colored",
+            "It expands more uniformly"
+        ]
+    },
+    {
+        "q": "A metal ball that just passes through a ring when cold, does not pass through when heated.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for the emission of heat energy from a hot body in the form of waves?",
+        "type": "short_answer",
+        "answers": [
+            "radiation",
+            "thermal radiation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Celsius scale was originally called the ______ scale.",
+        "type": "fill_blank",
+        "answers": [
+            "centigrade"
+        ],
+        "other_options": [
+            "Fahrenheit",
+            "Kelvin",
+            "metric",
+            "universal"
+        ]
+    },
+    {
+        "q": "Which of these is a natural example of a heat insulator?",
+        "type": "mcq",
+        "o": [
+            "Fur on animals",
+            "Iron bar",
+            "Copper wire",
+            "Gold ring"
+        ]
+    },
+    {
+        "q": "Conduction is the primary mode of heat transfer in liquids and gases.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the main difference between heat and temperature?",
+        "type": "mcq",
+        "o": [
+            "Heat is energy, temperature is a measure of hotness",
+            "Heat is cold, temperature is hot",
+            "Heat is measured in degrees, temperature in joules",
+            "There is no difference"
+        ]
+    },
+    {
+        "q": "Define the term 'thermal equilibrium'.",
+        "type": "short_answer",
+        "answers": [
+            "state when two objects have the same temperature and no heat flows",
+            "when objects reach the same temperature",
+            "no net heat flow between objects"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the heat transfer concepts to their definitions.",
+        "type": "memory",
+        "pairs": {
+            "Conduction": "Heat transfer in solid objects",
+            "Conductor": "Material that allows heat to pass",
+            "Insulator": "Material that blocks heat transfer"
+        }
+    },
+    {
+        "q": "The process of heat transfer that does not require any particles is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "radiation"
+        ],
+        "other_options": [
+            "conduction",
+            "convection",
+            "diffusion",
+            "osmosis"
+        ]
+    },
+    {
+        "q": "Which of the following has the highest thermal conductivity?",
+        "type": "mcq",
+        "o": [
+            "Diamond",
+            "Wood",
+            "Plastic",
+            "Air"
+        ]
+    },
+    {
+        "q": "A bimetallic strip works because different metals expand at the same rate.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What temperature is absolute zero on the Celsius scale?",
+        "type": "mcq",
+        "o": [
+            "-273 degrees Celsius",
+            "0 degrees Celsius",
+            "100 degrees Celsius",
+            "273 degrees Celsius"
+        ]
+    },
+    {
+        "q": "Match the heat transfer type with its medium requirement:",
+        "type": "match",
+        "left": [
+            "Conduction",
+            "Convection",
+            "Radiation"
+        ],
+        "right": [
+            "Requires solid medium",
+            "Requires fluid medium",
+            "No medium required"
+        ]
+    },
+    {
+        "q": "Match the materials to their correct classification.",
+        "type": "memory",
+        "pairs": {
+            "Copper": "Excellent conductor",
+            "Wood": "Good insulator",
+            "Aluminum": "Common metal conductor",
+            "Plastic": "Synthetic insulator"
+        }
+    },
+    {
+        "q": "Name the material used in the filament of a light bulb that resists heat.",
+        "type": "short_answer",
+        "answers": [
+            "tungsten",
+            "tungsten wire"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In a thermos flask, the vacuum between the walls prevents heat loss by ______ and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "conduction",
+            "convection"
+        ],
+        "other_options": [
+            "radiation",
+            "absorption",
+            "reflection",
+            "emission"
+        ]
+    },
+    {
+        "q": "Why are two thin blankets sometimes warmer than one thick blanket?",
+        "type": "mcq",
+        "o": [
+            "Air trapped between them acts as an insulator",
+            "They are heavier",
+            "They conduct heat better",
+            "They reflect heat"
+        ]
+    },
+    {
+        "q": "A clinical thermometer should be washed with hot water before use.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these materials is NOT a good conductor of heat?",
+        "type": "odd_one_out",
+        "options": [
+            "Iron",
+            "Copper",
+            "Aluminum",
+            "Rubber"
+        ],
+        "correct": "Rubber"
+    },
+    {
+        "q": "Swipe RIGHT for Insulators, LEFT for Conductors.",
+        "type": "swipe_cards",
+        "left_label": "Conductor",
+        "right_label": "Insulator",
+        "cards": {
+            "Iron nail": "left",
+            "Steel spoon": "left",
+            "Rubber band": "right",
+            "Wooden block": "right"
+        }
+    },
+    {
+        "q": "Which property of mercury makes it suitable for use in thermometers?",
+        "type": "mcq",
+        "o": [
+            "It expands uniformly with temperature",
+            "It is very light",
+            "It is a poor conductor",
+            "It evaporates easily"
+        ]
+    },
+    {
+        "q": "The range of a laboratory thermometer is typically from ______ degrees Celsius to ______ degrees Celsius.",
+        "type": "fill_blank",
+        "answers": [
+            "-10",
+            "110"
+        ],
+        "other_options": [
+            "35",
+            "42",
+            "0",
+            "100"
+        ]
+    },
+    {
+        "q": "Which mode of heat transfer is primarily responsible for heating the air in a room from a radiator?",
+        "type": "mcq",
+        "o": [
+            "Convection",
+            "Conduction",
+            "Radiation",
+            "Insulation"
+        ]
+    },
+    {
+        "q": "What is the term for the amount of heat needed to raise the temperature of 1 kg of a substance by 1 degree Celsius?",
+        "type": "short_answer",
+        "answers": [
+            "specific heat capacity",
+            "specific heat"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of heat transfer in a metal rod when one end is heated is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "conduction"
+        ],
+        "other_options": [
+            "convection",
+            "radiation",
+            "expansion",
+            "combustion"
+        ]
+    },
+    {
+        "q": "Which of the following surfaces is the best reflector of radiant heat?",
+        "type": "mcq",
+        "o": [
+            "Polished silver surface",
+            "Dull black surface",
+            "Whitewashed surface",
+            "Rough dark surface"
+        ]
+    },
+    {
+        "q": "During the night, land cools down faster than the sea.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the application with the property of heat:",
+        "type": "match",
+        "left": [
+            "Ice box made of wood",
+            "Metal cooking pan",
+            "Fire-fighter suit",
+            "Mercury in thermometer"
+        ],
+        "right": [
+            "Poor conductor",
+            "Good conductor",
+            "Insulator and reflector",
+            "Uniform expansion"
+        ]
+    },
+    {
+        "q": "What happens to the water level in a container when ice floating on it melts?",
+        "type": "mcq",
+        "o": [
+            "It remains the same",
+            "It rises",
+            "It falls",
+            "It overflows"
+        ]
+    },
+    {
+        "q": "Name the device used to measure the specific heat capacity of a substance.",
+        "type": "short_answer",
+        "answers": [
+            "calorimeter"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A liquid-in-glass thermometer works on the principle of thermal ______ of the liquid.",
+        "type": "fill_blank",
+        "answers": [
+            "expansion"
+        ],
+        "other_options": [
+            "contraction",
+            "conduction",
+            "radiation",
+            "absorption"
+        ]
+    },
+    {
+        "q": "In which direction do convection currents flow in a room heated by a radiator?",
+        "type": "mcq",
+        "o": [
+            "Warm air rises, cools, and sinks",
+            "Warm air sinks and stays at the floor",
+            "Air moves horizontally only",
+            "Air does not move"
+        ]
+    },
+    {
+        "q": "Gases are generally good conductors of heat.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Why is it difficult to hold a metal tumbler containing very hot tea compared to a plastic cup?",
+        "type": "mcq",
+        "o": [
+            "Metal conducts heat quickly to the hand",
+            "Metal absorbs cold from the hand",
+            "Plastic generates heat",
+            "Metal is heavier"
+        ]
+    },
+    {
+        "q": "The temperature at which a substance changes from liquid to gas at a given pressure is its ______ point.",
+        "type": "fill_blank",
+        "answers": [
+            "boiling"
+        ],
+        "other_options": [
+            "melting",
+            "freezing",
+            "dew",
+            "condensation"
+        ]
+    },
+    {
+        "q": "Which temperature scale does not use the degree symbol?",
+        "type": "mcq",
+        "o": [
+            "Kelvin",
+            "Celsius",
+            "Fahrenheit",
+            "Rankine"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The primary process of heat transfer in solids.",
+        "type": "word_scramble",
+        "answer": "CONDUCTION",
+        "decoys": "VW"
+    },
+    {
+        "q": "Match each term with its definition:",
+        "type": "match",
+        "left": [
+            "Conduction",
+            "Convection",
+            "Radiation",
+            "Insulator"
+        ],
+        "right": [
+            "Transfer through solids",
+            "Transfer through fluids by movement",
+            "Transfer without medium",
+            "Material that slows heat transfer"
+        ]
+    },
+    {
+        "q": "Unscramble the word: Materials that do not allow heat to pass easily.",
+        "type": "word_scramble",
+        "answer": "INSULATORS",
+        "decoys": "BQ"
+    },
+    {
+        "q": "What is the main reason water is used as a coolant in car engines?",
+        "type": "short_answer",
+        "answers": [
+            "high specific heat capacity",
+            "it can absorb a lot of heat without large temperature rise"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A digital thermometer displays temperature using a ______ sensor.",
+        "type": "fill_blank",
+        "answers": [
+            "thermistor",
+            "heat"
+        ],
+        "other_options": [
+            "mercury",
+            "bimetallic",
+            "spring",
+            "alcohol"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "In [0], heat is transferred from the [1] end to the colder end of an object.",
+        "dropdowns": [
+            {
+                "correct": "conduction",
+                "options": [
+                    "convection",
+                    "conduction",
+                    "radiation"
+                ]
+            },
+            {
+                "correct": "hotter",
+                "options": [
+                    "colder",
+                    "hotter",
+                    "neutral"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which color combination is ideal for a solar water heater panel?",
+        "type": "mcq",
+        "o": [
+            "Black surface covered with glass",
+            "White surface with no cover",
+            "Silver polished surface",
+            "Transparent surface"
+        ]
+    },
+    {
+        "q": "A clinical thermometer can measure temperatures above 50 degrees Celsius.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the 'land breeze' phenomenon?",
+        "type": "mcq",
+        "o": [
+            "Wind blowing from land to sea at night",
+            "Wind blowing from sea to land during the day",
+            "Wind caused by mountains",
+            "Wind inside a cave"
+        ]
+    },
+    {
+        "q": "The temperature of the human body does not vary throughout the day.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Explain why a piece of ice feels cold to touch.",
+        "type": "short_answer",
+        "answers": [
+            "heat flows from the hand to the ice",
+            "thermal energy transfers from skin to ice"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Fiberglass is used in building insulation because it traps ______, a poor conductor.",
+        "type": "fill_blank",
+        "answers": [
+            "air"
+        ],
+        "other_options": [
+            "water",
+            "metal",
+            "dust",
+            "light"
+        ]
+    },
+    {
+        "q": "Which of the following will cool a hot drink fastest?",
+        "type": "mcq",
+        "o": [
+            "Pouring it into a wide, shallow saucer",
+            "Leaving it in a tall narrow cup",
+            "Covering the cup with a lid",
+            "Wrapping the cup in wool"
+        ]
+    },
+    {
+        "q": "What is the principle behind the working of a hot air balloon?",
+        "type": "mcq",
+        "o": [
+            "Hot air expands and becomes less dense",
+            "Hot air contracts and becomes denser",
+            "The balloon absorbs radiation",
+            "The balloon conducts heat from the ground"
+        ]
+    },
+    {
+        "q": "Match the temperature point with its value in Celsius:",
+        "type": "match",
+        "left": [
+            "Boiling point of water",
+            "Freezing point of water",
+            "Normal body temperature",
+            "Room temperature (approx)"
+        ],
+        "right": [
+            "100 degrees C",
+            "0 degrees C",
+            "37 degrees C",
+            "25 degrees C"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Cooking utensils are made of [0] because they are good conductors, while their handles are made of [1] to protect our hands.",
+        "dropdowns": [
+            {
+                "correct": "metals",
+                "options": [
+                    "plastics",
+                    "wood",
+                    "metals"
+                ]
+            },
+            {
+                "correct": "plastics",
+                "options": [
+                    "metals",
+                    "plastics",
+                    "iron"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Name a material that is an electrical conductor but a poor thermal conductor.",
+        "type": "short_answer",
+        "answers": [
+            "diamond",
+            "beryllium oxide"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The kink in a clinical thermometer prevents the ______ from falling back into the bulb.",
+        "type": "fill_blank",
+        "answers": [
+            "mercury"
+        ],
+        "other_options": [
+            "glass",
+            "alcohol",
+            "water",
+            "air"
+        ]
+    },
+    {
+        "q": "Which heat transfer method is reduced by the vacuum in a vacuum flask?",
+        "type": "mcq",
+        "o": [
+            "Conduction and convection",
+            "Radiation only",
+            "Convection and radiation",
+            "Conduction only"
+        ]
+    },
+    {
+        "q": "Thermal expansion can cause bridges to have expansion joints.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the unit of thermal conductivity?",
+        "type": "mcq",
+        "o": [
+            "Watt per meter per Kelvin",
+            "Joule per kilogram",
+            "Newton per meter",
+            "Ohm"
+        ]
+    },
+    {
+        "q": "Which of these is an application of thermal expansion in daily life?",
+        "type": "mcq",
+        "o": [
+            "Riveting two metal plates together",
+            "Measuring wind speed",
+            "Filtering water",
+            "Generating electricity"
+        ]
+    },
+    {
+        "q": "The SI unit of specific heat capacity is ______ per kilogram per Kelvin.",
+        "type": "fill_blank",
+        "answers": [
+            "joule",
+            "J"
+        ],
+        "other_options": [
+            "calorie",
+            "watt",
+            "newton",
+            "pascal"
+        ]
+    },
+    {
+        "q": "Does heat transfer occur in solids mainly by convection?",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "At what temperature does water boil on the Celsius scale?",
+        "type": "slider",
+        "min": 50,
+        "max": 150,
+        "correct": 100
+    },
+    {
+        "q": "Why do birds often fluff up their feathers in winter?",
+        "type": "mcq",
+        "o": [
+            "To trap more air for insulation",
+            "To look bigger",
+            "To conduct heat away",
+            "To absorb more radiation"
+        ]
+    },
+    {
+        "q": "Match the material with its primary use related to heat:",
+        "type": "match",
+        "left": [
+            "Asbestos",
+            "Copper",
+            "Nichrome",
+            "Ebonite"
+        ],
+        "right": [
+            "Insulation in buildings",
+            "Cooking utensils",
+            "Heating element in toaster",
+            "Handle of electric iron"
+        ]
+    },
+    {
+        "q": "Define the term 'convection current'.",
+        "type": "short_answer",
+        "answers": [
+            "circular movement in a fluid caused by heating",
+            "movement of fluid due to density differences from heating"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A black body is a perfect ______ and ______ of radiation.",
+        "type": "fill_blank",
+        "answers": [
+            "absorber",
+            "emitter"
+        ],
+        "other_options": [
+            "reflector",
+            "conductor",
+            "insulator",
+            "transmitter"
+        ]
+    },
+    {
+        "q": "Which type of thermometer is most suitable for measuring the temperature of a blast furnace?",
+        "type": "mcq",
+        "o": [
+            "Pyrometer",
+            "Clinical thermometer",
+            "Alcohol thermometer",
+            "Digital thermometer"
+        ]
+    },
+    {
+        "q": "The latent heat of fusion is the heat required to change solid to liquid without temperature change.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the main mode of heat loss from a hot cup of tea kept on a table?",
+        "type": "mcq",
+        "o": [
+            "Convection and radiation",
+            "Conduction only",
+            "Radiation only",
+            "Conduction and convection"
+        ]
+    },
+    {
+        "q": "Name the process by which a gas changes into a liquid on cooling.",
+        "type": "short_answer",
+        "answers": [
+            "condensation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The higher the thermal conductivity of a material, the ______ it conducts heat.",
+        "type": "fill_blank",
+        "answers": [
+            "better",
+            "faster"
+        ],
+        "other_options": [
+            "slower",
+            "worse",
+            "less",
+            "poorly"
+        ]
+    },
+    {
+        "q": "Why does an iron rim heated before fitting on a wooden wheel?",
+        "type": "mcq",
+        "o": [
+            "To expand the rim so it fits loosely, then contracts on cooling",
+            "To melt the wood slightly",
+            "To make the iron softer",
+            "To remove rust"
+        ]
+    },
+    {
+        "q": "Which of the following does NOT rely on convection?",
+        "type": "mcq",
+        "o": [
+            "Melting an ice cube in your hand",
+            "A refrigerator cooling food",
+            "Sea breeze",
+            "Hot water rising in a pan"
+        ]
+    },
+    {
+        "q": "Light-colored clothes are preferred in summer because they are good absorbers of heat.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the temperature scale with its upper fixed point (boiling water):",
+        "type": "match",
+        "left": [
+            "Celsius",
+            "Fahrenheit",
+            "Kelvin"
+        ],
+        "right": [
+            "100 degrees",
+            "212 degrees",
+            "373 K"
+        ]
+    },
+    {
+        "q": "A thermocouple works on the principle that two different metals joined together generate a ______ when heated.",
+        "type": "fill_blank",
+        "answers": [
+            "voltage",
+            "potential difference",
+            "emf"
+        ],
+        "other_options": [
+            "current",
+            "resistance",
+            "magnetic field",
+            "light"
+        ]
+    },
+    {
+        "q": "What is the primary reason ice is a good insulator in igloos?",
+        "type": "mcq",
+        "o": [
+            "It traps air pockets inside",
+            "It is very cold",
+            "It reflects all heat",
+            "It is solid"
+        ]
+    },
+    {
+        "q": "Name the three modes of heat transfer.",
+        "type": "short_answer",
+        "answers": [
+            "conduction, convection, radiation",
+            "conduction convection and radiation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Celsius and Fahrenheit scales show the same reading at -40 degrees.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which liquid is often used in minimum thermometers due to its low freezing point?",
+        "type": "mcq",
+        "o": [
+            "Alcohol",
+            "Mercury",
+            "Water",
+            "Oil"
+        ]
+    },
+    {
+        "q": "In a room heater, the air near the heater gets heated, expands, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "rises"
+        ],
+        "other_options": [
+            "sinks",
+            "stays",
+            "contracts",
+            "freezes"
+        ]
+    },
+    {
+        "q": "Why are cooking pan handles made of plastic or wood?",
+        "type": "mcq",
+        "o": [
+            "Because they are poor conductors of heat",
+            "Because they are good conductors",
+            "Because they are cheap",
+            "Because they melt easily"
+        ]
+    },
+    {
+        "q": "What is the term for the heat required to change 1 kg of liquid into gas at constant temperature?",
+        "type": "short_answer",
+        "answers": [
+            "latent heat of vaporization",
+            "latent heat"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The outer casing of a refrigerator is usually painted white to minimize heat ______.",
+        "type": "fill_blank",
+        "answers": [
+            "absorption"
+        ],
+        "other_options": [
+            "emission",
+            "conduction",
+            "convection",
+            "reflection"
+        ]
+    },
+    {
+        "q": "Which heat transfer method is involved in the formation of trade winds?",
+        "type": "mcq",
+        "o": [
+            "Convection",
+            "Conduction",
+            "Radiation",
+            "Insulation"
+        ]
+    },
+    {
+        "q": "A thick glass tumbler cracks when boiling water is poured into it because glass is a good conductor.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the type of thermometer with its typical use:",
+        "type": "match",
+        "left": [
+            "Clinical",
+            "Laboratory",
+            "Maximum-Minimum",
+            "Pyrometer"
+        ],
+        "right": [
+            "Measuring body temperature",
+            "Science experiments",
+            "Weather recording",
+            "Furnace temperature"
+        ]
+    },
+    {
+        "q": "Match the convection concepts to their descriptions.",
+        "type": "memory",
+        "pairs": {
+            "Sea breeze": "Daytime wind from sea to land",
+            "Land breeze": "Nighttime wind from land to sea",
+            "Convection": "Heat transfer in fluids"
+        }
+    },
+    {
+        "q": "What is the main function of the coolant in a car radiator?",
+        "type": "mcq",
+        "o": [
+            "To absorb heat from the engine and release it to the air",
+            "To lubricate the engine",
+            "To increase fuel efficiency",
+            "To clean the engine"
+        ]
+    },
+    {
+        "q": "Name a substance that exhibits anomalous expansion when cooled near 4 degrees Celsius.",
+        "type": "short_answer",
+        "answers": [
+            "water"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of heat transfer from particle to particle without the movement of the particles themselves is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "conduction"
+        ],
+        "other_options": [
+            "convection",
+            "radiation",
+            "evaporation",
+            "sublimation"
+        ]
+    },
+    {
+        "q": "Which of the following expands the most for the same rise in temperature?",
+        "type": "mcq",
+        "o": [
+            "Oxygen gas",
+            "Iron rod",
+            "Water",
+            "Glass"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a method of heat transfer?",
+        "type": "odd_one_out",
+        "options": [
+            "Conduction",
+            "Convection",
+            "Radiation",
+            "Insulation"
+        ],
+        "correct": "Insulation"
+    },
+    {
+        "q": "Convection can occur in a vacuum.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Why does a clinical thermometer have a constriction (kink)?",
+        "type": "mcq",
+        "o": [
+            "To prevent the mercury level from falling on its own",
+            "To make it look different",
+            "To increase the range",
+            "To make it cheaper"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Sea Breeze, LEFT for Land Breeze.",
+        "type": "swipe_cards",
+        "left_label": "Land Breeze",
+        "right_label": "Sea Breeze",
+        "cards": {
+            "Occurs during the day": "right",
+            "Cool air moves from sea to land": "right",
+            "Occurs at night": "left",
+            "Cool air moves from land to sea": "left"
+        }
+    },
+    {
+        "q": "The transfer of heat by infra-red waves is known as ______.",
+        "type": "fill_blank",
+        "answers": [
+            "radiation"
+        ],
+        "other_options": [
+            "conduction",
+            "convection",
+            "induction",
+            "reflection"
+        ]
+    },
+    {
+        "q": "Match the example with the state change:",
+        "type": "match",
+        "left": [
+            "Ice to water",
+            "Water to steam",
+            "Steam to water",
+            "Water to ice"
+        ],
+        "right": [
+            "Melting",
+            "Boiling/Evaporation",
+            "Condensation",
+            "Freezing"
+        ]
+    },
+    {
+        "q": "What is the temperature of the human body in Kelvin?",
+        "type": "short_answer",
+        "answers": [
+            "310 K",
+            "310",
+            "310 kelvin"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for Solids, LEFT for Fluids (Liquids/Gases).",
+        "type": "swipe_cards",
+        "left_label": "Fluid",
+        "right_label": "Solid",
+        "cards": {
+            "Water": "left",
+            "Air": "left",
+            "Iron": "right",
+            "Wood": "right"
+        }
+    },
+    {
+        "q": "Which of the following is a bad conductor of heat?",
+        "type": "mcq",
+        "o": [
+            "Brick",
+            "Aluminum",
+            "Brass",
+            "Silver"
+        ]
+    },
+    {
+        "q": "An iron rim is made slightly smaller than the wooden wheel before fitting.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The space between the walls of a vacuum flask is evacuated to stop heat loss by ______ and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "conduction",
+            "convection"
+        ],
+        "other_options": [
+            "radiation",
+            "absorption",
+            "emission",
+            "insulation"
+        ]
+    },
+    {
+        "q": "Why does a metal bench feel colder than a wooden bench on a winter day?",
+        "type": "mcq",
+        "o": [
+            "Metal conducts heat away from your body faster",
+            "Wood is at a higher temperature",
+            "Metal absorbs cold from the air",
+            "Wood generates heat"
+        ]
+    },
+    {
+        "q": "Unscramble the word: Heat transfer method mainly occurring in liquids and gases.",
+        "type": "word_scramble",
+        "answer": "CONVECTION",
+        "decoys": "ZJ"
+    },
+    {
+        "q": "Unscramble the word: Wind moving from land to sea at night is a land...",
+        "type": "word_scramble",
+        "answer": "BREEZE",
+        "decoys": "XQ"
+    },
+    {
+        "q": "Which process is used in a pressure cooker to cook food faster?",
+        "type": "mcq",
+        "o": [
+            "Increasing the pressure raises the boiling point of water",
+            "Decreasing the pressure raises the boiling point",
+            "The metal conducts heat faster",
+            "Radiation increases inside"
+        ]
+    },
+    {
+        "q": "Define 'thermal insulator'.",
+        "type": "short_answer",
+        "answers": [
+            "a material that does not allow heat to pass through easily",
+            "poor conductor of heat"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A digital thermometer is safer than a mercury thermometer because it has no ______.",
+        "type": "fill_blank",
+        "answers": [
+            "glass",
+            "mercury"
+        ],
+        "other_options": [
+            "plastic",
+            "battery",
+            "sensor",
+            "display"
+        ]
+    },
+    {
+        "q": "Winds are caused by convection currents in the atmosphere.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which metal is the best conductor of heat?",
+        "type": "mcq",
+        "o": [
+            "Silver",
+            "Copper",
+            "Gold",
+            "Iron"
+        ]
+    },
+    {
+        "q": "What is the term for the temperature at which all molecular motion stops?",
+        "type": "mcq",
+        "o": [
+            "Absolute zero",
+            "Freezing point",
+            "Critical temperature",
+            "Boiling point"
+        ]
+    },
+    {
+        "q": "A ______ is a device that automatically regulates temperature using a bimetallic strip.",
+        "type": "fill_blank",
+        "answers": [
+            "thermostat"
+        ],
+        "other_options": [
+            "thermometer",
+            "barometer",
+            "hygrometer",
+            "anemometer"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "During the day, the land heats up [0] than the sea. The warm air above the land rises, and cooler air from the [1] rushes in.",
+        "dropdowns": [
+            {
+                "correct": "faster",
+                "options": [
+                    "slower",
+                    "faster",
+                    "equally"
+                ]
+            },
+            {
+                "correct": "sea",
+                "options": [
+                    "land",
+                    "sea",
+                    "sky"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "In a refrigerator, the cooling unit is placed at the bottom.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the primary mechanism of heat transfer in a solid metal rod?",
+        "type": "mcq",
+        "o": [
+            "Lattice vibrations and free electron diffusion",
+            "Movement of atoms from hot to cold end",
+            "Radiation of infrared waves inside the metal",
+            "Convection currents of electrons"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "When heating a liquid, the [0] water near the heat source rises up, and the [1] water from the sides moves down.",
+        "dropdowns": [
+            {
+                "correct": "hot",
+                "options": [
+                    "cold",
+                    "hot",
+                    "freezing"
+                ]
+            },
+            {
+                "correct": "cold",
+                "options": [
+                    "hot",
+                    "cold",
+                    "warm"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Define 'coefficient of thermal conductivity'.",
+        "type": "short_answer",
+        "answers": [
+            "amount of heat conducted per second through unit area per unit temperature gradient",
+            "heat flow rate per unit area per unit temperature difference per unit length"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The phenomenon where water contracts when heated from 0 degrees C to 4 degrees C is called ______ expansion of water.",
+        "type": "fill_blank",
+        "answers": [
+            "anomalous"
+        ],
+        "other_options": [
+            "regular",
+            "linear",
+            "superficial",
+            "volumetric"
+        ]
+    },
+    {
+        "q": "Which of the following best explains why a piece of metal feels colder than a piece of wood at the same temperature?",
+        "type": "mcq",
+        "o": [
+            "Metal conducts heat away from the skin faster",
+            "Metal is naturally at a lower temperature",
+            "Wood generates heat internally",
+            "Metal absorbs cold from the surrounding air"
+        ]
+    },
+    {
+        "q": "The specific latent heat of fusion of ice is 336 J/g. This means ice absorbs 336 J of energy to melt 1 g without temperature change.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Heat radiation travels at the speed of light. What is the approximate speed of light in vacuum in lakh km/s?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "Match the radiation facts to their descriptions.",
+        "type": "memory",
+        "pairs": {
+            "Radiation": "Requires no material medium",
+            "Sun to Earth heat": "Travels entirely by radiation",
+            "Dark colors": "Good absorbers of radiant heat",
+            "Light colors": "Poor absorbers of radiant heat"
+        }
+    },
+    {
+        "q": "In a thermocouple thermometer, the junction of two dissimilar metals produces a ______ proportional to the temperature difference.",
+        "type": "fill_blank",
+        "answers": [
+            "thermo emf",
+            "voltage",
+            "electromotive force"
+        ],
+        "other_options": [
+            "current",
+            "resistance",
+            "magnetic field",
+            "capacitance"
+        ]
+    },
+    {
+        "q": "Which temperature scale has the same size degree as the Celsius scale?",
+        "type": "mcq",
+        "o": [
+            "Kelvin",
+            "Fahrenheit",
+            "Rankine",
+            "Reaumur"
+        ]
+    },
+    {
+        "q": "Match the heat transfer concept with its correct description:",
+        "type": "match",
+        "left": [
+            "Thermal diffusivity",
+            "Emissivity",
+            "Absorptivity",
+            "Thermal resistance"
+        ],
+        "right": [
+            "Rate of temperature spread in material",
+            "Ability to emit thermal radiation",
+            "Ability to absorb incident radiation",
+            "Opposition to heat flow"
+        ]
+    },
+    {
+        "q": "Name the process by which heat is transferred through electromagnetic waves without heating the intervening medium.",
+        "type": "short_answer",
+        "answers": [
+            "radiation",
+            "thermal radiation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the critical factor that determines the direction of natural convection in a fluid?",
+        "type": "mcq",
+        "o": [
+            "Density differences caused by temperature variation",
+            "External stirring of the fluid",
+            "Magnetic fields applied to the fluid",
+            "Pressure differences from pumps"
+        ]
+    },
+    {
+        "q": "Why are handles of electric kettles often made of bakelite?",
+        "type": "mcq",
+        "o": [
+            "Bakelite is a poor conductor of heat and electricity",
+            "Bakelite is a good conductor of heat",
+            "Bakelite is transparent",
+            "Bakelite is very cheap"
+        ]
+    },
+    {
+        "q": "Match the surfaces to their heat interaction properties.",
+        "type": "memory",
+        "pairs": {
+            "Black surface": "Best heat absorber",
+            "White surface": "Best heat reflector",
+            "Shiny surface": "Good reflector of radiation"
+        }
+    },
+    {
+        "q": "The heat required to raise the temperature of a body by 1 Kelvin is its ______ capacity.",
+        "type": "fill_blank",
+        "answers": [
+            "heat",
+            "thermal"
+        ],
+        "other_options": [
+            "specific",
+            "latent",
+            "conductive",
+            "radiative"
+        ]
+    },
+    {
+        "q": "A bimetallic strip bends when heated because the two metals have different coefficients of thermal expansion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these requires a material medium to transfer heat?",
+        "type": "odd_one_out",
+        "options": [
+            "Conduction in solids",
+            "Convection in liquids",
+            "Convection in gases",
+            "Radiation in space"
+        ],
+        "correct": "Radiation in space"
+    },
+    {
+        "q": "Which liquid is preferred in thermometers for measuring temperatures below -40 degrees Celsius?",
+        "type": "mcq",
+        "o": [
+            "Alcohol",
+            "Mercury",
+            "Water",
+            "Gallium"
+        ]
+    },
+    {
+        "q": "What does the constant 'k' represent in the heat conduction equation Q/t = kA(T1 - T2)/L?",
+        "type": "short_answer",
+        "answers": [
+            "thermal conductivity",
+            "coefficient of thermal conductivity"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In a thermos flask, the inner and outer surfaces are silvered to reduce heat transfer by ______.",
+        "type": "fill_blank",
+        "answers": [
+            "radiation"
+        ],
+        "other_options": [
+            "conduction",
+            "convection",
+            "evaporation",
+            "diffusion"
+        ]
+    },
+    {
+        "q": "Which of the following would be the most effective at cooling a room on a hot day?",
+        "type": "mcq",
+        "o": [
+            "An air conditioner placed high on the wall",
+            "A fan placed on the floor",
+            "Opening windows at ground level only",
+            "Painting the room black"
+        ]
+    },
+    {
+        "q": "Match the material with its approximate thermal conductivity (W/mK):",
+        "type": "match",
+        "left": [
+            "Copper",
+            "Glass",
+            "Water",
+            "Air"
+        ],
+        "right": [
+            "400",
+            "0.8",
+            "0.6",
+            "0.025"
+        ]
+    },
+    {
+        "q": "Why do gaps appear in concrete roads?",
+        "type": "mcq",
+        "o": [
+            "To allow for thermal expansion during summer",
+            "To save concrete",
+            "To mark lanes",
+            "To allow water to seep in"
+        ]
+    },
+    {
+        "q": "The process of heat transfer in liquids and gases without any visible movement of the fluid is called conduction.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the principle of a maximum-minimum thermometer?",
+        "type": "mcq",
+        "o": [
+            "It uses indices pushed by mercury to record extremes",
+            "It uses a digital memory chip",
+            "It expands and contracts a bimetallic strip",
+            "It changes color at different temperatures"
+        ]
+    },
+    {
+        "q": "The relation between Celsius (C) and Fahrenheit (F) is F = (9/5)C + ______.",
+        "type": "fill_blank",
+        "answers": [
+            "32"
+        ],
+        "other_options": [
+            "212",
+            "100",
+            "180",
+            "273"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Light Clothes, LEFT for Dark Clothes.",
+        "type": "swipe_cards",
+        "left_label": "Dark Clothes",
+        "right_label": "Light Clothes",
+        "cards": {
+            "Preferred in Winter": "left",
+            "Absorbs more heat": "left",
+            "Preferred in Summer": "right",
+            "Reflects most heat": "right"
+        }
+    },
+    {
+        "q": "Name the effect used in a thermocouple to measure temperature.",
+        "type": "short_answer",
+        "answers": [
+            "Seebeck effect",
+            "thermoelectric effect"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which mode of heat transfer is significantly reduced by creating a vacuum between two walls?",
+        "type": "mcq",
+        "o": [
+            "Conduction and convection",
+            "Radiation only",
+            "Convection only",
+            "Conduction only"
+        ]
+    },
+    {
+        "q": "Unscramble the word: Heat transfer that does not require any medium.",
+        "type": "word_scramble",
+        "answer": "RADIATION",
+        "decoys": "YK"
+    },
+    {
+        "q": "A dull black surface is a poor emitter of heat radiation.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "The amount of heat energy required to change 1 kg of solid into liquid at constant temperature is called latent heat of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "fusion"
+        ],
+        "other_options": [
+            "vaporization",
+            "sublimation",
+            "condensation",
+            "solidification"
+        ]
+    },
+    {
+        "q": "Why is the freezer compartment usually at the top of a refrigerator?",
+        "type": "mcq",
+        "o": [
+            "Cold air sinks and creates a convection current cooling the whole fridge",
+            "To make it easier to reach",
+            "Because the motor is at the top",
+            "It has to be near the light"
+        ]
+    },
+    {
+        "q": "Match the type of thermal expansion with its formula symbol:",
+        "type": "match",
+        "left": [
+            "Linear expansion",
+            "Superficial (Area) expansion",
+            "Volumetric (Cubic) expansion"
+        ],
+        "right": [
+            "Alpha",
+            "Beta (approx 2 Alpha)",
+            "Gamma (approx 3 Alpha)"
+        ]
+    },
+    {
+        "q": "What is the primary heat transfer method responsible for cooling a hot cup of tea by blowing air over it?",
+        "type": "short_answer",
+        "answers": [
+            "forced convection",
+            "convection"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Mercury is preferred in thermometers over water because it has a high boiling point and does not ______ on the glass.",
+        "type": "fill_blank",
+        "answers": [
+            "stick",
+            "wet"
+        ],
+        "other_options": [
+            "freeze",
+            "evaporate",
+            "condense",
+            "expand"
+        ]
+    },
+    {
+        "q": "Which of the following statements is correct regarding heat and temperature?",
+        "type": "mcq",
+        "o": [
+            "Heat is the total kinetic energy of molecules, temperature is the average kinetic energy",
+            "Heat and temperature are exactly the same thing",
+            "Temperature is the total energy, heat is average energy",
+            "Heat is measured in Kelvin, temperature in Joules"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The ultimate natural source of heat radiation for Earth.",
+        "type": "word_scramble",
+        "answer": "SUN",
+        "decoys": "MZ"
+    },
+    {
+        "q": "A thick glass tumbler often cracks when hot liquid is poured into it due to uneven thermal expansion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which law states that the rate of cooling of a body is proportional to the temperature difference between the body and surroundings?",
+        "type": "mcq",
+        "o": [
+            "Newton's law of cooling",
+            "Stefan-Boltzmann law",
+            "Wien's displacement law",
+            "Kirchhoff's law"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The heat from the sun reaches us by [0], which can occur even in a [1].",
+        "dropdowns": [
+            {
+                "correct": "radiation",
+                "options": [
+                    "conduction",
+                    "convection",
+                    "radiation"
+                ]
+            },
+            {
+                "correct": "vacuum",
+                "options": [
+                    "solid",
+                    "liquid",
+                    "vacuum"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The calorie is a unit of heat. One calorie is approximately ______ joules.",
+        "type": "fill_blank",
+        "answers": [
+            "4.2",
+            "4.18",
+            "4"
+        ],
+        "other_options": [
+            "10",
+            "1",
+            "100",
+            "0.24"
+        ]
+    },
+    {
+        "q": "Name the scientist who invented the mercury-in-glass thermometer.",
+        "type": "short_answer",
+        "answers": [
+            "Daniel Gabriel Fahrenheit",
+            "Fahrenheit"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Why is a cooling coil in a refrigerator placed near the top?",
+        "type": "mcq",
+        "o": [
+            "To cool the air at the top which then sinks and cools the rest",
+            "Because it is easier to manufacture",
+            "To prevent ice formation",
+            "To save electricity"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "We prefer to wear [0] colored clothes in summer because they [1] most of the heat that falls on them.",
+        "dropdowns": [
+            {
+                "correct": "light",
+                "options": [
+                    "dark",
+                    "light",
+                    "heavy"
+                ]
+            },
+            {
+                "correct": "reflect",
+                "options": [
+                    "absorb",
+                    "reflect",
+                    "conduct"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the state change with the heat transfer direction:",
+        "type": "match",
+        "left": [
+            "Melting",
+            "Freezing",
+            "Vaporization",
+            "Condensation"
+        ],
+        "right": [
+            "Heat absorbed",
+            "Heat released",
+            "Heat absorbed",
+            "Heat released"
+        ]
+    },
+    {
+        "q": "Water has an unusually high specific heat capacity compared to other common substances.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The transfer of heat from the Sun to Earth involves heating the space in between.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is a common application of a bimetallic strip?",
+        "type": "mcq",
+        "o": [
+            "Automatic electric iron",
+            "Measuring blood pressure",
+            "Detecting earthquakes",
+            "Measuring humidity"
+        ]
+    },
+    {
+        "q": "The absolute scale of temperature (Kelvin) is also known as the ______ scale.",
+        "type": "fill_blank",
+        "answers": [
+            "thermodynamic"
+        ],
+        "other_options": [
+            "Celsius",
+            "centigrade",
+            "Fahrenheit",
+            "practical"
+        ]
+    },
+    {
+        "q": "At what temperature (in Celsius) does water have its maximum density due to anomalous expansion?",
+        "type": "slider",
+        "min": -10,
+        "max": 10,
+        "correct": 4
+    },
+    {
+        "q": "Define 'thermal expansion' in solids.",
+        "type": "short_answer",
+        "answers": [
+            "increase in length, area, or volume of a solid due to increase in temperature",
+            "expansion of solid when heated"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which instrument is used to measure the temperature of the Sun's surface?",
+        "type": "mcq",
+        "o": [
+            "Pyrometer",
+            "Mercury thermometer",
+            "Alcohol thermometer",
+            "Thermistor"
+        ]
+    },
+    {
+        "q": "Match the appliance with its primary heat transfer mechanism:",
+        "type": "match",
+        "left": [
+            "Toaster",
+            "Microwave oven",
+            "Pressure cooker",
+            "Room heater with fan"
+        ],
+        "right": [
+            "Radiation",
+            "Radiation",
+            "Conduction and convection",
+            "Forced convection"
+        ]
+    },
+    {
+        "q": "The coefficient of linear expansion of a material is defined as the change in ______ per unit length per degree Celsius.",
+        "type": "fill_blank",
+        "answers": [
+            "length"
+        ],
+        "other_options": [
+            "area",
+            "volume",
+            "density",
+            "mass"
+        ]
+    },
+    {
+        "q": "Which of the following materials has the highest specific heat capacity?",
+        "type": "mcq",
+        "o": [
+            "Water",
+            "Iron",
+            "Copper",
+            "Glass"
+        ]
+    },
+    {
+        "q": "Match the thermal expansion examples with their real-world applications.",
+        "type": "memory",
+        "pairs": {
+            "Railway tracks": "Have gaps to allow for expansion",
+            "Telephone wires": "Sag in summer due to heat",
+            "Jammed metal lid": "Opens easily when heated"
+        }
+    },
+    {
+        "q": "Name the process of heat transfer that is zero in a perfect vacuum.",
+        "type": "short_answer",
+        "answers": [
+            "conduction",
+            "convection",
+            "conduction and convection"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A thermostat in a car engine uses a ______ to sense temperature and control coolant flow.",
+        "type": "fill_blank",
+        "answers": [
+            "thermistor",
+            "bimetallic strip"
+        ],
+        "other_options": [
+            "thermometer",
+            "barometer",
+            "hygrometer",
+            "speedometer"
+        ]
+    },
+    {
+        "q": "An incandescent light bulb produces more heat than light.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Why are liquids like mercury and alcohol used in thermometers?",
+        "type": "mcq",
+        "o": [
+            "They expand uniformly with temperature",
+            "They are colored",
+            "They are very light",
+            "They conduct electricity"
+        ]
+    },
+    {
+        "q": "Which of these is NOT typically a direct effect of heating a substance?",
+        "type": "odd_one_out",
+        "options": [
+            "Expansion",
+            "Contraction",
+            "Change of state",
+            "Increase in temperature"
+        ],
+        "correct": "Contraction"
+    },
+    {
+        "q": "The amount of heat conducted depends on the area, time, temperature difference, and nature of the material.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Contraction, LEFT for Expansion.",
+        "type": "swipe_cards",
+        "left_label": "Expansion",
+        "right_label": "Contraction",
+        "cards": {
+            "Heating a metal rod": "left",
+            "Hot air rising": "left",
+            "Cooling a gas": "right",
+            "Cooling an iron block": "right"
+        }
+    },
+    {
+        "q": "Which of the following correctly describes Wien's displacement law?",
+        "type": "mcq",
+        "o": [
+            "The peak wavelength of emission shifts to shorter wavelengths as temperature increases",
+            "The total energy radiated is proportional to the fourth power of temperature",
+            "The rate of cooling is proportional to temperature difference",
+            "Good absorbers are good emitters"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for processes caused by Cooling, LEFT for Heating.",
+        "type": "swipe_cards",
+        "left_label": "Heating",
+        "right_label": "Cooling",
+        "cards": {
+            "Melting ice": "left",
+            "Boiling water": "left",
+            "Condensation of steam": "right",
+            "Freezing water": "right"
+        }
+    },
+    {
+        "q": "Match the law of radiation with its description:",
+        "type": "match",
+        "left": [
+            "Stefan-Boltzmann Law",
+            "Wien's Displacement Law",
+            "Kirchhoff's Law"
+        ],
+        "right": [
+            "E = sigma * T^4",
+            "lambda_max * T = constant",
+            "Good absorber is good emitter"
+        ]
+    },
+    {
+        "q": "The bulb of a clinical thermometer is made thin to increase its thermal capacity.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the value of absolute zero in Fahrenheit?",
+        "type": "short_answer",
+        "answers": [
+            "-459.67",
+            "-460"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In a hot water heating system, the boiler is placed at the ______ of the building.",
+        "type": "fill_blank",
+        "answers": [
+            "bottom",
+            "base"
+        ],
+        "other_options": [
+            "top",
+            "middle",
+            "side",
+            "roof"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a characteristic of a good thermometric liquid?",
+        "type": "mcq",
+        "o": [
+            "Low boiling point",
+            "Uniform expansion",
+            "Does not stick to glass",
+            "Easily visible"
+        ]
+    },
+    {
+        "q": "Why does snow take a long time to melt in spring, even when the air temperature is above 0 degrees C?",
+        "type": "mcq",
+        "o": [
+            "Snow has a high latent heat of fusion and reflects sunlight",
+            "Snow is a good conductor of heat",
+            "Snow absorbs heat quickly",
+            "Snow generates cold air"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The increase in size of a substance on heating.",
+        "type": "word_scramble",
+        "answer": "EXPANSION",
+        "decoys": "WQ"
+    },
+    {
+        "q": "Name the device that uses a thermistor to measure temperature.",
+        "type": "short_answer",
+        "answers": [
+            "digital thermometer",
+            "electronic thermometer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The specific heat capacity of a substance is the amount of heat required to raise the temperature of ______ kg of the substance by 1 Kelvin.",
+        "type": "fill_blank",
+        "answers": [
+            "1",
+            "one"
+        ],
+        "other_options": [
+            "100",
+            "10",
+            "0.5",
+            "2"
+        ]
+    },
+    {
+        "q": "Which heat transfer method is used in a solar water heater?",
+        "type": "mcq",
+        "o": [
+            "Radiation and convection",
+            "Conduction only",
+            "Convection only",
+            "Radiation and conduction"
+        ]
+    },
+    {
+        "q": "A substance with high thermal capacity heats up very quickly.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the physical quantity with its SI unit:",
+        "type": "match",
+        "left": [
+            "Heat energy",
+            "Specific heat capacity",
+            "Thermal conductivity",
+            "Temperature"
+        ],
+        "right": [
+            "Joule",
+            "J/kg/K",
+            "W/m/K",
+            "Kelvin"
+        ]
+    },
+    {
+        "q": "Which metal alloy is commonly used in making heating elements for electric irons?",
+        "type": "mcq",
+        "o": [
+            "Nichrome",
+            "Brass",
+            "Bronze",
+            "Steel"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The decrease in size of a substance on cooling.",
+        "type": "word_scramble",
+        "answer": "CONTRACTION",
+        "decoys": "GZ"
+    },
+    {
+        "q": "The process of heat transfer that can be significantly reduced by a layer of trapped, still air is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "conduction",
+            "convection"
+        ],
+        "other_options": [
+            "radiation",
+            "reflection",
+            "absorption",
+            "expansion"
+        ]
+    },
+    {
+        "q": "What is the primary reason for using double-glazed windows in cold climates?",
+        "type": "mcq",
+        "o": [
+            "The trapped air layer reduces heat loss by conduction and convection",
+            "The glass generates heat",
+            "It blocks all radiation",
+            "It is stronger"
+        ]
+    },
+    {
+        "q": "Name two factors that affect the rate of evaporation of a liquid.",
+        "type": "short_answer",
+        "answers": [
+            "temperature and surface area",
+            "wind speed and humidity",
+            "temperature and humidity"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The temperature at which a liquid starts boiling at standard atmospheric pressure is its normal ______ point.",
+        "type": "fill_blank",
+        "answers": [
+            "boiling"
+        ],
+        "other_options": [
+            "melting",
+            "freezing",
+            "condensation",
+            "critical"
+        ]
+    },
+    {
+        "q": "All pure substances have the same specific heat capacity.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "When a substance is heated, its particles start moving [0] and take up [1] space.",
+        "dropdowns": [
+            {
+                "correct": "faster",
+                "options": [
+                    "slower",
+                    "faster",
+                    "smoothly"
+                ]
+            },
+            {
+                "correct": "more",
+                "options": [
+                    "less",
+                    "more",
+                    "no"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which principle explains why a tightly sealed metal lid can be opened by dipping in hot water?",
+        "type": "mcq",
+        "o": [
+            "The lid expands more than the glass jar",
+            "The glass shrinks",
+            "The water lubricates the lid",
+            "The air pressure changes"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Small gaps are left between [0] tracks to allow for [1] during hot summers.",
+        "dropdowns": [
+            {
+                "correct": "railway",
+                "options": [
+                    "road",
+                    "railway",
+                    "cycle"
+                ]
+            },
+            {
+                "correct": "expansion",
+                "options": [
+                    "contraction",
+                    "expansion",
+                    "melting"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the thermometer part with its function:",
+        "type": "match",
+        "left": [
+            "Bulb",
+            "Capillary tube",
+            "Scale",
+            "Kink"
+        ],
+        "right": [
+            "Contains thermometric liquid",
+            "Allows liquid expansion",
+            "Shows temperature reading",
+            "Prevents liquid falling back"
+        ]
+    },
+    {
+        "q": "The range of a laboratory thermometer generally goes up to what maximum temperature in Celsius?",
+        "type": "slider",
+        "min": 50,
+        "max": 150,
+        "correct": 110
+    },
+    {
+        "q": "What is the term for the transfer of heat through the movement of large masses of fluid?",
+        "type": "short_answer",
+        "answers": [
+            "convection",
+            "convection currents"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In a clinical thermometer, the constriction is also known as the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "kink"
+        ],
+        "other_options": [
+            "bulb",
+            "stem",
+            "capillary",
+            "reservoir"
+        ]
+    },
+    {
+        "q": "Which color is the best emitter of thermal radiation?",
+        "type": "mcq",
+        "o": [
+            "Black",
+            "White",
+            "Silver",
+            "Red"
+        ]
+    },
+    {
+        "q": "Heat transfer by radiation does not require any material medium.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the clothing types to their suitable season properties.",
+        "type": "memory",
+        "pairs": {
+            "Woolen clothes": "Traps air to keep us warm",
+            "Cotton clothes": "Allows body heat to escape",
+            "Dark clothes": "Absorbs sunlight in winter",
+            "Light clothes": "Reflects sunlight in summer"
+        }
+    },
+    {
+        "q": "Why is an alcohol thermometer often dyed red or blue?",
+        "type": "mcq",
+        "o": [
+            "Alcohol is colorless, so dye makes it visible",
+            "To make it taste better",
+            "To increase its thermal expansion",
+            "To prevent freezing"
+        ]
+    },
+    {
+        "q": "The rise of mercury in a thermometer is due to the increase in the ______ of mercury.",
+        "type": "fill_blank",
+        "answers": [
+            "volume"
+        ],
+        "other_options": [
+            "mass",
+            "density",
+            "weight",
+            "specific heat"
+        ]
+    },
+    {
+        "q": "Match the following phenomena with their primary heat transfer mode:",
+        "type": "match",
+        "left": [
+            "Chimney draught",
+            "Heating a metal spoon in tea",
+            "Feeling warmth from a campfire",
+            "Cooling of a computer chip with a heat sink"
+        ],
+        "right": [
+            "Convection",
+            "Conduction",
+            "Radiation",
+            "Conduction"
+        ]
+    },
+    {
+        "q": "Define 'thermal resistivity'.",
+        "type": "short_answer",
+        "answers": [
+            "reciprocal of thermal conductivity",
+            "resistance to heat flow per unit length"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is true about a vacuum?",
+        "type": "mcq",
+        "o": [
+            "It prevents conduction and convection but not radiation",
+            "It prevents all heat transfer",
+            "It prevents radiation only",
+            "It enhances convection"
+        ]
+    },
+    {
+        "q": "A pressure cooker works on the principle that the boiling point of water decreases with increasing pressure.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "The heat required to change the temperature of an object depends on its mass, specific heat capacity, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "temperature change",
+            "change in temperature",
+            "temperature difference"
+        ],
+        "other_options": [
+            "density",
+            "volume",
+            "color",
+            "shape"
+        ]
+    },
+    {
+        "q": "Name a material that is a better conductor of heat than copper.",
+        "type": "short_answer",
+        "answers": [
+            "diamond",
+            "silver",
+            "graphene"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of current is set up in coastal regions due to temperature differences between land and sea?",
+        "type": "mcq",
+        "o": [
+            "Convection currents",
+            "Induction currents",
+            "Alternating currents",
+            "Eddy currents"
+        ]
+    },
+    {
+        "q": "A thermoflask reduces heat loss by having a stopper made of a good conductor.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the state of matter with its dominant heat transfer mechanism:",
+        "type": "match",
+        "left": [
+            "Solid (metals)",
+            "Solid (non-metals)",
+            "Liquid",
+            "Gas"
+        ],
+        "right": [
+            "Free electron conduction",
+            "Lattice vibration conduction",
+            "Convection and conduction",
+            "Convection and radiation"
+        ]
+    },
+    {
+        "q": "What is the function of the cooling fins on a motorcycle engine?",
+        "type": "mcq",
+        "o": [
+            "Increase surface area for faster convection cooling",
+            "Decrease surface area to retain heat",
+            "Improve the look of the engine",
+            "Reduce the weight"
+        ]
+    },
+    {
+        "q": "The heat gained or lost by a body is given by the formula Q = m * c * ______.",
+        "type": "fill_blank",
+        "answers": [
+            "delta T",
+            "change in temperature",
+            "temperature difference"
+        ],
+        "other_options": [
+            "volume",
+            "density",
+            "latent heat",
+            "conductivity"
+        ]
+    },
+    {
+        "q": "What does a pyrometer measure?",
+        "type": "short_answer",
+        "answers": [
+            "high temperatures",
+            "temperature of furnaces",
+            "temperature without contact"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following would NOT prevent heat loss from a house?",
+        "type": "mcq",
+        "o": [
+            "Thin single-pane windows",
+            "Cavity wall insulation",
+            "Loft insulation with fiberglass",
+            "Double glazing"
+        ]
+    },
+    {
+        "q": "The temperature of melting ice at standard pressure is exactly 273.16 K on the Kelvin scale.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "According to the kinetic theory of matter, what happens to the particles of a substance when its temperature increases?",
+        "type": "mcq",
+        "o": [
+            "Their average kinetic energy increases",
+            "Their mass decreases",
+            "Their potential energy becomes zero",
+            "They stop moving"
+        ]
+    },
+    {
+        "q": "State Stefan-Boltzmann law of thermal radiation.",
+        "type": "short_answer",
+        "answers": [
+            "the total radiant heat power emitted from a surface is proportional to the fourth power of its absolute temperature",
+            "E = sigma T^4"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The rate of heat flow through a conductor is directly proportional to the temperature ______ across it.",
+        "type": "fill_blank",
+        "answers": [
+            "difference",
+            "gradient"
+        ],
+        "other_options": [
+            "sum",
+            "ratio",
+            "product",
+            "average"
+        ]
+    },
+    {
+        "q": "Which material property describes the ability of a material to conduct heat relative to its ability to store thermal energy?",
+        "type": "mcq",
+        "o": [
+            "Thermal diffusivity",
+            "Thermal conductivity",
+            "Specific heat capacity",
+            "Thermal expansion coefficient"
+        ]
+    },
+    {
+        "q": "Match the animal adaptations to their thermal functions.",
+        "type": "memory",
+        "pairs": {
+            "Polar bear thick fur": "Traps body heat effectively",
+            "Whale blubber": "Thick insulating fat layer",
+            "Desert animals hiding": "Avoids intense daytime heat"
+        }
+    },
+    {
+        "q": "In forced convection, the fluid motion is generated solely by density differences due to temperature variations.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the physical constant with its approximate value:",
+        "type": "match",
+        "left": [
+            "Stefan-Boltzmann constant",
+            "Thermal conductivity of copper",
+            "Specific heat of water",
+            "Latent heat of vaporization of water"
+        ],
+        "right": [
+            "5.67 x 10^-8 W/m^2/K^4",
+            "400 W/m/K",
+            "4200 J/kg/K",
+            "2.26 x 10^6 J/kg"
+        ]
+    },
+    {
+        "q": "Name the process by which a solid changes directly into a gas without passing through the liquid state.",
+        "type": "short_answer",
+        "answers": [
+            "sublimation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A copper rod and an iron rod of identical dimensions are joined end to end. The free end of copper is at 100 degrees C and the free end of iron is at 0 degrees C. At steady state, the temperature at the junction will be closer to the ______ end.",
+        "type": "fill_blank",
+        "answers": [
+            "iron",
+            "colder",
+            "0 degree"
+        ],
+        "other_options": [
+            "copper",
+            "hotter",
+            "100 degree",
+            "middle"
+        ]
+    },
+    {
+        "q": "Which law states that the ratio of emissive power to absorptive power is the same for all bodies at thermal equilibrium?",
+        "type": "mcq",
+        "o": [
+            "Kirchhoff's law of radiation",
+            "Stefan-Boltzmann law",
+            "Wien's displacement law",
+            "Planck's law"
+        ]
+    },
+    {
+        "q": "Why does a piece of metal feel significantly colder than a piece of wood in winter, despite being at the same temperature?",
+        "type": "mcq",
+        "o": [
+            "Metal has a higher thermal conductivity and draws heat from the skin faster",
+            "Metal has a lower specific heat capacity",
+            "Wood generates heat through friction",
+            "Metal is at a lower temperature"
+        ]
+    },
+    {
+        "q": "The constant 'sigma' in Stefan-Boltzmann law is known as the Stefan-______ constant.",
+        "type": "fill_blank",
+        "answers": [
+            "Boltzmann"
+        ],
+        "other_options": [
+            "Planck",
+            "Wien",
+            "Newton",
+            "Kirchhoff"
+        ]
+    },
+    {
+        "q": "What is the primary function of a heat pipe in electronics cooling?",
+        "type": "short_answer",
+        "answers": [
+            "transfer heat using phase change of a working fluid",
+            "efficiently transport heat from a hot source to a cold sink using evaporation and condensation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is NOT an insulator?",
+        "type": "odd_one_out",
+        "options": [
+            "Air",
+            "Wool",
+            "Cotton",
+            "Silver"
+        ],
+        "correct": "Silver"
+    },
+    {
+        "q": "A perfectly black body has an absorptivity of 1 and an emissivity of 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is an example of an application of anomalous expansion of water?",
+        "type": "mcq",
+        "o": [
+            "Aquatic life surviving under frozen lakes",
+            "Mercury rising in a thermometer",
+            "Expansion joints in bridges",
+            "Bimetallic strip in a thermostat"
+        ]
+    },
+    {
+        "q": "Match the dimensionless number with its relevance in heat transfer:",
+        "type": "match",
+        "left": [
+            "Nusselt number",
+            "Prandtl number",
+            "Reynolds number",
+            "Grashof number"
+        ],
+        "right": [
+            "Ratio of convective to conductive heat transfer",
+            "Ratio of momentum diffusivity to thermal diffusivity",
+            "Ratio of inertial to viscous forces",
+            "Ratio of buoyancy to viscous forces"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Good Conductors, LEFT for Bad Conductors (Insulators).",
+        "type": "swipe_cards",
+        "left_label": "Bad Conductor",
+        "right_label": "Good Conductor",
+        "cards": {
+            "Copper wire": "right",
+            "Aluminum foil": "right",
+            "Wooden spoon": "left",
+            "Air layer": "left"
+        }
+    },
+    {
+        "q": "What happens to the density of water as it is heated from 0 degrees C to 4 degrees C?",
+        "type": "mcq",
+        "o": [
+            "It increases",
+            "It decreases",
+            "It remains constant",
+            "It first increases then decreases"
+        ]
+    },
+    {
+        "q": "The time rate of heat flow through a slab is inversely proportional to its thickness.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In a calorimeter, the process of heat exchange is governed by the principle of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "calorimetry",
+            "heat exchange",
+            "thermal equilibrium"
+        ],
+        "other_options": [
+            "conservation of mass",
+            "entropy",
+            "Archimedes",
+            "Pascal"
+        ]
+    },
+    {
+        "q": "Define 'coefficient of volumetric expansion'.",
+        "type": "short_answer",
+        "answers": [
+            "change in volume per unit volume per degree change in temperature",
+            "gamma = delta V / (V0 * delta T)"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In which heat transfer mode does the rate of energy transfer follow an inverse square law for point sources?",
+        "type": "mcq",
+        "o": [
+            "Radiation",
+            "Conduction",
+            "Convection",
+            "Advection"
+        ]
+    },
+    {
+        "q": "Why is a cavity wall used in building construction in cold countries?",
+        "type": "mcq",
+        "o": [
+            "Trapped air in the cavity is a poor conductor and reduces heat loss",
+            "It makes the wall stronger",
+            "It reduces the cost of bricks",
+            "It prevents moisture accumulation"
+        ]
+    },
+    {
+        "q": "The term 'U-value' in building physics refers to the thermal ______ of a structure.",
+        "type": "fill_blank",
+        "answers": [
+            "transmittance",
+            "conductivity"
+        ],
+        "other_options": [
+            "resistance",
+            "capacity",
+            "expansion",
+            "diffusivity"
+        ]
+    },
+    {
+        "q": "A red-hot iron piece emits mainly infrared radiation.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the concept with its description in heat radiation:",
+        "type": "match",
+        "left": [
+            "Black body",
+            "Emissivity",
+            "Absorptivity",
+            "Reflectivity"
+        ],
+        "right": [
+            "Perfect absorber and emitter",
+            "Ratio of actual to black body radiation",
+            "Fraction of incident radiation absorbed",
+            "Fraction of incident radiation reflected"
+        ]
+    },
+    {
+        "q": "What is the triple point of water?",
+        "type": "short_answer",
+        "answers": [
+            "temperature and pressure at which solid, liquid, and gas coexist in equilibrium",
+            "0.01 degrees C and 611.73 Pa"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which metal is used in resistance thermometers due to its stable and predictable change in resistance with temperature?",
+        "type": "mcq",
+        "o": [
+            "Platinum",
+            "Copper",
+            "Iron",
+            "Silver"
+        ]
+    },
+    {
+        "q": "Unscramble the word: Winter fabric that traps air to keep us warm.",
+        "type": "word_scramble",
+        "answer": "WOOL",
+        "decoys": "VX"
+    },
+    {
+        "q": "The bi-metallic strip used in a thermostat consists of two metals with the same coefficient of linear expansion.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Unscramble the word: State of matter that expands the most on heating.",
+        "type": "word_scramble",
+        "answer": "GAS",
+        "decoys": "QP"
+    },
+    {
+        "q": "In an ideal gas, the internal energy is solely a function of its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "temperature"
+        ],
+        "other_options": [
+            "pressure",
+            "volume",
+            "density",
+            "mass"
+        ]
+    },
+    {
+        "q": "What is the critical thickness of insulation on a pipe?",
+        "type": "mcq",
+        "o": [
+            "The thickness up to which adding insulation increases heat loss",
+            "The minimum thickness required for safety",
+            "The thickness at which cost is lowest",
+            "The thickness that prevents all heat loss"
+        ]
+    },
+    {
+        "q": "Name the mode of heat transfer that dominates in a vacuum.",
+        "type": "short_answer",
+        "answers": [
+            "radiation",
+            "thermal radiation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a requirement for natural convection to occur in a fluid?",
+        "type": "mcq",
+        "o": [
+            "A temperature gradient that creates a density gradient",
+            "An external pump or fan",
+            "A vacuum environment",
+            "Electromagnetic fields"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Woolen clothes keep us warm in winter because wool is a [0] conductor of heat and it traps [1] between its fibers.",
+        "dropdowns": [
+            {
+                "correct": "poor",
+                "options": [
+                    "good",
+                    "poor",
+                    "super"
+                ]
+            },
+            {
+                "correct": "air",
+                "options": [
+                    "water",
+                    "air",
+                    "ice"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The heat transfer coefficient in boiling water is generally lower than in still air.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "The heat required to raise the temperature of the whole body by 1 Kelvin is its ______ capacity.",
+        "type": "fill_blank",
+        "answers": [
+            "heat",
+            "thermal"
+        ],
+        "other_options": [
+            "specific heat",
+            "latent heat",
+            "conductive",
+            "radiative"
+        ]
+    },
+    {
+        "q": "Match the method of temperature measurement with its principle:",
+        "type": "match",
+        "left": [
+            "Liquid-in-glass",
+            "Thermocouple",
+            "Resistance thermometer",
+            "Optical pyrometer"
+        ],
+        "right": [
+            "Thermal expansion",
+            "Seebeck effect",
+            "Change in electrical resistance",
+            "Thermal radiation intensity"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Two thin blankets joined together are [0] than one thick blanket because of the layer of [1] trapped between them.",
+        "dropdowns": [
+            {
+                "correct": "warmer",
+                "options": [
+                    "colder",
+                    "warmer",
+                    "heavier"
+                ]
+            },
+            {
+                "correct": "air",
+                "options": [
+                    "cotton",
+                    "air",
+                    "wool"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Why does the boiling point of water decrease at high altitudes?",
+        "type": "mcq",
+        "o": [
+            "Atmospheric pressure is lower",
+            "Temperature is lower",
+            "Humidity is higher",
+            "Water is purer"
+        ]
+    },
+    {
+        "q": "Define 'specific latent heat of vaporization'.",
+        "type": "short_answer",
+        "answers": [
+            "heat required to change 1 kg of liquid to gas at constant temperature",
+            "energy per unit mass for phase change from liquid to vapor"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The coefficient of thermal conductivity of a material is expressed in units of W/m/K. 'W' stands for ______.",
+        "type": "fill_blank",
+        "answers": [
+            "watt"
+        ],
+        "other_options": [
+            "work",
+            "weight",
+            "width",
+            "wavelength"
+        ]
+    },
+    {
+        "q": "Which of the following is the most efficient method of heat transfer in metals?",
+        "type": "mcq",
+        "o": [
+            "Free electron diffusion",
+            "Lattice vibrations",
+            "Photon transport",
+            "Convection currents"
+        ]
+    },
+    {
+        "q": "Water freezes at 0 degrees Celsius. What is this approximate value on the Kelvin scale?",
+        "type": "slider",
+        "min": 200,
+        "max": 300,
+        "correct": 273
+    },
+    {
+        "q": "Match the equivalent temperatures across different scales.",
+        "type": "memory",
+        "pairs": {
+            "0 degrees Celsius": "32 degrees Fahrenheit",
+            "100 degrees Celsius": "212 degrees Fahrenheit",
+            "37 degrees Celsius": "98.6 degrees Fahrenheit"
+        }
+    },
+    {
+        "q": "A vacuum flask is designed to minimize all three modes of heat transfer.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a unit of temperature measurement?",
+        "type": "odd_one_out",
+        "options": [
+            "Celsius",
+            "Fahrenheit",
+            "Kelvin",
+            "Pascal"
+        ],
+        "correct": "Pascal"
+    },
+    {
+        "q": "What is the purpose of the silvering in a thermos flask?",
+        "type": "mcq",
+        "o": [
+            "To reflect radiation back into the contents",
+            "To absorb heat from outside",
+            "To conduct heat away from the contents",
+            "To increase convection currents"
+        ]
+    },
+    {
+        "q": "The emissivity of a polished silver surface is close to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "0",
+            "zero"
+        ],
+        "other_options": [
+            "1",
+            "0.5",
+            "100",
+            "infinity"
+        ]
+    },
+    {
+        "q": "Name the scientist who formulated the law relating the peak wavelength of black-body radiation to its temperature.",
+        "type": "short_answer",
+        "answers": [
+            "Wilhelm Wien",
+            "Wien"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for Laboratory Thermometer, LEFT for Clinical Thermometer.",
+        "type": "swipe_cards",
+        "left_label": "Clinical",
+        "right_label": "Laboratory",
+        "cards": {
+            "Used to measure body temperature": "left",
+            "Has a kink in the tube": "left",
+            "Reads temperatures up to 110 C": "right",
+            "Must be kept strictly upright when reading": "right"
+        }
+    },
+    {
+        "q": "Which heat transfer mechanism is responsible for the greenhouse effect?",
+        "type": "mcq",
+        "o": [
+            "Radiation trapping by greenhouse gases",
+            "Conduction through the atmosphere",
+            "Convection currents in the troposphere",
+            "Advection of warm air"
+        ]
+    },
+    {
+        "q": "In heat conduction, the rate of heat flow is directly proportional to the cross-sectional area of the conductor.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the type of heat exchanger with its flow arrangement:",
+        "type": "match",
+        "left": [
+            "Parallel flow",
+            "Counter flow",
+            "Cross flow",
+            "Shell and tube"
+        ],
+        "right": [
+            "Fluids flow in same direction",
+            "Fluids flow in opposite directions",
+            "Fluids flow perpendicular",
+            "One fluid in shell, other in tubes"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Correct Handling, LEFT for Incorrect Handling of a thermometer.",
+        "type": "swipe_cards",
+        "left_label": "Incorrect",
+        "right_label": "Correct",
+        "cards": {
+            "Read the scale at eye level": "right",
+            "Wash before and after use": "right",
+            "Hold it by the bulb while reading": "left",
+            "Wash it with boiling hot water": "left"
+        }
+    },
+    {
+        "q": "What does a 'thermistor' do with increasing temperature?",
+        "type": "mcq",
+        "o": [
+            "Its electrical resistance changes significantly",
+            "It expands linearly",
+            "It changes color",
+            "It produces a voltage"
+        ]
+    },
+    {
+        "q": "The concept of 'heat death' of the universe relates to reaching maximum entropy and thermal equilibrium.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: The scientific temperature scale named after Lord...",
+        "type": "word_scramble",
+        "answer": "KELVIN",
+        "decoys": "CD"
+    },
+    {
+        "q": "The study of the relationship between heat, work, and energy is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "thermodynamics"
+        ],
+        "other_options": [
+            "calorimetry",
+            "kinetics",
+            "dynamics",
+            "statics"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The bottom part of the glass thermometer containing the liquid.",
+        "type": "word_scramble",
+        "answer": "BULB",
+        "decoys": "TR"
+    },
+    {
+        "q": "Name a common industrial application of a counter-flow heat exchanger.",
+        "type": "short_answer",
+        "answers": [
+            "car radiator",
+            "power plant condenser",
+            "refrigeration system"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Why do ice cubes kept in a thermocol box melt slower than those kept on a metal plate?",
+        "type": "mcq",
+        "o": [
+            "Thermocol is an insulator and minimizes heat transfer from surroundings",
+            "Metal generates cold",
+            "Thermocol is colder than metal",
+            "Metal absorbs cold from ice"
+        ]
+    },
+    {
+        "q": "The first law of thermodynamics is a statement of conservation of energy including heat.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In a liquid-in-glass thermometer, the capillary tube has a uniform ______ cross-section.",
+        "type": "fill_blank",
+        "answers": [
+            "bore",
+            "internal"
+        ],
+        "other_options": [
+            "external",
+            "square",
+            "triangular",
+            "irregular"
+        ]
+    },
+    {
+        "q": "Which of the following explains the high thermal conductivity of metals compared to non-metals?",
+        "type": "mcq",
+        "o": [
+            "Presence of free electrons that transfer energy rapidly",
+            "Higher density of metals",
+            "Metals are heavier",
+            "Metals have a crystalline structure"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "While reading a [0] thermometer, it should be kept [1] and not tilted.",
+        "dropdowns": [
+            {
+                "correct": "laboratory",
+                "options": [
+                    "clinical",
+                    "laboratory",
+                    "digital"
+                ]
+            },
+            {
+                "correct": "upright",
+                "options": [
+                    "horizontal",
+                    "upright",
+                    "diagonal"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the physical principle behind the working of a heat-seeking missile?",
+        "type": "short_answer",
+        "answers": [
+            "detection of infrared radiation",
+            "thermal radiation from target"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the insulation material with its typical use:",
+        "type": "match",
+        "left": [
+            "Fiberglass",
+            "Polyurethane foam",
+            "Aerogel",
+            "Vacuum insulated panels"
+        ],
+        "right": [
+            "Building insulation",
+            "Refrigerator insulation",
+            "Space suit insulation",
+            "High performance cold storage"
+        ]
+    },
+    {
+        "q": "The rate of heat transfer by radiation between two bodies depends on their absolute temperatures raised to the power of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "4",
+            "four"
+        ],
+        "other_options": [
+            "2",
+            "3",
+            "5",
+            "1"
+        ]
+    },
+    {
+        "q": "What is 'superheating' in the context of boiling liquids?",
+        "type": "mcq",
+        "o": [
+            "Heating a liquid above its boiling point without boiling",
+            "Boiling a liquid rapidly",
+            "Freezing a liquid by heating",
+            "Heating steam above 100 degrees C"
+        ]
+    },
+    {
+        "q": "A clinical thermometer should be sterilized using an autoclave at high temperature.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is NOT a type of thermal radiation?",
+        "type": "mcq",
+        "o": [
+            "Alpha radiation",
+            "Infrared radiation",
+            "Visible light",
+            "Ultraviolet radiation"
+        ]
+    },
+    {
+        "q": "Name the device used for measuring very high temperatures without physical contact.",
+        "type": "short_answer",
+        "answers": [
+            "pyrometer",
+            "optical pyrometer",
+            "radiation pyrometer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The principle of a mercury-in-glass thermometer is that mercury expands more than ______ for the same rise in temperature.",
+        "type": "fill_blank",
+        "answers": [
+            "glass"
+        ],
+        "other_options": [
+            "water",
+            "alcohol",
+            "air",
+            "iron"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "You should never wash a clinical thermometer with [0] water, otherwise its glass bulb will [1].",
+        "dropdowns": [
+            {
+                "correct": "boiling",
+                "options": [
+                    "cold",
+                    "boiling",
+                    "warm"
+                ]
+            },
+            {
+                "correct": "break",
+                "options": [
+                    "expand",
+                    "shrink",
+                    "break"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Absolute zero is the lowest possible temperature. What is this value in degrees Celsius?",
+        "type": "slider",
+        "min": -300,
+        "max": 0,
+        "correct": -273
+    },
+    {
+        "q": "Why does a diamond, a non-metal, have extremely high thermal conductivity?",
+        "type": "mcq",
+        "o": [
+            "Strong covalent bonds and rigid lattice structure efficiently transfer phonons",
+            "It has free electrons like metals",
+            "It is transparent to light",
+            "It is very dense"
+        ]
+    },
+    {
+        "q": "Convection can only occur in the presence of gravity or some acceleration.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the natural phenomena to their underlying heat concepts.",
+        "type": "memory",
+        "pairs": {
+            "Trade winds": "Convection in Earth's atmosphere",
+            "Ocean currents": "Convection in large bodies of water",
+            "Monsoon winds": "Uneven heating of land and sea"
+        }
+    },
+    {
+        "q": "Match the greenhouse gas with its main source related to heat trapping:",
+        "type": "match",
+        "left": [
+            "Carbon dioxide",
+            "Methane",
+            "Water vapor",
+            "Nitrous oxide"
+        ],
+        "right": [
+            "Burning fossil fuels",
+            "Agriculture and livestock",
+            "Natural evaporation",
+            "Fertilizers and industrial processes"
+        ]
+    },
+    {
+        "q": "What happens to the boiling point of water when salt is added to it?",
+        "type": "mcq",
+        "o": [
+            "It increases (boiling point elevation)",
+            "It decreases",
+            "It remains the same",
+            "It freezes"
+        ]
+    },
+    {
+        "q": "Match the house features to their thermal ventilation purposes.",
+        "type": "memory",
+        "pairs": {
+            "Ventilators": "Placed high up for warm air to escape",
+            "Windows": "Placed lower for fresh cool air to enter",
+            "Chimney": "Lets out hot smoke and gases"
+        }
+    },
+    {
+        "q": "The term 'R-value' is a measure of a material's thermal resistance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The heat transfer through a composite wall is analogous to an electrical circuit with resistances in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "series"
+        ],
+        "other_options": [
+            "parallel",
+            "series-parallel",
+            "star",
+            "delta"
+        ]
+    },
+    {
+        "q": "Define 'film boiling'.",
+        "type": "short_answer",
+        "answers": [
+            "boiling regime where a stable vapor film forms on the heating surface",
+            "stage of boiling with continuous vapor film insulating the surface"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which instrument would be MOST suitable to measure the temperature of lava?",
+        "type": "mcq",
+        "o": [
+            "Optical pyrometer",
+            "Mercury-in-glass thermometer",
+            "Clinical thermometer",
+            "Alcohol thermometer"
+        ]
+    },
+    {
+        "q": "A resistance temperature detector (RTD) shows an increase in resistance with an increase in temperature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The phenomenon of 'thermal runaway' can occur when an increase in temperature leads to a further ______ in temperature.",
+        "type": "fill_blank",
+        "answers": [
+            "increase",
+            "rise"
+        ],
+        "other_options": [
+            "decrease",
+            "stabilization",
+            "fluctuation",
+            "cycle"
+        ]
+    },
+    {
+        "q": "Name the form of heat transfer that contributes to the formation of clouds and thunderstorms.",
+        "type": "short_answer",
+        "answers": [
+            "convection",
+            "natural convection"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these does NOT occur primarily due to convection?",
+        "type": "odd_one_out",
+        "options": [
+            "Sea breeze",
+            "Land breeze",
+            "Ocean currents",
+            "Frying an egg on a pan"
+        ],
+        "correct": "Frying an egg on a pan"
+    },
+    {
+        "q": "Which surface would be best for the outer body of an artificial satellite to maintain thermal balance?",
+        "type": "mcq",
+        "o": [
+            "A reflective surface with controlled emissivity",
+            "A dull black surface",
+            "A transparent surface",
+            "A rough metal surface"
+        ]
+    },
+    {
+        "q": "What is the 'Peltier effect' used for in thermal management?",
+        "type": "mcq",
+        "o": [
+            "Thermoelectric cooling by passing current through a junction of dissimilar materials",
+            "Measuring temperature using resistance change",
+            "Heating using microwaves",
+            "Cooling by gas expansion"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Cold Air properties, LEFT for Warm Air properties.",
+        "type": "swipe_cards",
+        "left_label": "Warm Air",
+        "right_label": "Cold Air",
+        "cards": {
+            "Lighter and expands": "left",
+            "Tends to rise up": "left",
+            "Heavier and denser": "right",
+            "Tends to sink down": "right"
+        }
+    },
+    {
+        "q": "During a change of state, the temperature of a substance remains constant even though heat is being supplied.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: Openings usually near the ceiling of a room to let hot air out.",
+        "type": "word_scramble",
+        "answer": "VENTILATORS",
+        "decoys": "K"
+    },
+    {
+        "q": "In a bomb calorimeter, the heat released during combustion is calculated using the rise in temperature of the surrounding ______.",
+        "type": "fill_blank",
+        "answers": [
+            "water"
+        ],
+        "other_options": [
+            "air",
+            "oil",
+            "mercury",
+            "alcohol"
+        ]
+    },
+    {
+        "q": "Match the phase change with its thermal energy requirement:",
+        "type": "match",
+        "left": [
+            "Solid to liquid",
+            "Liquid to gas",
+            "Solid to gas",
+            "Gas to liquid"
+        ],
+        "right": [
+            "Latent heat of fusion",
+            "Latent heat of vaporization",
+            "Latent heat of sublimation",
+            "Latent heat of condensation"
+        ]
+    },
+    {
+        "q": "What is the primary mechanism by which a halogen oven cooks food?",
+        "type": "short_answer",
+        "answers": [
+            "infrared radiation",
+            "thermal radiation from halogen lamp"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following correctly orders the rate of thermal expansion from highest to lowest for the same volume?",
+        "type": "mcq",
+        "o": [
+            "Gases > Liquids > Solids",
+            "Solids > Liquids > Gases",
+            "Liquids > Gases > Solids",
+            "Gases > Solids > Liquids"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The natural movement of air caused by uneven heating.",
+        "type": "word_scramble",
+        "answer": "WIND",
+        "decoys": "FG"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "In a room, the [0] air rises up and escapes through the [1] located near the roof.",
+        "dropdowns": [
+            {
+                "correct": "warm",
+                "options": [
+                    "cold",
+                    "warm",
+                    "heavy"
+                ]
+            },
+            {
+                "correct": "ventilators",
+                "options": [
+                    "windows",
+                    "floors",
+                    "ventilators"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The specific heat capacity of a substance is independent of its temperature in all cases.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "The 'Leidenfrost effect' occurs when a liquid droplet is suspended on a ______ layer above a very hot surface.",
+        "type": "fill_blank",
+        "answers": [
+            "vapor",
+            "steam",
+            "gas"
+        ],
+        "other_options": [
+            "liquid",
+            "solid",
+            "oil",
+            "water"
+        ]
+    },
+    {
+        "q": "Why do metal wires used in power transmission sag in summer?",
+        "type": "mcq",
+        "o": [
+            "Thermal expansion increases the length of the wires",
+            "The wind stretches them",
+            "Birds sit on them more",
+            "They absorb moisture"
+        ]
+    },
+    {
+        "q": "Name the device used to measure the thermal conductivity of a material.",
+        "type": "short_answer",
+        "answers": [
+            "thermal conductivity meter",
+            "heat flow meter",
+            "guarded hot plate apparatus"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A 'heat sink' on a computer processor works primarily by increasing the effective surface area for ______ cooling.",
+        "type": "fill_blank",
+        "answers": [
+            "convection",
+            "convective"
+        ],
+        "other_options": [
+            "conduction",
+            "radiation",
+            "insulation",
+            "phase change"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Convection cannot take place in [0] because their particles are tightly [1] and cannot move freely.",
+        "dropdowns": [
+            {
+                "correct": "solids",
+                "options": [
+                    "liquids",
+                    "gases",
+                    "solids"
+                ]
+            },
+            {
+                "correct": "fixed",
+                "options": [
+                    "flowing",
+                    "flying",
+                    "fixed"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of the following principles is used in a constant volume gas thermometer?",
+        "type": "mcq",
+        "o": [
+            "Pressure of a gas at constant volume is proportional to absolute temperature",
+            "Volume of a gas is proportional to temperature",
+            "Resistance changes with temperature",
+            "Thermal expansion of liquid"
+        ]
+    },
+    {
+        "q": "In space, a spacecraft can lose heat only by radiation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the heat treatment process with its purpose:",
+        "type": "match",
+        "left": [
+            "Annealing",
+            "Quenching",
+            "Tempering",
+            "Normalizing"
+        ],
+        "right": [
+            "Softening and stress relief",
+            "Rapid cooling for hardening",
+            "Reducing brittleness after quenching",
+            "Refining grain structure"
+        ]
+    },
+    {
+        "q": "At what temperature are the Celsius and Fahrenheit scales exactly equal?",
+        "type": "slider",
+        "min": -100,
+        "max": 0,
+        "correct": -40
+    },
+    {
+        "q": "In the Fourier heat conduction equation, the negative sign indicates that heat flows in the direction of decreasing temperature. What is the mathematical form for one-dimensional steady state?",
+        "type": "mcq",
+        "o": [
+            "q = -kA(dT/dx)",
+            "q = kA(dT/dx)",
+            "q = -kA(d^2T/dx^2)",
+            "q = kA(dx/dT)"
+        ]
+    },
+    {
+        "q": "Match the heat transfer method to its summary.",
+        "type": "memory",
+        "pairs": {
+            "Conduction": "Requires direct physical contact",
+            "Convection": "Involves actual movement of fluid particles",
+            "Radiation": "Travels in the form of electromagnetic waves"
+        }
+    },
+    {
+        "q": "State the principle of corresponding states in the context of thermal properties.",
+        "type": "short_answer",
+        "answers": [
+            "fluids at the same reduced temperature and reduced pressure have similar thermodynamic properties",
+            "principle that all fluids deviate from ideal gas behavior to the same degree at matching reduced conditions"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Nusselt number (Nu) represents the dimensionless temperature gradient at the surface and is defined as Nu = hL/______.",
+        "type": "fill_blank",
+        "answers": [
+            "k"
+        ],
+        "other_options": [
+            "c",
+            "rho",
+            "mu",
+            "alpha"
+        ]
+    },
+    {
+        "q": "Which dimensionless number represents the ratio of buoyancy forces to viscous forces in natural convection?",
+        "type": "mcq",
+        "o": [
+            "Grashof number",
+            "Reynolds number",
+            "Prandtl number",
+            "Nusselt number"
+        ]
+    },
+    {
+        "q": "In nucleate boiling, the heat transfer coefficient is lower than in film boiling.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the regime of boiling with its characteristic:",
+        "type": "match",
+        "left": [
+            "Natural convection boiling",
+            "Nucleate boiling",
+            "Transition boiling",
+            "Film boiling"
+        ],
+        "right": [
+            "Low wall superheat, bubbles not forming",
+            "High heat flux, bubbles actively forming",
+            "Unstable vapor blanket forming",
+            "Stable vapor film covering surface"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a good thermal insulator?",
+        "type": "odd_one_out",
+        "options": [
+            "Plastic",
+            "Glass",
+            "Wood",
+            "Iron block"
+        ],
+        "correct": "Iron block"
+    },
+    {
+        "q": "Define 'thermal contact resistance' at the interface of two materials.",
+        "type": "short_answer",
+        "answers": [
+            "resistance to heat flow due to imperfect contact at the interface of two surfaces",
+            "temperature drop across an interface divided by heat flux"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In a counter-flow heat exchanger, the temperature difference between the two fluids remains ______ along the length compared to a parallel-flow exchanger.",
+        "type": "fill_blank",
+        "answers": [
+            "more uniform",
+            "closer to constant"
+        ],
+        "other_options": [
+            "larger",
+            "smaller",
+            "zero",
+            "exponential"
+        ]
+    },
+    {
+        "q": "What is the critical heat flux (CHF) in boiling heat transfer?",
+        "type": "mcq",
+        "o": [
+            "The maximum heat flux before transition to film boiling",
+            "The minimum heat flux to start boiling",
+            "The heat flux at which water freezes",
+            "The heat flux in natural convection"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Nighttime coastal effects, LEFT for Daytime coastal effects.",
+        "type": "swipe_cards",
+        "left_label": "Daytime",
+        "right_label": "Nighttime",
+        "cards": {
+            "Sea breeze blows": "left",
+            "Land heats up faster": "left",
+            "Land breeze blows": "right",
+            "Sea cools down slower": "right"
+        }
+    },
+    {
+        "q": "The Biot number (Bi) is used to determine if a solid can be treated as having a uniform temperature. It is the ratio of internal conduction resistance to surface convection resistance.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Swipe RIGHT for examples of Radiation, LEFT for examples of Conduction.",
+        "type": "swipe_cards",
+        "left_label": "Conduction",
+        "right_label": "Radiation",
+        "cards": {
+            "Frying pan on a stove": "left",
+            "Touching a hot metal handle": "left",
+            "Sitting near a campfire": "right",
+            "Sun warming the Earth": "right"
+        }
+    },
+    {
+        "q": "In the two-resistance theory of heat transfer, the overall heat transfer coefficient U is found by summing thermal resistances in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "series"
+        ],
+        "other_options": [
+            "parallel",
+            "network",
+            "cascade",
+            "feedback"
+        ]
+    },
+    {
+        "q": "Which of the following is the correct expression for the LMTD (Log Mean Temperature Difference) for a parallel-flow heat exchanger?",
+        "type": "mcq",
+        "o": [
+            "(Delta T1 - Delta T2) / ln(Delta T1 / Delta T2)",
+            "(Delta T1 + Delta T2) / 2",
+            "ln(Delta T1 / Delta T2) / (Delta T1 - Delta T2)",
+            "(Delta T1 * Delta T2) / (Delta T1 + Delta T2)"
+        ]
+    },
+    {
+        "q": "Explain the concept of 'radiosity' in radiative heat transfer.",
+        "type": "short_answer",
+        "answers": [
+            "total radiation leaving a surface including emitted and reflected radiation",
+            "sum of emitted and reflected radiant flux per unit area"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the view factor rule with its description:",
+        "type": "match",
+        "left": [
+            "Reciprocity rule",
+            "Summation rule",
+            "Superposition rule",
+            "Symmetry rule"
+        ],
+        "right": [
+            "A_i F_ij = A_j F_ji",
+            "Sum of F_ij over all j = 1",
+            "F_i(j+k) = F_ij + F_ik",
+            "Identical surfaces have equal view factors"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A special double-walled bottle used to keep drinks hot or cold.",
+        "type": "word_scramble",
+        "answer": "FLASK",
+        "decoys": "PQ"
+    },
+    {
+        "q": "Unscramble the word: The sensation produced when heat flows from a hotter object into our body.",
+        "type": "word_scramble",
+        "answer": "HOTNESS",
+        "decoys": "Y"
+    },
+    {
+        "q": "What phenomenon describes the reduction in heat transfer due to the accumulation of deposits on a heat transfer surface?",
+        "type": "mcq",
+        "o": [
+            "Fouling",
+            "Scaling",
+            "Oxidation",
+            "Corrosion"
+        ]
+    },
+    {
+        "q": "The Peclet number (Pe) is the product of Reynolds number and ______ number.",
+        "type": "fill_blank",
+        "answers": [
+            "Prandtl"
+        ],
+        "other_options": [
+            "Nusselt",
+            "Grashof",
+            "Rayleigh",
+            "Stanton"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A thermos flask has [0] walls with a [1] between them to prevent heat loss by conduction and convection.",
+        "dropdowns": [
+            {
+                "correct": "double",
+                "options": [
+                    "single",
+                    "double",
+                    "triple"
+                ]
+            },
+            {
+                "correct": "vacuum",
+                "options": [
+                    "liquid",
+                    "gas",
+                    "vacuum"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "To protect themselves from extreme cold, birds puff up their feathers to trap [0], which is a very poor [1] of heat.",
+        "dropdowns": [
+            {
+                "correct": "air",
+                "options": [
+                    "water",
+                    "air",
+                    "sunlight"
+                ]
+            },
+            {
+                "correct": "conductor",
+                "options": [
+                    "insulator",
+                    "conductor",
+                    "radiator"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "In spectral radiation, Planck's law reduces to Wien's approximation for very short wavelengths.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the phenomenon where the boiling point of a liquid is elevated due to the presence of dissolved solutes.",
+        "type": "short_answer",
+        "answers": [
+            "boiling point elevation",
+            "ebullioscopic effect"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which turbulence model is most commonly used for simulating convection heat transfer in engineering CFD?",
+        "type": "mcq",
+        "o": [
+            "k-epsilon model",
+            "Direct Numerical Simulation",
+            "Euler model",
+            "Potential flow model"
+        ]
+    },
+    {
+        "q": "The Stanton number (St) relates the heat transfer rate to the thermal capacity of the fluid. It is equal to Nu/(Re * Pr).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The Rayleigh number (Ra) determines the onset of natural convection. It is the product of Grashof number and ______ number.",
+        "type": "fill_blank",
+        "answers": [
+            "Prandtl"
+        ],
+        "other_options": [
+            "Nusselt",
+            "Reynolds",
+            "Biot",
+            "Fourier"
+        ]
+    },
+    {
+        "q": "Match the heat transfer enhancement technique with its method:",
+        "type": "match",
+        "left": [
+            "Extended surfaces (fins)",
+            "Turbulators",
+            "Nanofluids",
+            "Electrohydrodynamics"
+        ],
+        "right": [
+            "Increase surface area",
+            "Promote turbulence",
+            "Enhance fluid conductivity",
+            "Electric field-induced mixing"
+        ]
+    },
+    {
+        "q": "What is the 'Leidenfrost point'?",
+        "type": "mcq",
+        "o": [
+            "The temperature above which droplet evaporation is sustained by a vapor film",
+            "The freezing point of a droplet",
+            "The point of maximum heat flux in boiling",
+            "The critical temperature of a fluid"
+        ]
+    },
+    {
+        "q": "Define 'thermal time constant' for a lumped capacitance system.",
+        "type": "short_answer",
+        "answers": [
+            "time required for the temperature difference to reach 36.8% of its initial value",
+            "tau = rho V c / hA"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In a shell-and-tube heat exchanger, baffles are used to increase the ______ of the shell-side fluid and improve heat transfer.",
+        "type": "fill_blank",
+        "answers": [
+            "turbulence",
+            "velocity"
+        ],
+        "other_options": [
+            "pressure",
+            "temperature",
+            "density",
+            "viscosity"
+        ]
+    },
+    {
+        "q": "Which of the following is a consequence of the second law of thermodynamics regarding heat transfer?",
+        "type": "mcq",
+        "o": [
+            "Heat cannot spontaneously flow from a colder body to a hotter body",
+            "Energy can be created from heat",
+            "Heat always flows isothermally",
+            "The entropy of a system always decreases"
+        ]
+    },
+    {
+        "q": "The thermal boundary layer thickness for a fluid with Pr < 1 is smaller than the velocity boundary layer thickness.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "In radiative heat transfer, a 'gray body' is defined as a surface whose emissivity is ______ of wavelength.",
+        "type": "fill_blank",
+        "answers": [
+            "independent"
+        ],
+        "other_options": [
+            "a function",
+            "equal to 1",
+            "zero",
+            "proportional"
+        ]
+    },
+    {
+        "q": "Name the law that gives the spectral energy distribution of a black body at a given temperature.",
+        "type": "short_answer",
+        "answers": [
+            "Planck's law",
+            "Planck distribution law"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which method is used to solve radiative heat exchange in enclosures with diffuse-gray surfaces?",
+        "type": "mcq",
+        "o": [
+            "Radiosity method or Net radiation method",
+            "Finite difference method",
+            "Lattice Boltzmann method",
+            "Monte Carlo ray tracing"
+        ]
+    },
+    {
+        "q": "The Colburn analogy relates heat transfer and fluid friction, stating that the Colburn j-factor equals f/8 for turbulent flow.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The coefficient of performance (COP) of a refrigerator is defined as the ratio of heat absorbed from the cold space to the ______ input.",
+        "type": "fill_blank",
+        "answers": [
+            "work",
+            "power"
+        ],
+        "other_options": [
+            "heat",
+            "energy",
+            "temperature",
+            "current"
+        ]
+    },
+    {
+        "q": "What is the primary heat transfer mechanism in a 'heat pipe'?",
+        "type": "mcq",
+        "o": [
+            "Evaporation and condensation of a working fluid",
+            "Conduction through the solid wall",
+            "Single-phase convection",
+            "Radiation exchange"
+        ]
+    },
+    {
+        "q": "Match the heat exchanger type with its typical application:",
+        "type": "match",
+        "left": [
+            "Plate heat exchanger",
+            "Shell and tube",
+            "Regenerative",
+            "Direct contact"
+        ],
+        "right": [
+            "Dairy pasteurization",
+            "Power plant condenser",
+            "Gas turbine preheater",
+            "Cooling tower"
+        ]
+    },
+    {
+        "q": "Define 'effectiveness' of a heat exchanger.",
+        "type": "short_answer",
+        "answers": [
+            "ratio of actual heat transfer to maximum possible heat transfer",
+            "epsilon = Q actual / Q max"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Dittus-Boelter correlation (Nu = 0.023 Re^0.8 Pr^n) is used for calculating Nusselt number in ______ flow inside smooth tubes.",
+        "type": "fill_blank",
+        "answers": [
+            "turbulent"
+        ],
+        "other_options": [
+            "laminar",
+            "transition",
+            "slug",
+            "plug"
+        ]
+    },
+    {
+        "q": "Which of the following surfaces would have the highest emissivity?",
+        "type": "mcq",
+        "o": [
+            "Lamp black",
+            "Polished aluminum",
+            "Gold foil",
+            "Stainless steel"
+        ]
+    },
+    {
+        "q": "In natural convection from a vertical plate, the transition from laminar to turbulent flow occurs at a Rayleigh number of approximately 10^9.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The Sieder-Tate correlation modifies the Dittus-Boelter equation by including a correction factor for variation in fluid ______.",
+        "type": "fill_blank",
+        "answers": [
+            "viscosity"
+        ],
+        "other_options": [
+            "density",
+            "conductivity",
+            "velocity",
+            "pressure"
+        ]
+    },
+    {
+        "q": "What is 'subcooled boiling'?",
+        "type": "short_answer",
+        "answers": [
+            "boiling that occurs when the bulk liquid temperature is below the saturation temperature",
+            "surface boiling where bubbles condense in the subcooled liquid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which technique is used to measure thermal diffusivity of a solid using a short laser pulse?",
+        "type": "mcq",
+        "o": [
+            "Laser flash method",
+            "Guarded hot plate method",
+            "Hot wire method",
+            "Differential scanning calorimetry"
+        ]
+    },
+    {
+        "q": "A black body at temperature T emits radiation with a peak wavelength of 2.9 x 10^-3 m.K / T. This is a statement of Wien's displacement law.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The NTU (Number of Transfer Units) method is used for heat exchanger analysis when only the ______ temperatures are known.",
+        "type": "fill_blank",
+        "answers": [
+            "inlet"
+        ],
+        "other_options": [
+            "outlet",
+            "wall",
+            "ambient",
+            "fluid"
+        ]
+    },
+    {
+        "q": "Match the radiative property with its definition:",
+        "type": "match",
+        "left": [
+            "Absorptivity",
+            "Reflectivity",
+            "Transmissivity",
+            "Emissivity"
+        ],
+        "right": [
+            "Fraction of incident radiation absorbed",
+            "Fraction of incident radiation reflected",
+            "Fraction of incident radiation transmitted",
+            "Ratio of emitted radiation to black body emission"
+        ]
+    },
+    {
+        "q": "Name the phenomenon where thermal energy is transported by moving fluid in a direction tangent to a heated surface.",
+        "type": "short_answer",
+        "answers": [
+            "advection"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the primary mechanism of heat transfer reduction in an evacuated powder or fibrous insulation?",
+        "type": "mcq",
+        "o": [
+            "Suppression of gas conduction by reducing mean free path",
+            "Increase in solid conduction",
+            "Enhancement of radiation",
+            "Promotion of convection"
+        ]
+    },
+    {
+        "q": "The Prandtl number for liquid metals is typically much less than 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In an absorption refrigeration system, the mechanical compressor is replaced by a 'thermal compressor' using a generator and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "absorber"
+        ],
+        "other_options": [
+            "condenser",
+            "evaporator",
+            "turbine",
+            "pump"
+        ]
+    },
+    {
+        "q": "Which dimensionless number characterizes the relative thickness of the velocity and thermal boundary layers?",
+        "type": "mcq",
+        "o": [
+            "Prandtl number",
+            "Reynolds number",
+            "Nusselt number",
+            "Grashof number"
+        ]
+    },
+    {
+        "q": "Define 'thermal shock' and why materials with low thermal expansion coefficients resist it better.",
+        "type": "short_answer",
+        "answers": [
+            "stress induced by rapid temperature change causing differential expansion; low expansion means less stress",
+            "fracture due to sudden temperature change; low alpha materials develop lower thermal stresses"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A thermosyphon reboiler in a distillation column operates based on the principle of ______ convection.",
+        "type": "fill_blank",
+        "answers": [
+            "natural"
+        ],
+        "other_options": [
+            "forced",
+            "mixed",
+            "phase change",
+            "radiative"
+        ]
+    },
+    {
+        "q": "Which of the following is a characteristic of pool boiling in the nucleate boiling regime?",
+        "type": "mcq",
+        "o": [
+            "High heat transfer coefficients with bubble formation at nucleation sites",
+            "Vapor film covering the entire surface",
+            "Heat transfer by natural convection only",
+            "Unstable heat flux"
+        ]
+    },
+    {
+        "q": "In a gray enclosure, the net radiation method uses a system of equations based on surface radiosity and irradiation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The Chilton-Colburn analogy extends the Reynolds analogy to fluids with Prandtl numbers different from ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1",
+            "one",
+            "unity"
+        ],
+        "other_options": [
+            "0",
+            "10",
+            "100",
+            "0.7"
+        ]
+    },
+    {
+        "q": "Name the heat transfer mechanism where energy is carried by electrons in a solid conductor.",
+        "type": "short_answer",
+        "answers": [
+            "electronic conduction",
+            "free electron conduction",
+            "Wiedemann-Franz law mechanism"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is 'creeping flow' and what is its typical Nusselt number for external flow over a sphere?",
+        "type": "mcq",
+        "o": [
+            "Flow with Re < 1; Nu approaches a constant value (around 2)",
+            "Flow with Re > 10^5; Nu is very high",
+            "Flow in a pipe; Nu equals 4.36",
+            "Flow in a vacuum; Nu is zero"
+        ]
+    },
+    {
+        "q": "The specific heat capacity of a substance approaches zero as temperature approaches absolute zero. This is a consequence of the ______ law of thermodynamics.",
+        "type": "fill_blank",
+        "answers": [
+            "third"
+        ],
+        "other_options": [
+            "first",
+            "second",
+            "zeroth",
+            "Stefan"
+        ]
+    },
+    {
+        "q": "Match the type of radiative surface with its directional characteristic:",
+        "type": "match",
+        "left": [
+            "Diffuse surface",
+            "Specular surface",
+            "Gray surface",
+            "Spectral surface"
+        ],
+        "right": [
+            "Intensity independent of angle",
+            "Reflection angle equals incidence angle",
+            "Properties independent of wavelength",
+            "Properties vary with wavelength"
+        ]
+    },
+    {
+        "q": "What is the purpose of using twisted tape inserts in heat exchanger tubes?",
+        "type": "mcq",
+        "o": [
+            "To induce swirl flow and enhance heat transfer",
+            "To reduce pressure drop",
+            "To increase tube strength",
+            "To prevent corrosion"
+        ]
+    },
+    {
+        "q": "The logarithmic mean temperature difference (LMTD) is always greater than the arithmetic mean temperature difference.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Explain the term 'thermal accommodation coefficient' in gas-surface interactions.",
+        "type": "short_answer",
+        "answers": [
+            "measure of the degree to which gas molecules reach thermal equilibrium with a surface upon collision",
+            "ratio of actual energy exchange to maximum possible energy exchange upon impact"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In a counter-flow heat exchanger, the outlet temperature of the cold fluid can exceed the outlet temperature of the ______ fluid.",
+        "type": "fill_blank",
+        "answers": [
+            "hot"
+        ],
+        "other_options": [
+            "cold",
+            "ambient",
+            "working",
+            "heating"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a mode of enhancement in phase-change heat transfer?",
+        "type": "mcq",
+        "o": [
+            "Applying a magnetic field to suppress nucleation",
+            "Using porous coatings to increase nucleation sites",
+            "Surface roughening to increase surface area",
+            "Adding surfactants to change surface tension"
+        ]
+    },
+    {
+        "q": "The Moody chart in heat transfer is used to find the friction factor for calculating pressure drop, which is related to heat transfer through the Reynolds analogy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The effectiveness of a heat exchanger is unity (1) when one fluid undergoes a ______ change.",
+        "type": "fill_blank",
+        "answers": [
+            "phase"
+        ],
+        "other_options": [
+            "temperature",
+            "pressure",
+            "chemical",
+            "color"
+        ]
+    },
+    {
+        "q": "Define 'exergy destruction' due to heat transfer across a finite temperature difference.",
+        "type": "short_answer",
+        "answers": [
+            "irreversible loss of available work due to entropy generation during heat flow",
+            "reduction in work potential when heat transfers from high to low temperature"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What type of radiation model is most accurate for gases like CO2 and H2O that absorb/emit in specific bands?",
+        "type": "mcq",
+        "o": [
+            "Spectral line or band models",
+            "Gray gas model",
+            "Black body model",
+            "Diffuse model"
+        ]
+    },
+    {
+        "q": "The 'heat pipe' can achieve effective thermal conductivities several hundred times that of copper.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the heat transfer correlation with its geometry:",
+        "type": "match",
+        "left": [
+            "Nu = 0.664 Re^1/2 Pr^1/3",
+            "Nu = 0.023 Re^4/5 Pr^0.4",
+            "Nu = 0.54 (Gr Pr)^1/4",
+            "Nu = 2 + 0.6 Re^1/2 Pr^1/3"
+        ],
+        "right": [
+            "Laminar flat plate",
+            "Turbulent pipe flow",
+            "Natural convection vertical plate",
+            "External flow over sphere"
+        ]
+    },
+    {
+        "q": "Name the standard device used to measure the thermal resistance of textile fabrics.",
+        "type": "short_answer",
+        "answers": [
+            "guarded hot plate",
+            "sweating guarded hot plate",
+            "togmeter"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The value of the critical radius of insulation for a cylindrical pipe is given by r_critical = ______/h, where h is the external convection coefficient.",
+        "type": "fill_blank",
+        "answers": [
+            "k"
+        ],
+        "other_options": [
+            "h",
+            "rho",
+            "cp",
+            "sigma"
+        ]
+    },
+    {
+        "q": "In the context of cryogenics, what is 'regenerative cooling'?",
+        "type": "mcq",
+        "o": [
+            "Using the cold returning gas to pre-cool the incoming high-pressure gas",
+            "Cooling by water circulation",
+            "Using solar energy for cooling",
+            "Cooling by rapid expansion only"
+        ]
+    },
+    {
+        "q": "For laminar fully developed flow in a tube with constant wall heat flux, the Nusselt number is exactly 4.36.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The phenomenon where a liquid rises or falls in a capillary tube is called ______ action.",
+        "type": "fill_blank",
+        "answers": [
+            "capillary"
+        ],
+        "other_options": [
+            "thermal",
+            "gravitational",
+            "magnetic",
+            "viscous"
+        ]
+    },
+    {
+        "q": "What is the primary advantage of a heat pipe over a solid copper rod of the same dimensions?",
+        "type": "mcq",
+        "o": [
+            "Orders of magnitude higher effective thermal conductivity",
+            "Lower weight",
+            "Lower cost",
+            "Easier to manufacture"
+        ]
+    },
+    {
+        "q": "What is the fundamental postulate of the Chapman-Enskog theory for thermal conductivity of gases?",
+        "type": "mcq",
+        "o": [
+            "Thermal conductivity is derived from the perturbation of the molecular velocity distribution function",
+            "It assumes all molecules are stationary",
+            "It ignores intermolecular collisions",
+            "It uses only empirical data"
+        ]
+    },
+    {
+        "q": "State the Wiedemann-Franz law that relates electrical and thermal conductivity in metals.",
+        "type": "short_answer",
+        "answers": [
+            "ratio of thermal conductivity to electrical conductivity is proportional to absolute temperature",
+            "k / sigma = L T, where L is Lorenz number"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In the kinetic theory of gases, the thermal conductivity of a monatomic gas is directly proportional to its mean free path and the average molecular ______.",
+        "type": "fill_blank",
+        "answers": [
+            "speed",
+            "velocity"
+        ],
+        "other_options": [
+            "mass",
+            "diameter",
+            "energy",
+            "frequency"
+        ]
+    },
+    {
+        "q": "Which phonon scattering mechanism dominates the thermal resistance in dielectric crystals at low temperatures (below 10 K)?",
+        "type": "mcq",
+        "o": [
+            "Boundary scattering",
+            "Umklapp scattering",
+            "Isotope scattering",
+            "Electron-phonon scattering"
+        ]
+    },
+    {
+        "q": "In near-field radiative heat transfer, the exchanged heat flux can exceed the blackbody limit predicted by the Stefan-Boltzmann law.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the heat transfer regime in microscale with its characteristic:",
+        "type": "match",
+        "left": [
+            "Fourier conduction",
+            "Ballistic transport",
+            "Casimir limit",
+            "Phonon tunneling"
+        ],
+        "right": [
+            "Diffusive heat flow, gradient driven",
+            "Phonon mean free path > characteristic length",
+            "Quantized thermal conductance",
+            "Near-field radiative transfer"
+        ]
+    },
+    {
+        "q": "Define the 'Lorenz number' in the context of the Wiedemann-Franz law.",
+        "type": "short_answer",
+        "answers": [
+            "constant of proportionality between thermal and electrical conductivity divided by temperature",
+            "L = k / (sigma T), approximately 2.44 x 10^-8 W ohm K^-2"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Boltzmann transport equation (BTE) for phonons is the fundamental framework for describing heat conduction in semiconductors beyond the Fourier law. The collision term often uses the ______ time approximation.",
+        "type": "fill_blank",
+        "answers": [
+            "relaxation"
+        ],
+        "other_options": [
+            "mean free",
+            "collision",
+            "interaction",
+            "transit"
+        ]
+    },
+    {
+        "q": "Which of the following represents the quantized thermal conductance of a single ballistic phonon channel at temperature T?",
+        "type": "mcq",
+        "o": [
+            "G_0 = (pi^2 * k_B^2 * T) / (3h)",
+            "G_0 = k A / L",
+            "G_0 = sigma T^3",
+            "G_0 = h c / lambda"
+        ]
+    },
+    {
+        "q": "The Green-Kubo formalism expresses the thermal conductivity tensor in terms of the autocorrelation function of the microscopic heat flux vector.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In two-phase flow heat transfer, the Lockhart-Martinelli parameter X is used to correlate frictional pressure drop. It is a function of the ratio of liquid to vapor ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Reynolds numbers",
+            "flow rates"
+        ],
+        "other_options": [
+            "temperatures",
+            "densities",
+            "viscosities",
+            "velocities"
+        ]
+    },
+    {
+        "q": "Name the phenomenon where surface plasmon polaritons contribute to enhanced heat transfer across nanoscale vacuum gaps.",
+        "type": "short_answer",
+        "answers": [
+            "phonon-polariton coupling",
+            "surface phonon polariton mediated heat transfer",
+            "plasmonic near-field radiation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the 'Kapitza resistance' in cryogenic heat transfer?",
+        "type": "mcq",
+        "o": [
+            "Thermal boundary resistance at the interface between two different materials at low temperatures",
+            "Resistance due to electron scattering in metals",
+            "Resistance of liquid helium to heat flow",
+            "Radiation resistance in vacuum"
+        ]
+    },
+    {
+        "q": "According to the acoustic mismatch model (AMM), the Kapitza conductance is proportional to the difference in acoustic impedances of the two materials.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "The dimensionless figure of merit for thermoelectric materials, ZT, is defined as ZT = (S^2 * sigma * T) / ______, where S is Seebeck coefficient.",
+        "type": "fill_blank",
+        "answers": [
+            "k",
+            "thermal conductivity"
+        ],
+        "other_options": [
+            "rho",
+            "sigma",
+            "alpha",
+            "epsilon"
+        ]
+    },
+    {
+        "q": "Match the thermal analysis technique with its principle:",
+        "type": "match",
+        "left": [
+            "Differential Scanning Calorimetry",
+            "Thermogravimetric Analysis",
+            "Laser Flash Method",
+            "3-omega method"
+        ],
+        "right": [
+            "Measures heat flow during phase change",
+            "Measures mass change with temperature",
+            "Measures thermal diffusivity",
+            "Measures thermal conductivity of thin films"
+        ]
+    },
+    {
+        "q": "Which statistical ensemble is most appropriate for molecular dynamics simulations aimed at calculating thermal conductivity using the Green-Kubo method?",
+        "type": "mcq",
+        "o": [
+            "Microcanonical (NVE) ensemble",
+            "Canonical (NVT) ensemble",
+            "Isothermal-Isobaric (NPT) ensemble",
+            "Grand canonical ensemble"
+        ]
+    },
+    {
+        "q": "Explain the concept of 'second sound' in solids.",
+        "type": "short_answer",
+        "answers": [
+            "wave-like propagation of heat due to collective phonon gas oscillations at low temperatures",
+            "thermal wave phenomenon where heat pulses travel as damped waves rather than diffusing"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In the Callaway model for lattice thermal conductivity, the total phonon scattering rate is the sum of boundary, impurity, and ______ scattering rates.",
+        "type": "fill_blank",
+        "answers": [
+            "Umklapp",
+            "umklapp"
+        ],
+        "other_options": [
+            "Rayleigh",
+            "Mie",
+            "Compton",
+            "Brillouin"
+        ]
+    },
+    {
+        "q": "What is the primary mechanism of heat transfer in metallic nanofluids that leads to anomalous enhancement beyond Maxwell's effective medium theory?",
+        "type": "mcq",
+        "o": [
+            "Brownian motion induced micro-convection and liquid layering at particle interface",
+            "Increased density of the fluid",
+            "Reduction in surface tension",
+            "Chemical reaction between particles"
+        ]
+    },
+    {
+        "q": "The phonon dispersion relation in a crystal is derived from the classical mechanics of harmonic oscillators and is independent of temperature.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "In non-equilibrium molecular dynamics (NEMD), a temperature gradient is imposed using a thermostat, and thermal conductivity is calculated directly from ______ law.",
+        "type": "fill_blank",
+        "answers": [
+            "Fourier's",
+            "Fourier"
+        ],
+        "other_options": [
+            "Newton's",
+            "Stefan's",
+            "Ohm's",
+            "Fick's"
+        ]
+    },
+    {
+        "q": "Name the effect describing the generation of a temperature gradient in a material subjected to an electric current, the converse of the Seebeck effect.",
+        "type": "short_answer",
+        "answers": [
+            "Peltier effect"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following best describes the phonon glass-electron crystal (PGEC) concept in thermoelectrics?",
+        "type": "mcq",
+        "o": [
+            "A material with low lattice thermal conductivity like a glass, but high electrical conductivity like a crystal",
+            "A material that is transparent to phonons",
+            "A crystal that has no electrons",
+            "A glass that conducts electricity well"
+        ]
+    },
+    {
+        "q": "The thermal boundary resistance at a solid-solid interface typically decreases with increasing temperature below the Debye temperature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The Lorenz number for pure metals deviates from the Sommerfeld value at intermediate temperatures due to ______ scattering of electrons.",
+        "type": "fill_blank",
+        "answers": [
+            "inelastic",
+            "electron-phonon"
+        ],
+        "other_options": [
+            "elastic",
+            "impurity",
+            "boundary",
+            "isotope"
+        ]
+    },
+    {
+        "q": "Match the enhanced heat transfer surface with its mechanism:",
+        "type": "match",
+        "left": [
+            "Microchannels",
+            "Nano-porous coatings",
+            "Pin fins",
+            "Dimpled surfaces"
+        ],
+        "right": [
+            "Increased area and small hydraulic diameter",
+            "Enhanced nucleation site density",
+            "Increased turbulence and area",
+            "Vortex generation and mixing"
+        ]
+    },
+    {
+        "q": "What is the significance of the 'Kapitza conductance' in the design of superconducting devices?",
+        "type": "short_answer",
+        "answers": [
+            "it dictates the heat removal rate from superconducting elements to the coolant",
+            "thermal bottleneck limiting cooling efficiency at millikelvin temperatures"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which equation describes the conservation of energy in a moving fluid, including viscous dissipation?",
+        "type": "mcq",
+        "o": [
+            "Thermal energy equation with Brinkman number terms",
+            "Bernoulli equation",
+            "Euler equation",
+            "Laplace equation"
+        ]
+    },
+    {
+        "q": "In heat transfer at the nanoscale, Fourier's law breaks down when the characteristic length scale becomes comparable to or smaller than the phonon mean free path.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The figure of merit for a thermoelectric cooler is given by Z = S^2 * sigma / k. The quantity S^2 * sigma is often called the ______ factor.",
+        "type": "fill_blank",
+        "answers": [
+            "power",
+            "electrical power"
+        ],
+        "other_options": [
+            "thermal",
+            "conductivity",
+            "resistance",
+            "Seebeck"
+        ]
+    },
+    {
+        "q": "Name the scientist who first formulated the kinetic theory expression for thermal conductivity of gases.",
+        "type": "short_answer",
+        "answers": [
+            "James Clerk Maxwell",
+            "Maxwell"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the physical origin of 'Umklapp scattering' in phonon transport?",
+        "type": "mcq",
+        "o": [
+            "Three-phonon scattering process where momentum is not conserved within the first Brillouin zone",
+            "Phonon scattering by grain boundaries",
+            "Scattering by point defects",
+            "Phonon-electron interaction"
+        ]
+    },
+    {
+        "q": "The thermomagnetic effects, such as the Ettingshausen and Nernst effects, arise from the interaction of thermal gradients with magnetic fields in conductors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In the context of radiative transfer in participating media, the optical thickness tau is the product of the extinction coefficient and the ______ length.",
+        "type": "fill_blank",
+        "answers": [
+            "path",
+            "characteristic"
+        ],
+        "other_options": [
+            "scattering",
+            "absorption",
+            "mean free",
+            "wavelength"
+        ]
+    },
+    {
+        "q": "Match the spectral region of thermal radiation with its wavelength range:",
+        "type": "match",
+        "left": [
+            "Near-infrared",
+            "Mid-infrared",
+            "Far-infrared",
+            "Terahertz"
+        ],
+        "right": [
+            "0.7 - 2.5 micrometers",
+            "2.5 - 25 micrometers",
+            "25 - 1000 micrometers",
+            "1000+ micrometers"
+        ]
+    },
+    {
+        "q": "Define 'thermal rectification' or 'thermal diode' effect.",
+        "type": "short_answer",
+        "answers": [
+            "asymmetric heat flow where thermal conductance depends on the direction of heat current",
+            "device where heat flows preferentially in one direction"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which technique provides the most direct measurement of phonon mean free path distribution in a solid?",
+        "type": "mcq",
+        "o": [
+            "Transient thermoreflectance with variable laser spot size",
+            "Steady-state guarded hot plate",
+            "Differential scanning calorimetry",
+            "Thermogravimetric analysis"
+        ]
+    },
+    {
+        "q": "The 'minimum thermal conductivity' model proposed by Cahill and Pohl assumes the mean free path of phonons reaches the interatomic spacing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In the two-temperature model for ultrafast laser heating, energy is first absorbed by the ______ gas, which then transfers energy to the lattice.",
+        "type": "fill_blank",
+        "answers": [
+            "electron"
+        ],
+        "other_options": [
+            "phonon",
+            "photon",
+            "ion",
+            "molecular"
+        ]
+    },
+    {
+        "q": "Name the dimensionless parameter that characterizes the ratio of thermal effusivities of two materials in contact, important for transient thermal management.",
+        "type": "short_answer",
+        "answers": [
+            "thermal effusivity ratio",
+            "thermal activity ratio"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the 'thermal Hall effect'?",
+        "type": "mcq",
+        "o": [
+            "A transverse temperature gradient developing due to a longitudinal heat current in a magnetic field",
+            "The Hall effect for electrons",
+            "Convection due to magnetic fields",
+            "Radiation in a vacuum"
+        ]
+    },
+    {
+        "q": "In a skutterudite thermoelectric material, 'rattling' atoms in the cage structure scatter phonons efficiently, reducing lattice thermal conductivity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The ratio of thermal conductivity to phonon heat capacity per unit volume defines the phonon thermal ______.",
+        "type": "fill_blank",
+        "answers": [
+            "diffusivity"
+        ],
+        "other_options": [
+            "conductivity",
+            "effusivity",
+            "expansion",
+            "resistance"
+        ]
+    },
+    {
+        "q": "Match the thermoelectric effect with its description:",
+        "type": "match",
+        "left": [
+            "Seebeck effect",
+            "Peltier effect",
+            "Thomson effect",
+            "Bridgman effect"
+        ],
+        "right": [
+            "Voltage from temperature gradient",
+            "Heating/cooling at junction with current",
+            "Heat absorption in a single conductor with gradient and current",
+            "Heat flow in isotropic material in magnetic field"
+        ]
+    },
+    {
+        "q": "Explain the physical basis for the 'Casimir limit' in thermal boundary conductance.",
+        "type": "short_answer",
+        "answers": [
+            "quantum limit where each phonon mode carries a maximum energy flux of pi^2 k_B^2 T / 3h",
+            "maximum possible thermal conductance per phonon channel at low temperatures"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following materials class typically exhibits ultralow thermal conductivity due to complex crystal structure and strong anharmonicity?",
+        "type": "mcq",
+        "o": [
+            "Tetrahedrites and argyrodites",
+            "Pure metals",
+            "Simple oxides",
+            "Elemental semiconductors"
+        ]
+    },
+    {
+        "q": "The phonon Boltzmann transport equation under the relaxation time approximation predicts that lattice thermal conductivity scales as T^{-1} at high temperatures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In near-field thermophotovoltaics (NF-TPV), the gap between the emitter and PV cell is on the order of the ______ wavelength to exploit photon tunneling.",
+        "type": "fill_blank",
+        "answers": [
+            "thermal",
+            "characteristic",
+            "sub-"
+        ],
+        "other_options": [
+            "radio",
+            "gamma ray",
+            "X-ray",
+            "cosmic"
+        ]
+    },
+    {
+        "q": "Name the instrument that measures heat flux directly using the spatial temperature gradient and known thermal conductivity of a reference material.",
+        "type": "short_answer",
+        "answers": [
+            "heat flux sensor",
+            "heat flux plate",
+            "thermopile"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the 'Eucken correction' for polyatomic gases?",
+        "type": "mcq",
+        "o": [
+            "A modification to thermal conductivity accounting for internal degrees of freedom (rotation, vibration)",
+            "A correction for low pressure",
+            "A factor for gas mixtures",
+            "An adjustment for high temperatures"
+        ]
+    },
+    {
+        "q": "The effective thermal conductivity of a composite material always lies between the Wiener bounds (series and parallel models).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The dimensionless time in transient heat conduction problems, Fourier number (Fo), is defined as Fo = alpha t / ______^2.",
+        "type": "fill_blank",
+        "answers": [
+            "L",
+            "length",
+            "characteristic length"
+        ],
+        "other_options": [
+            "k",
+            "h",
+            "T",
+            "rho"
+        ]
+    },
+    {
+        "q": "Match the heat flux measurement technique with its principle:",
+        "type": "match",
+        "left": [
+            "Schmidt-Boelter gauge",
+            "Gardon gauge",
+            "Slug calorimeter",
+            "Thin-skin calorimeter"
+        ],
+        "right": [
+            "Thermopile across a thin layer",
+            "Thermocouple on a foil disk",
+            "Temperature rise of a mass",
+            "Temperature-time derivative of a thin layer"
+        ]
+    },
+    {
+        "q": "Define 'phonon coherence' and its effect on thermal transport in superlattices.",
+        "type": "short_answer",
+        "answers": [
+            "wave nature of phonons leads to interference effects; can reduce thermal conductivity due to band folding and mini-gaps",
+            "coherent phonon transport resulting in reduced group velocity and increased scattering at interfaces"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a characteristic feature of the 'phonon bottleneck' effect in electron-phonon coupling?",
+        "type": "mcq",
+        "o": [
+            "Slow energy relaxation from phonons to electrons due to limited coupling at low temperatures",
+            "Rapid heat transfer between electron and phonon systems",
+            "Electrons moving without scattering",
+            "Phonons traveling at light speed"
+        ]
+    },
+    {
+        "q": "The 'divergence' of thermal conductivity in one-dimensional atomic chains (Fermi-Pasta-Ulam-Tsingou problem) challenges the validity of Fourier's law in low dimensions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In thermoreflectance microscopy, the change in ______ of a material with temperature is used to map surface temperature with high spatial resolution.",
+        "type": "fill_blank",
+        "answers": [
+            "reflectivity",
+            "refractive index"
+        ],
+        "other_options": [
+            "conductivity",
+            "density",
+            "color",
+            "thickness"
+        ]
+    },
+    {
+        "q": "Name the theoretical framework used to calculate radiative heat transfer between arbitrary shaped objects separated by sub-wavelength gaps.",
+        "type": "short_answer",
+        "answers": [
+            "fluctuational electrodynamics",
+            "Rytov theory",
+            "dyadic Green's function approach"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the primary mechanism for the ultralow thermal conductivity observed in disordered layered crystals like WSe2?",
+        "type": "mcq",
+        "o": [
+            "Strong anharmonic scattering and low phonon group velocities along the cross-plane direction",
+            "High electronic contribution",
+            "Very high density",
+            "Superconducting fluctuations"
+        ]
+    },
+    {
+        "q": "The Matthiessen's rule for thermal resistance states that the total thermal resistivity is the sum of resistivities from different scattering processes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The Bridgman effect refers to the absorption or emission of heat when an electric current passes through an anisotropic crystal. It is a generalization of the ______ effect.",
+        "type": "fill_blank",
+        "answers": [
+            "Thomson"
+        ],
+        "other_options": [
+            "Peltier",
+            "Seebeck",
+            "Joule",
+            "Hall"
+        ]
+    },
+    {
+        "q": "Match the simulation method with its scale of application in heat transfer:",
+        "type": "match",
+        "left": [
+            "First-principles DFT",
+            "Molecular Dynamics",
+            "Lattice Boltzmann Method",
+            "Finite Volume Method"
+        ],
+        "right": [
+            "Atomic scale force constants",
+            "Nanoscale phonon transport",
+            "Mesoscale fluid flow",
+            "Macroscale device simulation"
+        ]
+    },
+    {
+        "q": "Explain 'ballistic-diffusive heat conduction' in the context of transient thermal gratings.",
+        "type": "short_answer",
+        "answers": [
+            "transition regime where some phonons travel ballistically while others diffuse; observed when grating period is comparable to mean free path",
+            "breakdown of Fourier diffusion with non-local effects in transient grating experiments"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following describes the 'frequency-dependent' nature of thermal conductivity in alloys?",
+        "type": "mcq",
+        "o": [
+            "High-frequency phonons are scattered more effectively by point defects, shifting heat conduction to low-frequency modes",
+            "Thermal conductivity is independent of frequency",
+            "Only electrons carry heat at high frequencies",
+            "Phonons have a single frequency"
+        ]
+    },
+    {
+        "q": "The effective medium theory (EMT) for nanocomposites fails when the particle size is comparable to the phonon mean free path.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The total hemispherical emissivity of a real surface is obtained by integrating the spectral emissivity weighted by the ______ distribution function.",
+        "type": "fill_blank",
+        "answers": [
+            "Planck",
+            "blackbody"
+        ],
+        "other_options": [
+            "Gaussian",
+            "Maxwell",
+            "Boltzmann",
+            "Fermi"
+        ]
+    },
+    {
+        "q": "Name the highest achievable thermal conductivity material at room temperature discovered recently (isotopically pure).",
+        "type": "short_answer",
+        "answers": [
+            "boron arsenide",
+            "BAs",
+            "cubic boron arsenide"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the role of 'resonant bonding' in the low thermal conductivity of phase-change materials like GST (Ge2Sb2Te5)?",
+        "type": "mcq",
+        "o": [
+            "Leads to strong anharmonicity and soft phonon modes, drastically reducing thermal conductivity",
+            "Increases electronic conduction",
+            "Increases phonon group velocity",
+            "Reduces density"
+        ]
+    },
+    {
+        "q": "The temperature dependence of the Kapitza resistance at very low temperatures follows a T^{-3} law.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In the Callaway-Holland model, the thermal conductivity integral is solved by considering separate contributions from longitudinal and ______ phonon branches.",
+        "type": "fill_blank",
+        "answers": [
+            "transverse"
+        ],
+        "other_options": [
+            "optical",
+            "acoustic",
+            "surface",
+            "bulk"
+        ]
+    }
+]

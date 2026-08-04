@@ -1,12 +1,5 @@
 [
     {
-        "q": "What is the hardness of a Diamond on the Mohs scale?",
-        "type": "slider",
-        "min": 1,
-        "max": 10,
-        "correct": 10
-    },
-    {
         "q": "What are rocks made of?",
         "type": "mcq",
         "o": [
@@ -4105,6 +4098,13 @@
             "Tectosilicates",
             "Nesosilicates"
         ]
+    },
+    {
+        "q": "What is the hardness of a Diamond on the Mohs scale?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 10
     },
     {
         "q": "Match the volcanic landform to its characteristic rock:",

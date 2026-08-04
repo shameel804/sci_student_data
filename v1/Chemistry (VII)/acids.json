@@ -1,0 +1,6956 @@
+[
+    {
+        "q": "Which of the following tastes sour?",
+        "type": "mcq",
+        "o": [
+            "Lemon juice",
+            "Baking soda solution",
+            "Soap water",
+            "Milk of magnesia"
+        ]
+    },
+    {
+        "q": "What is the chemical formula of water?",
+        "type": "short_answer",
+        "answers": [
+            "H2O"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Litmus paper turns ______ in an acidic solution.",
+        "type": "fill_blank",
+        "answers": [
+            "red"
+        ],
+        "other_options": [
+            "blue",
+            "green",
+            "yellow",
+            "purple"
+        ]
+    },
+    {
+        "q": "Substances that are bitter in taste and feel soapy to touch are generally called acids.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is NOT a natural indicator?",
+        "type": "mcq",
+        "o": [
+            "Phenolphthalein",
+            "Turmeric",
+            "Litmus",
+            "Red cabbage juice"
+        ]
+    },
+    {
+        "q": "Match the substance with its taste:",
+        "type": "match",
+        "left": [
+            "Vinegar",
+            "Baking soda",
+            "Table salt",
+            "Sugar"
+        ],
+        "right": [
+            "Sour",
+            "Bitter",
+            "Salty",
+            "Sweet"
+        ]
+    },
+    {
+        "q": "Which base is commonly used in antacids?",
+        "type": "mcq",
+        "o": [
+            "Milk of magnesia",
+            "Vinegar",
+            "Lemon juice",
+            "Common salt"
+        ]
+    },
+    {
+        "q": "Sodium chloride is the chemical name for common ______.",
+        "type": "fill_blank",
+        "answers": [
+            "salt"
+        ],
+        "other_options": [
+            "sugar",
+            "baking soda",
+            "vinegar",
+            "chalk"
+        ]
+    },
+    {
+        "q": "What color does turmeric solution turn in a basic substance?",
+        "type": "short_answer",
+        "answers": [
+            "red",
+            "reddish brown",
+            "deep red"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the pH of pure, distilled water?",
+        "type": "slider",
+        "min": 0,
+        "max": 14,
+        "correct": 7
+    },
+    {
+        "q": "Which ion is responsible for the acidic properties of a substance?",
+        "type": "mcq",
+        "o": [
+            "Hydrogen ion (H+)",
+            "Hydroxide ion (OH-)",
+            "Sodium ion (Na+)",
+            "Chloride ion (Cl-)"
+        ]
+    },
+    {
+        "q": "The pH scale ranges from 1 to 14.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following has a pH value of exactly 7?",
+        "type": "mcq",
+        "o": [
+            "Pure water",
+            "Lemon juice",
+            "Soap solution",
+            "Vinegar"
+        ]
+    },
+    {
+        "q": "The reaction between an acid and a base to form salt and water is called a ______ reaction.",
+        "type": "fill_blank",
+        "answers": [
+            "neutralization",
+            "neutralisation"
+        ],
+        "other_options": [
+            "oxidation",
+            "reduction",
+            "combustion",
+            "displacement"
+        ]
+    },
+    {
+        "q": "Match the naturally occurring organic acids to their typical food sources.",
+        "type": "memory",
+        "pairs": {
+            "Citric acid": "Lemons and oranges",
+            "Lactic acid": "Curd and sour milk",
+            "Oxalic acid": "Spinach",
+            "Tartaric acid": "Tamarind and unripe mangoes"
+        }
+    },
+    {
+        "q": "Which salt is commonly used in cooking?",
+        "type": "mcq",
+        "o": [
+            "Sodium chloride",
+            "Potassium nitrate",
+            "Copper sulphate",
+            "Ammonium chloride"
+        ]
+    },
+    {
+        "q": "Name the acid found in vinegar.",
+        "type": "short_answer",
+        "answers": [
+            "acetic acid",
+            "ethanoic acid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a strong base?",
+        "type": "mcq",
+        "o": [
+            "Sodium hydroxide",
+            "Ammonium hydroxide",
+            "Magnesium hydroxide",
+            "Calcium hydroxide"
+        ]
+    },
+    {
+        "q": "Baking soda turns red litmus paper blue.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which indicator gives different colors in acidic, basic, and neutral solutions?",
+        "type": "mcq",
+        "o": [
+            "Universal indicator",
+            "Red litmus",
+            "Blue litmus",
+            "Turmeric"
+        ]
+    },
+    {
+        "q": "The gas released when an acid reacts with a metal is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hydrogen"
+        ],
+        "other_options": [
+            "oxygen",
+            "carbon dioxide",
+            "nitrogen",
+            "chlorine"
+        ]
+    },
+    {
+        "q": "Which salt is used in the manufacture of glass?",
+        "type": "mcq",
+        "o": [
+            "Sodium carbonate",
+            "Sodium chloride",
+            "Potassium nitrate",
+            "Calcium sulphate"
+        ]
+    },
+    {
+        "q": "Match the acid with its natural source:",
+        "type": "match",
+        "left": [
+            "Citric acid",
+            "Tartaric acid",
+            "Lactic acid",
+            "Oxalic acid"
+        ],
+        "right": [
+            "Citrus fruits",
+            "Grapes",
+            "Milk",
+            "Spinach"
+        ]
+    },
+    {
+        "q": "What is the color of phenolphthalein in a basic solution?",
+        "type": "mcq",
+        "o": [
+            "Pink",
+            "Colorless",
+            "Red",
+            "Yellow"
+        ]
+    },
+    {
+        "q": "Substances with a pH less than 7 are considered basic.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is an example of a mineral acid?",
+        "type": "mcq",
+        "o": [
+            "Hydrochloric acid",
+            "Acetic acid",
+            "Citric acid",
+            "Lactic acid"
+        ]
+    },
+    {
+        "q": "Acid + Base -> ______ + Water",
+        "type": "fill_blank",
+        "answers": [
+            "salt"
+        ],
+        "other_options": [
+            "sugar",
+            "gas",
+            "metal",
+            "indicator"
+        ]
+    },
+    {
+        "q": "Name a salt used in the preparation of plaster of Paris.",
+        "type": "short_answer",
+        "answers": [
+            "gypsum",
+            "calcium sulphate",
+            "calcium sulfate",
+            "CaSO4.2H2O"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is acidic in nature?",
+        "type": "mcq",
+        "o": [
+            "Orange juice",
+            "Soap solution",
+            "Lime water",
+            "Bleach"
+        ]
+    },
+    {
+        "q": "Litmus is extracted from which organism?",
+        "type": "mcq",
+        "o": [
+            "Lichens",
+            "Fungi",
+            "Bacteria",
+            "Algae"
+        ]
+    },
+    {
+        "q": "The reaction of an acid with a metal carbonate produces carbon dioxide gas.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following salts is used in fire extinguishers?",
+        "type": "mcq",
+        "o": [
+            "Sodium bicarbonate",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Potassium nitrate"
+        ]
+    },
+    {
+        "q": "Which of these is NOT an indicator used to test acids and bases?",
+        "type": "odd_one_out",
+        "options": [
+            "Litmus",
+            "Turmeric",
+            "China Rose",
+            "Vinegar"
+        ],
+        "correct": "Vinegar"
+    },
+    {
+        "q": "Turmeric stain on a white cloth turns ______ when washed with soap.",
+        "type": "fill_blank",
+        "answers": [
+            "red",
+            "reddish brown"
+        ],
+        "other_options": [
+            "blue",
+            "green",
+            "yellow",
+            "purple"
+        ]
+    },
+    {
+        "q": "Which base is known as caustic soda?",
+        "type": "short_answer",
+        "answers": [
+            "sodium hydroxide",
+            "NaOH"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for acidic substances, LEFT for basic substances.",
+        "type": "swipe_cards",
+        "left_label": "Base",
+        "right_label": "Acid",
+        "cards": {
+            "Lemon juice": "right",
+            "Soap solution": "left",
+            "Curd": "right",
+            "Lime water": "left"
+        }
+    },
+    {
+        "q": "Unscramble the word: the organism from which litmus is extracted.",
+        "type": "word_scramble",
+        "answer": "LICHEN",
+        "decoys": "QZ"
+    },
+    {
+        "q": "Which of the following is a neutral substance?",
+        "type": "mcq",
+        "o": [
+            "Distilled water",
+            "Milk",
+            "Coffee",
+            "Saliva"
+        ]
+    },
+    {
+        "q": "Hydrochloric acid is naturally present in the human stomach.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which acid is known as the 'King of Chemicals'?",
+        "type": "mcq",
+        "o": [
+            "Sulphuric acid",
+            "Nitric acid",
+            "Hydrochloric acid",
+            "Phosphoric acid"
+        ]
+    },
+    {
+        "q": "Complete the sentence regarding the origin of acids.",
+        "type": "inline_dropdown",
+        "text": "The word acid comes from the Latin word [0] which means [1].",
+        "dropdowns": [
+            {
+                "correct": "acidus",
+                "options": [
+                    "acidos",
+                    "acidus",
+                    "acer"
+                ]
+            },
+            {
+                "correct": "sour",
+                "options": [
+                    "bitter",
+                    "sweet",
+                    "sour"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the base with its common use:",
+        "type": "match",
+        "left": [
+            "Sodium hydroxide",
+            "Calcium hydroxide",
+            "Magnesium hydroxide",
+            "Ammonium hydroxide"
+        ],
+        "right": [
+            "Soap making",
+            "Whitewashing",
+            "Antacid",
+            "Window cleaner"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the strong acid naturally produced in the human stomach.",
+        "type": "word_scramble",
+        "answer": "HYDROCHLORIC",
+        "decoys": "ZX"
+    },
+    {
+        "q": "Which ion is present in all bases?",
+        "type": "mcq",
+        "o": [
+            "Hydroxide ion (OH-)",
+            "Hydrogen ion (H+)",
+            "Oxide ion (O2-)",
+            "Carbonate ion (CO3 2-)"
+        ]
+    },
+    {
+        "q": "The chemical name of washing soda is sodium ______.",
+        "type": "fill_blank",
+        "answers": [
+            "carbonate"
+        ],
+        "other_options": [
+            "bicarbonate",
+            "chloride",
+            "sulphate",
+            "hydroxide"
+        ]
+    },
+    {
+        "q": "Name the process where an acid reacts with a base to form salt and water.",
+        "type": "short_answer",
+        "answers": [
+            "neutralization",
+            "neutralisation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following turns blue litmus red?",
+        "type": "mcq",
+        "o": [
+            "Vinegar",
+            "Baking soda solution",
+            "Lime water",
+            "Ammonia solution"
+        ]
+    },
+    {
+        "q": "Nitric acid is used in the purification of gold and silver.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence regarding China rose indicator.",
+        "type": "inline_dropdown",
+        "text": "China rose indicator turns acidic solutions to [0] and basic solutions to [1].",
+        "dropdowns": [
+            {
+                "correct": "magenta",
+                "options": [
+                    "magenta",
+                    "yellow",
+                    "colorless"
+                ]
+            },
+            {
+                "correct": "green",
+                "options": [
+                    "blue",
+                    "green",
+                    "red"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of the following salts is used in the preservation of food?",
+        "type": "mcq",
+        "o": [
+            "Sodium chloride",
+            "Potassium sulphate",
+            "Ammonium nitrate",
+            "Calcium carbonate"
+        ]
+    },
+    {
+        "q": "Match the synthetic indicators and litmus to their final color in a basic solution.",
+        "type": "memory",
+        "pairs": {
+            "Phenolphthalein": "Pink",
+            "Methyl orange": "Yellow",
+            "Red Litmus paper": "Blue"
+        }
+    },
+    {
+        "q": "How many main color forms does litmus paper commonly come in for basic laboratory testing?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "Match these common basic household substances to their scientific chemical names.",
+        "type": "memory",
+        "pairs": {
+            "Milk of Magnesia": "Magnesium hydroxide",
+            "Window cleaner": "Ammonium hydroxide",
+            "Lime water": "Calcium hydroxide"
+        }
+    },
+    {
+        "q": "The pH of a neutral solution is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "7",
+            "seven"
+        ],
+        "other_options": [
+            "0",
+            "14",
+            "1",
+            "10"
+        ]
+    },
+    {
+        "q": "Which of the following is an organic acid?",
+        "type": "mcq",
+        "o": [
+            "Formic acid",
+            "Sulphuric acid",
+            "Nitric acid",
+            "Hydrochloric acid"
+        ]
+    },
+    {
+        "q": "What is the common name of calcium carbonate?",
+        "type": "short_answer",
+        "answers": [
+            "limestone",
+            "chalk",
+            "marble"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following has a slippery touch?",
+        "type": "mcq",
+        "o": [
+            "Soap solution",
+            "Vinegar",
+            "Lemon juice",
+            "Orange juice"
+        ]
+    },
+    {
+        "q": "Phenolphthalein turns colorless in an acidic solution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used as a fertilizer?",
+        "type": "mcq",
+        "o": [
+            "Potassium nitrate",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Magnesium sulphate"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a base?",
+        "type": "odd_one_out",
+        "options": [
+            "Sodium hydroxide",
+            "Potassium hydroxide",
+            "Calcium hydroxide",
+            "Nitric acid"
+        ],
+        "correct": "Nitric acid"
+    },
+    {
+        "q": "Match the pH value with the solution type:",
+        "type": "match",
+        "left": [
+            "pH 2",
+            "pH 7",
+            "pH 13",
+            "pH 6"
+        ],
+        "right": [
+            "Strong acid",
+            "Neutral",
+            "Strong base",
+            "Weak acid"
+        ]
+    },
+    {
+        "q": "An acid turns red litmus ______.",
+        "type": "fill_blank",
+        "answers": [
+            "red"
+        ],
+        "other_options": [
+            "blue",
+            "green",
+            "colorless",
+            "yellow"
+        ]
+    },
+    {
+        "q": "Which gas is liberated when baking soda is heated?",
+        "type": "mcq",
+        "o": [
+            "Carbon dioxide",
+            "Oxygen",
+            "Hydrogen",
+            "Nitrogen"
+        ]
+    },
+    {
+        "q": "Milk contains which acid?",
+        "type": "short_answer",
+        "answers": [
+            "lactic acid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for Natural indicators, LEFT for Synthetic indicators.",
+        "type": "swipe_cards",
+        "left_label": "Synthetic",
+        "right_label": "Natural",
+        "cards": {
+            "Litmus": "right",
+            "Turmeric": "right",
+            "Phenolphthalein": "left",
+            "Methyl orange": "left"
+        }
+    },
+    {
+        "q": "Which of the following is a weak acid?",
+        "type": "mcq",
+        "o": [
+            "Carbonic acid",
+            "Hydrochloric acid",
+            "Sulphuric acid",
+            "Nitric acid"
+        ]
+    },
+    {
+        "q": "Sodium hydroxide is used in the manufacturing of paper.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which salt is also known as baking soda?",
+        "type": "mcq",
+        "o": [
+            "Sodium bicarbonate",
+            "Sodium carbonate",
+            "Sodium chloride",
+            "Sodium sulphate"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the characteristic taste of basic substances.",
+        "type": "word_scramble",
+        "answer": "BITTER",
+        "decoys": "WX"
+    },
+    {
+        "q": "The sting of an ant contains ______ acid.",
+        "type": "fill_blank",
+        "answers": [
+            "formic"
+        ],
+        "other_options": [
+            "acetic",
+            "citric",
+            "lactic",
+            "oxalic"
+        ]
+    },
+    {
+        "q": "Complete the sentence about the physical properties of bases.",
+        "type": "inline_dropdown",
+        "text": "Bases generally have a [0] taste and feel [1] to the touch.",
+        "dropdowns": [
+            {
+                "correct": "bitter",
+                "options": [
+                    "sour",
+                    "sweet",
+                    "bitter"
+                ]
+            },
+            {
+                "correct": "soapy",
+                "options": [
+                    "rough",
+                    "soapy",
+                    "sticky"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a property of bases?",
+        "type": "mcq",
+        "o": [
+            "Turns blue litmus red",
+            "Bitter taste",
+            "Soapy touch",
+            "Turns turmeric red"
+        ]
+    },
+    {
+        "q": "What is the color of methyl orange in an acidic solution?",
+        "type": "short_answer",
+        "answers": [
+            "red",
+            "pink"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used in the manufacture of soap?",
+        "type": "mcq",
+        "o": [
+            "Sodium hydroxide",
+            "Hydrochloric acid",
+            "Nitric acid",
+            "Sodium chloride"
+        ]
+    },
+    {
+        "q": "The pH of human blood is slightly basic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: the type of reaction between an acid and a base.",
+        "type": "word_scramble",
+        "answer": "NEUTRALIZATION",
+        "decoys": "JK"
+    },
+    {
+        "q": "Which acid is used in car batteries?",
+        "type": "mcq",
+        "o": [
+            "Sulphuric acid",
+            "Hydrochloric acid",
+            "Nitric acid",
+            "Phosphoric acid"
+        ]
+    },
+    {
+        "q": "Complete the sentence about neutralization reactions.",
+        "type": "inline_dropdown",
+        "text": "In a neutralization reaction, a new substance called a [0] is formed, along with the release of [1].",
+        "dropdowns": [
+            {
+                "correct": "salt",
+                "options": [
+                    "metal",
+                    "gas",
+                    "salt"
+                ]
+            },
+            {
+                "correct": "heat",
+                "options": [
+                    "light",
+                    "heat",
+                    "sound"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "China rose indicator turns acidic solutions dark ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pink",
+            "magenta"
+        ],
+        "other_options": [
+            "green",
+            "yellow",
+            "blue",
+            "red"
+        ]
+    },
+    {
+        "q": "Which of the following reactions is a neutralization reaction?",
+        "type": "mcq",
+        "o": [
+            "HCl + NaOH -> NaCl + H2O",
+            "Zn + H2SO4 -> ZnSO4 + H2",
+            "CaCO3 -> CaO + CO2",
+            "2H2 + O2 -> 2H2O"
+        ]
+    },
+    {
+        "q": "Name the base used in the manufacture of bleaching powder.",
+        "type": "short_answer",
+        "answers": [
+            "calcium hydroxide",
+            "slaked lime",
+            "Ca(OH)2"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a salt of a strong acid and strong base?",
+        "type": "mcq",
+        "o": [
+            "Sodium chloride",
+            "Sodium bicarbonate",
+            "Copper sulphate",
+            "Ammonium chloride"
+        ]
+    },
+    {
+        "q": "Distilled water does not conduct electricity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which natural indicator is commonly used in Indian kitchens?",
+        "type": "mcq",
+        "o": [
+            "Turmeric",
+            "Litmus",
+            "Phenolphthalein",
+            "Methyl orange"
+        ]
+    },
+    {
+        "q": "Match the salt with its use:",
+        "type": "match",
+        "left": [
+            "Sodium chloride",
+            "Sodium bicarbonate",
+            "Calcium sulphate",
+            "Potassium nitrate"
+        ],
+        "right": [
+            "Food seasoning",
+            "Baking",
+            "Plaster of Paris",
+            "Fertilizer"
+        ]
+    },
+    {
+        "q": "Wasp stings are basic in nature and can be treated with ______.",
+        "type": "fill_blank",
+        "answers": [
+            "vinegar",
+            "acetic acid"
+        ],
+        "other_options": [
+            "baking soda",
+            "water",
+            "soap",
+            "lime"
+        ]
+    },
+    {
+        "q": "Which of the following is a strong acid?",
+        "type": "mcq",
+        "o": [
+            "Nitric acid",
+            "Acetic acid",
+            "Formic acid",
+            "Carbonic acid"
+        ]
+    },
+    {
+        "q": "What is the chemical formula of common salt?",
+        "type": "short_answer",
+        "answers": [
+            "NaCl"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for treatments used on acidic soil, LEFT for treatments used on basic soil.",
+        "type": "swipe_cards",
+        "left_label": "Basic Soil Treatment",
+        "right_label": "Acidic Soil Treatment",
+        "cards": {
+            "Quicklime": "right",
+            "Slaked lime": "right",
+            "Compost": "left",
+            "Organic matter": "left"
+        }
+    },
+    {
+        "q": "Which of the following is NOT a use of salts?",
+        "type": "mcq",
+        "o": [
+            "Changing the color of indicators",
+            "Food preservation",
+            "Fertilizer production",
+            "Soap manufacturing"
+        ]
+    },
+    {
+        "q": "Ammonia solution turns red litmus blue.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following solutions has the highest pH?",
+        "type": "mcq",
+        "o": [
+            "Sodium hydroxide solution",
+            "Pure water",
+            "Vinegar",
+            "Lemon juice"
+        ]
+    },
+    {
+        "q": "What is the approximate pH of strong stomach acid during digestion?",
+        "type": "slider",
+        "min": 1,
+        "max": 14,
+        "correct": 2
+    },
+    {
+        "q": "The acid present in nettle sting is ______ acid.",
+        "type": "fill_blank",
+        "answers": [
+            "formic",
+            "methanoic"
+        ],
+        "other_options": [
+            "acetic",
+            "citric",
+            "lactic",
+            "oxalic"
+        ]
+    },
+    {
+        "q": "Match the pollutant gases to the specific acids they form in acid rain.",
+        "type": "memory",
+        "pairs": {
+            "Carbon dioxide": "Carbonic acid",
+            "Sulfur dioxide": "Sulfuric acid",
+            "Nitrogen dioxide": "Nitric acid"
+        }
+    },
+    {
+        "q": "Which of the following is a hydrated salt?",
+        "type": "mcq",
+        "o": [
+            "Copper sulphate pentahydrate",
+            "Sodium chloride",
+            "Potassium nitrate",
+            "Sodium bicarbonate"
+        ]
+    },
+    {
+        "q": "What is the taste of bases generally?",
+        "type": "short_answer",
+        "answers": [
+            "bitter"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used to remove acidity from soil?",
+        "type": "mcq",
+        "o": [
+            "Quick lime",
+            "Vinegar",
+            "Lemon juice",
+            "Hydrochloric acid"
+        ]
+    },
+    {
+        "q": "Lime water turns milky when carbon dioxide is passed through it.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following indicators is colorless in acid and pink in base?",
+        "type": "mcq",
+        "o": [
+            "Phenolphthalein",
+            "Methyl orange",
+            "Litmus",
+            "Turmeric"
+        ]
+    },
+    {
+        "q": "Copper sulphate crystals are ______ in color.",
+        "type": "fill_blank",
+        "answers": [
+            "blue"
+        ],
+        "other_options": [
+            "white",
+            "green",
+            "red",
+            "yellow"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of an antacid?",
+        "type": "mcq",
+        "o": [
+            "Milk of magnesia",
+            "Vinegar",
+            "Lemon juice",
+            "Aspirin"
+        ]
+    },
+    {
+        "q": "Match the indicator with its color change in base:",
+        "type": "match",
+        "left": [
+            "Red litmus",
+            "Turmeric",
+            "Phenolphthalein",
+            "China rose"
+        ],
+        "right": [
+            "Blue",
+            "Red",
+            "Pink",
+            "Green"
+        ]
+    },
+    {
+        "q": "Name the salt used in the preparation of baking powder.",
+        "type": "short_answer",
+        "answers": [
+            "sodium bicarbonate",
+            "baking soda",
+            "NaHCO3"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is NOT a mineral acid?",
+        "type": "mcq",
+        "o": [
+            "Citric acid",
+            "Sulphuric acid",
+            "Nitric acid",
+            "Hydrochloric acid"
+        ]
+    },
+    {
+        "q": "A neutral solution has equal amounts of hydrogen and hydroxide ions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following substances is amphoteric?",
+        "type": "mcq",
+        "o": [
+            "Water",
+            "Sodium hydroxide",
+            "Hydrochloric acid",
+            "Sodium chloride"
+        ]
+    },
+    {
+        "q": "The chemical formula of baking soda is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "NaHCO3"
+        ],
+        "other_options": [
+            "Na2CO3",
+            "NaCl",
+            "NaOH",
+            "CaCO3"
+        ]
+    },
+    {
+        "q": "Which of the following acids is used in the manufacture of plastics?",
+        "type": "mcq",
+        "o": [
+            "Hydrochloric acid",
+            "Acetic acid",
+            "Citric acid",
+            "Tartaric acid"
+        ]
+    },
+    {
+        "q": "What is the common name of sodium carbonate?",
+        "type": "short_answer",
+        "answers": [
+            "washing soda",
+            "soda ash"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following turns turmeric paste red?",
+        "type": "mcq",
+        "o": [
+            "Soap solution",
+            "Vinegar",
+            "Orange juice",
+            "Lemon juice"
+        ]
+    },
+    {
+        "q": "Salts are always neutral in nature.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is used as a preservative in pickles?",
+        "type": "mcq",
+        "o": [
+            "Sodium chloride",
+            "Sodium hydroxide",
+            "Sodium carbonate",
+            "Sodium sulphate"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a salt?",
+        "type": "odd_one_out",
+        "options": [
+            "Sodium chloride",
+            "Copper sulfate",
+            "Potassium nitrate",
+            "Hydrochloric acid"
+        ],
+        "correct": "Hydrochloric acid"
+    },
+    {
+        "q": "Acids react with metals to produce ______ gas.",
+        "type": "fill_blank",
+        "answers": [
+            "hydrogen"
+        ],
+        "other_options": [
+            "oxygen",
+            "nitrogen",
+            "chlorine",
+            "carbon dioxide"
+        ]
+    },
+    {
+        "q": "Which of the following is a natural source of acetic acid?",
+        "type": "mcq",
+        "o": [
+            "Vinegar",
+            "Lemon",
+            "Orange",
+            "Curd"
+        ]
+    },
+    {
+        "q": "What is the color of litmus solution in a neutral medium?",
+        "type": "short_answer",
+        "answers": [
+            "purple",
+            "violet"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used in the tanning of leather?",
+        "type": "mcq",
+        "o": [
+            "Chromium salts",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Potassium nitrate"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if the substance turns red litmus blue, LEFT if it turns blue litmus red.",
+        "type": "swipe_cards",
+        "left_label": "Turns Blue Litmus Red",
+        "right_label": "Turns Red Litmus Blue",
+        "cards": {
+            "Lemon juice": "left",
+            "Vinegar": "left",
+            "Soap solution": "right",
+            "Baking soda solution": "right"
+        }
+    },
+    {
+        "q": "Excess acid in the stomach causes indigestion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following indicators is used in the laboratory as a synthetic indicator?",
+        "type": "mcq",
+        "o": [
+            "Phenolphthalein",
+            "Turmeric",
+            "China rose",
+            "Red cabbage"
+        ]
+    },
+    {
+        "q": "Match the acid with its chemical formula:",
+        "type": "match",
+        "left": [
+            "Hydrochloric acid",
+            "Sulphuric acid",
+            "Nitric acid",
+            "Acetic acid"
+        ],
+        "right": [
+            "HCl",
+            "H2SO4",
+            "HNO3",
+            "CH3COOH"
+        ]
+    },
+    {
+        "q": "The process of dissolving an acid or base in water is highly exothermic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which salt is used in the photographic industry?",
+        "type": "mcq",
+        "o": [
+            "Silver bromide",
+            "Sodium chloride",
+            "Copper sulphate",
+            "Calcium carbonate"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the specific acid injected into the skin by an ant sting.",
+        "type": "word_scramble",
+        "answer": "FORMIC",
+        "decoys": "YZ"
+    },
+    {
+        "q": "A base that dissolves in water is called an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "alkali"
+        ],
+        "other_options": [
+            "acid",
+            "salt",
+            "indicator",
+            "oxide"
+        ]
+    },
+    {
+        "q": "Name the acid present in the sting of a honey bee.",
+        "type": "short_answer",
+        "answers": [
+            "formic acid",
+            "methanoic acid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about treating insect stings.",
+        "type": "inline_dropdown",
+        "text": "An ant sting contains [0] acid which can be neutralized by rubbing moist [1] on the skin.",
+        "dropdowns": [
+            {
+                "correct": "formic",
+                "options": [
+                    "lactic",
+                    "formic",
+                    "citric"
+                ]
+            },
+            {
+                "correct": "baking soda",
+                "options": [
+                    "vinegar",
+                    "baking soda",
+                    "lemon juice"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Unscramble the word: a solution that does not change the color of either red or blue litmus.",
+        "type": "word_scramble",
+        "answer": "NEUTRAL",
+        "decoys": "QW"
+    },
+    {
+        "q": "Which of the following is a characteristic property of acids?",
+        "type": "mcq",
+        "o": [
+            "They release H+ ions in water",
+            "They release OH- ions in water",
+            "They taste bitter",
+            "They feel soapy"
+        ]
+    },
+    {
+        "q": "What is the chemical formula of hydrochloric acid?",
+        "type": "short_answer",
+        "answers": [
+            "HCl"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Methyl orange turns ______ in basic solutions.",
+        "type": "fill_blank",
+        "answers": [
+            "yellow"
+        ],
+        "other_options": [
+            "red",
+            "pink",
+            "colorless",
+            "blue"
+        ]
+    },
+    {
+        "q": "All bases are alkalis.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following salts is used in the manufacturing of glass?",
+        "type": "mcq",
+        "o": [
+            "Sodium carbonate",
+            "Sodium chloride",
+            "Potassium nitrate",
+            "Ammonium chloride"
+        ]
+    },
+    {
+        "q": "Match the salt with its chemical formula:",
+        "type": "match",
+        "left": [
+            "Common salt",
+            "Baking soda",
+            "Washing soda",
+            "Gypsum"
+        ],
+        "right": [
+            "NaCl",
+            "NaHCO3",
+            "Na2CO3.10H2O",
+            "CaSO4.2H2O"
+        ]
+    },
+    {
+        "q": "Which acid is present in tamarind?",
+        "type": "mcq",
+        "o": [
+            "Tartaric acid",
+            "Citric acid",
+            "Acetic acid",
+            "Oxalic acid"
+        ]
+    },
+    {
+        "q": "The reaction between zinc and hydrochloric acid produces hydrogen gas and ______ chloride.",
+        "type": "fill_blank",
+        "answers": [
+            "zinc"
+        ],
+        "other_options": [
+            "sodium",
+            "calcium",
+            "magnesium",
+            "potassium"
+        ]
+    },
+    {
+        "q": "Complete the sentence about calamine.",
+        "type": "inline_dropdown",
+        "text": "Calamine lotion, used to treat stings, contains [0] which acts to [1] the injected acid.",
+        "dropdowns": [
+            {
+                "correct": "zinc carbonate",
+                "options": [
+                    "zinc carbonate",
+                    "sodium hydroxide",
+                    "calcium oxide"
+                ]
+            },
+            {
+                "correct": "neutralize",
+                "options": [
+                    "activate",
+                    "neutralize",
+                    "dissolve"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the common name of calcium oxide?",
+        "type": "short_answer",
+        "answers": [
+            "quick lime",
+            "quicklime",
+            "burnt lime"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following has the lowest pH value?",
+        "type": "mcq",
+        "o": [
+            "Battery acid",
+            "Lemon juice",
+            "Vinegar",
+            "Milk"
+        ]
+    },
+    {
+        "q": "China rose indicator turns green in a basic solution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is NOT a property of acids?",
+        "type": "mcq",
+        "o": [
+            "Soapy to touch",
+            "Sour in taste",
+            "Turn blue litmus red",
+            "Release H+ ions in water"
+        ]
+    },
+    {
+        "q": "Which base is known as slaked lime?",
+        "type": "mcq",
+        "o": [
+            "Calcium hydroxide",
+            "Sodium hydroxide",
+            "Potassium hydroxide",
+            "Magnesium hydroxide"
+        ]
+    },
+    {
+        "q": "Excess use of chemical fertilizers makes the soil ______.",
+        "type": "fill_blank",
+        "answers": [
+            "acidic"
+        ],
+        "other_options": [
+            "basic",
+            "neutral",
+            "fertile",
+            "alkaline"
+        ]
+    },
+    {
+        "q": "Name the acid present in oranges and lemons.",
+        "type": "short_answer",
+        "answers": [
+            "citric acid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a dibasic acid?",
+        "type": "mcq",
+        "o": [
+            "Sulphuric acid",
+            "Hydrochloric acid",
+            "Nitric acid",
+            "Acetic acid"
+        ]
+    },
+    {
+        "q": "A solution with pH 8 is more basic than a solution with pH 11.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match these chemical salts to their nature when dissolved in water.",
+        "type": "memory",
+        "pairs": {
+            "Sodium chloride (Strong acid + Strong base)": "Neutral",
+            "Ammonium chloride (Strong acid + Weak base)": "Acidic",
+            "Sodium carbonate (Weak acid + Strong base)": "Basic"
+        }
+    },
+    {
+        "q": "Which of the following salts is used in dry cell batteries?",
+        "type": "mcq",
+        "o": [
+            "Ammonium chloride",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Potassium sulphate"
+        ]
+    },
+    {
+        "q": "Match the base with its chemical formula:",
+        "type": "match",
+        "left": [
+            "Sodium hydroxide",
+            "Potassium hydroxide",
+            "Calcium hydroxide",
+            "Magnesium hydroxide"
+        ],
+        "right": [
+            "NaOH",
+            "KOH",
+            "Ca(OH)2",
+            "Mg(OH)2"
+        ]
+    },
+    {
+        "q": "At approximately what pH does tooth decay actively start in the human mouth?",
+        "type": "slider",
+        "min": 1,
+        "max": 14,
+        "correct": 5
+    },
+    {
+        "q": "Which of the following is an example of a neutralization reaction in everyday life?",
+        "type": "mcq",
+        "o": [
+            "Treating indigestion with antacid",
+            "Adding salt to food",
+            "Dissolving sugar in water",
+            "Boiling water"
+        ]
+    },
+    {
+        "q": "Match these common bases to their primary industrial or everyday use.",
+        "type": "memory",
+        "pairs": {
+            "Sodium hydroxide": "Manufacturing soap",
+            "Calcium hydroxide": "Whitewashing buildings",
+            "Magnesium hydroxide": "Used as an antacid"
+        }
+    },
+    {
+        "q": "The chemical name of plaster of Paris is calcium ______ hemihydrate.",
+        "type": "fill_blank",
+        "answers": [
+            "sulphate",
+            "sulfate"
+        ],
+        "other_options": [
+            "carbonate",
+            "chloride",
+            "oxide",
+            "nitrate"
+        ]
+    },
+    {
+        "q": "Which of these acids is NOT typically found naturally in food?",
+        "type": "odd_one_out",
+        "options": [
+            "Ascorbic acid",
+            "Citric acid",
+            "Tartaric acid",
+            "Sulfuric acid"
+        ],
+        "correct": "Sulfuric acid"
+    },
+    {
+        "q": "Which gas turns lime water milky?",
+        "type": "short_answer",
+        "answers": [
+            "carbon dioxide",
+            "CO2"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following acids is used in the manufacture of explosives?",
+        "type": "mcq",
+        "o": [
+            "Nitric acid",
+            "Acetic acid",
+            "Citric acid",
+            "Carbonic acid"
+        ]
+    },
+    {
+        "q": "Sodium carbonate is also known as soda ash.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a strong alkali?",
+        "type": "mcq",
+        "o": [
+            "Potassium hydroxide",
+            "Ammonium hydroxide",
+            "Magnesium hydroxide",
+            "Copper hydroxide"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Strong acids, LEFT for Weak naturally-occurring acids.",
+        "type": "swipe_cards",
+        "left_label": "Weak Acid",
+        "right_label": "Strong Acid",
+        "cards": {
+            "Hydrochloric acid": "right",
+            "Sulfuric acid": "right",
+            "Acetic acid": "left",
+            "Citric acid": "left"
+        }
+    },
+    {
+        "q": "Which of the following salts has water of crystallization?",
+        "type": "mcq",
+        "o": [
+            "Copper sulphate",
+            "Sodium chloride",
+            "Potassium nitrate",
+            "Sodium bicarbonate"
+        ]
+    },
+    {
+        "q": "Factory wastes are often treated with ______ before disposal to neutralize them.",
+        "type": "fill_blank",
+        "answers": [
+            "bases",
+            "alkalis",
+            "lime"
+        ],
+        "other_options": [
+            "acids",
+            "water",
+            "salt",
+            "indicators"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the chemical name for Vitamin C found in citrus fruits and amla.",
+        "type": "word_scramble",
+        "answer": "ASCORBIC",
+        "decoys": "XQ"
+    },
+    {
+        "q": "Name a salt used in the manufacture of borax.",
+        "type": "short_answer",
+        "answers": [
+            "boric acid",
+            "sodium borate",
+            "borax"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a tribasic acid?",
+        "type": "mcq",
+        "o": [
+            "Phosphoric acid",
+            "Hydrochloric acid",
+            "Sulphuric acid",
+            "Nitric acid"
+        ]
+    },
+    {
+        "q": "The sting of a bee is acidic and can be treated with baking soda.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following substances will turn phenolphthalein pink?",
+        "type": "mcq",
+        "o": [
+            "Sodium hydroxide solution",
+            "Hydrochloric acid",
+            "Distilled water",
+            "Vinegar"
+        ]
+    },
+    {
+        "q": "Which salt is obtained from sea water by evaporation?",
+        "type": "mcq",
+        "o": [
+            "Sodium chloride",
+            "Sodium carbonate",
+            "Calcium sulphate",
+            "Potassium nitrate"
+        ]
+    },
+    {
+        "q": "An indicator is a substance that shows different ______ in acidic and basic media.",
+        "type": "fill_blank",
+        "answers": [
+            "colors",
+            "colours"
+        ],
+        "other_options": [
+            "tastes",
+            "smells",
+            "shapes",
+            "forms"
+        ]
+    },
+    {
+        "q": "Match the acid with its use:",
+        "type": "match",
+        "left": [
+            "Sulphuric acid",
+            "Nitric acid",
+            "Hydrochloric acid",
+            "Acetic acid"
+        ],
+        "right": [
+            "Car batteries",
+            "Fertilizers",
+            "Cleaning metal surfaces",
+            "Food preservative"
+        ]
+    },
+    {
+        "q": "What is the pH range of acids?",
+        "type": "short_answer",
+        "answers": [
+            "0 to less than 7",
+            "below 7",
+            "less than 7",
+            "0-6"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following indicators is extracted from lichens?",
+        "type": "mcq",
+        "o": [
+            "Litmus",
+            "Turmeric",
+            "Phenolphthalein",
+            "Methyl orange"
+        ]
+    },
+    {
+        "q": "Bleaching powder is prepared by passing chlorine gas over dry slaked lime.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used in making baking powder?",
+        "type": "mcq",
+        "o": [
+            "Sodium bicarbonate",
+            "Sodium hydroxide",
+            "Calcium carbonate",
+            "Magnesium sulphate"
+        ]
+    },
+    {
+        "q": "Complete the sentence regarding industrial pollution.",
+        "type": "inline_dropdown",
+        "text": "Factory wastes often contain [0] which must be neutralized before disposal by adding [1] substances.",
+        "dropdowns": [
+            {
+                "correct": "acids",
+                "options": [
+                    "bases",
+                    "salts",
+                    "acids"
+                ]
+            },
+            {
+                "correct": "basic",
+                "options": [
+                    "neutral",
+                    "basic",
+                    "acidic"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The chemical formula of sulphuric acid is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "H2SO4"
+        ],
+        "other_options": [
+            "HCl",
+            "HNO3",
+            "H3PO4",
+            "CH3COOH"
+        ]
+    },
+    {
+        "q": "Which of the following is a water-soluble base?",
+        "type": "mcq",
+        "o": [
+            "Sodium hydroxide",
+            "Copper oxide",
+            "Iron hydroxide",
+            "Zinc oxide"
+        ]
+    },
+    {
+        "q": "Name the gas released when acids react with carbonates and bicarbonates.",
+        "type": "short_answer",
+        "answers": [
+            "carbon dioxide",
+            "CO2"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is NOT a synthetic indicator?",
+        "type": "mcq",
+        "o": [
+            "Red cabbage juice",
+            "Methyl orange",
+            "Phenolphthalein",
+            "Universal indicator"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the condition of soil that requires treatment with quicklime.",
+        "type": "word_scramble",
+        "answer": "ACIDIC",
+        "decoys": "ZP"
+    },
+    {
+        "q": "The pH of a solution increases when an acid is added to it.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which salt is used in the manufacture of cement?",
+        "type": "mcq",
+        "o": [
+            "Calcium carbonate",
+            "Sodium chloride",
+            "Potassium nitrate",
+            "Ammonium sulphate"
+        ]
+    },
+    {
+        "q": "Match the substance with its pH value:",
+        "type": "match",
+        "left": [
+            "Lemon juice",
+            "Pure water",
+            "Baking soda solution",
+            "Milk of magnesia"
+        ],
+        "right": [
+            "Around 2",
+            "7",
+            "Around 8",
+            "Around 10"
+        ]
+    },
+    {
+        "q": "Complete the sentence regarding agricultural soil treatment.",
+        "type": "inline_dropdown",
+        "text": "When soil is too basic, organic matter is added which releases [0] to neutralize the [1] nature.",
+        "dropdowns": [
+            {
+                "correct": "acids",
+                "options": [
+                    "bases",
+                    "salts",
+                    "acids"
+                ]
+            },
+            {
+                "correct": "basic",
+                "options": [
+                    "acidic",
+                    "basic",
+                    "neutral"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Blue vitriol is the common name of ______ sulphate.",
+        "type": "fill_blank",
+        "answers": [
+            "copper"
+        ],
+        "other_options": [
+            "iron",
+            "zinc",
+            "magnesium",
+            "calcium"
+        ]
+    },
+    {
+        "q": "Which of the following acids is found in apples?",
+        "type": "mcq",
+        "o": [
+            "Malic acid",
+            "Citric acid",
+            "Tartaric acid",
+            "Oxalic acid"
+        ]
+    },
+    {
+        "q": "What is the chemical name of caustic potash?",
+        "type": "short_answer",
+        "answers": [
+            "potassium hydroxide",
+            "KOH"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used to disinfect water?",
+        "type": "mcq",
+        "o": [
+            "Bleaching powder",
+            "Baking soda",
+            "Washing soda",
+            "Common salt"
+        ]
+    },
+    {
+        "q": "Calcium hydroxide is soluble in water and forms lime water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following will turn red litmus blue?",
+        "type": "mcq",
+        "o": [
+            "Ammonia solution",
+            "Lemon juice",
+            "Vinegar",
+            "Orange juice"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if the indicator exhibits this color in ACID, LEFT if it does not.",
+        "type": "swipe_cards",
+        "left_label": "Not Acid Color",
+        "right_label": "Color in Acid",
+        "cards": {
+            "Litmus turns Red": "right",
+            "Phenolphthalein turns Pink": "left",
+            "Turmeric turns Yellow": "right",
+            "China Rose turns Green": "left"
+        }
+    },
+    {
+        "q": "The acidity of soil is neutralized by adding ______.",
+        "type": "fill_blank",
+        "answers": [
+            "lime",
+            "calcium oxide",
+            "quick lime"
+        ],
+        "other_options": [
+            "vinegar",
+            "salt",
+            "sugar",
+            "alcohol"
+        ]
+    },
+    {
+        "q": "Name a salt that is used as a fungicide.",
+        "type": "short_answer",
+        "answers": [
+            "copper sulphate",
+            "CuSO4",
+            "blue vitriol"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is an acid salt?",
+        "type": "mcq",
+        "o": [
+            "Sodium bicarbonate",
+            "Sodium chloride",
+            "Potassium nitrate",
+            "Calcium sulphate"
+        ]
+    },
+    {
+        "q": "Match the natural indicator with its source:",
+        "type": "match",
+        "left": [
+            "Turmeric",
+            "Litmus",
+            "Red cabbage",
+            "China rose"
+        ],
+        "right": [
+            "Root of turmeric plant",
+            "Lichens",
+            "Red cabbage leaves",
+            "China rose petals"
+        ]
+    },
+    {
+        "q": "Which of the following is a monobasic acid?",
+        "type": "mcq",
+        "o": [
+            "Nitric acid",
+            "Sulphuric acid",
+            "Carbonic acid",
+            "Phosphoric acid"
+        ]
+    },
+    {
+        "q": "How many hydrogen atoms are present in one molecule of Sulfuric Acid?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "A base turns methyl orange from orange to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "yellow"
+        ],
+        "other_options": [
+            "red",
+            "pink",
+            "colorless",
+            "blue"
+        ]
+    },
+    {
+        "q": "Match the acid and base reactants to the specific salt they produce.",
+        "type": "memory",
+        "pairs": {
+            "Hydrochloric acid + Sodium hydroxide": "Sodium chloride",
+            "Nitric acid + Potassium hydroxide": "Potassium nitrate",
+            "Sulfuric acid + Copper hydroxide": "Copper sulfate"
+        }
+    },
+    {
+        "q": "Vinegar is used as a food preservative.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following salts is used in the paper industry?",
+        "type": "mcq",
+        "o": [
+            "Sodium sulphate",
+            "Sodium chloride",
+            "Potassium nitrate",
+            "Calcium carbonate"
+        ]
+    },
+    {
+        "q": "What is the common name of magnesium hydroxide?",
+        "type": "short_answer",
+        "answers": [
+            "milk of magnesia"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT used as an antacid to relieve indigestion?",
+        "type": "odd_one_out",
+        "options": [
+            "Milk of Magnesia",
+            "Sodium Bicarbonate",
+            "Calamine solution",
+            "Hydrochloric Acid"
+        ],
+        "correct": "Hydrochloric Acid"
+    },
+    {
+        "q": "Which of the following is a weak base?",
+        "type": "mcq",
+        "o": [
+            "Ammonium hydroxide",
+            "Sodium hydroxide",
+            "Potassium hydroxide",
+            "Calcium hydroxide"
+        ]
+    },
+    {
+        "q": "The pH of gastric juice in the human stomach is around ______.",
+        "type": "fill_blank",
+        "answers": [
+            "1.5",
+            "1 to 2",
+            "1-2"
+        ],
+        "other_options": [
+            "7",
+            "10",
+            "5",
+            "14"
+        ]
+    },
+    {
+        "q": "Which of the following is used in the purification of water?",
+        "type": "mcq",
+        "o": [
+            "Alum",
+            "Common salt",
+            "Baking soda",
+            "Washing soda"
+        ]
+    },
+    {
+        "q": "Sodium hydroxide is also known as washing soda.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which acid is used in the manufacture of synthetic fibers like rayon?",
+        "type": "mcq",
+        "o": [
+            "Sulphuric acid",
+            "Hydrochloric acid",
+            "Nitric acid",
+            "Acetic acid"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if the indicator exhibits this color in a BASE, LEFT if it does not.",
+        "type": "swipe_cards",
+        "left_label": "Not Base Color",
+        "right_label": "Color in Base",
+        "cards": {
+            "Litmus turns Blue": "right",
+            "Phenolphthalein turns Colorless": "left",
+            "Turmeric turns Red": "right",
+            "China Rose turns Magenta": "left"
+        }
+    },
+    {
+        "q": "Match the salt with its water of crystallization:",
+        "type": "match",
+        "left": [
+            "Copper sulphate",
+            "Washing soda",
+            "Gypsum",
+            "Iron sulphate"
+        ],
+        "right": [
+            "5 molecules",
+            "10 molecules",
+            "2 molecules",
+            "7 molecules"
+        ]
+    },
+    {
+        "q": "Name the acid present in curd.",
+        "type": "short_answer",
+        "answers": [
+            "lactic acid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is NOT a basic salt?",
+        "type": "mcq",
+        "o": [
+            "Sodium chloride",
+            "Sodium carbonate",
+            "Potassium carbonate",
+            "Sodium acetate"
+        ]
+    },
+    {
+        "q": "Acids react with metal oxides to form salt and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "water"
+        ],
+        "other_options": [
+            "hydrogen",
+            "oxygen",
+            "carbon dioxide",
+            "nitrogen"
+        ]
+    },
+    {
+        "q": "Which of the following is used as a desiccating agent in laboratories?",
+        "type": "mcq",
+        "o": [
+            "Concentrated sulphuric acid",
+            "Dilute hydrochloric acid",
+            "Acetic acid",
+            "Nitric acid"
+        ]
+    },
+    {
+        "q": "The human body maintains a blood pH of approximately 7.4.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following indicators remains colorless in acidic medium and turns pink in basic medium?",
+        "type": "mcq",
+        "o": [
+            "Phenolphthalein",
+            "Methyl orange",
+            "Litmus",
+            "Turmeric"
+        ]
+    },
+    {
+        "q": "Which salt is used in the textile industry for dyeing?",
+        "type": "mcq",
+        "o": [
+            "Sodium chloride",
+            "Calcium sulphate",
+            "Ammonium nitrate",
+            "Potassium carbonate"
+        ]
+    },
+    {
+        "q": "The chemical formula of nitric acid is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "HNO3"
+        ],
+        "other_options": [
+            "HCl",
+            "H2SO4",
+            "H3PO4",
+            "CH3COOH"
+        ]
+    },
+    {
+        "q": "What is the nature of soap solution?",
+        "type": "short_answer",
+        "answers": [
+            "basic",
+            "alkaline"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: the common name for calcium oxide used to treat acidic soil.",
+        "type": "word_scramble",
+        "answer": "QUICKLIME",
+        "decoys": "VZ"
+    },
+    {
+        "q": "Which of the following is used to make soft drinks?",
+        "type": "mcq",
+        "o": [
+            "Carbonic acid",
+            "Hydrochloric acid",
+            "Sulphuric acid",
+            "Nitric acid"
+        ]
+    },
+    {
+        "q": "Baking soda is acidic in nature.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is a normal salt?",
+        "type": "mcq",
+        "o": [
+            "Sodium chloride",
+            "Sodium bicarbonate",
+            "Sodium bisulphate",
+            "Potassium bisulphate"
+        ]
+    },
+    {
+        "q": "Match the indicator with its color in acid:",
+        "type": "match",
+        "left": [
+            "Blue litmus",
+            "Methyl orange",
+            "Phenolphthalein",
+            "Turmeric"
+        ],
+        "right": [
+            "Red",
+            "Red",
+            "Colorless",
+            "Yellow"
+        ]
+    },
+    {
+        "q": "Sea water tastes salty due to the presence of dissolved ______.",
+        "type": "fill_blank",
+        "answers": [
+            "salts",
+            "sodium chloride"
+        ],
+        "other_options": [
+            "sugar",
+            "acids",
+            "bases",
+            "minerals"
+        ]
+    },
+    {
+        "q": "Name the acid used in lead storage batteries.",
+        "type": "short_answer",
+        "answers": [
+            "sulphuric acid",
+            "sulfuric acid",
+            "H2SO4"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a use of washing soda?",
+        "type": "mcq",
+        "o": [
+            "Removing permanent hardness of water",
+            "Baking cakes",
+            "Pickling",
+            "Making antacids"
+        ]
+    },
+    {
+        "q": "Complete the sentence about turmeric as an indicator.",
+        "type": "inline_dropdown",
+        "text": "A turmeric stain on a white shirt turns [0] when washed with soap because soap is [1] in nature.",
+        "dropdowns": [
+            {
+                "correct": "red",
+                "options": [
+                    "yellow",
+                    "blue",
+                    "red"
+                ]
+            },
+            {
+                "correct": "basic",
+                "options": [
+                    "acidic",
+                    "basic",
+                    "neutral"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Acids conduct electricity in aqueous solutions due to the presence of ions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following solutions will have a pH greater than 7?",
+        "type": "mcq",
+        "o": [
+            "Lime water",
+            "Vinegar",
+            "Lemon juice",
+            "Coca cola"
+        ]
+    },
+    {
+        "q": "Which of the following is a crystalline salt?",
+        "type": "mcq",
+        "o": [
+            "Potash alum",
+            "Sodium chloride",
+            "Potassium nitrate",
+            "All of the above"
+        ]
+    },
+    {
+        "q": "The process of adding lime to acidic soil is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "liming"
+        ],
+        "other_options": [
+            "neutralization",
+            "acidification",
+            "salinization",
+            "fertilization"
+        ]
+    },
+    {
+        "q": "What is the color of copper sulphate crystals?",
+        "type": "short_answer",
+        "answers": [
+            "blue"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following acids is used as an oxidizing agent?",
+        "type": "mcq",
+        "o": [
+            "Nitric acid",
+            "Acetic acid",
+            "Citric acid",
+            "Formic acid"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the everyday common name for sodium chloride.",
+        "type": "word_scramble",
+        "answer": "SALT",
+        "decoys": "XR"
+    },
+    {
+        "q": "Lime juice will turn turmeric paper red.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which salt is also known as Epsom salt?",
+        "type": "mcq",
+        "o": [
+            "Magnesium sulphate",
+            "Sodium sulphate",
+            "Calcium sulphate",
+            "Potassium sulphate"
+        ]
+    },
+    {
+        "q": "Match the base with its common name:",
+        "type": "match",
+        "left": [
+            "NaOH",
+            "KOH",
+            "Ca(OH)2",
+            "Mg(OH)2"
+        ],
+        "right": [
+            "Caustic soda",
+            "Caustic potash",
+            "Slaked lime",
+            "Milk of magnesia"
+        ]
+    },
+    {
+        "q": "Complete the sentence about the destructive effects of acid rain.",
+        "type": "inline_dropdown",
+        "text": "Acid rain damages historical buildings made of [0] due to a chemical reaction with calcium [1].",
+        "dropdowns": [
+            {
+                "correct": "marble",
+                "options": [
+                    "granite",
+                    "marble",
+                    "brick"
+                ]
+            },
+            {
+                "correct": "carbonate",
+                "options": [
+                    "sulfate",
+                    "chloride",
+                    "carbonate"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "An alkali is a base that dissolves in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "water"
+        ],
+        "other_options": [
+            "acid",
+            "alcohol",
+            "oil",
+            "air"
+        ]
+    },
+    {
+        "q": "Name the gas that is released when an acid reacts with a metal sulphide.",
+        "type": "short_answer",
+        "answers": [
+            "hydrogen sulphide",
+            "H2S"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used in the manufacture of glass and paper?",
+        "type": "mcq",
+        "o": [
+            "Sodium carbonate",
+            "Sodium bicarbonate",
+            "Sodium chloride",
+            "Sodium hydroxide"
+        ]
+    },
+    {
+        "q": "Sulphuric acid is a dibasic acid because it has two replaceable hydrogen atoms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match these chemical properties to the correct type of substance.",
+        "type": "memory",
+        "pairs": {
+            "Tastes sour and turns blue litmus red": "Acid",
+            "Tastes bitter and turns red litmus blue": "Base",
+            "Causes no color change in either litmus paper": "Neutral substance"
+        }
+    },
+    {
+        "q": "Which of the following is an olfactory indicator?",
+        "type": "mcq",
+        "o": [
+            "Vanilla essence",
+            "Litmus",
+            "Turmeric",
+            "Phenolphthalein"
+        ]
+    },
+    {
+        "q": "Which of the following is used in the manufacture of fertilizers and explosives?",
+        "type": "mcq",
+        "o": [
+            "Ammonium nitrate",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Copper sulphate"
+        ]
+    },
+    {
+        "q": "The chemical formula of phosphoric acid is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "H3PO4"
+        ],
+        "other_options": [
+            "HCl",
+            "HNO3",
+            "H2SO4",
+            "CH3COOH"
+        ]
+    },
+    {
+        "q": "Name a salt that is used in the manufacture of pottery.",
+        "type": "short_answer",
+        "answers": [
+            "gypsum",
+            "calcium sulphate",
+            "CaSO4.2H2O"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following acids is used in the manufacture of aqua regia?",
+        "type": "mcq",
+        "o": [
+            "Hydrochloric acid and nitric acid",
+            "Sulphuric acid and nitric acid",
+            "Hydrochloric acid and sulphuric acid",
+            "Nitric acid and phosphoric acid"
+        ]
+    },
+    {
+        "q": "What is the pH of a completely neutral salt solution at room temperature?",
+        "type": "slider",
+        "min": 1,
+        "max": 14,
+        "correct": 7
+    },
+    {
+        "q": "Match these common laboratory acids to their chemical names.",
+        "type": "memory",
+        "pairs": {
+            "HCl": "Hydrochloric acid",
+            "H2SO4": "Sulfuric acid",
+            "HNO3": "Nitric acid"
+        }
+    },
+    {
+        "q": "What is the ratio of HCl to HNO3 in aqua regia?",
+        "type": "short_answer",
+        "answers": [
+            "3:1",
+            "3 to 1"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of losing water of crystallization when exposed to air is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "efflorescence"
+        ],
+        "other_options": [
+            "deliquescence",
+            "hygroscopy",
+            "dehydration",
+            "sublimation"
+        ]
+    },
+    {
+        "q": "An acid-base reaction always produces a salt that is neutral in nature.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following salts is deliquescent in nature?",
+        "type": "mcq",
+        "o": [
+            "Calcium chloride",
+            "Sodium chloride",
+            "Copper sulphate",
+            "Potassium nitrate"
+        ]
+    },
+    {
+        "q": "Match the substance with its water-absorbing property:",
+        "type": "match",
+        "left": [
+            "Concentrated H2SO4",
+            "Calcium chloride",
+            "Washing soda",
+            "Silica gel"
+        ],
+        "right": [
+            "Dehydrating agent",
+            "Deliquescent",
+            "Efflorescent",
+            "Hygroscopic"
+        ]
+    },
+    {
+        "q": "Which of these is generally considered a weak base rather than a strong one?",
+        "type": "odd_one_out",
+        "options": [
+            "Sodium hydroxide",
+            "Potassium hydroxide",
+            "Barium hydroxide",
+            "Ammonium hydroxide"
+        ],
+        "correct": "Ammonium hydroxide"
+    },
+    {
+        "q": "Which of the following is an example of a complex salt?",
+        "type": "mcq",
+        "o": [
+            "Potassium ferrocyanide",
+            "Sodium chloride",
+            "Sodium bicarbonate",
+            "Calcium sulphate"
+        ]
+    },
+    {
+        "q": "The pH of a solution measured using universal indicator turns greenish-blue. What is the approximate pH?",
+        "type": "mcq",
+        "o": [
+            "Around 9",
+            "Around 3",
+            "Around 5",
+            "Around 7"
+        ]
+    },
+    {
+        "q": "During neutralization, the H+ ions from acid and OH- ions from base combine to form ______.",
+        "type": "fill_blank",
+        "answers": [
+            "water",
+            "H2O"
+        ],
+        "other_options": [
+            "salt",
+            "gas",
+            "precipitate",
+            "ions"
+        ]
+    },
+    {
+        "q": "What is the chemical name of the salt KNO3?",
+        "type": "short_answer",
+        "answers": [
+            "potassium nitrate"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a mixed salt?",
+        "type": "mcq",
+        "o": [
+            "Sodium potassium carbonate",
+            "Sodium chloride",
+            "Potassium nitrate",
+            "Ammonium chloride"
+        ]
+    },
+    {
+        "q": "Ammonium hydroxide is a strong base.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following acids is the weakest?",
+        "type": "mcq",
+        "o": [
+            "Carbonic acid",
+            "Hydrochloric acid",
+            "Sulphuric acid",
+            "Nitric acid"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for positively charged ions (cations), LEFT for negatively charged ions (anions) found in these compounds.",
+        "type": "swipe_cards",
+        "left_label": "Negative Ion",
+        "right_label": "Positive Ion",
+        "cards": {
+            "Hydrogen ion (H+)": "right",
+            "Hydroxide ion (OH-)": "left",
+            "Sodium ion (Na+)": "right",
+            "Chloride ion (Cl-)": "left"
+        }
+    },
+    {
+        "q": "Which salt is prepared by the reaction of a weak acid and a strong base?",
+        "type": "mcq",
+        "o": [
+            "Sodium carbonate",
+            "Ammonium chloride",
+            "Sodium chloride",
+            "Copper sulphate"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the specific element whose positive ions are responsible for the acidic nature of a solution.",
+        "type": "word_scramble",
+        "answer": "HYDROGEN",
+        "decoys": "ZQ"
+    },
+    {
+        "q": "Litmus is available in the form of solution and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "paper",
+            "paper strips"
+        ],
+        "other_options": [
+            "powder",
+            "crystal",
+            "tablet",
+            "gel"
+        ]
+    },
+    {
+        "q": "Name the acid used for etching glass.",
+        "type": "short_answer",
+        "answers": [
+            "hydrofluoric acid",
+            "HF"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following will have a pH less than 7?",
+        "type": "mcq",
+        "o": [
+            "Ammonium chloride solution",
+            "Sodium carbonate solution",
+            "Sodium chloride solution",
+            "Potassium nitrate solution"
+        ]
+    },
+    {
+        "q": "Complete the sentence regarding water-soluble bases.",
+        "type": "inline_dropdown",
+        "text": "Bases that completely dissolve in water are called [0], and they release [1] ions.",
+        "dropdowns": [
+            {
+                "correct": "alkalis",
+                "options": [
+                    "salts",
+                    "alkalis",
+                    "acids"
+                ]
+            },
+            {
+                "correct": "hydroxide",
+                "options": [
+                    "hydrogen",
+                    "hydroxide",
+                    "oxide"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Sodium carbonate solution turns red litmus blue because it is a salt of weak acid and strong base.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used as a mordant in dyeing?",
+        "type": "mcq",
+        "o": [
+            "Alum",
+            "Common salt",
+            "Baking soda",
+            "Washing soda"
+        ]
+    },
+    {
+        "q": "Match the salt with its nature:",
+        "type": "match",
+        "left": [
+            "NaCl",
+            "Na2CO3",
+            "NH4Cl",
+            "CH3COONa"
+        ],
+        "right": [
+            "Neutral",
+            "Basic",
+            "Acidic",
+            "Basic"
+        ]
+    },
+    {
+        "q": "The reaction NaOH + HCl -> NaCl + H2O is a ______ reaction.",
+        "type": "fill_blank",
+        "answers": [
+            "neutralization",
+            "neutralisation"
+        ],
+        "other_options": [
+            "displacement",
+            "combination",
+            "decomposition",
+            "redox"
+        ]
+    },
+    {
+        "q": "What is the common name of sodium sulphate decahydrate?",
+        "type": "short_answer",
+        "answers": [
+            "Glauber's salt",
+            "Glaubers salt"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following indicators is used as a universal indicator?",
+        "type": "mcq",
+        "o": [
+            "A mixture of several indicators",
+            "Phenolphthalein only",
+            "Methyl orange only",
+            "Litmus only"
+        ]
+    },
+    {
+        "q": "Which of the following is used to remove temporary hardness of water?",
+        "type": "mcq",
+        "o": [
+            "Calcium hydroxide",
+            "Sodium chloride",
+            "Calcium sulphate",
+            "Magnesium sulphate"
+        ]
+    },
+    {
+        "q": "The concentration of hydrogen ions in a solution with pH 4 is ______ times more than a solution with pH 5.",
+        "type": "fill_blank",
+        "answers": [
+            "10",
+            "ten"
+        ],
+        "other_options": [
+            "2",
+            "5",
+            "100",
+            "1"
+        ]
+    },
+    {
+        "q": "Unscramble the word: a base that is highly soluble in water.",
+        "type": "word_scramble",
+        "answer": "ALKALI",
+        "decoys": "VM"
+    },
+    {
+        "q": "Which of the following is a property of both acids and bases?",
+        "type": "mcq",
+        "o": [
+            "Conduct electricity in aqueous solution",
+            "Turn litmus red",
+            "Taste sour",
+            "Feel soapy"
+        ]
+    },
+    {
+        "q": "Name the salt formed when zinc reacts with sulphuric acid.",
+        "type": "short_answer",
+        "answers": [
+            "zinc sulphate",
+            "zinc sulfate",
+            "ZnSO4"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Glacial acetic acid is pure acetic acid that freezes at room temperature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the common rule regarding bases and alkalis.",
+        "type": "inline_dropdown",
+        "text": "All [0] are bases, but not all bases are [1] because some do not dissolve in water.",
+        "dropdowns": [
+            {
+                "correct": "alkalis",
+                "options": [
+                    "salts",
+                    "alkalis",
+                    "acids"
+                ]
+            },
+            {
+                "correct": "alkalis",
+                "options": [
+                    "salts",
+                    "alkalis",
+                    "acids"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of the following is an example of a double salt?",
+        "type": "mcq",
+        "o": [
+            "Potash alum",
+            "Sodium chloride",
+            "Sodium bicarbonate",
+            "Copper sulphate"
+        ]
+    },
+    {
+        "q": "Which of the following is used in the manufacture of safety matches?",
+        "type": "mcq",
+        "o": [
+            "Potassium chlorate",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Ammonium nitrate"
+        ]
+    },
+    {
+        "q": "Substances that change smell in acidic or basic media are called ______ indicators.",
+        "type": "fill_blank",
+        "answers": [
+            "olfactory"
+        ],
+        "other_options": [
+            "synthetic",
+            "natural",
+            "universal",
+            "visual"
+        ]
+    },
+    {
+        "q": "Match the pH value with the sample:",
+        "type": "match",
+        "left": [
+            "Saliva",
+            "Milk",
+            "Tomato juice",
+            "Sea water"
+        ],
+        "right": [
+            "6.5-7.5",
+            "6.5",
+            "4.0",
+            "8.5"
+        ]
+    },
+    {
+        "q": "Which of the following is a use of nitric acid?",
+        "type": "mcq",
+        "o": [
+            "Manufacture of fertilizers",
+            "Food preservation",
+            "Making soap",
+            "Making glass"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for salts typically used in food preparation, LEFT for salts used for non-edible purposes.",
+        "type": "swipe_cards",
+        "left_label": "Non-edible Use",
+        "right_label": "Edible Use",
+        "cards": {
+            "Sodium chloride (Table salt)": "right",
+            "Sodium carbonate (Washing soda)": "left",
+            "Sodium bicarbonate (Baking soda)": "right",
+            "Copper sulfate (Fungicide)": "left"
+        }
+    },
+    {
+        "q": "How many oxygen atoms are present in one molecule of Nitric Acid?",
+        "type": "slider",
+        "min": 1,
+        "max": 6,
+        "correct": 3
+    },
+    {
+        "q": "What is the formula of sodium zincate?",
+        "type": "short_answer",
+        "answers": [
+            "Na2ZnO2"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is NOT a property of salts?",
+        "type": "mcq",
+        "o": [
+            "Always sour in taste",
+            "Can be acidic or basic",
+            "Usually crystalline solids",
+            "Formed by neutralization"
+        ]
+    },
+    {
+        "q": "Bases react with non-metallic oxides to form salt and water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following solutions will turn phenolphthalein pink?",
+        "type": "mcq",
+        "o": [
+            "Sodium acetate solution",
+            "Ammonium chloride solution",
+            "Sodium chloride solution",
+            "Copper sulphate solution"
+        ]
+    },
+    {
+        "q": "Match these common indicators to their neutral color (in pure distilled water).",
+        "type": "memory",
+        "pairs": {
+            "Litmus solution": "Purple",
+            "Phenolphthalein": "Colorless",
+            "Methyl orange": "Orange"
+        }
+    },
+    {
+        "q": "Which salt is used in the manufacture of fireworks?",
+        "type": "mcq",
+        "o": [
+            "Potassium nitrate",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Ammonium chloride"
+        ]
+    },
+    {
+        "q": "The chemical name of quick lime is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "calcium oxide"
+        ],
+        "other_options": [
+            "calcium hydroxide",
+            "calcium carbonate",
+            "calcium chloride",
+            "calcium sulphate"
+        ]
+    },
+    {
+        "q": "Name a natural indicator that is also used as a spice.",
+        "type": "short_answer",
+        "answers": [
+            "turmeric",
+            "haldi"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is an alkali?",
+        "type": "mcq",
+        "o": [
+            "Potassium hydroxide",
+            "Copper oxide",
+            "Iron hydroxide",
+            "Zinc oxide"
+        ]
+    },
+    {
+        "q": "The pH scale was introduced by Soren Sorensen.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these bases is strictly insoluble in water and therefore NOT an alkali?",
+        "type": "odd_one_out",
+        "options": [
+            "Sodium hydroxide",
+            "Potassium hydroxide",
+            "Ammonium hydroxide",
+            "Copper hydroxide"
+        ],
+        "correct": "Copper hydroxide"
+    },
+    {
+        "q": "Which of the following reacts with acids to form salt and water only?",
+        "type": "mcq",
+        "o": [
+            "Metal oxides",
+            "Metals",
+            "Metal carbonates",
+            "Metal sulphides"
+        ]
+    },
+    {
+        "q": "Match the compound with its commercial name:",
+        "type": "match",
+        "left": [
+            "CaOCl2",
+            "NaHCO3",
+            "Na2CO3",
+            "CaSO4.0.5H2O"
+        ],
+        "right": [
+            "Bleaching powder",
+            "Baking soda",
+            "Washing soda",
+            "Plaster of Paris"
+        ]
+    },
+    {
+        "q": "Which of the following is a property of a base?",
+        "type": "mcq",
+        "o": [
+            "Turns red litmus blue",
+            "Turns blue litmus red",
+            "Sour taste",
+            "Releases H+ ions"
+        ]
+    },
+    {
+        "q": "The reaction between an acid and a metal carbonate produces salt, water, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "carbon dioxide",
+            "CO2"
+        ],
+        "other_options": [
+            "hydrogen",
+            "oxygen",
+            "nitrogen",
+            "chlorine"
+        ]
+    },
+    {
+        "q": "What is the valency of sulphate ion?",
+        "type": "short_answer",
+        "answers": [
+            "2",
+            "two",
+            "-2",
+            "divalent"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used as a coolant in refrigerators?",
+        "type": "mcq",
+        "o": [
+            "Brine solution",
+            "Vinegar",
+            "Lime water",
+            "Baking soda solution"
+        ]
+    },
+    {
+        "q": "Nitric acid turns yellow on exposure to light due to decomposition.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT if phenolphthalein turns this color in the given solution, LEFT if it does not.",
+        "type": "swipe_cards",
+        "left_label": "Incorrect Color",
+        "right_label": "Correct Color",
+        "cards": {
+            "In an acid: Colorless": "right",
+            "In a neutral solution: Pink": "left",
+            "In a base: Pink": "right",
+            "In an alkali: Colorless": "left"
+        }
+    },
+    {
+        "q": "Which of the following is a characteristic of a strong acid?",
+        "type": "mcq",
+        "o": [
+            "Completely ionizes in water",
+            "Partially ionizes in water",
+            "Does not ionize in water",
+            "Releases OH- ions"
+        ]
+    },
+    {
+        "q": "Which of the following salts is hygroscopic in nature?",
+        "type": "mcq",
+        "o": [
+            "Silica gel",
+            "Sodium chloride",
+            "Copper sulphate",
+            "Potassium nitrate"
+        ]
+    },
+    {
+        "q": "An acid has pH less than 7, while a base has pH ______ than 7.",
+        "type": "fill_blank",
+        "answers": [
+            "greater",
+            "more",
+            "higher"
+        ],
+        "other_options": [
+            "less",
+            "equal",
+            "lower",
+            "smaller"
+        ]
+    },
+    {
+        "q": "Name the process where a salt absorbs moisture from air and turns into a solution.",
+        "type": "short_answer",
+        "answers": [
+            "deliquescence"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used to make soaps?",
+        "type": "mcq",
+        "o": [
+            "Sodium hydroxide",
+            "Hydrochloric acid",
+            "Sodium chloride",
+            "Ammonium chloride"
+        ]
+    },
+    {
+        "q": "The acidity of a base is defined as the number of replaceable hydroxyl ions per molecule.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a normal oxide?",
+        "type": "mcq",
+        "o": [
+            "Magnesium oxide",
+            "Zinc oxide",
+            "Aluminium oxide",
+            "Lead oxide"
+        ]
+    },
+    {
+        "q": "Unscramble the word: a substance used to test whether a liquid is acidic or basic.",
+        "type": "word_scramble",
+        "answer": "INDICATOR",
+        "decoys": "QX"
+    },
+    {
+        "q": "Match the acid with its salt name:",
+        "type": "match",
+        "left": [
+            "HCl",
+            "H2SO4",
+            "HNO3",
+            "CH3COOH"
+        ],
+        "right": [
+            "Chloride",
+            "Sulphate",
+            "Nitrate",
+            "Acetate"
+        ]
+    },
+    {
+        "q": "Which of the following indicators shows orange color in neutral medium?",
+        "type": "mcq",
+        "o": [
+            "Methyl orange",
+            "Phenolphthalein",
+            "Litmus",
+            "Turmeric"
+        ]
+    },
+    {
+        "q": "The chemical formula of sodium aluminate is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "NaAlO2"
+        ],
+        "other_options": [
+            "Na2Al2O4",
+            "Na3AlO3",
+            "Na2ZnO2",
+            "Na2CO3"
+        ]
+    },
+    {
+        "q": "What is the base used in the manufacture of glass?",
+        "type": "short_answer",
+        "answers": [
+            "sodium carbonate",
+            "washing soda",
+            "Na2CO3"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence regarding pure water.",
+        "type": "inline_dropdown",
+        "text": "Distilled water is [0] in nature and turns litmus extract to a [1] color.",
+        "dropdowns": [
+            {
+                "correct": "neutral",
+                "options": [
+                    "acidic",
+                    "basic",
+                    "neutral"
+                ]
+            },
+            {
+                "correct": "purple",
+                "options": [
+                    "red",
+                    "blue",
+                    "purple"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of the following is an amphoteric oxide?",
+        "type": "mcq",
+        "o": [
+            "Aluminium oxide",
+            "Sodium oxide",
+            "Magnesium oxide",
+            "Calcium oxide"
+        ]
+    },
+    {
+        "q": "Iron rusting is an example of a neutralization reaction.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following salts is used in blueprints?",
+        "type": "mcq",
+        "o": [
+            "Potassium ferricyanide",
+            "Sodium chloride",
+            "Copper sulphate",
+            "Calcium carbonate"
+        ]
+    },
+    {
+        "q": "Which of the following is a use of gypsum?",
+        "type": "mcq",
+        "o": [
+            "Making plaster of Paris",
+            "Baking cakes",
+            "Preserving food",
+            "Making glass"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the second part of the name for the antacid 'Milk of ________'.",
+        "type": "word_scramble",
+        "answer": "MAGNESIA",
+        "decoys": "KZ"
+    },
+    {
+        "q": "The strength of an acid depends on the concentration of ______ ions in solution.",
+        "type": "fill_blank",
+        "answers": [
+            "hydrogen",
+            "H+",
+            "hydronium"
+        ],
+        "other_options": [
+            "hydroxide",
+            "chloride",
+            "sodium",
+            "oxygen"
+        ]
+    },
+    {
+        "q": "Name the indicator extracted from red cabbage.",
+        "type": "short_answer",
+        "answers": [
+            "anthocyanin"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used in the manufacture of detergents?",
+        "type": "mcq",
+        "o": [
+            "Sodium hydroxide",
+            "Hydrochloric acid",
+            "Nitric acid",
+            "Acetic acid"
+        ]
+    },
+    {
+        "q": "Acetic acid is a monobasic acid.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following reacts with sodium hydroxide to form hydrogen gas?",
+        "type": "mcq",
+        "o": [
+            "Zinc",
+            "Carbon",
+            "Sulphur",
+            "Phosphorus"
+        ]
+    },
+    {
+        "q": "Complete the sentence about treating stomach discomfort.",
+        "type": "inline_dropdown",
+        "text": "To treat indigestion caused by excess acid, we take an [0] such as milk of [1].",
+        "dropdowns": [
+            {
+                "correct": "antacid",
+                "options": [
+                    "antibiotic",
+                    "antacid",
+                    "antiseptic"
+                ]
+            },
+            {
+                "correct": "magnesia",
+                "options": [
+                    "calcium",
+                    "magnesia",
+                    "sodium"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the acid with its basicity:",
+        "type": "match",
+        "left": [
+            "HCl",
+            "H2SO4",
+            "H3PO4",
+            "CH3COOH"
+        ],
+        "right": [
+            "Monobasic",
+            "Dibasic",
+            "Tribasic",
+            "Monobasic"
+        ]
+    },
+    {
+        "q": "Which salt is used in the manufacturing of ink?",
+        "type": "mcq",
+        "o": [
+            "Ferrous sulphate",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Potassium nitrate"
+        ]
+    },
+    {
+        "q": "Match these common household names to their specific chemical compounds.",
+        "type": "memory",
+        "pairs": {
+            "Baking soda": "Sodium bicarbonate",
+            "Washing soda": "Sodium carbonate",
+            "Slaked lime": "Calcium hydroxide"
+        }
+    },
+    {
+        "q": "The reaction of a base with an acidic oxide produces a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "salt"
+        ],
+        "other_options": [
+            "gas",
+            "acid",
+            "base",
+            "water only"
+        ]
+    },
+    {
+        "q": "What is the common name of potassium aluminium sulphate?",
+        "type": "short_answer",
+        "answers": [
+            "potash alum",
+            "alum"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is NOT an alkali?",
+        "type": "mcq",
+        "o": [
+            "Ferric hydroxide",
+            "Sodium hydroxide",
+            "Potassium hydroxide",
+            "Calcium hydroxide"
+        ]
+    },
+    {
+        "q": "Sulphuric acid is used as a dehydrating agent.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is an acidic salt?",
+        "type": "mcq",
+        "o": [
+            "Sodium bisulphate",
+            "Sodium carbonate",
+            "Sodium chloride",
+            "Potassium nitrate"
+        ]
+    },
+    {
+        "q": "Which of the following indicators turns red in acidic solution and yellow in basic solution?",
+        "type": "mcq",
+        "o": [
+            "Methyl orange",
+            "Phenolphthalein",
+            "Litmus",
+            "Turmeric"
+        ]
+    },
+    {
+        "q": "Water of crystallization is the fixed number of water molecules present in one formula unit of a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "salt"
+        ],
+        "other_options": [
+            "acid",
+            "base",
+            "oxide",
+            "metal"
+        ]
+    },
+    {
+        "q": "Name a salt used in the making of chuna or lime for pan.",
+        "type": "short_answer",
+        "answers": [
+            "calcium hydroxide",
+            "slaked lime",
+            "Ca(OH)2"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following acids is present in the sting of a red ant?",
+        "type": "mcq",
+        "o": [
+            "Formic acid",
+            "Acetic acid",
+            "Citric acid",
+            "Oxalic acid"
+        ]
+    },
+    {
+        "q": "Bleaching powder releases chlorine gas when treated with acids.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used in the laboratory to prepare oxygen gas?",
+        "type": "mcq",
+        "o": [
+            "Potassium chlorate",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Ammonium chloride"
+        ]
+    },
+    {
+        "q": "Match the substance with its pH:",
+        "type": "match",
+        "left": [
+            "Blood",
+            "Lemon juice",
+            "Milk of magnesia",
+            "Distilled water"
+        ],
+        "right": [
+            "7.4",
+            "2.2",
+            "10.5",
+            "7.0"
+        ]
+    },
+    {
+        "q": "Which of the following is a use of copper sulphate?",
+        "type": "mcq",
+        "o": [
+            "As a fungicide in agriculture",
+            "As a food preservative",
+            "As a baking agent",
+            "As a glass cleaner"
+        ]
+    },
+    {
+        "q": "The basicity of phosphoric acid is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "3",
+            "three"
+        ],
+        "other_options": [
+            "1",
+            "2",
+            "4",
+            "0"
+        ]
+    },
+    {
+        "q": "What is the chemical formula of baking powder?",
+        "type": "short_answer",
+        "answers": [
+            "NaHCO3 + H+",
+            "mixture of baking soda and tartaric acid",
+            "NaHCO3 and acid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a mineral acid also called muriatic acid?",
+        "type": "mcq",
+        "o": [
+            "Hydrochloric acid",
+            "Sulphuric acid",
+            "Nitric acid",
+            "Phosphoric acid"
+        ]
+    },
+    {
+        "q": "All metal oxides are basic in nature.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following salts is used in the sterilization of water?",
+        "type": "mcq",
+        "o": [
+            "Bleaching powder",
+            "Common salt",
+            "Washing soda",
+            "Baking soda"
+        ]
+    },
+    {
+        "q": "Which salt is obtained by the combination of a strong acid and a weak base?",
+        "type": "mcq",
+        "o": [
+            "Ammonium chloride",
+            "Sodium acetate",
+            "Sodium chloride",
+            "Potassium nitrate"
+        ]
+    },
+    {
+        "q": "If a perfectly strong acid neutralizes a perfectly strong base, what is the pH of the resulting salt solution?",
+        "type": "slider",
+        "min": 0,
+        "max": 14,
+        "correct": 7
+    },
+    {
+        "q": "The reaction ZnO + 2NaOH -> Na2ZnO2 + H2O shows that zinc oxide is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "amphoteric"
+        ],
+        "other_options": [
+            "basic",
+            "acidic",
+            "neutral",
+            "metallic"
+        ]
+    },
+    {
+        "q": "Name the acid used in the production of soft drinks.",
+        "type": "short_answer",
+        "answers": [
+            "carbonic acid",
+            "phosphoric acid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is an example of a neutral oxide?",
+        "type": "mcq",
+        "o": [
+            "Nitrous oxide",
+            "Sodium oxide",
+            "Carbon dioxide",
+            "Sulphur dioxide"
+        ]
+    },
+    {
+        "q": "Hydrochloric acid is produced naturally in the stomach to aid digestion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used in the vulcanization of rubber?",
+        "type": "mcq",
+        "o": [
+            "Sulphuric acid",
+            "Hydrochloric acid",
+            "Nitric acid",
+            "Acetic acid"
+        ]
+    },
+    {
+        "q": "Match the salt with its industrial use:",
+        "type": "match",
+        "left": [
+            "NaCl",
+            "Na2CO3",
+            "CaOCl2",
+            "CuSO4"
+        ],
+        "right": [
+            "Chlor-alkali process",
+            "Glass industry",
+            "Textile industry",
+            "Electroplating"
+        ]
+    },
+    {
+        "q": "Acids react with bases to form salt and ______ gas.",
+        "type": "fill_blank",
+        "answers": [
+            "no",
+            "do not produce any"
+        ],
+        "other_options": [
+            "hydrogen",
+            "oxygen",
+            "carbon dioxide",
+            "chlorine"
+        ]
+    },
+    {
+        "q": "Match the type of salt formed to the strengths of its parent acid and base.",
+        "type": "memory",
+        "pairs": {
+            "Neutral Salt": "Strong Acid + Strong Base",
+            "Acidic Salt": "Strong Acid + Weak Base",
+            "Basic Salt": "Weak Acid + Strong Base"
+        }
+    },
+    {
+        "q": "What is the common name of sodium bicarbonate?",
+        "type": "short_answer",
+        "answers": [
+            "baking soda"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is the correct definition of a Bronsted-Lowry acid?",
+        "type": "mcq",
+        "o": [
+            "A proton donor",
+            "A proton acceptor",
+            "An electron pair donor",
+            "An electron pair acceptor"
+        ]
+    },
+    {
+        "q": "What is the pH of a 0.1 M HCl solution assuming complete ionization?",
+        "type": "short_answer",
+        "answers": [
+            "1",
+            "1.0"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The conjugate base of H2SO4 is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "HSO4-",
+            "hydrogen sulphate ion"
+        ],
+        "other_options": [
+            "SO4 2-",
+            "H3O+",
+            "OH-",
+            "H2O"
+        ]
+    },
+    {
+        "q": "In a neutralization reaction, the enthalpy change is always zero.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following salts undergoes hydrolysis to give an acidic solution?",
+        "type": "mcq",
+        "o": [
+            "Ammonium chloride",
+            "Sodium chloride",
+            "Sodium acetate",
+            "Potassium nitrate"
+        ]
+    },
+    {
+        "q": "Match the acid-base concept with its definition:",
+        "type": "match",
+        "left": [
+            "Arrhenius acid",
+            "Bronsted-Lowry base",
+            "Lewis acid",
+            "Lewis base"
+        ],
+        "right": [
+            "H+ producer in water",
+            "Proton acceptor",
+            "Electron pair acceptor",
+            "Electron pair donor"
+        ]
+    },
+    {
+        "q": "Which of the following is used in the Solvay process?",
+        "type": "mcq",
+        "o": [
+            "Sodium chloride",
+            "Sodium hydroxide",
+            "Hydrochloric acid",
+            "Sulphuric acid"
+        ]
+    },
+    {
+        "q": "The pH of a neutral solution at 25 degree Celsius is exactly 7. At higher temperatures, it becomes ______ than 7.",
+        "type": "fill_blank",
+        "answers": [
+            "less",
+            "lower",
+            "smaller"
+        ],
+        "other_options": [
+            "more",
+            "greater",
+            "higher",
+            "equal"
+        ]
+    },
+    {
+        "q": "Which of these is a strong laboratory acid rather than a weak organic acid?",
+        "type": "odd_one_out",
+        "options": [
+            "Acetic acid",
+            "Citric acid",
+            "Formic acid",
+            "Nitric acid"
+        ],
+        "correct": "Nitric acid"
+    },
+    {
+        "q": "Name the acid used in the Ostwald process for manufacturing nitric acid.",
+        "type": "short_answer",
+        "answers": [
+            "ammonia",
+            "NH3"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is an example of a buffer solution?",
+        "type": "mcq",
+        "o": [
+            "Sodium acetate and acetic acid",
+            "Sodium chloride and HCl",
+            "Water and sugar",
+            "Ammonia and NaOH"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if the substance reacts with carbonates to produce carbon dioxide gas, LEFT if it does not.",
+        "type": "swipe_cards",
+        "left_label": "No CO2 Produced",
+        "right_label": "Produces CO2",
+        "cards": {
+            "Hydrochloric acid": "right",
+            "Sulfuric acid": "right",
+            "Sodium hydroxide": "left",
+            "Potassium hydroxide": "left"
+        }
+    },
+    {
+        "q": "Phosphoric acid is a tribasic acid with three replaceable hydrogen atoms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following salts is used as a laboratory reagent for testing halides?",
+        "type": "mcq",
+        "o": [
+            "Silver nitrate",
+            "Copper sulphate",
+            "Sodium chloride",
+            "Calcium carbonate"
+        ]
+    },
+    {
+        "q": "Which of the following acids has the highest Ka value?",
+        "type": "mcq",
+        "o": [
+            "Hydrochloric acid",
+            "Acetic acid",
+            "Formic acid",
+            "Carbonic acid"
+        ]
+    },
+    {
+        "q": "The process where a salt reacts with water to produce an acidic or basic solution is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hydrolysis",
+            "salt hydrolysis"
+        ],
+        "other_options": [
+            "neutralization",
+            "ionization",
+            "dissociation",
+            "dissolution"
+        ]
+    },
+    {
+        "q": "What is the chemical formula of oleum?",
+        "type": "short_answer",
+        "answers": [
+            "H2S2O7",
+            "pyrosulphuric acid",
+            "fuming sulphuric acid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a Lewis base?",
+        "type": "mcq",
+        "o": [
+            "Ammonia",
+            "Boron trifluoride",
+            "Hydrogen ion",
+            "Aluminium chloride"
+        ]
+    },
+    {
+        "q": "The basicity of an acid is determined by the number of ionizable H+ ions per molecule.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used in the manufacture of dyes and drugs?",
+        "type": "mcq",
+        "o": [
+            "Sulphuric acid",
+            "Acetic acid",
+            "Citric acid",
+            "Carbonic acid"
+        ]
+    },
+    {
+        "q": "Match the salt with its method of preparation:",
+        "type": "match",
+        "left": [
+            "NaCl",
+            "CaCO3",
+            "CuSO4",
+            "PbCl2"
+        ],
+        "right": [
+            "Neutralization",
+            "Precipitation",
+            "Metal + acid",
+            "Double displacement"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of a polyprotic acid?",
+        "type": "mcq",
+        "o": [
+            "Sulphuric acid",
+            "Hydrochloric acid",
+            "Nitric acid",
+            "Acetic acid"
+        ]
+    },
+    {
+        "q": "The conjugate acid of ammonia (NH3) is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "NH4+",
+            "ammonium ion"
+        ],
+        "other_options": [
+            "NH2-",
+            "OH-",
+            "H3O+",
+            "N2"
+        ]
+    },
+    {
+        "q": "Name a salt that is used in the extraction of aluminium.",
+        "type": "short_answer",
+        "answers": [
+            "cryolite",
+            "sodium aluminium fluoride",
+            "Na3AlF6"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following statements is true for a buffer solution?",
+        "type": "mcq",
+        "o": [
+            "It resists changes in pH",
+            "It always has pH 7",
+            "It is formed by a strong acid and strong base",
+            "It cannot contain a weak acid"
+        ]
+    },
+    {
+        "q": "Sodium hydroxide is prepared industrially by the Castner-Kellner process.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: the second part of 'Sulfur _______', a gaseous pollutant that causes acid rain.",
+        "type": "word_scramble",
+        "answer": "DIOXIDE",
+        "decoys": "VQ"
+    },
+    {
+        "q": "Which of the following is a use of calcium carbonate?",
+        "type": "mcq",
+        "o": [
+            "Manufacture of cement",
+            "Manufacture of soap",
+            "Food preservation",
+            "Making glass"
+        ]
+    },
+    {
+        "q": "Which of the following compounds is amphoteric?",
+        "type": "mcq",
+        "o": [
+            "Zinc oxide",
+            "Sodium oxide",
+            "Carbon dioxide",
+            "Sulphur trioxide"
+        ]
+    },
+    {
+        "q": "The pH of pure water decreases with an increase in temperature because the ionization of water is an ______ process.",
+        "type": "fill_blank",
+        "answers": [
+            "endothermic"
+        ],
+        "other_options": [
+            "exothermic",
+            "isothermal",
+            "adiabatic",
+            "spontaneous"
+        ]
+    },
+    {
+        "q": "What is the IUPAC name of acetic acid?",
+        "type": "short_answer",
+        "answers": [
+            "ethanoic acid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a use of bleaching powder?",
+        "type": "mcq",
+        "o": [
+            "Bleaching cotton and wood pulp",
+            "Baking cakes",
+            "Making antacids",
+            "Preserving pickles"
+        ]
+    },
+    {
+        "q": "Complete the sentence about the composition of acid rain.",
+        "type": "inline_dropdown",
+        "text": "Acid rain primarily contains environmental acids like [0] acid and [1] acid.",
+        "dropdowns": [
+            {
+                "correct": "sulfuric",
+                "options": [
+                    "citric",
+                    "tartaric",
+                    "sulfuric"
+                ]
+            },
+            {
+                "correct": "nitric",
+                "options": [
+                    "acetic",
+                    "lactic",
+                    "nitric"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The strength of an acid depends on its degree of dissociation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following salts is used in the preparation of Bordeaux mixture?",
+        "type": "mcq",
+        "o": [
+            "Copper sulphate",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Ammonium nitrate"
+        ]
+    },
+    {
+        "q": "Match the process with its product:",
+        "type": "match",
+        "left": [
+            "Haber process",
+            "Ostwald process",
+            "Contact process",
+            "Solvay process"
+        ],
+        "right": [
+            "Ammonia",
+            "Nitric acid",
+            "Sulphuric acid",
+            "Sodium carbonate"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a constituent of baking powder?",
+        "type": "mcq",
+        "o": [
+            "Sodium hydroxide",
+            "Sodium bicarbonate",
+            "Tartaric acid",
+            "Starch"
+        ]
+    },
+    {
+        "q": "The acid used in the laboratory preparation of chlorine gas is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "hydrochloric acid",
+            "HCl"
+        ],
+        "other_options": [
+            "sulphuric acid",
+            "nitric acid",
+            "acetic acid",
+            "phosphoric acid"
+        ]
+    },
+    {
+        "q": "Name the process where hydrated salt loses water of crystallization on gentle heating.",
+        "type": "short_answer",
+        "answers": [
+            "dehydration",
+            "calcination"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following oxides is most acidic?",
+        "type": "mcq",
+        "o": [
+            "SO3",
+            "CO2",
+            "NO2",
+            "ZnO"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the calcium-based stone material of the Taj Mahal that is being corroded by acid rain.",
+        "type": "word_scramble",
+        "answer": "MARBLE",
+        "decoys": "JX"
+    },
+    {
+        "q": "Potassium nitrate is used in gunpowder.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a property of a buffer solution?",
+        "type": "mcq",
+        "o": [
+            "pH remains constant on dilution",
+            "pH changes drastically on dilution",
+            "Only works in acidic range",
+            "Contains only strong electrolytes"
+        ]
+    },
+    {
+        "q": "Which of the following salts forms a colored solution in water?",
+        "type": "mcq",
+        "o": [
+            "Copper sulphate",
+            "Sodium chloride",
+            "Potassium nitrate",
+            "Calcium chloride"
+        ]
+    },
+    {
+        "q": "The pH of a solution is defined as the negative logarithm of ______ ion concentration.",
+        "type": "fill_blank",
+        "answers": [
+            "hydrogen",
+            "H+",
+            "hydronium"
+        ],
+        "other_options": [
+            "hydroxide",
+            "sodium",
+            "chloride",
+            "sulphate"
+        ]
+    },
+    {
+        "q": "What is the common name of magnesium sulphate heptahydrate?",
+        "type": "short_answer",
+        "answers": [
+            "Epsom salt",
+            "Epsom salts"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used in the manufacture of chloroform?",
+        "type": "mcq",
+        "o": [
+            "Bleaching powder",
+            "Baking soda",
+            "Washing soda",
+            "Common salt"
+        ]
+    },
+    {
+        "q": "Complete the sentence about the phenomenon damaging historical monuments.",
+        "type": "inline_dropdown",
+        "text": "The reaction of acid rain with stone is sometimes called marble [0], caused mostly by [1] acid in the rain.",
+        "dropdowns": [
+            {
+                "correct": "cancer",
+                "options": [
+                    "decay",
+                    "cancer",
+                    "rust"
+                ]
+            },
+            {
+                "correct": "sulfuric",
+                "options": [
+                    "formic",
+                    "sulfuric",
+                    "citric"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Ammonia acts as a Lewis base because it donates a lone pair of electrons.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is NOT a method for preparing salts?",
+        "type": "mcq",
+        "o": [
+            "Sublimation",
+            "Neutralization",
+            "Precipitation",
+            "Direct combination"
+        ]
+    },
+    {
+        "q": "Match the indicator with its pH range:",
+        "type": "match",
+        "left": [
+            "Methyl orange",
+            "Phenolphthalein",
+            "Litmus",
+            "Thymol blue"
+        ],
+        "right": [
+            "3.1-4.4",
+            "8.2-10.0",
+            "4.5-8.3",
+            "1.2-2.8 and 8.0-9.6"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of a complex salt?",
+        "type": "mcq",
+        "o": [
+            "Sodium argentocyanide",
+            "Sodium chloride",
+            "Potash alum",
+            "Sodium carbonate"
+        ]
+    },
+    {
+        "q": "The reaction between a metal carbonate and an acid is used to test for the presence of ______ gas.",
+        "type": "fill_blank",
+        "answers": [
+            "carbon dioxide",
+            "CO2"
+        ],
+        "other_options": [
+            "hydrogen",
+            "oxygen",
+            "nitrogen",
+            "chlorine"
+        ]
+    },
+    {
+        "q": "Name the acid used in the manufacture of TNT explosive.",
+        "type": "short_answer",
+        "answers": [
+            "nitric acid",
+            "HNO3"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following salts is insoluble in water?",
+        "type": "mcq",
+        "o": [
+            "Lead sulphate",
+            "Sodium chloride",
+            "Copper sulphate",
+            "Potassium nitrate"
+        ]
+    },
+    {
+        "q": "The basicity of acetic acid is one.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a use of sodium hydroxide?",
+        "type": "mcq",
+        "o": [
+            "Manufacturing of rayon",
+            "Preserving pickles",
+            "Making plaster of Paris",
+            "Baking cakes"
+        ]
+    },
+    {
+        "q": "Which of the following represents the correct order of acidic strength?",
+        "type": "mcq",
+        "o": [
+            "HCl > Acetic acid > Carbonic acid",
+            "Carbonic acid > HCl > Acetic acid",
+            "Acetic acid > HCl > Carbonic acid",
+            "HCl > Carbonic acid > Acetic acid"
+        ]
+    },
+    {
+        "q": "The color of hydrated copper sulphate is blue. On losing water of crystallization, it turns ______.",
+        "type": "fill_blank",
+        "answers": [
+            "white"
+        ],
+        "other_options": [
+            "green",
+            "red",
+            "black",
+            "yellow"
+        ]
+    },
+    {
+        "q": "What is the formula of the conjugate base of HCO3-?",
+        "type": "short_answer",
+        "answers": [
+            "CO3 2-",
+            "carbonate ion"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used in the detection of carbon dioxide gas?",
+        "type": "mcq",
+        "o": [
+            "Lime water",
+            "Brine solution",
+            "Vinegar",
+            "Baking soda solution"
+        ]
+    },
+    {
+        "q": "Water acts as both an acid and a base, which makes it amphoteric.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used as a fixer in photography?",
+        "type": "mcq",
+        "o": [
+            "Sodium thiosulphate",
+            "Silver bromide",
+            "Copper sulphate",
+            "Potassium nitrate"
+        ]
+    },
+    {
+        "q": "Match the salt with its solubility in water:",
+        "type": "match",
+        "left": [
+            "NaCl",
+            "AgCl",
+            "BaSO4",
+            "KNO3"
+        ],
+        "right": [
+            "Soluble",
+            "Insoluble",
+            "Insoluble",
+            "Soluble"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a characteristic of an ideal antacid?",
+        "type": "mcq",
+        "o": [
+            "Should be highly acidic",
+            "Should neutralize excess HCl",
+            "Should not cause side effects",
+            "Should be insoluble in water"
+        ]
+    },
+    {
+        "q": "The dissociation constant of water (Kw) at 25 degree Celsius is 1 x 10^-14 mol2 dm-6.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following acids forms three series of salts?",
+        "type": "mcq",
+        "o": [
+            "Phosphoric acid",
+            "Hydrochloric acid",
+            "Nitric acid",
+            "Acetic acid"
+        ]
+    },
+    {
+        "q": "In the titration of a strong acid with a strong base, the pH at the equivalence point is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "7",
+            "seven"
+        ],
+        "other_options": [
+            "less than 7",
+            "greater than 7",
+            "0",
+            "14"
+        ]
+    },
+    {
+        "q": "Name a salt used as a mordant in dyeing and tanning.",
+        "type": "short_answer",
+        "answers": [
+            "potash alum",
+            "alum",
+            "chromium sulphate"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is NOT a method to prepare hydrogen gas?",
+        "type": "mcq",
+        "o": [
+            "Reaction of carbon with water",
+            "Reaction of zinc with HCl",
+            "Reaction of sodium with water",
+            "Electrolysis of water"
+        ]
+    },
+    {
+        "q": "Sodium bicarbonate is used in fire extinguishers because it releases CO2 when heated.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following salts forms a white precipitate with silver nitrate solution?",
+        "type": "mcq",
+        "o": [
+            "Sodium chloride",
+            "Sodium nitrate",
+            "Copper sulphate",
+            "Ferrous sulphate"
+        ]
+    },
+    {
+        "q": "The reaction between an acid and a base is exothermic and releases ______.",
+        "type": "fill_blank",
+        "answers": [
+            "heat",
+            "energy"
+        ],
+        "other_options": [
+            "light",
+            "gas",
+            "cold",
+            "sound"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if the substance tastes sour (acidic), LEFT if it tastes bitter (basic).",
+        "type": "swipe_cards",
+        "left_label": "Bitter (Base)",
+        "right_label": "Sour (Acid)",
+        "cards": {
+            "Vinegar": "right",
+            "Baking soda solution": "left",
+            "Lemon juice": "right",
+            "Soap water": "left"
+        }
+    },
+    {
+        "q": "What is the chemical formula of TSP or trisodium phosphate?",
+        "type": "short_answer",
+        "answers": [
+            "Na3PO4"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used in the purification of bauxite?",
+        "type": "mcq",
+        "o": [
+            "Sodium hydroxide",
+            "Hydrochloric acid",
+            "Sulphuric acid",
+            "Nitric acid"
+        ]
+    },
+    {
+        "q": "Match the acid with its number of ionizable protons:",
+        "type": "match",
+        "left": [
+            "HCl",
+            "H2SO4",
+            "H3PO4",
+            "CH3COOH"
+        ],
+        "right": [
+            "1",
+            "2",
+            "3",
+            "1"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of a deliquescent substance?",
+        "type": "mcq",
+        "o": [
+            "Calcium chloride",
+            "Sodium carbonate",
+            "Copper sulphate",
+            "Iron sulphate"
+        ]
+    },
+    {
+        "q": "How many distinct chemical elements make up Hydrochloric Acid?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "The pH of a salt formed from a strong acid and a weak base is always 7.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is used as a reducing agent in organic chemistry?",
+        "type": "mcq",
+        "o": [
+            "Sodium borohydride",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Ammonium sulphate"
+        ]
+    },
+    {
+        "q": "The common ion effect suppresses the ______ of a weak electrolyte.",
+        "type": "fill_blank",
+        "answers": [
+            "ionization",
+            "dissociation"
+        ],
+        "other_options": [
+            "solubility",
+            "precipitation",
+            "concentration",
+            "formation"
+        ]
+    },
+    {
+        "q": "Name the salt formed when aluminium reacts with sodium hydroxide.",
+        "type": "short_answer",
+        "answers": [
+            "sodium aluminate",
+            "NaAlO2"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match these common laboratory acids to their primary industrial uses.",
+        "type": "memory",
+        "pairs": {
+            "Sulfuric acid": "Car batteries",
+            "Nitric acid": "Manufacturing fertilizers",
+            "Hydrochloric acid": "Cleaning steel and rust removal"
+        }
+    },
+    {
+        "q": "Which of the following is NOT a use of nitric acid?",
+        "type": "mcq",
+        "o": [
+            "Making soap",
+            "Manufacturing fertilizers",
+            "Making explosives",
+            "Purification of gold"
+        ]
+    },
+    {
+        "q": "The basicity of boric acid (H3BO3) is 3.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these everyday items does NOT typically contain a base?",
+        "type": "odd_one_out",
+        "options": [
+            "Soap",
+            "Laundry detergent",
+            "Window cleaner",
+            "Orange juice"
+        ],
+        "correct": "Orange juice"
+    },
+    {
+        "q": "Which of the following salts is used in the manufacture of optical glass?",
+        "type": "mcq",
+        "o": [
+            "Potassium carbonate",
+            "Sodium chloride",
+            "Calcium sulphate",
+            "Ammonium chloride"
+        ]
+    },
+    {
+        "q": "Which of the following is a use of phosphoric acid?",
+        "type": "mcq",
+        "o": [
+            "Making phosphate fertilizers",
+            "Making soap",
+            "Bleaching textiles",
+            "Preserving food"
+        ]
+    },
+    {
+        "q": "The pH of a solution with [H+] = 1 x 10^-3 M is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "3",
+            "three"
+        ],
+        "other_options": [
+            "1",
+            "11",
+            "10",
+            "7"
+        ]
+    },
+    {
+        "q": "What is the common name of sodium potassium tartrate?",
+        "type": "short_answer",
+        "answers": [
+            "Rochelle salt"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is an example of a superphosphate fertilizer?",
+        "type": "mcq",
+        "o": [
+            "Calcium dihydrogen phosphate",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Potassium nitrate"
+        ]
+    },
+    {
+        "q": "Amphoteric oxides react only with acids.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is used in the production of sulfur dioxide in the lab?",
+        "type": "mcq",
+        "o": [
+            "Sodium sulphite and HCl",
+            "Sodium chloride and H2SO4",
+            "Calcium carbonate and HNO3",
+            "Copper and HCl"
+        ]
+    },
+    {
+        "q": "Match the pH with the solution type:",
+        "type": "match",
+        "left": [
+            "pH = 2",
+            "pH = 7",
+            "pH = 9",
+            "pH = 5"
+        ],
+        "right": [
+            "Strong acid",
+            "Neutral salt",
+            "Weak base",
+            "Weak acid"
+        ]
+    },
+    {
+        "q": "The dissociation of a weak acid is an equilibrium process characterized by the ______ constant.",
+        "type": "fill_blank",
+        "answers": [
+            "acid dissociation",
+            "Ka",
+            "ionization"
+        ],
+        "other_options": [
+            "solubility",
+            "formation",
+            "equilibrium",
+            "base dissociation"
+        ]
+    },
+    {
+        "q": "Name a salt used in the manufacturing of pottery and cement.",
+        "type": "short_answer",
+        "answers": [
+            "gypsum",
+            "calcium sulphate",
+            "CaSO4"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is an example of a monoprotic acid?",
+        "type": "mcq",
+        "o": [
+            "Nitric acid",
+            "Sulphuric acid",
+            "Carbonic acid",
+            "Phosphoric acid"
+        ]
+    },
+    {
+        "q": "Alum is used in the purification of water as a coagulant.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT if the pH value represents a Base, LEFT if it represents an Acid.",
+        "type": "swipe_cards",
+        "left_label": "Acid",
+        "right_label": "Base",
+        "cards": {
+            "pH 2": "left",
+            "pH 13": "right",
+            "pH 5": "left",
+            "pH 9": "right"
+        }
+    },
+    {
+        "q": "Which of the following is used in the paper industry to delignify wood?",
+        "type": "mcq",
+        "o": [
+            "Sodium hydroxide",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Ammonium chloride"
+        ]
+    },
+    {
+        "q": "Which of the following reactions produces a mixed salt?",
+        "type": "mcq",
+        "o": [
+            "NaOH + H2SO4 -> NaHSO4 + H2O",
+            "HCl + NaOH -> NaCl + H2O",
+            "Na2CO3 + HCl -> NaCl + NaHCO3",
+            "Both A and C"
+        ]
+    },
+    {
+        "q": "The number of water molecules in gypsum is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "2",
+            "two"
+        ],
+        "other_options": [
+            "1",
+            "0.5",
+            "5",
+            "10"
+        ]
+    },
+    {
+        "q": "What is the formula of the conjugate acid of H2O?",
+        "type": "short_answer",
+        "answers": [
+            "H3O+",
+            "hydronium ion"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is the correct expression for the ionic product of water (Kw)?",
+        "type": "mcq",
+        "o": [
+            "[H+][OH-]",
+            "[H+]/[OH-]",
+            "[H2O]/[H+][OH-]",
+            "[H+][OH-]/[H2O]"
+        ]
+    },
+    {
+        "q": "What is the pKa of a weak acid with Ka = 1.8 x 10^-5?",
+        "type": "short_answer",
+        "answers": [
+            "4.74",
+            "4.7",
+            "4.745"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In the Bronsted-Lowry theory, the species formed after an acid donates a proton is called its ______ base.",
+        "type": "fill_blank",
+        "answers": [
+            "conjugate"
+        ],
+        "other_options": [
+            "conjugated",
+            "corresponding",
+            "derived",
+            "paired"
+        ]
+    },
+    {
+        "q": "A solution with pH 0 is possible and represents a 1 M solution of a strong monoprotic acid.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following indicators is most suitable for a titration between a weak acid and a strong base?",
+        "type": "mcq",
+        "o": [
+            "Phenolphthalein",
+            "Methyl orange",
+            "Methyl red",
+            "Bromophenol blue"
+        ]
+    },
+    {
+        "q": "Match the buffer system with its application:",
+        "type": "match",
+        "left": [
+            "H2CO3/HCO3-",
+            "H2PO4-/HPO4 2-",
+            "CH3COOH/CH3COONa",
+            "NH3/NH4Cl"
+        ],
+        "right": [
+            "Blood pH regulation",
+            "Intracellular fluid",
+            "Laboratory acidic buffer",
+            "Laboratory basic buffer"
+        ]
+    },
+    {
+        "q": "Which of the following salts exhibits anionic hydrolysis?",
+        "type": "mcq",
+        "o": [
+            "Sodium carbonate",
+            "Ammonium chloride",
+            "Sodium chloride",
+            "Potassium nitrate"
+        ]
+    },
+    {
+        "q": "The degree of dissociation of a weak acid increases with dilution according to ______ law.",
+        "type": "fill_blank",
+        "answers": [
+            "Ostwald's",
+            "Ostwald"
+        ],
+        "other_options": [
+            "Henry's",
+            "Raoult's",
+            "Faraday's",
+            "Graham's"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the distinct physical feel of a base when rubbed between the fingers.",
+        "type": "word_scramble",
+        "answer": "SOAPY",
+        "decoys": "ZQ"
+    },
+    {
+        "q": "Complete the sentence about sodium hydroxide.",
+        "type": "inline_dropdown",
+        "text": "Sodium hydroxide is a [0] base and it completely [1] when mixed in water.",
+        "dropdowns": [
+            {
+                "correct": "strong",
+                "options": [
+                    "weak",
+                    "strong",
+                    "neutral"
+                ]
+            },
+            {
+                "correct": "dissolves",
+                "options": [
+                    "solidifies",
+                    "evaporates",
+                    "dissolves"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Calculate the pH of a 0.001 M NaOH solution at 25 degree Celsius.",
+        "type": "short_answer",
+        "answers": [
+            "11",
+            "11.0"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: the organic acid predominantly found in tamarind and grapes.",
+        "type": "word_scramble",
+        "answer": "TARTARIC",
+        "decoys": "MX"
+    },
+    {
+        "q": "Which of the following is a Lewis acid but NOT a Bronsted-Lowry acid?",
+        "type": "mcq",
+        "o": [
+            "Boron trifluoride",
+            "Hydrochloric acid",
+            "Acetic acid",
+            "Ammonium ion"
+        ]
+    },
+    {
+        "q": "At the equivalence point of a weak acid-strong base titration, the pH is exactly 7.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence about organic acids in food.",
+        "type": "inline_dropdown",
+        "text": "Grapes and unripe mangoes contain [0] acid, while leafy greens like spinach contain [1] acid.",
+        "dropdowns": [
+            {
+                "correct": "tartaric",
+                "options": [
+                    "oxalic",
+                    "tartaric",
+                    "lactic"
+                ]
+            },
+            {
+                "correct": "oxalic",
+                "options": [
+                    "oxalic",
+                    "formic",
+                    "ascorbic"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of the following is used as a primary standard for standardizing NaOH solutions?",
+        "type": "mcq",
+        "o": [
+            "Potassium hydrogen phthalate",
+            "Sodium carbonate",
+            "Oxalic acid",
+            "Benzoic acid"
+        ]
+    },
+    {
+        "q": "Match these natural indicators to their original color before reacting with any acid or base.",
+        "type": "memory",
+        "pairs": {
+            "Litmus extract": "Purple",
+            "Turmeric powder": "Yellow",
+            "China Rose petals in warm water": "Light pink"
+        }
+    },
+    {
+        "q": "Which of the following has the highest buffer capacity at pH 4.74?",
+        "type": "mcq",
+        "o": [
+            "0.1 M CH3COOH and 0.1 M CH3COONa",
+            "0.2 M CH3COOH and 0.1 M CH3COONa",
+            "0.1 M CH3COOH and 0.2 M CH3COONa",
+            "0.3 M CH3COOH only"
+        ]
+    },
+    {
+        "q": "The Henderson-Hasselbalch equation for a basic buffer is pOH = pKb + log([salt]/[______]).",
+        "type": "fill_blank",
+        "answers": [
+            "base"
+        ],
+        "other_options": [
+            "acid",
+            "water",
+            "salt",
+            "conjugate acid"
+        ]
+    },
+    {
+        "q": "What is the conjugate acid of HPO4 2-?",
+        "type": "short_answer",
+        "answers": [
+            "H2PO4-",
+            "dihydrogen phosphate"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following salts is used as a primary standard in acidimetry?",
+        "type": "mcq",
+        "o": [
+            "Sodium carbonate",
+            "Sodium chloride",
+            "Copper sulphate",
+            "Ammonium chloride"
+        ]
+    },
+    {
+        "q": "The term 'amphiprotic' refers to a species that can both donate and accept a proton.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following ions is the strongest conjugate base?",
+        "type": "mcq",
+        "o": [
+            "Acetate ion",
+            "Chloride ion",
+            "Nitrate ion",
+            "Sulphate ion"
+        ]
+    },
+    {
+        "q": "Match the acid with its Ka value (approximate):",
+        "type": "match",
+        "left": [
+            "HF",
+            "CH3COOH",
+            "HCOOH",
+            "HCN"
+        ],
+        "right": [
+            "6.8 x 10^-4",
+            "1.8 x 10^-5",
+            "1.8 x 10^-4",
+            "4.9 x 10^-10"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a property of a buffer solution?",
+        "type": "mcq",
+        "o": [
+            "Its pH changes significantly with temperature",
+            "It resists changes in pH on adding small amounts of acid",
+            "It resists changes in pH on adding small amounts of base",
+            "It maintains almost constant pH on dilution"
+        ]
+    },
+    {
+        "q": "The solubility product of a sparingly soluble salt is denoted by ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Ksp"
+        ],
+        "other_options": [
+            "Ka",
+            "Kb",
+            "Kw",
+            "Kc"
+        ]
+    },
+    {
+        "q": "Name the scientist who proposed the proton theory of acids and bases.",
+        "type": "short_answer",
+        "answers": [
+            "Bronsted and Lowry",
+            "Bronsted",
+            "Lowry",
+            "Bronsted-Lowry"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "How many molecules of water are produced when exactly 1 molecule of Hydrochloric acid reacts completely with 1 molecule of Sodium hydroxide?",
+        "type": "slider",
+        "min": 0,
+        "max": 5,
+        "correct": 1
+    },
+    {
+        "q": "Match the specific sodium salt to its primary household or industrial use.",
+        "type": "memory",
+        "pairs": {
+            "Sodium chloride": "Food flavoring and preservative",
+            "Sodium carbonate": "Manufacturing glass and softening water",
+            "Sodium bicarbonate": "Baking cakes and breads"
+        }
+    },
+    {
+        "q": "Which of the following is an example of a heteropoly acid?",
+        "type": "mcq",
+        "o": [
+            "Phosphomolybdic acid",
+            "Sulphuric acid",
+            "Nitric acid",
+            "Perchloric acid"
+        ]
+    },
+    {
+        "q": "A solution of sodium acetate in water is basic due to anionic hydrolysis.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following metal hydroxides is the strongest base?",
+        "type": "mcq",
+        "o": [
+            "Caesium hydroxide",
+            "Sodium hydroxide",
+            "Potassium hydroxide",
+            "Lithium hydroxide"
+        ]
+    },
+    {
+        "q": "Which of these substances will NOT turn red litmus paper blue?",
+        "type": "odd_one_out",
+        "options": [
+            "Lime water",
+            "Soap solution",
+            "Baking soda solution",
+            "Lemon juice"
+        ],
+        "correct": "Lemon juice"
+    },
+    {
+        "q": "Which of the following salts is used in iodized salt?",
+        "type": "mcq",
+        "o": [
+            "Potassium iodate",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Magnesium sulphate"
+        ]
+    },
+    {
+        "q": "The autoprotolysis constant of water increases with ______ in temperature.",
+        "type": "fill_blank",
+        "answers": [
+            "increase",
+            "rise"
+        ],
+        "other_options": [
+            "decrease",
+            "fall",
+            "no change",
+            "fluctuation"
+        ]
+    },
+    {
+        "q": "What is the pH of a 1 x 10^-8 M HCl solution at 25 degree Celsius?",
+        "type": "short_answer",
+        "answers": [
+            "6.98",
+            "slightly less than 7",
+            "around 7"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for properties of a Base, LEFT for properties of an Acid.",
+        "type": "swipe_cards",
+        "left_label": "Acid Property",
+        "right_label": "Base Property",
+        "cards": {
+            "Turns red litmus blue": "right",
+            "Turns blue litmus red": "left",
+            "Has a sour taste": "left",
+            "Has a soapy feel": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word: the broad term for strong, laboratory-made acids synthesized from earth's inorganic elements.",
+        "type": "word_scramble",
+        "answer": "MINERAL",
+        "decoys": "KQ"
+    },
+    {
+        "q": "Which of the following acids has the highest oxidizing power?",
+        "type": "mcq",
+        "o": [
+            "Concentrated nitric acid",
+            "Dilute sulphuric acid",
+            "Acetic acid",
+            "Carbonic acid"
+        ]
+    },
+    {
+        "q": "In the Lewis concept, a coordinate covalent bond is formed between the acid and the base.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a use of boric acid?",
+        "type": "mcq",
+        "o": [
+            "As an antiseptic eye wash",
+            "As a food preservative",
+            "As a baking agent",
+            "As a fertilizer"
+        ]
+    },
+    {
+        "q": "Match the solution with its effect on litmus:",
+        "type": "match",
+        "left": [
+            "Na2CO3 (aq)",
+            "NH4Cl (aq)",
+            "NaCl (aq)",
+            "CH3COONa (aq)"
+        ],
+        "right": [
+            "Turns red litmus blue",
+            "Turns blue litmus red",
+            "No effect",
+            "Turns red litmus blue"
+        ]
+    },
+    {
+        "q": "Which of the following is the major component of baking powder?",
+        "type": "mcq",
+        "o": [
+            "Sodium bicarbonate and tartaric acid",
+            "Sodium carbonate and citric acid",
+            "Sodium chloride and vinegar",
+            "Sodium hydroxide and fat"
+        ]
+    },
+    {
+        "q": "The degree of hydrolysis of a salt depends on concentration and the ______ constant.",
+        "type": "fill_blank",
+        "answers": [
+            "hydrolysis",
+            "Kh"
+        ],
+        "other_options": [
+            "ionization",
+            "dissociation",
+            "solubility",
+            "equilibrium"
+        ]
+    },
+    {
+        "q": "Complete the sentence comparing types of acids.",
+        "type": "inline_dropdown",
+        "text": "[0] acids like sulfuric acid are synthesized from non-living materials, while [1] acids occur naturally in plants and animals.",
+        "dropdowns": [
+            {
+                "correct": "mineral",
+                "options": [
+                    "organic",
+                    "mineral",
+                    "weak"
+                ]
+            },
+            {
+                "correct": "organic",
+                "options": [
+                    "synthetic",
+                    "organic",
+                    "mineral"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Name the acid used in the Contact process.",
+        "type": "short_answer",
+        "answers": [
+            "sulphuric acid",
+            "sulfuric acid",
+            "H2SO4"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is NOT a characteristic of a primary standard substance?",
+        "type": "mcq",
+        "o": [
+            "It should be hygroscopic",
+            "It should have high purity",
+            "It should have high molar mass",
+            "It should be stable in air"
+        ]
+    },
+    {
+        "q": "Superacids are acids stronger than 100% sulphuric acid.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used in the laboratory preparation of nitric acid?",
+        "type": "mcq",
+        "o": [
+            "Sodium nitrate and concentrated H2SO4",
+            "Sodium nitrite and HCl",
+            "Ammonia and oxygen",
+            "Nitrogen dioxide and water"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of an isopoly acid?",
+        "type": "mcq",
+        "o": [
+            "Polymetaphosphoric acid",
+            "Phosphomolybdic acid",
+            "Silicotungstic acid",
+            "Chloroplatinic acid"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the specific acid that builds up in milk as it turns sour.",
+        "type": "word_scramble",
+        "answer": "LACTIC",
+        "decoys": "ZB"
+    },
+    {
+        "q": "The common ion effect is used in the purification of NaCl by passing ______ gas through brine.",
+        "type": "fill_blank",
+        "answers": [
+            "HCl",
+            "hydrogen chloride"
+        ],
+        "other_options": [
+            "Cl2",
+            "CO2",
+            "NH3",
+            "SO2"
+        ]
+    },
+    {
+        "q": "What is the formula of the acid used in the lead-acid battery?",
+        "type": "short_answer",
+        "answers": [
+            "H2SO4",
+            "sulphuric acid",
+            "sulfuric acid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence detailing the origin of the most common indicator.",
+        "type": "inline_dropdown",
+        "text": "[0] is a natural indicator that is traditionally extracted from symbiotic organisms known as [1].",
+        "dropdowns": [
+            {
+                "correct": "litmus",
+                "options": [
+                    "turmeric",
+                    "litmus",
+                    "phenolphthalein"
+                ]
+            },
+            {
+                "correct": "lichens",
+                "options": [
+                    "mosses",
+                    "ferns",
+                    "lichens"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if the substance turns yellow turmeric paper RED, LEFT if the turmeric paper stays YELLOW.",
+        "type": "swipe_cards",
+        "left_label": "Stays Yellow",
+        "right_label": "Turns Red",
+        "cards": {
+            "Lemon juice": "left",
+            "Vinegar": "left",
+            "Lime water": "right",
+            "Soap solution": "right"
+        }
+    },
+    {
+        "q": "Which of the following is a property of a superbase?",
+        "type": "mcq",
+        "o": [
+            "Extremely high affinity for protons",
+            "Low pH in solution",
+            "Releases H+ ions easily",
+            "Is always a liquid"
+        ]
+    },
+    {
+        "q": "The salt of a strong acid and a weak base undergoes cationic hydrolysis.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is NOT an example of an amphiprotic species?",
+        "type": "mcq",
+        "o": [
+            "CO3 2-",
+            "HCO3-",
+            "H2PO4-",
+            "HSO4-"
+        ]
+    },
+    {
+        "q": "Match the acid with its unusual property:",
+        "type": "match",
+        "left": [
+            "Aqua regia",
+            "Oleum",
+            "Glacial acetic acid",
+            "Hydrofluoric acid"
+        ],
+        "right": [
+            "Dissolves gold",
+            "Fuming sulphuric acid",
+            "Freezes at 16.6 C",
+            "Etches glass"
+        ]
+    },
+    {
+        "q": "Which of the following indicators has a pH range of 8.2 to 10.0?",
+        "type": "mcq",
+        "o": [
+            "Phenolphthalein",
+            "Methyl orange",
+            "Bromocresol green",
+            "Thymol blue"
+        ]
+    },
+    {
+        "q": "The solubility of a sparingly soluble salt increases in the presence of a common ion.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is a chelating agent used in complexometric titrations?",
+        "type": "mcq",
+        "o": [
+            "EDTA",
+            "Phenolphthalein",
+            "Starch",
+            "Potassium dichromate"
+        ]
+    },
+    {
+        "q": "The pH of a buffer solution is given by the Henderson-Hasselbalch equation: pH = pKa + log([______]/[acid]).",
+        "type": "fill_blank",
+        "answers": [
+            "salt",
+            "conjugate base",
+            "base"
+        ],
+        "other_options": [
+            "water",
+            "H+",
+            "OH-",
+            "indicator"
+        ]
+    },
+    {
+        "q": "Name the strongest known superacid.",
+        "type": "short_answer",
+        "answers": [
+            "fluoroantimonic acid",
+            "HSbF6"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used as a catalyst in the manufacture of sulphuric acid?",
+        "type": "mcq",
+        "o": [
+            "Vanadium pentoxide",
+            "Iron powder",
+            "Nickel",
+            "Platinum"
+        ]
+    },
+    {
+        "q": "A solution of NH4Cl in water has a pH less than 7.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following salts is used in the preparation of Mohr's salt?",
+        "type": "mcq",
+        "o": [
+            "Ferrous sulphate and ammonium sulphate",
+            "Copper sulphate and ammonium sulphate",
+            "Zinc sulphate and potassium sulphate",
+            "Aluminium sulphate and potassium sulphate"
+        ]
+    },
+    {
+        "q": "Which of the following is a double salt but NOT a complex salt?",
+        "type": "mcq",
+        "o": [
+            "Mohr's salt",
+            "Potassium ferrocyanide",
+            "Sodium argentocyanide",
+            "Tetraamminecopper(II) sulphate"
+        ]
+    },
+    {
+        "q": "The process of converting an acid into its corresponding salt is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "neutralization",
+            "salification"
+        ],
+        "other_options": [
+            "hydrolysis",
+            "esterification",
+            "saponification",
+            "oxidation"
+        ]
+    },
+    {
+        "q": "What is the pOH of a solution with [OH-] = 1 x 10^-3 M?",
+        "type": "short_answer",
+        "answers": [
+            "3",
+            "3.0"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is the strongest reducing agent?",
+        "type": "mcq",
+        "o": [
+            "Sodium borohydride",
+            "Sodium chloride",
+            "Sodium sulphate",
+            "Sodium carbonate"
+        ]
+    },
+    {
+        "q": "Perchloric acid is a weaker acid than sulphuric acid.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is used in the estimation of carbon monoxide in gas analysis?",
+        "type": "mcq",
+        "o": [
+            "Ammoniacal cuprous chloride",
+            "Sodium hydroxide",
+            "Lime water",
+            "Concentrated H2SO4"
+        ]
+    },
+    {
+        "q": "Match the salt with its color:",
+        "type": "match",
+        "left": [
+            "CuSO4.5H2O",
+            "FeSO4.7H2O",
+            "KMnO4",
+            "K2Cr2O7"
+        ],
+        "right": [
+            "Blue",
+            "Green",
+            "Purple",
+            "Orange"
+        ]
+    },
+    {
+        "q": "Which of the following is used as a drying agent for ammonia gas?",
+        "type": "mcq",
+        "o": [
+            "Quick lime",
+            "Concentrated H2SO4",
+            "Phosphorus pentoxide",
+            "Calcium chloride"
+        ]
+    },
+    {
+        "q": "The constant Kw is temperature dependent and increases with increasing temperature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is NOT a use of washing soda?",
+        "type": "mcq",
+        "o": [
+            "Bleaching cotton textiles",
+            "Softening hard water",
+            "Manufacturing glass",
+            "Manufacturing soap"
+        ]
+    },
+    {
+        "q": "The number of molecules of water of crystallization in Epsom salt is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "7",
+            "seven"
+        ],
+        "other_options": [
+            "2",
+            "5",
+            "10",
+            "0"
+        ]
+    },
+    {
+        "q": "Name the compound with the formula Na2B4O7.10H2O.",
+        "type": "short_answer",
+        "answers": [
+            "borax",
+            "sodium tetraborate decahydrate"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a use of sodium thiosulphate?",
+        "type": "mcq",
+        "o": [
+            "Fixer in photography",
+            "Fertilizer",
+            "Food preservative",
+            "Bleaching agent"
+        ]
+    },
+    {
+        "q": "The term 'alkalosis' refers to a condition where blood pH becomes abnormally high.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a tribasic acid that is also a weak acid?",
+        "type": "mcq",
+        "o": [
+            "Phosphoric acid",
+            "Sulphuric acid",
+            "Nitric acid",
+            "Hydrochloric acid"
+        ]
+    },
+    {
+        "q": "Which of the following is used in the detection of phenolic compounds?",
+        "type": "mcq",
+        "o": [
+            "Neutral ferric chloride",
+            "Sodium chloride",
+            "Copper sulphate",
+            "Ammonium chloride"
+        ]
+    },
+    {
+        "q": "In the chlor-alkali process, the products formed are NaOH, Cl2, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "H2",
+            "hydrogen"
+        ],
+        "other_options": [
+            "O2",
+            "NaCl",
+            "HCl",
+            "H2O"
+        ]
+    },
+    {
+        "q": "What is the common name of Na3AlF6?",
+        "type": "short_answer",
+        "answers": [
+            "cryolite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a use of hydrogen peroxide in acid-base chemistry?",
+        "type": "mcq",
+        "o": [
+            "As a reducing agent in acidic medium",
+            "As a drying agent",
+            "As an indicator",
+            "As a buffer"
+        ]
+    },
+    {
+        "q": "A solution with a pH of 2 is 100 times more acidic than a solution with a pH of 4.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is NOT a salt of phosphoric acid?",
+        "type": "mcq",
+        "o": [
+            "Calcium sulphate",
+            "Sodium dihydrogen phosphate",
+            "Disodium hydrogen phosphate",
+            "Trisodium phosphate"
+        ]
+    },
+    {
+        "q": "Match the acid-base theory with its limitation:",
+        "type": "match",
+        "left": [
+            "Arrhenius theory",
+            "Bronsted-Lowry theory",
+            "Lewis theory"
+        ],
+        "right": [
+            "Limited to aqueous solutions",
+            "Does not explain non-protonic acids",
+            "Too broad, lacks quantitative basis"
+        ]
+    },
+    {
+        "q": "Which of the following is used in volumetric analysis as a primary standard for bases?",
+        "type": "mcq",
+        "o": [
+            "Oxalic acid",
+            "Sodium hydroxide",
+            "Ammonium hydroxide",
+            "Calcium hydroxide"
+        ]
+    },
+    {
+        "q": "The pKa of formic acid is approximately 3.75.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following salts is used as a mordant in dyeing and in tanning leather?",
+        "type": "mcq",
+        "o": [
+            "Basic chromium sulphate",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Ammonium nitrate"
+        ]
+    },
+    {
+        "q": "The buffer capacity of a solution is maximum when pH = ______.",
+        "type": "fill_blank",
+        "answers": [
+            "pKa"
+        ],
+        "other_options": [
+            "7",
+            "0",
+            "14",
+            "pKb"
+        ]
+    },
+    {
+        "q": "Name the scientist who proposed the electron pair concept of acids and bases.",
+        "type": "short_answer",
+        "answers": [
+            "Gilbert N. Lewis",
+            "Lewis"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used in the manufacture of stainless steel?",
+        "type": "mcq",
+        "o": [
+            "Chromium salts",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Ammonium chloride"
+        ]
+    },
+    {
+        "q": "A Lewis base is always a Bronsted-Lowry base.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following acids is used in the pickling of metals?",
+        "type": "mcq",
+        "o": [
+            "Hydrochloric acid",
+            "Acetic acid",
+            "Citric acid",
+            "Tartaric acid"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a method to express the strength of a solution?",
+        "type": "mcq",
+        "o": [
+            "pH",
+            "Molarity",
+            "Normality",
+            "Molality"
+        ]
+    },
+    {
+        "q": "The pH of blood is maintained between 7.35 and 7.45 by the ______ buffer system.",
+        "type": "fill_blank",
+        "answers": [
+            "bicarbonate",
+            "HCO3-/H2CO3",
+            "carbonate"
+        ],
+        "other_options": [
+            "phosphate",
+            "protein",
+            "acetate",
+            "ammonia"
+        ]
+    },
+    {
+        "q": "What is the formula of perchloric acid?",
+        "type": "short_answer",
+        "answers": [
+            "HClO4"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is an example of a neutralization reaction in analytical chemistry?",
+        "type": "mcq",
+        "o": [
+            "Acid-base titration",
+            "Precipitation titration",
+            "Redox titration",
+            "Complexometric titration"
+        ]
+    },
+    {
+        "q": "The acid dissociation constant (Ka) is a measure of the strength of an acid in solution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used in the desalination of water?",
+        "type": "mcq",
+        "o": [
+            "Reverse osmosis with semi-permeable membranes",
+            "Adding acids",
+            "Adding bases",
+            "Adding salts"
+        ]
+    },
+    {
+        "q": "Match the process with the product obtained:",
+        "type": "match",
+        "left": [
+            "Electrolysis of brine",
+            "Solvay process",
+            "Haber process",
+            "Ostwald process"
+        ],
+        "right": [
+            "NaOH and Cl2",
+            "Na2CO3",
+            "NH3",
+            "HNO3"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of a sesqui salt?",
+        "type": "mcq",
+        "o": [
+            "Sodium sesquicarbonate",
+            "Sodium chloride",
+            "Copper sulphate",
+            "Potassium nitrate"
+        ]
+    },
+    {
+        "q": "The term 'normality' is defined as the number of ______ of solute per liter of solution.",
+        "type": "fill_blank",
+        "answers": [
+            "gram equivalents",
+            "equivalents"
+        ],
+        "other_options": [
+            "moles",
+            "grams",
+            "molecules",
+            "ions"
+        ]
+    },
+    {
+        "q": "Name the acid that acts as a solvent for noble metals like gold and platinum.",
+        "type": "short_answer",
+        "answers": [
+            "aqua regia",
+            "nitro-hydrochloric acid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is the correct expression for the dissociation constant of a weak base, BOH?",
+        "type": "mcq",
+        "o": [
+            "Kb = [B+][OH-]/[BOH]",
+            "Kb = [BOH]/[B+][OH-]",
+            "Kb = [H+][OH-]/[BOH]",
+            "Kb = [B+][H2O]/[BOH]"
+        ]
+    },
+    {
+        "q": "Calculate the pH of a solution that is 0.1 M in acetic acid and 0.1 M in sodium acetate. Ka for acetic acid = 1.8 x 10^-5.",
+        "type": "short_answer",
+        "answers": [
+            "4.74",
+            "4.7",
+            "4.745"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The phenomenon where a salt exhibits different colors in different solvents due to changes in the coordination sphere is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "solvatochromism"
+        ],
+        "other_options": [
+            "isomerism",
+            "polymorphism",
+            "efflorescence",
+            "deliquescence"
+        ]
+    },
+    {
+        "q": "In the HSAB theory, a hard acid prefers to bind to a soft base.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is an example of a Pearson hard acid?",
+        "type": "mcq",
+        "o": [
+            "Al3+ ion",
+            "Ag+ ion",
+            "Hg2+ ion",
+            "Pt2+ ion"
+        ]
+    },
+    {
+        "q": "Match the compound with its magnetic property:",
+        "type": "match",
+        "left": [
+            "FeSO4.7H2O",
+            "K4[Fe(CN)6]",
+            "CuSO4.5H2O",
+            "ZnSO4.7H2O"
+        ],
+        "right": [
+            "Paramagnetic",
+            "Diamagnetic",
+            "Paramagnetic",
+            "Diamagnetic"
+        ]
+    },
+    {
+        "q": "Which of the following indicators is used in non-aqueous titrations?",
+        "type": "mcq",
+        "o": [
+            "Crystal violet",
+            "Phenolphthalein",
+            "Methyl orange",
+            "Starch"
+        ]
+    },
+    {
+        "q": "The Hammett acidity function (H0) is used to measure acidity in highly concentrated acid solutions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is the strongest known base in the gas phase?",
+        "type": "mcq",
+        "o": [
+            "Ortho-diethynylbenzene dianion",
+            "Sodium hydroxide",
+            "Potassium tert-butoxide",
+            "Lithium diisopropylamide"
+        ]
+    },
+    {
+        "q": "The process of separating a racemic mixture into its optically active enantiomers using an optically active acid or base is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "resolution",
+            "chiral resolution"
+        ],
+        "other_options": [
+            "racemization",
+            "inversion",
+            "isomerization",
+            "tautomerization"
+        ]
+    },
+    {
+        "q": "Name the acid used as a catalyst in the Friedel-Crafts acylation reaction.",
+        "type": "short_answer",
+        "answers": [
+            "anhydrous aluminium chloride",
+            "AlCl3",
+            "Lewis acid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following techniques is used to determine the pKa of a very weak acid?",
+        "type": "mcq",
+        "o": [
+            "Potentiometric titration",
+            "Conductometric titration",
+            "Volumetric titration with indicator",
+            "Gravimetric analysis"
+        ]
+    },
+    {
+        "q": "The salt formed by the complete neutralization of phosphoric acid with sodium hydroxide is Na3PO4, commonly called TSP.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is an example of a heteroleptic complex salt?",
+        "type": "mcq",
+        "o": [
+            "[Co(NH3)4Cl2]Cl",
+            "K4[Fe(CN)6]",
+            "[Ni(CO)4]",
+            "[Co(NH3)6]Cl3"
+        ]
+    },
+    {
+        "q": "Which of the following is used as a standard in the calibration of pH meters at pH 4.00?",
+        "type": "mcq",
+        "o": [
+            "Potassium hydrogen phthalate buffer",
+            "Borate buffer",
+            "Phosphate buffer",
+            "Carbonate buffer"
+        ]
+    },
+    {
+        "q": "In a conductometric titration of a strong acid with a strong base, the conductivity first ______ and then increases.",
+        "type": "fill_blank",
+        "answers": [
+            "decreases",
+            "falls",
+            "drops"
+        ],
+        "other_options": [
+            "increases",
+            "remains constant",
+            "fluctuates",
+            "stabilizes"
+        ]
+    },
+    {
+        "q": "What is the chemical formula of Zeise's salt, the first organometallic compound?",
+        "type": "short_answer",
+        "answers": [
+            "K[PtCl3(C2H4)]\u00b7H2O",
+            "potassium trichloro(ethene)platinate(II)"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following acids forms azeotropes with water?",
+        "type": "mcq",
+        "o": [
+            "Hydrochloric acid",
+            "Sulphuric acid",
+            "Acetic acid",
+            "All of the above"
+        ]
+    },
+    {
+        "q": "The Lux-Flood theory defines an acid as an oxide ion acceptor.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is an example of an iononeutral base according to the Lux-Flood theory?",
+        "type": "mcq",
+        "o": [
+            "CaO",
+            "NaOH",
+            "NH3",
+            "Na2CO3"
+        ]
+    },
+    {
+        "q": "Match the salt with its crystal structure type:",
+        "type": "match",
+        "left": [
+            "NaCl",
+            "CsCl",
+            "ZnS",
+            "CaF2"
+        ],
+        "right": [
+            "Face-centered cubic",
+            "Body-centered cubic",
+            "Zinc blende",
+            "Fluorite"
+        ]
+    },
+    {
+        "q": "Which of the following is used in the Kjeldahl method for nitrogen estimation?",
+        "type": "mcq",
+        "o": [
+            "Sulphuric acid",
+            "Hydrochloric acid",
+            "Nitric acid",
+            "Phosphoric acid"
+        ]
+    },
+    {
+        "q": "The degree of hydrolysis of a salt of a weak acid and a weak base is independent of concentration.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following factors does NOT affect the pH of a buffer solution?",
+        "type": "mcq",
+        "o": [
+            "Dilution with water",
+            "Ratio of salt to acid",
+            "pKa of the acid",
+            "Temperature"
+        ]
+    },
+    {
+        "q": "The thermodynamic dissociation constant of an acid is expressed in terms of ______ rather than concentrations.",
+        "type": "fill_blank",
+        "answers": [
+            "activities",
+            "activity"
+        ],
+        "other_options": [
+            "molarities",
+            "molalities",
+            "normality",
+            "mole fractions"
+        ]
+    },
+    {
+        "q": "Name the class of acids that are stronger than 100% H2SO4 and measured by the Hammett function.",
+        "type": "short_answer",
+        "answers": [
+            "superacids"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used in the industrial synthesis of acetic acid?",
+        "type": "mcq",
+        "o": [
+            "Monsanto process",
+            "Contact process",
+            "Haber process",
+            "Ostwald process"
+        ]
+    },
+    {
+        "q": "The conjugate acid of a superbase has an extremely low pKa.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is a characteristic of an inner-orbital complex?",
+        "type": "mcq",
+        "o": [
+            "Involves d2sp3 hybridization",
+            "Involves sp3d2 hybridization",
+            "Is always paramagnetic",
+            "Uses outer d-orbitals"
+        ]
+    },
+    {
+        "q": "Which of the following analytical techniques relies on the neutralization reaction between an acid and a base?",
+        "type": "mcq",
+        "o": [
+            "Acidimetry",
+            "Iodometry",
+            "Complexometry",
+            "Gravimetry"
+        ]
+    },
+    {
+        "q": "The Nernst equation relates electrode potential to the ______ of ions in solution.",
+        "type": "fill_blank",
+        "answers": [
+            "concentration",
+            "activity"
+        ],
+        "other_options": [
+            "temperature",
+            "pressure",
+            "volume",
+            "mass"
+        ]
+    },
+    {
+        "q": "What is the IUPAC name of ferrocene?",
+        "type": "short_answer",
+        "answers": [
+            "bis(cyclopentadienyl)iron(II)",
+            "di(cyclopentadienyl)iron"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is NOT a property of a primary standard used in acid-base titrations?",
+        "type": "mcq",
+        "o": [
+            "It should be volatile",
+            "It should be highly pure",
+            "It should have a high equivalent weight",
+            "It should be stable in air"
+        ]
+    },
+    {
+        "q": "The Usanovich theory defines an acid as a species that accepts anions or donates cations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used in the estimation of ozone?",
+        "type": "mcq",
+        "o": [
+            "Arsenite method",
+            "Mohr's method",
+            "Volhard's method",
+            "Fajans method"
+        ]
+    },
+    {
+        "q": "Match the titration type with the indicator used:",
+        "type": "match",
+        "left": [
+            "Strong acid vs strong base",
+            "Weak acid vs strong base",
+            "Strong acid vs weak base",
+            "Precipitation titration"
+        ],
+        "right": [
+            "Any indicator",
+            "Phenolphthalein",
+            "Methyl orange",
+            "Potassium chromate"
+        ]
+    },
+    {
+        "q": "Which of the following is a property of a proton sponge?",
+        "type": "mcq",
+        "o": [
+            "Extremely strong base but weak nucleophile",
+            "Strong acid and strong nucleophile",
+            "Neutral in water",
+            "Releases protons easily"
+        ]
+    },
+    {
+        "q": "The phenomenon of tautomerism involves the migration of a proton and a double bond shift.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used as a phase transfer catalyst involving quaternary ammonium salts?",
+        "type": "mcq",
+        "o": [
+            "Tetrabutylammonium bromide",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Ammonium sulphate"
+        ]
+    },
+    {
+        "q": "The Born-Haber cycle is used to calculate the ______ energy of ionic compounds.",
+        "type": "fill_blank",
+        "answers": [
+            "lattice"
+        ],
+        "other_options": [
+            "ionization",
+            "hydration",
+            "bond",
+            "activation"
+        ]
+    },
+    {
+        "q": "Name the acid anhydride of sulphuric acid.",
+        "type": "short_answer",
+        "answers": [
+            "sulphur trioxide",
+            "sulfur trioxide",
+            "SO3"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used in the ring-opening polymerization of lactams?",
+        "type": "mcq",
+        "o": [
+            "Sodium hydride",
+            "Sodium chloride",
+            "Calcium oxide",
+            "Magnesium hydroxide"
+        ]
+    },
+    {
+        "q": "The pKa of water is 15.7, while the pKa of alcohols is around 16-18.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following salts exhibits the phenomenon of polymorphism?",
+        "type": "mcq",
+        "o": [
+            "Calcium carbonate",
+            "Sodium chloride",
+            "Potassium nitrate",
+            "Copper sulphate"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a characteristic of a chelate complex?",
+        "type": "mcq",
+        "o": [
+            "Monodentate ligand attached to metal",
+            "Increased stability",
+            "Polydentate ligand",
+            "Ring formation"
+        ]
+    },
+    {
+        "q": "The spectrochemical series arranges ligands according to their ______ splitting ability.",
+        "type": "fill_blank",
+        "answers": [
+            "crystal field",
+            "d-orbital",
+            "ligand field"
+        ],
+        "other_options": [
+            "color",
+            "magnetic",
+            "hydration",
+            "lattice"
+        ]
+    },
+    {
+        "q": "Name the compound used as a standard in the calibration of NMR spectra for acidic protons.",
+        "type": "short_answer",
+        "answers": [
+            "TMS",
+            "tetramethylsilane"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is an example of a Schlenk equilibrium involving organometallic reagents?",
+        "type": "mcq",
+        "o": [
+            "2 RMgX <=> R2Mg + MgX2",
+            "NaOH + HCl <=> NaCl + H2O",
+            "N2 + 3H2 <=> 2NH3",
+            "2SO2 + O2 <=> 2SO3"
+        ]
+    },
+    {
+        "q": "In the synthesis of Grignard reagents, the solvent used is typically anhydrous diethyl ether.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used as a drying agent that can dry both acidic and basic gases?",
+        "type": "mcq",
+        "o": [
+            "Calcium chloride",
+            "Sodium hydroxide",
+            "Concentrated H2SO4",
+            "Phosphorus pentoxide"
+        ]
+    },
+    {
+        "q": "Match the acid with its anhydride:",
+        "type": "match",
+        "left": [
+            "H2SO4",
+            "HNO3",
+            "H3PO4",
+            "CH3COOH"
+        ],
+        "right": [
+            "SO3",
+            "N2O5",
+            "P4O10",
+            "(CH3CO)2O"
+        ]
+    },
+    {
+        "q": "Which of the following is a property of a supercritical fluid used in green chemistry?",
+        "type": "mcq",
+        "o": [
+            "Tunable solvent power",
+            "Always acidic",
+            "Always basic",
+            "High viscosity"
+        ]
+    },
+    {
+        "q": "The charge-transfer complex formed between iodine and starch is used as an indicator in iodometric titrations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following salts is used in the detection of ammonium ions via Nessler's reagent?",
+        "type": "mcq",
+        "o": [
+            "Potassium tetraiodomercurate(II)",
+            "Sodium chloride",
+            "Copper sulphate",
+            "Silver nitrate"
+        ]
+    },
+    {
+        "q": "The Debye-Huckel theory describes the behavior of ions in dilute solutions using the concept of ______ atmosphere.",
+        "type": "fill_blank",
+        "answers": [
+            "ionic"
+        ],
+        "other_options": [
+            "molecular",
+            "atomic",
+            "electronic",
+            "gaseous"
+        ]
+    },
+    {
+        "q": "What is the formula of the tetramminecopper(II) ion?",
+        "type": "short_answer",
+        "answers": [
+            "[Cu(NH3)4]2+"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is used in the purification of silicon for semiconductors?",
+        "type": "mcq",
+        "o": [
+            "Zone refining using HCl",
+            "Electrolysis of brine",
+            "Neutralization",
+            "Precipitation"
+        ]
+    },
+    {
+        "q": "The acid used in the nitration of benzene is a mixture of concentrated HNO3 and concentrated H2SO4.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is an example of a solid acid catalyst?",
+        "type": "mcq",
+        "o": [
+            "Zeolite H-ZSM-5",
+            "Sulphuric acid",
+            "Hydrochloric acid",
+            "Acetic acid"
+        ]
+    },
+    {
+        "q": "Which of the following metal ions forms the most stable complex with EDTA?",
+        "type": "mcq",
+        "o": [
+            "Fe3+",
+            "Ca2+",
+            "Mg2+",
+            "Na+"
+        ]
+    },
+    {
+        "q": "The term 'ligand' refers to an ion or molecule that donates a pair of electrons to a central metal atom or ion to form a ______ bond.",
+        "type": "fill_blank",
+        "answers": [
+            "coordinate",
+            "coordinate covalent",
+            "dative"
+        ],
+        "other_options": [
+            "ionic",
+            "covalent",
+            "metallic",
+            "hydrogen"
+        ]
+    },
+    {
+        "q": "Name the acid that is produced commercially by the Cativa process.",
+        "type": "short_answer",
+        "answers": [
+            "acetic acid",
+            "ethanoic acid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is NOT a characteristic of a redox indicator?",
+        "type": "mcq",
+        "o": [
+            "Color change depends on pH",
+            "Has different colors in oxidized and reduced forms",
+            "Exhibits a formal redox potential",
+            "Used in redox titrations"
+        ]
+    },
+    {
+        "q": "The iodate ion (IO3-) reacts with iodide (I-) in acidic medium to produce iodine, used in iodometric titrations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used as a standard buffer in pH measurements at pH 9.18?",
+        "type": "mcq",
+        "o": [
+            "Borate buffer",
+            "Phthalate buffer",
+            "Phosphate buffer",
+            "Citrate buffer"
+        ]
+    },
+    {
+        "q": "Match the complex with its color:",
+        "type": "match",
+        "left": [
+            "[Cu(H2O)6]2+",
+            "[Ni(H2O)6]2+",
+            "[Co(H2O)6]2+",
+            "[Mn(H2O)6]2+"
+        ],
+        "right": [
+            "Blue",
+            "Green",
+            "Pink",
+            "Pale pink"
+        ]
+    },
+    {
+        "q": "Which of the following techniques separates ions based on their affinity for a stationary phase containing acidic or basic groups?",
+        "type": "mcq",
+        "o": [
+            "Ion exchange chromatography",
+            "Gas chromatography",
+            "Distillation",
+            "Recrystallization"
+        ]
+    },
+    {
+        "q": "The Jahn-Teller effect explains the distortion in octahedral complexes with asymmetric occupancy of eg orbitals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a use of trifluoroacetic acid?",
+        "type": "mcq",
+        "o": [
+            "Peptide synthesis and HPLC",
+            "Food preservation",
+            "Making soap",
+            "Glass manufacturing"
+        ]
+    },
+    {
+        "q": "The isoelectric point of an amino acid is the pH at which the molecule carries no net ______ charge.",
+        "type": "fill_blank",
+        "answers": [
+            "electrical",
+            "electric"
+        ],
+        "other_options": [
+            "positive",
+            "negative",
+            "ionic",
+            "molecular"
+        ]
+    },
+    {
+        "q": "What is the pKa of the hydronium ion (H3O+)?",
+        "type": "short_answer",
+        "answers": [
+            "-1.7",
+            "-1.74",
+            "negative"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is NOT a use of sodium borohydride?",
+        "type": "mcq",
+        "o": [
+            "Dehydrating agent",
+            "Reducing agent for aldehydes",
+            "Reducing agent for ketones",
+            "Bleaching wood pulp"
+        ]
+    },
+    {
+        "q": "The term 'oleum' refers to a solution of SO3 in concentrated H2SO4.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a property of a zwitterion?",
+        "type": "mcq",
+        "o": [
+            "Possesses both positive and negative charges",
+            "Is always acidic",
+            "Is always basic",
+            "Is neutral with no charges"
+        ]
+    },
+    {
+        "q": "Which of the following salts is used in the treatment of Wilson's disease?",
+        "type": "mcq",
+        "o": [
+            "Zinc acetate",
+            "Sodium chloride",
+            "Calcium carbonate",
+            "Ferrous sulphate"
+        ]
+    },
+    {
+        "q": "The formation constant (Kf) for a complex is the equilibrium constant for its ______ from the metal ion and ligands.",
+        "type": "fill_blank",
+        "answers": [
+            "formation",
+            "synthesis"
+        ],
+        "other_options": [
+            "dissociation",
+            "ionization",
+            "hydrolysis",
+            "precipitation"
+        ]
+    },
+    {
+        "q": "Name the acid used in the Wacker process for the oxidation of ethylene to acetaldehyde.",
+        "type": "short_answer",
+        "answers": [
+            "hydrochloric acid",
+            "HCl",
+            "palladium chloride and copper chloride in HCl"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is an example of a cryptand?",
+        "type": "mcq",
+        "o": [
+            "[2.2.2]Cryptand",
+            "18-crown-6",
+            "EDTA",
+            "Dimethylglyoxime"
+        ]
+    },
+    {
+        "q": "The solubility product principle states that precipitation occurs when the ionic product exceeds the Ksp value.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used in the volumetric determination of chloride ions by Mohr's method?",
+        "type": "mcq",
+        "o": [
+            "Silver nitrate and potassium chromate",
+            "EDTA and Eriochrome Black T",
+            "Sodium thiosulphate and starch",
+            "Potassium permanganate"
+        ]
+    },
+    {
+        "q": "Match the analytical method with the titrant used:",
+        "type": "match",
+        "left": [
+            "Acidimetry",
+            "Alkalimetry",
+            "Iodometry",
+            "Complexometry"
+        ],
+        "right": [
+            "Standard acid",
+            "Standard base",
+            "Sodium thiosulphate",
+            "EDTA"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a valid condition for a spontaneous precipitation?",
+        "type": "mcq",
+        "o": [
+            "Ionic product = Ksp",
+            "Ionic product > Ksp",
+            "Supersaturation",
+            "Exceeding solubility limit"
+        ]
+    },
+    {
+        "q": "The trans effect in square planar complexes influences the substitution of ligands opposite to a strong trans-directing ligand.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used as a catalyst in the Ziegler-Natta polymerization?",
+        "type": "mcq",
+        "o": [
+            "Titanium tetrachloride and triethylaluminium",
+            "Sulphuric acid",
+            "Sodium hydroxide",
+            "Platinum"
+        ]
+    },
+    {
+        "q": "The antacid property of milk of magnesia is due to its reaction with HCl to form MgCl2 and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "water",
+            "H2O"
+        ],
+        "other_options": [
+            "carbon dioxide",
+            "hydrogen",
+            "oxygen",
+            "chlorine"
+        ]
+    },
+    {
+        "q": "Name the type of isomerism exhibited by [Co(NH3)5NO2]Cl2 and [Co(NH3)5ONO]Cl2.",
+        "type": "short_answer",
+        "answers": [
+            "linkage isomerism"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is an example of a Hard-Soft Acid-Base (HSAB) principle application?",
+        "type": "mcq",
+        "o": [
+            "Predicting stability of metal complexes",
+            "Calculating pH of buffers",
+            "Determining solubility product",
+            "Measuring conductivity"
+        ]
+    },
+    {
+        "q": "Hydrofluoric acid is stored in glass bottles because it does not react with silica.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is used in the preparation of anhydrous metal chlorides?",
+        "type": "mcq",
+        "o": [
+            "Thionyl chloride",
+            "Sodium chloride",
+            "Hydrochloric acid",
+            "Chlorine water"
+        ]
+    },
+    {
+        "q": "Which of the following is a property of an inner transition metal salt?",
+        "type": "mcq",
+        "o": [
+            "Often paramagnetic and colored",
+            "Always white",
+            "Diamagnetic only",
+            "Inert in chemical reactions"
+        ]
+    },
+    {
+        "q": "The Gibbs free energy change for a spontaneous acid-base reaction is always ______.",
+        "type": "fill_blank",
+        "answers": [
+            "negative",
+            "less than zero",
+            "< 0"
+        ],
+        "other_options": [
+            "positive",
+            "zero",
+            "greater than zero",
+            "constant"
+        ]
+    },
+    {
+        "q": "What is the name of the reaction where carboxylic acids react with alcohols in the presence of an acid catalyst?",
+        "type": "short_answer",
+        "answers": [
+            "esterification",
+            "Fischer esterification"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following acids forms a protective oxide layer on aluminium?",
+        "type": "mcq",
+        "o": [
+            "Aluminium does not react with any acid",
+            "Nitric acid (concentrated)",
+            "Hydrochloric acid",
+            "Acetic acid"
+        ]
+    },
+    {
+        "q": "The chelate effect explains that complexes with polydentate ligands are more stable than those with monodentate ligands.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used as a supporting electrolyte in polarography?",
+        "type": "mcq",
+        "o": [
+            "Potassium chloride",
+            "Copper sulphate",
+            "Silver nitrate",
+            "Lead acetate"
+        ]
+    },
+    {
+        "q": "Match the scientist with their contribution to acid-base chemistry:",
+        "type": "match",
+        "left": [
+            "Arrhenius",
+            "Bronsted",
+            "Lewis",
+            "Pearson"
+        ],
+        "right": [
+            "Ionization theory",
+            "Proton theory",
+            "Electron pair theory",
+            "HSAB principle"
+        ]
+    }
+]

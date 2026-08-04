@@ -1,12 +1,5 @@
 [
     {
-        "q": "How many colors are there in a standard traffic light?",
-        "type": "slider",
-        "min": 1,
-        "max": 5,
-        "correct": 3
-    },
-    {
         "q": "What do we call a vehicle that takes us from one place to another?",
         "type": "mcq",
         "o": [
@@ -181,6 +174,13 @@
             "Air",
             "Track"
         ]
+    },
+    {
+        "q": "How many colors are there in a standard traffic light?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
     },
     {
         "q": "Which of these is an air transport?",

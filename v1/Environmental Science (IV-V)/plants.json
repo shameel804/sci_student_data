@@ -1,12 +1,5 @@
 [
     {
-        "q": "How many main parts does a typical plant have (root, stem, leaf, flower, fruit)?",
-        "type": "slider",
-        "min": 1,
-        "max": 10,
-        "correct": 5
-    },
-    {
         "q": "Which part of the plant grows under the ground?",
         "type": "mcq",
         "o": [
@@ -153,6 +146,13 @@
             "Brinjal",
             "Tomato"
         ]
+    },
+    {
+        "q": "How many main parts does a typical plant have (root, stem, leaf, flower, fruit)?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 5
     },
     {
         "q": "Name one thing that plants need to grow, apart from water and sunlight.",

@@ -1,12 +1,5 @@
 [
     {
-        "q": "How many bones are in the adult human body?",
-        "type": "slider",
-        "min": 150,
-        "max": 350,
-        "correct": 206
-    },
-    {
         "q": "Which organ system helps us breathe?",
         "type": "mcq",
         "o": [
@@ -35,6 +28,13 @@
             "Digestive system",
             "Muscular system"
         ]
+    },
+    {
+        "q": "How many bones are in the adult human body?",
+        "type": "slider",
+        "min": 150,
+        "max": 350,
+        "correct": 206
     },
     {
         "q": "What is the main organ of the respiratory system?",

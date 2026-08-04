@@ -1,0 +1,6419 @@
+[
+    {
+        "q": "What is a magnet?",
+        "type": "mcq",
+        "o": [
+            "An object that attracts iron",
+            "An object that attracts wood",
+            "An object that attracts plastic",
+            "An object that attracts paper"
+        ]
+    },
+    {
+        "q": "Which of these is a natural magnet?",
+        "type": "mcq",
+        "o": [
+            "Lodestone",
+            "Bar magnet",
+            "Horseshoe magnet",
+            "Electromagnet"
+        ]
+    },
+    {
+        "q": "What are the ends of a magnet called?",
+        "type": "mcq",
+        "o": [
+            "Poles",
+            "Tips",
+            "Corners",
+            "Edges"
+        ]
+    },
+    {
+        "q": "How many poles does a magnet have?",
+        "type": "mcq",
+        "o": [
+            "Two",
+            "One",
+            "Three",
+            "Four"
+        ]
+    },
+    {
+        "q": "A freely suspended magnet always rests in which direction?",
+        "type": "mcq",
+        "o": [
+            "North-South",
+            "East-West",
+            "North-East",
+            "South-West"
+        ]
+    },
+    {
+        "q": "Name the two poles of a magnet.",
+        "type": "short_answer",
+        "answers": [
+            "north pole and south pole",
+            "north and south",
+            "north pole, south pole"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The north pole of a magnet points toward the Earth's geographic ______.",
+        "type": "fill_blank",
+        "answers": [
+            "north"
+        ],
+        "other_options": [
+            "south",
+            "east",
+            "west"
+        ]
+    },
+    {
+        "q": "Which of these materials is magnetic?",
+        "type": "mcq",
+        "o": [
+            "Iron",
+            "Wood",
+            "Glass",
+            "Plastic"
+        ]
+    },
+    {
+        "q": "Like poles of two magnets ______ each other.",
+        "type": "fill_blank",
+        "answers": [
+            "repel"
+        ],
+        "other_options": [
+            "attract",
+            "ignore",
+            "push sideways"
+        ]
+    },
+    {
+        "q": "Unlike poles of two magnets attract each other.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a magnetic material?",
+        "type": "mcq",
+        "o": [
+            "Copper",
+            "Iron",
+            "Nickel",
+            "Cobalt"
+        ]
+    },
+    {
+        "q": "What happens when you bring the north pole of one magnet near the south pole of another?",
+        "type": "mcq",
+        "o": [
+            "They attract",
+            "They repel",
+            "They do nothing",
+            "They spin"
+        ]
+    },
+    {
+        "q": "The force of a magnet is strongest at its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "poles"
+        ],
+        "other_options": [
+            "center",
+            "sides",
+            "edges"
+        ]
+    },
+    {
+        "q": "Match the terms with their meanings:",
+        "type": "match",
+        "left": [
+            "Attract",
+            "Repel",
+            "North pole",
+            "South pole"
+        ],
+        "right": [
+            "Pull together",
+            "Push apart",
+            "Points north when suspended",
+            "Points south when suspended"
+        ]
+    },
+    {
+        "q": "Which shape of magnet looks like the letter U?",
+        "type": "mcq",
+        "o": [
+            "Horseshoe magnet",
+            "Bar magnet",
+            "Ring magnet",
+            "Disc magnet"
+        ]
+    },
+    {
+        "q": "Magnets can attract all metals.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the space around a magnet where its force acts called?",
+        "type": "mcq",
+        "o": [
+            "Magnetic field",
+            "Magnetic space",
+            "Force zone",
+            "Magnet area"
+        ]
+    },
+    {
+        "q": "How many poles does a standard bar magnet have?",
+        "type": "slider",
+        "min": 0,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "Which of these is a use of magnets?",
+        "type": "mcq",
+        "o": [
+            "Compass needle",
+            "Measuring temperature",
+            "Measuring weight",
+            "Magnifying glass"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a magnetic material?",
+        "type": "odd_one_out",
+        "options": [
+            "Iron",
+            "Nickel",
+            "Cobalt",
+            "Wood"
+        ],
+        "correct": "Wood"
+    },
+    {
+        "q": "What is an electromagnet?",
+        "type": "mcq",
+        "o": [
+            "A magnet made using electricity",
+            "A permanent magnet",
+            "A natural magnet",
+            "A broken magnet"
+        ]
+    },
+    {
+        "q": "A magnet can be used to separate iron filings from ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sand"
+        ],
+        "other_options": [
+            "water",
+            "oil",
+            "milk"
+        ]
+    },
+    {
+        "q": "Magnets lose their properties when heated strongly.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a magnetic storage device?",
+        "type": "mcq",
+        "o": [
+            "Hard disk drive",
+            "CD",
+            "DVD",
+            "Blu-ray disc"
+        ]
+    },
+    {
+        "q": "What is a compass used for?",
+        "type": "mcq",
+        "o": [
+            "Finding direction",
+            "Measuring time",
+            "Measuring distance",
+            "Measuring speed"
+        ]
+    },
+    {
+        "q": "Name one metal that a magnet can attract.",
+        "type": "short_answer",
+        "answers": [
+            "iron",
+            "nickel",
+            "cobalt",
+            "steel"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A magnet has ______ poles.",
+        "type": "fill_blank",
+        "answers": [
+            "two"
+        ],
+        "other_options": [
+            "one",
+            "three",
+            "four"
+        ]
+    },
+    {
+        "q": "The Earth behaves like a giant magnet.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which pole of a magnet points toward the geographic north?",
+        "type": "mcq",
+        "o": [
+            "North-seeking pole",
+            "South-seeking pole",
+            "Both poles",
+            "Neither pole"
+        ]
+    },
+    {
+        "q": "What happens if you cut a bar magnet into two pieces?",
+        "type": "mcq",
+        "o": [
+            "Each piece becomes a complete magnet",
+            "One piece has only north pole",
+            "One piece has only south pole",
+            "Both pieces lose magnetism"
+        ]
+    },
+    {
+        "q": "Match the items with their use of magnets:",
+        "type": "match",
+        "left": [
+            "Electric bell",
+            "Refrigerator door",
+            "Crane",
+            "Speaker"
+        ],
+        "right": [
+            "Uses electromagnet",
+            "Uses permanent magnet strip",
+            "Lifts heavy iron scrap",
+            "Converts signals to sound"
+        ]
+    },
+    {
+        "q": "Which of these is a temporary magnet?",
+        "type": "mcq",
+        "o": [
+            "Electromagnet",
+            "Bar magnet",
+            "Horseshoe magnet",
+            "Lodestone"
+        ]
+    },
+    {
+        "q": "Magnetic field lines are imaginary lines.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the region where magnetic force can be felt called?",
+        "type": "short_answer",
+        "answers": [
+            "magnetic field"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Iron filings arrange themselves in a ______ pattern around a magnet.",
+        "type": "fill_blank",
+        "answers": [
+            "curved"
+        ],
+        "other_options": [
+            "straight",
+            "zigzag",
+            "random"
+        ]
+    },
+    {
+        "q": "Match the terms with their descriptions by flipping pairs.",
+        "type": "memory",
+        "pairs": {
+            "Lodestone": "Natural magnetic rock",
+            "Compass": "Tool to find direction",
+            "Iron": "Common magnetic material"
+        }
+    },
+    {
+        "q": "Swipe RIGHT for Magnetic items, LEFT for Non-magnetic items.",
+        "type": "swipe_cards",
+        "left_label": "Non-magnetic",
+        "right_label": "Magnetic",
+        "cards": {
+            "Iron nail": "right",
+            "Plastic spoon": "left",
+            "Cobalt coin": "right",
+            "Wooden block": "left"
+        }
+    },
+    {
+        "q": "Which of these appliances uses a magnet?",
+        "type": "mcq",
+        "o": [
+            "Electric bell",
+            "Electric bulb",
+            "Electric heater",
+            "Electric toaster"
+        ]
+    },
+    {
+        "q": "A magnet can attract a piece of paper.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the term for materials that are attracted to magnets?",
+        "type": "mcq",
+        "o": [
+            "Magnetic materials",
+            "Non-magnetic materials",
+            "Insulators",
+            "Conductors"
+        ]
+    },
+    {
+        "q": "Which of these is a non-magnetic material?",
+        "type": "mcq",
+        "o": [
+            "Aluminum",
+            "Iron",
+            "Nickel",
+            "Cobalt"
+        ]
+    },
+    {
+        "q": "The south pole of a freely suspended magnet points toward the geographic ______.",
+        "type": "fill_blank",
+        "answers": [
+            "south"
+        ],
+        "other_options": [
+            "north",
+            "east",
+            "west"
+        ]
+    },
+    {
+        "q": "Match the magnet type with its example:",
+        "type": "match",
+        "left": [
+            "Natural magnet",
+            "Artificial permanent magnet",
+            "Temporary magnet"
+        ],
+        "right": [
+            "Lodestone",
+            "Bar magnet",
+            "Electromagnet"
+        ]
+    },
+    {
+        "q": "Unscramble the word: a device used to find geographic direction.",
+        "type": "word_scramble",
+        "answer": "COMPASS",
+        "decoys": "QZ"
+    },
+    {
+        "q": "Which scientist discovered the relationship between electricity and magnetism?",
+        "type": "mcq",
+        "o": [
+            "Hans Christian Oersted",
+            "Isaac Newton",
+            "Albert Einstein",
+            "Galileo Galilei"
+        ]
+    },
+    {
+        "q": "What is the strength of a magnetic field measured with?",
+        "type": "mcq",
+        "o": [
+            "Magnetic compass",
+            "Thermometer",
+            "Barometer",
+            "Speedometer"
+        ]
+    },
+    {
+        "q": "Name a device that uses a magnetic needle to show direction.",
+        "type": "short_answer",
+        "answers": [
+            "compass",
+            "magnetic compass"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Magnets should be stored with ______ poles together.",
+        "type": "fill_blank",
+        "answers": [
+            "unlike"
+        ],
+        "other_options": [
+            "like",
+            "same",
+            "north"
+        ]
+    },
+    {
+        "q": "A single pole of a magnet can exist independently.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a common shape of a permanent magnet?",
+        "type": "mcq",
+        "o": [
+            "Bar",
+            "Square box",
+            "Triangular",
+            "Circular coil only"
+        ]
+    },
+    {
+        "q": "Complete the sentence regarding freely suspended magnets:",
+        "type": "inline_dropdown",
+        "text": "A freely suspended magnet always comes to rest in the [0] direction.",
+        "dropdowns": [
+            {
+                "correct": "North-South",
+                "options": [
+                    "East-West",
+                    "North-South",
+                    "Up-Down"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What happens when you bring two north poles together?",
+        "type": "mcq",
+        "o": [
+            "They repel",
+            "They attract",
+            "They become one",
+            "They rotate"
+        ]
+    },
+    {
+        "q": "The Earth's magnetic south pole is near the geographic ______ pole.",
+        "type": "fill_blank",
+        "answers": [
+            "north"
+        ],
+        "other_options": [
+            "south",
+            "east",
+            "west"
+        ]
+    },
+    {
+        "q": "Which of these is attracted to a magnet?",
+        "type": "mcq",
+        "o": [
+            "Steel paper clip",
+            "Copper coin",
+            "Gold ring",
+            "Aluminum foil"
+        ]
+    },
+    {
+        "q": "Match the pole with its behavior:",
+        "type": "match",
+        "left": [
+            "North pole of Earth magnet",
+            "South pole of Earth magnet"
+        ],
+        "right": [
+            "Attracts south pole of compass",
+            "Attracts north pole of compass"
+        ]
+    },
+    {
+        "q": "What is a keeper in magnetism?",
+        "type": "mcq",
+        "o": [
+            "A piece of soft iron to preserve magnetism",
+            "A tool to cut magnets",
+            "A device to measure magnetism",
+            "A type of magnet"
+        ]
+    },
+    {
+        "q": "Electromagnets are permanent magnets.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which metal is used to make a compass needle?",
+        "type": "mcq",
+        "o": [
+            "Steel",
+            "Copper",
+            "Aluminum",
+            "Silver"
+        ]
+    },
+    {
+        "q": "What is the method to make a magnet from an iron bar called?",
+        "type": "mcq",
+        "o": [
+            "Magnetization",
+            "Electrification",
+            "Galvanization",
+            "Insulation"
+        ]
+    },
+    {
+        "q": "Name a natural magnetic rock.",
+        "type": "short_answer",
+        "answers": [
+            "lodestone",
+            "magnetite"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A magnet's force can pass through non-magnetic materials like paper.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What happens to the magnetic force as you move away from a magnet?",
+        "type": "mcq",
+        "o": [
+            "It decreases",
+            "It increases",
+            "It stays the same",
+            "It disappears suddenly"
+        ]
+    },
+    {
+        "q": "Which of these devices uses an electromagnet?",
+        "type": "mcq",
+        "o": [
+            "Electric crane",
+            "Refrigerator",
+            "Thermometer",
+            "Barometer"
+        ]
+    },
+    {
+        "q": "The process of losing magnetism is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "demagnetization"
+        ],
+        "other_options": [
+            "magnetization",
+            "electrification",
+            "oxidation"
+        ]
+    },
+    {
+        "q": "Which of these can demagnetize a magnet?",
+        "type": "mcq",
+        "o": [
+            "Heating strongly",
+            "Cooling",
+            "Wrapping in paper",
+            "Storing in a box"
+        ]
+    },
+    {
+        "q": "A compass works because Earth has a magnetic field.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What are the two main types of magnets based on existence of poles?",
+        "type": "mcq",
+        "o": [
+            "Permanent and temporary",
+            "Natural and artificial",
+            "Strong and weak",
+            "Big and small"
+        ]
+    },
+    {
+        "q": "Which of these is NOT an artificial magnet?",
+        "type": "mcq",
+        "o": [
+            "Lodestone",
+            "Bar magnet",
+            "Horseshoe magnet",
+            "Ring magnet"
+        ]
+    },
+    {
+        "q": "Name one use of magnets in daily life at home.",
+        "type": "short_answer",
+        "answers": [
+            "refrigerator door seal",
+            "holding notes on fridge",
+            "cabinet doors",
+            "toys",
+            "purse clasps"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In an electric bell, the ______ attracts an iron strip to ring the bell.",
+        "type": "fill_blank",
+        "answers": [
+            "electromagnet"
+        ],
+        "other_options": [
+            "permanent magnet",
+            "battery",
+            "switch"
+        ]
+    },
+    {
+        "q": "Match the magnetic material with its category:",
+        "type": "match",
+        "left": [
+            "Iron",
+            "Cobalt",
+            "Nickel",
+            "Steel"
+        ],
+        "right": [
+            "Magnetic metal",
+            "Magnetic metal",
+            "Magnetic metal",
+            "Alloy that is magnetic"
+        ]
+    },
+    {
+        "q": "Unscramble the word: a naturally occurring magnetic rock.",
+        "type": "word_scramble",
+        "answer": "LODESTONE",
+        "decoys": "BX"
+    },
+    {
+        "q": "Which of these is attracted to a magnet?",
+        "type": "mcq",
+        "o": [
+            "A sewing needle made of steel",
+            "A copper wire",
+            "A piece of chalk",
+            "A rubber band"
+        ]
+    },
+    {
+        "q": "Magnetic field lines run from south pole to north pole inside the magnet.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a magnetic compass made of?",
+        "type": "mcq",
+        "o": [
+            "A magnetic needle pivoted on a pin",
+            "A glass tube with liquid",
+            "A metal spring",
+            "A plastic disc"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a property of a magnet?",
+        "type": "mcq",
+        "o": [
+            "It always has a single pole",
+            "It attracts magnetic materials",
+            "Like poles repel",
+            "It has two poles"
+        ]
+    },
+    {
+        "q": "What is the term for a magnet that keeps its magnetism for a long time?",
+        "type": "short_answer",
+        "answers": [
+            "permanent magnet"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Hitting a magnet with a hammer can ______ it.",
+        "type": "fill_blank",
+        "answers": [
+            "demagnetize"
+        ],
+        "other_options": [
+            "strengthen",
+            "attract",
+            "repel"
+        ]
+    },
+    {
+        "q": "A magnet can attract an iron nail through a glass of water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is an example of a magnetic material?",
+        "type": "mcq",
+        "o": [
+            "Cobalt",
+            "Zinc",
+            "Lead",
+            "Tin"
+        ]
+    },
+    {
+        "q": "What do we call the lines that show the magnetic field?",
+        "type": "mcq",
+        "o": [
+            "Magnetic field lines",
+            "Electric lines",
+            "Force arrows",
+            "Power lines"
+        ]
+    },
+    {
+        "q": "Complete the sentence about magnetic poles:",
+        "type": "inline_dropdown",
+        "text": "[0] magnetic poles will repel each other when brought close.",
+        "dropdowns": [
+            {
+                "correct": "Like",
+                "options": [
+                    "Like",
+                    "Unlike",
+                    "Neutral"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The magnetic field is strongest where the field lines are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "closest together"
+        ],
+        "other_options": [
+            "farthest apart",
+            "straight",
+            "curved"
+        ]
+    },
+    {
+        "q": "Match the pole interactions by flipping pairs.",
+        "type": "memory",
+        "pairs": {
+            "North and North": "Repel each other",
+            "North and South": "Attract each other",
+            "South and South": "Push away from each other"
+        }
+    },
+    {
+        "q": "Match the following:",
+        "type": "match",
+        "left": [
+            "Attraction",
+            "Repulsion",
+            "Magnetic field",
+            "Pole"
+        ],
+        "right": [
+            "Unlike poles come together",
+            "Like poles push away",
+            "Area around a magnet",
+            "End of a magnet"
+        ]
+    },
+    {
+        "q": "Which of these is used to find geographic directions?",
+        "type": "mcq",
+        "o": [
+            "Magnetic compass",
+            "Barometer",
+            "Thermometer",
+            "Hygrometer"
+        ]
+    },
+    {
+        "q": "What happens if a magnet is dropped repeatedly?",
+        "type": "mcq",
+        "o": [
+            "It may lose its magnetism",
+            "It becomes stronger",
+            "It changes shape",
+            "It gains electricity"
+        ]
+    },
+    {
+        "q": "An electromagnet works only when ______ flows through it.",
+        "type": "fill_blank",
+        "answers": [
+            "electric current"
+        ],
+        "other_options": [
+            "water",
+            "air",
+            "light"
+        ]
+    },
+    {
+        "q": "Magnets were first discovered by the ancient Greeks.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a characteristic of magnetic field lines?",
+        "type": "mcq",
+        "o": [
+            "They never cross each other",
+            "They always cross each other",
+            "They are straight only",
+            "They exist only at poles"
+        ]
+    },
+    {
+        "q": "What is an alloy used for making permanent magnets?",
+        "type": "mcq",
+        "o": [
+            "Alnico",
+            "Brass",
+            "Bronze",
+            "Solder"
+        ]
+    },
+    {
+        "q": "Name one thing that can destroy the magnetism of a magnet.",
+        "type": "short_answer",
+        "answers": [
+            "heat",
+            "hammering",
+            "dropping repeatedly",
+            "strong alternating current"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Magnetic field lines outside a magnet go from the south pole to the north pole.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is NOT a use of an electromagnet?",
+        "type": "mcq",
+        "o": [
+            "Holding a fridge door closed",
+            "Lifting heavy iron scrap",
+            "Electric bell",
+            "Speaker"
+        ]
+    },
+    {
+        "q": "What is the core of an electromagnet usually made of?",
+        "type": "mcq",
+        "o": [
+            "Soft iron",
+            "Steel",
+            "Aluminum",
+            "Copper"
+        ]
+    },
+    {
+        "q": "A magnet can attract objects made of magnetic material through air, paper, or glass.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the scientist with their discovery:",
+        "type": "match",
+        "left": [
+            "Oersted",
+            "William Gilbert",
+            "Michael Faraday"
+        ],
+        "right": [
+            "Electricity creates magnetism",
+            "Earth is a giant magnet",
+            "Electromagnetic induction"
+        ]
+    },
+    {
+        "q": "If you break a bar magnet in half 4 times, how many separate pieces do you get?",
+        "type": "slider",
+        "min": 2,
+        "max": 20,
+        "correct": 16
+    },
+    {
+        "q": "Which shape of magnet is a straight bar?",
+        "type": "mcq",
+        "o": [
+            "Bar magnet",
+            "Ring magnet",
+            "Disc magnet",
+            "Cylindrical magnet"
+        ]
+    },
+    {
+        "q": "Which of these items does NOT belong with the others?",
+        "type": "odd_one_out",
+        "options": [
+            "Plastic bottle",
+            "Glass cup",
+            "Rubber band",
+            "Steel spoon"
+        ],
+        "correct": "Steel spoon"
+    },
+    {
+        "q": "What is used to trace magnetic field lines in an experiment?",
+        "type": "mcq",
+        "o": [
+            "Iron filings",
+            "Sand",
+            "Salt",
+            "Sugar"
+        ]
+    },
+    {
+        "q": "The end of a compass needle that points north is the ______ pole of the needle.",
+        "type": "fill_blank",
+        "answers": [
+            "north-seeking",
+            "north"
+        ],
+        "other_options": [
+            "south-seeking",
+            "south",
+            "east"
+        ]
+    },
+    {
+        "q": "Which of these metals cannot be magnetized easily?",
+        "type": "mcq",
+        "o": [
+            "Brass",
+            "Iron",
+            "Nickel",
+            "Steel"
+        ]
+    },
+    {
+        "q": "A magnetic field is invisible.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the magnet shape with its description.",
+        "type": "memory",
+        "pairs": {
+            "Bar magnet": "Rectangular block shape",
+            "Horseshoe magnet": "U-shaped bend",
+            "Ring magnet": "Circular disc with a hole",
+            "Magnetic needle": "Rhombus shaped pointer"
+        }
+    },
+    {
+        "q": "What is the SI unit of magnetic field strength?",
+        "type": "mcq",
+        "o": [
+            "Tesla",
+            "Newton",
+            "Pascal",
+            "Joule"
+        ]
+    },
+    {
+        "q": "Which of these is a magnetic alloy?",
+        "type": "mcq",
+        "o": [
+            "Alnico",
+            "Bronze",
+            "Brass",
+            "Solder"
+        ]
+    },
+    {
+        "q": "Name a household item that uses a permanent magnet.",
+        "type": "short_answer",
+        "answers": [
+            "refrigerator door",
+            "cabinet latch",
+            "toy",
+            "shower curtain weight",
+            "purse clasp"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "If a bar magnet breaks, each piece will have only one pole.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a method to make a temporary magnet?",
+        "type": "mcq",
+        "o": [
+            "Wrapping a wire coil around iron and passing current",
+            "Rubbing with another magnet",
+            "Heating and cooling",
+            "Dropping in water"
+        ]
+    },
+    {
+        "q": "The magnetic property of lodestone was discovered in a place called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Magnesia"
+        ],
+        "other_options": [
+            "Athens",
+            "Rome",
+            "Sparta"
+        ]
+    },
+    {
+        "q": "Match the magnet type with its property:",
+        "type": "match",
+        "left": [
+            "Permanent magnet",
+            "Electromagnet",
+            "Natural magnet"
+        ],
+        "right": [
+            "Always magnetic",
+            "Magnetic only with electricity",
+            "Found in nature"
+        ]
+    },
+    {
+        "q": "Which of these materials would a magnet NOT attract?",
+        "type": "mcq",
+        "o": [
+            "Aluminum can",
+            "Iron nail",
+            "Steel spoon",
+            "Nickel coin"
+        ]
+    },
+    {
+        "q": "What happens when a magnet is placed near a magnetic material?",
+        "type": "mcq",
+        "o": [
+            "Induced magnetism may occur",
+            "The material melts",
+            "The magnet loses its poles",
+            "Electricity is produced"
+        ]
+    },
+    {
+        "q": "What is the property of a magnet to attract iron called?",
+        "type": "mcq",
+        "o": [
+            "Magnetism",
+            "Electricity",
+            "Gravity",
+            "Friction"
+        ]
+    },
+    {
+        "q": "Which of these is a soft magnetic material?",
+        "type": "mcq",
+        "o": [
+            "Soft iron",
+            "Steel",
+            "Alnico",
+            "Cobalt"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Attracting pairs, LEFT for Repelling pairs.",
+        "type": "swipe_cards",
+        "left_label": "Repel",
+        "right_label": "Attract",
+        "cards": {
+            "North-South": "right",
+            "North-North": "left",
+            "South-South": "left",
+            "South-North": "right"
+        }
+    },
+    {
+        "q": "Soft iron is used to make electromagnets because it loses magnetism quickly.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What happens when you stroke an iron bar repeatedly with one pole of a magnet in one direction?",
+        "type": "mcq",
+        "o": [
+            "The iron bar becomes a magnet",
+            "The iron bar melts",
+            "The magnet loses its power",
+            "Nothing happens"
+        ]
+    },
+    {
+        "q": "Name the method of making a magnet by rubbing it with another magnet.",
+        "type": "short_answer",
+        "answers": [
+            "single touch method",
+            "stroking method",
+            "magnetization by rubbing"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A magnet can attract iron filings from a mixture of sand and iron. This is called magnetic ______.",
+        "type": "fill_blank",
+        "answers": [
+            "separation"
+        ],
+        "other_options": [
+            "attraction",
+            "collection",
+            "filtering"
+        ]
+    },
+    {
+        "q": "Which of these is a hard magnetic material?",
+        "type": "mcq",
+        "o": [
+            "Steel",
+            "Soft iron",
+            "Copper",
+            "Aluminum"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the most common magnetic metal.",
+        "type": "word_scramble",
+        "answer": "IRON",
+        "decoys": "WK"
+    },
+    {
+        "q": "Hard magnetic materials are used to make permanent magnets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the region near a magnet where its force is felt called?",
+        "type": "mcq",
+        "o": [
+            "Magnetic field",
+            "Electric field",
+            "Gravitational field",
+            "Force circle"
+        ]
+    },
+    {
+        "q": "Magnetic field lines are drawn from ______ to ______ outside a magnet.",
+        "type": "fill_blank",
+        "answers": [
+            "north, south"
+        ],
+        "other_options": [
+            "south, north",
+            "east, west",
+            "center, pole"
+        ]
+    },
+    {
+        "q": "Which of the following is true about magnetic field lines?",
+        "type": "mcq",
+        "o": [
+            "They form closed loops",
+            "They start and end in the air",
+            "They are straight lines only",
+            "They exist only at poles"
+        ]
+    },
+    {
+        "q": "Match the property with its description:",
+        "type": "match",
+        "left": [
+            "Directive property",
+            "Attractive property",
+            "Induction",
+            "Demagnetization"
+        ],
+        "right": [
+            "Aligns north-south when suspended",
+            "Pulls magnetic materials",
+            "Magnetism passed without contact",
+            "Loss of magnetic strength"
+        ]
+    },
+    {
+        "q": "Which of these can become an induced magnet?",
+        "type": "mcq",
+        "o": [
+            "An iron nail",
+            "A wooden stick",
+            "A glass rod",
+            "A copper wire"
+        ]
+    },
+    {
+        "q": "What is the strength of an electromagnet increased by?",
+        "type": "mcq",
+        "o": [
+            "Increasing the number of coil turns",
+            "Decreasing the current",
+            "Using a wooden core",
+            "Using alternating current"
+        ]
+    },
+    {
+        "q": "A compass needle is a small ______ magnet.",
+        "type": "fill_blank",
+        "answers": [
+            "bar"
+        ],
+        "other_options": [
+            "horseshoe",
+            "ring",
+            "disc"
+        ]
+    },
+    {
+        "q": "Name one advantage of an electromagnet over a permanent magnet.",
+        "type": "short_answer",
+        "answers": [
+            "its strength can be changed",
+            "it can be switched on and off",
+            "strength is variable",
+            "it can be turned off"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A bar magnet is a temporary magnet.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence about magnetic attraction:",
+        "type": "inline_dropdown",
+        "text": "[0] magnetic poles will attract each other.",
+        "dropdowns": [
+            {
+                "correct": "Unlike",
+                "options": [
+                    "Like",
+                    "Unlike",
+                    "Similar"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these materials is used for the core of an electromagnet?",
+        "type": "mcq",
+        "o": [
+            "Soft iron",
+            "Steel",
+            "Brass",
+            "Aluminum"
+        ]
+    },
+    {
+        "q": "What is the purpose of a keeper in storing magnets?",
+        "type": "mcq",
+        "o": [
+            "To preserve magnetism by completing the magnetic circuit",
+            "To increase the magnetic power",
+            "To change the poles",
+            "To clean the magnet"
+        ]
+    },
+    {
+        "q": "The Earth's geographic north pole is actually a magnetic south pole.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a way to demagnetize a magnet?",
+        "type": "mcq",
+        "o": [
+            "Keeping it in a cool place",
+            "Heating it strongly",
+            "Dropping it repeatedly",
+            "Passing alternating current through it"
+        ]
+    },
+    {
+        "q": "The process of making a magnetic material magnetic without direct contact is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "magnetic induction"
+        ],
+        "other_options": [
+            "magnetic separation",
+            "magnetic field",
+            "magnetic attraction"
+        ]
+    },
+    {
+        "q": "Which of the following uses the directive property of a magnet?",
+        "type": "mcq",
+        "o": [
+            "Compass",
+            "Crane",
+            "Speaker",
+            "Electric bell"
+        ]
+    },
+    {
+        "q": "Match the device with its magnetic principle:",
+        "type": "match",
+        "left": [
+            "Compass",
+            "Electric crane",
+            "Refrigerator door",
+            "Speaker"
+        ],
+        "right": [
+            "Directive property",
+            "Electromagnetism",
+            "Permanent magnet attraction",
+            "Electromagnet vibration"
+        ]
+    },
+    {
+        "q": "What type of magnet is used in a scrapyard crane?",
+        "type": "mcq",
+        "o": [
+            "Electromagnet",
+            "Bar magnet",
+            "Horseshoe magnet",
+            "Ring magnet"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the end of a magnet where the force is strongest.",
+        "type": "word_scramble",
+        "answer": "POLE",
+        "decoys": "JF"
+    },
+    {
+        "q": "Alnico is an alloy of aluminum, nickel, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cobalt"
+        ],
+        "other_options": [
+            "copper",
+            "iron",
+            "zinc"
+        ]
+    },
+    {
+        "q": "Magnetic induction requires physical contact between the magnet and the object.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a method of magnetizing a steel bar?",
+        "type": "mcq",
+        "o": [
+            "Double touch method",
+            "Heating and cooling",
+            "Soaking in water",
+            "Exposure to light"
+        ]
+    },
+    {
+        "q": "Complete the sentence about magnet strength:",
+        "type": "inline_dropdown",
+        "text": "The magnetic strength of a bar magnet is strongest at the [0].",
+        "dropdowns": [
+            {
+                "correct": "poles",
+                "options": [
+                    "center",
+                    "sides",
+                    "poles"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What happens to the magnetic field when two unlike poles are brought close?",
+        "type": "mcq",
+        "o": [
+            "The field lines join and become denser between them",
+            "The field lines cancel out",
+            "The field disappears",
+            "The field becomes straight only"
+        ]
+    },
+    {
+        "q": "Name a device that uses the magnetic effect of electric current.",
+        "type": "short_answer",
+        "answers": [
+            "electric bell",
+            "electric motor",
+            "telegraph",
+            "loudspeaker",
+            "relay"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The ______ the number of turns of wire in an electromagnet, the stronger it is.",
+        "type": "fill_blank",
+        "answers": [
+            "greater"
+        ],
+        "other_options": [
+            "smaller",
+            "equal",
+            "constant"
+        ]
+    },
+    {
+        "q": "Which of these substances is non-magnetic?",
+        "type": "mcq",
+        "o": [
+            "Zinc",
+            "Iron",
+            "Nickel",
+            "Cobalt"
+        ]
+    },
+    {
+        "q": "A freely suspended bar magnet aligns itself in the geographic north-south direction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the historical fact to its detail.",
+        "type": "memory",
+        "pairs": {
+            "Magnes": "Shepherd who first found magnets",
+            "Magnetite": "Natural iron ore with magnetism",
+            "Ancient China": "Invented the first working compass"
+        }
+    },
+    {
+        "q": "Which pole of the Earth's magnet is located near the geographic South Pole?",
+        "type": "mcq",
+        "o": [
+            "Magnetic north pole",
+            "Magnetic south pole",
+            "Geographic north pole",
+            "Geographic east pole"
+        ]
+    },
+    {
+        "q": "How many main cardinal directions are shown on a standard compass dial?",
+        "type": "slider",
+        "min": 2,
+        "max": 8,
+        "correct": 4
+    },
+    {
+        "q": "What is the coating of a compass needle usually made of for visibility?",
+        "type": "mcq",
+        "o": [
+            "Paint or enamel",
+            "Rubber",
+            "Plastic wrap",
+            "Copper foil"
+        ]
+    },
+    {
+        "q": "Match the term with its meaning:",
+        "type": "match",
+        "left": [
+            "Paramagnetic",
+            "Ferromagnetic",
+            "Diamagnetic",
+            "Non-magnetic"
+        ],
+        "right": [
+            "Weakly attracted",
+            "Strongly attracted",
+            "Slightly repelled",
+            "Not attracted at all"
+        ]
+    },
+    {
+        "q": "Electromagnets are used in electric bells to make them ring.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a method of magnetization?",
+        "type": "mcq",
+        "o": [
+            "Cooling in liquid nitrogen",
+            "Single touch method",
+            "Double touch method",
+            "Electrical method using solenoid"
+        ]
+    },
+    {
+        "q": "What is the name of a coil of wire that acts like a magnet when current passes through it?",
+        "type": "mcq",
+        "o": [
+            "Solenoid",
+            "Resistor",
+            "Capacitor",
+            "Transistor"
+        ]
+    },
+    {
+        "q": "A magnetic field is a ______ quantity.",
+        "type": "fill_blank",
+        "answers": [
+            "vector"
+        ],
+        "other_options": [
+            "scalar",
+            "constant",
+            "temporary"
+        ]
+    },
+    {
+        "q": "Name the scientist who first observed that a current-carrying wire deflects a compass needle.",
+        "type": "short_answer",
+        "answers": [
+            "oersted",
+            "hans christian oersted"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a ferromagnetic material?",
+        "type": "mcq",
+        "o": [
+            "Cobalt",
+            "Copper",
+            "Silver",
+            "Gold"
+        ]
+    },
+    {
+        "q": "When a magnet is placed in a pile of iron nails, the nails stick mostly at the middle of the magnet.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is NOT a common shape for a solid artificial magnet?",
+        "type": "odd_one_out",
+        "options": [
+            "Bar",
+            "Horseshoe",
+            "Cylindrical",
+            "Liquid"
+        ],
+        "correct": "Liquid"
+    },
+    {
+        "q": "What is the effect on a magnet when it is struck with a hammer?",
+        "type": "mcq",
+        "o": [
+            "Its domains become misaligned, losing magnetism",
+            "It becomes stronger",
+            "It changes its poles",
+            "It becomes an electromagnet"
+        ]
+    },
+    {
+        "q": "A magnetic domain is a region within a magnetic material where atoms have their magnetic moments aligned.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these can be used to detect a magnetic field?",
+        "type": "mcq",
+        "o": [
+            "Iron filings",
+            "Sand",
+            "Water",
+            "Alcohol"
+        ]
+    },
+    {
+        "q": "The angle between geographic meridian and magnetic meridian is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "magnetic declination"
+        ],
+        "other_options": [
+            "magnetic inclination",
+            "magnetic dip",
+            "magnetic variation"
+        ]
+    },
+    {
+        "q": "Match the material with its magnetic type:",
+        "type": "match",
+        "left": [
+            "Iron",
+            "Nickel",
+            "Cobalt",
+            "Steel"
+        ],
+        "right": [
+            "Ferromagnetic",
+            "Ferromagnetic",
+            "Ferromagnetic",
+            "Hard ferromagnetic"
+        ]
+    },
+    {
+        "q": "Match Earth's geographic features with their magnetic equivalents.",
+        "type": "memory",
+        "pairs": {
+            "Geographic North": "Near Earth's Magnetic South",
+            "Geographic South": "Near Earth's Magnetic North",
+            "Earth's Core": "Made of swirling molten iron"
+        }
+    },
+    {
+        "q": "Which of these is an application of magnetic separation?",
+        "type": "mcq",
+        "o": [
+            "Removing iron from scrap in recycling plants",
+            "Filtering water",
+            "Separating sand from gravel",
+            "Distilling alcohol"
+        ]
+    },
+    {
+        "q": "What type of core does a permanent magnet have?",
+        "type": "mcq",
+        "o": [
+            "Hard magnetic material",
+            "Soft magnetic material",
+            "Non-magnetic material",
+            "Insulating material"
+        ]
+    },
+    {
+        "q": "An electromagnet can lift heavier loads than a permanent magnet of the same size.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the property of a magnet used in a compass.",
+        "type": "short_answer",
+        "answers": [
+            "directive property",
+            "direction-finding property"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In the double touch method, ______ magnets are used to stroke the bar.",
+        "type": "fill_blank",
+        "answers": [
+            "two"
+        ],
+        "other_options": [
+            "one",
+            "three",
+            "four"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a property of magnetic field lines?",
+        "type": "mcq",
+        "o": [
+            "They intersect each other",
+            "They form closed loops",
+            "They start from north outside the magnet",
+            "They are denser near the poles"
+        ]
+    },
+    {
+        "q": "What happens to the magnetism of an electromagnet when the current is turned off?",
+        "type": "mcq",
+        "o": [
+            "It loses most of its magnetism",
+            "It becomes a permanent magnet",
+            "It reverses its poles",
+            "It increases in strength"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Artificial magnets, LEFT for Natural magnets.",
+        "type": "swipe_cards",
+        "left_label": "Natural",
+        "right_label": "Artificial",
+        "cards": {
+            "Lodestone": "left",
+            "Bar magnet": "right",
+            "Horseshoe magnet": "right",
+            "Magnetite ore": "left"
+        }
+    },
+    {
+        "q": "Earth's magnetic field protects us from harmful solar wind particles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is an example of magnetic storage?",
+        "type": "mcq",
+        "o": [
+            "Magnetic tape",
+            "USB flash drive",
+            "Optical disc",
+            "Paper record"
+        ]
+    },
+    {
+        "q": "What is the term for materials that are strongly attracted to a magnet?",
+        "type": "mcq",
+        "o": [
+            "Ferromagnetic",
+            "Diamagnetic",
+            "Paramagnetic",
+            "Non-magnetic"
+        ]
+    },
+    {
+        "q": "Unscramble the word: what opposite poles do to each other.",
+        "type": "word_scramble",
+        "answer": "ATTRACT",
+        "decoys": "VM"
+    },
+    {
+        "q": "Match the magnetic term with its definition:",
+        "type": "match",
+        "left": [
+            "Magnetic flux",
+            "Flux density",
+            "Permeability",
+            "Retentivity"
+        ],
+        "right": [
+            "Total magnetic lines",
+            "Flux per unit area",
+            "Ability to conduct magnetic lines",
+            "Ability to retain magnetism"
+        ]
+    },
+    {
+        "q": "A solenoid with a soft iron core is called an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "electromagnet"
+        ],
+        "other_options": [
+            "permanent magnet",
+            "inductor",
+            "transformer"
+        ]
+    },
+    {
+        "q": "Complete the sentence about natural magnets:",
+        "type": "inline_dropdown",
+        "text": "[0] is a natural magnet found in nature.",
+        "dropdowns": [
+            {
+                "correct": "Magnetite",
+                "options": [
+                    "Steel",
+                    "Magnetite",
+                    "Plastic"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these materials has the highest retentivity?",
+        "type": "mcq",
+        "o": [
+            "Steel",
+            "Soft iron",
+            "Copper",
+            "Aluminum"
+        ]
+    },
+    {
+        "q": "Magnetic force is a contact force.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the unit of magnetic flux?",
+        "type": "mcq",
+        "o": [
+            "Weber",
+            "Tesla",
+            "Newton",
+            "Ampere"
+        ]
+    },
+    {
+        "q": "Name a method to magnetize a steel needle.",
+        "type": "short_answer",
+        "answers": [
+            "single touch method",
+            "double touch method",
+            "electrical method",
+            "stroking with a magnet"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: what similar poles do to each other.",
+        "type": "word_scramble",
+        "answer": "REPEL",
+        "decoys": "GQ"
+    },
+    {
+        "q": "The intensity of a magnetic field decreases as the distance from the magnet ______.",
+        "type": "fill_blank",
+        "answers": [
+            "increases"
+        ],
+        "other_options": [
+            "decreases",
+            "remains same",
+            "doubles"
+        ]
+    },
+    {
+        "q": "Which of these is used in a microphone?",
+        "type": "mcq",
+        "o": [
+            "Magnet",
+            "Lens",
+            "Prism",
+            "Spring only"
+        ]
+    },
+    {
+        "q": "A magnetic compass can be used to check if a material is magnetic or not.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a paramagnetic material?",
+        "type": "mcq",
+        "o": [
+            "Aluminum",
+            "Iron",
+            "Cobalt",
+            "Nickel"
+        ]
+    },
+    {
+        "q": "Complete the sentence about attracted objects:",
+        "type": "inline_dropdown",
+        "text": "Materials that get attracted by a magnet are known as [0] materials.",
+        "dropdowns": [
+            {
+                "correct": "magnetic",
+                "options": [
+                    "magnetic",
+                    "insulating",
+                    "transparent"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the action with its effect on a magnet's strength.",
+        "type": "memory",
+        "pairs": {
+            "Using keepers": "Preserves magnetic strength",
+            "Dropping repeatedly": "Weakens the magnetism",
+            "Heating in fire": "Destroys the magnetism completely"
+        }
+    },
+    {
+        "q": "What is the effect of increasing the current in an electromagnet?",
+        "type": "mcq",
+        "o": [
+            "The magnetic strength increases",
+            "The magnetic strength decreases",
+            "The poles reverse",
+            "No change occurs"
+        ]
+    },
+    {
+        "q": "A magnet always has two poles even if it is cut into small pieces.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which pole of a compass needle points toward the geographic north?",
+        "type": "mcq",
+        "o": [
+            "North-seeking pole",
+            "South-seeking pole",
+            "Both alternately",
+            "Neither"
+        ]
+    },
+    {
+        "q": "How many soft iron keepers are typically used to store a pair of bar magnets safely?",
+        "type": "slider",
+        "min": 0,
+        "max": 4,
+        "correct": 2
+    },
+    {
+        "q": "Match the application with the magnet type:",
+        "type": "match",
+        "left": [
+            "MRI machine",
+            "Electric motor",
+            "Magnetic compass",
+            "Refrigerator seal"
+        ],
+        "right": [
+            "Superconducting electromagnet",
+            "Electromagnet",
+            "Permanent magnet",
+            "Flexible permanent magnet"
+        ]
+    },
+    {
+        "q": "The strength of a magnetic field is measured in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "tesla"
+        ],
+        "other_options": [
+            "weber",
+            "newton",
+            "joule"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a property of a magnetic field?",
+        "type": "mcq",
+        "o": [
+            "It has mass",
+            "It exerts force",
+            "It is invisible",
+            "It has direction"
+        ]
+    },
+    {
+        "q": "What happens when a magnetic material is placed inside a solenoid carrying current?",
+        "type": "mcq",
+        "o": [
+            "It becomes strongly magnetized",
+            "It heats up and melts",
+            "It becomes an insulator",
+            "Nothing happens"
+        ]
+    },
+    {
+        "q": "Name the two metals commonly used to make permanent magnets in alloys.",
+        "type": "short_answer",
+        "answers": [
+            "iron and nickel",
+            "iron and cobalt",
+            "nickel and cobalt",
+            "alnico"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Steel is preferred over soft iron for making permanent magnets because of its high ______.",
+        "type": "fill_blank",
+        "answers": [
+            "retentivity"
+        ],
+        "other_options": [
+            "permeability",
+            "conductivity",
+            "insulation"
+        ]
+    },
+    {
+        "q": "A material that is weakly repelled by a magnet is called diamagnetic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these actions will NOT demagnetize a magnet?",
+        "type": "odd_one_out",
+        "options": [
+            "Heating",
+            "Hammering",
+            "Dropping",
+            "Cooling"
+        ],
+        "correct": "Cooling"
+    },
+    {
+        "q": "Which of these is a use of a ring magnet?",
+        "type": "mcq",
+        "o": [
+            "Loudspeakers",
+            "Compass",
+            "Refrigerator seal",
+            "Scrapyard crane"
+        ]
+    },
+    {
+        "q": "What is the purpose of the spring in an electric bell?",
+        "type": "mcq",
+        "o": [
+            "To bring the armature back to its original position",
+            "To conduct electricity",
+            "To act as a magnet",
+            "To ring the bell directly"
+        ]
+    },
+    {
+        "q": "The magnetic meridian at a place is an imaginary line joining the magnetic north and south poles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these can shield a region from a magnetic field?",
+        "type": "mcq",
+        "o": [
+            "Mu-metal",
+            "Glass",
+            "Plastic",
+            "Wood"
+        ]
+    },
+    {
+        "q": "Match the material with its correct magnetic property.",
+        "type": "memory",
+        "pairs": {
+            "Nickel": "Magnetic metal element",
+            "Gold": "Non-magnetic precious metal",
+            "Steel": "Magnetic alloy of iron",
+            "Copper": "Non-magnetic wiring metal"
+        }
+    },
+    {
+        "q": "What is the angle between the direction of Earth's magnetic field and the horizontal called?",
+        "type": "mcq",
+        "o": [
+            "Angle of dip",
+            "Angle of declination",
+            "Angle of incidence",
+            "Angle of reflection"
+        ]
+    },
+    {
+        "q": "Match the part of an electric bell with its function:",
+        "type": "match",
+        "left": [
+            "Electromagnet",
+            "Armature",
+            "Contact screw",
+            "Gong"
+        ],
+        "right": [
+            "Produces magnetic field",
+            "Strikes the gong when attracted",
+            "Completes the circuit",
+            "Produces sound when struck"
+        ]
+    },
+    {
+        "q": "Soft iron has high retentivity and is used for permanent magnets.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Swipe RIGHT for actions that Demagnetize, LEFT for actions that Magnetize.",
+        "type": "swipe_cards",
+        "left_label": "Magnetize",
+        "right_label": "Demagnetize",
+        "cards": {
+            "Stroking with a magnet": "left",
+            "Heating to red hot": "right",
+            "Dropping on concrete": "right",
+            "Passing electric current": "left"
+        }
+    },
+    {
+        "q": "Which of these is a magnetic storage medium used in old computers?",
+        "type": "mcq",
+        "o": [
+            "Floppy disk",
+            "CD-ROM",
+            "Punch card",
+            "Optical tape"
+        ]
+    },
+    {
+        "q": "What type of magnet is used in a magnetic levitation train?",
+        "type": "mcq",
+        "o": [
+            "Superconducting electromagnet",
+            "Bar magnet",
+            "Horseshoe magnet",
+            "Lodestone"
+        ]
+    },
+    {
+        "q": "The property of a magnetic material to retain magnetism is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "retentivity"
+        ],
+        "other_options": [
+            "permeability",
+            "conductivity",
+            "resistivity"
+        ]
+    },
+    {
+        "q": "Name the device used to convert sound energy into electrical signals using a magnet.",
+        "type": "short_answer",
+        "answers": [
+            "microphone"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a disadvantage of an electromagnet?",
+        "type": "mcq",
+        "o": [
+            "It needs a continuous supply of electricity",
+            "Its strength cannot be changed",
+            "It cannot be turned off",
+            "It is a natural magnet"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the area of influence around a magnet.",
+        "type": "word_scramble",
+        "answer": "FIELD",
+        "decoys": "ZP"
+    },
+    {
+        "q": "When current in an electromagnet is reversed, the magnetic poles are reversed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these alloys is used for making permanent magnets?",
+        "type": "mcq",
+        "o": [
+            "Alnico",
+            "Solder",
+            "Brass",
+            "Bronze"
+        ]
+    },
+    {
+        "q": "What is the function of a magnetic relay?",
+        "type": "mcq",
+        "o": [
+            "To control a high-power circuit with a low-power signal",
+            "To measure current",
+            "To generate electricity",
+            "To store magnetic energy"
+        ]
+    },
+    {
+        "q": "A ______ is a safety device that uses an electromagnet to break a circuit when current is too high.",
+        "type": "fill_blank",
+        "answers": [
+            "circuit breaker"
+        ],
+        "other_options": [
+            "fuse",
+            "switch",
+            "relay"
+        ]
+    },
+    {
+        "q": "Match the following applications with their magnetic use:",
+        "type": "match",
+        "left": [
+            "Maglev train",
+            "Credit card stripe",
+            "Metal detector",
+            "Junk yard crane"
+        ],
+        "right": [
+            "Magnetic levitation",
+            "Magnetic data storage",
+            "Detecting hidden metals",
+            "Lifting ferrous scrap"
+        ]
+    },
+    {
+        "q": "Complete the sentence regarding navigational tools:",
+        "type": "inline_dropdown",
+        "text": "A device used by sailors and hikers to find directions is a [0].",
+        "dropdowns": [
+            {
+                "correct": "compass",
+                "options": [
+                    "thermometer",
+                    "compass",
+                    "barometer"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "A magnetic stripe on a credit card stores data in the form of tiny magnetic regions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is an application of an electromagnet in medicine?",
+        "type": "mcq",
+        "o": [
+            "MRI scanner",
+            "Stethoscope",
+            "Thermometer",
+            "X-ray machine"
+        ]
+    },
+    {
+        "q": "What is the molecular theory of magnetism?",
+        "type": "mcq",
+        "o": [
+            "Each molecule of a magnetic substance is a tiny magnet",
+            "Magnets are made of special atoms not found elsewhere",
+            "Magnetism is caused by electric charges at rest",
+            "Magnetic molecules are only at the poles"
+        ]
+    },
+    {
+        "q": "In an unmagnetized iron bar, the molecular magnets are arranged ______.",
+        "type": "fill_blank",
+        "answers": [
+            "randomly",
+            "haphazardly"
+        ],
+        "other_options": [
+            "in straight lines",
+            "in closed loops",
+            "only at ends"
+        ]
+    },
+    {
+        "q": "Which of the following is true about magnetic domains?",
+        "type": "mcq",
+        "o": [
+            "They are regions where atomic magnetic moments are aligned",
+            "They exist only in non-magnetic materials",
+            "They are single atoms",
+            "They are visible to the naked eye"
+        ]
+    },
+    {
+        "q": "What happens to magnetic domains when a ferromagnetic material is magnetized?",
+        "type": "mcq",
+        "o": [
+            "Domains align in the direction of the applied field",
+            "Domains disappear completely",
+            "Domains become randomly oriented",
+            "Domains split into smaller unrelated units"
+        ]
+    },
+    {
+        "q": "Unscramble the word: a U-shaped magnet.",
+        "type": "word_scramble",
+        "answer": "HORSESHOE",
+        "decoys": "CL"
+    },
+    {
+        "q": "Heating a magnet strongly destroys its magnetism because it randomizes the domains.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the temperature above which a ferromagnetic material loses its magnetism.",
+        "type": "short_answer",
+        "answers": [
+            "Curie temperature",
+            "Curie point"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the magnetic classification with its behavior:",
+        "type": "match",
+        "left": [
+            "Ferromagnetic",
+            "Paramagnetic",
+            "Diamagnetic",
+            "Antiferromagnetic"
+        ],
+        "right": [
+            "Strongly attracted, domains align",
+            "Weakly attracted, no domain alignment",
+            "Weakly repelled by both poles",
+            "Adjacent moments anti-parallel"
+        ]
+    },
+    {
+        "q": "Complete the sentence about destroying magnetism:",
+        "type": "inline_dropdown",
+        "text": "[0] a magnet to high temperatures can destroy its magnetism.",
+        "dropdowns": [
+            {
+                "correct": "Heating",
+                "options": [
+                    "Cooling",
+                    "Freezing",
+                    "Heating"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these materials is diamagnetic?",
+        "type": "mcq",
+        "o": [
+            "Bismuth",
+            "Iron",
+            "Nickel",
+            "Cobalt"
+        ]
+    },
+    {
+        "q": "Match the magnetic field terms to their definitions.",
+        "type": "memory",
+        "pairs": {
+            "Magnetic field": "Invisible area of magnetic influence",
+            "Field lines": "Travel from North to South outside magnet",
+            "Poles": "The areas of strongest magnetic pull"
+        }
+    },
+    {
+        "q": "The ability of a material to allow magnetic lines of force to pass through it is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "permeability"
+        ],
+        "other_options": [
+            "retentivity",
+            "coercivity",
+            "susceptibility"
+        ]
+    },
+    {
+        "q": "Soft iron has high permeability and low retentivity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these best describes coercivity?",
+        "type": "mcq",
+        "o": [
+            "Resistance of a magnetic material to demagnetization",
+            "Ability to conduct magnetic flux",
+            "Maximum magnetic strength possible",
+            "Temperature at which magnetism is lost"
+        ]
+    },
+    {
+        "q": "How many ends (poles) does a horseshoe magnet have?",
+        "type": "slider",
+        "min": 1,
+        "max": 4,
+        "correct": 2
+    },
+    {
+        "q": "A material with high coercivity is suitable for making permanent magnets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a magnetic hysteresis loop?",
+        "type": "mcq",
+        "o": [
+            "A graph showing the lag of magnetic flux density behind magnetizing force",
+            "A circular path of magnetic field lines",
+            "The shape of a horseshoe magnet",
+            "A coil of wire producing magnetism"
+        ]
+    },
+    {
+        "q": "Name the phenomenon where magnetic flux density lags behind the magnetizing force.",
+        "type": "short_answer",
+        "answers": [
+            "hysteresis",
+            "magnetic hysteresis"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The energy lost as heat during repeated magnetization and demagnetization is called ______ loss.",
+        "type": "fill_blank",
+        "answers": [
+            "hysteresis"
+        ],
+        "other_options": [
+            "copper",
+            "eddy current",
+            "flux"
+        ]
+    },
+    {
+        "q": "Which of these common household or medical items does NOT use a magnet?",
+        "type": "odd_one_out",
+        "options": [
+            "Compass",
+            "Refrigerator door seal",
+            "MRI scanner",
+            "Aluminum cooking pan"
+        ],
+        "correct": "Aluminum cooking pan"
+    },
+    {
+        "q": "Which of the following is a method to demagnetize a steel bar completely?",
+        "type": "mcq",
+        "o": [
+            "Placing it in an alternating current solenoid and slowly withdrawing",
+            "Rubbing it with a permanent magnet",
+            "Keeping it in a magnetic field for a long time",
+            "Cooling it to very low temperatures"
+        ]
+    },
+    {
+        "q": "Match the magnet-making terms.",
+        "type": "memory",
+        "pairs": {
+            "Single touch": "Making a magnet by stroking",
+            "Electromagnet": "Getting magnetism from electricity",
+            "Permanent magnet": "A magnet that keeps its magnetism"
+        }
+    },
+    {
+        "q": "Match the material with its hysteresis loop characteristic:",
+        "type": "match",
+        "left": [
+            "Soft iron",
+            "Steel",
+            "Alnico",
+            "Ferrite"
+        ],
+        "right": [
+            "Narrow loop, low loss",
+            "Wide loop, high retentivity",
+            "Very wide loop, high coercivity",
+            "Moderate loop, ceramic magnet"
+        ]
+    },
+    {
+        "q": "Which of these is a ceramic magnet material?",
+        "type": "mcq",
+        "o": [
+            "Ferrite",
+            "Alnico",
+            "Soft iron",
+            "Permalloy"
+        ]
+    },
+    {
+        "q": "Eddy currents are induced in the core of a transformer and cause energy loss.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Laminating the core of a transformer helps to reduce ______ current loss.",
+        "type": "fill_blank",
+        "answers": [
+            "eddy"
+        ],
+        "other_options": [
+            "hysteresis",
+            "flux",
+            "copper"
+        ]
+    },
+    {
+        "q": "What is the purpose of using laminated cores in electromagnets?",
+        "type": "mcq",
+        "o": [
+            "To reduce eddy current losses",
+            "To increase hysteresis loss",
+            "To make the magnet stronger",
+            "To change the pole orientation"
+        ]
+    },
+    {
+        "q": "Which scientist introduced the concept of magnetic field lines?",
+        "type": "mcq",
+        "o": [
+            "Michael Faraday",
+            "Isaac Newton",
+            "James Clerk Maxwell",
+            "Andre-Marie Ampere"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Temporary magnets, LEFT for Permanent magnets.",
+        "type": "swipe_cards",
+        "left_label": "Permanent",
+        "right_label": "Temporary",
+        "cards": {
+            "Electromagnet": "right",
+            "Bar magnet": "left",
+            "Lodestone": "left",
+            "Solenoid": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word: a magnetic metal starting with N.",
+        "type": "word_scramble",
+        "answer": "NICKEL",
+        "decoys": "DF"
+    },
+    {
+        "q": "Name the unit of magnetomotive force.",
+        "type": "short_answer",
+        "answers": [
+            "ampere-turn",
+            "ampere turns",
+            "At"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The opposition offered by a material to the establishment of magnetic flux is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "reluctance"
+        ],
+        "other_options": [
+            "resistance",
+            "impedance",
+            "reactance"
+        ]
+    },
+    {
+        "q": "Which of the following is analogous to Ohm's law for magnetic circuits?",
+        "type": "mcq",
+        "o": [
+            "Rowland's law",
+            "Faraday's law",
+            "Lenz's law",
+            "Ampere's law"
+        ]
+    },
+    {
+        "q": "In a magnetic circuit, flux = magnetomotive force divided by reluctance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the electrical quantity with its magnetic analog:",
+        "type": "match",
+        "left": [
+            "Current",
+            "EMF",
+            "Resistance",
+            "Conductivity"
+        ],
+        "right": [
+            "Flux",
+            "Magnetomotive force",
+            "Reluctance",
+            "Permeability"
+        ]
+    },
+    {
+        "q": "Complete the sentence about a magnet's structure:",
+        "type": "inline_dropdown",
+        "text": "Every magnet, no matter its shape or size, always has [0] poles.",
+        "dropdowns": [
+            {
+                "correct": "two",
+                "options": [
+                    "one",
+                    "two",
+                    "three"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Unscramble the word: a magnetic metal starting with C.",
+        "type": "word_scramble",
+        "answer": "COBALT",
+        "decoys": "TR"
+    },
+    {
+        "q": "What is the direction of magnetic field lines inside a bar magnet?",
+        "type": "mcq",
+        "o": [
+            "From south pole to north pole",
+            "From north pole to south pole",
+            "In random directions",
+            "Circular around the axis"
+        ]
+    },
+    {
+        "q": "Complete the sentence about our planet:",
+        "type": "inline_dropdown",
+        "text": "The [0] itself behaves like a giant bar magnet.",
+        "dropdowns": [
+            {
+                "correct": "Earth",
+                "options": [
+                    "Moon",
+                    "Sun",
+                    "Earth"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The tangent to a magnetic field line at any point gives the direction of the magnetic field at that point.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT a characteristic of magnetic field lines?",
+        "type": "mcq",
+        "o": [
+            "They can intersect under special conditions",
+            "They are continuous closed loops",
+            "They contract laterally",
+            "They exert pressure perpendicular to their length"
+        ]
+    },
+    {
+        "q": "Match the compass parts to their functions.",
+        "type": "memory",
+        "pairs": {
+            "Pivot": "Sharp point where the needle rests",
+            "Needle": "Lightweight magnetized pointer",
+            "Housing": "Non-magnetic outer casing"
+        }
+    },
+    {
+        "q": "Name the law that gives the direction of magnetic field around a straight current-carrying conductor.",
+        "type": "short_answer",
+        "answers": [
+            "right-hand thumb rule",
+            "maxwell's right-hand rule",
+            "right hand rule"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The magnetic field lines around a straight current-carrying wire are in the shape of ______ circles.",
+        "type": "fill_blank",
+        "answers": [
+            "concentric"
+        ],
+        "other_options": [
+            "spiral",
+            "elliptical",
+            "parallel"
+        ]
+    },
+    {
+        "q": "Which rule helps determine the polarity of a current-carrying solenoid?",
+        "type": "mcq",
+        "o": [
+            "Right-hand grip rule",
+            "Left-hand rule of Fleming",
+            "Ohm's law",
+            "Lenz's law"
+        ]
+    },
+    {
+        "q": "How many magnetic poles does the Earth have?",
+        "type": "slider",
+        "min": 1,
+        "max": 4,
+        "correct": 2
+    },
+    {
+        "q": "Match the rule with its application:",
+        "type": "match",
+        "left": [
+            "Right-hand thumb rule",
+            "Fleming's left-hand rule",
+            "Right-hand grip rule",
+            "Fleming's right-hand rule"
+        ],
+        "right": [
+            "Direction of field around wire",
+            "Force on conductor in motor",
+            "Poles of a solenoid",
+            "Induced current direction in generator"
+        ]
+    },
+    {
+        "q": "Which of these pole interactions is completely incorrect?",
+        "type": "odd_one_out",
+        "options": [
+            "North-South attract",
+            "South-North attract",
+            "North-North repel",
+            "North-East attract"
+        ],
+        "correct": "North-East attract"
+    },
+    {
+        "q": "The force on a current-carrying conductor in a magnetic field is maximum when the conductor is parallel to the field.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the expression for the force on a current-carrying conductor in a magnetic field?",
+        "type": "mcq",
+        "o": [
+            "F = BIL sin theta",
+            "F = BIL cos theta",
+            "F = BIL tan theta",
+            "F = BIL"
+        ]
+    },
+    {
+        "q": "The SI unit of magnetic flux density (B) is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "tesla"
+        ],
+        "other_options": [
+            "weber",
+            "gauss",
+            "oersted"
+        ]
+    },
+    {
+        "q": "One tesla is equal to how many gauss?",
+        "type": "mcq",
+        "o": [
+            "10,000",
+            "1,000",
+            "100",
+            "100,000"
+        ]
+    },
+    {
+        "q": "What does a galvanometer detect?",
+        "type": "mcq",
+        "o": [
+            "Small electric currents",
+            "Magnetic field strength",
+            "Temperature changes",
+            "Light intensity"
+        ]
+    },
+    {
+        "q": "A galvanometer uses a permanent magnet and a moving coil to measure current.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the effect used in a moving coil galvanometer.",
+        "type": "short_answer",
+        "answers": [
+            "magnetic effect of electric current",
+            "motor effect"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the device with its use of magnets.",
+        "type": "memory",
+        "pairs": {
+            "Maglev": "High-speed floating trains",
+            "Speakers": "Producing sound from electrical signals",
+            "Fridge door": "Magnetic sealing to keep cold air in"
+        }
+    },
+    {
+        "q": "Which of the following describes electromagnetic induction?",
+        "type": "mcq",
+        "o": [
+            "Production of EMF by changing magnetic flux",
+            "Production of magnetism by electric current",
+            "Production of heat by electricity",
+            "Production of light by magnetism"
+        ]
+    },
+    {
+        "q": "Who discovered electromagnetic induction?",
+        "type": "mcq",
+        "o": [
+            "Michael Faraday",
+            "Hans Christian Oersted",
+            "Andre-Marie Ampere",
+            "Nikola Tesla"
+        ]
+    },
+    {
+        "q": "Faraday's law states that induced EMF is proportional to the rate of change of magnetic ______.",
+        "type": "fill_blank",
+        "answers": [
+            "flux"
+        ],
+        "other_options": [
+            "field",
+            "force",
+            "current"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Strong magnetic pull, LEFT for Weak magnetic pull.",
+        "type": "swipe_cards",
+        "left_label": "Weak pull",
+        "right_label": "Strong pull",
+        "cards": {
+            "Poles": "right",
+            "Center of magnet": "left",
+            "Magnet ends": "right",
+            "Middle part": "left"
+        }
+    },
+    {
+        "q": "Match the scientist with their law:",
+        "type": "match",
+        "left": [
+            "Faraday",
+            "Lenz",
+            "Ampere",
+            "Oersted"
+        ],
+        "right": [
+            "EMF induced by changing flux",
+            "Direction of induced current opposes change",
+            "Force between current-carrying wires",
+            "Electric current produces magnetism"
+        ]
+    },
+    {
+        "q": "Lenz's law is a consequence of the law of conservation of energy.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following increases the induced EMF in a coil?",
+        "type": "mcq",
+        "o": [
+            "Moving the magnet faster",
+            "Using a larger resistor",
+            "Decreasing the number of turns",
+            "Holding the magnet stationary"
+        ]
+    },
+    {
+        "q": "What is the function of slip rings in an AC generator?",
+        "type": "mcq",
+        "o": [
+            "To transfer alternating current to the external circuit",
+            "To convert AC to DC",
+            "To increase the voltage",
+            "To magnetize the core"
+        ]
+    },
+    {
+        "q": "A split ring commutator is used in a DC motor to reverse the direction of current every half rotation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the device that converts mechanical energy into electrical energy using electromagnetic induction.",
+        "type": "short_answer",
+        "answers": [
+            "generator",
+            "electric generator",
+            "dynamo",
+            "alternator"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In a DC generator, the split ring acts as a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "commutator"
+        ],
+        "other_options": [
+            "rectifier",
+            "slip ring",
+            "brush"
+        ]
+    },
+    {
+        "q": "Which of these is a use of electromagnetic induction?",
+        "type": "mcq",
+        "o": [
+            "Induction cooking",
+            "Resistance heating",
+            "Electric bulb lighting",
+            "Battery charging"
+        ]
+    },
+    {
+        "q": "Match the device with its working principle:",
+        "type": "match",
+        "left": [
+            "Electric motor",
+            "Generator",
+            "Transformer",
+            "Induction cooker"
+        ],
+        "right": [
+            "Motor effect",
+            "Electromagnetic induction",
+            "Mutual induction",
+            "Eddy current heating"
+        ]
+    },
+    {
+        "q": "A transformer works on the principle of mutual induction.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: the scientific name for natural magnetic ore.",
+        "type": "word_scramble",
+        "answer": "MAGNETITE",
+        "decoys": "YB"
+    },
+    {
+        "q": "What is the function of a step-up transformer?",
+        "type": "mcq",
+        "o": [
+            "Increase voltage and decrease current",
+            "Decrease voltage and increase current",
+            "Keep voltage constant",
+            "Convert AC to DC"
+        ]
+    },
+    {
+        "q": "The core of a transformer is laminated to reduce eddy current losses.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following best describes mutual induction?",
+        "type": "mcq",
+        "o": [
+            "Induction of EMF in one coil due to changing current in a nearby coil",
+            "Induction of EMF in a coil due to its own changing current",
+            "Magnetization of iron by a magnet",
+            "Generation of heat by electric current"
+        ]
+    },
+    {
+        "q": "The EMF induced in a coil due to change in its own current is called ______ EMF.",
+        "type": "fill_blank",
+        "answers": [
+            "self-induced",
+            "self induced",
+            "back"
+        ],
+        "other_options": [
+            "mutual",
+            "primary",
+            "secondary"
+        ]
+    },
+    {
+        "q": "Name the property of a coil that opposes any change in the current flowing through it.",
+        "type": "short_answer",
+        "answers": [
+            "self-inductance",
+            "inductance",
+            "self inductance"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The SI unit of inductance is the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "henry"
+        ],
+        "other_options": [
+            "farad",
+            "ohm",
+            "weber"
+        ]
+    },
+    {
+        "q": "Which of the following is a type of magnetic material used in transformer cores?",
+        "type": "mcq",
+        "o": [
+            "Silicon steel",
+            "Alnico",
+            "Carbon steel",
+            "Brass"
+        ]
+    },
+    {
+        "q": "What is the effect of inserting a soft iron core into a solenoid?",
+        "type": "mcq",
+        "o": [
+            "The magnetic field strength increases greatly",
+            "The magnetic field strength decreases",
+            "The current stops flowing",
+            "The solenoid becomes an insulator"
+        ]
+    },
+    {
+        "q": "The ratio of magnetic flux density to magnetizing force in a material is its permeability.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the magnetic material with its typical use:",
+        "type": "match",
+        "left": [
+            "Silicon steel",
+            "Alnico",
+            "Ferrite",
+            "Mu-metal"
+        ],
+        "right": [
+            "Transformer cores",
+            "Permanent magnets",
+            "High-frequency transformers",
+            "Magnetic shielding"
+        ]
+    },
+    {
+        "q": "What is magnetic saturation?",
+        "type": "mcq",
+        "o": [
+            "The point beyond which a material cannot be further magnetized",
+            "The point where a magnet loses all magnetism",
+            "The point where domains first align",
+            "The point of maximum retentivity"
+        ]
+    },
+    {
+        "q": "Which of these is a rare-earth magnet?",
+        "type": "mcq",
+        "o": [
+            "Neodymium magnet",
+            "Alnico magnet",
+            "Ferrite magnet",
+            "Steel magnet"
+        ]
+    },
+    {
+        "q": "Neodymium magnets are the strongest type of permanent magnets commercially available.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the two main rare-earth elements used in strong permanent magnets.",
+        "type": "short_answer",
+        "answers": [
+            "neodymium and samarium",
+            "Nd and Sm",
+            "neodymium, samarium"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The magnetic field of the Earth is believed to be caused by electric currents in its molten ______ core.",
+        "type": "fill_blank",
+        "answers": [
+            "iron",
+            "outer"
+        ],
+        "other_options": [
+            "nickel",
+            "solid",
+            "silicon"
+        ]
+    },
+    {
+        "q": "What causes the aurora borealis?",
+        "type": "mcq",
+        "o": [
+            "Interaction of solar wind particles with Earth's magnetic field",
+            "Reflection of moonlight on ice",
+            "Combustion of gases in the upper atmosphere",
+            "Volcanic eruptions in the Arctic"
+        ]
+    },
+    {
+        "q": "Earth's magnetic field undergoes periodic reversals where north and south poles swap.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Van Allen radiation belt?",
+        "type": "mcq",
+        "o": [
+            "Zones of charged particles trapped by Earth's magnetic field",
+            "A ring of iron around the Earth",
+            "The orbit of the Moon",
+            "A layer of ozone in the atmosphere"
+        ]
+    },
+    {
+        "q": "Which planet in our solar system has the strongest magnetic field?",
+        "type": "mcq",
+        "o": [
+            "Jupiter",
+            "Earth",
+            "Mars",
+            "Venus"
+        ]
+    },
+    {
+        "q": "Match the celestial body with its magnetic feature:",
+        "type": "match",
+        "left": [
+            "Earth",
+            "Jupiter",
+            "Sun",
+            "Mars"
+        ],
+        "right": [
+            "Moderate magnetic field, protects life",
+            "Strongest planetary field",
+            "Produces solar magnetic storms",
+            "No global magnetic field currently"
+        ]
+    },
+    {
+        "q": "A magnetic storm on Earth is caused by disturbances in the solar wind.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is used for magnetic resonance imaging?",
+        "type": "mcq",
+        "o": [
+            "Superconducting magnets",
+            "Permanent bar magnets",
+            "Horseshoe magnets",
+            "Electromagnets with iron core only"
+        ]
+    },
+    {
+        "q": "What is the typical magnetic field strength of an MRI machine?",
+        "type": "mcq",
+        "o": [
+            "1.5 to 3 Tesla",
+            "0.001 Tesla",
+            "100 Tesla",
+            "0.0001 Tesla"
+        ]
+    },
+    {
+        "q": "Name a medical application that uses strong magnetic fields to create images of the body.",
+        "type": "short_answer",
+        "answers": [
+            "mri",
+            "magnetic resonance imaging"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In a cathode ray tube (old TV), a magnetic field is used to ______ the electron beam.",
+        "type": "fill_blank",
+        "answers": [
+            "deflect"
+        ],
+        "other_options": [
+            "attract",
+            "heat",
+            "reflect"
+        ]
+    },
+    {
+        "q": "Which of these is a method of magnetic non-destructive testing?",
+        "type": "mcq",
+        "o": [
+            "Magnetic particle inspection",
+            "Ultrasonic testing",
+            "Radiography",
+            "Dye penetrant testing"
+        ]
+    },
+    {
+        "q": "Magnetic particle inspection is used to detect surface and near-surface cracks in ferromagnetic materials.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence about storing magnets:",
+        "type": "inline_dropdown",
+        "text": "Soft iron pieces used to safely store magnets are called [0].",
+        "dropdowns": [
+            {
+                "correct": "keepers",
+                "options": [
+                    "safes",
+                    "keepers",
+                    "boxes"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is a magnetometer used for?",
+        "type": "mcq",
+        "o": [
+            "Measuring magnetic field strength",
+            "Measuring electric current",
+            "Measuring temperature",
+            "Measuring pressure"
+        ]
+    },
+    {
+        "q": "Match the instrument with what it measures:",
+        "type": "match",
+        "left": [
+            "Magnetometer",
+            "Fluxmeter",
+            "Gaussmeter",
+            "Compass"
+        ],
+        "right": [
+            "Magnetic field strength",
+            "Magnetic flux",
+            "Flux density in gauss",
+            "Direction of magnetic field"
+        ]
+    },
+    {
+        "q": "A SQUID magnetometer can detect extremely weak magnetic fields.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does SQUID stand for?",
+        "type": "mcq",
+        "o": [
+            "Superconducting Quantum Interference Device",
+            "Super Quick Ultra Induction Detector",
+            "Simple Quantum Unit for Induction Detection",
+            "Sensitive Quantum Universal Induction Device"
+        ]
+    },
+    {
+        "q": "Which of these is an application of magnetostriction?",
+        "type": "mcq",
+        "o": [
+            "Ultrasonic cleaning",
+            "Magnetic levitation",
+            "Data storage",
+            "Metal casting"
+        ]
+    },
+    {
+        "q": "Magnetostriction is the property of magnetic materials to change shape when magnetized.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The Hall effect sensor detects the presence of a ______ field.",
+        "type": "fill_blank",
+        "answers": [
+            "magnetic"
+        ],
+        "other_options": [
+            "electric",
+            "gravitational",
+            "thermal"
+        ]
+    },
+    {
+        "q": "Which of these uses a Hall effect sensor?",
+        "type": "mcq",
+        "o": [
+            "Smartphone compass",
+            "Thermometer",
+            "Barometer",
+            "Hygrometer"
+        ]
+    },
+    {
+        "q": "Name a modern electronic device that uses a magnetic sensor for navigation.",
+        "type": "short_answer",
+        "answers": [
+            "smartphone",
+            "tablet",
+            "gps device",
+            "drone"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: the giant magnet we live on.",
+        "type": "word_scramble",
+        "answer": "EARTH",
+        "decoys": "VN"
+    },
+    {
+        "q": "What is magnetic resonance?",
+        "type": "mcq",
+        "o": [
+            "Absorption of energy by atomic nuclei in a magnetic field at a specific frequency",
+            "Vibration of a magnet at its natural frequency",
+            "Collision of magnetic domains",
+            "Splitting of a magnet into two poles"
+        ]
+    },
+    {
+        "q": "Complete the sentence about magnetic lines:",
+        "type": "inline_dropdown",
+        "text": "The imaginary lines of force around a magnet form the magnetic [0].",
+        "dropdowns": [
+            {
+                "correct": "field",
+                "options": [
+                    "field",
+                    "cloud",
+                    "wave"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of these particles has a magnetic moment?",
+        "type": "mcq",
+        "o": [
+            "Electron",
+            "Photon",
+            "Graviton",
+            "Pion"
+        ]
+    },
+    {
+        "q": "Spin of an electron is responsible for its magnetic moment.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for points North, LEFT for points South.",
+        "type": "swipe_cards",
+        "left_label": "Points South",
+        "right_label": "Points North",
+        "cards": {
+            "North seeking pole": "right",
+            "South seeking pole": "left",
+            "N-pole": "right",
+            "S-pole": "left"
+        }
+    },
+    {
+        "q": "If you have 5 separate bar magnets, how many north poles do you have in total?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 5
+    },
+    {
+        "q": "What is the origin of magnetism in materials at the atomic level?",
+        "type": "mcq",
+        "o": [
+            "Orbital and spin motion of electrons",
+            "Motion of protons in the nucleus",
+            "Vibration of atoms in the lattice",
+            "Free electrons in conduction band"
+        ]
+    },
+    {
+        "q": "The magnetic moment of an atom arises primarily from the spin of unpaired electrons.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is NOT an example of a natural magnet?",
+        "type": "odd_one_out",
+        "options": [
+            "Lodestone",
+            "Magnetite",
+            "Natural rock",
+            "Electromagnet"
+        ],
+        "correct": "Electromagnet"
+    },
+    {
+        "q": "Which of the following best describes the exchange interaction in ferromagnetism?",
+        "type": "mcq",
+        "o": [
+            "Quantum mechanical coupling that aligns adjacent electron spins parallel",
+            "Classical magnetic dipole-dipole interaction",
+            "Electrostatic repulsion between electrons",
+            "Gravitational interaction between atoms"
+        ]
+    },
+    {
+        "q": "Below the Curie temperature, ferromagnetic materials exhibit spontaneous magnetization.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Weiss molecular field theory?",
+        "type": "mcq",
+        "o": [
+            "An internal field aligns magnetic moments in ferromagnets",
+            "A theory describing diamagnetism in all materials",
+            "A model for electromagnetic wave propagation",
+            "A theory of superconductivity"
+        ]
+    },
+    {
+        "q": "Name the type of magnetism where adjacent magnetic moments align antiparallel with equal magnitudes.",
+        "type": "short_answer",
+        "answers": [
+            "antiferromagnetism"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In antiferromagnetic materials, the net magnetic moment is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "zero"
+        ],
+        "other_options": [
+            "maximum",
+            "variable",
+            "infinite"
+        ]
+    },
+    {
+        "q": "Match the properties of magnets to their meanings.",
+        "type": "memory",
+        "pairs": {
+            "Directional property": "Points North-South when suspended",
+            "Attractive property": "Pulls on iron objects",
+            "Repulsion": "The sure test of magnetism"
+        }
+    },
+    {
+        "q": "Match the type of magnetism with its characteristic:",
+        "type": "match",
+        "left": [
+            "Ferromagnetism",
+            "Antiferromagnetism",
+            "Ferrimagnetism",
+            "Paramagnetism"
+        ],
+        "right": [
+            "Parallel alignment of moments",
+            "Antiparallel equal moments",
+            "Antiparallel unequal moments",
+            "Random alignment, weak attraction"
+        ]
+    },
+    {
+        "q": "Which of these is a ferrimagnetic material?",
+        "type": "mcq",
+        "o": [
+            "Magnetite (Fe3O4)",
+            "Iron (Fe)",
+            "Manganese oxide (MnO)",
+            "Aluminum (Al)"
+        ]
+    },
+    {
+        "q": "Ferrites are ceramic compounds with ferrimagnetic properties.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Neel temperature?",
+        "type": "mcq",
+        "o": [
+            "Temperature above which antiferromagnetic ordering disappears",
+            "Temperature above which ferromagnetism appears",
+            "Temperature at which a magnet melts",
+            "Temperature of maximum magnetic permeability"
+        ]
+    },
+    {
+        "q": "Name the temperature at which a ferrimagnetic material loses its spontaneous magnetization.",
+        "type": "short_answer",
+        "answers": [
+            "Neel temperature",
+            "Curie temperature"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In a Bloch wall, the magnetization direction rotates gradually from one domain to another.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which factor determines the width of a domain wall?",
+        "type": "mcq",
+        "o": [
+            "Balance between exchange energy and anisotropy energy",
+            "Only the strength of the applied field",
+            "The temperature alone",
+            "The mass of the material"
+        ]
+    },
+    {
+        "q": "Magnetocrystalline anisotropy refers to the dependence of magnetic properties on ______ direction.",
+        "type": "fill_blank",
+        "answers": [
+            "crystal",
+            "crystallographic"
+        ],
+        "other_options": [
+            "applied field",
+            "temperature",
+            "time"
+        ]
+    },
+    {
+        "q": "Which direction is easiest to magnetize a crystal?",
+        "type": "mcq",
+        "o": [
+            "Easy axis",
+            "Hard axis",
+            "Any direction equally",
+            "Diagonal direction only"
+        ]
+    },
+    {
+        "q": "Match the energy term with its role in domain formation:",
+        "type": "match",
+        "left": [
+            "Exchange energy",
+            "Magnetostatic energy",
+            "Anisotropy energy",
+            "Magnetostrictive energy"
+        ],
+        "right": [
+            "Favors parallel spin alignment",
+            "Reduced by forming domains",
+            "Determines preferred orientation",
+            "Energy due to dimensional change"
+        ]
+    },
+    {
+        "q": "What is the primary reason magnetic materials form domains?",
+        "type": "mcq",
+        "o": [
+            "To minimize magnetostatic energy",
+            "To maximize exchange energy",
+            "To increase the total field",
+            "To reduce thermal energy"
+        ]
+    },
+    {
+        "q": "Single domain particles exhibit superparamagnetism below a critical size.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is superparamagnetism?",
+        "type": "mcq",
+        "o": [
+            "Random flipping of magnetization in small particles due to thermal energy",
+            "Extremely strong permanent magnetism",
+            "Magnetism above the Curie temperature",
+            "Diamagnetism in superconductors"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Non-magnetic items, LEFT for Magnetic items.",
+        "type": "swipe_cards",
+        "left_label": "Magnetic",
+        "right_label": "Non-magnetic",
+        "cards": {
+            "Iron nail": "left",
+            "Plastic bottle": "right",
+            "Paperclip": "left",
+            "Glass cup": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word: a soft iron piece used to protect magnets.",
+        "type": "word_scramble",
+        "answer": "KEEPER",
+        "decoys": "XM"
+    },
+    {
+        "q": "Complete the sentence about common metals:",
+        "type": "inline_dropdown",
+        "text": "[0] is the most common magnetic material used in daily life.",
+        "dropdowns": [
+            {
+                "correct": "Iron",
+                "options": [
+                    "Gold",
+                    "Iron",
+                    "Wood"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Name the technique used to observe magnetic domains visually.",
+        "type": "short_answer",
+        "answers": [
+            "bitter pattern technique",
+            "magnetic force microscopy",
+            "kerr microscopy",
+            "mfmd"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Bitter pattern technique uses a colloidal suspension of ______ particles to map domains.",
+        "type": "fill_blank",
+        "answers": [
+            "magnetite",
+            "iron oxide"
+        ],
+        "other_options": [
+            "silver",
+            "gold",
+            "silica"
+        ]
+    },
+    {
+        "q": "Which of the following is a key characteristic of a soft magnetic material?",
+        "type": "mcq",
+        "o": [
+            "High permeability and low coercivity",
+            "High coercivity and low permeability",
+            "High retentivity and high coercivity",
+            "Square hysteresis loop"
+        ]
+    },
+    {
+        "q": "Soft magnetic materials are used in applications where easy magnetization and demagnetization is needed.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: a method of making a magnet by rubbing.",
+        "type": "word_scramble",
+        "answer": "STROKE",
+        "decoys": "QW"
+    },
+    {
+        "q": "Which of these is an example of a soft magnetic material?",
+        "type": "mcq",
+        "o": [
+            "Permalloy",
+            "Alnico",
+            "Ferrite magnet",
+            "Samarium cobalt"
+        ]
+    },
+    {
+        "q": "Match the material with its magnetic category:",
+        "type": "match",
+        "left": [
+            "Permalloy",
+            "Alnico",
+            "Ferrite",
+            "Neodymium iron boron"
+        ],
+        "right": [
+            "Soft magnetic",
+            "Hard magnetic cast alloy",
+            "Ceramic hard magnet",
+            "Rare-earth hard magnet"
+        ]
+    },
+    {
+        "q": "Complete the sentence about the compass:",
+        "type": "inline_dropdown",
+        "text": "The magnetic [0] in a compass rotates freely on a pivot.",
+        "dropdowns": [
+            {
+                "correct": "needle",
+                "options": [
+                    "needle",
+                    "dial",
+                    "glass"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the energy product (BHmax) of a magnet?",
+        "type": "mcq",
+        "o": [
+            "Maximum energy stored per unit volume of magnet material",
+            "Product of current and voltage in a magnet",
+            "Product of temperature and field strength",
+            "Energy consumed to demagnetize"
+        ]
+    },
+    {
+        "q": "A high maximum energy product indicates a strong permanent magnet.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the magnetic material with the highest known energy product commercially.",
+        "type": "short_answer",
+        "answers": [
+            "neodymium iron boron",
+            "NdFeB",
+            "neodymium magnet"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for Compass Uses, LEFT for Not compass uses.",
+        "type": "swipe_cards",
+        "left_label": "Not a use",
+        "right_label": "Compass Use",
+        "cards": {
+            "Finding North": "right",
+            "Cooking food": "left",
+            "Ship navigation": "right",
+            "Washing clothes": "left"
+        }
+    },
+    {
+        "q": "The demagnetization curve is part of the ______ loop in the second quadrant.",
+        "type": "fill_blank",
+        "answers": [
+            "hysteresis"
+        ],
+        "other_options": [
+            "B-H",
+            "permeability",
+            "coercivity"
+        ]
+    },
+    {
+        "q": "Which of these processes can magnetize a ferromagnetic material?",
+        "type": "mcq",
+        "o": [
+            "Applying a strong external magnetic field",
+            "Heating above Curie temperature and cooling",
+            "Applying mechanical stress only",
+            "Exposing to visible light"
+        ]
+    },
+    {
+        "q": "Magnetic annealing involves heating and cooling in a magnetic field to improve properties.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the purpose of magnetic shielding?",
+        "type": "mcq",
+        "o": [
+            "To divert magnetic flux away from a protected region",
+            "To increase the magnetic field strength",
+            "To demagnetize a permanent magnet",
+            "To generate electricity"
+        ]
+    },
+    {
+        "q": "Which material is commonly used for magnetic shielding?",
+        "type": "mcq",
+        "o": [
+            "Mu-metal",
+            "Aluminum",
+            "Copper",
+            "Plastic"
+        ]
+    },
+    {
+        "q": "Match the shielding material with its property:",
+        "type": "match",
+        "left": [
+            "Mu-metal",
+            "Supermalloy",
+            "Steel",
+            "Multiple layers"
+        ],
+        "right": [
+            "High permeability at low fields",
+            "Extremely high initial permeability",
+            "Cost-effective for large shields",
+            "Broadband shielding effectiveness"
+        ]
+    },
+    {
+        "q": "Magnetic shielding works by providing a low-reluctance path for magnetic flux.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Barkhausen effect?",
+        "type": "mcq",
+        "o": [
+            "Discrete jumps in magnetization due to domain wall motion",
+            "Emission of light by a magnet",
+            "Generation of heat in a conductor",
+            "Oscillation of a magnetic needle"
+        ]
+    },
+    {
+        "q": "Name the noise produced by sudden domain wall movements during magnetization.",
+        "type": "short_answer",
+        "answers": [
+            "Barkhausen noise",
+            "Barkhausen effect"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Barkhausen noise can be used for non-destructive testing of ferromagnetic materials.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does the term 'magnetic viscosity' refer to?",
+        "type": "mcq",
+        "o": [
+            "Time-dependent change in magnetization after a field change",
+            "Thickness of magnetic fluid",
+            "Resistance to current flow",
+            "Speed of magnetic domain rotation"
+        ]
+    },
+    {
+        "q": "Magnetic after-effect is another term for magnetic viscosity or magnetic creep.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In a permanent magnet motor, magnets are typically placed on the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "rotor"
+        ],
+        "other_options": [
+            "stator",
+            "frame",
+            "shaft"
+        ]
+    },
+    {
+        "q": "What type of motor uses permanent magnets on the rotor and windings on the stator?",
+        "type": "mcq",
+        "o": [
+            "Brushless DC motor",
+            "Universal motor",
+            "Shaded pole motor",
+            "Reluctance motor"
+        ]
+    },
+    {
+        "q": "Brushless DC motors have higher efficiency than brushed DC motors.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "How many magnetic materials are in this short list: Wood, Iron, Glass?",
+        "type": "slider",
+        "min": 0,
+        "max": 3,
+        "correct": 1
+    },
+    {
+        "q": "Match the motor type with its magnet usage:",
+        "type": "match",
+        "left": [
+            "PMDC motor",
+            "BLDC motor",
+            "Stepper motor",
+            "Servo motor"
+        ],
+        "right": [
+            "Permanent magnet stator",
+            "Permanent magnet rotor",
+            "Precise positioning with magnets",
+            "Feedback-controlled, often uses PM"
+        ]
+    },
+    {
+        "q": "Which of these is NOT an artificial magnet?",
+        "type": "odd_one_out",
+        "options": [
+            "Bar magnet",
+            "Horseshoe magnet",
+            "Ring magnet",
+            "Lodestone"
+        ],
+        "correct": "Lodestone"
+    },
+    {
+        "q": "Which law governs the force on a current-carrying conductor in a magnetic field?",
+        "type": "mcq",
+        "o": [
+            "Lorentz force law",
+            "Ohm's law",
+            "Coulomb's law",
+            "Hooke's law"
+        ]
+    },
+    {
+        "q": "The Lorentz force on a charged particle is given by F = q(E + v x B).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the metal to its magnetic category.",
+        "type": "memory",
+        "pairs": {
+            "Cobalt": "Magnetic",
+            "Silver": "Non-magnetic",
+            "Iron": "Highly Magnetic",
+            "Aluminum": "Non-magnetic metal"
+        }
+    },
+    {
+        "q": "Name the device that uses Lorentz force to convert electrical energy to mechanical rotation.",
+        "type": "short_answer",
+        "answers": [
+            "electric motor",
+            "motor",
+            "dc motor"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In a cyclotron, a magnetic field is used to bend charged particles into a ______ path.",
+        "type": "fill_blank",
+        "answers": [
+            "circular",
+            "spiral"
+        ],
+        "other_options": [
+            "straight",
+            "zigzag",
+            "random"
+        ]
+    },
+    {
+        "q": "Which of the following describes the Hall effect?",
+        "type": "mcq",
+        "o": [
+            "Development of voltage across a conductor in a transverse magnetic field",
+            "Heating of a conductor in a magnetic field",
+            "Expansion of a material when magnetized",
+            "Change in resistance with magnetic field"
+        ]
+    },
+    {
+        "q": "The Hall voltage is directly proportional to the applied magnetic field strength.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is magnetoresistance?",
+        "type": "mcq",
+        "o": [
+            "Change in electrical resistance of a material due to a magnetic field",
+            "Resistance to magnetization",
+            "Resistance of a magnet to electricity",
+            "Insulating property of magnets"
+        ]
+    },
+    {
+        "q": "Giant magnetoresistance (GMR) is used in read heads of modern hard disk drives.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Horseshoe magnet keeper method, LEFT for Bar magnet keeper method.",
+        "type": "swipe_cards",
+        "left_label": "Bar magnet keeper",
+        "right_label": "Horseshoe keeper",
+        "cards": {
+            "Single piece of soft iron": "right",
+            "Two pieces of soft iron": "left",
+            "U-shape storage": "right",
+            "Rectangular pair storage": "left"
+        }
+    },
+    {
+        "q": "Match the magnetoresistance type with its feature:",
+        "type": "match",
+        "left": [
+            "AMR",
+            "GMR",
+            "TMR",
+            "CMR"
+        ],
+        "right": [
+            "Anisotropic, few percent change",
+            "Giant, multilayer films",
+            "Tunnel junction, very high change",
+            "Colossal, manganite oxides"
+        ]
+    },
+    {
+        "q": "Which effect is used in magnetic random access memory (MRAM)?",
+        "type": "mcq",
+        "o": [
+            "Tunnel magnetoresistance (TMR)",
+            "Anisotropic magnetoresistance (AMR)",
+            "Hall effect",
+            "Seebeck effect"
+        ]
+    },
+    {
+        "q": "Spintronics exploits the intrinsic spin of electrons in addition to their charge.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the field of electronics that uses electron spin for information processing.",
+        "type": "short_answer",
+        "answers": [
+            "spintronics",
+            "spin electronics"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: an action that can destroy a magnet's power using fire.",
+        "type": "word_scramble",
+        "answer": "HEATING",
+        "decoys": "KJ"
+    },
+    {
+        "q": "Complete the sentence about factory-made magnets:",
+        "type": "inline_dropdown",
+        "text": "Magnets made by humans in factories are called [0] magnets.",
+        "dropdowns": [
+            {
+                "correct": "artificial",
+                "options": [
+                    "natural",
+                    "artificial",
+                    "fake"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the function of a spin valve?",
+        "type": "mcq",
+        "o": [
+            "A device whose resistance changes with magnetic field orientation",
+            "A valve that controls magnetic fluid flow",
+            "A switch for electric motors",
+            "A type of magnetic bearing"
+        ]
+    },
+    {
+        "q": "Magnetic nanoparticles are being researched for targeted drug delivery in medicine.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: an action that can destroy a magnet's power by letting it fall.",
+        "type": "word_scramble",
+        "answer": "DROPPING",
+        "decoys": "FH"
+    },
+    {
+        "q": "Complete the sentence about magnetic force:",
+        "type": "inline_dropdown",
+        "text": "Magnetic force can pass through [0] materials like paper and plastic.",
+        "dropdowns": [
+            {
+                "correct": "non-magnetic",
+                "options": [
+                    "magnetic",
+                    "non-magnetic",
+                    "metallic"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Soft magnetic material, LEFT for Hard magnetic material.",
+        "type": "swipe_cards",
+        "left_label": "Hard magnetic",
+        "right_label": "Soft magnetic",
+        "cards": {
+            "Steel": "left",
+            "Soft iron": "right",
+            "Alnico alloy": "left",
+            "Pure temporary iron": "right"
+        }
+    },
+    {
+        "q": "What is ferrofluid?",
+        "type": "mcq",
+        "o": [
+            "A colloidal suspension of magnetic nanoparticles in a carrier liquid",
+            "A liquid form of iron",
+            "Molten magnet material",
+            "Magnetic ink for printing"
+        ]
+    },
+    {
+        "q": "Ferrofluids can be positioned and controlled using ______ fields.",
+        "type": "fill_blank",
+        "answers": [
+            "magnetic"
+        ],
+        "other_options": [
+            "electric",
+            "gravitational",
+            "thermal"
+        ]
+    },
+    {
+        "q": "Match the application with the magnetic technology:",
+        "type": "match",
+        "left": [
+            "Hard disk drive",
+            "MRAM",
+            "Magnetic hyperthermia",
+            "Loudspeaker"
+        ],
+        "right": [
+            "GMR/TMR read head",
+            "Magnetic tunnel junctions",
+            "Nanoparticle heating for cancer",
+            "Voice coil and permanent magnet"
+        ]
+    },
+    {
+        "q": "What is magnetic hyperthermia?",
+        "type": "mcq",
+        "o": [
+            "Heating magnetic nanoparticles with an AC field to destroy cancer cells",
+            "Overheating of electromagnets",
+            "Magnetic cooling of materials",
+            "Heating a magnet to the Curie point"
+        ]
+    },
+    {
+        "q": "Magnetic refrigeration is based on the ______ effect.",
+        "type": "fill_blank",
+        "answers": [
+            "magnetocaloric"
+        ],
+        "other_options": [
+            "thermoelectric",
+            "Joule-Thomson",
+            "Peltier"
+        ]
+    },
+    {
+        "q": "Name the effect where a magnetic material changes temperature when magnetized or demagnetized adiabatically.",
+        "type": "short_answer",
+        "answers": [
+            "magnetocaloric effect",
+            "MCE"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Magnetic refrigeration is more environmentally friendly than conventional gas compression refrigeration.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these materials is promising for room-temperature magnetic refrigeration?",
+        "type": "mcq",
+        "o": [
+            "Gadolinium",
+            "Iron",
+            "Copper",
+            "Aluminum"
+        ]
+    },
+    {
+        "q": "If you break one bar magnet into 3 equal pieces, how many poles do you have in total across all pieces?",
+        "type": "slider",
+        "min": 2,
+        "max": 8,
+        "correct": 6
+    },
+    {
+        "q": "What is a magnetic bearing?",
+        "type": "mcq",
+        "o": [
+            "A bearing that supports loads using magnetic levitation",
+            "A bearing made of magnetic material only",
+            "A compass bearing for navigation",
+            "A type of ball bearing"
+        ]
+    },
+    {
+        "q": "Active magnetic bearings use electromagnets and feedback control for levitation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the type of magnetic levitation with its principle:",
+        "type": "match",
+        "left": [
+            "EMS",
+            "EDS",
+            "Inductrack",
+            "Passive PM levitation"
+        ],
+        "right": [
+            "Electromagnetic suspension, attractive",
+            "Electrodynamic suspension, repulsive",
+            "Halbach array with track coils",
+            "Earnshaw-compliant with diamagnets"
+        ]
+    },
+    {
+        "q": "Earnshaw's theorem states that stable levitation is impossible using only static ______ fields.",
+        "type": "fill_blank",
+        "answers": [
+            "magnetic",
+            "static magnetic"
+        ],
+        "other_options": [
+            "electric",
+            "gravitational",
+            "time-varying"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a magnetic feature or region of the Earth?",
+        "type": "odd_one_out",
+        "options": [
+            "Magnetic North",
+            "Magnetic South",
+            "Magnetic Field",
+            "Equator"
+        ],
+        "correct": "Equator"
+    },
+    {
+        "q": "Match the magnet location to its relative strength.",
+        "type": "memory",
+        "pairs": {
+            "Center of magnet": "Weakest magnetic pull",
+            "Ends of magnet": "Strongest magnetic pull",
+            "Magnetic field lines": "Form invisible closed loops"
+        }
+    },
+    {
+        "q": "Which material is used to achieve passive magnetic levitation with a permanent magnet?",
+        "type": "mcq",
+        "o": [
+            "Pyrolytic graphite (diamagnetic)",
+            "Soft iron",
+            "Alnico",
+            "Copper"
+        ]
+    },
+    {
+        "q": "Superconductors can levitate magnets due to the Meissner effect.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the phenomenon where a superconductor expels all magnetic fields from its interior.",
+        "type": "short_answer",
+        "answers": [
+            "Meissner effect",
+            "Meissner-Ochsenfeld effect"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for items that HAVE NO magnetic poles, LEFT for items that HAVE magnetic poles.",
+        "type": "swipe_cards",
+        "left_label": "Has poles",
+        "right_label": "No poles",
+        "cards": {
+            "Broken magnet pieces": "left",
+            "Shattered glass": "right",
+            "Halved bar magnet": "left",
+            "Cut paper pieces": "right"
+        }
+    },
+    {
+        "q": "Type II superconductors allow partial penetration of magnetic flux in the form of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "flux vortices",
+            "vortices",
+            "flux lines"
+        ],
+        "other_options": [
+            "domains",
+            "walls",
+            "bubbles"
+        ]
+    },
+    {
+        "q": "What is flux pinning in superconductors?",
+        "type": "mcq",
+        "o": [
+            "Trapping of flux vortices at defects, enabling stable levitation",
+            "Pushing flux out completely",
+            "Pinning the superconductor with a magnet",
+            "Measuring magnetic flux"
+        ]
+    },
+    {
+        "q": "Maglev trains use magnetic levitation to eliminate friction with the track.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which country operates the fastest commercial maglev train?",
+        "type": "mcq",
+        "o": [
+            "China",
+            "Japan",
+            "Germany",
+            "United States"
+        ]
+    },
+    {
+        "q": "Match the maglev technology with its country:",
+        "type": "match",
+        "left": [
+            "Transrapid (EMS)",
+            "SCMaglev (EDS)",
+            "Changsha Maglev",
+            "Hyperloop concept"
+        ],
+        "right": [
+            "Germany",
+            "Japan",
+            "China (medium speed)",
+            "USA (vacuum tube)"
+        ]
+    },
+    {
+        "q": "What is a Halbach array?",
+        "type": "mcq",
+        "o": [
+            "An arrangement of magnets that augments field on one side and cancels on the other",
+            "A linear array of identical magnets aligned parallel",
+            "A circular array for producing uniform field",
+            "A random arrangement of magnets"
+        ]
+    },
+    {
+        "q": "A Halbach array is used in inductrack maglev systems to create a strong alternating field.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following uses a voice coil actuator with a permanent magnet?",
+        "type": "mcq",
+        "o": [
+            "Hard disk drive head positioning",
+            "Electric kettle",
+            "Solar panel",
+            "LED light bulb"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the rotating part of a compass.",
+        "type": "word_scramble",
+        "answer": "NEEDLE",
+        "decoys": "PD"
+    },
+    {
+        "q": "Name the component that moves a loudspeaker cone to produce sound.",
+        "type": "short_answer",
+        "answers": [
+            "voice coil"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In a loudspeaker, the interaction between the magnetic field and current in the voice coil produces ______.",
+        "type": "fill_blank",
+        "answers": [
+            "force",
+            "mechanical force",
+            "motion"
+        ],
+        "other_options": [
+            "heat",
+            "light",
+            "static electricity"
+        ]
+    },
+    {
+        "q": "Complete the sentence about magnetic metals:",
+        "type": "inline_dropdown",
+        "text": "Besides iron and nickel, [0] is also a magnetic metal.",
+        "dropdowns": [
+            {
+                "correct": "Cobalt",
+                "options": [
+                    "Cobalt",
+                    "Copper",
+                    "Zinc"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is a magnetostrictive actuator?",
+        "type": "mcq",
+        "o": [
+            "A device that converts magnetic energy into precise mechanical motion",
+            "A switch operated by a magnet",
+            "A motor that only uses permanent magnets",
+            "A sensor for temperature"
+        ]
+    },
+    {
+        "q": "Terfenol-D is a giant magnetostrictive material used in actuators.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does a reed switch do?",
+        "type": "mcq",
+        "o": [
+            "Closes or opens contacts in the presence of a magnetic field",
+            "Switches between different magnets",
+            "Amplifies magnetic signals",
+            "Converts magnetism to light"
+        ]
+    },
+    {
+        "q": "Match the magnetic sensor with its principle:",
+        "type": "match",
+        "left": [
+            "Reed switch",
+            "Hall sensor",
+            "GMR sensor",
+            "Fluxgate magnetometer"
+        ],
+        "right": [
+            "Mechanical contact closure",
+            "Semiconductor voltage generation",
+            "Resistance change in thin films",
+            "Saturable core induction"
+        ]
+    },
+    {
+        "q": "What does the Heisenberg exchange Hamiltonian H = -2J S1.S2 describe?",
+        "type": "mcq",
+        "o": [
+            "The energy of interaction between two neighboring spins",
+            "The kinetic energy of electrons in a magnetic field",
+            "The potential energy of a domain wall",
+            "The thermal energy at the Curie point"
+        ]
+    },
+    {
+        "q": "In the Heisenberg model, a positive exchange integral J leads to ferromagnetic coupling.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Stoner criterion for itinerant ferromagnetism?",
+        "type": "mcq",
+        "o": [
+            "D(EF) * I > 1, where D is density of states and I is Stoner parameter",
+            "D(EF) * I < 0, indicating antiferromagnetism",
+            "Temperature above Curie point",
+            "Saturation magnetization equals zero"
+        ]
+    },
+    {
+        "q": "Itinerant ferromagnetism explains the magnetism in transition metals like iron, cobalt, and nickel.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the model that describes ferromagnetism in terms of localized magnetic moments.",
+        "type": "short_answer",
+        "answers": [
+            "Heisenberg model",
+            "Heisenberg exchange model"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In the RKKY interaction, the exchange coupling between localized moments is mediated by ______ electrons.",
+        "type": "fill_blank",
+        "answers": [
+            "conduction"
+        ],
+        "other_options": [
+            "core",
+            "valence",
+            "localized"
+        ]
+    },
+    {
+        "q": "What does RKKY stand for?",
+        "type": "mcq",
+        "o": [
+            "Ruderman-Kittel-Kasuya-Yosida",
+            "Rutherford-Kelvin-Kirchhoff-Young",
+            "Rayleigh-Kirchhoff-Kerr-Yukawa",
+            "Rabi-Kondo-Kramers-Yang"
+        ]
+    },
+    {
+        "q": "The RKKY interaction oscillates between ferromagnetic and antiferromagnetic with distance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which phenomenon describes the oscillation of exchange coupling in magnetic multilayers?",
+        "type": "mcq",
+        "o": [
+            "Interlayer exchange coupling",
+            "Superexchange",
+            "Double exchange",
+            "Direct exchange"
+        ]
+    },
+    {
+        "q": "Unscramble the word: a rectangular shaped magnet.",
+        "type": "word_scramble",
+        "answer": "BAR",
+        "decoys": "ZC"
+    },
+    {
+        "q": "Match the exchange mechanism with its description:",
+        "type": "match",
+        "left": [
+            "Direct exchange",
+            "Superexchange",
+            "Double exchange",
+            "RKKY interaction"
+        ],
+        "right": [
+            "Overlap of adjacent atomic orbitals",
+            "Via non-magnetic anion",
+            "Electron hopping between mixed-valence ions",
+            "Conduction electron mediated"
+        ]
+    },
+    {
+        "q": "Superexchange explains antiferromagnetism in transition metal oxides like MnO.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Dzyaloshinskii-Moriya interaction (DMI)?",
+        "type": "mcq",
+        "o": [
+            "Antisymmetric exchange interaction leading to non-collinear spin textures",
+            "Symmetric exchange promoting parallel alignment",
+            "Interaction between magnetic and electric dipoles",
+            "Exchange mediated by photons"
+        ]
+    },
+    {
+        "q": "Dzyaloshinskii-Moriya interaction is responsible for stabilizing magnetic skyrmions.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name a topologically protected spin texture found in chiral magnets.",
+        "type": "short_answer",
+        "answers": [
+            "skyrmion",
+            "magnetic skyrmion"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Magnetic skyrmions are promising for future ______ memory and logic devices.",
+        "type": "fill_blank",
+        "answers": [
+            "racetrack",
+            "spintronic"
+        ],
+        "other_options": [
+            "optical",
+            "thermal",
+            "mechanical"
+        ]
+    },
+    {
+        "q": "Complete the sentence about rough handling of magnets:",
+        "type": "inline_dropdown",
+        "text": "Demagnetization occurs upon [0] the magnet repeatedly.",
+        "dropdowns": [
+            {
+                "correct": "hammering",
+                "options": [
+                    "stroking",
+                    "hammering",
+                    "cleaning"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Non-magnetic metals, LEFT for Magnetic metals.",
+        "type": "swipe_cards",
+        "left_label": "Magnetic",
+        "right_label": "Non-magnetic",
+        "cards": {
+            "Cobalt": "left",
+            "Copper": "right",
+            "Nickel": "left",
+            "Aluminum": "right"
+        }
+    },
+    {
+        "q": "What is the Landau-Lifshitz-Gilbert (LLG) equation?",
+        "type": "mcq",
+        "o": [
+            "Equation describing the precessional motion of magnetization",
+            "Equation for magnetic domain wall energy",
+            "Equation for hysteresis loop calculation",
+            "Equation for eddy current distribution"
+        ]
+    },
+    {
+        "q": "How many pairs of poles does a single unbroken bar magnet have?",
+        "type": "slider",
+        "min": 0,
+        "max": 3,
+        "correct": 1
+    },
+    {
+        "q": "The Gilbert damping term in the LLG equation accounts for energy dissipation in magnetization dynamics.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these describes spin-transfer torque (STT)?",
+        "type": "mcq",
+        "o": [
+            "Transfer of spin angular momentum from polarized current to magnetization",
+            "Torque generated by a rotating magnetic field",
+            "Mechanical torque on a current loop",
+            "Torque due to magnetostriction"
+        ]
+    },
+    {
+        "q": "Match the spintronic effect with its application:",
+        "type": "match",
+        "left": [
+            "Spin-transfer torque",
+            "Spin-orbit torque",
+            "Spin Hall effect",
+            "Spin pumping"
+        ],
+        "right": [
+            "STT-MRAM switching",
+            "SOT-driven domain wall motion",
+            "Generation of pure spin current",
+            "Injection of spin current into adjacent layer"
+        ]
+    },
+    {
+        "q": "Spin-orbit torque (SOT) uses spin-orbit coupling to switch magnetization efficiently.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the spin Hall effect?",
+        "type": "mcq",
+        "o": [
+            "Generation of transverse spin current from charge current in non-magnetic material",
+            "Generation of charge current from magnetic field",
+            "Rotation of spin under magnetic field",
+            "Hall effect in magnetic materials only"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a part of a simple magnetic compass?",
+        "type": "odd_one_out",
+        "options": [
+            "Magnetic needle",
+            "Dial with directions",
+            "Non-magnetic case",
+            "Battery"
+        ],
+        "correct": "Battery"
+    },
+    {
+        "q": "Name the effect that is the inverse of the spin Hall effect.",
+        "type": "short_answer",
+        "answers": [
+            "inverse spin Hall effect",
+            "ISHE"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Topological insulators have insulating bulk and conducting ______ states.",
+        "type": "fill_blank",
+        "answers": [
+            "surface"
+        ],
+        "other_options": [
+            "edge",
+            "domain",
+            "boundary"
+        ]
+    },
+    {
+        "q": "The quantum anomalous Hall effect exhibits quantized Hall resistance without an external magnetic field.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a Weyl semimetal?",
+        "type": "mcq",
+        "o": [
+            "Material with topologically protected Weyl nodes exhibiting large anomalous Hall effect",
+            "A type of magnetic alloy with high permeability",
+            "A semiconductor with magnetic impurities",
+            "An insulator with ferromagnetic properties"
+        ]
+    },
+    {
+        "q": "Which of these is a quantum spin liquid?",
+        "type": "mcq",
+        "o": [
+            "A state where spins remain disordered even at absolute zero",
+            "A liquid containing magnetic nanoparticles",
+            "A superfluid with spin properties",
+            "A molten magnetic material"
+        ]
+    },
+    {
+        "q": "Quantum spin liquids are characterized by long-range entanglement and fractionalized excitations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the quasiparticle with its description:",
+        "type": "match",
+        "left": [
+            "Magnon",
+            "Spinon",
+            "Skyrmion",
+            "Majorana fermion"
+        ],
+        "right": [
+            "Quantized spin wave",
+            "Fractionalized spin excitation",
+            "Topological spin texture",
+            "Its own antiparticle, sought in topological superconductors"
+        ]
+    },
+    {
+        "q": "Match these miscellaneous facts about magnets.",
+        "type": "memory",
+        "pairs": {
+            "Fe3O4": "Chemical formula for magnetite",
+            "Magnesia": "Place in Greece where magnets were discovered",
+            "William Gilbert": "Scientist who proposed Earth acts like a magnet"
+        }
+    },
+    {
+        "q": "Swipe RIGHT for Precious non-magnetic metals, LEFT for Common magnetic metals.",
+        "type": "swipe_cards",
+        "left_label": "Magnetic",
+        "right_label": "Precious Non-magnetic",
+        "cards": {
+            "Iron": "left",
+            "Nickel": "left",
+            "Gold": "right",
+            "Silver": "right"
+        }
+    },
+    {
+        "q": "What is a magnon?",
+        "type": "mcq",
+        "o": [
+            "A quantized spin wave excitation in a magnetic material",
+            "A magnetic monopole particle",
+            "An electron with aligned spin",
+            "A photon in a magnetic field"
+        ]
+    },
+    {
+        "q": "Unscramble the word: the pole that seeks the geographic south.",
+        "type": "word_scramble",
+        "answer": "SOUTH",
+        "decoys": "BN"
+    },
+    {
+        "q": "Name the branch of physics that studies magnons for information processing.",
+        "type": "short_answer",
+        "answers": [
+            "magnonics"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence about the middle of a magnet:",
+        "type": "inline_dropdown",
+        "text": "The exact center of a bar magnet has [0] magnetic pull.",
+        "dropdowns": [
+            {
+                "correct": "zero",
+                "options": [
+                    "maximum",
+                    "zero",
+                    "unlimited"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Magnon spintronics aims to use spin waves for low-power data transmission.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the spin Seebeck effect?",
+        "type": "mcq",
+        "o": [
+            "Generation of spin current due to a temperature gradient",
+            "Generation of heat due to spin current",
+            "Cooling by magnetic field application",
+            "Heating of a magnet by spin waves"
+        ]
+    },
+    {
+        "q": "The spin Peltier effect is the Onsager reciprocal of the spin ______ effect.",
+        "type": "fill_blank",
+        "answers": [
+            "Seebeck"
+        ],
+        "other_options": [
+            "Hall",
+            "Nernst",
+            "Thomson"
+        ]
+    },
+    {
+        "q": "What is the spin Nernst effect?",
+        "type": "mcq",
+        "o": [
+            "Transverse spin current generated by a longitudinal temperature gradient",
+            "Longitudinal spin current from a transverse field",
+            "Rotation of spin by thermal energy",
+            "Heat generation from spin current"
+        ]
+    },
+    {
+        "q": "Caloritronics combines thermoelectric and spintronic effects.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which technique provides element-specific magnetic hysteresis loops?",
+        "type": "mcq",
+        "o": [
+            "X-ray magnetic circular dichroism (XMCD)",
+            "Vibrating sample magnetometry (VSM)",
+            "SQUID magnetometry",
+            "Alternating gradient magnetometry (AGM)"
+        ]
+    },
+    {
+        "q": "Match the characterization technique with its measured property:",
+        "type": "match",
+        "left": [
+            "VSM",
+            "SQUID",
+            "MFM",
+            "XMCD"
+        ],
+        "right": [
+            "Magnetic moment vs field",
+            "Extremely sensitive magnetic moment",
+            "Surface magnetic domain imaging",
+            "Element-specific magnetism"
+        ]
+    },
+    {
+        "q": "Magnetic force microscopy (MFM) measures magnetic forces between a magnetized tip and sample surface.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does vibrating sample magnetometry (VSM) measure directly?",
+        "type": "mcq",
+        "o": [
+            "Magnetic dipole moment of a sample",
+            "Domain wall width",
+            "Exchange constant",
+            "Curie temperature only"
+        ]
+    },
+    {
+        "q": "Name the most sensitive instrument for measuring magnetic properties of small samples.",
+        "type": "short_answer",
+        "answers": [
+            "squid magnetometer",
+            "squid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: the pole that seeks the geographic north.",
+        "type": "word_scramble",
+        "answer": "NORTH",
+        "decoys": "LM"
+    },
+    {
+        "q": "Ferromagnetic resonance (FMR) probes the dynamic response of magnetization to ______ fields.",
+        "type": "fill_blank",
+        "answers": [
+            "microwave",
+            "RF",
+            "radiofrequency"
+        ],
+        "other_options": [
+            "static",
+            "low-frequency",
+            "DC"
+        ]
+    },
+    {
+        "q": "Complete the sentence about cutting magnets:",
+        "type": "inline_dropdown",
+        "text": "Breaking a magnet creates [0] poles on each new piece.",
+        "dropdowns": [
+            {
+                "correct": "new",
+                "options": [
+                    "no",
+                    "new",
+                    "single"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What information can ferromagnetic resonance (FMR) provide?",
+        "type": "mcq",
+        "o": [
+            "Gilbert damping parameter and magnetic anisotropy",
+            "Only the saturation magnetization",
+            "Only the Curie temperature",
+            "The electrical conductivity"
+        ]
+    },
+    {
+        "q": "Brillouin light scattering (BLS) can detect thermally excited magnons.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a method for imaging magnetic domains with nanometer resolution?",
+        "type": "mcq",
+        "o": [
+            "Scanning electron microscopy with polarization analysis (SEMPA)",
+            "Optical microscopy",
+            "Thermal imaging",
+            "Ultrasonic imaging"
+        ]
+    },
+    {
+        "q": "Match the microscopy technique with its resolution capability:",
+        "type": "match",
+        "left": [
+            "MFM",
+            "SEMPA",
+            "SPLEEM",
+            "Lorentz TEM"
+        ],
+        "right": [
+            "~50 nm",
+            "~10 nm",
+            "~10 nm",
+            "~1 nm"
+        ]
+    },
+    {
+        "q": "Lorentz transmission electron microscopy allows imaging of magnetic structures at atomic resolution.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for actions that GAIN magnetism, LEFT for actions that LOSE magnetism.",
+        "type": "swipe_cards",
+        "left_label": "Loses Magnetism",
+        "right_label": "Gains Magnetism",
+        "cards": {
+            "Hammering strongly": "left",
+            "Stroking with another magnet": "right",
+            "Heating in a furnace": "left",
+            "Single-touch method": "right"
+        }
+    },
+    {
+        "q": "What is the principle of neutron diffraction for magnetic structure determination?",
+        "type": "mcq",
+        "o": [
+            "Interaction of neutron spin with magnetic moments in the crystal",
+            "Absorption of neutrons by magnetic atoms",
+            "Reflection of neutrons from the surface",
+            "Heating of the sample by neutrons"
+        ]
+    },
+    {
+        "q": "Name the particle whose magnetic moment is used to probe magnetic structures in diffraction.",
+        "type": "short_answer",
+        "answers": [
+            "neutron"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Polarized neutron reflectometry can determine the depth-dependent ______ profile of thin films.",
+        "type": "fill_blank",
+        "answers": [
+            "magnetization"
+        ],
+        "other_options": [
+            "composition",
+            "temperature",
+            "stress"
+        ]
+    },
+    {
+        "q": "What is magnetic small-angle neutron scattering (SANS) used for?",
+        "type": "mcq",
+        "o": [
+            "Characterizing nanoscale magnetic inhomogeneities",
+            "Measuring bulk saturation magnetization",
+            "Determining crystal structure",
+            "Measuring electrical resistivity"
+        ]
+    },
+    {
+        "q": "Muon spin rotation (muSR) uses implanted muons to probe local magnetic fields.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a technique to study ultrafast magnetization dynamics?",
+        "type": "mcq",
+        "o": [
+            "Time-resolved magneto-optical Kerr effect (TR-MOKE)",
+            "DC magnetometry",
+            "Static hysteresis loop measurement",
+            "Slow thermal demagnetization"
+        ]
+    },
+    {
+        "q": "Femtosecond laser pulses can demagnetize a ferromagnetic film within picoseconds.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is all-optical switching of magnetization?",
+        "type": "mcq",
+        "o": [
+            "Reversal of magnetization using only laser pulses without external magnetic field",
+            "Switching a magnet using a flashlight",
+            "Optical detection of magnetic field",
+            "Magnetic modulation of light intensity"
+        ]
+    },
+    {
+        "q": "Match the ultrafast phenomenon with its timescale:",
+        "type": "match",
+        "left": [
+            "Ultrafast demagnetization",
+            "Spin precession",
+            "Domain wall motion",
+            "Skyrmion nucleation"
+        ],
+        "right": [
+            "< 1 picosecond",
+            "10-100 picoseconds",
+            "Nanoseconds",
+            "Picoseconds to nanoseconds"
+        ]
+    },
+    {
+        "q": "What is the principle of heat-assisted magnetic recording (HAMR)?",
+        "type": "mcq",
+        "o": [
+            "Localized laser heating to temporarily reduce coercivity for writing",
+            "Heating the entire disk to write data",
+            "Using heat to generate magnetic fields",
+            "Cooling the media to increase coercivity"
+        ]
+    },
+    {
+        "q": "HAMR technology enables higher areal density in hard disk drives beyond the superparamagnetic limit.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the next-generation magnetic recording technology that uses microwave fields to assist writing.",
+        "type": "short_answer",
+        "answers": [
+            "MAMR",
+            "microwave-assisted magnetic recording"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In bit-patterned media (BPM), each bit is stored on a single-domain ______ island.",
+        "type": "fill_blank",
+        "answers": [
+            "magnetic"
+        ],
+        "other_options": [
+            "semiconductor",
+            "metallic",
+            "oxide"
+        ]
+    },
+    {
+        "q": "Which of these is a challenge for magnetic recording at ultrahigh densities?",
+        "type": "mcq",
+        "o": [
+            "Superparamagnetic limit of thermal instability",
+            "Excessive electrical conductivity",
+            "Lack of magnetic materials",
+            "Diamagnetic interference"
+        ]
+    },
+    {
+        "q": "The superparamagnetic limit describes the thermal instability of magnetization in very small grains.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the role of the write head in a hard disk drive?",
+        "type": "mcq",
+        "o": [
+            "To generate a localized magnetic field that writes data onto the media",
+            "To read data by sensing magnetic flux",
+            "To spin the disk platter",
+            "To cool the disk surface"
+        ]
+    },
+    {
+        "q": "Match the recording technology with its principle:",
+        "type": "match",
+        "left": [
+            "Longitudinal recording",
+            "Perpendicular recording",
+            "HAMR",
+            "MAMR"
+        ],
+        "right": [
+            "Magnetization in-plane",
+            "Magnetization out-of-plane",
+            "Laser heating for writing",
+            "Microwave assisted switching"
+        ]
+    },
+    {
+        "q": "Perpendicular magnetic recording allows higher areal density than longitudinal recording.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is racetrack memory?",
+        "type": "mcq",
+        "o": [
+            "A memory device where data is stored as domain walls moved by current pulses",
+            "A memory shaped like a racing track",
+            "High-speed RAM using magnetic cores",
+            "Optical memory on a rotating track"
+        ]
+    },
+    {
+        "q": "Current-induced domain wall motion is driven by spin-transfer torque.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the type of memory that uses magnetic tunnel junctions as storage elements.",
+        "type": "short_answer",
+        "answers": [
+            "MRAM",
+            "STT-MRAM",
+            "magnetic random access memory"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A magnetic tunnel junction consists of two ferromagnetic layers separated by a thin ______ barrier.",
+        "type": "fill_blank",
+        "answers": [
+            "insulating",
+            "oxide",
+            "tunnel"
+        ],
+        "other_options": [
+            "conducting",
+            "semiconducting",
+            "metallic"
+        ]
+    },
+    {
+        "q": "What does the tunnel magnetoresistance (TMR) ratio represent?",
+        "type": "mcq",
+        "o": [
+            "Relative change in resistance between parallel and antiparallel states",
+            "Absolute resistance of the tunnel barrier",
+            "Ratio of magnetic to electric fields",
+            "Temperature coefficient of resistance"
+        ]
+    },
+    {
+        "q": "MgO-based magnetic tunnel junctions exhibit TMR ratios exceeding 600% at room temperature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a type of voltage-controlled magnetic anisotropy (VCMA)?",
+        "type": "mcq",
+        "o": [
+            "Modulation of magnetic anisotropy by an applied electric field",
+            "Control of magnetic field by current",
+            "Change of anisotropy with temperature",
+            "Modulation by mechanical stress"
+        ]
+    },
+    {
+        "q": "VCMA effect enables ultralow-power magnetization switching in MRAM.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the magnetic proximity effect?",
+        "type": "mcq",
+        "o": [
+            "Induction of magnetism in a non-magnetic material at an interface with a ferromagnet",
+            "Loss of magnetism near a non-magnetic material",
+            "Temperature change near a magnet",
+            "Increased domain wall velocity near edges"
+        ]
+    },
+    {
+        "q": "Match the spintronic device with its function:",
+        "type": "match",
+        "left": [
+            "Spin valve",
+            "Magnetic tunnel junction",
+            "Spin Hall nano-oscillator",
+            "Spin torque diode"
+        ],
+        "right": [
+            "GMR sensor",
+            "TMR memory cell",
+            "Microwave generation",
+            "RF detection"
+        ]
+    },
+    {
+        "q": "Spin-torque nano-oscillators (STNOs) can generate microwave signals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the principle of a spin-torque nano-oscillator?",
+        "type": "mcq",
+        "o": [
+            "Sustained precession of magnetization driven by spin-polarized current",
+            "Mechanical oscillation of a nanomagnet",
+            "Optical pumping of spin states",
+            "Thermal vibration of domains"
+        ]
+    },
+    {
+        "q": "Name the emerging field that uses spin waves for Boolean and non-Boolean computing.",
+        "type": "short_answer",
+        "answers": [
+            "magnonics",
+            "wave computing",
+            "spin wave computing"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Magnonic crystals are periodic structures that control the propagation of ______ waves.",
+        "type": "fill_blank",
+        "answers": [
+            "spin"
+        ],
+        "other_options": [
+            "electromagnetic",
+            "acoustic",
+            "thermal"
+        ]
+    },
+    {
+        "q": "What is a spin wave majority gate?",
+        "type": "mcq",
+        "o": [
+            "A logic gate using interference of multiple spin waves to perform Boolean operations",
+            "A gate that only allows majority spin electrons",
+            "A mechanical gate controlled by magnets",
+            "A transistor using magnetic fields"
+        ]
+    },
+    {
+        "q": "Spin wave devices have potential for lower power consumption than CMOS.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a two-dimensional magnetic material?",
+        "type": "mcq",
+        "o": [
+            "Chromium triiodide (CrI3)",
+            "Silicon dioxide (SiO2)",
+            "Aluminum oxide (Al2O3)",
+            "Gallium arsenide (GaAs)"
+        ]
+    },
+    {
+        "q": "Van der Waals magnets retain magnetic order down to the monolayer limit.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the 2D magnetic material with its property:",
+        "type": "match",
+        "left": [
+            "CrI3",
+            "Cr2Ge2Te6",
+            "Fe3GeTe2",
+            "MnSe2"
+        ],
+        "right": [
+            "Ising ferromagnet",
+            "Heisenberg ferromagnet",
+            "Itinerant ferromagnet",
+            "Antiferromagnet"
+        ]
+    },
+    {
+        "q": "What is the quantum anomalous Hall effect observed in magnetically doped topological insulators?",
+        "type": "mcq",
+        "o": [
+            "Quantized Hall conductance without external magnetic field",
+            "Anomalous Hall effect in quantum dots",
+            "Superconductivity at low temperatures",
+            "Fractional statistics of quasiparticles"
+        ]
+    },
+    {
+        "q": "Name the material where the quantum anomalous Hall effect was first observed experimentally.",
+        "type": "short_answer",
+        "answers": [
+            "Cr-doped (Bi,Sb)2Te3",
+            "chromium doped topological insulator"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Axion insulators are proposed in topological magnetoelectric systems exhibiting quantized ______ effect.",
+        "type": "fill_blank",
+        "answers": [
+            "magnetoelectric"
+        ],
+        "other_options": [
+            "thermoelectric",
+            "piezoelectric",
+            "photoelectric"
+        ]
+    },
+    {
+        "q": "What is a Majorana zero mode in the context of topological superconductivity?",
+        "type": "mcq",
+        "o": [
+            "A quasiparticle that is its own antiparticle, proposed for topological quantum computing",
+            "A zero-energy spin wave",
+            "A massless electron",
+            "A magnetic monopole"
+        ]
+    },
+    {
+        "q": "Majorana zero modes exhibit non-Abelian braiding statistics suitable for fault-tolerant quantum computing.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which type of magnet is considered for antiferromagnetic spintronics?",
+        "type": "mcq",
+        "o": [
+            "Synthetic antiferromagnets",
+            "Alnico",
+            "Ferrite",
+            "Soft iron"
+        ]
+    },
+    {
+        "q": "Antiferromagnetic spintronics offers faster dynamics and insensitivity to external fields.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Neel vector in antiferromagnets?",
+        "type": "mcq",
+        "o": [
+            "The vector difference between sublattice magnetizations",
+            "The total magnetization of all sublattices",
+            "The direction of the applied field",
+            "The sum of all spin vectors"
+        ]
+    },
+    {
+        "q": "What is the Kondo effect in the context of magnetic impurities?",
+        "type": "mcq",
+        "o": [
+            "Resistance minimum due to scattering of conduction electrons by a magnetic impurity",
+            "Maximum magnetization at low temperatures",
+            "Ferromagnetic ordering of impurities",
+            "Superconductivity induced by magnetic atoms"
+        ]
+    },
+    {
+        "q": "Below the Kondo temperature, the magnetic moment of an impurity is screened by conduction electrons forming a singlet.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the temperature scale below which Kondo screening becomes dominant.",
+        "type": "short_answer",
+        "answers": [
+            "Kondo temperature",
+            "TK"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Kondo lattice model describes a periodic array of local moments coupled to ______ electrons.",
+        "type": "fill_blank",
+        "answers": [
+            "conduction"
+        ],
+        "other_options": [
+            "core",
+            "valence",
+            "itinerant"
+        ]
+    },
+    {
+        "q": "What is a heavy fermion system?",
+        "type": "mcq",
+        "o": [
+            "Intermetallic compound with electrons having effective masses hundreds of times the free electron mass",
+            "A ferromagnet with very high density",
+            "A system of large magnetic particles",
+            "A magnet made of heavy elements only"
+        ]
+    },
+    {
+        "q": "Heavy fermion behavior arises from the hybridization between localized f-electrons and conduction electrons.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a canonical heavy fermion compound?",
+        "type": "mcq",
+        "o": [
+            "CeCu6",
+            "Fe2O3",
+            "NiFe alloy",
+            "SmCo5"
+        ]
+    },
+    {
+        "q": "Match the strongly correlated electron phenomenon with its description:",
+        "type": "match",
+        "left": [
+            "Kondo effect",
+            "Heavy fermion",
+            "Mixed valence",
+            "Mott transition"
+        ],
+        "right": [
+            "Spin screening of impurity",
+            "Large effective mass quasiparticles",
+            "Fluctuating f-electron occupancy",
+            "Metal-insulator transition due to correlations"
+        ]
+    },
+    {
+        "q": "What is the Mott insulator state?",
+        "type": "mcq",
+        "o": [
+            "An insulator where electron-electron repulsion prevents conduction despite partially filled bands",
+            "An insulator due to completely filled bands",
+            "A magnetic insulator below Neel temperature",
+            "An insulator doped with magnetic impurities"
+        ]
+    },
+    {
+        "q": "The Hubbard model describes the competition between kinetic energy and on-site Coulomb repulsion U.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What does the t-J model describe?",
+        "type": "mcq",
+        "o": [
+            "Strongly correlated electrons in the large U limit of the Hubbard model",
+            "Tunneling between superconductors",
+            "Exchange interaction in insulators",
+            "Transport in Josephson junctions"
+        ]
+    },
+    {
+        "q": "Name the model that is the strong-coupling limit of the Hubbard model with an antiferromagnetic exchange term.",
+        "type": "short_answer",
+        "answers": [
+            "t-J model",
+            "t J model"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In the Hubbard model at half-filling, the ground state is a ______ insulator for sufficiently large U.",
+        "type": "fill_blank",
+        "answers": [
+            "Mott"
+        ],
+        "other_options": [
+            "band",
+            "Anderson",
+            "Peierls"
+        ]
+    },
+    {
+        "q": "What is the Anderson impurity model?",
+        "type": "mcq",
+        "o": [
+            "A model describing a localized magnetic state hybridized with a conduction band",
+            "A model for structural disorder in magnets",
+            "A model for domain wall pinning",
+            "A model for magnetostriction"
+        ]
+    },
+    {
+        "q": "The Anderson model is the foundation for understanding the Kondo effect and mixed valence.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Doniach phase diagram?",
+        "type": "mcq",
+        "o": [
+            "Phase diagram showing competition between RKKY interaction and Kondo effect in heavy fermions",
+            "Phase diagram of ferromagnets vs temperature",
+            "Magnetic phase diagram for domain structures",
+            "Phase diagram of magnetic refrigeration materials"
+        ]
+    },
+    {
+        "q": "In the Doniach phase diagram, magnetic order is suppressed at a quantum critical point.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the quantum phase with its characteristic:",
+        "type": "match",
+        "left": [
+            "Fermi liquid",
+            "Non-Fermi liquid",
+            "Spin liquid",
+            "Superconductivity"
+        ],
+        "right": [
+            "Landau quasiparticles",
+            "Anomalous power laws near QCP",
+            "No magnetic order down to T=0",
+            "Zero resistance with Cooper pairs"
+        ]
+    },
+    {
+        "q": "What is a quantum critical point (QCP)?",
+        "type": "mcq",
+        "o": [
+            "A continuous phase transition at absolute zero driven by non-thermal parameters",
+            "A critical temperature above which magnetism disappears",
+            "A point where domains nucleate",
+            "A saturation point in the hysteresis loop"
+        ]
+    },
+    {
+        "q": "Quantum critical fluctuations can mediate unconventional superconductivity.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name a class of materials where quantum criticality is extensively studied near antiferromagnetic instability.",
+        "type": "short_answer",
+        "answers": [
+            "heavy fermions",
+            "heavy fermion compounds",
+            "Ce-based compounds"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Non-Fermi liquid behavior is often characterized by resistivity varying as T^n with n ______ 2.",
+        "type": "fill_blank",
+        "answers": [
+            "less than",
+            "<",
+            "not equal to"
+        ],
+        "other_options": [
+            "greater than",
+            "equal to",
+            "proportional to"
+        ]
+    },
+    {
+        "q": "What is the Luttinger liquid?",
+        "type": "mcq",
+        "o": [
+            "A theoretical state for interacting electrons in one dimension",
+            "A liquid form of magnetic material",
+            "A Fermi liquid in three dimensions",
+            "A superconducting condensate"
+        ]
+    },
+    {
+        "q": "In a Luttinger liquid, spin and charge excitations propagate at different velocities.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is spin-charge separation?",
+        "type": "mcq",
+        "o": [
+            "Decoupling of spin and charge degrees of freedom into independent collective modes",
+            "Separation of magnetic poles",
+            "Separation of electrons from the nucleus",
+            "Charging a magnet by friction"
+        ]
+    },
+    {
+        "q": "Spin-charge separation is a hallmark of one-dimensional interacting electron systems.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which experimental technique can observe spin-charge separation?",
+        "type": "mcq",
+        "o": [
+            "Angle-resolved photoemission spectroscopy (ARPES)",
+            "DC magnetization measurement",
+            "Optical microscopy",
+            "Thermogravimetric analysis"
+        ]
+    },
+    {
+        "q": "Match the exotic state with its defining property:",
+        "type": "match",
+        "left": [
+            "Spin liquid",
+            "Luttinger liquid",
+            "Wigner crystal",
+            "Charge density wave"
+        ],
+        "right": [
+            "No magnetic order, fractional excitations",
+            "Spin-charge separation in 1D",
+            "Electron crystallization",
+            "Periodic modulation of charge density"
+        ]
+    },
+    {
+        "q": "What is the Verwey transition in magnetite?",
+        "type": "mcq",
+        "o": [
+            "A metal-insulator transition associated with charge ordering of Fe2+ and Fe3+ ions",
+            "A ferromagnetic to paramagnetic transition",
+            "A structural phase transition only",
+            "A superconducting transition"
+        ]
+    },
+    {
+        "q": "Magnetite (Fe3O4) is a half-metal with 100% spin polarization at the Fermi level.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name a material predicted to be a half-metallic ferromagnet.",
+        "type": "short_answer",
+        "answers": [
+            "CrO2",
+            "Heusler alloys",
+            "magnetite",
+            "Fe3O4",
+            "LaSrMnO3"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Half-metals are promising for spintronics because they provide fully ______ current.",
+        "type": "fill_blank",
+        "answers": [
+            "spin-polarized"
+        ],
+        "other_options": [
+            "unpolarized",
+            "alternating",
+            "direct"
+        ]
+    },
+    {
+        "q": "What characterizes a Weyl semimetal?",
+        "type": "mcq",
+        "o": [
+            "Band touching points with linear dispersion acting as magnetic monopoles in momentum space",
+            "A semiconductor with magnetic doping",
+            "An insulator with chiral edge states",
+            "A metal with high conductivity"
+        ]
+    },
+    {
+        "q": "Weyl semimetals exhibit the chiral anomaly, leading to negative magnetoresistance.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a Dirac semimetal?",
+        "type": "mcq",
+        "o": [
+            "Material with four-fold degenerate Dirac points protected by symmetry",
+            "A semimetal discovered by Paul Dirac",
+            "A metal that conducts like a semiconductor",
+            "An antiferromagnetic insulator"
+        ]
+    },
+    {
+        "q": "Match the topological phase with its feature:",
+        "type": "match",
+        "left": [
+            "Weyl semimetal",
+            "Dirac semimetal",
+            "Nodal line semimetal",
+            "Topological insulator"
+        ],
+        "right": [
+            "Two-fold degenerate nodes, broken T or I",
+            "Four-fold degenerate nodes",
+            "Degeneracy along a line in k-space",
+            "Insulating bulk, conducting surface"
+        ]
+    },
+    {
+        "q": "What is the anomalous Hall effect (AHE)?",
+        "type": "mcq",
+        "o": [
+            "Hall effect in ferromagnets without external field, proportional to magnetization",
+            "Quantum Hall effect without magnetic field",
+            "Hall effect with alternating current",
+            "Inverse Hall effect in superconductors"
+        ]
+    },
+    {
+        "q": "The intrinsic anomalous Hall effect arises from Berry curvature in momentum space.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is Berry curvature?",
+        "type": "mcq",
+        "o": [
+            "A gauge field in momentum space affecting electron motion",
+            "Curvature of magnetic field lines",
+            "Bending of a magnetic domain wall",
+            "Geometric curvature of a magnet"
+        ]
+    },
+    {
+        "q": "Name the geometric phase acquired by an electron wavefunction during adiabatic evolution in k-space.",
+        "type": "short_answer",
+        "answers": [
+            "Berry phase"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The quantum anomalous Hall effect requires broken time-reversal symmetry and non-zero Chern number.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Chern number in topological band theory?",
+        "type": "mcq",
+        "o": [
+            "Integer topological invariant characterizing quantized Hall conductance",
+            "Number of magnetic domains",
+            "Number of unpaired electrons",
+            "Quantum number of spin"
+        ]
+    },
+    {
+        "q": "A non-zero Chern number implies the existence of chiral edge states.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "In the quantum spin Hall effect, edge states are protected by time-reversal symmetry and carry pure ______ current.",
+        "type": "fill_blank",
+        "answers": [
+            "spin"
+        ],
+        "other_options": [
+            "charge",
+            "heat",
+            "ion"
+        ]
+    },
+    {
+        "q": "What is the Z2 topological invariant?",
+        "type": "mcq",
+        "o": [
+            "A binary number distinguishing topologically trivial and non-trivial insulators",
+            "Atomic number of magnetic elements",
+            "Spin quantum number of electrons",
+            "Number of edge modes"
+        ]
+    },
+    {
+        "q": "HgTe quantum wells were the first experimentally confirmed 2D topological insulators.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a 3D topological insulator?",
+        "type": "mcq",
+        "o": [
+            "Bi2Se3",
+            "SiO2",
+            "GaAs",
+            "NaCl"
+        ]
+    },
+    {
+        "q": "Match the topological invariant with the system:",
+        "type": "match",
+        "left": [
+            "Chern number",
+            "Z2 invariant",
+            "Mirror Chern number",
+            "Spin Chern number"
+        ],
+        "right": [
+            "Integer quantum Hall",
+            "Topological insulator",
+            "Crystalline topological insulator",
+            "Approximate in systems with weak SOC"
+        ]
+    },
+    {
+        "q": "What is a topological crystalline insulator?",
+        "type": "mcq",
+        "o": [
+            "An insulator whose surface states are protected by crystal symmetries, not just time-reversal",
+            "An insulator with crystalline magnetic order",
+            "A topological insulator in crystal form only",
+            "A magnet with crystalline anisotropy"
+        ]
+    },
+    {
+        "q": "What is a magnetic topological insulator?",
+        "type": "mcq",
+        "o": [
+            "A topological insulator with intrinsic magnetic order breaking time-reversal symmetry",
+            "A magnet with insulating surface",
+            "An insulator placed near a magnet",
+            "A diamagnetic topological material"
+        ]
+    },
+    {
+        "q": "Magnetic topological insulators can host the quantum anomalous Hall effect.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the phenomenon of chiral Majorana edge modes in a topological superconductor.",
+        "type": "short_answer",
+        "answers": [
+            "topological superconductivity",
+            "Majorana edge modes"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A topological superconductor has a fully gapped bulk but gapless ______ states.",
+        "type": "fill_blank",
+        "answers": [
+            "surface",
+            "edge",
+            "boundary"
+        ],
+        "other_options": [
+            "core",
+            "interior",
+            "volume"
+        ]
+    },
+    {
+        "q": "What is a Josephson junction?",
+        "type": "mcq",
+        "o": [
+            "Two superconductors separated by a thin barrier allowing Cooper pair tunneling",
+            "A magnetic tunnel junction",
+            "A junction between two magnets",
+            "A thermocouple junction"
+        ]
+    },
+    {
+        "q": "Magnetic Josephson junctions combine superconductivity and magnetism for cryogenic memory.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a pi-junction in superconductivity?",
+        "type": "mcq",
+        "o": [
+            "A Josephson junction with an intrinsic pi phase shift due to ferromagnetic barrier",
+            "A junction with circumference pi",
+            "A junction operating at pi temperature",
+            "A junction with pi voltage"
+        ]
+    },
+    {
+        "q": "Pi-junctions are used in superconducting qubits and classical cryogenic memory.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Fulde-Ferrell-Larkin-Ovchinnikov (FFLO) state?",
+        "type": "mcq",
+        "o": [
+            "Inhomogeneous superconducting state with spatially modulated order parameter in high field",
+            "A homogeneous ferromagnetic state",
+            "A charge density wave state",
+            "A spin density wave state"
+        ]
+    },
+    {
+        "q": "Match the superconducting state with its characteristic:",
+        "type": "match",
+        "left": [
+            "Conventional s-wave",
+            "d-wave",
+            "p-wave",
+            "FFLO state"
+        ],
+        "right": [
+            "Isotropic gap, BCS theory",
+            "Nodal gap, cuprates",
+            "Triplet pairing, topological",
+            "Modulated order parameter, high field"
+        ]
+    },
+    {
+        "q": "Triplet superconductors are candidates for topological superconductivity hosting Majorana modes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which material is a leading candidate for p-wave triplet superconductivity?",
+        "type": "mcq",
+        "o": [
+            "Sr2RuO4",
+            "Nb3Sn",
+            "YBa2Cu3O7",
+            "MgB2"
+        ]
+    },
+    {
+        "q": "Name the compound that is considered a possible chiral p-wave superconductor.",
+        "type": "short_answer",
+        "answers": [
+            "Sr2RuO4",
+            "strontium ruthenate"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is spin-triplet pairing?",
+        "type": "mcq",
+        "o": [
+            "Cooper pairs with total spin S=1 and symmetric spin wavefunction",
+            "Pairing of electrons with antiparallel spins only",
+            "Magnetic coupling of three spins",
+            "Triple atomic bonding in magnets"
+        ]
+    },
+    {
+        "q": "In the context of multiferroics, what is the magnetoelectric coupling?",
+        "type": "mcq",
+        "o": [
+            "Cross-coupling where magnetization can be controlled by electric field and vice versa",
+            "Coupling between two magnets electrically",
+            "Electric current generation by a magnet",
+            "Magnetic induction by moving charges"
+        ]
+    },
+    {
+        "q": "Type-II multiferroics exhibit ferroelectricity induced by complex magnetic order such as spiral spin structure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The inverse Dzyaloshinskii-Moriya effect can induce electric polarization in spiral magnets.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the spin-driven ferroelectricity mechanism?",
+        "type": "mcq",
+        "o": [
+            "Electric polarization arising from specific non-collinear magnetic structures",
+            "Magnetism induced by electric dipoles",
+            "Ferroelectricity in non-magnetic insulators",
+            "Paraelectricity in conductors"
+        ]
+    },
+    {
+        "q": "Match the multiferroic compound with its mechanism:",
+        "type": "match",
+        "left": [
+            "BiFeO3",
+            "TbMnO3",
+            "HoMnO3",
+            "CuO"
+        ],
+        "right": [
+            "Lone-pair driven, type-I",
+            "Spiral spin-driven, type-II",
+            "Geometric ferroelectricity",
+            "Spin-driven at high pressure"
+        ]
+    },
+    {
+        "q": "What is the magnetoelectric tensor?",
+        "type": "mcq",
+        "o": [
+            "A tensor describing linear response of polarization to magnetic field or magnetization to electric field",
+            "A stress tensor in magnets",
+            "A conductivity tensor",
+            "A thermal expansion tensor"
+        ]
+    },
+    {
+        "q": "Name the technique that combines scanning probe microscopy with magnetoelectric characterization.",
+        "type": "short_answer",
+        "answers": [
+            "piezoresponse force microscopy",
+            "PFM",
+            "magnetic force microscopy"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The multiferroic vortex domain structure can be switched by applied ______ fields.",
+        "type": "fill_blank",
+        "answers": [
+            "electric"
+        ],
+        "other_options": [
+            "gravitational",
+            "thermal",
+            "acoustic"
+        ]
+    },
+    {
+        "q": "What is a magnetic monopole in spin ice?",
+        "type": "mcq",
+        "o": [
+            "Emergent quasiparticles acting as sources or sinks of magnetization in frustrated magnets",
+            "Fundamental particles predicted by Dirac",
+            "Single-pole magnets synthesized in labs",
+            "Magnetic domains at poles"
+        ]
+    },
+    {
+        "q": "Spin ice materials like Dy2Ti2O7 exhibit emergent magnetic monopole excitations.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is geometric frustration in magnetism?",
+        "type": "mcq",
+        "o": [
+            "Inability to simultaneously satisfy all antiferromagnetic interactions on certain lattices",
+            "Mechanical frustration during magnetization",
+            "Difficulty in manufacturing magnets",
+            "Electronic frustration in conductors"
+        ]
+    },
+    {
+        "q": "Kagome and triangular lattices are canonical examples of geometrically frustrated lattices.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is a frustrated magnet candidate for quantum spin liquid?",
+        "type": "mcq",
+        "o": [
+            "Herbertsmithite ZnCu3(OH)6Cl2",
+            "Magnetite Fe3O4",
+            "Nickel oxide NiO",
+            "Iron garnet YIG"
+        ]
+    },
+    {
+        "q": "Match the frustration phenomenon with the lattice:",
+        "type": "match",
+        "left": [
+            "Spin ice",
+            "Kagome spin liquid",
+            "Triangular antiferromagnet",
+            "Pyrochlore frustration"
+        ],
+        "right": [
+            "Pyrochlore lattice",
+            "Kagome lattice",
+            "Triangular lattice",
+            "Corner-sharing tetrahedra"
+        ]
+    },
+    {
+        "q": "What is the Kitaev honeycomb model?",
+        "type": "mcq",
+        "o": [
+            "An exactly solvable model of spin-1/2 on honeycomb lattice with bond-dependent Ising interactions",
+            "A model for magnetic honeycomb structures",
+            "A model for magnetostriction in hexagonal materials",
+            "An empirical model for hysteresis"
+        ]
+    },
+    {
+        "q": "The Kitaev model hosts Majorana fermions and can support topological quantum computation.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name a material proposed to realize the Kitaev quantum spin liquid.",
+        "type": "short_answer",
+        "answers": [
+            "alpha-RuCl3",
+            "RuCl3",
+            "iridate compounds",
+            "Na2IrO3"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Alpha-RuCl3 exhibits a broad continuum of magnetic excitations consistent with fractionalized ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Majorana fermions",
+            "spinons"
+        ],
+        "other_options": [
+            "magnons",
+            "phonons",
+            "electrons"
+        ]
+    },
+    {
+        "q": "What is the thermal Hall effect in magnetic insulators?",
+        "type": "mcq",
+        "o": [
+            "Transverse heat current induced by longitudinal temperature gradient in a magnetic field",
+            "Hall effect measured by thermal probes",
+            "Heating due to Hall voltage",
+            "Magnetic field generated by heat"
+        ]
+    },
+    {
+        "q": "The thermal Hall effect in insulating magnets can be quantized due to topological magnon bands.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is a topological magnon insulator?",
+        "type": "mcq",
+        "o": [
+            "A magnetic insulator with topologically protected chiral edge magnon modes",
+            "An insulator that becomes magnetic at the surface",
+            "A topological insulator with magnetic impurities",
+            "A magnon-based transistor"
+        ]
+    },
+    {
+        "q": "Dzyaloshinskii-Moriya interaction can induce topological magnon bands.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these materials has been predicted to host topological magnon bands?",
+        "type": "mcq",
+        "o": [
+            "Cu(1,3-bdc) kagome lattice",
+            "Pure iron",
+            "Silicon steel",
+            "Ferrite cores"
+        ]
+    },
+    {
+        "q": "Match the topological bosonic system with its quasiparticle:",
+        "type": "match",
+        "left": [
+            "Topological magnon insulator",
+            "Topological photon system",
+            "Topological phonon system",
+            "Topological triplon system"
+        ],
+        "right": [
+            "Chiral edge magnons",
+            "Chiral edge photons",
+            "Chiral edge phonons",
+            "Chiral edge triplons"
+        ]
+    },
+    {
+        "q": "What is magnon spintronics?",
+        "type": "mcq",
+        "o": [
+            "Field using magnons (spin waves) to carry and process information without charge currents",
+            "Spintronics using magnetic fields only",
+            "Electronics using magneto-resistive elements",
+            "Photonics in magnetic materials"
+        ]
+    },
+    {
+        "q": "Magnon currents can transport spin angular momentum without Joule heating.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the effect where a temperature gradient generates a magnon spin current.",
+        "type": "short_answer",
+        "answers": [
+            "spin Seebeck effect",
+            "magnon Seebeck effect"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The magnon spin Hall effect refers to a transverse spin current carried by magnons due to a ______ gradient.",
+        "type": "fill_blank",
+        "answers": [
+            "temperature"
+        ],
+        "other_options": [
+            "voltage",
+            "pressure",
+            "magnetic field"
+        ]
+    },
+    {
+        "q": "What is a magnon transistor?",
+        "type": "mcq",
+        "o": [
+            "A three-terminal device that controls magnon current flow using gate stimuli",
+            "A transistor made of magnetic material",
+            "A transistor that amplifies magnetic fields",
+            "A bipolar junction transistor with magnetic base"
+        ]
+    },
+    {
+        "q": "Magnon logic gates can perform Boolean operations using spin wave interference.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Bose-Einstein condensation of magnons?",
+        "type": "mcq",
+        "o": [
+            "Macroscopic occupation of the lowest energy magnon state at high magnon densities",
+            "Condensation of magnetic atoms into a liquid",
+            "Freezing of spin waves at low temperature",
+            "Condensation of electrons into Cooper pairs"
+        ]
+    },
+    {
+        "q": "Magnon Bose-Einstein condensation has been observed in yttrium iron garnet (YIG) at room temperature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which material is the workhorse of magnonics due to its extremely low magnetic damping?",
+        "type": "mcq",
+        "o": [
+            "Yttrium iron garnet (YIG)",
+            "Iron",
+            "Nickel",
+            "Permalloy"
+        ]
+    },
+    {
+        "q": "What is a magnonic crystal?",
+        "type": "mcq",
+        "o": [
+            "Periodic magnetic structure with artificially tailored spin wave band structure",
+            "A crystal that amplifies magnons",
+            "A single crystal of magnetic material",
+            "A photonic crystal for magnons"
+        ]
+    },
+    {
+        "q": "Match the magnonic device with its function:",
+        "type": "match",
+        "left": [
+            "Magnonic crystal",
+            "Magnon waveguide",
+            "Magnon splitter",
+            "Magnon multiplexer"
+        ],
+        "right": [
+            "Bandgap engineering for spin waves",
+            "Low-loss spin wave transport",
+            "Divides spin wave signal",
+            "Combines multiple spin wave signals"
+        ]
+    },
+    {
+        "q": "What is the Dzyaloshinskii-Moriya interaction's role in chiral magnonics?",
+        "type": "mcq",
+        "o": [
+            "It leads to non-reciprocal spin wave propagation useful for magnon diodes",
+            "It cancels all magnon modes",
+            "It increases damping of spin waves",
+            "It has no effect on magnons"
+        ]
+    },
+    {
+        "q": "Non-reciprocal magnon transport enables magnon isolators and circulators.",
+        "type": "true_false",
+        "correct": "True"
+    }
+]

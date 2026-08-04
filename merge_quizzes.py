@@ -3,7 +3,6 @@ import random
 
 def main():
     original_file = 'original_data.json'
-    # original_file = 'v1/General Science (I-III)/safety.json'
     new_file = 'new_data.json'
     
     print(f"Loading data from {original_file} and {new_file}...")
@@ -26,9 +25,11 @@ def main():
     # Calculate the 75% boundary based on the original size of the array
     current_limit = int(original_length * 0.75)
     
-    # We want to place the new items in the first 75% of the original data.
+    # We want to place the new items in the first 75% of the original data,
+    # starting after the 5th item.
     # To preserve their existing order, we generate sorted random indices.
-    insert_positions = sorted([random.randint(0, current_limit) for _ in range(new_length)])
+    start_index = min(5, current_limit)
+    insert_positions = sorted([random.randint(start_index, current_limit) for _ in range(new_length)])
     
     for i, item in enumerate(new_data):
         # Add `i` to account for the array shifting right after each insertion

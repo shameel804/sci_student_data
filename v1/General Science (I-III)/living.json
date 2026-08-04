@@ -1,21 +1,5 @@
 [
     {
-        "q": "How many legs does a normal dog (a living thing) have?",
-        "type": "slider",
-        "min": 1,
-        "max": 10,
-        "correct": 4
-    },
-    {
-        "q": "Match each word to its description.",
-        "type": "memory",
-        "pairs": {
-            "Dog": "Living animal that barks",
-            "Rock": "Hard non-living object",
-            "Tree": "Living plant with a trunk"
-        }
-    },
-    {
         "q": "Which of these can grow and become bigger over time?",
         "type": "mcq",
         "o": [
@@ -182,6 +166,22 @@
             "A metal key",
             "A paper bag"
         ]
+    },
+    {
+        "q": "How many legs does a normal dog (a living thing) have?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 4
+    },
+    {
+        "q": "Match each word to its description.",
+        "type": "memory",
+        "pairs": {
+            "Dog": "Living animal that barks",
+            "Rock": "Hard non-living object",
+            "Tree": "Living plant with a trunk"
+        }
     },
     {
         "q": "What do we call the green part of a plant that makes food?",

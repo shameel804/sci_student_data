@@ -1,0 +1,6807 @@
+[
+    {
+        "q": "Which of these is considered matter?",
+        "type": "mcq",
+        "o": [
+            "A book",
+            "Light",
+            "Heat",
+            "Sound"
+        ]
+    },
+    {
+        "q": "The amount of space an object takes up is called its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "volume"
+        ],
+        "other_options": [
+            "mass",
+            "weight",
+            "density"
+        ]
+    },
+    {
+        "q": "Matter is made up of tiny particles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What do we call anything that has mass and occupies space?",
+        "type": "short_answer",
+        "answers": [
+            "matter"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which state of matter has a fixed shape and fixed volume?",
+        "type": "mcq",
+        "o": [
+            "Solid",
+            "Liquid",
+            "Gas",
+            "Plasma"
+        ]
+    },
+    {
+        "q": "Match each state of matter with its property:",
+        "type": "match",
+        "left": [
+            "Solid",
+            "Liquid",
+            "Gas"
+        ],
+        "right": [
+            "Fixed shape and volume",
+            "Fixed volume but no fixed shape",
+            "No fixed shape or volume"
+        ]
+    },
+    {
+        "q": "Which of the following is a pure substance?",
+        "type": "mcq",
+        "o": [
+            "Gold",
+            "Air",
+            "Salt water",
+            "Soil"
+        ]
+    },
+    {
+        "q": "All matter is made up of small particles called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "atoms",
+            "molecules"
+        ],
+        "other_options": [
+            "cells",
+            "grains",
+            "dust"
+        ]
+    },
+    {
+        "q": "Which state of matter flows and takes the shape of its container?",
+        "type": "mcq",
+        "o": [
+            "Liquid",
+            "Solid",
+            "Gas",
+            "Ice"
+        ]
+    },
+    {
+        "q": "Oxygen is an element.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the smallest unit of an element?",
+        "type": "short_answer",
+        "answers": [
+            "atom"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT a physical property of matter?",
+        "type": "mcq",
+        "o": [
+            "Flammability",
+            "Colour",
+            "Texture",
+            "Hardness"
+        ]
+    },
+    {
+        "q": "The smell of a substance is a physical property.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the boiling point of pure water in degrees Celsius?",
+        "type": "slider",
+        "min": 0,
+        "max": 200,
+        "correct": 100
+    },
+    {
+        "q": "Water is a compound made of hydrogen and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "oxygen"
+        ],
+        "other_options": [
+            "nitrogen",
+            "carbon",
+            "helium"
+        ]
+    },
+    {
+        "q": "Match the state of matter to its shape property by flipping pairs.",
+        "type": "memory",
+        "pairs": {
+            "Solid": "Has a fixed shape",
+            "Liquid": "Takes the shape of its container",
+            "Gas": "Fills all available space completely"
+        }
+    },
+    {
+        "q": "Which of these is NOT a state of matter?",
+        "type": "odd_one_out",
+        "options": [
+            "Solid",
+            "Liquid",
+            "Gas",
+            "Heat"
+        ],
+        "correct": "Heat"
+    },
+    {
+        "q": "Which of the following is a compound?",
+        "type": "mcq",
+        "o": [
+            "Carbon dioxide",
+            "Iron",
+            "Oxygen gas",
+            "Silver"
+        ]
+    },
+    {
+        "q": "Name the term for a substance made of only one kind of atom.",
+        "type": "short_answer",
+        "answers": [
+            "element"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Swipe RIGHT for Compounds, LEFT for Elements.",
+        "type": "swipe_cards",
+        "left_label": "Element",
+        "right_label": "Compound",
+        "cards": {
+            "Oxygen": "left",
+            "Water": "right",
+            "Iron": "left",
+            "Salt": "right"
+        }
+    },
+    {
+        "q": "Which state of matter has particles that are very far apart and move freely?",
+        "type": "mcq",
+        "o": [
+            "Gas",
+            "Solid",
+            "Liquid",
+            "Crystal"
+        ]
+    },
+    {
+        "q": "Match the substance to its classification:",
+        "type": "match",
+        "left": [
+            "Salt",
+            "Nitrogen",
+            "Air",
+            "Sand in water"
+        ],
+        "right": [
+            "Compound",
+            "Element",
+            "Mixture",
+            "Mixture"
+        ]
+    },
+    {
+        "q": "Unscramble the word: Anything that has mass and takes up space.",
+        "type": "word_scramble",
+        "answer": "MATTER",
+        "decoys": "BCD"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Matter is defined as anything that has [0] and occupies [1].",
+        "dropdowns": [
+            {
+                "correct": "mass",
+                "options": [
+                    "mass",
+                    "energy",
+                    "light"
+                ]
+            },
+            {
+                "correct": "volume",
+                "options": [
+                    "volume",
+                    "time",
+                    "sound"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "How many main states of matter are commonly observed on Earth?",
+        "type": "mcq",
+        "o": [
+            "Three",
+            "Two",
+            "Four",
+            "Five"
+        ]
+    },
+    {
+        "q": "The process of changing from a liquid to a gas is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "evaporation"
+        ],
+        "other_options": [
+            "condensation",
+            "melting",
+            "freezing"
+        ]
+    },
+    {
+        "q": "Which physical property describes how much matter is in an object?",
+        "type": "mcq",
+        "o": [
+            "Mass",
+            "Volume",
+            "Colour",
+            "Shape"
+        ]
+    },
+    {
+        "q": "How many main states of matter are usually taught in Class 6 (excluding plasma/Bose-Einstein)?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "Air is an example of a mixture.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the state to how its particles are arranged.",
+        "type": "memory",
+        "pairs": {
+            "Solid": "Particles are tightly packed together",
+            "Liquid": "Particles are loosely packed and slide past each other",
+            "Gas": "Particles are very far apart and move freely"
+        }
+    },
+    {
+        "q": "Which of these is a homogeneous mixture?",
+        "type": "mcq",
+        "o": [
+            "Salt solution",
+            "Muddy water",
+            "Salad",
+            "Sand and pebbles"
+        ]
+    },
+    {
+        "q": "What is the chemical symbol for gold?",
+        "type": "short_answer",
+        "answers": [
+            "Au"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "When water freezes, it changes from a liquid to a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "solid"
+        ],
+        "other_options": [
+            "gas",
+            "plasma",
+            "crystal"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of an element?",
+        "type": "mcq",
+        "o": [
+            "Aluminum",
+            "Water",
+            "Sugar",
+            "Milk"
+        ]
+    },
+    {
+        "q": "Matter can be destroyed in a chemical reaction.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which sense is used to determine the texture of an object?",
+        "type": "mcq",
+        "o": [
+            "Touch",
+            "Smell",
+            "Hearing",
+            "Taste"
+        ]
+    },
+    {
+        "q": "Match the physical property to its description:",
+        "type": "match",
+        "left": [
+            "Hardness",
+            "Density",
+            "Lustre",
+            "Malleability"
+        ],
+        "right": [
+            "Resistance to scratching",
+            "Mass per unit volume",
+            "Shininess",
+            "Ability to be hammered into sheets"
+        ]
+    },
+    {
+        "q": "Which state of matter has a fixed volume but takes the shape of its container?",
+        "type": "mcq",
+        "o": [
+            "Liquid",
+            "Solid",
+            "Gas",
+            "Steam"
+        ]
+    },
+    {
+        "q": "A salad is an example of a heterogeneous mixture.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is formed when two or more elements combine chemically?",
+        "type": "short_answer",
+        "answers": [
+            "compound"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Particles in a solid are packed ______ together.",
+        "type": "fill_blank",
+        "answers": [
+            "tightly",
+            "closely"
+        ],
+        "other_options": [
+            "loosely",
+            "far",
+            "randomly"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a compound?",
+        "type": "mcq",
+        "o": [
+            "Neon",
+            "Carbon monoxide",
+            "Sodium chloride",
+            "Methane"
+        ]
+    },
+    {
+        "q": "Iron is a type of mixture found in nature.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which term describes a substance that cannot be broken down into simpler substances by chemical means?",
+        "type": "mcq",
+        "o": [
+            "Element",
+            "Compound",
+            "Mixture",
+            "Solution"
+        ]
+    },
+    {
+        "q": "What physical property describes how a substance reflects light?",
+        "type": "short_answer",
+        "answers": [
+            "lustre",
+            "luster",
+            "shininess"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Mixtures can be separated by physical methods.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Soda water is a mixture of liquid and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "gas"
+        ],
+        "other_options": [
+            "solid",
+            "oil",
+            "salt"
+        ]
+    },
+    {
+        "q": "Which of the following is a physical change?",
+        "type": "mcq",
+        "o": [
+            "Melting ice",
+            "Burning paper",
+            "Rusting iron",
+            "Cooking an egg"
+        ]
+    },
+    {
+        "q": "Match the element to its common symbol:",
+        "type": "match",
+        "left": [
+            "Hydrogen",
+            "Oxygen",
+            "Carbon",
+            "Sodium"
+        ],
+        "right": [
+            "H",
+            "O",
+            "C",
+            "Na"
+        ]
+    },
+    {
+        "q": "Which of these is NOT an element?",
+        "type": "odd_one_out",
+        "options": [
+            "Gold",
+            "Silver",
+            "Iron",
+            "Water"
+        ],
+        "correct": "Water"
+    },
+    {
+        "q": "Gas particles move faster than liquid particles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of these is an example of a physical property?",
+        "type": "mcq",
+        "o": [
+            "Boiling point",
+            "Reactivity with acid",
+            "Flammability",
+            "Toxicity"
+        ]
+    },
+    {
+        "q": "What is the state of matter of steam?",
+        "type": "short_answer",
+        "answers": [
+            "gas",
+            "gaseous"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The change from a gas to a liquid is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "condensation"
+        ],
+        "other_options": [
+            "evaporation",
+            "freezing",
+            "sublimation"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for 'Not Matter', LEFT for 'Matter'.",
+        "type": "swipe_cards",
+        "left_label": "Matter",
+        "right_label": "Not Matter",
+        "cards": {
+            "Air": "left",
+            "Light": "right",
+            "Apple": "left",
+            "Sound": "right"
+        }
+    },
+    {
+        "q": "Which substance is a mixture?",
+        "type": "mcq",
+        "o": [
+            "Milk",
+            "Pure water",
+            "Table salt",
+            "Diamond"
+        ]
+    },
+    {
+        "q": "Unscramble the word: State of matter with a fixed shape.",
+        "type": "word_scramble",
+        "answer": "SOLID",
+        "decoys": "XYZ"
+    },
+    {
+        "q": "Solids can be compressed easily.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which property is defined as 'mass per unit volume'?",
+        "type": "mcq",
+        "o": [
+            "Density",
+            "Weight",
+            "Hardness",
+            "Solubility"
+        ]
+    },
+    {
+        "q": "Name a substance that is a compound.",
+        "type": "short_answer",
+        "answers": [
+            "water",
+            "carbon dioxide",
+            "salt",
+            "sugar"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Brass is an example of a homogeneous ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mixture",
+            "solution"
+        ],
+        "other_options": [
+            "compound",
+            "element",
+            "solid"
+        ]
+    },
+    {
+        "q": "Which of the following has the weakest force of attraction between particles?",
+        "type": "mcq",
+        "o": [
+            "Oxygen gas",
+            "Water",
+            "Ice",
+            "Iron nail"
+        ]
+    },
+    {
+        "q": "Match the mixture to its type:",
+        "type": "match",
+        "left": [
+            "Lemonade",
+            "Sand and iron filings",
+            "Smoke",
+            "Alloy"
+        ],
+        "right": [
+            "Homogeneous",
+            "Heterogeneous",
+            "Heterogeneous",
+            "Homogeneous"
+        ]
+    },
+    {
+        "q": "Table salt (sodium chloride) is an element.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A [0] has no definite shape but has definite [1].",
+        "dropdowns": [
+            {
+                "correct": "liquid",
+                "options": [
+                    "liquid",
+                    "solid",
+                    "gas"
+                ]
+            },
+            {
+                "correct": "volume",
+                "options": [
+                    "volume",
+                    "color",
+                    "mass"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which process is used to separate sand from water?",
+        "type": "mcq",
+        "o": [
+            "Filtration",
+            "Distillation",
+            "Evaporation",
+            "Magnetisation"
+        ]
+    },
+    {
+        "q": "What property allows metals to be drawn into wires?",
+        "type": "short_answer",
+        "answers": [
+            "ductility"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The three most common states of matter are solid, liquid, and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "gas"
+        ],
+        "other_options": [
+            "plasma",
+            "energy",
+            "crystal"
+        ]
+    },
+    {
+        "q": "Which of these is an element?",
+        "type": "mcq",
+        "o": [
+            "Helium",
+            "Glass",
+            "Soap",
+            "Vinegar"
+        ]
+    },
+    {
+        "q": "Gases have a definite volume.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which type of matter has particles arranged in a regular, repeating pattern?",
+        "type": "mcq",
+        "o": [
+            "Crystalline solid",
+            "Liquid",
+            "Amorphous solid",
+            "Gas"
+        ]
+    },
+    {
+        "q": "How many atoms of Hydrogen are in one molecule of water (H2O)?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "What do we call it when a solid turns directly into a gas?",
+        "type": "short_answer",
+        "answers": [
+            "sublimation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A molecule is the smallest unit of a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "compound"
+        ],
+        "other_options": [
+            "element",
+            "mixture",
+            "atom"
+        ]
+    },
+    {
+        "q": "Which physical property describes how light passes through a material?",
+        "type": "mcq",
+        "o": [
+            "Transparency",
+            "Density",
+            "Solubility",
+            "Hardness"
+        ]
+    },
+    {
+        "q": "A mixture of oil and water is a homogeneous mixture.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the phase change to its correct description.",
+        "type": "memory",
+        "pairs": {
+            "Melting": "Solid turning into a Liquid",
+            "Boiling": "Liquid turning into a Gas",
+            "Condensation": "Gas turning into a Liquid"
+        }
+    },
+    {
+        "q": "Match the state of matter with its particle behavior:",
+        "type": "match",
+        "left": [
+            "Solid",
+            "Liquid",
+            "Gas"
+        ],
+        "right": [
+            "Vibrate in fixed positions",
+            "Slide past each other",
+            "Move rapidly in all directions"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a compound?",
+        "type": "odd_one_out",
+        "options": [
+            "Carbon dioxide",
+            "Sugar",
+            "Salt",
+            "Oxygen"
+        ],
+        "correct": "Oxygen"
+    },
+    {
+        "q": "Which of these is a physical property?",
+        "type": "mcq",
+        "o": [
+            "Odour",
+            "Acidity",
+            "Reactivity",
+            "Corrosiveness"
+        ]
+    },
+    {
+        "q": "Name the element with the symbol 'Fe'.",
+        "type": "short_answer",
+        "answers": [
+            "iron"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In filtration, the solid that remains on the filter paper is called the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "residue"
+        ],
+        "other_options": [
+            "filtrate",
+            "solution",
+            "sediment"
+        ]
+    },
+    {
+        "q": "Which state of matter can be poured?",
+        "type": "mcq",
+        "o": [
+            "Liquid",
+            "Solid",
+            "Gas",
+            "Wood"
+        ]
+    },
+    {
+        "q": "A compound has the same properties as the elements that make it up.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following is a pure substance that can be broken down chemically?",
+        "type": "mcq",
+        "o": [
+            "Compound",
+            "Element",
+            "Homogeneous mixture",
+            "Heterogeneous mixture"
+        ]
+    },
+    {
+        "q": "What is the name for a homogeneous mixture of two or more substances?",
+        "type": "short_answer",
+        "answers": [
+            "solution"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The temperature at which a liquid turns into a gas is its ______ point.",
+        "type": "fill_blank",
+        "answers": [
+            "boiling"
+        ],
+        "other_options": [
+            "melting",
+            "freezing",
+            "condensation"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Insoluble in water, LEFT for Soluble.",
+        "type": "swipe_cards",
+        "left_label": "Soluble",
+        "right_label": "Insoluble",
+        "cards": {
+            "Salt": "left",
+            "Sand": "right",
+            "Sugar": "left",
+            "Cooking oil": "right"
+        }
+    },
+    {
+        "q": "Which separation method uses a magnet?",
+        "type": "mcq",
+        "o": [
+            "Magnetic separation",
+            "Sieving",
+            "Winnowing",
+            "Sedimentation"
+        ]
+    },
+    {
+        "q": "Liquids have a definite shape.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which term describes substances that do not have a definite shape or volume?",
+        "type": "mcq",
+        "o": [
+            "Gases",
+            "Solids",
+            "Liquids",
+            "Crystals"
+        ]
+    },
+    {
+        "q": "Match the substance to its state at room temperature:",
+        "type": "match",
+        "left": [
+            "Mercury",
+            "Oxygen",
+            "Wood",
+            "Milk"
+        ],
+        "right": [
+            "Liquid",
+            "Gas",
+            "Solid",
+            "Liquid"
+        ]
+    },
+    {
+        "q": "Sugar dissolving in water is a chemical change.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Unscramble the word: State of matter that flows easily.",
+        "type": "word_scramble",
+        "answer": "LIQUID",
+        "decoys": "JKL"
+    },
+    {
+        "q": "Which of these materials is the hardest?",
+        "type": "mcq",
+        "o": [
+            "Diamond",
+            "Chalk",
+            "Graphite",
+            "Talc"
+        ]
+    },
+    {
+        "q": "What is the chemical symbol for sodium?",
+        "type": "short_answer",
+        "answers": [
+            "Na"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Evaporation causes cooling because the fastest particles ______ the liquid.",
+        "type": "fill_blank",
+        "answers": [
+            "leave",
+            "escape"
+        ],
+        "other_options": [
+            "enter",
+            "heat",
+            "condense"
+        ]
+    },
+    {
+        "q": "Which is the lightest state of matter generally?",
+        "type": "mcq",
+        "o": [
+            "Gas",
+            "Solid",
+            "Liquid",
+            "Plasma"
+        ]
+    },
+    {
+        "q": "An atom is the basic unit of a compound.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a characteristic of a pure substance?",
+        "type": "mcq",
+        "o": [
+            "Fixed melting point",
+            "Can be separated by physical means",
+            "Variable composition",
+            "Shows Tyndall effect"
+        ]
+    },
+    {
+        "q": "Name the process of a gas changing into a solid directly.",
+        "type": "short_answer",
+        "answers": [
+            "deposition"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "When ice melts, it turns into a [0] and the process requires [1].",
+        "dropdowns": [
+            {
+                "correct": "liquid",
+                "options": [
+                    "liquid",
+                    "gas",
+                    "solid"
+                ]
+            },
+            {
+                "correct": "heat",
+                "options": [
+                    "heat",
+                    "cold",
+                    "darkness"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Sand is soluble in water.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which separation technique is used to separate husk from grain?",
+        "type": "mcq",
+        "o": [
+            "Winnowing",
+            "Filtration",
+            "Sieving",
+            "Decantation"
+        ]
+    },
+    {
+        "q": "The 'Tyndall effect' is observed in ______ mixtures.",
+        "type": "fill_blank",
+        "answers": [
+            "heterogeneous",
+            "colloidal"
+        ],
+        "other_options": [
+            "homogeneous",
+            "pure",
+            "gaseous"
+        ]
+    },
+    {
+        "q": "Which of the following is not a compound?",
+        "type": "mcq",
+        "o": [
+            "Ozone",
+            "Methane",
+            "Ammonia",
+            "Baking soda"
+        ]
+    },
+    {
+        "q": "Matter can be classified into pure substances and mixtures.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which property describes a material's ability to be hammered into thin sheets?",
+        "type": "mcq",
+        "o": [
+            "Malleability",
+            "Ductility",
+            "Brittleness",
+            "Elasticity"
+        ]
+    },
+    {
+        "q": "What is the chemical symbol for potassium?",
+        "type": "short_answer",
+        "answers": [
+            "K"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "The smallest particle of a compound that retains its properties is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "molecule"
+        ],
+        "other_options": [
+            "atom",
+            "ion",
+            "electron"
+        ]
+    },
+    {
+        "q": "What is the freezing point of water in degrees Celsius?",
+        "type": "slider",
+        "min": -50,
+        "max": 50,
+        "correct": 0
+    },
+    {
+        "q": "Match the separation method to the mixture:",
+        "type": "match",
+        "left": [
+            "Salt from salt water",
+            "Iron from sulfur",
+            "Pebbles from sand",
+            "Cream from milk"
+        ],
+        "right": [
+            "Evaporation",
+            "Magnetic separation",
+            "Sieving",
+            "Centrifugation"
+        ]
+    },
+    {
+        "q": "Which of these is a chemical property?",
+        "type": "mcq",
+        "o": [
+            "Reactivity with water",
+            "Melting point",
+            "Density",
+            "Colour"
+        ]
+    },
+    {
+        "q": "All metals have high lustre when freshly cut.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "When water boils, it changes from a liquid to a gas. This is a ______ change.",
+        "type": "fill_blank",
+        "answers": [
+            "physical"
+        ],
+        "other_options": [
+            "chemical",
+            "permanent",
+            "irreversible"
+        ]
+    },
+    {
+        "q": "Which term refers to a material through which light cannot pass?",
+        "type": "mcq",
+        "o": [
+            "Opaque",
+            "Transparent",
+            "Translucent",
+            "Clear"
+        ]
+    },
+    {
+        "q": "Match the element to its basic description.",
+        "type": "memory",
+        "pairs": {
+            "Iron": "A strong, magnetic metal",
+            "Oxygen": "A gas essential for breathing",
+            "Carbon": "A solid found in coal and diamonds"
+        }
+    },
+    {
+        "q": "Air is a pure substance.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What word describes how a surface feels to the touch?",
+        "type": "short_answer",
+        "answers": [
+            "texture"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is NOT a metal?",
+        "type": "odd_one_out",
+        "options": [
+            "Copper",
+            "Aluminum",
+            "Zinc",
+            "Oxygen"
+        ],
+        "correct": "Oxygen"
+    },
+    {
+        "q": "Which state of matter expands to fill any container completely?",
+        "type": "mcq",
+        "o": [
+            "Gas",
+            "Liquid",
+            "Solid",
+            "Jelly"
+        ]
+    },
+    {
+        "q": "Rusting of iron is a physical property.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Swipe RIGHT for Non-metal, LEFT for Metal.",
+        "type": "swipe_cards",
+        "left_label": "Metal",
+        "right_label": "Non-metal",
+        "cards": {
+            "Iron": "left",
+            "Carbon": "right",
+            "Copper": "left",
+            "Helium": "right"
+        }
+    },
+    {
+        "q": "Molecules in a ______ move freely but stay close together.",
+        "type": "fill_blank",
+        "answers": [
+            "liquid"
+        ],
+        "other_options": [
+            "solid",
+            "gas",
+            "crystal"
+        ]
+    },
+    {
+        "q": "Which of the following symbols represents a compound?",
+        "type": "mcq",
+        "o": [
+            "H2O",
+            "He",
+            "Fe",
+            "Ne"
+        ]
+    },
+    {
+        "q": "Unscramble the word: State of matter that fills its container completely.",
+        "type": "word_scramble",
+        "answer": "GAS",
+        "decoys": "VBN"
+    },
+    {
+        "q": "Name a non-metal that is a good conductor of electricity.",
+        "type": "short_answer",
+        "answers": [
+            "graphite",
+            "carbon"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "[0] is a gas essential for humans to breathe, while [1] is the gas plants use for making food.",
+        "dropdowns": [
+            {
+                "correct": "Oxygen",
+                "options": [
+                    "Oxygen",
+                    "Nitrogen",
+                    "Argon"
+                ]
+            },
+            {
+                "correct": "Carbon dioxide",
+                "options": [
+                    "Carbon dioxide",
+                    "Neon",
+                    "Helium"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the term to its definition:",
+        "type": "match",
+        "left": [
+            "Mass",
+            "Volume",
+            "Density",
+            "Weight"
+        ],
+        "right": [
+            "Amount of matter",
+            "Space occupied",
+            "Mass per unit volume",
+            "Force of gravity on matter"
+        ]
+    },
+    {
+        "q": "Which of the following is a mixture?",
+        "type": "mcq",
+        "o": [
+            "Brass",
+            "Gold",
+            "Diamond",
+            "Oxygen"
+        ]
+    },
+    {
+        "q": "Solubility is the ability of a substance to dissolve in a solvent.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "How many atoms make up one molecule of Oxygen gas (O2)?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "Which of the following is a heterogeneous mixture?",
+        "type": "mcq",
+        "o": [
+            "Trail mix",
+            "Salt water",
+            "Pure honey",
+            "Carbon dioxide"
+        ]
+    },
+    {
+        "q": "The force exerted by gravity on an object is its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "weight"
+        ],
+        "other_options": [
+            "mass",
+            "density",
+            "volume"
+        ]
+    },
+    {
+        "q": "Particles in a liquid have more kinetic energy than particles in a solid.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the chemical symbol for lead?",
+        "type": "short_answer",
+        "answers": [
+            "Pb"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which process involves separating a liquid from a solution by boiling?",
+        "type": "mcq",
+        "o": [
+            "Distillation",
+            "Filtration",
+            "Decantation",
+            "Sublimation"
+        ]
+    },
+    {
+        "q": "Match the element with its classification:",
+        "type": "match",
+        "left": [
+            "Mercury",
+            "Nitrogen",
+            "Silicon",
+            "Gold"
+        ],
+        "right": [
+            "Liquid metal",
+            "Non-metal gas",
+            "Metalloid",
+            "Solid metal"
+        ]
+    },
+    {
+        "q": "Match the physical property to its meaning.",
+        "type": "memory",
+        "pairs": {
+            "Luster": "A shiny appearance",
+            "Malleable": "Can be hammered flat into sheets",
+            "Ductile": "Can be drawn into long wires"
+        }
+    },
+    {
+        "q": "Which property explains why ice floats on water?",
+        "type": "mcq",
+        "o": [
+            "Lower density of ice",
+            "Higher mass of water",
+            "Ice is a gas",
+            "Water is sticky"
+        ]
+    },
+    {
+        "q": "In a solution, the substance present in the largest amount is the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "solvent"
+        ],
+        "other_options": [
+            "solute",
+            "residue",
+            "filtrate"
+        ]
+    },
+    {
+        "q": "Compounds can be separated into their elements by physical methods.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is an irreversible change?",
+        "type": "odd_one_out",
+        "options": [
+            "Melting ice",
+            "Tearing paper",
+            "Dissolving salt",
+            "Burning wood"
+        ],
+        "correct": "Burning wood"
+    },
+    {
+        "q": "Name the process used to separate colored pigments in a mixture.",
+        "type": "short_answer",
+        "answers": [
+            "chromatography"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the smallest unit of an element that retains its chemical properties?",
+        "type": "mcq",
+        "o": [
+            "Atom",
+            "Molecule",
+            "Cell",
+            "Grain"
+        ]
+    },
+    {
+        "q": "Which of the following is a property of most metals?",
+        "type": "mcq",
+        "o": [
+            "Good conductor of heat",
+            "Brittle solid",
+            "Dull appearance",
+            "Poor conductor of electricity"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Non-magnetic, LEFT for Magnetic.",
+        "type": "swipe_cards",
+        "left_label": "Magnetic",
+        "right_label": "Non-magnetic",
+        "cards": {
+            "Iron nail": "left",
+            "Wood block": "right",
+            "Nickel coin": "left",
+            "Plastic cup": "right"
+        }
+    },
+    {
+        "q": "When a liquid is cooled, its particles move ______.",
+        "type": "fill_blank",
+        "answers": [
+            "slower"
+        ],
+        "other_options": [
+            "faster",
+            "upward",
+            "randomly"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The smallest basic unit of an element.",
+        "type": "word_scramble",
+        "answer": "ATOM",
+        "decoys": "QWE"
+    },
+    {
+        "q": "The change of state from gas to liquid is exothermic.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "An element is made of only one kind of [0], and it cannot be broken down by [1] means.",
+        "dropdowns": [
+            {
+                "correct": "atom",
+                "options": [
+                    "atom",
+                    "cell",
+                    "molecule"
+                ]
+            },
+            {
+                "correct": "chemical",
+                "options": [
+                    "chemical",
+                    "physical",
+                    "mechanical"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the name for a mixture where the composition is uniform throughout?",
+        "type": "short_answer",
+        "answers": [
+            "homogeneous",
+            "homogeneous mixture"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which separation technique is best for separating a mixture of ethanol and water?",
+        "type": "mcq",
+        "o": [
+            "Fractional distillation",
+            "Simple distillation",
+            "Filtration",
+            "Using a magnet"
+        ]
+    },
+    {
+        "q": "Match the state change to its name:",
+        "type": "match",
+        "left": [
+            "Solid to Gas",
+            "Gas to Solid",
+            "Solid to Liquid",
+            "Liquid to Solid"
+        ],
+        "right": [
+            "Sublimation",
+            "Deposition",
+            "Melting",
+            "Freezing"
+        ]
+    },
+    {
+        "q": "Which of the following has the highest density normally?",
+        "type": "mcq",
+        "o": [
+            "Solid",
+            "Liquid",
+            "Gas",
+            "Plasma"
+        ]
+    },
+    {
+        "q": "Diamond and graphite are both allotropes of the element ______.",
+        "type": "fill_blank",
+        "answers": [
+            "carbon"
+        ],
+        "other_options": [
+            "silicon",
+            "oxygen",
+            "sulfur"
+        ]
+    },
+    {
+        "q": "Air is a compound of different gases.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What do we call a substance that dissolves in a solvent?",
+        "type": "short_answer",
+        "answers": [
+            "solute"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which term describes a solid that lacks a regular internal structure?",
+        "type": "mcq",
+        "o": [
+            "Amorphous solid",
+            "Crystalline solid",
+            "Liquid crystal",
+            "Plasma solid"
+        ]
+    },
+    {
+        "q": "How many elements make up Carbon dioxide (CO2)?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "Which non-metal is essential for respiration?",
+        "type": "mcq",
+        "o": [
+            "Oxygen",
+            "Nitrogen",
+            "Chlorine",
+            "Phosphorus"
+        ]
+    },
+    {
+        "q": "The temperature at which a solid turns into a liquid is called the ______ point.",
+        "type": "fill_blank",
+        "answers": [
+            "melting"
+        ],
+        "other_options": [
+            "boiling",
+            "freezing",
+            "condensation"
+        ]
+    },
+    {
+        "q": "Solubility of solids in water generally increases with temperature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the element with the atomic number 1.",
+        "type": "short_answer",
+        "answers": [
+            "hydrogen"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of mixture shows the Tyndall effect but does not settle?",
+        "type": "mcq",
+        "o": [
+            "Colloid",
+            "Suspension",
+            "True solution",
+            "Compound"
+        ]
+    },
+    {
+        "q": "Match the following properties to the state of matter:",
+        "type": "match",
+        "left": [
+            "Very high density",
+            "Fills container completely",
+            "Fixed volume, variable shape"
+        ],
+        "right": [
+            "Solid",
+            "Gas",
+            "Liquid"
+        ]
+    },
+    {
+        "q": "A pure substance can be an element or a compound.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the chemical formula for carbon dioxide?",
+        "type": "short_answer",
+        "answers": [
+            "CO2"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of these is NOT a metalloid?",
+        "type": "mcq",
+        "o": [
+            "Copper",
+            "Silicon",
+            "Germanium",
+            "Arsenic"
+        ]
+    },
+    {
+        "q": "In a mixture, substances retain their individual ______.",
+        "type": "fill_blank",
+        "answers": [
+            "properties",
+            "identity"
+        ],
+        "other_options": [
+            "atoms",
+            "mass",
+            "volume"
+        ]
+    },
+    {
+        "q": "Which of the following is a chemical change?",
+        "type": "mcq",
+        "o": [
+            "Digestion of food",
+            "Breaking a glass",
+            "Melting chocolate",
+            "Dissolving salt"
+        ]
+    },
+    {
+        "q": "Match the mixture to its components.",
+        "type": "memory",
+        "pairs": {
+            "Air": "A mixture of various gases",
+            "Seawater": "A mixture of water and salt",
+            "Lemonade": "A mixture of water, sugar, and juice"
+        }
+    },
+    {
+        "q": "Noble gases are very reactive elements.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What physical property of a liquid determines if it will float or sink?",
+        "type": "short_answer",
+        "answers": [
+            "density"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which state of matter has the most tightly packed particles?",
+        "type": "mcq",
+        "o": [
+            "Solid",
+            "Liquid",
+            "Gas",
+            "Vapour"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a mixture?",
+        "type": "odd_one_out",
+        "options": [
+            "Air",
+            "Soil",
+            "Pure water",
+            "Salad"
+        ],
+        "correct": "Pure water"
+    },
+    {
+        "q": "Match the symbol to its element:",
+        "type": "match",
+        "left": [
+            "Ag",
+            "Sn",
+            "W",
+            "Hg"
+        ],
+        "right": [
+            "Silver",
+            "Tin",
+            "Tungsten",
+            "Mercury"
+        ]
+    },
+    {
+        "q": "Milk is an example of a colloid.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name of the process where a liquid turns into a solid?",
+        "type": "short_answer",
+        "answers": [
+            "freezing",
+            "solidification"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which separation method relies on differences in boiling points?",
+        "type": "mcq",
+        "o": [
+            "Distillation",
+            "Sieving",
+            "Magnetic separation",
+            "Sedimentation"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Opaque, LEFT for Transparent.",
+        "type": "swipe_cards",
+        "left_label": "Transparent",
+        "right_label": "Opaque",
+        "cards": {
+            "Clear glass": "left",
+            "Brick wall": "right",
+            "Clean water": "left",
+            "Wood block": "right"
+        }
+    },
+    {
+        "q": "The amount of solute dissolved in a fixed amount of solvent is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "concentration"
+        ],
+        "other_options": [
+            "density",
+            "solubility",
+            "mass"
+        ]
+    },
+    {
+        "q": "Unscramble the word: Process of a solid turning into a liquid.",
+        "type": "word_scramble",
+        "answer": "MELT",
+        "decoys": "ZXC"
+    },
+    {
+        "q": "Gold is a compound found in Earth's crust.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A [0] contains two or more substances that are not [1] joined together.",
+        "dropdowns": [
+            {
+                "correct": "mixture",
+                "options": [
+                    "mixture",
+                    "compound",
+                    "element"
+                ]
+            },
+            {
+                "correct": "chemically",
+                "options": [
+                    "chemically",
+                    "physically",
+                    "magically"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "How many total atoms are in one molecule of water (H2O)?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "Which physical property describes a material's ability to return to its original shape?",
+        "type": "mcq",
+        "o": [
+            "Elasticity",
+            "Malleability",
+            "Ductility",
+            "Brittleness"
+        ]
+    },
+    {
+        "q": "What is the chemical formula for table salt?",
+        "type": "short_answer",
+        "answers": [
+            "NaCl"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of these is a characteristic of a physical change?",
+        "type": "mcq",
+        "o": [
+            "Reversible",
+            "New substance formed",
+            "Color change always",
+            "Heat released"
+        ]
+    },
+    {
+        "q": "Match the term to its phase change.",
+        "type": "memory",
+        "pairs": {
+            "Freezing": "Liquid to Solid",
+            "Sublimation": "Solid to Gas without becoming liquid",
+            "Evaporation": "Liquid turning to gas at the surface"
+        }
+    },
+    {
+        "q": "Which of these is NOT a phase change?",
+        "type": "odd_one_out",
+        "options": [
+            "Melting",
+            "Freezing",
+            "Boiling",
+            "Mixing"
+        ],
+        "correct": "Mixing"
+    },
+    {
+        "q": "Gases have the ______ density among the three states of matter.",
+        "type": "fill_blank",
+        "answers": [
+            "lowest",
+            "least"
+        ],
+        "other_options": [
+            "highest",
+            "maximum",
+            "moderate"
+        ]
+    },
+    {
+        "q": "Helium is a compound found in balloons.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the mixture to its separation method:",
+        "type": "match",
+        "left": [
+            "Mud and water",
+            "Iron and sand",
+            "Chaff and wheat",
+            "Salt and water"
+        ],
+        "right": [
+            "Filtration",
+            "Magnet",
+            "Winnowing",
+            "Evaporation"
+        ]
+    },
+    {
+        "q": "Which of the following is a physical quantity expressing the amount of matter?",
+        "type": "mcq",
+        "o": [
+            "Mass",
+            "Weight",
+            "Density",
+            "Temperature"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Sink in water, LEFT for Float in water.",
+        "type": "swipe_cards",
+        "left_label": "Float",
+        "right_label": "Sink",
+        "cards": {
+            "Wood piece": "left",
+            "Iron nail": "right",
+            "Cork": "left",
+            "Heavy rock": "right"
+        }
+    },
+    {
+        "q": "Name a common solvent used in daily life.",
+        "type": "short_answer",
+        "answers": [
+            "water"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "In the symbol '2H2O', the '2' in front means two ______ of water.",
+        "type": "fill_blank",
+        "answers": [
+            "molecules"
+        ],
+        "other_options": [
+            "atoms",
+            "elements",
+            "compounds"
+        ]
+    },
+    {
+        "q": "Which of the following is a liquid at room temperature (approx 25 C)?",
+        "type": "mcq",
+        "o": [
+            "Bromine",
+            "Iodine",
+            "Chlorine",
+            "Fluorine"
+        ]
+    },
+    {
+        "q": "Combustion is a physical change.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What element is the primary constituent of charcoal?",
+        "type": "short_answer",
+        "answers": [
+            "carbon"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which separation technique uses a filter paper?",
+        "type": "mcq",
+        "o": [
+            "Filtration",
+            "Distillation",
+            "Centrifugation",
+            "Chromatography"
+        ]
+    },
+    {
+        "q": "A molecule is two or more ______ chemically bonded together.",
+        "type": "fill_blank",
+        "answers": [
+            "atoms"
+        ],
+        "other_options": [
+            "elements",
+            "compounds",
+            "mixtures"
+        ]
+    },
+    {
+        "q": "Gases are easily compressed because of large spaces between particles.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the state to its diffusion speed:",
+        "type": "match",
+        "left": [
+            "Solid",
+            "Liquid",
+            "Gas"
+        ],
+        "right": [
+            "Very slow",
+            "Moderate",
+            "Very fast"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The amount of matter in an object.",
+        "type": "word_scramble",
+        "answer": "MASS",
+        "decoys": "POU"
+    },
+    {
+        "q": "Which of the following is an example of a suspension?",
+        "type": "mcq",
+        "o": [
+            "Muddy water",
+            "Salt solution",
+            "Gelatin",
+            "Vinegar"
+        ]
+    },
+    {
+        "q": "What is the name for the fixed composition of elements in a compound?",
+        "type": "short_answer",
+        "answers": [
+            "chemical formula",
+            "formula"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which metallic property means 'able to be drawn into wires'?",
+        "type": "mcq",
+        "o": [
+            "Ductility",
+            "Malleability",
+            "Sonority",
+            "Conductivity"
+        ]
+    },
+    {
+        "q": "The change of state from a solid directly to a gas is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sublimation"
+        ],
+        "other_options": [
+            "condensation",
+            "deposition",
+            "evaporation"
+        ]
+    },
+    {
+        "q": "An atom is indivisible according to modern science.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of these is a diatomic element under normal conditions?",
+        "type": "mcq",
+        "o": [
+            "Hydrogen",
+            "Helium",
+            "Argon",
+            "Neon"
+        ]
+    },
+    {
+        "q": "What is the main element found in diamond?",
+        "type": "short_answer",
+        "answers": [
+            "carbon"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A mixture of salt and sugar is an example of a ______ mixture.",
+        "type": "fill_blank",
+        "answers": [
+            "heterogeneous"
+        ],
+        "other_options": [
+            "homogeneous",
+            "pure",
+            "compound"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT an allotrope of carbon?",
+        "type": "mcq",
+        "o": [
+            "Silica",
+            "Graphite",
+            "Diamond",
+            "Buckminsterfullerene"
+        ]
+    },
+    {
+        "q": "The Tyndall effect is observed when light passes through a true solution.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Match the property to its correct description:",
+        "type": "match",
+        "left": [
+            "Brittleness",
+            "Sonority",
+            "Viscosity",
+            "Diffusion"
+        ],
+        "right": [
+            "Breaks easily",
+            "Ringing sound",
+            "Resistance to flow",
+            "Movement of particles"
+        ]
+    },
+    {
+        "q": "Which substance is a liquid at room temperature?",
+        "type": "mcq",
+        "o": [
+            "Ethanol",
+            "Sodium",
+            "Oxygen",
+            "Wax"
+        ]
+    },
+    {
+        "q": "Name the chemical substance represented by the formula NH3.",
+        "type": "short_answer",
+        "answers": [
+            "ammonia"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Centrifugation separates substances based on differences in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "density"
+        ],
+        "other_options": [
+            "colour",
+            "boiling point",
+            "size"
+        ]
+    },
+    {
+        "q": "An element's symbol is always a single letter.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The amount of matter in an object is its [0], while the space it takes up is its [1].",
+        "dropdowns": [
+            {
+                "correct": "mass",
+                "options": [
+                    "mass",
+                    "weight",
+                    "length"
+                ]
+            },
+            {
+                "correct": "volume",
+                "options": [
+                    "volume",
+                    "area",
+                    "density"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which separation method works best for separating cream from milk?",
+        "type": "mcq",
+        "o": [
+            "Centrifugation",
+            "Sieving",
+            "Distillation",
+            "Sedimentation"
+        ]
+    },
+    {
+        "q": "What is the chemical name for 'baking soda'?",
+        "type": "short_answer",
+        "answers": [
+            "sodium bicarbonate",
+            "sodium hydrogen carbonate"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Materials that allow some light to pass through but scatter it are called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "translucent"
+        ],
+        "other_options": [
+            "transparent",
+            "opaque",
+            "shiny"
+        ]
+    },
+    {
+        "q": "How many elements are in common salt (NaCl)?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "Vinegar is a pure substance.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which of the following elements is a metalloid?",
+        "type": "mcq",
+        "o": [
+            "Antimony",
+            "Sodium",
+            "Calcium",
+            "Aluminum"
+        ]
+    },
+    {
+        "q": "Match the property to its type (Physical or Chemical):",
+        "type": "match",
+        "left": [
+            "Flammability",
+            "Malleability",
+            "Toxicity",
+            "Ductility"
+        ],
+        "right": [
+            "Chemical",
+            "Physical",
+            "Chemical",
+            "Physical"
+        ]
+    },
+    {
+        "q": "Match the material to its conductivity.",
+        "type": "memory",
+        "pairs": {
+            "Copper": "Good electrical conductor",
+            "Wood": "Poor conductor of heat and electricity",
+            "Iron": "Good heat conductor"
+        }
+    },
+    {
+        "q": "What is the SI unit of mass?",
+        "type": "mcq",
+        "o": [
+            "Kilogram",
+            "Gram",
+            "Litre",
+            "Newton"
+        ]
+    },
+    {
+        "q": "Water is called a universal ______.",
+        "type": "fill_blank",
+        "answers": [
+            "solvent"
+        ],
+        "other_options": [
+            "solute",
+            "solution",
+            "liquid"
+        ]
+    },
+    {
+        "q": "Atoms of different elements are identical.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Name the process of separating grain seeds from stalks.",
+        "type": "short_answer",
+        "answers": [
+            "threshing"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of these is a POOR conductor of electricity?",
+        "type": "odd_one_out",
+        "options": [
+            "Copper",
+            "Silver",
+            "Gold",
+            "Rubber"
+        ],
+        "correct": "Rubber"
+    },
+    {
+        "q": "Which state of matter is most abundant in the universe?",
+        "type": "mcq",
+        "o": [
+            "Plasma",
+            "Solid",
+            "Liquid",
+            "Gas"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Poor Conductor of heat, LEFT for Good Conductor.",
+        "type": "swipe_cards",
+        "left_label": "Good Conductor",
+        "right_label": "Poor Conductor",
+        "cards": {
+            "Aluminum": "left",
+            "Plastic": "right",
+            "Steel": "left",
+            "Cloth": "right"
+        }
+    },
+    {
+        "q": "The component of a solution that is dissolved is the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "solute"
+        ],
+        "other_options": [
+            "solvent",
+            "residue",
+            "sediment"
+        ]
+    },
+    {
+        "q": "All compounds are molecules, but not all molecules are compounds.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the Latin name for gold, from which its symbol 'Au' is derived?",
+        "type": "short_answer",
+        "answers": [
+            "aurum"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: The amount of space an object occupies.",
+        "type": "word_scramble",
+        "answer": "VOLUME",
+        "decoys": "FGH"
+    },
+    {
+        "q": "Which of these is a pure substance?",
+        "type": "mcq",
+        "o": [
+            "Distilled water",
+            "Mineral water",
+            "Orange juice",
+            "Steel"
+        ]
+    },
+    {
+        "q": "Match the scientist to the discovery related to matter:",
+        "type": "match",
+        "left": [
+            "Democritus",
+            "Dalton",
+            "Thomson",
+            "Rutherford"
+        ],
+        "right": [
+            "Coined 'atom'",
+            "Atomic theory",
+            "Electron",
+            "Nucleus"
+        ]
+    },
+    {
+        "q": "Which of the following is a characteristic property of gases?",
+        "type": "mcq",
+        "o": [
+            "High compressibility",
+            "Fixed shape",
+            "High density",
+            "Incompressibility"
+        ]
+    },
+    {
+        "q": "Melting is an exothermic process.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the name of the solid that forms during the water purification process and settles down?",
+        "type": "short_answer",
+        "answers": [
+            "sediment"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "An example of a chemical property is reactivity with ______.",
+        "type": "fill_blank",
+        "answers": [
+            "acid",
+            "water",
+            "oxygen"
+        ],
+        "other_options": [
+            "mass",
+            "volume",
+            "density"
+        ]
+    },
+    {
+        "q": "Which of the following statements is true about mixtures?",
+        "type": "mcq",
+        "o": [
+            "Constituents retain their properties",
+            "Formed by chemical reaction",
+            "Fixed composition",
+            "Homogeneous only"
+        ]
+    },
+    {
+        "q": "Metals generally have a shiny appearance called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "lustre",
+            "luster"
+        ],
+        "other_options": [
+            "hardness",
+            "texture",
+            "ductility"
+        ]
+    },
+    {
+        "q": "Oxygen supports combustion.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Materials that allow electricity to flow easily are called [0], while those that block it are [1].",
+        "dropdowns": [
+            {
+                "correct": "conductors",
+                "options": [
+                    "conductors",
+                    "insulators",
+                    "metals"
+                ]
+            },
+            {
+                "correct": "insulators",
+                "options": [
+                    "insulators",
+                    "conductors",
+                    "liquids"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Name a property that describes how a substance reacts with oxygen.",
+        "type": "short_answer",
+        "answers": [
+            "oxidation",
+            "reactivity",
+            "flammability"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the minimum number of different elements needed to form a compound?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "Which of the following is a compound?",
+        "type": "mcq",
+        "o": [
+            "Sulphuric acid",
+            "Phosphorus",
+            "Krypton",
+            "Bronze"
+        ]
+    },
+    {
+        "q": "Match the light transmission term to its definition.",
+        "type": "memory",
+        "pairs": {
+            "Transparent": "You can see clearly through it",
+            "Translucent": "You can see partially through it",
+            "Opaque": "You cannot see through it at all"
+        }
+    },
+    {
+        "q": "Match the substance to its specific heat capacity:",
+        "type": "match",
+        "left": [
+            "Water",
+            "Iron",
+            "Oil",
+            "Air"
+        ],
+        "right": [
+            "High",
+            "Moderate",
+            "Moderate",
+            "Low"
+        ]
+    },
+    {
+        "q": "Which separation method is used to get salt from sea water?",
+        "type": "mcq",
+        "o": [
+            "Evaporation",
+            "Condensation",
+            "Filtration",
+            "Decantation"
+        ]
+    },
+    {
+        "q": "Which of these objects is NOT opaque?",
+        "type": "odd_one_out",
+        "options": [
+            "Wood board",
+            "Brick wall",
+            "Cardboard",
+            "Clear Glass"
+        ],
+        "correct": "Clear Glass"
+    },
+    {
+        "q": "Swipe RIGHT for Gas, LEFT for Solid.",
+        "type": "swipe_cards",
+        "left_label": "Solid",
+        "right_label": "Gas",
+        "cards": {
+            "Ice cube": "left",
+            "Oxygen gas": "right",
+            "Rock": "left",
+            "Helium gas": "right"
+        }
+    },
+    {
+        "q": "Gases exert pressure on the walls of their container.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the chemical symbol for tungsten?",
+        "type": "short_answer",
+        "answers": [
+            "W"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of the following is a characteristic of a chemical change?",
+        "type": "mcq",
+        "o": [
+            "Formation of a new substance",
+            "Change in state",
+            "Change in shape",
+            "Reversible nature"
+        ]
+    },
+    {
+        "q": "The intermolecular forces are strongest in which state of matter?",
+        "type": "fill_blank",
+        "answers": [
+            "solid",
+            "solids"
+        ],
+        "other_options": [
+            "liquid",
+            "gas",
+            "plasma"
+        ]
+    },
+    {
+        "q": "Distillation separates miscible liquids based on the difference in their boiling points.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the chemical formula for sulfuric acid?",
+        "type": "short_answer",
+        "answers": [
+            "H2SO4"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which physical property defines the resistance of a liquid to flow?",
+        "type": "mcq",
+        "o": [
+            "Viscosity",
+            "Density",
+            "Surface tension",
+            "Boiling point"
+        ]
+    },
+    {
+        "q": "Which of the following is a metalloid?",
+        "type": "mcq",
+        "o": [
+            "Arsenic",
+            "Sodium",
+            "Calcium",
+            "Chlorine"
+        ]
+    },
+    {
+        "q": "An alloy is an example of a homogeneous mixture.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name of the element with the symbol 'K'?",
+        "type": "short_answer",
+        "answers": [
+            "potassium"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the term with its definition:",
+        "type": "match",
+        "left": [
+            "Element",
+            "Compound",
+            "Mixture",
+            "Alloy"
+        ],
+        "right": [
+            "One type of atom",
+            "Two or more elements chemically combined",
+            "Two or more substances physically combined",
+            "Solid solution of metals"
+        ]
+    },
+    {
+        "q": "Which process is used to separate a mixture of acetone and water?",
+        "type": "mcq",
+        "o": [
+            "Fractional distillation",
+            "Simple distillation",
+            "Chromatography",
+            "Centrifugation"
+        ]
+    },
+    {
+        "q": "The amount of matter in a substance remains constant regardless of its location. This refers to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "mass"
+        ],
+        "other_options": [
+            "weight",
+            "volume",
+            "density"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A shiny material that conducts heat well.",
+        "type": "word_scramble",
+        "answer": "METAL",
+        "decoys": "KJL"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Frosted glass is [0] because light passes through but scatters, whereas clear window glass is [1].",
+        "dropdowns": [
+            {
+                "correct": "translucent",
+                "options": [
+                    "translucent",
+                    "opaque",
+                    "transparent"
+                ]
+            },
+            {
+                "correct": "transparent",
+                "options": [
+                    "transparent",
+                    "opaque",
+                    "translucent"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Electrolysis is a method to decompose compounds into elements.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the process where a solid separates from a solution upon cooling.",
+        "type": "short_answer",
+        "answers": [
+            "crystallization"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following statements is true about compounds?",
+        "type": "mcq",
+        "o": [
+            "Fixed composition by mass",
+            "Can be separated by physical means",
+            "Retain properties of constituents",
+            "Variable composition"
+        ]
+    },
+    {
+        "q": "Which gas is produced when a reactive metal reacts with dilute acid?",
+        "type": "mcq",
+        "o": [
+            "Hydrogen",
+            "Oxygen",
+            "Nitrogen",
+            "Carbon dioxide"
+        ]
+    },
+    {
+        "q": "How many letters are in the chemical symbol for Iron (Fe)?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "In a suspension, the solid particles settle down due to ______.",
+        "type": "fill_blank",
+        "answers": [
+            "gravity"
+        ],
+        "other_options": [
+            "buoyancy",
+            "friction",
+            "magnetism"
+        ]
+    },
+    {
+        "q": "What is the SI unit of density?",
+        "type": "short_answer",
+        "answers": [
+            "kg/m3",
+            "kg m^-3",
+            "kilogram per cubic metre"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Plasma is a state of matter found in fluorescent lights.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is NOT a pure substance?",
+        "type": "mcq",
+        "o": [
+            "Concrete",
+            "Diamond",
+            "Glucose",
+            "Ozone"
+        ]
+    },
+    {
+        "q": "Match the separation technique to its principle:",
+        "type": "match",
+        "left": [
+            "Magnetic separation",
+            "Sieving",
+            "Centrifugation",
+            "Decantation"
+        ],
+        "right": [
+            "Magnetic properties",
+            "Particle size",
+            "Density difference",
+            "Gravity settling"
+        ]
+    },
+    {
+        "q": "The liquid obtained after filtration is known as the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "filtrate"
+        ],
+        "other_options": [
+            "residue",
+            "sediment",
+            "solute"
+        ]
+    },
+    {
+        "q": "What is the chemical formula for methane?",
+        "type": "short_answer",
+        "answers": [
+            "CH4"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which type of change is dissolving sugar in water?",
+        "type": "mcq",
+        "o": [
+            "Physical change",
+            "Chemical change",
+            "Irreversible change",
+            "Exothermic change"
+        ]
+    },
+    {
+        "q": "Condensation is the process of a liquid turning into a gas.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which element is the most abundant in the Earth's crust?",
+        "type": "mcq",
+        "o": [
+            "Oxygen",
+            "Silicon",
+            "Aluminum",
+            "Iron"
+        ]
+    },
+    {
+        "q": "The smell of perfume spreads across a room due to the process of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "diffusion"
+        ],
+        "other_options": [
+            "osmosis",
+            "effusion",
+            "evaporation"
+        ]
+    },
+    {
+        "q": "Match the change to its type.",
+        "type": "memory",
+        "pairs": {
+            "Melting ice": "Reversible physical change",
+            "Burning wood": "Irreversible chemical change",
+            "Dissolving salt in water": "Reversible mixing process"
+        }
+    },
+    {
+        "q": "Which of these is an irreversible change?",
+        "type": "odd_one_out",
+        "options": [
+            "Freezing water",
+            "Melting wax",
+            "Boiling water",
+            "Baking a cake"
+        ],
+        "correct": "Baking a cake"
+    },
+    {
+        "q": "What is the chemical symbol for silver?",
+        "type": "short_answer",
+        "answers": [
+            "Ag"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "A molecule of an element can consist of multiple atoms.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following elements is a halogen?",
+        "type": "mcq",
+        "o": [
+            "Fluorine",
+            "Sodium",
+            "Magnesium",
+            "Argon"
+        ]
+    },
+    {
+        "q": "Match the substance to its type:",
+        "type": "match",
+        "left": [
+            "Blood",
+            "Milk of magnesia",
+            "Steel",
+            "Carbon"
+        ],
+        "right": [
+            "Colloid",
+            "Suspension",
+            "Alloy",
+            "Element"
+        ]
+    },
+    {
+        "q": "The energy required to change a solid to a liquid is called latent heat of ______.",
+        "type": "fill_blank",
+        "answers": [
+            "fusion"
+        ],
+        "other_options": [
+            "vaporization",
+            "sublimation",
+            "condensation"
+        ]
+    },
+    {
+        "q": "Name a factor that affects the rate of diffusion.",
+        "type": "short_answer",
+        "answers": [
+            "temperature",
+            "molecular mass",
+            "concentration"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following has a definite shape?",
+        "type": "mcq",
+        "o": [
+            "Iron rod",
+            "Water",
+            "Helium",
+            "Milk"
+        ]
+    },
+    {
+        "q": "The atomic number of an element represents the number of protons.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which separation method is best for separating different pigments from an ink?",
+        "type": "mcq",
+        "o": [
+            "Paper chromatography",
+            "Fractional distillation",
+            "Filtration",
+            "Magnetic separation"
+        ]
+    },
+    {
+        "q": "An emulsion is a type of colloid involving two ______.",
+        "type": "fill_blank",
+        "answers": [
+            "liquids"
+        ],
+        "other_options": [
+            "solids",
+            "gases",
+            "metals"
+        ]
+    },
+    {
+        "q": "What is the chemical formula for hydrogen peroxide?",
+        "type": "short_answer",
+        "answers": [
+            "H2O2"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Liquids are practically incompressible.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is an extensive property?",
+        "type": "mcq",
+        "o": [
+            "Volume",
+            "Density",
+            "Boiling point",
+            "Melting point"
+        ]
+    },
+    {
+        "q": "Match the state change to its thermal nature:",
+        "type": "match",
+        "left": [
+            "Freezing",
+            "Vaporization",
+            "Sublimation",
+            "Condensation"
+        ],
+        "right": [
+            "Exothermic",
+            "Endothermic",
+            "Endothermic",
+            "Exothermic"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Man-made material, LEFT for Natural material.",
+        "type": "swipe_cards",
+        "left_label": "Natural",
+        "right_label": "Man-made",
+        "cards": {
+            "Wood": "left",
+            "Plastic": "right",
+            "Cotton": "left",
+            "Nylon": "right"
+        }
+    },
+    {
+        "q": "The nucleus of an atom contains electrons and protons.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the name of the compound with the formula CaCO3?",
+        "type": "short_answer",
+        "answers": [
+            "calcium carbonate",
+            "limestone",
+            "chalk",
+            "marble"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which gas constitutes about 78 percent of Earth's atmosphere?",
+        "type": "mcq",
+        "o": [
+            "Nitrogen",
+            "Oxygen",
+            "Carbon dioxide",
+            "Argon"
+        ]
+    },
+    {
+        "q": "The smell of a substance is a ______ property.",
+        "type": "fill_blank",
+        "answers": [
+            "physical"
+        ],
+        "other_options": [
+            "chemical",
+            "intensive",
+            "extensive"
+        ]
+    },
+    {
+        "q": "Which element is known as the 'building block of life'?",
+        "type": "mcq",
+        "o": [
+            "Carbon",
+            "Nitrogen",
+            "Oxygen",
+            "Hydrogen"
+        ]
+    },
+    {
+        "q": "The process of separating immiscible liquids uses a separating funnel.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the principle that states matter cannot be created or destroyed in a chemical reaction.",
+        "type": "short_answer",
+        "answers": [
+            "law of conservation of mass",
+            "conservation of mass"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the gas to its property:",
+        "type": "match",
+        "left": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon dioxide",
+            "Helium"
+        ],
+        "right": [
+            "Supports combustion",
+            "Inert filler",
+            "Turns lime water milky",
+            "Lighter than air"
+        ]
+    },
+    {
+        "q": "A saturated solution can dissolve more solute at a given temperature.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the chemical symbol for copper?",
+        "type": "short_answer",
+        "answers": [
+            "Cu"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of the following mixtures can be separated by sublimation?",
+        "type": "mcq",
+        "o": [
+            "Iodine and sand",
+            "Salt and water",
+            "Oil and water",
+            "Iron and sulfur"
+        ]
+    },
+    {
+        "q": "The force acting per unit area on the surface of a liquid is called ______ tension.",
+        "type": "fill_blank",
+        "answers": [
+            "surface"
+        ],
+        "other_options": [
+            "interfacial",
+            "dynamic",
+            "static"
+        ]
+    },
+    {
+        "q": "Graphite is a good conductor of electricity unlike most non-metals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which physical property describes a material's ability to be drawn into thin wires?",
+        "type": "mcq",
+        "o": [
+            "Ductility",
+            "Malleability",
+            "Tenacity",
+            "Elasticity"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The gas we need to breathe to live.",
+        "type": "word_scramble",
+        "answer": "OXYGEN",
+        "decoys": "TYU"
+    },
+    {
+        "q": "What do we call the temperature at which a solid melts under standard pressure?",
+        "type": "short_answer",
+        "answers": [
+            "melting point"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A molecule is the smallest particle of an ______ or a compound that can exist independently.",
+        "type": "fill_blank",
+        "answers": [
+            "element"
+        ],
+        "other_options": [
+            "atom",
+            "mixture",
+            "ion"
+        ]
+    },
+    {
+        "q": "Which of the following is an intensive physical property?",
+        "type": "mcq",
+        "o": [
+            "Refractive index",
+            "Mass",
+            "Length",
+            "Volume"
+        ]
+    },
+    {
+        "q": "Match the element to its discovery year:",
+        "type": "match",
+        "left": [
+            "Hydrogen",
+            "Oxygen",
+            "Radium",
+            "Helium"
+        ],
+        "right": [
+            "1766",
+            "1774",
+            "1898",
+            "1868"
+        ]
+    },
+    {
+        "q": "Burning of a candle involves both physical and chemical changes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name of the compound NaOH?",
+        "type": "short_answer",
+        "answers": [
+            "sodium hydroxide",
+            "caustic soda"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which state of matter exists at extremely high temperatures like on the sun?",
+        "type": "mcq",
+        "o": [
+            "Plasma",
+            "Solid",
+            "Liquid",
+            "Bose-Einstein condensate"
+        ]
+    },
+    {
+        "q": "The process of settling down of heavy insoluble impurities is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "sedimentation"
+        ],
+        "other_options": [
+            "decantation",
+            "filtration",
+            "centrifugation"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Changing state from solid to liquid is a [0] change because it is usually [1].",
+        "dropdowns": [
+            {
+                "correct": "physical",
+                "options": [
+                    "physical",
+                    "chemical",
+                    "permanent"
+                ]
+            },
+            {
+                "correct": "reversible",
+                "options": [
+                    "reversible",
+                    "irreversible",
+                    "impossible"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Water is the only substance that expands upon freezing.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Name the type of mixture where the particles are between 1 and 1000 nm in size.",
+        "type": "short_answer",
+        "answers": [
+            "colloid",
+            "colloidal solution"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which element is liquid at room temperature besides bromine?",
+        "type": "mcq",
+        "o": [
+            "Mercury",
+            "Gallium",
+            "Cesium",
+            "Francium"
+        ]
+    },
+    {
+        "q": "The conversion of gas to liquid is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "condensation",
+            "liquefaction"
+        ],
+        "other_options": [
+            "evaporation",
+            "boiling",
+            "freezing"
+        ]
+    },
+    {
+        "q": "What is the Latin name for sodium, giving it the symbol 'Na'?",
+        "type": "short_answer",
+        "answers": [
+            "natrium"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a chemical property of a substance?",
+        "type": "mcq",
+        "o": [
+            "pH value",
+            "Boiling point",
+            "Electrical conductivity",
+            "Thermal expansion"
+        ]
+    },
+    {
+        "q": "Match the scientist with their atomic model:",
+        "type": "match",
+        "left": [
+            "J.J. Thomson",
+            "Ernest Rutherford",
+            "Niels Bohr",
+            "John Dalton"
+        ],
+        "right": [
+            "Plum pudding model",
+            "Nuclear model",
+            "Planetary model",
+            "Solid sphere model"
+        ]
+    },
+    {
+        "q": "Match the separation technique to its use.",
+        "type": "memory",
+        "pairs": {
+            "Filtration": "Separating insoluble sand from water",
+            "Evaporation": "Separating dissolved salt from water",
+            "Magnetic separation": "Removing iron fillings from sand"
+        }
+    },
+    {
+        "q": "An element's chemical properties depend on the number of protons.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the chemical formula of ozone?",
+        "type": "short_answer",
+        "answers": [
+            "O3"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which type of solid has a sharp melting point?",
+        "type": "mcq",
+        "o": [
+            "Crystalline solid",
+            "Amorphous solid",
+            "Glass",
+            "Plastic"
+        ]
+    },
+    {
+        "q": "A ______ mixture has a non-uniform composition.",
+        "type": "fill_blank",
+        "answers": [
+            "heterogeneous"
+        ],
+        "other_options": [
+            "homogeneous",
+            "pure",
+            "colloidal"
+        ]
+    },
+    {
+        "q": "Sublimation is the direct change from solid to liquid.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Name the lightest noble gas.",
+        "type": "short_answer",
+        "answers": [
+            "helium"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following represents a homogeneous mixture?",
+        "type": "mcq",
+        "o": [
+            "Brass",
+            "Granite",
+            "Mud",
+            "Smoke"
+        ]
+    },
+    {
+        "q": "The insoluble solid left on the filter paper during filtration is the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "residue"
+        ],
+        "other_options": [
+            "filtrate",
+            "sediment",
+            "precipitate"
+        ]
+    },
+    {
+        "q": "Which metal is the best conductor of electricity?",
+        "type": "mcq",
+        "o": [
+            "Silver",
+            "Copper",
+            "Gold",
+            "Aluminum"
+        ]
+    },
+    {
+        "q": "Match the term to the state of matter:",
+        "type": "match",
+        "left": [
+            "Fluidity",
+            "Rigidity",
+            "Compressibility",
+            "Surface tension"
+        ],
+        "right": [
+            "Liquid and Gas",
+            "Solid",
+            "Gas",
+            "Liquid"
+        ]
+    },
+    {
+        "q": "Mass is a measure of the gravitational pull on an object.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the chemical formula for glucose?",
+        "type": "short_answer",
+        "answers": [
+            "C6H12O6"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of the following is a gaseous non-metal?",
+        "type": "mcq",
+        "o": [
+            "Chlorine",
+            "Phosphorus",
+            "Sulfur",
+            "Iodine"
+        ]
+    },
+    {
+        "q": "A solute that dissolves in a liquid makes a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "solution"
+        ],
+        "other_options": [
+            "suspension",
+            "colloid",
+            "compound"
+        ]
+    },
+    {
+        "q": "Density of a substance is an intensive property.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name a common colloid found in the kitchen.",
+        "type": "short_answer",
+        "answers": [
+            "milk",
+            "mayonnaise",
+            "jelly",
+            "butter"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which separation technique is used to separate cream from milk?",
+        "type": "mcq",
+        "o": [
+            "Centrifugation",
+            "Filtration",
+            "Distillation",
+            "Chromatography"
+        ]
+    },
+    {
+        "q": "The smallest unit of a compound that retains its properties is a ______.",
+        "type": "fill_blank",
+        "answers": [
+            "molecule"
+        ],
+        "other_options": [
+            "atom",
+            "electron",
+            "proton"
+        ]
+    },
+    {
+        "q": "What is the chemical symbol for iron?",
+        "type": "short_answer",
+        "answers": [
+            "Fe"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of the following has the highest kinetic energy?",
+        "type": "mcq",
+        "o": [
+            "Steam at 100 C",
+            "Water at 100 C",
+            "Ice at 0 C",
+            "Water at 0 C"
+        ]
+    },
+    {
+        "q": "Compounds can be broken down by chemical means.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Match the separation method to the mixture it separates:",
+        "type": "match",
+        "left": [
+            "Mustard oil and water",
+            "Colors in ink",
+            "Iron filings and sulfur",
+            "Pure water from sea water"
+        ],
+        "right": [
+            "Separating funnel",
+            "Chromatography",
+            "Magnetic separation",
+            "Distillation"
+        ]
+    },
+    {
+        "q": "What is the collective name for Group 18 elements?",
+        "type": "short_answer",
+        "answers": [
+            "noble gases",
+            "inert gases"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is an example of a physical change?",
+        "type": "mcq",
+        "o": [
+            "Crushing a can",
+            "Souring of milk",
+            "Burning of coal",
+            "Rusting of iron"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Soft material, LEFT for Hard material.",
+        "type": "swipe_cards",
+        "left_label": "Hard",
+        "right_label": "Soft",
+        "cards": {
+            "Diamond": "left",
+            "Cotton ball": "right",
+            "Iron": "left",
+            "Sponge": "right"
+        }
+    },
+    {
+        "q": "The force of attraction between similar molecules is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "cohesion"
+        ],
+        "other_options": [
+            "adhesion",
+            "viscosity",
+            "tension"
+        ]
+    },
+    {
+        "q": "Isotopes are atoms of the same element with different mass numbers.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which of the following is a pure substance?",
+        "type": "mcq",
+        "o": [
+            "Sodium bicarbonate",
+            "Lemonade",
+            "Concrete",
+            "Shampoo"
+        ]
+    },
+    {
+        "q": "Name a metal that exists as a liquid at room temperature.",
+        "type": "short_answer",
+        "answers": [
+            "mercury"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "A solution that cannot dissolve any more solute at a given temperature is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "saturated"
+        ],
+        "other_options": [
+            "unsaturated",
+            "supersaturated",
+            "dilute"
+        ]
+    },
+    {
+        "q": "Which element is the primary component of the sun?",
+        "type": "mcq",
+        "o": [
+            "Hydrogen",
+            "Helium",
+            "Oxygen",
+            "Nitrogen"
+        ]
+    },
+    {
+        "q": "The Tyndall effect is observed in a suspension.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which phenomenon explains the spreading of ink in water without stirring?",
+        "type": "mcq",
+        "o": [
+            "Diffusion",
+            "Osmosis",
+            "Effusion",
+            "Convection"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A substance made of only one type of particle.",
+        "type": "word_scramble",
+        "answer": "PURE",
+        "decoys": "VBM"
+    },
+    {
+        "q": "The temperature at which a substance changes from liquid to gas throughout the bulk is its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "boiling point"
+        ],
+        "other_options": [
+            "melting point",
+            "freezing point",
+            "flash point"
+        ]
+    },
+    {
+        "q": "Bose-Einstein condensate is considered the fifth state of matter.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "A pure substance can be classified as either an [0] or a [1].",
+        "dropdowns": [
+            {
+                "correct": "element",
+                "options": [
+                    "element",
+                    "mixture",
+                    "alloy"
+                ]
+            },
+            {
+                "correct": "compound",
+                "options": [
+                    "compound",
+                    "solution",
+                    "mixture"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the chemical name for 'laughing gas'?",
+        "type": "short_answer",
+        "answers": [
+            "nitrous oxide",
+            "dinitrogen monoxide"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is an example of a chemical change?",
+        "type": "mcq",
+        "o": [
+            "Respiration",
+            "Evaporation of petrol",
+            "Magnetization of iron",
+            "Dissolution of sugar"
+        ]
+    },
+    {
+        "q": "Match the quantum particle to its description:",
+        "type": "match",
+        "left": [
+            "Proton",
+            "Neutron",
+            "Electron",
+            "Photon"
+        ],
+        "right": [
+            "Positive charge",
+            "Neutral charge",
+            "Negative charge",
+            "Light particle"
+        ]
+    },
+    {
+        "q": "Which separation technique relies on the difference in solubilities in a solvent?",
+        "type": "mcq",
+        "o": [
+            "Crystallization",
+            "Sublimation",
+            "Sieving",
+            "Winnowing"
+        ]
+    },
+    {
+        "q": "The force of attraction between unlike molecules is known as ______.",
+        "type": "fill_blank",
+        "answers": [
+            "adhesion"
+        ],
+        "other_options": [
+            "cohesion",
+            "viscosity",
+            "tension"
+        ]
+    },
+    {
+        "q": "Alpha particles are helium nuclei.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the chemical symbol for antimony?",
+        "type": "short_answer",
+        "answers": [
+            "Sb"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of the following is an amorphous solid?",
+        "type": "mcq",
+        "o": [
+            "Glass",
+            "Diamond",
+            "Table salt",
+            "Snowflake"
+        ]
+    },
+    {
+        "q": "Which state of matter has the highest entropy?",
+        "type": "mcq",
+        "o": [
+            "Gas",
+            "Liquid",
+            "Solid",
+            "Bose-Einstein condensate"
+        ]
+    },
+    {
+        "q": "Match the chemistry term to its description.",
+        "type": "memory",
+        "pairs": {
+            "Atom": "The smallest particle of an element",
+            "Molecule": "Two or more atoms bonded together",
+            "Element": "A substance with only one type of atom"
+        }
+    },
+    {
+        "q": "The number of molecules in one mole of a substance is called ______ number.",
+        "type": "fill_blank",
+        "answers": [
+            "Avogadro's",
+            "Avogadro"
+        ],
+        "other_options": [
+            "Planck's",
+            "Boltzmann's",
+            "Faraday's"
+        ]
+    },
+    {
+        "q": "Fractional distillation is used to separate crude oil into its components.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the empirical formula for benzene?",
+        "type": "short_answer",
+        "answers": [
+            "CH"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of the following pairs represents allotropes?",
+        "type": "mcq",
+        "o": [
+            "Oxygen and Ozone",
+            "Water and Ice",
+            "Salt and Sugar",
+            "Iron and Steel"
+        ]
+    },
+    {
+        "q": "Match the concept with its scientist:",
+        "type": "match",
+        "left": [
+            "Law of Conservation of Mass",
+            "Atomic Theory",
+            "Discovery of Electron",
+            "Quantum Theory"
+        ],
+        "right": [
+            "Lavoisier",
+            "Dalton",
+            "J.J. Thomson",
+            "Max Planck"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Brittle, LEFT for Malleable.",
+        "type": "swipe_cards",
+        "left_label": "Malleable",
+        "right_label": "Brittle",
+        "cards": {
+            "Gold": "left",
+            "Glass": "right",
+            "Aluminum": "left",
+            "Chalk": "right"
+        }
+    },
+    {
+        "q": "Solubility of a gas in water increases with increasing temperature.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the term for a mixture of two or more metals?",
+        "type": "short_answer",
+        "answers": [
+            "alloy"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which property is defined as the ratio of density of a substance to the density of water?",
+        "type": "mcq",
+        "o": [
+            "Specific gravity",
+            "Viscosity",
+            "Surface tension",
+            "Buoyancy"
+        ]
+    },
+    {
+        "q": "In the process of loading, ______ is used to make suspended particles heavier.",
+        "type": "fill_blank",
+        "answers": [
+            "alum"
+        ],
+        "other_options": [
+            "salt",
+            "sugar",
+            "sand"
+        ]
+    },
+    {
+        "q": "Name the element with the highest electrical conductivity.",
+        "type": "short_answer",
+        "answers": [
+            "silver"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a chemical change?",
+        "type": "mcq",
+        "o": [
+            "Digestion",
+            "Melting",
+            "Freezing",
+            "Boiling"
+        ]
+    },
+    {
+        "q": "Graham's law relates to the rate of ______ of gases.",
+        "type": "fill_blank",
+        "answers": [
+            "diffusion",
+            "effusion"
+        ],
+        "other_options": [
+            "evaporation",
+            "condensation",
+            "sublimation"
+        ]
+    },
+    {
+        "q": "Isotopes have the same number of neutrons.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Unscramble the word: Heating a liquid until it turns into a gas rapidly.",
+        "type": "word_scramble",
+        "answer": "BOIL",
+        "decoys": "QAZ"
+    },
+    {
+        "q": "What is the chemical formula for potassium permanganate?",
+        "type": "short_answer",
+        "answers": [
+            "KMnO4"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of the following is a characteristic property of ionic compounds?",
+        "type": "mcq",
+        "o": [
+            "High melting point",
+            "Low boiling point",
+            "Gaseous state",
+            "Soft texture"
+        ]
+    },
+    {
+        "q": "Match the separation funnel step to its function:",
+        "type": "match",
+        "left": [
+            "Separating funnel",
+            "Sublimation",
+            "Centrifuge",
+            "Magnet"
+        ],
+        "right": [
+            "Immiscible liquids",
+            "Volatile solids",
+            "Density separation",
+            "Magnetic materials"
+        ]
+    },
+    {
+        "q": "The latent heat of vaporization of water is 2260 J/g.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name of the process where a gas escapes through a small hole?",
+        "type": "short_answer",
+        "answers": [
+            "effusion"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a compound?",
+        "type": "mcq",
+        "o": [
+            "Sulphur dioxide",
+            "Sulphur",
+            "Bronze",
+            "Air"
+        ]
+    },
+    {
+        "q": "A homogeneous mixture of two or more metals is called an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "alloy"
+        ],
+        "other_options": [
+            "ore",
+            "amalgam",
+            "compound"
+        ]
+    },
+    {
+        "q": "Which gas is known as 'marsh gas'?",
+        "type": "mcq",
+        "o": [
+            "Methane",
+            "Ethane",
+            "Hydrogen sulfide",
+            "Carbon dioxide"
+        ]
+    },
+    {
+        "q": "The atomic mass unit (amu) is defined based on the Carbon-12 isotope.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "When we heat water to 100 degrees Celsius, it begins to [0] and turn into [1].",
+        "dropdowns": [
+            {
+                "correct": "boil",
+                "options": [
+                    "boil",
+                    "freeze",
+                    "melt"
+                ]
+            },
+            {
+                "correct": "steam",
+                "options": [
+                    "steam",
+                    "ice",
+                    "water"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the chemical name for 'quicklime'?",
+        "type": "short_answer",
+        "answers": [
+            "calcium oxide"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which physical property is measured using a hygrometer?",
+        "type": "mcq",
+        "o": [
+            "Humidity",
+            "Density",
+            "Viscosity",
+            "Pressure"
+        ]
+    },
+    {
+        "q": "The effect where light is scattered by colloidal particles is called ______ effect.",
+        "type": "fill_blank",
+        "answers": [
+            "Tyndall"
+        ],
+        "other_options": [
+            "Doppler",
+            "Raman",
+            "Compton"
+        ]
+    },
+    {
+        "q": "Match the type of solid to its example:",
+        "type": "match",
+        "left": [
+            "Ionic solid",
+            "Molecular solid",
+            "Covalent network solid",
+            "Metallic solid"
+        ],
+        "right": [
+            "NaCl",
+            "Ice",
+            "Diamond",
+            "Copper"
+        ]
+    },
+    {
+        "q": "Deuterium is an isotope of hydrogen.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the symbol for the element tin?",
+        "type": "short_answer",
+        "answers": [
+            "Sn"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of the following processes requires the most heat energy?",
+        "type": "mcq",
+        "o": [
+            "Vaporization",
+            "Melting",
+            "Condensation",
+            "Freezing"
+        ]
+    },
+    {
+        "q": "A mixture of two immiscible liquids is called an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "emulsion"
+        ],
+        "other_options": [
+            "alloy",
+            "solution",
+            "aerosol"
+        ]
+    },
+    {
+        "q": "Name the halogen that is a liquid at room temperature.",
+        "type": "short_answer",
+        "answers": [
+            "bromine"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is an endothermic process?",
+        "type": "mcq",
+        "o": [
+            "Sublimation of camphor",
+            "Freezing of water",
+            "Condensation of steam",
+            "Burning of coal"
+        ]
+    },
+    {
+        "q": "The mass number is the sum of protons and electrons.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which state of matter is Supercritical fluid closely related to?",
+        "type": "mcq",
+        "o": [
+            "Both Gas and Liquid",
+            "Only Solid",
+            "Only Plasma",
+            "Only Liquid"
+        ]
+    },
+    {
+        "q": "Match the element to a common fact about it.",
+        "type": "memory",
+        "pairs": {
+            "Hydrogen": "The lightest known element",
+            "Carbon": "A major element in coal and diamonds",
+            "Oxygen": "A gas required for things to burn"
+        }
+    },
+    {
+        "q": "The solubility of most solid solutes increases with an increase in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "temperature"
+        ],
+        "other_options": [
+            "pressure",
+            "volume",
+            "mass"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Less dense than water (Floats), LEFT for Denser (Sinks).",
+        "type": "swipe_cards",
+        "left_label": "Denser",
+        "right_label": "Less dense",
+        "cards": {
+            "Iron nail": "left",
+            "Wood block": "right",
+            "Gold coin": "left",
+            "Cooking oil": "right"
+        }
+    },
+    {
+        "q": "What is the chemical formula for bleaching powder?",
+        "type": "short_answer",
+        "answers": [
+            "CaOCl2",
+            "Ca(OCl)2"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of the following is NOT a green chemistry principle related to matter?",
+        "type": "mcq",
+        "o": [
+            "Using stoichiometric reagents",
+            "Preventing waste",
+            "Atom economy",
+            "Safer solvents"
+        ]
+    },
+    {
+        "q": "Match the group to the element:",
+        "type": "match",
+        "left": [
+            "Alkali metal",
+            "Noble gas",
+            "Halogen",
+            "Alkaline earth metal"
+        ],
+        "right": [
+            "Sodium",
+            "Neon",
+            "Fluorine",
+            "Magnesium"
+        ]
+    },
+    {
+        "q": "A supersaturated solution is very stable.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Unscramble the word: Form of energy that makes things warmer.",
+        "type": "word_scramble",
+        "answer": "HEAT",
+        "decoys": "WSX"
+    },
+    {
+        "q": "Name the process of separating crude oil into gasoline, kerosene, etc.",
+        "type": "short_answer",
+        "answers": [
+            "fractional distillation",
+            "refining"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Gases can be easily [0] into smaller spaces, unlike solids which are [1].",
+        "dropdowns": [
+            {
+                "correct": "compressed",
+                "options": [
+                    "compressed",
+                    "expanded",
+                    "melted"
+                ]
+            },
+            {
+                "correct": "incompressible",
+                "options": [
+                    "incompressible",
+                    "gaseous",
+                    "flexible"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which type of colloid has a solid dispersed in a liquid?",
+        "type": "mcq",
+        "o": [
+            "Sol",
+            "Gel",
+            "Emulsion",
+            "Foam"
+        ]
+    },
+    {
+        "q": "Match the chemical symbol to its element name.",
+        "type": "memory",
+        "pairs": {
+            "C": "Carbon",
+            "H": "Hydrogen",
+            "N": "Nitrogen"
+        }
+    },
+    {
+        "q": "The smallest particle of an element that can take part in a chemical reaction is an ______.",
+        "type": "fill_blank",
+        "answers": [
+            "atom"
+        ],
+        "other_options": [
+            "ion",
+            "molecule",
+            "electron"
+        ]
+    },
+    {
+        "q": "Which gas is used in the Haber process?",
+        "type": "mcq",
+        "o": [
+            "Nitrogen",
+            "Oxygen",
+            "Chlorine",
+            "Argon"
+        ]
+    },
+    {
+        "q": "Neutrons have no electrical charge.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for the heat content of a system at constant pressure?",
+        "type": "short_answer",
+        "answers": [
+            "enthalpy"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following exhibits the Tyndall effect?",
+        "type": "mcq",
+        "o": [
+            "Milk",
+            "Sugar solution",
+            "Salt solution",
+            "Vinegar"
+        ]
+    },
+    {
+        "q": "The constant random movement of colloidal particles is called ______ motion.",
+        "type": "fill_blank",
+        "answers": [
+            "Brownian"
+        ],
+        "other_options": [
+            "Perpetual",
+            "Linear",
+            "Oscillatory"
+        ]
+    },
+    {
+        "q": "Match the acid to its formula:",
+        "type": "match",
+        "left": [
+            "Hydrochloric acid",
+            "Nitric acid",
+            "Carbonic acid",
+            "Phosphoric acid"
+        ],
+        "right": [
+            "HCl",
+            "HNO3",
+            "H2CO3",
+            "H3PO4"
+        ]
+    },
+    {
+        "q": "Osmosis is the diffusion of solvent molecules through a semi-permeable membrane.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the term for the energy required to remove an electron from an atom.",
+        "type": "short_answer",
+        "answers": [
+            "ionization energy",
+            "ionisation energy",
+            "ionization potential"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which element has the highest melting point?",
+        "type": "mcq",
+        "o": [
+            "Tungsten",
+            "Iron",
+            "Platinum",
+            "Gold"
+        ]
+    },
+    {
+        "q": "The material used for making heating elements should have high resistivity and high ______ point.",
+        "type": "fill_blank",
+        "answers": [
+            "melting"
+        ],
+        "other_options": [
+            "boiling",
+            "freezing",
+            "dew"
+        ]
+    },
+    {
+        "q": "Liquids have a definite volume but no definite shape.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Two-letter symbol, LEFT for One-letter symbol.",
+        "type": "swipe_cards",
+        "left_label": "One-letter",
+        "right_label": "Two-letter",
+        "cards": {
+            "Oxygen (O)": "left",
+            "Helium (He)": "right",
+            "Carbon (C)": "left",
+            "Iron (Fe)": "right"
+        }
+    },
+    {
+        "q": "What is the chemical formula of rust?",
+        "type": "short_answer",
+        "answers": [
+            "Fe2O3.xH2O",
+            "Fe2O3",
+            "hydrated iron oxide"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of the following is a homogeneous mixture?",
+        "type": "mcq",
+        "o": [
+            "Vinegar",
+            "Smoke",
+            "Milk",
+            "Blood"
+        ]
+    },
+    {
+        "q": "The process of separating a pure solid from a solution by cooling is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "crystallization"
+        ],
+        "other_options": [
+            "condensation",
+            "filtration",
+            "distillation"
+        ]
+    },
+    {
+        "q": "Which of the following gases is monoatomic?",
+        "type": "mcq",
+        "o": [
+            "Argon",
+            "Oxygen",
+            "Nitrogen",
+            "Chlorine"
+        ]
+    },
+    {
+        "q": "Match the type of change to its example:",
+        "type": "match",
+        "left": [
+            "Melting candle wax",
+            "Burning candle wick",
+            "Boiling egg",
+            "Dissolving CO2 in water"
+        ],
+        "right": [
+            "Physical change",
+            "Chemical change",
+            "Chemical change",
+            "Physical and Chemical"
+        ]
+    },
+    {
+        "q": "The nucleus of an atom is negatively charged.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the name of the compound KCl?",
+        "type": "short_answer",
+        "answers": [
+            "potassium chloride"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which separation technique is used to obtain pure copper sulfate from an impure solution?",
+        "type": "mcq",
+        "o": [
+            "Crystallization",
+            "Sedimentation",
+            "Chromatography",
+            "Centrifugation"
+        ]
+    },
+    {
+        "q": "The mass of an atom is concentrated in its ______.",
+        "type": "fill_blank",
+        "answers": [
+            "nucleus"
+        ],
+        "other_options": [
+            "electron cloud",
+            "orbitals",
+            "shells"
+        ]
+    },
+    {
+        "q": "Graphite and diamond have the same chemical properties.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Unscramble the word: The absence of heat, or a low temperature.",
+        "type": "word_scramble",
+        "answer": "COLD",
+        "decoys": "EDC"
+    },
+    {
+        "q": "Name the process of separation based on the difference in densities of particles using a rotating vessel.",
+        "type": "short_answer",
+        "answers": [
+            "centrifugation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The property of metals that allows them to ring when struck is called [0], making them useful for making [1].",
+        "dropdowns": [
+            {
+                "correct": "sonority",
+                "options": [
+                    "sonority",
+                    "malleability",
+                    "ductility"
+                ]
+            },
+            {
+                "correct": "bells",
+                "options": [
+                    "bells",
+                    "wires",
+                    "mirrors"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which of the following sublimes at room temperature?",
+        "type": "mcq",
+        "o": [
+            "Naphthalene",
+            "Iron",
+            "Sugar",
+            "Copper"
+        ]
+    },
+    {
+        "q": "A ______ is a type of colloid where a liquid is dispersed in a gas.",
+        "type": "fill_blank",
+        "answers": [
+            "aerosol"
+        ],
+        "other_options": [
+            "emulsion",
+            "sol",
+            "foam"
+        ]
+    },
+    {
+        "q": "What is the chemical name for 'slaked lime'?",
+        "type": "short_answer",
+        "answers": [
+            "calcium hydroxide"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Match the feature to either Mixture or Compound.",
+        "type": "memory",
+        "pairs": {
+            "Variable ratio of parts": "Mixture",
+            "Fixed ratio of parts": "Compound",
+            "Keeps original properties": "Mixture"
+        }
+    },
+    {
+        "q": "Which of the following is the lightest gas?",
+        "type": "mcq",
+        "o": [
+            "Hydrogen",
+            "Helium",
+            "Methane",
+            "Ammonia"
+        ]
+    },
+    {
+        "q": "The International System of Units for mass is the ______.",
+        "type": "fill_blank",
+        "answers": [
+            "kilogram"
+        ],
+        "other_options": [
+            "gram",
+            "pound",
+            "newton"
+        ]
+    },
+    {
+        "q": "Cathode rays are streams of protons.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the element represented by the symbol 'Pt'?",
+        "type": "short_answer",
+        "answers": [
+            "platinum"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is an example of a heterogeneous mixture?",
+        "type": "mcq",
+        "o": [
+            "Smoke",
+            "Air",
+            "Stainless steel",
+            "Glucose solution"
+        ]
+    },
+    {
+        "q": "Match the subatomic particle to its discoverer:",
+        "type": "match",
+        "left": [
+            "Proton",
+            "Neutron",
+            "Electron",
+            "Nucleus"
+        ],
+        "right": [
+            "Rutherford",
+            "Chadwick",
+            "J.J. Thomson",
+            "Rutherford"
+        ]
+    },
+    {
+        "q": "The mass of a neutron is slightly greater than that of a proton.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Swipe RIGHT for Chemical Change, LEFT for Physical Change.",
+        "type": "swipe_cards",
+        "left_label": "Physical Change",
+        "right_label": "Chemical Change",
+        "cards": {
+            "Tearing paper": "left",
+            "Rusting iron": "right",
+            "Breaking glass": "left",
+            "Burning wood": "right"
+        }
+    },
+    {
+        "q": "Unscramble the word: A mixture of two or more metals.",
+        "type": "word_scramble",
+        "answer": "ALLOY",
+        "decoys": "RFV"
+    },
+    {
+        "q": "What is the chemical formula for limestone?",
+        "type": "short_answer",
+        "answers": [
+            "CaCO3"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which element is a liquid non-metal at room temperature?",
+        "type": "mcq",
+        "o": [
+            "Bromine",
+            "Mercury",
+            "Iodine",
+            "Chlorine"
+        ]
+    },
+    {
+        "q": "The process of removal of water from a substance is called ______.",
+        "type": "fill_blank",
+        "answers": [
+            "dehydration",
+            "desiccation"
+        ],
+        "other_options": [
+            "hydration",
+            "condensation",
+            "evaporation"
+        ]
+    },
+    {
+        "q": "Which of the following is a metalloid?",
+        "type": "mcq",
+        "o": [
+            "Germanium",
+            "Sodium",
+            "Iron",
+            "Oxygen"
+        ]
+    },
+    {
+        "q": "Ice has a lower density than liquid water.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the element that is commonly used in thermometers.",
+        "type": "short_answer",
+        "answers": [
+            "mercury"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The process of separating gases from air is based on ______ distillation.",
+        "type": "fill_blank",
+        "answers": [
+            "fractional"
+        ],
+        "other_options": [
+            "simple",
+            "steam",
+            "vacuum"
+        ]
+    },
+    {
+        "q": "Which of the following statements is true about elements?",
+        "type": "mcq",
+        "o": [
+            "Made of identical atoms",
+            "Can be broken down chemically",
+            "Have variable composition",
+            "Are always solid"
+        ]
+    },
+    {
+        "q": "Density is a chemical property.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "An alloy is a [0] of two or more metals, such as [1] which contains copper and zinc.",
+        "dropdowns": [
+            {
+                "correct": "mixture",
+                "options": [
+                    "mixture",
+                    "compound",
+                    "element"
+                ]
+            },
+            {
+                "correct": "brass",
+                "options": [
+                    "brass",
+                    "iron",
+                    "gold"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the name for the temperature where all molecular motion theoretically stops?",
+        "type": "short_answer",
+        "answers": [
+            "absolute zero"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which phenomenon explains the bending of light when it passes from air to water?",
+        "type": "mcq",
+        "o": [
+            "Refraction",
+            "Reflection",
+            "Diffraction",
+            "Dispersion"
+        ]
+    },
+    {
+        "q": "Match the property to its type:",
+        "type": "match",
+        "left": [
+            "Taste",
+            "Flammability",
+            "Boiling point",
+            "Reactivity"
+        ],
+        "right": [
+            "Physical",
+            "Chemical",
+            "Physical",
+            "Chemical"
+        ]
+    },
+    {
+        "q": "The molar mass of a substance is measured in g/mol.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Which principle states that it is impossible to determine both the position and momentum of an electron simultaneously?",
+        "type": "mcq",
+        "o": [
+            "Heisenberg's Uncertainty Principle",
+            "Pauli Exclusion Principle",
+            "Aufbau Principle",
+            "Hund's Rule"
+        ]
+    },
+    {
+        "q": "The entropy of a perfect crystal at absolute zero is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "zero"
+        ],
+        "other_options": [
+            "one",
+            "infinite",
+            "negative"
+        ]
+    },
+    {
+        "q": "Allotropes have the same physical properties but different chemical properties.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the IUPAC name for the compound K3[Fe(CN)6]?",
+        "type": "short_answer",
+        "answers": [
+            "potassium hexacyanoferrate(III)"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which quantum number defines the shape of an orbital?",
+        "type": "mcq",
+        "o": [
+            "Azimuthal quantum number (l)",
+            "Principal quantum number (n)",
+            "Magnetic quantum number (m)",
+            "Spin quantum number (s)"
+        ]
+    },
+    {
+        "q": "Unscramble the word: The physical outline or form of an object.",
+        "type": "word_scramble",
+        "answer": "SHAPE",
+        "decoys": "TGB"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The smallest building block of all matter is the [0], which can combine to form [1].",
+        "dropdowns": [
+            {
+                "correct": "atom",
+                "options": [
+                    "atom",
+                    "cell",
+                    "tissue"
+                ]
+            },
+            {
+                "correct": "molecules",
+                "options": [
+                    "molecules",
+                    "organs",
+                    "stars"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Match the intermolecular force to its relative strength:",
+        "type": "match",
+        "left": [
+            "Ion-Dipole",
+            "Hydrogen Bonding",
+            "Dipole-Dipole",
+            "London Dispersion"
+        ],
+        "right": [
+            "Very Strong",
+            "Strong",
+            "Moderate",
+            "Weak"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A common liquid compound made of hydrogen and oxygen.",
+        "type": "word_scramble",
+        "answer": "WATER",
+        "decoys": "YHN"
+    },
+    {
+        "q": "Which of the following exhibits resonance?",
+        "type": "mcq",
+        "o": [
+            "Benzene",
+            "Methane",
+            "Ethane",
+            "Propane"
+        ]
+    },
+    {
+        "q": "The minimum energy required to initiate a chemical reaction is called ______ energy.",
+        "type": "fill_blank",
+        "answers": [
+            "activation"
+        ],
+        "other_options": [
+            "ionization",
+            "kinetic",
+            "potential"
+        ]
+    },
+    {
+        "q": "Paramagnetic substances are attracted to a magnetic field.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "The process of a gas cooling down and turning into a liquid is called [0], often seen as [1] on cold windows.",
+        "dropdowns": [
+            {
+                "correct": "condensation",
+                "options": [
+                    "condensation",
+                    "evaporation",
+                    "melting"
+                ]
+            },
+            {
+                "correct": "dew",
+                "options": [
+                    "dew",
+                    "frost",
+                    "ice"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the chemical formula for Mohr's salt?",
+        "type": "short_answer",
+        "answers": [
+            "FeSO4.(NH4)2SO4.6H2O",
+            "(NH4)2Fe(SO4)2.6H2O"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which spectrochemical series ligand causes the largest crystal field splitting?",
+        "type": "mcq",
+        "o": [
+            "CN-",
+            "NH3",
+            "H2O",
+            "Cl-"
+        ]
+    },
+    {
+        "q": "The ratio of the rate of diffusion of two gases is inversely proportional to the square root of their ______.",
+        "type": "fill_blank",
+        "answers": [
+            "molar masses",
+            "molecular weights",
+            "densities"
+        ],
+        "other_options": [
+            "volumes",
+            "temperatures",
+            "pressures"
+        ]
+    },
+    {
+        "q": "Enantiomers are non-superimposable mirror images.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Unscramble the word: Another word for a gas, like when water boils.",
+        "type": "word_scramble",
+        "answer": "VAPOR",
+        "decoys": "UJM"
+    },
+    {
+        "q": "Name the scientist who proposed the concept of electronegativity.",
+        "type": "short_answer",
+        "answers": [
+            "Linus Pauling",
+            "Pauling"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which crystal system has all sides equal and all angles 90 degrees?",
+        "type": "mcq",
+        "o": [
+            "Cubic",
+            "Tetragonal",
+            "Orthorhombic",
+            "Monoclinic"
+        ]
+    },
+    {
+        "q": "Match the type of defect to its description:",
+        "type": "match",
+        "left": [
+            "Schottky defect",
+            "Frenkel defect",
+            "Interstitial defect",
+            "F-center"
+        ],
+        "right": [
+            "Pair of vacancies",
+            "Displaced ion",
+            "Extra atom in void",
+            "Electron trapped in anion vacancy"
+        ]
+    },
+    {
+        "q": "The entropy of the universe is constantly decreasing.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Because [0] have moving particles that slide past each other, they can be [1] into containers.",
+        "dropdowns": [
+            {
+                "correct": "liquids",
+                "options": [
+                    "liquids",
+                    "solids",
+                    "gases"
+                ]
+            },
+            {
+                "correct": "poured",
+                "options": [
+                    "poured",
+                    "broken",
+                    "hammered"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the term for the energy released when an electron is added to a neutral atom?",
+        "type": "short_answer",
+        "answers": [
+            "electron affinity",
+            "electron gain enthalpy"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which law states that the pressure of a gas is inversely proportional to its volume at constant temperature?",
+        "type": "mcq",
+        "o": [
+            "Boyle's Law",
+            "Charles's Law",
+            "Avogadro's Law",
+            "Gay-Lussac's Law"
+        ]
+    },
+    {
+        "q": "A catalyst increases the rate of reaction by lowering the ______ energy.",
+        "type": "fill_blank",
+        "answers": [
+            "activation"
+        ],
+        "other_options": [
+            "kinetic",
+            "potential",
+            "binding"
+        ]
+    },
+    {
+        "q": "Which type of isomerism is shown by [Co(NH3)5Br]SO4 and [Co(NH3)5SO4]Br?",
+        "type": "mcq",
+        "o": [
+            "Ionization isomerism",
+            "Linkage isomerism",
+            "Coordination isomerism",
+            "Geometric isomerism"
+        ]
+    },
+    {
+        "q": "The heat capacity at constant pressure is denoted by Cp.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the chemical formula for bauxite?",
+        "type": "short_answer",
+        "answers": [
+            "Al2O3.2H2O",
+            "Al2O3.nH2O"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which quantum number determines the orientation of an orbital in space?",
+        "type": "mcq",
+        "o": [
+            "Magnetic quantum number (m)",
+            "Principal quantum number (n)",
+            "Azimuthal quantum number (l)",
+            "Spin quantum number (s)"
+        ]
+    },
+    {
+        "q": "Unscramble the word: A reddish-brown substance that forms on iron due to a chemical change.",
+        "type": "word_scramble",
+        "answer": "RUST",
+        "decoys": "IKL"
+    },
+    {
+        "q": "Match the gas law to its formula:",
+        "type": "match",
+        "left": [
+            "Ideal Gas Law",
+            "Combined Gas Law",
+            "Dalton's Law",
+            "Graham's Law"
+        ],
+        "right": [
+            "PV = nRT",
+            "P1V1/T1 = P2V2/T2",
+            "P_total = Sum of P_i",
+            "Rate1/Rate2 = sqrt(M2/M1)"
+        ]
+    },
+    {
+        "q": "The coordination number of NaCl is 6:6.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the element with the electron configuration [Rn] 5f14 6d10 7p5.",
+        "type": "short_answer",
+        "answers": [
+            "tennessine"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of solid is silicon carbide (SiC)?",
+        "type": "mcq",
+        "o": [
+            "Covalent network solid",
+            "Ionic solid",
+            "Metallic solid",
+            "Molecular solid"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Sugar dissolving in water creates a [0] mixture, also known as a [1].",
+        "dropdowns": [
+            {
+                "correct": "homogeneous",
+                "options": [
+                    "homogeneous",
+                    "heterogeneous",
+                    "solid"
+                ]
+            },
+            {
+                "correct": "solution",
+                "options": [
+                    "solution",
+                    "suspension",
+                    "compound"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The critical temperature is the temperature above which a gas cannot be ______.",
+        "type": "fill_blank",
+        "answers": [
+            "liquefied"
+        ],
+        "other_options": [
+            "solidified",
+            "vaporized",
+            "sublimated"
+        ]
+    },
+    {
+        "q": "Gibbs free energy must be positive for a spontaneous reaction.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the term for the number of moles of solute per kilogram of solvent?",
+        "type": "short_answer",
+        "answers": [
+            "molality"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Unscramble the word: A natural, opaque, and non-magnetic solid material from trees.",
+        "type": "word_scramble",
+        "answer": "WOOD",
+        "decoys": "OPL"
+    },
+    {
+        "q": "Which of the following is an extensive property?",
+        "type": "mcq",
+        "o": [
+            "Enthalpy",
+            "Density",
+            "Refractive index",
+            "Boiling point"
+        ]
+    },
+    {
+        "q": "Match the element to its oxidation state in the compound:",
+        "type": "match",
+        "left": [
+            "KMnO4 (Mn)",
+            "K2Cr2O7 (Cr)",
+            "H2O2 (O)",
+            "OF2 (O)"
+        ],
+        "right": [
+            "+7",
+            "+6",
+            "-1",
+            "+2"
+        ]
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Matter is anything that has [0] and takes up space, regardless of whether it is a solid, [1], or gas.",
+        "dropdowns": [
+            {
+                "correct": "mass",
+                "options": [
+                    "mass",
+                    "color",
+                    "taste"
+                ]
+            },
+            {
+                "correct": "liquid",
+                "options": [
+                    "liquid",
+                    "plasma",
+                    "energy"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The work done in a reversible isothermal expansion is maximum.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the IUPAC name of CH3COOC2H5?",
+        "type": "short_answer",
+        "answers": [
+            "ethyl ethanoate",
+            "ethyl acetate"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which postulate of Dalton's atomic theory has been proven wrong?",
+        "type": "mcq",
+        "o": [
+            "Atoms are indivisible",
+            "Atoms of same element are identical",
+            "Compounds have fixed ratios",
+            "Atoms combine in whole numbers"
+        ]
+    },
+    {
+        "q": "The van der Waals constant 'a' accounts for the ______ of real gases.",
+        "type": "fill_blank",
+        "answers": [
+            "intermolecular attraction",
+            "attractive forces"
+        ],
+        "other_options": [
+            "volume",
+            "pressure",
+            "temperature"
+        ]
+    },
+    {
+        "q": "Diamagnetic substances have unpaired electrons.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the shape of the XeF4 molecule according to VSEPR theory?",
+        "type": "short_answer",
+        "answers": [
+            "square planar"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which rule states that electrons fill degenerate orbitals singly before pairing?",
+        "type": "mcq",
+        "o": [
+            "Hund's Rule",
+            "Aufbau Principle",
+            "Pauli Exclusion Principle",
+            "Octet Rule"
+        ]
+    },
+    {
+        "q": "A system that can exchange both energy and matter with its surroundings is called a(n) ______ system.",
+        "type": "fill_blank",
+        "answers": [
+            "open"
+        ],
+        "other_options": [
+            "closed",
+            "isolated",
+            "adiabatic"
+        ]
+    },
+    {
+        "q": "Which of the following molecules is polar?",
+        "type": "mcq",
+        "o": [
+            "NH3",
+            "CH4",
+            "CO2",
+            "CCl4"
+        ]
+    },
+    {
+        "q": "Match the colligative property to its definition:",
+        "type": "match",
+        "left": [
+            "Relative lowering of vapour pressure",
+            "Elevation of boiling point",
+            "Depression of freezing point",
+            "Osmotic pressure"
+        ],
+        "right": [
+            "Raoult's Law",
+            "Delta Tb = Kb * m",
+            "Delta Tf = Kf * m",
+            "Pi = CRT"
+        ]
+    },
+    {
+        "q": "The standard electrode potential of hydrogen is taken as 1.0 V.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Name the principle that states that a system at equilibrium will shift to counteract an applied stress.",
+        "type": "short_answer",
+        "answers": [
+            "Le Chatelier's principle"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of bond is present in diamond?",
+        "type": "mcq",
+        "o": [
+            "Covalent network",
+            "Ionic",
+            "Metallic",
+            "Hydrogen"
+        ]
+    },
+    {
+        "q": "The half-life of a first-order reaction is independent of the initial ______.",
+        "type": "fill_blank",
+        "answers": [
+            "concentration"
+        ],
+        "other_options": [
+            "temperature",
+            "pressure",
+            "volume"
+        ]
+    },
+    {
+        "q": "What is the oxidation state of chromium in CrO5?",
+        "type": "short_answer",
+        "answers": [
+            "+6"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following aqueous solutions has the highest boiling point?",
+        "type": "mcq",
+        "o": [
+            "1 m AlCl3",
+            "1 m NaCl",
+            "1 m Glucose",
+            "1 m BaCl2"
+        ]
+    },
+    {
+        "q": "The phenomenon of scattering of light by particles in a colloid is the ______ effect.",
+        "type": "fill_blank",
+        "answers": [
+            "Tyndall"
+        ],
+        "other_options": [
+            "Raman",
+            "Compton",
+            "Doppler"
+        ]
+    },
+    {
+        "q": "For an adiabatic process, Q = 0.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for molecules that are non-superimposable mirror images?",
+        "type": "short_answer",
+        "answers": [
+            "enantiomers",
+            "optical isomers"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which element has the electron configuration [Ar] 3d5 4s1?",
+        "type": "mcq",
+        "o": [
+            "Chromium",
+            "Manganese",
+            "Iron",
+            "Vanadium"
+        ]
+    },
+    {
+        "q": "Match the type of reaction to its thermodynamic signature:",
+        "type": "match",
+        "left": [
+            "Exothermic",
+            "Endothermic",
+            "Spontaneous at all T",
+            "Non-spontaneous at all T"
+        ],
+        "right": [
+            "Delta H < 0",
+            "Delta H > 0",
+            "Delta G < 0",
+            "Delta G > 0"
+        ]
+    },
+    {
+        "q": "The bond order in O2+ is 2.5.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the IUPAC name for the compound with the formula [Pt(NH3)2Cl2]?",
+        "type": "short_answer",
+        "answers": [
+            "diamminedichloroplatinum(II)"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which law relates the volume of a gas to its absolute temperature at constant pressure?",
+        "type": "mcq",
+        "o": [
+            "Charles's Law",
+            "Boyle's Law",
+            "Avogadro's Law",
+            "Dalton's Law"
+        ]
+    },
+    {
+        "q": "The minimum energy required for a reaction to occur is the ______ energy.",
+        "type": "fill_blank",
+        "answers": [
+            "threshold"
+        ],
+        "other_options": [
+            "activation",
+            "kinetic",
+            "ionization"
+        ]
+    },
+    {
+        "q": "In a crystal lattice, the number of nearest neighbors is called the ______ number.",
+        "type": "fill_blank",
+        "answers": [
+            "coordination"
+        ],
+        "other_options": [
+            "atomic",
+            "quantum",
+            "magnetic"
+        ]
+    },
+    {
+        "q": "The Nernst equation relates cell potential to standard cell potential and reaction quotient.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name of the element with atomic number 104?",
+        "type": "short_answer",
+        "answers": [
+            "rutherfordium"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of isomerism involves the exchange of ligands between coordination spheres?",
+        "type": "mcq",
+        "o": [
+            "Coordination isomerism",
+            "Linkage isomerism",
+            "Optical isomerism",
+            "Geometric isomerism"
+        ]
+    },
+    {
+        "q": "Match the crystal lattice to its coordination number:",
+        "type": "match",
+        "left": [
+            "Simple cubic",
+            "Body-centered cubic",
+            "Face-centered cubic",
+            "Hexagonal close packed"
+        ],
+        "right": [
+            "6",
+            "8",
+            "12",
+            "12"
+        ]
+    },
+    {
+        "q": "The pH of a 10^-8 M HCl solution at 25 C is 8.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Name the technique used to separate components based on their differential solubility in a mobile and stationary phase.",
+        "type": "short_answer",
+        "answers": [
+            "chromatography"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which law states that equal volumes of gases at the same temperature and pressure contain an equal number of molecules?",
+        "type": "mcq",
+        "o": [
+            "Avogadro's Law",
+            "Boyle's Law",
+            "Charles's Law",
+            "Gay-Lussac's Law"
+        ]
+    },
+    {
+        "q": "The viscosity of a liquid generally ______ with an increase in temperature.",
+        "type": "fill_blank",
+        "answers": [
+            "decreases"
+        ],
+        "other_options": [
+            "increases",
+            "remains constant",
+            "fluctuates"
+        ]
+    },
+    {
+        "q": "What is the hybridization of the central atom in IF7?",
+        "type": "short_answer",
+        "answers": [
+            "sp3d3"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a Lewis acid?",
+        "type": "mcq",
+        "o": [
+            "BF3",
+            "NH3",
+            "H2O",
+            "OH-"
+        ]
+    },
+    {
+        "q": "The energy of an electron in a hydrogen-like atom depends only on the ______ quantum number.",
+        "type": "fill_blank",
+        "answers": [
+            "principal"
+        ],
+        "other_options": [
+            "azimuthal",
+            "magnetic",
+            "spin"
+        ]
+    },
+    {
+        "q": "A reaction that absorbs heat from the surroundings is exothermic.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the term for the partial molar free energy of a component in a mixture?",
+        "type": "short_answer",
+        "answers": [
+            "chemical potential"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following elements exhibits the strongest metallic bonding?",
+        "type": "mcq",
+        "o": [
+            "Tungsten",
+            "Sodium",
+            "Magnesium",
+            "Aluminum"
+        ]
+    },
+    {
+        "q": "Match the polymer to its monomer:",
+        "type": "match",
+        "left": [
+            "Polyethylene",
+            "PVC",
+            "Teflon",
+            "Polystyrene"
+        ],
+        "right": [
+            "Ethylene",
+            "Vinyl chloride",
+            "Tetrafluoroethylene",
+            "Styrene"
+        ]
+    },
+    {
+        "q": "The half-life of a zero-order reaction depends on the initial concentration.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the chemical formula for the superoxide ion?",
+        "type": "short_answer",
+        "answers": [
+            "O2-"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which process is used to purify titanium metal commercially?",
+        "type": "mcq",
+        "o": [
+            "Van Arkel process",
+            "Zone refining",
+            "Electrolytic refining",
+            "Mond process"
+        ]
+    },
+    {
+        "q": "The ______ number of a gas molecule is the ratio of Cp to Cv.",
+        "type": "fill_blank",
+        "answers": [
+            "adiabatic index",
+            "gamma",
+            "heat capacity ratio"
+        ],
+        "other_options": [
+            "compressibility",
+            "fugacity",
+            "acentric"
+        ]
+    },
+    {
+        "q": "Diamond is thermodynamically more stable than graphite at standard conditions.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Name the rule that states that a molecule will be aromatic if it has (4n+2) pi electrons.",
+        "type": "short_answer",
+        "answers": [
+            "Huckel's rule"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of solid defect is responsible for color in alkali halide crystals?",
+        "type": "mcq",
+        "o": [
+            "F-center",
+            "Schottky defect",
+            "Frenkel defect",
+            "Edge dislocation"
+        ]
+    },
+    {
+        "q": "The critical micelle concentration is associated with ______ properties of matter.",
+        "type": "fill_blank",
+        "answers": [
+            "colloidal",
+            "surfactant"
+        ],
+        "other_options": [
+            "gaseous",
+            "metallic",
+            "crystalline"
+        ]
+    },
+    {
+        "q": "The entropy change of an isolated system is zero for a reversible process.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the chemical formula for potash alum?",
+        "type": "short_answer",
+        "answers": [
+            "KAl(SO4)2.12H2O",
+            "K2SO4.Al2(SO4)3.24H2O"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of the following has the highest lattice energy?",
+        "type": "mcq",
+        "o": [
+            "MgO",
+            "NaCl",
+            "KBr",
+            "CsI"
+        ]
+    },
+    {
+        "q": "Match the thermodynamic quantity to its symbol:",
+        "type": "match",
+        "left": [
+            "Enthalpy",
+            "Entropy",
+            "Gibbs free energy",
+            "Internal energy"
+        ],
+        "right": [
+            "H",
+            "S",
+            "G",
+            "U"
+        ]
+    },
+    {
+        "q": "The work done by a system on the surroundings is taken as negative in sign convention.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Name the phenomenon where a liquid rises in a narrow tube against gravity.",
+        "type": "short_answer",
+        "answers": [
+            "capillary action",
+            "capillarity"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which scientist proposed the wave-particle duality of matter?",
+        "type": "mcq",
+        "o": [
+            "Louis de Broglie",
+            "Albert Einstein",
+            "Niels Bohr",
+            "Max Planck"
+        ]
+    },
+    {
+        "q": "The degree of dissociation of a weak electrolyte is given by the ______ dilution law.",
+        "type": "fill_blank",
+        "answers": [
+            "Ostwald's"
+        ],
+        "other_options": [
+            "Henry's",
+            "Raoult's",
+            "Faraday's"
+        ]
+    },
+    {
+        "q": "Which of the following ions is colorless in aqueous solution?",
+        "type": "mcq",
+        "o": [
+            "Zn2+",
+            "Cu2+",
+            "Fe2+",
+            "Mn2+"
+        ]
+    },
+    {
+        "q": "In a reversible adiabatic expansion, the temperature of the gas decreases.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for a substance that adsorbs gases on its surface?",
+        "type": "short_answer",
+        "answers": [
+            "adsorbent"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The total number of orbitals in a shell with n=4 is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "16"
+        ],
+        "other_options": [
+            "4",
+            "8",
+            "32"
+        ]
+    },
+    {
+        "q": "Match the radioactive decay type to its particle:",
+        "type": "match",
+        "left": [
+            "Alpha decay",
+            "Beta minus decay",
+            "Beta plus decay",
+            "Gamma decay"
+        ],
+        "right": [
+            "Helium nucleus",
+            "Electron",
+            "Positron",
+            "Photon"
+        ]
+    },
+    {
+        "q": "The standard state for a pure solid is its state at 1 atm and 25 C.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the coordination number of a particle in a hexagonal close-packed structure?",
+        "type": "short_answer",
+        "answers": [
+            "12"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the point group of the methane (CH4) molecule?",
+        "type": "mcq",
+        "o": [
+            "Td",
+            "Oh",
+            "C3v",
+            "D4h"
+        ]
+    },
+    {
+        "q": "The Jahn-Teller effect is most commonly observed in octahedral complexes with degenerate ______ orbitals.",
+        "type": "fill_blank",
+        "answers": [
+            "eg"
+        ],
+        "other_options": [
+            "t2g",
+            "a1g",
+            "t1u"
+        ]
+    },
+    {
+        "q": "The Gibbs phase rule is F = C - P + 2.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Provide the IUPAC name for the complex [Co(en)2Cl2]+.",
+        "type": "short_answer",
+        "answers": [
+            "dichloridobis(ethylenediamine)cobalt(III) ion"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which spectroscopic technique relies on the Mossbauer effect?",
+        "type": "mcq",
+        "o": [
+            "Gamma-ray resonance spectroscopy",
+            "NMR spectroscopy",
+            "IR spectroscopy",
+            "ESR spectroscopy"
+        ]
+    },
+    {
+        "q": "Match the symmetry operation to its symbol:",
+        "type": "match",
+        "left": [
+            "Identity",
+            "Rotation by 180 deg",
+            "Reflection",
+            "Inversion"
+        ],
+        "right": [
+            "E",
+            "C2",
+            "Sigma",
+            "i"
+        ]
+    },
+    {
+        "q": "The compressibility factor (Z) for an ideal gas is always 1.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for the energy required to form a mole of a crystalline solid from its gaseous ions?",
+        "type": "short_answer",
+        "answers": [
+            "lattice energy",
+            "lattice enthalpy"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which quantum mechanical model describes the delocalized pi electrons in benzene?",
+        "type": "mcq",
+        "o": [
+            "Huckel Molecular Orbital Theory",
+            "Valence Bond Theory",
+            "Crystal Field Theory",
+            "VSEPR Theory"
+        ]
+    },
+    {
+        "q": "In statistical thermodynamics, the partition function connects microscopic properties to ______ properties.",
+        "type": "fill_blank",
+        "answers": [
+            "macroscopic",
+            "thermodynamic"
+        ],
+        "other_options": [
+            "quantum",
+            "kinetic",
+            "spectroscopic"
+        ]
+    },
+    {
+        "q": "The principle of microscopic reversibility applies only to enzymatic reactions.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the chemical formula for Wilkinson's catalyst?",
+        "type": "short_answer",
+        "answers": [
+            "RhCl(PPh3)3",
+            "(PPh3)3RhCl"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which type of chirality does a molecule like hexahelicene exhibit?",
+        "type": "mcq",
+        "o": [
+            "Helical chirality",
+            "Central chirality",
+            "Planar chirality",
+            "Axial chirality"
+        ]
+    },
+    {
+        "q": "The Born-Oppenheimer approximation separates nuclear motion from ______ motion.",
+        "type": "fill_blank",
+        "answers": [
+            "electronic"
+        ],
+        "other_options": [
+            "vibrational",
+            "rotational",
+            "translational"
+        ]
+    },
+    {
+        "q": "Kramers' degeneracy requires an external magnetic field to be lifted.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Name the scientist who introduced the concept of fugacity.",
+        "type": "short_answer",
+        "answers": [
+            "Gilbert N. Lewis",
+            "Lewis"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following complexes is paramagnetic?",
+        "type": "mcq",
+        "o": [
+            "[FeF6]3-",
+            "[Fe(CN)6]4-",
+            "[Co(NH3)6]3+",
+            "[Ni(CN)4]2-"
+        ]
+    },
+    {
+        "q": "Match the crystal defect to its effect on density:",
+        "type": "match",
+        "left": [
+            "Schottky defect",
+            "Frenkel defect",
+            "Metal excess defect",
+            "Interstitial impurity"
+        ],
+        "right": [
+            "Decreases density",
+            "No change",
+            "Increases density",
+            "Increases density"
+        ]
+    },
+    {
+        "q": "The term symbol for a p2 configuration with maximum multiplicity is 3P.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name of the highest occupied molecular orbital?",
+        "type": "short_answer",
+        "answers": [
+            "HOMO"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of the following best describes the bonding in diborane (B2H6)?",
+        "type": "mcq",
+        "o": [
+            "Three-center two-electron bonds",
+            "Ionic bonds",
+            "Simple covalent bonds",
+            "Metallic bonds"
+        ]
+    },
+    {
+        "q": "The chemical potential of a component in a mixture must be ______ in all phases at equilibrium.",
+        "type": "fill_blank",
+        "answers": [
+            "equal"
+        ],
+        "other_options": [
+            "different",
+            "zero",
+            "maximum"
+        ]
+    },
+    {
+        "q": "ESR spectroscopy detects species with unpaired electrons.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the formula for the Racah parameter B in terms of interelectronic repulsion?",
+        "type": "short_answer",
+        "answers": [
+            "interelectronic repulsion parameter"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which approximation solves the Schrodinger equation by treating the total wavefunction as a product of single-electron wavefunctions?",
+        "type": "mcq",
+        "o": [
+            "Hartree-Fock method",
+            "Born-Oppenheimer approximation",
+            "Huckel method",
+            "Density Functional Theory"
+        ]
+    },
+    {
+        "q": "The number of vibrational modes for a linear molecule with N atoms is ______.",
+        "type": "fill_blank",
+        "answers": [
+            "3N-5"
+        ],
+        "other_options": [
+            "3N-6",
+            "3N",
+            "2N-1"
+        ]
+    },
+    {
+        "q": "Match the spectroscopic selection rule to the transition:",
+        "type": "match",
+        "left": [
+            "IR spectroscopy",
+            "Raman spectroscopy",
+            "UV-Vis spectroscopy",
+            "NMR spectroscopy"
+        ],
+        "right": [
+            "Change in dipole moment",
+            "Change in polarizability",
+            "Allowed electronic transition",
+            "Change in nuclear spin state"
+        ]
+    },
+    {
+        "q": "T1/2 for a first-order reaction is directly proportional to the rate constant k.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the thermodynamic quantity plotted against temperature to find the Debye temperature?",
+        "type": "short_answer",
+        "answers": [
+            "heat capacity",
+            "specific heat",
+            "Cv"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of magnetic behavior is characterized by a negative and very small magnetic susceptibility?",
+        "type": "mcq",
+        "o": [
+            "Diamagnetism",
+            "Paramagnetism",
+            "Ferromagnetism",
+            "Antiferromagnetism"
+        ]
+    },
+    {
+        "q": "The Clausius-Clapeyron equation describes the phase boundary between ______ phases.",
+        "type": "fill_blank",
+        "answers": [
+            "two",
+            "solid-liquid",
+            "liquid-gas"
+        ],
+        "other_options": [
+            "three",
+            "critical",
+            "triple"
+        ]
+    },
+    {
+        "q": "Cesium chloride adopts a body-centered cubic lattice structure.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Provide the formula for calculating the CFSE for a d6 low-spin octahedral complex.",
+        "type": "short_answer",
+        "answers": [
+            "-2.4 Delta_o + 2P",
+            "-2.4 Delta oct + 2P"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which operator in quantum mechanics corresponds to the total energy of a system?",
+        "type": "mcq",
+        "o": [
+            "Hamiltonian operator",
+            "Ladder operator",
+            "Angular momentum operator",
+            "Parity operator"
+        ]
+    },
+    {
+        "q": "The excess thermodynamic function V_E represents the excess ______.",
+        "type": "fill_blank",
+        "answers": [
+            "volume"
+        ],
+        "other_options": [
+            "enthalpy",
+            "entropy",
+            "free energy"
+        ]
+    },
+    {
+        "q": "The chemical shift in NMR is measured in parts per million (ppm).",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name of the theorem stating that the electron density determines all ground state properties?",
+        "type": "short_answer",
+        "answers": [
+            "Hohenberg-Kohn theorem"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of phase transition is the lambda transition in liquid helium?",
+        "type": "mcq",
+        "o": [
+            "Second-order",
+            "First-order",
+            "Triple point",
+            "Critical point"
+        ]
+    },
+    {
+        "q": "Match the concept to the thermodynamic potential:",
+        "type": "match",
+        "left": [
+            "Helmholtz free energy",
+            "Gibbs free energy",
+            "Enthalpy",
+            "Internal energy"
+        ],
+        "right": [
+            "A = U - TS",
+            "G = H - TS",
+            "H = U + PV",
+            "U"
+        ]
+    },
+    {
+        "q": "For a perfectly ideal solution, the enthalpy of mixing is zero.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Define the term 'nephelauxetic effect'.",
+        "type": "short_answer",
+        "answers": [
+            "reduction in interelectronic repulsion",
+            "cloud expanding effect"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which magnetic technique is most sensitive to the oxidation state and coordination environment of a metal center?",
+        "type": "mcq",
+        "o": [
+            "Electron Paramagnetic Resonance",
+            "Nuclear Magnetic Resonance",
+            "Magnetic Susceptibility Balance",
+            "Mossbauer Spectroscopy"
+        ]
+    },
+    {
+        "q": "The transition state theory was developed by Eyring and ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Polanyi",
+            "Evans"
+        ],
+        "other_options": [
+            "Arrhenius",
+            "Gibbs",
+            "Boltzmann"
+        ]
+    },
+    {
+        "q": "Group theory predicts that only IR active modes transform as x, y, or z.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the ground state term symbol for a d3 ion in an octahedral field?",
+        "type": "short_answer",
+        "answers": [
+            "4A2g"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which of the following best describes the intrinsic viscosity of a polymer solution?",
+        "type": "mcq",
+        "o": [
+            "Limit of reduced viscosity at infinite dilution",
+            "Solution viscosity at 1 g/dL",
+            "Ratio of solvent to solute viscosity",
+            "Viscosity at the critical overlap concentration"
+        ]
+    },
+    {
+        "q": "The Madelung constant is specific to the ______ type.",
+        "type": "fill_blank",
+        "answers": [
+            "crystal structure",
+            "lattice"
+        ],
+        "other_options": [
+            "chemical bond",
+            "element",
+            "ion"
+        ]
+    },
+    {
+        "q": "Gouy balance measures magnetic susceptibility using a static magnetic field gradient.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Give the Schoenflies symbol for the symmetry point group of ferrocene (eclipsed conformation).",
+        "type": "short_answer",
+        "answers": [
+            "D5h"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which equation relates the rate constant to the thermodynamic equilibrium constant?",
+        "type": "mcq",
+        "o": [
+            "Eyring equation",
+            "Arrhenius equation",
+            "Van't Hoff equation",
+            "Nernst equation"
+        ]
+    },
+    {
+        "q": "Marcus theory is most commonly applied to describe ______ transfer reactions.",
+        "type": "fill_blank",
+        "answers": [
+            "electron",
+            "outer-sphere electron"
+        ],
+        "other_options": [
+            "proton",
+            "atom",
+            "group"
+        ]
+    },
+    {
+        "q": "A perfectly elastic collision in the kinetic theory of gases results in a gain of kinetic energy.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the name of the phenomenon where a molecule has a non-zero electric dipole moment in its ground vibrational state?",
+        "type": "short_answer",
+        "answers": [
+            "permanent dipole moment"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which basis set incorporates polarization functions to account for distortion of atomic orbitals in a molecule?",
+        "type": "mcq",
+        "o": [
+            "6-31G(d,p)",
+            "STO-3G",
+            "3-21G",
+            "6-31G"
+        ]
+    },
+    {
+        "q": "The radial distribution function, g(r), approaches ______ at long distances for a liquid.",
+        "type": "fill_blank",
+        "answers": [
+            "1",
+            "unity"
+        ],
+        "other_options": [
+            "0",
+            "infinity",
+            "-1"
+        ]
+    },
+    {
+        "q": "Match the term to its definition in statistical mechanics:",
+        "type": "match",
+        "left": [
+            "Microstate",
+            "Ensemble",
+            "Partition function",
+            "Degeneracy"
+        ],
+        "right": [
+            "Specific configuration",
+            "Collection of microstates",
+            "Sum over states",
+            "States with same energy"
+        ]
+    },
+    {
+        "q": "The NOE (Nuclear Overhauser Effect) is a through-bond coupling phenomenon.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Provide the chemical formula for Zeise's salt.",
+        "type": "short_answer",
+        "answers": [
+            "K[PtCl3(C2H4)].H2O"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which term describes the splitting of NMR signals due to neighboring non-equivalent nuclei?",
+        "type": "mcq",
+        "o": [
+            "Spin-spin coupling",
+            "Chemical shift",
+            "Quadrupolar relaxation",
+            "Paramagnetic broadening"
+        ]
+    },
+    {
+        "q": "The BET isotherm is an extension of the Langmuir isotherm for ______ adsorption.",
+        "type": "fill_blank",
+        "answers": [
+            "multilayer"
+        ],
+        "other_options": [
+            "monolayer",
+            "chemisorption",
+            "dissociative"
+        ]
+    },
+    {
+        "q": "Curie's Law states that magnetic susceptibility is inversely proportional to temperature.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for a solid solution where the solute atoms occupy interstitial sites in the host lattice?",
+        "type": "short_answer",
+        "answers": [
+            "interstitial solid solution",
+            "interstitial alloy"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following is a zero-dimensional nanomaterial?",
+        "type": "mcq",
+        "o": [
+            "Quantum dot",
+            "Nanowire",
+            "Nanotube",
+            "Nanosheet"
+        ]
+    },
+    {
+        "q": "The isoelectric point (pI) is the pH at which a molecule carries no net ______ charge.",
+        "type": "fill_blank",
+        "answers": [
+            "electrical",
+            "net"
+        ],
+        "other_options": [
+            "positive",
+            "negative",
+            "ionic"
+        ]
+    },
+    {
+        "q": "In a 2D NMR COSY spectrum, cross-peaks indicate nuclei that are coupled through bonds.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Name the rule used to estimate the relative energies of carbocations based on hyperconjugation.",
+        "type": "short_answer",
+        "answers": [
+            "Baker-Nathan effect"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of mass analyzer uses a magnetic field to separate ions based on momentum-to-charge ratio?",
+        "type": "mcq",
+        "o": [
+            "Sector mass analyzer",
+            "Quadrupole mass analyzer",
+            "Time-of-flight mass analyzer",
+            "Ion trap mass analyzer"
+        ]
+    },
+    {
+        "q": "The Kirkendall effect is evidence for the ______ mechanism of diffusion in solids.",
+        "type": "fill_blank",
+        "answers": [
+            "vacancy"
+        ],
+        "other_options": [
+            "interstitial",
+            "grain boundary",
+            "surface"
+        ]
+    },
+    {
+        "q": "An azeotrope can be separated into its pure components by simple distillation.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the IUPAC name for the ligand abbreviated as 'acac'?",
+        "type": "short_answer",
+        "answers": [
+            "acetylacetonate",
+            "pentane-2,4-dionate"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which theorem relates the exchange-correlation energy to the electron density?",
+        "type": "mcq",
+        "o": [
+            "Kohn-Sham theorem",
+            "Hohenberg-Kohn theorem",
+            "Hellmann-Feynman theorem",
+            "Jahn-Teller theorem"
+        ]
+    },
+    {
+        "q": "The solubility parameter (Hildebrand parameter) is derived from the ______ of vaporization.",
+        "type": "fill_blank",
+        "answers": [
+            "enthalpy",
+            "heat"
+        ],
+        "other_options": [
+            "entropy",
+            "free energy",
+            "pressure"
+        ]
+    },
+    {
+        "q": "Orgel diagrams are correlation diagrams for d-d transitions in transition metal complexes.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the formula for the Lennard-Jones potential energy minimum?",
+        "type": "short_answer",
+        "answers": [
+            "-epsilon",
+            "well depth"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which chromatographic technique relies on specific interactions between an antibody and an antigen?",
+        "type": "mcq",
+        "o": [
+            "Affinity chromatography",
+            "Size-exclusion chromatography",
+            "Ion-exchange chromatography",
+            "Reverse-phase chromatography"
+        ]
+    },
+    {
+        "q": "The minimum value of the Pitzer acentric factor for a noble gas is approximately ______.",
+        "type": "fill_blank",
+        "answers": [
+            "0",
+            "zero"
+        ],
+        "other_options": [
+            "0.5",
+            "1",
+            "-1"
+        ]
+    },
+    {
+        "q": "Match the relaxation process to its mechanism:",
+        "type": "match",
+        "left": [
+            "T1 relaxation",
+            "T2 relaxation",
+            "Quadrupolar relaxation",
+            "Chemical exchange"
+        ],
+        "right": [
+            "Spin-lattice",
+            "Spin-spin",
+            "Nuclei with I > 1/2",
+            "Dynamic process"
+        ]
+    },
+    {
+        "q": "The Stark effect describes the splitting of spectral lines due to an external electric field.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for a molecule that is a structural isomer in rapid equilibrium?",
+        "type": "short_answer",
+        "answers": [
+            "tautomer"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which metal carbonyl cluster obeys Wade's rules for a closo structure?",
+        "type": "mcq",
+        "o": [
+            "[B6H6]2-",
+            "[Fe5(CO)15]",
+            "[Rh6(CO)16]",
+            "[Os3(CO)12]"
+        ]
+    },
+    {
+        "q": "The Tolman cone angle is used to quantify the ______ of phosphine ligands.",
+        "type": "fill_blank",
+        "answers": [
+            "steric bulk",
+            "size"
+        ],
+        "other_options": [
+            "basicity",
+            "acidity",
+            "electron donating ability"
+        ]
+    },
+    {
+        "q": "The carbon-13 isotope is NMR active, while carbon-12 is not.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Provide the formula for calculating the difference between Cp and Cv for an ideal gas.",
+        "type": "short_answer",
+        "answers": [
+            "Cp - Cv = R"
+        ],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "Which supramolecular interaction is primarily responsible for the double helix structure of DNA?",
+        "type": "mcq",
+        "o": [
+            "Pi-pi stacking",
+            "Hydrogen bonding",
+            "Hydrophobic effect",
+            "Van der Waals forces"
+        ]
+    },
+    {
+        "q": "The Fowler-Nordheim tunneling describes field electron emission from a ______ surface.",
+        "type": "fill_blank",
+        "answers": [
+            "metal",
+            "conducting"
+        ],
+        "other_options": [
+            "semiconductor",
+            "insulator",
+            "dielectric"
+        ]
+    },
+    {
+        "q": "The De Haas-van Alphen effect measures the Fermi surface of metals.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the name of the acid with the formula H[PF6]?",
+        "type": "short_answer",
+        "answers": [
+            "hexafluorophosphoric acid"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which technique measures the change in heat during a chemical reaction or phase transition?",
+        "type": "mcq",
+        "o": [
+            "Calorimetry",
+            "Spectroscopy",
+            "Chromatography",
+            "Electrochemistry"
+        ]
+    },
+    {
+        "q": "The Bodenstein approximation is also known as the ______ state approximation.",
+        "type": "fill_blank",
+        "answers": [
+            "steady"
+        ],
+        "other_options": [
+            "transition",
+            "equilibrium",
+            "kinetic"
+        ]
+    },
+    {
+        "q": "The Cotton effect is observed in Optical Rotatory Dispersion (ORD) curves.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "Define the term 'hapticity' in organometallic chemistry.",
+        "type": "short_answer",
+        "answers": [
+            "number of contiguous atoms of a ligand bound to a metal"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which type of point defect is observed in AgBr crystals?",
+        "type": "mcq",
+        "o": [
+            "Frenkel defect",
+            "Schottky defect",
+            "Metal excess defect",
+            "Metal deficiency defect"
+        ]
+    },
+    {
+        "q": "The Lindemann mechanism is a theory for ______ reactions in the gas phase.",
+        "type": "fill_blank",
+        "answers": [
+            "unimolecular"
+        ],
+        "other_options": [
+            "bimolecular",
+            "termolecular",
+            "catalytic"
+        ]
+    },
+    {
+        "q": "Match the polymer characterization method to what it measures:",
+        "type": "match",
+        "left": [
+            "GPC / SEC",
+            "DSC",
+            "XRD",
+            "Viscometry"
+        ],
+        "right": [
+            "Molecular weight distribution",
+            "Glass transition temperature",
+            "Crystallinity",
+            "Intrinsic viscosity"
+        ]
+    },
+    {
+        "q": "The rule of mutual exclusion states that a mode cannot be both IR and Raman active in a centrosymmetric molecule.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the term for the phenomenon where a molecule fluoresces from a triplet excited state?",
+        "type": "short_answer",
+        "answers": [
+            "phosphorescence"
+        ],
+        "isCaseSensitive": false
+    }
+]
