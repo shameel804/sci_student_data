@@ -1,0 +1,52 @@
+**Course Details:**
+- **Course Name:** [INSERT COURSE NAME, e.g., Chemistry]
+- **Class:** [INSERT CLASS, e.g., VIII]
+- **Full Course Identifier in constants.dart:** [INSERT FULL IDENTIFIER, e.g., Chemistry (VIII)]
+
+### Instructions for AI Agent:
+You are acting as an autonomous pipeline. Please execute the following steps precisely. Do NOT try to generate everything in a single response, as you will hit output limits. You must act as a task manager, doing ONE title at a time, and ONE batch at a time.
+
+1. **Setup:**
+   - Read `constants.dart`.
+   - Locate the array of items under the provided **Full Course Identifier**.
+   - Create a new directory inside `v1` named exactly as the Full Course Identifier (e.g., `v1/Chemistry (VIII)`).
+
+2. **Task Processing Loop (One Title at a Time):**
+   Create a task list of all the titles in the course array. For each title item (`id`, `title`, `topics`), process it completely before moving to the next. 
+
+   **For the current title item, follow these EXACT sub-steps:**
+   
+   **Step A: Initialize Files**
+   - Write an empty JSON array `[]` to both `original_data.json` and `new_data.json`.
+
+   **Step B: Sequential MCQ Generation (6 Batches)**
+   - Read the instructions in `mcq_prompt.txt`.
+   - You need to generate 6 separate batches of MCQs for this title. Do NOT generate them all at once.
+   - For Batch 1 to 6:
+     1. Generate the batch of MCQs based on the prompt (mentally replacing `<COURSE>`, Title, topics, and Class).
+     2. Read the current contents of `original_data.json`.
+     3. Append the newly generated JSON objects into the array in the file.
+     4. Write the updated array back to `original_data.json`.
+     5. Wait for the file write to complete before starting the next batch.
+
+   **Step C: Other Question Types Generation**
+   - Read the instructions in `other_types_prompt.txt`.
+   - Generate the other question types for this title based on the prompt (mentally replacing `<COURSE>`, Title, topics, and Class).
+   - Read the current contents of `new_data.json`.
+   - Append the newly generated JSON objects into the array.
+   - Write the updated array back to `new_data.json`.
+   - Wait for the file write to complete.
+
+   **Step D: Merge Data**
+   - Run the python script `merge_quizzes.py` (e.g., `python3 merge_quizzes.py`). This script expects both `original_data.json` and `new_data.json` to be fully populated for the current title. Wait for the script to finish successfully.
+
+   **Step E: Save Output**
+   - Move the resulting `original_data.json` file into the course directory in `v1`.
+   - Rename the file to `<id>.json` (where `<id>` is the current item's id, e.g., `v1/Chemistry (VIII)/fibers.json`).
+
+   **Step F: Cleanup**
+   - Empty out `original_data.json` and `new_data.json` (write an empty string to them).
+
+3. **Next Title:**
+   - Proceed to the next title in the course array and repeat Step 2.
+   - Stop only when the entire course is completed. Let the user know when all titles are finished.

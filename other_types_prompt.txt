@@ -1,0 +1,180 @@
+Generate Electromagnetism (BSc) quiz on the title "TITLE" in JSON format. You should cover these topics:
+TOPICS etc.
+
+Quizzes must be for students of BSc.
+
+Sample JSON:
+[
+    {
+        "q": "What is the SI unit of force?",
+        "type": "short_answer",
+        "answers": ["Newton"],
+        "isCaseSensitive": true
+    },
+    {
+        "q": "The _____ of an object is a measure of its inertia.",
+        "type": "fill_blank",
+        "answers": ["mass"],
+        "other_options": ["weight", "speed", "force"]
+    },
+    {
+        "q": "Match the physical quantities with their units:",
+        "type": "match",
+        "left": ["Force", "Velocity", "Acceleration", "Work"],
+        "right": ["Newton", "Meter per second", "Meter per second squared", "Joule"]
+    },
+    {
+        "q": "In physics, mass and weight are exactly the same thing.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the approximate value of standard gravity in m/s^2? (Round to nearest integer)",
+        "type": "slider",
+        "min": 5,
+        "max": 15,
+        "correct": 10
+    },
+    {
+        "q": "Match the term with its definition by flipping pairs.",
+        "type": "memory",
+        "pairs": {
+            "Kinematics": "Study of motion without forces",
+            "Dynamics": "Study of forces and torques",
+            "Statics": "Study of systems in equilibrium"
+        }
+    },
+    {
+        "q": "Which of these is not a fundamental force?",
+        "type": "odd_one_out",
+        "options": ["Gravity", "Electromagnetism", "Friction", "Strong Nuclear"],
+        "correct": "Friction"
+    },
+    {
+        "q": "Swipe RIGHT for contact forces, LEFT for field forces",
+        "type": "swipe_cards",
+        "left_label": "Field Force",
+        "right_label": "Contact Force",
+        "cards": {
+            "Friction": "right",
+            "Gravity": "left",
+            "Tension": "right",
+            "Magnetic": "left"
+        }
+    },
+    {
+        "q": "What is the push or pull on an object with mass?",
+        "type": "word_scramble",
+        "answer": "FORCE",
+        "decoys": "ZQX"
+    },
+    {
+        "q": "Complete the sentence:",
+        "type": "inline_dropdown",
+        "text": "Newton's First Law is the law of [0], and Newton's Third Law states that every action has an equal and opposite [1].",
+        "dropdowns": [
+            {"correct": "inertia", "options": ["gravity", "inertia", "momentum"]},
+            {"correct": "reaction", "options": ["motion", "reaction", "force"]}
+        ]
+    }
+]
+
+Question Types Allowed
+Only the following question types are permitted:
+* "short_answer"
+* "fill_blank"
+* "match"
+* "true_false"
+* "slider"
+* "memory"
+* "odd_one_out"
+* "swipe_cards"
+* "word_scramble"
+* "inline_dropdown"
+Do not use any type string other than those listed above.
+
+CRITICAL RULES — OBEY 100% OR THE APP WILL CRASH:
+1. NEVER use LaTeX, MathJax, or backslashes: no \alpha, no \mu, no \bar{x}, no \( \), no $$ etc.
+2. NEVER use Unicode math symbols: no α, β, μ, σ, x̄, ±, ≤, ≥, ≠, √ etc.
+3. Use ONLY plain ASCII + simple Markdown (**bold**, *italic*).
+
+General Requirements
+* Output must be valid JSON.
+
+1. Short answer (type: "short_answer")
+* ONLY use this type for questions with a specific, factual answer that can be fully exhausted in the "answers" list (e.g., chemical symbols, specific terms). See the "carbon dioxide" or "Au" examples above.
+* DO NOT use this type for open-ended questions with many possible correct answers (e.g., "Give an example of a non-living thing..."). If there are too many possibilities to list, do not use "short_answer".
+* The learner types a free-form answer (no "o" multiple-choice list).
+* "answers" must list every acceptable answer. Use more than one string when synonyms or alternative spellings are valid (e.g. ["int", "integer"]).
+* In rare cases "answers" may be a single JSON string instead of an array; the app accepts both forms.
+* "isCaseSensitive": use true if the user's typing must match capitalization exactly; use false or omit for case-insensitive checking (if omitted, treat as false).
+
+2. Fill-in-the-Blank (type: "fill_blank")
+* Count the number of "______" blanks in the question.
+* The "answers" list must contain exactly the same number of items.
+* "answers": list of correct answers in the exact order of the blanks (first blank → index 0, second → index 1, etc.).
+* If the question has one blank, "answers" must contain exactly one item. If two blanks, "answers" will have two options.
+* Include "other_options" with 3-4 alternative answers for validation purposes.
+
+3. Match (type: "match")
+* "left" and "right" must be lists with the same number of items (4-6 items recommended).
+* The correct matches must be aligned by index.
+* Keep all items short and clear.
+
+4. True/False (type: "true_false")
+* "correct" must be either "True" or "False".
+* Statements must be clear and unambiguous.
+
+5. Slider (type: "slider")
+* "min": The minimum numerical value of the slider (must be integer).
+* "max": The maximum numerical value of the slider (must be integer).
+* "correct": The exact correct numeric answer. Ensure "correct" is between "min" and "max" inclusive.
+
+6. Memory Grid (type: "memory")
+* "pairs": A JSON object containing 3 to 6 key-value string pairs that the user must match.
+* The keys should be short (e.g. terms), and the values should be their matching definitions.
+* Ensure keys and values are unique and unambiguous.
+
+7. Odd One Out (type: "odd_one_out")
+* "options": A list of exactly 4 to 9 string items where all but one share a common characteristic.
+* "correct": The single string item from "options" that does NOT belong. Must exactly match one of the items in "options".
+
+8. Swipe Cards (type: "swipe_cards")
+* "left_label": Text for the left swipe bin (e.g. "False" or "Immutable").
+* "right_label": Text for the right swipe bin (e.g. "True" or "Mutable").
+* "cards": A JSON object containing exactly 3 to 6 key-value string pairs. The keys are the card texts. The values must strictly be "left" or "right" depending on their category.
+
+9. Word Scramble (type: "word_scramble")
+* "answer": The correct one-word answer in all caps.
+* "decoys": 2 to 4 decoy random uppercase letters to scramble alongside the answer (e.g. "ZQX").
+
+10. Inline Dropdown (type: "inline_dropdown")
+* "text": A sentence or short paragraph containing brackets with indices like `[0]`, `[1]`, etc. representing blanks.
+* "dropdowns": An array of objects. Each object corresponds to the index in the text.
+* Each dropdown object must have "correct" (the right string answer) and "options" (a list of 3 strings including the correct one).
+
+You need to generate in batches of 100 questions each. Each batch needs a mix of all question types.
+
+Overall Counts (100 questions per batch):
+* Short answer: 10 questions
+* Fill_in_the_blank: 10 questions
+* True/False: 10 questions
+* Match: 10 questions
+* Slider: 10 questions
+* Memory: 10 questions
+* Odd_one_out: 10 questions
+* Swipe_cards: 10 questions
+* Word_scramble: 10 questions
+* Inline_dropdown: 10 questions
+
+Distribution Pattern (MUST FOLLOW): Questions must be evenly distributed throughout the batch. DO NOT group all questions of the same type together.
+
+CRITICAL RULE: Each question must cover a **distinct learning objective** or **sub-topic**. Do not ask about the same concept
+
+CRITICAL RULE: You must gradually increase the difficulty on each question progression within the batch. Start with easier questions and progress to more complex ones.
+
+Batches will be:
+Batch 1 (100+ questions) (Beginner-Intermediate)
+Batch 2 (100+ questions) (Intermediate-Advanced)
+
+For now generate the first 100+ questions batch (Beginner-Intermediate). Do not use canvas.
