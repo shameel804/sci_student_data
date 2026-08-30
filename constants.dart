@@ -1561,6 +1561,7 @@ class Constants {
         ],
       },
     ],
+
     "Zoology (BSc)": [
       {
         'id': 'cell',
@@ -2790,6 +2791,9 @@ class Constants {
         ],
       },
     ],
+
+
+    
     "Nanochemistry (MSc)": [
       {
         'id': 'nanoparticles',
@@ -2824,7 +2828,7 @@ class Constants {
           'Structural characterization',
         ],
       },
-    ],
+    ], 
     "Advanced Quantum Mechanics (MSc)": [
       {
         'id': 'relativistic',

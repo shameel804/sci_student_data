@@ -1,0 +1,7609 @@
+[
+    {
+        "q": "What is the smallest unit of an element that retains its chemical properties?",
+        "o": [
+            "Atom",
+            "Molecule",
+            "Ion",
+            "Electron"
+        ]
+    },
+    {
+        "q": "Who proposed the modern atomic theory?",
+        "o": [
+            "John Dalton",
+            "Antoine Lavoisier",
+            "Joseph Proust",
+            "Democritus"
+        ]
+    },
+    {
+        "q": "What is a molecule?",
+        "o": [
+            "A group of two or more atoms bonded together",
+            "A single atom of an element",
+            "A charged particle",
+            "A subatomic particle"
+        ]
+    },
+    {
+        "q": "Which law states that mass is neither created nor destroyed in a chemical reaction?",
+        "o": [
+            "Law of conservation of mass",
+            "Law of constant proportions",
+            "Law of multiple proportions",
+            "Law of reciprocal proportions"
+        ]
+    },
+    {
+        "q": "Who gave the law of constant proportions?",
+        "o": [
+            "Joseph Proust",
+            "John Dalton",
+            "Antoine Lavoisier",
+            "Robert Boyle"
+        ]
+    },
+    {
+        "q": "According to the law of constant proportions, water will always contain hydrogen and oxygen in the mass ratio of:",
+        "o": [
+            "1:8",
+            "1:16",
+            "2:1",
+            "8:1"
+        ]
+    },
+    {
+        "q": "The law of multiple proportions was proposed by:",
+        "o": [
+            "John Dalton",
+            "Joseph Proust",
+            "Antoine Lavoisier",
+            "J.J. Thomson"
+        ]
+    },
+    {
+        "q": "Name the scientist who formulated the Law of Conservation of Mass.",
+        "type": "short_answer",
+        "answers": [
+            "Lavoisier",
+            "Antoine Lavoisier"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The Law of Constant ______ states that in a chemical substance elements are always present in definite proportions by mass.",
+        "type": "fill_blank",
+        "answers": [
+            "Proportions"
+        ],
+        "other_options": [
+            "Conservation",
+            "Volume",
+            "Energy"
+        ]
+    },
+    {
+        "q": "What is the chemical symbol for gold?",
+        "o": [
+            "Au",
+            "Ag",
+            "Fe",
+            "Pb"
+        ]
+    },
+    {
+        "q": "What is the chemical symbol for potassium?",
+        "o": [
+            "K",
+            "P",
+            "Po",
+            "Pt"
+        ]
+    },
+    {
+        "q": "The Latin name of sodium is:",
+        "o": [
+            "Natrium",
+            "Kalium",
+            "Ferrum",
+            "Cuprum"
+        ]
+    },
+    {
+        "q": "Match the scientist to their contribution.",
+        "type": "match",
+        "left": [
+            "Lavoisier",
+            "Proust",
+            "Dalton",
+            "Democritus"
+        ],
+        "right": [
+            "Law of Conservation of Mass",
+            "Law of Constant Proportions",
+            "Atomic Theory",
+            "Concept of Atomos"
+        ]
+    },
+    {
+        "q": "What is the atomicity of oxygen gas (O2)?",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "According to Dalton's atomic theory, atoms of the same element can have different masses.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "How many main laws of chemical combination are studied in this chapter?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "What is the atomicity of ozone (O3)?",
+        "o": [
+            "3",
+            "1",
+            "2",
+            "4"
+        ]
+    },
+    {
+        "q": "Match the Dalton postulate halves.",
+        "type": "memory",
+        "pairs": {
+            "All matter is made of": "very tiny particles called atoms",
+            "Atoms are indivisible particles": "which cannot be created or destroyed",
+            "Atoms of a given element": "are identical in mass and properties"
+        }
+    },
+    {
+        "q": "What is the atomicity of helium?",
+        "o": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "Which of the following is a monatomic molecule?",
+        "o": [
+            "Argon",
+            "Oxygen",
+            "Nitrogen",
+            "Chlorine"
+        ]
+    },
+    {
+        "q": "Which of the following is a diatomic molecule?",
+        "o": [
+            "Hydrogen",
+            "Helium",
+            "Neon",
+            "Ozone"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a postulate of Dalton's atomic theory?",
+        "type": "odd_one_out",
+        "options": [
+            "Matter consists of indivisible atoms",
+            "Atoms of different elements have different masses",
+            "Atoms contain protons and electrons",
+            "Atoms combine in simple whole number ratios"
+        ],
+        "correct": "Atoms contain protons and electrons"
+    },
+    {
+        "q": "What is the atomic mass unit (amu) defined as?",
+        "o": [
+            "1/12th the mass of a carbon-12 atom",
+            "1/16th the mass of an oxygen-16 atom",
+            "The mass of one hydrogen atom",
+            "The mass of one electron"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for 'Dalton's Theory' and RIGHT for 'Modern Theory'.",
+        "type": "swipe_cards",
+        "left_label": "Dalton's Theory",
+        "right_label": "Modern Theory",
+        "cards": {
+            "Atoms are indivisible": "left",
+            "Atoms have subatomic particles": "right",
+            "All atoms of an element are perfectly identical": "left",
+            "Isotopes exist with different masses": "right"
+        }
+    },
+    {
+        "q": "The atomic mass of an element is expressed in:",
+        "o": [
+            "u (unified mass)",
+            "Gram",
+            "Kilogram",
+            "Mole"
+        ]
+    },
+    {
+        "q": "What is the approximate atomic mass of hydrogen?",
+        "o": [
+            "1 u",
+            "2 u",
+            "4 u",
+            "16 u"
+        ]
+    },
+    {
+        "q": "What is the approximate atomic mass of carbon?",
+        "o": [
+            "12 u",
+            "1 u",
+            "14 u",
+            "16 u"
+        ]
+    },
+    {
+        "q": "The Greek word meaning 'indivisible' from which 'atom' is derived.",
+        "type": "word_scramble",
+        "answer": "ATOMOS",
+        "decoys": "ZQX"
+    },
+    {
+        "q": "What is the approximate atomic mass of oxygen?",
+        "o": [
+            "16 u",
+            "8 u",
+            "12 u",
+            "32 u"
+        ]
+    },
+    {
+        "q": "According to the law of conservation of mass, mass can neither be [0] nor [1] in a chemical reaction.",
+        "type": "inline_dropdown",
+        "text": "According to the law of conservation of mass, mass can neither be [0] nor [1] in a chemical reaction.",
+        "dropdowns": [
+            {
+                "correct": "created",
+                "options": [
+                    "created",
+                    "increased",
+                    "weighed"
+                ]
+            },
+            {
+                "correct": "destroyed",
+                "options": [
+                    "destroyed",
+                    "decreased",
+                    "measured"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The molecular mass of a substance is the sum of the atomic masses of all atoms in a:",
+        "o": [
+            "Molecule",
+            "Ion",
+            "Electron",
+            "Nucleus"
+        ]
+    },
+    {
+        "q": "What is the chemical symbol for Gold?",
+        "type": "short_answer",
+        "answers": [
+            "Au",
+            "au"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the molecular mass of water (H2O)? (H=1u, O=16u)",
+        "o": [
+            "18 u",
+            "17 u",
+            "16 u",
+            "20 u"
+        ]
+    },
+    {
+        "q": "Atomic radius is extremely small and is typically measured in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "nanometers"
+        ],
+        "other_options": [
+            "centimeters",
+            "meters",
+            "kilometers"
+        ]
+    },
+    {
+        "q": "What is the molecular mass of carbon dioxide (CO2)? (C=12u, O=16u)",
+        "o": [
+            "44 u",
+            "28 u",
+            "32 u",
+            "40 u"
+        ]
+    },
+    {
+        "q": "Match the English name of the element to its Latin name.",
+        "type": "match",
+        "left": [
+            "Iron",
+            "Sodium",
+            "Potassium",
+            "Silver"
+        ],
+        "right": [
+            "Ferrum",
+            "Natrium",
+            "Kalium",
+            "Argentum"
+        ]
+    },
+    {
+        "q": "The IUPAC is an international organization that approves names and symbols of elements.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the formula unit mass of sodium chloride (NaCl)? (Na=23u, Cl=35.5u)",
+        "o": [
+            "58.5 u",
+            "55 u",
+            "60 u",
+            "50 u"
+        ]
+    },
+    {
+        "q": "One mole of any substance contains how many particles?",
+        "o": [
+            "6.022 x 10^23",
+            "3.011 x 10^23",
+            "6.022 x 10^22",
+            "3.011 x 10^22"
+        ]
+    },
+    {
+        "q": "How many atoms are present in a single molecule of ozone?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "Avogadro's number is named after:",
+        "o": [
+            "Amedeo Avogadro",
+            "John Dalton",
+            "Antoine Lavoisier",
+            "Robert Boyle"
+        ]
+    },
+    {
+        "q": "The molar mass of a substance is the mass of:",
+        "o": [
+            "1 mole of the substance",
+            "1 atom of the substance",
+            "1 molecule of the substance",
+            "1 gram of the substance"
+        ]
+    },
+    {
+        "q": "What is the molar mass of water (H2O)? (H=1g/mol, O=16g/mol)",
+        "o": [
+            "18 g/mol",
+            "16 g/mol",
+            "20 g/mol",
+            "17 g/mol"
+        ]
+    },
+    {
+        "q": "How many moles are present in 36 g of water? (Molar mass = 18 g/mol)",
+        "o": [
+            "2 moles",
+            "0.5 moles",
+            "1 mole",
+            "4 moles"
+        ]
+    },
+    {
+        "q": "Which of the following represents one mole of oxygen gas (O2)?",
+        "o": [
+            "32 g of O2",
+            "16 g of O2",
+            "8 g of O2",
+            "64 g of O2"
+        ]
+    },
+    {
+        "q": "Match the element to its chemical symbol.",
+        "type": "memory",
+        "pairs": {
+            "Copper": "Cu",
+            "Zinc": "Zn",
+            "Chlorine": "Cl",
+            "Calcium": "Ca"
+        }
+    },
+    {
+        "q": "The chemical formula of calcium oxide is:",
+        "o": [
+            "CaO",
+            "Ca2O",
+            "CaO2",
+            "Ca2O3"
+        ]
+    },
+    {
+        "q": "The chemical formula of magnesium chloride is:",
+        "o": [
+            "MgCl2",
+            "MgCl",
+            "Mg2Cl",
+            "Mg2Cl2"
+        ]
+    },
+    {
+        "q": "What is the valency of sodium (Na)?",
+        "o": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "Which element has a one-letter symbol?",
+        "type": "odd_one_out",
+        "options": [
+            "Chlorine",
+            "Copper",
+            "Carbon",
+            "Calcium"
+        ],
+        "correct": "Carbon"
+    },
+    {
+        "q": "What is the valency of magnesium (Mg)?",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "What is the valency of aluminium (Al)?",
+        "o": [
+            "3",
+            "1",
+            "2",
+            "4"
+        ]
+    },
+    {
+        "q": "The valency of oxygen is:",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "The valency of chlorine is:",
+        "o": [
+            "1",
+            "2",
+            "3",
+            "7"
+        ]
+    },
+    {
+        "q": "What is the combining capacity of an element called?",
+        "o": [
+            "Valency",
+            "Atomicity",
+            "Mass number",
+            "Atomic mass"
+        ]
+    },
+    {
+        "q": "What is the chemical formula of methane?",
+        "o": [
+            "CH4",
+            "CH3",
+            "CH2",
+            "C2H4"
+        ]
+    },
+    {
+        "q": "What is the chemical formula of ammonia?",
+        "o": [
+            "NH3",
+            "NH4",
+            "N2H3",
+            "N3H"
+        ]
+    },
+    {
+        "q": "The symbol of the element cobalt is:",
+        "o": [
+            "Co",
+            "CO",
+            "Cb",
+            "Ct"
+        ]
+    },
+    {
+        "q": "Swipe LEFT if the symbol is derived from its English name, RIGHT if from its Latin name.",
+        "type": "swipe_cards",
+        "left_label": "English Derived",
+        "right_label": "Latin Derived",
+        "cards": {
+            "Oxygen": "left",
+            "Iron": "right",
+            "Hydrogen": "left",
+            "Potassium": "right"
+        }
+    },
+    {
+        "q": "Which element has the symbol 'Fe'?",
+        "o": [
+            "Iron",
+            "Fluorine",
+            "Fermium",
+            "Francium"
+        ]
+    },
+    {
+        "q": "Which element has the symbol 'Pb'?",
+        "o": [
+            "Lead",
+            "Platinum",
+            "Phosphorus",
+            "Potassium"
+        ]
+    },
+    {
+        "q": "How many atoms are present in one molecule of sulphuric acid (H2SO4)?",
+        "o": [
+            "7",
+            "6",
+            "8",
+            "5"
+        ]
+    },
+    {
+        "q": "The first letter of an element's symbol is always written as a ______ letter.",
+        "type": "word_scramble",
+        "answer": "CAPITAL",
+        "decoys": "PQR"
+    },
+    {
+        "q": "What does the formula unit mass refer to?",
+        "o": [
+            "Mass of ionic compounds",
+            "Mass of covalent compounds",
+            "Mass of an atom",
+            "Mass of an electron"
+        ]
+    },
+    {
+        "q": "The mass of 1 mole of a substance is called its:",
+        "o": [
+            "Molar mass",
+            "Atomic mass",
+            "Molecular mass",
+            "Formula mass"
+        ]
+    },
+    {
+        "q": "The scientist [0] suggested that symbols of elements be made from one or two [1] of the element's name.",
+        "type": "inline_dropdown",
+        "text": "The scientist [0] suggested that symbols of elements be made from one or two [1] of the element's name.",
+        "dropdowns": [
+            {
+                "correct": "Berzelius",
+                "options": [
+                    "Dalton",
+                    "Berzelius",
+                    "Lavoisier"
+                ]
+            },
+            {
+                "correct": "letters",
+                "options": [
+                    "numbers",
+                    "letters",
+                    "sounds"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the atomicity of Phosphorus?",
+        "type": "short_answer",
+        "answers": [
+            "4",
+            "four",
+            "tetra-atomic",
+            "tetraatomic"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the SI unit of amount of substance?",
+        "o": [
+            "Mole",
+            "Gram",
+            "Kilogram",
+            "Amu"
+        ]
+    },
+    {
+        "q": "Dalton's atomic theory stated that atoms are:",
+        "o": [
+            "Indivisible particles",
+            "Divisible into protons and neutrons",
+            "Made of electrons only",
+            "All of the same size"
+        ]
+    },
+    {
+        "q": "According to the law of conservation of mass, if 12 g of carbon burns in 32 g of oxygen, the mass of CO2 formed is:",
+        "o": [
+            "44 g",
+            "32 g",
+            "12 g",
+            "20 g"
+        ]
+    },
+    {
+        "q": "A molecule of water always contains hydrogen and oxygen in a mass ratio of 1:______.",
+        "type": "fill_blank",
+        "answers": [
+            "8"
+        ],
+        "other_options": [
+            "2",
+            "4",
+            "16"
+        ]
+    },
+    {
+        "q": "Which of these is a triatomic molecule?",
+        "o": [
+            "Ozone (O3)",
+            "Hydrogen (H2)",
+            "Helium (He)",
+            "Methane (CH4)"
+        ]
+    },
+    {
+        "q": "Match the element to its atomicity.",
+        "type": "match",
+        "left": [
+            "Argon",
+            "Oxygen",
+            "Ozone",
+            "Sulphur"
+        ],
+        "right": [
+            "Monoatomic",
+            "Diatomic",
+            "Triatomic",
+            "Polyatomic"
+        ]
+    },
+    {
+        "q": "Which of these is a tetra-atomic molecule?",
+        "o": [
+            "Phosphorus (P4)",
+            "Nitrogen (N2)",
+            "Oxygen (O2)",
+            "Water (H2O)"
+        ]
+    },
+    {
+        "q": "Noble gases like Helium and Neon form diatomic molecules.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "The formula of sodium carbonate is:",
+        "o": [
+            "Na2CO3",
+            "NaCO3",
+            "Na2CO2",
+            "NaCO2"
+        ]
+    },
+    {
+        "q": "Number of atoms in a molecule of Sulphur (S8).",
+        "type": "slider",
+        "min": 2,
+        "max": 10,
+        "correct": 8
+    },
+    {
+        "q": "Match the compound to the mass ratio of its combining elements.",
+        "type": "memory",
+        "pairs": {
+            "Ammonia": "14 to 3",
+            "Water": "1 to 8",
+            "Carbon dioxide": "3 to 8"
+        }
+    },
+    {
+        "q": "The formula of aluminium oxide is:",
+        "o": [
+            "Al2O3",
+            "AlO",
+            "Al3O2",
+            "AlO2"
+        ]
+    },
+    {
+        "q": "Which of the following is a diatomic molecule?",
+        "type": "odd_one_out",
+        "options": [
+            "He",
+            "Na",
+            "O2",
+            "Ar"
+        ],
+        "correct": "O2"
+    },
+    {
+        "q": "Swipe LEFT for Monoatomic, RIGHT for Diatomic.",
+        "type": "swipe_cards",
+        "left_label": "Monoatomic",
+        "right_label": "Diatomic",
+        "cards": {
+            "Helium": "left",
+            "Nitrogen": "right",
+            "Argon": "left",
+            "Chlorine": "right"
+        }
+    },
+    {
+        "q": "An ion is formed when an atom:",
+        "o": [
+            "Gains or loses electrons",
+            "Gains or loses protons",
+            "Shares electrons",
+            "Shares protons"
+        ]
+    },
+    {
+        "q": "A molecule made of three oxygen atoms.",
+        "type": "word_scramble",
+        "answer": "OZONE",
+        "decoys": "BQ"
+    },
+    {
+        "q": "A cation is formed when an atom:",
+        "o": [
+            "Loses electrons",
+            "Gains electrons",
+            "Shares electrons",
+            "Loses protons"
+        ]
+    },
+    {
+        "q": "An anion is formed when an atom:",
+        "o": [
+            "Gains electrons",
+            "Loses electrons",
+            "Shares electrons",
+            "Gains protons"
+        ]
+    },
+    {
+        "q": "What is the charge on a sodium ion (Na+)?",
+        "o": [
+            "+1",
+            "-1",
+            "+2",
+            "0"
+        ]
+    },
+    {
+        "q": "What is the charge on a chloride ion (Cl-)?",
+        "o": [
+            "-1",
+            "+1",
+            "-2",
+            "0"
+        ]
+    },
+    {
+        "q": "Molecules of an [0] contain the same type of atoms, whereas a [1] contains different types of atoms.",
+        "type": "inline_dropdown",
+        "text": "Molecules of an [0] contain the same type of atoms, whereas a [1] contains different types of atoms.",
+        "dropdowns": [
+            {
+                "correct": "element",
+                "options": [
+                    "element",
+                    "mixture",
+                    "ion"
+                ]
+            },
+            {
+                "correct": "compound",
+                "options": [
+                    "compound",
+                    "element",
+                    "atom"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The formula of calcium chloride is:",
+        "o": [
+            "CaCl2",
+            "CaCl",
+            "Ca2Cl",
+            "CaCl3"
+        ]
+    },
+    {
+        "q": "What do we call a positively charged ion?",
+        "type": "short_answer",
+        "answers": [
+            "Cation",
+            "cation"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the formula of magnesium oxide?",
+        "o": [
+            "MgO",
+            "Mg2O",
+            "MgO2",
+            "Mg2O3"
+        ]
+    },
+    {
+        "q": "The symbol for the element silicon is:",
+        "o": [
+            "Si",
+            "S",
+            "Sl",
+            "Sc"
+        ]
+    },
+    {
+        "q": "Anions are negatively charged ions formed by the ______ of electrons.",
+        "type": "fill_blank",
+        "answers": [
+            "gain"
+        ],
+        "other_options": [
+            "loss",
+            "sharing",
+            "transfer"
+        ]
+    },
+    {
+        "q": "Match the ion to its charge.",
+        "type": "match",
+        "left": [
+            "Sodium ion",
+            "Magnesium ion",
+            "Oxide ion",
+            "Chloride ion"
+        ],
+        "right": [
+            "+1",
+            "+2",
+            "-2",
+            "-1"
+        ]
+    },
+    {
+        "q": "Which element has the symbol 'Cu'?",
+        "o": [
+            "Copper",
+            "Cobalt",
+            "Carbon",
+            "Calcium"
+        ]
+    },
+    {
+        "q": "What is the Latin name of silver?",
+        "o": [
+            "Argentum",
+            "Aurum",
+            "Cuprum",
+            "Stannum"
+        ]
+    },
+    {
+        "q": "A polyatomic ion is a group of atoms carrying a fixed net charge.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The atomic mass of an element is determined relative to which atom?",
+        "o": [
+            "Carbon-12",
+            "Hydrogen-1",
+            "Oxygen-16",
+            "Nitrogen-14"
+        ]
+    },
+    {
+        "q": "What is the molecular mass of methane (CH4)? (C=12u, H=1u)",
+        "o": [
+            "16 u",
+            "12 u",
+            "14 u",
+            "18 u"
+        ]
+    },
+    {
+        "q": "What is the valency of Carbon in Carbon dioxide?",
+        "type": "slider",
+        "min": 1,
+        "max": 6,
+        "correct": 4
+    },
+    {
+        "q": "What is the molecular mass of ammonia (NH3)? (N=14u, H=1u)",
+        "o": [
+            "17 u",
+            "14 u",
+            "18 u",
+            "15 u"
+        ]
+    },
+    {
+        "q": "How many atoms are present in 1 mole of carbon (C)?",
+        "o": [
+            "6.022 x 10^23 atoms",
+            "12 atoms",
+            "1 atom",
+            "6.022 x 10^22 atoms"
+        ]
+    },
+    {
+        "q": "Match the polyatomic ion to its name.",
+        "type": "memory",
+        "pairs": {
+            "NH4+": "Ammonium",
+            "OH-": "Hydroxide",
+            "NO3-": "Nitrate",
+            "SO4 2-": "Sulphate"
+        }
+    },
+    {
+        "q": "The mass of 1 mole of nitrogen gas (N2) is: (N=14u)",
+        "o": [
+            "28 g",
+            "14 g",
+            "7 g",
+            "42 g"
+        ]
+    },
+    {
+        "q": "Identify the anion among these cations.",
+        "type": "odd_one_out",
+        "options": [
+            "Sodium ion",
+            "Calcium ion",
+            "Chloride ion",
+            "Potassium ion"
+        ],
+        "correct": "Chloride ion"
+    },
+    {
+        "q": "How many moles are in 20 g of calcium? (Ca=40u)",
+        "o": [
+            "0.5 moles",
+            "2 moles",
+            "1 mole",
+            "4 moles"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Cation, RIGHT for Anion.",
+        "type": "swipe_cards",
+        "left_label": "Cation",
+        "right_label": "Anion",
+        "cards": {
+            "Calcium ion": "left",
+            "Oxide ion": "right",
+            "Aluminum ion": "left",
+            "Sulphide ion": "right"
+        }
+    },
+    {
+        "q": "How many grams are in 2 moles of sodium? (Na=23u)",
+        "o": [
+            "46 g",
+            "23 g",
+            "11.5 g",
+            "92 g"
+        ]
+    },
+    {
+        "q": "Which of the following is a polyatomic ion?",
+        "o": [
+            "Sulphate (SO4 2-)",
+            "Chloride (Cl-)",
+            "Sodium (Na+)",
+            "Oxide (O2-)"
+        ]
+    },
+    {
+        "q": "The combining power or capacity of an element.",
+        "type": "word_scramble",
+        "answer": "VALENCY",
+        "decoys": "XYZ"
+    },
+    {
+        "q": "The valency of sulphate ion (SO4) is:",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "When writing a chemical formula, the [0] or positive ion is written first, followed by the [1] or negative ion.",
+        "type": "inline_dropdown",
+        "text": "When writing a chemical formula, the [0] or positive ion is written first, followed by the [1] or negative ion.",
+        "dropdowns": [
+            {
+                "correct": "metal",
+                "options": [
+                    "metal",
+                    "non-metal",
+                    "metalloid"
+                ]
+            },
+            {
+                "correct": "non-metal",
+                "options": [
+                    "metal",
+                    "non-metal",
+                    "noble gas"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The valency of nitrate ion (NO3) is:",
+        "o": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "The chemical formula of sodium sulphate is:",
+        "o": [
+            "Na2SO4",
+            "NaSO4",
+            "Na2SO3",
+            "NaSO3"
+        ]
+    },
+    {
+        "q": "Write the chemical formula of Hydrogen chloride.",
+        "type": "short_answer",
+        "answers": [
+            "HCl",
+            "hcl"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "To write a chemical formula, we must cross over the ______ of the combining elements.",
+        "type": "fill_blank",
+        "answers": [
+            "valencies"
+        ],
+        "other_options": [
+            "masses",
+            "symbols",
+            "volumes"
+        ]
+    },
+    {
+        "q": "The chemical formula of aluminium chloride is:",
+        "o": [
+            "AlCl3",
+            "AlCl",
+            "Al3Cl",
+            "AlCl2"
+        ]
+    },
+    {
+        "q": "What does the subscript '2' indicate in H2O?",
+        "o": [
+            "Two atoms of hydrogen",
+            "Two atoms of oxygen",
+            "Two molecules of water",
+            "Two moles of water"
+        ]
+    },
+    {
+        "q": "The chemical formula Ca(OH)2 contains how many oxygen atoms?",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "What is the total number of atoms in one molecule of CaCO3?",
+        "o": [
+            "5",
+            "3",
+            "4",
+            "6"
+        ]
+    },
+    {
+        "q": "The law of conservation of mass was verified experimentally by:",
+        "o": [
+            "Landolt",
+            "Proust",
+            "Dalton",
+            "Avogadro"
+        ]
+    },
+    {
+        "q": "Match the compound to its chemical formula.",
+        "type": "match",
+        "left": [
+            "Hydrogen sulphide",
+            "Carbon tetrachloride",
+            "Magnesium chloride",
+            "Aluminum oxide"
+        ],
+        "right": [
+            "H2S",
+            "CCl4",
+            "MgCl2",
+            "Al2O3"
+        ]
+    },
+    {
+        "q": "Which of the following illustrates the law of multiple proportions?",
+        "o": [
+            "CO and CO2",
+            "H2O and H2O2",
+            "NaCl and KCl",
+            "O2 and N2"
+        ]
+    },
+    {
+        "q": "The symbol of tungsten is:",
+        "o": [
+            "W",
+            "T",
+            "Tu",
+            "Tg"
+        ]
+    },
+    {
+        "q": "What is the atomicity of sulphur in S8 molecule?",
+        "o": [
+            "8",
+            "1",
+            "2",
+            "4"
+        ]
+    },
+    {
+        "q": "What is the mass of 0.5 mole of water? (Molar mass=18 g/mol)",
+        "o": [
+            "9 g",
+            "18 g",
+            "36 g",
+            "4.5 g"
+        ]
+    },
+    {
+        "q": "The number of moles in 88 g of CO2 is: (Molar mass=44 g/mol)",
+        "o": [
+            "2 moles",
+            "0.5 moles",
+            "1 mole",
+            "4 moles"
+        ]
+    },
+    {
+        "q": "What is the formula unit mass of CaO? (Ca=40u, O=16u)",
+        "o": [
+            "56 u",
+            "40 u",
+            "16 u",
+            "48 u"
+        ]
+    },
+    {
+        "q": "The correct chemical formula for calcium oxide is Ca2O2.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Who proposed that matter is made of indivisible particles called atoms?",
+        "o": [
+            "Democritus",
+            "Dalton",
+            "Lavoisier",
+            "Proust"
+        ]
+    },
+    {
+        "q": "What is the formula of hydrogen sulphide?",
+        "o": [
+            "H2S",
+            "HS",
+            "H2S2",
+            "HS2"
+        ]
+    },
+    {
+        "q": "What is the total number of atoms in a molecule of Methane (CH4)?",
+        "type": "slider",
+        "min": 2,
+        "max": 8,
+        "correct": 5
+    },
+    {
+        "q": "Match the chemical formula to its name.",
+        "type": "memory",
+        "pairs": {
+            "NaCl": "Sodium chloride",
+            "CaO": "Calcium oxide",
+            "H2O": "Water"
+        }
+    },
+    {
+        "q": "What is the formula of nitric acid?",
+        "o": [
+            "HNO3",
+            "HNO2",
+            "H2NO3",
+            "HNO"
+        ]
+    },
+    {
+        "q": "What is the formula of sulphuric acid?",
+        "o": [
+            "H2SO4",
+            "HSO4",
+            "H2SO3",
+            "HSO3"
+        ]
+    },
+    {
+        "q": "Which formula is written incorrectly?",
+        "type": "odd_one_out",
+        "options": [
+            "MgCl2",
+            "Na2O",
+            "CaCl2",
+            "AlCl2"
+        ],
+        "correct": "AlCl2"
+    },
+    {
+        "q": "What is the valency of iron in Fe2O3?",
+        "o": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ]
+    },
+    {
+        "q": "What is the valency of iron in FeO?",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "The symbol 'Hg' represents which element?",
+        "o": [
+            "Mercury",
+            "Hydrogen",
+            "Helium",
+            "Magnesium"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Binary compounds, RIGHT for compounds with Polyatomic ions.",
+        "type": "swipe_cards",
+        "left_label": "Binary",
+        "right_label": "Polyatomic",
+        "cards": {
+            "H2O": "left",
+            "CaCO3": "right",
+            "HCl": "left",
+            "NaNO3": "right"
+        }
+    },
+    {
+        "q": "The formula of ammonium chloride is:",
+        "o": [
+            "NH4Cl",
+            "NH3Cl",
+            "NH4Cl2",
+            "(NH4)2Cl"
+        ]
+    },
+    {
+        "q": "What is the molar mass of oxygen gas (O2)?",
+        "o": [
+            "32 g/mol",
+            "16 g/mol",
+            "8 g/mol",
+            "64 g/mol"
+        ]
+    },
+    {
+        "q": "Symbolic representation of the composition of a compound.",
+        "type": "word_scramble",
+        "answer": "FORMULA",
+        "decoys": "KJW"
+    },
+    {
+        "q": "The formula of hydrogen sulphide is [0], because Hydrogen has a valency of [1] and Sulphur has a valency of [2].",
+        "type": "inline_dropdown",
+        "text": "The formula of hydrogen sulphide is [0], because Hydrogen has a valency of [1] and Sulphur has a valency of [2].",
+        "dropdowns": [
+            {
+                "correct": "H2S",
+                "options": [
+                    "HS",
+                    "H2S",
+                    "HS2"
+                ]
+            },
+            {
+                "correct": "1",
+                "options": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            },
+            {
+                "correct": "2",
+                "options": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "How many grams of hydrogen are present in 1 mole of H2 gas?",
+        "o": [
+            "2 g",
+            "1 g",
+            "0.5 g",
+            "4 g"
+        ]
+    },
+    {
+        "q": "What is the mass of 1 mole of sodium atoms? (Na=23u)",
+        "o": [
+            "23 g",
+            "11 g",
+            "46 g",
+            "12 g"
+        ]
+    },
+    {
+        "q": "The term 'mole' was introduced by:",
+        "o": [
+            "Wilhelm Ostwald",
+            "John Dalton",
+            "Amedeo Avogadro",
+            "Antoine Lavoisier"
+        ]
+    },
+    {
+        "q": "What is the sum of atomic masses of all atoms in a formula unit of a compound called?",
+        "o": [
+            "Formula unit mass",
+            "Molecular mass",
+            "Molar mass",
+            "Atomic mass"
+        ]
+    },
+    {
+        "q": "What is the chemical formula for Calcium carbonate?",
+        "type": "short_answer",
+        "answers": [
+            "CaCO3",
+            "caco3"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What does the symbol of an element represent?",
+        "o": [
+            "One atom of the element",
+            "One molecule of the element",
+            "One mole of the element",
+            "One gram of the element"
+        ]
+    },
+    {
+        "q": "When a formula contains more than one of the same polyatomic ion, we enclose it in ______.",
+        "type": "fill_blank",
+        "answers": [
+            "brackets"
+        ],
+        "other_options": [
+            "circles",
+            "quotes",
+            "squares"
+        ]
+    },
+    {
+        "q": "Which of the following contains maximum number of molecules?",
+        "o": [
+            "1 g H2",
+            "1 g N2",
+            "1 g O2",
+            "1 g CO2"
+        ]
+    },
+    {
+        "q": "Which postulate of Dalton's atomic theory is incorrect according to modern science?",
+        "o": [
+            "Atoms are indivisible",
+            "All matter is made of atoms",
+            "Atoms combine in whole number ratios",
+            "Atoms of same element are identical"
+        ]
+    },
+    {
+        "q": "The law of multiple proportions deals with compounds formed between:",
+        "o": [
+            "The same two elements",
+            "Any two different elements",
+            "More than two elements",
+            "Metals and non-metals only"
+        ]
+    },
+    {
+        "q": "Match the complex compound to its formula.",
+        "type": "match",
+        "left": [
+            "Sodium nitrate",
+            "Calcium hydroxide",
+            "Ammonium sulphate",
+            "Magnesium hydroxide"
+        ],
+        "right": [
+            "NaNO3",
+            "Ca(OH)2",
+            "(NH4)2SO4",
+            "Mg(OH)2"
+        ]
+    },
+    {
+        "q": "What is the mass ratio of carbon to oxygen in carbon monoxide (CO)?",
+        "o": [
+            "3:4",
+            "3:8",
+            "1:2",
+            "1:1"
+        ]
+    },
+    {
+        "q": "What is the mass ratio of carbon to oxygen in carbon dioxide (CO2)?",
+        "o": [
+            "3:8",
+            "3:4",
+            "1:2",
+            "1:1"
+        ]
+    },
+    {
+        "q": "Who was the first to use symbols for elements in chemistry?",
+        "o": [
+            "J.J. Berzelius",
+            "John Dalton",
+            "Antoine Lavoisier",
+            "Robert Boyle"
+        ]
+    },
+    {
+        "q": "The atomic mass of chlorine is taken as 35.5 u because chlorine has:",
+        "o": [
+            "Isotopes in specific ratios",
+            "Half an atom missing",
+            "A fractional valency",
+            "An extra electron"
+        ]
+    },
+    {
+        "q": "What are atoms of the same element having different mass numbers called?",
+        "o": [
+            "Isotopes",
+            "Isobars",
+            "Isomers",
+            "Allotropes"
+        ]
+    },
+    {
+        "q": "The element used as the standard for atomic mass is:",
+        "o": [
+            "Carbon-12",
+            "Hydrogen-1",
+            "Oxygen-16",
+            "Nitrogen-14"
+        ]
+    },
+    {
+        "q": "What is the approximate atomic mass of nitrogen?",
+        "o": [
+            "14 u",
+            "7 u",
+            "12 u",
+            "16 u"
+        ]
+    },
+    {
+        "q": "The correct formula of sodium carbonate is NaCO3.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "How many oxygen atoms are present in one molecule of Aluminum sulphate, Al2(SO4)3?",
+        "type": "slider",
+        "min": 3,
+        "max": 15,
+        "correct": 12
+    },
+    {
+        "q": "What is the approximate atomic mass of sulphur?",
+        "o": [
+            "32 u",
+            "16 u",
+            "28 u",
+            "40 u"
+        ]
+    },
+    {
+        "q": "Match the polyatomic ion to its formula.",
+        "type": "memory",
+        "pairs": {
+            "Carbonate": "CO3 2-",
+            "Phosphate": "PO4 3-",
+            "Sulphate": "SO4 2-",
+            "Nitrate": "NO3-"
+        }
+    },
+    {
+        "q": "The molecular mass of H2SO4 is: (H=1, S=32, O=16)",
+        "o": [
+            "98 u",
+            "96 u",
+            "100 u",
+            "82 u"
+        ]
+    },
+    {
+        "q": "The molecular mass of HNO3 is: (H=1, N=14, O=16)",
+        "o": [
+            "63 u",
+            "62 u",
+            "64 u",
+            "61 u"
+        ]
+    },
+    {
+        "q": "What is the molecular mass of glucose (C6H12O6)? (C=12, H=1, O=16)",
+        "o": [
+            "180 u",
+            "160 u",
+            "200 u",
+            "150 u"
+        ]
+    },
+    {
+        "q": "How many grams is 1 amu equal to?",
+        "o": [
+            "1.66 x 10^-24 g",
+            "1.66 x 10^-23 g",
+            "6.022 x 10^23 g",
+            "1.0 x 10^-24 g"
+        ]
+    },
+    {
+        "q": "The molar mass of calcium carbonate (CaCO3) is: (Ca=40, C=12, O=16)",
+        "o": [
+            "100 g/mol",
+            "88 g/mol",
+            "112 g/mol",
+            "68 g/mol"
+        ]
+    },
+    {
+        "q": "How many moles are present in 90 g of water?",
+        "o": [
+            "5 moles",
+            "2 moles",
+            "10 moles",
+            "3 moles"
+        ]
+    },
+    {
+        "q": "What is the mass of 0.25 mole of oxygen gas (O2)?",
+        "o": [
+            "8 g",
+            "16 g",
+            "4 g",
+            "32 g"
+        ]
+    },
+    {
+        "q": "Which compound does NOT contain a polyatomic ion?",
+        "type": "odd_one_out",
+        "options": [
+            "KNO3",
+            "CaCO3",
+            "NaOH",
+            "KCl"
+        ],
+        "correct": "KCl"
+    },
+    {
+        "q": "How many molecules are present in 1 mole of NH3?",
+        "o": [
+            "6.022 x 10^23",
+            "3.011 x 10^23",
+            "1.204 x 10^24",
+            "6.022 x 10^22"
+        ]
+    },
+    {
+        "q": "How many atoms are present in 1 mole of methane (CH4)?",
+        "o": [
+            "3.011 x 10^24",
+            "6.022 x 10^23",
+            "1.204 x 10^24",
+            "1.505 x 10^23"
+        ]
+    },
+    {
+        "q": "What is the mass of 6.022 x 10^23 molecules of CO2?",
+        "o": [
+            "44 g",
+            "22 g",
+            "12 g",
+            "32 g"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Carbonates, RIGHT for Sulphates.",
+        "type": "swipe_cards",
+        "left_label": "Carbonates",
+        "right_label": "Sulphates",
+        "cards": {
+            "Na2CO3": "left",
+            "MgSO4": "right",
+            "CaCO3": "left",
+            "K2SO4": "right"
+        }
+    },
+    {
+        "q": "What is the number of moles in 5.6 L of O2 at STP?",
+        "o": [
+            "0.25 moles",
+            "0.5 moles",
+            "1 mole",
+            "2 moles"
+        ]
+    },
+    {
+        "q": "The volume of 1 mole of any gas at STP is:",
+        "o": [
+            "22.4 L",
+            "2.24 L",
+            "24.2 L",
+            "11.2 L"
+        ]
+    },
+    {
+        "q": "What does STP stand for?",
+        "o": [
+            "Standard Temperature and Pressure",
+            "Standard Time and Pressure",
+            "Simple Temperature and Pressure",
+            "Standard Temperature and Point"
+        ]
+    },
+    {
+        "q": "What is the temperature at STP?",
+        "o": [
+            "0 degree Celsius",
+            "25 degree Celsius",
+            "100 degree Celsius",
+            "-273 degree Celsius"
+        ]
+    },
+    {
+        "q": "What is the pressure at STP?",
+        "o": [
+            "1 atmosphere",
+            "2 atmosphere",
+            "0.5 atmosphere",
+            "10 atmosphere"
+        ]
+    },
+    {
+        "q": "A polyatomic ion containing one nitrogen and three oxygen atoms.",
+        "type": "word_scramble",
+        "answer": "NITRATE",
+        "decoys": "FB"
+    },
+    {
+        "q": "How many atoms are present in 2 moles of sulphur (S8)?",
+        "o": [
+            "9.635 x 10^24 atoms",
+            "4.818 x 10^24 atoms",
+            "6.022 x 10^23 atoms",
+            "1.204 x 10^24 atoms"
+        ]
+    },
+    {
+        "q": "In Calcium hydroxide, Ca(OH)2, there is [0] calcium atom, [1] oxygen atoms, and [2] hydrogen atoms.",
+        "type": "inline_dropdown",
+        "text": "In Calcium hydroxide, Ca(OH)2, there is [0] calcium atom, [1] oxygen atoms, and [2] hydrogen atoms.",
+        "dropdowns": [
+            {
+                "correct": "1",
+                "options": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            },
+            {
+                "correct": "2",
+                "options": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            },
+            {
+                "correct": "2",
+                "options": [
+                    "1",
+                    "2",
+                    "3"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which isotope is the standard reference for measuring atomic masses?",
+        "type": "short_answer",
+        "answers": [
+            "Carbon-12",
+            "C-12",
+            "Carbon 12"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "One atomic mass unit is exactly one-______ of the mass of one atom of carbon-12.",
+        "type": "fill_blank",
+        "answers": [
+            "twelfth"
+        ],
+        "other_options": [
+            "tenth",
+            "fourteenth",
+            "sixteenth"
+        ]
+    },
+    {
+        "q": "The number of water molecules in 1 litre of water is: (density=1g/mL)",
+        "o": [
+            "3.34 x 10^25",
+            "6.022 x 10^23",
+            "1.204 x 10^24",
+            "1.67 x 10^25"
+        ]
+    },
+    {
+        "q": "Match the element to its atomic mass in u.",
+        "type": "match",
+        "left": [
+            "Hydrogen",
+            "Carbon",
+            "Nitrogen",
+            "Oxygen"
+        ],
+        "right": [
+            "1",
+            "12",
+            "14",
+            "16"
+        ]
+    },
+    {
+        "q": "The current IUPAC symbol for the unified atomic mass unit is amu.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Which has more atoms: 1 g of H2 or 1 g of He?",
+        "o": [
+            "1 g of H2",
+            "1 g of He",
+            "Both have equal atoms",
+            "Cannot be determined"
+        ]
+    },
+    {
+        "q": "What is the valency of nitrogen in ammonia (NH3)?",
+        "o": [
+            "3",
+            "1",
+            "5",
+            "2"
+        ]
+    },
+    {
+        "q": "What is the atomic mass of Sodium (Na) in u?",
+        "type": "slider",
+        "min": 10,
+        "max": 30,
+        "correct": 23
+    },
+    {
+        "q": "Match the element to its atomic mass.",
+        "type": "memory",
+        "pairs": {
+            "Magnesium": "24 u",
+            "Sulphur": "32 u",
+            "Chlorine": "35.5 u",
+            "Calcium": "40 u"
+        }
+    },
+    {
+        "q": "What is the valency of carbon in methane (CH4)?",
+        "o": [
+            "4",
+            "2",
+            "3",
+            "1"
+        ]
+    },
+    {
+        "q": "Which element's atomic mass is stated incorrectly here?",
+        "type": "odd_one_out",
+        "options": [
+            "H = 1 u",
+            "O = 16 u",
+            "C = 14 u",
+            "N = 14 u"
+        ],
+        "correct": "C = 14 u"
+    },
+    {
+        "q": "The valency of phosphorus in phosphorus pentoxide (P2O5) is:",
+        "o": [
+            "5",
+            "3",
+            "2",
+            "4"
+        ]
+    },
+    {
+        "q": "What is the valency of lead in PbO2?",
+        "o": [
+            "4",
+            "2",
+            "1",
+            "3"
+        ]
+    },
+    {
+        "q": "Swipe LEFT if atomic mass is less than 20 u, RIGHT if greater than 20 u.",
+        "type": "swipe_cards",
+        "left_label": "< 20 u",
+        "right_label": "> 20 u",
+        "cards": {
+            "Carbon": "left",
+            "Sodium": "right",
+            "Oxygen": "left",
+            "Chlorine": "right"
+        }
+    },
+    {
+        "q": "What is the valency of copper in cupric oxide (CuO)?",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "Atoms of the same element with different masses.",
+        "type": "word_scramble",
+        "answer": "ISOTOPE",
+        "decoys": "VM"
+    },
+    {
+        "q": "What is the valency of copper in cuprous oxide (Cu2O)?",
+        "o": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "Initially, scientists took 1/16th of the mass of naturally occurring [0] as the unit, but in 1961, [1] was chosen instead.",
+        "type": "inline_dropdown",
+        "text": "Initially, scientists took 1/16th of the mass of naturally occurring [0] as the unit, but in 1961, [1] was chosen instead.",
+        "dropdowns": [
+            {
+                "correct": "Oxygen",
+                "options": [
+                    "Oxygen",
+                    "Hydrogen",
+                    "Nitrogen"
+                ]
+            },
+            {
+                "correct": "Carbon-12",
+                "options": [
+                    "Carbon-12",
+                    "Carbon-14",
+                    "Oxygen-16"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Elements showing variable valency are also called:",
+        "o": [
+            "Transition elements",
+            "Noble gases",
+            "Alkali metals",
+            "Halogens"
+        ]
+    },
+    {
+        "q": "The formula of ferric oxide is:",
+        "o": [
+            "Fe2O3",
+            "FeO",
+            "Fe3O4",
+            "FeO2"
+        ]
+    },
+    {
+        "q": "What is the molecular mass of water (H2O) in u?",
+        "type": "short_answer",
+        "answers": [
+            "18",
+            "18 u",
+            "18u"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The formula of ferrous sulphate is:",
+        "o": [
+            "FeSO4",
+            "Fe2(SO4)3",
+            "Fe2SO4",
+            "Fe(SO4)2"
+        ]
+    },
+    {
+        "q": "We use the term formula unit mass for substances whose constituent particles are ______.",
+        "type": "fill_blank",
+        "answers": [
+            "ions"
+        ],
+        "other_options": [
+            "molecules",
+            "atoms",
+            "electrons"
+        ]
+    },
+    {
+        "q": "The chemical formula of slaked lime is:",
+        "o": [
+            "Ca(OH)2",
+            "CaO",
+            "CaCO3",
+            "CaCl2"
+        ]
+    },
+    {
+        "q": "The chemical formula of quick lime is:",
+        "o": [
+            "CaO",
+            "Ca(OH)2",
+            "CaCO3",
+            "CaCl2"
+        ]
+    },
+    {
+        "q": "The chemical formula of baking soda is:",
+        "o": [
+            "NaHCO3",
+            "Na2CO3",
+            "NaOH",
+            "Na2SO4"
+        ]
+    },
+    {
+        "q": "The chemical formula of washing soda is:",
+        "o": [
+            "Na2CO3.10H2O",
+            "NaHCO3",
+            "NaOH",
+            "NaCl"
+        ]
+    },
+    {
+        "q": "The formula of potassium permanganate is:",
+        "o": [
+            "KMnO4",
+            "K2MnO4",
+            "KMnO3",
+            "K2MnO3"
+        ]
+    },
+    {
+        "q": "The formula of potassium dichromate is:",
+        "o": [
+            "K2Cr2O7",
+            "KCr2O7",
+            "K2CrO4",
+            "KCrO4"
+        ]
+    },
+    {
+        "q": "The formula of ammonium sulphate is:",
+        "o": [
+            "(NH4)2SO4",
+            "NH4SO4",
+            "NH4(SO4)2",
+            "(NH4)2SO3"
+        ]
+    },
+    {
+        "q": "The formula of aluminium sulphate is:",
+        "o": [
+            "Al2(SO4)3",
+            "AlSO4",
+            "Al3(SO4)2",
+            "Al(SO4)2"
+        ]
+    },
+    {
+        "q": "What is the charge on the ammonium ion (NH4)?",
+        "o": [
+            "+1",
+            "-1",
+            "+2",
+            "0"
+        ]
+    },
+    {
+        "q": "Match the molecule to its molecular mass.",
+        "type": "match",
+        "left": [
+            "H2",
+            "O2",
+            "CO2",
+            "Cl2"
+        ],
+        "right": [
+            "2 u",
+            "32 u",
+            "44 u",
+            "71 u"
+        ]
+    },
+    {
+        "q": "The molecular mass of Nitric acid (HNO3) is 63 u.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "What is the charge on the phosphate ion (PO4)?",
+        "o": [
+            "-3",
+            "-2",
+            "-1",
+            "+3"
+        ]
+    },
+    {
+        "q": "What is the charge on the carbonate ion (CO3)?",
+        "o": [
+            "-2",
+            "-1",
+            "-3",
+            "+2"
+        ]
+    },
+    {
+        "q": "The formula of calcium phosphate is:",
+        "o": [
+            "Ca3(PO4)2",
+            "CaPO4",
+            "Ca2(PO4)3",
+            "Ca(PO4)2"
+        ]
+    },
+    {
+        "q": "What is the molecular mass of Ammonia (NH3) in u?",
+        "type": "slider",
+        "min": 10,
+        "max": 25,
+        "correct": 17
+    },
+    {
+        "q": "What is the formula unit mass of MgCl2? (Mg=24, Cl=35.5)",
+        "o": [
+            "95 u",
+            "59.5 u",
+            "71 u",
+            "83 u"
+        ]
+    },
+    {
+        "q": "Match the ionic compound to its formula unit mass.",
+        "type": "memory",
+        "pairs": {
+            "NaCl": "58.5 u",
+            "ZnO": "81 u",
+            "Na2O": "62 u"
+        }
+    },
+    {
+        "q": "What is the percentage of oxygen in NaOH? (Na=23, O=16, H=1)",
+        "o": [
+            "40%",
+            "50%",
+            "30%",
+            "20%"
+        ]
+    },
+    {
+        "q": "For which substance should we calculate 'formula unit mass' instead of 'molecular mass'?",
+        "type": "odd_one_out",
+        "options": [
+            "H2O",
+            "CO2",
+            "NaCl",
+            "NH3"
+        ],
+        "correct": "NaCl"
+    },
+    {
+        "q": "What is the percentage of nitrogen in NH3? (N=14, H=1)",
+        "o": [
+            "82.35%",
+            "17.65%",
+            "50%",
+            "70%"
+        ]
+    },
+    {
+        "q": "What is the empirical formula mass of glucose (CH2O)?",
+        "o": [
+            "30 u",
+            "60 u",
+            "90 u",
+            "180 u"
+        ]
+    },
+    {
+        "q": "What is the molecular formula if empirical formula is CH2 and molecular mass is 56 u?",
+        "o": [
+            "C4H8",
+            "C2H4",
+            "C3H6",
+            "C5H10"
+        ]
+    },
+    {
+        "q": "Which compound has the formula unit mass of 40 u?",
+        "o": [
+            "NaOH",
+            "MgO",
+            "CaO",
+            "KOH"
+        ]
+    },
+    {
+        "q": "What is the mass of one atom of oxygen?",
+        "o": [
+            "2.66 x 10^-23 g",
+            "1.66 x 10^-24 g",
+            "16 g",
+            "3.2 x 10^-23 g"
+        ]
+    },
+    {
+        "q": "What is the mass of one molecule of water?",
+        "o": [
+            "2.99 x 10^-23 g",
+            "1.66 x 10^-24 g",
+            "18 g",
+            "3.0 x 10^-23 g"
+        ]
+    },
+    {
+        "q": "Avogadro constant is the number of particles in:",
+        "o": [
+            "One mole of substance",
+            "One gram of substance",
+            "One litre of gas",
+            "One amu"
+        ]
+    },
+    {
+        "q": "The number of moles of atoms in 32 g of sulphur (S8) is:",
+        "o": [
+            "1 mole",
+            "0.125 mole",
+            "8 moles",
+            "0.5 mole"
+        ]
+    },
+    {
+        "q": "What is the mass of 1 mole of electrons?",
+        "o": [
+            "0.55 mg",
+            "1 g",
+            "0.001 g",
+            "9.1 x 10^-28 g"
+        ]
+    },
+    {
+        "q": "The mass of one molecule of CO2 is:",
+        "o": [
+            "7.31 x 10^-23 g",
+            "44 g",
+            "2.2 x 10^-23 g",
+            "3.66 x 10^-23 g"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Molecular Mass, RIGHT for Formula Unit Mass.",
+        "type": "swipe_cards",
+        "left_label": "Molecular Mass",
+        "right_label": "Formula Unit Mass",
+        "cards": {
+            "Water": "left",
+            "Calcium chloride": "right",
+            "Methane": "left",
+            "Sodium oxide": "right"
+        }
+    },
+    {
+        "q": "How many moles are present in 11.5 g of sodium? (Na=23)",
+        "o": [
+            "0.5 moles",
+            "2 moles",
+            "1 mole",
+            "0.25 moles"
+        ]
+    },
+    {
+        "q": "The sum of the atomic masses of all atoms in a molecule is its molecular ______.",
+        "type": "word_scramble",
+        "answer": "MASS",
+        "decoys": "JQ"
+    },
+    {
+        "q": "How many grams of calcium are present in 2.5 moles of Ca? (Ca=40)",
+        "o": [
+            "100 g",
+            "80 g",
+            "40 g",
+            "16 g"
+        ]
+    },
+    {
+        "q": "The number of atoms in 4.6 g of sodium is: (Na=23)",
+        "o": [
+            "1.204 x 10^23",
+            "6.022 x 10^23",
+            "2.408 x 10^23",
+            "3.011 x 10^22"
+        ]
+    },
+    {
+        "q": "What is the molecular mass of cane sugar (C12H22O11)? (C=12, H=1, O=16)",
+        "o": [
+            "342 u",
+            "300 u",
+            "360 u",
+            "280 u"
+        ]
+    },
+    {
+        "q": "To calculate molecular mass, we [0] the atomic masses of all atoms, whereas for formula unit mass we calculate the mass for the [1] formula unit of a compound.",
+        "type": "inline_dropdown",
+        "text": "To calculate molecular mass, we [0] the atomic masses of all atoms, whereas for formula unit mass we calculate the mass for the [1] formula unit of a compound.",
+        "dropdowns": [
+            {
+                "correct": "add",
+                "options": [
+                    "add",
+                    "multiply",
+                    "subtract"
+                ]
+            },
+            {
+                "correct": "simplest",
+                "options": [
+                    "simplest",
+                    "largest",
+                    "complex"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The number of atoms in 0.1 mole of triatomic gas is:",
+        "o": [
+            "1.806 x 10^23",
+            "6.022 x 10^22",
+            "3.011 x 10^23",
+            "1.204 x 10^24"
+        ]
+    },
+    {
+        "q": "Who is the constant 6.022 x 10^23 named after?",
+        "type": "short_answer",
+        "answers": [
+            "Avogadro",
+            "Amedeo Avogadro"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "One mole of any species contains exactly 6.022 x 10^23 ______.",
+        "type": "fill_blank",
+        "answers": [
+            "particles"
+        ],
+        "other_options": [
+            "grams",
+            "liters",
+            "moles"
+        ]
+    },
+    {
+        "q": "Which of the following has the greatest mass?",
+        "o": [
+            "1 mole of Ca",
+            "1 mole of Na",
+            "1 mole of Mg",
+            "1 mole of C"
+        ]
+    },
+    {
+        "q": "What is the mass of 3.011 x 10^23 atoms of carbon?",
+        "o": [
+            "6 g",
+            "12 g",
+            "24 g",
+            "3 g"
+        ]
+    },
+    {
+        "q": "Which compound has the molecular mass of 100 u?",
+        "o": [
+            "CaCO3",
+            "MgCO3",
+            "Na2CO3",
+            "K2CO3"
+        ]
+    },
+    {
+        "q": "How many moles of hydrogen atoms are there in 1 mole of H2SO4?",
+        "o": [
+            "2 moles",
+            "1 mole",
+            "4 moles",
+            "0.5 moles"
+        ]
+    },
+    {
+        "q": "How many moles of oxygen atoms are there in 0.5 mole of Al2(SO4)3?",
+        "o": [
+            "6 moles",
+            "3 moles",
+            "4 moles",
+            "8 moles"
+        ]
+    },
+    {
+        "q": "The mass of oxygen in 0.1 mole of CO2 is:",
+        "o": [
+            "3.2 g",
+            "1.6 g",
+            "4.4 g",
+            "6.4 g"
+        ]
+    },
+    {
+        "q": "What is the formula of a compound if 1 mole contains 2 moles of X and 3 moles of Y?",
+        "o": [
+            "X2Y3",
+            "XY",
+            "X3Y2",
+            "X2Y"
+        ]
+    },
+    {
+        "q": "Match the quantity of particles to its number of moles.",
+        "type": "match",
+        "left": [
+            "6.022 x 10^23 atoms",
+            "12.044 x 10^23 atoms",
+            "3.011 x 10^23 atoms",
+            "18.066 x 10^23 atoms"
+        ],
+        "right": [
+            "1 mole",
+            "2 moles",
+            "0.5 mole",
+            "3 moles"
+        ]
+    },
+    {
+        "q": "The symbol 'Sb' stands for:",
+        "o": [
+            "Antimony",
+            "Arsenic",
+            "Selenium",
+            "Tin"
+        ]
+    },
+    {
+        "q": "The word mole was introduced by Wilhelm Ostwald and means 'heap' or 'pile'.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The Latin name of tin is:",
+        "o": [
+            "Stannum",
+            "Plumbum",
+            "Argentum",
+            "Aurum"
+        ]
+    },
+    {
+        "q": "The formula of heavy water is:",
+        "o": [
+            "D2O",
+            "H2O",
+            "H2O2",
+            "DO"
+        ]
+    },
+    {
+        "q": "What is the molecular mass of deuterium gas (D2)? (D=2u)",
+        "o": [
+            "4 u",
+            "2 u",
+            "6 u",
+            "1 u"
+        ]
+    },
+    {
+        "q": "How many moles are present in 24 grams of Carbon-12?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "Match the term to its definition.",
+        "type": "memory",
+        "pairs": {
+            "Mole": "A heap containing 6.022 x 10^23 particles",
+            "Avogadro constant": "6.022 x 10^23",
+            "Molar mass": "Mass of 1 mole in grams"
+        }
+    },
+    {
+        "q": "Which does NOT represent exactly 1 mole?",
+        "type": "odd_one_out",
+        "options": [
+            "12 g of Carbon",
+            "18 g of Water",
+            "1 g of Hydrogen gas H2",
+            "6.022 x 10^23 atoms"
+        ],
+        "correct": "1 g of Hydrogen gas H2"
+    },
+    {
+        "q": "How many neutrons are present in one atom of deuterium?",
+        "o": [
+            "1",
+            "0",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "q": "Swipe LEFT for Macroscopic counting units, RIGHT for Microscopic particles.",
+        "type": "swipe_cards",
+        "left_label": "Macroscopic",
+        "right_label": "Microscopic",
+        "cards": {
+            "Dozen": "left",
+            "Atom": "right",
+            "Gross": "left",
+            "Molecule": "right"
+        }
+    },
+    {
+        "q": "What is the valency of the phosphate ion?",
+        "o": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ]
+    },
+    {
+        "q": "The formula of magnesium nitride is:",
+        "o": [
+            "Mg3N2",
+            "MgN",
+            "Mg2N3",
+            "MgN2"
+        ]
+    },
+    {
+        "q": "The formula of calcium nitride is:",
+        "o": [
+            "Ca3N2",
+            "CaN",
+            "Ca2N3",
+            "CaN2"
+        ]
+    },
+    {
+        "q": "What is the chemical formula of plaster of Paris?",
+        "o": [
+            "CaSO4.1/2H2O",
+            "CaSO4.2H2O",
+            "CaSO4",
+            "CaSO4.10H2O"
+        ]
+    },
+    {
+        "q": "The chemical formula of gypsum is:",
+        "o": [
+            "CaSO4.2H2O",
+            "CaSO4.1/2H2O",
+            "CaSO4",
+            "CaCO3"
+        ]
+    },
+    {
+        "q": "What is the percentage composition of calcium in CaCO3? (Ca=40, C=12, O=16)",
+        "o": [
+            "40%",
+            "12%",
+            "48%",
+            "50%"
+        ]
+    },
+    {
+        "q": "What is the percentage of carbon in CO2? (C=12, O=16)",
+        "o": [
+            "27.27%",
+            "33.33%",
+            "40%",
+            "20%"
+        ]
+    },
+    {
+        "q": "The scientist whose name is given to the number 6.022 x 10^23.",
+        "type": "word_scramble",
+        "answer": "AVOGADRO",
+        "decoys": "XZ"
+    },
+    {
+        "q": "The empirical formula of benzene is:",
+        "o": [
+            "CH",
+            "C6H6",
+            "CH2",
+            "C2H2"
+        ]
+    },
+    {
+        "q": "What is the ratio of C:H by mass in methane (CH4)?",
+        "o": [
+            "3:1",
+            "1:1",
+            "12:1",
+            "4:1"
+        ]
+    },
+    {
+        "q": "The mass of 1 mole of a substance is called its [0] mass and is always expressed in [1].",
+        "type": "inline_dropdown",
+        "text": "The mass of 1 mole of a substance is called its [0] mass and is always expressed in [1].",
+        "dropdowns": [
+            {
+                "correct": "molar",
+                "options": [
+                    "molar",
+                    "atomic",
+                    "molecular"
+                ]
+            },
+            {
+                "correct": "grams",
+                "options": [
+                    "grams",
+                    "amu",
+                    "liters"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The mass of 1.505 x 10^23 atoms of nitrogen is:",
+        "o": [
+            "3.5 g",
+            "7 g",
+            "14 g",
+            "1.75 g"
+        ]
+    },
+    {
+        "q": "How many electrons are there in 1 mole of methane (CH4)?",
+        "o": [
+            "6.022 x 10^24",
+            "6.022 x 10^23",
+            "4.818 x 10^24",
+            "1.204 x 10^24"
+        ]
+    },
+    {
+        "q": "Which has maximum number of atoms?",
+        "o": [
+            "16 g of O2",
+            "16 g of CH4",
+            "28 g of N2",
+            "44 g of CO2"
+        ]
+    },
+    {
+        "q": "What is the molar mass of water (H2O) in g/mol?",
+        "type": "short_answer",
+        "answers": [
+            "18",
+            "18g",
+            "18 g/mol",
+            "18 g"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "What is the formula of sodium zincate?",
+        "o": [
+            "Na2ZnO2",
+            "NaZnO2",
+            "Na2ZnO3",
+            "NaZnO"
+        ]
+    },
+    {
+        "q": "What is the formula of sodium aluminate?",
+        "o": [
+            "NaAlO2",
+            "Na2AlO2",
+            "NaAlO3",
+            "Na3AlO3"
+        ]
+    },
+    {
+        "q": "The ratio of C:O by mass in CO is: (C=12, O=16)",
+        "o": [
+            "3:4",
+            "3:8",
+            "1:1",
+            "4:3"
+        ]
+    },
+    {
+        "q": "The valency of chromium in K2Cr2O7 is:",
+        "o": [
+            "6",
+            "3",
+            "2",
+            "5"
+        ]
+    },
+    {
+        "q": "To find the number of moles, we divide the given mass by the ______ mass.",
+        "type": "fill_blank",
+        "answers": [
+            "molar"
+        ],
+        "other_options": [
+            "atomic",
+            "molecular",
+            "total"
+        ]
+    },
+    {
+        "q": "The valency of manganese in KMnO4 is:",
+        "o": [
+            "7",
+            "4",
+            "2",
+            "6"
+        ]
+    },
+    {
+        "q": "Match the given mass of element to its number of moles.",
+        "type": "match",
+        "left": [
+            "46 g of Na",
+            "52 g of He",
+            "24 g of Mg",
+            "54 g of H2O"
+        ],
+        "right": [
+            "2 moles",
+            "13 moles",
+            "1 mole",
+            "3 moles"
+        ]
+    },
+    {
+        "q": "What is the total number of ions in one formula unit of CaCl2?",
+        "o": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ]
+    },
+    {
+        "q": "One mole of oxygen gas (O2) weighs exactly 16 grams.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the total number of ions in one formula unit of Al2O3?",
+        "o": [
+            "5",
+            "2",
+            "3",
+            "6"
+        ]
+    },
+    {
+        "q": "The formula of magnesium bicarbonate is:",
+        "o": [
+            "Mg(HCO3)2",
+            "MgHCO3",
+            "Mg2HCO3",
+            "Mg(HCO3)3"
+        ]
+    },
+    {
+        "q": "The formula of calcium bicarbonate is:",
+        "o": [
+            "Ca(HCO3)2",
+            "CaHCO3",
+            "Ca2HCO3",
+            "Ca(HCO3)3"
+        ]
+    },
+    {
+        "q": "Calculate the number of moles in 88 grams of Carbon dioxide (CO2).",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 2
+    },
+    {
+        "q": "Match the compound amount to its mass.",
+        "type": "memory",
+        "pairs": {
+            "1 mole of H2O": "18 g",
+            "2 moles of CO2": "88 g",
+            "0.5 mole of N2": "14 g"
+        }
+    },
+    {
+        "q": "What is the correct formula for aluminium nitride?",
+        "o": [
+            "AlN",
+            "Al3N2",
+            "Al2N3",
+            "AlN2"
+        ]
+    },
+    {
+        "q": "Which two laws of chemical combination did Dalton use to support his atomic theory?",
+        "o": [
+            "Law of conservation of mass and law of constant proportions",
+            "Law of multiple proportions and Gay Lussac's law",
+            "Avogadro's law and Boyle's law",
+            "Law of definite proportions and Charles' law"
+        ]
+    },
+    {
+        "q": "If 3 g of carbon combines with 8 g of oxygen to form CO2, how much oxygen is needed to combine with 6 g of carbon?",
+        "o": [
+            "16 g",
+            "8 g",
+            "24 g",
+            "12 g"
+        ]
+    },
+    {
+        "q": "A sample of pure water from different sources always contains 88.89% oxygen by mass. This illustrates:",
+        "o": [
+            "Law of constant proportions",
+            "Law of conservation of mass",
+            "Law of multiple proportions",
+            "Avogadro's law"
+        ]
+    },
+    {
+        "q": "Carbon forms two oxides with 42.9% and 27.3% carbon. This data supports:",
+        "o": [
+            "Law of multiple proportions",
+            "Law of constant proportions",
+            "Law of conservation of mass",
+            "Gay Lussac's law"
+        ]
+    },
+    {
+        "q": "In CO and CO2, the masses of oxygen combining with 12 g of carbon are in the ratio:",
+        "o": [
+            "1:2",
+            "2:1",
+            "3:4",
+            "4:3"
+        ]
+    },
+    {
+        "q": "Gay Lussac's law of combining volumes deals with reactants and products in:",
+        "o": [
+            "Gaseous state",
+            "Solid state",
+            "Liquid state",
+            "Aqueous state"
+        ]
+    },
+    {
+        "q": "According to Gay Lussac's law, 2 volumes of hydrogen combine with 1 volume of oxygen to give:",
+        "o": [
+            "2 volumes of steam",
+            "1 volume of steam",
+            "3 volumes of steam",
+            "4 volumes of steam"
+        ]
+    },
+    {
+        "q": "Avogadro's law explains Gay Lussac's law by stating that equal volumes of gases contain:",
+        "o": [
+            "Equal number of molecules",
+            "Equal number of atoms",
+            "Equal mass",
+            "Equal density"
+        ]
+    },
+    {
+        "q": "What did Dalton's symbols for elements represent?",
+        "o": [
+            "One atom of the element",
+            "One molecule of the element",
+            "One mole of the element",
+            "One gram of the element"
+        ]
+    },
+    {
+        "q": "Which contains a different number of moles than the others?",
+        "type": "odd_one_out",
+        "options": [
+            "32 g of O2",
+            "2 g of H2",
+            "18 g of H2O",
+            "44 g of N2"
+        ],
+        "correct": "44 g of N2"
+    },
+    {
+        "q": "The modern system of chemical symbols was introduced by:",
+        "o": [
+            "J.J. Berzelius",
+            "John Dalton",
+            "Antoine Lavoisier",
+            "Dmitri Mendeleev"
+        ]
+    },
+    {
+        "q": "The symbol for manganese is:",
+        "o": [
+            "Mn",
+            "Mg",
+            "Ma",
+            "M"
+        ]
+    },
+    {
+        "q": "Swipe LEFT if the mass equals 1 Mole, RIGHT if it equals 2 Moles.",
+        "type": "swipe_cards",
+        "left_label": "1 Mole",
+        "right_label": "2 Moles",
+        "cards": {
+            "28 g Nitrogen gas": "left",
+            "64 g Oxygen gas": "right",
+            "32 g Sulphur (S)": "left",
+            "46 g Sodium": "right"
+        }
+    },
+    {
+        "q": "What is the atomicity of phosphorus in its vapour state?",
+        "o": [
+            "4",
+            "1",
+            "2",
+            "8"
+        ]
+    },
+    {
+        "q": "The mass of 1 atom of hydrogen is approximately:",
+        "o": [
+            "1.67 x 10^-24 g",
+            "1 g",
+            "6.022 x 10^-23 g",
+            "1.0 x 10^-23 g"
+        ]
+    },
+    {
+        "q": "What is the mass of 1 atom of helium? (He=4u)",
+        "o": [
+            "6.64 x 10^-24 g",
+            "4 g",
+            "6.022 x 10^-23 g",
+            "2.66 x 10^-23 g"
+        ]
+    },
+    {
+        "q": "The relative atomic mass of an element is the ratio of its mass to 1/12th mass of:",
+        "o": [
+            "One C-12 atom",
+            "One H-1 atom",
+            "One O-16 atom",
+            "One N-14 atom"
+        ]
+    },
+    {
+        "q": "The atomic mass of an element is 27 u. The mass of 1 mole of its atoms is:",
+        "o": [
+            "27 g",
+            "13.5 g",
+            "54 g",
+            "27 kg"
+        ]
+    },
+    {
+        "q": "Gram atomic mass of nitrogen is:",
+        "o": [
+            "14 g",
+            "28 g",
+            "7 g",
+            "14 u"
+        ]
+    },
+    {
+        "q": "A group of two or more atoms chemically bonded together.",
+        "type": "word_scramble",
+        "answer": "MOLECULE",
+        "decoys": "YW"
+    },
+    {
+        "q": "Number of moles is equal to given mass divided by [0] mass, and number of particles is equal to number of moles multiplied by [1] constant.",
+        "type": "inline_dropdown",
+        "text": "Number of moles is equal to given mass divided by [0] mass, and number of particles is equal to number of moles multiplied by [1] constant.",
+        "dropdowns": [
+            {
+                "correct": "molar",
+                "options": [
+                    "molar",
+                    "atomic",
+                    "molecular"
+                ]
+            },
+            {
+                "correct": "Avogadro",
+                "options": [
+                    "Avogadro",
+                    "Dalton",
+                    "Bohr"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the alternative name for the Law of Definite Proportions?",
+        "type": "short_answer",
+        "answers": [
+            "Law of Constant Proportions",
+            "Constant Proportions"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Gram molecular mass of nitrogen gas (N2) is:",
+        "o": [
+            "28 g",
+            "14 g",
+            "7 g",
+            "28 u"
+        ]
+    },
+    {
+        "q": "The mass of 1 mole of sodium chloride (NaCl) is: (Na=23, Cl=35.5)",
+        "o": [
+            "58.5 g",
+            "58.5 u",
+            "48.5 g",
+            "63.5 g"
+        ]
+    },
+    {
+        "q": "What is the mass of 3 moles of ammonia (NH3)? (N=14, H=1)",
+        "o": [
+            "51 g",
+            "17 g",
+            "34 g",
+            "68 g"
+        ]
+    },
+    {
+        "q": "How many moles of water are present in 100 g of water?",
+        "o": [
+            "5.56 moles",
+            "10 moles",
+            "2 moles",
+            "18 moles"
+        ]
+    },
+    {
+        "q": "According to Joseph Proust, elements in a chemical compound are always present in ______ proportions by mass.",
+        "type": "fill_blank",
+        "answers": [
+            "definite"
+        ],
+        "other_options": [
+            "variable",
+            "multiple",
+            "random"
+        ]
+    },
+    {
+        "q": "What is the number of molecules in 4.4 g of CO2? (C=12, O=16)",
+        "o": [
+            "6.022 x 10^22",
+            "6.022 x 10^23",
+            "3.011 x 10^22",
+            "1.204 x 10^23"
+        ]
+    },
+    {
+        "q": "Match the compound to its constant ratio by mass of combining elements.",
+        "type": "match",
+        "left": [
+            "Water (H to O)",
+            "Ammonia (N to H)",
+            "Carbon dioxide (C to O)",
+            "Nitric oxide (N to O)"
+        ],
+        "right": [
+            "1:8",
+            "14:3",
+            "3:8",
+            "7:8"
+        ]
+    },
+    {
+        "q": "Dalton's atomic theory stated that atoms can be subdivided into protons, neutrons, and electrons.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the number of molecules in 1.7 g of NH3? (N=14, H=1)",
+        "o": [
+            "6.022 x 10^22",
+            "6.022 x 10^23",
+            "1.204 x 10^23",
+            "3.011 x 10^22"
+        ]
+    },
+    {
+        "q": "The number of atoms in 8 g of oxygen gas (O2) is:",
+        "o": [
+            "3.011 x 10^23",
+            "6.022 x 10^23",
+            "1.505 x 10^23",
+            "1.204 x 10^24"
+        ]
+    },
+    {
+        "q": "In ammonia (NH3), the ratio of mass of nitrogen to hydrogen is 14:3. How many grams of hydrogen are needed to completely react with 28 grams of nitrogen?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 6
+    },
+    {
+        "q": "The mass of 3.011 x 10^23 molecules of SO2 is: (S=32, O=16)",
+        "o": [
+            "32 g",
+            "64 g",
+            "16 g",
+            "8 g"
+        ]
+    },
+    {
+        "q": "Match the law or theory to its core defining statement.",
+        "type": "memory",
+        "pairs": {
+            "Conservation of Mass": "Total mass of reactants equals total mass of products",
+            "Constant Proportions": "Elements combine in fixed mass ratios",
+            "Dalton's Postulate": "Atoms combine in simple whole number ratios"
+        }
+    },
+    {
+        "q": "What is the volume occupied by 2 moles of CO2 at STP?",
+        "o": [
+            "44.8 L",
+            "22.4 L",
+            "11.2 L",
+            "67.2 L"
+        ]
+    },
+    {
+        "q": "What is the volume occupied by 4.4 g of CO2 at STP?",
+        "o": [
+            "2.24 L",
+            "22.4 L",
+            "4.48 L",
+            "11.2 L"
+        ]
+    },
+    {
+        "q": "What is the mass of 11.2 L of oxygen gas at STP?",
+        "o": [
+            "16 g",
+            "32 g",
+            "8 g",
+            "11.2 g"
+        ]
+    },
+    {
+        "q": "The number of molecules in 1 mL of water at 4 degree C is: (density=1g/mL)",
+        "o": [
+            "3.34 x 10^22",
+            "6.022 x 10^23",
+            "3.34 x 10^23",
+            "1.67 x 10^22"
+        ]
+    },
+    {
+        "q": "What is the mass of 1.505 x 10^23 molecules of H2O?",
+        "o": [
+            "4.5 g",
+            "9 g",
+            "18 g",
+            "36 g"
+        ]
+    },
+    {
+        "q": "Which of the following contains the same number of molecules as 22 g of CO2?",
+        "o": [
+            "16 g of O2",
+            "14 g of N2",
+            "2 g of H2",
+            "32 g of SO2"
+        ]
+    },
+    {
+        "q": "The total number of protons in 8.4 g of NaHCO3 is: (Atomic numbers: Na=11, H=1, C=6, O=8)",
+        "o": [
+            "2.41 x 10^24",
+            "6.022 x 10^23",
+            "3.01 x 10^24",
+            "1.204 x 10^24"
+        ]
+    },
+    {
+        "q": "Which of the following does NOT follow the law of constant proportions?",
+        "type": "odd_one_out",
+        "options": [
+            "Water",
+            "Carbon dioxide",
+            "Ammonia",
+            "Air"
+        ],
+        "correct": "Air"
+    },
+    {
+        "q": "Swipe RIGHT for statements defining 'Constant Proportions', LEFT for 'Conservation of Mass'.",
+        "type": "swipe_cards",
+        "left_label": "Conservation of Mass",
+        "right_label": "Constant Proportions",
+        "cards": {
+            "Mass cannot be created": "left",
+            "Fixed ratio by mass": "right",
+            "Mass cannot be destroyed": "left",
+            "Definite chemical composition": "right"
+        }
+    },
+    {
+        "q": "How many moles of oxygen atoms are present in 1 mole of CaCO3?",
+        "o": [
+            "3 moles",
+            "1.5 moles",
+            "2 moles",
+            "1 mole"
+        ]
+    },
+    {
+        "q": "A word defining a fixed ratio of amounts or quantities.",
+        "type": "word_scramble",
+        "answer": "PROPORTION",
+        "decoys": "ZKV"
+    },
+    {
+        "q": "Proust stated that in a chemical [0], the elements are always present in [1] proportions by mass.",
+        "type": "inline_dropdown",
+        "text": "Proust stated that in a chemical [0], the elements are always present in [1] proportions by mass.",
+        "dropdowns": [
+            {
+                "correct": "substance",
+                "options": [
+                    "substance",
+                    "mixture",
+                    "solution"
+                ]
+            },
+            {
+                "correct": "definite",
+                "options": [
+                    "random",
+                    "definite",
+                    "variable"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "How many moles of NaCl contain 1.204 x 10^24 formula units?",
+        "o": [
+            "2 moles",
+            "0.5 moles",
+            "1 mole",
+            "4 moles"
+        ]
+    },
+    {
+        "q": "What is the percentage of water of crystallisation in CuSO4.5H2O? (Cu=63.5, S=32, O=16, H=1)",
+        "o": [
+            "36.07%",
+            "25%",
+            "50%",
+            "20%"
+        ]
+    },
+    {
+        "q": "What is the Latin name for the element Lead?",
+        "type": "short_answer",
+        "answers": [
+            "Plumbum",
+            "plumbum"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The symbol for Tungsten is W, derived from its German name ______.",
+        "type": "fill_blank",
+        "answers": [
+            "Wolfram"
+        ],
+        "other_options": [
+            "Wulstan",
+            "Walton",
+            "Werner"
+        ]
+    },
+    {
+        "q": "The percentage of oxygen in CaCO3 by mass is: (Ca=40, C=12, O=16)",
+        "o": [
+            "48%",
+            "40%",
+            "12%",
+            "60%"
+        ]
+    },
+    {
+        "q": "What is the percentage of sulphur in H2SO4? (H=1, S=32, O=16)",
+        "o": [
+            "32.65%",
+            "40%",
+            "20%",
+            "16.33%"
+        ]
+    },
+    {
+        "q": "The empirical formula of a compound is CH2O. Its molecular mass is 180 u. The molecular formula is:",
+        "o": [
+            "C6H12O6",
+            "C3H6O3",
+            "C4H8O4",
+            "C5H10O5"
+        ]
+    },
+    {
+        "q": "Match the element with its Latin-derived symbol.",
+        "type": "match",
+        "left": [
+            "Iron (Ferrum)",
+            "Gold (Aurum)",
+            "Silver (Argentum)",
+            "Mercury (Hydrargyrum)"
+        ],
+        "right": [
+            "Fe",
+            "Au",
+            "Ag",
+            "Hg"
+        ]
+    },
+    {
+        "q": "A compound has 40% carbon, 6.67% hydrogen and 53.33% oxygen. The empirical formula is:",
+        "o": [
+            "CH2O",
+            "C2H4O2",
+            "C3H6O3",
+            "CH3O"
+        ]
+    },
+    {
+        "q": "A compound contains 92.3% carbon and 7.7% hydrogen. The empirical formula is:",
+        "o": [
+            "CH",
+            "C2H2",
+            "CH2",
+            "C2H4"
+        ]
+    },
+    {
+        "q": "The number of gram atoms in 40 g of calcium is: (Ca=40)",
+        "o": [
+            "1",
+            "0.5",
+            "2",
+            "4"
+        ]
+    },
+    {
+        "q": "The number of gram molecules in 49 g of H2SO4 is: (Molar mass=98 g/mol)",
+        "o": [
+            "0.5",
+            "1",
+            "2",
+            "0.25"
+        ]
+    },
+    {
+        "q": "What is the valency of nitrogen in N2O?",
+        "o": [
+            "1",
+            "2",
+            "3",
+            "5"
+        ]
+    },
+    {
+        "q": "The chemical symbol for the element Cobalt is CO.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What is the valency of nitrogen in NO?",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "What is the valency of nitrogen in N2O3?",
+        "o": [
+            "3",
+            "1",
+            "2",
+            "5"
+        ]
+    },
+    {
+        "q": "The atomic radius of a hydrogen atom is 10 to the power of negative ______ meters.",
+        "type": "slider",
+        "min": 5,
+        "max": 15,
+        "correct": 10
+    },
+    {
+        "q": "What is the valency of nitrogen in N2O5?",
+        "o": [
+            "5",
+            "3",
+            "2",
+            "4"
+        ]
+    },
+    {
+        "q": "Match the non-metal element to its atomicity.",
+        "type": "memory",
+        "pairs": {
+            "Argon": "Monoatomic",
+            "Oxygen": "Diatomic",
+            "Ozone": "Triatomic",
+            "Phosphorus": "Tetra-atomic"
+        }
+    },
+    {
+        "q": "The valency of phosphorus in PCl3 is:",
+        "o": [
+            "3",
+            "5",
+            "1",
+            "2"
+        ]
+    },
+    {
+        "q": "Which element's symbol is NOT derived from its Latin name?",
+        "type": "odd_one_out",
+        "options": [
+            "Sodium",
+            "Potassium",
+            "Iron",
+            "Carbon"
+        ],
+        "correct": "Carbon"
+    },
+    {
+        "q": "The valency of phosphorus in PCl5 is:",
+        "o": [
+            "5",
+            "3",
+            "1",
+            "2"
+        ]
+    },
+    {
+        "q": "The valency of sulphur in SO2 is:",
+        "o": [
+            "4",
+            "2",
+            "6",
+            "1"
+        ]
+    },
+    {
+        "q": "The valency of sulphur in SO3 is:",
+        "o": [
+            "6",
+            "4",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if the chemical symbol is derived from its English name, LEFT if derived from its Latin/German name.",
+        "type": "swipe_cards",
+        "left_label": "Latin/German Derived",
+        "right_label": "English Derived",
+        "cards": {
+            "Calcium (Ca)": "right",
+            "Sodium (Na)": "left",
+            "Chlorine (Cl)": "right",
+            "Potassium (K)": "left"
+        }
+    },
+    {
+        "q": "The Latin name for Lead, which gives it the symbol Pb.",
+        "type": "word_scramble",
+        "answer": "PLUMBUM",
+        "decoys": "XQY"
+    },
+    {
+        "q": "The formula of stannous chloride (tin II chloride) is:",
+        "o": [
+            "SnCl2",
+            "SnCl",
+            "SnCl4",
+            "Sn2Cl"
+        ]
+    },
+    {
+        "q": "[0] is the international scientific organization that approves names, symbols, and [1] of elements.",
+        "type": "inline_dropdown",
+        "text": "[0] is the international scientific organization that approves names, symbols, and [1] of elements.",
+        "dropdowns": [
+            {
+                "correct": "IUPAC",
+                "options": [
+                    "IUPAC",
+                    "UNESCO",
+                    "WHO"
+                ]
+            },
+            {
+                "correct": "units",
+                "options": [
+                    "units",
+                    "prices",
+                    "colors"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the chemical formula for Ferric oxide? (Assume Iron has a valency of 3).",
+        "type": "short_answer",
+        "answers": [
+            "Fe2O3",
+            "fe2o3"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The formula of stannic chloride (tin IV chloride) is:",
+        "o": [
+            "SnCl4",
+            "SnCl2",
+            "SnCl",
+            "Sn4Cl"
+        ]
+    },
+    {
+        "q": "The formula of mercurous chloride is:",
+        "o": [
+            "Hg2Cl2",
+            "HgCl",
+            "HgCl2",
+            "Hg2Cl"
+        ]
+    },
+    {
+        "q": "Elements like Iron and Copper can show ______ valencies depending on the compound.",
+        "type": "fill_blank",
+        "answers": [
+            "variable"
+        ],
+        "other_options": [
+            "zero",
+            "constant",
+            "negative"
+        ]
+    },
+    {
+        "q": "The formula of mercuric chloride is:",
+        "o": [
+            "HgCl2",
+            "HgCl",
+            "Hg2Cl2",
+            "Hg2Cl"
+        ]
+    },
+    {
+        "q": "Match the multivalent metal ion to its specific name.",
+        "type": "match",
+        "left": [
+            "Cu+",
+            "Cu2+",
+            "Fe2+",
+            "Fe3+"
+        ],
+        "right": [
+            "Cuprous",
+            "Cupric",
+            "Ferrous",
+            "Ferric"
+        ]
+    },
+    {
+        "q": "The formula of lead dioxide is:",
+        "o": [
+            "PbO2",
+            "PbO",
+            "Pb2O",
+            "Pb2O3"
+        ]
+    },
+    {
+        "q": "The valency of the sulphate polyatomic ion is 2.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The formula of red lead is:",
+        "o": [
+            "Pb3O4",
+            "PbO",
+            "PbO2",
+            "Pb2O3"
+        ]
+    },
+    {
+        "q": "The formula of potash alum is:",
+        "o": [
+            "K2SO4.Al2(SO4)3.24H2O",
+            "KAl(SO4)2.12H2O",
+            "K2SO4.Al2(SO4)3",
+            "KAl(SO4)2"
+        ]
+    },
+    {
+        "q": "What is the charge on the bicarbonate ion (HCO3)?",
+        "o": [
+            "-1",
+            "-2",
+            "+1",
+            "0"
+        ]
+    },
+    {
+        "q": "What is the magnitude of the charge of a single nitride ion?",
+        "type": "slider",
+        "min": 1,
+        "max": 5,
+        "correct": 3
+    },
+    {
+        "q": "What is the charge on the bisulphate ion (HSO4)?",
+        "o": [
+            "-1",
+            "-2",
+            "+1",
+            "0"
+        ]
+    },
+    {
+        "q": "Match the polyatomic ion to its charge.",
+        "type": "memory",
+        "pairs": {
+            "Nitrate": "-1",
+            "Carbonate": "-2",
+            "Phosphate": "-3",
+            "Ammonium": "+1"
+        }
+    },
+    {
+        "q": "Which of the following is NOT a polyatomic ion?",
+        "type": "odd_one_out",
+        "options": [
+            "Ammonium",
+            "Nitrate",
+            "Chloride",
+            "Sulphate"
+        ],
+        "correct": "Chloride"
+    },
+    {
+        "q": "What is the charge on the permanganate ion (MnO4)?",
+        "o": [
+            "-1",
+            "-2",
+            "+1",
+            "-3"
+        ]
+    },
+    {
+        "q": "What is the charge on the chromate ion (CrO4)?",
+        "o": [
+            "-2",
+            "-1",
+            "+2",
+            "-3"
+        ]
+    },
+    {
+        "q": "What is the charge on the dichromate ion (Cr2O7)?",
+        "o": [
+            "-2",
+            "-1",
+            "+2",
+            "-3"
+        ]
+    },
+    {
+        "q": "The formula of calcium oxychloride (bleaching powder) is:",
+        "o": [
+            "CaOCl2",
+            "Ca(OCl)2",
+            "CaCl2O",
+            "CaOCl"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Monovalent ions (valency 1), LEFT for Divalent ions (valency 2).",
+        "type": "swipe_cards",
+        "left_label": "Divalent (2)",
+        "right_label": "Monovalent (1)",
+        "cards": {
+            "Sodium ion": "right",
+            "Magnesium ion": "left",
+            "Chloride ion": "right",
+            "Oxide ion": "left"
+        }
+    },
+    {
+        "q": "The formula of sodium thiosulphate is:",
+        "o": [
+            "Na2S2O3",
+            "Na2SO3",
+            "Na2SO4",
+            "Na2S2O4"
+        ]
+    },
+    {
+        "q": "When an element exhibits more than one valency, it is said to have ______ valency.",
+        "type": "word_scramble",
+        "answer": "VARIABLE",
+        "decoys": "ZJK"
+    },
+    {
+        "q": "For metals with variable valencies, the valency is denoted by a [0] numeral enclosed in [1] placed right after the metal name.",
+        "type": "inline_dropdown",
+        "text": "For metals with variable valencies, the valency is denoted by a [0] numeral enclosed in [1] placed right after the metal name.",
+        "dropdowns": [
+            {
+                "correct": "Roman",
+                "options": [
+                    "Roman",
+                    "Arabic",
+                    "Greek"
+                ]
+            },
+            {
+                "correct": "brackets",
+                "options": [
+                    "brackets",
+                    "quotes",
+                    "hyphens"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The number of atoms in one formula unit of potash alum is approximately:",
+        "o": [
+            "96",
+            "48",
+            "24",
+            "72"
+        ]
+    },
+    {
+        "q": "What is the mass of 6.022 x 10^23 formula units of CaCO3?",
+        "o": [
+            "100 g",
+            "50 g",
+            "200 g",
+            "44 g"
+        ]
+    },
+    {
+        "q": "The number of ions in 1 mole of Al2(SO4)3 is:",
+        "o": [
+            "5 x 6.022 x 10^23",
+            "3 x 6.022 x 10^23",
+            "2 x 6.022 x 10^23",
+            "6 x 6.022 x 10^23"
+        ]
+    },
+    {
+        "q": "Write the chemical formula for Aluminum sulphate.",
+        "type": "short_answer",
+        "answers": [
+            "Al2(SO4)3",
+            "al2(so4)3"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "How many electrons are present in 1.8 g of water?",
+        "o": [
+            "6.022 x 10^23",
+            "6.022 x 10^24",
+            "3.011 x 10^23",
+            "1.204 x 10^24"
+        ]
+    },
+    {
+        "q": "The total number of neutrons in 18 g of water is: (H has 0, O has 8 neutrons)",
+        "o": [
+            "4.818 x 10^24",
+            "6.022 x 10^23",
+            "3.011 x 10^24",
+            "1.204 x 10^24"
+        ]
+    },
+    {
+        "q": "When writing formulas, ______ are used around polyatomic ions when there is more than one of them.",
+        "type": "fill_blank",
+        "answers": [
+            "brackets"
+        ],
+        "other_options": [
+            "hyphens",
+            "commas",
+            "asterisks"
+        ]
+    },
+    {
+        "q": "What mass of CaO is obtained from 200 g of CaCO3? (Ca=40, C=12, O=16)",
+        "o": [
+            "112 g",
+            "100 g",
+            "88 g",
+            "156 g"
+        ]
+    },
+    {
+        "q": "The mass of residue left when 50 g of CaCO3 is strongly heated is:",
+        "o": [
+            "28 g",
+            "50 g",
+            "22 g",
+            "44 g"
+        ]
+    },
+    {
+        "q": "Match the compound name to its complex chemical formula.",
+        "type": "match",
+        "left": [
+            "Calcium hydroxide",
+            "Ammonium nitrate",
+            "Magnesium bicarbonate",
+            "Sodium carbonate"
+        ],
+        "right": [
+            "Ca(OH)2",
+            "NH4NO3",
+            "Mg(HCO3)2",
+            "Na2CO3"
+        ]
+    },
+    {
+        "q": "What volume of CO2 at STP is evolved when 10 g of CaCO3 is heated?",
+        "o": [
+            "2.24 L",
+            "22.4 L",
+            "1.12 L",
+            "4.48 L"
+        ]
+    },
+    {
+        "q": "How many grams of oxygen are required to burn 6 g of carbon completely?",
+        "o": [
+            "16 g",
+            "32 g",
+            "8 g",
+            "12 g"
+        ]
+    },
+    {
+        "q": "The correct formula for calcium phosphate is Ca2(PO4)3.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What mass of water is produced when 4 g of hydrogen reacts with 32 g of oxygen?",
+        "o": [
+            "36 g",
+            "34 g",
+            "38 g",
+            "32 g"
+        ]
+    },
+    {
+        "q": "The mass of ammonia produced when 14 g of N2 reacts with 6 g of H2 is:",
+        "o": [
+            "17 g",
+            "20 g",
+            "34 g",
+            "14 g"
+        ]
+    },
+    {
+        "q": "Which is the limiting reagent when 1 mole of N2 reacts with 3 moles of H2?",
+        "o": [
+            "No limiting reagent",
+            "N2",
+            "H2",
+            "Both are limiting"
+        ]
+    },
+    {
+        "q": "What mass of CO2 contains the same number of molecules as 2 g of H2?",
+        "o": [
+            "44 g",
+            "22 g",
+            "88 g",
+            "11 g"
+        ]
+    },
+    {
+        "q": "The ratio of masses of carbon and oxygen in CO2 is always:",
+        "o": [
+            "3:8",
+            "3:4",
+            "1:2",
+            "1:1"
+        ]
+    },
+    {
+        "q": "If empirical formula mass is equal to molecular mass, the molecular formula is:",
+        "o": [
+            "Same as empirical formula",
+            "Double of empirical formula",
+            "Half of empirical formula",
+            "Three times empirical formula"
+        ]
+    },
+    {
+        "q": "The formula of chromic acid is:",
+        "o": [
+            "H2CrO4",
+            "H2Cr2O7",
+            "HCrO3",
+            "H2CrO3"
+        ]
+    },
+    {
+        "q": "What is the percentage of iron in Fe2O3? (Fe=56, O=16)",
+        "o": [
+            "70%",
+            "56%",
+            "30%",
+            "60%"
+        ]
+    },
+    {
+        "q": "The number of molecules in 1 drop of water (0.05 mL) is approximately:",
+        "o": [
+            "1.67 x 10^21",
+            "6.022 x 10^23",
+            "3.34 x 10^22",
+            "1.67 x 10^23"
+        ]
+    },
+    {
+        "q": "What is the mass of 1 mole of protons?",
+        "o": [
+            "1.007 g",
+            "1 g",
+            "6.022 x 10^23 g",
+            "0.5 g"
+        ]
+    },
+    {
+        "q": "The volume of 1 mole of water at 4 degree C is:",
+        "o": [
+            "18 mL",
+            "22.4 L",
+            "1 L",
+            "36 mL"
+        ]
+    },
+    {
+        "q": "Calculate the total number of atoms in one single molecule of Ammonium carbonate (NH4)2CO3.",
+        "type": "slider",
+        "min": 5,
+        "max": 20,
+        "correct": 14
+    },
+    {
+        "q": "How many years would it take to spend Avogadro's number of rupees at 10^6 rupees per second?",
+        "o": [
+            "1.9 x 10^10 years",
+            "6.022 x 10^17 years",
+            "1.9 x 10^17 years",
+            "6.022 x 10^10 years"
+        ]
+    },
+    {
+        "q": "What is the mass of 1 molecule of N2?",
+        "o": [
+            "4.65 x 10^-23 g",
+            "2.33 x 10^-23 g",
+            "28 g",
+            "14 g"
+        ]
+    },
+    {
+        "q": "Match the cation and anion pair to the formula they form.",
+        "type": "memory",
+        "pairs": {
+            "Al3+ and Cl-": "AlCl3",
+            "Ca2+ and O2-": "CaO",
+            "Na+ and SO4 2-": "Na2SO4"
+        }
+    },
+    {
+        "q": "The number of oxygen atoms in 60 g of glucose (C6H12O6) is:",
+        "o": [
+            "12.044 x 10^23",
+            "6.022 x 10^23",
+            "3.011 x 10^23",
+            "18.066 x 10^23"
+        ]
+    },
+    {
+        "q": "Which formula is chemically impossible based on standard valencies?",
+        "type": "odd_one_out",
+        "options": [
+            "NaCl",
+            "MgCl2",
+            "AlCl3",
+            "Na2Cl"
+        ],
+        "correct": "Na2Cl"
+    },
+    {
+        "q": "What is the valency of the ferrocyanide ion [Fe(CN)6]?",
+        "o": [
+            "-4",
+            "-3",
+            "-2",
+            "+4"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for formulas representing Ionic compounds (metal + nonmetal), LEFT for Molecular compounds (nonmetal + nonmetal).",
+        "type": "swipe_cards",
+        "left_label": "Molecular",
+        "right_label": "Ionic",
+        "cards": {
+            "NaCl": "right",
+            "CO2": "left",
+            "MgCl2": "right",
+            "H2O": "left"
+        }
+    },
+    {
+        "q": "What is the valency of the ferricyanide ion [Fe(CN)6]?",
+        "o": [
+            "-3",
+            "-4",
+            "-2",
+            "+3"
+        ]
+    },
+    {
+        "q": "The formula of potassium ferrocyanide is:",
+        "o": [
+            "K4[Fe(CN)6]",
+            "K3[Fe(CN)6]",
+            "K2[Fe(CN)6]",
+            "K[Fe(CN)6]"
+        ]
+    },
+    {
+        "q": "The formula of potassium ferricyanide is:",
+        "o": [
+            "K3[Fe(CN)6]",
+            "K4[Fe(CN)6]",
+            "K2[Fe(CN)6]",
+            "K[Fe(CN)6]"
+        ]
+    },
+    {
+        "q": "What is the percentage of nitrogen in ammonium nitrate (NH4NO3)?",
+        "o": [
+            "35%",
+            "40%",
+            "20%",
+            "50%"
+        ]
+    },
+    {
+        "q": "A polyatomic ion made of one sulphur and four oxygen atoms.",
+        "type": "word_scramble",
+        "answer": "SULPHATE",
+        "decoys": "XZ"
+    },
+    {
+        "q": "The simplest ratio of atoms in a compound is called:",
+        "o": [
+            "Empirical formula",
+            "Molecular formula",
+            "Structural formula",
+            "Spatial formula"
+        ]
+    },
+    {
+        "q": "To write a chemical formula, write the symbols of the elements, write their [0] below them, and then [1] the valencies.",
+        "type": "inline_dropdown",
+        "text": "To write a chemical formula, write the symbols of the elements, write their [0] below them, and then [1] the valencies.",
+        "dropdowns": [
+            {
+                "correct": "valencies",
+                "options": [
+                    "valencies",
+                    "masses",
+                    "sizes"
+                ]
+            },
+            {
+                "correct": "criss-cross",
+                "options": [
+                    "criss-cross",
+                    "add",
+                    "multiply"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The formula which shows the actual number of each type of atom in a molecule is:",
+        "o": [
+            "Molecular formula",
+            "Empirical formula",
+            "Structural formula",
+            "Skeletal formula"
+        ]
+    },
+    {
+        "q": "What is the relative atomic mass of Nitrogen in u?",
+        "type": "short_answer",
+        "answers": [
+            "14",
+            "14 u",
+            "14u"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Which of the following has the same empirical and molecular formula?",
+        "o": [
+            "H2O",
+            "C6H12O6",
+            "H2O2",
+            "C2H2"
+        ]
+    },
+    {
+        "q": "One atomic mass unit is exactly one-twelfth the mass of one atom of ______-12.",
+        "type": "fill_blank",
+        "answers": [
+            "Carbon"
+        ],
+        "other_options": [
+            "Oxygen",
+            "Hydrogen",
+            "Nitrogen"
+        ]
+    },
+    {
+        "q": "The mass of 1 mole of neutron is nearly:",
+        "o": [
+            "1.0087 g",
+            "1 g",
+            "0.5 g",
+            "6.022 x 10^23 g"
+        ]
+    },
+    {
+        "q": "The formula of sodium nitroprusside is:",
+        "o": [
+            "Na2[Fe(CN)5NO]",
+            "Na[Fe(CN)5NO]",
+            "Na3[Fe(CN)5NO]",
+            "Na4[Fe(CN)5NO]"
+        ]
+    },
+    {
+        "q": "Match the element to its standard atomic mass in u.",
+        "type": "match",
+        "left": [
+            "Sodium",
+            "Magnesium",
+            "Aluminum",
+            "Chlorine"
+        ],
+        "right": [
+            "23",
+            "24",
+            "27",
+            "35.5"
+        ]
+    },
+    {
+        "q": "What is the mass of CO2 obtained when 25 g of CaCO3 is treated with excess HCl?",
+        "o": [
+            "11 g",
+            "22 g",
+            "25 g",
+            "44 g"
+        ]
+    },
+    {
+        "q": "The number of molecules in 8.8 g of CO2 is:",
+        "o": [
+            "1.204 x 10^23",
+            "6.022 x 10^22",
+            "6.022 x 10^23",
+            "2.408 x 10^23"
+        ]
+    },
+    {
+        "q": "Two different compounds of iron and oxygen have 77.8% and 70% iron respectively. This illustrates:",
+        "o": [
+            "Law of multiple proportions",
+            "Law of constant composition",
+            "Law of conservation of mass",
+            "Reciprocal proportion law"
+        ]
+    },
+    {
+        "q": "If 1 L of N2 reacts with 3 L of H2, what volume of NH3 forms at same temperature and pressure?",
+        "o": [
+            "2 L",
+            "4 L",
+            "1 L",
+            "3 L"
+        ]
+    },
+    {
+        "q": "5 L of CO and 2 L of O2 react to form CO2. What is the volume of CO2 formed?",
+        "o": [
+            "4 L",
+            "5 L",
+            "2 L",
+            "7 L"
+        ]
+    },
+    {
+        "q": "The ratio of carbon and oxygen by mass in carbon monoxide (CO) is 3:8.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "According to Avogadro's law, 1 mole of any gas at STP occupies:",
+        "o": [
+            "22.4 L",
+            "22.4 mL",
+            "2.24 L",
+            "224 L"
+        ]
+    },
+    {
+        "q": "The number of molecules in 44.8 L of SO2 at STP is:",
+        "o": [
+            "1.204 x 10^24",
+            "6.022 x 10^23",
+            "3.011 x 10^23",
+            "2.408 x 10^24"
+        ]
+    },
+    {
+        "q": "A gas has a vapour density of 32. Its molecular mass is:",
+        "o": [
+            "64 u",
+            "32 u",
+            "16 u",
+            "128 u"
+        ]
+    },
+    {
+        "q": "Vapour density of a gas is 22. The mass of 5.6 L of this gas at STP is:",
+        "o": [
+            "11 g",
+            "22 g",
+            "44 g",
+            "5.6 g"
+        ]
+    },
+    {
+        "q": "If the mass ratio of H to O in water is 1:8, how many grams of oxygen are needed to react completely with 4 grams of hydrogen?",
+        "type": "slider",
+        "min": 10,
+        "max": 50,
+        "correct": 32
+    },
+    {
+        "q": "Match the term to its correct definition concerning mass.",
+        "type": "memory",
+        "pairs": {
+            "Atomic mass unit (amu)": "1/12th the mass of C-12 atom",
+            "Relative atomic mass": "Average mass of the atom compared to 1/12th C-12",
+            "Fractional mass": "Result of average mass of different isotopes"
+        }
+    },
+    {
+        "q": "Relative density of a gas with respect to hydrogen is 14. Its molecular mass is:",
+        "o": [
+            "28 u",
+            "14 u",
+            "7 u",
+            "42 u"
+        ]
+    },
+    {
+        "q": "The mass of 1 atom of an element is 6.64 x 10^-23 g. The atomic mass is about:",
+        "o": [
+            "40 u",
+            "20 u",
+            "12 u",
+            "16 u"
+        ]
+    },
+    {
+        "q": "Which element has an atomic mass of exactly 32 u?",
+        "type": "odd_one_out",
+        "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon",
+            "Sulphur"
+        ],
+        "correct": "Sulphur"
+    },
+    {
+        "q": "The mass of one atom of element X is 3.99 x 10^-23 g. Element X is:",
+        "o": [
+            "Magnesium",
+            "Sodium",
+            "Aluminium",
+            "Calcium"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if the element's atomic mass is Lighter than Carbon-12, LEFT if it is Heavier.",
+        "type": "swipe_cards",
+        "left_label": "Heavier (>12u)",
+        "right_label": "Lighter (<12u)",
+        "cards": {
+            "Hydrogen": "right",
+            "Oxygen": "left",
+            "Helium": "right",
+            "Sodium": "left"
+        }
+    },
+    {
+        "q": "A proton or a neutron inside the nucleus.",
+        "type": "word_scramble",
+        "answer": "NUCLEON",
+        "decoys": "BFW"
+    },
+    {
+        "q": "What is the mass of one molecule of phosphorus (P4)?",
+        "o": [
+            "2.06 x 10^-22 g",
+            "5.15 x 10^-23 g",
+            "1.24 x 10^-22 g",
+            "3.1 x 10^-23 g"
+        ]
+    },
+    {
+        "q": "The relative atomic mass of all elements have been found with respect to an atom of [0] as the standard [1].",
+        "type": "inline_dropdown",
+        "text": "The relative atomic mass of all elements have been found with respect to an atom of [0] as the standard [1].",
+        "dropdowns": [
+            {
+                "correct": "Carbon-12",
+                "options": [
+                    "Carbon-12",
+                    "Oxygen-16",
+                    "Hydrogen-1"
+                ]
+            },
+            {
+                "correct": "reference",
+                "options": [
+                    "reference",
+                    "mixture",
+                    "solution"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Which has the smallest mass?",
+        "o": [
+            "One atom of He",
+            "One molecule of H2",
+            "One atom of Li",
+            "One atom of Be"
+        ]
+    },
+    {
+        "q": "The ratio of number of atoms in 1 g of H2 and 1 g of O2 is:",
+        "o": [
+            "16:1",
+            "1:16",
+            "1:1",
+            "2:1"
+        ]
+    },
+    {
+        "q": "What is the molecular mass of Nitric acid (HNO3) in u?",
+        "type": "short_answer",
+        "answers": [
+            "63",
+            "63 u",
+            "63u"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The total number of protons in 10 g of CaCO3 is: (Ca=20, C=6, O=8)",
+        "o": [
+            "3.011 x 10^24",
+            "6.022 x 10^23",
+            "1.505 x 10^24",
+            "4.818 x 10^24"
+        ]
+    },
+    {
+        "q": "How many neutrons are present in 36 g of water? (H-1 has 0, O-16 has 8)",
+        "o": [
+            "9.636 x 10^24",
+            "4.818 x 10^24",
+            "1.606 x 10^24",
+            "6.022 x 10^23"
+        ]
+    },
+    {
+        "q": "The total number of electrons in 1.7 g of NH3 is: (N=7, H=1)",
+        "o": [
+            "6.022 x 10^23",
+            "3.011 x 10^23",
+            "1.204 x 10^24",
+            "4.818 x 10^23"
+        ]
+    },
+    {
+        "q": "0.1 mole of a hydrocarbon on complete combustion gave 8.8 g CO2. The number of C atoms per molecule is:",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "A compound contains 54.54% C, 9.09% H, 36.36% O. Its empirical formula is:",
+        "o": [
+            "C2H4O",
+            "C4H8O2",
+            "C3H6O",
+            "CH2O"
+        ]
+    },
+    {
+        "q": "Empirical formula is CH2O. Vapour density is 90. Molecular formula is:",
+        "o": [
+            "C6H12O6",
+            "C3H6O3",
+            "C2H4O2",
+            "C4H8O4"
+        ]
+    },
+    {
+        "q": "The formula unit mass of Sodium chloride (NaCl) is ______ u.",
+        "type": "fill_blank",
+        "answers": [
+            "58.5"
+        ],
+        "other_options": [
+            "58",
+            "59",
+            "60.5"
+        ]
+    },
+    {
+        "q": "Match the compound to its calculated molar/molecular mass.",
+        "type": "match",
+        "left": [
+            "H2",
+            "H2O",
+            "NH3",
+            "CO2"
+        ],
+        "right": [
+            "2 u",
+            "18 u",
+            "17 u",
+            "44 u"
+        ]
+    },
+    {
+        "q": "A compound has carbon 75% and hydrogen 25%. The molecular mass is 16 u. The formula is:",
+        "o": [
+            "CH4",
+            "C2H4",
+            "C2H6",
+            "CH2"
+        ]
+    },
+    {
+        "q": "What volume of O2 at STP is needed to burn 16 g of CH4 completely?",
+        "o": [
+            "44.8 L",
+            "22.4 L",
+            "11.2 L",
+            "67.2 L"
+        ]
+    },
+    {
+        "q": "What mass of CO2 is produced when 1.5 moles of CH4 burns completely?",
+        "o": [
+            "66 g",
+            "44 g",
+            "33 g",
+            "88 g"
+        ]
+    },
+    {
+        "q": "2Al + 3H2SO4 -> Al2(SO4)3 + 3H2. Moles of H2 from 54 g Al is:",
+        "o": [
+            "3 moles",
+            "2 moles",
+            "1.5 moles",
+            "6 moles"
+        ]
+    },
+    {
+        "q": "In the reaction 2KClO3 -> 2KCl + 3O2, the mass of O2 from 24.5 g KClO3 is: (K=39, Cl=35.5)",
+        "o": [
+            "9.6 g",
+            "4.8 g",
+            "19.2 g",
+            "12.8 g"
+        ]
+    },
+    {
+        "q": "CaCO3 -> CaO + CO2. Volume of CO2 at STP from 50 g CaCO3 is:",
+        "o": [
+            "11.2 L",
+            "22.4 L",
+            "5.6 L",
+            "2.24 L"
+        ]
+    },
+    {
+        "q": "N2 + 3H2 -> 2NH3. What mass of NH3 is formed from 28 g N2 and excess H2?",
+        "o": [
+            "34 g",
+            "17 g",
+            "68 g",
+            "51 g"
+        ]
+    },
+    {
+        "q": "N2 + 3H2 -> 2NH3. If 14 g N2 and 6 g H2 react, limiting reagent is:",
+        "o": [
+            "N2",
+            "H2",
+            "No limiting reagent",
+            "Cannot determine"
+        ]
+    },
+    {
+        "q": "The term 'formula unit mass' is used primarily for molecular compounds like water and methane.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "Calculate the molecular mass of Ethane (C2H6) in u (C=12, H=1).",
+        "type": "slider",
+        "min": 10,
+        "max": 50,
+        "correct": 30
+    },
+    {
+        "q": "2H2 + O2 -> 2H2O. Volume of steam from 10 L H2 and 10 L O2 is:",
+        "o": [
+            "10 L",
+            "20 L",
+            "5 L",
+            "15 L"
+        ]
+    },
+    {
+        "q": "What is the mass of H2SO4 required to neutralise 40 g NaOH completely?",
+        "o": [
+            "49 g",
+            "98 g",
+            "24.5 g",
+            "80 g"
+        ]
+    },
+    {
+        "q": "The number of moles of HCl needed to react with 50 g CaCO3 is:",
+        "o": [
+            "1 mole",
+            "0.5 mole",
+            "2 moles",
+            "1.5 moles"
+        ]
+    },
+    {
+        "q": "How many grams of CaO are formed by heating 100 g of 80% pure CaCO3?",
+        "o": [
+            "44.8 g",
+            "56 g",
+            "80 g",
+            "22.4 g"
+        ]
+    },
+    {
+        "q": "The mass of oxygen required to react completely with 27 g Al to form Al2O3 is:",
+        "o": [
+            "24 g",
+            "16 g",
+            "8 g",
+            "32 g"
+        ]
+    },
+    {
+        "q": "What is the percentage purity of CaCO3 if 10 g gives 3.52 g CO2 on heating?",
+        "o": [
+            "80%",
+            "100%",
+            "40%",
+            "60%"
+        ]
+    },
+    {
+        "q": "A metal M forms a chloride MCl3 containing 20.22% M. The atomic mass of M is:",
+        "o": [
+            "27 u",
+            "56 u",
+            "40 u",
+            "23 u"
+        ]
+    },
+    {
+        "q": "An element X forms an oxide X2O3 with 47% oxygen. Atomic mass of X is:",
+        "o": [
+            "27 u",
+            "56 u",
+            "16 u",
+            "40 u"
+        ]
+    },
+    {
+        "q": "Match the formula mass calculation to its compound.",
+        "type": "memory",
+        "pairs": {
+            "12 + (16 x 2)": "Carbon dioxide",
+            "(1 x 2) + 16": "Water",
+            "23 + 35.5": "Sodium chloride"
+        }
+    },
+    {
+        "q": "The equivalent mass of an element is 9. Its vapour chloride has vapour density 77.25. Atomic mass is:",
+        "o": [
+            "27 u",
+            "18 u",
+            "36 u",
+            "9 u"
+        ]
+    },
+    {
+        "q": "A divalent metal oxide contains 40% oxygen. Atomic mass of metal is:",
+        "o": [
+            "24 u",
+            "40 u",
+            "56 u",
+            "64 u"
+        ]
+    },
+    {
+        "q": "Which compound does NOT have a molecular mass of 44 u?",
+        "type": "odd_one_out",
+        "options": [
+            "Carbon dioxide (CO2)",
+            "Nitrous oxide (N2O)",
+            "Propane (C3H8)",
+            "Water (H2O)"
+        ],
+        "correct": "Water (H2O)"
+    },
+    {
+        "q": "The formula of a chloride of a metal is MCl2. 0.5 g of metal gives 1.04 g of chloride. Atomic mass is:",
+        "o": [
+            "40 u",
+            "24 u",
+            "65 u",
+            "56 u"
+        ]
+    },
+    {
+        "q": "What is the mass of 1 atom of silver? (Ag=108)",
+        "o": [
+            "1.79 x 10^-22 g",
+            "1.08 x 10^-22 g",
+            "6.022 x 10^-23 g",
+            "3.59 x 10^-22 g"
+        ]
+    },
+    {
+        "q": "Number of atoms in 120 g Ca is: (Ca=40)",
+        "o": [
+            "1.806 x 10^24",
+            "6.022 x 10^23",
+            "3.011 x 10^23",
+            "4.818 x 10^24"
+        ]
+    },
+    {
+        "q": "Which sample contains largest number of atoms?",
+        "o": [
+            "1 g of H2",
+            "1 g of He",
+            "1 g of Li",
+            "1 g of C"
+        ]
+    },
+    {
+        "q": "The mass of 1 mole of ammonium phosphate (NH4)3PO4 is: (N=14, H=1, P=31, O=16)",
+        "o": [
+            "149 g",
+            "115 g",
+            "132 g",
+            "165 g"
+        ]
+    },
+    {
+        "q": "Number of moles of ions in 0.5 mole of Al2(SO4)3 in solution is:",
+        "o": [
+            "2.5 moles",
+            "1.5 moles",
+            "3 moles",
+            "5 moles"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if you would calculate 'Molecular Mass' for it, LEFT if you would calculate 'Formula Unit Mass'.",
+        "type": "swipe_cards",
+        "left_label": "Formula Unit Mass",
+        "right_label": "Molecular Mass",
+        "cards": {
+            "Methane (CH4)": "right",
+            "Zinc oxide (ZnO)": "left",
+            "Glucose (C6H12O6)": "right",
+            "Calcium chloride (CaCl2)": "left"
+        }
+    },
+    {
+        "q": "The volume of CO2 at STP obtained by heating 21 g NaHCO3 is: (Na=23)",
+        "o": [
+            "2.8 L",
+            "5.6 L",
+            "11.2 L",
+            "22.4 L"
+        ]
+    },
+    {
+        "q": "The mass of KCl formed by heating 12.25 g KClO3 is: (K=39, Cl=35.5)",
+        "o": [
+            "7.45 g",
+            "14.9 g",
+            "3.725 g",
+            "4.8 g"
+        ]
+    },
+    {
+        "q": "0.2 g of a metal gave 0.28 g of its oxide on heating. Equivalent mass of metal is:",
+        "o": [
+            "20",
+            "40",
+            "10",
+            "30"
+        ]
+    },
+    {
+        "q": "A hydrocarbon contains 80% C. 1 L of its vapour at STP weighs 1.34 g. Formula is:",
+        "o": [
+            "C2H6",
+            "C2H4",
+            "CH4",
+            "C3H8"
+        ]
+    },
+    {
+        "q": "The empirical formula of a compound is CH. Molecular mass is 78 u. The compound is:",
+        "o": [
+            "C6H6",
+            "C2H2",
+            "C4H4",
+            "C3H3"
+        ]
+    },
+    {
+        "q": "2.9 g of a gas at STP occupies 1.12 L. The molecular mass is:",
+        "o": [
+            "58 u",
+            "29 u",
+            "14.5 u",
+            "116 u"
+        ]
+    },
+    {
+        "q": "The number of water molecules in 250 mL of water at 4 degree C is:",
+        "o": [
+            "8.36 x 10^24",
+            "6.022 x 10^23",
+            "1.67 x 10^25",
+            "4.18 x 10^24"
+        ]
+    },
+    {
+        "q": "An ionic compound formed by sodium and chlorine.",
+        "type": "word_scramble",
+        "answer": "CHLORIDE",
+        "decoys": "KM"
+    },
+    {
+        "q": "What is the mass of 3.011 x 10^23 atoms of calcium?",
+        "o": [
+            "20 g",
+            "40 g",
+            "10 g",
+            "80 g"
+        ]
+    },
+    {
+        "q": "We calculate formula unit mass in the same manner as molecular mass, except we use it for substances whose constituent particles are [0] instead of [1].",
+        "type": "inline_dropdown",
+        "text": "We calculate formula unit mass in the same manner as molecular mass, except we use it for substances whose constituent particles are [0] instead of [1].",
+        "dropdowns": [
+            {
+                "correct": "ions",
+                "options": [
+                    "ions",
+                    "molecules",
+                    "atoms"
+                ]
+            },
+            {
+                "correct": "molecules",
+                "options": [
+                    "molecules",
+                    "ions",
+                    "electrons"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "What is the numerical value of Avogadro's constant? (Write as X.XXX x 10^23)",
+        "type": "short_answer",
+        "answers": [
+            "6.022 x 10^23",
+            "6.022x10^23",
+            "6.02 x 10^23"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The ratio of masses of oxygen in NO and NO2 for a fixed mass of nitrogen is:",
+        "o": [
+            "1:2",
+            "2:1",
+            "1:1",
+            "3:4"
+        ]
+    },
+    {
+        "q": "A trivalent metal M forms sulphate M2(SO4)3. If 0.1 mole weighs 34.2 g, atomic mass is:",
+        "o": [
+            "27 u",
+            "56 u",
+            "52 u",
+            "23 u"
+        ]
+    },
+    {
+        "q": "The mass of one mole of a substance in grams is called its ______ mass.",
+        "type": "fill_blank",
+        "answers": [
+            "molar"
+        ],
+        "other_options": [
+            "atomic",
+            "molecular",
+            "empirical"
+        ]
+    },
+    {
+        "q": "0.32 g of a metal gave 0.4 g of its oxide. Equivalent mass of metal is:",
+        "o": [
+            "32",
+            "16",
+            "64",
+            "8"
+        ]
+    },
+    {
+        "q": "The vapour density of a mixture of NO2 and N2O4 is 38.3 at 26.7 degree C. Degree of dissociation is:",
+        "o": [
+            "0.2",
+            "0.5",
+            "0.8",
+            "0.1"
+        ]
+    },
+    {
+        "q": "How many moles of electrons are present in 1 mole of water?",
+        "o": [
+            "10 moles",
+            "8 moles",
+            "6 moles",
+            "12 moles"
+        ]
+    },
+    {
+        "q": "The mass of nitrogen in 100 g of urea (NH2CONH2) is:",
+        "o": [
+            "46.67 g",
+            "23.33 g",
+            "60 g",
+            "30 g"
+        ]
+    },
+    {
+        "q": "A metal oxide has 60% metal. Equivalent mass of metal is:",
+        "o": [
+            "12",
+            "24",
+            "20",
+            "16"
+        ]
+    },
+    {
+        "q": "What is the mass of CaO required to remove hardness caused by 16.2 g Ca(HCO3)2?",
+        "o": [
+            "5.6 g",
+            "11.2 g",
+            "16.8 g",
+            "2.8 g"
+        ]
+    },
+    {
+        "q": "The formula of a compound is A2B3. If 0.05 mole weighs 5 g, molecular mass is:",
+        "o": [
+            "100 u",
+            "50 u",
+            "200 u",
+            "150 u"
+        ]
+    },
+    {
+        "q": "A bivalent metal has 37.2% metal in its chloride. Atomic mass of metal is:",
+        "o": [
+            "65 u",
+            "40 u",
+            "24 u",
+            "56 u"
+        ]
+    },
+    {
+        "q": "Match the quantity of moles to its mass for Oxygen (O).",
+        "type": "match",
+        "left": [
+            "1 mole of O atoms",
+            "1 mole of O2 molecules",
+            "0.5 moles of O atoms",
+            "2 moles of O2 molecules"
+        ],
+        "right": [
+            "16 g",
+            "32 g",
+            "8 g",
+            "64 g"
+        ]
+    },
+    {
+        "q": "The mass of 1 x 10^22 molecules of a substance is 3.2 g. Its molecular mass is:",
+        "o": [
+            "192 u",
+            "32 u",
+            "64 u",
+            "96 u"
+        ]
+    },
+    {
+        "q": "1 mole of carbon atoms weighs exactly 12 atomic mass units (u).",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "What volume of O2 at STP is required to burn 60 g of C2H6 completely?",
+        "o": [
+            "156.8 L",
+            "78.4 L",
+            "112 L",
+            "224 L"
+        ]
+    },
+    {
+        "q": "The percentage of P2O5 in Ca3(PO4)2 is: (Ca=40, P=31, O=16)",
+        "o": [
+            "45.8%",
+            "54.2%",
+            "30%",
+            "60%"
+        ]
+    },
+    {
+        "q": "How many ions are produced from one formula unit of K4[Fe(CN)6] in water?",
+        "o": [
+            "5",
+            "4",
+            "6",
+            "10"
+        ]
+    },
+    {
+        "q": "How many moles of Helium gas are present in 52 grams of Helium? (Atomic mass = 4 u).",
+        "type": "slider",
+        "min": 1,
+        "max": 20,
+        "correct": 13
+    },
+    {
+        "q": "Number of atoms in 52 g of He is:",
+        "o": [
+            "7.83 x 10^24",
+            "6.022 x 10^23",
+            "3.13 x 10^25",
+            "1.566 x 10^25"
+        ]
+    },
+    {
+        "q": "Match the physical quantity to its symbol used in mole formulas.",
+        "type": "memory",
+        "pairs": {
+            "Number of moles": "n",
+            "Given mass": "m",
+            "Molar mass": "M",
+            "Avogadro number": "N0"
+        }
+    },
+    {
+        "q": "The mass of 1 molecule of CO is: (C=12, O=16)",
+        "o": [
+            "4.65 x 10^-23 g",
+            "2.33 x 10^-23 g",
+            "6.022 x 10^-23 g",
+            "1.4 x 10^-23 g"
+        ]
+    },
+    {
+        "q": "Which quantity represents the greatest mass?",
+        "type": "odd_one_out",
+        "options": [
+            "1 mole of H2",
+            "1 mole of H2O",
+            "1 mole of CO2",
+            "1 mole of O2"
+        ],
+        "correct": "1 mole of CO2"
+    },
+    {
+        "q": "The volume of O2 at STP that contains the same number of molecules as 22 g CO2 is:",
+        "o": [
+            "11.2 L",
+            "22.4 L",
+            "5.6 L",
+            "16.8 L"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Molar mass units, LEFT for Molecular mass units.",
+        "type": "swipe_cards",
+        "left_label": "Molecular Mass",
+        "right_label": "Molar Mass",
+        "cards": {
+            "g/mol": "right",
+            "u": "left",
+            "amu": "left",
+            "grams": "right"
+        }
+    },
+    {
+        "q": "A gas has vapour density 14. 2.8 g of this gas at STP occupies:",
+        "o": [
+            "2.24 L",
+            "1.12 L",
+            "4.48 L",
+            "22.4 L"
+        ]
+    },
+    {
+        "q": "The Italian scientist Amedeo ______ who proposed the constant number of particles in a mole.",
+        "type": "word_scramble",
+        "answer": "AVOGADRO",
+        "decoys": "ZBX"
+    },
+    {
+        "q": "The [0] mass of an element is numerically equal to its [1] mass but expressed in grams instead of u.",
+        "type": "inline_dropdown",
+        "text": "The [0] mass of an element is numerically equal to its [1] mass but expressed in grams instead of u.",
+        "dropdowns": [
+            {
+                "correct": "molar",
+                "options": [
+                    "molar",
+                    "atomic",
+                    "molecular"
+                ]
+            },
+            {
+                "correct": "atomic",
+                "options": [
+                    "atomic",
+                    "molar",
+                    "compound"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "The number of moles of water in 1 kg of water is:",
+        "o": [
+            "55.56",
+            "18",
+            "1000",
+            "6.022 x 10^23"
+        ]
+    },
+    {
+        "q": "Mass of FeSO4.7H2O required to prepare 0.1 mole of FeSO4 is:",
+        "o": [
+            "27.8 g",
+            "15.2 g",
+            "55.6 g",
+            "278 g"
+        ]
+    },
+    {
+        "q": "How many atoms are present in exactly 1 mole of a monoatomic gas like Helium? (Use 6.022 x 10^23 format)",
+        "type": "short_answer",
+        "answers": [
+            "6.022 x 10^23",
+            "6.022x10^23"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "0.1 mole of a metal M reacts completely with 3.55 g of chlorine. M is:",
+        "o": [
+            "Magnesium",
+            "Sodium",
+            "Aluminium",
+            "Calcium"
+        ]
+    },
+    {
+        "q": "The number of particles in 0.1 moles of carbon atoms is ______ x 10^22.",
+        "type": "fill_blank",
+        "answers": [
+            "6.022"
+        ],
+        "other_options": [
+            "6.02",
+            "60.22",
+            "0.6022"
+        ]
+    },
+    {
+        "q": "What mass of 60% pure H2SO4 is needed to neutralise 20 g NaOH?",
+        "o": [
+            "40.83 g",
+            "24.5 g",
+            "49 g",
+            "81.67 g"
+        ]
+    },
+    {
+        "q": "Number of moles of MnO4- ions required to oxidise 1 mole of Fe2+ to Fe3+ is:",
+        "o": [
+            "0.2",
+            "1",
+            "5",
+            "0.5"
+        ]
+    },
+    {
+        "q": "The mass of water produced by burning 16 g of methane in excess oxygen is:",
+        "o": [
+            "36 g",
+            "18 g",
+            "72 g",
+            "44 g"
+        ]
+    },
+    {
+        "q": "The formula unit mass of Mohr's salt FeSO4.(NH4)2SO4.6H2O is: (Fe=56)",
+        "o": [
+            "392 u",
+            "284 u",
+            "340 u",
+            "448 u"
+        ]
+    },
+    {
+        "q": "Match the fraction of a mole to its number of particles.",
+        "type": "match",
+        "left": [
+            "1 mole",
+            "0.5 moles",
+            "2 moles",
+            "10 moles"
+        ],
+        "right": [
+            "6.022 x 10^23",
+            "3.011 x 10^23",
+            "12.044 x 10^23",
+            "6.022 x 10^24"
+        ]
+    },
+    {
+        "q": "What is the mass of chlorine in 10 g of bleaching powder CaOCl2? (Ca=40, O=16, Cl=35.5)",
+        "o": [
+            "5.59 g",
+            "3.55 g",
+            "7.1 g",
+            "2.8 g"
+        ]
+    },
+    {
+        "q": "Avogadro's number changes depending on the nature of the substance being measured (e.g., solid vs gas).",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "How many moles of particles are equivalent to 18.066 x 10^23 particles?",
+        "type": "slider",
+        "min": 1,
+        "max": 10,
+        "correct": 3
+    },
+    {
+        "q": "How many moles of H atoms are present in 34.2 g of cane sugar C12H22O11?",
+        "o": [
+            "2.2",
+            "0.1",
+            "1.1",
+            "22"
+        ]
+    },
+    {
+        "q": "Match the given mass to its number of particles.",
+        "type": "memory",
+        "pairs": {
+            "12g of C": "6.022 x 10^23 atoms",
+            "1g of H": "6.022 x 10^23 atoms",
+            "18g of H2O": "6.022 x 10^23 molecules"
+        }
+    },
+    {
+        "q": "A compound has composition: Na=14.3%, S=10%, O=30%, H2O=45.7%. Empirical formula is:",
+        "o": [
+            "Na2SO4.10H2O",
+            "Na2SO4.5H2O",
+            "Na2SO3.7H2O",
+            "Na2SO4.7H2O"
+        ]
+    },
+    {
+        "q": "Which sample does NOT contain exactly 1 mole of molecules?",
+        "type": "odd_one_out",
+        "options": [
+            "18 g of H2O",
+            "44 g of CO2",
+            "32 g of O2",
+            "1 g of H2"
+        ],
+        "correct": "1 g of H2"
+    },
+    {
+        "q": "The mass of 1 mole of chlorophyll C55H72MgN4O5 is:",
+        "o": [
+            "892 g",
+            "892 u",
+            "786 g",
+            "924 g"
+        ]
+    },
+    {
+        "q": "Vapour density of SO2 gas is: (S=32, O=16)",
+        "o": [
+            "32",
+            "16",
+            "64",
+            "48"
+        ]
+    },
+    {
+        "q": "What is the mass of N in 34.2 g of (NH4)2SO4?",
+        "o": [
+            "7.25 g",
+            "14 g",
+            "3.63 g",
+            "28 g"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if the sample contains MORE than 1 mole of particles, LEFT if LESS than 1 mole.",
+        "type": "swipe_cards",
+        "left_label": "< 1 Mole",
+        "right_label": "> 1 Mole",
+        "cards": {
+            "12.044 x 10^23 particles": "right",
+            "3.011 x 10^23 particles": "left",
+            "1.505 x 10^23 particles": "left",
+            "24.088 x 10^23 particles": "right"
+        }
+    },
+    {
+        "q": "Which contains the maximum mass of oxygen?",
+        "o": [
+            "0.1 mole of C6H12O6",
+            "0.1 mole of C12H22O11",
+            "0.2 mole of H2O",
+            "0.1 mole of CaCO3"
+        ]
+    },
+    {
+        "q": "Number of atoms in 0.25 mole of SO3 is:",
+        "o": [
+            "6.022 x 10^23",
+            "1.505 x 10^23",
+            "2.408 x 10^24",
+            "1.204 x 10^24"
+        ]
+    },
+    {
+        "q": "The volume of CO2 at STP formed when 10 g of 80% pure limestone is heated is:",
+        "o": [
+            "1.792 L",
+            "2.24 L",
+            "4.48 L",
+            "8.96 L"
+        ]
+    },
+    {
+        "q": "What is the ratio of number of molecules in 2 g H2 and 32 g O2?",
+        "o": [
+            "1:1",
+            "2:1",
+            "1:16",
+            "16:1"
+        ]
+    },
+    {
+        "q": "The mass of 112 mL of a gas at STP is 0.22 g. The gas could be:",
+        "o": [
+            "CO2",
+            "N2",
+            "O2",
+            "CH4"
+        ]
+    },
+    {
+        "q": "Number of water of crystallisation molecules in 1 formula unit of alum is:",
+        "o": [
+            "24",
+            "12",
+            "5",
+            "7"
+        ]
+    },
+    {
+        "q": "0.56 g of a gas occupies 280 mL at NTP. Its vapour density is:",
+        "o": [
+            "22.4",
+            "44.8",
+            "11.2",
+            "2.24"
+        ]
+    },
+    {
+        "q": "A fixed mathematical value, like Avogadro's.",
+        "type": "word_scramble",
+        "answer": "CONSTANT",
+        "decoys": "XYZ"
+    },
+    {
+        "q": "A metal M forms M2O. 0.62 g of metal gives 0.78 g of oxide. Atomic mass of M is:",
+        "o": [
+            "39 u",
+            "23 u",
+            "85.5 u",
+            "63.5 u"
+        ]
+    },
+    {
+        "q": "Mass of CaCO3 required to produce 11.2 L CO2 at STP by heating is:",
+        "o": [
+            "50 g",
+            "25 g",
+            "100 g",
+            "75 g"
+        ]
+    },
+    {
+        "q": "The percentage of nitrogen by mass in ammonium nitrate is:",
+        "o": [
+            "35%",
+            "20%",
+            "46.67%",
+            "17.5%"
+        ]
+    },
+    {
+        "q": "How many grams of SO2 contain the same number of molecules as 8 g of SO3?",
+        "o": [
+            "6.4 g",
+            "8 g",
+            "12.8 g",
+            "3.2 g"
+        ]
+    },
+    {
+        "q": "To find the number of [0] in a sample, multiply the number of [1] by Avogadro's number.",
+        "type": "inline_dropdown",
+        "text": "To find the number of [0] in a sample, multiply the number of [1] by Avogadro's number.",
+        "dropdowns": [
+            {
+                "correct": "particles",
+                "options": [
+                    "particles",
+                    "grams",
+                    "liters"
+                ]
+            },
+            {
+                "correct": "moles",
+                "options": [
+                    "moles",
+                    "atoms",
+                    "mass"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Total number of atoms in 5 moles of PCl5 is:",
+        "o": [
+            "1.806 x 10^25",
+            "3.011 x 10^24",
+            "6.022 x 10^23",
+            "3.613 x 10^24"
+        ]
+    },
+    {
+        "q": "A sample of CaCO3 contains 40% Ca, 12% C and 48% O. Law illustrated is:",
+        "o": [
+            "Law of constant proportions",
+            "Law of conservation of mass",
+            "Law of multiple proportions",
+            "Gay Lussac's law"
+        ]
+    },
+    {
+        "q": "12 g of Mg (at. mass 24) on burning gave 16.8 g MgO. % yield of reaction is:",
+        "o": [
+            "84%",
+            "100%",
+            "70%",
+            "50%"
+        ]
+    },
+    {
+        "q": "What is the mass in grams of 0.5 moles of Oxygen gas (O2)?",
+        "type": "short_answer",
+        "answers": [
+            "16",
+            "16 g",
+            "16g"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "The mass of KMnO4 required to prepare 250 mL of 0.1 M solution is:",
+        "o": [
+            "3.95 g",
+            "7.9 g",
+            "15.8 g",
+            "1.975 g"
+        ]
+    },
+    {
+        "q": "Number of gram atoms of oxygen in 0.2 mole of Ca3(PO4)2 is:",
+        "o": [
+            "1.6",
+            "0.8",
+            "3.2",
+            "0.4"
+        ]
+    },
+    {
+        "q": "What is the atomicity of ozone?",
+        "o": [
+            "3",
+            "1",
+            "2",
+            "4"
+        ]
+    },
+    {
+        "q": "To find the number of molecules in a given mass, divide the mass by molar mass and multiply by ______'s constant.",
+        "type": "fill_blank",
+        "answers": [
+            "Avogadro"
+        ],
+        "other_options": [
+            "Dalton",
+            "Newton",
+            "Bohr"
+        ]
+    },
+    {
+        "q": "How many moles of KClO3 are needed to produce 6 moles of O2?",
+        "o": [
+            "4 moles",
+            "6 moles",
+            "2 moles",
+            "3 moles"
+        ]
+    },
+    {
+        "q": "The mass of residue when 32.7 g ZnCO3 is heated is: (Zn=65.4)",
+        "o": [
+            "24.3 g",
+            "16.2 g",
+            "32.7 g",
+            "40.5 g"
+        ]
+    },
+    {
+        "q": "The ratio of specific heats of a gas is 1.4. Its molecular mass is 28 u. The gas is:",
+        "o": [
+            "N2",
+            "O2",
+            "CO2",
+            "CH4"
+        ]
+    },
+    {
+        "q": "A metal M forms a volatile chloride MClx with vapour density 95. Atomic mass of M is 24. Value of x is:",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "0.5 g of a metal on treatment with dilute acid gave 280 mL of H2 at NTP. Equivalent mass is:",
+        "o": [
+            "20",
+            "40",
+            "10",
+            "30"
+        ]
+    },
+    {
+        "q": "Match the mass of water to its number of molecules.",
+        "type": "match",
+        "left": [
+            "18 g",
+            "9 g",
+            "36 g",
+            "1.8 g"
+        ],
+        "right": [
+            "6.022 x 10^23",
+            "3.011 x 10^23",
+            "12.044 x 10^23",
+            "6.022 x 10^22"
+        ]
+    },
+    {
+        "q": "1 g of a divalent metal liberated 0.56 L H2 at STP from dilute acid. Atomic mass of metal is:",
+        "o": [
+            "40 u",
+            "20 u",
+            "80 u",
+            "24 u"
+        ]
+    },
+    {
+        "q": "22 grams of Carbon dioxide (CO2) contains approximately 3.011 x 10^23 molecules.",
+        "type": "true_false",
+        "correct": "True"
+    },
+    {
+        "q": "The equivalent mass of a metal is 12. Its oxide contains what percentage of oxygen?",
+        "o": [
+            "40%",
+            "20%",
+            "60%",
+            "12%"
+        ]
+    },
+    {
+        "q": "How many moles of oxygen ATOMS are present in 2 moles of Carbon dioxide (CO2)?",
+        "type": "slider",
+        "min": 1,
+        "max": 8,
+        "correct": 4
+    },
+    {
+        "q": "3 g of an oxide of a metal was converted to chloride giving 6 g of chloride. Equivalent mass of metal is:",
+        "o": [
+            "18.25",
+            "36.5",
+            "12",
+            "24"
+        ]
+    },
+    {
+        "q": "The vapour density of a mixture of PCl5, PCl3 and Cl2 at equilibrium is 57.9. % dissociation of PCl5 is:",
+        "o": [
+            "80%",
+            "50%",
+            "20%",
+            "100%"
+        ]
+    },
+    {
+        "q": "NH3 and HCl gases are mixed in 1:1 volume ratio. Final pressure after reaction at same T and V is:",
+        "o": [
+            "Nearly zero",
+            "Half of initial",
+            "Same as initial",
+            "One-fourth of initial"
+        ]
+    },
+    {
+        "q": "A gas mixture of CH4 and C2H6 has average molecular mass 20. Mole % of CH4 is:",
+        "o": [
+            "75%",
+            "50%",
+            "25%",
+            "60%"
+        ]
+    },
+    {
+        "q": "An organic compound gave 0.66 g CO2 and 0.36 g H2O on combustion. Mass of C and H in compound is:",
+        "o": [
+            "0.18 g C, 0.04 g H",
+            "0.36 g C, 0.08 g H",
+            "0.72 g C, 0.04 g H",
+            "0.18 g C, 0.08 g H"
+        ]
+    },
+    {
+        "q": "0.29 g of an organic compound gave 0.66 g CO2 and 0.09 g H2O. % of oxygen in compound is:",
+        "o": [
+            "48.28%",
+            "62.07%",
+            "37.93%",
+            "51.72%"
+        ]
+    },
+    {
+        "q": "Kjeldahl's method is used for estimation of which element?",
+        "o": [
+            "Nitrogen",
+            "Carbon",
+            "Hydrogen",
+            "Halogen"
+        ]
+    },
+    {
+        "q": "Match the mass of Nitrogen to its equivalent moles.",
+        "type": "memory",
+        "pairs": {
+            "28g of N2": "1 mole",
+            "14g of N2": "0.5 moles",
+            "56g of N2": "2 moles"
+        }
+    },
+    {
+        "q": "Dumas method measures which element in an organic compound?",
+        "o": [
+            "Nitrogen",
+            "Oxygen",
+            "Sulphur",
+            "Phosphorus"
+        ]
+    },
+    {
+        "q": "Which of these does NOT represent a mass of exactly 17 grams?",
+        "type": "odd_one_out",
+        "options": [
+            "1 mole of Ammonia (NH3)",
+            "0.5 moles of Hydrogen peroxide (H2O2)",
+            "0.5 moles of Hydrogen sulphide (H2S)",
+            "1 mole of Water (H2O)"
+        ],
+        "correct": "1 mole of Water (H2O)"
+    },
+    {
+        "q": "Carius method is used for estimation of:",
+        "o": [
+            "Halogens and sulphur",
+            "Nitrogen only",
+            "Carbon and hydrogen",
+            "Oxygen only"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT if the mass of the sample is 32 grams, LEFT if it is 28 grams.",
+        "type": "swipe_cards",
+        "left_label": "28 grams",
+        "right_label": "32 grams",
+        "cards": {
+            "1 mole of O2": "right",
+            "1 mole of N2": "left",
+            "2 moles of O atoms": "right",
+            "2 moles of N atoms": "left"
+        }
+    },
+    {
+        "q": "Groups of atoms bonded together representing the smallest fundamental unit of a compound.",
+        "type": "word_scramble",
+        "answer": "MOLECULES",
+        "decoys": "ZQX"
+    },
+    {
+        "q": "If you have the mass of a substance, you must first convert it to [0] by dividing by the [1] mass before you can calculate the number of particles.",
+        "type": "inline_dropdown",
+        "text": "If you have the mass of a substance, you must first convert it to [0] by dividing by the [1] mass before you can calculate the number of particles.",
+        "dropdowns": [
+            {
+                "correct": "moles",
+                "options": [
+                    "moles",
+                    "atoms",
+                    "volumes"
+                ]
+            },
+            {
+                "correct": "molar",
+                "options": [
+                    "molar",
+                    "atomic",
+                    "molecular"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "0.2 g organic compound gave 0.188 g AgBr in Carius method. % Br is:",
+        "o": [
+            "40%",
+            "20%",
+            "80%",
+            "10%"
+        ]
+    },
+    {
+        "q": "In Dumas method, 0.3 g compound gave 50 mL N2 at 300 K and 715 mm. % N is: (aq. tension=15 mm)",
+        "o": [
+            "17.3%",
+            "34.6%",
+            "8.65%",
+            "25%"
+        ]
+    },
+    {
+        "q": "0.5 g organic compound gave 0.35 g NH3 in Kjeldahl method. % N is:",
+        "o": [
+            "57.6%",
+            "28.8%",
+            "14.4%",
+            "70%"
+        ]
+    },
+    {
+        "q": "What is the ratio by number of atoms for Carbon and Oxygen in Carbon dioxide?",
+        "type": "short_answer",
+        "answers": [
+            "1:2",
+            "1 to 2"
+        ],
+        "isCaseSensitive": false
+    },
+    {
+        "q": "Molecular mass of a volatile substance is determined by:",
+        "o": [
+            "Victor Meyer's method",
+            "Kjeldahl's method",
+            "Carius method",
+            "Dumas method"
+        ]
+    },
+    {
+        "q": "0.12 g organic compound gave 0.12 g BaSO4 in Carius method. % S is:",
+        "o": [
+            "13.7%",
+            "6.85%",
+            "27.4%",
+            "20%"
+        ]
+    },
+    {
+        "q": "An organic compound contains C=40%, H=6.67%, O=53.33%. Its vapour density is 30. Molecular formula is:",
+        "o": [
+            "C2H4O2",
+            "CH2O",
+            "C3H6O3",
+            "C4H8O4"
+        ]
+    },
+    {
+        "q": "The empirical formula of a compound is C3H4N. Its molecular mass is 108. Molecular formula is:",
+        "o": [
+            "C6H8N2",
+            "C9H12N3",
+            "C3H4N",
+            "C12H16N4"
+        ]
+    },
+    {
+        "q": "0.44 g hydrocarbon on combustion gave 1.32 g CO2 and 0.72 g H2O. Empirical formula is:",
+        "o": [
+            "C3H8",
+            "CH2",
+            "C2H6",
+            "C3H6"
+        ]
+    },
+    {
+        "q": "Law of reciprocal proportions was proposed by:",
+        "o": [
+            "Jeremias Richter",
+            "John Dalton",
+            "Joseph Proust",
+            "Gay Lussac"
+        ]
+    },
+    {
+        "q": "The chemical formula of an ionic compound represents the simplest ______ number ratio of the ions present.",
+        "type": "fill_blank",
+        "answers": [
+            "whole"
+        ],
+        "other_options": [
+            "fractional",
+            "decimal",
+            "random"
+        ]
+    },
+    {
+        "q": "Elements A, B, C form compounds AB, AC, BC. If mass ratios A:B=1:3, A:C=1:5, then B:C ratio is:",
+        "o": [
+            "3:5",
+            "5:3",
+            "1:1",
+            "2:3"
+        ]
+    },
+    {
+        "q": "Match the compound to its combining ratio by mass.",
+        "type": "match",
+        "left": [
+            "Water (H:O)",
+            "Carbon dioxide (C:O)",
+            "Ammonia (N:H)",
+            "Sulphur dioxide (S:O)"
+        ],
+        "right": [
+            "1:8",
+            "3:8",
+            "14:3",
+            "1:1"
+        ]
+    },
+    {
+        "q": "1 g hydrogen combines with 80 g bromine and 127 g iodine. Ratio of equivalent masses Br:I is:",
+        "o": [
+            "80:127",
+            "127:80",
+            "1:1",
+            "40:63.5"
+        ]
+    },
+    {
+        "q": "The mass of one atom of an element is 2.32 x 10^-23 g. Its equivalent mass is 8. Atomic mass is:",
+        "o": [
+            "14 u",
+            "16 u",
+            "24 u",
+            "32 u"
+        ]
+    },
+    {
+        "q": "A metal oxide contains 53% metal. If equivalent mass of metal is 9, atomic mass is:",
+        "o": [
+            "27 u",
+            "18 u",
+            "9 u",
+            "36 u"
+        ]
+    },
+    {
+        "q": "The law of constant proportions is only valid for compounds in the solid state.",
+        "type": "true_false",
+        "correct": "False"
+    },
+    {
+        "q": "3 g of a carbonate of metal gave 1.12 L CO2 at STP on heating. Equivalent mass of metal is:",
+        "o": [
+            "25",
+            "50",
+            "12.5",
+            "20"
+        ]
+    },
+    {
+        "q": "Calculate the formula unit mass of Calcium oxide (CaO) if Ca=40 u and O=16 u.",
+        "type": "slider",
+        "min": 20,
+        "max": 80,
+        "correct": 56
+    },
+    {
+        "q": "A gas occupies 2.8 L at 1 atm and 0 degree C. Mass of 5.6 L of same gas at STP is 8 g. Gas is:",
+        "o": [
+            "O2",
+            "N2",
+            "CO",
+            "CO2"
+        ]
+    },
+    {
+        "q": "The ratio of diffusion rates of two gases A and B is 2:3. Ratio of their molecular masses is:",
+        "o": [
+            "9:4",
+            "4:9",
+            "2:3",
+            "3:2"
+        ]
+    },
+    {
+        "q": "A gas diffuses 4 times slower than H2. Its molecular mass is:",
+        "o": [
+            "32 u",
+            "16 u",
+            "8 u",
+            "64 u"
+        ]
+    },
+    {
+        "q": "Equal masses of CH4 and O2 are mixed. Average molecular mass of mixture is:",
+        "o": [
+            "21.33 u",
+            "24 u",
+            "20 u",
+            "18 u"
+        ]
+    },
+    {
+        "q": "Match the advanced chemistry concept to its specific example.",
+        "type": "memory",
+        "pairs": {
+            "Variable Valency": "Fe(II) and Fe(III)",
+            "Polyatomic Ion": "Sulphate (SO4)2-",
+            "Molar Mass": "44 g/mol for CO2",
+            "Constant Proportion": "H2O is always 1:8 by mass"
+        }
+    },
+    {
+        "q": "Mole fraction of ethanol in solution containing 46 g ethanol and 90 g water is:",
+        "o": [
+            "0.167",
+            "0.833",
+            "0.5",
+            "0.2"
+        ]
+    },
+    {
+        "q": "Which of the following pairs represents ISOBARS rather than isotopes?",
+        "type": "odd_one_out",
+        "options": [
+            "C-12 and C-14",
+            "U-235 and U-238",
+            "H-1 and H-2",
+            "Ar-40 and K-40"
+        ],
+        "correct": "Ar-40 and K-40"
+    },
+    {
+        "q": "A solution contains 20% NaOH by mass. Mole fraction of NaOH is: (Na=23, O=16, H=1)",
+        "o": [
+            "0.101",
+            "0.2",
+            "0.5",
+            "0.05"
+        ]
+    },
+    {
+        "q": "What is the molality of 20% w/w NaOH solution?",
+        "o": [
+            "6.25 m",
+            "5 m",
+            "2.5 m",
+            "12.5 m"
+        ]
+    },
+    {
+        "q": "Swipe RIGHT for Elements, LEFT for Compounds.",
+        "type": "swipe_cards",
+        "left_label": "Compounds",
+        "right_label": "Elements",
+        "cards": {
+            "Ozone (O3)": "right",
+            "Ammonia (NH3)": "left",
+            "Sulphur (S8)": "right",
+            "Water (H2O)": "left"
+        }
+    },
+    {
+        "q": "Molarity of water is:",
+        "o": [
+            "55.5 M",
+            "18 M",
+            "1000 M",
+            "1 M"
+        ]
+    },
+    {
+        "q": "Number of moles of water in 1 L of pure water is:",
+        "o": [
+            "55.56",
+            "18",
+            "1000",
+            "1"
+        ]
+    },
+    {
+        "q": "Atoms of different elements with the same mass number.",
+        "type": "word_scramble",
+        "answer": "ISOBARS",
+        "decoys": "VW"
+    },
+    {
+        "q": "1 M H2SO4 means how many grams of H2SO4 per litre?",
+        "o": [
+            "98 g",
+            "49 g",
+            "100 g",
+            "96 g"
+        ]
+    },
+    {
+        "q": "Mass of oxalic acid (COOH)2.2H2O required to prepare 250 mL of 0.1 N solution is:",
+        "o": [
+            "1.575 g",
+            "3.15 g",
+            "6.3 g",
+            "0.7875 g"
+        ]
+    },
+    {
+        "q": "What volume of 0.1 M H2SO4 is needed to neutralise 50 mL of 0.2 M NaOH?",
+        "o": [
+            "50 mL",
+            "100 mL",
+            "25 mL",
+            "200 mL"
+        ]
+    },
+    {
+        "q": "Normality of 1 M H3PO4 solution is:",
+        "o": [
+            "3 N",
+            "1 N",
+            "2 N",
+            "0.33 N"
+        ]
+    },
+    {
+        "q": "Molarity of pure ethanol (density 0.8 g/mL) is approximately: (C2H5OH=46)",
+        "o": [
+            "17.4 M",
+            "8.7 M",
+            "46 M",
+            "5.8 M"
+        ]
+    },
+    {
+        "q": "Mass of NaOH required to prepare 500 mL of 0.2 M solution is:",
+        "o": [
+            "4 g",
+            "8 g",
+            "2 g",
+            "40 g"
+        ]
+    },
+    {
+        "q": "10 mL of 10 M HCl diluted to 500 mL. Final molarity is:",
+        "o": [
+            "0.2 M",
+            "0.5 M",
+            "1 M",
+            "0.1 M"
+        ]
+    },
+    {
+        "q": "What volume of water added to 200 mL of 1 M HCl to make it 0.4 M?",
+        "o": [
+            "300 mL",
+            "200 mL",
+            "500 mL",
+            "100 mL"
+        ]
+    },
+    {
+        "q": "At the end of this chapter, you should know that the [0] concept links the macroscopic mass of a substance to the microscopic number of its [1].",
+        "type": "inline_dropdown",
+        "text": "At the end of this chapter, you should know that the [0] concept links the macroscopic mass of a substance to the microscopic number of its [1].",
+        "dropdowns": [
+            {
+                "correct": "mole",
+                "options": [
+                    "mole",
+                    "mass",
+                    "volume"
+                ]
+            },
+            {
+                "correct": "particles",
+                "options": [
+                    "particles",
+                    "colors",
+                    "states"
+                ]
+            }
+        ]
+    },
+    {
+        "q": "Mass of H2SO4 in 250 mL of 0.2 M solution is:",
+        "o": [
+            "4.9 g",
+            "9.8 g",
+            "49 g",
+            "98 g"
+        ]
+    },
+    {
+        "q": "Number of ions in 200 mL of 0.1 M Al2(SO4)3 solution is:",
+        "o": [
+            "6.022 x 10^22",
+            "3.011 x 10^22",
+            "1.505 x 10^22",
+            "1.204 x 10^23"
+        ]
+    },
+    {
+        "q": "What is the normality of 0.3 M Al2(SO4)3 solution?",
+        "o": [
+            "1.8 N",
+            "0.6 N",
+            "0.9 N",
+            "0.3 N"
+        ]
+    },
+    {
+        "q": "Volume of CO2 at STP from 10 g of 90% pure CaCO3 is:",
+        "o": [
+            "2.016 L",
+            "2.24 L",
+            "1.12 L",
+            "4.48 L"
+        ]
+    },
+    {
+        "q": "The percentage of iron in Fe3O4 is: (Fe=56, O=16)",
+        "o": [
+            "72.4%",
+            "70%",
+            "77.8%",
+            "56%"
+        ]
+    },
+    {
+        "q": "A compound contains 1 atom of X per 2 atoms of Y. If % of X is 40%, atomic mass ratio X:Y is:",
+        "o": [
+            "4:3",
+            "3:4",
+            "2:1",
+            "1:2"
+        ]
+    },
+    {
+        "q": "Number of atoms in 120 amu of carbon is:",
+        "o": [
+            "10",
+            "6.022 x 10^23",
+            "12",
+            "5"
+        ]
+    },
+    {
+        "q": "Mass of one molecule of an ideal gas is 7.3 x 10^-23 g. Its molar mass is:",
+        "o": [
+            "44 g/mol",
+            "28 g/mol",
+            "32 g/mol",
+            "16 g/mol"
+        ]
+    },
+    {
+        "q": "How many moles of KMnO4 are needed to oxidise 1 mole of FeC2O4 in acidic medium?",
+        "o": [
+            "0.6",
+            "1",
+            "0.2",
+            "1.2"
+        ]
+    },
+    {
+        "q": "Equivalent mass of K2Cr2O7 in acidic medium is: (M=molecular mass)",
+        "o": [
+            "M/6",
+            "M/2",
+            "M/3",
+            "M"
+        ]
+    },
+    {
+        "q": "Equivalent mass of KMnO4 in acidic medium is:",
+        "o": [
+            "M/5",
+            "M/3",
+            "M/2",
+            "M"
+        ]
+    },
+    {
+        "q": "Equivalent mass of KMnO4 in neutral medium is:",
+        "o": [
+            "M/3",
+            "M/5",
+            "M/2",
+            "M"
+        ]
+    },
+    {
+        "q": "Mass of 1 mole of Na2S2O3.5H2O is: (Na=23, S=32, O=16, H=1)",
+        "o": [
+            "248 g",
+            "158 g",
+            "190 g",
+            "270 g"
+        ]
+    },
+    {
+        "q": "How many g of NaOH react with 3.65 g HCl?",
+        "o": [
+            "4 g",
+            "2 g",
+            "8 g",
+            "1 g"
+        ]
+    },
+    {
+        "q": "Mass of Cl2 from electrolysis of 58.5 g NaCl is:",
+        "o": [
+            "35.5 g",
+            "71 g",
+            "23 g",
+            "17.75 g"
+        ]
+    },
+    {
+        "q": "Bleaching powder is represented as CaOCl2. Available chlorine % is:",
+        "o": [
+            "55.9%",
+            "35.5%",
+            "71%",
+            "27.95%"
+        ]
+    },
+    {
+        "q": "Mass of quicklime from 20 g of 90% pure limestone is:",
+        "o": [
+            "10.08 g",
+            "11.2 g",
+            "5.6 g",
+            "20 g"
+        ]
+    },
+    {
+        "q": "Number of H+ ions in 5 mL of 0.1 M H2SO4 is:",
+        "o": [
+            "6.022 x 10^20",
+            "3.011 x 10^20",
+            "1.204 x 10^21",
+            "6.022 x 10^21"
+        ]
+    },
+    {
+        "q": "Percentage of phosphorus in Ca3(PO4)2 is: (Ca=40, P=31, O=16)",
+        "o": [
+            "20%",
+            "10%",
+            "31%",
+            "40%"
+        ]
+    },
+    {
+        "q": "0.2 g of metal gave 0.3 g of its oxide. Equivalent mass of metal is:",
+        "o": [
+            "16",
+            "8",
+            "32",
+            "24"
+        ]
+    },
+    {
+        "q": "The number of equivalents of NaOH in 20 g is:",
+        "o": [
+            "0.5",
+            "1",
+            "2",
+            "0.25"
+        ]
+    },
+    {
+        "q": "25 mL of 0.5 N HCl neutralises 10 mL of NaOH solution. Normality of NaOH is:",
+        "o": [
+            "1.25 N",
+            "0.5 N",
+            "2.5 N",
+            "0.2 N"
+        ]
+    },
+    {
+        "q": "What volume of 0.1 N oxalic acid is neutralised by 20 mL of 0.05 N NaOH?",
+        "o": [
+            "10 mL",
+            "20 mL",
+            "40 mL",
+            "5 mL"
+        ]
+    },
+    {
+        "q": "The law of definite proportions contradicts which of the following?",
+        "o": [
+            "Formation of non-stoichiometric compounds",
+            "Formation of isotopes",
+            "Formation of allotropes",
+            "Formation of isomers"
+        ]
+    },
+    {
+        "q": "Isotopes of an element have same number of:",
+        "o": [
+            "Protons",
+            "Neutrons",
+            "Nucleons",
+            "Electrons and protons"
+        ]
+    },
+    {
+        "q": "Atomic mass of an element is fractional due to:",
+        "o": [
+            "Presence of isotopes",
+            "Presence of allotropes",
+            "Presence of isomers",
+            "Presence of isobars"
+        ]
+    },
+    {
+        "q": "Which of the following pairs are isobars?",
+        "o": [
+            "40-Ar and 40-Ca",
+            "12-C and 14-C",
+            "35-Cl and 37-Cl",
+            "1-H and 2-H"
+        ]
+    },
+    {
+        "q": "One amu is equal to:",
+        "o": [
+            "1.66 x 10^-24 g",
+            "1.66 x 10^-23 g",
+            "6.022 x 10^-23 g",
+            "1 g"
+        ]
+    },
+    {
+        "q": "Mass of a neutron is approximately:",
+        "o": [
+            "1.0087 u",
+            "1 u",
+            "0.00055 u",
+            "2 u"
+        ]
+    },
+    {
+        "q": "Which has the maximum number of molecules?",
+        "o": [
+            "1 g CH4",
+            "1 g H2O",
+            "1 g CO2",
+            "1 g N2"
+        ]
+    },
+    {
+        "q": "1 mole of which gas occupies maximum volume at STP?",
+        "o": [
+            "All occupy same volume",
+            "H2",
+            "CO2",
+            "O2"
+        ]
+    },
+    {
+        "q": "Gram molecular volume of all gases at STP is:",
+        "o": [
+            "22.4 L",
+            "2.24 L",
+            "224 L",
+            "24.5 L"
+        ]
+    },
+    {
+        "q": "Number of electrons in 1 mole of methane is:",
+        "o": [
+            "6.022 x 10^24",
+            "6.022 x 10^23",
+            "4.818 x 10^24",
+            "1.204 x 10^25"
+        ]
+    },
+    {
+        "q": "Mass of 1 molecule of C60 fullerene is: (C=12)",
+        "o": [
+            "1.196 x 10^-21 g",
+            "7.2 x 10^-22 g",
+            "2.39 x 10^-21 g",
+            "1.2 x 10^-22 g"
+        ]
+    },
+    {
+        "q": "Number of neutrons in 18 mL of water at 4 degree C is: (H-1 has 0, O-16 has 8)",
+        "o": [
+            "4.818 x 10^24",
+            "2.409 x 10^24",
+            "6.022 x 10^23",
+            "9.636 x 10^23"
+        ]
+    },
+    {
+        "q": "Mass of 1 formula unit of NaCl is:",
+        "o": [
+            "9.71 x 10^-23 g",
+            "5.85 x 10^-23 g",
+            "3.51 x 10^-22 g",
+            "5.85 x 10^-22 g"
+        ]
+    },
+    {
+        "q": "Percentage of carbon in ethane (C2H6) is:",
+        "o": [
+            "80%",
+            "75%",
+            "85.7%",
+            "60%"
+        ]
+    },
+    {
+        "q": "Percentage of water of crystallisation in washing soda Na2CO3.10H2O is:",
+        "o": [
+            "62.94%",
+            "50%",
+            "37.06%",
+            "45%"
+        ]
+    },
+    {
+        "q": "Mass of residue when 1 g of Ag2CO3 is heated is: (Ag=108)",
+        "o": [
+            "0.783 g",
+            "0.5 g",
+            "1 g",
+            "0.217 g"
+        ]
+    },
+    {
+        "q": "Volume of O2 at STP evolved when 4.34 g Ag2O decomposes is: (Ag=108)",
+        "o": [
+            "0.224 L",
+            "2.24 L",
+            "0.112 L",
+            "1.12 L"
+        ]
+    },
+    {
+        "q": "Number of ions in 0.5 mole of Ca3(PO4)2 is:",
+        "o": [
+            "1.505 x 10^24",
+            "6.022 x 10^23",
+            "3.011 x 10^23",
+            "3.011 x 10^24"
+        ]
+    },
+    {
+        "q": "What mass of Ca contains the same number of atoms as 2.3 g Na?",
+        "o": [
+            "4 g",
+            "2 g",
+            "8 g",
+            "1.15 g"
+        ]
+    },
+    {
+        "q": "Ratio of number of atoms in 1 g O2 and 1 g O3 is:",
+        "o": [
+            "1:1",
+            "2:3",
+            "3:2",
+            "1:2"
+        ]
+    },
+    {
+        "q": "Mass of K2CO3 required to prepare 100 mL of 0.2 N solution is:",
+        "o": [
+            "1.38 g",
+            "2.76 g",
+            "0.69 g",
+            "13.8 g"
+        ]
+    },
+    {
+        "q": "25 mL of 0.5 M H2C2O4 requires what volume of 0.1 M KMnO4 in acidic medium?",
+        "o": [
+            "50 mL",
+            "100 mL",
+            "25 mL",
+            "125 mL"
+        ]
+    },
+    {
+        "q": "The mass of CaC2 required to produce 2.24 L acetylene at STP is:",
+        "o": [
+            "6.4 g",
+            "3.2 g",
+            "12.8 g",
+            "64 g"
+        ]
+    },
+    {
+        "q": "If 0.2 mole of a compound weighs 12.4 g, its molar mass is:",
+        "o": [
+            "62 g/mol",
+            "31 g/mol",
+            "124 g/mol",
+            "6.2 g/mol"
+        ]
+    },
+    {
+        "q": "Law of constant proportions does not hold for:",
+        "o": [
+            "Non-stoichiometric compounds",
+            "Ionic compounds",
+            "Covalent compounds",
+            "Gaseous compounds"
+        ]
+    },
+    {
+        "q": "The relative number of atoms in a compound is given by:",
+        "o": [
+            "Empirical formula",
+            "Molecular formula",
+            "Structural formula",
+            "Spatial formula"
+        ]
+    },
+    {
+        "q": "The number of moles of BaCO3 which contain 1.5 moles of oxygen atoms is:",
+        "o": [
+            "0.5",
+            "1.5",
+            "1",
+            "0.75"
+        ]
+    },
+    {
+        "q": "Which of the following has the highest mass?",
+        "o": [
+            "1 mole of Fe",
+            "1 mole of S",
+            "1 mole of Al",
+            "1 mole of Na"
+        ]
+    },
+    {
+        "q": "Mass of 1 molecule of haemoglobin is about 1.08 x 10^-19 g. Its molar mass is about:",
+        "o": [
+            "65000 g/mol",
+            "6500 g/mol",
+            "650 g/mol",
+            "6.5 x 10^5 g/mol"
+        ]
+    },
+    {
+        "q": "Number of atoms in 4.25 g of NH3 is:",
+        "o": [
+            "6.022 x 10^23",
+            "1.505 x 10^23",
+            "2.408 x 10^24",
+            "3.011 x 10^23"
+        ]
+    },
+    {
+        "q": "A compound contains 3.2% oxygen by mass. The minimum molecular mass possible is:",
+        "o": [
+            "500 u",
+            "1000 u",
+            "1600 u",
+            "3200 u"
+        ]
+    },
+    {
+        "q": "Haemoglobin contains 0.334% Fe by mass. Minimum molecular mass of haemoglobin is: (Fe=56)",
+        "o": [
+            "16766 u",
+            "56000 u",
+            "16800 u",
+            "33533 u"
+        ]
+    },
+    {
+        "q": "Chlorophyll contains 2.68% Mg. The number of Mg atoms in 1 molecule if molar mass is 892 g is:",
+        "o": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "Insulin contains 3.4% sulphur. Minimum molecular mass is: (S=32)",
+        "o": [
+            "941 u",
+            "470 u",
+            "1882 u",
+            "3200 u"
+        ]
+    },
+    {
+        "q": "A protein contains 0.32% sulphur by mass. If molar mass is 20000 g, S atoms per molecule:",
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "Caffeine has molar mass 194 and contains 28.9% N. Number of N atoms per molecule is:",
+        "o": [
+            "4",
+            "2",
+            "3",
+            "5"
+        ]
+    },
+    {
+        "q": "The number of carbon atoms in 1 mole of oxalic acid (COOH)2.2H2O is:",
+        "o": [
+            "1.204 x 10^24",
+            "6.022 x 10^23",
+            "2.408 x 10^24",
+            "3.011 x 10^23"
+        ]
+    },
+    {
+        "q": "Mass of CO2 containing the same number of O atoms as 90 g H2O is:",
+        "o": [
+            "110 g",
+            "220 g",
+            "44 g",
+            "55 g"
+        ]
+    },
+    {
+        "q": "A gas mixture of CO and CO2 contains 40% CO by mass. Mole % of CO2 is:",
+        "o": [
+            "48.8%",
+            "60%",
+            "40%",
+            "51.2%"
+        ]
+    },
+    {
+        "q": "A mixture of O2 and O3 has vapour density 19.2. Mole % of O3 is:",
+        "o": [
+            "20%",
+            "80%",
+            "40%",
+            "60%"
+        ]
+    },
+    {
+        "q": "1 L of a gas at STP weighs 1.964 g. Molecular mass of gas is:",
+        "o": [
+            "44 u",
+            "28 u",
+            "32 u",
+            "16 u"
+        ]
+    },
+    {
+        "q": "0.4 g of a gas occupies 224 mL at NTP. Molecular mass is:",
+        "o": [
+            "40 u",
+            "44 u",
+            "20 u",
+            "80 u"
+        ]
+    },
+    {
+        "q": "Mass of 2.24 L SO2 at NTP is: (S=32, O=16)",
+        "o": [
+            "6.4 g",
+            "3.2 g",
+            "12.8 g",
+            "1.6 g"
+        ]
+    },
+    {
+        "q": "Number of atoms in 1 mL of water at 4 degree C is:",
+        "o": [
+            "1.003 x 10^23",
+            "3.34 x 10^22",
+            "6.022 x 10^23",
+            "1.67 x 10^23"
+        ]
+    },
+    {
+        "q": "The mass ratio of hydrogen to oxygen in heavy water (D2O) is: (D=2, O=16)",
+        "o": [
+            "1:4",
+            "1:8",
+            "1:16",
+            "1:2"
+        ]
+    },
+    {
+        "q": "Percentage of deuterium (D) in heavy water by mass is:",
+        "o": [
+            "20%",
+            "10%",
+            "40%",
+            "11.1%"
+        ]
+    },
+    {
+        "q": "Mass of 1 molecule of heavy water is: (D=2, O=16)",
+        "o": [
+            "3.32 x 10^-23 g",
+            "2.99 x 10^-23 g",
+            "6.64 x 10^-23 g",
+            "1.66 x 10^-23 g"
+        ]
+    },
+    {
+        "q": "Ratio of masses of 1 molecule each of H2O and D2O is:",
+        "o": [
+            "9:10",
+            "1:2",
+            "18:20",
+            "10:9"
+        ]
+    },
+    {
+        "q": "In the reaction 4NH3 + 5O2 -> 4NO + 6H2O, moles of water from 1.7 g NH3 is:",
+        "o": [
+            "0.15",
+            "0.1",
+            "0.3",
+            "1.5"
+        ]
+    },
+    {
+        "q": "Volume of O2 at STP needed to oxidise 8.5 g NH3 to NO and H2O is:",
+        "o": [
+            "14 L",
+            "11.2 L",
+            "22.4 L",
+            "5.6 L"
+        ]
+    },
+    {
+        "q": "MnO2 + 4HCl -> MnCl2 + 2H2O + Cl2. Mass of MnO2 for 7.1 g Cl2 is: (Mn=55)",
+        "o": [
+            "8.7 g",
+            "4.35 g",
+            "17.4 g",
+            "5.55 g"
+        ]
+    },
+    {
+        "q": "Fe + S -> FeS. 5.6 g Fe gives 8.0 g FeS. % yield of reaction is:",
+        "o": [
+            "90.9%",
+            "100%",
+            "70%",
+            "80%"
+        ]
+    },
+    {
+        "q": "C + O2 -> CO2. 12 g C gave 22 g CO2. Percentage yield is:",
+        "o": [
+            "50%",
+            "100%",
+            "75%",
+            "25%"
+        ]
+    },
+    {
+        "q": "Mass of 80% pure CaCO3 required to get 11.2 L CO2 at STP is:",
+        "o": [
+            "62.5 g",
+            "50 g",
+            "100 g",
+            "31.25 g"
+        ]
+    },
+    {
+        "q": "A sample of NaNO3 is 85% pure. Mass for 10 L O2 at STP is: (Na=23, N=14)",
+        "o": [
+            "75.6 g",
+            "85 g",
+            "100 g",
+            "64.3 g"
+        ]
+    },
+    {
+        "q": "What mass of KClO3 (90% pure) gives 6.72 L O2 at STP? (K=39, Cl=35.5)",
+        "o": [
+            "27.2 g",
+            "24.5 g",
+            "30 g",
+            "22 g"
+        ]
+    },
+    {
+        "q": "2Al + 2NaOH + 2H2O -> 2NaAlO2 + 3H2. Volume H2 at STP from 5.4 g Al is:",
+        "o": [
+            "6.72 L",
+            "2.24 L",
+            "4.48 L",
+            "8.96 L"
+        ]
+    },
+    {
+        "q": "Si + 2NaOH + H2O -> Na2SiO3 + 2H2. Mass of Si needed for 2.24 L H2 at STP:",
+        "o": [
+            "1.4 g",
+            "2.8 g",
+            "0.7 g",
+            "5.6 g"
+        ]
+    },
+    {
+        "q": "CaC2 + 2H2O -> C2H2 + Ca(OH)2. Mass of CaC2 for 5.6 L C2H2 at STP: (Ca=40)",
+        "o": [
+            "16 g",
+            "32 g",
+            "8 g",
+            "64 g"
+        ]
+    },
+    {
+        "q": "3Fe + 4H2O -> Fe3O4 + 4H2. Mass of Fe for 10 g H2: (Fe=56)",
+        "o": [
+            "210 g",
+            "420 g",
+            "105 g",
+            "140 g"
+        ]
+    },
+    {
+        "q": "Cl2 + 2KI -> 2KCl + I2. Mass of I2 from 7.1 g Cl2: (I=127)",
+        "o": [
+            "25.4 g",
+            "12.7 g",
+            "50.8 g",
+            "6.35 g"
+        ]
+    },
+    {
+        "q": "Zn + 2HCl -> ZnCl2 + H2. Zn required for 0.2 g H2: (Zn=65.4)",
+        "o": [
+            "6.54 g",
+            "3.27 g",
+            "13.08 g",
+            "65.4 g"
+        ]
+    },
+    {
+        "q": "CH4 + 2O2 -> CO2 + 2H2O. O2 needed to burn 0.1 mole CH4 is:",
+        "o": [
+            "6.4 g",
+            "3.2 g",
+            "12.8 g",
+            "1.6 g"
+        ]
+    },
+    {
+        "q": "2C2H6 + 7O2 -> 4CO2 + 6H2O. Mass of CO2 from 6 g C2H6:",
+        "o": [
+            "17.6 g",
+            "8.8 g",
+            "35.2 g",
+            "44 g"
+        ]
+    },
+    {
+        "q": "C2H4 + 3O2 -> 2CO2 + 2H2O. Volume O2 at STP to burn 1.4 g C2H4:",
+        "o": [
+            "3.36 L",
+            "6.72 L",
+            "1.12 L",
+            "2.24 L"
+        ]
+    },
+    {
+        "q": "2Mg + O2 -> 2MgO. Mass of MgO from 4.8 g Mg and 3.2 g O2 is:",
+        "o": [
+            "8 g",
+            "4 g",
+            "6 g",
+            "10 g"
+        ]
+    },
+    {
+        "q": "N2 + 3H2 -> 2NH3. Excess N2 added to 0.6 g H2. Max mass of NH3 is:",
+        "o": [
+            "3.4 g",
+            "1.7 g",
+            "6.8 g",
+            "0.85 g"
+        ]
+    },
+    {
+        "q": "2SO2 + O2 -> 2SO3. 16 g SO2 and 6.4 g O2 reacted. Limiting reagent is:",
+        "o": [
+            "SO2",
+            "O2",
+            "No limiting reagent",
+            "Cannot predict"
+        ]
+    },
+    {
+        "q": "H2 + Cl2 -> 2HCl. 2 g H2 and 35.5 g Cl2 react. Mass of HCl formed:",
+        "o": [
+            "36.5 g",
+            "73 g",
+            "18.25 g",
+            "37.5 g"
+        ]
+    },
+    {
+        "q": "Volume of O2 at STP from decomposition of 4 mol KClO3 is:",
+        "o": [
+            "134.4 L",
+            "67.2 L",
+            "44.8 L",
+            "22.4 L"
+        ]
+    },
+    {
+        "q": "2Na + 2H2O -> 2NaOH + H2. Volume H2 at STP from 11.5 g Na is:",
+        "o": [
+            "5.6 L",
+            "11.2 L",
+            "2.8 L",
+            "22.4 L"
+        ]
+    },
+    {
+        "q": "Ca + 2H2O -> Ca(OH)2 + H2. H2 volume at STP from 10 g Ca is:",
+        "o": [
+            "5.6 L",
+            "11.2 L",
+            "2.8 L",
+            "22.4 L"
+        ]
+    },
+    {
+        "q": "The number of coulombs in 1 Faraday is:",
+        "o": [
+            "96500",
+            "9650",
+            "965000",
+            "965"
+        ]
+    },
+    {
+        "q": "Mass of Ag deposited by 1 Faraday of electricity is: (Ag=108)",
+        "o": [
+            "108 g",
+            "54 g",
+            "216 g",
+            "27 g"
+        ]
+    },
+    {
+        "q": "Mass of Cu deposited by 0.5 Faraday is: (Cu=63.5)",
+        "o": [
+            "15.875 g",
+            "31.75 g",
+            "63.5 g",
+            "127 g"
+        ]
+    },
+    {
+        "q": "Volume of O2 at STP liberated by 1 Faraday of electricity is:",
+        "o": [
+            "5.6 L",
+            "11.2 L",
+            "22.4 L",
+            "2.8 L"
+        ]
+    },
+    {
+        "q": "Volume of H2 at STP liberated by 2 Faradays is:",
+        "o": [
+            "22.4 L",
+            "11.2 L",
+            "44.8 L",
+            "5.6 L"
+        ]
+    },
+    {
+        "q": "Mass of Al deposited by 3 Faradays is: (Al=27)",
+        "o": [
+            "27 g",
+            "9 g",
+            "54 g",
+            "81 g"
+        ]
+    },
+    {
+        "q": "Equivalent mass of a metal is 8. Its oxide contains how much metal per gram of oxygen?",
+        "o": [
+            "1 g",
+            "0.5 g",
+            "8 g",
+            "0.125 g"
+        ]
+    },
+    {
+        "q": "The law of equivalents states that substances react in the ratio of their:",
+        "o": [
+            "Equivalent masses",
+            "Molecular masses",
+            "Moles",
+            "Atomic masses"
+        ]
+    },
+    {
+        "q": "Number of equivalents in 49 g H2SO4 is:",
+        "o": [
+            "1",
+            "0.5",
+            "2",
+            "49"
+        ]
+    },
+    {
+        "q": "Number of equivalents in 80 g NaOH is:",
+        "o": [
+            "2",
+            "1",
+            "0.5",
+            "4"
+        ]
+    },
+    {
+        "q": "For a divalent metal, atomic mass and equivalent mass are related as:",
+        "o": [
+            "At mass = 2 x Eq mass",
+            "At mass = Eq mass",
+            "At mass = 0.5 x Eq mass",
+            "At mass = 3 x Eq mass"
+        ]
+    },
+    {
+        "q": "Equivalent mass of oxalic acid (COOH)2.2H2O is: (C=12, O=16, H=1)",
+        "o": [
+            "63 g/eq",
+            "126 g/eq",
+            "31.5 g/eq",
+            "45 g/eq"
+        ]
+    },
+    {
+        "q": "Equivalent mass of H3PO4 is 98/3 when it forms:",
+        "o": [
+            "Na3PO4",
+            "Na2HPO4",
+            "NaH2PO4",
+            "HPO3"
+        ]
+    },
+    {
+        "q": "Equivalent mass of H3PO4 when converted to NaH2PO4 is: (M=98)",
+        "o": [
+            "98",
+            "49",
+            "32.67",
+            "24.5"
+        ]
+    },
+    {
+        "q": "Normality of 9.8% w/v H2SO4 is:",
+        "o": [
+            "2 N",
+            "1 N",
+            "0.5 N",
+            "4 N"
+        ]
+    },
+    {
+        "q": "Volume of water added to 200 mL 1 N HCl to make it 0.2 N is:",
+        "o": [
+            "800 mL",
+            "1000 mL",
+            "200 mL",
+            "600 mL"
+        ]
+    },
+    {
+        "q": "10 mL 10 N H2SO4 + 20 mL 10 N NaOH. Resulting solution is:",
+        "o": [
+            "Acidic",
+            "Basic",
+            "Neutral",
+            "Cannot tell"
+        ]
+    },
+    {
+        "q": "Molarity of 98% H2SO4 by mass (density 1.8 g/mL) is:",
+        "o": [
+            "18 M",
+            "9 M",
+            "36 M",
+            "1.8 M"
+        ]
+    },
+    {
+        "q": "Molality of 98% H2SO4 (w/w) is:",
+        "o": [
+            "500 m",
+            "50 m",
+            "100 m",
+            "10 m"
+        ]
+    },
+    {
+        "q": "Mole fraction of solute in 1 molal aqueous solution is:",
+        "o": [
+            "0.0177",
+            "0.1",
+            "0.5",
+            "0.982"
+        ]
+    },
+    {
+        "q": "Mass of sucrose needed for 250 g of 0.2 molal aqueous solution: (sucrose=342)",
+        "o": [
+            "16.03 g",
+            "17.1 g",
+            "8.55 g",
+            "34.2 g"
+        ]
+    },
+    {
+        "q": "The number of H+ ions in 10 mL of 0.1 M H2SO4 is:",
+        "o": [
+            "1.204 x 10^21",
+            "6.022 x 10^20",
+            "6.022 x 10^21",
+            "2.408 x 10^21"
+        ]
+    },
+    {
+        "q": "Mass of Na required to liberate 2.24 L H2 at STP from ethanol is: (Na=23)",
+        "o": [
+            "4.6 g",
+            "2.3 g",
+            "9.2 g",
+            "6.9 g"
+        ]
+    },
+    {
+        "q": "0.1 mole of MCl3 combines with excess AgNO3 to give 43.05 g AgCl. M is: (Ag=108, Cl=35.5)",
+        "o": [
+            "Aluminium",
+            "Iron",
+            "Chromium",
+            "Boron"
+        ]
+    },
+    {
+        "q": "Mass of H2O added to 11.2 g CaO to get slaked lime completely is:",
+        "o": [
+            "3.6 g",
+            "1.8 g",
+            "7.2 g",
+            "18 g"
+        ]
+    },
+    {
+        "q": "BaO2 + H2SO4 -> BaSO4 + H2O2. Mass of BaO2 for 3.4 g H2O2: (Ba=137)",
+        "o": [
+            "16.9 g",
+            "33.8 g",
+            "8.45 g",
+            "169 g"
+        ]
+    },
+    {
+        "q": "Pb3O4 + 4HNO3 -> 2Pb(NO3)2 + PbO2 + 2H2O. Moles of HNO3 for 0.1 mol Pb3O4:",
+        "o": [
+            "0.4",
+            "0.1",
+            "0.2",
+            "0.8"
+        ]
+    },
+    {
+        "q": "Number of moles of HCl consumed by 1 mole each of MnO2 and KMnO4 for Cl2 production:",
+        "o": [
+            "4 and 8",
+            "4 and 5",
+            "2 and 3",
+            "8 and 4"
+        ]
+    },
+    {
+        "q": "Na2CO3 + 2HCl -> 2NaCl + H2O + CO2. Volume CO2 at STP from 5.3 g Na2CO3:",
+        "o": [
+            "1.12 L",
+            "2.24 L",
+            "0.56 L",
+            "11.2 L"
+        ]
+    },
+    {
+        "q": "Mass of CaCO3 in 250 g of 75% pure sample that reacts with excess HCl:",
+        "o": [
+            "187.5 g",
+            "250 g",
+            "100 g",
+            "62.5 g"
+        ]
+    },
+    {
+        "q": "MnO2 from 5 g of 87% pure pyrolusite: (Mn=55)",
+        "o": [
+            "4.35 g",
+            "5 g",
+            "8.7 g",
+            "2.18 g"
+        ]
+    },
+    {
+        "q": "Mass of 90% pure iron from 1 kg Fe2O3: (Fe=56)",
+        "o": [
+            "630 g",
+            "700 g",
+            "777.8 g",
+            "560 g"
+        ]
+    },
+    {
+        "q": "The mass of Al required to get 1120 kg Fe by thermite process is: (Al=27, Fe=56)",
+        "o": [
+            "540 kg",
+            "270 kg",
+            "810 kg",
+            "180 kg"
+        ]
+    },
+    {
+        "q": "Volume of acetylene at STP from 1 g CaC2 (80% pure) is: (Ca=40)",
+        "o": [
+            "0.28 L",
+            "0.35 L",
+            "0.7 L",
+            "0.14 L"
+        ]
+    },
+    {
+        "q": "Mass of Fe obtained from 1 ton of Fe2O3 (80% pure) is: (Fe=56, O=16)",
+        "o": [
+            "0.56 ton",
+            "0.7 ton",
+            "0.8 ton",
+            "1 ton"
+        ]
+    },
+    {
+        "q": "Number of molecules removed if 10^-6 mole removed from 1 mole of gas:",
+        "o": [
+            "6.022 x 10^17",
+            "6.022 x 10^23",
+            "10^6",
+            "6.022 x 10^29"
+        ]
+    },
+    {
+        "q": "A + 2B -> C. 5 mol A and 8 mol B reacted. Limiting reagent is:",
+        "o": [
+            "B",
+            "A",
+            "None",
+            "Both equally"
+        ]
+    },
+    {
+        "q": "Mass of CO2 obtained by treating 10 g pure CaCO3 with H2SO4 is:",
+        "o": [
+            "4.4 g",
+            "8.8 g",
+            "2.2 g",
+            "6.6 g"
+        ]
+    },
+    {
+        "q": "SO3 obtained from 3.2 g S if yield is 80% is: (S=32)",
+        "o": [
+            "6.4 g",
+            "8 g",
+            "4 g",
+            "10 g"
+        ]
+    },
+    {
+        "q": "Mass of O2 required to produce 160 g SO3 from SO2 if conversion is 50%:",
+        "o": [
+            "64 g",
+            "32 g",
+            "16 g",
+            "128 g"
+        ]
+    },
+    {
+        "q": "Number of protons in 6 g of C-12 isotope is:",
+        "o": [
+            "1.806 x 10^24",
+            "3.011 x 10^23",
+            "6.022 x 10^23",
+            "3.613 x 10^24"
+        ]
+    },
+    {
+        "q": "Mass of NaOH neutralised by 49 g of H2SO4 is:",
+        "o": [
+            "40 g",
+            "80 g",
+            "20 g",
+            "60 g"
+        ]
+    },
+    {
+        "q": "Mass of Ca(OH)2 neutralised by 36.5 g HCl is: (Ca=40, O=16, H=1)",
+        "o": [
+            "37 g",
+            "74 g",
+            "18.5 g",
+            "55.5 g"
+        ]
+    },
+    {
+        "q": "Mass of 1 mole of electron is approximately:",
+        "o": [
+            "0.55 mg",
+            "9.1 x 10^-28 g",
+            "0.00055 g",
+            "1 g"
+        ]
+    },
+    {
+        "q": "Total charge of 1 mole of electrons in Coulombs is:",
+        "o": [
+            "96500",
+            "1.6 x 10^-19",
+            "6.022 x 10^23",
+            "9.65 x 10^4"
+        ]
+    },
+    {
+        "q": "Mass of CO2 obtained from 16 g methane and excess air is:",
+        "o": [
+            "44 g",
+            "22 g",
+            "88 g",
+            "11 g"
+        ]
+    },
+    {
+        "q": "Volume of CO2 at STP when 8.4 g NaHCO3 is heated: (Na=23)",
+        "o": [
+            "1.12 L",
+            "2.24 L",
+            "0.56 L",
+            "22.4 L"
+        ]
+    },
+    {
+        "q": "What mass of KClO3 yields 4.8 g O2 on 100% decomposition? (K=39, Cl=35.5)",
+        "o": [
+            "12.25 g",
+            "24.5 g",
+            "6.125 g",
+            "49 g"
+        ]
+    },
+    {
+        "q": "Mass of NH3 that contains 1 mole of H atoms is:",
+        "o": [
+            "5.67 g",
+            "17 g",
+            "8.5 g",
+            "34 g"
+        ]
+    },
+    {
+        "q": "Mass of C that contains the same atoms as 8 g oxygen is:",
+        "o": [
+            "6 g",
+            "12 g",
+            "3 g",
+            "24 g"
+        ]
+    },
+    {
+        "q": "Number of atoms in 20 g Ca is equal to number of atoms in:",
+        "o": [
+            "12 g C",
+            "24 g Mg",
+            "40 g Ar",
+            "All of these"
+        ]
+    },
+    {
+        "q": "Which contains maximum number of molecules?",
+        "o": [
+            "0.5 g H2",
+            "10 g O2",
+            "4 g CH4",
+            "15 g CO2"
+        ]
+    },
+    {
+        "q": "Ratio of moles of O atoms in 1 mole SO2, 1 mole SO3, 1 mole O2 is:",
+        "o": [
+            "2:3:2",
+            "1:1:1",
+            "2:3:1",
+            "1:3:2"
+        ]
+    },
+    {
+        "q": "Mass of iron in 1 kg of Fe2O3 is: (Fe=56, O=16)",
+        "o": [
+            "700 g",
+            "560 g",
+            "300 g",
+            "1000 g"
+        ]
+    },
+    {
+        "q": "Mass of water required to make 0.1 mole of O2 by electrolysis is:",
+        "o": [
+            "3.6 g",
+            "1.8 g",
+            "18 g",
+            "0.9 g"
+        ]
+    },
+    {
+        "q": "2KNO3 -> 2KNO2 + O2. Mass of KNO3 for 2.24 L O2 at STP: (K=39)",
+        "o": [
+            "20.2 g",
+            "10.1 g",
+            "40.4 g",
+            "101 g"
+        ]
+    },
+    {
+        "q": "In Carius method, 0.25 g compound gave 0.35 g BaSO4. Percentage of S is: (S=32, Ba=137)",
+        "o": [
+            "19.2%",
+            "38.4%",
+            "9.6%",
+            "4.8%"
+        ]
+    }
+]
