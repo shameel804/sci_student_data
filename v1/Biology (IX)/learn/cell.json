@@ -1,0 +1,153 @@
+{
+    "id": "learn_cell",
+    "topicId": "cell",
+    "topicTitle": "The Fundamental Unit of Life",
+    "description": "Zoom into the microscopic world to discover the cell, the fundamental building block of all living organisms, and explore its fascinating organelles.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "cell_1",
+            "type": "content",
+            "title": "Welcome to the World of Cells",
+            "content": "# The Building Blocks of Life\n\nIf you look at a brick wall, you know it is made of individual bricks. But what are living things made of?\n\nIn 1665, an English scientist named **Robert Hooke** looked at a thin slice of cork through a self-designed microscope. He saw that the cork resembled the structure of a honeycomb consisting of many little compartments.\n\nHe called these boxes **cells**.\n- \"Cell\" is a Latin word for \"a little room.\"\n\n## What You Will Learn:\n- **Cell Theory:** The rules of life.\n- **Unicellular vs Multicellular:** Living alone vs living together.\n- **Cell Structure:** The plasma membrane, nucleus, and cytoplasm.\n- **Cell Organelles:** The microscopic organs that keep the cell alive."
+        },
+        {
+            "id": "cell_2",
+            "type": "content",
+            "title": "The Cell Theory",
+            "content": "# The Rules of Biology\n\nAfter Hooke's discovery, other scientists began exploring this microscopic world.\n\n## The Cell Theory was presented by two biologists, Schleiden and Schwann:\n1. All plants and animals are composed of cells.\n2. The cell is the basic unit of life.\n\n## The Expansion by Virchow (1855):\nRudolf Virchow further expanded the cell theory by suggesting a third rule:\n3. **All cells arise from pre-existing cells** (Omnis cellula e cellula).\n\nThis means a cell cannot spontaneously appear out of nowhere; it must come from another living cell dividing!"
+        },
+        {
+            "id": "cell_3",
+            "type": "content",
+            "title": "Types of Organisms",
+            "content": "# How Many Cells?\n\nBased on the number of cells they have, organisms are divided into two categories:\n\n## 1. Unicellular Organisms\n- \"Uni\" means single.\n- These organisms consist of a **single cell**.\n- This one cell performs all the necessary functions for life (eating, breathing, reproducing).\n- *Examples:* Amoeba, Paramecium, Bacteria, Chlamydomonas.\n\n## 2. Multicellular Organisms\n- \"Multi\" means many.\n- These organisms consist of **many cells** that group together in a single body and assume different functions to form various body parts.\n- *Examples:* Humans, trees, animals, fungi.\n- Every multicellular organism has come from a single cell (a fertilized egg) that divided!"
+        },
+        {
+            "id": "cell_quiz_1",
+            "type": "quiz",
+            "title": "Cell Basics Quiz",
+            "content": "Check your understanding of the cell theory.",
+            "quizQuestion": "According to the expanded Cell Theory proposed by Virchow, where do new cells come from?",
+            "quizOptions": [
+                "They spontaneously generate from water",
+                "They arise from pre-existing cells",
+                "They are built by viruses",
+                "They are created from sunlight"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "cell_4",
+            "type": "content",
+            "title": "What is a Cell Made of?",
+            "content": "# The Basic Structure\n\nIf we study a cell under a microscope, we would come across three features in almost every cell (whether plant or animal):\n\n1. **Plasma Membrane:** The outer boundary.\n2. **Nucleus:** The control center.\n3. **Cytoplasm:** The jelly-like fluid inside.\n\nLet's explore each of these in detail!"
+        },
+        {
+            "id": "cell_5",
+            "type": "content",
+            "title": "Plasma Membrane",
+            "content": "# The Gatekeeper\n\nThe plasma membrane (or cell membrane) is the outermost covering of the cell that separates the contents of the cell from its external environment.\n\n## Selectively Permeable:\n- The plasma membrane allows or permits the entry and exit of some materials in and out of the cell.\n- It also prevents the movement of some other materials.\n- Therefore, the cell membrane is called a **selectively permeable membrane**.\n\n## How do things move across it?\n- **Diffusion:** Gases like Carbon dioxide or Oxygen move across the membrane spontaneously from a region of high concentration to a region of low concentration.\n- **Osmosis:** The movement of *water* molecules through the selectively permeable membrane is called osmosis."
+        },
+        {
+            "id": "cell_6",
+            "type": "content",
+            "title": "Cell Wall (Plants Only)",
+            "content": "# The Extra Armor\n\nPlant cells, in addition to the plasma membrane, have another rigid outer covering called the **cell wall**.\n\n- The cell wall lies *outside* the plasma membrane.\n- In plant cells, it is mainly composed of **cellulose**.\n- Cellulose is a complex substance and provides structural strength to plants.\n\n## Why do plants need it?\nUnlike animals, plants cannot move to escape bad weather. The cell wall permits the cells of plants, fungi, and bacteria to withstand very dilute (hypotonic) external media without bursting, and protects them from temperature variations and high winds."
+        },
+        {
+            "id": "cell_7",
+            "type": "content",
+            "title": "Nucleus",
+            "content": "# The Brain of the Cell\n\nThe nucleus is a large, centrally located, spherical cellular component.\n\n## Structure:\n- It has a double-layered covering called the **nuclear membrane**.\n- The nuclear membrane has pores which allow the transfer of material from inside the nucleus to its outside.\n\n## The Genetic Blueprint:\nThe nucleus contains **chromosomes**, which are visible as rod-shaped structures only when the cell is about to divide.\n- Chromosomes contain information for inheritance of features from parents to next generation in the form of **DNA** (Deoxyribo Nucleic Acid).\n- Functional segments of DNA are called **genes**.\n- The nucleus plays a central role in cellular reproduction and determining how the cell will develop."
+        },
+        {
+            "id": "cell_quiz_2",
+            "type": "quiz",
+            "title": "Nucleus Quiz",
+            "content": "Check your understanding of the cell's control center.",
+            "quizQuestion": "Which part of the nucleus contains the genetic information (DNA) for inheritance?",
+            "quizOptions": [
+                "Nuclear membrane",
+                "Cytoplasm",
+                "Chromosomes",
+                "Plasma membrane"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "cell_8",
+            "type": "content",
+            "title": "Prokaryotic vs Eukaryotic Cells",
+            "content": "# A Tale of Two Cells\n\nNot all cells have a well-defined nucleus!\n\n## 1. Prokaryotic Cells (Pro = primitive, karyon = nucleus):\n- In some organisms like bacteria, the nuclear region of the cell may be poorly defined due to the absence of a nuclear membrane.\n- Such an undefined nuclear region containing only nucleic acids is called a **nucleoid**.\n- Organisms whose cells lack a nuclear membrane are called prokaryotes.\n- They also lack other membrane-bound cell organelles.\n\n## 2. Eukaryotic Cells (Eu = true, karyon = nucleus):\n- Organisms with cells having a well-defined nuclear membrane are called eukaryotes.\n- All plants, animals, and fungi are eukaryotes."
+        },
+        {
+            "id": "cell_9",
+            "type": "content",
+            "title": "Cytoplasm",
+            "content": "# The Cellular Soup\n\nWhen we look at a cell, we see a large region enclosed by the cell membrane. This region takes up very little stain and looks almost clear.\n\n## What is it?\nIt is called the **cytoplasm**.\n- The cytoplasm is the fluid content inside the plasma membrane.\n- It also contains many specialized cell organelles.\n- Each of these organelles performs a specific function for the cell.\n\nIn prokaryotes, the cytoplasm is just a soup of chemicals. But in eukaryotes, the cytoplasm is highly organized with membrane-bound organelles acting like tiny internal organs."
+        },
+        {
+            "id": "cell_10",
+            "type": "content",
+            "title": "Endoplasmic Reticulum (ER)",
+            "content": "# The Cellular Highway\n\nThe endoplasmic reticulum (ER) is a large network of membrane-bound tubes and sheets. It looks like long tubules or round bags.\n\n## Two Types of ER:\n1. **Rough ER (RER):** It looks \"rough\" under a microscope because it has particles called **ribosomes** attached to its surface. The ribosomes are the sites of protein manufacture. The RER then transports these proteins to various places in the cell.\n2. **Smooth ER (SER):** It looks smooth because it has no ribosomes. The SER helps in the manufacture of fat molecules, or **lipids**, important for cell function.\n\n> **Membrane Biogenesis:** Some of these proteins and lipids help in building the cell membrane. This process is known as membrane biogenesis."
+        },
+        {
+            "id": "cell_11",
+            "type": "content",
+            "title": "Golgi Apparatus",
+            "content": "# The Packaging Center\n\nThe Golgi apparatus, first described by Camillo Golgi, consists of a system of membrane-bound vesicles arranged approximately parallel to each other in stacks called cisterns.\n\n## Function:\nThink of the Golgi apparatus as the cell's post office or packaging center.\n- The material synthesized near the ER (proteins and lipids) is packaged and dispatched to various targets inside and outside the cell through the Golgi apparatus.\n- Its functions include the storage, modification, and packaging of products in vesicles.\n- It is also involved in the formation of lysosomes."
+        },
+        {
+            "id": "cell_12",
+            "type": "content",
+            "title": "Lysosomes",
+            "content": "# The Waste Disposal System\n\nCells need a way to clean up after themselves.\n\n## What are they?\nLysosomes are a kind of waste disposal system of the cell. They are membrane-bound sacs filled with powerful digestive enzymes (made by the RER).\n\n## Function:\n- They help to keep the cell clean by digesting any foreign material (like bacteria or food) as well as worn-out cell organelles.\n\n## The \"Suicide Bags\":\nWhen the cell gets damaged, lysosomes may burst and the enzymes digest their own cell. Therefore, lysosomes are also known as the **\"suicide bags\"** of a cell."
+        },
+        {
+            "id": "cell_quiz_3",
+            "type": "quiz",
+            "title": "Organelles Quiz",
+            "content": "Check your knowledge of cell components.",
+            "quizQuestion": "Which cell organelle is known as the 'suicide bag' of the cell due to its powerful digestive enzymes?",
+            "quizOptions": [
+                "Golgi apparatus",
+                "Lysosome",
+                "Rough ER",
+                "Nucleus"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "cell_13",
+            "type": "content",
+            "title": "Mitochondria",
+            "content": "# The Powerhouses of the Cell\n\nJust like a city needs a power plant, a cell needs a source of energy to survive.\n\n## What are they?\nMitochondria are known as the **powerhouses of the cell**.\n\n## Function:\n- The energy required for various chemical activities needed for life is released by mitochondria in the form of **ATP** (Adenosine triphosphate) molecules.\n- ATP is known as the energy currency of the cell. The body uses energy stored in ATP for making new chemical compounds and for mechanical work.\n\n## Unique Feature:\nMitochondria are strange organelles in the sense that they have their own DNA and ribosomes! Therefore, mitochondria are able to make some of their own proteins."
+        },
+        {
+            "id": "cell_14",
+            "type": "content",
+            "title": "Plastids (Plants Only)",
+            "content": "# The Colorful Organelles\n\nPlastids are present **only in plant cells**. Like mitochondria, plastids also have their own DNA and ribosomes.\n\n## Types of Plastids:\n1. **Chromoplasts:** Colored plastids. \n   - The most important type are **Chloroplasts**, which contain the green pigment chlorophyll. \n   - Chloroplasts are important for photosynthesis in plants. They are the \"solar panels\" of the cell.\n2. **Leucoplasts:** White or colorless plastids.\n   - These are primarily organelles in which materials such as starch, oils, and protein granules are stored."
+        },
+        {
+            "id": "cell_15",
+            "type": "content",
+            "title": "Vacuoles",
+            "content": "# The Storage Sacs\n\nVacuoles are storage sacs for solid or liquid contents.\n\n## In Animal Cells:\nVacuoles are small sized (or sometimes absent entirely).\n\n## In Plant Cells:\nPlant cells have very large vacuoles. The central vacuole of some plant cells may occupy 50-90% of the cell volume!\n- In plant cells vacuoles are full of cell sap and provide turgidity and rigidity to the cell.\n- Many substances of importance in the life of the plant cell are stored in vacuoles, including amino acids, sugars, and various organic acids."
+        },
+        {
+            "id": "cell_16",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Plasma Membrane:** The selectively permeable outer boundary of the cell.\n- **Cell Wall:** A rigid outer layer (made of cellulose) found only in plant cells.\n- **Nucleus:** The control center containing DNA.\n- **Prokaryote:** A cell lacking a defined nuclear membrane.\n- **Cytoplasm:** The jelly-like fluid inside the cell.\n- **Ribosomes:** The protein factories of the cell.\n- **Lysosomes:** The \"suicide bags\" or waste disposal units.\n- **Mitochondria:** The powerhouses producing ATP.\n- **Chloroplasts:** Plastids containing chlorophyll for photosynthesis."
+        },
+        {
+            "id": "cell_17",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of The Fundamental Unit of Life\n\nExcellent work! Here is a recap of what we've learned:\n\n- The **Cell Theory** states all living things are made of cells, and new cells come from pre-existing cells.\n- **Prokaryotes** (like bacteria) lack a true nucleus, while **Eukaryotes** have a well-defined nucleus.\n- The **Plasma Membrane** is selectively permeable, allowing osmosis and diffusion.\n- **Plant cells** uniquely have a rigid **Cell Wall** and **Plastids** (like chloroplasts) for photosynthesis.\n- Inside the cell, organelles perform specific jobs: **ER** makes proteins/lipids, **Golgi** packages them, **Lysosomes** clean up, and **Mitochondria** generate energy (ATP)."
+        }
+    ]
+}

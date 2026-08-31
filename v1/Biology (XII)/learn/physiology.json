@@ -1,0 +1,97 @@
+{
+    "id": "learn_physiology",
+    "topicId": "physiology",
+    "topicTitle": "Physiology",
+    "description": "Understand the internal systems of living things, from human digestion and nerves to plant photosynthesis.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "phys_1",
+            "type": "content",
+            "title": "Welcome to Physiology",
+            "content": "# Physiology\n\nWelcome to Physiology! This is the study of how living organisms function. We will look at the complex systems that keep humans and plants alive and responding to their environments.\n\n## What You Will Learn:\n- **Human Organ Systems** - Digestion, respiration, circulation\n- **Neural Control** - The brain and nervous system\n- **Chemical Coordination** - Hormones and the endocrine system\n- **Plant Physiology** - Transport and photosynthesis\n\n> **Fun Fact:** Your blood vessels are so long that if you laid them all end-to-end, they would circle the Earth more than twice!"
+        },
+        {
+            "id": "phys_2",
+            "type": "content",
+            "title": "Human Digestive System",
+            "content": "# Digestion & Absorption\n\nThe digestive system breaks down complex food into simple, absorbable forms.\n\n## The Journey:\n1. **Mouth:** Teeth chew food; saliva contains salivary amylase to start digesting starch.\n2. **Stomach:** Highly acidic (HCl). The enzyme pepsin begins breaking down proteins.\n3. **Small Intestine:** The main site of digestion and absorption. \n   - Receives bile from the liver (to break down fats) and pancreatic juice from the pancreas (containing many enzymes).\n   - The walls have tiny finger-like projections called **villi** to massively increase surface area for absorbing nutrients into the blood.\n4. **Large Intestine:** Absorbs water and forms feces."
+        },
+        {
+            "id": "phys_3",
+            "type": "content",
+            "title": "Human Respiratory System",
+            "content": "# Breathing and Gas Exchange\n\nCells need oxygen to produce energy and must get rid of carbon dioxide.\n\n## The Mechanism:\n- Air enters through the nose -> Pharynx -> Larynx (voice box) -> Trachea (windpipe) -> Bronchi -> Lungs.\n- Inside the lungs, the tubes branch into millions of tiny air sacs called **Alveoli**.\n\n## Gas Exchange:\n- Alveoli have incredibly thin walls and are surrounded by blood capillaries.\n- Oxygen diffuses from the alveoli into the blood (binding to hemoglobin in red blood cells).\n- Carbon dioxide diffuses from the blood into the alveoli to be exhaled."
+        },
+        {
+            "id": "phys_4",
+            "type": "content",
+            "title": "Human Circulatory System",
+            "content": "# Body Fluid and Circulation\n\nThe circulatory system is the body's transport network.\n\n## The Heart:\nA muscular pump with four chambers:\n- **Right Atrium/Ventricle:** Pumps deoxygenated blood to the lungs.\n- **Left Atrium/Ventricle:** Pumps oxygenated blood to the rest of the body. (The left wall is much thicker!).\n\n## Blood Components:\n- **Plasma:** The liquid matrix.\n- **Red Blood Cells (Erythrocytes):** Carry oxygen.\n- **White Blood Cells (Leukocytes):** Fight infection.\n- **Platelets:** Essential for blood clotting to stop bleeding."
+        },
+        {
+            "id": "phys_5",
+            "type": "content",
+            "title": "Excretory System",
+            "content": "# Excretory Products and Elimination\n\nMetabolism produces toxic nitrogenous waste (like urea) that must be removed.\n\n## The Kidneys:\nThe main excretory organs. They are bean-shaped organs in the lower back.\n\n## The Nephron:\nThe functional unit of the kidney. Each kidney has over a million nephrons!\n1. **Filtration:** Blood enters the nephron under high pressure; water, salts, glucose, and urea are pushed out into a capsule.\n2. **Reabsorption:** As the fluid moves through a long twisted tubule, the body reabsorbs all the good stuff (glucose, necessary water/salts) back into the blood.\n3. **Secretion:** What's left over is urine, which travels down the ureter to the bladder."
+        },
+        {
+            "id": "phys_quiz_1",
+            "type": "quiz",
+            "title": "Systems Quiz",
+            "content": "Test your human anatomy.",
+            "quizQuestion": "In the human digestive system, where does the majority of nutrient absorption take place?",
+            "quizOptions": [
+                "Stomach",
+                "Large Intestine",
+                "Small Intestine",
+                "Liver"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "phys_6",
+            "type": "content",
+            "title": "Neural Control",
+            "content": "# Neural Control and Coordination\n\nThe nervous system provides point-to-point, rapid coordination among organs.\n\n## The Neuron:\nThe structural and functional unit of the nervous system.\n- **Dendrites:** Receive signals from other neurons.\n- **Cell Body:** Contains the nucleus.\n- **Axon:** A long fiber that transmits electrical impulses (action potentials) away from the cell body.\n- **Synapse:** The tiny gap between two neurons where chemical messengers (neurotransmitters) cross to pass the signal along.\n\n## Central Nervous System (CNS):\nConsists of the Brain and the Spinal Cord. The brain processes information, and the spinal cord acts as a relay and handles reflexes."
+        },
+        {
+            "id": "phys_7",
+            "type": "content",
+            "title": "Chemical Coordination",
+            "content": "# The Endocrine System\n\nNerve fibers don't reach every single cell in the body. For widespread, long-lasting control, we use the endocrine system.\n\n## Hormones:\nChemical messengers secreted directly into the blood by ductless (endocrine) glands. They travel throughout the body but only affect specific 'target' cells with the right receptors.\n\n## Key Glands:\n- **Pituitary Gland:** The 'master gland' in the brain. Controls growth and tells other glands what to do.\n- **Thyroid Gland:** In the neck. Regulates the body's basal metabolic rate.\n- **Pancreas:** Secretes insulin (lowers blood sugar) and glucagon (raises blood sugar).\n- **Adrenal Glands:** On top of the kidneys. Secrete adrenaline for the 'fight or flight' response."
+        },
+        {
+            "id": "phys_8",
+            "type": "content",
+            "title": "Plant Physiology: Transport",
+            "content": "# Transport in Plants\n\nPlants don't have a heart to pump fluids, yet trees can move water hundreds of feet into the air!\n\n## Two Vascular Tissues:\n1. **Xylem:** Transports water and minerals strictly UPWARDS from the roots to the leaves.\n2. **Phloem:** Transports food (sugars made by photosynthesis) from the leaves DOWN to the roots and UP to growing buds (bidirectional).\n\n## How Xylem Works:\nIt is driven primarily by **Transpiration Pull**. As water evaporates from the leaves (transpiration), it creates a negative pressure (like sucking on a straw) that pulls water all the way up from the roots!"
+        },
+        {
+            "id": "phys_9",
+            "type": "content",
+            "title": "Plant Physiology: Photosynthesis",
+            "content": "# Photosynthesis in Higher Plants\n\nPhotosynthesis is how plants convert light energy into chemical energy.\n\n## The Equation:\n```\n6CO2 + 12H2O + Light -> C6H12O6 (Glucose) + 6O2 + 6H2O\n```\n\n## Two Stages (in the Chloroplast):\n1. **Light Reactions:** Occur in the thylakoid membranes. They capture light energy using chlorophyll, split water molecules (releasing Oxygen), and create energy currency (ATP and NADPH).\n2. **Dark Reactions (Calvin Cycle):** Occur in the stroma. They do not require light directly. They use the ATP and NADPH produced in step 1 to \"fix\" Carbon Dioxide from the air into sugars (Glucose)."
+        },
+        {
+            "id": "phys_quiz_2",
+            "type": "quiz",
+            "title": "Plant Phys Quiz",
+            "content": "Test your botany.",
+            "quizQuestion": "The force that primarily drives the upward movement of water through the xylem of a tall tree is:",
+            "quizOptions": [
+                "Root pressure",
+                "Transpiration pull",
+                "Active transport",
+                "Gravity"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "phys_10",
+            "type": "content",
+            "title": "Summary: Physiology",
+            "content": "# Physiology Summary\n\n## Key Concepts Reviewed:\n\n- **Digestion:** Breaks down food; absorption occurs mainly in the small intestine via villi.\n- **Respiration:** Gas exchange occurs in the alveoli of the lungs.\n- **Circulation:** Four-chambered heart pumps blood; red blood cells carry oxygen.\n- **Excretion:** Kidneys filter blood via nephrons to produce urine.\n- **Neural Control:** Fast, electrical signals via neurons. CNS = Brain + Spinal cord.\n- **Chemical Control:** Slow, long-lasting chemical signals via hormones from endocrine glands (e.g., Insulin from the pancreas).\n- **Plant Transport:** Xylem moves water UP (driven by transpiration); Phloem moves food bidirectional.\n- **Photosynthesis:** Light reactions (make ATP/O2) and Dark reactions (make sugar from CO2).\n\n> **Congratulations!** You have completed the Physiology module."
+        }
+    ]
+}

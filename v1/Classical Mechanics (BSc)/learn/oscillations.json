@@ -1,0 +1,139 @@
+{
+    "id": "learn_oscillations",
+    "topicId": "oscillations",
+    "topicTitle": "Oscillations and Waves",
+    "description": "Examine the physics of repeating motion, from simple pendulums and mass-spring systems to complex driven and damped harmonic oscillators.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "osc_1",
+            "type": "content",
+            "title": "Periodic Motion",
+            "content": "# The Rhythm of the Universe\n\nMany things in nature don't just move in straight lines; they move back and forth, repeating their motion over and over again.\n\nThis is called **Periodic Motion** (or Oscillation).\n\n## Examples:\n- The swinging of a grandfather clock pendulum.\n- A mass bobbing up and down on a spring.\n- The vibrations of a guitar string.\n- The alternating current (AC) in your wall outlet.\n- The beating of your heart."
+        },
+        {
+            "id": "osc_2",
+            "type": "content",
+            "title": "Simple Harmonic Motion (SHM)",
+            "content": "# The Simplest Oscillation\n\nThe most fundamental type of periodic motion is **Simple Harmonic Motion (SHM)**.\n\n## The Rule of SHM\nFor an object to undergo SHM, it must experience a **Restoring Force** that pushes it back toward a central equilibrium point.\n\nCrucially, this restoring force must be *directly proportional* to how far the object is displaced from the center.\n- If you pull it a little bit, it pulls back a little bit.\n- If you pull it a lot, it yanks back very hard."
+        },
+        {
+            "id": "osc_3",
+            "type": "content",
+            "title": "Hooke's Law",
+            "content": "# Hooke's Law and Springs\n\nThe absolute perfect example of SHM is a mass attached to a frictionless spring.\n\nThis system perfectly obeys **Hooke's Law**:\n**F = -kx**\n\n- **F:** The restoring force exerted by the spring.\n- **x:** The displacement (how far you stretched or compressed the spring from its resting position).\n- **k:** The spring constant (a measure of how stiff the spring is).\n- **The minus sign (-):** Extremely important! It means the force always points in the *opposite* direction of the displacement (pushing back toward the center)."
+        },
+        {
+            "id": "osc_4",
+            "type": "content",
+            "title": "The Math of SHM",
+            "content": "# Sine and Cosine\n\nIf you attach a pen to a bouncing mass on a spring and run a piece of paper past it at a constant speed, it will perfectly draw a smooth, wavy line.\n\nThis shape is a sine (or cosine) wave.\n\nThe position (x) of an object in SHM as a function of time (t) is given by:\n**x(t) = A * cos(wt + phi)**\n\nWhere:\n- **A (Amplitude):** The maximum distance it swings from the center.\n- **w (Omega):** The angular frequency (how fast it's oscillating).\n- **phi:** The phase constant (where it started in the cycle)."
+        },
+        {
+            "id": "osc_5",
+            "type": "content",
+            "title": "Period and Frequency",
+            "content": "# Timing the Oscillation\n\nTwo critical terms describe *when* things happen in SHM.\n\n## 1. The Period (T)\nThe total time (in seconds) it takes to complete ONE full cycle (e.g., swinging all the way to the right, all the way to the left, and back to the start).\n\n## 2. The Frequency (f)\nThe number of full cycles completed in exactly ONE second. Measured in Hertz (Hz).\n\nThey are perfect inverses of each other:\n**T = 1 / f**\n(If a pendulum swings twice a second, f = 2 Hz, and its Period T = 0.5 seconds)."
+        },
+        {
+            "id": "osc_6",
+            "type": "content",
+            "title": "The Strange Independence of SHM",
+            "content": "# The Mass-Spring Period\n\nFor a mass (m) on a spring (stiffness k), the period of oscillation is:\n**T = 2 * pi * sqrt(m / k)**\n\nNotice what is MISSING from this equation: The Amplitude (A).\n\nThis is a deeply unintuitive fact about SHM:\n**The time it takes to complete one cycle is completely independent of how far you pull it!**\n\nIf you pull a spring down 1 cm, it might take 2 seconds to bounce up and down. If you pull the exact same spring down 10 meters, it will still take exactly 2 seconds! It has further to travel, but the stretched spring pulls back so much harder that it exactly compensates."
+        },
+        {
+            "id": "osc_7",
+            "type": "content",
+            "title": "The Simple Pendulum",
+            "content": "# The Pendulum Period\n\nA simple pendulum (a mass on a string) also undergoes SHM (as long as the swinging angle is small, less than 15 degrees).\n\nIts period is given by:\n**T = 2 * pi * sqrt(L / g)**\n(where L is the length of the string, and g is gravity).\n\nNotice what is missing here: **The Mass (m)!**\n\nA pendulum swinging a tiny pebble will keep the exact same rhythm as a pendulum swinging a massive bowling ball (if the strings are the same length). This is why pendulum clocks work so reliably!"
+        },
+        {
+            "id": "osc_8",
+            "type": "content",
+            "title": "Energy in SHM",
+            "content": "# Trading Energy\n\nIn a perfect, frictionless SHM system, Total Energy is perfectly conserved. It just constantly sloshes back and forth between Potential and Kinetic forms.\n\nImagine a pendulum:\n1. **Maximum Displacement:** You pull it to the side and hold it. Velocity is zero. Kinetic Energy = 0. Potential Energy = Maximum.\n2. **The Swing:** You let go. It drops, losing Potential Energy but gaining speed (Kinetic Energy).\n3. **Equilibrium Point:** It reaches the exact bottom center. Potential Energy = 0. It is moving at its absolute maximum speed, so Kinetic Energy = Maximum.\n4. It swings up the other side, and the process reverses."
+        },
+        {
+            "id": "osc_9",
+            "type": "content",
+            "title": "Damped Oscillations",
+            "content": "# The Real World: Damping\n\nIn the real world, perpetual motion is impossible. Friction and air resistance always steal energy from the system, turning it into heat.\n\nThis energy loss causes the amplitude of the oscillation to slowly decrease over time until the object finally stops. This is called **Damped Oscillation**.\n\n- **Underdamped:** The object swings back and forth many times, with each swing getting slightly smaller until it stops (like a tuning fork).\n- **Critically Damped:** The object returns to the center equilibrium point as fast as physically possible without ever swinging past it (ideal for car shock absorbers).\n- **Overdamped:** Friction is so massive (like swinging in thick honey) that it slowly, painfully creeps back to the center without ever crossing it."
+        },
+        {
+            "id": "osc_10",
+            "type": "content",
+            "title": "Driven Oscillations",
+            "content": "# Forcing the Issue\n\nWhat if you don't just let the system swing, but you actively push it? This is a **Driven Oscillation**.\n\nImagine pushing a child on a playground swing.\n\n- The swing has its own natural frequency (determined by its length).\n- You, the pusher, have a driving frequency (how often you push).\n\nIf you just push randomly, the swing will jerk around chaotically and won't go very high."
+        },
+        {
+            "id": "osc_11",
+            "type": "content",
+            "title": "Resonance",
+            "content": "# The Power of Resonance\n\nIf you push the swing at the EXACT same frequency as its natural rhythm (pushing just as it reaches the peak and starts to come down), something magical happens.\n\nThis is called **Resonance**.\n\nWhen the driving frequency perfectly matches the natural frequency, the pushes add up constructively. The amplitude of the swing grows massively and violently.\n\n## The Dark Side of Resonance\nIn 1940, a mild wind blowing across the Tacoma Narrows Bridge perfectly matched the bridge's natural twisting frequency. Resonance caused the massive concrete bridge to violently twist and heave until it completely tore itself apart!"
+        },
+        {
+            "id": "osc_12",
+            "type": "content",
+            "title": "Introduction to Waves",
+            "content": "# Traveling Oscillations\n\nWhat happens when you connect millions of tiny oscillators together? You get a **Wave**.\n\nA wave is a disturbance that travels through a medium, transferring **Energy** from one place to another WITHOUT permanently transferring matter.\n\nIf you shake one end of a rope, a wave travels to the other end. The rope itself doesn't move forward; each piece of rope just moves up and down (oscillates), passing the energy to the next piece."
+        },
+        {
+            "id": "osc_13",
+            "type": "content",
+            "title": "Transverse vs Longitudinal",
+            "content": "# Two Types of Waves\n\n## 1. Transverse Waves\nThe particles of the medium oscillate **Perpendicular (90 degrees)** to the direction the wave is traveling.\n- Example: Doing \"the wave\" at a stadium (people stand UP, but the wave moves LEFT). Light/Electromagnetic waves are also transverse.\n\n## 2. Longitudinal Waves\nThe particles of the medium oscillate **Parallel** to the direction the wave is traveling, creating areas of high pressure (compressions) and low pressure (rarefactions).\n- Example: Sound waves in the air. The air molecules slam forward and backward in the same direction the sound is moving."
+        },
+        {
+            "id": "osc_14",
+            "type": "content",
+            "title": "Wave Properties",
+            "content": "# Measuring a Wave\n\nWaves have the same properties as SHM (Amplitude, Frequency, Period), plus a few more because they travel:\n\n## Wavelength (Lambda)\nThe physical distance (in meters) between two repeating points on the wave (e.g., from one peak to the exact next peak).\n\n## Wave Speed (v)\nHow fast the energy is actually moving across the room.\n**v = f * Lambda**\n(Speed = Frequency * Wavelength).\n\nCrucially, the speed of a mechanical wave is determined ONLY by the medium it travels through. Sound travels at ~343 m/s in air, but it travels almost 5 times faster in solid water!"
+        },
+        {
+            "id": "osc_15",
+            "type": "content",
+            "title": "Superposition and Interference",
+            "content": "# When Waves Collide\n\nIf two baseballs collide, they bounce off each other. If two waves collide, they pass completely through each other like ghosts.\n\nWhile they overlap, they obey the **Principle of Superposition**: their amplitudes simply add together algebraically.\n\n## Constructive Interference\nIf two wave peaks meet at the same time, they add together to create a massive super-peak.\n\n## Destructive Interference\nIf the peak of one wave meets the deep trough of another wave, they cancel each other out! The medium goes perfectly flat. (This is exactly how noise-canceling headphones work—they play an inverted sound wave that destroys the incoming noise)."
+        },
+        {
+            "id": "osc_16",
+            "type": "content",
+            "title": "Standing Waves",
+            "content": "# Standing Waves\n\nIf you pluck a guitar string, waves travel to the ends, bounce off the solid bridge, and reflect back. The outgoing waves constantly interfere with the incoming reflected waves.\n\nAt specific resonant frequencies, this interference creates a **Standing Wave**—a wave that appears to perfectly vibrate in place without traveling forward or backward.\n\nIt features:\n- **Nodes:** Points of perfect destructive interference that never move at all.\n- **Antinodes:** Points of perfect constructive interference that violently bounce up and down with maximum amplitude."
+        },
+        {
+            "id": "osc_17",
+            "type": "content",
+            "title": "Summary of Oscillations",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **SHM:** Requires a restoring force proportional to displacement (Hooke's Law: F = -kx).\n2. **Independence:** The period of a spring or pendulum is completely independent of its starting amplitude.\n3. **Resonance:** Driving a system at its natural frequency causes massive amplitude growth.\n4. **Waves:** Transfer energy without transferring matter. Can be Transverse (light, ropes) or Longitudinal (sound).\n5. **Interference:** Waves pass through each other, adding constructively or destructively.\n6. **Standing Waves:** Created by reflecting waves interfering to create stationary nodes and antinodes."
+        },
+        {
+            "id": "osc_quiz_1",
+            "type": "quiz",
+            "title": "Pendulum Quiz",
+            "content": "Test your understanding of the simple pendulum.",
+            "quizQuestion": "If you take a grandfather clock that keeps perfect time on Earth and move it to the Moon (where gravity is much weaker), what will happen to the clock?",
+            "quizOptions": [
+                "It will run much faster.",
+                "It will run much slower.",
+                "It will keep the exact same perfect time.",
+                "It will stop immediately."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "osc_quiz_2",
+            "type": "quiz",
+            "title": "Wave Interference Quiz",
+            "content": "Review the principle of superposition.",
+            "quizQuestion": "Noise-canceling headphones silence outside sounds by generating a new sound wave. How does this work?",
+            "quizOptions": [
+                "By generating a louder wave to drown out the noise.",
+                "By creating a wave that perfectly matches the peak of the incoming noise (Constructive Interference).",
+                "By creating an inverted wave so its trough meets the incoming peak, canceling it out (Destructive Interference).",
+                "By creating a physical barrier of compressed air."
+            ],
+            "correctOptionIndex": 2
+        }
+    ]
+}

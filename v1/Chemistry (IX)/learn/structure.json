@@ -1,0 +1,153 @@
+{
+    "id": "learn_structure",
+    "topicId": "structure",
+    "topicTitle": "Structure of Atom",
+    "description": "Crack open the atom! Discover the subatomic particles, explore historic atomic models, and learn how electrons are arranged in shells.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "structure_1",
+            "type": "content",
+            "title": "Welcome to the Structure of Atom",
+            "content": "# Inside the Indivisible\n\nDalton's atomic theory suggested that the atom was indivisible and indestructible. But the discovery of two fundamental particles inside the atom led to the failure of this aspect of Dalton's theory.\n\n## What You Will Learn:\n- **Subatomic Particles:** The building blocks *of* the building blocks.\n- **Atomic Models:** How our understanding of the atom evolved over time.\n- **Electron Distribution:** How electrons are arranged in orbits.\n- **Valency:** The secret to chemical bonding.\n- **Isotopes and Isobars:** Atoms that break the rules.\n\nLet's zoom into the microscopic world!"
+        },
+        {
+            "id": "structure_2",
+            "type": "content",
+            "title": "Charged Particles in Matter",
+            "content": "# Static Electricity\n\nHow do we know there are charged particles inside an atom?\n\n- Rub a comb in dry hair. It can now attract small pieces of paper.\n- Rub a glass rod with a silk cloth and bring the rod near an inflated balloon. They attract!\n\nThese simple experiments show that on rubbing two objects together, they become electrically charged. Where does this charge come from?\n\nIt was concluded that the atom is divisible and consists of **charged particles**."
+        },
+        {
+            "id": "structure_3",
+            "type": "content",
+            "title": "The First Subatomic Particles",
+            "content": "# Protons and Electrons\n\nBy the early 1900s, scientists had discovered two types of subatomic particles.\n\n## 1. The Electron (e-):\n- Discovered by J.J. Thomson.\n- It has a **negative** electrical charge.\n- Its mass is considered to be negligible (almost zero compared to the rest of the atom).\n\n## 2. The Proton (p+):\n- Discovered by E. Goldstein (as canal rays).\n- It has a **positive** electrical charge, equal in magnitude to the electron.\n- Its mass is approximately 2000 times that of the electron.\n\n> **The Balance:** Atoms as a whole are electrically neutral, which means they must contain an equal number of protons and electrons!"
+        },
+        {
+            "id": "structure_quiz_1",
+            "type": "quiz",
+            "title": "Particles Quiz",
+            "content": "Check your understanding of the basic particles.",
+            "quizQuestion": "Which subatomic particle has a positive charge and a mass approximately 2000 times that of an electron?",
+            "quizOptions": [
+                "Electron",
+                "Proton",
+                "Neutron",
+                "Nucleus"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "structure_4",
+            "type": "content",
+            "title": "Thomson's Model of an Atom",
+            "content": "# The Watermelon Model\n\nHow are these protons and electrons arranged inside the atom? J.J. Thomson was the first to propose a model for the structure of an atom.\n\n## The Christmas Pudding / Watermelon Model:\nThomson proposed that:\n1. An atom consists of a positively charged sphere.\n2. The electrons are embedded in it (like seeds in a watermelon, or dry fruits in a pudding).\n3. The negative and positive charges are equal in magnitude. So, the atom as a whole is electrically neutral.\n\nWhile this model explained why atoms are neutral, it couldn't explain the results of experiments done by other scientists later."
+        },
+        {
+            "id": "structure_5",
+            "type": "content",
+            "title": "Rutherford's Experiment",
+            "content": "# The Gold Foil Experiment\n\nErnest Rutherford designed an experiment to see how electrons are arranged. He fired fast-moving **alpha particles** (positively charged, heavy particles) at a very thin gold foil.\n\n## What he expected (based on Thomson's model):\nHe expected the alpha particles to pass straight through the foil or be slightly deflected by the \"pudding\" of positive charge.\n\n## What actually happened:\n1. Most alpha particles passed straight through the gold foil without any deflection.\n2. A small fraction were deflected by small angles.\n3. A very small number (1 in 12,000) completely rebounded back! Rutherford said this was as incredible as firing an artillery shell at a piece of tissue paper and having it bounce back at you!"
+        },
+        {
+            "id": "structure_6",
+            "type": "content",
+            "title": "Rutherford's Model of an Atom",
+            "content": "# The Discovery of the Nucleus\n\nBased on his shocking results, Rutherford concluded:\n\n1. **Empty Space:** Most of the space inside the atom is empty (because most particles passed straight through).\n2. **The Nucleus:** There is a positively charged center in an atom called the **nucleus**. Nearly all the mass of an atom resides in the nucleus (this is what caused the heavy alpha particles to rebound).\n3. **Orbiting Electrons:** The electrons revolve around the nucleus in circular paths.\n4. **Size:** The size of the nucleus is extremely small compared to the size of the atom (like a fly in a football stadium)."
+        },
+        {
+            "id": "structure_quiz_2",
+            "type": "quiz",
+            "title": "Rutherford Quiz",
+            "content": "Test your knowledge on the gold foil experiment.",
+            "quizQuestion": "What was the most surprising observation from Rutherford's gold foil experiment that led to the discovery of the nucleus?",
+            "quizOptions": [
+                "Most alpha particles passed straight through.",
+                "The gold foil melted.",
+                "A very small number of alpha particles rebounded directly backwards.",
+                "The electrons glowed in the dark."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "structure_7",
+            "type": "content",
+            "title": "Drawbacks of Rutherford's Model",
+            "content": "# The Problem with Orbits\n\nRutherford's model had a major flaw.\n\n## The Physics Problem:\nAccording to the laws of physics, any particle in a circular orbit would undergo acceleration. During acceleration, charged particles (like electrons) would radiate energy.\n\nIf this were true, the revolving electron would lose energy and eventually fall into the nucleus! If this were so, the atom should be highly unstable and matter would not exist in the form that we know.\n\nWe know that atoms are quite stable. So, a new model was needed."
+        },
+        {
+            "id": "structure_8",
+            "type": "content",
+            "title": "Bohr's Model of Atom",
+            "content": "# The Quantum Leap\n\nNeils Bohr put forward a new model to overcome the objections raised against Rutherford's model.\n\n## Bohr's Postulates:\n1. Only certain special orbits known as **discrete orbits** of electrons are allowed inside the atom.\n2. While revolving in discrete orbits, the electrons **do not radiate energy**.\n\nThese orbits or shells are called energy levels. These energy levels are represented by the letters **K, L, M, N,...** or the numbers, **n=1, 2, 3, 4,...**"
+        },
+        {
+            "id": "structure_9",
+            "type": "content",
+            "title": "The Neutron",
+            "content": "# The Missing Mass\n\nFor a long time, the mass of an atom couldn't be fully explained just by protons and electrons.\n\n## The Discovery:\nIn 1932, J. Chadwick discovered another subatomic particle.\n- It had **no charge** (it was neutral).\n- It had a mass nearly equal to that of a proton.\n- It was named the **neutron**.\n\nNeutrons are present in the nucleus of all atoms (except hydrogen). The mass of an atom is therefore given by the sum of the masses of protons and neutrons present in the nucleus."
+        },
+        {
+            "id": "structure_10",
+            "type": "content",
+            "title": "Distribution of Electrons",
+            "content": "# How to Fill the Shells\n\nHow are electrons distributed in different orbits (shells)? Bohr and Bury suggested a few rules:\n\n## The Rules:\n1. The maximum number of electrons present in a shell is given by the formula **2n^2**, where 'n' is the orbit number.\n   - 1st orbit (K shell) = 2 x (1^2) = **2**\n   - 2nd orbit (L shell) = 2 x (2^2) = **8**\n   - 3rd orbit (M shell) = 2 x (3^2) = **18**\n2. The maximum number of electrons that can be accommodated in the **outermost orbit** is 8.\n3. Electrons are not accommodated in a given shell unless the inner shells are filled. That is, the shells are filled in a step-wise manner."
+        },
+        {
+            "id": "structure_quiz_3",
+            "type": "quiz",
+            "title": "Electron Shells Quiz",
+            "content": "Check your math on electron distribution.",
+            "quizQuestion": "According to the 2n^2 rule, what is the maximum number of electrons that can occupy the L shell (2nd orbit)?",
+            "quizOptions": [
+                "2",
+                "8",
+                "18",
+                "32"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "structure_11",
+            "type": "content",
+            "title": "Valency",
+            "content": "# The Combining Capacity\n\nThe electrons present in the outermost shell of an atom are known as the **valence electrons**.\n\n## The Octet Rule:\nAtoms of elements having a completely filled outermost shell (8 electrons) show little chemical activity (like noble gases: Helium, Neon, Argon). They are stable.\n\nOther atoms react to achieve this stable octet (8 electrons) in their outermost shell. They do this by sharing, gaining, or losing electrons.\n\n## Definition:\nThe number of electrons gained, lost, or shared so as to make the octet of electrons in the outermost shell, is exactly the **valency** (combining capacity) of the element."
+        },
+        {
+            "id": "structure_12",
+            "type": "content",
+            "title": "Calculating Valency",
+            "content": "# Examples of Valency\n\nLet's see how valency works in practice.\n\n## Case 1: Losing Electrons\nSodium (Atomic number 11) has the electron configuration: 2, 8, 1.\nIt is easiest for Sodium to lose that 1 outer electron to have a stable outer shell (the L shell with 8). \nTherefore, its valency is **1**.\n\n## Case 2: Gaining Electrons\nChlorine (Atomic number 17) has the configuration: 2, 8, 7.\nIt is easier for Chlorine to gain 1 electron than to lose 7 to complete its octet.\nTherefore, its valency is determined by subtracting 7 from 8 (8 - 7). Its valency is also **1**."
+        },
+        {
+            "id": "structure_13",
+            "type": "content",
+            "title": "Atomic Number and Mass Number",
+            "content": "# Identifying Atoms\n\nHow do we tell one element from another?\n\n## Atomic Number (Z):\nIt is the number of **protons** present in the nucleus of an atom. \nAll atoms of the same element have the same atomic number. \n- *Example:* All Carbon atoms have 6 protons. So the atomic number of Carbon is 6.\n\n## Mass Number (A):\nIt is the sum of the total number of **protons and neutrons** present in the nucleus of an atom.\n- Protons and neutrons are collectively called **nucleons**.\n- *Example:* Carbon has 6 protons and 6 neutrons, so its mass number is 12."
+        },
+        {
+            "id": "structure_14",
+            "type": "content",
+            "title": "Isotopes",
+            "content": "# Atoms of the Same Element with Different Masses\n\nSometimes, nature breaks the \"identical atoms\" rule from Dalton's theory.\n\n## What are Isotopes?\nIsotopes are defined as the atoms of the **same element**, having the **same atomic number** but **different mass numbers**.\n\nThis means they have the same number of protons (so they are the same chemical element) but a different number of neutrons!\n\n## Example: Chlorine\nChlorine occurs in nature in two isotopic forms, with masses 35 u and 37 u in the ratio of 3:1. \nThe chemical properties of isotopes are similar, but their physical properties are different."
+        },
+        {
+            "id": "structure_15",
+            "type": "content",
+            "title": "Isobars",
+            "content": "# Different Elements, Same Mass\n\nThe opposite of an isotope is an isobar.\n\n## What are Isobars?\nAtoms of **different elements** with **different atomic numbers**, which have the **same mass number**, are known as isobars.\n\n## Example:\nLet us consider two elements — Calcium, atomic number 20, and Argon, atomic number 18. \n- The number of protons in these atoms is different.\n- However, the mass number of both these elements is 40. That means the total number of nucleons (protons + neutrons) is the same in the atoms of this pair of elements."
+        },
+        {
+            "id": "structure_16",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Electron:** Negatively charged subatomic particle.\n- **Proton:** Positively charged subatomic particle in the nucleus.\n- **Neutron:** Neutral subatomic particle in the nucleus.\n- **Nucleus:** The tiny, dense, positively charged center of an atom.\n- **Valence Electrons:** Electrons in the outermost shell.\n- **Atomic Number:** Number of protons in an atom.\n- **Mass Number:** Sum of protons and neutrons in an atom.\n- **Isotopes:** Atoms of the same element with different mass numbers.\n- **Isobars:** Atoms of different elements with the same mass number."
+        },
+        {
+            "id": "structure_17",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Structure of Atom\n\nExcellent work! Here is a recap of what we've learned:\n\n- Atoms are made of three subatomic particles: **protons (positive)**, **neutrons (neutral)**, and **electrons (negative)**.\n- **Rutherford's** gold foil experiment discovered the dense, positive **nucleus**.\n- **Bohr's** model explained that electrons revolve in discrete energy levels (shells: K, L, M, N) without radiating energy.\n- The maximum capacity of a shell is **2n^2**, and the outermost shell can hold a max of 8 electrons (octet rule).\n- **Valency** is the combining capacity of an atom to achieve a stable octet.\n- **Isotopes** are atoms of the same element with different numbers of neutrons (e.g., Chlorine-35 and Chlorine-37)."
+        }
+    ]
+}

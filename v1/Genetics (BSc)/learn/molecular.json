@@ -1,0 +1,71 @@
+{
+    "id": "gen_molecular",
+    "topicId": "molecular",
+    "topicTitle": "Molecular Genetics",
+    "description": "Trace the flow of information from the DNA blueprint to the construction of working proteins.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "gmol_1",
+            "type": "content",
+            "title": "Welcome to Molecular Genetics",
+            "content": "# Molecular Genetics\n\nWelcome to Molecular Genetics! We know DNA contains the code, but how does the cell actually read that code to build a living organism? We will explore the Central Dogma.\n\n## What You Will Learn:\n- **Transcription** - Reading the DNA\n- **RNA Processing** - Splicing out the junk\n- **The Genetic Code** - Translating codons\n- **Translation** - Building the protein at the ribosome\n\n> **Fun Fact:** The human genome contains about 20,000 protein-coding genes, but through alternative splicing, those genes can produce over 100,000 different proteins!"
+        },
+        {
+            "id": "gmol_2",
+            "type": "content",
+            "title": "Transcription: Overview",
+            "content": "# DNA to RNA\n\nTranscription is the process of copying a segment of DNA into RNA.\n\n## Why make RNA?\nDNA is the master blueprint. It is too valuable to leave the protective nucleus. So, the cell makes a disposable, working copy (messenger RNA, or mRNA) to send out into the cytoplasm to the protein factories (ribosomes).\n\n## Key Differences in RNA:\n1. The sugar is **Ribose** (not deoxyribose).\n2. It is typically **single-stranded**.\n3. The base Thymine (T) is replaced by **Uracil (U)**. So in RNA, A pairs with U!"
+        },
+        {
+            "id": "gmol_3",
+            "type": "content",
+            "title": "Transcription: The Process",
+            "content": "# How Transcription Works\n\nThe star enzyme of this process is **RNA Polymerase**.\n\n## 1. Initiation:\nRNA Polymerase binds to a specific sequence on the DNA called the **Promoter**, which signals the start of a gene. It pries the two DNA strands apart.\n\n## 2. Elongation:\nRNA Polymerase moves along the template strand of the DNA, reading it 3' to 5', and builds a complementary mRNA strand in the 5' to 3' direction. (Remember: if DNA has an 'A', the RNA gets a 'U'!).\n\n## 3. Termination:\nRNA Polymerase reaches a terminator sequence, stops transcribing, and the newly synthesized mRNA transcript is released."
+        },
+        {
+            "id": "gmol_4",
+            "type": "content",
+            "title": "RNA Processing (Eukaryotes only)",
+            "content": "# Splicing the Code\n\nIn bacteria, the mRNA is ready to go immediately. But in eukaryotes (like humans), the raw mRNA (pre-mRNA) requires extensive processing before it can leave the nucleus.\n\n## Introns and Exons:\nEukaryotic genes contain 'junk' DNA that doesn't code for the protein.\n- **Exons:** The EXpressed sequences (the actual code for the protein).\n- **Introns:** The INtervening, non-coding sequences (the 'junk').\n\n## Splicing:\nA complex called the spliceosome cuts out all the useless Introns and glues the Exons together to form a continuous, readable code. \n*(A 5' cap and a 3' poly-A tail are also added to protect the mRNA from degrading in the cytoplasm).*"
+        },
+        {
+            "id": "gmol_quiz_1",
+            "type": "quiz",
+            "title": "Transcription Quiz",
+            "content": "Test your RNA knowledge.",
+            "quizQuestion": "During RNA splicing in eukaryotic cells, which sections of the pre-mRNA are cut out and discarded?",
+            "quizOptions": [
+                "Exons",
+                "Introns",
+                "Promoters",
+                "Codons"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "gmol_5",
+            "type": "content",
+            "title": "The Genetic Code",
+            "content": "# Cracking the Code\n\nHow do 4 bases (A, U, C, G) code for 20 different amino acids?\n\n## Codons:\nThe mRNA is read in non-overlapping groups of THREE bases called a **Codon**. \n(e.g., AUG, CCG, UAA).\n- Since there are 4 bases, there are 4x4x4 = 64 possible codons. This is more than enough to cover the 20 amino acids.\n\n## Key Features of the Code:\n1. **Unambiguous:** One specific codon ALWAYS codes for the exact same amino acid. (e.g., UUU always codes for Phenylalanine).\n2. **Degenerate (Redundant):** Multiple different codons can code for the *same* amino acid. (e.g., UUU and UUC both code for Phenylalanine).\n3. **Universal:** The code is virtually identical in all living organisms, from bacteria to humans!"
+        },
+        {
+            "id": "gmol_6",
+            "type": "content",
+            "title": "Translation: Overview",
+            "content": "# RNA to Protein\n\nTranslation is the process of building a polypeptide chain (protein) based on the mRNA sequence. It occurs in the cytoplasm at the **Ribosome**.\n\n## The Key Players:\n- **mRNA:** Contains the coded instructions (codons).\n- **Ribosome:** The massive protein/rRNA complex that acts as the workbench. It has a large subunit and a small subunit.\n- **tRNA (Transfer RNA):** The translator! These molecules carry specific amino acids to the ribosome. They have a 3-base sequence called an **Anticodon** that perfectly matches and binds to a specific codon on the mRNA."
+        },
+        {
+            "id": "gmol_7",
+            "type": "content",
+            "title": "Translation: The Process",
+            "content": "# Building the Protein\n\n## 1. Initiation:\nThe small ribosomal subunit binds to the mRNA. A specialized initiator tRNA (carrying the amino acid Methionine) binds to the **Start Codon (AUG)**. The large ribosomal subunit then attaches, completing the factory.\n\n## 2. Elongation:\n- The ribosome reads the next codon.\n- The matching tRNA lands, bringing the correct amino acid.\n- The ribosome forms a **peptide bond** between the new amino acid and the growing protein chain.\n- The ribosome shifts forward one codon, ejecting the empty tRNA, and the process repeats rapidly.\n\n## 3. Termination:\nThe ribosome reaches a **Stop Codon** (UAA, UAG, or UGA). There is no tRNA for a stop codon! A release factor binds instead, causing the finished protein to be released."
+        },
+        {
+            "id": "gmol_8",
+            "type": "content",
+            "title": "Summary: Molecular Genetics",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Transcription:** RNA Polymerase reads DNA and builds single-stranded mRNA (Uracil replaces Thymine).\n- **RNA Splicing (Eukaryotes):** Non-coding Introns are cut out; coding Exons are spliced together.\n- **Genetic Code:** Read in 3-letter Codons. It is universal, unambiguous, and degenerate (redundant).\n- **Start Codon:** AUG (codes for Methionine).\n- **Stop Codons:** UAA, UAG, UGA.\n- **Translation:** Occurs at the ribosome. tRNA molecules use their Anticodons to read the mRNA and deliver the correct amino acids, linking them with peptide bonds.\n\n> **Congratulations!** You have completed the Molecular Genetics module."
+        }
+    ]
+}

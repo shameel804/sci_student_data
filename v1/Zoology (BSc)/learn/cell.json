@@ -1,0 +1,65 @@
+{
+    "id": "zoo_cell",
+    "topicId": "cell",
+    "topicTitle": "Cell Biology",
+    "description": "Explore the complex organelles and dynamic molecular processes inside animal cells.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "zcell_1",
+            "type": "content",
+            "title": "Welcome to Cell Biology",
+            "content": "# Animal Cell Biology\n\nWelcome to advanced Cell Biology! We will explore the microscopic factories that make up all animal life, focusing on their complex internal structures and dynamic processes.\n\n## What You Will Learn:\n- **Organelle Function** - Mitochondria, ER, and Golgi\n- **Cytoskeleton** - The cell's scaffolding\n- **Cell Signaling** - How cells communicate\n- **Cell Cycle** - Mitosis and Apoptosis\n\n> **Fun Fact:** There are roughly 30 trillion cells in the human body, and they are constantly dying and being replaced!"
+        },
+        {
+            "id": "zcell_2",
+            "type": "content",
+            "title": "The Plasma Membrane",
+            "content": "# The Fluid Mosaic Model\n\nThe plasma membrane is not a static wall; it is a dynamic, fluid sea.\n\n## Structure:\n- **Phospholipid Bilayer:** Forms the core boundary. Hydrophilic heads face outwards; hydrophobic tails face inwards.\n- **Cholesterol:** Wedged between phospholipids to regulate membrane fluidity (prevents it from freezing solid or becoming too liquid).\n- **Proteins:** Embedded like icebergs. \n  - *Integral proteins* span the entire membrane (channels, pumps).\n  - *Peripheral proteins* rest on the surface (signaling)."
+        },
+        {
+            "id": "zcell_3",
+            "type": "content",
+            "title": "The Endomembrane System",
+            "content": "# The Endomembrane System\n\nThis is a group of membranes and organelles that work together to modify, package, and transport lipids and proteins.\n\n1. **Nuclear Envelope:** The double membrane surrounding the DNA.\n2. **Rough Endoplasmic Reticulum (RER):** Studded with ribosomes. Synthesizes proteins destined for secretion or the membrane.\n3. **Smooth ER (SER):** No ribosomes. Synthesizes lipids and detoxifies poisons (very abundant in liver cells).\n4. **Golgi Apparatus:** The cell's post office. Receives vesicles from the ER, modifies the proteins, and packages them into new vesicles for delivery.\n5. **Lysosomes:** The stomach of the cell. Contains digestive enzymes to break down waste."
+        },
+        {
+            "id": "zcell_4",
+            "type": "content",
+            "title": "Mitochondria",
+            "content": "# Mitochondria: The Powerhouse\n\nMitochondria generate most of the chemical energy (ATP) needed to power the cell's biochemical reactions.\n\n## Structure:\n- **Double Membrane:** Smooth outer membrane, highly folded inner membrane (folds are called **cristae** to increase surface area).\n- **Matrix:** The fluid inside containing enzymes for the Krebs cycle.\n\n## Endosymbiotic Theory:\nMitochondria contain their own circular DNA and their own ribosomes (which look like bacterial ribosomes). This strongly suggests that mitochondria were once free-living bacteria that were engulfed by an ancestral eukaryotic cell billions of years ago!"
+        },
+        {
+            "id": "zcell_5",
+            "type": "content",
+            "title": "The Cytoskeleton",
+            "content": "# Cellular Scaffolding\n\nThe cytoskeleton is a network of protein fibers that gives the cell shape, anchors organelles, and directs movement.\n\n## Three Main Fibers:\n1. **Microtubules:** The thickest. Made of tubulin. Form hollow tubes. They act as tracks for motor proteins (like kinesin) to walk along, pulling vesicles. They also pull chromosomes apart during mitosis.\n2. **Microfilaments (Actin Filaments):** The thinnest. Made of actin. Found just beneath the membrane; involved in muscle contraction and cell crawling (amoeboid movement).\n3. **Intermediate Filaments:** Medium thickness. Made of various proteins (like keratin). Very strong; they provide permanent structural support."
+        },
+        {
+            "id": "zcell_quiz_1",
+            "type": "quiz",
+            "title": "Organelle Quiz",
+            "content": "Test your knowledge of the cell.",
+            "quizQuestion": "Which organelle is responsible for modifying, sorting, and packaging proteins for secretion?",
+            "quizOptions": [
+                "Rough Endoplasmic Reticulum",
+                "Mitochondria",
+                "Golgi Apparatus",
+                "Lysosome"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "zcell_6",
+            "type": "content",
+            "title": "Cell Cycle and Apoptosis",
+            "content": "# Cell Division and Death\n\n## Mitosis vs Meiosis:\n- **Mitosis:** For growth and repair. Produces two identical diploid cells.\n- **Meiosis:** For reproduction. Produces four genetically distinct haploid cells (sperm/egg).\n\n## Apoptosis (Programmed Cell Death):\n- Cells don't just die accidentally (necrosis); they often commit organized suicide.\n- Apoptosis is crucial for development (e.g., removing the webbing between human fingers in the womb) and for destroying cells with irreparable DNA damage (preventing cancer)."
+        },
+        {
+            "id": "zcell_7",
+            "type": "content",
+            "title": "Summary: Animal Cell Biology",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Plasma Membrane:** Fluid mosaic of phospholipids, cholesterol, and proteins.\n- **Endomembrane System:** RER (makes proteins), SER (makes lipids), Golgi (modifies/packages), Lysosomes (digests).\n- **Mitochondria:** Produce ATP; have their own DNA (endosymbiotic theory).\n- **Cytoskeleton:** Microtubules (tracks/mitosis), Microfilaments (movement), Intermediate filaments (structure).\n- **Cell Fate:** Controlled by the cell cycle (mitosis) or programmed death (apoptosis).\n\n> **Congratulations!** You have completed the Cell Biology module."
+        }
+    ]
+}

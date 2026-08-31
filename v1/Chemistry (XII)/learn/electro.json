@@ -1,0 +1,121 @@
+{
+    "id": "learn_electro",
+    "topicId": "electro",
+    "topicTitle": "Electrochemistry",
+    "description": "Discover how chemistry creates electricity for our gadgets and why rust destroys our bridges.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "elec_1",
+            "type": "content",
+            "title": "Welcome to Electrochemistry",
+            "content": "# Electrochemistry\n\nWelcome to Electrochemistry! This is the study of the production of electricity from the energy released during spontaneous chemical reactions, and the use of electrical energy to bring about non-spontaneous chemical transformations.\n\n## What You Will Learn:\n- **Electrochemical Cells** - How chemical energy becomes electricity\n- **Conductance Measurements** - How well ions travel in a solution\n- **Battery Technology** - Primary and secondary batteries\n- **Corrosion Science** - Why metals rust and how to stop it\n\n> **Fun Fact:** Without electrochemistry, we wouldn't have smartphones, electric cars, or pacemakers!"
+        },
+        {
+            "id": "elec_2",
+            "type": "content",
+            "title": "Electrochemical Cells",
+            "content": "# Two Types of Cells\n\nElectrochemistry involves two main types of cells depending on energy flow.\n\n## 1. Galvanic (Voltaic) Cells:\n- Convert chemical energy from a spontaneous redox reaction into electrical energy.\n- Examples: Batteries, fuel cells.\n- Setup: Two different metal electrodes in separate half-cells connected by a wire and a salt bridge.\n\n## 2. Electrolytic Cells:\n- Convert electrical energy into chemical energy to drive a non-spontaneous reaction.\n- Examples: Electroplating, purifying metals, separating water into H2 and O2.\n- Setup: Both electrodes usually in the same container, driven by an external battery."
+        },
+        {
+            "id": "elec_3",
+            "type": "content",
+            "title": "The Daniell Cell",
+            "content": "# The Daniell Cell (A Galvanic Cell)\n\nLet's examine the classic zinc-copper Galvanic cell.\n\n## The Setup:\n- **Anode (Negative pole):** A Zinc rod dipped in Zinc Sulfate (ZnSO4) solution. Oxidation occurs here (loss of electrons).\n- **Cathode (Positive pole):** A Copper rod dipped in Copper Sulfate (CuSO4) solution. Reduction occurs here (gain of electrons).\n- **Salt Bridge:** An inverted U-tube filled with an inert electrolyte (like KCl) connecting the two solutions to maintain electrical neutrality.\n\n## The Reaction:\nElectrons flow through the external wire from the Zinc anode to the Copper cathode. Zinc dissolves into the solution, while Copper plates onto the cathode."
+        },
+        {
+            "id": "elec_4",
+            "type": "content",
+            "title": "Electrode Potential",
+            "content": "# Electrode Potential\n\nWhy do electrons flow from Zinc to Copper, and not the other way around?\n\n## The Concept:\nWhen a metal is dipped in its own ions, a potential difference develops between the metal and the solution. This is the **electrode potential**.\n- If it tends to lose electrons (get oxidized), it has an Oxidation Potential.\n- If it tends to gain electrons (get reduced), it has a Reduction Potential.\n\nBy IUPAC convention, we always refer to **Standard Reduction Potentials (E0)**. \n- A higher (more positive) E0 means a strong tendency to gain electrons (act as a cathode).\n- A lower (more negative) E0 means a strong tendency to lose electrons (act as an anode)."
+        },
+        {
+            "id": "elec_5",
+            "type": "content",
+            "title": "Cell Potential and Nernst Equation",
+            "content": "# Cell Potential (EMF)\n\nThe difference between the electrode potentials of the cathode and anode is the cell potential (EMF).\n\n## Standard EMF:\n```\nE0_cell = E0_cathode - E0_anode\n```\n(Using standard reduction potentials for both).\n\n## The Nernst Equation:\nThe E0 values are for standard conditions (1 Molar concentration, 298 K). What if concentrations are different? We use the Nernst Equation!\n\n```\nE_cell = E0_cell - (0.0591 / n) * log(Q)\n```\nWhere:\n- **n** is the number of electrons transferred in the balanced equation.\n- **Q** is the reaction quotient (concentration of products / concentration of reactants)."
+        },
+        {
+            "id": "elec_quiz_1",
+            "type": "quiz",
+            "title": "Cell Quiz",
+            "content": "Check your understanding of cell components.",
+            "quizQuestion": "In a Galvanic cell, oxidation always occurs at the:",
+            "quizOptions": [
+                "Cathode",
+                "Anode",
+                "Salt Bridge",
+                "External wire"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "elec_6",
+            "type": "content",
+            "title": "Conductance in Solutions",
+            "content": "# Conductance in Electrolytic Solutions\n\nMetals conduct electricity via moving electrons. Solutions conduct electricity via moving ions.\n\n## Terms:\n- **Resistance (R):** Opposes current flow (Ohms).\n- **Conductance (G):** The reciprocal of resistance (G = 1/R). Measures ease of flow. Unit: Siemens (S).\n- **Resistivity (rho):** Resistance of a specific material of unit length and unit area.\n- **Conductivity (kappa):** The reciprocal of resistivity (kappa = 1/rho). It is the conductance of 1 cm^3 of the solution.\n\n## Effect of Dilution:\nAs a solution is diluted (more water added), the conductivity (kappa) **decreases** because there are fewer ions per unit volume."
+        },
+        {
+            "id": "elec_7",
+            "type": "content",
+            "title": "Molar Conductivity",
+            "content": "# Molar Conductivity\n\nBecause conductivity drops with dilution, chemists prefer to use Molar Conductivity.\n\n## Definition:\nMolar conductivity is the conducting power of all the ions produced by dissolving exactly **one mole** of an electrolyte in a solution.\n\n## The Trend:\nUnlike regular conductivity, Molar Conductivity **increases** with dilution!\n- Why? For strong electrolytes, dilution separates ions further apart, reducing their inter-ionic attractions so they move faster.\n- For weak electrolytes, dilution actually increases the degree of dissociation, creating more ions."
+        },
+        {
+            "id": "elec_8",
+            "type": "content",
+            "title": "Kohlrausch's Law",
+            "content": "# Kohlrausch's Law of Independent Migration\n\nHow do we find the maximum possible molar conductivity (at infinite dilution) for a weak electrolyte like acetic acid?\n\n## The Law:\nAt infinite dilution, when dissociation is complete, each ion makes a definite contribution to the molar conductivity of the electrolyte, regardless of the nature of the other ion it is associated with.\n\nBasically, the total limiting molar conductivity of a salt (like NaCl) is simply the sum of the limiting molar conductivities of its individual ions (Na+ and Cl-).\n\nThis law allows us to calculate values for weak electrolytes using data from strong electrolytes!"
+        },
+        {
+            "id": "elec_9",
+            "type": "content",
+            "title": "Batteries: Primary Cells",
+            "content": "# Commercial Batteries: Primary Cells\n\nBatteries are just practical Galvanic cells.\n\n## Primary Cells:\nThese cells are NOT rechargeable. The reaction occurs only once, and when the chemicals are consumed, the battery is dead.\n\n## 1. The Dry Cell (Leclanche Cell):\n- The common AA or AAA battery used in clocks and remotes.\n- Anode: Zinc container.\n- Cathode: Carbon (graphite) rod surrounded by powdered MnO2 and carbon.\n- Electrolyte: Paste of NH4Cl and ZnCl2.\n\n## 2. Button Cells:\n- Used in watches and hearing aids.\n- Consist of Zinc and Mercuric Oxide."
+        },
+        {
+            "id": "elec_10",
+            "type": "content",
+            "title": "Batteries: Secondary Cells",
+            "content": "# Commercial Batteries: Secondary Cells\n\n## Secondary Cells:\nThese are rechargeable batteries! The cell reaction can be reversed by passing a direct current in the opposite direction.\n\n## 1. Lead-Acid Battery:\n- Used in cars and inverters.\n- Anode: Lead (Pb).\n- Cathode: Lead Dioxide (PbO2).\n- Electrolyte: Sulfuric Acid (H2SO4).\n- Recharging acts as an electrolytic cell, restoring the Pb and PbO2.\n\n## 2. Lithium-Ion Battery:\n- The powerhouse of modern portable electronics (phones, laptops, EVs).\n- Lightweight and highly rechargeable, utilizing the movement of Lithium ions between electrodes."
+        },
+        {
+            "id": "elec_11",
+            "type": "content",
+            "title": "Fuel Cells",
+            "content": "# Fuel Cells\n\nFuel cells are a special type of Galvanic cell designed to continuously convert the energy of combustion of fuels directly into electrical energy.\n\n## Hydrogen-Oxygen Fuel Cell:\n- One of the most successful fuel cells (used in the Apollo space program).\n- Hydrogen gas is fed to the anode, Oxygen gas to the cathode.\n- They react over a catalyst to produce water and electricity.\n\n## Advantages:\n- Very highly efficient compared to thermal power plants.\n- Completely pollution-free! The only byproduct is pure water (which astronauts drank)."
+        },
+        {
+            "id": "elec_quiz_2",
+            "type": "quiz",
+            "title": "Battery Quiz",
+            "content": "Test your knowledge of commercial power.",
+            "quizQuestion": "Which of the following is a characteristic of a primary cell?",
+            "quizOptions": [
+                "It can be recharged many times",
+                "The chemical reaction is irreversible",
+                "It is used in electric vehicles",
+                "Lead-acid batteries are an example"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "elec_12",
+            "type": "content",
+            "title": "Corrosion",
+            "content": "# Corrosion Science\n\nCorrosion is the slow destruction of a metal due to its interaction with the environment. The most common example is the rusting of iron.\n\n## The Mechanism:\nCorrosion is actually a localized **electrochemical cell** acting on the surface of the metal.\n- **Anode Spot:** An area of the iron surface acts as an anode, where iron is oxidized (loses electrons to become Fe2+).\n- **Cathode Spot:** Electrons move through the metal to another spot, which acts as a cathode. Here, Oxygen in the presence of H+ (from water/acid) is reduced to water.\n- The Fe2+ ions are further oxidized by atmospheric oxygen to form rust (hydrated iron oxide)."
+        },
+        {
+            "id": "elec_13",
+            "type": "content",
+            "title": "Preventing Corrosion",
+            "content": "# How to Stop Rust\n\nCorrosion causes billions of dollars of damage annually. How do we prevent it?\n\n## 1. Barrier Protection:\n- Coating the metal surface with paint, oil, grease, or a non-reactive metal to prevent air and moisture from reaching the iron.\n\n## 2. Galvanization:\n- Coating iron with a thin layer of **Zinc**.\n- Zinc is more reactive (has a lower reduction potential) than iron. Even if the coating is scratched, the zinc will oxidize (corrode) first, protecting the iron.\n\n## 3. Cathodic Protection:\n- Used for underground pipes or ships.\n- A block of a more reactive metal (like Magnesium) is connected to the iron pipe. The Mg block acts as a 'sacrificial anode' and corrodes away, forcing the iron pipe to act as a cathode (which prevents it from rusting)."
+        },
+        {
+            "id": "elec_14",
+            "type": "content",
+            "title": "Summary: Electrochemistry",
+            "content": "# Electrochemistry Summary\n\n## Key Concepts Reviewed:\n\n- **Galvanic Cells:** Convert chemical energy to electrical (e.g., Daniell cell).\n- **Electrolytic Cells:** Use electrical energy to drive non-spontaneous chemical reactions.\n- **Cell Potential:** E0_cell = E0_cathode - E0_anode.\n- **Nernst Equation:** Calculates cell potential at non-standard concentrations.\n- **Conductance:** Conductivity drops with dilution, but Molar Conductivity increases.\n- **Kohlrausch's Law:** Used to find limiting molar conductivity of weak electrolytes.\n- **Batteries:** Primary (non-rechargeable, dry cell) and Secondary (rechargeable, lead-acid, Li-ion).\n- **Fuel Cells:** Clean, efficient conversion of fuel to electricity.\n- **Corrosion:** An electrochemical process preventable by galvanization or cathodic protection.\n\n> **Congratulations!** You have completed the Electrochemistry module."
+        }
+    ]
+}

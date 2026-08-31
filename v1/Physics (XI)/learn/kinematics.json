@@ -1,0 +1,147 @@
+{
+    "id": "learn_kinematics",
+    "topicId": "kinematics",
+    "topicTitle": "Kinematics: Motion in 1D and 2D",
+    "description": "Master the mathematics of movement. Learn how to describe the trajectory of a thrown ball or a speeding car using vectors and calculus.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "kinem_1",
+            "type": "content",
+            "title": "Welcome to Kinematics",
+            "content": "# The Study of Motion\n\nMotion is common to everything in the universe. We walk, run, and ride bicycles. Even when we are sleeping, air moves into and out of our lungs.\n\nThe branch of physics that deals with the study of motion of objects without considering the cause of motion is called **Kinematics**.\n\n## What You Will Learn:\n- **Frame of Reference:** Motion is relative!\n- **Calculus in Physics:** Using derivatives to find velocity.\n- **Vectors:** Quantities with a direction.\n- **Projectile Motion:** The curved path of a thrown object.\n- **Circular Motion:** Spinning in circles."
+        },
+        {
+            "id": "kinem_2",
+            "type": "content",
+            "title": "Frame of Reference",
+            "content": "# Motion is Relative\n\nAre you moving right now? \n- Relative to your chair, you are at rest.\n- Relative to the Sun, you are moving at about 30 km/s!\n\nMotion is always relative to the observer. To describe motion, we need a coordinate system and a clock. This combination is called a **Frame of Reference**.\n\nIf one or more coordinates of an object change with time relative to the frame of reference, we say the object is in motion."
+        },
+        {
+            "id": "kinem_3",
+            "type": "content",
+            "title": "Path Length vs Displacement",
+            "content": "# The Journey vs The Shortcut\n\nWhen a particle moves from one point to another, there are two ways to measure \"how far\" it went.\n\n1. **Path Length (Distance):** The actual length of the path traversed by the object. It is a scalar quantity (only magnitude) and is always positive.\n2. **Displacement:** The shortest distance from the initial to the final position. It is a vector quantity (has both magnitude and direction).\n\nIf you run around a 400m track and end up exactly where you started:\n- Your distance is 400m.\n- Your displacement is **Zero**!"
+        },
+        {
+            "id": "kinem_quiz_1",
+            "type": "quiz",
+            "title": "Displacement Quiz",
+            "content": "Check your understanding of distance.",
+            "quizQuestion": "A boy walks 3 km East, then 4 km North. What is the magnitude of his displacement from the starting point?",
+            "quizOptions": [
+                "7 km",
+                "1 km",
+                "5 km",
+                "12 km"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "kinem_4",
+            "type": "content",
+            "title": "Average Velocity and Speed",
+            "content": "# How Fast?\n\n- **Average Velocity:** Defined as the change in position or displacement (dx) divided by the time intervals (dt). It is a vector.\n  `v_avg = dx / dt`\n\n- **Average Speed:** Defined as the total path length traveled divided by the total time interval. It is a scalar.\n\nIf you run around that 400m track in 100 seconds:\n- Your average speed is 4 m/s.\n- Your average velocity is **Zero** (because displacement was zero)!"
+        },
+        {
+            "id": "kinem_5",
+            "type": "content",
+            "title": "Instantaneous Velocity and Calculus",
+            "content": "# The Exact Moment\n\nAverage velocity tells us how fast an object moved over a given time interval. But what if we want to know how fast the speedometer was reading at exactly `t = 2 seconds`?\n\nWe need the **instantaneous velocity**.\nTo find this, we make the time interval (dt) infinitesimally small (approaching zero). This is where calculus comes in!\n\n`v = lim(dt->0) (dx/dt) = dx/dt`\n\nInstantaneous velocity is the **derivative** of the position with respect to time."
+        },
+        {
+            "id": "kinem_6",
+            "type": "content",
+            "title": "Acceleration",
+            "content": "# Changing Speeds\n\nIf velocity is changing with time, the object is accelerating.\n\n- **Average Acceleration:** The change in velocity divided by the time interval.\n  `a_avg = dv / dt`\n- **Instantaneous Acceleration:** The derivative of velocity with respect to time.\n  `a = dv/dt = d^2x/dt^2` (The second derivative of position!).\n\nIf velocity and acceleration are in the *same* direction, the object speeds up. If they are in *opposite* directions, the object slows down (deceleration)."
+        },
+        {
+            "id": "kinem_7",
+            "type": "content",
+            "title": "Kinematic Equations for Uniform Acceleration",
+            "content": "# The Big Three\n\nIf the acceleration `a` of an object is constant (uniform), we can use three very famous equations to relate initial velocity (`u`), final velocity (`v`), time (`t`), and displacement (`s`).\n\n1. `v = u + at`\n2. `s = ut + (1/2)at^2`\n3. `v^2 = u^2 + 2as`\n\nThese equations are extremely powerful for solving problems involving free fall under gravity (where `a = g = 9.8 m/s^2`)."
+        },
+        {
+            "id": "kinem_quiz_2",
+            "type": "quiz",
+            "title": "Calculus Quiz",
+            "content": "Check your understanding of derivatives.",
+            "quizQuestion": "If the position of a particle is given by x(t), which of the following represents its instantaneous acceleration?",
+            "quizOptions": [
+                "The integral of x(t)",
+                "The first derivative of x(t), dx/dt",
+                "The second derivative of x(t), d^2x/dt^2",
+                "x(t) divided by time t"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "kinem_8",
+            "type": "content",
+            "title": "Vectors",
+            "content": "# Adding Direction\n\nSo far, we talked about motion in a straight line (1D). But what if a bug walks across a table (2D), or a bird flies through the air (3D)?\n\nWe need **Vectors**.\nA vector is a quantity that has both magnitude and direction (like velocity, force, or displacement) and obeys the triangle law of addition.\n\nThey are represented by an arrow. The length of the arrow is the magnitude, and the arrowhead points in the direction."
+        },
+        {
+            "id": "kinem_9",
+            "type": "content",
+            "title": "Vector Addition",
+            "content": "# Triangle Law\n\nHow do we add two vectors, A and B?\nYou cannot just add their magnitudes!\n\n**Triangle Law (Head-to-Tail Method):**\n1. Place the tail of vector B at the head of vector A.\n2. Draw a line from the tail of A to the head of B.\n3. This new vector is the resultant sum `R = A + B`.\n\nIf you walk 3m East, then 4m North, your resultant displacement vector is 5m North-East (found using the Pythagorean theorem on the triangle!)."
+        },
+        {
+            "id": "kinem_10",
+            "type": "content",
+            "title": "Resolution of Vectors",
+            "content": "# Breaking it Down\n\nInstead of dealing with angled vectors, it is usually much easier to break them down into perpendicular components along the x and y axes.\n\nIf a vector `A` makes an angle `theta` with the x-axis:\n- The x-component is `A_x = A * cos(theta)`\n- The y-component is `A_y = A * sin(theta)`\n\nThis is incredibly useful because we can treat 2D motion as two independent 1D motions happening at the same time!"
+        },
+        {
+            "id": "kinem_11",
+            "type": "content",
+            "title": "Projectile Motion",
+            "content": "# The Flying Object\n\nAn object that is in flight after being thrown or projected is called a projectile (like a football, a baseball, or an artillery shell).\n\nHere is the secret of projectile motion: **The horizontal and vertical motions are completely independent of each other!**\n\n- **Horizontal (x-axis):** There is no force acting horizontally (ignoring air resistance). So, horizontal velocity remains **constant** (Acceleration = 0).\n- **Vertical (y-axis):** The object is in free fall due to gravity. It accelerates downward at `g = 9.8 m/s^2`."
+        },
+        {
+            "id": "kinem_12",
+            "type": "content",
+            "title": "The Path of a Projectile",
+            "content": "# The Parabola\n\nBecause the object moves at a constant speed horizontally, but accelerates vertically, the path it traces through the air is a curved shape called a **parabola**.\n\nUsing the kinematic equations for the x and y axes separately, we can find:\n1. **Time of Flight:** How long it stays in the air.\n2. **Maximum Height:** The highest point it reaches (where vertical velocity becomes zero).\n3. **Horizontal Range:** How far it travels horizontally before hitting the ground."
+        },
+        {
+            "id": "kinem_quiz_3",
+            "type": "quiz",
+            "title": "Projectile Quiz",
+            "content": "Check your understanding of 2D motion.",
+            "quizQuestion": "In ideal projectile motion (ignoring air resistance), which of the following remains constant throughout the flight?",
+            "quizOptions": [
+                "Vertical velocity",
+                "Horizontal velocity",
+                "Total speed",
+                "Vertical displacement"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "kinem_13",
+            "type": "content",
+            "title": "Uniform Circular Motion",
+            "content": "# Spinning Around\n\nWhen an object follows a circular path at a constant speed, the motion is called **uniform circular motion**.\n\nWait, if the speed is constant, is it accelerating?\n**YES!**\n\nVelocity is a vector. Even if the magnitude (speed) is constant, the *direction* is constantly changing as the object goes around the circle. \nBecause velocity is changing, there MUST be an acceleration."
+        },
+        {
+            "id": "kinem_14",
+            "type": "content",
+            "title": "Centripetal Acceleration",
+            "content": "# Center Seeking\n\nThe acceleration responsible for circular motion is always directed towards the center of the circle.\nThis is called **centripetal acceleration** (center-seeking).\n\nThe formula for its magnitude is:\n`a_c = v^2 / r`\nWhere `v` is the speed and `r` is the radius of the circle.\n\nWithout this inward acceleration (provided by tension in a string, gravity for a satellite, or friction for a car turning a corner), the object would fly off in a straight line!"
+        },
+        {
+            "id": "kinem_15",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Displacement:** The shortest distance from start to finish (Vector).\n- **Instantaneous Velocity:** The velocity at a specific instant (dx/dt).\n- **Vector:** A quantity with magnitude and direction.\n- **Resolution:** Breaking a vector into its x (cos) and y (sin) components.\n- **Projectile:** An object thrown into the air, moving in a parabolic path due to gravity.\n- **Centripetal Acceleration:** The inward acceleration needed to keep an object moving in a circle (v^2/r)."
+        },
+        {
+            "id": "kinem_16",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Kinematics\n\nExcellent work! Here is a recap of what we've learned:\n\n- Motion is always relative to a **Frame of Reference**.\n- We use **Calculus** (derivatives) to find instantaneous velocity (dx/dt) and acceleration (dv/dt).\n- The three **kinematic equations** solve problems with constant acceleration (like free fall).\n- **Vectors** can be added head-to-tail or resolved into x and y components using sine and cosine.\n- In **Projectile Motion**, the horizontal motion has constant velocity, while the vertical motion has constant acceleration (gravity), resulting in a parabolic path.\n- In **Uniform Circular Motion**, the object accelerates towards the center (**centripetal acceleration**) because its direction is constantly changing."
+        }
+    ]
+}

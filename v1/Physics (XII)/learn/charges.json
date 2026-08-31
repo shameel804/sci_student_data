@@ -1,0 +1,147 @@
+{
+    "id": "learn_charges",
+    "topicId": "charges",
+    "topicTitle": "Electric Charges & Fields",
+    "description": "Understand the fundamental forces between charged particles and the invisible fields they create.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "charges_1",
+            "type": "content",
+            "title": "Welcome to Electric Charges & Fields",
+            "content": "# Electric Charges and Fields\n\nWelcome to the foundation of electromagnetism! This topic explains the fundamental forces that govern charged particles.\n\n## What You Will Learn:\n- **Coulomb's Law Applications** - Calculating forces between charges\n- **Electric Field Calculations** - Understanding the invisible force field\n- **Electric Dipole Moment** - Pairs of opposite charges\n- **Gauss's Law Applications** - A powerful tool for symmetry\n\n> **Fun Fact:** The word 'electricity' comes from the Greek word 'elektron', which means amber. Ancient Greeks discovered static electricity by rubbing amber with fur!"
+        },
+        {
+            "id": "charges_2",
+            "type": "content",
+            "title": "Electric Charge",
+            "content": "# What is Electric Charge?\n\nElectric charge is an intrinsic property of elementary particles that makes up matter.\n\n## Types of Charge:\n- **Positive (+):** Protons carry positive charge.\n- **Negative (-):** Electrons carry negative charge.\n\n## Basic Properties:\n1. **Like charges repel, opposite charges attract.**\n2. **Conservation of Charge:** The total charge of an isolated system remains constant.\n3. **Quantization of Charge:** Charge only exists in discrete packets. The smallest unit of charge is the electron charge (e = 1.6 x 10^-19 Coulombs).\n   - Any charge Q is given by Q = ne, where n is an integer."
+        },
+        {
+            "id": "charges_3",
+            "type": "content",
+            "title": "Coulomb's Law",
+            "content": "# Coulomb's Law\n\nCoulomb's Law describes the electrostatic force between two point charges.\n\n## The Equation:\n```\nF = k * (q1 * q2) / r^2\n```\n\nWhere:\n- **F** is the electrostatic force.\n- **q1** and **q2** are the magnitudes of the charges.\n- **r** is the distance between the charges.\n- **k** is Coulomb's constant (approx 9 x 10^9 N m^2 / C^2).\n\n## Key Characteristics:\n- It is an inverse-square law (like gravity).\n- The force acts along the line joining the two charges.\n- It can be attractive (opposite charges) or repulsive (like charges)."
+        },
+        {
+            "id": "charges_4",
+            "type": "content",
+            "title": "Applications of Coulomb's Law",
+            "content": "# Applications of Coulomb's Law\n\nCoulomb's law is fundamental for understanding atomic structure and molecular bonding.\n\n## Principle of Superposition:\nIf you have more than two charges, how do you find the total force on one of them?\n- The total force on a given charge is the **vector sum** of the individual forces exerted on it by all other charges.\n- Force F_total = F1 + F2 + F3 + ...\n\n## Example:\nIn a salt crystal (NaCl), the strong attractive force between the positively charged Sodium ions and negatively charged Chloride ions is described perfectly by Coulomb's Law!"
+        },
+        {
+            "id": "charges_5",
+            "type": "content",
+            "title": "Electric Field",
+            "content": "# The Electric Field\n\nHow does one charge 'know' another charge is there? The answer is the Electric Field.\n\n## Definition:\nAn electric field is a region around a charged particle where a force would be exerted on other charged particles.\n\n## Formula:\nThe electric field **E** produced by a charge Q at a distance r is:\n```\nE = F / q = k * Q / r^2\n```\n- Where **q** is a small, positive 'test charge'.\n- The unit of Electric Field is Newtons per Coulomb (N/C)."
+        },
+        {
+            "id": "charges_quiz_1",
+            "type": "quiz",
+            "title": "Coulomb Quiz",
+            "content": "Test your knowledge of the electrostatic force.",
+            "quizQuestion": "According to Coulomb's Law, if the distance between two charges is doubled, the force between them will:",
+            "quizOptions": [
+                "Double",
+                "Quadruple",
+                "Become one half",
+                "Become one fourth"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "charges_6",
+            "type": "content",
+            "title": "Electric Field Lines",
+            "content": "# Electric Field Lines\n\nElectric field lines are a visual way to represent the electric field.\n\n## Rules for Drawing:\n1. They start from positive charges and end at negative charges.\n2. They never cross each other.\n3. The density of lines indicates the strength of the field (closer lines = stronger field).\n4. They are always perpendicular to the surface of a charged conductor.\n\n> **Visualizing:** Imagine a positive point charge like a sun radiating lines outward, and a negative point charge like a sink hole pulling lines inward."
+        },
+        {
+            "id": "charges_7",
+            "type": "content",
+            "title": "Electric Dipole",
+            "content": "# The Electric Dipole\n\nAn electric dipole consists of two equal and opposite charges (+q and -q) separated by a small distance.\n\n## Dipole Moment (p):\nIt is a vector quantity that measures the strength of the dipole.\n```\np = q * 2a\n```\n- Where **q** is the magnitude of one charge.\n- **2a** is the distance between them.\n- The direction of the dipole moment is always from the **negative** charge to the **positive** charge.\n\n## Why it matters:\nMany molecules (like water) are permanent electric dipoles. This explains why water is such a great solvent!"
+        },
+        {
+            "id": "charges_8",
+            "type": "content",
+            "title": "Dipole in a Uniform Field",
+            "content": "# Dipole in a Uniform Electric Field\n\nWhat happens when you place a dipole inside an external electric field?\n\n## Torque on a Dipole:\nThe positive charge feels a force in the direction of the field, and the negative charge feels a force in the opposite direction.\n- This creates a twisting force, or **Torque (tau)**, which tries to align the dipole with the field.\n```\nTorque = p * E * sin(theta)\n```\nWhere **theta** is the angle between the dipole moment and the electric field.\n\n- **Maximum Torque:** Occurs when theta is 90 degrees.\n- **Stable Equilibrium:** Occurs when the dipole is perfectly aligned with the field (theta = 0 degrees)."
+        },
+        {
+            "id": "charges_9",
+            "type": "content",
+            "title": "Electric Flux",
+            "content": "# Electric Flux\n\nTo understand Gauss's Law, we first need to understand Electric Flux.\n\n## Definition:\nElectric flux is a measure of the total number of electric field lines passing through a given surface area.\n\n## Formula:\n```\nFlux = E * A * cos(theta)\n```\nWhere:\n- **E** is the electric field magnitude.\n- **A** is the area of the surface.\n- **theta** is the angle between the electric field lines and the normal (perpendicular) to the surface.\n\n- **Max Flux:** When the surface is perpendicular to the field lines (theta = 0, cos(0) = 1)."
+        },
+        {
+            "id": "charges_10",
+            "type": "content",
+            "title": "Gauss's Law",
+            "content": "# Gauss's Law\n\nGauss's Law is a more elegant and powerful alternative to Coulomb's Law for calculating electric fields in highly symmetrical situations.\n\n## The Law Statement:\n> **\"The total electric flux through any closed surface (a Gaussian surface) is equal to the net charge enclosed by the surface divided by the permittivity of free space.\"**\n\n## The Equation:\n```\nTotal Flux = Q_enclosed / epsilon_0\n```\n- **epsilon_0** is the permittivity of free space (approx 8.85 x 10^-12).\n\nIf there is no charge inside the closed surface, the net flux is zero!"
+        },
+        {
+            "id": "charges_quiz_2",
+            "type": "quiz",
+            "title": "Dipole Quiz",
+            "content": "Check your understanding of dipoles.",
+            "quizQuestion": "The direction of the electric dipole moment is conventionally taken from:",
+            "quizOptions": [
+                "Positive to negative charge",
+                "Negative to positive charge",
+                "Perpendicular to the charges",
+                "It has no direction (scalar)"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "charges_11",
+            "type": "content",
+            "title": "Applications of Gauss's Law - 1",
+            "content": "# Gauss's Law: Infinite Line of Charge\n\nImagine an infinitely long, straight wire carrying a uniform positive charge.\n\n## Calculating the Field:\nUsing a cylindrical Gaussian surface around the wire, we can easily find the electric field at a distance r.\n\n```\nE = lambda / (2 * pi * epsilon_0 * r)\n```\nWhere **lambda** is the linear charge density (charge per unit length).\n\n**Result:** The electric field drops off proportionally to 1/r (not 1/r^2 like a point charge!)."
+        },
+        {
+            "id": "charges_12",
+            "type": "content",
+            "title": "Applications of Gauss's Law - 2",
+            "content": "# Gauss's Law: Infinite Sheet of Charge\n\nImagine a massive, flat, infinitely large sheet with a uniform surface charge.\n\n## Calculating the Field:\nUsing a cylindrical \"pillbox\" Gaussian surface piercing the sheet, we find:\n\n```\nE = sigma / (2 * epsilon_0)\n```\nWhere **sigma** is the surface charge density (charge per unit area).\n\n**Result:** The electric field is uniform and constant everywhere! It does not depend on the distance from the sheet. This principle is used in designing capacitors."
+        },
+        {
+            "id": "charges_13",
+            "type": "content",
+            "title": "Applications of Gauss's Law - 3",
+            "content": "# Gauss's Law: Spherical Shell\n\nImagine a hollow, conducting spherical shell with a uniform charge spread over its surface.\n\n## Calculating the Field:\n\n### 1. Outside the shell (r > Radius):\nThe field is exactly the same as if all the charge were concentrated at the center as a point charge!\n```\nE = k * Q / r^2\n```\n\n### 2. Inside the shell (r < Radius):\nBecause the enclosed charge is zero, the electric field is ZERO everywhere inside the hollow shell.\n```\nE = 0\n```\nThis is why being inside a car is safe during a lightning strike! (Faraday Cage effect)."
+        },
+        {
+            "id": "charges_14",
+            "type": "content",
+            "title": "Conductors and Insulators",
+            "content": "# Conductors vs Insulators\n\nHow do different materials handle electric charges?\n\n## Conductors:\n- Materials that allow electric charges to flow freely.\n- Metals like copper and silver have many 'free electrons' that can move easily.\n- In electrostatic equilibrium, any excess charge resides entirely on the **outer surface** of a conductor.\n\n## Insulators (Dielectrics):\n- Materials that restrict the flow of charge.\n- Electrons are tightly bound to their atoms (e.g., rubber, glass, wood).\n- They can be charged by friction (like rubbing a balloon on your hair), but the charge stays localized where it was placed."
+        },
+        {
+            "id": "charges_15",
+            "type": "content",
+            "title": "Charging Methods",
+            "content": "# Methods of Charging\n\nHow do objects acquire a net charge?\n\n## 1. Charging by Friction:\nRubbing two different insulating materials together transfers electrons from one to the other.\n\n## 2. Charging by Conduction:\nTouching a charged object to a neutral conductive object transfers charge directly.\n\n## 3. Charging by Induction:\nBringing a charged object near (but not touching) a neutral conductor causes its charges to separate. If you then ground the conductor, it will acquire a permanent charge opposite to the inducing object. No actual contact is made!"
+        },
+        {
+            "id": "charges_quiz_3",
+            "type": "quiz",
+            "title": "Gauss's Law Quiz",
+            "content": "Test your knowledge of Gauss's Law.",
+            "quizQuestion": "The electric field anywhere inside a hollow, charged conducting sphere is:",
+            "quizOptions": [
+                "Zero",
+                "Maximum at the center",
+                "Depends on the radius",
+                "Uniform but non-zero"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "charges_16",
+            "type": "content",
+            "title": "Summary: Electric Charges & Fields",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Coulomb's Law:** Force between charges (F = k * q1 * q2 / r^2).\n- **Electric Field:** Force per unit charge (E = F/q). Visualized by field lines starting at positive and ending at negative.\n- **Electric Dipole:** Two equal/opposite charges. Torque = p * E * sin(theta).\n- **Electric Flux:** Field lines passing through an area.\n- **Gauss's Law:** Flux = Q_enclosed / epsilon_0. A powerful tool for symmetrical charge distributions (line, sheet, shell).\n- **Conductors:** Charge resides on the surface; field inside is zero.\n\n> **Congratulations!** You've completed the Electric Charges and Fields module. You are now ready to tackle electric potential and capacitance!"
+        }
+    ]
+}

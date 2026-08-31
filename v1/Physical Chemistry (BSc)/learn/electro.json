@@ -1,0 +1,139 @@
+{
+    "id": "learn_electro",
+    "topicId": "electro",
+    "topicTitle": "Electrochemistry",
+    "description": "Explore the relationship between chemical reactions and electricity, covering redox processes, galvanic cells, batteries, and the Nernst equation.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "elec_1",
+            "type": "content",
+            "title": "Introduction to Electrochemistry",
+            "content": "# What is Electrochemistry?\n\n**Electrochemistry** is the study of the interchange between chemical and electrical energy.\n\nIt is the science behind batteries, fuel cells, rust, and the transmission of nerve impulses in your body.\n\n## The Core Concept\nAll of electrochemistry revolves around the movement of electrons from one substance to another. If we can force those moving electrons to travel through a wire instead of directly between the chemicals, we can harness them to do electrical work (like lighting a bulb or powering a phone)!"
+        },
+        {
+            "id": "elec_2",
+            "type": "content",
+            "title": "Redox Reactions",
+            "content": "# Redox: The Foundation\n\nElectrochemistry is entirely based on **Oxidation-Reduction (Redox) reactions**.\n\n## Oxidation\nThe LOSS of electrons. The substance that loses electrons becomes more positive (its oxidation state increases).\n\n## Reduction\nThe GAIN of electrons. The substance that gains electrons becomes more negative (its oxidation state is reduced).\n\n> **Mnemonic:** \"OIL RIG\" - Oxidation Is Loss, Reduction Is Gain.\n\nAn oxidation cannot happen without a reduction occurring simultaneously. The electrons must have somewhere to go!"
+        },
+        {
+            "id": "elec_3",
+            "type": "content",
+            "title": "Oxidizing and Reducing Agents",
+            "content": "# Agents of Change\n\nThe terminology can be slightly confusing, but it is crucial.\n\n## Oxidizing Agent\nThe substance that CAUSES something else to be oxidized. To do this, it takes electrons away from the other substance. Therefore, the oxidizing agent itself gets **reduced**.\n- Example: Oxygen (O2) is a great oxidizing agent because it loves to steal electrons.\n\n## Reducing Agent\nThe substance that CAUSES something else to be reduced. To do this, it gives its electrons to the other substance. Therefore, the reducing agent itself gets **oxidized**.\n- Example: Alkali metals (like Sodium) are great reducing agents because they want to give away their electrons."
+        },
+        {
+            "id": "elec_4",
+            "type": "content",
+            "title": "Galvanic Cells",
+            "content": "# Galvanic (Voltaic) Cells\n\nA **Galvanic Cell** is a device that uses a spontaneous chemical redox reaction to generate an electric current.\n\n## How it works:\nInstead of mixing the oxidizing and reducing agents in the same beaker (where electrons would just hop directly between them, creating heat), we separate them into two half-cells.\n\nWe connect the two solutions with a wire. Now, for the reaction to occur, the electrons MUST travel through the wire, creating an electrical current that can do work!"
+        },
+        {
+            "id": "elec_5",
+            "type": "content",
+            "title": "Anodes and Cathodes",
+            "content": "# Anatomy of a Cell\n\nEvery electrochemical cell has two solid metal pieces called electrodes, where the reactions take place.\n\n## The Anode\n- The electrode where **Oxidation** occurs.\n- Electrons are produced here, making it the negative terminal in a galvanic cell.\n- The anode metal usually dissolves over time as it loses electrons and becomes aqueous ions.\n\n## The Cathode\n- The electrode where **Reduction** occurs.\n- Electrons flow toward this electrode, making it the positive terminal.\n- Metal ions in solution gain electrons and plate onto the cathode, making it grow heavier.\n\n> **Mnemonic:** \"AN OX and RED CAT\" (Anode = Oxidation, Reduction = Cathode)."
+        },
+        {
+            "id": "elec_6",
+            "type": "content",
+            "title": "The Salt Bridge",
+            "content": "# The Salt Bridge\n\nIf electrons only flow through the wire from anode to cathode, negative charge would rapidly build up in the cathode beaker, and positive charge in the anode beaker. This charge buildup would stop the reaction almost instantly.\n\n## The Solution\nA **Salt Bridge** (a tube filled with non-reactive electrolyte jelly, like KNO3) connects the two beakers.\n\n- **Cations** (positive ions like K+) flow into the Cathode beaker to neutralize the incoming electrons.\n- **Anions** (negative ions like NO3-) flow into the Anode beaker to neutralize the newly formed positive metal ions.\n\nThe salt bridge completes the circuit and maintains electrical neutrality!"
+        },
+        {
+            "id": "elec_7",
+            "type": "content",
+            "title": "Standard Reduction Potentials",
+            "content": "# Cell Potential (Voltage)\n\nThe \"pull\" or driving force on the electrons traveling through the wire is called the **Cell Potential (E_cell)**, measured in Volts (V).\n\nHow do we calculate it? We use **Standard Reduction Potentials**.\n\nScientists have measured the intrinsic desire of every substance to gain electrons (be reduced) relative to hydrogen.\n\n- A highly positive reduction potential means the substance strongly wants to be reduced (e.g., Fluorine).\n- A highly negative reduction potential means the substance wants to be oxidized instead (e.g., Lithium)."
+        },
+        {
+            "id": "elec_8",
+            "type": "content",
+            "title": "Calculating Standard Cell Potential",
+            "content": "# Calculating E_cell\n\nTo find the voltage of a standard battery, you look up the reduction potentials for both half-reactions in a table.\n\n## The Formula:\n**E_cell_standard = E_cathode - E_anode**\n\n- The substance with the higher (more positive) reduction potential will be the Cathode (it forces the other to be oxidized).\n- The substance with the lower reduction potential will be forced to be the Anode.\n\nIf the calculated E_cell is **positive**, the reaction is spontaneous (it will act as a battery)!"
+        },
+        {
+            "id": "elec_9",
+            "type": "content",
+            "title": "Thermodynamics and Electrochemistry",
+            "content": "# Free Energy and Cell Potential\n\nThere is a direct mathematical link between the thermodynamic driving force (Gibbs Free Energy, Delta G) and the electrical driving force (Cell Potential, E_cell).\n\n## The Equation:\n**Delta G = - n * F * E_cell**\n\nWhere:\n- **n** = number of moles of electrons transferred in the balanced reaction.\n- **F** = Faraday's Constant (96,485 Joules per Volt-mole).\n- **E_cell** = Cell Potential.\n\nBecause of the negative sign, a positive voltage (E_cell > 0) mathematically guarantees a negative Delta G (spontaneous reaction)!"
+        },
+        {
+            "id": "elec_10",
+            "type": "content",
+            "title": "The Nernst Equation",
+            "content": "# Non-Standard Conditions\n\nStandard cell potentials assume all solutions are exactly 1.0 Molar. But as a battery runs, the reactants are consumed (concentration drops) and products are created (concentration rises). The voltage drops!\n\nThe **Nernst Equation** allows us to calculate the voltage at any concentration:\n\n**E = E_standard - (RT / nF) * ln(Q)**\n\nWhere:\n- **Q** = The reaction quotient (Concentration of Products / Concentration of Reactants).\n\nAs the battery runs, Q gets larger, ln(Q) becomes more positive, and the actual voltage E drops until it hits 0 (a dead battery, equilibrium)."
+        },
+        {
+            "id": "elec_11",
+            "type": "content",
+            "title": "Concentration Cells",
+            "content": "# Concentration Cells\n\nA fascinating application of the Nernst equation is a **Concentration Cell**.\n\nThis is a battery where BOTH electrodes are the exact same metal (e.g., Copper), but the concentrations of the solutions in the two beakers are different (e.g., 0.1 M and 1.0 M).\n\n- The standard potential (E_standard) is 0 because the metals are the same.\n- However, nature wants to equalize the concentrations.\n- Electrons will flow from the less concentrated side (anode) to the more concentrated side (cathode) until both beakers have the exact same concentration. The voltage is generated entirely by the concentration gradient!"
+        },
+        {
+            "id": "elec_12",
+            "type": "content",
+            "title": "Electrolytic Cells",
+            "content": "# Electrolytic Cells\n\nWhat if we want to run a non-spontaneous reaction (E_cell is negative)? We can force it to happen by applying an external power source.\n\nThis is an **Electrolytic Cell**.\n\n- It converts electrical energy INTO chemical energy.\n- Used for electroplating (coating cheap jewelry with gold).\n- Used for extracting pure metals from ores (like purifying aluminum).\n- Used for recharging your phone battery! (Reversing the spontaneous reaction)."
+        },
+        {
+            "id": "elec_13",
+            "type": "content",
+            "title": "Faraday's Laws of Electrolysis",
+            "content": "# Faraday's Laws\n\nMichael Faraday discovered the quantitative relationship between electricity and chemical change.\n\nIf we are electroplating silver onto a spoon, how long do we need to run the current to plate exactly 5 grams of silver?\n\n**Charge (Coulombs) = Current (Amps) * Time (seconds)**\n\n1. Calculate total charge required.\n2. Convert charge to moles of electrons (using Faraday's constant: 96,485 C/mol).\n3. Use the stoichiometry of the half-reaction to find moles of metal plated.\n4. Convert moles of metal to grams."
+        },
+        {
+            "id": "elec_14",
+            "type": "content",
+            "title": "Commercial Batteries",
+            "content": "# Real-World Batteries\n\n## Lead-Acid Battery (Car Battery)\n- Anode: Lead (Pb)\n- Cathode: Lead oxide (PbO2)\n- Electrolyte: Sulfuric acid\n- Reversible, can provide massive bursts of current to start an engine.\n\n## Lithium-Ion Battery (Phones and Laptops)\n- Uses lithium ions moving between carbon layers and metal oxides.\n- Why Lithium? It is the lightest metal and has the most negative reduction potential, meaning it provides the highest voltage for the least amount of weight. Perfect for portable electronics!"
+        },
+        {
+            "id": "elec_15",
+            "type": "content",
+            "title": "Fuel Cells",
+            "content": "# Fuel Cells\n\nA **Fuel Cell** is a galvanic cell that does not \"die\" or need to be recharged, as long as it is continuously supplied with fuel.\n\n## Hydrogen Fuel Cell\n- Reactants: Hydrogen gas and Oxygen gas continuously pumped in.\n- Anode: H2 is oxidized to H+.\n- Cathode: O2 is reduced and combines with H+ to form water.\n- **Only Exhaust:** Pure water!\n- Extremely efficient, heavily used in space exploration, and a promising clean energy technology for cars."
+        },
+        {
+            "id": "elec_16",
+            "type": "content",
+            "title": "Corrosion",
+            "content": "# Corrosion (Rusting)\n\nCorrosion is a spontaneous, destructive electrochemical process where metals return to their natural state (usually oxides).\n\n## Rusting of Iron\n- Iron acts as the anode and is oxidized: Fe -> Fe2+ + 2e-\n- Oxygen in the air acts as the cathode and is reduced in the presence of water.\n- Salt speeds up the process by acting as an excellent salt bridge for the microscopic galvanic cells forming on the metal surface.\n\n## Prevention\n- **Galvanizing:** Coating iron with Zinc. Because Zinc wants to be oxidized more than Iron, the Zinc acts as a \"sacrificial anode,\" corroding first and protecting the iron."
+        },
+        {
+            "id": "elec_17",
+            "type": "content",
+            "title": "Summary of Electrochemistry",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Redox:** Oxidation is loss of electrons (Anode), Reduction is gain (Cathode).\n2. **Galvanic Cells:** Harness spontaneous reactions (positive E_cell) to produce electricity.\n3. **Salt Bridge:** Maintains electrical neutrality to keep the current flowing.\n4. **Thermodynamics:** Positive cell voltage equals negative free energy (spontaneous).\n5. **Nernst Equation:** Calculates voltage as concentrations change during operation.\n6. **Electrolytic Cells:** Use external electricity to force non-spontaneous reactions, useful for electroplating and recharging."
+        },
+        {
+            "id": "elec_quiz_1",
+            "type": "quiz",
+            "title": "Galvanic Cell Quiz",
+            "content": "Test your knowledge of cell anatomy.",
+            "quizQuestion": "In a standard galvanic cell, what occurs at the anode?",
+            "quizOptions": [
+                "Reduction",
+                "Oxidation",
+                "Both oxidation and reduction",
+                "Nothing, it is inert"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "elec_quiz_2",
+            "type": "quiz",
+            "title": "Redox Quiz",
+            "content": "Review oxidizing and reducing agents.",
+            "quizQuestion": "A substance that easily loses electrons to another substance is acting as a:",
+            "quizOptions": [
+                "Reducing agent",
+                "Oxidizing agent",
+                "Cathode",
+                "Salt bridge"
+            ],
+            "correctOptionIndex": 0
+        }
+    ]
+}

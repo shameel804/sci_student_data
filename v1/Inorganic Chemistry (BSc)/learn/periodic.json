@@ -1,0 +1,139 @@
+{
+    "id": "learn_periodic",
+    "topicId": "periodic",
+    "topicTitle": "Periodic Trends",
+    "description": "Analyze the systemic variations in elemental properties across the periodic table, exploring atomic radii, ionization energies, and anomalous behaviors.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "per_1",
+            "type": "content",
+            "title": "Introduction to Periodicity",
+            "content": "# The Power of the Periodic Table\n\nThe Periodic Table is not just a random list of elements; it is the ultimate cheat sheet for chemists.\n\n## Periodicity\n**Periodicity** refers to the recurring, predictable trends in the physical and chemical properties of elements as you move across a period (row) or down a group (column).\n\nThese trends exist because the properties of an atom are almost entirely dictated by its **valence electrons** (the outermost electrons) and how strongly those electrons are pulled by the nucleus."
+        },
+        {
+            "id": "per_2",
+            "type": "content",
+            "title": "Effective Nuclear Charge",
+            "content": "# Effective Nuclear Charge (Z_eff)\n\nTo understand ANY periodic trend, you must first understand Z_eff.\n\n## The Concept\nThe nucleus has a positive charge (Z, the number of protons) pulling on the electrons.\nHowever, the outer valence electrons do not feel the full pull of the nucleus because the inner, core electrons block, or **shield**, the positive charge.\n\n**Z_eff approx Z (total protons) - S (number of shielding core electrons)**\n\n## The Trend across a Period (Left to Right)\nAs you move across a period, you add one proton and one valence electron. Because valence electrons do not shield each other very well, the shielding (S) remains constant, but the positive pull (Z) increases.\n\n**Result:** Z_eff increases significantly from left to right. The nucleus pulls harder on the outer electrons!"
+        },
+        {
+            "id": "per_3",
+            "type": "content",
+            "title": "Atomic Radius",
+            "content": "# Trend: Atomic Radius\n\nThe atomic radius is a measure of the size of an atom (distance from the nucleus to the outermost electron shell).\n\n## Trend Across a Period (Left to Right)\n- The atomic radius **DECREASES**.\n- **Why?** Because the Effective Nuclear Charge (Z_eff) increases. The stronger positive pull from the nucleus yanks the entire electron cloud closer, shrinking the atom.\n\n## Trend Down a Group (Top to Bottom)\n- The atomic radius **INCREASES**.\n- **Why?** Because each row adds an entirely new, higher-energy electron shell (principal quantum number 'n' increases). The valence electrons are physically further away from the nucleus, making the atom larger."
+        },
+        {
+            "id": "per_4",
+            "type": "content",
+            "title": "Ionic Radius",
+            "content": "# Trend: Ionic Radius\n\nWhat happens to the size of an atom when it gains or loses an electron to become an ion?\n\n## Cations (Positive Ions)\n- Metals lose electrons to form cations.\n- **Trend:** Cations are always **SMALLER** than their parent atom.\n- **Why?** You lose an entire electron shell, and the remaining electrons feel a stronger pull (higher Z_eff) from the same number of protons.\n\n## Anions (Negative Ions)\n- Non-metals gain electrons to form anions.\n- **Trend:** Anions are always **LARGER** than their parent atom.\n- **Why?** Adding an extra electron to the same shell increases electron-electron repulsion. The electron cloud swells outward to reduce the crowding."
+        },
+        {
+            "id": "per_5",
+            "type": "content",
+            "title": "Ionization Energy",
+            "content": "# Trend: Ionization Energy (IE)\n\n**Ionization Energy** is the minimum energy required to completely remove an electron from a gaseous atom.\n\n## Trend Across a Period (Left to Right)\n- The IE generally **INCREASES**.\n- **Why?** Because Z_eff increases and the atomic radius decreases. The electrons are held much more tightly by the nucleus, making them harder (requires more energy) to rip away.\n\n## Trend Down a Group (Top to Bottom)\n- The IE generally **DECREASES**.\n- **Why?** The atoms are larger. The valence electrons are further from the nucleus and heavily shielded by inner shells, making them easier to pluck off."
+        },
+        {
+            "id": "per_6",
+            "type": "content",
+            "title": "Anomalies in Ionization Energy",
+            "content": "# Breaking the Rules\n\nThe trend for Ionization Energy is not a perfect straight line across a period. There are distinct \"hiccups\" due to quantum mechanics.\n\n## Exception 1: Group 2 to Group 13 (e.g., Be to B)\n- Boron has a slightly LOWER ionization energy than Beryllium.\n- **Why?** Be has a full 2s subshell. Boron's outermost electron is placed alone in a 2p orbital, which is slightly higher in energy and easier to remove.\n\n## Exception 2: Group 15 to Group 16 (e.g., Nitrogen to Oxygen)\n- Oxygen has a slightly LOWER ionization energy than Nitrogen.\n- **Why?** Nitrogen has a perfectly half-filled 2p subshell (stable). Oxygen places a 4th electron in a p-orbital, forcing it to pair up. The electron-electron repulsion of that pair makes it easier to remove."
+        },
+        {
+            "id": "per_7",
+            "type": "content",
+            "title": "Electron Affinity",
+            "content": "# Trend: Electron Affinity (EA)\n\n**Electron Affinity** is the energy change that occurs when an electron is ADDED to a gaseous atom. (How much does the atom \"want\" an extra electron?)\n\n## General Trends\n- **Across a Period:** EA becomes more negative (more exothermic / favorable) from left to right. Halogens (Group 17) have the highest electron affinities because gaining one electron gives them a perfect noble gas configuration.\n- **Down a Group:** EA generally becomes less negative (less favorable) because the added electron will be placed in a shell further from the positive pull of the nucleus.\n\n> **Noble Gases:** Have positive electron affinities. They absolutely refuse to accept an extra electron because it would have to go into a brand new, higher energy shell."
+        },
+        {
+            "id": "per_8",
+            "type": "content",
+            "title": "Electronegativity",
+            "content": "# Trend: Electronegativity (EN)\n\n**Electronegativity** is a measure of an atom's ability to attract shared electrons to itself *within a covalent bond*.\n\nUnlike IE or EA, it is not a direct energy measurement, but a relative scale (the Pauling scale, 0 to 4.0).\n\n## The Trends\n- **Across a Period:** Increases (Fluorine is the highest at 4.0).\n- **Down a Group:** Decreases (Francium is the lowest around 0.7).\n\nElectronegativity dictates bond polarity. If two bonded atoms have a large EN difference, the bond is polar (or ionic if the difference is massive)."
+        },
+        {
+            "id": "per_9",
+            "type": "content",
+            "title": "Metallic Character",
+            "content": "# Metallic vs Non-Metallic\n\n## Metallic Character\nThe tendency of an element to lose electrons and form positive ions.\n- **Trend:** Increases as you go Down and to the Left. (Francium is the most metallic element).\n\n## Non-Metallic Character\nThe tendency of an element to gain electrons and form negative ions.\n- **Trend:** Increases as you go Up and to the Right. (Fluorine is the most non-metallic).\n\nThis trend perfectly matches the physical layout of the periodic table: Metals are on the left, non-metals on the upper right, separated by a diagonal \"staircase\" of metalloids."
+        },
+        {
+            "id": "per_10",
+            "type": "content",
+            "title": "Chemical Periodicity: Oxides",
+            "content": "# Acid-Base Nature of Oxides\n\nThe periodic trends perfectly predict the chemical behavior of elemental oxides when dissolved in water.\n\n## Metal Oxides (Left Side)\n- Elements with low electronegativity form highly ionic bonds with oxygen (e.g., Na2O, CaO).\n- In water, they act as **Basic Oxides**, reacting to form hydroxide bases (e.g., NaOH).\n\n## Non-Metal Oxides (Right Side)\n- Elements with high electronegativity form covalent bonds with oxygen (e.g., SO3, NO2).\n- In water, they act as **Acidic Oxides**, reacting to form acids (e.g., H2SO4).\n\n## Metalloid Oxides (The Middle)\n- Elements in the middle (like Al2O3) act as **Amphoteric Oxides**\u2014they can react as either an acid or a base depending on the conditions!"
+        },
+        {
+            "id": "per_11",
+            "type": "content",
+            "title": "Anomalous Behavior of the Second Period",
+            "content": "# The First Row Anomaly\n\nThe elements of the second period (Lithium through Fluorine) often behave very differently from the rest of the elements in their respective groups.\n\n## Why do they act weird?\n1. **Exceptionally Small Size:** Their atomic radii are tiny, leading to very high charge density.\n2. **High Electronegativity:** Much higher than the rest of their group.\n3. **Absence of d-orbitals:** They only have 's' and 'p' orbitals. They strictly obey the octet rule and can NEVER form more than 4 bonds. \n\n(Phosphorus can form PCl5 by using empty d-orbitals, but Nitrogen can NEVER form NCl5)."
+        },
+        {
+            "id": "per_12",
+            "type": "content",
+            "title": "The Diagonal Relationship",
+            "content": "# The Diagonal Relationship\n\nA fascinating phenomenon where an element in Period 2 exhibits chemical properties remarkably similar to the element diagonally below it in Period 3.\n\n## The Three Main Pairs:\n1. **Lithium (Li) and Magnesium (Mg)**\n2. **Beryllium (Be) and Aluminum (Al)**\n3. **Boron (B) and Silicon (Si)**\n\n## Why does this happen?\nMoving across a period increases charge density, while moving down a group decreases it. Moving diagonally effectively cancels these changes out.\n\nLi+ and Mg2+ have almost identical sizes and charge densities, so they form similar types of bonds and have similar solubility rules!"
+        },
+        {
+            "id": "per_13",
+            "type": "content",
+            "title": "The Inert Pair Effect",
+            "content": "# The Inert Pair Effect\n\nWhy does Lead (Group 14) prefer to form Pb2+ instead of the expected Pb4+?\n\nThis is called the **Inert Pair Effect**, heavily observed in the heavy, post-transition metals (Groups 13-15, Periods 5 and 6).\n\n## The Mechanism\nAs atoms get massive, relativity affects the inner s-electrons, drawing them very close to the nucleus and making them incredibly stable and unreactive (inert).\n\nFor Lead (valence: 6s2 6p2), it is easy to lose the two 6p electrons (forming Pb2+). But the two 6s electrons are held so tightly they act like core electrons and refuse to participate in bonding."
+        },
+        {
+            "id": "per_14",
+            "type": "content",
+            "title": "Lanthanide Contraction",
+            "content": "# The Lanthanide Contraction\n\nIf you look at the atomic radii going down Group 4:\n- Ti (Period 4) = 132 pm\n- Zr (Period 5) = 145 pm (Expected increase)\n- Hf (Period 6) = 144 pm (Wait, why didn't it get bigger?)\n\n## The Explanation\nBetween Period 5 and 6, the entire block of 14 Lanthanides (f-block elements) is inserted. \nThe f-orbitals are terribly shaped and provide almost zero shielding for the outer electrons.\n\nAs we add 14 protons across the lanthanide series, the effective nuclear charge (Z_eff) skyrockets, violently shrinking the atom. This \"Lanthanide Contraction\" completely cancels out the expected size increase for the Period 6 transition metals!"
+        },
+        {
+            "id": "per_15",
+            "type": "content",
+            "title": "Groupwise Chemistry: Alkali Metals",
+            "content": "# Deep Dive: Group 1 (Alkali Metals)\n\nLet's apply our trend knowledge to a specific group.\n\n- **Configuration:** ns1. (One valence electron).\n- **IE:** The lowest ionization energies on the table. They desperately want to lose that 1 electron.\n- **Reactivity:** Extremely reactive. Reactivity INCREASES as you go down the group (Francium is the most reactive) because the outer electron gets further from the nucleus and is easier to lose.\n- **Physical:** Soft, low density metals. They react violently with water to form basic solutions and hydrogen gas."
+        },
+        {
+            "id": "per_16",
+            "type": "content",
+            "title": "Groupwise Chemistry: Halogens",
+            "content": "# Deep Dive: Group 17 (Halogens)\n\n- **Configuration:** ns2 np5. (Seven valence electrons).\n- **EA & EN:** The highest electron affinities and electronegativities. They desperately want to gain 1 electron to complete their octet.\n- **Reactivity:** Extremely reactive non-metals. However, reactivity DECREASES as you go down the group. Fluorine is the most reactive because it is the smallest and pulls the hardest on external electrons.\n- **Physical:** Diatomic molecules (F2, Cl2). They range from gas (F, Cl) to liquid (Br) to solid (I) at room temperature due to increasing dispersion forces."
+        },
+        {
+            "id": "per_17",
+            "type": "content",
+            "title": "Summary of Periodic Trends",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Z_eff:** The driving force behind trends. It increases strongly from left to right.\n2. **Atomic Radius:** Decreases across a period, increases down a group.\n3. **Ionization Energy & Electronegativity:** Increase across a period, decrease down a group.\n4. **Anomalies:** The first row acts weird (no d-orbitals). Diagonal relationships link Period 2 and 3.\n5. **Heavy Metal Effects:** The Inert Pair effect (heavy metals retaining s-electrons) and Lanthanide Contraction (poor f-orbital shielding causing shrinkage)."
+        },
+        {
+            "id": "per_quiz_1",
+            "type": "quiz",
+            "title": "Atomic Radius Quiz",
+            "content": "Test your knowledge of size trends.",
+            "quizQuestion": "Why does the atomic radius generally DECREASE as you move from left to right across a period?",
+            "quizOptions": [
+                "Because the number of electron shells decreases.",
+                "Because the effective nuclear charge (Z_eff) increases, pulling the electron cloud closer.",
+                "Because electrons are being removed from the atom.",
+                "Because the atom loses mass."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "per_quiz_2",
+            "type": "quiz",
+            "title": "Anomalies Quiz",
+            "content": "Review the strange behavior of specific elements.",
+            "quizQuestion": "Why does Oxygen have a slightly lower first ionization energy than Nitrogen, breaking the general trend?",
+            "quizOptions": [
+                "Oxygen is larger than Nitrogen.",
+                "Oxygen has a lower effective nuclear charge.",
+                "Oxygen has an electron paired in a p-orbital, and the electron-electron repulsion makes it easier to remove.",
+                "Oxygen has empty d-orbitals."
+            ],
+            "correctOptionIndex": 2
+        }
+    ]
+}

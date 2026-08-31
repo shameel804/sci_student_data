@@ -1,0 +1,109 @@
+{
+    "id": "learn_work",
+    "topicId": "work",
+    "topicTitle": "Work, Energy and Power",
+    "description": "Discover the physics definition of 'hard work' and learn the fundamental law that runs the entire universe: the conservation of energy.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "work_1",
+            "type": "content",
+            "title": "Welcome to Work and Energy",
+            "content": "# The Currency of the Universe\n\nIn everyday language, reading a book, studying for an exam, or standing guard for hours is considered \"hard work.\"\n\nBut in physics, the word 'work' has a very precise, mathematical meaning. If you push against a massive concrete wall for hours until you are exhausted, you have done **zero** work in physics!\n\n## What You Will Learn:\n- **The Dot Product:** Multiplying vectors to get scalars.\n- **Work:** Force times displacement.\n- **Kinetic and Potential Energy:** Energy of motion and position.\n- **Conservation of Energy:** The unbreakable rule of nature.\n- **Collisions:** What happens when things crash."
+        },
+        {
+            "id": "work_2",
+            "type": "content",
+            "title": "The Scalar (Dot) Product",
+            "content": "# Multiplying Vectors\n\nBefore we define work, we need a little math. How do you multiply two vectors?\n\nThere are two ways. One produces a new vector (Cross Product), and one produces a regular number (Scalar or Dot Product).\n\n## The Dot Product:\nThe scalar product of two vectors **A** and **B** is defined as:\n`A . B = A * B * cos(theta)`\n\nWhere 'A' and 'B' are the magnitudes of the vectors, and 'theta' is the angle between them. The result is a scalar quantity!"
+        },
+        {
+            "id": "work_3",
+            "type": "content",
+            "title": "Work",
+            "content": "# Physics Work\n\nIn physics, work is said to be done by a force when the body is displaced in the direction of the force.\n\nWork (W) is the **dot product** of the Force vector (F) and the Displacement vector (d):\n`W = F . d = F * d * cos(theta)`\n\n- If you push a box (Force) and it moves forward (Displacement), you did **Positive Work** (theta = 0, cos(0) = 1).\n- If you push a wall, and it doesn't move (d = 0), you did **Zero Work**.\n- If a man carries a heavy bag on his head and walks horizontally, the force (gravity) is downwards, but displacement is horizontal. The angle is 90 degrees. `cos(90) = 0`. So, gravity does **Zero Work**!"
+        },
+        {
+            "id": "work_quiz_1",
+            "type": "quiz",
+            "title": "Work Quiz",
+            "content": "Check your understanding of physics work.",
+            "quizQuestion": "If a force is applied perfectly perpendicular (at a 90-degree angle) to the direction of motion, how much work does that force do?",
+            "quizOptions": [
+                "Maximum work",
+                "Minimum work",
+                "Negative work",
+                "Zero work"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "work_4",
+            "type": "content",
+            "title": "Kinetic Energy",
+            "content": "# The Energy of Motion\n\nEnergy is the capacity to do work. Work and Energy have the same SI unit: the **Joule (J)**.\n\nIf an object is moving, it has energy. A fast-moving cricket ball can do \"work\" on a set of stumps (by knocking them out of the ground!).\n\nThis energy due to motion is called **Kinetic Energy (K)**.\nThe formula is:\n`K = (1/2) * m * v^2`\n(where m is mass and v is velocity)."
+        },
+        {
+            "id": "work_5",
+            "type": "content",
+            "title": "The Work-Energy Theorem",
+            "content": "# Connecting Force and Speed\n\nHow do we change an object's kinetic energy? We have to do work on it!\n\nThe **Work-Energy Theorem** states that the net work done by the forces on an object equals the change in its kinetic energy.\n\n`W = K_final - K_initial`\n\n- If you push a car forward, you do positive work, and its kinetic energy increases.\n- If you hit the brakes, friction does negative work (force is opposite to motion), and its kinetic energy decreases."
+        },
+        {
+            "id": "work_6",
+            "type": "content",
+            "title": "Potential Energy",
+            "content": "# Stored Energy\n\nWhat if you lift a brick off the ground and just hold it there? It's not moving (zero kinetic energy), but it clearly has the *potential* to do work if you drop it!\n\nThis stored energy by virtue of position or configuration is called **Potential Energy (U)**.\n\n## Gravitational Potential Energy:\nNear the surface of the earth, the potential energy of an object of mass 'm' lifted to a height 'h' is:\n`U = m * g * h`\n(where g is the acceleration due to gravity)."
+        },
+        {
+            "id": "work_7",
+            "type": "content",
+            "title": "Conservation of Mechanical Energy",
+            "content": "# The Pendulum\n\nMechanical Energy is the sum of Kinetic and Potential Energy (`E = K + U`).\n\nFor conservative forces (like gravity or a spring), total mechanical energy is always **conserved** (remains constant).\n\nThink of a swinging pendulum:\n1. **At the highest point:** It stops momentarily (K=0). All its energy is Potential Energy (U).\n2. **At the lowest point:** It is at its lowest height (U=0) but moving fastest. All its energy is Kinetic Energy (K).\n\nAs it swings, energy constantly transforms from U to K and back to U, but the total sum `E` never changes!"
+        },
+        {
+            "id": "work_quiz_2",
+            "type": "quiz",
+            "title": "Energy Quiz",
+            "content": "Check your understanding of falling objects.",
+            "quizQuestion": "When an apple falls from a tree, ignoring air resistance, what happens to its total mechanical energy as it falls?",
+            "quizOptions": [
+                "It increases",
+                "It decreases",
+                "It becomes zero",
+                "It remains constant"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "work_8",
+            "type": "content",
+            "title": "Power",
+            "content": "# How Fast You Work\n\nOften, it is interesting to know not only the work done on an object, but also the *rate* at which this work is done. A person may take a day to dig a trench, while a machine might do it in 10 minutes.\n\n**Power (P)** is defined as the time rate at which work is done or energy is transferred.\n\n`P = W / t`\n\nThe SI unit of power is the **Watt (W)** (which is 1 Joule per second).\nWe also commonly use horsepower for cars (1 hp = 746 W)."
+        },
+        {
+            "id": "work_9",
+            "type": "content",
+            "title": "Collisions",
+            "content": "# The Crash\n\nIn physics, a collision is an isolated event in which two or more colliding bodies exert relatively strong forces on each other for a relatively short time.\n\nDuring a collision, the **total momentum is always conserved** (thanks to Newton's Third Law).\n\nHowever, what happens to the Kinetic Energy depends on the type of collision!"
+        },
+        {
+            "id": "work_10",
+            "type": "content",
+            "title": "Elastic vs Inelastic Collisions",
+            "content": "# Bouncy vs Sticky\n\n1. **Elastic Collision:** A collision in which both total momentum AND total kinetic energy are conserved.\n   *Example:* Ideal billiard balls hitting each other. They bounce off perfectly without generating heat or sound.\n\n2. **Inelastic Collision:** A collision in which momentum is conserved, but kinetic energy is NOT conserved. Some kinetic energy is lost to heat, sound, or deforming the objects.\n   *Example:* A car crash. The cars get crumpled (deformation) and it is very loud (sound energy).\n\nIf two bodies stick together after colliding, it is called a **completely inelastic collision**."
+        },
+        {
+            "id": "work_11",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Work:** Force dot Displacement (F * d * cos(theta)). Unit is Joules.\n- **Kinetic Energy (K):** Energy of motion (1/2 mv^2).\n- **Potential Energy (U):** Stored energy due to position (mgh).\n- **Work-Energy Theorem:** Work done equals the change in kinetic energy.\n- **Power:** The rate of doing work (W/t). Unit is Watts.\n- **Elastic Collision:** Kinetic energy is perfectly conserved (bouncy).\n- **Inelastic Collision:** Kinetic energy is lost to heat/sound/deformation (sticky)."
+        },
+        {
+            "id": "work_12",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Work, Energy, and Power\n\nExcellent work! Here is a recap of what we've learned:\n\n- In physics, **Work** is only done when a force causes a displacement, calculated using the scalar dot product.\n- **Kinetic Energy** is the energy of motion, and the **Work-Energy Theorem** proves that doing work on an object changes its kinetic energy.\n- **Potential Energy** is stored energy (like gravity). In an isolated system without friction, the total **Mechanical Energy (K + U)** is always conserved.\n- **Power** is how fast you can do that work (measured in Watts).\n- In all **collisions**, momentum is conserved. But kinetic energy is only conserved in **elastic** collisions."
+        }
+    ]
+}

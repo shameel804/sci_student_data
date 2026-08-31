@@ -1,0 +1,123 @@
+{
+    "id": "learn_immuno_immune",
+    "topicId": "immune",
+    "topicTitle": "Immune System Overview",
+    "description": "Discover the incredibly complex military network of organs, cells, and proteins that defends your body against relentless microscopic invaders.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "immuno_sys_1",
+            "type": "content",
+            "title": "Welcome to Immunology",
+            "content": "# Introduction to the Immune System\n\nWelcome to **Immunology**!\n\nYour body is constantly under siege by bacteria, viruses, fungi, and even its own rogue cancer cells. The immune system is the specialized \"military\" that keeps you alive.\n\n## What You Will Learn:\n- **Innate Immunity** - The fast, generalized first responders\n- **Adaptive Immunity** - The slow, highly targeted special forces\n- **Immune Organs** - The training camps and battlefields\n- **Lymphocytes** - The soldiers (T cells and B cells)\n\nLet's meet your defenders!"
+        },
+        {
+            "id": "immuno_sys_2",
+            "type": "content",
+            "title": "Three Lines of Defense",
+            "content": "# The Defense Strategy\n\nThe immune system operates in three escalating tiers of defense:\n\n1. **First Line (Innate):** Physical and chemical barriers (skin, stomach acid, tears) designed to keep invaders OUT.\n2. **Second Line (Innate):** Generalized internal defenses (phagocytes, inflammation, fever) that attack ANY foreign substance that breaches the barriers.\n3. **Third Line (Adaptive):** A highly specific counter-attack launched by Lymphocytes, tailored to destroy one EXACT type of pathogen, complete with \"memory\" of the attack."
+        },
+        {
+            "id": "immuno_sys_3",
+            "type": "content",
+            "title": "Innate Immunity",
+            "content": "# Innate Immunity: Fast and Dumb\n\nThe **Innate Immune System** is what you are born with. It is pre-programmed to recognize general signs of danger (like the chemical signature of bacterial cell walls).\n\n## Key Characteristics:\n- **Immediate Response:** It attacks within minutes or hours of an infection.\n- **Non-Specific:** It treats all bacteria the same way. It does not care if it's fighting Salmonella or E. coli; it just knows \"bacteria = bad.\"\n- **No Memory:** It fights a pathogen the exact same way every time. It does not \"learn\" from past infections."
+        },
+        {
+            "id": "immuno_sys_4",
+            "type": "content",
+            "title": "Barriers",
+            "content": "# First Line: The Wall\n\nThe best way to win a fight is to not let the enemy inside.\n\n## Physical Barriers\n- **Skin:** A tough, dry, impenetrable wall of dead cells.\n- **Mucous Membranes:** Sticky traps lining the respiratory and digestive tracts that catch microbes before they can attach.\n- **Cilia:** Microscopic hairs in your lungs that constantly sweep trapped mucus up and out of your throat.\n\n## Chemical Barriers\n- **Stomach Acid:** A highly acidic pit (pH 2) that dissolves most swallowed pathogens.\n- **Lysozyme:** An enzyme found in tears and saliva that literally digests the cell walls of bacteria!"
+        },
+        {
+            "id": "immuno_sys_quiz_1",
+            "type": "quiz",
+            "title": "Innate Quiz",
+            "content": "Check your understanding of the first response.",
+            "quizQuestion": "Which of the following is a key characteristic of the INNATE immune system?",
+            "quizOptions": [
+                "It takes several days to mount a response",
+                "It creates a permanent memory of the infection",
+                "It responds immediately but non-specifically to general threats",
+                "It produces highly specific antibodies"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "immuno_sys_5",
+            "type": "content",
+            "title": "Phagocytes",
+            "content": "# Second Line: The Eaters\n\nIf a splinter breaks the skin, bacteria get inside. Now you need the **Phagocytes** (literally \"eating cells\").\n\nThese are specialized white blood cells that patrol the body, eating anything that isn't \"you.\"\n\n## Types of Phagocytes:\n1. **Neutrophils:** The most abundant white blood cell. They are the shock troops. They arrive first, eat a few bacteria, and die quickly (forming pus).\n2. **Macrophages:** The \"big eaters.\" Huge, long-lived cells that can consume dozens of bacteria. They also act as the clean-up crew for dead tissue.\n3. **Natural Killer (NK) Cells:** They don't eat bacteria. They hunt your OWN cells that have turned cancerous or been hijacked by a virus, forcing them to commit suicide (apoptosis)."
+        },
+        {
+            "id": "immuno_sys_6",
+            "type": "content",
+            "title": "Inflammation",
+            "content": "# The Inflammatory Response\n\nWhen tissues are damaged (by a cut or an infection), they release chemical alarms (like Histamine).\n\n## The Results of Histamine:\n1. **Vasodilation:** Blood vessels expand, bringing more blood (and more white blood cells) to the area. This causes **Redness and Heat**.\n2. **Vascular Permeability:** The blood vessels become \"leaky,\" allowing fluid and phagocytes to squeeze out of the blood and into the tissue. This causes **Swelling and Pain**.\n\n> **The Goal:** Inflammation is a GOOD thing! It isolates the infection, floods the area with troops, and jump-starts the healing process."
+        },
+        {
+            "id": "immuno_sys_7",
+            "type": "content",
+            "title": "Adaptive Immunity",
+            "content": "# Adaptive Immunity: Slow and Smart\n\nIf the innate system is losing the battle, the body activates the **Adaptive Immune System** (the Third Line of Defense).\n\n## Key Characteristics:\n- **Slow Response:** It can take 7 to 10 days to fully mobilize during a first-time infection.\n- **Highly Specific:** It designs weapons (antibodies and T cells) that will ONLY attack that one specific strain of virus or bacteria, ignoring everything else.\n- **Immunological Memory:** Once it learns how to kill a pathogen, it remembers it forever. If that exact pathogen ever returns, the adaptive system destroys it instantly, before you even feel sick!"
+        },
+        {
+            "id": "immuno_sys_quiz_2",
+            "type": "quiz",
+            "title": "Adaptive Quiz",
+            "content": "Check your understanding of the smart defense.",
+            "quizQuestion": "Which classic sign of inflammation is caused by 'leaky' blood vessels allowing fluid to rush into the infected tissue?",
+            "quizOptions": [
+                "Redness",
+                "Heat",
+                "Swelling",
+                "Fever"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "immuno_sys_8",
+            "type": "content",
+            "title": "Immune Organs",
+            "content": "# The Lymphatic System\n\nThe immune system needs a place to train and a place to fight. This is the Lymphatic System, a network of vessels and organs.\n\n## Primary Lymphoid Organs (Training Camps)\nThis is where immune cells are born and educated.\n- **Bone Marrow:** ALL blood cells (red and white) are born here. B cells mature here.\n- **Thymus:** A gland above the heart. T cells migrate here to be \"educated\" on how to fight without attacking your own body.\n\n## Secondary Lymphoid Organs (Battlefields)\nThis is where mature immune cells wait to encounter enemies.\n- **Lymph Nodes:** Hundreds of small filters scattered throughout the body. They filter tissue fluid to catch microbes.\n- **Spleen:** A massive filter for the blood, catching blood-borne pathogens."
+        },
+        {
+            "id": "immuno_sys_9",
+            "type": "content",
+            "title": "Lymphocytes Intro",
+            "content": "# The Special Forces: Lymphocytes\n\nThe stars of the Adaptive Immune System are the **Lymphocytes**, a specific type of white blood cell.\n\nThey are divided into two completely different branches of the military:\n\n1. **B Cells (Humoral Immunity):** They fight enemies floating in the body fluids (blood and lymph). They shoot \"missiles\" called Antibodies.\n2. **T Cells (Cell-Mediated Immunity):** They fight enemies that are hiding INSIDE your cells (like viruses). They fight in hand-to-hand combat."
+        },
+        {
+            "id": "immuno_sys_10",
+            "type": "content",
+            "title": "B Cells",
+            "content": "# B Cells and Antibodies\n\nWhen a specific **B Cell** encounters a pathogen that perfectly matches its receptor, it becomes activated (usually with the help of a T cell).\n\n## The Clone Army\nThe activated B cell rapidly divides into a massive clone army of two cell types:\n\n1. **Plasma Cells:** These are antibody factories. They pump out thousands of highly specific antibody proteins per second into the blood. These antibodies seek out and neutralize the pathogen.\n2. **Memory B Cells:** These cells do not fight. They retreat and hide in the lymph nodes for decades. If the pathogen ever comes back, they instantly transform into Plasma cells, creating a massive immune response!"
+        },
+        {
+            "id": "immuno_sys_11",
+            "type": "content",
+            "title": "T Cells",
+            "content": "# T Cells and Hand-to-Hand Combat\n\nAntibodies cannot get inside a cell. If a virus is already inside a lung cell, the B cells are useless. We need **T Cells**.\n\n## The Two Main Types:\n1. **Helper T Cells (The Generals):** They do not kill anything directly. They release chemical signals (cytokines) that orchestrate the entire immune response. They tell B cells to make antibodies and tell Macrophages to eat faster. (These are the cells destroyed by HIV).\n2. **Cytotoxic T Cells (The Assassins):** They actively hunt down your own body cells that have been infected by a virus. They lock onto the infected cell and inject toxic chemicals that force the infected cell to undergo apoptosis (programmed cell death), destroying the virus factory."
+        },
+        {
+            "id": "immuno_sys_quiz_3",
+            "type": "quiz",
+            "title": "Lymphocyte Quiz",
+            "content": "Check your understanding of the special forces.",
+            "quizQuestion": "Which type of immune cell is responsible for producing and secreting massive amounts of antibodies into the blood?",
+            "quizOptions": [
+                "Helper T Cells",
+                "Cytotoxic T Cells",
+                "Plasma B Cells",
+                "Macrophages"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "immuno_sys_12",
+            "type": "content",
+            "title": "Summary of Immune System",
+            "content": "# Immune System Summary\n\n## Key Takeaways:\n\n### The Innate System\n- **First Line:** Physical barriers (skin, mucus).\n- **Second Line:** Fast, non-specific response using **Phagocytes** (macrophages) and the **Inflammatory Response** (swelling, heat).\n\n### The Adaptive System\n- **Third Line:** Slow, highly specific, and creates long-lasting **Memory**.\n- Takes place in the **Lymphatic organs** (nodes, spleen, thymus).\n\n### The Lymphocytes\n- **B Cells:** Produce **Antibodies** to attack pathogens in the blood.\n- **Helper T Cells:** Act as the generals coordinating the war.\n- **Cytotoxic T Cells:** Assassinate your own infected cells to stop viral replication.\n\n> **Next Up:** We will look closely at the weapons of the B Cells: Antigens and Antibodies!"
+        }
+    ]
+}

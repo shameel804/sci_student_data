@@ -1,0 +1,121 @@
+{
+    "id": "learn_solutions",
+    "topicId": "solutions",
+    "topicTitle": "Solutions",
+    "description": "Learn the chemistry of mixtures, from making sweet tea to preventing cars from freezing in winter.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "sol_1",
+            "type": "content",
+            "title": "Welcome to Solutions",
+            "content": "# Solutions\n\nWelcome to Solutions! Almost all processes in our body and in the environment occur in some kind of liquid solution.\n\n## What You Will Learn:\n- **Solution Concentration** - How to measure what's mixed in\n- **Raoult's Law Applications** - Vapor pressure of mixtures\n- **Colligative Properties** - Boiling point elevation, freezing point depression\n- **Abnormal Molecular Masses** - What happens when solutes split apart\n\n> **Fun Fact:** The ocean is a massive solution of various salts dissolved in water, covering 71% of Earth's surface!"
+        },
+        {
+            "id": "sol_2",
+            "type": "content",
+            "title": "Types of Solutions",
+            "content": "# What is a Solution?\n\nA solution is a homogeneous mixture of two or more substances.\n\n## Components:\n- **Solvent:** The component that is present in the largest quantity (e.g., water). It determines the physical state of the solution.\n- **Solute:** The component(s) present in smaller quantities (e.g., salt, sugar).\n\n## Types based on State:\n1. **Gaseous Solutions:** e.g., Air (Oxygen dissolved in Nitrogen).\n2. **Liquid Solutions:** e.g., Salt in water, Ethanol in water, CO2 in water (soda).\n3. **Solid Solutions:** e.g., Alloys like brass (zinc dissolved in copper)."
+        },
+        {
+            "id": "sol_3",
+            "type": "content",
+            "title": "Expressing Concentration",
+            "content": "# Solution Concentration\n\nConcentration tells us exactly how much solute is dissolved in a specific amount of solvent.\n\n## Common Methods:\n1. **Mass Percentage (w/w):** Mass of solute / Total mass of solution * 100.\n2. **Volume Percentage (v/v):** Volume of solute / Total volume of solution * 100.\n3. **Parts Per Million (ppm):** Used for trace quantities (like pollutants in water).\n\n## Chemical Methods:\n4. **Molarity (M):** Moles of solute / Volume of solution in Liters.\n   - *Note: Molarity changes with temperature because volume changes with temperature!*\n5. **Molality (m):** Moles of solute / Mass of solvent in kg.\n   - *Note: Molality does NOT change with temperature!*"
+        },
+        {
+            "id": "sol_4",
+            "type": "content",
+            "title": "Solubility",
+            "content": "# Solubility\n\nSolubility is the maximum amount of a solute that can be dissolved in a specified amount of solvent at a specific temperature.\n\n## Rule of Thumb:\n**\"Like dissolves like.\"**\n- Polar solutes (like salt) dissolve in polar solvents (like water).\n- Non-polar solutes (like grease) dissolve in non-polar solvents (like benzene).\n\n## Effect of Temperature:\n- For mostly solid solutes in liquids: Solubility **increases** with a rise in temperature (endothermic process).\n- For gases in liquids: Solubility **decreases** with a rise in temperature. (This is why warm soda goes flat quickly!)."
+        },
+        {
+            "id": "sol_5",
+            "type": "content",
+            "title": "Henry's Law",
+            "content": "# Gases in Liquids: Henry's Law\n\nHow does pressure affect the solubility of a gas in a liquid?\n\n## Henry's Law:\nThe partial pressure of the gas in the vapor phase (p) is directly proportional to the mole fraction of the gas (x) in the solution.\n```\np = K_H * x\n```\n- Where **K_H** is the Henry's law constant.\n- Different gases have different K_H values at the same temperature.\n- Higher K_H implies lower solubility of the gas in the liquid.\n\n## Applications:\n- **Soda Cans:** Carbonated beverages are sealed under high pressure to increase CO2 solubility.\n- **Scuba Diving:** Deep-sea divers breathe compressed air, which can cause nitrogen to dissolve in blood, leading to 'the bends' if they ascend too quickly."
+        },
+        {
+            "id": "sol_quiz_1",
+            "type": "quiz",
+            "title": "Concentration Quiz",
+            "content": "Test your knowledge of measuring solutions.",
+            "quizQuestion": "Which of the following methods of expressing concentration is independent of temperature?",
+            "quizOptions": [
+                "Molarity",
+                "Molality",
+                "Volume percentage",
+                "Normality"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "sol_6",
+            "type": "content",
+            "title": "Raoult's Law",
+            "content": "# Raoult's Law\n\nWhat happens to the vapor pressure of a liquid when you mix another liquid into it?\n\n## The Law:\nFor a solution of volatile liquids, the partial vapor pressure of each component in the solution is directly proportional to its mole fraction.\n\nFor component 1:\n```\np1 = p1_pure * x1\n```\nWhere:\n- **p1** is the partial vapor pressure.\n- **p1_pure** is the vapor pressure of the pure liquid.\n- **x1** is the mole fraction.\n\nTotal pressure P_total = p1 + p2."
+        },
+        {
+            "id": "sol_7",
+            "type": "content",
+            "title": "Ideal vs Non-Ideal Solutions",
+            "content": "# Types of Liquid Mixtures\n\n## Ideal Solutions:\n- Obey Raoult's Law over the entire range of concentration.\n- The intermolecular attractive forces between solute-solvent (A-B) are exactly the same as solute-solute (A-A) and solvent-solvent (B-B).\n- Change in mixing volume is zero; change in mixing heat is zero.\n- Example: Benzene + Toluene.\n\n## Non-Ideal Solutions:\n- Do not obey Raoult's Law.\n- **Positive Deviation:** A-B interactions are weaker than A-A or B-B. The vapor pressure is higher than expected. (e.g., Ethanol + Acetone).\n- **Negative Deviation:** A-B interactions are stronger than A-A or B-B. The vapor pressure is lower than expected. (e.g., Phenol + Aniline)."
+        },
+        {
+            "id": "sol_8",
+            "type": "content",
+            "title": "Colligative Properties",
+            "content": "# Colligative Properties\n\nCertain properties of solutions depend ONLY on the **number** of solute particles, not on the identity or nature of the solute.\n\n## The Four Colligative Properties:\nThese occur when a **non-volatile solute** is added to a volatile solvent:\n1. Relative lowering of vapor pressure.\n2. Elevation of boiling point.\n3. Depression of freezing point.\n4. Osmotic pressure.\n\n> **Analogy:** It doesn't matter if you drop 100 ping pong balls or 100 golf balls into the crowd; the effect on the crowd's movement only depends on the fact that there are 100 obstacles!"
+        },
+        {
+            "id": "sol_9",
+            "type": "content",
+            "title": "Vapor Pressure and Boiling Point",
+            "content": "# Boiling Point Elevation\n\nAdding salt to water makes it boil at a higher temperature. Why?\n\n## The Mechanism:\n- Adding a non-volatile solute covers some of the surface area, meaning fewer solvent molecules can escape into vapor.\n- This **lowers the vapor pressure**.\n- A liquid boils when its vapor pressure equals atmospheric pressure. Since the vapor pressure is lower, you must heat it to a **higher temperature** to make it boil.\n\n## The Equation:\n```\ndelta_Tb = K_b * m\n```\nWhere **delta_Tb** is the elevation, **K_b** is the boiling point elevation constant, and **m** is molality."
+        },
+        {
+            "id": "sol_10",
+            "type": "content",
+            "title": "Freezing Point Depression",
+            "content": "# Freezing Point Depression\n\nAdding salt to ice lowers its freezing point. This is why we salt icy roads in winter!\n\n## The Mechanism:\n- The solute particles disrupt the formation of the ordered solid lattice of the solvent.\n- To force the solvent to freeze, the temperature must be lowered further.\n\n## The Equation:\n```\ndelta_Tf = K_f * m\n```\nWhere **delta_Tf** is the depression, **K_f** is the freezing point depression constant, and **m** is molality.\n\n> **Application:** Ethylene glycol is added to car radiators as 'antifreeze' to prevent the water from freezing in winter and boiling in summer!"
+        },
+        {
+            "id": "sol_11",
+            "type": "content",
+            "title": "Osmotic Pressure",
+            "content": "# Osmotic Pressure\n\nIf you separate a pure solvent and a solution by a semi-permeable membrane, solvent will naturally flow into the solution (osmosis).\n\n## The Definition:\nOsmotic pressure (pi) is the extra pressure that must be applied to the solution side to **stop** the flow of solvent across the membrane.\n\n## The Equation:\n```\npi = C * R * T\n```\nWhere **C** is molar concentration, **R** is the gas constant, and **T** is temperature.\n\n## Reverse Osmosis:\nIf a pressure greater than the osmotic pressure is applied to the solution, solvent flows backwards (out of the solution). This is how we desalinate seawater!"
+        },
+        {
+            "id": "sol_quiz_2",
+            "type": "quiz",
+            "title": "Colligative Quiz",
+            "content": "Check your understanding of colligative properties.",
+            "quizQuestion": "Which of the following is NOT a colligative property?",
+            "quizOptions": [
+                "Osmotic pressure",
+                "Elevation of boiling point",
+                "Vapor pressure of pure solvent",
+                "Depression in freezing point"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "sol_12",
+            "type": "content",
+            "title": "Abnormal Molar Masses",
+            "content": "# Abnormal Molar Masses\n\nWe can use colligative properties to calculate the molar mass of an unknown solute. But sometimes, the math gives us weird (abnormal) results!\n\n## Why does this happen?\nColligative properties depend on the **number** of particles.\n- **Association:** If solute molecules pair up (dimerize) in solution (e.g., acetic acid in benzene), the number of particles halves. The calculated molar mass will appear double the actual mass.\n- **Dissociation:** If a solute breaks apart into ions (e.g., NaCl into Na+ and Cl-), the number of particles doubles. The calculated molar mass will appear to be half the actual mass."
+        },
+        {
+            "id": "sol_13",
+            "type": "content",
+            "title": "Van't Hoff Factor",
+            "content": "# The Van't Hoff Factor (i)\n\nTo correct for association or dissociation, Jacobus van't Hoff introduced the factor 'i'.\n\n## Definition:\n```\ni = Normal molar mass / Abnormal molar mass\ni = Total number of particles after association/dissociation / Total number of particles before\n```\n\n## Values of 'i':\n- If i = 1: The solute does not associate or dissociate (e.g., glucose, urea).\n- If i > 1: The solute dissociates into ions (e.g., NaCl, i = 2).\n- If i < 1: The solute associates (e.g., ethanoic acid, i = 0.5).\n\nWe simply multiply the right side of all our colligative property equations by 'i' to get the correct answers!"
+        },
+        {
+            "id": "sol_14",
+            "type": "content",
+            "title": "Summary: Solutions",
+            "content": "# Solutions Summary\n\n## Key Concepts Reviewed:\n\n- **Concentration:** Measured via Molarity (temp dependent) and Molality (temp independent).\n- **Henry's Law:** Gas solubility relates to pressure (p = K_H * x).\n- **Raoult's Law:** Partial vapor pressure relates to mole fraction. Defines ideal/non-ideal solutions.\n- **Colligative Properties:** Depend only on the number of solute particles.\n  - Vapor pressure lowering\n  - Boiling point elevation (delta_Tb = K_b * m)\n  - Freezing point depression (delta_Tf = K_f * m)\n  - Osmotic pressure (pi = CRT)\n- **Van't Hoff Factor (i):** Corrects for solutes that split (i > 1) or combine (i < 1) in solution.\n\n> **Congratulations!** You've completed the Solutions module."
+        }
+    ]
+}

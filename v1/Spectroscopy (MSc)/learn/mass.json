@@ -1,0 +1,133 @@
+{
+    "id": "learn_mass",
+    "topicId": "mass",
+    "topicTitle": "Mass Spectrometry",
+    "description": "Learn about ionization techniques, mass analyzers, tandem MS, and proteomic applications.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "mass_1",
+            "type": "content",
+            "title": "Welcome to Mass Spectrometry",
+            "content": "# Mass Spectrometry (MS)\n\nWelcome to the analytical scale that can weigh individual molecules!\n\n## What You Will Learn:\n- **Ionization techniques** - How to make molecules fly and hold a charge.\n- **Mass analyzers** - How to separate ions by their mass.\n- **Tandem MS (MS/MS)** - Breaking ions apart for sequence information.\n- **Proteomic applications** - Identifying every protein in a cell.\n\nLet's explore the ultimate tool for determining molecular weight!"
+        },
+        {
+            "id": "mass_2",
+            "type": "content",
+            "title": "MS Basics",
+            "content": "# Mass Spectrometry Basics\n\nMass spectrometry measures the **mass-to-charge ratio (m/z)** of ions.\n\n## The Three Core Components:\n1. **Ion Source:** Converts a small sample of neutral molecules into gas-phase ions.\n2. **Mass Analyzer:** Separates the ions in a vacuum based on their m/z ratio, using electric or magnetic fields.\n3. **Detector:** Counts the number of ions hitting it, producing the final spectrum.\n\n> **The Golden Rule:** MS can ONLY \"see\" charged particles. Neutral molecules are invisible to the analyzer and detector."
+        },
+        {
+            "id": "mass_3",
+            "type": "content",
+            "title": "Ionization Techniques",
+            "content": "# Ionization Techniques\n\nThe first challenge is getting a solid or liquid sample into the gas phase AND giving it a charge without destroying it completely.\n\n## Hard vs. Soft Ionization:\n- **Hard Ionization:** Blasts the molecule with high energy, causing extensive fragmentation. Good for structural clues, but often destroys the intact molecular ion.\n- **Soft Ionization:** Gently adds a charge, preserving the intact molecule. Good for finding the exact molecular weight, but gives less structural information.\n\nWe will look at three major techniques: EI, ESI, and MALDI."
+        },
+        {
+            "id": "mass_4",
+            "type": "content",
+            "title": "Electron Impact (EI)",
+            "content": "# Electron Impact (EI)\n\n**EI** is the classic \"hard\" ionization method.\n\n## How it works:\n- The sample is vaporized in a vacuum.\n- An electron gun fires a beam of high-energy electrons (usually 70 eV) at the gas.\n- An electron knocks one of the molecule's own electrons out of its orbit.\n- This creates a **radical cation** (M+*).\n\n## The Result:\n70 eV is way more energy than needed just to ionize. The excess energy causes the molecule to violently shatter into many smaller fragment ions. The resulting spectrum is highly complex but acts like a unique \"fingerprint\" for that molecule."
+        },
+        {
+            "id": "mass_5",
+            "type": "content",
+            "title": "Electrospray Ionization (ESI)",
+            "content": "# Electrospray Ionization (ESI)\n\n**ESI** is a revolutionary \"soft\" ionization method (Nobel Prize 2002).\n\n## How it works:\n- A liquid sample is pushed through a tiny capillary with a high voltage applied to the tip.\n- It sprays out as a fine mist of highly charged droplets.\n- As the solvent evaporates, the droplets shrink, forcing the charges closer together.\n- Eventually, electrical repulsion causes the droplets to explode into tiny gas-phase ions.\n\n> **Superpower:** ESI can put multiple charges on a single large molecule. This allows MS machines to measure massive proteins that would normally be too heavy for the analyzer."
+        },
+        {
+            "id": "mass_6",
+            "type": "content",
+            "title": "MALDI",
+            "content": "# MALDI\n\n**Matrix-Assisted Laser Desorption/Ionization (MALDI)** is another crucial \"soft\" ionization technique.\n\n## How it works:\n- The sample is mixed with a special UV-absorbing chemical \"matrix\" and dried onto a metal plate.\n- A laser fires at the plate.\n- The matrix absorbs the laser energy, violently vaporizing and carrying the sample molecules into the gas phase with it.\n- During this explosion, protons are transferred, charging the sample.\n\n> **Application:** Perfect for analyzing large, fragile biomolecules (like DNA or intact proteins) directly from solid surfaces."
+        },
+        {
+            "id": "mass_quiz_1",
+            "type": "quiz",
+            "title": "Ionization Quiz",
+            "content": "Check your understanding of ionization!",
+            "quizQuestion": "Which ionization technique uses a high voltage applied to a flowing liquid to create a charged aerosol spray?",
+            "quizOptions": [
+                "Electron Impact (EI)",
+                "Chemical Ionization (CI)",
+                "Electrospray Ionization (ESI)",
+                "MALDI"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "mass_7",
+            "type": "content",
+            "title": "Mass Analyzers",
+            "content": "# Mass Analyzers\n\nOnce you have gas-phase ions, you must sort them by their mass-to-charge ratio (m/z).\n\n## The Vacuum Requirement:\nAll mass analyzers operate under high vacuum. If they didn't, the ions would crash into air molecules, lose their charge, or scatter before reaching the detector.\n\n## Types of Analyzers:\n- Magnetic Sector\n- Quadrupole\n- Time of Flight (TOF)\n- Orbitrap\n\nEach has different strengths regarding resolution (how well they separate two close masses) and mass range."
+        },
+        {
+            "id": "mass_8",
+            "type": "content",
+            "title": "Magnetic Sector & Quadrupole",
+            "content": "# Classic Analyzers\n\n## Magnetic Sector:\n- Shoots ions through a curved magnetic field.\n- Heavy ions take a wide turn; light ions take a tight turn.\n- By changing the magnet strength, you scan through different masses hitting the detector.\n\n## Quadrupole:\n- Uses four parallel metal rods with alternating AC and DC voltages.\n- The voltages create a complex, oscillating electric field.\n- At any given voltage, only ions with one specific m/z have a stable flight path through the rods; all others crash into the rods.\n- Cheap, reliable, and standard in most labs."
+        },
+        {
+            "id": "mass_9",
+            "type": "content",
+            "title": "Time of Flight (TOF)",
+            "content": "# Time of Flight (TOF)\n\n**TOF** is a conceptually simple but incredibly powerful analyzer, often paired with MALDI.\n\n## How it works:\n1. All ions are given the exact same pulse of kinetic energy.\n2. They are fired down a long, vacuum flight tube.\n3. Because Kinetic Energy = (1/2)mv^2, a lighter ion will travel faster than a heavier ion with the same energy.\n4. The detector simply measures the time it takes for them to arrive.\n\n> **Advantage:** TOF can measure virtually unlimited mass ranges, making it ideal for massive proteins and polymers."
+        },
+        {
+            "id": "mass_10",
+            "type": "content",
+            "title": "High-Resolution Analyzers",
+            "content": "# High-Resolution: Orbitrap & FT-ICR\n\nThese analyzers can determine mass to 4 or 5 decimal places (e.g., distinguishing between a mass of 100.0023 and 100.0054).\n\n## Orbitrap:\n- Ions are injected into a barrel-like electrode and orbit around a central spindle.\n- Their orbital frequency is directly related to their m/z.\n- We detect the current they generate as they orbit, and use math (Fourier Transform) to extract the frequencies.\n\n> **Why it matters:** Exact mass allows you to calculate the precise elemental formula. CO, N2, and C2H4 all weigh roughly 28, but a high-res MS can instantly tell them apart."
+        },
+        {
+            "id": "mass_quiz_2",
+            "type": "quiz",
+            "title": "Analyzer Quiz",
+            "content": "Test your analyzer knowledge!",
+            "quizQuestion": "Which mass analyzer separates ions by giving them all the same kinetic energy and measuring how long it takes them to drift down a vacuum tube?",
+            "quizOptions": [
+                "Quadrupole",
+                "Magnetic Sector",
+                "Time of Flight (TOF)",
+                "Orbitrap"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "mass_11",
+            "type": "content",
+            "title": "Tandem MS (MS/MS)",
+            "content": "# Tandem Mass Spectrometry (MS/MS)\n\nWhat if you want to know the structure of a specific ion, but it was generated by a soft ionization method (which doesn't fragment)?\n\n## The Solution: MS/MS\nYou link two mass analyzers together, separated by a collision cell.\n\n1. **MS 1:** Acts as a filter. It selects only ONE specific precursor ion of interest and lets it pass.\n2. **Collision Cell:** The selected ion is smashed into a neutral gas (like Argon), breaking it into pieces.\n3. **MS 2:** Analyzes the pieces (product ions) generated in the collision cell."
+        },
+        {
+            "id": "mass_12",
+            "type": "content",
+            "title": "Collision-Induced Dissociation",
+            "content": "# Collision-Induced Dissociation (CID)\n\nCID is the most common method for breaking apart ions in the collision cell of a tandem MS.\n\n## How it works:\n- The selected precursor ion is accelerated to high speeds.\n- It enters a chamber filled with inert gas (Helium, Nitrogen, or Argon).\n- The ion collides with the gas molecules.\n- The kinetic energy of the collision is converted into internal vibrational energy within the ion.\n- The ion vibrates so violently that its weakest covalent bonds break.\n\n> **Application:** By looking at *how* an ion breaks apart, we can deduce its original structure."
+        },
+        {
+            "id": "mass_13",
+            "type": "content",
+            "title": "Proteomic Applications",
+            "content": "# Proteomics via MS\n\n**Proteomics** is the large-scale study of proteins. Modern proteomics relies almost entirely on Mass Spectrometry (specifically LC-MS/MS).\n\n## The Goal:\nTo take a complex biological sample (like a drop of blood or a crushed tumor biopsy) and identify every single protein present, and how much of it is there.\n\n## Two Main Approaches:\n1. **Bottom-Up Proteomics:** Digest the proteins into pieces first.\n2. **Top-Down Proteomics:** Analyze the intact proteins."
+        },
+        {
+            "id": "mass_14",
+            "type": "content",
+            "title": "Bottom-Up Proteomics",
+            "content": "# Bottom-Up (Shotgun) Proteomics\n\nThis is the most common approach.\n\n## The Workflow:\n1. Extract proteins from cells.\n2. Use an enzyme (like Trypsin) to chop all the proteins into short peptides.\n3. Separate the complex peptide mixture using Liquid Chromatography (LC).\n4. Spray the peptides into the mass spec using ESI.\n5. Use Tandem MS (CID) to break each peptide apart.\n6. Read the sequence of the peptide from the fragmentation pattern.\n7. Use a computer database to map the peptide sequences back to the original proteins."
+        },
+        {
+            "id": "mass_15",
+            "type": "content",
+            "title": "Peptide Sequencing",
+            "content": "# Peptide Sequencing by MS/MS\n\nHow do we read a sequence from a smashed peptide?\n\n## b and y ions:\nWhen a peptide is subjected to CID, it usually breaks along the peptide backbone (the amide bond).\n- If the charge stays on the N-terminal half, it's called a **b-ion**.\n- If the charge stays on the C-terminal half, it's called a **y-ion**.\n\nBy measuring the mass difference between a series of b-ions or y-ions, you can determine exactly which amino acid was lost, allowing you to read the sequence letter by letter!"
+        },
+        {
+            "id": "mass_16",
+            "type": "content",
+            "title": "Summary of Mass Spectrometry",
+            "content": "# Mass Spectrometry Summary\n\n## Key Takeaways:\n1. **Core Principle:** MS measures the mass-to-charge (m/z) ratio of gas-phase ions in a vacuum.\n2. **Ionization:** EI shatters molecules (fingerprints). ESI and MALDI gently charge intact biomolecules.\n3. **Analyzers:** Quadrupoles filter, TOF races, and Orbitraps provide extreme high-resolution for exact formulas.\n4. **Tandem MS (MS/MS):** Selecting an ion and smashing it (CID) to determine its structure.\n5. **Proteomics:** Using LC-MS/MS to sequence peptides (via b and y ions) and identify every protein in a biological sample.\n\n> **Conclusion:** Mass Spectrometry is the cornerstone of modern analytical chemistry and molecular biology."
+        }
+    ]
+}

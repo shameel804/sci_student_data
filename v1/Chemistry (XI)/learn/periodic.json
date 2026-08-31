@@ -1,0 +1,117 @@
+{
+    "id": "learn_periodic",
+    "topicId": "periodic",
+    "topicTitle": "Classification of Elements and Periodicity",
+    "description": "Unlock the secrets of the Periodic Table. Learn how elements are arranged and how to predict their properties.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "chem_periodic_1",
+            "type": "content",
+            "title": "Welcome to the Periodic Table",
+            "content": "# Organizing the Chaos\n\nIn the 1800s, dozens of elements had been discovered. Chemists were struggling to study them individually because there were just too many!\n\nThey needed a system to organize them. They noticed that certain elements behaved very similarly (like Sodium and Potassium both reacting violently with water). Could they be grouped together?\n\n## What You Will Learn:\n- **Mendeleev's Genius:** The first real periodic table.\n- **The Modern Periodic Law:** Sorting by atomic number.\n- **s, p, d, f Blocks:** The connection to quantum mechanics.\n- **Periodic Trends:** How atomic size, ionization energy, and electronegativity change across the table."
+        },
+        {
+            "id": "chem_periodic_2",
+            "type": "content",
+            "title": "Mendeleev's Periodic Table",
+            "content": "# The First Breakthrough\n\nDmitri Mendeleev made a massive leap. He arranged the known elements in order of increasing **atomic weight**.\n\nHe discovered the Periodic Law: The properties of the elements are a periodic function of their atomic weights.\n\nHis true genius? When the pattern didn't fit, he **left blank spaces** in his table, predicting that undiscovered elements belonged there. He even predicted their exact properties! When Gallium and Germanium were discovered years later, they matched his predictions perfectly."
+        },
+        {
+            "id": "chem_periodic_3",
+            "type": "content",
+            "title": "The Modern Periodic Law",
+            "content": "# The Quantum Correction\n\nMendeleev's table was great, but it had a few anomalies (like placing heavier Tellurium before lighter Iodine). \n\nIn 1913, Henry Moseley showed that the **Atomic Number (Z)** (number of protons) is a more fundamental property of an element than its atomic mass.\n\n> **Modern Periodic Law:** The physical and chemical properties of the elements are periodic functions of their **atomic numbers**.\n\nWhen arranged by atomic number, all of Mendeleev's anomalies vanished!"
+        },
+        {
+            "id": "chem_periodic_quiz_1",
+            "type": "quiz",
+            "title": "Periodic Law Quiz",
+            "content": "Check your understanding of the foundation of the table.",
+            "quizQuestion": "According to the Modern Periodic Law, the properties of elements are periodic functions of their:",
+            "quizOptions": [
+                "Atomic Mass",
+                "Atomic Number",
+                "Number of Neutrons",
+                "Atomic Volume"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_periodic_4",
+            "type": "content",
+            "title": "Groups and Periods",
+            "content": "# Rows and Columns\n\nThe Modern Periodic Table is divided into rows and columns.\n\n1. **Periods (Horizontal Rows):** There are 7 periods. The period number corresponds to the highest principal quantum number (n) of the outermost shell being filled.\n2. **Groups (Vertical Columns):** There are 18 groups. Elements in the same group have the identical outermost electron configuration (valence electrons). \n\nBecause chemical properties are dictated by valence electrons, elements in the same group have extremely similar chemical properties!"
+        },
+        {
+            "id": "chem_periodic_5",
+            "type": "content",
+            "title": "The Blocks (s, p, d, f)",
+            "content": "# The Quantum Connection\n\nThe shape of the periodic table is a direct result of the quantum mechanical orbitals (s, p, d, f) we learned about!\n\n1. **s-Block (Groups 1 & 2):** Alkali and alkaline earth metals. Their outermost electron goes into an s-orbital.\n2. **p-Block (Groups 13 to 18):** Non-metals, metalloids, and halogens. Outermost electron enters a p-orbital. Group 18 are the Noble Gases (fully filled shells, highly unreactive).\n3. **d-Block (Groups 3 to 12):** Transition metals (like Iron, Gold, Copper).\n4. **f-Block:** The two rows placed at the bottom (Lanthanoids and Actinoids) to keep the table from becoming too wide."
+        },
+        {
+            "id": "chem_periodic_6",
+            "type": "content",
+            "title": "Periodic Trends: Atomic Radius",
+            "content": "# The Size of the Atom\n\nHow does the size of the atom change as you move around the table?\n\n- **Across a Period (Left to Right):** The atomic radius **decreases**. Why? As you move right, you add more protons to the nucleus and electrons to the *same* shell. The stronger positive nucleus pulls the shell closer, shrinking the atom!\n- **Down a Group (Top to Bottom):** The atomic radius **increases**. Why? As you move down, you add entirely new principal energy shells (n=1, then n=2, etc.), making the atom physically larger."
+        },
+        {
+            "id": "chem_periodic_quiz_2",
+            "type": "quiz",
+            "title": "Radius Quiz",
+            "content": "Check your understanding of atomic size.",
+            "quizQuestion": "As you move from left to right across a period in the periodic table, what generally happens to the atomic radius?",
+            "quizOptions": [
+                "It increases",
+                "It decreases",
+                "It remains the same",
+                "It fluctuates randomly"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_periodic_7",
+            "type": "content",
+            "title": "Periodic Trends: Ionization Enthalpy",
+            "content": "# Stealing an Electron\n\n**Ionization Enthalpy (or Energy)** is the minimum energy required to remove the most loosely bound electron from an isolated gaseous atom. \n(How hard is it to steal an electron?)\n\n- **Across a Period:** Ionization energy **increases**. Because the atom is smaller and the nucleus has a stronger pull (higher effective nuclear charge), it is much harder to pull an electron away.\n- **Down a Group:** Ionization energy **decreases**. The outermost electron is further away from the nucleus (larger radius) and is shielded by inner electrons, making it easier to pluck off."
+        },
+        {
+            "id": "chem_periodic_8",
+            "type": "content",
+            "title": "Periodic Trends: Electronegativity",
+            "content": "# The Electron Tug-of-War\n\nWhen an atom is bonded to another atom in a molecule, how strongly does it pull the shared electrons towards itself?\n\nThis ability is called **Electronegativity**.\n\n- **Across a Period:** Electronegativity **increases**. Non-metals on the right (like Fluorine and Oxygen) really want to gain electrons to complete their octet, so they pull very hard.\n- **Down a Group:** Electronegativity **decreases**. The atoms are larger, so the nucleus cannot pull as effectively on shared electrons.\n\n*(Note: Fluorine is the most electronegative element on the periodic table!).*"
+        },
+        {
+            "id": "chem_periodic_9",
+            "type": "content",
+            "title": "Chemical Reactivity Trends",
+            "content": "# Metals vs Non-Metals\n\nThe trends dictate how elements react:\n\n- **Metals (Left side):** They have low ionization energies, meaning they want to *lose* electrons to form positive ions (cations). The most reactive metals are at the bottom left (Francium).\n- **Non-metals (Right side):** They have high electronegativity and high electron gain enthalpy, meaning they want to *gain* electrons to form negative ions (anions). The most reactive non-metals are at the top right (Fluorine).\n- **Noble Gases (Far Right):** Have completely filled valence shells. They neither want to gain nor lose electrons, making them highly unreactive."
+        },
+        {
+            "id": "chem_periodic_quiz_3",
+            "type": "quiz",
+            "title": "Trends Quiz",
+            "content": "Check your understanding of the trends.",
+            "quizQuestion": "Which element on the periodic table has the highest electronegativity?",
+            "quizOptions": [
+                "Oxygen",
+                "Chlorine",
+                "Fluorine",
+                "Francium"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "chem_periodic_10",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Groups & Periods:** Vertical columns (same valence electrons) & Horizontal rows (same principal shell).\n- **s, p, d, f Blocks:** Based on which orbital the last electron enters.\n- **Atomic Radius:** Decreases across a period, increases down a group.\n- **Ionization Enthalpy:** Energy needed to remove an electron. Increases across a period.\n- **Electronegativity:** The ability to attract shared electrons in a bond. Increases across a period (Fluorine is highest).\n- **Metals vs Non-Metals:** Metals lose electrons easily; Non-metals gain electrons easily."
+        },
+        {
+            "id": "chem_periodic_11",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Periodicity\n\nExcellent work! Here is a recap of what we've learned:\n\n- The **Modern Periodic Table** organizes elements by their **Atomic Number** (protons), not atomic mass.\n- The table's shape is dictated by quantum mechanics (the **s, p, d, f blocks**).\n- Elements in the same **Group** have similar chemical properties because they have the same number of valence electrons.\n- **Atomic size** shrinks across a period (due to stronger nuclear pull) and grows down a group.\n- **Ionization energy** and **Electronegativity** generally increase across a period (making non-metals on the right very reactive electron-stealers) and decrease down a group."
+        }
+    ]
+}

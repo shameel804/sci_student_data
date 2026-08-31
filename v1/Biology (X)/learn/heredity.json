@@ -1,0 +1,135 @@
+{
+    "id": "learn_heredity",
+    "topicId": "heredity",
+    "topicTitle": "Heredity and Evolution",
+    "description": "Why do you look like your parents? Unravel the mystery of genes, traits, and how species change over millions of years.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "heredity_1",
+            "type": "content",
+            "title": "Welcome to Heredity",
+            "content": "# Passing It On\n\nWe have seen that reproductive processes give rise to new individuals that are similar, but subtly different.\n\nWe have discussed how some amount of variation is produced even during asexual reproduction. And the number of successful variations is maximized by the process of sexual reproduction.\n\n## What You Will Learn:\n- **Heredity:** How traits are passed from parents to children.\n- **Mendel's Peas:** The experiments that proved how genetics work.\n- **Dominant vs Recessive:** Why some traits hide and reappear.\n- **Sex Determination:** What makes a baby male or female?\n- **Evolution:** How accumulated variations lead to new species."
+        },
+        {
+            "id": "heredity_2",
+            "type": "content",
+            "title": "Accumulation of Variation",
+            "content": "# The Slow Change\n\nImagine a single bacterium dividing into two. The two individuals would be very similar, but not exactly identical due to minor errors in DNA copying.\n\nIf these two bacteria divide again, the four individuals generated would be different from each other. They would inherit the variations from the first generation, and add their own *new* variations!\n\nIn sexual reproduction, this variation is massive. Over many generations, these variations accumulate in a population. If the environment changes (like a heatwave), only the bacteria with a variation that allows them to survive the heat will live to reproduce. This is the basis of evolution!"
+        },
+        {
+            "id": "heredity_3",
+            "type": "content",
+            "title": "Heredity",
+            "content": "# The Rules of Inheritance\n\nThe most obvious outcome of the reproductive process still remains the generation of individuals of similar design. \n- A sugarcane plant looks like a sugarcane plant.\n- A human baby looks like a human.\n\nThe rules of heredity determine the process by which traits and characteristics are reliably inherited.\n\n> **Definition:** The transmission of characteristics (traits) from parents to offspring is called **Heredity**."
+        },
+        {
+            "id": "heredity_quiz_1",
+            "type": "quiz",
+            "title": "Inheritance Quiz",
+            "content": "Check your understanding of basic genetics.",
+            "quizQuestion": "The transmission of traits from parents to their offspring is called:",
+            "quizOptions": [
+                "Evolution",
+                "Heredity",
+                "Variation",
+                "Speciation"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "heredity_4",
+            "type": "content",
+            "title": "Gregor Mendel's Experiments",
+            "content": "# The Father of Genetics\n\nHow do traits actually pass down? A monk named Gregor Mendel figured it out in the 1860s by breeding **pea plants** in his garden.\n\nMendel chose pea plants because they had easily observable, contrasting traits (e.g., tall/short plants, white/violet flowers, round/wrinkled seeds).\n\n## The Experiment (Monohybrid Cross):\nHe took a pure Tall plant and a pure Short plant and cross-bred them. \nHe collected their seeds and grew them to see what the children (the F1 generation) looked like.\n\nWhat do you think happened? Were they medium height?"
+        },
+        {
+            "id": "heredity_5",
+            "type": "content",
+            "title": "Dominant and Recessive Traits",
+            "content": "# The Hiding Trait\n\nNo, they were not medium height! **ALL the plants in the F1 generation were Tall.** \nThe short trait seemed to have disappeared entirely.\n\nThen, Mendel took those F1 Tall plants and let them self-pollinate. In the next generation (F2), the short trait reappeared! \nOut of every 4 plants, 3 were tall and 1 was short (a 3:1 ratio).\n\n## The Conclusion:\nMendel concluded that both traits (tall and short) were inherited by the F1 plants, but only the tall trait expressed itself. \n- The trait that is expressed is called the **Dominant trait** (Tall).\n- The trait that remains hidden is called the **Recessive trait** (Short)."
+        },
+        {
+            "id": "heredity_6",
+            "type": "content",
+            "title": "Genes and Alleles",
+            "content": "# The Code for Traits\n\nHow do we explain Mendel's results with modern science?\n\nCellular DNA is the information source for making proteins. A section of DNA that provides information for one protein is called a **gene**.\n\nBecause humans (and pea plants) inherit one set of chromosomes from the mother and one from the father, we have **two copies** of every gene! \nThese different versions of the same gene are called alleles.\n\n- E.g., You might inherit a 'Tall' allele from mom and a 'Short' allele from dad. Because 'Tall' is dominant, you will be tall!"
+        },
+        {
+            "id": "heredity_quiz_2",
+            "type": "quiz",
+            "title": "Mendel Quiz",
+            "content": "Check your understanding of Mendel's peas.",
+            "quizQuestion": "In Mendel's experiments, a trait that remains hidden in the first generation but reappears later is called a:",
+            "quizOptions": [
+                "Dominant trait",
+                "Recessive trait",
+                "Codominant trait",
+                "Mutant trait"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "heredity_7",
+            "type": "content",
+            "title": "Sex Determination in Humans",
+            "content": "# Boy or Girl?\n\nHow is the sex of a newborn individual determined?\n\nIn human beings, the sex of the individual is genetically determined. We have 23 pairs of chromosomes. \n- 22 pairs are perfect pairs (maternal and paternal copies).\n- 1 pair, the **sex chromosomes**, is odd in not always being a perfect pair.\n\n## XX and XY:\n- Women have a perfect pair of sex chromosomes, both called **X**. (So women are XX).\n- Men have a mismatched pair in which one is a normal-sized X while the other is a short one called **Y**. (So men are XY)."
+        },
+        {
+            "id": "heredity_8",
+            "type": "content",
+            "title": "Who Decides the Sex?",
+            "content": "# The 50/50 Chance\n\nWhen reproductive cells (eggs and sperm) are formed, they only take ONE chromosome from each pair.\n\n- Since mothers are XX, ALL eggs provide an **X chromosome**.\n- Since fathers are XY, 50% of sperm carry an **X chromosome** and 50% carry a **Y chromosome**.\n\nTherefore, the sex of the children will be determined by what they inherit from their father!\n- If a sperm carrying X fertilizes the egg: XX = **Girl**.\n- If a sperm carrying Y fertilizes the egg: XY = **Boy**."
+        },
+        {
+            "id": "heredity_9",
+            "type": "content",
+            "title": "Evolution",
+            "content": "# The Grand Story of Life\n\nWe have noted that there is an inbuilt tendency to variation during reproduction.\n\nOver millions of years, these variations accumulate. If a variation gives an organism a survival advantage (like a green beetle living on a green leaf being hidden from crows), that organism will survive and reproduce, passing that green trait to its children.\n\nThis process, where nature \"selects\" the traits most suited for survival, is called **Natural Selection**. \nCharles Darwin proposed this idea, showing how simple life forms evolved into the complex diversity we see today."
+        },
+        {
+            "id": "heredity_10",
+            "type": "content",
+            "title": "Acquired vs Inherited Traits",
+            "content": "# Does Working Out Help Your Kids?\n\nIf you lift weights and become very muscular, will your children be born with big muscles?\n\nNo! \n## Acquired Traits:\nTraits that are developed during the lifetime of an individual due to the environment or experience (like large muscles, a scar, or learning to swim) cannot be passed to the next generation. Why? Because they do not change the DNA in the germ-cells (sperm/egg).\n\n## Inherited Traits:\nOnly traits that are coded in the DNA (like eye color or blood type) can be inherited by offspring."
+        },
+        {
+            "id": "heredity_quiz_3",
+            "type": "quiz",
+            "title": "Sex Determination Quiz",
+            "content": "Check your genetic knowledge.",
+            "quizQuestion": "In human beings, the sex of a child is determined by the sex chromosome inherited from the:",
+            "quizOptions": [
+                "Mother only",
+                "Father only",
+                "Both parents equally",
+                "Grandparents"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "heredity_11",
+            "type": "content",
+            "title": "Speciation",
+            "content": "# Creating a New Species\n\nHow do new species form? This is called **speciation**.\n\nImagine a large population of beetles on a mountain. Due to an earthquake, a large river forms, splitting the beetles into two separate populations that can no longer meet or mate.\n\nThis is called **geographical isolation**.\nOver thousands of years, different variations will accumulate in the two groups (because they live in slightly different environments). Eventually, their DNA will become so different that even if they were brought back together, they would not be able to reproduce with each other. \nThey have become two distinct species!"
+        },
+        {
+            "id": "heredity_12",
+            "type": "content",
+            "title": "Tracing Evolutionary Relationships",
+            "content": "# How Do We Know?\n\nHow do we know which species are related to which? We look for common characteristics.\n\n## Homologous Organs:\nIf you look at the forelimbs of a frog, a lizard, a bird, and a human, they look very different on the outside (used for jumping, crawling, flying, and grasping). \nHowever, the underlying bone structure is exactly the same! This proves that they all evolved from a common ancestor. Such organs are called **homologous organs**.\n\n*(Note: Analogous organs, like the wings of a bat and a bird, look similar because they are used for flying, but have completely different internal structures. They do NOT share a recent common ancestor).* "
+        },
+        {
+            "id": "heredity_13",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Heredity:** Passing of traits from parents to offspring.\n- **Gene:** A section of DNA coding for a specific protein/trait.\n- **Dominant Trait:** A trait that is expressed even if only one copy is present (e.g., Tall peas).\n- **Recessive Trait:** A trait that remains hidden unless both copies are present (e.g., Short peas).\n- **Sex Chromosomes:** X and Y. Females are XX, Males are XY.\n- **Natural Selection:** Organisms best suited to their environment survive and reproduce.\n- **Homologous Organs:** Organs with similar internal structure but different functions, indicating a common ancestor."
+        },
+        {
+            "id": "heredity_14",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Heredity and Evolution\n\nExcellent work! Here is a recap of what we've learned:\n\n- DNA copying errors create **variations**, which accumulate over generations and are the basis for evolution.\n- **Mendel** used pea plants to show that traits are inherited independently, and that some traits are **dominant** while others are **recessive**.\n- Traits are controlled by **genes**. We get one copy of each gene from each parent.\n- Human sex is determined by the father's sperm (giving either an X or a Y chromosome).\n- **Natural selection** acts on variations, leading to adaptation and eventually **speciation** (the formation of new species, often aided by geographical isolation).\n- Only genetic traits are inherited; acquired traits (like a scar) are not."
+        }
+    ]
+}

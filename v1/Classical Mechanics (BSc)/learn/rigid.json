@@ -1,0 +1,139 @@
+{
+    "id": "learn_rigid",
+    "topicId": "rigid",
+    "topicTitle": "Rigid Body Dynamics",
+    "description": "Transition from point masses to solid objects. Understand the complex world of rotational motion, torque, moments of inertia, and angular momentum.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "rig_1",
+            "type": "content",
+            "title": "Beyond the Point Mass",
+            "content": "# The Limits of a Dot\n\nUp until now, Newtonian mechanics has treated every object (a baseball, a car, a planet) as if all its mass were compressed into a single, infinitely small dot (a Point Mass).\n\nThis is fine for calculating how fast a baseball falls.\n\nBut a point mass cannot *spin*. It cannot tumble. It cannot explain how a gymnast does a flip or how a gyroscope balances.\n\nTo understand spinning, we must study **Rigid Bodies**—solid objects with a defined shape where the distance between any two points on the object never changes."
+        },
+        {
+            "id": "rig_2",
+            "type": "content",
+            "title": "Center of Mass",
+            "content": "# The Balance Point\n\nEvery rigid body has a **Center of Mass (COM)**.\n\nThis is the unique point where the entire mass of the object can be considered to be concentrated for the purposes of translational (straight-line) motion.\n\n- If you throw a spinning hammer through the air, the handle and the head will tumble chaotically in wild circles.\n- BUT, if you track the exact Center of Mass of the hammer, it will trace a perfectly smooth, flawless parabolic arc, exactly as if it were a point mass!\n\nGravity effectively acts entirely on the Center of Mass."
+        },
+        {
+            "id": "rig_3",
+            "type": "content",
+            "title": "Translating to Rotation",
+            "content": "# The Rotational Dictionary\n\nThe beauty of rotational physics is that you don't need to learn new laws. Every single linear concept from Newton has a perfect, direct rotational twin.\n\n- **Position (x)** becomes **Angle (theta)**\n- **Velocity (v)** becomes **Angular Velocity (omega)**\n- **Acceleration (a)** becomes **Angular Acceleration (alpha)**\n- **Mass (m)** becomes **Moment of Inertia (I)**\n- **Force (F)** becomes **Torque (tau)**\n- **Momentum (p)** becomes **Angular Momentum (L)**\n\nIf you know the linear equation, you just swap the letters to get the rotational equation!"
+        },
+        {
+            "id": "rig_4",
+            "type": "content",
+            "title": "Angular Velocity and Acceleration",
+            "content": "# Spinning Speed\n\n## Angular Velocity (omega)\nHow fast the object is rotating. It is measured not in meters per second, but in **Radians per second** (or RPM, revolutions per minute).\n\nIf a record player is spinning at a constant 33 RPM, every single atom on that record has the exact same angular velocity, even though the atoms on the outer edge are physically moving much faster than the atoms near the center.\n\n## Angular Acceleration (alpha)\nThe rate at which the spin is speeding up or slowing down. (Like pressing the gas pedal on a spinning tire)."
+        },
+        {
+            "id": "rig_5",
+            "type": "content",
+            "title": "Torque",
+            "content": "# The Twisting Force\n\nTo accelerate a car linearly, you apply a Force (F).\nTo accelerate a wheel rotationally, you must apply a **Torque (tau)**.\n\nTorque is a twisting force that causes rotation.\n\n**Torque = Force * Lever Arm**\n\nThe \"Lever Arm\" is the perpendicular distance from the pivot point (the hinge) to where the force is applied.\n\n> This is why doorknobs are placed on the FAR EDGE of the door, not in the middle. Pushing far from the hinge gives you a massive Lever Arm, generating huge Torque with very little Force!"
+        },
+        {
+            "id": "rig_6",
+            "type": "content",
+            "title": "Moment of Inertia (I)",
+            "content": "# Rotational Mass\n\nIn linear motion, Mass is the resistance to being moved.\nIn rotational motion, **Moment of Inertia (I)** is the resistance to being SPUN.\n\nCrucially, 'I' depends not just on how much mass an object has, but **HOW THAT MASS IS DISTRIBUTED** relative to the pivot point.\n\n**I = sum(m * r^2)**\n\nMass that is placed far away from the pivot (large r) increases the Moment of Inertia exponentially! It is much harder to swing a heavy sledgehammer if you hold it by the very end of the long handle, compared to holding it right next to the heavy metal head."
+        },
+        {
+            "id": "rig_7",
+            "type": "content",
+            "title": "Newton's Second Law for Rotation",
+            "content": "# F = ma, Reborn\n\nUsing our rotational dictionary, we can translate Newton's Second Law (F = ma) into its rotational twin:\n\n**Torque = I * alpha**\n(Net Torque = Moment of Inertia * Angular Acceleration)\n\nIf you want to spin up a heavy merry-go-round incredibly fast (high alpha), you have two choices:\n1. Apply a massive pushing Force far from the center (High Torque).\n2. Ask all the children to move directly into the center, reducing the Moment of Inertia (I)."
+        },
+        {
+            "id": "rig_8",
+            "type": "content",
+            "title": "Rotational Kinetic Energy",
+            "content": "# The Energy of Spinning\n\nA spinning object has energy, even if its Center of Mass isn't moving an inch (like a spinning top).\n\nTranslating the linear kinetic energy equation (KE = 0.5 * m * v^2), we get:\n\n**Rotational KE = 0.5 * I * omega^2**\n\n## Total Kinetic Energy\nIf a bowling ball is rolling down a lane, it is doing BOTH. It is moving forward linearly, and it is spinning. \nTherefore, its Total KE = (Linear KE) + (Rotational KE). \nThis is why a rolling ball takes longer to roll down a hill than a sliding ice cube—gravity has to split its energy between pushing the ball forward AND spinning it up!"
+        },
+        {
+            "id": "rig_9",
+            "type": "content",
+            "title": "Angular Momentum (L)",
+            "content": "# Unstoppable Spin\n\nJust as a fast-moving truck has huge linear momentum (p = mv), a massive spinning flywheel has huge **Angular Momentum (L)**.\n\nTranslating the equation:\n**L = I * omega**\n\nAngular momentum is a vector. By convention (the Right-Hand Rule), if a wheel is spinning counter-clockwise on a table, its angular momentum vector points straight UP into the ceiling."
+        },
+        {
+            "id": "rig_10",
+            "type": "content",
+            "title": "Conservation of Angular Momentum",
+            "content": "# The Ice Skater Effect\n\nIf no external torque acts on a system, its **Total Angular Momentum is perfectly conserved**.\n\n## The Classic Example\nAn ice skater is spinning with her arms outstretched.\n- She has a large Moment of Inertia (I) and a slow angular velocity (omega). L = I * omega.\n- She suddenly pulls her arms in tight to her chest.\n- She did not apply any outside torque, so L must remain exactly the same.\n- Because her mass is now closer to her center, her 'I' drastically decreases.\n- To keep the math balanced, her 'omega' (spin speed) MUST drastically increase!\nShe instantly spins ten times faster just by moving her arms."
+        },
+        {
+            "id": "rig_11",
+            "type": "content",
+            "title": "Gyroscopic Precession",
+            "content": "# Defying Gravity\n\nIf you stand a spinning top on its point, why doesn't it immediately fall over? Gravity is pulling it down!\n\nBecause Angular Momentum is a vector, it acts weirdly when you apply a Torque to it.\nGravity tries to pull the top down, which creates a Torque. But instead of falling over, the Torque strictly changes the *direction* of the Angular Momentum vector.\n\nThis causes the entire top to slowly rotate its axis in a circle parallel to the floor, a bizarre and beautiful phenomenon called **Precession**.\nThis exact physics keeps bicycles upright and guides the navigation gyroscopes in spacecraft."
+        },
+        {
+            "id": "rig_12",
+            "type": "content",
+            "title": "Statics",
+            "content": "# When Nothing Moves\n\n**Statics** is the branch of mechanics dealing with rigid bodies that are completely at rest (or moving at constant velocity). It is the foundational science of Civil Engineering and Architecture.\n\nFor a bridge to not collapse (to remain in Static Equilibrium), TWO conditions must be met perfectly:\n\n1. **The sum of all Forces must be zero.** (Otherwise the bridge slides away or sinks).\n2. **The sum of all Torques must be zero.** (Otherwise the bridge physically rotates and flips over)."
+        },
+        {
+            "id": "rig_13",
+            "type": "content",
+            "title": "The Parallel Axis Theorem",
+            "content": "# Shifting the Pivot\n\nCalculating the Moment of Inertia (I) is easy if an object spins exactly around its Center of Mass. But what if you nail a stick to the wall at its very end and swing it like a pendulum?\n\nThe **Parallel Axis Theorem** is a mathematical shortcut:\n**I = I_cm + m * d^2**\n\nIt states that the inertia around a new, off-center pivot is just the normal inertia (I_cm) PLUS the mass of the object multiplied by the square of the distance (d) between the two pivots.\nIt proves mathematically that swinging things from their edges is always much harder than spinning them from their center."
+        },
+        {
+            "id": "rig_14",
+            "type": "content",
+            "title": "Rolling Without Slipping",
+            "content": "# The Perfect Roll\n\nWhen a tire rolls on dry asphalt, the bottom-most atom of the rubber touching the road is actually completely, perfectly at rest for a microsecond. It is not sliding at all. \n\nThis is called **Rolling Without Slipping**.\n\nIn this perfect state, the linear velocity of the car (v) is perfectly locked to the rotational spin of the tire (omega) by a simple equation:\n**v = r * omega**\n\nIf you hit black ice, friction drops to zero. The tire spins wildly (high omega), but the car goes nowhere (v = 0). The equation breaks, and you are slipping!"
+        },
+        {
+            "id": "rig_15",
+            "type": "content",
+            "title": "Collisions with Rigid Bodies",
+            "content": "# Striking the Sweet Spot\n\nWhen a baseball hits a loose bat, it doesn't just push the bat backward; it also imparts a massive Torque, making the bat spin wildly in the air.\n\n## The Center of Percussion\nIf you hit a baseball near the handle of the bat, it stings your hands terribly. If you hit it at the very tip, it also stings. \n\nThere is one specific, mathematically calculable point on the bat (The Center of Percussion, or \"Sweet Spot\") where the linear backward push and the rotational forward twist perfectly cancel each other out at the handle. If you hit the ball there, you feel zero vibration in your hands!"
+        },
+        {
+            "id": "rig_16",
+            "type": "content",
+            "title": "Real World Complexity",
+            "content": "# The Tensor of Inertia\n\nIn this module, we assumed objects are symmetrical and spin on a nice, clean axis.\n\nIn reality, if you throw an asymmetrical object (like a potato), its Moment of Inertia is not a single number; it is a 3x3 matrix called the **Inertia Tensor**.\n\nThis mathematics is incredibly complex and can lead to bizarre phenomena, like the Dzhanibekov Effect (where a spinning wingnut in zero gravity will periodically flip 180 degrees over and over again without any outside forces acting on it!)."
+        },
+        {
+            "id": "rig_17",
+            "type": "content",
+            "title": "Summary of Rigid Bodies",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Rigid Bodies:** Solid objects that can translate AND rotate. Gravity acts as if all mass is at the Center of Mass.\n2. **The Rotational Twins:** Every linear concept has a rotational equivalent (Force -> Torque, Mass -> Moment of Inertia).\n3. **Torque:** Twisting force dependent on the Lever Arm.\n4. **Moment of Inertia (I):** Resistance to spin, heavily dependent on how far the mass is placed from the pivot point.\n5. **Angular Momentum (L):** Perfectly conserved in isolated systems, explaining ice skaters pulling their arms in and the stability of gyroscopes.\n6. **Statics:** Requires both net Force AND net Torque to be zero."
+        },
+        {
+            "id": "rig_quiz_1",
+            "type": "quiz",
+            "title": "Moment of Inertia Quiz",
+            "content": "Test your understanding of rotational mass.",
+            "quizQuestion": "Two wheels have the exact same total mass (10 kg) and radius. Wheel A is a solid wooden disk. Wheel B is a bicycle wheel where all 10 kg of mass is concentrated in the outer metal rim. Which wheel is harder to spin up to speed?",
+            "quizOptions": [
+                "Wheel A is harder.",
+                "Wheel B is harder because its mass is distributed much further away from the central pivot.",
+                "They are exactly equally hard to spin because they have the same mass.",
+                "It depends on gravity."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "rig_quiz_2",
+            "type": "quiz",
+            "title": "Torque Quiz",
+            "content": "Review the concept of twisting force.",
+            "quizQuestion": "Why is it much easier to loosen a tight, rusty bolt using a wrench with a very long handle, rather than a short stubby wrench?",
+            "quizOptions": [
+                "The long handle increases the force your arm can generate.",
+                "The long handle decreases the Moment of Inertia of the bolt.",
+                "The long handle provides a larger Lever Arm, generating massively more Torque for the exact same pushing force.",
+                "The long handle changes the direction of gravity."
+            ],
+            "correctOptionIndex": 2
+        }
+    ]
+}

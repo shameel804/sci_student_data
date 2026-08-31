@@ -1,0 +1,139 @@
+{
+    "id": "learn_schrodinger",
+    "topicId": "schrodinger",
+    "topicTitle": "The Schrödinger Equation",
+    "description": "Learn the master equation of quantum mechanics that replaced F=ma, and discover how to calculate the wave function of an electron.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "sch_1",
+            "type": "content",
+            "title": "Replacing Newton",
+            "content": "# The New F=ma\n\nIn classical mechanics, if you know all the forces acting on a baseball, you use Newton's equation (**F = ma**) to perfectly predict exactly where the ball will go.\n\nBut electrons aren't baseballs. They are smeared-out probability waves. You can't use F=ma on a wave.\n\nIn 1925, Erwin Schrödinger formulated the master equation of the quantum world. The **Schrödinger Equation** does for quantum waves exactly what F=ma does for classical particles: it predicts how they evolve over time."
+        },
+        {
+            "id": "sch_2",
+            "type": "content",
+            "title": "The Wave Function (Psi)",
+            "content": "# The Mathematical Cloud\n\nThe entire goal of solving the Schrödinger Equation is to find one specific mathematical thing: **The Wave Function**.\n\nIt is represented by the Greek letter Psi (Looks like a pitchfork).\n\nThe Wave Function is a complex mathematical formula that contains absolutely everything that can possibly be known about a quantum system. It is the mathematical description of the smeared-out probability cloud itself."
+        },
+        {
+            "id": "sch_3",
+            "type": "content",
+            "title": "Born's Rule",
+            "content": "# What does Psi mean?\n\nSchrödinger invented the Wave Function, but even he didn't know what it physically meant. Max Born figured it out.\n\n**Born's Rule:** If you take the Wave Function (Psi), and you square it (multiply it by itself), the result gives you the exact **Probability Density** of finding the particle at that specific location!\n\n- If Psi-squared is a huge number at coordinate X=5, you are almost guaranteed to find the electron there when you look.\n- If Psi-squared is exactly zero at X=10, the electron will NEVER be found there."
+        },
+        {
+            "id": "sch_4",
+            "type": "content",
+            "title": "The Anatomy of the Equation",
+            "content": "# Breaking it Down\n\nThe time-independent Schrödinger Equation looks terrifying:\n**H(Psi) = E(Psi)**\n\nBut conceptually, it is very simple. It is basically an energy conservation equation (Kinetic Energy + Potential Energy = Total Energy).\n\n- **H (The Hamiltonian):** A mathematical \"operator\" that represents the total kinetic and potential energy of the system.\n- **E:** The total energy of the particle.\n- **Psi:** The Wave Function you are trying to find."
+        },
+        {
+            "id": "sch_5",
+            "type": "content",
+            "title": "Operators and Observables",
+            "content": "# Doing the Math\n\nIn classical physics, Position (x) and Momentum (p) are just numbers.\n\nIn quantum mechanics, they are **Operators**. An operator is a mathematical instruction (like \"take the derivative\" or \"multiply by x\").\n\nTo find the momentum of a wave, you don't just measure it. You \"operate\" on the Wave Function using the Momentum Operator. The math spits out the answer. If you want to know the position, you hit the Wave Function with the Position Operator."
+        },
+        {
+            "id": "sch_6",
+            "type": "content",
+            "title": "Solving a System: The Setup",
+            "content": "# How Physicists Use It\n\nHow do you actually use this to solve a real problem?\n\n1. **Define the Potential (V):** Is the electron flying through empty space? Is it trapped in a box? Is it orbiting a positive proton? You write down the mathematical formula for the physical environment (the Potential Energy).\n2. **Plug it in:** You plug that Potential formula into the Hamiltonian (H).\n3. **Solve the Calculus:** You solve the massively complex differential equation to find out what (Psi) actually equals."
+        },
+        {
+            "id": "sch_7",
+            "type": "content",
+            "title": "The Particle in a Box",
+            "content": "# The Simplest Problem\n\nThe easiest quantum problem to solve is the **Particle in a 1D Box** (an infinite potential well).\n\nImagine an electron trapped perfectly on a 1-dimensional wire between two impenetrable walls. It can slide left and right, but it can never leave.\n\nBecause the walls are infinitely strong, the probability of finding the electron inside the wall is exactly Zero. Therefore, the Wave Function MUST be exactly zero at the two edges of the box."
+        },
+        {
+            "id": "sch_8",
+            "type": "content",
+            "title": "Quantized Energy Levels",
+            "content": "# The Standing Waves\n\nWhen you solve the Schrödinger equation for the Box, the math forces the Wave Function to act exactly like a vibrating guitar string (a Standing Wave).\n\nYou can only fit specific, perfect half-waves into the box (like 1 hump, 2 humps, 3 humps). You cannot fit 1.4 humps.\n\nBecause the waves must be perfectly shaped, the Energy (E) of the electron is suddenly **Quantized**!\nThe electron can ONLY exist at specific, staircase-like energy levels. It is mathematically forbidden from having an energy anywhere in between the stairs."
+        },
+        {
+            "id": "sch_9",
+            "type": "content",
+            "title": "Zero-Point Energy",
+            "content": "# The Jittering Universe\n\nThe most shocking result of the Particle in a Box math is the lowest possible stair on the staircase: The Ground State (n=1).\n\nThe energy of the Ground State is NOT zero. It is impossible for the electron to have zero energy.\n\nEven at Absolute Zero temperature, a quantum particle trapped in a box MUST constantly jitter and bounce around with a minimum amount of Kinetic Energy. This is called **Zero-Point Energy**. The universe is never truly at rest."
+        },
+        {
+            "id": "sch_10",
+            "type": "content",
+            "title": "The Quantum Harmonic Oscillator",
+            "content": "# The Spring on a Quantum Level\n\nWhat if the electron isn't trapped in a rigid box, but is attached to a chemical bond that acts like a bouncy spring (Hooke's Law)?\n\nThis is the **Quantum Harmonic Oscillator**.\nWhen you plug a spring's potential energy (V = 1/2 k x^2) into the Schrödinger equation, you get a new set of quantized energy levels.\n\nCrucially, unlike the Box where the stairs get further apart, the energy stairs for the quantum spring are perfectly, equally spaced! (E = hf, 2hf, 3hf...)"
+        },
+        {
+            "id": "sch_11",
+            "type": "content",
+            "title": "The Hydrogen Atom",
+            "content": "# Solving Reality\n\nThe ultimate triumph of the Schrödinger Equation was solving the **Hydrogen Atom**.\n\nYou have one positive proton in the center, and one negative electron trapped in its electric field. You plug Coulomb's Law of electric attraction in for the Potential (V).\n\nThe math is viciously complex (involving 3D spherical calculus). But when you solve it, it perfectly predicts every single energy level of the Hydrogen atom, exactly matching real-world experimental observations!"
+        },
+        {
+            "id": "sch_12",
+            "type": "content",
+            "title": "Atomic Orbitals",
+            "content": "# The Death of Orbits\n\nWhen you solve the Schrödinger equation for Hydrogen, you don't get a neat planetary orbit where the electron circles the nucleus like the Earth around the Sun (the old Bohr Model).\n\nYou get a 3D Wave Function. When you square it, you get 3D probability clouds called **Orbitals**.\n\n- The lowest energy state (1s) is a perfect, fuzzy sphere.\n- Higher energy states (2p) look like 3D dumbbells or clovers.\nThese clouds show exactly where you are most likely to find the electron if you look."
+        },
+        {
+            "id": "sch_13",
+            "type": "content",
+            "title": "Quantum Numbers",
+            "content": "# The Addresses of Electrons\n\nThe solution to the Hydrogen atom naturally produces three integers (whole numbers) called **Quantum Numbers**. These act like a Zip Code defining the exact size, shape, and orientation of the 3D orbital cloud.\n\n1. **Principal (n):** Determines the size and energy level (1, 2, 3...).\n2. **Angular (l):** Determines the shape of the cloud (sphere, dumbbell, clover).\n3. **Magnetic (m):** Determines how the cloud is oriented in 3D space (pointing along the x, y, or z-axis)."
+        },
+        {
+            "id": "sch_14",
+            "type": "content",
+            "title": "The N-Body Problem",
+            "content": "# The Wall of Complexity\n\nThe Schrödinger equation is perfect, but it has a massive practical limitation.\n\nIt can only be solved perfectly by hand for a system with exactly TWO particles (like Hydrogen: 1 proton, 1 electron). \n\nThe moment you add a third particle (like Helium: 2 protons, 2 electrons), the repulsive forces between the multiple electrons make the calculus impossible to solve exactly.\n\nTo solve anything bigger than Hydrogen (like entire chemistry molecules), physicists must rely on supercomputers running massive approximation algorithms."
+        },
+        {
+            "id": "sch_15",
+            "type": "content",
+            "title": "Time Evolution",
+            "content": "# The Future of the Wave\n\nThere are two versions of the Schrödinger equation. \n\nWe mostly use the **Time-Independent** version to find the static, stable energy levels of atoms (like taking a photograph).\n\nBut there is also a **Time-Dependent** version. If you know what the Wave Function looks like right now at T=0, you plug it into this equation, hit \"play\", and it will perfectly predict exactly how the probability cloud will flow, ripple, and bounce off walls into the future (like a movie)!"
+        },
+        {
+            "id": "sch_16",
+            "type": "content",
+            "title": "The Heart of the Matrix",
+            "content": "# The Deterministic Paradox\n\nQuantum mechanics is famous for being random and unpredictable (God playing dice). You can never know exactly where an electron will land.\n\nBUT, the Schrödinger Equation itself is 100% perfectly **Deterministic**.\n\nIf you know the Wave Function today, the equation will tell you with absolute, flawless mathematical certainty exactly what the Wave Function will look like tomorrow. \n\nThe wave itself is perfectly predictable; it's the *collapse* of the wave when you look at it that introduces randomness!"
+        },
+        {
+            "id": "sch_17",
+            "type": "content",
+            "title": "Summary of Schrödinger's Equation",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **The Equation:** The F=ma of quantum mechanics. It calculates the Wave Function (Psi) based on the total energy (Hamiltonian).\n2. **Born's Rule:** Squaring the Wave Function gives the exact probability of finding the particle at a specific location.\n3. **Quantization:** Trapping a particle in a box or an atom forces it to form standing waves, restricting it to specific, discrete stair-step energy levels.\n4. **Zero-Point Energy:** Quantum particles can never have zero energy; they must always jitter.\n5. **Orbitals:** Solving the equation for atoms yields 3D probability clouds (s, p, d, f orbitals) rather than flat planetary orbits."
+        },
+        {
+            "id": "sch_quiz_1",
+            "type": "quiz",
+            "title": "Born's Rule Quiz",
+            "content": "Test your understanding of the Wave Function.",
+            "quizQuestion": "According to Max Born, what physical information do you get if you take the mathematical Wave Function (Psi) and square it?",
+            "quizOptions": [
+                "The exact speed of the electron.",
+                "The total mass of the electron.",
+                "The probability density (the likelihood of finding the electron at that exact location).",
+                "The electric charge of the electron."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "sch_quiz_2",
+            "type": "quiz",
+            "title": "Zero-Point Energy Quiz",
+            "content": "Review the strange world of quantum energy.",
+            "quizQuestion": "Why does a quantum 'Particle in a Box' have a Ground State energy that is greater than zero, even at Absolute Zero temperature?",
+            "quizOptions": [
+                "Because it absorbs heat from the walls of the box.",
+                "Because a quantum wave must always be vibrating; a flat line with zero energy would mean the particle doesn't exist.",
+                "Because gravity pulls on it.",
+                "Because the observer effect adds energy to the system."
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

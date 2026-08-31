@@ -1,0 +1,121 @@
+{
+    "id": "learn_semiconductor",
+    "topicId": "semiconductor",
+    "topicTitle": "Semiconductor Electronics",
+    "description": "Learn the physics behind diodes, transistors, and logic gates that form the hardware of the digital world.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "semi_1",
+            "type": "content",
+            "title": "Welcome to Semiconductors",
+            "content": "# Semiconductor Electronics\n\nWelcome to the technology that runs the modern world! From the processor in your smartphone to solar panels, semiconductors are the foundation of the digital age.\n\n## What You Will Learn:\n- **Semiconductor Physics** - Insulators, Conductors, and energy bands\n- **Diode Characteristics** - The one-way valve of electronics\n- **Transistor Operation** - The fundamental switch of computers\n- **Digital Electronics Basics** - Logic gates and binary\n\n> **Fun Fact:** The first transistor, invented in 1947, was the size of your palm. Today, billions of microscopic transistors fit on a single computer chip!"
+        },
+        {
+            "id": "semi_2",
+            "type": "content",
+            "title": "Energy Band Theory",
+            "content": "# Energy Bands in Solids\n\nIn a single atom, electrons have discrete energy levels. But in a solid crystal, billions of atoms are packed close together, causing these energy levels to smear out into continuous **Energy Bands**.\n\n## The Two Crucial Bands:\n1. **Valence Band:** The highest energy band containing electrons at absolute zero temperature. Electrons here are bound to the atoms.\n2. **Conduction Band:** The energy band above the valence band. When electrons jump up into this band, they are free to move and conduct electricity.\n\n## The Band Gap (Eg):\n- The energy gap between the top of the valence band and the bottom of the conduction band.\n- Electrons are NOT allowed to exist in the forbidden band gap."
+        },
+        {
+            "id": "semi_3",
+            "type": "content",
+            "title": "Classifying Materials by Bands",
+            "content": "# Conductors, Insulators, and Semiconductors\n\nWe classify materials based on their band structure and band gap.\n\n## 1. Conductors (Metals):\n- The valence and conduction bands **overlap**.\n- No band gap! Electrons are always free to move, even at 0 Kelvin. Excellent conductors.\n\n## 2. Insulators (e.g., Glass, Wood):\n- Have a **very large** band gap (Eg > 3 eV).\n- Electrons cannot gain enough thermal energy to jump from the full valence band to the empty conduction band. No conduction occurs.\n\n## 3. Semiconductors (e.g., Silicon, Germanium):\n- Have a **narrow** band gap (Eg approx 1 eV).\n- At 0 Kelvin, they behave as perfect insulators. But at room temperature, some electrons gain enough thermal energy to jump the gap, allowing limited conduction."
+        },
+        {
+            "id": "semi_4",
+            "type": "content",
+            "title": "Intrinsic Semiconductors",
+            "content": "# Intrinsic Semiconductors\n\nAn intrinsic semiconductor is a pure semiconductor crystal, completely free of impurities.\n\n## Holes and Electrons:\n- When a Silicon atom at room temperature absorbs thermal energy, an electron jumps to the conduction band.\n- This leaves behind a vacancy in the valence band, called a **hole**.\n- A hole behaves exactly like a positive charge carrier!\n- In an intrinsic semiconductor, the number of free electrons (n_e) is exactly equal to the number of holes (n_h).\n\nBecause the number of charge carriers is relatively low at room temperature, the conductivity of pure silicon is too low for most practical electronic uses."
+        },
+        {
+            "id": "semi_5",
+            "type": "content",
+            "title": "Extrinsic Semiconductors (Doping)",
+            "content": "# Doping: Adding Impurities\n\nTo make semiconductors useful, we deliberately add a tiny amount of specific impurity atoms. This process is called **Doping**.\n\n- The doped material is called an **Extrinsic Semiconductor**.\n- Doping drastically increases the conductivity of the material.\n\nThere are two types of dopants depending on their valence (outer shell) electrons, creating two types of semiconductors:\n1. n-type\n2. p-type"
+        },
+        {
+            "id": "semi_6",
+            "type": "content",
+            "title": "n-type and p-type",
+            "content": "# N-Type and P-Type Semiconductors\n\n## 1. n-type (Negative type):\n- Doped with pentavalent impurities (5 valence electrons, e.g., Phosphorus, Arsenic).\n- 4 electrons bond with silicon, leaving 1 extra electron completely free to conduct.\n- **Majority carriers:** Electrons.\n- **Minority carriers:** Holes.\n\n## 2. p-type (Positive type):\n- Doped with trivalent impurities (3 valence electrons, e.g., Boron, Aluminum).\n- They are missing one electron to complete bonds, creating an abundance of vacancies, or **holes**.\n- **Majority carriers:** Holes.\n- **Minority carriers:** Electrons."
+        },
+        {
+            "id": "semi_quiz_1",
+            "type": "quiz",
+            "title": "Semiconductor Quiz",
+            "content": "Test your knowledge of doping.",
+            "quizQuestion": "In a p-type semiconductor, the majority charge carriers are:",
+            "quizOptions": [
+                "Electrons",
+                "Protons",
+                "Holes",
+                "Neutrons"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "semi_7",
+            "type": "content",
+            "title": "The p-n Junction",
+            "content": "# The p-n Junction\n\nThe magic of modern electronics happens when you join a p-type crystal with an n-type crystal.\n\n## Depletion Region:\n1. At the junction, free electrons from the n-side diffuse across to fill the holes on the p-side.\n2. This leaves behind positive ions on the n-side and negative ions on the p-side.\n3. This creates a tiny, localized electric field that acts as a barrier, stopping any further diffusion.\n4. This region, devoid of free mobile charge carriers, is called the **Depletion Region**.\n\nThis built-in electric field (barrier potential) must be overcome for current to flow across the junction."
+        },
+        {
+            "id": "semi_8",
+            "type": "content",
+            "title": "The Semiconductor Diode",
+            "content": "# The p-n Junction Diode\n\nA diode is a two-terminal electronic component that essentially acts as a one-way valve for electric current.\n\n## Forward Biasing:\n- Connect the Positive battery terminal to the p-side, Negative to the n-side.\n- The applied voltage pushes carriers toward the junction, shrinking the depletion region and overcoming the barrier.\n- **Result:** Large current flows easily.\n\n## Reverse Biasing:\n- Connect Positive terminal to n-side, Negative to p-side.\n- The applied voltage pulls carriers away from the junction, widening the depletion region.\n- **Result:** Almost ZERO current flows (only a tiny leakage current).\n\n## Application:\nDiodes are primarily used as **Rectifiers** to convert Alternating Current (AC) into Direct Current (DC)."
+        },
+        {
+            "id": "semi_9",
+            "type": "content",
+            "title": "Transistors",
+            "content": "# The Transistor\n\nThe most important invention of the 20th century. A junction transistor is a three-layer semiconductor device.\n\n## Two Types:\n1. **n-p-n transistor:** A thin p-type layer sandwiched between two n-type layers.\n2. **p-n-p transistor:** A thin n-type layer sandwiched between two p-type layers.\n\n## The Three Terminals:\n1. **Emitter:** Heavily doped, emits charge carriers into the base.\n2. **Base:** Very thin, lightly doped central layer. Acts as the control gate.\n3. **Collector:** Moderately doped, collects the carriers from the base.\n\nBy applying a very small current to the Base, you can control a much larger current flowing from Emitter to Collector!"
+        },
+        {
+            "id": "semi_10",
+            "type": "content",
+            "title": "Transistor Applications",
+            "content": "# What does a Transistor do?\n\nTransistors have two primary functions in electronics:\n\n## 1. As an Amplifier:\n- Because a small change in base current causes a large change in collector current, transistors can amplify weak signals.\n- Used in hearing aids, radios, and audio amplifiers to boost sound.\n\n## 2. As a Switch (Digital Electronics):\n- The transistor can be driven into a state where it is fully ON (acting like a closed wire) or fully OFF (acting like an open switch).\n- There are no moving parts, so it can turn ON and OFF billions of times per second!\n- This switching capability is the basis of all computer processors and memory."
+        },
+        {
+            "id": "semi_11",
+            "type": "content",
+            "title": "Digital Electronics & Logic Gates",
+            "content": "# Digital Electronics\n\nUnlike analog signals which vary continuously, digital signals have only two discrete levels, usually represented as **0** (low voltage) and **1** (high voltage).\n\n## Logic Gates:\nLogic gates are the basic building blocks of digital circuits. They take one or more binary inputs and produce a single binary output based on a specific logical rule.\n\nWe build logic gates using combinations of microscopic transistors!\n\n## The Basic Gates:\n1. **OR Gate**\n2. **AND Gate**\n3. **NOT Gate**"
+        },
+        {
+            "id": "semi_12",
+            "type": "content",
+            "title": "Basic Logic Gates",
+            "content": "# The Fundamental Gates\n\n## 1. OR Gate:\n- Output is 1 if AT LEAST ONE input is 1.\n- Output is 0 only if ALL inputs are 0.\n\n## 2. AND Gate:\n- Output is 1 ONLY if ALL inputs are 1.\n- Output is 0 if any input is 0.\n\n## 3. NOT Gate (Inverter):\n- Has only one input.\n- It reverses the input.\n- If input is 1, output is 0. If input is 0, output is 1.\n\nBy combining these three basic gates in complex ways, computers can perform arithmetic, run video games, and do artificial intelligence!"
+        },
+        {
+            "id": "semi_quiz_2",
+            "type": "quiz",
+            "title": "Logic Gate Quiz",
+            "content": "Test your digital logic.",
+            "quizQuestion": "Which logic gate gives a HIGH (1) output ONLY when both of its inputs are HIGH (1)?",
+            "quizOptions": [
+                "OR Gate",
+                "NOT Gate",
+                "AND Gate",
+                "NAND Gate"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "semi_13",
+            "type": "content",
+            "title": "Universal Gates",
+            "content": "# Universal Logic Gates\n\nThere are two special gates, built by combining the basic gates.\n\n## 1. NAND Gate (NOT-AND):\n- An AND gate followed by a NOT gate.\n- Output is 0 ONLY if all inputs are 1.\n- Otherwise, output is 1.\n\n## 2. NOR Gate (NOT-OR):\n- An OR gate followed by a NOT gate.\n- Output is 1 ONLY if all inputs are 0.\n- Otherwise, output is 0.\n\n## Why are they 'Universal'?\nThey are called universal gates because you can build ANY other logic gate (AND, OR, NOT) using solely NAND gates or solely NOR gates. This makes manufacturing computer chips much cheaper and simpler!"
+        },
+        {
+            "id": "semi_14",
+            "type": "content",
+            "title": "Summary: Semiconductors",
+            "content": "# Semiconductors Summary\n\n## Key Concepts Reviewed:\n\n- **Energy Bands:** Conductors overlap; Insulators have large gaps; Semiconductors have narrow gaps (~1eV).\n- **Intrinsic:** Pure silicon, conducts slightly at room temp. Electrons = Holes.\n- **Extrinsic (Doping):** Adding impurities increases conductivity.\n  - n-type (pentavalent): majority electrons.\n  - p-type (trivalent): majority holes.\n- **p-n Junction:** Creates a depletion region barrier.\n- **Diode:** Allows current in only one direction (forward bias). Used as rectifiers.\n- **Transistor (n-p-n, p-n-p):** Emitter, Base, Collector. Used as amplifiers and ultra-fast switches.\n- **Logic Gates:** Building blocks of computers (AND, OR, NOT, NAND, NOR).\n\n> **Congratulations!** You have completed the Semiconductor module and the Physics course!"
+        }
+    ]
+}

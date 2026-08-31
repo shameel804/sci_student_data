@@ -1,0 +1,129 @@
+{
+    "id": "learn_oscillations",
+    "topicId": "oscillations",
+    "topicTitle": "Oscillations and Waves",
+    "description": "Explore the rhythmic beating of the universe, from the swinging of a pendulum to the sound waves of music.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "osc_1",
+            "type": "content",
+            "title": "Welcome to Oscillations and Waves",
+            "content": "# The Rhythm of Nature\n\nMany things in nature move back and forth. The beating of your heart, the pendulum of a grandfather clock, the strings of a guitar, and even the atoms in a solid.\n\nThis kind of repeating motion is incredibly important in physics because it helps us understand how energy travels through space without matter actually moving with it!\n\n## What You Will Learn:\n- **Periodic Motion:** The concept of time period and frequency.\n- **Simple Harmonic Motion (SHM):** The perfect mathematical swing.\n- **Pendulums and Springs:** Real-world examples of SHM.\n- **Waves:** How energy travels through a medium.\n- **Sound Waves:** How we hear."
+        },
+        {
+            "id": "osc_2",
+            "type": "content",
+            "title": "Periodic and Oscillatory Motion",
+            "content": "# Going in Circles\n\n- **Periodic Motion:** Any motion that repeats itself at regular intervals of time is called periodic motion. (e.g., The Earth revolving around the sun).\n- **Oscillatory (or Vibratory) Motion:** If a body moves to and fro (back and forth) repeatedly about a fixed point in a definite interval of time, the motion is oscillatory. (e.g., A swinging pendulum).\n\n*Note:* Every oscillatory motion is periodic, but every periodic motion is NOT oscillatory! (The Earth goes in a circle, not back and forth, so it is periodic but not oscillatory)."
+        },
+        {
+            "id": "osc_3",
+            "type": "content",
+            "title": "Time Period and Frequency",
+            "content": "# Timing the Swing\n\nWe use two main terms to describe how fast something oscillates:\n\n1. **Time Period (T):** The time taken to complete one full oscillation. Its SI unit is the second (s).\n2. **Frequency (f):** The number of oscillations completed in one second. Its SI unit is the **Hertz (Hz)**.\n\nThey are inverses of each other:\n`f = 1 / T`\n\nIf a pendulum takes 2 seconds to swing back and forth, its Time Period is 2s, and its Frequency is 0.5 Hz (half a swing per second)."
+        },
+        {
+            "id": "osc_quiz_1",
+            "type": "quiz",
+            "title": "Frequency Quiz",
+            "content": "Check your understanding of the relationship between T and f.",
+            "quizQuestion": "If a guitar string vibrates back and forth 100 times per second, what is its frequency?",
+            "quizOptions": [
+                "1 Hz",
+                "10 Hz",
+                "100 Hz",
+                "0.01 Hz"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "osc_4",
+            "type": "content",
+            "title": "Simple Harmonic Motion (SHM)",
+            "content": "# The Perfect Oscillation\n\nSimple Harmonic Motion (SHM) is the most basic and important type of oscillatory motion.\n\nA particle executes SHM if the restoring force acting on it is directly proportional to its displacement from the mean position, and is always directed *towards* the mean position.\n\n`F = -k * x`\n\n- `x` is the displacement from the center (mean position).\n- `k` is a constant (like the stiffness of a spring).\n- The negative sign shows that the force always pulls it *back* to the center!"
+        },
+        {
+            "id": "osc_5",
+            "type": "content",
+            "title": "The Simple Pendulum",
+            "content": "# Gravity's Swing\n\nA simple pendulum consists of a small heavy mass (bob) suspended by a light string. When displaced, it swings back and forth.\n\nIf the initial displacement is small, the motion of a simple pendulum is extremely close to Simple Harmonic Motion (SHM)!\n\nThe Time Period (T) of a simple pendulum depends ONLY on two things:\n1. The length of the string (L).\n2. The acceleration due to gravity (g).\n\n`T = 2 * pi * sqrt(L / g)`\n\n*Notice:* The mass of the bob does NOT matter! A heavy pendulum and a light pendulum of the same length will swing at the exact same rate."
+        },
+        {
+            "id": "osc_6",
+            "type": "content",
+            "title": "Energy in SHM",
+            "content": "# Kinetic and Potential\n\nJust like we saw in the Work and Energy chapter, a particle executing SHM is constantly converting energy back and forth.\n\n- **At the Mean Position (Center):** The particle is moving at its maximum speed. Kinetic Energy is maximum, Potential Energy is zero.\n- **At the Extreme Positions (Ends):** The particle stops momentarily before turning around. Kinetic Energy is zero, Potential Energy is maximum.\n\nThe **total mechanical energy** (K + U) remains completely constant throughout the entire oscillation!"
+        },
+        {
+            "id": "osc_quiz_2",
+            "type": "quiz",
+            "title": "Pendulum Quiz",
+            "content": "Check your understanding of the simple pendulum.",
+            "quizQuestion": "If you double the mass of the bob on a simple pendulum, what happens to its time period?",
+            "quizOptions": [
+                "It doubles",
+                "It halves",
+                "It increases by a factor of root 2",
+                "It remains exactly the same"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "osc_7",
+            "type": "content",
+            "title": "What are Waves?",
+            "content": "# Moving Energy, Not Matter\n\nIf you drop a stone into a calm pond, circular ripples spread outward. The water itself isn't flowing outward (a leaf on the water will just bob up and down). It is the *disturbance* that travels outward.\n\nA **wave** is a pattern of disturbance which travels through a medium due to the repeated periodic motion of the particles of the medium. \n\n**Key Concept:** Waves transport **Energy** and **Momentum** from one point to another without the transport of matter!"
+        },
+        {
+            "id": "osc_8",
+            "type": "content",
+            "title": "Types of Waves",
+            "content": "# Transverse vs Longitudinal\n\nBased on how the particles move compared to the direction the wave travels, waves are classified into two types:\n\n1. **Transverse Waves:** The particles of the medium oscillate *perpendicular* to the direction of wave propagation. They form crests (peaks) and troughs (valleys). \n   *Examples:* Light waves, waves on a string.\n2. **Longitudinal Waves:** The particles of the medium oscillate *along* (parallel to) the direction of wave propagation. They form compressions (high density) and rarefactions (low density). \n   *Examples:* Sound waves."
+        },
+        {
+            "id": "osc_9",
+            "type": "content",
+            "title": "Characteristics of a Wave",
+            "content": "# The Wave Vocabulary\n\nTo describe a wave mathematically, we use a few key terms:\n\n1. **Amplitude (A):** The maximum displacement of a particle from its mean position (how \"tall\" the wave is).\n2. **Wavelength (lambda):** The distance between two consecutive crests or two consecutive compressions.\n3. **Frequency (f):** The number of waves passing a point per second.\n4. **Wave Velocity (v):** The speed at which the wave disturbance travels through the medium.\n\nThey are all connected by a simple formula:\n`v = f * lambda`\n(Velocity = Frequency x Wavelength)."
+        },
+        {
+            "id": "osc_quiz_3",
+            "type": "quiz",
+            "title": "Wave Types Quiz",
+            "content": "Check your understanding of how waves move.",
+            "quizQuestion": "In a transverse wave, how do the particles of the medium oscillate relative to the direction the wave travels?",
+            "quizOptions": [
+                "Parallel",
+                "Perpendicular",
+                "In random directions",
+                "They do not oscillate"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "osc_10",
+            "type": "content",
+            "title": "Sound Waves",
+            "content": "# Hearing the Vibrations\n\nSound is a mechanical wave. This means it requires a material medium (like air, water, or steel) to travel. Sound cannot travel through a vacuum (like outer space)!\n\nSound travels as a **longitudinal wave**. A vibrating object (like a tuning fork or your vocal cords) pushes the air molecules together, creating a compression that travels outward.\n\nThe speed of sound depends on the medium. It travels much faster in solids (like steel) than in gases (like air)."
+        },
+        {
+            "id": "osc_11",
+            "type": "content",
+            "title": "Pitch and Loudness",
+            "content": "# Understanding Music\n\nHow do the physical properties of a wave translate into what we hear?\n\n1. **Pitch (High vs Low notes):** Pitch is determined by the **Frequency** of the wave. A high-frequency wave (like a whistle) has a high pitch. A low-frequency wave (like a bass drum) has a low pitch.\n2. **Loudness (Volume):** Loudness is determined by the **Amplitude** of the wave. A wave with a large amplitude pushes your eardrum harder, sounding louder."
+        },
+        {
+            "id": "osc_12",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Periodic Motion:** Motion that repeats at regular intervals.\n- **Frequency (f):** Number of oscillations per second (Hz).\n- **Simple Harmonic Motion (SHM):** Oscillatory motion where restoring force is proportional to displacement (F = -kx).\n- **Wave:** A disturbance that transports energy without transporting matter.\n- **Transverse Wave:** Particles oscillate perpendicular to the wave direction (creates crests and troughs).\n- **Longitudinal Wave:** Particles oscillate parallel to the wave direction (creates compressions and rarefactions).\n- **Wavelength (lambda):** Distance between two consecutive crests.\n- **Wave Velocity:** v = f * lambda."
+        },
+        {
+            "id": "osc_13",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Oscillations and Waves\n\nExcellent work! Here is a recap of what we've learned:\n\n- **Oscillatory motion** is a back-and-forth periodic motion. The most important type is **Simple Harmonic Motion (SHM)**, where the restoring force is proportional to the displacement.\n- A **simple pendulum** executes SHM, and its time period depends only on its length and gravity, not its mass.\n- **Waves** transport energy without moving matter. They can be **Transverse** (like light) or **Longitudinal** (like sound).\n- The speed of a wave is given by **v = f * lambda**.\n- In sound waves, the **frequency** determines the pitch (high/low note), and the **amplitude** determines the loudness."
+        }
+    ]
+}

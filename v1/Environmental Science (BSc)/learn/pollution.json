@@ -1,0 +1,129 @@
+{
+    "id": "learn_env_pollution",
+    "topicId": "pollution",
+    "topicTitle": "Environmental Pollution",
+    "description": "Examine the sources, impacts, and solutions to the contamination of our air, water, and soil systems.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "env_poll_1",
+            "type": "content",
+            "title": "Welcome to Environmental Pollution",
+            "content": "# Introduction to Pollution\n\nWelcome to **Environmental Science**!\n\nPollution is the introduction of harmful materials (pollutants) into the environment. These pollutants can be natural (like volcanic ash) or anthropogenic (created by human activity).\n\n## What You Will Learn:\n- **Air Pollution** - What we breathe\n- **Water Contamination** - The threat to aquatic life and drinking water\n- **Soil Remediation** - Cleaning up the earth\n- **Noise Pollution** - The unseen, unheard threat\n\nLet's understand how our actions impact the Earth."
+        },
+        {
+            "id": "env_poll_2",
+            "type": "content",
+            "title": "What is Air Pollution?",
+            "content": "# Air Pollution\n\nAir pollution occurs when the atmosphere is contaminated by solid particles, liquid droplets, or gases that are harmful to human health and the environment.\n\nThe World Health Organization considers air pollution to be the single greatest environmental risk to human health globally."
+        },
+        {
+            "id": "env_poll_3",
+            "type": "content",
+            "title": "Primary vs Secondary Pollutants",
+            "content": "# Primary and Secondary Pollutants\n\nNot all pollutants come directly from a smokestack.\n\n## Primary Pollutants\nThese are emitted DIRECTLY from a source into the atmosphere.\n- **Examples:** Carbon monoxide (from car exhaust), Sulfur dioxide (from burning coal), and soot (particulate matter).\n\n## Secondary Pollutants\nThese are NOT emitted directly. They form in the atmosphere when primary pollutants undergo chemical reactions, often powered by sunlight.\n- **Examples:** Ground-level Ozone (formed when car exhaust reacts with sunlight) and Acid Rain (formed when sulfur dioxide mixes with water vapor)."
+        },
+        {
+            "id": "env_poll_quiz_1",
+            "type": "quiz",
+            "title": "Air Pollution Quiz",
+            "content": "Check your understanding of pollutant types.",
+            "quizQuestion": "Which of the following is the best example of a secondary air pollutant?",
+            "quizOptions": [
+                "Carbon monoxide emitted from a car tailpipe",
+                "Ash ejected from a volcano",
+                "Ground-level ozone formed by the reaction of sunlight and car exhaust",
+                "Dust blown from a desert"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "env_poll_4",
+            "type": "content",
+            "title": "Water Contamination",
+            "content": "# Water Contamination\n\nWater covers 71% of the Earth, but less than 1% is accessible, fresh liquid water. Contaminating this precious resource is a critical threat.\n\nContaminants include heavy metals, industrial chemicals, agricultural pesticides, and untreated raw sewage."
+        },
+        {
+            "id": "env_poll_5",
+            "type": "content",
+            "title": "Point vs Non-Point Sources",
+            "content": "# Where does it come from?\n\nPollution is classified by how easy it is to trace.\n\n## 1. Point Source Pollution\n- Comes from a single, identifiable, specific location.\n- **Example:** A pipe discharging toxic waste directly from a factory into a river, or an oil spill from a single tanker.\n- **Regulation:** Very easy to identify and fine the responsible party.\n\n## 2. Non-Point Source Pollution\n- Comes from many diffuse sources over a wide area. \n- **Example:** Fertilizer runoff from thousands of different farms washing into a river during a rainstorm, or oil washing off city streets.\n- **Regulation:** Incredibly difficult to control because there is no single pipe or single culprit to point to."
+        },
+        {
+            "id": "env_poll_6",
+            "type": "content",
+            "title": "Eutrophication",
+            "content": "# Eutrophication and Dead Zones\n\nOne of the worst effects of non-point source pollution (agricultural fertilizer runoff) is **Eutrophication**.\n\n1. Excess nitrogen and phosphorus from fertilizers wash into a lake or ocean.\n2. This causes a massive, unnatural explosion in the growth of algae (an Algal Bloom).\n3. The algae eventually die and sink to the bottom.\n4. Bacteria decompose the dead algae, consuming massive amounts of dissolved oxygen in the water during the process.\n5. The water becomes \"hypoxic\" (devoid of oxygen). All fish and aquatic life suffocate and die, creating massive aquatic \"Dead Zones.\""
+        },
+        {
+            "id": "env_poll_quiz_2",
+            "type": "quiz",
+            "title": "Water Pollution Quiz",
+            "content": "Check your understanding of water issues.",
+            "quizQuestion": "What is the primary cause of the oxygen-depleted 'Dead Zones' associated with Eutrophication?",
+            "quizOptions": [
+                "The fertilizer chemicals directly absorb the oxygen",
+                "The massive overgrowth of algae blocks sunlight, preventing plants from making oxygen",
+                "Bacteria consume all the oxygen while decomposing the massive amounts of dead algae",
+                "Fish consume oxygen too rapidly when exposed to nitrogen"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "env_poll_7",
+            "type": "content",
+            "title": "Soil Remediation",
+            "content": "# Soil Contamination\n\nSoil is often contaminated by industrial spills, leaking underground storage tanks, and heavy metal mining.\n\nHistorically, the only solution was \"dig and dump\" (digging up the toxic soil and moving it to a landfill). Today, we use **Remediation** to actually clean the soil in place."
+        },
+        {
+            "id": "env_poll_8",
+            "type": "content",
+            "title": "Bioremediation",
+            "content": "# Bioremediation\n\n**Bioremediation** uses living microorganisms (bacteria and fungi) to break down environmental pollutants into less toxic forms.\n\n- Some bacteria naturally \"eat\" crude oil. During massive oil spills, scientists spray fertilizer onto the spill to encourage these specific bacteria to multiply rapidly and literally eat the oil away!\n- Other microbes can break down toxic industrial solvents or pesticides in the soil.\n- **The catch:** Bioremediation works well for organic compounds (like oil), but bacteria cannot \"eat\" or destroy elemental heavy metals like lead or mercury."
+        },
+        {
+            "id": "env_poll_9",
+            "type": "content",
+            "title": "Phytoremediation",
+            "content": "# Phytoremediation\n\nIf bacteria can't destroy heavy metals, how do we clean them up? We use plants!\n\n**Phytoremediation** uses specific plants (hyperaccumulators) that act like natural toxic sponges.\n- These plants are grown on heavily contaminated soil (e.g., an old lead mine).\n- As they grow, their roots suck up the toxic heavy metals from the soil and store them in their leaves and stems.\n- The plants are then harvested and safely incinerated, effectively pulling the poison out of the earth!"
+        },
+        {
+            "id": "env_poll_quiz_3",
+            "type": "quiz",
+            "title": "Remediation Quiz",
+            "content": "Check your understanding of cleanup.",
+            "quizQuestion": "Why is Bioremediation (using bacteria) ineffective for cleaning up soil contaminated with lead?",
+            "quizOptions": [
+                "Because lead kills all known bacteria instantly",
+                "Because bacteria can break down organic compounds like oil, but they cannot destroy or break down a basic chemical element like a heavy metal",
+                "Because lead prevents bacteria from reproducing",
+                "Because bacteria only live in water, not soil"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "env_poll_10",
+            "type": "content",
+            "title": "Noise Pollution",
+            "content": "# Noise Pollution\n\nNot all pollution is a physical chemical. **Noise Pollution** is the invisible threat.\n\nDefined as regular exposure to elevated sound levels that may lead to adverse effects in humans or other living organisms.\n\n## Sources:\n- Traffic (cars, airplanes, trains)\n- Industrial machinery and construction\n- Sonar and shipping (affecting marine life)"
+        },
+        {
+            "id": "env_poll_11",
+            "type": "content",
+            "title": "Impacts of Noise",
+            "content": "# Health Impacts of Noise\n\nNoise pollution does more than just damage your hearing.\n\n## Human Impacts:\n- Chronic stress and elevated cortisol levels.\n- High blood pressure and increased risk of heart disease.\n- Severe sleep disruption.\n\n## Wildlife Impacts:\n- **Marine Life:** Whales and dolphins rely entirely on echolocation (sound) to hunt, navigate, and communicate. Massive shipping engines and military sonar can deafen them, causing mass beaching events and preventing them from finding food.\n- **Birds:** City noise forces birds to sing at higher pitches or louder volumes to find mates, altering their natural behavior and energy expenditure."
+        },
+        {
+            "id": "env_poll_12",
+            "type": "content",
+            "title": "Mitigating Noise",
+            "content": "# Mitigating Noise Pollution\n\nHow do we fix an invisible problem?\n\n- **Urban Planning:** Zoning industrial areas far away from residential zones.\n- **Physical Barriers:** Building massive sound-absorbing walls along highways.\n- **Technology:** Transitioning to quieter electric vehicles and redesigning airplane engines.\n- **Marine Regulation:** Implementing strict speed limits for cargo ships in known whale migration corridors to reduce engine noise."
+        },
+        {
+            "id": "env_poll_13",
+            "type": "content",
+            "title": "Summary of Pollution",
+            "content": "# Environmental Pollution Summary\n\n## Key Takeaways:\n\n### Air and Water\n- **Secondary pollutants** (like ozone) form in the atmosphere via chemical reactions.\n- **Non-point source pollution** (like fertilizer runoff) is hard to regulate and causes devastating **Eutrophication** (Dead Zones).\n\n### Soil Cleanup\n- **Bioremediation** uses microbes to eat organic waste (like oil spills).\n- **Phytoremediation** uses plants to extract heavy metals from the soil.\n\n### Noise\n- **Noise pollution** is a severe threat to human cardiovascular health and devastating to marine mammals that rely on echolocation.\n\n> **Next Up:** We will look at how life interacts within these environments in the Ecology module."
+        }
+    ]
+}

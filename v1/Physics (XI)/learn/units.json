@@ -1,0 +1,141 @@
+{
+    "id": "learn_units",
+    "topicId": "units",
+    "topicTitle": "Units and Measurements",
+    "description": "Learn the foundational language of physics, how to measure the universe, and how to analyze dimensional formulas.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "units_1",
+            "type": "content",
+            "title": "Welcome to Physics XI",
+            "content": "# The Language of Science\n\nPhysics is a quantitative science, based on measurement of physical quantities.\n\nTo measure something, we need a standard of reference. For example, to say a room is 5 meters long, 'meter' is the standard of reference. \n\nMeasurement of any physical quantity involves comparison with a certain basic, arbitrarily chosen, internationally accepted reference standard called a **unit**.\n\n## What You Will Learn:\n- **The SI System:** The international standard of units.\n- **Fundamental vs Derived Units:** Building complex units from simple ones.\n- **Dimensional Analysis:** Checking equations for correctness.\n- **Significant Figures:** The art of being precise, but not too precise!"
+        },
+        {
+            "id": "units_2",
+            "type": "content",
+            "title": "Fundamental and Derived Units",
+            "content": "# The Building Blocks\n\nThere are millions of physical quantities to measure, but we don't need millions of units! \nThey are all interrelated. We only need a few base units to describe everything.\n\n## 1. Fundamental (Base) Units:\nThe units for the fundamental or base quantities (like length, mass, and time). They cannot be derived from one another.\n\n## 2. Derived Units:\nThe units of all other physical quantities can be expressed as combinations of the base units. \n*Example:* Speed is Length divided by Time. Its unit (meter/second) is a derived unit."
+        },
+        {
+            "id": "units_3",
+            "type": "content",
+            "title": "The International System of Units (SI)",
+            "content": "# The Global Standard\n\nIn earlier times, scientists of different countries used different systems (like CGS, FPS, and MKS). \nToday, we use the System International (SI), which has **seven base units**:\n\n1. **Length:** meter (m)\n2. **Mass:** kilogram (kg)\n3. **Time:** second (s)\n4. **Electric Current:** ampere (A)\n5. **Thermodynamic Temperature:** kelvin (K)\n6. **Amount of Substance:** mole (mol)\n7. **Luminous Intensity:** candela (cd)\n\nBeside these, there are two supplementary units: the **radian** (for plane angle) and the **steradian** (for solid angle)."
+        },
+        {
+            "id": "units_quiz_1",
+            "type": "quiz",
+            "title": "Base Units Quiz",
+            "content": "Check your knowledge of SI units.",
+            "quizQuestion": "Which of the following is NOT one of the seven fundamental SI base units?",
+            "quizOptions": [
+                "Ampere",
+                "Kelvin",
+                "Newton",
+                "Candela"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "units_4",
+            "type": "content",
+            "title": "Measuring Very Large Distances",
+            "content": "# Reaching for the Stars\n\nHow do we measure the distance to a planet or a star? We cannot use a meter scale!\n\n## The Parallax Method:\nHold a pen in front of you against a specific point on the background. Look at it through your left eye (closing the right), then look through your right eye (closing the left). The pen appears to move against the background!\n\nThis apparent shift is called **parallax**. \nBy observing a planet from two different positions on Earth (e.g., opposite sides of its orbit), astronomers can measure the parallax angle and use simple trigonometry to find the vast distance to the planet."
+        },
+        {
+            "id": "units_5",
+            "type": "content",
+            "title": "Measuring Very Small Distances",
+            "content": "# Reaching for the Atoms\n\nTo measure very small distances like the size of a molecule or an atom (about 10^-10 m), even a standard optical microscope fails because visible light has a wavelength of about 4000 to 7000 Angstroms.\n\nWe have to use special techniques:\n1. **Electron Microscopes:** These use beams of electrons instead of light, allowing us to see details down to fractions of an Angstrom.\n2. **Tunneling Microscopy:** Can even estimate the sizes of individual atoms!\n3. **Chemical Methods:** Using oil films on water to estimate the size of a single molecule of oleic acid."
+        },
+        {
+            "id": "units_6",
+            "type": "content",
+            "title": "Accuracy and Precision",
+            "content": "# Hitting the Target\n\nMeasurement is the foundation of physics, but no measurement is perfect. Every measurement has some uncertainty, called an **error**.\n\n- **Accuracy:** How close the measured value is to the *true* value of the quantity. (Hitting the bullseye).\n- **Precision:** To what resolution or limit the quantity is measured. (Hitting the exact same spot repeatedly, even if it's not the bullseye).\n\nIf the true length is 3.678 cm:\n- A reading of 3.5 cm is neither accurate nor precise.\n- A reading of 3.6 cm is accurate, but not very precise.\n- A reading of 3.324 cm is very precise, but not accurate!"
+        },
+        {
+            "id": "units_7",
+            "type": "content",
+            "title": "Significant Figures",
+            "content": "# The Meaningful Digits\n\nWhen we write a measured value, how many digits should we keep? We use the concept of significant figures to indicate the precision of a measurement.\n\nThe reliable digits plus the first uncertain digit are known as **significant digits or significant figures**.\n\n## Rules:\n1. All non-zero digits are significant (e.g., 1234 has four).\n2. Zeros between non-zero digits are significant (e.g., 1004 has four).\n3. Trailing zeros without a decimal point are NOT significant (e.g., 1200 has two).\n4. Trailing zeros WITH a decimal point are significant (e.g., 12.00 has four).\n5. Leading zeros are NEVER significant (e.g., 0.0012 has two)."
+        },
+        {
+            "id": "units_quiz_2",
+            "type": "quiz",
+            "title": "Sig Figs Quiz",
+            "content": "Check your understanding of significant figures.",
+            "quizQuestion": "How many significant figures are there in the measurement 0.04050 meters?",
+            "quizOptions": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "units_8",
+            "type": "content",
+            "title": "Dimensions of Physical Quantities",
+            "content": "# The Formula's Skeleton\n\nThe nature of a physical quantity is described by its dimensions.\n\nAll the derived physical quantities can be expressed in terms of some combination of the seven base quantities. We denote these base quantities with square brackets:\n- Length = [L]\n- Mass = [M]\n- Time = [T]\n\nThese are the **dimensions** of the physical quantity. \n\n*Note:* The dimension does not depend on the magnitude or the specific unit used. Whether it is 1 meter or 50 miles, the dimension is just [L]."
+        },
+        {
+            "id": "units_9",
+            "type": "content",
+            "title": "Finding Dimensional Formulas",
+            "content": "# Building the Skeleton\n\nLet's find the dimensional formula for some common quantities.\n\n1. **Area:** Area is Length x Breadth. \n   Both are lengths! \n   Dimension = [L] x [L] = [L^2]\n   Proper format: [M^0 L^2 T^0]\n\n2. **Velocity:** Velocity is Displacement / Time.\n   Dimension = [L] / [T] = [L T^-1]\n\n3. **Force:** Force is Mass x Acceleration (Velocity / Time).\n   Dimension = [M] x [L T^-2] = [M L T^-2]"
+        },
+        {
+            "id": "units_10",
+            "type": "content",
+            "title": "Dimensional Analysis: Checking Equations",
+            "content": "# The Principle of Homogeneity\n\nWhy do we care about dimensions?\nBecause of the principle of homogeneity of dimensions: **Only physical quantities with the same dimensions can be added or subtracted!**\n\nYou cannot add 5 meters to 10 kilograms. It makes no sense!\n\nTherefore, in any valid physics equation, the dimensions on the left-hand side MUST equal the dimensions on the right-hand side.\nWe can use this to check if an equation is correct!"
+        },
+        {
+            "id": "units_11",
+            "type": "content",
+            "title": "Example: Checking an Equation",
+            "content": "# Is the Equation Right?\n\nLet's check the famous equation for displacement under constant acceleration: `x = x0 + v0*t + (1/2)*a*t^2`\n\nLet's find the dimensions of each term:\n- `x` (final position) = [L]\n- `x0` (initial position) = [L]\n- `v0*t` (velocity * time) = [L T^-1] * [T] = [L]\n- `(1/2)*a*t^2` (acceleration * time^2) = [L T^-2] * [T^2] = [L]\n\nSince every single term has the dimension [L], we are only adding Lengths to Lengths to get a Length. The equation is dimensionally correct!"
+        },
+        {
+            "id": "units_12",
+            "type": "content",
+            "title": "Dimensional Analysis: Deducing Relations",
+            "content": "# Discovering Formulas\n\nWe can even use dimensions to invent formulas!\n\nIf we know that the time period (T) of a simple pendulum depends on its length (l) and the acceleration due to gravity (g), we can guess the formula!\n\nAssume `T = k * l^x * g^y` (where k is a dimensionless constant).\nPutting dimensions on both sides:\n`[T] = [L]^x * [L T^-2]^y`\n`[M^0 L^0 T^1] = [L^(x+y) T^(-2y)]`\n\nBy equating the powers:\n- For T: 1 = -2y -> **y = -1/2**\n- For L: 0 = x + y -> x - 1/2 = 0 -> **x = 1/2**\n\nSo, `T = k * l^(1/2) * g^(-1/2)` or `T = k * sqrt(l/g)`. We deduced the formula using just dimensions!"
+        },
+        {
+            "id": "units_quiz_3",
+            "type": "quiz",
+            "title": "Dimensions Quiz",
+            "content": "Check your understanding of dimensional formulas.",
+            "quizQuestion": "What is the dimensional formula for Force?",
+            "quizOptions": [
+                "[M L T^-1]",
+                "[M L^2 T^-2]",
+                "[M L T^-2]",
+                "[M L^2 T^-1]"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "units_13",
+            "type": "content",
+            "title": "Limitations of Dimensional Analysis",
+            "content": "# What it Can't Do\n\nDimensional analysis is a powerful tool, but it has limits:\n\n1. It cannot give the value of dimensionless constants (like the 'k' in the previous pendulum example, or numbers like pi or 1/2).\n2. It cannot be used to derive relations involving trigonometric functions (sin, cos), exponential functions, or logarithmic functions, because these are dimensionless.\n3. It cannot tell you if a quantity is a scalar or a vector."
+        },
+        {
+            "id": "units_14",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Base Units:** The 7 fundamental SI units (m, kg, s, A, K, mol, cd).\n- **Derived Units:** Units made by combining base units (e.g., m/s, Newton).\n- **Parallax:** The apparent shift in position of an object when viewed from different angles, used to measure vast distances.\n- **Accuracy vs Precision:** Closeness to the true value vs resolution of the measurement.\n- **Significant Figures:** The reliable digits in a measurement.\n- **Dimensional Formula:** Expressing a quantity in terms of base dimensions [M], [L], and [T]."
+        },
+        {
+            "id": "units_15",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Units and Measurements\n\nExcellent work! Here is a recap of what we've learned:\n\n- Physics relies on the **SI system** consisting of 7 **fundamental units** and numerous **derived units**.\n- Vast distances are measured using the **parallax method**, while microscopic distances use electron microscopy.\n- Measurements have errors. **Accuracy** is hitting the target; **precision** is hitting the same spot consistently.\n- **Significant figures** tell us how trustworthy our numbers are (remember the rules for zeros!).\n- **Dimensional analysis** represents quantities as [M^x L^y T^z]. We use it to check the correctness of equations (Homogeneity Principle) and to deduce relationships between physical quantities."
+        }
+    ]
+}

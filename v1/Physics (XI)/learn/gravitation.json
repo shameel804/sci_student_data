@@ -1,0 +1,123 @@
+{
+    "id": "learn_gravitation",
+    "topicId": "gravitation",
+    "topicTitle": "Gravitation",
+    "description": "Why do apples fall, and why does the moon stay in orbit? Discover the invisible force that holds the universe together.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "grav_1",
+            "type": "content",
+            "title": "Welcome to Gravitation",
+            "content": "# The Universal Force\n\nSince ancient times, humans have observed the sky. The regular rising and setting of the sun, the phases of the moon, and the changing seasons all pointed to a grand design.\n\nBut what keeps the moon from flying off into space? Why do objects fall to the ground when dropped?\n\nSir Isaac Newton realized that the force causing an apple to fall is the exact same force keeping the moon in orbit. He called it **Gravity**.\n\n## What You Will Learn:\n- **Kepler's Laws:** How planets actually move.\n- **Newton's Law of Gravitation:** The mathematical formula for gravity.\n- **Acceleration due to Gravity (g):** Why things fall at 9.8 m/s^2.\n- **Escape Velocity:** How to leave the Earth forever."
+        },
+        {
+            "id": "grav_2",
+            "type": "content",
+            "title": "Kepler's Laws of Planetary Motion",
+            "content": "# Ellipses, Not Circles\n\nBefore Newton, Johannes Kepler analyzed decades of astronomical data and formulated three laws describing how planets move around the sun. \n\n1. **Law of Orbits:** All planets move in **elliptical orbits** with the Sun situated at one of the foci. (Planets don't move in perfect circles!).\n2. **Law of Areas:** The line that joins any planet to the sun sweeps equal areas in equal intervals of time. (This means a planet moves faster when it is closer to the sun, and slower when it is farther away).\n3. **Law of Periods:** The square of the time period of revolution of a planet is proportional to the cube of the semi-major axis of the ellipse traced out by the planet. `T^2 is proportional to r^3`."
+        },
+        {
+            "id": "grav_3",
+            "type": "content",
+            "title": "Newton's Universal Law of Gravitation",
+            "content": "# The Grand Unification\n\nNewton used Kepler's laws to deduce the mathematical nature of the gravitational force.\n\n> **The Universal Law of Gravitation:** Every particle in the universe attracts every other particle with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.\n\n**The Formula:**\n`F = G * (m1 * m2) / r^2`\n\n- `m1` and `m2` are the masses of the two objects.\n- `r` is the distance between their centers.\n- `G` is the Universal Gravitational Constant (6.67 x 10^-11 N m^2 kg^-2)."
+        },
+        {
+            "id": "grav_quiz_1",
+            "type": "quiz",
+            "title": "Gravitation Law Quiz",
+            "content": "Check your understanding of the formula.",
+            "quizQuestion": "According to Newton's Law of Gravitation, if the distance between two objects is doubled, what happens to the gravitational force between them?",
+            "quizOptions": [
+                "It is halved",
+                "It is doubled",
+                "It becomes one-fourth",
+                "It becomes four times larger"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "grav_4",
+            "type": "content",
+            "title": "Acceleration due to Gravity (g)",
+            "content": "# Falling to Earth\n\nWhen you drop an object of mass 'm' near the Earth's surface, the Earth (mass 'M', radius 'R') pulls on it with a force: \n`F = G * M * m / R^2`\n\nFrom Newton's second law, `F = m * a`. We call this specific acceleration 'g'.\n`m * g = G * M * m / R^2`\n\nNotice that the small 'm' cancels out! \n`g = G * M / R^2`\n\nThis means that **acceleration due to gravity (g) does NOT depend on the mass of the falling object**. A feather and a bowling ball fall at the exact same rate (in a vacuum)!"
+        },
+        {
+            "id": "grav_5",
+            "type": "content",
+            "title": "Variations in 'g'",
+            "content": "# It's Not Always 9.8\n\nThe value of 'g' on the surface of the Earth is approximately 9.8 m/s^2. But it is not a universal constant! It changes based on where you are:\n\n1. **Altitude:** As you go higher up (away from Earth's center), the distance 'r' increases, so 'g' decreases.\n2. **Depth:** As you go deep into a mine, 'g' also decreases (because there is less Earth mass \"beneath\" you pulling you down). It is zero at the center of the Earth!\n3. **Shape of Earth:** The Earth is not a perfect sphere; it bulges at the equator. Therefore, 'g' is slightly higher at the poles and lower at the equator."
+        },
+        {
+            "id": "grav_6",
+            "type": "content",
+            "title": "Gravitational Potential Energy",
+            "content": "# The Energy of Height\n\nWhen you lift a book off the ground, you do work against the gravitational force. This work is stored as Gravitational Potential Energy (U).\n\nFor small heights near the surface, we use `U = mgh`.\n\nBut for large distances (like launching a satellite), we use the exact formula derived from Newton's law of gravitation:\n`U = - G * M * m / r`\n\nThe negative sign is important! It implies that the force is attractive, and you are \"trapped\" in the Earth's gravitational well. To escape, you must add energy until U reaches zero at infinity."
+        },
+        {
+            "id": "grav_7",
+            "type": "content",
+            "title": "Escape Velocity",
+            "content": "# Leaving the Planet\n\nIf you throw a ball up, it falls back down. If you throw it harder, it goes higher before falling back down.\n\nIs there a speed at which you can throw it so hard that it NEVER comes back?\nYes! This is called the **Escape Velocity**.\n\nIt is the minimum velocity required for an object to escape the Earth's gravitational field entirely. \nFor Earth, the escape velocity is about **11.2 km/s** (or roughly 25,000 miles per hour). This is why rockets have to be so huge!"
+        },
+        {
+            "id": "grav_quiz_2",
+            "type": "quiz",
+            "title": "Escape Quiz",
+            "content": "Check your understanding of cosmic travel.",
+            "quizQuestion": "What is the escape velocity for an object on the surface of the Earth?",
+            "quizOptions": [
+                "9.8 m/s",
+                "11.2 km/s",
+                "300,000 km/s",
+                "100 km/hr"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "grav_8",
+            "type": "content",
+            "title": "Satellites and Orbital Velocity",
+            "content": "# Falling Forever\n\nHow do satellites stay in orbit? They are actually falling towards the Earth all the time!\n\nImagine throwing a ball so fast horizontally that as it falls downwards, the Earth's curved surface curves away beneath it at the exact same rate. The ball will \"fall\" around the Earth forever! This is an orbit.\n\nThe velocity required to maintain this circular orbit is called the **Orbital Velocity**. \nFor a satellite orbiting very close to Earth's surface, the orbital velocity is about **7.9 km/s**."
+        },
+        {
+            "id": "grav_9",
+            "type": "content",
+            "title": "Geostationary Satellites",
+            "content": "# The Stationary Sentinels\n\nSome satellites appear to hover stationary in the sky over one specific spot on the Earth's equator.\n\nThese are called **Geostationary Satellites**. \n- They orbit the Earth in exactly 24 hours, matching the Earth's own rotation.\n- To achieve this specific 24-hour time period, they MUST be placed at a very specific altitude: about **35,800 km** above the Earth's surface.\n- They are primarily used for telecommunications and television broadcasting."
+        },
+        {
+            "id": "grav_10",
+            "type": "content",
+            "title": "Weightlessness",
+            "content": "# The Feeling of Zero Gravity\n\nAstronauts in the International Space Station (ISS) float around because they are in a state of \"weightlessness\".\n\nAre they in \"zero gravity\"? **NO!** The gravity at the height of the ISS is still about 90% as strong as it is on the surface. \n\nThey feel weightless because the ISS and everything inside it is in a state of continuous **free fall** around the Earth. Because the astronaut and the floor of the spaceship are falling at the exact same rate, there is no normal force pushing up on their feet, creating the sensation of having zero weight."
+        },
+        {
+            "id": "grav_quiz_3",
+            "type": "quiz",
+            "title": "Weightlessness Quiz",
+            "content": "Check your understanding of space travel.",
+            "quizQuestion": "Why do astronauts feel weightless in an orbiting space station?",
+            "quizOptions": [
+                "Because there is no gravity in space.",
+                "Because the station is beyond the Earth's magnetic field.",
+                "Because they and the station are in a continuous state of free fall.",
+                "Because they are traveling at the speed of light."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "grav_11",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Kepler's Laws:** Planets move in ellipses, sweeping equal areas in equal times.\n- **Law of Gravitation:** F = G(m1m2)/r^2. (Inverse-square law).\n- **'g' (Acceleration due to gravity):** 9.8 m/s^2 on Earth's surface. It decreases with altitude and depth.\n- **Escape Velocity:** The minimum speed needed to break free from a planet's gravity (11.2 km/s for Earth).\n- **Orbital Velocity:** The speed required to maintain a circular orbit.\n- **Geostationary Satellite:** A satellite with a 24-hour period, appearing stationary over the equator.\n- **Weightlessness:** The sensation experienced during free fall, not a true lack of gravity."
+        },
+        {
+            "id": "grav_12",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Gravitation\n\nExcellent work! Here is a recap of what we've learned:\n\n- Newton unified the heavens and the Earth by proving that the force causing apples to fall is the same force keeping planets in **elliptical orbits** (as described by **Kepler**).\n- The gravitational force is proportional to the masses and inversely proportional to the square of the distance between them.\n- The acceleration due to gravity, **'g'**, does not depend on the mass of the falling object, but it does change with altitude and depth.\n- To leave Earth permanently, an object must reach the **escape velocity**.\n- Satellites stay in orbit by moving at high **orbital velocities**, essentially falling around the curvature of the Earth in a state of continuous free-fall, causing **weightlessness**."
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "id": "learn_geometrical",
+    "topicId": "geometrical",
+    "topicTitle": "Geometrical Optics",
+    "description": "Treat light as a collection of straight, rigid rays. Learn how mirrors reflect and lenses bend these rays to form images and magnify the universe.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "geo_1",
+            "type": "content",
+            "title": "The Ray Approximation",
+            "content": "# Ignoring the Wave\n\nWe know that light is a complex electromagnetic wave.\n\nHowever, if the objects light interacts with (like a mirror or a telescope lens) are massive compared to the microscopic wavelength of the light, we can completely ignore the wave math.\n\n**Geometrical Optics** makes a massive simplification: It treats light as a collection of infinitely thin, perfectly straight geometric lines called **Rays**.\nThis \"Ray Approximation\" allows us to design complex cameras, microscopes, and eyeglasses using nothing but basic geometry and trigonometry!"
+        },
+        {
+            "id": "geo_2",
+            "type": "content",
+            "title": "Reflection",
+            "content": "# Bouncing Rays\n\nWhen a ray of light hits a smooth, polished surface (a mirror), it bounces off.\n\n## The Law of Reflection\nThe angle at which the ray strikes the mirror (the Angle of Incidence) is EXACTLY equal to the angle at which it bounces away (the Angle of Reflection).\n\n*Important:* In optics, we NEVER measure angles from the surface of the mirror. We always measure angles from the **Normal Line** (an imaginary dotted line drawn perfectly perpendicular, 90 degrees, to the mirror's surface)."
+        },
+        {
+            "id": "geo_3",
+            "type": "content",
+            "title": "Flat Mirrors",
+            "content": "# Virtual Reality\n\nWhen you look into a flat bathroom mirror, you see a perfect copy of yourself standing *behind* the glass.\n\nObviously, you aren't actually inside the wall. \nThe light rays from your face bounce off the mirror and enter your eye. But your brain is easily tricked; it assumes light ALWAYS travels in a straight line. \n\nYour brain traces those bouncing rays backward in a straight line through the wall, creating a **Virtual Image**.\nThe image is upright, exactly your size, and appears to be exactly the same distance behind the mirror as you are in front of it."
+        },
+        {
+            "id": "geo_4",
+            "type": "content",
+            "title": "Curved Mirrors: Concave",
+            "content": "# The Light Gatherer\n\nA **Concave Mirror** curves inward, like a cave (or the inside of a spoon).\n\nWhen parallel rays of light (like from a distant star) hit a concave mirror, the curved surface forces all the bouncing rays to angle inward and crash together at a single, perfect point in space.\n\nThis magical point is called the **Focal Point (F)**. \nConcave mirrors are used in massive astronomical telescopes to gather faint starlight and focus it into a bright, sharp point."
+        },
+        {
+            "id": "geo_5",
+            "type": "content",
+            "title": "Images in Concave Mirrors",
+            "content": "# Real vs Virtual\n\nWhat happens if you stand in front of a giant concave mirror?\n\n1. **Standing far away (past the focal point):** The rays bouncing off you will actually converge in mid-air *in front* of the mirror, creating a **Real Image**. It will look upside-down (inverted) and smaller.\n2. **Standing incredibly close (inside the focal point):** The rays bounce outward and never converge in front. Your brain traces them backward, creating a massive, upright **Virtual Image** behind the glass. (This is how magnifying makeup mirrors work!)."
+        },
+        {
+            "id": "geo_6",
+            "type": "content",
+            "title": "Curved Mirrors: Convex",
+            "content": "# The Wide-Angle View\n\nA **Convex Mirror** bulges outward (like the back of a spoon).\n\nWhen parallel rays hit a convex mirror, they are scattered and diverge outward in all directions. They never meet in front of the mirror.\n\nBecause they scatter, your brain traces them backward to a virtual focal point *behind* the mirror. \nA convex mirror ALWAYS produces a tiny, upright, Virtual Image. Why use them? Because they compress a massive field of view into a small space. (Used for security mirrors in stores, and the passenger-side mirror on your car!)."
+        },
+        {
+            "id": "geo_7",
+            "type": "content",
+            "title": "Refraction",
+            "content": "# Bending the Ray\n\nWhen a light ray travels from one transparent medium (Air) into another (Glass), its speed physically changes.\n\nBecause it slows down, the ray instantly bends at the boundary. This is **Refraction**.\n\n## Snell's Law\n**n1 * sin(theta_1) = n2 * sin(theta_2)**\n- If light enters a denser medium (higher index of refraction 'n', like going from air to water), the ray bends **INWARD** toward the normal line.\n- If it enters a less dense medium (water to air), it bends **OUTWARD** away from the normal."
+        },
+        {
+            "id": "geo_8",
+            "type": "content",
+            "title": "Total Internal Reflection",
+            "content": "# Trapping the Light\n\nIf you shine a laser from underwater up into the air, it bends outward away from the normal.\n\nIf you shine it at a very shallow angle, it bends so far outward that it cannot escape the water. The math of Snell's Law breaks. \nThe surface of the water acts like a perfect, flawless mirror, bouncing 100% of the light back down into the depths.\n\nThis is **Total Internal Reflection**. It is the exact physics used in Fiber Optic cables to trap laser light inside a flexible glass tube, carrying the internet across oceans!"
+        },
+        {
+            "id": "geo_9",
+            "type": "content",
+            "title": "Lenses",
+            "content": "# Sculpting Glass\n\nWe can use the power of refraction to actively control light by carving glass into specific shapes called **Lenses**.\n\nUnlike a mirror which bounces light, a lens allows light to pass completely through it, bending it twice (once when it enters the glass, and once when it exits).\n\nThere are two main types of lenses:\n1. **Convex Lenses** (Thick in the middle).\n2. **Concave Lenses** (Thin in the middle)."
+        },
+        {
+            "id": "geo_10",
+            "type": "content",
+            "title": "Convex Lenses",
+            "content": "# The Converger\n\nA **Convex Lens** (bulging outward on both sides) is the most common lens in the world. It is the lens in your eyeball, in a magnifying glass, and in a camera.\n\nBecause it is thicker in the middle, light passing through the center is slowed down for a longer time than light passing near the thin edges. \nThis physically bends all the parallel incoming rays inward, forcing them to crash together at a real **Focal Point** on the opposite side of the lens!"
+        },
+        {
+            "id": "geo_11",
+            "type": "content",
+            "title": "Forming an Image with a Lens",
+            "content": "# Projecting Reality\n\nIf you hold a convex lens between a glowing lightbulb and a blank wall, it will grab the scattered rays from the bulb, bend them, and reassemble them on the wall.\n\nIt projects a **Real Image**.\nBecause the rays cross each other at the focal point, the image on the wall will be perfectly Upside-Down (Inverted).\n\n*Fun Fact:* The convex lens in your eyeball projects an upside-down image of the world onto your retina. Your brain's visual cortex flips the image right-side up for you in real-time!"
+        },
+        {
+            "id": "geo_12",
+            "type": "content",
+            "title": "Concave Lenses",
+            "content": "# The Diverger\n\nA **Concave Lens** is carved so it is very thin in the middle and thick at the edges.\n\nWhen parallel rays hit it, the thick edges slow the light down more, causing the rays to instantly flare outward and scatter away from each other.\n\nBecause the rays scatter, they never project a real image. If you look through a concave lens, your brain traces the scattered rays backward to create a tiny, upright, **Virtual Image**. (These are primarily used in glasses to correct nearsightedness)."
+        },
+        {
+            "id": "geo_13",
+            "type": "content",
+            "title": "The Thin Lens Equation",
+            "content": "# The Master Math\n\nYou can predict exactly where an image will form (and how big it will be) using one simple equation:\n\n**1/f = 1/do + 1/di**\n\n- **f:** The focal length (distance from the lens to its focal point).\n- **do:** The object distance (how far the real object is from the lens).\n- **di:** The image distance (where the image will appear).\n\nIf you know any two, you can calculate the third!"
+        },
+        {
+            "id": "geo_14",
+            "type": "content",
+            "title": "Magnification",
+            "content": "# Sizing it Up\n\nWill the projected image be huge or tiny?\n\nThe **Magnification (M)** is simply the ratio of distances:\n**M = - (di / do)**\n\n- If M is exactly 1, the image is the same size as the object.\n- If M is 5, the image is 5 times larger!\n- The negative sign simply tells you the image is inverted (upside down). If M is a positive number, the image is standing upright."
+        },
+        {
+            "id": "geo_15",
+            "type": "content",
+            "title": "Optical Instruments",
+            "content": "# Stacking Lenses\n\nA single lens is great, but stacking multiple lenses together creates the most powerful tools in science.\n\n## The Microscope\nUses two convex lenses. A tiny \"Objective\" lens hovers millimeters over a bug, creating a large real image. A second \"Eyepiece\" lens grabs that real image and magnifies it AGAIN as a massive virtual image for your eye.\n\n## The Telescope\nUses a massive Objective lens (or concave mirror) to gather faint starlight and focus it into a tiny real image. An Eyepiece lens then magnifies that tiny image so you can see the rings of Saturn."
+        },
+        {
+            "id": "geo_16",
+            "type": "content",
+            "title": "Spherical Aberration",
+            "content": "# The Flaw in the Glass\n\nGeometrical optics assumes lenses and mirrors are perfectly shaped. But grinding perfect glass is difficult.\n\nIf you carve a mirror into a perfect sphere, rays hitting the very outer edges of the mirror will NOT focus at the exact same point as rays hitting the center. The image will be horribly blurry.\nThis is called **Spherical Aberration**.\n\nTo fix it, high-end telescopes (like the Hubble Space Telescope) do not use spherical mirrors. They use complex Parabolic mirrors, which mathematically force every single ray to perfectly hit the exact same focal point."
+        },
+        {
+            "id": "geo_17",
+            "type": "content",
+            "title": "Summary of Geometrical Optics",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **The Ray Model:** Light is treated as straight geometric lines, ignoring wave behavior.\n2. **Reflection:** Light bounces off smooth surfaces (Angle of Incidence = Angle of Reflection).\n3. **Refraction:** Light bends when changing speed entering a new medium (Snell's Law).\n4. **Mirrors:** Concave mirrors gather light to a focal point; Convex mirrors scatter light for a wide view.\n5. **Lenses:** Convex lenses converge light to project real, inverted images (cameras/eyes). Concave lenses diverge light.\n6. **Math:** The Thin Lens Equation calculates exactly where images will form."
+        },
+        {
+            "id": "geo_quiz_1",
+            "type": "quiz",
+            "title": "Lens Quiz",
+            "content": "Test your knowledge of glass.",
+            "quizQuestion": "If you hold a convex lens between a candle and a wall, and a sharp image of the flame appears on the wall, what physical characteristic MUST that image have?",
+            "quizOptions": [
+                "It will be black and white.",
+                "It will be a Virtual Image.",
+                "It will be perfectly upside-down (Inverted).",
+                "It will be physically hotter than the candle."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "geo_quiz_2",
+            "type": "quiz",
+            "title": "Mirror Quiz",
+            "content": "Review flat reflections.",
+            "quizQuestion": "When you stand 2 meters in front of a completely flat bathroom mirror, where does your Virtual Image appear to be located?",
+            "quizOptions": [
+                "Exactly on the surface of the glass.",
+                "2 meters behind the mirror.",
+                "1 meter behind the mirror.",
+                "Infinity."
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

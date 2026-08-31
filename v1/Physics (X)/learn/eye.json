@@ -1,0 +1,153 @@
+{
+    "id": "learn_eye",
+    "topicId": "eye",
+    "topicTitle": "The Human Eye and the Colourful World",
+    "description": "Explore the biological camera in your head, understand vision defects, and uncover the physics behind rainbows and blue skies.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "eye_1",
+            "type": "content",
+            "title": "Welcome to the Colorful World",
+            "content": "# The Ultimate Camera\n\nYou have just studied the refraction of light by lenses. Do you know you have two incredible natural lenses right inside your head?\n\nThe human eye uses light and enables us to see the colourful world around us. It is one of our most valuable and sensitive sense organs.\n\n## What You Will Learn:\n- **The Human Eye:** How does this biological camera work?\n- **Defects of Vision:** Why do people wear spectacles?\n- **Dispersion:** How a prism splits light into a rainbow.\n- **Atmospheric Refraction:** Why stars twinkle.\n- **Scattering of Light:** Why the sky is blue."
+        },
+        {
+            "id": "eye_2",
+            "type": "content",
+            "title": "Structure of the Human Eye",
+            "content": "# Inside the Eye\n\nThe human eye is like a camera. Its lens system forms an image on a light-sensitive screen called the retina.\n\n## Key Parts of the Eye:\n1. **Cornea:** Light enters the eye through a thin membrane called the cornea. It forms the transparent bulge on the front surface of the eyeball. Most of the refraction occurs here!\n2. **Iris:** Behind the cornea is a dark muscular diaphragm that controls the size of the pupil.\n3. **Pupil:** The hole in the middle of the iris. It regulates and controls the amount of light entering the eye (it shrinks in bright light and widens in the dark).\n4. **Eye Lens:** A crystalline convex lens that provides the fine adjustment of focal length required to focus objects."
+        },
+        {
+            "id": "eye_3",
+            "type": "content",
+            "title": "The Screen and the Cable",
+            "content": "# Processing the Image\n\nOnce light passes through the lens, where does it go?\n\n## 5. The Retina:\nThe lens focuses light to form a real and inverted image on the **retina**. The retina is a delicate membrane having enormous number of light-sensitive cells.\n- These cells get activated upon illumination and generate electrical signals.\n\n## 6. The Optic Nerve:\nThese electrical signals are sent to the brain via the optic nerve. The brain interprets these signals, and processes the information so that we perceive objects as they are (and turns the upside-down image right-side up!)."
+        },
+        {
+            "id": "eye_quiz_1",
+            "type": "quiz",
+            "title": "Eye Structure Quiz",
+            "content": "Check your anatomical knowledge.",
+            "quizQuestion": "Which part of the human eye controls the amount of light entering the eye by adjusting the size of the pupil?",
+            "quizOptions": [
+                "Cornea",
+                "Retina",
+                "Iris",
+                "Optic Nerve"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "eye_4",
+            "type": "content",
+            "title": "Power of Accommodation",
+            "content": "# The Adjustable Lens\n\nUnlike a glass lens, the eye lens is composed of a fibrous, jelly-like material. Its curvature can be modified to some extent by the **ciliary muscles**.\n\n## How it Works:\n- **Focusing Far:** When muscles are relaxed, the lens becomes thin. Its focal length increases, allowing you to see distant objects clearly.\n- **Focusing Near:** When you look at things close up, the ciliary muscles contract. This increases the curvature of the eye lens (it becomes thicker), decreasing the focal length, so you can see nearby objects.\n\n> **Definition:** The ability of the eye lens to adjust its focal length is called **accommodation**."
+        },
+        {
+            "id": "eye_5",
+            "type": "content",
+            "title": "Limits of Vision",
+            "content": "# The Near Point and Far Point\n\nEven with accommodation, the eye has its limits.\n\n## The Near Point:\nThe minimum distance at which an object can be seen most distinctly without strain is called the least distance of distinct vision, or the near point.\n- For a young adult with normal vision, the near point is about **25 cm**.\n- Try reading a book 5 cm from your eyes; it will be blurry and your eyes will strain!\n\n## The Far Point:\nThe farthest point up to which the eye can see objects clearly is called the far point.\n- For a normal eye, it is **infinity** (we can see stars that are light-years away!)."
+        },
+        {
+            "id": "eye_6",
+            "type": "content",
+            "title": "Defects of Vision: Myopia",
+            "content": "# Nearsightedness\n\nSometimes, the eye gradually loses its power of accommodation, leading to blurred vision.\n\n## Myopia (Near-sightedness):\nA person with myopia can see nearby objects clearly but cannot see distant objects distinctly.\n\n- **The Problem:** The image of a distant object is formed *in front* of the retina, not on it. This happens because the eyeball has become too long, or the lens is too curved.\n- **The Correction:** This defect can be corrected by using a **concave lens** of suitable power. A concave lens diverges the light rays slightly before they enter the eye, pushing the image back onto the retina."
+        },
+        {
+            "id": "eye_7",
+            "type": "content",
+            "title": "Defects of Vision: Hypermetropia",
+            "content": "# Farsightedness\n\n## Hypermetropia (Far-sightedness):\nA person with hypermetropia can see distant objects clearly but cannot see nearby objects distinctly (their near point is farther away than 25 cm).\n\n- **The Problem:** The image of a nearby object is formed *behind* the retina. This happens because the eyeball is too short, or the focal length of the lens is too long.\n- **The Correction:** This defect can be corrected by using a **convex lens** (converging lens). It provides the additional focusing power required to form the image on the retina."
+        },
+        {
+            "id": "eye_8",
+            "type": "content",
+            "title": "Presbyopia",
+            "content": "# The Aging Eye\n\nAs we get older, our eyes change.\n\n## What is Presbyopia?\nThe power of accommodation of the eye usually decreases with aging. For most people, the near point gradually recedes away. They find it difficult to read nearby things comfortably.\n\n- **The Cause:** It arises due to the gradual weakening of the ciliary muscles and diminishing flexibility of the eye lens.\n- **The Fix:** People usually need convex lenses (reading glasses) for reading. \n\nSometimes, a person suffers from both myopia and hypermetropia. Such people often require **bifocal lenses** (upper part is concave for distance, lower part is convex for reading)."
+        },
+        {
+            "id": "eye_quiz_2",
+            "type": "quiz",
+            "title": "Vision Defects Quiz",
+            "content": "Check your understanding of corrective lenses.",
+            "quizQuestion": "Which type of lens is used to correct Myopia (near-sightedness)?",
+            "quizOptions": [
+                "Convex lens",
+                "Concave lens",
+                "Bifocal lens",
+                "Cylindrical lens"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "eye_9",
+            "type": "content",
+            "title": "Refraction Through a Prism",
+            "content": "# The Glass Triangle\n\nYou have seen how light bends through a flat glass slab. But what happens when it passes through a triangular glass prism?\n\nA prism has two triangular bases and three rectangular lateral surfaces.\n\n## The Angle of Deviation:\nWhen a ray of light enters the prism, it bends towards the normal. When it exits the prism, it bends away from the normal.\nBecause of the peculiar shape of the prism, the emergent ray is bent at an angle to the direction of the incident ray. This angle is called the **angle of deviation**."
+        },
+        {
+            "id": "eye_10",
+            "type": "content",
+            "title": "Dispersion of White Light",
+            "content": "# Creating a Rainbow\n\nIsaac Newton was the first to use a glass prism to obtain the spectrum of sunlight.\n\n## The Spectrum:\nWhen a narrow beam of white sunlight hits a prism, the white light splits into a band of colors! \nThe various colors seen are Violet, Indigo, Blue, Green, Yellow, Orange, and Red (remember the acronym **VIBGYOR**).\n\n> **Definition:** The splitting of light into its component colors is called **dispersion**.\n\n## Why does it happen?\nDifferent colors of light bend through different angles with respect to the incident ray. Red light bends the least while violet the most. Thus, the colors get separated."
+        },
+        {
+            "id": "eye_11",
+            "type": "content",
+            "title": "Rainbows in Nature",
+            "content": "# Nature's Prism\n\nHow does a rainbow form in the sky?\n\n## The Process:\nA rainbow is a natural spectrum appearing in the sky after a rain shower. It is caused by dispersion of sunlight by tiny water droplets, present in the atmosphere.\n\n- The water droplets act like small **prisms**.\n- They refract and disperse the incident sunlight, then reflect it internally, and finally refract it again when it comes out of the raindrop.\n\n> **Rule:** A rainbow is always formed in a direction opposite to that of the Sun!"
+        },
+        {
+            "id": "eye_quiz_3",
+            "type": "quiz",
+            "title": "Dispersion Quiz",
+            "content": "Test your knowledge of the spectrum.",
+            "quizQuestion": "When white light passes through a glass prism, which color of light bends the most?",
+            "quizOptions": [
+                "Red",
+                "Yellow",
+                "Green",
+                "Violet"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "eye_12",
+            "type": "content",
+            "title": "Atmospheric Refraction",
+            "content": "# The Bending Atmosphere\n\nThe earth's atmosphere is not uniform. The air just above hot ground is hotter (and less dense/optically rarer) than the cooler air further up.\n\nBecause the physical conditions of the refracting medium (air) are not stationary, the apparent position of objects seen through the air fluctuates. This is **atmospheric refraction**.\n\n## Twinkling of Stars:\nThe twinkling of a star is due to atmospheric refraction of starlight. The starlight, on entering the earth's atmosphere, undergoes continuous refraction before it reaches the earth. Since the atmosphere bends starlight towards the normal, the apparent position of the star is slightly different from its actual position."
+        },
+        {
+            "id": "eye_13",
+            "type": "content",
+            "title": "Advanced Sunrise and Delayed Sunset",
+            "content": "# A Trick of the Light\n\nBecause of atmospheric refraction, the Sun is visible to us about **2 minutes before** the actual sunrise, and about **2 minutes after** the actual sunset!\n\n## How?\nAs sunlight enters the earth's atmosphere, it bends downwards towards the observer. Therefore, even when the Sun is physically just below the horizon, the bent light reaches our eyes, making it look like the Sun has already risen (or hasn't set yet).\n\nThe time difference between actual sunset and the apparent sunset is about 2 minutes."
+        },
+        {
+            "id": "eye_14",
+            "type": "content",
+            "title": "Scattering of Light",
+            "content": "# The Tyndall Effect\n\nThe path of light becomes visible when it strikes tiny particles.\n\n## The Tyndall Effect:\nThe earth's atmosphere is a heterogeneous mixture of minute particles (smoke, water droplets, dust, air molecules).\nWhen a beam of light strikes such fine particles, the path of the beam becomes visible. This phenomenon of scattering of light by colloidal particles gives rise to the Tyndall effect.\n\n*Example:* When a fine beam of sunlight enters a smoke-filled room through a small hole."
+        },
+        {
+            "id": "eye_15",
+            "type": "content",
+            "title": "Why is the Sky Blue?",
+            "content": "# The Physics of the Sky\n\nThe molecules of air and other fine particles in the atmosphere have a size smaller than the wavelength of visible light.\n\n## Selective Scattering:\n- These very fine particles are highly effective in scattering light of shorter wavelengths at the blue end of the spectrum.\n- They are less effective at scattering light of longer wavelengths (red end).\n\nWhen sunlight passes through the atmosphere, the fine particles scatter the blue color (shorter wavelengths) more strongly than red. The scattered blue light enters our eyes, making the sky appear blue!"
+        },
+        {
+            "id": "eye_16",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Accommodation:** The ability of the eye lens to adjust its focal length.\n- **Myopia:** Near-sightedness (corrected with a concave lens).\n- **Hypermetropia:** Far-sightedness (corrected with a convex lens).\n- **Presbyopia:** Loss of accommodation due to aging.\n- **Dispersion:** Splitting of white light into its component colors.\n- **Atmospheric Refraction:** Bending of light by the earth's atmosphere (causes stars to twinkle).\n- **Scattering of Light:** Deflection of light by particles (makes the sky blue)."
+        },
+        {
+            "id": "eye_17",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of The Human Eye\n\nExcellent work! Here is a recap of what we've learned:\n\n- The **Human Eye** uses a crystalline lens to focus light onto the **retina**. The **ciliary muscles** adjust the lens (accommodation).\n- Vision defects include **Myopia** (corrected by concave lens) and **Hypermetropia** (corrected by convex lens).\n- A glass prism causes **dispersion** of white light into the VIBGYOR spectrum. Rainbows form similarly using water droplets.\n- **Atmospheric Refraction** causes stars to twinkle and makes the sun visible before actual sunrise.\n- The **Scattering of Light** by fine particles (Tyndall effect) is the reason the sky appears blue."
+        }
+    ]
+}

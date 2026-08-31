@@ -1,0 +1,147 @@
+{
+    "id": "learn_reactions",
+    "topicId": "reactions",
+    "topicTitle": "Chemical Reactions and Equations",
+    "description": "Learn the language of chemistry! Discover how to write equations, balance them, and identify different types of chemical reactions.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "rxn_1",
+            "type": "content",
+            "title": "Welcome to Chemical Reactions",
+            "content": "# The Magic of Transformation\n\nWhat happens when milk is left at room temperature during summers? Or when an iron nail is left exposed to humid atmosphere? Or when food gets digested in our body?\n\nIn all these situations, the nature and identity of the initial substance have somewhat changed. A **chemical change** has occurred.\n\nWhenever a chemical change occurs, we can say that a **chemical reaction** has taken place.\n\n## What You Will Learn:\n- **Writing Equations:** The shorthand of chemistry.\n- **Balancing Equations:** Making sure the math is right.\n- **Types of Reactions:** Combination, Decomposition, Displacement.\n- **Oxidation & Reduction:** The transfer of oxygen and electrons."
+        },
+        {
+            "id": "rxn_2",
+            "type": "content",
+            "title": "Identifying a Chemical Reaction",
+            "content": "# How Do We Know?\n\nHow do we come to know that a chemical reaction has taken place? Let's look at an experiment.\n\nIf you burn a magnesium ribbon in air, it burns with a dazzling white flame and changes into a white powder (Magnesium oxide).\n\nAny of the following observations helps us to determine whether a chemical reaction has taken place:\n1. Change in **state** (e.g., solid to gas).\n2. Change in **color**.\n3. Evolution of a **gas** (bubbles/fizzing).\n4. Change in **temperature** (the flask gets hot or cold)."
+        },
+        {
+            "id": "rxn_3",
+            "type": "content",
+            "title": "Chemical Equations",
+            "content": "# The Language of Chemistry\n\nWhen a magnesium ribbon is burnt in oxygen, it gets converted to magnesium oxide. This description of a chemical reaction in a sentence form is quite long.\n\nIt can be written in a shorter form using a **word-equation**:\n`Magnesium + Oxygen -> Magnesium oxide`\n\n- The substances that undergo chemical change are the **reactants** (written on the left).\n- The new substance formed is the **product** (written on the right).\n- The arrowhead points towards the products, showing the direction of the reaction."
+        },
+        {
+            "id": "rxn_quiz_1",
+            "type": "quiz",
+            "title": "Reactants Quiz",
+            "content": "Check your understanding of equations.",
+            "quizQuestion": "In the word equation 'Carbon + Oxygen -> Carbon dioxide', what are Carbon and Oxygen called?",
+            "quizOptions": [
+                "Products",
+                "Catalysts",
+                "Reactants",
+                "Solvents"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "rxn_4",
+            "type": "content",
+            "title": "Writing Skeletal Equations",
+            "content": "# Using Symbols\n\nChemical equations can be made more concise and useful if we use chemical formulae instead of words.\n\n`Mg + O2 -> MgO`\n\nCount and compare the number of atoms of each element on the left-hand side (LHS) and right-hand side (RHS) of the arrow.\n\n- LHS has 1 Mg atom and 2 O atoms.\n- RHS has 1 Mg atom and 1 O atom.\n\nIs the number of atoms of each element the same on both sides? No. Such an equation is unbalanced because the mass is not the same on both sides of the equation. This is called a **skeletal chemical equation**."
+        },
+        {
+            "id": "rxn_5",
+            "type": "content",
+            "title": "Balanced Chemical Equations",
+            "content": "# The Law of Conservation of Mass\n\nRecall the law of conservation of mass: mass can neither be created nor destroyed in a chemical reaction.\n\nThat means the total mass of the elements present in the products must be equal to the total mass of the elements present in the reactants.\n\nIn other words, the number of atoms of each element remains the same, before and after a chemical reaction. Therefore, we need to balance the skeletal chemical equation.\n\nTo balance the Magnesium equation, we put a '2' in front of MgO, and a '2' in front of Mg:\n`2Mg + O2 -> 2MgO`\nNow it is balanced!"
+        },
+        {
+            "id": "rxn_6",
+            "type": "content",
+            "title": "Types of Reactions: Combination",
+            "content": "# Putting Things Together\n\nNow let's look at the different categories of reactions.\n\n## 1. Combination Reaction\nA reaction in which a single product is formed from two or more reactants is known as a combination reaction.\n\n**Example: Burning of coal**\n`C (solid) + O2 (gas) -> CO2 (gas)`\n\nHere, Carbon and Oxygen combine to form a single product, Carbon dioxide.\nOften, these reactions release a large amount of heat, making the reaction mixture warm (these are called exothermic reactions)."
+        },
+        {
+            "id": "rxn_7",
+            "type": "content",
+            "title": "Types of Reactions: Decomposition",
+            "content": "# Breaking Things Apart\n\n## 2. Decomposition Reaction\nThis is the opposite of a combination reaction. In this reaction, a single reactant breaks down to give simpler products.\n\n**Example: Heating Limestone**\nWhen calcium carbonate (limestone) is heated, it decomposes to give calcium oxide (quicklime) and carbon dioxide gas.\n`CaCO3 (solid) + Heat -> CaO (solid) + CO2 (gas)`\n\nBecause decomposition reactions require energy (in the form of heat, light, or electricity) for breaking down the reactants, they are called **endothermic** reactions."
+        },
+        {
+            "id": "rxn_quiz_2",
+            "type": "quiz",
+            "title": "Reaction Types Quiz",
+            "content": "Check your understanding of reaction types.",
+            "quizQuestion": "A reaction where a single reactant breaks down into multiple simpler products is called a:",
+            "quizOptions": [
+                "Combination reaction",
+                "Displacement reaction",
+                "Decomposition reaction",
+                "Oxidation reaction"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "rxn_8",
+            "type": "content",
+            "title": "Types of Reactions: Displacement",
+            "content": "# The Chemical Swap\n\n## 3. Displacement Reaction\nWhat happens when you drop iron nails into a blue solution of copper sulphate? After a while, the nails become brownish, and the blue color of the solution fades.\n\n`Fe (solid) + CuSO4 (aqueous) -> FeSO4 (aqueous) + Cu (solid)`\n\nIn this reaction, iron has displaced or removed another element, copper, from the copper sulphate solution. This reaction is known as a displacement reaction. (Iron does this because it is more reactive than copper!)."
+        },
+        {
+            "id": "rxn_9",
+            "type": "content",
+            "title": "Types of Reactions: Double Displacement",
+            "content": "# The Double Swap\n\n## 4. Double Displacement Reaction\nSometimes, two compounds react, and they both swap their ions with each other.\n\n**Example:**\nMixing a solution of sodium sulphate with barium chloride.\n`Na2SO4 (aq) + BaCl2 (aq) -> BaSO4 (solid) + 2NaCl (aq)`\n\n- The sodium and the barium swap places!\n- Also, notice that BaSO4 is a solid. It forms a white substance that is insoluble in water. Any reaction that produces an insoluble solid (a precipitate) can be called a **precipitation reaction**."
+        },
+        {
+            "id": "rxn_10",
+            "type": "content",
+            "title": "Oxidation and Reduction",
+            "content": "# Oxygen Transfer\n\n## Oxidation:\nIf a substance **gains oxygen** during a reaction, it is said to be oxidized.\n- *Example:* Heating copper powder in air turns it black because oxygen is added to copper to form copper oxide.\n`2Cu + O2 -> 2CuO` (Copper is oxidized)\n\n## Reduction:\nIf a substance **loses oxygen** during a reaction, it is said to be reduced.\n- *Example:* If hydrogen gas is passed over heated copper oxide, the black coating turns brown as the reverse reaction takes place.\n`CuO + H2 -> Cu + H2O` (Copper oxide is reduced)"
+        },
+        {
+            "id": "rxn_11",
+            "type": "content",
+            "title": "Redox Reactions",
+            "content": "# Happening Together\n\nLook closely at this reaction again:\n`CuO + H2 -> Cu + H2O`\n\n- The copper oxide (CuO) is losing oxygen and is being **reduced** to Cu.\n- The hydrogen (H2) is gaining oxygen and is being **oxidized** to H2O.\n\nIn other words, one reactant gets oxidized while the other gets reduced during a reaction. Such reactions are called oxidation-reduction reactions or **redox reactions**."
+        },
+        {
+            "id": "rxn_quiz_3",
+            "type": "quiz",
+            "title": "Redox Quiz",
+            "content": "Check your understanding of oxidation.",
+            "quizQuestion": "If a substance gains oxygen during a chemical reaction, it is said to be:",
+            "quizOptions": [
+                "Reduced",
+                "Precipitated",
+                "Oxidized",
+                "Displaced"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "rxn_12",
+            "type": "content",
+            "title": "Effects of Oxidation: Corrosion",
+            "content": "# The Slow Destruction\n\nOxidation reactions happen in everyday life, often with negative consequences.\n\n## Corrosion:\nYou must have observed that iron articles are shiny when new, but get coated with a reddish-brown powder when left for some time (rusting).\n\nWhen a metal is attacked by substances around it such as moisture, acids, etc., it is said to corrode, and this process is called **corrosion**.\n- The black coating on silver and the green coating on copper are other examples of corrosion.\n- Corrosion causes enormous damage to car bodies, bridges, iron railings, and ships."
+        },
+        {
+            "id": "rxn_13",
+            "type": "content",
+            "title": "Effects of Oxidation: Rancidity",
+            "content": "# Spoiled Food\n\nHave you ever tasted or smelt the fat/oil containing food materials left for a long time?\n\n## Rancidity:\nWhen fats and oils are oxidized, they become **rancid** and their smell and taste change.\n\nHow do we prevent this?\n1. Usually substances which prevent oxidation (antioxidants) are added to foods containing fats and oil.\n2. Keeping food in airtight containers helps to slow down oxidation.\n3. Chip manufacturers usually flush bags of chips with an inert gas such as **nitrogen** to prevent the chips from getting oxidized!"
+        },
+        {
+            "id": "rxn_14",
+            "type": "content",
+            "title": "Physical States in Equations",
+            "content": "# Adding Details\n\nTo make a chemical equation more informative, the physical states of the reactants and products are mentioned along with their chemical formulae.\n\nThe gaseous, liquid, aqueous and solid states of reactants and products are represented by the notations (g), (l), (aq) and (s), respectively.\n- The word aqueous (aq) is written if the reactant or product is present as a solution in water.\n\nExample:\n`3Fe(s) + 4H2O(g) -> Fe3O4(s) + 4H2(g)`\n*(Notice the H2O is marked 'g' here, meaning steam was used, not liquid water!)*"
+        },
+        {
+            "id": "rxn_15",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Reactants:** Substances that undergo chemical change.\n- **Products:** The new substances formed in a reaction.\n- **Balanced Equation:** An equation with equal numbers of atoms for each element on both sides.\n- **Combination Reaction:** A + B -> AB\n- **Decomposition Reaction:** AB -> A + B\n- **Displacement Reaction:** A + BC -> AC + B\n- **Double Displacement:** AB + CD -> AD + CB\n- **Oxidation:** Gaining oxygen.\n- **Reduction:** Losing oxygen."
+        },
+        {
+            "id": "rxn_16",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Reactions and Equations\n\nExcellent work! Here is a recap of what we've learned:\n\n- A **chemical reaction** involves breaking old bonds and making new ones, resulting in new substances. It is identified by changes in state, color, temperature, or gas evolution.\n- We use **chemical equations** to represent these reactions, and they must always be **balanced** to obey the Law of Conservation of Mass.\n- Reactions can be classified into **Combination**, **Decomposition** (requires energy), **Displacement**, and **Double Displacement** (often forms precipitates).\n- **Oxidation** involves gaining oxygen, while **Reduction** involves losing oxygen. They usually happen together in **Redox** reactions.\n- Everyday oxidation includes metal **corrosion** (rusting) and food **rancidity**."
+        }
+    ]
+}

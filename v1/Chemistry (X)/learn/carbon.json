@@ -1,0 +1,141 @@
+{
+    "id": "learn_carbon",
+    "topicId": "carbon",
+    "topicTitle": "Carbon and its Compounds",
+    "description": "Discover the element of life! Learn how Carbon's unique ability to share electrons creates the infinite variety of organic molecules.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "carbon_1",
+            "type": "content",
+            "title": "Welcome to the World of Carbon",
+            "content": "# The Element of Life\n\nFood, clothes, medicines, books, or many of the things that you use are all based on this versatile element: **Carbon**.\n\nIn addition, all living structures (including you!) are carbon-based.\nThe amount of carbon present in the earth's crust and in the atmosphere is quite meager (0.02% in minerals, 0.03% as CO2), yet it is the most important element for life.\n\n## What You Will Learn:\n- **Covalent Bonds:** Sharing instead of stealing electrons.\n- **The Versatile Nature of Carbon:** Why is carbon so special?\n- **Hydrocarbons:** Chains and rings of fuel.\n- **Functional Groups:** Adding flavor to carbon chains.\n- **Nomenclature:** How to name organic compounds."
+        },
+        {
+            "id": "carbon_2",
+            "type": "content",
+            "title": "Bonding in Carbon",
+            "content": "# The Covalent Bond\n\nIn the previous chapter, we saw how ionic compounds form by transferring electrons (stealing/giving).\n\nCarbon has 4 electrons in its outermost shell (Atomic number 6; configuration 2, 4).\nTo achieve a noble gas configuration, it needs to gain or lose 4 electrons.\n- It cannot gain 4 electrons (forming C4- anion) because its nucleus with 6 protons couldn't hold onto 10 electrons.\n- It cannot lose 4 electrons (forming C4+ cation) because it would require a massive amount of energy to remove them.\n\n## The Solution: Sharing!\nCarbon overcomes this problem by **sharing** its valence electrons with other atoms of carbon or with atoms of other elements. This shared bond is called a **covalent bond**."
+        },
+        {
+            "id": "carbon_3",
+            "type": "content",
+            "title": "Types of Covalent Bonds",
+            "content": "# Single, Double, and Triple\n\nNot just carbon, many other elements form covalent bonds by sharing electrons.\n\n1. **Single Bond:** Formed when two atoms share one pair of electrons. \n   *Example:* Hydrogen (H2). Each H has 1 electron, they share them to both get 2 (stable).\n2. **Double Bond:** Formed when two atoms share two pairs of electrons. \n   *Example:* Oxygen (O2). Each O needs 2 electrons, so they share two pairs.\n3. **Triple Bond:** Formed when two atoms share three pairs of electrons. \n   *Example:* Nitrogen (N2). Each N needs 3 electrons, so they share three pairs."
+        },
+        {
+            "id": "carbon_quiz_1",
+            "type": "quiz",
+            "title": "Covalent Quiz",
+            "content": "Check your understanding of shared bonds.",
+            "quizQuestion": "Which type of bond is formed by the sharing of electron pairs between two atoms?",
+            "quizOptions": [
+                "Ionic bond",
+                "Metallic bond",
+                "Electrovalent bond",
+                "Covalent bond"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "carbon_4",
+            "type": "content",
+            "title": "Properties of Covalent Compounds",
+            "content": "# Weak Forces, Poor Conductors\n\nCovalent bonds are very strong *within* the molecule, but the intermolecular forces (the forces *between* different molecules) are weak.\n\n## Key Properties:\n1. **Low Melting/Boiling Points:** Because the forces between the molecules are weak, it doesn't take much heat to break them apart.\n2. **Poor Conductors of Electricity:** Since the electrons are shared and no charged particles (ions) are formed, they generally do not conduct electricity."
+        },
+        {
+            "id": "carbon_5",
+            "type": "content",
+            "title": "Allotropes of Carbon",
+            "content": "# Different Forms, Same Element\n\nThe element carbon occurs in different forms in nature with widely varying physical properties, even though their chemical properties are exactly the same! These are called **allotropes**.\n\n1. **Diamond:** Each carbon atom is bonded to four other carbon atoms forming a rigid 3D structure. It is the hardest known natural substance and an insulator.\n2. **Graphite:** Each carbon atom is bonded to three other carbon atoms in the same plane, giving hexagonal arrays placed in layers. It is smooth, slippery, and a very good conductor of electricity!\n3. **Fullerenes:** Like Buckminsterfullerene (C60), which has carbon atoms arranged in the shape of a football."
+        },
+        {
+            "id": "carbon_6",
+            "type": "content",
+            "title": "The Versatile Nature of Carbon",
+            "content": "# Why are there so many Carbon compounds?\n\nThe number of carbon compounds is estimated to be over 3 million! Why carbon? Two factors:\n\n## 1. Catenation:\nCarbon has the unique ability to form bonds with other atoms of carbon, giving rise to large molecules. This property is called catenation. Carbon atoms can be linked in long chains, branched chains, or even rings! No other element exhibits catenation to this extent.\n\n## 2. Tetravalency:\nSince carbon has a valency of four, it is capable of bonding with four other atoms of carbon or atoms of some other mono-valent element (like H, O, N, S, Cl)."
+        },
+        {
+            "id": "carbon_7",
+            "type": "content",
+            "title": "Saturated and Unsaturated Carbon Compounds",
+            "content": "# Single vs Multiple Bonds\n\nWhen carbon bonds with hydrogen, it forms **Hydrocarbons**.\n\n## Saturated Hydrocarbons:\nCompounds of carbon in which all carbon atoms are linked by only **single bonds** are called saturated compounds. \n- They are normally not very reactive.\n- They are called **Alkanes**.\n\n## Unsaturated Hydrocarbons:\nCompounds of carbon having **double or triple bonds** between their carbon atoms are called unsaturated compounds. \n- They are more reactive.\n- Double bonded ones are **Alkenes**.\n- Triple bonded ones are **Alkynes**."
+        },
+        {
+            "id": "carbon_quiz_2",
+            "type": "quiz",
+            "title": "Versatility Quiz",
+            "content": "Check your understanding of carbon's superpowers.",
+            "quizQuestion": "The unique ability of carbon atoms to form long chains and rings by bonding with each other is called:",
+            "quizOptions": [
+                "Tetravalency",
+                "Catenation",
+                "Isomerism",
+                "Allotropy"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "carbon_8",
+            "type": "content",
+            "title": "Naming Hydrocarbons (Alkanes)",
+            "content": "# The Carbon Prefix\n\nTo name hydrocarbons, we use a prefix to indicate the number of carbon atoms, and a suffix to indicate the type of bond.\n\n## Prefixes (Number of Carbons):\n1 C = Meth-\n2 C = Eth-\n3 C = Prop-\n4 C = But-\n5 C = Pent-\n6 C = Hex-\n\n## Suffix (Type of Bond):\n- Single bonds = -ane\n\n*Examples:* \n- CH4 (1 carbon, single bonds) = **Methane**\n- C2H6 (2 carbons, single bonds) = **Ethane**"
+        },
+        {
+            "id": "carbon_9",
+            "type": "content",
+            "title": "Structural Isomers",
+            "content": "# Same Formula, Different Structure\n\nLet's look at Butane (C4H10). It has 4 carbons. \n\nWe could attach all 4 carbons in a straight line: C-C-C-C.\nBut we could also attach 3 in a line, and put the 4th one branching off the middle carbon!\n\nBoth of these structures have exactly the same molecular formula (C4H10), but their structures (and properties) are different.\n\n> **Definition:** Compounds with identical molecular formula but different structures are called **structural isomers**."
+        },
+        {
+            "id": "carbon_10",
+            "type": "content",
+            "title": "Functional Groups",
+            "content": "# The Heteroatoms\n\nCarbon doesn't just bond with hydrogen. It can bond with other elements (heteroatoms) like halogens, oxygen, nitrogen, and sulphur. \n\nThese heteroatoms (or groups of atoms) replace one or more hydrogen atoms in the hydrocarbon chain. They confer specific properties to the compound, regardless of the length of the carbon chain!\n\nThese atoms or groups of atoms are called **functional groups**."
+        },
+        {
+            "id": "carbon_11",
+            "type": "content",
+            "title": "Important Functional Groups",
+            "content": "# Adding Flavor to the Chain\n\nHere are some common functional groups containing Oxygen:\n\n1. **Alcohol (-OH):** Replaces a hydrogen. Suffix is '-ol'. (e.g., Ethanol).\n2. **Aldehyde (-CHO):** Has a C=O double bond at the *end* of the chain. Suffix is '-al'. (e.g., Ethanal).\n3. **Ketone (>C=O):** Has a C=O double bond in the *middle* of the chain. Suffix is '-one'. (e.g., Propanone).\n4. **Carboxylic Acid (-COOH):** Has both a C=O and an -OH on the end carbon. Suffix is '-oic acid'. (e.g., Ethanoic acid)."
+        },
+        {
+            "id": "carbon_quiz_3",
+            "type": "quiz",
+            "title": "Functional Groups Quiz",
+            "content": "Test your organic chemistry naming.",
+            "quizQuestion": "An organic compound with a two-carbon chain and an alcohol (-OH) functional group is called:",
+            "quizOptions": [
+                "Ethanal",
+                "Ethanoic acid",
+                "Ethanol",
+                "Ethene"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "carbon_12",
+            "type": "content",
+            "title": "Homologous Series",
+            "content": "# The Family Tree\n\nA series of compounds in which the same functional group substitutes for hydrogen in a carbon chain is called a **homologous series**.\n\nLet us look at the homologous series of alcohols:\n- Methanol: CH3OH\n- Ethanol: C2H5OH\n- Propanol: C3H7OH\n- Butanol: C4H9OH\n\nNotice that each successive member differs from the previous one by a **-CH2-** unit! \nBecause the functional group is the same, the chemical properties of a homologous series are highly similar."
+        },
+        {
+            "id": "carbon_13",
+            "type": "content",
+            "title": "Combustion of Carbon Compounds",
+            "content": "# Burning Fuels\n\nMost carbon compounds release a large amount of heat and light on burning. This is why most of our fuels (coal, petroleum, natural gas) are carbon compounds!\n\n## Clean vs Sooty Flames:\n- **Saturated hydrocarbons** (alkanes) generally give a clean blue flame because there is complete combustion of carbon.\n- **Unsaturated hydrocarbons** (alkenes/alkynes) give a yellow flame with lots of black smoke (soot) because the carbon is not completely burnt.\n\n*(Note: If you limit the oxygen supply, even saturated hydrocarbons will burn with a sooty yellow flame, like when the holes in a gas stove get blocked!)*"
+        },
+        {
+            "id": "carbon_14",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Covalent Bond:** Formed by sharing pairs of electrons.\n- **Allotropes:** Different physical forms of the same element (Diamond, Graphite, Fullerenes).\n- **Catenation:** The unique ability of carbon to form long chains with itself.\n- **Saturated:** Hydrocarbons with only single bonds (Alkanes).\n- **Unsaturated:** Hydrocarbons with double (Alkenes) or triple (Alkynes) bonds.\n- **Structural Isomers:** Same molecular formula, different structural arrangement.\n- **Functional Group:** An atom or group that dictates the compound's chemical properties (e.g., -OH for alcohol).\n- **Homologous Series:** A family of compounds differing by a -CH2- unit."
+        },
+        {
+            "id": "carbon_15",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Carbon and its Compounds\n\nExcellent work! Here is a recap of what we've learned:\n\n- Carbon forms **covalent bonds** by sharing its 4 valence electrons to complete its octet. Covalent compounds generally have low melting points and do not conduct electricity (except graphite!).\n- The vast number of carbon compounds is due to **catenation** (chain-building) and its **tetravalency**.\n- Hydrocarbons can be **saturated** (single bonds, -ane) or **unsaturated** (double/triple bonds, -ene/-yne).\n- Molecules with the same formula but different structures are **structural isomers**.\n- **Functional groups** (like alcohols, aldehydes, ketones, and carboxylic acids) attach to carbon chains and give them specific chemical properties.\n- A **homologous series** is a family of compounds with the same functional group, where members differ by a -CH2- unit."
+        }
+    ]
+}

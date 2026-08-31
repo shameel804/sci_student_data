@@ -1,0 +1,59 @@
+{
+    "id": "bot_taxonomy",
+    "topicId": "taxonomy",
+    "topicTitle": "Plant Taxonomy",
+    "description": "Learn how botanists classify, name, and preserve the immense diversity of the plant kingdom.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "btax_1",
+            "type": "content",
+            "title": "Welcome to Plant Taxonomy",
+            "content": "# Plant Taxonomy\n\nWelcome to Plant Taxonomy! This is the science of identifying, naming, and classifying the incredibly diverse plant kingdom, allowing botanists worldwide to communicate clearly.\n\n## What You Will Learn:\n- **Classification Systems** - Artificial, Natural, and Phylogenetic\n- **Herbarium Techniques** - Preserving plant specimens\n- **Floral Formulas** - The shorthand code of flowers\n- **Angiosperm Families** - Recognizing major plant groups\n\n> **Fun Fact:** The Royal Botanic Gardens in Kew, London, houses an herbarium with over 7 million preserved plant specimens!"
+        },
+        {
+            "id": "btax_2",
+            "type": "content",
+            "title": "Classification Systems",
+            "content": "# How to Group Plants\n\nHistorically, botanists used different methods to classify plants as their understanding grew.\n\n## 1. Artificial Systems:\n- The earliest systems (like that of Linnaeus).\n- Based on just one or a few easily observable morphological characters, like the number of stamens or whether it's a tree, shrub, or herb.\n- **Problem:** Closely related species were often placed in different groups just because they looked different.\n\n## 2. Natural Systems:\n- Based on a large number of natural affinities (external and internal structures like anatomy, embryology, and phytochemistry).\n- George Bentham and Joseph Dalton Hooker proposed a famous natural system for seed plants.\n\n## 3. Phylogenetic Systems:\n- The modern approach. Based entirely on evolutionary relationships (fossil records and DNA sequencing). Assumes that organisms in the same taxa share a common ancestor."
+        },
+        {
+            "id": "btax_3",
+            "type": "content",
+            "title": "The Herbarium",
+            "content": "# The Plant Library\n\nAn herbarium is a storehouse of collected plant specimens that are dried, pressed, and preserved on sheets.\n\n## The Process:\n1. **Collection:** Carefully collecting the plant (with flowers/fruits if possible).\n2. **Pressing and Drying:** Placed between newspaper and pressed flat to remove moisture and prevent fungal growth.\n3. **Mounting:** Glued or stitched onto a standard-sized stiff paper sheet.\n4. **Labeling:** The bottom right corner MUST have a label containing: date/place of collection, English name, local name, botanical (scientific) name, family, and the collector's name.\n\nHerbaria serve as a permanent reference system for taxonomic studies."
+        },
+        {
+            "id": "btax_4",
+            "type": "content",
+            "title": "Floral Formula",
+            "content": "# The Code of a Flower\n\nBotanists use a shorthand formula to describe the structure of a flower quickly and accurately.\n\n## Common Symbols:\n- **Br:** Bracteate (has a modified leaf at the base)\n- **K:** Calyx (the whorl of sepals)\n- **C:** Corolla (the whorl of petals)\n- **P:** Perianth (when sepals and petals are indistinguishable, like in lilies)\n- **A:** Androecium (stamens, male parts)\n- **G:** Gynoecium (carpels, female parts)\n- **+ in a circle:** Actinomorphic (radial symmetry)\n- **%:** Zygomorphic (bilateral symmetry)\n\nNumbers indicate how many parts are present. Brackets `()` mean the parts are fused together. A line under the G means a superior ovary."
+        },
+        {
+            "id": "btax_5",
+            "type": "content",
+            "title": "Major Angiosperm Families",
+            "content": "# Recognizing Plant Families\n\n## 1. Fabaceae (The Pea/Bean Family):\n- Leaves are usually alternate and pinnately compound.\n- Flowers are highly zygomorphic (butterfly-shaped corolla).\n- Fruit is a legume (pod).\n- Economically crucial for pulses (gram, arhar, moong), edible oils (soybean), and fixing nitrogen in the soil.\n\n## 2. Solanaceae (The Potato Family):\n- Mostly herbs or shrubs. Leaves are alternate.\n- Flowers are actinomorphic.\n- Important sources of food (tomato, potato, eggplant), spices (chili), and medicine (belladonna). Tobacco also belongs here!\n\n## 3. Liliaceae (The Lily Family):\n- Monocotyledons. Leaves often have parallel venation.\n- Have a perianth (sepals and petals look the same, called tepals), usually 6 in two whorls.\n- Examples: Onion, garlic, aloe vera, tulips."
+        },
+        {
+            "id": "btax_quiz_1",
+            "type": "quiz",
+            "title": "Taxonomy Quiz",
+            "content": "Test your botanical classification.",
+            "quizQuestion": "Which type of classification system is based primarily on evolutionary relationships and genetic ancestry?",
+            "quizOptions": [
+                "Artificial system",
+                "Natural system",
+                "Phylogenetic system",
+                "Linnaean system"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "btax_6",
+            "type": "content",
+            "title": "Summary: Plant Taxonomy",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Systems:** Artificial (few traits), Natural (many traits), Phylogenetic (evolutionary history).\n- **Herbarium:** Dried, pressed, mounted plants serving as a reference library. Labels must contain specific collection data.\n- **Floral Formula:** Shorthand using symbols (K for calyx, C for corolla, A for androecium, G for gynoecium) to describe floral anatomy.\n- **Fabaceae:** The legume family (peas, beans). Zygomorphic flowers.\n- **Solanaceae:** The potato family (tomatoes, chilies).\n- **Liliaceae:** Monocots with a perianth (onions, lilies).\n\n> **Congratulations!** You have completed the Plant Taxonomy module."
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "id": "bot_anatomy",
+    "topicId": "anatomy",
+    "topicTitle": "Plant Anatomy",
+    "description": "Explore the internal architecture of plants, from growing root tips to the formation of wood.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "banat_1",
+            "type": "content",
+            "title": "Welcome to Plant Anatomy",
+            "content": "# Plant Anatomy\n\nWelcome to Plant Anatomy! This is the study of the internal structure and tissues of plants. We will look at how plants are built from the inside out.\n\n## What You Will Learn:\n- **Meristematic Tissues** - Where plant growth happens\n- **Permanent Tissues** - Simple and complex tissues\n- **Xylem and Phloem** - The vascular system\n- **Secondary Growth** - How trees get thicker\n\n> **Fun Fact:** By looking at the anatomy of tree rings, scientists can determine not only the age of the tree but the exact climate conditions for every year it lived!"
+        },
+        {
+            "id": "banat_2",
+            "type": "content",
+            "title": "Meristematic Tissue",
+            "content": "# The Centers of Growth\n\nUnlike animals, plants continue to grow throughout their entire life. This growth is localized in specific regions containing Meristematic Tissue.\n\n## Characteristics:\n- Composed of actively dividing, undifferentiated cells.\n- Cells have thin walls, dense cytoplasm, and lack vacuoles.\n\n## Types based on location:\n1. **Apical Meristems:** Located at the very tips of roots and shoots. Responsible for primary growth (increasing the **length** of the plant).\n2. **Lateral Meristems:** Located parallel to the sides of the stem/root. Responsible for secondary growth (increasing the **girth/thickness** of the plant, like wood). E.g., Vascular cambium.\n3. **Intercalary Meristems:** Located at the base of leaves or internodes (common in grasses). Allows cut grass to quickly regrow."
+        },
+        {
+            "id": "banat_3",
+            "type": "content",
+            "title": "Simple Permanent Tissues",
+            "content": "# Simple Permanent Tissues\n\nOnce meristematic cells mature and stop dividing, they become permanent tissues. Simple tissues are made of only ONE type of cell.\n\n## 1. Parenchyma:\n- The most common tissue. Thin-walled, living cells.\n- Forms the bulk of the plant body.\n- Function: Photosynthesis (if they have chloroplasts, called chlorenchyma), storage of food, and secretion.\n\n## 2. Collenchyma:\n- Living cells with walls thickened at the corners (due to pectin and cellulose).\n- Function: Provides flexible mechanical support to growing parts (like the stem of a young plant or the stalk of a leaf).\n\n## 3. Sclerenchyma:\n- Dead cells at maturity! Walls are extremely thick and highly lignified.\n- Function: Purely mechanical support and rigidity. (Forms the hard shells of nuts and the grit in pears)."
+        },
+        {
+            "id": "banat_4",
+            "type": "content",
+            "title": "Complex Permanent Tissues: Xylem",
+            "content": "# The Vascular System: Xylem\n\nComplex tissues are made of MORE THAN ONE type of cell working together. The vascular tissues are the plant's plumbing.\n\n## Xylem (Water Transport):\n- Conducts water and dissolved minerals upwards from roots to leaves.\n- Most of the cells are DEAD and lignified to form strong, hollow pipes.\n\n## Elements of Xylem:\n1. **Tracheids:** Long, elongated dead cells with tapering ends. Present in all vascular plants.\n2. **Vessels:** Long, cylindrical tube-like structures made of many cells fused end-to-end. (Primarily found in Angiosperms, making them highly efficient at moving water).\n3. **Xylem Fibers:** Sclerenchyma cells for support.\n4. **Xylem Parenchyma:** The only living cells in the xylem! Used for storage."
+        },
+        {
+            "id": "banat_5",
+            "type": "content",
+            "title": "Complex Permanent Tissues: Phloem",
+            "content": "# The Vascular System: Phloem\n\n## Phloem (Food Transport):\n- Conducts synthesized food (sugars) from the leaves to all other parts of the plant (bidirectional flow).\n- Most of the cells are LIVING.\n\n## Elements of Phloem (in Angiosperms):\n1. **Sieve Tube Elements:** Long, tube-like living cells placed end-to-end. Their end walls are perforated (sieve plates). Strangely, they lack a nucleus at maturity!\n2. **Companion Cells:** Specialized parenchyma cells closely associated with sieve tubes. Because sieve tubes have no nucleus, the companion cell's nucleus controls the functions of BOTH cells.\n3. **Phloem Parenchyma:** Used for storage.\n4. **Phloem Fibers:** Sclerenchyma cells for support (the only dead cells in phloem. Jute and flax fibers are phloem fibers)."
+        },
+        {
+            "id": "banat_quiz_1",
+            "type": "quiz",
+            "title": "Vascular Quiz",
+            "content": "Test your plant plumbing knowledge.",
+            "quizQuestion": "Which of the following cell types in the phloem is living but lacks a nucleus at maturity?",
+            "quizOptions": [
+                "Companion cells",
+                "Sieve tube elements",
+                "Phloem parenchyma",
+                "Phloem fibers"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "banat_6",
+            "type": "content",
+            "title": "Tissue Systems",
+            "content": "# The Three Tissue Systems\n\nAll the tissues in a plant are organized into three main systems.\n\n## 1. Epidermal Tissue System:\n- The outer protective covering (epidermis).\n- Covered by a waxy cuticle to prevent water loss.\n- Contains **Stomata** (pores) guarded by guard cells for gas exchange.\n- Contains root hairs (for water absorption) and trichomes (stem hairs).\n\n## 2. Ground Tissue System:\n- All tissues except epidermis and vascular bundles.\n- Forms the bulk of the plant (cortex, pith, mesophyll in leaves).\n- Mostly made of parenchyma.\n\n## 3. Vascular Tissue System:\n- Contains the Xylem and Phloem bundles."
+        },
+        {
+            "id": "banat_7",
+            "type": "content",
+            "title": "Secondary Growth",
+            "content": "# How Trees Grow Wide\n\nPrimary growth (apical meristem) makes plants taller. Secondary growth makes them thicker.\n\n## The Vascular Cambium:\n- A cylinder of lateral meristematic tissue located between the primary xylem and primary phloem in dicot stems.\n- As it divides, it produces **Secondary Xylem** towards the INSIDE and **Secondary Phloem** towards the OUTSIDE.\n- The massive accumulation of Secondary Xylem over years is what we call **WOOD**.\n- The older, inner wood becomes blocked with resins and dies (Heartwood - dark and strong). The newer, outer wood remains active in transporting water (Sapwood - lighter in color).\n\nBecause growth slows down in winter and speeds up in spring, the secondary xylem forms distinct annual **Tree Rings**!"
+        },
+        {
+            "id": "banat_8",
+            "type": "content",
+            "title": "Summary: Plant Anatomy",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Meristems:** Apical (primary growth/length) and Lateral (secondary growth/thickness).\n- **Simple Tissues:** Parenchyma (bulk/storage), Collenchyma (flexible support), Sclerenchyma (dead, rigid support).\n- **Xylem:** Conducts water UP. Mostly dead cells. Tracheids and highly efficient Vessels.\n- **Phloem:** Conducts food everywhere. Mostly living cells. Sieve tubes (no nucleus) controlled by Companion cells.\n- **Tissue Systems:** Epidermal (outer protection, stomata), Ground (bulk filler), Vascular (plumbing).\n- **Secondary Growth:** Vascular cambium produces secondary xylem inwards (forming Wood and tree rings) and secondary phloem outwards.\n\n> **Congratulations!** You have completed the Plant Anatomy module."
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "id": "learn_atoms",
+    "topicId": "atoms",
+    "topicTitle": "Atoms & Molecules",
+    "description": "Uncover the building blocks of the universe, the laws that govern how they combine, and the fascinating concept of the mole.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "atoms_1",
+            "type": "content",
+            "title": "Welcome to Atoms & Molecules",
+            "content": "# The Invisible Building Blocks\n\nAncient Indian and Greek philosophers have always wondered about the unknown and unseen form of matter. The idea of divisibility of matter was considered long back in India, around 500 BC.\n\nAn Indian philosopher Maharishi Kanad, postulated that if we go on dividing matter, we shall get smaller and smaller particles. Ultimately, a stage will come when we shall come across the smallest particles beyond which further division will not be possible.\n\nHe named these particles **Parmanu**.\nBy the end of the 18th century, scientists recognized the difference between elements and compounds and naturally became interested in finding out how and why elements combine."
+        },
+        {
+            "id": "atoms_2",
+            "type": "content",
+            "title": "Laws of Chemical Combination",
+            "content": "# The Rules of Chemistry\n\nAntoine L. Lavoisier laid the foundation of chemical sciences by establishing two important laws of chemical combination. These laws govern how elements react to form compounds.\n\n## 1. Law of Conservation of Mass:\nThis law states that mass can neither be created nor destroyed in a chemical reaction.\n- If you burn 10g of wood, the ash, smoke, and gases produced will weigh exactly 10g in total!\n- The total mass of the reactants is equal to the total mass of the products.\n\n## 2. Law of Constant Proportions:\nThis law states that in a chemical substance the elements are always present in definite proportions by mass.\n- Water is always composed of Hydrogen and Oxygen in the mass ratio of 1:8, no matter where you get the water from!"
+        },
+        {
+            "id": "atoms_quiz_1",
+            "type": "quiz",
+            "title": "Chemical Laws Quiz",
+            "content": "Check your understanding of the laws.",
+            "quizQuestion": "Which law states that mass can neither be created nor destroyed in a chemical reaction?",
+            "quizOptions": [
+                "Law of Constant Proportions",
+                "Law of Conservation of Mass",
+                "Law of Multiple Proportions",
+                "Law of Inertia"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "atoms_3",
+            "type": "content",
+            "title": "Dalton's Atomic Theory",
+            "content": "# The First Atomic Theory\n\nTo explain these laws, British chemist John Dalton provided the basic theory about the nature of matter in 1808.\n\n## The Postulates of Dalton's Theory:\n1. All matter is made of very tiny particles called **atoms**, which participate in chemical reactions.\n2. Atoms are **indivisible** particles, which cannot be created or destroyed in a chemical reaction.\n3. Atoms of a given element are **identical** in mass and chemical properties.\n4. Atoms of different elements have **different** masses and chemical properties.\n5. Atoms combine in the ratio of small whole numbers to form compounds."
+        },
+        {
+            "id": "atoms_4",
+            "type": "content",
+            "title": "What is an Atom?",
+            "content": "# The Smallest Unit\n\nHave you ever observed a mason building a wall? From walls to a room, and then a collection of rooms to form a building. What is the building block of the huge building? It is the brick!\n\nSimilarly, the building blocks of all matter are **atoms**.\n\n## How Big are Atoms?\nAtoms are very, very small. They are smaller than anything that we can imagine or compare with. More than millions of atoms when stacked would make a layer barely as thick as a sheet of paper!\n\n- Atomic radius is measured in nanometers.\n- 1 meter = 10^9 nanometers (nm).\n- The radius of a hydrogen atom is roughly 0.1 nm."
+        },
+        {
+            "id": "atoms_5",
+            "type": "content",
+            "title": "Atomic Mass",
+            "content": "# Weighing the Invisible\n\nThe most remarkable concept that Dalton's atomic theory proposed was that of **atomic mass**.\n\nSince determining the mass of an individual atom was a relatively difficult task (they are too small!), relative atomic masses were determined using the laws of chemical combinations and the compounds formed.\n\n## The Standard:\nIn 1961, for a universally accepted atomic mass unit, **Carbon-12** isotope was chosen as the standard reference for measuring atomic masses.\n\n> **Definition:** One atomic mass unit (amu or 'u') is a mass unit equal to exactly one-twelfth (1/12th) the mass of one atom of carbon-12. The relative atomic masses of all elements have been found with respect to an atom of carbon-12."
+        },
+        {
+            "id": "atoms_6",
+            "type": "content",
+            "title": "What is a Molecule?",
+            "content": "# Combining Atoms\n\nAtoms of most elements are not able to exist independently. Atoms form molecules and ions. These molecules or ions aggregate in large numbers to form the matter that we can see, feel, or touch.\n\n## Definition:\nA **molecule** is in general a group of two or more atoms that are chemically bonded together, that is, tightly held together by attractive forces.\n\nA molecule can be defined as the smallest particle of an element or a compound that is capable of an independent existence and shows all the properties of that substance."
+        },
+        {
+            "id": "atoms_7",
+            "type": "content",
+            "title": "Molecules of Elements vs Compounds",
+            "content": "# Types of Molecules\n\n## Molecules of Elements:\nThe molecules of an element are constituted by the same type of atoms.\n- Many elements, such as Argon or Helium, are made up of only one atom of that element. They are monoatomic.\n- But in most non-metals, a molecule contains two or more atoms. For example, a molecule of oxygen consists of two atoms of oxygen (O2). It is a diatomic molecule. Ozone (O3) has three oxygen atoms.\n\n## Molecules of Compounds:\nAtoms of different elements join together in definite proportions to form molecules of compounds.\n- Water (H2O) is a molecule containing two Hydrogen atoms and one Oxygen atom.\n- Carbon dioxide (CO2) contains one Carbon atom and two Oxygen atoms."
+        },
+        {
+            "id": "atoms_quiz_2",
+            "type": "quiz",
+            "title": "Molecules Quiz",
+            "content": "Check your understanding of atom combinations.",
+            "quizQuestion": "An oxygen gas molecule is represented as O2. This means it is a:",
+            "quizOptions": [
+                "Monoatomic molecule",
+                "Diatomic molecule",
+                "Triatomic molecule",
+                "Molecule of a compound"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "atoms_8",
+            "type": "content",
+            "title": "What is an Ion?",
+            "content": "# Charged Particles\n\nCompounds composed of metals and non-metals contain charged species. The charged species are known as **ions**.\n\n## Types of Ions:\nAn ion is a charged particle and can be negatively or positively charged.\n1. A negatively charged ion is called an **anion**.\n2. A positively charged ion is called a **cation**.\n\n## Example: Sodium Chloride (Salt)\nCommon salt is Sodium Chloride (NaCl). Its constituent particles are positively charged sodium ions (Cation) and negatively charged chloride ions (Anion).\n\nIons may consist of a single charged atom or a group of atoms that have a net charge on them."
+        },
+        {
+            "id": "atoms_9",
+            "type": "content",
+            "title": "Writing Chemical Formulae",
+            "content": "# The Chemical Shorthand\n\nThe chemical formula of a compound is a symbolic representation of its composition.\n\nTo write chemical formulae, you need to know the symbols and combining capacity of the elements.\n\n## Valency:\nThe combining power (or capacity) of an element is known as its **valency**.\nValency can be used to find out how the atoms of an element will combine with the atom(s) of another element to form a chemical compound.\n\n## Rules:\n1. The valencies or charges on the ion must balance.\n2. When a compound consists of a metal and a non-metal, the name or symbol of the metal is written first (e.g., Sodium chloride -> NaCl)."
+        },
+        {
+            "id": "atoms_10",
+            "type": "content",
+            "title": "Molecular Mass",
+            "content": "# Weighing Molecules\n\nIf we know the mass of individual atoms, we can calculate the mass of a molecule.\n\n## Definition:\nThe **molecular mass** of a substance is the sum of the atomic masses of all the atoms in a molecule of the substance. It is therefore the relative mass of a molecule expressed in atomic mass units (u).\n\n## Example: Water (H2O)\n- Atomic mass of Hydrogen (H) = 1 u\n- Atomic mass of Oxygen (O) = 16 u\n- Molecular mass of H2O = (2 x 1 u) + (1 x 16 u) = 2 u + 16 u = 18 u."
+        },
+        {
+            "id": "atoms_11",
+            "type": "content",
+            "title": "Formula Unit Mass",
+            "content": "# Weighing Ionic Compounds\n\nFor ionic compounds (like Sodium Chloride), we don't use the term \"molecular mass\" because they don't form distinct molecules, but rather a large crystal lattice of ions.\n\n## Definition:\nThe **formula unit mass** of a substance is a sum of the atomic masses of all atoms in a formula unit of a compound.\n\nIt is calculated in exactly the same manner as we calculate the molecular mass.\n\n## Example: NaCl\n- Atomic mass of Na = 23 u\n- Atomic mass of Cl = 35.5 u\n- Formula unit mass of NaCl = 23 + 35.5 = 58.5 u."
+        },
+        {
+            "id": "atoms_12",
+            "type": "content",
+            "title": "The Mole Concept",
+            "content": "# Counting by Weighing\n\nAtoms and molecules are too small to count individually. If you want a specific number of atoms for a reaction, you can't just pick them out one by one with tweezers! \n\nWe need a way to relate the **mass** of a substance to the **number of particles** it contains.\n\nThis is where the concept of the **mole** was introduced.\n\nThe mole is the chemist's dozen. Just like a dozen always means 12, and a gross always means 144, a mole always means a very specific number."
+        },
+        {
+            "id": "atoms_13",
+            "type": "content",
+            "title": "Avogadro's Constant",
+            "content": "# A Very Large Number\n\nHow many particles are in a mole?\n\n## One Mole:\nOne mole of any species (atoms, molecules, ions, or particles) is that quantity in number having a mass equal to its atomic or molecular mass in grams.\n\nThe number of particles (atoms, molecules, or ions) present in 1 mole of any substance is fixed, with a value of **6.022 x 10^23**. This is an experimentally obtained value.\n\nThis number is called the **Avogadro Constant** or Avogadro Number, named in honor of the Italian scientist Amedeo Avogadro."
+        },
+        {
+            "id": "atoms_quiz_3",
+            "type": "quiz",
+            "title": "Mole Concept Quiz",
+            "content": "Check your knowledge of the chemist's dozen.",
+            "quizQuestion": "How many particles are present in 1 mole of a substance (Avogadro's constant)?",
+            "quizOptions": [
+                "1 million",
+                "6.022 x 10^23",
+                "12",
+                "3.14 x 10^10"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "atoms_14",
+            "type": "content",
+            "title": "Molar Mass",
+            "content": "# Moles to Grams\n\nThe mass of 1 mole of a substance is called its **molar mass**.\n\n## The Magic of the Mole:\nThe molar mass in grams is numerically equal to atomic/molecular/formula unit mass in 'u'.\n\n- The atomic mass of carbon is 12 u. This means 1 atom of carbon weighs 12 u.\n- The molar mass of carbon is 12 g. This means 1 mole (6.022 x 10^23 atoms) of carbon weighs 12 grams!\n\nThis makes it incredibly easy for chemists! If you want exactly one mole of water (H2O), you just calculate its molecular mass (18 u) and weigh out exactly 18 grams of water."
+        },
+        {
+            "id": "atoms_15",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Atom:** The smallest building block of matter.\n- **Molecule:** A group of atoms chemically bonded together.\n- **Ion:** A charged particle (Cation = positive, Anion = negative).\n- **Valency:** The combining capacity of an element.\n- **Atomic Mass Unit (u):** 1/12th the mass of a Carbon-12 atom.\n- **Molecular Mass:** The sum of atomic masses in a molecule.\n- **Mole:** A unit representing 6.022 x 10^23 particles.\n- **Molar Mass:** The mass of 1 mole of a substance in grams."
+        },
+        {
+            "id": "atoms_16",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Atoms & Molecules\n\nExcellent work! Here is a recap of what we've learned:\n\n- During a chemical reaction, mass is conserved and elements combine in fixed proportions by mass.\n- **Dalton's Atomic Theory** proposed that all matter is made of indivisible atoms.\n- Atoms combine to form **molecules** (if neutral) or **ions** (if charged).\n- The chemical formula of a compound is determined by the **valency** of its constituent elements.\n- The **mole** is a unit used to count atoms. 1 mole = 6.022 x 10^23 particles.\n- The mass of 1 mole of a substance in grams is exactly equal to its atomic/molecular mass in 'u'."
+        }
+    ]
+}

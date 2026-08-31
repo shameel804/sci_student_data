@@ -1,0 +1,71 @@
+{
+    "id": "gen_dna",
+    "topicId": "dna",
+    "topicTitle": "DNA Structure & Replication",
+    "description": "Understand the molecular architecture of the double helix and the complex enzyme machinery used to copy it.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "gdna_1",
+            "type": "content",
+            "title": "Welcome to DNA Structure",
+            "content": "# DNA Structure and Function\n\nWelcome to the molecular heart of biology! We will explore the elegant chemical structure of DNA and how this structure allows it to faithfully replicate the code of life.\n\n## What You Will Learn:\n- **Chemical Composition** - The parts of a nucleotide\n- **The Double Helix** - Watson, Crick, and Franklin\n- **DNA Replication Mechanism** - The enzymes involved\n- **Telomeres** - The caps on the ends of chromosomes\n\n> **Fun Fact:** A typical human cell contains about 6 feet (2 meters) of DNA packed into a nucleus that is only 6 micrometers wide!"
+        },
+        {
+            "id": "gdna_2",
+            "type": "content",
+            "title": "The Nucleotide",
+            "content": "# The Building Blocks\n\nDNA is a long polymer made of repeating units called **Nucleotides**.\n\n## The Three Parts of a Nucleotide:\n1. **A Pentose Sugar:** Specifically, deoxyribose (it is missing an oxygen atom compared to the ribose sugar found in RNA).\n2. **A Phosphate Group:** This gives DNA its highly negative charge and acidic nature.\n3. **A Nitrogenous Base:** The actual 'letters' of the genetic code.\n   - **Purines (Double-ring structure):** Adenine (A) and Guanine (G).\n   - **Pyrimidines (Single-ring structure):** Cytosine (C) and Thymine (T)."
+        },
+        {
+            "id": "gdna_3",
+            "type": "content",
+            "title": "The Polynucleotide Chain",
+            "content": "# Building the Backbone\n\nNucleotides are linked together to form a long chain.\n\n## The Phosphodiester Bond:\n- The phosphate group of one nucleotide forms a strong covalent bond with the sugar of the next nucleotide (specifically connecting the 5' carbon of one sugar to the 3' carbon of the next).\n- This creates the sturdy **Sugar-Phosphate Backbone** of the DNA molecule.\n\n## Directionality (5' to 3'):\nBecause of how the sugars link, a DNA strand has a distinct direction.\n- One end has a free phosphate group attached to the 5' carbon (the **5' end**).\n- The other end has a free hydroxyl (-OH) group attached to the 3' carbon (the **3' end**)."
+        },
+        {
+            "id": "gdna_4",
+            "type": "content",
+            "title": "The Double Helix",
+            "content": "# The 3D Structure of DNA\n\nIn 1953, James Watson and Francis Crick (using crucial X-ray crystallography data from Rosalind Franklin) proposed the Double Helix model.\n\n## Key Features:\n1. **Two Strands:** DNA consists of two polynucleotide chains wrapped around each other in a right-handed spiral.\n2. **Antiparallel:** The two strands run in opposite directions! One runs 5' to 3', while the other runs 3' to 5'.\n3. **Base Pairing:** The sugar-phosphate backbones are on the outside. The nitrogenous bases project inward and form hydrogen bonds with each other across the helix.\n   - **A always pairs with T** (via 2 hydrogen bonds).\n   - **G always pairs with C** (via 3 hydrogen bonds)."
+        },
+        {
+            "id": "gdna_quiz_1",
+            "type": "quiz",
+            "title": "Structure Quiz",
+            "content": "Test your molecular anatomy.",
+            "quizQuestion": "Which of the following correctly describes the base pairing rules in DNA?",
+            "quizOptions": [
+                "Adenine pairs with Guanine via 2 hydrogen bonds",
+                "Adenine pairs with Thymine via 2 hydrogen bonds",
+                "Cytosine pairs with Guanine via 2 hydrogen bonds",
+                "Adenine pairs with Uracil via 3 hydrogen bonds"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "gdna_5",
+            "type": "content",
+            "title": "DNA Replication: Initiation",
+            "content": "# Starting the Copy Process\n\nDNA replication is semi-conservative (each new molecule has one old strand and one new strand). It requires a highly coordinated team of enzymes.\n\n## 1. Unzipping the Helix:\nReplication begins at specific sites called Origins of Replication.\n- **Helicase:** The 'unzipping' enzyme. It unwinds the double helix and breaks the hydrogen bonds between the bases, creating a replication fork.\n- **Topoisomerase:** Works ahead of the helicase to relieve the extreme twisting tension caused by unwinding (prevents the DNA from snapping).\n- **SSB Proteins (Single-Strand Binding):** Bind to the separated strands to keep them from snapping back together."
+        },
+        {
+            "id": "gdna_6",
+            "type": "content",
+            "title": "DNA Replication: Elongation",
+            "content": "# Building the New Strand\n\nNow the cell must build the new complementary strands.\n\n## The Builder: DNA Polymerase III\nThis is the main enzyme that adds new nucleotides. But it has two strict limitations:\n1. It can only ADD to an existing strand (it needs a primer to start).\n2. It can ONLY build in the **5' to 3' direction**.\n\n## The Primer:\n- **Primase:** An enzyme that puts down a short, temporary piece of RNA (a primer) to give DNA Polymerase a starting point."
+        },
+        {
+            "id": "gdna_7",
+            "type": "content",
+            "title": "Leading vs Lagging Strands",
+            "content": "# The Directionality Problem\n\nBecause the two DNA strands are antiparallel, but DNA Polymerase can only build in one direction (5' to 3'), the two strands are copied differently.\n\n## The Leading Strand:\n- Built continuously in the same direction the helicase is unzipping. It only needs one primer.\n\n## The Lagging Strand:\n- Must be built backwards, away from the replication fork.\n- It is built discontinuously in short fragments called **Okazaki Fragments**.\n- It requires many RNA primers.\n\n## The Cleanup:\n- **DNA Polymerase I:** Removes all the RNA primers and replaces them with DNA.\n- **DNA Ligase:** The 'glue' enzyme. It seals all the gaps between the Okazaki fragments to make a continuous strand."
+        },
+        {
+            "id": "gdna_8",
+            "type": "content",
+            "title": "Summary: DNA Structure",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Nucleotide:** Pentose sugar + Phosphate + Nitrogenous base (A, T, G, C).\n- **Backbone:** Held together by strong phosphodiester bonds. Strands have a 5' end and a 3' end.\n- **Double Helix:** Two antiparallel strands. Bases point inward, bonded by Hydrogen bonds (A=T, G-triplebond-C).\n- **Replication Enzymes:** \n  - Helicase (unzips)\n  - Topoisomerase (relieves tension)\n  - Primase (lays RNA primer)\n  - DNA Polymerase III (builds new DNA 5' to 3')\n  - Ligase (glues fragments together)\n- **Strands:** Leading strand (continuous) and Lagging strand (discontinuous Okazaki fragments).\n\n> **Congratulations!** You have completed the DNA Structure module."
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "id": "learn_coordination",
+    "topicId": "coordination",
+    "topicTitle": "Coordination Compounds",
+    "description": "Explore the complex, colorful world of transition metals and the vital role they play in biology and medicine.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "coord_1",
+            "type": "content",
+            "title": "Welcome to Coordination Compounds",
+            "content": "# Coordination Compounds\n\nWelcome to Coordination Chemistry! This branch of chemistry deals with complex molecules featuring a central metal atom surrounded by non-metal atoms or groups.\n\n## What You Will Learn:\n- **Werner's Theory** - The foundation of coordination chemistry\n- **Bonding Theories** - VBT and Crystal Field Theory\n- **Isomerism in Complexes** - Same atoms, different shapes\n- **Applications** - From medicine to metallurgy\n\n> **Fun Fact:** Hemoglobin (the red pigment in your blood that carries oxygen) is a coordination compound with Iron at its center!"
+        },
+        {
+            "id": "coord_2",
+            "type": "content",
+            "title": "Werner's Theory",
+            "content": "# Alfred Werner's Brilliant Idea\n\nIn 1893, Alfred Werner proposed a theory to explain the strange behavior of complex compounds (like CoCl3.6NH3), earning him a Nobel Prize.\n\n## The Two Valencies:\nHe postulated that metals show two types of valency (bonding capacity):\n1. **Primary Valency:**\n   - Corresponds to the oxidation state of the metal.\n   - Ionizable (can break apart in water).\n   - Satisfied by negative ions.\n2. **Secondary Valency:**\n   - Corresponds to the **Coordination Number** (the number of bonds the metal forms with surrounding groups).\n   - Non-ionizable (fixed in a specific geometric shape around the metal).\n   - Satisfied by negative ions or neutral molecules."
+        },
+        {
+            "id": "coord_3",
+            "type": "content",
+            "title": "Key Terminology",
+            "content": "# Vocabulary of Complexes\n\nTo understand these compounds, you must know the terminology.\n\n## The Components:\n- **Central Metal Ion:** The metal at the center (usually a transition metal) that accepts electron pairs.\n- **Ligand:** The atoms, ions, or molecules that surround the central metal and donate pairs of electrons to it (acting as Lewis bases).\n- **Coordination Sphere:** The central metal and the ligands attached to it are enclosed in square brackets `[ ]`. This unit does not ionize in water.\n- **Counter Ions:** The ionizable groups written outside the bracket.\n\nExample: In `[Co(NH3)6]Cl3`, Co is the central metal, NH3 is the ligand, and Cl are the counter ions."
+        },
+        {
+            "id": "coord_4",
+            "type": "content",
+            "title": "Types of Ligands",
+            "content": "# Types of Ligands\n\nLigands are classified based on the number of donor atoms they possess (denticity).\n\n## 1. Unidentate (Monodentate):\n- Ligands bound to the metal through a single donor atom.\n- Examples: Cl-, H2O (Oxygen donates), NH3 (Nitrogen donates).\n\n## 2. Didentate (Bidentate):\n- Ligands that can bind through two donor atoms simultaneously.\n- Examples: Ethane-1,2-diamine (en), Oxalate ion (ox).\n\n## 3. Polydentate:\n- Ligands with several donor atoms.\n- Example: EDTA (Ethylenediaminetetraacetate) is a powerful hexadentate ligand (six donor atoms!). It acts like a chemical claw, a process called **chelation**."
+        },
+        {
+            "id": "coord_quiz_1",
+            "type": "quiz",
+            "title": "Ligand Quiz",
+            "content": "Test your terminology.",
+            "quizQuestion": "A ligand that forms a complex by donating electrons from two different atoms is called:",
+            "quizOptions": [
+                "Unidentate",
+                "Bidentate",
+                "Hexadentate",
+                "Counter ion"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "coord_5",
+            "type": "content",
+            "title": "Isomerism",
+            "content": "# Isomerism in Complexes\n\nIsomers are compounds with the same chemical formula but different structural arrangements.\n\n## Structural Isomerism:\n1. **Ionization Isomerism:** The counter ion swaps places with a ligand inside the coordination sphere. (e.g., `[Co(NH3)5Br]SO4` vs `[Co(NH3)5SO4]Br`).\n2. **Hydration Isomerism:** Water molecules swap between acting as ligands inside the sphere and water of crystallization outside.\n3. **Linkage Isomerism:** Occurs when an ambidentate ligand (like NO2-) can bind through two different atoms (Nitrogen or Oxygen).\n4. **Coordination Isomerism:** The interchange of ligands between a complex cation and a complex anion."
+        },
+        {
+            "id": "coord_6",
+            "type": "content",
+            "title": "Stereoisomerism",
+            "content": "# Stereoisomerism\n\nStereoisomers have the same chemical bonds but a different spatial arrangement.\n\n## 1. Geometrical Isomerism:\n- Common in square planar and octahedral complexes.\n- **Cis isomer:** Identical ligands are adjacent to each other.\n- **Trans isomer:** Identical ligands are opposite to each other.\n\n## 2. Optical Isomerism:\n- Molecules that are mirror images of each other but cannot be superimposed (like your left and right hands).\n- These isomers rotate plane-polarized light in different directions.\n- They are called **enantiomers**."
+        },
+        {
+            "id": "coord_7",
+            "type": "content",
+            "title": "Bonding: Valence Bond Theory",
+            "content": "# Valence Bond Theory (VBT)\n\nHow do the metal and ligands actually bond?\n\n## VBT Approach:\n- The central metal ion provides empty orbitals to accept electron pairs from the ligands.\n- These empty orbitals undergo **hybridization** (mixing) to form a set of equivalent hybrid orbitals (like sp3, dsp2, sp3d2).\n- The geometry of the complex depends strictly on the type of hybridization.\n  - sp3 = Tetrahedral\n  - dsp2 = Square Planar\n  - sp3d2 or d2sp3 = Octahedral\n\n## Magnetic Properties:\nIf the resulting complex has unpaired electrons, it is **paramagnetic**. If all electrons are paired, it is **diamagnetic**."
+        },
+        {
+            "id": "coord_8",
+            "type": "content",
+            "title": "Bonding: Crystal Field Theory",
+            "content": "# Crystal Field Theory (CFT)\n\nVBT is useful, but it doesn't explain the brilliant colors of coordination compounds. CFT does!\n\n## The CFT Concept:\n- CFT treats the metal-ligand bond as purely ionic (electrostatic).\n- The ligands are treated as point negative charges.\n- When ligands approach the central metal ion, their negative charge repels the electrons in the metal's d-orbitals.\n- Because the five d-orbitals have different shapes, they are repelled differently. This causes the previously equal d-orbitals to **split** into two sets of different energy levels (e_g and t_2g)."
+        },
+        {
+            "id": "coord_9",
+            "type": "content",
+            "title": "Color in Complexes",
+            "content": "# Why are they colorful?\n\nThe splitting of the d-orbitals by the ligands is the key to their color!\n\n## The Mechanism (d-d Transition):\n1. When white light falls on the complex, an electron in the lower energy d-orbital set absorbs a specific wavelength (color) of light.\n2. This energy excites the electron, causing it to jump to the higher energy d-orbital set.\n3. The color we see is the **complementary color** of the light that was absorbed!\n\n- Example: If a complex absorbs Red light, it will appear Blue-Green to our eyes.\n- The size of the energy gap (and thus the color) depends on the specific metal and the specific ligand."
+        },
+        {
+            "id": "coord_quiz_2",
+            "type": "quiz",
+            "title": "Color Quiz",
+            "content": "Check your understanding of CFT.",
+            "quizQuestion": "According to Crystal Field Theory, the color of coordination compounds is primarily due to:",
+            "quizOptions": [
+                "Proton transfer",
+                "Ligand to metal charge transfer",
+                "d-d electron transitions",
+                "Isomerism"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "coord_10",
+            "type": "content",
+            "title": "Applications",
+            "content": "# Applications of Coordination Compounds\n\nThese compounds are incredibly useful in biology and industry.\n\n## Biological Importance:\n- **Chlorophyll:** A coordination complex of Magnesium, essential for photosynthesis.\n- **Hemoglobin:** A complex of Iron, carries oxygen in the blood.\n- **Vitamin B12:** A complex of Cobalt, prevents pernicious anemia.\n\n## Industrial & Medical:\n- **Photography:** Silver complexes are used in developing film.\n- **Metallurgy:** Extraction of gold and silver involves forming cyanide complexes.\n- **Medicine:** **Cisplatin** (a cis-isomer of a platinum complex) is a highly effective drug used in cancer chemotherapy to inhibit tumor growth."
+        },
+        {
+            "id": "coord_11",
+            "type": "content",
+            "title": "Summary: Coordination Compounds",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Werner's Theory:** Primary valency (oxidation state) and Secondary valency (coordination number).\n- **Ligands:** Monodentate, bidentate, and polydentate (like EDTA for chelation).\n- **Isomerism:** Structural (Ionization, Hydration, Linkage) and Stereoisomerism (Cis-Trans, Optical).\n- **VBT:** Explains geometry based on orbital hybridization (sp3, dsp2).\n- **CFT:** Explains color and magnetic properties based on the splitting of d-orbitals by ligand repulsion.\n- **Applications:** Crucial in biology (Hemoglobin, Chlorophyll) and medicine (Cisplatin).\n\n> **Congratulations!** You have completed the Coordination Compounds module."
+        }
+    ]
+}

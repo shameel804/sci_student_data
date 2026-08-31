@@ -1,0 +1,77 @@
+{
+    "id": "learn_kinetics",
+    "topicId": "kinetics",
+    "topicTitle": "Chemical Kinetics",
+    "description": "Learn what makes reactions fast or slow, and how to mathematically predict the speed of chemical changes.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "kin_1",
+            "type": "content",
+            "title": "Welcome to Kinetics",
+            "content": "# Chemical Kinetics\n\nWelcome to Chemical Kinetics! Thermodynamics tells us if a reaction will happen, but Kinetics tells us HOW FAST it will happen.\n\n## What You Will Learn:\n- **Reaction Rate Determination** - How to measure speed\n- **Rate Law Expressions** - The math of reaction speeds\n- **Reaction Mechanisms** - The step-by-step path of a reaction\n- **Catalysis Effects** - How to cheat the speed limit\n\n> **Fun Fact:** The rusting of iron is incredibly slow, while the combustion of dynamite is incredibly fast. Kinetics explains why!"
+        },
+        {
+            "id": "kin_2",
+            "type": "content",
+            "title": "Rate of Reaction",
+            "content": "# The Rate of Reaction\n\nThe rate of a chemical reaction is defined as the change in concentration of a reactant or product per unit time.\n\n## The Formula:\nFor a simple reaction `R -> P`:\n- **Rate of disappearance of R:** - (Change in [R]) / (Change in time)\n- **Rate of appearance of P:** + (Change in [P]) / (Change in time)\n\n> **Note:** We use a negative sign for the reactants because their concentration decreases over time, but the 'Rate' must always be a positive number.\n\n## Units:\nUsually measured in **mol / (L * s)** (moles per liter per second)."
+        },
+        {
+            "id": "kin_3",
+            "type": "content",
+            "title": "Factors Affecting Rate",
+            "content": "# What Changes the Speed?\n\nSeveral factors influence how fast a chemical reaction proceeds.\n\n## 1. Concentration of Reactants:\n- Generally, higher concentration means more frequent collisions between molecules, leading to a faster rate.\n\n## 2. Temperature:\n- An increase in temperature dramatically increases the kinetic energy of the molecules.\n- **Rule of Thumb:** For a chemical reaction, the rate constant is nearly doubled with every 10 degree rise in temperature.\n\n## 3. Catalyst:\n- Alters the rate without being consumed.\n\n## 4. Surface Area (for solids):\n- Powdered solid reacts much faster than a large lump because more surface area is exposed to collisions."
+        },
+        {
+            "id": "kin_4",
+            "type": "content",
+            "title": "Rate Law",
+            "content": "# The Rate Law\n\nThe Rate Law is an equation that directly links the reaction rate with the concentrations or pressures of reactants.\n\n## The Expression:\nFor a general reaction `aA + bB -> Products`:\n```\nRate = k * [A]^x * [B]^y\n```\nWhere:\n- **k** is the Rate Constant (depends heavily on temperature).\n- **[A]** and **[B]** are the molar concentrations.\n- **x** and **y** are the **orders** of the reaction with respect to A and B.\n\n> **Crucial Point:** The values of x and y are NOT necessarily the stoichiometric coefficients (a and b). They can only be determined experimentally!"
+        },
+        {
+            "id": "kin_5",
+            "type": "content",
+            "title": "Order of Reaction",
+            "content": "# Order of a Reaction\n\nThe overall order of a reaction is the sum of the powers of the concentration terms in the rate law expression.\n\n```\nOverall Order = x + y\n```\n\n## Common Orders:\n- **Zero Order:** Rate is independent of the reactant concentration. (Rate = k). Graph of [R] vs time is a straight line.\n- **First Order:** Rate is directly proportional to the concentration. (Rate = k*[A]). Radioactive decay is a perfect example of first-order kinetics!\n- **Second Order:** Rate is proportional to the square of concentration, or the product of two concentrations. (Rate = k*[A]^2).\n\nOrders can also be fractions!"
+        },
+        {
+            "id": "kin_quiz_1",
+            "type": "quiz",
+            "title": "Kinetics Quiz",
+            "content": "Test your knowledge of reaction speed.",
+            "quizQuestion": "In a zero-order reaction, the rate of reaction is:",
+            "quizOptions": [
+                "Proportional to the concentration of reactants",
+                "Independent of the concentration of reactants",
+                "Inversely proportional to concentration",
+                "Zero"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "kin_6",
+            "type": "content",
+            "title": "Molecularity vs Order",
+            "content": "# Molecularity vs Order\n\nThese two terms are often confused but mean very different things.\n\n## Molecularity:\n- The number of reacting species (atoms, ions, or molecules) taking part in an elementary reaction, which must collide simultaneously.\n- It is a theoretical concept.\n- It can ONLY be a whole number (1, 2, or 3). You cannot have half a molecule collide!\n- It cannot be zero.\n\n## Order:\n- The sum of powers in the rate law expression.\n- It is a purely experimental value.\n- It can be zero, a fraction, or an integer.\n- It applies to the overall complex reaction."
+        },
+        {
+            "id": "kin_7",
+            "type": "content",
+            "title": "Collision Theory",
+            "content": "# Collision Theory\n\nWhy do reactions happen at all? Molecules must crash into each other!\n\n## The Requirements for a Reaction:\n1. **Collision Frequency:** Molecules must collide.\n2. **Activation Energy:** They must collide with sufficient kinetic energy to break existing bonds. This minimum energy threshold is called the Activation Energy (E_a).\n3. **Proper Orientation:** They must collide in exactly the right geometric orientation.\n\nIf a collision meets all three criteria, it is an **effective collision** and results in a chemical product."
+        },
+        {
+            "id": "kin_8",
+            "type": "content",
+            "title": "Activation Energy and Catalysts",
+            "content": "# Cheating the System: Catalysis\n\nHow does a catalyst actually speed up a reaction?\n\n## The Mechanism:\n- A catalyst provides an **alternative reaction pathway**.\n- This new pathway has a **lower Activation Energy (E_a)**.\n- Because the energy barrier is lower, a much larger fraction of the molecules possess enough energy to react at a given temperature.\n- **Important:** A catalyst does NOT change the overall energy of the reactants or products (delta H remains the same), and it does not shift the equilibrium position; it just helps the system reach equilibrium faster."
+        },
+        {
+            "id": "kin_9",
+            "type": "content",
+            "title": "Summary: Kinetics",
+            "content": "# Chemical Kinetics Summary\n\n## Key Concepts Reviewed:\n\n- **Rate:** Change in concentration over time.\n- **Factors:** Rate increases with temp, concentration, surface area, and catalysts.\n- **Rate Law:** Rate = k * [A]^x * [B]^y. Must be found experimentally.\n- **Order:** Sum of exponents (x+y). Can be zero or fractional.\n- **Molecularity:** Number of colliding particles in one step. Must be an integer.\n- **Collision Theory:** Reactions require collision, sufficient activation energy (E_a), and correct orientation.\n- **Catalyst:** Lowers the activation energy by providing a new pathway.\n\n> **Congratulations!** You have completed the Chemical Kinetics module."
+        }
+    ]
+}

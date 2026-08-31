@@ -1,0 +1,59 @@
+{
+    "id": "gen_biotech",
+    "topicId": "biotech",
+    "topicTitle": "Biotechnology & Genomics",
+    "description": "Learn how scientists manipulate DNA to solve problems and use computers to analyze entire genomes.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "gbiot_1",
+            "type": "content",
+            "title": "Welcome to Genetic Engineering",
+            "content": "# Genetic Engineering\n\nWelcome to Genetic Engineering! This is the applied side of genetics, where we manipulate the DNA blueprint directly to solve problems in medicine, agriculture, and industry.\n\n## What You Will Learn:\n- **Recombinant DNA Tech** - The core principles\n- **Gene Cloning** - Copying specific genes\n- **Genomics** - Mapping entire genomes\n- **Bioinformatics** - The intersection of biology and computer science\n\n> **Fun Fact:** The first genetically modified animal was a glowing mouse, created in 1974 by inserting a fluorescent gene from a jellyfish!"
+        },
+        {
+            "id": "gbiot_2",
+            "type": "content",
+            "title": "Recombinant DNA Technology",
+            "content": "# Cutting and Pasting DNA\n\nRecombinant DNA (rDNA) is DNA that has been formed artificially by combining constituents from different organisms.\n\n## The Core Enzymes:\n1. **Restriction Endonucleases:** These are enzymes that cut DNA at specific, highly recognizable sequences (e.g., GAATTC). They act as molecular scissors. Crucially, they often leave 'sticky ends'\u2014short, single-stranded overhangs that want to pair up with complementary sequences.\n2. **DNA Ligase:** If two different pieces of DNA are cut with the *same* restriction enzyme, their sticky ends will match. DNA ligase acts as the molecular glue, sealing the sugar-phosphate backbones together to create a seamless new rDNA molecule."
+        },
+        {
+            "id": "gbiot_3",
+            "type": "content",
+            "title": "Gene Cloning",
+            "content": "# Making Copies\n\nIf you want to study a human gene, or make it produce insulin in a factory, you need billions of copies of it. This is called cloning.\n\n## The Cloning Process (in vivo):\n1. Cut the target human gene and a bacterial **plasmid** (the cloning vector) with the same restriction enzyme.\n2. Ligate them together to form a recombinant plasmid.\n3. **Transformation:** Force a host bacterium (like *E. coli*) to take up the recombinant plasmid.\n4. **Selection:** How do you know which bacteria actually took up the plasmid? Plasmids usually contain an antibiotic resistance gene (a selectable marker). If you grow the bacteria on an agar plate containing that antibiotic, ONLY the successful clones will survive and grow into colonies!\n5. The bacteria multiply, copying your target gene every time they divide."
+        },
+        {
+            "id": "gbiot_4",
+            "type": "content",
+            "title": "Genomics",
+            "content": "# Reading the Whole Book\n\nWhile traditional genetics studies a few genes at a time, Genomics is the study of an organism's ENTIRE genome (all of its DNA).\n\n## The Human Genome Project:\n- A massive, 13-year international effort completed in 2003.\n- They successfully mapped and sequenced all 3 billion base pairs of human DNA.\n- **Surprising Discovery:** Only about 1.5% of the human genome actually codes for proteins! The rest is regulatory sequences, introns, and remnants of ancient viruses.\n\n## Next-Generation Sequencing (NGS):\nModern technology allows us to sequence an entire human genome in just a few days for a few hundred dollars, revolutionizing personalized medicine."
+        },
+        {
+            "id": "gbiot_5",
+            "type": "content",
+            "title": "Bioinformatics",
+            "content": "# Biology Meets Big Data\n\nThe sequencing of genomes produces massive, unimaginable amounts of data. A single human genome is 3 billion letters long!\n\n## What is Bioinformatics?\n- It is the application of computer science, statistics, and mathematics to analyze and interpret biological data.\n- We use powerful algorithms to search through the 3 billion letters to find the genes, predict the 3D structure of the proteins they make, and compare human genomes to chimpanzee genomes to trace our evolutionary history.\n- BLAST (Basic Local Alignment Search Tool) is a famous bioinformatics program used to compare DNA sequences against a global database."
+        },
+        {
+            "id": "gbiot_quiz_1",
+            "type": "quiz",
+            "title": "Biotech Quiz",
+            "content": "Test your genetic engineering knowledge.",
+            "quizQuestion": "In gene cloning, what is the primary purpose of a 'selectable marker' (like an antibiotic resistance gene) on a plasmid?",
+            "quizOptions": [
+                "To cut the DNA at specific sites",
+                "To glue the DNA pieces together",
+                "To identify which bacteria successfully took up the recombinant plasmid",
+                "To speed up the replication of the bacteria"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "gbiot_6",
+            "type": "content",
+            "title": "Summary: Genetic Engineering",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **rDNA:** Combining DNA from different sources using Restriction Enzymes (to cut) and DNA Ligase (to paste).\n- **Cloning:** Inserting a target gene into a plasmid vector, putting it into a host bacterium, and using a selectable marker (antibiotic resistance) to find the successful clones.\n- **Genomics:** The study of entire genomes. The Human Genome Project revealed we have ~3 billion base pairs, but very few protein-coding genes.\n- **Bioinformatics:** The use of computer science and software to store, analyze, and make sense of massive biological datasets (like DNA sequences).\n\n> **Congratulations!** You have completed the Genetic Engineering module and the Genetics (BSc) course."
+        }
+    ]
+}

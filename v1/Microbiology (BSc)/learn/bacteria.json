@@ -1,0 +1,65 @@
+{
+    "id": "mic_bacteria",
+    "topicId": "bacteria",
+    "topicTitle": "Bacteriology",
+    "description": "Study the anatomy of bacteria, how we identify them with stains, and how they cause disease.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "mbac_1",
+            "type": "content",
+            "title": "Welcome to Bacteriology",
+            "content": "# Bacteriology\n\nWelcome to Bacteriology! We will focus on the structure, growth, and medical importance of the most abundant organisms on Earth.\n\n## What You Will Learn:\n- **Bacterial Cell Structure** - Anatomy of a prokaryote\n- **Staining Techniques** - How to see them under a microscope\n- **Growth Curve** - How populations explode and die\n- **Pathogenic Bacteria** - The ones that make us sick\n\n> **Fun Fact:** There is a species of bacteria (*Deinococcus radiodurans*) that can survive radiation doses thousands of times higher than what would kill a human!"
+        },
+        {
+            "id": "mbac_2",
+            "type": "content",
+            "title": "Bacterial Cell Structure",
+            "content": "# Anatomy of a Bacterium\n\nBacteria are Prokaryotes (they lack a true, membrane-bound nucleus).\n\n## Key Structures:\n- **Nucleoid:** The irregular region where the single, circular, double-stranded DNA chromosome is located. (No nuclear membrane!).\n- **Ribosomes:** Smaller than eukaryotic ribosomes (70S vs 80S), used for protein synthesis.\n- **Plasma Membrane:** Controls what enters and exits the cell.\n- **Cell Wall:** Made of **Peptidoglycan** (a unique mesh-like polymer of sugars and amino acids). Provides shape and protects against osmotic bursting.\n- **Capsule:** An optional, sticky outer layer of polysaccharides. Helps bacteria evade the human immune system!\n- **Flagella:** Long, rigid whips used for swimming.\n- **Pili / Fimbriae:** Hair-like appendages used for attachment to surfaces or other cells."
+        },
+        {
+            "id": "mbac_3",
+            "type": "content",
+            "title": "Shapes of Bacteria",
+            "content": "# Morphology\n\nBacteria come in three basic shapes, which are often part of their name.\n\n## 1. Coccus (Plural: Cocci):\n- Spherical or round shape.\n- Can arrange in chains (*Streptococcus*) or clusters (*Staphylococcus*).\n\n## 2. Bacillus (Plural: Bacilli):\n- Rod-shaped.\n- *E. coli* and *Bacillus anthracis* (Anthrax) are examples.\n\n## 3. Spirillum / Spirochete:\n- Spiral or corkscrew shape.\n- Often highly motile, boring through tissues (e.g., *Treponema pallidum*, which causes Syphilis)."
+        },
+        {
+            "id": "mbac_4",
+            "type": "content",
+            "title": "Gram Staining",
+            "content": "# The Gram Stain\n\nInvented by Hans Christian Gram in 1884, this is the most important staining technique in microbiology. It divides almost all bacteria into two major groups based on their cell wall structure.\n\n## The Procedure:\n1. Stain with Crystal Violet (purple).\n2. Add Iodine (acts as a mordant to lock the dye in).\n3. Wash with Alcohol (the critical decolorization step).\n4. Counterstain with Safranin (red/pink).\n\n## The Results:\n- **Gram-Positive:** Retain the purple dye. Why? Because they have a massive, thick layer of peptidoglycan that traps the large crystal violet complexes.\n- **Gram-Negative:** Lose the purple dye during the alcohol wash, and take up the pink counterstain. Why? Because they have a very thin peptidoglycan layer hidden underneath an extra outer lipid membrane."
+        },
+        {
+            "id": "mbac_quiz_1",
+            "type": "quiz",
+            "title": "Bacterial Structure Quiz",
+            "content": "Test your knowledge of prokaryotic anatomy.",
+            "quizQuestion": "The cell wall of bacteria is primarily composed of:",
+            "quizOptions": [
+                "Cellulose",
+                "Chitin",
+                "Peptidoglycan",
+                "Phospholipids"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "mbac_5",
+            "type": "content",
+            "title": "The Growth Curve",
+            "content": "# Bacterial Population Growth\n\nIf you put a few bacteria in a flask of rich nutrient broth, the population goes through four distinct phases.\n\n1. **Lag Phase:** No immediate increase in cell numbers. The bacteria are adapting to the new environment and synthesizing necessary enzymes.\n2. **Log (Exponential) Phase:** The cells divide at their maximum rate (binary fission). The population doubles at a constant interval. This is when they are healthiest and most active.\n3. **Stationary Phase:** The population levels off (growth rate = death rate). Why? Nutrients run out, oxygen is depleted, and toxic waste products build up.\n4. **Death Phase:** The cells die off rapidly due to the highly toxic environment and complete lack of food."
+        },
+        {
+            "id": "mbac_6",
+            "type": "content",
+            "title": "Pathogenic Bacteria",
+            "content": "# Bacterial Diseases\n\nWhile most bacteria are harmless or beneficial (like our gut flora), some are pathogens that cause disease.\n\n## How do they cause disease?\n1. **Invasiveness:** Multiplying rapidly and spreading through tissues, destroying cells.\n2. **Toxigenicity:** Producing powerful poisons.\n   - *Exotoxins:* Proteins secreted by the living bacteria into the host (e.g., Tetanus toxin, Botulinum toxin). These are some of the most deadly poisons known.\n   - *Endotoxins:* Part of the outer membrane of Gram-negative bacteria. Released only when the bacteria die and break apart, causing severe fever and shock.\n\n## Important Examples:\n- *Mycobacterium tuberculosis* (Tuberculosis)\n- *Vibrio cholerae* (Cholera)\n- *Salmonella typhi* (Typhoid fever)"
+        },
+        {
+            "id": "mbac_7",
+            "type": "content",
+            "title": "Summary: Bacteriology",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Structure:** Prokaryotes. No nucleus (nucleoid instead). Peptidoglycan cell wall. May have capsules for evasion.\n- **Shapes:** Cocci (spheres), Bacilli (rods), Spirilla (spirals).\n- **Gram Stain:** Divides bacteria into Gram-positive (purple, thick wall) and Gram-negative (pink, thin wall + outer membrane).\n- **Growth Curve:** Lag (adapting), Log (rapid division), Stationary (starving/toxic waste), Death.\n- **Pathogens:** Cause disease via tissue invasion or releasing powerful Exotoxins (secreted) or Endotoxins (part of the dead cell).\n\n> **Congratulations!** You have completed the Bacteriology module."
+        }
+    ]
+}

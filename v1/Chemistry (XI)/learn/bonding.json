@@ -1,0 +1,123 @@
+{
+    "id": "learn_bonding",
+    "topicId": "bonding",
+    "topicTitle": "Chemical Bonding",
+    "description": "Why do atoms stick together? Learn the rules of attraction, from sharing electrons to forming 3D molecular structures.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "chem_bond_1",
+            "type": "content",
+            "title": "Welcome to Chemical Bonding",
+            "content": "# The Glue of the Universe\n\nExcept for the noble gases, no element exists in nature as independent atoms. They are always found combined with other atoms.\n\nThe attractive force which holds various constituents (atoms, ions, etc.) together in different chemical species is called a **chemical bond**.\n\nBut WHY do atoms combine? And why do they combine in specific ratios and shapes (like H2O being bent, but CO2 being straight)?\n\n## What You Will Learn:\n- **The Octet Rule:** The quest for stability.\n- **Ionic and Covalent Bonds:** Stealing vs Sharing.\n- **VSEPR Theory:** Predicting the 3D shapes of molecules.\n- **Hybridization:** Mixing orbitals to make bonds.\n- **Hydrogen Bonding:** The weak force that makes water magical."
+        },
+        {
+            "id": "chem_bond_2",
+            "type": "content",
+            "title": "Kossel-Lewis Approach",
+            "content": "# The Octet Rule\n\nIn 1916, Kossel and Lewis provided the first logical explanation for chemical bonding.\n\nThey noticed that Noble Gases (like Neon and Argon) have exactly 8 electrons in their outermost shell (s2 p6). This configuration is incredibly stable.\n\n> **The Octet Rule:** Atoms can combine either by transfer of valence electrons or by sharing of valence electrons in order to have an octet (8 electrons) in their valence shells.\n\n*(Note: Hydrogen and Helium only need a \"duplet\" of 2 electrons to be stable, like the noble gas Helium).* "
+        },
+        {
+            "id": "chem_bond_3",
+            "type": "content",
+            "title": "Ionic (Electrovalent) Bond",
+            "content": "# The Electron Transfer\n\nAn ionic bond is formed by the complete transfer of one or more electrons from one atom to another.\n\n1. A metal (like Sodium, Na) has 1 valence electron. It wants to get rid of it to achieve a stable octet underneath. It *loses* the electron, becoming a positive **Cation** (Na+).\n2. A non-metal (like Chlorine, Cl) has 7 valence electrons. It needs just 1 more to complete its octet. It *gains* the electron, becoming a negative **Anion** (Cl-).\n\nThe strong electrostatic force of attraction between the positive Na+ and negative Cl- holds them together. This is an **Ionic Bond**!"
+        },
+        {
+            "id": "chem_bond_4",
+            "type": "content",
+            "title": "Covalent Bond",
+            "content": "# Sharing is Caring\n\nSometimes atoms don't want to give up their electrons completely. Instead, they share them!\n\nA covalent bond is formed when two atoms share one or more pairs of electrons to complete their octets.\n\n- **Single Bond:** Sharing 1 pair of electrons (e.g., H2, Cl2).\n- **Double Bond:** Sharing 2 pairs of electrons (e.g., O2).\n- **Triple Bond:** Sharing 3 pairs of electrons (e.g., N2). Triple bonds are the strongest and shortest!\n\nThis sharing usually happens between two non-metals."
+        },
+        {
+            "id": "chem_bond_quiz_1",
+            "type": "quiz",
+            "title": "Bonding Quiz",
+            "content": "Check your understanding of bond types.",
+            "quizQuestion": "What type of bond involves the complete transfer of electrons from a metal to a non-metal?",
+            "quizOptions": [
+                "Covalent Bond",
+                "Ionic Bond",
+                "Metallic Bond",
+                "Hydrogen Bond"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_bond_5",
+            "type": "content",
+            "title": "Polarity of Bonds",
+            "content": "# Unequal Sharing\n\nIn a covalent bond between two *identical* atoms (like H-H or Cl-Cl), the electrons are shared perfectly equally. This is a **Non-polar** covalent bond.\n\nBut what if the bond is between two *different* atoms (like H-F)?\nRemember Electronegativity? Fluorine is much more electronegative than Hydrogen. It pulls the shared electron pair closer to itself!\n\nThis creates a slight negative charge on the Fluorine (delta -) and a slight positive charge on the Hydrogen (delta +). This unequal sharing creates a **Polar Covalent Bond**."
+        },
+        {
+            "id": "chem_bond_6",
+            "type": "content",
+            "title": "VSEPR Theory",
+            "content": "# Predicting Shapes\n\nMolecules are not flat; they have 3D shapes! How do we predict them?\n\nWe use the **Valence Shell Electron Pair Repulsion (VSEPR) Theory**.\n\n**The Core Idea:** Electron pairs (both bonding pairs and non-bonding lone pairs) in the valence shell repel each other. They will arrange themselves in 3D space as far apart as possible to minimize this repulsion!\n\n- If a central atom has 2 bonds and 0 lone pairs (like BeCl2), the furthest they can get is 180 degrees apart. The shape is **Linear**."
+        },
+        {
+            "id": "chem_bond_7",
+            "type": "content",
+            "title": "Shapes of Molecules",
+            "content": "# The Geometry of Repulsion\n\nLet's look at more shapes based on the number of electron pairs around the central atom:\n\n- **3 Pairs (0 Lone Pairs):** Repel to 120 degrees. Shape: **Trigonal Planar** (e.g., BF3).\n- **4 Pairs (0 Lone Pairs):** Repel to 109.5 degrees in 3D space. Shape: **Tetrahedral** (e.g., Methane, CH4).\n\n**What if there are Lone Pairs?**\nLone pairs are \"fatter\" and repel *more* than bonding pairs! \n- In Water (H2O), Oxygen has 2 bonds and 2 lone pairs. The lone pairs push the bonds closer together, reducing the angle to 104.5 degrees. The shape is **Bent** or **V-shaped**."
+        },
+        {
+            "id": "chem_bond_quiz_2",
+            "type": "quiz",
+            "title": "VSEPR Quiz",
+            "content": "Check your understanding of 3D shapes.",
+            "quizQuestion": "According to VSEPR theory, what is the 3D shape of a molecule like Methane (CH4) which has 4 bonding pairs and 0 lone pairs?",
+            "quizOptions": [
+                "Square Planar",
+                "Tetrahedral",
+                "Linear",
+                "Trigonal Bipyramidal"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_bond_8",
+            "type": "content",
+            "title": "Valence Bond Theory (VBT)",
+            "content": "# Overlapping Orbitals\n\nLewis structures and VSEPR tell us *what* happens, but not exactly *how* it happens at the quantum level.\n\n**Valence Bond Theory** states that a covalent bond is formed by the overlapping of half-filled atomic orbitals from the two atoms.\n\n- **Sigma (σ) Bond:** Formed by the direct, head-on overlap of orbitals along the internuclear axis. (All single bonds are sigma bonds. They are very strong).\n- **Pi (π) Bond:** Formed by the sideways (lateral) overlap of p-orbitals. (The second bond in a double bond is a pi bond. They are weaker than sigma bonds)."
+        },
+        {
+            "id": "chem_bond_9",
+            "type": "content",
+            "title": "Hybridization",
+            "content": "# Mixing It Up\n\nSometimes, standard s and p orbitals don't point in the right directions to make the shapes we see (like the tetrahedral shape of Carbon).\n\nTo explain this, Linus Pauling introduced **Hybridization**. \nBefore bonding, the atomic orbitals of the central atom mix together (hybridize) to form a new set of identical, equivalent orbitals called **hybrid orbitals**.\n\n- Mixing one 's' and three 'p' orbitals gives four **sp3** hybrid orbitals (arranged tetrahedrally).\n- Mixing one 's' and two 'p' gives three **sp2** orbitals (trigonal planar).\n- Mixing one 's' and one 'p' gives two **sp** orbitals (linear)."
+        },
+        {
+            "id": "chem_bond_10",
+            "type": "content",
+            "title": "Hydrogen Bonding",
+            "content": "# The Special Weak Force\n\nWater is weird. It's a very light molecule, but it's a liquid at room temperature (while heavier things like CO2 are gases). Why?\n\nBecause of **Hydrogen Bonding**!\nWhen Hydrogen is bonded to a highly electronegative atom (specifically **Fluorine, Oxygen, or Nitrogen**), the H atom becomes highly positive.\n\nThis positive H atom is strongly attracted to the lone pairs on the F, O, or N of a *neighboring* molecule. This creates a bridge between molecules.\nIt is weaker than a covalent bond, but stronger than typical intermolecular forces, and it gives water its amazing properties!"
+        },
+        {
+            "id": "chem_bond_quiz_3",
+            "type": "quiz",
+            "title": "Hydrogen Bond Quiz",
+            "content": "Check your understanding of this crucial force.",
+            "quizQuestion": "Hydrogen bonding occurs when hydrogen is covalently bonded to a highly electronegative atom. Which of the following elements can participate in hydrogen bonding?",
+            "quizOptions": [
+                "Carbon, Sulfur, Phosphorus",
+                "Fluorine, Oxygen, Nitrogen",
+                "Iron, Copper, Zinc",
+                "Helium, Neon, Argon"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_bond_11",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Octet Rule:** Atoms bond to achieve 8 valence electrons.\n- **Ionic Bond:** Complete transfer of electrons (Metal + Non-metal).\n- **Covalent Bond:** Sharing of electrons (Non-metal + Non-metal).\n- **Polarity:** Unequal sharing due to differences in electronegativity.\n- **VSEPR Theory:** Electron pairs repel, determining the 3D shape of the molecule (e.g., Tetrahedral, Bent).\n- **Sigma/Pi Bonds:** Head-on overlap (strong) vs Sideways overlap (weak).\n- **Hybridization:** Mixing atomic orbitals to create new geometries (sp3, sp2, sp).\n- **Hydrogen Bond:** Strong intermolecular attraction involving H and F/O/N."
+        },
+        {
+            "id": "chem_bond_12",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Chemical Bonding\n\nExcellent work! Here is a recap of what we've learned:\n\n- Atoms bond to achieve stability, usually by completing their **octet** through transferring (**ionic**) or sharing (**covalent**) electrons.\n- Covalent bonds can be **polar** if atoms have different electronegativities.\n- The 3D shapes of molecules (like tetrahedral or linear) are predicted by the **VSEPR theory** because electron pairs repel each other.\n- At the quantum level, bonds form by the overlap of orbitals (**Sigma** and **Pi** bonds).\n- To achieve the correct geometries, atoms undergo **Hybridization** (mixing their s and p orbitals).\n- **Hydrogen bonding** is a vital intermolecular force that gives water its unique properties."
+        }
+    ]
+}

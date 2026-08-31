@@ -1,0 +1,117 @@
+{
+    "id": "learn_redox",
+    "topicId": "redox",
+    "topicTitle": "Redox Reactions",
+    "description": "Discover the chemistry of electricity, rusting, and metabolism. It's all about the exchange of electrons!",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "chem_redox_1",
+            "type": "content",
+            "title": "Welcome to Redox Reactions",
+            "content": "# The Electron Exchange\n\nWhen iron rusts, when wood burns, and when your body digests food, the exact same fundamental chemical process is happening: a transfer of electrons.\n\nThese are called **Oxidation-Reduction** reactions, or **Redox** reactions for short.\n\n## What You Will Learn:\n- **Oxidation vs Reduction:** The classical and modern definitions.\n- **Oxidation Number:** The electron accounting system.\n- **Balancing Redox Equations:** Keeping track of the invisible electrons.\n- **Electrochemical Cells:** How batteries turn chemistry into electricity!"
+        },
+        {
+            "id": "chem_redox_2",
+            "type": "content",
+            "title": "Classical Definition",
+            "content": "# Oxygen and Hydrogen\n\nOriginally, chemists defined oxidation and reduction simply by looking at what was added or removed in a reaction.\n\n1. **Oxidation:** The addition of oxygen (or an electronegative element) to a substance, OR the removal of hydrogen (or an electropositive element) from a substance. \n   *Example:* Magnesium burning in air (2Mg + O2 -> 2MgO) is the oxidation of Magnesium.\n2. **Reduction:** The removal of oxygen (or electronegative element) from a substance, OR the addition of hydrogen (or electropositive element) to a substance.\n   *Example:* Heating Copper Oxide with Hydrogen gas (CuO + H2 -> Cu + H2O) is the reduction of Copper Oxide."
+        },
+        {
+            "id": "chem_redox_3",
+            "type": "content",
+            "title": "The Modern Definition",
+            "content": "# Follow the Electrons\n\nThe classical definition is too limited. We now know that the true essence of these reactions is the transfer of electrons!\n\nUse the acronym **OIL RIG** (Oxidation Is Loss, Reduction Is Gain).\n\n1. **Oxidation:** The **Loss** of electrons by any species.\n   *Example:* Na -> Na+ + e- (Sodium loses an electron to become an ion. It is oxidized).\n2. **Reduction:** The **Gain** of electrons by any species.\n   *Example:* Cl2 + 2e- -> 2Cl- (Chlorine gains electrons to become chloride ions. It is reduced)."
+        },
+        {
+            "id": "chem_redox_quiz_1",
+            "type": "quiz",
+            "title": "Definitions Quiz",
+            "content": "Check your understanding of the modern definitions.",
+            "quizQuestion": "According to the modern definition, what happens to a substance when it is oxidized?",
+            "quizOptions": [
+                "It gains electrons",
+                "It loses electrons",
+                "It gains protons",
+                "It loses protons"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_redox_4",
+            "type": "content",
+            "title": "Oxidizing and Reducing Agents",
+            "content": "# The Facilitators\n\nOxidation and reduction ALWAYS happen together. If something loses an electron, something else MUST gain it. They are two halves of the same coin.\n\n- **Oxidizing Agent (Oxidant):** The substance that *causes* oxidation by accepting electrons. Therefore, the oxidizing agent itself gets **reduced**!\n- **Reducing Agent (Reductant):** The substance that *causes* reduction by donating electrons. Therefore, the reducing agent itself gets **oxidized**!\n\nThink of it like a bank transaction: The person depositing money is the \"increasing agent\" for the bank account, while their own wallet gets reduced!"
+        },
+        {
+            "id": "chem_redox_5",
+            "type": "content",
+            "title": "Oxidation Number",
+            "content": "# The Electron Accounting System\n\nIn covalent bonds, electrons are shared, not completely transferred. It's hard to tell what is oxidized or reduced. We need an accounting system: the **Oxidation Number** (or State).\n\nIt is the apparent charge an atom would have if all bonds were completely ionic (if the more electronegative atom took all the shared electrons).\n\n**Rules:**\n1. Elements in their free state (like O2, H2, Na, Fe) have an oxidation number of **0**.\n2. For monatomic ions, it equals the charge on the ion (Na+ is +1, S2- is -2).\n3. Oxygen is usually **-2** (except in peroxides where it is -1).\n4. Hydrogen is usually **+1** (except when bonded to metals, where it is -1)."
+        },
+        {
+            "id": "chem_redox_6",
+            "type": "content",
+            "title": "Calculating Oxidation Numbers",
+            "content": "# Finding the Unknown\n\nIn a neutral compound, the sum of all oxidation numbers must be ZERO. In a polyatomic ion, the sum must equal the charge on the ion.\n\nLet's find the oxidation number of Sulfur (S) in Sulfuric Acid (H2SO4).\nLet the oxidation number of S be 'x'.\nWe know H is +1 and O is -2.\n\nThe sum for the neutral molecule is 0:\n(2 * +1) + (1 * x) + (4 * -2) = 0\n2 + x - 8 = 0\nx - 6 = 0\n**x = +6**\n\nThe oxidation number of Sulfur in H2SO4 is +6!"
+        },
+        {
+            "id": "chem_redox_quiz_2",
+            "type": "quiz",
+            "title": "Oxidation Number Quiz",
+            "content": "Test your accounting skills.",
+            "quizQuestion": "What is the oxidation number of Carbon (C) in Carbon Dioxide (CO2)? (Remember, Oxygen is usually -2).",
+            "quizOptions": [
+                "-2",
+                "0",
+                "+2",
+                "+4"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "chem_redox_7",
+            "type": "content",
+            "title": "Redox in Terms of Oxidation Number",
+            "content": "# A Simpler Way to Look at It\n\nNow that we have oxidation numbers, we can redefine redox reactions very simply!\n\n1. **Oxidation:** An **increase** in the oxidation number of an element in a given substance.\n2. **Reduction:** A **decrease** in the oxidation number of an element in a given substance.\n\nIf Carbon goes from an oxidation state of 0 (in C) to +4 (in CO2), its number increased, so it was oxidized!\nIf Iron goes from +3 (in Fe2O3) to 0 (in Fe metal), its number decreased, so it was reduced!"
+        },
+        {
+            "id": "chem_redox_8",
+            "type": "content",
+            "title": "Types of Redox Reactions",
+            "content": "# How They Happen\n\nRedox reactions come in several flavors:\n\n1. **Combination Reactions:** Two elements combine to form a compound (A + B -> C). E.g., C + O2 -> CO2.\n2. **Decomposition Reactions:** A compound breaks down (C -> A + B). E.g., 2H2O -> 2H2 + O2.\n3. **Displacement Reactions:** An ion in a compound is replaced by an ion of another element (X + YZ -> XZ + Y). E.g., Zn + CuSO4 -> ZnSO4 + Cu (Zinc displaces Copper because it is a stronger reducing agent).\n4. **Disproportionation Reactions:** A special type where the *same* element is simultaneously oxidized and reduced!"
+        },
+        {
+            "id": "chem_redox_9",
+            "type": "content",
+            "title": "Electrochemical Cells",
+            "content": "# Harnessing the Electrons\n\nSince redox reactions involve the transfer of electrons, can we force those electrons to travel through a wire and do useful work (like lighting a bulb)?\n\nYes! That is an **Electrochemical Cell** (a battery).\n\nA classic example is the Daniell cell, which uses the displacement reaction between Zinc and Copper.\nWe put a Zinc rod in a Zinc Sulfate solution (the **Anode**, where oxidation happens and electrons are released). \nWe put a Copper rod in a Copper Sulfate solution (the **Cathode**, where reduction happens and electrons are consumed).\n\nWhen we connect them with a wire, electrons flow from the Anode to the Cathode, creating an electric current!"
+        },
+        {
+            "id": "chem_redox_quiz_3",
+            "type": "quiz",
+            "title": "Electrochemical Cell Quiz",
+            "content": "Check your understanding of batteries.",
+            "quizQuestion": "In an electrochemical cell, at which electrode does oxidation (loss of electrons) occur?",
+            "quizOptions": [
+                "The Cathode",
+                "The Anode",
+                "The Salt Bridge",
+                "Both electrodes simultaneously"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_redox_10",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Redox Reaction:** A reaction where electrons are transferred between species.\n- **Oxidation (OIL):** Loss of electrons (or increase in oxidation number).\n- **Reduction (RIG):** Gain of electrons (or decrease in oxidation number).\n- **Oxidizing Agent:** Causes oxidation by taking electrons (it gets reduced).\n- **Reducing Agent:** Causes reduction by donating electrons (it gets oxidized).\n- **Oxidation Number:** A bookkeeping number representing the apparent charge of an atom in a molecule.\n- **Electrochemical Cell:** A device that converts chemical energy from a spontaneous redox reaction into electrical energy."
+        },
+        {
+            "id": "chem_redox_11",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Redox Reactions\n\nExcellent work! Here is a recap of what we've learned:\n\n- The true definition of **Oxidation** is the loss of electrons, and **Reduction** is the gain of electrons (**OIL RIG**).\n- These processes always happen simultaneously. An **oxidizing agent** takes electrons (and gets reduced), while a **reducing agent** gives electrons (and gets oxidized).\n- To track electrons in covalent compounds, we assign **Oxidation Numbers**. An increase in this number means oxidation; a decrease means reduction.\n- We can harness the electron flow of a spontaneous redox reaction using an **Electrochemical cell** (like a battery), where oxidation occurs at the **Anode** and reduction at the **Cathode**."
+        }
+    ]
+}

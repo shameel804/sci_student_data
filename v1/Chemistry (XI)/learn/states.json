@@ -1,0 +1,117 @@
+{
+    "id": "learn_states",
+    "topicId": "states",
+    "topicTitle": "States of Matter: Gases and Liquids",
+    "description": "Discover the invisible forces that decide whether a substance is a hard solid, a flowing liquid, or a chaotic gas.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "chem_states_1",
+            "type": "content",
+            "title": "Welcome to States of Matter",
+            "content": "# The Battle of Forces\n\nWater can be solid ice, liquid water, or gaseous steam. The chemical composition (H2O) never changes, but the physical state does!\n\nWhy? It comes down to a battle between two opposing tendencies:\n1. **Intermolecular Forces:** The attractive forces between molecules that try to pull them together.\n2. **Thermal Energy:** The kinetic energy of the molecules (due to temperature) that makes them move fast and try to fly apart.\n\n## What You Will Learn:\n- **Intermolecular Forces:** Van der Waals forces and Dipoles.\n- **The Gas Laws:** Boyle's, Charles', and Avogadro's laws.\n- **The Ideal Gas Equation:** PV = nRT.\n- **Kinetic Molecular Theory:** Why gases behave the way they do.\n- **Liquids:** Vapor pressure and viscosity."
+        },
+        {
+            "id": "chem_states_2",
+            "type": "content",
+            "title": "Intermolecular Forces",
+            "content": "# The Weak Attractions\n\nIntermolecular forces are the forces of attraction and repulsion between interacting particles (atoms and molecules). These are *much* weaker than covalent or ionic bonds!\n\nCollectively, they are known as **van der Waals forces**.\n\n1. **Dispersion (London) Forces:** The weakest force. Even non-polar molecules (like O2) have momentary, fluctuating dipoles due to electron movement. This creates a very weak, temporary attraction.\n2. **Dipole-Dipole Forces:** Stronger than London forces. Occur between polar molecules (like HCl) where the permanent positive end of one molecule attracts the negative end of another."
+        },
+        {
+            "id": "chem_states_3",
+            "type": "content",
+            "title": "The Gaseous State",
+            "content": "# Chaos and Empty Space\n\nIn a gas, thermal energy completely overpowers intermolecular forces. The molecules fly around randomly at high speeds.\n\nCharacteristics of gases:\n1. They are highly compressible.\n2. They exert pressure equally in all directions (by colliding with the walls of their container).\n3. They have a much lower density than solids and liquids.\n4. The volume and the shape of gases are not fixed. They assume the volume and shape of the container."
+        },
+        {
+            "id": "chem_states_quiz_1",
+            "type": "quiz",
+            "title": "Forces Quiz",
+            "content": "Check your understanding of the battle of forces.",
+            "quizQuestion": "Which state of matter exists when thermal energy completely overpowers intermolecular attractive forces?",
+            "quizOptions": [
+                "Solid",
+                "Liquid",
+                "Gas",
+                "Plasma"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "chem_states_4",
+            "type": "content",
+            "title": "The Gas Laws: Boyle's Law",
+            "content": "# Pressure vs Volume\n\nRobert Boyle studied the relationship between Pressure (P) and Volume (V) of a gas, keeping the Temperature constant.\n\n> **Boyle's Law:** At constant temperature, the pressure of a fixed amount of gas is inversely proportional to its volume.\n\n`P is proportional to 1/V` (or `P * V = Constant`).\n\nIf you squeeze a balloon (decrease the volume), the air particles have less space, so they hit the walls more often, increasing the pressure!"
+        },
+        {
+            "id": "chem_states_5",
+            "type": "content",
+            "title": "The Gas Laws: Charles' Law",
+            "content": "# Temperature vs Volume\n\nJacques Charles studied the relationship between Temperature (T) and Volume (V), keeping the Pressure constant.\n\n> **Charles' Law:** At constant pressure, the volume of a fixed mass of a gas is directly proportional to its absolute temperature (in Kelvin).\n\n`V is proportional to T` (or `V / T = Constant`).\n\nIf you heat a balloon, the gas molecules move faster and push harder against the balloon walls, causing it to expand (increase in volume)!"
+        },
+        {
+            "id": "chem_states_6",
+            "type": "content",
+            "title": "The Ideal Gas Equation",
+            "content": "# Putting it All Together\n\nIf we combine Boyle's Law, Charles' Law, and Avogadro's Law (which states that Volume is proportional to the number of moles 'n'), we get the most famous equation in gas chemistry:\n\n**The Ideal Gas Equation:**\n`P * V = n * R * T`\n\n- `P` = Pressure\n- `V` = Volume\n- `n` = Number of moles of gas\n- `T` = Temperature (in Kelvin)\n- `R` = The Universal Gas Constant (8.314 J / K mol)\n\nA gas that perfectly obeys this equation under all conditions is called an **Ideal Gas**."
+        },
+        {
+            "id": "chem_states_quiz_2",
+            "type": "quiz",
+            "title": "Gas Laws Quiz",
+            "content": "Check your understanding of the ideal gas.",
+            "quizQuestion": "According to Charles' Law, what happens to the volume of a gas if its absolute temperature is doubled while keeping pressure constant?",
+            "quizOptions": [
+                "It is halved",
+                "It remains the same",
+                "It is squared",
+                "It is doubled"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "chem_states_7",
+            "type": "content",
+            "title": "Kinetic Molecular Theory of Gases",
+            "content": "# Why the Math Works\n\nWhy do gases obey `PV=nRT`? The Kinetic Molecular Theory provides the microscopic explanation:\n\n1. Gases consist of large numbers of identical particles (atoms or molecules) that are so small and so far apart that their actual volume is negligible compared to the empty space between them.\n2. There is no force of attraction between the particles (in an ideal gas at ordinary temperature and pressure).\n3. Particles are in continuous, random motion. \n4. Pressure is caused by particles colliding with the walls of the container.\n5. The average kinetic energy of the gas particles is directly proportional to the absolute temperature."
+        },
+        {
+            "id": "chem_states_8",
+            "type": "content",
+            "title": "Real Gases: Deviation from Ideal Behavior",
+            "content": "# Reality Check\n\nNo gas is perfectly \"ideal.\" The Kinetic Theory made two assumptions that aren't strictly true:\n1. It assumed gas molecules have *zero* volume. (They are small, but they do take up some space!).\n2. It assumed there are *no* intermolecular forces of attraction. (If this were true, gases could never be liquefied into liquids!).\n\n**Real gases** behave like ideal gases only at **low pressures** and **high temperatures**. At high pressure or low temperature, they deviate significantly from `PV=nRT`."
+        },
+        {
+            "id": "chem_states_9",
+            "type": "content",
+            "title": "The Liquid State",
+            "content": "# The Middle Ground\n\nIn liquids, intermolecular forces are strong enough to hold molecules close together (so they have a definite volume), but not strong enough to lock them into fixed positions (so they have no definite shape and can flow).\n\nTwo important properties of liquids:\n\n1. **Vapor Pressure:** Some molecules on the surface of a liquid have enough kinetic energy to escape into the gas phase (evaporation). In a closed container, they exert a pressure on the liquid surface. The temperature at which vapor pressure equals atmospheric pressure is the **Boiling Point**!\n2. **Viscosity:** A measure of a liquid's resistance to flow (internal friction). Honey has high viscosity; water has low viscosity."
+        },
+        {
+            "id": "chem_states_quiz_3",
+            "type": "quiz",
+            "title": "Real Gas Quiz",
+            "content": "Check your understanding of real-world gases.",
+            "quizQuestion": "Under what conditions do real gases behave most like an ideal gas?",
+            "quizOptions": [
+                "High pressure and low temperature",
+                "Low pressure and high temperature",
+                "High pressure and high temperature",
+                "Low pressure and low temperature"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_states_10",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Intermolecular Forces:** Weak attractions between molecules (e.g., Dispersion forces, Dipole-Dipole).\n- **Boyle's Law:** P and V are inversely proportional (at constant T).\n- **Charles' Law:** V and T are directly proportional (at constant P).\n- **Ideal Gas Equation:** PV = nRT.\n- **Kinetic Molecular Theory:** Explains gas behavior (random motion, elastic collisions).\n- **Real Gas:** Deviates from ideal behavior at high P and low T due to actual molecular volume and attractive forces.\n- **Vapor Pressure:** The pressure exerted by a vapor in equilibrium with its liquid phase."
+        },
+        {
+            "id": "chem_states_11",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of States of Matter\n\nExcellent work! Here is a recap of what we've learned:\n\n- The state of matter depends on the balance between **intermolecular forces** (pulling together) and **thermal energy** (pushing apart).\n- Gases obey the gas laws: **Boyle's Law** (Pressure vs Volume) and **Charles' Law** (Temperature vs Volume), which combine into the **Ideal Gas Equation (PV=nRT)**.\n- The **Kinetic Molecular Theory** explains gas pressure as collisions against container walls, and temperature as average kinetic energy.\n- **Real gases** only act \"ideal\" at high temperatures and low pressures.\n- **Liquids** have stronger intermolecular forces, leading to properties like definite volume, **vapor pressure**, and **viscosity**."
+        }
+    ]
+}

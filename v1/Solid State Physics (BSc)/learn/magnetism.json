@@ -1,0 +1,139 @@
+{
+    "id": "learn_solid_magnetism",
+    "topicId": "magnetism",
+    "topicTitle": "Magnetic Properties of Solids",
+    "description": "Understand why some materials stick to your fridge and others don't. Explore the quantum origins of diamagnetism, paramagnetism, and ferromagnetism.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "smag_1",
+            "type": "content",
+            "title": "The Origin of Magnetism",
+            "content": "# The Microscopic Motors\n\nWe know from electromagnetism that ALL magnetic fields are created by moving electric charges.\n\nSo where does the magnetic field of a solid chunk of Iron come from? From the atoms themselves!\n\n1. **Orbital Motion:** Electrons orbit the nucleus, acting like tiny loops of wire carrying an electric current.\n2. **Electron Spin:** Electrons have intrinsic quantum spin, acting like microscopic permanent magnets.\n\nIn most materials, these billions of tiny magnetic fields point in completely random directions and perfectly cancel each other out."
+        },
+        {
+            "id": "smag_2",
+            "type": "content",
+            "title": "Three Flavors of Magnetism",
+            "content": "# How Solids React\n\nSolid materials are classified entirely by how they react when you expose them to an EXTERNAL magnetic field.\n\nThere are three primary types of magnetic behavior in solids:\n1. **Diamagnetism** (Weakly repelled)\n2. **Paramagnetism** (Weakly attracted)\n3. **Ferromagnetism** (Strongly attracted and permanently magnetized)\n\nLet's explore each one."
+        },
+        {
+            "id": "smag_3",
+            "type": "content",
+            "title": "Diamagnetism",
+            "content": "# The Universal Repulsion\n\n**Diamagnetism** is a property of EVERY single material in the universe. It is a direct result of Lenz's Law (Electromagnetic Induction).\n\nWhen you push a strong magnetic field into an atom, the electron clouds slightly shift their orbits to create a tiny, temporary opposing magnetic field. They try to fight you.\n\nAs a result, Diamagnetic materials are always very slightly **REPELLED** by magnets.\nExamples: Water, Copper, Gold, Bismuth (and humans, since we are mostly water!). If you use an impossibly strong magnet, you can actually levitate a live frog using pure diamagnetism!"
+        },
+        {
+            "id": "smag_4",
+            "type": "content",
+            "title": "Paramagnetism",
+            "content": "# The Weak Attraction\n\nIn some materials, the atoms have unpaired electrons. Because they are unpaired, their spins don't cancel out. Each atom acts as a permanent, tiny magnet.\n\nNormally, these tiny magnets point randomly due to thermal heat, so the block of metal has no overall magnetic field.\nBut when you apply a strong external magnet, these tiny atoms slightly rotate and **align** with the external field.\n\nThis creates a weak **ATTRACTION** to the magnet. The moment you take the external magnet away, thermal energy instantly scrambles the atoms again, and the magnetism vanishes.\nExamples: Aluminum, Platinum."
+        },
+        {
+            "id": "smag_5",
+            "type": "content",
+            "title": "Ferromagnetism",
+            "content": "# The Power of Iron\n\n**Ferromagnetism** is incredibly rare, but it's what we think of when we say \"Magnet.\"\n\nIn Ferromagnetic materials (Iron, Nickel, Cobalt), the atoms also have unpaired electrons. But unlike paramagnetism, there is a powerful quantum mechanical force (The Exchange Interaction) that forces neighboring atoms to perfectly align their spins with each other, even when there is NO external magnet around!\n\nThey lock together into massive aligned armies."
+        },
+        {
+            "id": "smag_6",
+            "type": "content",
+            "title": "Magnetic Domains",
+            "content": "# The Armies of Atoms\n\nThese aligned groups of atoms are called **Magnetic Domains**.\n\nA normal iron nail has thousands of domains. Inside domain A, all atoms point North. Inside domain B, all atoms point South. Because the domains themselves are random, the nail is not a magnet.\n\nBut if you drag a strong permanent magnet across the nail, you physically force all the domain walls to shift. All the domains merge and snap into perfect alignment.\nBecause the quantum Exchange Interaction locks them in place, they STAY aligned when you take the magnet away. The nail is now a Permanent Magnet!"
+        },
+        {
+            "id": "smag_7",
+            "type": "content",
+            "title": "The Curie Temperature",
+            "content": "# Destroying a Magnet\n\nHow do you destroy a permanent magnet? You give the atoms enough energy to break the quantum lock and scramble themselves.\n\nYou do this by adding Heat.\n\nEvery ferromagnetic material has a specific point called the **Curie Temperature**. \nIf you heat a strong iron magnet above 770 degrees Celsius (its Curie Temperature), the thermal vibration violently shatters the magnetic domains. The iron instantly loses all permanent magnetism and becomes a boring, weak Paramagnet!"
+        },
+        {
+            "id": "smag_8",
+            "type": "content",
+            "title": "Hysteresis",
+            "content": "# The Memory of Metal\n\nWhen you magnetize a piece of iron, and then turn the external field off, the iron *remembers* the field and stays magnetized.\n\nIf you want to un-magnetize it, you have to actively apply a strong magnetic field in the REVERSE direction to force the domains to flip back.\n\nThis lag between the applied field and the material's actual magnetization is called **Hysteresis**. \nBy studying the Hysteresis Loop (a graph of this lag), engineers can design the perfect materials for specific jobs."
+        },
+        {
+            "id": "smag_9",
+            "type": "content",
+            "title": "Hard vs Soft Magnets",
+            "content": "# Designing for the Job\n\n1. **Hard Magnets:** Have a massive, wide Hysteresis loop. It takes massive energy to force their domains to flip. Once magnetized, they are incredibly difficult to demagnetize. (Perfect for fridge magnets and hard drives).\n2. **Soft Magnets:** Have a very narrow, skinny Hysteresis loop. Their domains flip back and forth instantly and effortlessly with almost zero wasted energy. (Perfect for the spinning cores of electric motors and transformers, where the AC magnetic field reverses 60 times a second)."
+        },
+        {
+            "id": "smag_10",
+            "type": "content",
+            "title": "Antiferromagnetism",
+            "content": "# The Invisible Lock\n\nFerromagnetism forces neighboring atoms to point in the SAME direction (Up-Up-Up).\n\nIn **Antiferromagnetism**, the quantum rules force neighboring atoms to point in the exact OPPOSITE direction (Up-Down-Up-Down).\n\nBecause they are perfectly, permanently alternating, the magnetic fields cancel each other out flawlessly. The material has exactly zero macroscopic magnetic field and will not stick to a fridge, even though its internal atoms are highly magnetically locked!\nExamples: Chromium, Nickel Oxide."
+        },
+        {
+            "id": "smag_11",
+            "type": "content",
+            "title": "Ferrimagnetism",
+            "content": "# The Unequal Opposites\n\n**Ferrimagnetism** (Notice the 'i') is a strange hybrid.\n\nLike Antiferromagnetism, the neighboring atoms are forced to point in opposite directions (Up-Down-Up-Down).\nBUT, the \"Up\" atoms are physically larger or have more unpaired electrons than the \"Down\" atoms!\n\nBecause the Up force is stronger than the Down force, they don't cancel out perfectly. The material ends up with a strong, permanent net magnetic field!\nThe original ancient lodestones (Magnetite, Fe3O4) are actually Ferrimagnetic, not Ferromagnetic!"
+        },
+        {
+            "id": "smag_12",
+            "type": "content",
+            "title": "Magnetic Data Storage",
+            "content": "# Hard Disk Drives\n\nHow does your computer save a photograph permanently, even when the power is turned off?\n\nThe Hard Drive is a spinning platter coated in a microscopic layer of a \"Hard\" Ferromagnetic material.\nA tiny read/write head flies over the platter. To write a \"1\", it blasts a tiny magnetic field to flip a single domain North. To write a \"0\", it flips it South.\n\nBecause it is a Hard Magnet, the domains remember their orientation forever without needing any electricity, safely storing your data."
+        },
+        {
+            "id": "smag_13",
+            "type": "content",
+            "title": "Spintronics",
+            "content": "# The Future of Electronics\n\nModern electronics (computers, phones) only use ONE property of the electron to do math: its negative Charge.\n\n**Spintronics** is a cutting-edge field of physics that tries to build computers using BOTH the Charge and the SPIN of the electron!\n\nBy pushing electrons through a wire and manipulating whether they are Spin Up or Spin Down, we could create processors that are massively faster, produce almost zero heat, and require a fraction of the battery power of current Silicon chips."
+        },
+        {
+            "id": "smag_14",
+            "type": "content",
+            "title": "Giant Magnetoresistance (GMR)",
+            "content": "# The Spintronics Revolution\n\nThe first great success of Spintronics was GMR (which won the 2007 Nobel Prize).\n\nEngineers built a sandwich of two magnetic metals separated by a non-magnetic metal.\nIf the magnetic layers are aligned (North-North), electrons easily flow through the sandwich (Low Resistance).\nIf you flip one layer (North-South), the electrons physically crash and struggle to get through (Massive Resistance).\n\nThis allowed hard drive readers to detect incredibly tiny, microscopic magnetic domains on the disk, instantly increasing the storage capacity of hard drives by 1000x!"
+        },
+        {
+            "id": "smag_15",
+            "type": "content",
+            "title": "Neodymium Magnets",
+            "content": "# The Rare Earth Monsters\n\nThe most powerful permanent magnets in the world are **Neodymium Magnets** (an alloy of Neodymium, Iron, and Boron).\n\nWhy are they so strong? Neodymium is an f-block element, meaning its atoms have a massive number of unpaired electrons hidden deep in the f-orbitals.\nWhen alloyed with Iron, the crystal structure locks these massive atomic magnets perfectly in place, creating a macroscopic magnet so powerful that two large ones can easily crush a human hand if they snap together."
+        },
+        {
+            "id": "smag_16",
+            "type": "content",
+            "title": "The Magnetic Earth",
+            "content": "# The Geodynamo\n\nWhy does a compass point North? Because the Earth itself is a giant magnet.\n\nBut the Earth's core is thousands of degrees hot, vastly above the Curie Temperature of Iron. The Earth's core CANNOT be a permanent solid magnet!\n\nInstead, it acts as a **Geodynamo**. The liquid iron in the outer core is constantly swirling and convecting due to the Earth's rotation. These massive swirling currents of liquid metal generate massive electric currents, which in turn generate the Earth's magnetic field, shielding our atmosphere from deadly solar radiation!"
+        },
+        {
+            "id": "smag_17",
+            "type": "content",
+            "title": "Summary of Solid Magnetism",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Diamagnetism:** Weak universal repulsion due to induced opposing fields.\n2. **Paramagnetism:** Weak attraction caused by unpaired electrons aligning with an external field.\n3. **Ferromagnetism:** Strong, permanent magnetism caused by domains of atoms locking together (Iron, Nickel).\n4. **Curie Temperature:** The heat limit where thermal vibration destroys permanent magnetism.\n5. **Data Storage:** Hard drives use the hysteresis (magnetic memory) of hard ferromagnets to save 0s and 1s.\n6. **Spintronics:** Using the quantum spin of electrons, rather than just their charge, to build faster, cooler electronics."
+        },
+        {
+            "id": "smag_quiz_1",
+            "type": "quiz",
+            "title": "Magnetic Flavors Quiz",
+            "content": "Test your understanding of magnetic responses.",
+            "quizQuestion": "If you hold a very strong magnet near a piece of pure Aluminum, it is very weakly attracted. The moment you pull the magnet away, the Aluminum instantly loses all its magnetism. What type of material is this?",
+            "quizOptions": [
+                "Diamagnetic",
+                "Paramagnetic",
+                "Ferromagnetic",
+                "Superconducting"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "smag_quiz_2",
+            "type": "quiz",
+            "title": "Curie Temperature Quiz",
+            "content": "Review the destruction of magnets.",
+            "quizQuestion": "What happens if you heat a permanent iron magnet significantly above its Curie Temperature?",
+            "quizOptions": [
+                "It becomes even more powerfully magnetic.",
+                "It melts into a liquid but remains a strong permanent magnet.",
+                "The thermal vibration shatters the magnetic domains, turning it into a weak, non-permanent paramagnet.",
+                "Its North and South poles permanently reverse."
+            ],
+            "correctOptionIndex": 2
+        }
+    ]
+}

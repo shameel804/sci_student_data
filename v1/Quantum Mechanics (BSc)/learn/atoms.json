@@ -1,0 +1,139 @@
+{
+    "id": "learn_atoms",
+    "topicId": "atoms",
+    "topicTitle": "Atomic Structure",
+    "description": "Understand how quantum mechanics builds the periodic table, exploring electron shells, orbitals, and the Pauli Exclusion Principle.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "atom_1",
+            "type": "content",
+            "title": "The Bohr Model",
+            "content": "# The Solar System Atom\n\nIn 1913, Niels Bohr proposed the first quantum model of the atom.\n\nHe imagined a dense, positive nucleus with negative electrons orbiting it in perfect circles, exactly like planets orbiting the Sun.\n\nHis brilliant addition was that electrons couldn't just orbit anywhere. They were locked into specific, quantized \"tracks\" or energy levels. \nIf an electron wanted to jump to a higher track, it had to perfectly absorb a single photon of exact energy. If it dropped down, it spat out a photon."
+        },
+        {
+            "id": "atom_2",
+            "type": "content",
+            "title": "The Failure of Bohr",
+            "content": "# When Planets Fail\n\nThe Bohr model was amazing at explaining Hydrogen (1 electron). It perfectly predicted the exact colors of light Hydrogen would emit when heated.\n\nBut the moment they applied the Bohr model to Helium (2 electrons), the math completely failed.\n\nThe solar system model was wrong. Electrons are not solid planets traveling in neat, flat circles. They are 3D probability waves. Bohr's flat orbits had to be replaced by Schrödinger's 3D clouds (Orbitals)."
+        },
+        {
+            "id": "atom_3",
+            "type": "content",
+            "title": "Principal Quantum Number (n)",
+            "content": "# The Electron Shells\n\nIn the modern quantum model, the first number describing an electron is **n** (The Principal Quantum Number).\n\n**n = 1, 2, 3, 4...**\n\nThis number dictates the overall energy level and the physical SIZE of the electron cloud. \n- Shell n=1 is very small and held extremely tightly to the nucleus.\n- Shell n=4 is massive, fluffy, and very far from the nucleus.\n\nThis \"n\" number corresponds exactly to the Rows (Periods) on the Periodic Table!"
+        },
+        {
+            "id": "atom_4",
+            "type": "content",
+            "title": "Angular Momentum (l)",
+            "content": "# The Shape of the Cloud\n\nThe second quantum number is **l**.\nIt defines the 3D geometric shape of the probability cloud (the Subshell).\n\n- **l = 0 (s-orbital):** A perfect, symmetrical Sphere.\n- **l = 1 (p-orbital):** Two lobes shaped like a Dumbbell or hourglass.\n- **l = 2 (d-orbital):** Four lobes shaped like a Clover (or a dumbbell with a donut around the middle).\n- **l = 3 (f-orbital):** Complex, highly fragmented shapes with 6 or 8 lobes."
+        },
+        {
+            "id": "atom_5",
+            "type": "content",
+            "title": "Magnetic Quantum Number (m)",
+            "content": "# The 3D Orientation\n\nThe third quantum number is **m**. It dictates how many ways you can point that specific shape in 3D space.\n\n- **s-orbital:** It is a sphere. There is only 1 way to orient a sphere.\n- **p-orbital:** It is a dumbbell. It can point along the X-axis (px), the Y-axis (py), or the Z-axis (pz). There are 3 different p-orbitals.\n- **d-orbital:** Has 5 different orientations.\n- **f-orbital:** Has 7 different orientations."
+        },
+        {
+            "id": "atom_6",
+            "type": "content",
+            "title": "Electron Spin",
+            "content": "# The Final Number\n\nElectrons possess an intrinsic, bizarre quantum property called **Spin**. \nIt acts mathematically exactly as if the electron were a tiny spinning top, generating a tiny magnetic field.\n\nAn electron can only have two possible spin states:\n1. **Spin Up (+1/2)**\n2. **Spin Down (-1/2)**\n\nThis means that every single specific orbital cloud (like the px dumbbell) can hold exactly TWO electrons: one spinning up, and one spinning down."
+        },
+        {
+            "id": "atom_7",
+            "type": "content",
+            "title": "The Pauli Exclusion Principle",
+            "content": "# No Two Alike\n\nIn 1925, Wolfgang Pauli formulated the rule that builds the entire physical universe.\n\n**The Pauli Exclusion Principle:** \"No two electrons in the same atom can have the exact same set of four quantum numbers.\"\n\nThis means that once an orbital is full (containing one Spin Up and one Spin Down electron), it is completely locked. The next electron added to the atom CANNOT squeeze in; it is forced to occupy a higher, empty energy orbital.\n\n*If this rule didn't exist, every electron in the universe would collapse into the lowest n=1 shell, and chemistry wouldn't exist!*"
+        },
+        {
+            "id": "atom_8",
+            "type": "content",
+            "title": "Aufbau Principle",
+            "content": "# Building the Atom\n\nHow do we know where the electrons go in a massive atom like Gold (79 electrons)?\n\nWe use the **Aufbau (Building-Up) Principle**.\nElectrons are lazy. They will always fill the absolute lowest energy orbital available first before moving to higher ones.\n\nThe filling order:\n1s -> 2s -> 2p -> 3s -> 3p -> 4s -> 3d...\n\n(Notice the weird jump: the 4s sphere is actually slightly lower in energy than the massive 3d clover, so it fills first!)."
+        },
+        {
+            "id": "atom_9",
+            "type": "content",
+            "title": "Hund's Rule",
+            "content": "# The Bus Seat Rule\n\nWhat happens when an electron has three identical, empty p-orbitals (px, py, pz) to choose from at the exact same energy level?\n\n**Hund's Rule:** Electrons will always fill empty orbitals singly before they start pairing up. \n\nJust like strangers getting on a bus, they will take an empty row first before being forced to sit next to someone else. Why? Because electrons are negative and violently repel each other. They want as much space as possible."
+        },
+        {
+            "id": "atom_10",
+            "type": "content",
+            "title": "Electron Configuration",
+            "content": "# The Chemistry Code\n\nWe write down the location of every electron using **Electron Configuration** notation.\n\nExample: Carbon (6 electrons)\n**1s2 2s2 2p2**\n- 2 electrons are in the n=1 sphere.\n- 2 electrons are in the n=2 sphere.\n- 2 electrons are in the n=2 dumbbells.\n\nThis code completely defines the chemical reactivity of the element."
+        },
+        {
+            "id": "atom_11",
+            "type": "content",
+            "title": "Valence Electrons",
+            "content": "# The Front Lines\n\nOnly the outermost shell of electrons (the highest \"n\" level) ever touch the outside world. These are the **Valence Electrons**.\n\n- The inner \"core\" electrons are buried deep near the nucleus and do nothing.\n- The Valence electrons are the ones that are shared, stolen, or given away to form chemical bonds.\n\nElements in the same column of the periodic table have the exact same number of valence electrons, which is why they have identical chemical reactions!"
+        },
+        {
+            "id": "atom_12",
+            "type": "content",
+            "title": "The Octet Rule",
+            "content": "# The Quest for Stability\n\nAtoms are most stable when their outermost s and p subshells are completely full (8 valence electrons total: 2 in the s-orbital, 6 in the p-orbitals).\n\nThis is the **Octet Rule**. \n\nThe Noble Gases (Neon, Argon) are born with a perfect octet. They are perfectly stable and refuse to react with anything. \nEvery other element on the table steals, gives, or shares electrons desperately trying to achieve that same perfect, stable 8-electron configuration."
+        },
+        {
+            "id": "atom_13",
+            "type": "content",
+            "title": "Atomic Radius",
+            "content": "# The Size of Atoms\n\nHow big is an atom? It depends on the electron cloud.\n\n- **Moving DOWN a column:** Atoms get massively LARGER. You are adding entirely new \"n\" shells (like layers of an onion).\n- **Moving RIGHT across a row:** Atoms actually get SMALLER! Even though you are adding more electrons, you are also adding more positive Protons to the nucleus. This massive positive charge acts like a vacuum, pulling the entire electron cloud tighter and closer to the center."
+        },
+        {
+            "id": "atom_14",
+            "type": "content",
+            "title": "Ionization Energy",
+            "content": "# Stealing an Electron\n\n**Ionization Energy** is the physical amount of energy (in Joules) required to forcefully rip a valence electron away from an atom.\n\n- **Metals (Left side):** Have very LOW ionization energy. Their electrons are far away and held loosely. They want to give them away to reach an octet.\n- **Non-metals (Right side):** Have very HIGH ionization energy. Their electrons are pulled tight to the nucleus. They want to steal electrons, not lose them!\n- **Noble Gases:** Have massive ionization energy. You cannot steal an electron from a perfect octet."
+        },
+        {
+            "id": "atom_15",
+            "type": "content",
+            "title": "Electronegativity",
+            "content": "# The Chemical Tug-of-War\n\nWhen two atoms share an electron in a chemical bond, they rarely share fairly.\n\n**Electronegativity** is a measure of how aggressively an atom pulls shared electrons toward itself in a bond.\n\nFluorine is the most electronegative element in the universe. It is a tiny, highly charged atom that aggressively hoards electrons. If Fluorine bonds with Hydrogen, Fluorine pulls the electron cloud almost entirely onto itself, creating a highly Polar bond."
+        },
+        {
+            "id": "atom_16",
+            "type": "content",
+            "title": "Exceptions to the Rules",
+            "content": "# When the Rules Break\n\nQuantum mechanics is messy. The rules aren't always perfect.\n\nLook at Copper (Cu). The Aufbau principle predicts its configuration should end in **4s2 3d9**.\nBut a completely full, symmetrical d-shell (d10) is incredibly stable.\n\nCopper will actually \"steal\" an electron from its own 4s shell and move it into the 3d shell, making its true configuration **4s1 3d10**!\nNature always prefers symmetrical, half-full, or fully-full subshells for maximum stability."
+        },
+        {
+            "id": "atom_17",
+            "type": "content",
+            "title": "Summary of Atomic Structure",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Quantum Numbers:** Define the size (n), shape (l), and orientation (m) of the 3D electron probability clouds (orbitals).\n2. **Pauli Exclusion:** No two electrons can have the same state; forces electrons to stack into higher shells.\n3. **Hund's Rule:** Electrons fill empty orbitals singly before pairing up.\n4. **Valence Electrons:** The outermost electrons that dictate all chemistry.\n5. **Periodic Trends:** Moving right across the table, atoms get smaller, harder to ionize, and more electronegative."
+        },
+        {
+            "id": "atom_quiz_1",
+            "type": "quiz",
+            "title": "Pauli Exclusion Quiz",
+            "content": "Test your knowledge of the most important rule in chemistry.",
+            "quizQuestion": "According to the Pauli Exclusion Principle, what is the MAXIMUM number of electrons that can physically fit inside a single specific orbital (like the 'px' dumbbell)?",
+            "quizOptions": [
+                "1",
+                "2 (one spinning up, one spinning down)",
+                "6",
+                "8"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "atom_quiz_2",
+            "type": "quiz",
+            "title": "Periodic Trends Quiz",
+            "content": "Review atomic size.",
+            "quizQuestion": "As you move from left to right across a single row (period) of the periodic table, what generally happens to the physical size (Atomic Radius) of the atoms?",
+            "quizOptions": [
+                "They get larger because they have more electrons.",
+                "They get smaller because the increasing number of positive protons pulls the electron cloud tighter.",
+                "They remain exactly the same size.",
+                "Their size oscillates randomly."
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

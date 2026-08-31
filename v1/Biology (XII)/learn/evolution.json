@@ -1,0 +1,115 @@
+{
+    "id": "learn_evolution",
+    "topicId": "evolution",
+    "topicTitle": "Evolution",
+    "description": "Trace the history of life on Earth, from the primordial soup to the descent of man.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "evolve_1",
+            "type": "content",
+            "title": "Welcome to Evolution",
+            "content": "# Evolution\n\nWelcome to Evolutionary Biology! Evolution is the unifying theory of all biology. It explains the massive diversity of life on Earth and how organisms adapt to their environments over millions of years.\n\n## What You Will Learn:\n- **Origin of Life** - How it all started\n- **Evidences of Evolution** - Fossils and anatomy\n- **Darwinian Theory** - Natural selection\n- **Human Evolution** - From apes to Homo sapiens\n\n> **Fun Fact:** Whales possess tiny, useless pelvic bones buried deep in their blubber\u2014a leftover evolutionary trait from when their ancestors walked on land!"
+        },
+        {
+            "id": "evolve_2",
+            "type": "content",
+            "title": "Origin of the Universe and Earth",
+            "content": "# The Big Bang\n\nBefore life, there had to be a universe.\n\n## The Big Bang Theory:\n- Proposes that the universe originated about 20 billion years ago from a singular, unimaginably dense and hot point that exploded and expanded.\n- As it expanded, it cooled, allowing hydrogen and helium gas to form. Galaxies formed due to gravity.\n\n## Earth:\n- Formed about 4.5 billion years ago in the Milky Way galaxy.\n- Early Earth had NO atmosphere. It was a hellish landscape covered in water vapor, methane, carbon dioxide, and ammonia, constantly bombarded by UV rays and lightning."
+        },
+        {
+            "id": "evolve_3",
+            "type": "content",
+            "title": "Origin of Life",
+            "content": "# How did life begin?\n\nFor a long time, people believed in 'Spontaneous Generation' (life appearing from rotting meat or mud). Louis Pasteur proved this wrong.\n\n## Chemical Evolution (Oparin-Haldane Theory):\nLife originated from pre-existing, non-living organic molecules.\n1. High temperature, lightning, and UV rays acted on the early atmosphere (CH4, NH3, H2O, H2).\n2. This energy caused them to combine into simple organic molecules (like amino acids and sugars) in the oceans (the 'primordial soup').\n3. These molecules aggregated into larger polymers (proteins, RNA).\n4. Eventually, these formed the first self-replicating metabolic capsules (the first cells) about 3 billion years ago."
+        },
+        {
+            "id": "evolve_4",
+            "type": "content",
+            "title": "Miller-Urey Experiment",
+            "content": "# Proving Chemical Evolution\n\nIn 1953, Stanley Miller and Harold Urey set out to test the Oparin-Haldane hypothesis in a lab.\n\n## The Setup:\n- They created a closed system simulating early Earth.\n- They boiled water (ocean) to create vapor.\n- They mixed the vapor with Methane, Ammonia, and Hydrogen (early atmosphere).\n- They fired electric sparks through the mixture to simulate lightning.\n\n## The Result:\nAfter a week, the water turned red. When analyzed, they found it contained **amino acids** (the building blocks of proteins)! This proved that the complex molecules of life could easily form from simple chemicals under early Earth conditions."
+        },
+        {
+            "id": "evolve_quiz_1",
+            "type": "quiz",
+            "title": "Origin Quiz",
+            "content": "Test your knowledge of the beginning.",
+            "quizQuestion": "The Miller-Urey experiment demonstrated that:",
+            "quizOptions": [
+                "Life came from outer space",
+                "Simple organic molecules like amino acids can form from inorganic gases",
+                "Spontaneous generation is true",
+                "Dinosaurs were killed by an asteroid"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "evolve_5",
+            "type": "content",
+            "title": "Evidences: Paleontology",
+            "content": "# Fossil Evidence\n\nHow do we know evolution happened? We look at the evidence left behind.\n\n## Paleontology (The Study of Fossils):\n- Fossils are the preserved remains or traces of hard parts of life-forms found in rocks.\n- Rocks form in sedimentary layers (strata). Deeper layers are older.\n- **The Evidence:** Different rock layers contain different fossils. Fossils of simple organisms are found in old, deep rocks. Fossils of complex, modern organisms are found in newer, shallow rocks. \n- We have found many 'missing link' fossils (like Archaeopteryx, showing the transition between dinosaurs and birds)."
+        },
+        {
+            "id": "evolve_6",
+            "type": "content",
+            "title": "Evidences: Morphology & Anatomy",
+            "content": "# Comparing Body Parts\n\nWe can find evidence of evolution by looking at the structures of living animals.\n\n## 1. Homologous Organs:\n- Organs that have the **same basic anatomical structure** but perform **different functions**.\n- Example: The forelimbs of a human (grasping), a whale (swimming), a bat (flying), and a cheetah (running) all have the exact same arrangement of bones (humerus, radius, ulna).\n- **Conclusion:** This indicates **Divergent Evolution** (they share a common ancestor but adapted to different environments).\n\n## 2. Analogous Organs:\n- Organs that have **different anatomical structures** but perform the **same function**.\n- Example: The wings of a butterfly (chitin) and the wings of a bird (feathers and bone).\n- **Conclusion:** This indicates **Convergent Evolution** (unrelated species adapted to the same environment in similar ways)."
+        },
+        {
+            "id": "evolve_7",
+            "type": "content",
+            "title": "Charles Darwin",
+            "content": "# Darwin's Voyage\n\nIn 1831, a young naturalist named Charles Darwin sailed around the world on the HMS Beagle.\n\n## The Galapagos Islands:\nOff the coast of South America, Darwin noticed something incredible.\n- The islands were home to unique animals (like giant tortoises and small finches) that were similar, but distinctly different from island to island.\n- For example, finches on islands with hard seeds had thick, strong beaks. Finches on islands with insects had thin, sharp beaks.\n\nDarwin realized that species are not fixed; they change over time to adapt to their specific environment."
+        },
+        {
+            "id": "evolve_8",
+            "type": "content",
+            "title": "Natural Selection",
+            "content": "# The Mechanism of Evolution\n\nDarwin (and independently, Alfred Wallace) proposed the mechanism for evolution: **Natural Selection**.\n\n## The Key Principles:\n1. **Overpopulation:** Organisms produce more offspring than the environment can support.\n2. **Variation:** No two individuals are exactly alike; there is natural genetic variation in every population.\n3. **Struggle for Existence:** Because resources are limited, there is competition to survive.\n4. **Survival of the Fittest:** Individuals whose variations make them better adapted to their environment are more likely to survive and reproduce.\n\nOver many generations, these advantageous traits accumulate, leading to the origin of new species!"
+        },
+        {
+            "id": "evolve_9",
+            "type": "content",
+            "title": "Examples of Natural Selection",
+            "content": "# Evolution in Action\n\nNatural selection isn't just history; we can see it happening today.\n\n## Industrial Melanism (The Peppered Moth):\n- In England before the industrial revolution, most peppered moths were white to hide on lichen-covered trees. Black moths were easily spotted and eaten by birds.\n- Pollution from factories killed the lichen and blackened the trees with soot.\n- Suddenly, the white moths were easily seen, and the black moths were camouflaged!\n- Within a few decades, the population completely shifted; almost all moths were black.\n- (When pollution laws cleaned the air later, the population shifted back to white!)"
+        },
+        {
+            "id": "evolve_quiz_2",
+            "type": "quiz",
+            "title": "Evolution Quiz",
+            "content": "Test your Darwinian knowledge.",
+            "quizQuestion": "The wings of a bat and the wings of a butterfly perform the same function but have entirely different internal structures. They are an example of:",
+            "quizOptions": [
+                "Homologous organs",
+                "Analogous organs",
+                "Vestigial organs",
+                "Fossil organs"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "evolve_10",
+            "type": "content",
+            "title": "Adaptive Radiation",
+            "content": "# Adaptive Radiation\n\nSometimes, a single species evolves rapidly into many different species to fill empty ecological niches.\n\n## Definition:\nThe process of evolution of different species in a given geographical area starting from a point and literally radiating to other areas of geography (habitats).\n\n## Examples:\n1. **Darwin's Finches:** A single flock of seed-eating finches arrived on the Galapagos. Over time, they radiated into 14 distinct species with different beaks to eat seeds, insects, cactus, and fruit.\n2. **Australian Marsupials:** A single ancestral marsupial radiated to form the koala, kangaroo, Tasmanian devil, and sugar glider, adapting to every environment in Australia."
+        },
+        {
+            "id": "evolve_11",
+            "type": "content",
+            "title": "Hardy-Weinberg Principle",
+            "content": "# Measuring Evolution mathematically\n\nHow do we know if a population is currently evolving? We use the Hardy-Weinberg principle.\n\n## The Principle:\nIt states that allele frequencies in a population are stable and remain constant from generation to generation IF the population is NOT evolving (this is called genetic equilibrium).\n\n## The Equation:\n```\np^2 + 2pq + q^2 = 1\n```\n(Where p and q are the frequencies of two alleles).\n\n## What causes evolution? (Factors that break equilibrium):\n1. Gene migration (migration of individuals)\n2. Genetic drift (random chance events wiping out part of a population)\n3. Mutation\n4. Genetic recombination\n5. Natural Selection"
+        },
+        {
+            "id": "evolve_12",
+            "type": "content",
+            "title": "Human Evolution",
+            "content": "# The Story of Us\n\nHumans (Homo sapiens) belong to the primate order. We share a common ancestor with modern apes (like chimpanzees), but we did not evolve FROM modern apes.\n\n## Key Milestones (Hominid Lineage):\n- **Dryopithecus / Ramapithecus (15 million years ago):** Ape-like, hairy, walked like gorillas.\n- **Australopithecus (2-4 mya):** Walked upright (bipedal) in East Africa. Hunted with stone weapons but mostly ate fruit. Small brain.\n- **Homo habilis (2 mya):** The \"Handy Man\". First to make complex stone tools. Brain capacity 650-800cc.\n- **Homo erectus (1.5 mya):** Discovered fire. Much larger brain (900cc). First to leave Africa.\n- **Neanderthals (100k-40k years ago):** Lived in Ice Age Europe. Large brains (1400cc). Used hides to protect their bodies and buried their dead.\n- **Homo sapiens (75k-10k years ago):** Modern humans arose in Africa during the Ice Age. Developed cave art and agriculture."
+        },
+        {
+            "id": "evolve_13",
+            "type": "content",
+            "title": "Summary: Evolution",
+            "content": "# Evolution Summary\n\n## Key Concepts Reviewed:\n\n- **Origin of Life:** Chemical evolution (Oparin-Haldane) proved by the Miller-Urey experiment (making amino acids from gases).\n- **Evidences:** Fossils, Homologous organs (divergent evolution, common ancestor), Analogous organs (convergent evolution, different ancestor).\n- **Natural Selection:** Darwin's theory. Organisms with advantageous variations survive and reproduce (e.g., Peppered moths).\n- **Adaptive Radiation:** One species evolving into many to fill different niches (Darwin's finches).\n- **Hardy-Weinberg:** Mathematical model showing genetic equilibrium when a population is NOT evolving.\n- **Human Evolution:** Australopithecus (first bipedal) -> Homo habilis (tools) -> Homo erectus (fire) -> Neanderthals -> Homo sapiens.\n\n> **Congratulations!** You have completed the Evolution module."
+        }
+    ]
+}

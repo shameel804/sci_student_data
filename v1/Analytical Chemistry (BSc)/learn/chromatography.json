@@ -1,0 +1,139 @@
+{
+    "id": "learn_chromatography",
+    "topicId": "chromatography",
+    "topicTitle": "Chromatography",
+    "description": "Master the techniques used to separate complex mixtures into individual components, exploring Gas, Liquid, and Thin-Layer Chromatography.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "chrom_1",
+            "type": "content",
+            "title": "Introduction to Chromatography",
+            "content": "# The Art of Separation\n\nNature rarely provides us with pure chemicals. Blood, river water, and plant extracts are all incredibly complex mixtures containing thousands of different molecules.\n\nTo analyze them, we must first separate them. **Chromatography** (from the Greek for \"color writing\") is the most powerful physical separation method in science.\n\n## The Core Principle\nAll chromatographic techniques involve forcing a mixture through a system containing two distinct phases:\n1. A **Stationary Phase** (which stays perfectly still).\n2. A **Mobile Phase** (a fluid that flows over or through the stationary phase)."
+        },
+        {
+            "id": "chrom_2",
+            "type": "content",
+            "title": "The Mechanism of Separation",
+            "content": "# The Great Race\n\nImagine chromatography as a race through an obstacle course.\n\n- The **Mobile Phase** acts as the rushing water of a river.\n- The **Stationary Phase** acts as the sticky mud on the riverbed.\n- The **Sample Mixture** is a group of different boats floating down the river.\n\n## Differential Partitioning\nEach chemical in the mixture has a choice: it can dissolve in the moving river, or it can stick to the stationary mud.\n- Molecules that strongly prefer the mud will spend most of their time stuck. They move very **slowly** through the system.\n- Molecules that strongly prefer the moving water will ignore the mud and get swept along. They move very **quickly** through the system.\n\nBecause every molecule has a slightly different affinity for the two phases, they travel at different speeds and physically separate from each other!"
+        },
+        {
+            "id": "chrom_3",
+            "type": "content",
+            "title": "Thin-Layer Chromatography (TLC)",
+            "content": "# Thin-Layer Chromatography (TLC)\n\nThe simplest, cheapest, and fastest form of chromatography, used daily by synthetic chemists to check the progress of a reaction.\n\n## The Setup\n- **Stationary Phase:** A thin, flat plate of glass or plastic coated with a very fine layer of silica gel (which is highly polar).\n- **Mobile Phase:** A shallow pool of liquid solvent (usually a mix of a non-polar solvent like hexane and a polar solvent like ethyl acetate) inside a sealed glass jar."
+        },
+        {
+            "id": "chrom_4",
+            "type": "content",
+            "title": "Running a TLC Plate",
+            "content": "# How to run TLC\n\n1. **Spotting:** A tiny drop of the mixture is placed on a baseline drawn near the bottom of the silica plate.\n2. **Development:** The plate is stood upright in the shallow pool of solvent. Through capillary action, the liquid solvent slowly creeps up the plate, carrying the mixture with it.\n3. **Separation:** Polar molecules in the mixture stick tightly to the polar silica gel, moving very little. Non-polar molecules ignore the silica and get carried right to the top with the solvent.\n4. **Visualization:** Once the solvent nears the top, the plate is removed, dried, and looked at under a UV light to see the separated spots."
+        },
+        {
+            "id": "chrom_5",
+            "type": "content",
+            "title": "The Retention Factor (Rf)",
+            "content": "# Analyzing TLC: The Rf Value\n\nTo identify the spots, chemists calculate a standardized metric called the **Retention Factor (Rf)**.\n\n**Rf = (Distance traveled by the specific spot) / (Distance traveled by the solvent front)**\n\n- Rf is always a decimal between 0 and 1.\n- A polar molecule on silica will have a very low Rf (e.g., 0.1) because it barely moved.\n- A non-polar molecule will have a high Rf (e.g., 0.9) because it moved almost as far as the solvent.\n\nIf you spot an unknown mixture next to a known standard, and they both produce a spot with an Rf of 0.65, they are likely the same compound!"
+        },
+        {
+            "id": "chrom_6",
+            "type": "content",
+            "title": "Column Chromatography",
+            "content": "# Preparative Column Chromatography\n\nTLC is great for analyzing a micro-drop, but what if you need to purify 5 grams of product to sell? You use a Column.\n\n## The Setup\nInstead of a flat plate, a large vertical glass tube (the column) is packed with pounds of silica gel powder. \n\nThe crude mixture is carefully loaded onto the top of the silica.\nLiquid solvent is continuously poured into the top and allowed to drain slowly out the bottom by gravity.\n\nJust like TLC, non-polar molecules travel down the column quickly and drip out first. Polar molecules travel slowly and drip out last. The chemist collects the drips in different flasks, successfully isolating pure chemicals!"
+        },
+        {
+            "id": "chrom_7",
+            "type": "content",
+            "title": "Gas Chromatography (GC)",
+            "content": "# Gas Chromatography (GC)\n\nA highly advanced, automated instrumental technique used to separate mixtures of volatile liquids or gases (like analyzing the complex mix of hundreds of chemicals in perfume or gasoline).\n\n## The Setup\n- **Mobile Phase:** A continuous flow of an inert carrier gas (usually Helium or Nitrogen).\n- **Stationary Phase:** A microscopic layer of a viscous, high-boiling polymer liquid coated onto the inside wall of a tremendously long (30-meter), hair-thin fused silica tube called a Capillary Column.\n- The entire column is coiled up and placed inside a highly precise oven."
+        },
+        {
+            "id": "chrom_8",
+            "type": "content",
+            "title": "How GC Works",
+            "content": "# The GC Process\n\n1. **Injection:** A tiny liquid sample (1 microliter) is injected into a heated port, instantly vaporizing it into a gas.\n2. **Separation:** The Helium sweeps the gas mixture into the long capillary column. \n3. **Partitioning:** Molecules separate based on two factors:\n   - **Boiling Point:** Molecules with low boiling points stay as gases and are swept through quickly. Molecules with high boiling points condense onto the liquid walls and move slowly.\n   - **Polarity:** Interactions with the specific polymer coating on the wall.\n4. **Detection:** As each pure chemical exits the column, it passes through a detector (like a Flame Ionization Detector) which creates an electrical spike on a graph."
+        },
+        {
+            "id": "chrom_9",
+            "type": "content",
+            "title": "The Chromatogram",
+            "content": "# Reading a Chromatogram\n\nThe output of GC (and HPLC) is a graph called a **Chromatogram**.\n- The x-axis is **Time** (in minutes).\n- The y-axis is **Detector Signal Intensity**.\n\nEach separated chemical appears as a distinct, sharp peak on the graph.\n\n## 1. Retention Time (Qualitative)\nThe exact time a peak appears is its Retention Time (t_R). It is characteristic of a specific chemical. If peak A comes out at exactly 4.35 minutes, you can compare it to known standards to identify it.\n\n## 2. Peak Area (Quantitative)\nThe physical area underneath the peak is directly proportional to how much of that chemical was in the mixture. A massive peak means a high concentration."
+        },
+        {
+            "id": "chrom_10",
+            "type": "content",
+            "title": "High-Performance Liquid Chromatography (HPLC)",
+            "content": "# Moving Beyond Gas: HPLC\n\nGC is amazing, but it has one fatal flaw: the sample MUST be able to be vaporized into a gas without being destroyed by the heat.\n\nThis means GC cannot be used for massive biological molecules (like proteins, DNA, or heavy pharmaceuticals). They would instantly burn.\n\nFor these, we use **High-Performance Liquid Chromatography (HPLC)**.\n\n## The Setup\n- **Mobile Phase:** Liquid solvents (like Water mixed with Methanol or Acetonitrile) pumped at extremely high pressure.\n- **Stationary Phase:** A short, thick stainless-steel column packed tightly with microscopic silica beads."
+        },
+        {
+            "id": "chrom_11",
+            "type": "content",
+            "title": "Normal vs Reversed Phase",
+            "content": "# The Phases of HPLC\n\nThere are two main ways to set up the polarities in HPLC.\n\n## 1. Normal Phase (Rarely Used)\n- Stationary Phase: Polar (bare silica beads).\n- Mobile Phase: Non-polar (hexane).\n- Non-polar molecules exit first.\n\n## 2. Reversed-Phase HPLC (Used 90% of the time)\n- Stationary Phase: Non-polar. The silica beads are chemically modified by attaching long, greasy hydrocarbon chains (like C18 chains) to them.\n- Mobile Phase: Polar (Water / Methanol mixtures).\n- **Result:** Polar molecules love the water and are swept out very fast. Greasy, non-polar molecules stick to the C18 chains and exit slowly. It's perfectly backwards!"
+        },
+        {
+            "id": "chrom_12",
+            "type": "content",
+            "title": "Isocratic vs Gradient Elution",
+            "content": "# Controlling the Mobile Phase\n\nIn HPLC, the pumps don't just push one solvent; they can mix solvents dynamically.\n\n## Isocratic Elution\nThe solvent mixture remains exactly the same for the entire run (e.g., fixed at 50% Water / 50% Methanol).\n- **Problem:** If a mixture contains both very polar and very non-polar stuff, the polar stuff will come out perfectly, but the non-polar stuff might stick to the column forever.\n\n## Gradient Elution\nThe pumps change the solvent ratio over time. \n- Start with 90% Water (to separate the polar things early).\n- Slowly shift to 90% Methanol over 20 minutes. This slowly increases the \"greasiness\" of the mobile phase, forcefully dragging the stubborn non-polar molecules off the column so the run finishes in a reasonable time."
+        },
+        {
+            "id": "chrom_13",
+            "type": "content",
+            "title": "Ion-Exchange Chromatography (IEC)",
+            "content": "# Separating Charges: IEC\n\nWhat if you need to separate proteins or amino acids, which are highly charged?\n\nIn **Ion-Exchange Chromatography**, the stationary phase beads are coated with permanent electrical charges.\n\n## Example: Cation Exchange\nThe beads are coated with negative charges.\n- When you pour in a mixture, neutral and negatively charged proteins are repelled and wash right through.\n- Positively charged proteins act like magnets and stick tightly to the negative beads.\n- Once everything else is washed away, you pour in a strong salt solution (like NaCl). The massive amount of Na+ ions outcompete the proteins for the negative spots on the beads, forcing the pure proteins to wash off and be collected."
+        },
+        {
+            "id": "chrom_14",
+            "type": "content",
+            "title": "Size-Exclusion Chromatography (SEC)",
+            "content": "# Sorting by Size: SEC\n\nAlso known as Gel Permeation Chromatography. This technique separates polymers or proteins entirely based on their physical size, ignoring polarity and charge.\n\n## The Concept\nThe column is packed with porous beads that act like microscopic Swiss cheese.\n\n- **Small molecules:** Get trapped wandering inside the tiny pores of the beads. They take a very long time to navigate the maze and exit the column LAST.\n- **Massive molecules:** Are too big to fit inside the pores. They just flow straight past the beads in the empty space and exit the column FIRST.\n\nIt works exactly the opposite of a normal filter!"
+        },
+        {
+            "id": "chrom_15",
+            "type": "content",
+            "title": "Affinity Chromatography",
+            "content": "# The Ultimate Specificity: Affinity\n\nThis is the most highly specific form of chromatography, relying on biological lock-and-key interactions.\n\n## The Setup\nImagine you want to isolate one specific enzyme from a mashed-up cell containing 10,000 different proteins. \n\nYou chemically attach the specific *substrate* (the target the enzyme naturally binds to) to the stationary beads.\n\nWhen you pour the cell mash through, 9,999 proteins wash right past. But the one target enzyme recognizes its substrate and binds irreversibly to the bead.\nYou wash away all the junk, then change the pH to force the enzyme to let go, resulting in 99.9% pure protein in a single step!"
+        },
+        {
+            "id": "chrom_16",
+            "type": "content",
+            "title": "Hyphenated Techniques (GC-MS / LC-MS)",
+            "content": "# The Ultimate Machines\n\nChromatography is amazing at separating things, but a standard detector only tells you \"something came out at 5 minutes.\" It doesn't actually tell you what the molecule *is*.\n\nTo solve this, modern labs connect the end of a chromatography column directly into a Mass Spectrometer.\n\n## GC-MS and LC-MS\nAs each pure chemical exits the column, it instantly enters the Mass Spec, which shatters it and provides the exact molecular weight and structural fingerprint.\n\nThis provides perfect separation AND perfect identification simultaneously. It is the workhorse of forensic drug testing, environmental analysis, and pharmaceutical research."
+        },
+        {
+            "id": "chrom_17",
+            "type": "content",
+            "title": "Summary of Chromatography",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Core Principle:** Separation based on partitioning between a stationary phase and a mobile phase.\n2. **TLC:** A quick, cheap method using a silica plate. Analyzed using the Rf value.\n3. **GC:** Separates volatile gases in a long heated capillary based on boiling point.\n4. **HPLC:** Separates liquids at high pressure. Reversed-phase (non-polar stationary, polar mobile) is standard.\n5. **Specialized Methods:** Ion-Exchange (separates by charge), Size-Exclusion (big exits first), Affinity (biological lock-and-key).\n6. **Hyphenated Tech:** Connecting GC or LC to a Mass Spectrometer provides complete separation and identification."
+        },
+        {
+            "id": "chrom_quiz_1",
+            "type": "quiz",
+            "title": "TLC Quiz",
+            "content": "Test your understanding of Thin-Layer Chromatography.",
+            "quizQuestion": "In a standard TLC run on a polar silica plate, which type of molecule will travel the furthest up the plate (highest Rf value)?",
+            "quizOptions": [
+                "A highly polar molecule",
+                "A non-polar molecule",
+                "A molecule with a high boiling point",
+                "A positively charged ion"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chrom_quiz_2",
+            "type": "quiz",
+            "title": "HPLC Quiz",
+            "content": "Review Reversed-Phase HPLC.",
+            "quizQuestion": "In Reversed-Phase HPLC, what is the nature of the stationary and mobile phases?",
+            "quizOptions": [
+                "Polar stationary phase, Non-polar mobile phase",
+                "Non-polar stationary phase, Polar mobile phase",
+                "Both phases are highly polar",
+                "Both phases are highly non-polar"
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

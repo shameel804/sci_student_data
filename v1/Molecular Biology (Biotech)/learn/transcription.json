@@ -1,0 +1,135 @@
+{
+    "id": "learn_molbio_transcription",
+    "topicId": "transcription",
+    "topicTitle": "Transcription",
+    "description": "Learn how the genetic code is copied from DNA into a messenger RNA molecule, including the roles of RNA polymerase and complex RNA processing.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "molbio_trans_1",
+            "type": "content",
+            "title": "Welcome to Transcription",
+            "content": "# Introduction to Transcription\n\nDNA safely stores the master blueprint of life in the nucleus. But the protein-building factories (ribosomes) are out in the cytoplasm.\n\nHow does the information get out of the vault?\n\n## What You Will Learn:\n- **RNA Polymerase** - The enzyme that reads DNA to make RNA\n- **Transcription Factors** - How the cell knows when and where to start\n- **RNA Processing** - How the raw RNA is edited into a finished message\n- **Gene Regulation** - How cells control which genes are turned on or off\n\nLet's explore the first step of gene expression!"
+        },
+        {
+            "id": "molbio_trans_2",
+            "type": "content",
+            "title": "The Central Dogma",
+            "content": "# The Central Dogma of Molecular Biology\n\nCoined by Francis Crick, the Central Dogma describes the directional flow of genetic information in living systems.\n\n## The Flow:\n```\nDNA -> RNA -> Protein\n```\n\n1. **Replication:** DNA copies itself (DNA -> DNA)\n2. **Transcription:** DNA is copied into RNA (DNA -> RNA)\n3. **Translation:** RNA is used to build proteins (RNA -> Protein)\n\n> **The Exception:** Some viruses (like HIV) have an enzyme called Reverse Transcriptase that can copy RNA back into DNA, breaking the original rule!"
+        },
+        {
+            "id": "molbio_trans_3",
+            "type": "content",
+            "title": "RNA vs DNA",
+            "content": "# Understanding RNA\n\nBefore we transcribe, we must understand the product: **Ribonucleic Acid (RNA)**.\n\n## Key Differences from DNA:\n1. **Sugar:** RNA uses **ribose** sugar (which has an extra oxygen compared to deoxyribose).\n2. **Strands:** RNA is almost always **single-stranded**, making it less stable but more flexible.\n3. **Bases:** RNA uses **Uracil (U)** instead of Thymine (T).\n   - In RNA, Adenine (A) pairs with Uracil (U).\n\n## Types of RNA:\n- **mRNA (messenger RNA):** The temporary copy of a gene that carries instructions to the ribosome.\n- **tRNA (transfer RNA):** Carries amino acids to the ribosome.\n- **rRNA (ribosomal RNA):** Makes up the structure of the ribosome itself."
+        },
+        {
+            "id": "molbio_trans_4",
+            "type": "content",
+            "title": "Transcription Overview",
+            "content": "# The Three Stages of Transcription\n\nTranscription is the process of synthesizing an RNA molecule from a DNA template. \n\nIt occurs in three distinct phases:\n\n1. **Initiation:** The machinery identifies exactly where the gene starts and prepares to read it.\n2. **Elongation:** The RNA chain is actively built, nucleotide by nucleotide.\n3. **Termination:** The machinery reaches the end of the gene, releases the RNA, and detaches from the DNA.\n\n> **Key Concept:** Unlike replication, where the ENTIRE chromosome is copied, transcription only copies specific, short segments of DNA (individual genes) based on what the cell needs at that exact moment!"
+        },
+        {
+            "id": "molbio_trans_quiz_1",
+            "type": "quiz",
+            "title": "RNA Quiz",
+            "content": "Check your understanding of RNA basics.",
+            "quizQuestion": "If a DNA template strand has the sequence 3'-A-T-C-G-5', what will be the sequence of the transcribed RNA?",
+            "quizOptions": [
+                "5'-T-A-G-C-3'",
+                "5'-U-A-G-C-3'",
+                "5'-U-A-C-G-3'",
+                "3'-U-A-G-C-5'"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "molbio_trans_5",
+            "type": "content",
+            "title": "Initiation and Promoters",
+            "content": "# Initiation: Finding the Start\n\nHow does the cell know where a gene begins among billions of base pairs?\n\n## The Promoter\nUpstream of every gene (just before the coding region starts) is a specific DNA sequence called a **Promoter**.\n- The promoter acts like a giant flashing \"START HERE\" sign.\n- In eukaryotes, a famous part of the promoter is the **TATA Box** (a sequence rich in Thymine and Adenine).\n\n## Why TATA?\nRemember that A-T pairs only have 2 hydrogen bonds, while G-C pairs have 3. A region rich in A and T is physically easier to melt and \"unzip\" to start transcription!"
+        },
+        {
+            "id": "molbio_trans_6",
+            "type": "content",
+            "title": "Transcription Factors",
+            "content": "# Transcription Factors\n\nIn bacteria, the enzyme RNA Polymerase can usually find the promoter all by itself. Eukaryotes (like humans) are much more complicated.\n\n## The Welcoming Committee\nEukaryotic RNA Polymerase is blind; it cannot recognize the promoter on its own.\n\n- **Transcription Factors (TFs)** are specialized proteins that bind to the promoter first.\n- Multiple TFs assemble at the TATA box, forming a landing pad.\n- Only after this complex is fully assembled can RNA Polymerase II land and bind to the DNA.\n\n> **Gene Regulation:** The presence or absence of specific transcription factors in different cells is the main reason why a liver cell looks and acts differently from a brain cell, even though they have the exact same DNA!"
+        },
+        {
+            "id": "molbio_trans_7",
+            "type": "content",
+            "title": "RNA Polymerase",
+            "content": "# RNA Polymerase in Action\n\nOnce the Transcription Initiation Complex is formed, **RNA Polymerase** takes over.\n\n## The Multi-Tasking Enzyme\nUnlike DNA replication, which requires Helicase, Primase, and Polymerase, RNA Polymerase does it all!\n\n1. It unwinds the DNA double helix (about 10-20 bases at a time).\n2. It reads the **template strand** (from 3' to 5').\n3. It builds the new RNA strand (from 5' to 3') without needing a primer.\n4. As it moves forward, the DNA helix automatically twists back together behind it.\n\n## The Coding Strand\nThe DNA strand that is NOT read is called the **coding strand**. Because of base pairing rules, the new RNA matches the coding strand perfectly (except with U instead of T)."
+        },
+        {
+            "id": "molbio_trans_8",
+            "type": "content",
+            "title": "Elongation and Termination",
+            "content": "# Elongation and Termination\n\n## Elongation\nRNA Polymerase moves along the gene, unwinding DNA and adding RNA nucleotides to the 3' end of the growing RNA transcript.\n- Speed: Roughly 40 nucleotides per second in eukaryotes.\n- Multiple RNA polymerases can transcribe the same gene simultaneously, like trucks in a convoy, to produce large amounts of RNA quickly.\n\n## Termination\nTranscription stops when RNA Polymerase reaches a specific DNA sequence called a **terminator**.\n- In bacteria, the transcribed terminator RNA forms a physical \"hairpin loop\" that yanks the RNA out of the polymerase.\n- In eukaryotes, it's more complex, involving proteins that cut the RNA transcript free.\n\nThe resulting product is called **pre-mRNA** (primary transcript)."
+        },
+        {
+            "id": "molbio_trans_quiz_2",
+            "type": "quiz",
+            "title": "Enzyme Quiz",
+            "content": "Check your understanding of the transcription machinery.",
+            "quizQuestion": "In eukaryotic cells, what must happen before RNA Polymerase can bind to a promoter and begin transcription?",
+            "quizOptions": [
+                "DNA Helicase must completely unwind the gene",
+                "A primer must be laid down",
+                "Specific transcription factors must bind to the promoter first",
+                "The DNA must be translated into protein"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "molbio_trans_9",
+            "type": "content",
+            "title": "RNA Processing Intro",
+            "content": "# RNA Processing (Eukaryotes Only)\n\nIn bacteria, the mRNA is ready to be translated immediately (sometimes ribosomes attach before transcription is even finished!).\n\nIn eukaryotes, the newly transcribed **pre-mRNA** is raw and unusable. It must undergo three major processing steps before it is allowed to leave the nucleus.\n\n## The Three Steps:\n1. **5' Capping**\n2. **Poly-A Tailing**\n3. **RNA Splicing**\n\nWhy all this effort? The cytoplasm is full of aggressive enzymes (RNAses) that destroy loose RNA (a defense mechanism against RNA viruses). The processing protects the mRNA and acts as a \"passport\" to exit the nucleus."
+        },
+        {
+            "id": "molbio_trans_10",
+            "type": "content",
+            "title": "Cap and Tail",
+            "content": "# Protecting the Ends\n\nBefore splicing, the cell protects the fragile ends of the RNA transcript.\n\n## 1. The 5' Cap\nA specially modified guanine nucleotide is added to the 5' end of the mRNA backward.\n- **Function:** Protects the 5' end from degradation and serves as an attachment site for the ribosome later during translation.\n\n## 2. The Poly-A Tail\nAn enzyme adds 50 to 250 adenine (A) nucleotides to the 3' end.\n- **Function:** Acts as a buffer. As enzymes in the cytoplasm eat away at the 3' end, they only consume the useless Poly-A tail, giving the mRNA time to be translated before the actual coding sequence is destroyed.\n- The longer the tail, the longer the mRNA survives!"
+        },
+        {
+            "id": "molbio_trans_11",
+            "type": "content",
+            "title": "Introns and Exons",
+            "content": "# The Nonsense Code\n\nEukaryotic genes are bizarre. The actual instructions for building a protein (the coding regions) are interrupted by massive stretches of non-coding, meaningless \"junk\" DNA.\n\n## Definitions:\n- **Exons:** The regions that are EXpressed (the actual protein code). They must exit the nucleus.\n- **Introns:** The INtervening regions (the junk). They must stay IN the nucleus.\n\nThe pre-mRNA contains BOTH introns and exons. If a ribosome read this raw message, it would build a completely broken, mutated protein."
+        },
+        {
+            "id": "molbio_trans_12",
+            "type": "content",
+            "title": "RNA Splicing",
+            "content": "# RNA Splicing: The Editor\n\nTo create a coherent message, the introns must be surgically removed and the exons glued together. This is called **RNA Splicing**.\n\n## The Spliceosome\nSplicing is carried out by a massive molecular machine called the **Spliceosome**, made of proteins and small RNAs (snRNAs).\n\n1. The spliceosome identifies specific sequences at the start and end of every intron.\n2. It cuts the intron out, forming it into a loop (a lariat).\n3. It perfectly stitches the two adjacent exons together.\n\n> **Alternative Splicing:** A single gene can code for multiple different proteins! By choosing to treat an exon as an intron and cutting it out, the cell can mix and match exons to create different versions of a protein from the same gene."
+        },
+        {
+            "id": "molbio_trans_quiz_3",
+            "type": "quiz",
+            "title": "Splicing Quiz",
+            "content": "Check your understanding of RNA processing.",
+            "quizQuestion": "What is the primary evolutionary advantage of having genes interrupted by introns?",
+            "quizOptions": [
+                "It prevents mutations from occurring in the DNA",
+                "It makes transcription faster",
+                "It allows for alternative splicing, meaning one gene can produce multiple different proteins",
+                "It protects the DNA from viruses"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "molbio_trans_13",
+            "type": "content",
+            "title": "Gene Regulation",
+            "content": "# Gene Regulation\n\nCells don't transcribe all their genes all the time. Transcribing unnecessary genes wastes massive amounts of energy.\n\n## The Operon Model (Bacteria)\nBacteria group related genes together under the control of a single promoter, called an **Operon**.\n- An **operator** sequence sits between the promoter and the genes.\n- A **repressor** protein can bind to the operator, physically blocking RNA Polymerase.\n- If a nutrient (like lactose) is present, it binds to the repressor, knocking it off the DNA, turning the genes ON.\n\n## Eukaryotic Regulation\nEukaryotes use **Enhancers** - sequences of DNA that can be thousands of base pairs away from the promoter. \nSpecial activator proteins bind to the enhancer, causing the entire DNA strand to fold over, bringing the activator into contact with the promoter to massively boost transcription!"
+        },
+        {
+            "id": "molbio_trans_14",
+            "type": "content",
+            "title": "Summary of Transcription",
+            "content": "# Transcription Summary\n\n## Key Takeaways:\n\n### Basics\n- Transcription is the process of copying DNA into RNA.\n- RNA uses Ribose and Uracil (U) instead of Thymine (T).\n\n### The Process\n- **Initiation:** Transcription factors bind the promoter (TATA box), allowing RNA Polymerase to attach.\n- **Elongation:** RNA Polymerase builds the mRNA 5' to 3' by reading the template strand 3' to 5'.\n- **Termination:** Sequence signals end transcription.\n\n### Processing (Eukaryotes)\n- A **5' Cap** and **3' Poly-A Tail** are added for protection.\n- **Splicing** removes non-coding **Introns** and joins coding **Exons**.\n- Alternative splicing allows one gene to make many proteins.\n\n> **Next Step:** The mature mRNA leaves the nucleus and enters the cytoplasm, ready for Translation!"
+        }
+    ]
+}

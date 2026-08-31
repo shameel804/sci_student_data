@@ -1,0 +1,129 @@
+{
+    "id": "learn_organic",
+    "topicId": "organic",
+    "topicTitle": "Organic Chemistry: Principles and Techniques",
+    "description": "Enter the world of Carbon. Discover how one element forms the basis of all life and creates millions of unique compounds.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "chem_org_1",
+            "type": "content",
+            "title": "Welcome to Organic Chemistry",
+            "content": "# The Element of Life\n\nFor a long time, scientists believed that organic compounds (like sugar, urea, and proteins) could only be produced by living plants and animals due to a mysterious \"vital force.\"\n\nIn 1828, F. Wöhler destroyed this myth by synthesizing an organic compound (urea) in a lab from an inorganic one! \n\nToday, Organic Chemistry is simply defined as the **chemistry of Carbon compounds**.\n\n## What You Will Learn:\n- **Carbon's Superpowers:** Catenation and tetravalency.\n- **IUPAC Nomenclature:** How to name the millions of compounds.\n- **Isomerism:** Same formula, different shapes.\n- **Electronic Effects:** How electrons shift in a molecule.\n- **Purification:** How chemists isolate pure compounds."
+        },
+        {
+            "id": "chem_org_2",
+            "type": "content",
+            "title": "Why is Carbon Special?",
+            "content": "# The Master Builder\n\nCarbon (Atomic Number 6) is incredibly unique. It forms more compounds than all other elements on the periodic table combined! Why?\n\n1. **Tetravalency:** Carbon has 4 valence electrons. It needs 4 more to complete its octet. It forms exactly 4 strong covalent bonds with other atoms (like H, O, N, halogens, or other Carbons).\n2. **Catenation:** The most important property! Carbon atoms have an unparalleled ability to link together with *other* Carbon atoms to form incredibly long chains, branched chains, and even rings. \n\nBecause of catenation and tetravalency, the possibilities are literally endless!"
+        },
+        {
+            "id": "chem_org_3",
+            "type": "content",
+            "title": "Representing Organic Molecules",
+            "content": "# Drawing the Structures\n\nWe need ways to draw these massive carbon chains.\n\n1. **Complete Structure:** Shows every single atom and every single bond (looks very cluttered).\n2. **Condensed Structure:** Groups atoms together. (e.g., Ethane is CH3-CH3 instead of drawing all 6 C-H bonds).\n3. **Bond-Line Structure:** The chemist's favorite shortcut! \n   - Carbon and Hydrogen atoms are NOT drawn. \n   - Only the bonds between Carbon atoms are drawn as zig-zag lines.\n   - Every intersection and every end of a line represents a Carbon atom with enough Hydrogens to make 4 bonds.\n   - Heteroatoms (like Oxygen or Nitrogen) ARE drawn explicitly."
+        },
+        {
+            "id": "chem_org_quiz_1",
+            "type": "quiz",
+            "title": "Carbon Quiz",
+            "content": "Check your understanding of Carbon's uniqueness.",
+            "quizQuestion": "The unique ability of carbon atoms to bond with each other to form long chains and rings is called:",
+            "quizOptions": [
+                "Tetravalency",
+                "Hybridization",
+                "Catenation",
+                "Isomerism"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "chem_org_4",
+            "type": "content",
+            "title": "Classification of Organic Compounds",
+            "content": "# Sorting the Chains\n\nOrganic compounds are broadly classified into:\n\n1. **Acyclic or Open Chain:** (Also called Aliphatic). Molecules forming straight or branched chains.\n2. **Cyclic or Closed Chain:** Molecules forming rings.\n   - **Alicyclic:** Rings made only of Carbon, behaving like open-chain compounds.\n   - **Aromatic:** Special, highly stable rings (like Benzene) that have alternating double bonds.\n   - **Heterocyclic:** Rings that contain at least one non-carbon atom (like Oxygen or Nitrogen) inside the ring itself."
+        },
+        {
+            "id": "chem_org_5",
+            "type": "content",
+            "title": "Functional Groups",
+            "content": "# The Active Sites\n\nA long carbon chain is relatively unreactive. But if we attach a specific group of atoms to it, that group dictates how the whole molecule will behave chemically.\n\nAn atom or a group of atoms joined in a specific manner which is responsible for the characteristic chemical properties of the organic compound is called a **Functional Group**.\n\nExamples:\n- **-OH (Hydroxyl group):** Makes the molecule an Alcohol.\n- **-COOH (Carboxyl group):** Makes the molecule a Carboxylic Acid.\n- **-CHO (Aldehyde group):** Makes the molecule an Aldehyde."
+        },
+        {
+            "id": "chem_org_6",
+            "type": "content",
+            "title": "Homologous Series",
+            "content": "# The Chemical Families\n\nA group or a series of organic compounds each containing a characteristic functional group forms a homologous series.\n\nThe members of a series can be represented by a general molecular formula, and successive members differ from each other in molecular formula by a **-CH2- unit**.\n\nExample: The Alkanes (single bonded carbons).\n- Methane: CH4\n- Ethane: C2H6 (added one CH2)\n- Propane: C3H8 (added another CH2)\n\nMembers of a homologous series have almost identical chemical properties!"
+        },
+        {
+            "id": "chem_org_quiz_2",
+            "type": "quiz",
+            "title": "Functional Group Quiz",
+            "content": "Check your understanding of chemical families.",
+            "quizQuestion": "The presence of which functional group classifies an organic compound as an alcohol?",
+            "quizOptions": [
+                "-COOH (Carboxyl)",
+                "-CHO (Aldehyde)",
+                "-OH (Hydroxyl)",
+                "-NH2 (Amino)"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "chem_org_7",
+            "type": "content",
+            "title": "IUPAC Nomenclature",
+            "content": "# Naming the Beast\n\nWith millions of compounds, we can't just invent common names for all of them. The International Union of Pure and Applied Chemistry (IUPAC) created a systematic set of rules.\n\nThe name of any organic compound essentially consists of three parts:\n1. **Word Root:** Indicates the number of carbon atoms in the longest continuous chain (Meth=1, Eth=2, Prop=3, But=4, Pent=5, etc.).\n2. **Suffix:** Indicates the type of carbon-carbon bonds (ane = single, ene = double, yne = triple) AND the primary functional group (-ol for alcohol, -oic acid for acid).\n3. **Prefix:** Indicates the position and names of substituents (branches) attached to the main chain."
+        },
+        {
+            "id": "chem_org_8",
+            "type": "content",
+            "title": "Nomenclature Rules",
+            "content": "# The Basic Steps\n\nHow to name a compound:\n1. **Find the longest chain:** Identify the longest continuous chain of Carbon atoms. This determines the word root.\n2. **Number the chain:** Number the Carbon atoms in the chain starting from the end that gives the lowest possible number(s) to any functional groups, double/triple bonds, or substituents (branches).\n3. **Assemble the name:** Put the prefixes (branches) in alphabetical order, add the word root, and finish with the suffix (bonds and functional groups), using numbers to specify exactly where everything is located.\n\n*Example:* 2-methylbutan-1-ol (A 4-carbon chain, with an OH group on carbon 1, and a methyl branch on carbon 2)."
+        },
+        {
+            "id": "chem_org_9",
+            "type": "content",
+            "title": "Isomerism",
+            "content": "# Same Formula, Different Structure\n\nTwo or more compounds having the **same molecular formula but different physical/chemical properties** are called **Isomers**.\n\nThere are two main types:\n1. **Structural Isomerism:** The atoms are connected in different ways.\n   - *Chain Isomerism:* Different branching in the carbon skeleton (e.g., straight chain vs branched chain).\n   - *Position Isomerism:* The functional group is attached at a different position on the chain.\n2. **Stereoisomerism:** The atoms are connected in the exact same way, but are arranged differently in 3D space! (Like a left hand and a right hand)."
+        },
+        {
+            "id": "chem_org_quiz_3",
+            "type": "quiz",
+            "title": "Isomer Quiz",
+            "content": "Check your understanding of structural differences.",
+            "quizQuestion": "Compounds that have the same molecular formula but different arrangements of atoms are called:",
+            "quizOptions": [
+                "Isotopes",
+                "Isomers",
+                "Homologues",
+                "Polymers"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_org_10",
+            "type": "content",
+            "title": "Electronic Effects",
+            "content": "# Shifting the Electrons\n\nIn a covalent bond, electrons aren't always shared equally. These shifts in electron density affect how the molecule reacts!\n\n1. **Inductive Effect:** When an electronegative atom (like Cl) is attached to a carbon chain, it pulls the electron density of the sigma bond towards itself, creating a permanent slight positive charge on the carbon chain.\n2. **Resonance Effect:** In molecules with alternating (conjugated) double and single bonds, the pi electrons can delocalize (spread out) over the whole system, drastically increasing the stability of the molecule.\n3. **Electromeric Effect:** A temporary shift of pi electrons that only happens when a reagent attacks a double/triple bond."
+        },
+        {
+            "id": "chem_org_11",
+            "type": "content",
+            "title": "Purification Techniques",
+            "content": "# Cleaning it Up\n\nWhen a chemist synthesizes a compound, it is rarely pure. It must be separated from byproducts and unreacted starting materials.\n\nCommon purification methods:\n1. **Crystallization:** Dissolving the mixture in a hot solvent and letting it cool. The pure compound forms crystals while impurities stay dissolved.\n2. **Distillation:** Boiling a liquid mixture and condensing the vapor. Used to separate liquids with different boiling points.\n3. **Chromatography:** A powerful modern technique where a mixture is separated by passing it through a stationary phase (like paper or a column). Different compounds travel at different speeds!"
+        },
+        {
+            "id": "chem_org_12",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Catenation:** Carbon's ability to form long chains with itself.\n- **Tetravalency:** Carbon always forms 4 bonds.\n- **Functional Group:** A specific group of atoms (like -OH) that dictates the chemical properties of the molecule.\n- **Homologous Series:** A family of compounds differing by a -CH2- unit.\n- **IUPAC Nomenclature:** The systematic rules for naming organic compounds.\n- **Isomerism:** Same molecular formula, different structural arrangement.\n- **Inductive Effect:** Permanent shifting of sigma electrons due to electronegativity differences.\n- **Resonance:** Delocalization of pi electrons increasing stability."
+        },
+        {
+            "id": "chem_org_13",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Organic Principles\n\nExcellent work! Here is a recap of what we've learned:\n\n- Organic chemistry is the chemistry of Carbon, which is unique due to its **tetravalency** and extreme **catenation**.\n- We use **Bond-Line structures** as a shorthand to draw complex molecules.\n- Molecules are categorized by their reactive **Functional Groups** (like alcohols, acids, etc.), which define **Homologous series**.\n- Millions of compounds are systematically named using **IUPAC rules** (finding the longest chain and numbering to give the lowest numbers to groups).\n- Compounds with the same formula but different structures are **Isomers**.\n- Chemists use techniques like **Distillation** and **Chromatography** to purify these compounds."
+        }
+    ]
+}

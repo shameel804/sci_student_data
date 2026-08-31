@@ -1,0 +1,123 @@
+{
+    "id": "learn_immuno_antigens",
+    "topicId": "antigens",
+    "topicTitle": "Antigens and Antibodies",
+    "description": "Examine the molecular lock-and-key system of the immune response, detailing antibody structure and the powerful technology of monoclonal antibodies.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "immuno_ag_1",
+            "type": "content",
+            "title": "Welcome to Antigens and Antibodies",
+            "content": "# The Molecular War\n\nWelcome back to Immunology!\n\nWe know that B Cells fire \"missiles\" at the enemy. But how do the missiles know what to hit, and how do they actually stop the threat? \n\n## What You Will Learn:\n- **Antigens vs Epitopes** - The targets\n- **Antibody Structure** - The Y-shaped weapons\n- **Antibody Classes** - The five different flavors of defense\n- **Interactions** - How antibodies actually neutralize a threat\n- **Monoclonal Antibodies** - Turning the immune system into a drug factory\n\nLet's look at the molecular battlefield!"
+        },
+        {
+            "id": "immuno_ag_2",
+            "type": "content",
+            "title": "What is an Antigen?",
+            "content": "# The Target: Antigens\n\nAn **Antigen** is any substance that causes the body to produce an immune response. (The word comes from **Anti**body **Gen**erator).\n\nAntigens are usually large, complex proteins or polysaccharides found on the surface of viruses, bacteria, or pollen grains.\n\n## Epitopes\nAn antibody does NOT bind to the entire massive bacterium. It binds to a tiny, specific 3D molecular shape on the surface of the antigen.\n\nThis specific binding site is called an **Epitope**.\n- A single large antigen (like a viral spike protein) can have dozens of different epitopes on its surface.\n- Therefore, a single virus can trigger the body to produce dozens of completely different antibodies, each attacking a different epitope!"
+        },
+        {
+            "id": "immuno_ag_3",
+            "type": "content",
+            "title": "What is an Antibody?",
+            "content": "# The Weapon: Antibodies\n\nAn **Antibody** (also called an Immunoglobulin, or Ig) is a large, Y-shaped protein produced by Plasma B cells.\n\n## The Structure:\nEvery antibody is made of 4 polypeptide chains (2 Heavy chains and 2 Light chains) held together by disulfide bonds.\n\n1. **The Constant Region (The Stem of the Y):** This part determines the \"Class\" of the antibody and what happens after it binds to a target.\n2. **The Variable Region (The Tips of the Y):** This is the highly customized part that actually binds to the epitope. The 3D shape of this region is unique to every single B cell lineage!"
+        },
+        {
+            "id": "immuno_ag_quiz_1",
+            "type": "quiz",
+            "title": "Antigen Quiz",
+            "content": "Check your understanding of targets.",
+            "quizQuestion": "Which of the following best describes the relationship between an antigen and an epitope?",
+            "quizOptions": [
+                "An epitope is a large foreign cell, and an antigen is a small part of it",
+                "They are two words for the exact same thing",
+                "An antigen is a large foreign molecule, and an epitope is a tiny, specific binding region on its surface",
+                "Antibodies attack antigens, but T cells attack epitopes"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "immuno_ag_4",
+            "type": "content",
+            "title": "Antibody Classes",
+            "content": "# The Five Classes (Isotypes)\n\nHumans produce five different classes of antibodies, based on the structure of their \"Constant\" region (the stem of the Y). \nThey are named **IgG, IgA, IgM, IgE, and IgD**.\n\n*(Memory trick: GAMED)*\n\nDifferent classes are deployed for different types of threats or in different parts of the body."
+        },
+        {
+            "id": "immuno_ag_5",
+            "type": "content",
+            "title": "IgG and IgA",
+            "content": "# The Workhorses\n\n## IgG (Immunoglobulin G)\n- The most abundant antibody in the blood (approx 80%).\n- It is a single Y-shape (monomer).\n- **Superpower:** It is the ONLY antibody small enough to cross the placenta! This gives a developing fetus the mother's immune protection.\n\n## IgA (Immunoglobulin A)\n- Usually found as a dimer (two Y-shapes stuck tail-to-tail).\n- **Superpower:** Secretions! It is heavily concentrated in tears, saliva, mucus, and breast milk. It protects the physical barriers of the body."
+        },
+        {
+            "id": "immuno_ag_6",
+            "type": "content",
+            "title": "IgM, IgE, and IgD",
+            "content": "# The Specialists\n\n## IgM (Immunoglobulin M)\n- A massive pentamer (five Y-shapes joined together, like a snowflake).\n- **Superpower:** It is the FIRST antibody produced during a new infection. Because it has 10 binding sites, it is incredible at clumping bacteria together.\n\n## IgE (Immunoglobulin E)\n- Extremely rare in the blood.\n- **Superpower:** It binds to mast cells and triggers allergic reactions (histamine release) when it encounters pollen or peanuts. Also crucial for fighting parasitic worms!\n\n## IgD (Immunoglobulin D)\n- Mostly stays attached to the surface of immature B cells, acting as a receptor."
+        },
+        {
+            "id": "immuno_ag_quiz_2",
+            "type": "quiz",
+            "title": "Isotype Quiz",
+            "content": "Check your understanding of antibody classes.",
+            "quizQuestion": "Which class of antibody is secreted in large amounts into breast milk, providing crucial early immunity to a newborn infant?",
+            "quizOptions": [
+                "IgG",
+                "IgA",
+                "IgM",
+                "IgE"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "immuno_ag_7",
+            "type": "content",
+            "title": "How Antibodies Fight",
+            "content": "# Antigen-Antibody Interactions\n\nAntibodies are not toxic. They don't \"kill\" bacteria directly. So how do they defend the body?\n\nThey use several physical and chemical strategies to neutralize the threat and mark it for destruction by the Innate Immune System."
+        },
+        {
+            "id": "immuno_ag_8",
+            "type": "content",
+            "title": "Neutralization and Opsonization",
+            "content": "# Blocking and Tagging\n\n## 1. Neutralization\nAntibodies physically surround the virus or bacterial toxin, covering all of its binding sites. \nIf a virus is completely coated in antibodies, it physically cannot plug into a human cell to infect it. It is \"neutralized.\"\n\n## 2. Opsonization\nPhagocytes (like Macrophages) are sometimes \"slippery\" and have trouble grabbing hold of bacteria. \nAntibodies act like a handle or a tag. When an antibody binds to a bacterium, the Macrophage can grab the tail of the antibody and easily swallow the whole complex!"
+        },
+        {
+            "id": "immuno_ag_9",
+            "type": "content",
+            "title": "Agglutination and Complement",
+            "content": "# Clumping and Exploding\n\n## 3. Agglutination (Clumping)\nBecause antibodies have at least two binding arms, they can grab two different bacteria at once. A swarm of antibodies will quickly cross-link thousands of bacteria together into a massive clump. \nThis makes it impossible for the bacteria to spread, and allows a Macrophage to eat thousands of them in one bite!\n\n## 4. Complement Activation\nWhen an antibody binds to a bacterium, the tail of the antibody acts as a beacon for a group of blood proteins called the **Complement System**.\nThese proteins swarm the bacterium and physically drill a hole through its cell wall, causing it to explode (lysis)!"
+        },
+        {
+            "id": "immuno_ag_quiz_3",
+            "type": "quiz",
+            "title": "Interaction Quiz",
+            "content": "Check your understanding of antibody function.",
+            "quizQuestion": "What is the term for when antibodies physically coat a virus, preventing it from attaching to and entering a human cell?",
+            "quizOptions": [
+                "Opsonization",
+                "Agglutination",
+                "Neutralization",
+                "Apoptosis"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "immuno_ag_10",
+            "type": "content",
+            "title": "Monoclonal Antibodies",
+            "content": "# Monoclonal Antibodies (mAbs)\n\nAntibodies are incredibly precise. What if we could mass-produce an antibody in a factory that targets EXACTLY one specific cancer cell protein, or one specific autoimmune protein?\n\nThese are called **Monoclonal Antibodies**.\n\n## The Problem:\nWe can't just grow B cells in a petri dish to harvest their antibodies. Normal B cells only live for a few days before dying naturally."
+        },
+        {
+            "id": "immuno_ag_11",
+            "type": "content",
+            "title": "The Hybridoma Technique",
+            "content": "# Creating Immortal Antibody Factories\n\nTo make Monoclonal Antibodies, scientists use the **Hybridoma Technique** (which won a Nobel Prize).\n\n1. Inject a mouse with the target antigen (e.g., a human cancer cell).\n2. Extract the mouse's spleen to harvest the B cells that are producing the perfect antibody against that cancer.\n3. **The Trick:** Fuse the fragile mouse B cells with immortal human cancer cells (myeloma cells).\n4. The resulting hybrid cell (a **Hybridoma**) is immortal like cancer, but pumps out the exact perfect antibody forever!\n5. Grow the hybridoma in a massive industrial bioreactor and harvest the pure antibody drug.\n\n> **Applications:** Almost every modern drug that ends in \"-mab\" (like Humira/adalimumab or Keytruda/pembrolizumab) is a Monoclonal Antibody!"
+        },
+        {
+            "id": "immuno_ag_12",
+            "type": "content",
+            "title": "Summary of Antigens",
+            "content": "# Antigens and Antibodies Summary\n\n## Key Takeaways:\n\n### The Combatants\n- **Antigens** trigger the immune system. The specific binding site is the **Epitope**.\n- **Antibodies** are Y-shaped proteins with a variable region (binds epitope) and a constant region (determines class).\n\n### The Classes and Strategies\n- **IgG** (blood/placenta), **IgA** (secretions), **IgM** (first responder/pentamer), **IgE** (allergies).\n- Antibodies defeat threats via **Neutralization**, **Opsonization** (tagging), **Agglutination** (clumping), and **Complement** activation.\n\n### Biotechnology\n- **Monoclonal Antibodies** are pure, targeted drugs made by fusing a B cell with a cancer cell to create an immortal **Hybridoma**.\n\n> **Next Up:** How do we train the immune system before the real threat arrives? Vaccines!"
+        }
+    ]
+}

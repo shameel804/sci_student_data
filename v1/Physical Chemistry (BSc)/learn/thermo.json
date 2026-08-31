@@ -1,0 +1,139 @@
+{
+    "id": "learn_thermo",
+    "topicId": "thermo",
+    "topicTitle": "Thermodynamics",
+    "description": "Explore the laws of thermodynamics, energy transformations, phase equilibria, and the principles governing chemical equilibrium in physical chemistry.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "therm_1",
+            "type": "content",
+            "title": "Introduction to Thermodynamics",
+            "content": "# What is Thermodynamics?\n\n**Thermodynamics** is the branch of physical chemistry that deals with the relationships between heat, work, temperature, and energy.\n\n## Core Concepts:\n- **System:** The specific part of the universe being studied (e.g., a chemical reaction in a beaker).\n- **Surroundings:** Everything outside the system.\n- **Boundary:** The real or imaginary surface separating the system from its surroundings.\n\n## Types of Systems:\n- **Open System:** Can exchange both mass and energy with surroundings.\n- **Closed System:** Can exchange energy (heat and work) but NOT mass.\n- **Isolated System:** Cannot exchange mass OR energy with surroundings (e.g., a perfectly insulated thermos)."
+        },
+        {
+            "id": "therm_2",
+            "type": "content",
+            "title": "State Functions",
+            "content": "# State Functions vs Path Functions\n\nUnderstanding the difference between state and path functions is crucial in thermodynamics.\n\n## State Functions\nA property whose value depends ONLY on the current state of the system, not on how it got there.\n- **Examples:** Temperature (T), Pressure (P), Volume (V), Internal Energy (U), Enthalpy (H), Entropy (S).\n- Think of it like altitude: your altitude on a mountain peak is the same regardless of which trail you took to get there.\n\n## Path Functions\nA property whose value depends on the specific path or process taken between two states.\n- **Examples:** Heat (q) and Work (w).\n- The total amount of work done depends heavily on whether you took the steep trail or the long winding trail."
+        },
+        {
+            "id": "therm_3",
+            "type": "content",
+            "title": "The Zeroth Law",
+            "content": "# The Zeroth Law of Thermodynamics\n\nDespite its name, this law was established after the First and Second laws, but it is so fundamental that it needed to precede them.\n\n## The Principle of Thermal Equilibrium\n> \"If system A is in thermal equilibrium with system B, and system B is in thermal equilibrium with system C, then system A must be in thermal equilibrium with system C.\"\n\n## Why does this matter?\nThis law forms the basis for the definition of temperature and allows us to build thermometers. If a thermometer (B) reads the same value in water (A) as it does in oil (C), then the water and oil are at the same temperature."
+        },
+        {
+            "id": "therm_4",
+            "type": "content",
+            "title": "The First Law",
+            "content": "# The First Law of Thermodynamics\n\n## Conservation of Energy\n> \"Energy can neither be created nor destroyed; it can only be transferred or changed from one form to another.\"\n\n## The Mathematical Expression:\n**Delta U = q + w**\n\nWhere:\n- **Delta U** = Change in internal energy of the system.\n- **q** = Heat added TO the system (positive if heat enters, negative if heat leaves).\n- **w** = Work done ON the system (positive if work is done on the system, negative if the system does work on the surroundings).\n\nThis equation states that the total change in a system's internal energy is simply the sum of the heat transferred and the work done."
+        },
+        {
+            "id": "therm_5",
+            "type": "content",
+            "title": "Work in Chemical Systems",
+            "content": "# Pressure-Volume Work\n\nIn chemical systems, the most common type of work is expansion or compression work, often called PV-work.\n\n## The Equation for PV Work:\n**w = - P_external * Delta V**\n\nWhere:\n- **P_external** = The constant external pressure.\n- **Delta V** = Change in volume (Final Volume - Initial Volume).\n\n## Understanding the Sign:\n- **Expansion:** If the gas expands, Delta V is positive. Therefore, w is negative. The system is doing work ON the surroundings, losing energy.\n- **Compression:** If the gas is compressed, Delta V is negative. Therefore, w is positive. The surroundings are doing work ON the system, adding energy."
+        },
+        {
+            "id": "therm_6",
+            "type": "content",
+            "title": "Enthalpy",
+            "content": "# Enthalpy (H)\n\nMost chemical reactions in the lab occur in open beakers at constant atmospheric pressure. This makes the First Law awkward to use directly, so we define a new state function: **Enthalpy**.\n\n## Definition:\n**H = U + PV**\n\nAt constant pressure, the change in enthalpy (**Delta H**) is exactly equal to the heat transferred (q).\n\n**Delta H = q_p** (Heat at constant pressure)\n\n## Endothermic vs Exothermic:\n- **Exothermic (Delta H < 0):** The reaction releases heat to the surroundings (feels hot).\n- **Endothermic (Delta H > 0):** The reaction absorbs heat from the surroundings (feels cold)."
+        },
+        {
+            "id": "therm_7",
+            "type": "content",
+            "title": "The Second Law",
+            "content": "# The Second Law of Thermodynamics\n\nWhile the First Law says energy is conserved, the Second Law dictates the *direction* of natural processes.\n\n## The Law of Entropy\n> \"The total entropy of an isolated system can never decrease over time; it can only remain constant in ideal cases where the system is in a steady state, or increase for spontaneous processes.\"\n\n## What is Entropy (S)?\nEntropy is often described as a measure of disorder, randomness, or the number of microscopic configurations that correspond to a macroscopic state.\n- A solid crystal has low entropy.\n- A gas filling a room has high entropy.\n\n**Delta S_universe = Delta S_system + Delta S_surroundings >= 0**"
+        },
+        {
+            "id": "therm_8",
+            "type": "content",
+            "title": "Spontaneity",
+            "content": "# Predicting Spontaneity\n\nA **spontaneous process** is one that occurs without continuous outside intervention (like a ball rolling down a hill, or ice melting at room temperature).\n\n## The Problem with Entropy\nTo use the Second Law to predict if a reaction will happen, we have to calculate the entropy change of the ENTIRE universe. This is impractical.\n\nWe need a way to predict spontaneity by looking ONLY at the system.\n\nThis leads us to the most important equation in chemical thermodynamics: Gibbs Free Energy."
+        },
+        {
+            "id": "therm_9",
+            "type": "content",
+            "title": "Gibbs Free Energy",
+            "content": "# Gibbs Free Energy (G)\n\nGibbs Free Energy combines enthalpy and entropy into a single state function that predicts spontaneity at constant temperature and pressure.\n\n## The Gibbs Equation:\n**Delta G = Delta H - T * Delta S**\n\nWhere:\n- **Delta G** = Change in free energy\n- **Delta H** = Change in enthalpy (heat)\n- **T** = Absolute temperature (in Kelvin)\n- **Delta S** = Change in entropy\n\n## Interpreting Delta G:\n- **Delta G < 0:** The reaction is SPONTANEOUS (exergonic).\n- **Delta G > 0:** The reaction is NON-SPONTANEOUS (endergonic). The reverse reaction is spontaneous.\n- **Delta G = 0:** The system is at CHEMICAL EQUILIBRIUM."
+        },
+        {
+            "id": "therm_10",
+            "type": "content",
+            "title": "Temperature Dependence of Spontaneity",
+            "content": "# How Temperature Affects Reactions\n\nBecause of the equation **Delta G = Delta H - T * Delta S**, temperature plays a huge role in determining if a reaction will happen.\n\n| Delta H | Delta S | Spontaneity (Delta G) |\n|---|---|---|\n| Negative (Exothermic) | Positive (More disorder) | Spontaneous at ALL temperatures (Delta G always negative) |\n| Positive (Endothermic) | Negative (Less disorder) | NEVER spontaneous at any temperature (Delta G always positive) |\n| Negative (Exothermic) | Negative (Less disorder) | Spontaneous ONLY at LOW temperatures (Enthalpy driven) |\n| Positive (Endothermic) | Positive (More disorder) | Spontaneous ONLY at HIGH temperatures (Entropy driven) |"
+        },
+        {
+            "id": "therm_11",
+            "type": "content",
+            "title": "The Third Law",
+            "content": "# The Third Law of Thermodynamics\n\n## Absolute Zero\n> \"The entropy of a perfect crystal at absolute zero (0 Kelvin) is exactly zero.\"\n\n## Significance:\n- Absolute zero is the temperature at which all thermal motion completely ceases.\n- Because there is only one possible microscopic arrangement for a perfect crystal when molecules are perfectly still, the entropy is zero.\n- This law provides an absolute reference point for determining the entropy of any substance at any other temperature.\n- Note: Absolute zero (-273.15 degrees Celsius) is theoretically impossible to reach."
+        },
+        {
+            "id": "therm_12",
+            "type": "content",
+            "title": "Phase Equilibria",
+            "content": "# Phase Equilibria\n\nThermodynamics governs how substances change states (solid, liquid, gas).\n\n## Phase Transitions\nDuring a phase transition (like ice melting to water), the two phases are in equilibrium. This means the Gibbs Free Energy of the solid is equal to the Gibbs Free Energy of the liquid.\n\n**Delta G_transition = 0**\n\nTherefore, at the melting point:\n**Delta H_fusion = T_melting * Delta S_fusion**\n\n## Heat Capacity\nThe amount of heat required to raise the temperature of a substance by 1 degree. During a phase change, heat is added but the temperature does NOT change until the entire phase is converted (the heat goes into breaking intermolecular bonds)."
+        },
+        {
+            "id": "therm_13",
+            "type": "content",
+            "title": "Chemical Equilibrium",
+            "content": "# Chemical Equilibrium\n\nMost chemical reactions do not go to 100% completion. They eventually reach a state where the forward and reverse reaction rates are equal.\n\n## Thermodynamic Equilibrium\nAt this point, the free energy of the system is at its absolute minimum. There is no thermodynamic driving force to change the concentrations of reactants or products.\n\n**Delta G = 0**\n\nThe reaction has effectively \"stopped\" moving forward, although molecules are still reacting back and forth at equal rates (dynamic equilibrium)."
+        },
+        {
+            "id": "therm_14",
+            "type": "content",
+            "title": "The Equilibrium Constant",
+            "content": "# Relating Delta G to the Equilibrium Constant (K)\n\nWe can calculate exactly where a reaction will stop (its equilibrium constant, K) using standard state free energy (Delta G_standard).\n\n## The Fundamental Equation:\n**Delta G_standard = - R * T * ln(K)**\n\nWhere:\n- **R** = Ideal gas constant (8.314 J/(mol K))\n- **T** = Temperature in Kelvin\n- **ln(K)** = Natural logarithm of the equilibrium constant\n\n## Interpretation:\n- If **Delta G_standard is very negative**, K is very large (products are heavily favored).\n- If **Delta G_standard is very positive**, K is very small (reactants are heavily favored)."
+        },
+        {
+            "id": "therm_15",
+            "type": "content",
+            "title": "Le Chatelier's Principle",
+            "content": "# Le Chatelier's Principle\n\n> \"If a dynamic equilibrium is disturbed by changing the conditions, the position of equilibrium moves to counteract the change.\"\n\n## Examples of Disturbances:\n1. **Changing Concentration:** Adding more reactant forces the system to make more product to use it up.\n2. **Changing Pressure (for gases):** Increasing pressure shifts the equilibrium toward the side with fewer moles of gas.\n3. **Changing Temperature:** \n   - For an Exothermic reaction (heat is a product): Raising temp shifts equilibrium to the left.\n   - For an Endothermic reaction (heat is a reactant): Raising temp shifts equilibrium to the right.\n\nNote: Only a change in temperature actually changes the value of the equilibrium constant K."
+        },
+        {
+            "id": "therm_16",
+            "type": "content",
+            "title": "Thermodynamics in Biology",
+            "content": "# Biological Thermodynamics\n\nThermodynamics isn't just for engines and test tubes; it governs life itself.\n\n## Coupled Reactions\nMany necessary biological reactions (like synthesizing proteins) are highly endergonic (Delta G > 0) and will not happen spontaneously.\n\nCells solve this by **coupling** these non-spontaneous reactions to highly spontaneous ones, most notably the hydrolysis of ATP.\n\nATP -> ADP + Phosphate (Delta G = -30.5 kJ/mol)\n\nAs long as the overall combined Delta G of the coupled reactions is negative, the entire process moves forward. Life is a constant struggle to maintain low entropy by utilizing energy from the sun or food!"
+        },
+        {
+            "id": "therm_17",
+            "type": "content",
+            "title": "Summary of Thermodynamics",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **First Law:** Energy is conserved. Delta U = q + w.\n2. **Enthalpy (H):** Heat transferred at constant pressure.\n3. **Second Law:** The entropy (disorder) of the universe always increases.\n4. **Gibbs Free Energy (G):** The ultimate predictor of spontaneity. If Delta G is negative, the reaction is spontaneous.\n5. **Equilibrium:** Reached when Delta G = 0. The standard free energy directly determines the equilibrium constant K.\n6. **Temperature Dependence:** The spontaneity of many reactions depends heavily on whether the T * Delta S term can overcome the Delta H term."
+        },
+        {
+            "id": "therm_quiz_1",
+            "type": "quiz",
+            "title": "Spontaneity Quiz",
+            "content": "Test your understanding of Gibbs Free Energy.",
+            "quizQuestion": "If a chemical reaction is highly exothermic (negative Delta H) but results in a significant decrease in disorder (negative Delta S), under what conditions will the reaction be spontaneous?",
+            "quizOptions": [
+                "At all temperatures",
+                "At high temperatures",
+                "At low temperatures",
+                "It will never be spontaneous"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "therm_quiz_2",
+            "type": "quiz",
+            "title": "Equilibrium Quiz",
+            "content": "Review the relationship between free energy and equilibrium.",
+            "quizQuestion": "When a chemical system reaches equilibrium, which of the following is true regarding its Gibbs Free Energy (Delta G)?",
+            "quizOptions": [
+                "Delta G is at its maximum positive value.",
+                "Delta G is zero.",
+                "Delta G is at its maximum negative value.",
+                "Delta G equals Delta H."
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

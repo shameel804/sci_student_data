@@ -1,0 +1,139 @@
+{
+    "id": "learn_magnetism",
+    "topicId": "magnetism",
+    "topicTitle": "Magnetism",
+    "description": "Discover the invisible forces of magnetic fields, the Lorentz force, and how moving charges create the foundation of electric motors and generators.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "mag_1",
+            "type": "content",
+            "title": "The Magnetic Mystery",
+            "content": "# Lodestones and Compasses\n\nFor thousands of years, humans knew that certain rocks (lodestones) could mysteriously attract iron. We used them to build compasses to navigate the oceans, completely blind to how they actually worked.\n\nIt wasn't until the 19th century that physicists realized Magnetism isn't a separate, magical force; it is intimately, permanently tied to Electricity.\n\n## The Fundamental Rule:\n**Magnetism is created EXCLUSIVELY by moving electric charges.**\nThere is no such thing as a stationary magnetic charge."
+        },
+        {
+            "id": "mag_2",
+            "type": "content",
+            "title": "Magnetic Poles",
+            "content": "# North and South\n\nJust as electricity has Positive and Negative, magnetism has **North and South** poles.\n\n- Like poles repel (North pushes away North).\n- Opposite poles attract (North pulls South).\n\n## The Broken Magnet Paradox\nIf you take a bar magnet (North on one side, South on the other) and snap it perfectly in half, you DO NOT get one isolated North magnet and one isolated South magnet.\n\nYou instantly get TWO complete, smaller magnets, each with its own new North and South pole! This proves that magnetic \"monopoles\" (isolated charges) do not exist in nature."
+        },
+        {
+            "id": "mag_3",
+            "type": "content",
+            "title": "The Magnetic Field (B)",
+            "content": "# Drawing the Lines\n\nJust like an electric field, a magnet creates an invisible **Magnetic Field (B)** around itself.\n\n## The Rules for Field Lines:\n1. Magnetic field lines always exit the North pole and enter the South pole.\n2. UNLIKE electric field lines (which start on a positive and end on a negative), magnetic field lines never end! They form continuous, unbroken, closed loops, traveling *through* the magnet from South to North on the inside.\n3. The closer the lines, the stronger the field."
+        },
+        {
+            "id": "mag_4",
+            "type": "content",
+            "title": "The Lorentz Force",
+            "content": "# Magnetism's Effect on Charge\n\nIf you place a stationary electron inside a massive magnetic field, absolutely nothing happens. The magnet completely ignores it.\n\nBut if you shoot that electron so it is **MOVING** through the field, the magnetic field suddenly \"wakes up\" and violently pushes the electron sideways!\n\n## The Lorentz Force Law:\n**F = q * v * B * sin(theta)**\n- **q:** The charge.\n- **v:** The velocity (speed).\n- **B:** The strength of the Magnetic Field (measured in Teslas).\n- **theta:** The angle between the velocity and the magnetic field."
+        },
+        {
+            "id": "mag_5",
+            "type": "content",
+            "title": "The Right-Hand Rule",
+            "content": "# Which way does it push?\n\nThe bizarre thing about the magnetic force is that it doesn't push or pull in a straight line. It always pushes perfectly **Perpendicular** (at 90 degrees) to BOTH the direction of motion and the magnetic field.\n\n## The Right-Hand Rule (For Positive Charges):\n1. Point your fingers in the direction the charge is moving (v).\n2. Curl your fingers in the direction of the Magnetic Field (B).\n3. Your thumb now points exactly in the direction of the Magnetic Force (F)!\n\n*(If the charge is negative, like an electron, you use your Left Hand, or just flip the final result).*."
+        },
+        {
+            "id": "mag_6",
+            "type": "content",
+            "title": "Circular Motion in a Field",
+            "content": "# The Magnetic Trap\n\nBecause the magnetic force always pushes exactly perpendicular to the velocity, it acts as a perfect centripetal force.\n\nIf you shoot a proton into a uniform magnetic field, it will not speed up or slow down. Instead, the sideways force will cause it to curve endlessly in a perfect, continuous **Circle**.\n\nThis is the principle behind particle accelerators (like the Large Hadron Collider). Massive electromagnets are used to force particles to travel in a circle, trapping them for hours while they accelerate to near the speed of light!"
+        },
+        {
+            "id": "mag_7",
+            "type": "content",
+            "title": "Current Creates Magnetism",
+            "content": "# The Electromagnet\n\nIn 1820, Hans Christian Orsted noticed a compass needle twitch when he turned on a battery.\n\nHe proved that a simple wire carrying an electric current creates a magnetic field around it.\nBecause current is just millions of moving electrons, they create a magnetic field!\n\nThe magnetic field around a straight wire forms perfect, concentric circles wrapping around the wire. (You use the \"Thumb Rule\": Point your right thumb in the direction of the current, and your fingers naturally curl in the circular direction of the magnetic field)."
+        },
+        {
+            "id": "mag_8",
+            "type": "content",
+            "title": "The Solenoid",
+            "content": "# Concentrating the Force\n\n A single straight wire produces a very weak magnetic field.\n\nIf you take that wire and wrap it into a tight coil with hundreds of loops, you create a **Solenoid**.\nWhen current flows through the coil, all the tiny circular magnetic fields from every loop combine constructively down the center of the tube.\n\nThis creates an incredibly strong, perfectly straight, uniform magnetic field down the middle (just like a bar magnet). You have built an **Electromagnet**! The moment you turn off the current, the magnetism instantly vanishes."
+        },
+        {
+            "id": "mag_9",
+            "type": "content",
+            "title": "Forces Between Wires",
+            "content": "# Magnetic Wire Interaction\n\nIf a wire with current creates a magnetic field, and a wire with current feels a force in a magnetic field... what happens if you put two wires next to each other?\n\nThey exert magnetic forces on each other!\n\n- If the currents run in the **SAME direction**, the wires attract and pull toward each other.\n- If the currents run in **OPPOSITE directions**, the wires violently repel and push apart.\n\nThis exact force is what physically causes an electric motor to spin!"
+        },
+        {
+            "id": "mag_10",
+            "type": "content",
+            "title": "Magnetic Materials",
+            "content": "# Where do Permanent Magnets come from?\n\nIf magnetism is only caused by moving charges, how can a chunk of cold, solid Iron sitting on a desk be a permanent magnet? Nothing is moving!\n\nActually, something IS moving: **The Electrons**.\n\nEvery electron spins on its axis (Quantum Spin) and orbits the nucleus. This motion makes every single electron in the universe a microscopic electromagnet!"
+        },
+        {
+            "id": "mag_11",
+            "type": "content",
+            "title": "Ferromagnetism",
+            "content": "# The Power of Iron\n\nIn most materials (like wood or plastic), the billions of electron magnets are pointing in totally random directions. They perfectly cancel each other out. (Total magnetic field = 0).\n\nIn **Ferromagnetic** materials (Iron, Nickel, Cobalt), the atoms have unpaired electrons that act like tiny compass needles. \n\nCrucially, these atoms are locked into \"Domains.\" If you expose iron to a strong external magnet, all the tiny domains forcibly rotate until billions of them are pointing in the exact same direction. Their microscopic fields add up, creating a massive, permanent macroscopic magnet!"
+        },
+        {
+            "id": "mag_12",
+            "type": "content",
+            "title": "Electromagnetic Induction",
+            "content": "# Reversing the Process\n\nIf a moving electric current can create a magnetic field (an electromagnet), can a moving magnetic field create an electric current?\n\nIn 1831, Michael Faraday proved it could. This is **Electromagnetic Induction**.\n\nIf you take a coil of wire (with NO battery attached) and violently shove a bar magnet into the coil, the changing magnetic field will physically push the electrons in the wire, creating a surge of electricity (Voltage). \nWhen you stop moving the magnet, the electricity instantly stops."
+        },
+        {
+            "id": "mag_13",
+            "type": "content",
+            "title": "Faraday's Law",
+            "content": "# The Math of Induction\n\n**Faraday's Law** states that the induced Voltage (EMF) in a coil is perfectly proportional to the *Rate of Change* of the Magnetic Flux passing through the coil.\n\n**EMF = -N * (Change in Flux / Change in Time)**\n\nWhere:\n- **N:** The number of loops in the coil. (More loops = more voltage!).\n- **Flux:** The amount of magnetic field poking through the loop area.\n\nTo generate massive electricity, you need to change the magnetic field incredibly fast!"
+        },
+        {
+            "id": "mag_14",
+            "type": "content",
+            "title": "Lenz's Law",
+            "content": "# Nature's Stubbornness\n\nNotice the negative sign (-) in Faraday's Law? That is **Lenz's Law**.\n\nLenz's Law is the Conservation of Energy applied to magnetism. It states:\n> \"The induced current will always flow in a direction that creates its OWN magnetic field to OPPOSE the change that created it.\"\n\nIf you push a North pole into a coil, the coil will induce a current that creates a North pole to push back against you! You have to physically fight and do mechanical work to push the magnet in. You are converting your mechanical sweat into electrical energy!"
+        },
+        {
+            "id": "mag_15",
+            "type": "content",
+            "title": "Electric Generators",
+            "content": "# Powering the World\n\nFaraday's discovery is arguably the most important in human history. It is the basis for all **Electric Generators**.\n\nA generator is simply a massive coil of wire spinning rapidly between the poles of a giant magnet.\n\nTo spin the coil, we use mechanical energy: a waterfall (hydroelectric), wind (wind turbine), or high-pressure steam from burning coal or nuclear fission. \nAs the coil spins, the magnetic flux constantly changes, inducing a massive, continuous Alternating Current (AC) that powers entire cities!"
+        },
+        {
+            "id": "mag_16",
+            "type": "content",
+            "title": "Transformers",
+            "content": "# Stepping the Voltage\n\nHow do we transport electricity hundreds of miles without losing it all to heat? We use very high Voltage (like 500,000 Volts). But that would explode your house.\n\nWe use a **Transformer** to step the voltage down. \nIt consists of two separate coils of wire wrapped around the same iron ring. \n\nThe AC current in the first coil creates a constantly changing magnetic field. The iron ring channels this changing field into the second coil, inducing a new voltage via Faraday's Law. By simply changing the number of loops (N) in the second coil, you can instantly scale the voltage to exactly 120 Volts for your wall outlet."
+        },
+        {
+            "id": "mag_17",
+            "type": "content",
+            "title": "Summary of Magnetism",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Origin:** Magnetism is exclusively caused by moving electric charge. Monopoles do not exist.\n2. **Lorentz Force:** Magnetic fields only push on MOVING charges, always acting perpendicularly (causing circular motion).\n3. **Electromagnets:** Current flowing through a coiled wire (solenoid) creates a strong magnetic field.\n4. **Induction (Faraday's Law):** A CHANGING magnetic field pushing through a coil induces an electric current.\n5. **Lenz's Law:** The induced current always fights the change that created it (conservation of energy).\n6. **Applications:** Generators convert mechanical spinning into electrical power via induction."
+        },
+        {
+            "id": "mag_quiz_1",
+            "type": "quiz",
+            "title": "Lorentz Force Quiz",
+            "content": "Test your understanding of magnetic forces on charges.",
+            "quizQuestion": "If you place an electron completely motionless exactly in the center of a massively powerful magnetic field, what will happen to the electron?",
+            "quizOptions": [
+                "It will instantly accelerate toward the North pole.",
+                "It will instantly accelerate toward the South pole.",
+                "It will begin to spin in a perfect circle.",
+                "Absolutely nothing. The magnetic force on a stationary charge is zero."
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "mag_quiz_2",
+            "type": "quiz",
+            "title": "Faraday's Law Quiz",
+            "content": "Review electromagnetic induction.",
+            "quizQuestion": "According to Faraday's Law, what must you do with a bar magnet and a coil of wire to generate the MAXIMUM possible electric voltage?",
+            "quizOptions": [
+                "Hold the magnet perfectly still inside the coil.",
+                "Move the magnet in and out of the coil as rapidly as physically possible.",
+                "Place the magnet directly next to the coil and wait.",
+                "Use a magnet with a weaker magnetic field."
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

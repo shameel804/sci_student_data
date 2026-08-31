@@ -1,0 +1,147 @@
+{
+    "id": "learn_metals",
+    "topicId": "metals",
+    "topicTitle": "Metals and Non-metals",
+    "description": "Explore the shining, ringing world of metals, compare them to non-metals, and discover how we extract them from the Earth.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "metals_1",
+            "type": "content",
+            "title": "Welcome to Metals and Non-Metals",
+            "content": "# The Elements Around Us\n\nElements can be broadly classified as either metals or non-metals based on their properties.\n\nLook around you. The iron in buildings, the copper in electrical wires, and the aluminum in airplanes are all metals. The oxygen you breathe, the carbon in your body, and the sulfur in matches are non-metals.\n\n## What You Will Learn:\n- **Physical Properties:** What makes a metal a metal?\n- **Chemical Properties:** How do they react with air, water, and acids?\n- **The Reactivity Series:** The hierarchy of elements.\n- **Ionic Bonding:** How metals and non-metals join together.\n- **Metallurgy:** How do we get metals out of rocks?"
+        },
+        {
+            "id": "metals_2",
+            "type": "content",
+            "title": "Physical Properties of Metals",
+            "content": "# Shiny and Strong\n\nMetals have a very distinct set of physical properties:\n\n1. **Metallic Luster:** In their pure state, metals have a shining surface.\n2. **Hardness:** Most metals are hard. (Exception: Sodium and potassium are so soft they can be cut with a knife!).\n3. **Malleability:** Metals can be beaten into thin sheets. (Gold and silver are the most malleable).\n4. **Ductility:** The ability of metals to be drawn into thin wires. (A wire of about 2 km length can be drawn from just 1 gram of gold!).\n5. **Conductivity:** They are good conductors of heat and electricity. (Silver and copper are the best).\n6. **Sonorous:** The metals that produce a sound on striking a hard surface are said to be sonorous."
+        },
+        {
+            "id": "metals_3",
+            "type": "content",
+            "title": "Physical Properties of Non-metals",
+            "content": "# The Opposites\n\nThere are very few non-metals compared to metals. Some examples are carbon, sulphur, iodine, oxygen, and hydrogen.\n\n## Properties:\nNon-metals are generally the opposite of metals!\n- They are either solids or gases at room temperature. (Exception: **Bromine** is a liquid).\n- They are **non-lustrous** (dull). (Exception: **Iodine** is a non-metal but it is lustrous!).\n- They are **poor conductors** of heat and electricity. (Exception: **Graphite**, a form of carbon, is a great conductor of electricity!).\n- They are brittle (not malleable or ductile) and non-sonorous."
+        },
+        {
+            "id": "metals_quiz_1",
+            "type": "quiz",
+            "title": "Physical Properties Quiz",
+            "content": "Check your understanding of physical traits.",
+            "quizQuestion": "Which of the following is a non-metal that is a good conductor of electricity?",
+            "quizOptions": [
+                "Iodine",
+                "Sulfur",
+                "Graphite",
+                "Bromine"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "metals_4",
+            "type": "content",
+            "title": "Chemical Properties: Reaction with Air",
+            "content": "# Burning Metals\n\nAlmost all metals combine with oxygen to form **metal oxides**.\n\n`Metal + Oxygen -> Metal Oxide`\n- Example: `2Cu + O2 -> 2CuO` (Copper oxide is black).\n\n## The Base Rule:\nMetal oxides are generally **basic** in nature. \nHowever, some metal oxides, such as aluminum oxide and zinc oxide, show both acidic as well as basic behavior. Such metal oxides are known as **amphoteric oxides**.\n\n*(Note: Non-metal oxides are generally acidic in nature!)*"
+        },
+        {
+            "id": "metals_5",
+            "type": "content",
+            "title": "Different Reactivities with Air",
+            "content": "# Not All Metals are Equal\n\nMetals don't all react with oxygen at the same rate.\n\n- **Highly Reactive:** Metals like potassium and sodium react so vigorously that they catch fire if kept in the open. They are kept immersed in kerosene oil to protect them.\n- **Moderately Reactive:** Surfaces of magnesium, aluminium, zinc, and lead are covered with a thin layer of oxide at ordinary temperatures, which protects them from further oxidation.\n- **Low Reactive:** Iron does not burn on heating, but iron filings burn vigorously. Copper does not burn but gets coated with a black oxide layer.\n- **Unreactive:** Silver and gold do not react with oxygen even at high temperatures."
+        },
+        {
+            "id": "metals_6",
+            "type": "content",
+            "title": "Reaction with Water",
+            "content": "# Metals vs H2O\n\nMetals react with water and produce a metal oxide and hydrogen gas.\n\n`Metal + Water -> Metal oxide + Hydrogen`\n\nAgain, the reactivity varies wildly:\n- **Cold Water:** Potassium and sodium react violently with cold water, catching fire immediately. Calcium reacts less violently.\n- **Hot Water:** Magnesium doesn't react with cold water, but reacts with hot water.\n- **Steam:** Aluminium, iron, and zinc do not react with cold or hot water, but they react with steam.\n- **No Reaction:** Lead, copper, silver, and gold do not react with water at all."
+        },
+        {
+            "id": "metals_7",
+            "type": "content",
+            "title": "Reaction with Acids",
+            "content": "# Metals vs Acids\n\nAs we learned in the Acids chapter, metals react with acids to give a salt and hydrogen gas.\n\n`Metal + Dilute acid -> Salt + Hydrogen`\n\nHowever, hydrogen gas is **not** evolved when a metal reacts with *nitric acid* (HNO3). \nWhy? Because HNO3 is a strong oxidizing agent. It oxidizes the H2 produced to water and itself gets reduced to nitrogen oxides.\n\n(Only magnesium and manganese react with very dilute HNO3 to evolve hydrogen gas)."
+        },
+        {
+            "id": "metals_quiz_2",
+            "type": "quiz",
+            "title": "Reactivity Quiz",
+            "content": "Check your understanding of chemical reactions.",
+            "quizQuestion": "Which of the following metals reacts so vigorously with oxygen that it is stored under kerosene?",
+            "quizOptions": [
+                "Iron",
+                "Copper",
+                "Sodium",
+                "Magnesium"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "metals_8",
+            "type": "content",
+            "title": "The Reactivity Series",
+            "content": "# The Hierarchy of Metals\n\nBy observing these reactions (with air, water, acids, and displacement reactions), chemists have developed a list of metals arranged in the order of their decreasing activities.\n\nThis is known as the **Reactivity Series** or Activity Series.\n\n## The Series (Top to Bottom):\n- **Most Reactive:** Potassium (K), Sodium (Na), Calcium (Ca), Magnesium (Mg), Aluminium (Al).\n- **Decreasing Reactivity:** Zinc (Zn), Iron (Fe), Lead (Pb).\n- **Hydrogen (H):** Used as a reference point.\n- **Least Reactive:** Copper (Cu), Mercury (Hg), Silver (Ag), Gold (Au).\n\nA metal higher in the series can displace a metal lower in the series from its salt solution!"
+        },
+        {
+            "id": "metals_9",
+            "type": "content",
+            "title": "How do Metals and Non-metals React?",
+            "content": "# The Transfer of Electrons\n\nWhy do elements react? Because they want a stable, completely filled outermost shell (a stable octet, like noble gases).\n\n- **Metals:** They have 1, 2, or 3 electrons in their outermost shell. It is easier for them to **lose** these electrons to become stable. When they lose electrons, they become positively charged ions (**cations**).\n- **Non-metals:** They have 5, 6, or 7 electrons in their outermost shell. It is easier for them to **gain** electrons to complete their octet. When they gain electrons, they become negatively charged ions (**anions**).\n\nWhen a metal meets a non-metal, a perfect trade happens!"
+        },
+        {
+            "id": "metals_10",
+            "type": "content",
+            "title": "Ionic Compounds",
+            "content": "# The Electrostatic Bond\n\nLet's look at Sodium Chloride (NaCl).\n- Sodium (metal) has 1 valence electron. It loses it to form Na+.\n- Chlorine (non-metal) has 7 valence electrons. It gains 1 to form Cl-.\n\nSodium and chloride ions, being oppositely charged, attract each other and are held by strong electrostatic forces of attraction to exist as sodium chloride.\n\n## Ionic Bonds:\nThe compounds formed in this manner by the transfer of electrons from a metal to a non-metal are known as **ionic compounds** or electrovalent compounds."
+        },
+        {
+            "id": "metals_11",
+            "type": "content",
+            "title": "Properties of Ionic Compounds",
+            "content": "# Strong and Salty\n\nBecause the positive and negative ions are held together by very strong forces, ionic compounds have distinct properties:\n\n1. **Physical Nature:** They are solid and somewhat hard. They are generally brittle (break into pieces when pressure is applied).\n2. **Melting/Boiling Points:** They have very high melting and boiling points (it takes a lot of heat to break the strong ionic bonds).\n3. **Solubility:** Generally soluble in water but insoluble in solvents like kerosene or petrol.\n4. **Conduction of Electricity:** They do NOT conduct electricity in a solid state (ions can't move). But they DO conduct electricity in a molten state or when dissolved in water!"
+        },
+        {
+            "id": "metals_quiz_3",
+            "type": "quiz",
+            "title": "Ionic Compounds Quiz",
+            "content": "Check your understanding of ionic bonds.",
+            "quizQuestion": "Why do ionic compounds conduct electricity when dissolved in water, but not when in a solid state?",
+            "quizOptions": [
+                "Water provides free electrons.",
+                "The ions become free to move in a solution.",
+                "Water dissolves the metal completely.",
+                "They become non-metals in water."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "metals_12",
+            "type": "content",
+            "title": "Occurrence of Metals",
+            "content": "# Minerals and Ores\n\nThe earth's crust is the major source of metals. Seawater also contains some soluble salts (like sodium chloride).\n\n## Definitions:\n- **Minerals:** The elements or compounds which occur naturally in the earth's crust.\n- **Ores:** Some minerals contain a very high percentage of a particular metal and the metal can be profitably extracted from it. These minerals are called ores.\n\n*All ores are minerals, but not all minerals are ores!*"
+        },
+        {
+            "id": "metals_13",
+            "type": "content",
+            "title": "Extraction of Metals (Metallurgy)",
+            "content": "# Getting the Pure Metal\n\nHow we extract a metal depends entirely on its position in the reactivity series!\n\n1. **Low Reactivity (Gold, Silver, Copper):** Found in a free state or as sulphide ores. They can often be reduced to metals just by heating in air (roasting).\n2. **Medium Reactivity (Iron, Zinc, Lead):** Found as carbonates or sulphides. They are first converted to metal oxides (by calcination or roasting). Then, the metal oxide is reduced to the metal by using **Carbon** as a reducing agent.\n3. **High Reactivity (Sodium, Potassium, Aluminium):** These cannot be reduced by heating with carbon because they have a higher affinity for oxygen than carbon does. They are obtained by **electrolytic reduction** (passing electricity through their molten ores)."
+        },
+        {
+            "id": "metals_14",
+            "type": "content",
+            "title": "Refining and Alloys",
+            "content": "# The Final Polish\n\nThe metals produced by reduction processes are not very pure. The most widely used method for refining impure metals is **electrolytic refining**.\n\n## Alloys: Mixing Metals\nSometimes, pure metals don't have the properties we need (pure iron is too soft). An **alloy** is a homogeneous mixture of two or more metals, or a metal and a non-metal.\n\n- **Steel:** Iron + Carbon (Hard and strong)\n- **Stainless Steel:** Iron + Nickel + Chromium (Doesn't rust)\n- **Brass:** Copper + Zinc\n- **Bronze:** Copper + Tin\n- **Amalgam:** Any alloy containing Mercury."
+        },
+        {
+            "id": "metals_15",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Malleability / Ductility:** Beating into sheets / drawing into wires.\n- **Amphoteric Oxides:** Metal oxides that act as both acids and bases (e.g., Al2O3).\n- **Reactivity Series:** A list of metals ordered by decreasing reactivity.\n- **Ionic Bond:** Formed by the complete transfer of electrons from a metal to a non-metal.\n- **Ore:** A mineral from which a metal can be profitably extracted.\n- **Roasting / Calcination:** Heating sulphide / carbonate ores to convert them to oxides.\n- **Alloy:** A homogeneous mixture of metals (or metal + non-metal)."
+        },
+        {
+            "id": "metals_16",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Metals and Non-metals\n\nExcellent work! Here is a recap of what we've learned:\n\n- **Metals** are generally hard, shiny, malleable, ductile, and good conductors. They form basic oxides and lose electrons (forming cations).\n- **Non-metals** are dull, brittle, poor conductors, form acidic oxides, and gain electrons (forming anions).\n- The **Reactivity Series** dictates how violently metals react with water, air, and acids.\n- Metals and non-metals combine to form **ionic compounds**, which have high melting points and conduct electricity in solution.\n- **Metallurgy** depends on reactivity: highly reactive metals are extracted via electrolysis, medium via carbon reduction, and low by simple heating.\n- **Alloys** are mixtures used to improve the properties of pure metals."
+        }
+    ]
+}

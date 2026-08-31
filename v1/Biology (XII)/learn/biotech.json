@@ -1,0 +1,83 @@
+{
+    "id": "learn_biotech",
+    "topicId": "biotech",
+    "topicTitle": "Biotechnology",
+    "description": "Learn how scientists cut, copy, and paste DNA to create medicines, improve crops, and cure diseases.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "biot_1",
+            "type": "content",
+            "title": "Welcome to Biotechnology",
+            "content": "# Biotechnology\n\nWelcome to Biotechnology! This is the use of biology, cellular and biomolecular processes to develop technologies and products that help improve our lives and the health of our planet.\n\n## What You Will Learn:\n- **Recombinant DNA** - How to cut and paste genes\n- **Cloning Vectors** - Delivery vehicles for DNA\n- **Biotech Applications** - Medicine, agriculture, and industry\n- **Transgenic Animals** - Genetically modified organisms\n\n> **Fun Fact:** The insulin used by millions of diabetics today is almost entirely produced by genetically modified E. coli bacteria!"
+        },
+        {
+            "id": "biot_2",
+            "type": "content",
+            "title": "Principles of Biotechnology",
+            "content": "# The Core Principles\n\nModern biotechnology relies on two core techniques:\n\n## 1. Genetic Engineering:\n- The techniques to alter the chemistry of genetic material (DNA and RNA), to introduce these into host organisms and thus change the phenotype (traits) of the host organism.\n- The creation of **Recombinant DNA (rDNA)**.\n\n## 2. Bioprocess Engineering:\n- Maintaining a sterile (microbe-free) environment in chemical engineering processes.\n- This allows for the growth of only the desired microbe/cell in large quantities for the manufacture of biotechnological products like antibiotics, vaccines, and enzymes."
+        },
+        {
+            "id": "biot_3",
+            "type": "content",
+            "title": "Tools of Genetic Engineering",
+            "content": "# The Biological Toolbox\n\nTo cut and paste DNA, scientists need specific biological tools.\n\n## 1. Restriction Enzymes (Molecular Scissors):\n- These are enzymes that cut DNA molecules at specific, recognized sequences (recognition sites).\n- Example: EcoRI cuts DNA only where it sees the sequence GAATTC. \n- They often leave 'sticky ends'\u2014short, single-stranded overhangs that easily bond with complementary sequences.\n\n## 2. DNA Ligase (Molecular Glue):\n- An enzyme that joins the sugar-phosphate backbones of two different DNA molecules together, finalizing the paste job.\n\n## 3. Cloning Vectors (Delivery Vehicles):\n- Plasmids (circular DNA found in bacteria) or viruses used to carry the alien piece of DNA into a host cell."
+        },
+        {
+            "id": "biot_4",
+            "type": "content",
+            "title": "Making Recombinant DNA",
+            "content": "# The Process of Making rDNA\n\nHow do we make bacteria produce human insulin?\n\n1. **Isolation:** Isolate the human DNA containing the insulin gene.\n2. **Cutting:** Cut both the human DNA and a bacterial plasmid (vector) using the **SAME** restriction enzyme. This gives both pieces matching 'sticky ends'.\n3. **Ligation:** Mix the cut human gene and the cut plasmid together. Use DNA ligase to seal them. We now have a Recombinant Plasmid!\n4. **Transformation:** Introduce the recombinant plasmid into a host bacterial cell (like E. coli).\n5. **Multiplication:** The bacteria multiply rapidly, copying the recombinant plasmid and expressing the human insulin gene!"
+        },
+        {
+            "id": "biot_5",
+            "type": "content",
+            "title": "PCR (Polymerase Chain Reaction)",
+            "content": "# PCR: The DNA Photocopier\n\nWhat if you only have a tiny drop of blood at a crime scene, and not enough DNA to test? You use PCR!\n\n## The Concept:\nPCR is a technique to synthesize multiple copies of a specific gene (or piece of DNA) *in vitro* (in a test tube).\n\n## The 3 Steps (Repeated 30+ times):\n1. **Denaturation:** Heat the DNA to ~94C to separate the two strands.\n2. **Annealing:** Cool to ~50C so short synthetic DNA 'primers' can bind to the target region.\n3. **Extension:** Heat to ~72C. A special heat-resistant enzyme (Taq Polymerase) extends the primers, building two complete copies.\n\nResult: 1 copy becomes 2, then 4, then 8, then 1 billion in just a few hours!"
+        },
+        {
+            "id": "biot_quiz_1",
+            "type": "quiz",
+            "title": "Tool Quiz",
+            "content": "Test your genetic engineering tools.",
+            "quizQuestion": "Which enzyme acts as 'molecular scissors' to cut DNA at specific sequences?",
+            "quizOptions": [
+                "DNA Polymerase",
+                "DNA Ligase",
+                "Restriction Endonuclease",
+                "RNA Polymerase"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "biot_6",
+            "type": "content",
+            "title": "Applications in Agriculture",
+            "content": "# Biotech in Farming\n\nGenetically Modified Organisms (GMOs) have revolutionized agriculture.\n\n## Bt Cotton:\n- A soil bacterium called *Bacillus thuringiensis* (Bt) produces a protein that is toxic to certain insect pests (like bollworms) but harmless to humans.\n- Scientists isolated the Bt toxin gene and inserted it into the cotton plant genome.\n- The cotton plant now produces its own insecticide! When pests eat the plant, they die. This drastically reduces the need for chemical pesticide sprays.\n\n## Golden Rice:\n- A transgenic variety of rice modified to produce beta-carotene (a precursor to Vitamin A).\n- Designed to combat severe Vitamin A deficiency (which causes blindness) in developing countries where rice is the staple diet."
+        },
+        {
+            "id": "biot_7",
+            "type": "content",
+            "title": "Applications in Medicine",
+            "content": "# Biotech in Healthcare\n\n## 1. Genetically Engineered Insulin:\n- Previously, insulin was extracted from slaughtered pigs and cattle, causing allergic reactions in some humans.\n- Now, human insulin is safely produced in massive vats of genetically engineered E. coli bacteria.\n\n## 2. Gene Therapy:\n- A technique to treat genetic diseases by inserting a functional gene into a patient's cells to replace a missing or defective gene.\n- E.g., Treating ADA deficiency (a severe immune disorder) by inserting functional ADA genes into a child's bone marrow cells.\n\n## 3. Molecular Diagnosis:\n- Using techniques like PCR to detect deadly diseases (like HIV) very early on, long before symptoms appear."
+        },
+        {
+            "id": "biot_8",
+            "type": "content",
+            "title": "Transgenic Animals",
+            "content": "# Transgenic Animals\n\nAnimals that have had their DNA manipulated to possess and express an extra (foreign) gene.\n\n## Why are they produced?\n1. **Study of Disease:** Transgenic mice are created to serve as models for human diseases like cancer, cystic fibrosis, and Alzheimer's, allowing us to test new treatments.\n2. **Biological Products:** Animals can be engineered to produce useful biological products in their milk. For example, 'Rosie', the first transgenic cow, produced human protein-enriched milk (containing human alpha-lactalbumin).\n3. **Vaccine Safety:** Transgenic mice are used to test the safety of batches of vaccines (like the polio vaccine) before they are given to humans."
+        },
+        {
+            "id": "biot_9",
+            "type": "content",
+            "title": "Ethical Issues",
+            "content": "# The Ethics of Biotech\n\nManipulating the very code of life brings up major ethical and social issues.\n\n## GEAC:\nIn India, the Genetic Engineering Appraisal Committee (GEAC) makes decisions regarding the validity of GM research and the safety of introducing GM organisms for public services.\n\n## Biopiracy:\n- The use of bio-resources by multinational companies without proper authorization or compensation to the countries and people concerned.\n- Example: Attempts by Western companies to patent the medicinal properties of Neem and Turmeric, or specific varieties of Basmati rice, which have been cultivated and known by Indian farmers for centuries."
+        },
+        {
+            "id": "biot_10",
+            "type": "content",
+            "title": "Summary: Biotechnology",
+            "content": "# Biotechnology Summary\n\n## Key Concepts Reviewed:\n\n- **Genetic Engineering:** Modifying DNA to change an organism's traits.\n- **Tools:** Restriction enzymes cut DNA; DNA ligase pastes DNA; Plasmids carry DNA into host cells.\n- **PCR:** Amplifies tiny amounts of DNA into billions of copies.\n- **Agriculture:** Bt Cotton produces its own insecticide; Golden Rice produces Vitamin A.\n- **Medicine:** Genetically engineered human insulin; Gene therapy to cure genetic diseases.\n- **Transgenic Animals:** Used as disease models or to produce human proteins in milk.\n- **Biopiracy:** Unfair exploitation of biological resources by corporations.\n\n> **Congratulations!** You have completed the Biotechnology module and the Biology (XII) course!"
+        }
+    ]
+}

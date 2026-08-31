@@ -1,0 +1,141 @@
+{
+    "id": "learn_molbio_dna",
+    "topicId": "dna",
+    "topicTitle": "DNA Structure",
+    "description": "Explore the molecular architecture of DNA, from its basic nucleotide building blocks to its complex packaging into chromatin.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "molbio_dna_1",
+            "type": "content",
+            "title": "Welcome to DNA Structure",
+            "content": "# Introduction to DNA Structure\n\nWelcome to **Molecular Biology**!\n\nDeoxyribonucleic Acid (DNA) is the fundamental molecule of life, containing the blueprints necessary for the development, functioning, growth, and reproduction of all known organisms.\n\n## What You Will Learn:\n- **DNA Double Helix** - The iconic twisted ladder shape\n- **Base Pairing Rules** - How the code is written and read\n- **DNA Topology** - How DNA twists and coils in 3D space\n- **Chromatin Structure** - How meters of DNA fit inside a microscopic nucleus\n\nLet's unpack the most important molecule in biology!"
+        },
+        {
+            "id": "molbio_dna_2",
+            "type": "content",
+            "title": "The Discovery",
+            "content": "# Discovering the Double Helix\n\nThe structure of DNA was one of the most important scientific discoveries of the 20th century.\n\n## Key Players:\n- **Rosalind Franklin:** Used X-ray crystallography to take \"Photo 51,\" revealing the helical nature and dimensions of the molecule.\n- **Erwin Chargaff:** Discovered that the amounts of adenine and thymine are always equal, as are cytosine and guanine.\n- **James Watson and Francis Crick:** Used this data to build the first accurate 3D model of the double helix in 1953.\n\n> **Historical Note:** While Watson, Crick, and Maurice Wilkins shared the Nobel Prize in 1962, Rosalind Franklin had tragically passed away before she could be nominated, though her data was crucial to the discovery."
+        },
+        {
+            "id": "molbio_dna_3",
+            "type": "content",
+            "title": "The Building Blocks",
+            "content": "# Nucleotides: The DNA Alphabet\n\nDNA is a polymer made up of repeating monomer units called **nucleotides**.\n\n## Components of a Nucleotide:\nEvery DNA nucleotide has three parts:\n\n1. **Phosphate Group:** Carries a negative charge (which makes DNA an acid).\n2. **Deoxyribose Sugar:** A 5-carbon sugar ring (missing one oxygen compared to RNA).\n3. **Nitrogenous Base:** The actual \"letter\" of the genetic code.\n\n## The Sugar-Phosphate Backbone\nNucleotides link together in a chain. The phosphate of one nucleotide covalently bonds to the sugar of the next (a phosphodiester bond). This creates a strong, repeating **sugar-phosphate backbone**.\n\n> **Analogy:** If DNA is a spiral staircase, the sugar-phosphate backbone forms the sturdy handrails on the outside."
+        },
+        {
+            "id": "molbio_dna_4",
+            "type": "content",
+            "title": "The Double Helix",
+            "content": "# The DNA Double Helix\n\nDNA rarely exists as a single strand. It usually forms a **double helix**.\n\n## Structural Features:\n- **Two Strands:** Two separate sugar-phosphate chains twist around a central axis.\n- **Right-Handed Twist:** The most common form of DNA (B-DNA) twists to the right, resembling a standard screw.\n- **Dimensions:** The helix has a uniform diameter of approx 2.0 nanometers.\n- **Grooves:** As the strands twist, they create gaps called the **Major Groove** and **Minor Groove**. Proteins that read DNA sequences bind perfectly inside the major groove.\n\n## Why a Helix?\nThe helical shape is energetically favorable. It protects the hydrophobic (water-fearing) nitrogenous bases on the inside while exposing the hydrophilic (water-loving) sugar-phosphate backbone to the watery environment of the cell."
+        },
+        {
+            "id": "molbio_dna_5",
+            "type": "content",
+            "title": "Antiparallel Strands",
+            "content": "# Antiparallel Orientation\n\nThe two strands of the double helix do not run in the same direction. They are **antiparallel**.\n\n## The 5' and 3' Ends\nThe carbons on the deoxyribose sugar are numbered 1' through 5' (read as \"five prime\").\n- The **5' end** of a DNA strand terminates with a free phosphate group attached to the 5' carbon.\n- The **3' end** terminates with a free hydroxyl (-OH) group attached to the 3' carbon.\n\n## Head to Tail\nIf you trace one strand from top to bottom, it will read 5' to 3'.\nThe opposite strand, right next to it, will read 3' to 5' from top to bottom.\n\n> **Why it matters:** Enzymes that copy DNA can only travel in one specific direction (5' to 3'). The antiparallel nature makes DNA replication a complex biological puzzle!"
+        },
+        {
+            "id": "molbio_dna_quiz_1",
+            "type": "quiz",
+            "title": "DNA Structure Quiz",
+            "content": "Test your knowledge of the basic architecture.",
+            "quizQuestion": "What type of chemical bond links the sugar of one nucleotide to the phosphate of the next nucleotide, forming the backbone?",
+            "quizOptions": [
+                "Hydrogen bond",
+                "Phosphodiester bond",
+                "Peptide bond",
+                "Ionic bond"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "molbio_dna_7",
+            "type": "content",
+            "title": "Base Pairing Rules",
+            "content": "# Watson-Crick Base Pairing\n\nThe nitrogenous bases face inward, meeting in the middle of the helix like the rungs of a ladder.\n\n## The Four Bases:\n- **Adenine (A)** - Purine (two rings)\n- **Guanine (G)** - Purine (two rings)\n- **Thymine (T)** - Pyrimidine (one ring)\n- **Cytosine (C)** - Pyrimidine (one ring)\n\n## The Pairing Rules:\n- **A always pairs with T**\n- **G always pairs with C**\n\n## Maintaining the Diameter\nA bulky purine (two rings) always pairs with a smaller pyrimidine (one ring). 2 rings + 1 ring = 3 rings total across the \"rung.\" This ensures the 2.0 nanometer diameter of the helix remains perfectly constant!"
+        },
+        {
+            "id": "molbio_dna_8",
+            "type": "content",
+            "title": "Hydrogen Bonds",
+            "content": "# The Power of Hydrogen Bonds\n\nThe two strands are held together by **hydrogen bonds** between the paired bases.\n\n## Bond Strength:\n- **A-T Base Pair:** Forms **2** hydrogen bonds.\n- **G-C Base Pair:** Forms **3** hydrogen bonds.\n\n## Implications for Biology:\nHydrogen bonds are individually weak, but millions of them together make the double helix very stable.\n\nHowever, because they are weaker than the covalent bonds in the backbone, the two strands can be temporarily \"unzipped\" without damaging the DNA sequence itself. This unzipping is absolutely essential for copying DNA or reading genes!\n\n> **Melting Temperature:** DNA sequences with a high GC content have more hydrogen bonds and require more heat energy to \"melt\" (separate) than AT-rich sequences."
+        },
+        {
+            "id": "molbio_dna_9",
+            "type": "content",
+            "title": "Chargaff's Rules",
+            "content": "# Chargaff's Rules\n\nBefore Watson and Crick, biochemist Erwin Chargaff analyzed the base composition of DNA from many different species.\n\n## The Discoveries:\n\n**Rule 1: Base Equality**\nIn any double-stranded DNA molecule:\n- The percentage of Adenine equals Thymine (%A = %T)\n- The percentage of Guanine equals Cytosine (%G = %C)\n\n**Rule 2: Species Variation**\nThe ratio of (A+T) to (G+C) varies greatly from one species to another.\n- Human DNA is approx 60% A+T and 40% G+C.\n- Some bacteria have DNA that is 70% G+C.\n\n> **Application:** If you know a DNA molecule is 20% Adenine, you can calculate the rest! It must be 20% Thymine (total 40%). The remaining 60% must be divided equally between Guanine (30%) and Cytosine (30%)."
+        },
+        {
+            "id": "molbio_dna_quiz_2",
+            "type": "quiz",
+            "title": "Base Pairing Quiz",
+            "content": "Check your understanding of base pairing.",
+            "quizQuestion": "If a sample of double-stranded DNA contains 15% Cytosine, what percentage of Adenine does it contain?",
+            "quizOptions": [
+                "15%",
+                "30%",
+                "35%",
+                "85%"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "molbio_dna_11",
+            "type": "content",
+            "title": "DNA Topology",
+            "content": "# DNA Topology\n\nTopology is the study of how structures behave in 3D space. DNA topology becomes important because DNA molecules are incredibly long!\n\n## The Packing Problem\n- A single human cell contains about 2 meters of DNA.\n- The cell nucleus has a diameter of approx 6 micrometers.\n- This is like trying to pack 40 kilometers of thin thread into a tennis ball!\n\nTo solve this, DNA must be coiled, folded, and twisted.\n\n## Circular vs Linear\n- **Bacterial DNA:** Usually exists as a single, closed circular molecule.\n- **Eukaryotic DNA:** Exists as multiple long, linear molecules (chromosomes).\n\nBoth forms face severe topological stress when they are unpacked or replicated."
+        },
+        {
+            "id": "molbio_dna_12",
+            "type": "content",
+            "title": "Supercoiling",
+            "content": "# Supercoiling\n\nJust like an old telephone cord, if you twist DNA too much, it twists back on itself. This is called **supercoiling**.\n\n## Types of Supercoiling:\n\n### 1. Positive Supercoiling (Overwound)\nThe DNA helix is twisted tightly in the same direction as the helix itself. This makes the DNA very tight and hard to separate.\n\n### 2. Negative Supercoiling (Underwound)\nThe DNA is twisted in the opposite direction, loosening the helix. \n\n## Biological Importance:\nAlmost all living cells naturally maintain their DNA in a **negatively supercoiled** state.\nWhy? Because negative supercoiling stores energy that makes it much easier for the cell to pull the two strands apart when it needs to read or copy a gene!"
+        },
+        {
+            "id": "molbio_dna_13",
+            "type": "content",
+            "title": "Topoisomerases",
+            "content": "# Topoisomerases: The Untanglers\n\nWhen a cell unzips its DNA to copy it, the unzipping forces the DNA ahead of it to become tightly positively supercoiled. If left unchecked, the tension would shatter the DNA!\n\n## The Solution\nCells use specialized enzymes called **Topoisomerases** to manage this tension.\n\n## How they work:\n1. They grab the tangled/overwound DNA.\n2. They temporarily cut one or both strands of the sugar-phosphate backbone.\n3. They allow the DNA to untwist, relieving the tension.\n4. They perfectly glue the backbone back together.\n\n> **Medical Application:** Many powerful antibiotics (like Ciprofloxacin) and chemotherapy drugs work by targeting topoisomerases. If bacteria or cancer cells can't untangle their DNA, they can't divide, and they die."
+        },
+        {
+            "id": "molbio_dna_quiz_3",
+            "type": "quiz",
+            "title": "Topology Quiz",
+            "content": "Check your understanding of supercoiling.",
+            "quizQuestion": "Why is the DNA in most living cells naturally maintained in a negatively supercoiled state?",
+            "quizOptions": [
+                "It protects the DNA from radiation",
+                "It makes it easier to separate the strands for replication and transcription",
+                "It prevents the DNA from fitting inside the nucleus",
+                "It increases the number of hydrogen bonds between bases"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "molbio_dna_15",
+            "type": "content",
+            "title": "Chromatin Structure",
+            "content": "# Chromatin: Packaging DNA\n\nIn eukaryotes (organisms with a nucleus), DNA is never just floating around naked. It is complexed with proteins to form a material called **Chromatin**.\n\n## The Role of Histones\nHistones are small, positively charged proteins. \nBecause the DNA backbone is negatively charged (due to phosphates), DNA tightly wraps around histones like thread around a spool.\n\n## The Nucleosome\nThe fundamental unit of chromatin is the **Nucleosome**.\n- Consists of 8 histone proteins (the core octamer).\n- Exactly 147 base pairs of DNA wrap around this core approx 1.65 times.\n- Short stretches of \"linker DNA\" connect one nucleosome to the next.\n\nUnder a microscope, this looks exactly like \"beads on a string.\""
+        },
+        {
+            "id": "molbio_dna_16",
+            "type": "content",
+            "title": "Levels of Compaction",
+            "content": "# Higher Order Compaction\n\nThe \"beads on a string\" (10 nm fiber) is just the first level of packaging. DNA folds upon itself repeatedly to fit in the nucleus.\n\n## The 30 nm Fiber\nThe nucleosomes coil together into a thicker tube called the 30 nm fiber, stabilized by a special \"linker\" histone called H1.\n\n## Looped Domains\nThe 30 nm fiber forms large loops anchored to a protein scaffold inside the nucleus.\n\n## The Metaphase Chromosome\nDuring cell division, the loops condense further into the classic X-shaped chromosomes you see in textbooks. At this stage, the DNA is compacted by a factor of 10,000 to prevent the delicate strands from breaking while being pulled apart!"
+        },
+        {
+            "id": "molbio_dna_17",
+            "type": "content",
+            "title": "Euchromatin vs Heterochromatin",
+            "content": "# Accessibility is Control\n\nHow tightly DNA is packaged dictates whether genes can be read or not.\n\n## 1. Euchromatin\n- **Structure:** Loosely packed, open chromatin.\n- **Function:** Contains active genes. The open structure allows enzymes to get in and \"read\" the DNA sequence to make proteins.\n\n## 2. Heterochromatin\n- **Structure:** Tightly packed, dense chromatin.\n- **Function:** Contains inactive genes or non-coding structural DNA (like telomeres and centromeres). Enzymes cannot access the DNA here.\n\n> **Epigenetics:** Cells can dynamically change packaging. By adding or removing chemical tags (like acetyl or methyl groups) on histone proteins, a cell can switch a region from heterochromatin to euchromatin, turning genes on or off without changing the DNA sequence!"
+        },
+        {
+            "id": "molbio_dna_18",
+            "type": "content",
+            "title": "Summary",
+            "content": "# DNA Structure Summary\n\n## Key Takeaways:\n\n### The Molecule\n- Made of nucleotides (sugar, phosphate, base).\n- Double helix with an antiparallel sugar-phosphate backbone.\n- A pairs with T (2 H-bonds); G pairs with C (3 H-bonds).\n\n### Topology\n- Long DNA molecules face topological stress.\n- Maintained in a negatively supercoiled state to aid unzipping.\n- Topoisomerases cut and reseal DNA to relieve tension.\n\n### Packaging\n- Eukaryotic DNA wraps around histone proteins to form nucleosomes.\n- Folds into higher-order structures (chromatin and chromosomes).\n- **Euchromatin** is open and active; **Heterochromatin** is closed and silent.\n\n> **Congratulations!** You now understand the structural basis of heredity!"
+        }
+    ]
+}

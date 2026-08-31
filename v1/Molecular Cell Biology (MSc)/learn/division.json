@@ -1,0 +1,111 @@
+{
+    "id": "learn_molcb_division",
+    "topicId": "division",
+    "topicTitle": "Cell Division Control",
+    "description": "Understand the strict molecular clocks and checkpoints that ensure a cell divides perfectly, and the self-destruct mechanisms that trigger when things go wrong.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "molcb_div_1",
+            "type": "content",
+            "title": "Welcome to Cell Division Control",
+            "content": "# The Ultimate Checkpoint\n\nWelcome to **Cell Division Control**!\n\nFor a single fertilized egg to become a human, cell division (Mitosis) must happen trillions of times. If a cell makes a mistake while copying its DNA, it cannot be allowed to divide.\n\n## What You Will Learn:\n- **The Cell Cycle** - The phases of growth\n- **Checkpoints** - The molecular security guards\n- **Cyclins and CDKs** - The molecular clock\n- **Apoptosis** - Programmed cellular suicide\n\nLet's learn how cells protect themselves from disaster."
+        },
+        {
+            "id": "molcb_div_2",
+            "type": "content",
+            "title": "The Cell Cycle",
+            "content": "# The Phases of Life\n\nThe life of a cell is divided into two main parts: Interphase (growing and copying) and Mitosis (actually dividing).\n\n## Interphase (90% of the time)\n- **G1 (Gap 1):** The cell grows and does its normal job.\n- **S (Synthesis):** The cell decides to divide, and carefully copies every single letter of its DNA, creating two identical sets of chromosomes.\n- **G2 (Gap 2):** The cell double-checks the copied DNA for errors and builds the machinery needed for division.\n\n## M Phase\n- **Mitosis:** The DNA is ripped in half, and the cell divides into two identical clones."
+        },
+        {
+            "id": "molcb_div_3",
+            "type": "content",
+            "title": "Why Regulate?",
+            "content": "# The Need for Control\n\nIf cells divided constantly without stopping, the human body would be a massive, disorganized tumor.\n\nMost cells in your body are actually in **G0 phase** (a permanent resting state). Your brain cells and muscle cells never divide again after you reach adulthood.\n\nTo leave G0 and enter the cycle, a cell must receive a specific chemical signal (like a Growth Factor) from its neighbors. But even then, it must pass the Checkpoints."
+        },
+        {
+            "id": "molcb_div_quiz_1",
+            "type": "quiz",
+            "title": "Cycle Quiz",
+            "content": "Check your understanding of the phases.",
+            "quizQuestion": "During which phase of the cell cycle is the DNA actually duplicated (copied)?",
+            "quizOptions": [
+                "G1 Phase",
+                "S Phase (Synthesis)",
+                "G2 Phase",
+                "Mitosis"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "molcb_div_4",
+            "type": "content",
+            "title": "The Checkpoints",
+            "content": "# The Security Guards\n\nThe cell cycle has three major checkpoints. The cell will physically freeze its progress at these points until it gets a \"go-ahead\" signal.\n\n1. **The G1 Checkpoint:** The most important one. The cell asks: \"Is the DNA damaged? Do I have enough nutrients? Did my neighbor tell me to divide?\" If the answer is no, it exits the cycle and enters G0.\n2. **The G2 Checkpoint:** After the DNA is copied in S phase, the cell asks: \"Did I make any spelling errors when copying the 3 billion letters of DNA?\"\n3. **The M Checkpoint:** During Mitosis, the cell asks: \"Are all the chromosomes lined up perfectly in the middle before I rip them in half?\""
+        },
+        {
+            "id": "molcb_div_5",
+            "type": "content",
+            "title": "Cyclins and CDKs",
+            "content": "# The Molecular Clocks\n\nHow does the cell actually \"know\" when to pass a checkpoint? It uses a molecular clock made of two proteins:\n\n1. **Cyclins:** Proteins whose concentration rises and falls rhythmically with the cell cycle.\n2. **CDKs (Cyclin-Dependent Kinases):** Enzymes that are always present in the cell, but are completely inactive UNLESS they are attached to a Cyclin.\n\nWhen a Cyclin binds to a CDK, it creates an active **MPF (Maturation-Promoting Factor)**. This active complex acts like a key, unlocking the checkpoint and forcing the cell into the next phase!"
+        },
+        {
+            "id": "molcb_div_quiz_2",
+            "type": "quiz",
+            "title": "Checkpoint Quiz",
+            "content": "Check your understanding of the molecular clock.",
+            "quizQuestion": "What is the relationship between Cyclins and CDKs in controlling the cell cycle?",
+            "quizOptions": [
+                "Cyclins destroy CDKs to stop the cell from dividing",
+                "CDKs are inactive on their own; they only trigger the next phase of the cycle when they bind to a Cyclin",
+                "Cyclins are the DNA, and CDKs are the proteins that cut it",
+                "They are both hormones secreted by the brain"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "molcb_div_6",
+            "type": "content",
+            "title": "When Regulation Fails",
+            "content": "# The Origin of Cancer\n\nCancer is not a single disease. It is the result of the cell cycle checkpoints completely failing.\n\nIf a cell suffers a mutation in the genes that control Cyclins or CDKs, it will blow right past the checkpoints, ignoring damaged DNA, ignoring a lack of nutrients, and dividing endlessly.\n\nWe will cover the specific genetics of this failure in the next module."
+        },
+        {
+            "id": "molcb_div_7",
+            "type": "content",
+            "title": "Apoptosis",
+            "content": "# Programmed Cell Death\n\nWhat happens if the G2 Checkpoint detects massive, unfixable damage in the copied DNA?\n\nThe cell does not try to divide. It commits suicide for the good of the organism. This is **Apoptosis** (Programmed Cell Death).\n\nApoptosis is entirely natural and healthy!\n- Every day, billions of your skin and blood cells undergo apoptosis to make room for fresh cells.\n- During fetal development, your hands start as solid paddles. The cells between your fingers undergo apoptosis to carve out individual fingers!"
+        },
+        {
+            "id": "molcb_div_8",
+            "type": "content",
+            "title": "How Apoptosis Works",
+            "content": "# The Caspase Cascade\n\nApoptosis is incredibly orderly and clean. It is carried out by deadly enzymes called **Caspases**.\n\n1. A \"death signal\" is received (either from inside the cell detecting damaged DNA, or from an outside immune cell).\n2. The Caspases are activated in a cascade.\n3. The Caspases systematically chop up the cell's DNA into tiny pieces.\n4. The cell shrinks and forms tiny bubbles (\"blebs\").\n5. The cell breaks apart into neat little packages.\n6. Macrophages (immune cells) quickly eat the packages. \n\nThere is no mess, and no inflammation!"
+        },
+        {
+            "id": "molcb_div_9",
+            "type": "content",
+            "title": "Necrosis vs Apoptosis",
+            "content": "# The Messy Death\n\nDo not confuse Apoptosis with **Necrosis**.\n\n- **Apoptosis (The Good Death):** Clean, organized suicide driven by Caspases. No inflammation.\n- **Necrosis (The Bad Death):** Unplanned cellular murder. Caused by severe trauma, poison, or frostbite. The cell physically swells and violently explodes, dumping toxic chemicals all over its neighbors. This causes massive, painful inflammation and damages surrounding healthy tissue."
+        },
+        {
+            "id": "molcb_div_quiz_3",
+            "type": "quiz",
+            "title": "Death Quiz",
+            "content": "Check your understanding of cellular suicide.",
+            "quizQuestion": "How does healthy Apoptosis differ fundamentally from Necrosis?",
+            "quizOptions": [
+                "Apoptosis is caused by poison, while necrosis is a natural process",
+                "Apoptosis is a clean, organized, programmed suicide that causes no inflammation, whereas necrosis is a violent, messy explosion that damages neighboring tissue",
+                "Apoptosis only happens in plants",
+                "They are two words for the exact same process"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "molcb_div_10",
+            "type": "content",
+            "title": "Summary of Division Control",
+            "content": "# Cell Division Summary\n\n## Key Takeaways:\n\n### The Checkpoints\n- The cell cycle requires strict \"go-ahead\" signals at the **G1, G2, and M Checkpoints**.\n- The molecular clocks unlocking these checkpoints are pairs of **Cyclin and CDK** proteins.\n\n### Cell Death\n- If DNA is unfixable, the cell undergoes **Apoptosis** (clean, programmed suicide using **Caspase** enzymes) to prevent cancer.\n- This is entirely different from **Necrosis** (messy, inflammatory death caused by injury).\n\n> **Next Up:** What happens when the checkpoints fail and apoptosis is blocked? We look at Cancer Biology."
+        }
+    ]
+}

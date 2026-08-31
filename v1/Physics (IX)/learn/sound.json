@@ -1,0 +1,147 @@
+{
+    "id": "learn_sound",
+    "topicId": "sound",
+    "topicTitle": "Sound",
+    "description": "Discover the invisible waves that allow us to hear, explore the properties of sound, echoes, and how the human voice works.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "sound_1",
+            "type": "content",
+            "title": "Welcome to Sound",
+            "content": "# The Symphony of Physics\n\nEvery day, we hear sounds from various sources like humans, birds, bells, machines, vehicles, televisions, and radios. Sound is an integral part of our lives, allowing us to communicate with one another.\n\n## What You Will Learn:\n- **Sound Generation:** How do things make sound?\n- **Wave Properties:** The invisible ripples in the air.\n- **Reflection and Echo:** Why does sound bounce back?\n- **Ultrasound:** Sounds we can't hear, but use for technology and medicine.\n- **Human Voice:** How our vocal cords create speech.\n\nLet's tune in to the physics of sound!"
+        },
+        {
+            "id": "sound_2",
+            "type": "content",
+            "title": "Production of Sound",
+            "content": "# Good Vibrations\n\nHow is sound actually produced? The answer lies in motion.\n\n## Vibration:\nSound is produced by **vibrating objects**.\n- Vibration means a kind of rapid to-and-fro motion of an object.\n- Touch a school bell when not in use. Then, strike it and touch it again. You can literally feel the metal vibrating!\n- When you pluck the string of a guitar, the string vibrates to produce a musical sound.\n\n> **Key Principle:** Without vibration, there is no sound. Energy is required to make an object vibrate, which is then converted into sound energy."
+        },
+        {
+            "id": "sound_3",
+            "type": "content",
+            "title": "Propagation of Sound",
+            "content": "# How Sound Travels\n\nOnce a sound is produced by a vibrating object, how does it reach our ears?\n\n## The Medium:\nSound needs a material medium for its propagation (travel). This medium can be a solid, liquid, or gas.\n- **Air (Gas):** When we talk, sound travels through the air to the listener.\n- **Water (Liquid):** Dolphins and whales communicate underwater because sound travels through water.\n- **Solids:** If you put your ear to a desk and tap the other end, you hear it clearly because sound travels through the wood/metal.\n\n> **Space Silence:** Sound CANNOT travel through a vacuum. In space, there is no air (no medium), so astronauts must use radios to communicate."
+        },
+        {
+            "id": "sound_4",
+            "type": "content",
+            "title": "Sound as a Wave",
+            "content": "# The Invisible Ripples\n\nWhen an object vibrates, it doesn't shoot particles into your ear. Instead, it creates a wave.\n\n## Longitudinal Waves:\nSound travels through a medium as a **longitudinal wave**.\n- Imagine a slinky spring. If you push and pull one end, you see compressed regions and stretched-out regions moving along the spring.\n- Sound works exactly like this in the air!\n\n## Compressions and Rarefactions:\n- **Compressions (C):** Regions where air particles are pushed close together (high pressure).\n- **Rarefactions (R):** Regions where air particles are spread apart (low pressure).\nSound is a continuous series of these compressions and rarefactions moving through the air."
+        },
+        {
+            "id": "sound_quiz_1",
+            "type": "quiz",
+            "title": "Propagation Quiz",
+            "content": "Test your understanding of how sound travels.",
+            "quizQuestion": "Why can't you hear explosions or sounds in outer space?",
+            "quizOptions": [
+                "Space is too cold for sound",
+                "Sound travels too fast to hear in space",
+                "Sound requires a material medium to travel, and space is a vacuum",
+                "Gravity pulls the sound waves down"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "sound_5",
+            "type": "content",
+            "title": "Properties of Sound Waves: Frequency",
+            "content": "# Pitch and Frequency\n\nWhy does a bird chirp sound so different from a lion's roar?\n\n## Frequency:\nThe number of complete oscillations (vibrations) per second is called the **frequency** of the sound wave.\n- The SI unit of frequency is the **Hertz (Hz)**.\n- 1 Hz = 1 vibration per second.\n\n## Pitch:\nFrequency determines the **pitch** (shrillness) of a sound.\n- **High Frequency = High Pitch:** A bird chirping, a whistle, a woman's voice.\n- **Low Frequency = Low Pitch:** A lion roaring, a bass drum, a man's deep voice."
+        },
+        {
+            "id": "sound_6",
+            "type": "content",
+            "title": "Properties of Sound Waves: Amplitude",
+            "content": "# Loudness and Amplitude\n\nWhy is a whisper quiet and a shout loud?\n\n## Amplitude:\nThe maximum displacement of a vibrating particle from its central (rest) position is called the **amplitude** of the wave.\n\n## Loudness:\nAmplitude determines the **loudness** or volume of a sound.\n- If you strike a drum lightly, the skin vibrates with a small amplitude, producing a soft sound.\n- If you hit the drum hard, the skin vibrates with a large amplitude, producing a loud sound.\n\n> **Unit of Loudness:** The loudness of sound is measured in a unit called the **decibel (dB)**. Prolonged exposure to sounds above 80 dB becomes physically painful and can damage hearing."
+        },
+        {
+            "id": "sound_7",
+            "type": "content",
+            "title": "Speed of Sound",
+            "content": "# How Fast is Sound?\n\nHave you noticed that during a thunderstorm, you see the lightning flash *before* you hear the thunder, even though they happen at the same time?\n\n## The Speed Limit:\nThis happens because the speed of light is incredibly fast (300,000,000 m/s), while the speed of sound is relatively slow.\n\n## Speed in Different Media:\nThe speed of sound depends on the properties of the medium (like temperature and state).\n- Speed in **Air** (at 22 deg C): approx 344 m/s\n- Speed in **Water**: approx 1500 m/s\n- Speed in **Steel**: approx 5000 m/s\n\n> **The Rule:** Sound travels slowest in gases, faster in liquids, and fastest in solids!"
+        },
+        {
+            "id": "sound_quiz_2",
+            "type": "quiz",
+            "title": "Wave Properties Quiz",
+            "content": "Check your understanding of pitch and loudness.",
+            "quizQuestion": "Which property of a sound wave determines its pitch (how shrill it is)?",
+            "quizOptions": [
+                "Amplitude",
+                "Frequency",
+                "Speed",
+                "Temperature"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "sound_8",
+            "type": "content",
+            "title": "Reflection of Sound",
+            "content": "# Sound Bouncing Back\n\nJust like a rubber ball bounces off a wall, or light reflects off a mirror, sound waves also bounce off solid or liquid surfaces.\n\n## The Laws of Reflection:\nThe reflection of sound follows the same laws as the reflection of light:\n1. The angle of incidence is equal to the angle of reflection.\n2. The incident sound wave, the reflected sound wave, and the normal at the point of incidence, all lie in the same plane.\n\nThis principle is used in everyday objects like megaphones, horns, and stethoscopes to direct sound in a specific path."
+        },
+        {
+            "id": "sound_9",
+            "type": "content",
+            "title": "Echo",
+            "content": "# Hearing Double\n\nIf you shout near a tall building or a mountain, you will hear the same sound again a little later. This is called an **echo**.\n\n## How Echoes Work:\nAn echo is simply the reflection of sound arriving at the listener some time after the direct sound.\n\n## The 0.1 Second Rule:\nFor our brain to distinguish between the original sound and the reflected sound (echo), there must be a time gap of at least **0.1 seconds** between them.\n- Since sound travels at approx 344 m/s in air, it travels 34.4 meters in 0.1s.\n- Because the sound has to go to the wall and come back, the reflecting surface must be at least **17.2 meters** away to hear a distinct echo!"
+        },
+        {
+            "id": "sound_10",
+            "type": "content",
+            "title": "Reverberation",
+            "content": "# Multiple Reflections\n\nHave you ever been inside an empty hall or an auditorium where your voice seems to linger and blend into a prolonged hum?\n\n## What is Reverberation?\nA sound created in a big hall will persist by repeated reflection from the walls until it is reduced to a value where it is no longer audible. The repeated reflection that results in this persistence of sound is called **reverberation**.\n\n## Controlling Reverberation:\nExcessive reverberation makes speeches impossible to understand. To reduce it:\n- The roof and walls of auditoriums are covered with sound-absorbent materials like compressed fireboard or rough plaster.\n- The seats are made of materials having sound-absorbing properties."
+        },
+        {
+            "id": "sound_11",
+            "type": "content",
+            "title": "Range of Hearing",
+            "content": "# What Can We Hear?\n\nWe cannot hear sounds of all frequencies.\n\n## The Human Range:\nThe audible range of sound for human beings extends from about **20 Hz to 20,000 Hz**.\n- Children under the age of five and some animals, such as dogs, can hear up to 25,000 Hz.\n\n## Infrasound:\nSounds of frequencies **below 20 Hz** are called infrasonic sound or infrasound.\n- Rhinoceroses communicate using infrasound (as low as 5 Hz).\n- Whales and elephants produce sound in the infrasound range.\n- Earthquakes produce low-frequency infrasound before the main shock waves begin, which is why some animals get alarmed before humans do!"
+        },
+        {
+            "id": "sound_12",
+            "type": "content",
+            "title": "Ultrasound",
+            "content": "# The Unheard High Frequencies\n\nSounds with frequencies **higher than 20,000 Hz** are called ultrasonic sound or **ultrasound**.\n\n## Who can hear them?\nUltrasound is produced by animals like dolphins, bats, and porpoises.\n- Bats use ultrasound to navigate and hunt in the dark. They emit high-pitched squeaks and listen to the echoes reflecting off obstacles or prey. This is called **echolocation**.\n\n> **Fun Fact:** Some moths have very sensitive hearing and can hear the ultrasound emitted by bats, allowing them to dodge the attack!"
+        },
+        {
+            "id": "sound_13",
+            "type": "content",
+            "title": "Applications of Ultrasound",
+            "content": "# Technology and Medicine\n\nBecause ultrasound waves have high frequency, they can penetrate objects and reflect back. This makes them incredibly useful.\n\n## Medical Applications:\n- **Ultrasound Scanners:** Used to get images of internal organs (liver, gallbladder, kidneys, uterus). It is heavily used to monitor the development of a fetus during pregnancy without harmful radiation.\n- **Echocardiography:** Using ultrasonic waves to study the action of the heart.\n\n## Industrial Applications:\n- **Cleaning:** Used to clean spiral tubes and electronic components by breaking dirt away with high-frequency vibrations.\n- **Flaw Detection:** Used to detect cracks and flaws in metal blocks used for building bridges and machines."
+        },
+        {
+            "id": "sound_quiz_3",
+            "type": "quiz",
+            "title": "Frequency Range Quiz",
+            "content": "Check your knowledge of sound limits.",
+            "quizQuestion": "What is the normal audible frequency range for human beings?",
+            "quizOptions": [
+                "1 Hz to 10 Hz",
+                "20 Hz to 20,000 Hz",
+                "Above 20,000 Hz",
+                "10,000 Hz to 100,000 Hz"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "sound_14",
+            "type": "content",
+            "title": "Human Voice Production",
+            "content": "# How Do We Speak?\n\nIn humans, the sound is produced by the **voice box** or the larynx.\n\n## The Vocal Cords:\n- Put your fingers on your throat and find the hard bump that seems to move when you swallow (the Adam's apple). This is the larynx.\n- Two **vocal cords** are stretched across the voice box in such a way that it leaves a narrow slit between them for the passage of air.\n\n## Creating Sound:\n1. When the lungs force air through the slit, the vocal cords vibrate.\n2. This vibration produces sound.\n3. Muscles attached to the vocal cords can make the cords tight or loose, changing the pitch of the voice."
+        },
+        {
+            "id": "sound_15",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Vibration:** A rapid to-and-fro motion that produces sound.\n- **Medium:** A solid, liquid, or gas required for sound to travel.\n- **Amplitude:** The maximum displacement of a wave, determining loudness.\n- **Frequency:** The number of vibrations per second (Hz), determining pitch.\n- **Echo:** The reflection of sound heard after a 0.1-second gap.\n- **Infrasound:** Sound below 20 Hz.\n- **Ultrasound:** Sound above 20,000 Hz.\n- **Larynx:** The human voice box."
+        },
+        {
+            "id": "sound_16",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Sound\n\nExcellent work! Here is a recap of what we've learned:\n\n- Sound is a form of energy produced by **vibrating objects** and requires a **material medium** to travel (it cannot travel in a vacuum).\n- Sound travels as longitudinal waves (compressions and rarefactions).\n- **Loudness** depends on the amplitude; **Pitch** depends on the frequency.\n- Sound reflects off surfaces. A distinct reflection heard after 0.1s is an **echo**.\n- Humans can only hear frequencies between **20 Hz and 20,000 Hz**.\n- High-frequency **ultrasound** has extensive applications in medical imaging and industrial cleaning.\n- Humans produce sound by vibrating their **vocal cords** located in the larynx."
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "id": "eco_ecosystems",
+    "topicId": "ecosystems",
+    "topicTitle": "Ecosystem Dynamics",
+    "description": "Examine the flow of energy and the complex recycling of nutrients that keep habitats alive.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "eeco_1",
+            "type": "content",
+            "title": "Welcome to Ecosystem Ecology",
+            "content": "# Ecosystem Dynamics\n\nWelcome to advanced Ecology! We will study the complex, interconnected web of life and how energy and nutrients flow through the physical environment.\n\n## What You Will Learn:\n- **Energy Flow** - The laws of thermodynamics in nature\n- **Food Webs** - Complex feeding relationships\n- **Ecological Pyramids** - Visualizing trophic levels\n- **Nutrient Cycling** - The carbon and phosphorus cycles\n\n> **Fun Fact:** The energy in the food you eat today originally came from a photon of light emitted by the sun 8 minutes ago!"
+        },
+        {
+            "id": "eeco_2",
+            "type": "content",
+            "title": "Energy Flow and Thermodynamics",
+            "content": "# The Rules of Energy\n\nEcosystems must obey the laws of physics.\n\n## 1. First Law of Thermodynamics (Conservation):\n- Energy cannot be created or destroyed, only transformed.\n- In an ecosystem, solar energy is transformed into chemical energy (glucose) by producers via photosynthesis.\n\n## 2. Second Law of Thermodynamics (Entropy):\n- No energy transfer is 100% efficient. With every transfer, some energy is degraded and lost as unusable heat (entropy increases).\n- Because of this, energy does NOT cycle through an ecosystem. It flows in one direction (Sun -> Producers -> Consumers) and is constantly lost as heat, meaning ecosystems require a constant input of solar energy to survive!"
+        },
+        {
+            "id": "eeco_3",
+            "type": "content",
+            "title": "Food Chains and Webs",
+            "content": "# Who Eats Whom?\n\n## Trophic Levels:\nThe position an organism occupies in a food chain.\n1. **Producers (Autotrophs):** Plants, algae.\n2. **Primary Consumers:** Herbivores that eat producers.\n3. **Secondary Consumers:** Carnivores that eat herbivores.\n4. **Tertiary Consumers:** Top carnivores.\n\n## The Food Web:\nIn nature, a simple, linear food chain rarely exists. Most animals eat many different things. A food web is a highly complex, interconnected network of many food chains. If one species is removed from a food web, the entire system can become unstable or collapse."
+        },
+        {
+            "id": "eeco_4",
+            "type": "content",
+            "title": "Ecological Pyramids",
+            "content": "# Visualizing the Trophic Levels\n\nWe use pyramids to visualize the structure of an ecosystem.\n\n## 1. Pyramid of Number:\n- Can be upright (grassland) or inverted (a single large oak tree supporting thousands of insects).\n\n## 2. Pyramid of Biomass:\n- Shows the dry weight of living matter. Usually upright on land, but often inverted in aquatic ecosystems (a tiny standing crop of rapidly dividing phytoplankton supports a larger mass of zooplankton).\n\n## 3. Pyramid of Energy:\n- **Always Upright.** Due to the 2nd Law of Thermodynamics, energy is lost at each step. Only ~10% of the energy is transferred to the next level. Therefore, the base (producers) must always be the largest!"
+        },
+        {
+            "id": "eeco_quiz_1",
+            "type": "quiz",
+            "title": "Pyramid Quiz",
+            "content": "Test your ecological models.",
+            "quizQuestion": "Which type of ecological pyramid is NEVER inverted because it must obey the laws of thermodynamics?",
+            "quizOptions": [
+                "Pyramid of Number",
+                "Pyramid of Biomass",
+                "Pyramid of Energy",
+                "Pyramid of Species"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "eeco_5",
+            "type": "content",
+            "title": "Nutrient Cycling (Biogeochemical Cycles)",
+            "content": "# Recycling the Elements\n\nUnlike energy, which flows straight through and is lost, matter (nutrients) is conserved and MUST be recycled continuously.\n\n## Gaseous Cycles (Reservoir is the atmosphere/ocean):\n- **Carbon Cycle:** Driven by photosynthesis (removing CO2 from air) and respiration/decomposition (returning CO2 to air). Humans are disrupting this by burning fossil fuels, causing global warming.\n\n## Sedimentary Cycles (Reservoir is the Earth's crust):\n- **Phosphorus Cycle:** Phosphorus is crucial for DNA and ATP. It is found in rocks. It enters ecosystems slowly as rocks weather and erode into soil, is taken up by plants, and returned to the soil by decomposers. There is no atmospheric component!"
+        },
+        {
+            "id": "eeco_6",
+            "type": "content",
+            "title": "Summary: Ecosystem Dynamics",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Energy Flow:** Obeys thermodynamics. Energy is not recycled; it flows one way and is constantly lost as heat. Follows the 10% rule.\n- **Food Webs:** Complex networks of feeding relationships, much more stable than linear chains.\n- **Pyramids:** Energy pyramids are always upright. Biomass pyramids can be inverted in the ocean.\n- **Nutrient Cycling:** Matter is perfectly recycled. Gaseous cycles (Carbon) are fast; Sedimentary cycles (Phosphorus) are very slow and rely on rock weathering.\n\n> **Congratulations!** You have completed the Ecosystem Dynamics module."
+        }
+    ]
+}

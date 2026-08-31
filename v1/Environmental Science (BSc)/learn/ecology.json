@@ -1,0 +1,129 @@
+{
+    "id": "learn_env_ecology",
+    "topicId": "ecology",
+    "topicTitle": "Ecology Principles",
+    "description": "Understand the intricate web of life, exploring how energy flows, populations grow, and elements cycle through our planet's ecosystems.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "env_eco_1",
+            "type": "content",
+            "title": "Welcome to Ecology",
+            "content": "# Introduction to Ecology\n\nWelcome to **Ecology Principles**!\n\nEcology is the scientific study of the interactions between organisms and their environment. It looks at the \"Big Picture\" of life on Earth.\n\n## What You Will Learn:\n- **Ecosystem Dynamics** - How energy flows through the food web\n- **Population Ecology** - The mathematics of survival and growth\n- **Biogeochemical Cycles** - How the Earth recycles elements\n- **Biodiversity** - The importance of a complex living system\n\nLet's explore the web of life!"
+        },
+        {
+            "id": "env_eco_2",
+            "type": "content",
+            "title": "What is an Ecosystem?",
+            "content": "# The Ecosystem\n\nAn **Ecosystem** consists of all the living organisms in a particular area, interacting with their non-living physical environment.\n\n## The Two Components:\n1. **Biotic Factors:** The living things (plants, animals, bacteria, fungi).\n2. **Abiotic Factors:** The non-living chemical and physical parts of the environment (sunlight, temperature, water, soil minerals, wind).\n\nAn ecosystem can be as small as a puddle of water or as large as the entire Amazon rainforest."
+        },
+        {
+            "id": "env_eco_3",
+            "type": "content",
+            "title": "Energy Flow",
+            "content": "# Energy Flow and Trophic Levels\n\nEnergy ENTERS an ecosystem as sunlight and leaves as heat. It does NOT cycle; it flows in a one-way street.\n\nOrganisms are categorized by their **Trophic Level** (feeding level):\n- **Producers (Autotrophs):** Plants and algae that capture sunlight to make sugar.\n- **Primary Consumers (Herbivores):** Animals that eat the producers (e.g., rabbits).\n- **Secondary/Tertiary Consumers (Carnivores):** Animals that eat other animals (e.g., wolves, hawks).\n- **Decomposers:** Fungi and bacteria that break down dead matter, returning nutrients to the soil."
+        },
+        {
+            "id": "env_eco_4",
+            "type": "content",
+            "title": "The 10 Percent Rule",
+            "content": "# The 10% Rule of Energy\n\nWhy are there millions of blades of grass, thousands of rabbits, but only a handful of wolves in a forest?\n\nBecause energy transfer is incredibly inefficient!\n\n**The 10% Rule:** Only about 10% of the energy stored in one trophic level is successfully transferred to the next level up. \nThe other 90% is lost (used by the organism for living, moving, or lost as body heat).\n\nThis means a massive base of producers is required to support even a tiny number of top predators."
+        },
+        {
+            "id": "env_eco_quiz_1",
+            "type": "quiz",
+            "title": "Energy Quiz",
+            "content": "Check your understanding of energy flow.",
+            "quizQuestion": "According to the 10% rule, if the producers in an ecosystem contain 10,000 Joules of energy, approximately how much energy will reach the Secondary Consumers (the carnivores)?",
+            "quizOptions": [
+                "10,000 Joules",
+                "1,000 Joules",
+                "100 Joules",
+                "10 Joules"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "env_eco_5",
+            "type": "content",
+            "title": "Population Ecology",
+            "content": "# Population Ecology\n\nA **Population** is a group of individuals of the SAME species living in the same area. \nPopulation ecology studies how and why these numbers change over time."
+        },
+        {
+            "id": "env_eco_6",
+            "type": "content",
+            "title": "Carrying Capacity",
+            "content": "# Limits to Growth\n\nIf left unchecked, any population will grow exponentially (a J-shaped curve). But nature always provides limits.\n\n## Carrying Capacity (K)\nThe **Carrying Capacity** is the maximum population size that a specific environment can sustainably support indefinitely, given the food, habitat, water, and other necessities available.\n\nWhen a population reaches the carrying capacity, the growth rate slows to zero (forming an S-shaped, or logistic, curve). If a population massively overshoots its carrying capacity, it will quickly destroy its resource base and suffer a catastrophic population crash."
+        },
+        {
+            "id": "env_eco_7",
+            "type": "content",
+            "title": "r vs K Strategists",
+            "content": "# Reproductive Strategies\n\nDifferent species have evolved different strategies to survive.\n\n## r-Strategists (The Opportunists)\n- **Strategy:** Produce massive numbers of offspring quickly, provide zero parental care, and hope a few survive.\n- **Examples:** Insects, weeds, most fish.\n- **Traits:** Short lifespan, small body size, early maturity.\n\n## K-Strategists (The Competitors)\n- **Strategy:** Produce very few offspring, but invest massive amounts of time and energy raising them to ensure they survive and compete near the carrying capacity (K).\n- **Examples:** Humans, elephants, whales.\n- **Traits:** Long lifespan, large body size, late maturity."
+        },
+        {
+            "id": "env_eco_quiz_2",
+            "type": "quiz",
+            "title": "Population Quiz",
+            "content": "Check your understanding of survival strategies.",
+            "quizQuestion": "Which of the following traits is characteristic of an 'r-Strategist' species?",
+            "quizOptions": [
+                "Producing very few offspring per year",
+                "Providing extensive parental care for years",
+                "Having a very short lifespan and reproducing rapidly in huge numbers",
+                "Having a large body size"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "env_eco_8",
+            "type": "content",
+            "title": "Biogeochemical Cycles",
+            "content": "# Biogeochemical Cycles\n\nEnergy flows through the earth and is lost to space. \nBut matter (elements) must be strictly recycled. The Earth is a closed system; we have the exact same carbon and nitrogen atoms today that existed during the dinosaurs.\n\nThese elements cycle between the living (bio), the earth (geo), and the chemical states."
+        },
+        {
+            "id": "env_eco_9",
+            "type": "content",
+            "title": "The Carbon Cycle",
+            "content": "# The Carbon Cycle\n\nCarbon is the backbone of all life.\n\n- **Photosynthesis:** Plants pull Carbon Dioxide gas out of the air and turn it into solid sugar (wood, leaves).\n- **Respiration:** Animals eat the sugar, burn it for energy, and exhale the Carbon Dioxide gas back into the air.\n- **Decomposition:** Dead organisms decay, slowly turning into fossil fuels over millions of years.\n- **Combustion:** Humans dig up those fossil fuels and burn them, rapidly dumping millions of years of stored carbon back into the atmosphere instantly (driving climate change)."
+        },
+        {
+            "id": "env_eco_10",
+            "type": "content",
+            "title": "The Nitrogen Cycle",
+            "content": "# The Nitrogen Cycle\n\nNitrogen is required to build DNA and proteins. \nThe atmosphere is 78% Nitrogen gas, but plants and animals CANNOT use it in this gas form. It must be \"fixed.\"\n\n## The Role of Bacteria\nThe entire nitrogen cycle depends entirely on microscopic bacteria!\n- **Nitrogen-fixing bacteria** (often living on the roots of legumes) pull the gas from the air and convert it into solid ammonia and nitrates in the soil.\n- Plants absorb the nitrates to grow.\n- Animals eat the plants.\n- **Denitrifying bacteria** eventually break down dead animals and animal waste, turning the solid nitrogen back into gas and returning it to the atmosphere."
+        },
+        {
+            "id": "env_eco_quiz_3",
+            "type": "quiz",
+            "title": "Cycle Quiz",
+            "content": "Check your understanding of recycling.",
+            "quizQuestion": "Why do plants and animals rely entirely on certain types of soil bacteria in order to get the nitrogen they need to survive?",
+            "quizOptions": [
+                "Because plants cannot absorb nitrogen gas directly from the air; bacteria must 'fix' it into a solid form in the soil first",
+                "Because bacteria are the only organisms that contain DNA",
+                "Because nitrogen is highly toxic to plants unless a bacterium eats it first",
+                "Because bacteria produce sunlight"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "env_eco_11",
+            "type": "content",
+            "title": "Biodiversity",
+            "content": "# Biodiversity\n\n**Biodiversity** is the variety of all life on earth. It is measured on three levels:\n\n1. **Genetic Diversity:** The variety of DNA within a single species. (Crucial for preventing disease wipeouts in crops).\n2. **Species Diversity:** The number of different species in a specific area (like a rainforest vs a desert).\n3. **Ecosystem Diversity:** The variety of different habitats on Earth (deserts, coral reefs, tundras)."
+        },
+        {
+            "id": "env_eco_12",
+            "type": "content",
+            "title": "Keystone Species",
+            "content": "# The Jenga Tower\n\nWhy does biodiversity matter? Because an ecosystem is like a giant game of Jenga. You can remove a few blocks, and the tower stands. But if you remove the wrong block, the entire system collapses.\n\n## Keystone Species\nA **Keystone Species** is a species on which other species in an ecosystem largely depend, such that if it were removed the ecosystem would change drastically.\n\n- **Example:** Sea Otters. They eat sea urchins. If otters are hunted to extinction, the sea urchin population explodes. The urchins then eat and destroy the entire underwater kelp forest, which was the nursery for thousands of species of fish. The whole ecosystem dies because ONE species was removed."
+        },
+        {
+            "id": "env_eco_13",
+            "type": "content",
+            "title": "Summary of Ecology",
+            "content": "# Ecology Summary\n\n## Key Takeaways:\n\n### Energy and Populations\n- Energy flows one-way, losing 90% of its power at every trophic level (**10% Rule**).\n- Populations are limited by the environment's **Carrying Capacity**.\n- Species survive via fast reproduction (**r-strategists**) or heavy parental investment (**K-strategists**).\n\n### Cycles and Diversity\n- Matter (like Carbon and Nitrogen) must be strictly recycled. The Nitrogen cycle relies entirely on specialized **Bacteria**.\n- **Biodiversity** provides stability to the web of life, and **Keystone Species** hold the entire structure together.\n\n> **Next Up:** We will examine how human activity is fundamentally altering these global cycles in the Climate Change module."
+        }
+    ]
+}

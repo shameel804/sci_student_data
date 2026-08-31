@@ -1,0 +1,123 @@
+{
+    "id": "learn_molcb_cancer",
+    "topicId": "cancer",
+    "topicTitle": "Cancer Biology",
+    "description": "Examine the molecular rebellion of cancer, exploring the mutated genes that drive uncontrolled growth and the modern therapies designed to stop them.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "molcb_can_1",
+            "type": "content",
+            "title": "Welcome to Cancer Biology",
+            "content": "# The Rebellion Within\n\nWelcome to **Cancer Biology**.\n\nCancer is not an invading bacteria or a virus. It is a rebellion of your own cells. It occurs when a single cell suffers catastrophic damage to its DNA, completely ignores the cell cycle checkpoints, and divides endlessly.\n\n## What You Will Learn:\n- **Proto-Oncogenes** - The accelerator pedals\n- **Tumor Suppressors** - The brakes\n- **The Multi-Hit Hypothesis** - Why cancer takes time\n- **Therapeutic Approaches** - How we fight back\n\nLet's understand the genetics of cancer."
+        },
+        {
+            "id": "molcb_can_2",
+            "type": "content",
+            "title": "The Genetic Disease",
+            "content": "# Cancer is a Genetic Disease\n\nEvery single cancer is caused by mutations in DNA.\n\nThese mutations can be inherited (rarely), but the vast majority are acquired during a person's lifetime. They are caused by:\n- **Carcinogens:** Chemicals (like tobacco smoke) that physically damage DNA.\n- **Radiation:** UV light from the sun or X-rays.\n- **Viruses:** Some viruses (like HPV) insert their DNA into human chromosomes, wrecking the genes around them.\n- **Random Chance:** Every time a cell divides, it must copy 3 billion letters of DNA. Mistakes happen!"
+        },
+        {
+            "id": "molcb_can_3",
+            "type": "content",
+            "title": "The Two Culprits",
+            "content": "# The Accelerator and the Brakes\n\nTo understand cancer, imagine driving a car.\n\nTo drive safely, you need an accelerator pedal to move forward, and a brake pedal to stop.\n\nThe cell cycle is controlled by two main classes of genes:\n1. **Proto-Oncogenes:** The accelerator. They tell the cell to divide.\n2. **Tumor Suppressor Genes:** The brakes. They tell the cell to stop dividing or undergo apoptosis.\n\nCancer requires BOTH pedals to be broken!"
+        },
+        {
+            "id": "molcb_can_4",
+            "type": "content",
+            "title": "Oncogenes",
+            "content": "# The Stuck Accelerator\n\nA **Proto-Oncogene** is a perfectly normal, healthy gene. It produces a protein (like a growth factor receptor) that tells the cell to divide when necessary.\n\nBut if this gene suffers a mutation, it becomes an **ONCOGENE** (a cancer-causing gene).\n- The mutation causes the accelerator to become \"stuck\" to the floor.\n- The cell receives a constant, screaming signal to divide, even when no growth hormone is present!\n\n## The Ras Protein\nThe most famous oncogene is **Ras**. Over 30% of all human cancers involve a mutated Ras protein that is permanently locked in the \"ON\" position."
+        },
+        {
+            "id": "molcb_can_quiz_1",
+            "type": "quiz",
+            "title": "Oncogene Quiz",
+            "content": "Check your understanding of the accelerator.",
+            "quizQuestion": "What is the difference between a Proto-Oncogene and an Oncogene?",
+            "quizOptions": [
+                "They are two words for the exact same thing",
+                "A Proto-Oncogene is a normal gene that promotes healthy cell division, while an Oncogene is a mutated version that causes uncontrolled division",
+                "Proto-Oncogenes stop cancer, while Oncogenes start it",
+                "Oncogenes are found only in viruses"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "molcb_can_5",
+            "type": "content",
+            "title": "Tumor Suppressors",
+            "content": "# Cutting the Brakes\n\nA stuck accelerator is bad, but you can still stop the car by slamming on the brakes. \n\n**Tumor Suppressor Genes** are the brakes. They code for proteins that pause the cell cycle at checkpoints, fix damaged DNA, or trigger Apoptosis if the damage is too severe.\n\nFor cancer to thrive, these genes must be mutated and destroyed so the brakes completely fail."
+        },
+        {
+            "id": "molcb_can_6",
+            "type": "content",
+            "title": "The Guardian of the Genome",
+            "content": "# p53: The Master Brake\n\nThe most famous and important tumor suppressor gene is **p53** (The Guardian of the Genome).\n\nIf DNA is damaged by UV light, p53 activates and acts as the ultimate supervisor:\n1. It halts the cell cycle at the G1 checkpoint.\n2. It turns on DNA repair enzymes.\n3. If the repair fails, p53 forces the cell to commit suicide (Apoptosis).\n\n> **The Deadly Statistic:** Over 50% of ALL human cancers have a completely destroyed or mutated p53 gene. Without the supervisor, the damaged cell divides endlessly."
+        },
+        {
+            "id": "molcb_can_7",
+            "type": "content",
+            "title": "The Multi-Hit Hypothesis",
+            "content": "# Why Cancer Takes Time\n\nWhy does cancer mostly affect older people?\n\nBecause of the **Multi-Hit Hypothesis**.\nA single mutation is NEVER enough to cause full-blown cancer. A cell must accumulate 5 to 7 specific, catastrophic mutations in the SAME cell lineage to turn malignant.\n\n- Hit 1: A mutation turns Ras into an Oncogene (accelerator stuck).\n- Hit 2: The cell divides rapidly, making more mistakes.\n- Hit 3: A mutation destroys one copy of p53.\n- Hit 4: A mutation destroys the second copy of p53 (brakes cut).\n- Hit 5: A mutation activates Telomerase (making the cell immortal).\n\nIt takes decades to randomly accumulate all these hits in a single cell."
+        },
+        {
+            "id": "molcb_can_quiz_2",
+            "type": "quiz",
+            "title": "Brakes Quiz",
+            "content": "Check your understanding of the defense mechanisms.",
+            "quizQuestion": "What is the normal, healthy function of the p53 gene?",
+            "quizOptions": [
+                "To force the cell to divide rapidly",
+                "To pause the cell cycle, repair DNA, or trigger Apoptosis if the damage is unfixable",
+                "To create a protective shell around the tumor",
+                "To destroy the mitochondria"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "molcb_can_8",
+            "type": "content",
+            "title": "The Hallmarks of Cancer",
+            "content": "# The Arsenal of a Tumor\n\nOnce a cell has mutated enough to become malignant, it gains horrifying superpowers, known as the Hallmarks of Cancer.\n\n## 1. Angiogenesis (Stealing Blood)\nA solid tumor cannot grow larger than a pea unless it has a blood supply to bring it oxygen and sugar. \nThe tumor secretes chemicals (like VEGF) that force nearby blood vessels to grow directly INTO the tumor, hijacking the body's food supply."
+        },
+        {
+            "id": "molcb_can_9",
+            "type": "content",
+            "title": "Metastasis",
+            "content": "# The Spread\n\n## 2. Metastasis\nMost people do not die from the primary (original) tumor. They die because the cancer spreads.\n\nNormal cells are glued to their neighbors (anchorage dependence). Cancer cells mutate to destroy this glue. \nThey break away from the main tumor, squeeze into the blood vessels (that they built via Angiogenesis), and float away to colonize new organs like the liver, brain, or lungs. This is **Metastasis**."
+        },
+        {
+            "id": "molcb_can_10",
+            "type": "content",
+            "title": "Therapeutic Approaches",
+            "content": "# Fighting Back\n\nHow do we kill cancer without killing the patient?\n\n## Traditional Chemotherapy\nTraditional chemo drugs are \"dumb\" bombs. They attack ANY cell in the body that is dividing rapidly (because cancer divides rapidly).\n- **The Problem:** Your hair follicle cells and stomach lining cells also divide rapidly. Chemo kills them too, which is why patients lose their hair and feel severely nauseous."
+        },
+        {
+            "id": "molcb_can_11",
+            "type": "content",
+            "title": "Modern Therapies",
+            "content": "# Smart Weapons\n\n## Targeted Therapies\nIf a patient's breast cancer is driven by a specific mutated RTK receptor, doctors prescribe a drug (like Herceptin) that physically plugs up that specific receptor. It is a \"smart\" bomb that only kills the cancer cells, ignoring the healthy ones!\n\n## Immunotherapy\nCancer cells often wear molecular \"masks\" to hide from the immune system. Immunotherapy drugs rip the masks off, allowing the patient's own Cytotoxic T-Cells to recognize the tumor and annihilate it naturally. This is the cutting edge of modern cancer treatment!"
+        },
+        {
+            "id": "molcb_can_quiz_3",
+            "type": "quiz",
+            "title": "Therapy Quiz",
+            "content": "Check your understanding of treatments.",
+            "quizQuestion": "Why does traditional chemotherapy cause severe side effects like hair loss and nausea?",
+            "quizOptions": [
+                "Because the drugs are completely ineffective against cancer",
+                "Because the drugs target all rapidly dividing cells in the body, which includes healthy hair and stomach cells",
+                "Because the drugs are actually radioactive",
+                "Because hair is made of cancer cells"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "molcb_can_12",
+            "type": "content",
+            "title": "Summary of Cancer Biology",
+            "content": "# Cancer Summary\n\n## Key Takeaways:\n\n### The Genetics\n- Cancer requires multiple mutations (**Multi-Hit Hypothesis**).\n- It requires an **Oncogene** (a stuck accelerator, like mutated Ras) to drive division.\n- It requires the destruction of **Tumor Suppressor Genes** (cutting the brakes, like p53) to prevent Apoptosis.\n\n### The Superpowers and Treatments\n- Cancers build their own blood supply (**Angiogenesis**) and spread to other organs (**Metastasis**).\n- While traditional chemo is broad and toxic, modern medicine uses **Targeted Therapies** and **Immunotherapy** to kill cancer with precision.\n\n> **Next Up:** We look at the physics of these microscopic machines in the Biophysics module."
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "id": "zoo_evolution",
+    "topicId": "evolution",
+    "topicTitle": "Evolutionary Zoology",
+    "description": "Trace the deep history of animal life, focusing on speciation, transitional fossils, and macroevolution.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "zevolve_1",
+            "type": "content",
+            "title": "Welcome to Evolutionary Zoology",
+            "content": "# Evolutionary Zoology\n\nWelcome to Evolutionary Zoology! We will focus deeply on how animal life has adapted, specialized, and radiated across the globe over deep time.\n\n## What You Will Learn:\n- **Macroevolution** - Major evolutionary changes and trends\n- **Speciation** - How new species form\n- **Comparative Anatomy** - Tracing ancestry through bones\n- **Paleontology** - The fossil record of animals\n\n> **Fun Fact:** All modern birds are the direct descendants of a group of two-legged dinosaurs known as theropods. So, dinosaurs aren't totally extinct!"
+        },
+        {
+            "id": "zevolve_2",
+            "type": "content",
+            "title": "Micro vs Macroevolution",
+            "content": "# The Scale of Evolution\n\nEvolution occurs on different scales.\n\n## Microevolution:\n- Small-scale changes in allele frequencies within a single population over a few generations.\n- Example: A population of insects becoming resistant to a pesticide.\n- Driven by mutation, natural selection, genetic drift, and gene flow.\n\n## Macroevolution:\n- Large-scale evolutionary changes that occur over vast periods of time, typically leading to the formation of entirely new taxonomic groups (above the species level).\n- Example: The evolution of mammals from early synapsid reptiles, or the evolution of feathers.\n- It is essentially microevolution accumulated over millions of years."
+        },
+        {
+            "id": "zevolve_3",
+            "type": "content",
+            "title": "The Process of Speciation",
+            "content": "# How New Species Form\n\nSpeciation is the evolutionary process by which populations evolve to become distinct species.\n\n## The Biological Species Concept:\nA species is a group of interbreeding natural populations that are reproductively isolated from other such groups. (They can produce fertile offspring together).\n\n## 1. Allopatric Speciation:\n- Speciation driven by **geographic isolation**.\n- A population is physically split by a barrier (e.g., a new river, a mountain range, continental drift).\n- The separated populations face different environments, adapt differently via natural selection, and eventually become so genetically distinct that they can no longer interbreed if reunited.\n- Example: Squirrels separated by the Grand Canyon."
+        },
+        {
+            "id": "zevolve_4",
+            "type": "content",
+            "title": "Sympatric Speciation",
+            "content": "# Speciation Without Barriers\n\n## 2. Sympatric Speciation:\n- Speciation occurs within the SAME geographic area, without physical isolation.\n- More common in plants (via polyploidy) but occurs in animals too.\n- It happens when a sub-population exploits a new niche or resource in the same environment.\n- Example: Apple maggot flies in North America. Some flies began laying eggs on introduced apples instead of native hawthorn fruits. Over time, the 'apple flies' and 'hawthorn flies' stopped interbreeding, diverging into separate species despite living in the same orchards!"
+        },
+        {
+            "id": "zevolve_5",
+            "type": "content",
+            "title": "Reproductive Isolating Mechanisms",
+            "content": "# Keeping Species Separate\n\nOnce a species forms, how does it stay separate? Through reproductive barriers.\n\n## Pre-zygotic Barriers (Before fertilization):\n- **Temporal:** Breed at different times of year/day.\n- **Behavioral:** Different courtship rituals or mating calls.\n- **Mechanical:** Reproductive organs don't fit together.\n\n## Post-zygotic Barriers (After fertilization):\n- **Hybrid Inviability:** The hybrid embryo dies early in development.\n- **Hybrid Sterility:** The hybrid is born healthy but is completely sterile (cannot produce gametes). \n  - Example: A horse and a donkey can mate to produce a mule, but mules are sterile. Therefore, horses and donkeys remain separate species!"
+        },
+        {
+            "id": "zevolve_quiz_1",
+            "type": "quiz",
+            "title": "Speciation Quiz",
+            "content": "Test your knowledge of divergence.",
+            "quizQuestion": "The formation of new species due to a physical geographic barrier (like a mountain range) is called:",
+            "quizOptions": [
+                "Sympatric speciation",
+                "Allopatric speciation",
+                "Convergent evolution",
+                "Artificial selection"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "zevolve_6",
+            "type": "content",
+            "title": "Patterns of Evolution",
+            "content": "# Evolutionary Trends\n\n## 1. Convergent Evolution:\n- Unrelated species evolve similar traits because they occupy similar environments and face similar selective pressures.\n- They develop **analogous structures**.\n- Example: The streamlined body shape of a shark (fish), a dolphin (mammal), and an ichthyosaur (extinct reptile). They don't share a recent streamlined ancestor; they all independently adapted to swimming fast.\n\n## 2. Divergent Evolution:\n- Closely related species evolve different traits because they occupy different environments.\n- They retain **homologous structures**.\n- Example: The vertebrate forelimb. It is adapted for grasping in humans, flying in bats, and digging in moles, but contains the same underlying bone structure inherited from a common ancestor."
+        },
+        {
+            "id": "zevolve_7",
+            "type": "content",
+            "title": "Coevolution",
+            "content": "# Evolutionary Arms Races\n\n## Coevolution:\n- The process where two or more species reciprocally affect each other's evolution.\n- When species have close ecological interactions, an evolutionary change in one species acts as a selective pressure on the other.\n\n## Examples:\n- **Predator/Prey:** The cheetah evolves to run faster, which selects for faster gazelles, which selects for even faster cheetahs.\n- **Mutualism:** Certain orchids evolved incredibly deep nectar tubes. In response, a specific species of moth evolved an incredibly long proboscis (tongue) to reach the nectar, becoming the flower's exclusive pollinator."
+        },
+        {
+            "id": "zevolve_8",
+            "type": "content",
+            "title": "The Fossil Record of Animals",
+            "content": "# Deep Time\n\nAnimal life has a rich fossil history, primarily starting in the Cambrian period.\n\n## The Cambrian Explosion (~540 million years ago):\n- Over a very short geological period, almost all major animal phyla suddenly appear in the fossil record.\n- This includes the first animals with hard shells and exoskeletons (like Trilobites), which fossilize easily.\n\n## Transitional Fossils:\n- These are crucial 'missing links' that show traits of both an ancestral group and a descendant group.\n- **Tiktaalik:** Shows the transition from fish to tetrapods (amphibians). It had gills and scales like a fish, but a neck and limb-like fins that could support its weight on land."
+        },
+        {
+            "id": "zevolve_9",
+            "type": "content",
+            "title": "Extinction",
+            "content": "# The End of the Line\n\nExtinction is a natural part of evolution. Over 99% of all species that ever lived are now extinct.\n\n## Background vs Mass Extinction:\n- **Background Extinction:** The standard, slow rate of species loss due to normal environmental changes or competition.\n- **Mass Extinction:** A widespread and rapid decrease in the biodiversity on Earth. \n\nThere have been 5 major mass extinctions in Earth's history.\n- The most famous is the **K-T Extinction (66 million years ago)**, caused by a massive asteroid impact that wiped out the non-avian dinosaurs and paved the way for mammals to take over the Earth."
+        },
+        {
+            "id": "zevolve_10",
+            "type": "content",
+            "title": "Summary: Evolutionary Zoology",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Scales:** Microevolution (allele changes) vs Macroevolution (new taxonomic groups).\n- **Speciation:** Allopatric (with geographic barrier) vs Sympatric (without barrier).\n- **Isolating Mechanisms:** Pre-zygotic (behavioral, temporal) and Post-zygotic (hybrid sterility, like mules).\n- **Patterns:** Convergent evolution (analogous traits, sharks/dolphins) vs Divergent evolution (homologous traits, bat wing/human hand).\n- **Coevolution:** Species evolving in response to each other (predator/prey arms races).\n- **Fossils:** The Cambrian Explosion brought immense diversity. Transitional fossils (like Tiktaalik) prove evolutionary links.\n- **Extinction:** Mass extinctions open up niches for surviving groups to exploit (adaptive radiation).\n\n> **Congratulations!** You have completed the Evolutionary Zoology module."
+        }
+    ]
+}

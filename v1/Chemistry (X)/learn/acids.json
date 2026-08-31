@@ -1,0 +1,153 @@
+{
+    "id": "learn_acids",
+    "topicId": "acids",
+    "topicTitle": "Acids, Bases and Salts",
+    "description": "Discover the sour and bitter chemistry of everyday life, learn how to measure pH, and explore the amazing world of salts.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "acids_1",
+            "type": "content",
+            "title": "Welcome to Acids and Bases",
+            "content": "# Sour and Bitter\n\nYou know that the sour and bitter tastes of food are due to acids and bases, respectively, present in them.\n\nIf someone in the family is suffering from a problem of acidity after overeating, which of the following would you suggest as a remedy: lemon juice, vinegar, or baking soda solution?\n\nYou'd use baking soda, because it is a base, and bases neutralize acids!\n\n## What You Will Learn:\n- **Acids & Bases:** Their properties and how they react.\n- **Indicators:** How to tell them apart without tasting.\n- **The pH Scale:** Measuring the strength of acids and bases.\n- **Salts:** The products of neutralization and their uses."
+        },
+        {
+            "id": "acids_2",
+            "type": "content",
+            "title": "Properties of Acids",
+            "content": "# The Sour Chemicals\n\nAcids are a very common class of chemical compounds.\n\n## Key Properties:\n1. They are **sour** in taste (like lemon, which contains citric acid).\n2. They change the color of blue litmus paper to **red**.\n3. They release **Hydrogen ions (H+)** when dissolved in water.\n\n*Examples of Acids:* Hydrochloric acid (HCl), Sulphuric acid (H2SO4), Nitric acid (HNO3), Acetic acid (found in vinegar)."
+        },
+        {
+            "id": "acids_3",
+            "type": "content",
+            "title": "Properties of Bases",
+            "content": "# The Bitter Chemicals\n\nBases are the chemical opposites of acids.\n\n## Key Properties:\n1. They are **bitter** in taste and feel **soapy** to touch (like baking soda or soap).\n2. They change the color of red litmus paper to **blue**.\n3. They release **Hydroxide ions (OH-)** when dissolved in water.\n\nBases that are soluble in water are called **alkalis**.\n*Examples of Bases:* Sodium hydroxide (NaOH), Calcium hydroxide (Ca(OH)2), Potassium hydroxide (KOH)."
+        },
+        {
+            "id": "acids_quiz_1",
+            "type": "quiz",
+            "title": "Acid or Base Quiz",
+            "content": "Check your understanding of basic properties.",
+            "quizQuestion": "Which of the following substances will turn blue litmus paper red?",
+            "quizOptions": [
+                "Baking Soda",
+                "Soap solution",
+                "Lemon juice",
+                "Ammonia"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "acids_4",
+            "type": "content",
+            "title": "Indicators",
+            "content": "# The Chemical Detectives\n\nWe cannot taste every chemical to find out if it's an acid or a base (many are highly corrosive and dangerous!). Instead, we use indicators.\n\nAn **indicator** is a dye that changes color when it is put into an acid or a base.\n\n## Natural Indicators:\n- **Litmus:** Extracted from lichen. Acid turns it red, base turns it blue.\n- **Turmeric:** Stays yellow in acid, but turns reddish-brown in a base (soap on a curry stain!).\n\n## Synthetic Indicators:\n- **Phenolphthalein:** Colorless in acid, pink in base.\n- **Methyl Orange:** Red in acid, yellow in base."
+        },
+        {
+            "id": "acids_5",
+            "type": "content",
+            "title": "How do Acids React with Metals?",
+            "content": "# Popping Gas\n\nWhen an acid reacts with a metal, it produces a salt and a very specific gas.\n\n`Acid + Metal -> Salt + Hydrogen gas`\n\n## The Pop Test:\nIf you drop zinc granules into dilute sulphuric acid, bubbles of hydrogen gas are formed. \nHow do we test for Hydrogen? If you bring a burning candle near the gas bubbles, the gas burns with a characteristic **'pop' sound**.\n\n*(Note: Bases also react with some metals like Zinc to produce Hydrogen gas, but such reactions are not possible with all metals).* "
+        },
+        {
+            "id": "acids_6",
+            "type": "content",
+            "title": "How do Acids and Bases React with Each Other?",
+            "content": "# Neutralization\n\nWhat happens when we mix an acid and a base together?\n\nThe effect of a base is nullified by an acid, and vice-versa. The reaction between an acid and a base to give a salt and water is known as a **neutralization reaction**.\n\n`Base + Acid -> Salt + Water`\n\n## Example:\n`NaOH (base) + HCl (acid) -> NaCl (salt) + H2O (water)`\n\nThe Hydrogen ion (H+) from the acid and the Hydroxide ion (OH-) from the base combine to form pure, neutral water (H2O)!"
+        },
+        {
+            "id": "acids_7",
+            "type": "content",
+            "title": "What Happens in a Water Solution?",
+            "content": "# The Power of Ions\n\nAcids and bases only show their true properties in the presence of water!\n\n- An acid produces hydrogen ions, H+(aq), in water. (These ions cannot exist alone, they attach to water molecules to form hydronium ions, H3O+).\n- A base produces hydroxide ions, OH-(aq), in water.\n\nIf there is no water, dry HCl gas will NOT turn dry blue litmus paper red! It only behaves as an acid when moisture is present to allow it to form ions."
+        },
+        {
+            "id": "acids_quiz_2",
+            "type": "quiz",
+            "title": "Neutralization Quiz",
+            "content": "Check your reaction knowledge.",
+            "quizQuestion": "What are the two products always formed in a neutralization reaction between an acid and a base?",
+            "quizOptions": [
+                "Salt and Hydrogen gas",
+                "Salt and Water",
+                "Acid and Water",
+                "Base and Hydrogen gas"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "acids_8",
+            "type": "content",
+            "title": "The pH Scale",
+            "content": "# Measuring Strength\n\nHow strong is an acid or a base? We use a universal indicator (a mixture of several indicators) which shows different colors at different concentrations of hydrogen ions.\n\nA scale for measuring hydrogen ion concentration in a solution is called the **pH scale**.\n- The 'p' in pH stands for 'potenz' in German, meaning power.\n\n## The Scale (0 to 14):\n- **pH = 7:** Neutral solution (pure water).\n- **pH < 7:** Acidic solution (0 is highly acidic).\n- **pH > 7:** Basic/Alkaline solution (14 is highly basic)."
+        },
+        {
+            "id": "acids_9",
+            "type": "content",
+            "title": "pH in Everyday Life",
+            "content": "# Why pH Matters\n\nOur bodies and our environment are very sensitive to pH changes.\n\n1. **Our body:** Works within a narrow pH range of 7.0 to 7.8.\n2. **Acid Rain:** When pH of rain water is less than 5.6, it is called acid rain. It lowers the pH of river water, making the survival of aquatic life difficult.\n3. **Digestion:** Our stomach produces hydrochloric acid (pH ~1.2) to digest food. During indigestion, too much acid causes pain. We use antacids (mild bases like magnesium hydroxide) to neutralize it.\n4. **Tooth Decay:** Starts when the pH of the mouth is lower than 5.5. Bacteria produce acids by degrading sugar. Toothpaste is basic to neutralize this acid."
+        },
+        {
+            "id": "acids_10",
+            "type": "content",
+            "title": "More About Salts",
+            "content": "# Beyond Table Salt\n\nWe saw that salts are formed by the neutralization reaction of an acid and a base.\n\nAre all salts neutral (pH = 7)? No!\n\n- **Strong Acid + Strong Base** -> Neutral Salt (pH = 7). Example: NaCl.\n- **Strong Acid + Weak Base** -> Acidic Salt (pH < 7). Example: Ammonium chloride.\n- **Weak Acid + Strong Base** -> Basic Salt (pH > 7). Example: Sodium carbonate."
+        },
+        {
+            "id": "acids_11",
+            "type": "content",
+            "title": "Chemicals from Common Salt",
+            "content": "# Sodium Chloride (NaCl)\n\nThe salt we use in our food, Sodium Chloride, is not just for flavoring. It is an important raw material for various materials of daily use.\n\nWhen electricity is passed through an aqueous solution of sodium chloride (called brine), it decomposes to form:\n1. **Sodium hydroxide (NaOH)** (a strong base)\n2. **Chlorine gas (Cl2)** (used in water treatment)\n3. **Hydrogen gas (H2)** (used as fuel)\n\nThis is called the chlor-alkali process. From these basic chemicals, we can make many other useful salts!"
+        },
+        {
+            "id": "acids_quiz_3",
+            "type": "quiz",
+            "title": "pH Quiz",
+            "content": "Check your understanding of the pH scale.",
+            "quizQuestion": "If a solution has a pH of 2, how would you classify it?",
+            "quizOptions": [
+                "Strong Base",
+                "Weak Base",
+                "Neutral",
+                "Strong Acid"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "acids_12",
+            "type": "content",
+            "title": "Bleaching Powder and Baking Soda",
+            "content": "# Useful Salts I\n\n## Bleaching Powder (CaOCl2):\nProduced by the action of chlorine on dry slaked lime. \n- **Uses:** Bleaching cotton in the textile industry, bleaching wood pulp in paper factories, and for disinfecting drinking water to make it free of germs.\n\n## Baking Soda (NaHCO3):\nSodium hydrogencarbonate. It is a mild, non-corrosive basic salt.\n- **Uses:** It is an ingredient in antacids (to neutralize stomach acid). When mixed with a mild edible acid (like tartaric acid), it forms baking powder. When heated during baking, it produces Carbon dioxide gas, which makes bread and cakes rise and become spongy!"
+        },
+        {
+            "id": "acids_13",
+            "type": "content",
+            "title": "Washing Soda",
+            "content": "# Useful Salts II\n\n## Washing Soda (Na2CO3 . 10H2O):\nSodium carbonate containing 10 molecules of water of crystallization.\nIt is a basic salt.\n\n## Uses:\n1. It is used in glass, soap, and paper industries.\n2. It is used in the manufacture of sodium compounds such as borax.\n3. It can be used as a cleaning agent for domestic purposes.\n4. It is used for removing the permanent hardness of water."
+        },
+        {
+            "id": "acids_14",
+            "type": "content",
+            "title": "Water of Crystallization",
+            "content": "# Are the Crystals Really Dry?\n\nLook at the formula for Washing Soda: `Na2CO3 . 10H2O`. What is that water doing there?\n\nMany salts contain fixed numbers of water molecules as part of their crystal structure. This is called **water of crystallization**.\n- Copper sulphate crystals look dry, but they are blue because they contain 5 molecules of water (`CuSO4 . 5H2O`).\n- If you heat these crystals, this water is removed and the salt turns white.\n- If you moisten the crystals again with water, the blue color reappears!"
+        },
+        {
+            "id": "acids_15",
+            "type": "content",
+            "title": "Plaster of Paris",
+            "content": "# The Setting Salt\n\nAnother famous salt with water of crystallization is Gypsum (`CaSO4 . 2H2O`).\n\nOn heating Gypsum at 373 K, it loses water molecules and becomes calcium sulphate hemihydrate: `CaSO4 . 1/2 H2O`. This is called **Plaster of Paris**.\n\n- It is a white powder.\n- On mixing with water, it changes back to solid gypsum once again, setting into a hard mass.\n- **Uses:** Doctors use it for supporting fractured bones in the right position. It is also used for making toys, materials for decoration, and for making surfaces smooth."
+        },
+        {
+            "id": "acids_16",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Acid:** Sour, turns blue litmus red, releases H+ in water.\n- **Base/Alkali:** Bitter, soapy, turns red litmus blue, releases OH- in water.\n- **Indicator:** A substance that changes color in acidic/basic media (e.g., Litmus, Phenolphthalein).\n- **Neutralization:** Acid + Base -> Salt + Water.\n- **pH Scale:** A scale (0-14) to measure hydrogen ion concentration.\n- **Water of Crystallization:** Fixed number of water molecules in a salt's formula (e.g., in Plaster of Paris)."
+        },
+        {
+            "id": "acids_17",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Acids, Bases and Salts\n\nExcellent work! Here is a recap of what we've learned:\n\n- **Acids** (H+ ions) and **Bases** (OH- ions) are chemical opposites that can be identified using **indicators**.\n- Mixing them together results in a **neutralization reaction**, producing a **salt** and water.\n- The **pH scale** measures acid/base strength: <7 is acidic, 7 is neutral, >7 is basic.\n- pH is critical for our digestion, preventing tooth decay, and maintaining healthy environments.\n- **Common salt** (NaCl) is a raw material for producing useful chemicals like baking soda, washing soda, and bleaching powder.\n- Some salts contain **water of crystallization**, like Gypsum, which is used to make Plaster of Paris."
+        }
+    ]
+}

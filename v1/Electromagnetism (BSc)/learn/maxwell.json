@@ -1,0 +1,139 @@
+{
+    "id": "learn_maxwell",
+    "topicId": "maxwell",
+    "topicTitle": "Maxwell's Equations",
+    "description": "Unify electricity and magnetism. Delve into the four mathematical pillars that describe every electromagnetic phenomenon in the universe.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "max_1",
+            "type": "content",
+            "title": "The Grand Unification",
+            "content": "# Unifying the Forces\n\nFor most of history, Electricity (sparks, lightning) and Magnetism (lodestones, compasses) were considered two completely different, unrelated forces of nature.\n\nIn the 1860s, a Scottish physicist named James Clerk Maxwell performed one of the greatest feats in scientific history. \nHe took the experimental discoveries of Gauss, Faraday, and Ampere, fixed a glaring mathematical flaw in them, and combined them into a single, beautiful framework: **Maxwell's Equations**.\n\nHe proved that electricity and magnetism are just two sides of the exact same coin: Electromagnetism."
+        },
+        {
+            "id": "max_2",
+            "type": "content",
+            "title": "The Four Pillars",
+            "content": "# The Four Equations\n\nMaxwell's theory rests on four fundamental equations. They can be written in integral form (looking at large areas) or differential form (looking at microscopic points).\n\n1. **Gauss's Law for Electricity:** Describes how electric charges create electric fields.\n2. **Gauss's Law for Magnetism:** States that there are no magnetic monopoles.\n3. **Faraday's Law of Induction:** Describes how changing magnetic fields create electric fields.\n4. **Ampere-Maxwell Law:** Describes how moving charges (and changing electric fields) create magnetic fields.\n\nLet's break them down one by one."
+        },
+        {
+            "id": "max_3",
+            "type": "content",
+            "title": "Equation 1: Gauss's Law (Electricity)",
+            "content": "# 1. Gauss's Law for Electric Fields\n\n**Concept:** Electric charge acts as a \"source\" or a \"sink\" for electric fields.\n\n- Positive charges are sources: electric field lines spray outward from them in all directions.\n- Negative charges are sinks: electric field lines suck inward toward them.\n\n**The Math:** If you draw any imaginary closed 3D bubble (like a balloon) anywhere in the universe, the total electric flux (field lines) piercing out of the balloon is perfectly proportional to the total net electric charge trapped inside the balloon.\n\nIf the balloon is empty, what goes in must come out (Net flux = 0)."
+        },
+        {
+            "id": "max_4",
+            "type": "content",
+            "title": "Equation 2: Gauss's Law (Magnetism)",
+            "content": "# 2. Gauss's Law for Magnetic Fields\n\n**Concept:** There is no such thing as a \"magnetic charge\" (a magnetic monopole).\n\nUnlike electric fields that start on positive and end on negative, magnetic field lines NEVER start or end. They form continuous, unbroken loops. \n\n**The Math:** If you draw that same imaginary 3D balloon, the total magnetic flux piercing out of the balloon is ALWAYS exactly ZERO. \nEvery single magnetic field line that enters the balloon MUST exit the balloon to complete its loop. You cannot trap a solitary \"North pole\" in a box."
+        },
+        {
+            "id": "max_5",
+            "type": "content",
+            "title": "Equation 3: Faraday's Law",
+            "content": "# 3. Faraday's Law of Induction\n\n**Concept:** A *changing* magnetic field physically creates an electric field.\n\nIf you take a magnet and wave it around in empty space, the magnetic field at any specific point is constantly changing (growing stronger or weaker). \n\nFaraday's law states that this changing magnetic field will instantly generate a swirling, circular electric field around it.\nThis is the exact mechanism that pushes electrons in a wire to generate electricity in a power plant!"
+        },
+        {
+            "id": "max_6",
+            "type": "content",
+            "title": "Equation 4: Ampere's Original Law",
+            "content": "# 4. Ampere's Law (The Problem)\n\n**Concept:** Electric currents create magnetic fields.\n\nAndre-Marie Ampere proved that if you have a wire carrying a steady electric current, it generates a curling magnetic field wrapping around the wire (using the right-hand rule).\n\n**The Flaw:** Ampere's math only worked for *steady, constant* currents in closed loops. \nIf the current suddenly stopped, or if it hit a gap in the wire (like a capacitor charging up), Ampere's equation mathematically exploded and gave impossible answers. It was incomplete."
+        },
+        {
+            "id": "max_7",
+            "type": "content",
+            "title": "Maxwell's Brilliant Fix",
+            "content": "# The Displacement Current\n\nMaxwell realized the problem. \nIf a changing magnetic field creates a curling electric field (Faraday's Law), then the universe demands symmetry. \n\nA *changing electric field* MUST create a curling magnetic field!\n\nMaxwell added a new term to Ampere's equation called the **Displacement Current**. He proved that even in a vacuum with absolutely no wires and no physical electrons moving, a rapidly changing electric field will act EXACTLY like a physical current and generate a magnetic field."
+        },
+        {
+            "id": "max_8",
+            "type": "content",
+            "title": "The Ampere-Maxwell Law",
+            "content": "# The Completed 4th Pillar\n\n**Concept:** Magnetic fields are created by TWO things:\n1. Physical moving electric charges (Ampere's original current).\n2. A rapidly changing Electric Field (Maxwell's addition).\n\nWith this single, brilliant mathematical addition, the four equations were complete, fully symmetrical, and ready to explain the deepest secret of the universe."
+        },
+        {
+            "id": "max_9",
+            "type": "content",
+            "title": "The Spark in the Vacuum",
+            "content": "# A Thought Experiment\n\nImagine you are in the deep vacuum of empty space. There are no wires, no electrons, no magnets.\n\nSuddenly, you magically create a changing Electric Field. \n\n1. According to the Ampere-Maxwell Law, this changing Electric Field instantly generates a curling Magnetic Field.\n2. But this new Magnetic Field is also changing (growing).\n3. According to Faraday's Law, this changing Magnetic Field instantly generates a new curling Electric Field.\n4. But this new Electric Field is changing..."
+        },
+        {
+            "id": "max_10",
+            "type": "content",
+            "title": "The Self-Propagating Wave",
+            "content": "# The Leapfrog Effect\n\nThe two fields become locked in an infinite, self-sustaining loop! \n\nThe changing Electric Field creates a Magnetic field, which creates an Electric field, which creates a Magnetic field... leapfrogging over each other, perfectly regenerating each other in empty space, without any wires or charges needed!\n\nThis self-propagating disturbance shoots off through the vacuum of space as a wave. An **Electromagnetic Wave**."
+        },
+        {
+            "id": "max_11",
+            "type": "content",
+            "title": "The Speed of the Wave",
+            "content": "# Calculating the Impossible\n\nMaxwell used his four equations to calculate exactly how fast this self-propagating electromagnetic wave would travel.\n\nHis math revealed that the speed was equal to:\n**1 / sqrt(epsilon_0 * mu_0)**\n\n- **epsilon_0:** The electric permittivity of free space (a constant measuring how vacuum resists electric fields).\n- **mu_0:** The magnetic permeability of free space (a constant measuring how vacuum resists magnetic fields).\n\nThese were two boring constants measured in static laboratory experiments with wires and capacitors. But when Maxwell plugged the numbers into the equation..."
+        },
+        {
+            "id": "max_12",
+            "type": "content",
+            "title": "The Speed of Light",
+            "content": "# The Revelation\n\nWhen Maxwell calculated the speed of his theoretical electromagnetic wave, the answer was exactly **299,792,458 meters per second**.\n\nThis number was instantly recognizable. It was the exact, experimentally measured **Speed of Light (c)**.\n\nIn one of the most stunning moments of scientific epiphany in human history, Maxwell realized that light itself was not a special magical substance. Light is simply a ripple in the electromagnetic field! \n\nHe had accidentally discovered the true nature of light just by trying to fix Ampere's circuit math."
+        },
+        {
+            "id": "max_13",
+            "type": "content",
+            "title": "The Electromagnetic Spectrum",
+            "content": "# Beyond Visible Light\n\nMaxwell's equations didn't put a limit on the frequency of these waves. \nVisible light (the colors of the rainbow) is just a tiny, tiny sliver of the full spectrum where the waves are roughly 500 nanometers long.\n\nMaxwell predicted the existence of invisible waves.\n- **Longer, lower energy waves:** Radio waves, Microwaves, Infrared.\n- **Shorter, higher energy waves:** Ultraviolet, X-Rays, Gamma Rays.\n\nIn 1887, Heinrich Hertz built a sparking circuit and successfully generated and detected the first invisible Radio Waves, proving Maxwell absolutely correct."
+        },
+        {
+            "id": "max_14",
+            "type": "content",
+            "title": "The Structure of the Wave",
+            "content": "# Geometry of Light\n\nAccording to Maxwell's math, what does a light wave actually look like?\n\nIt is a **Transverse Wave** consisting of two distinct components:\n1. An oscillating Electric Field (E).\n2. An oscillating Magnetic Field (B).\n\nThese two fields are perfectly locked together, but they oscillate **perpendicular** to each other (at exactly 90 degrees).\nIf the Electric field is waving up and down, the Magnetic field is waving left and right. And both are waving perpendicular to the direction the light is actually traveling (forward)."
+        },
+        {
+            "id": "max_15",
+            "type": "content",
+            "title": "Relativity and Maxwell",
+            "content": "# The Catalyst for Einstein\n\nMaxwell's equations contained a hidden bombshell that eventually broke Newtonian physics.\n\nAccording to Maxwell, the speed of light (c) is a universal constant built into the fabric of the vacuum (epsilon_0 and mu_0). It doesn't depend on how fast the light source is moving.\n\nIf you are on a train moving at 99% the speed of light and turn on a flashlight, the light still shoots away from you at exactly (c), not (1.99c)! \n\nThis massive contradiction between Newton and Maxwell drove Albert Einstein to develop his Theory of Special Relativity to fix it."
+        },
+        {
+            "id": "max_16",
+            "type": "content",
+            "title": "The Legacy of the Equations",
+            "content": "# The Modern Era\n\nEvery single piece of modern wireless technology (WiFi, Bluetooth, 5G Cell Phones, GPS Satellites, Radar) is entirely based on manipulating Maxwell's Equations to encode information into invisible electromagnetic waves.\n\nWhen you send a text message, your phone's antenna is violently accelerating electrons up and down, purposely creating a changing electric field to launch a Maxwellian wave across the city to a cell tower."
+        },
+        {
+            "id": "max_17",
+            "type": "content",
+            "title": "Summary of Maxwell's Equations",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Gauss (Electric):** Charges create diverging electric fields.\n2. **Gauss (Magnetic):** Monopoles don't exist; magnetic fields form closed loops.\n3. **Faraday:** Changing magnetic fields create curling electric fields.\n4. **Ampere-Maxwell:** Currents AND changing electric fields create magnetic fields.\n5. **The Synthesis:** The equations prove that electric and magnetic fields can endlessly regenerate each other in a vacuum, forming an Electromagnetic Wave.\n6. **The Speed of Light:** Maxwell proved mathematically that Light is an electromagnetic wave traveling at a constant speed (c)."
+        },
+        {
+            "id": "max_quiz_1",
+            "type": "quiz",
+            "title": "Gauss's Law Quiz",
+            "content": "Test your knowledge of the first two equations.",
+            "quizQuestion": "According to Gauss's Law for Magnetism, if you draw a closed imaginary sphere around a bar magnet, what is the total net magnetic flux exiting the sphere?",
+            "quizOptions": [
+                "It depends on the strength of the North pole.",
+                "It is exactly zero, because every magnetic field line that exits the North pole must eventually re-enter the South pole.",
+                "It is positive.",
+                "It depends on the electric charge of the magnet."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "max_quiz_2",
+            "type": "quiz",
+            "title": "Ampere-Maxwell Quiz",
+            "content": "Review Maxwell's brilliant addition.",
+            "quizQuestion": "Before Maxwell, Ampere's Law stated that only physical electric currents (moving electrons) could create a magnetic field. What did Maxwell add to the equation to complete it?",
+            "quizOptions": [
+                "He proved that gravity creates magnetic fields.",
+                "He proved that a purely changing Electric Field (even in a vacuum) also creates a magnetic field.",
+                "He proved that magnetic monopoles exist.",
+                "He removed the magnetic field entirely."
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "id": "learn_waves",
+    "topicId": "waves",
+    "topicTitle": "Electromagnetic Waves",
+    "description": "Explore the behavior, propagation, and interactions of light and other electromagnetic waves as they travel through space and matter.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "wav_1",
+            "type": "content",
+            "title": "The Nature of Light",
+            "content": "# What is Light?\n\nFor centuries, scientists argued whether light was a stream of tiny particles (Newton's corpuscles) or a wave (Huygens' theory).\n\nMaxwell definitively proved that light is an **Electromagnetic Wave**: a self-propagating disturbance in the electromagnetic field.\n\nBecause it does not require a physical medium (like water or air) to vibrate, light can travel billions of lightyears through the absolute vacuum of deep space to reach our telescopes on Earth."
+        },
+        {
+            "id": "wav_2",
+            "type": "content",
+            "title": "The Speed Limit of the Universe",
+            "content": "# The Constant (c)\n\nIn a perfect vacuum, all electromagnetic waves—from the longest, lowest-energy radio wave to the shortest, deadliest gamma ray—travel at exactly the same speed.\n\n**c = 299,792,458 m/s** (roughly 300,000 kilometers per second).\n\nThis is not just the speed of light; it is the absolute maximum speed limit for causality and information transfer in the universe. Nothing can ever travel faster than c."
+        },
+        {
+            "id": "wav_3",
+            "type": "content",
+            "title": "Wavelength and Frequency",
+            "content": "# The Equation of Waves\n\nAll waves obey the fundamental wave equation:\n**Speed = Wavelength * Frequency**\n\nFor electromagnetic waves in a vacuum, this becomes:\n**c = Lambda * f**\n\nBecause the speed (c) is a permanent constant, Wavelength (Lambda) and Frequency (f) are perfectly inversely proportional. \n- If the frequency goes up (higher energy), the wavelength MUST get shorter to compensate.\n- If the wavelength gets longer (lower energy), the frequency MUST go down."
+        },
+        {
+            "id": "wav_4",
+            "type": "content",
+            "title": "The Electromagnetic Spectrum",
+            "content": "# The Full Rainbow\n\nThe human eye can only detect a microscopic sliver of the spectrum (Visible Light, from 400nm Violet to 700nm Red).\n\nHere is the full spectrum, ordered from Lowest Energy (Longest Wavelength) to Highest Energy (Shortest Wavelength):\n1. **Radio Waves:** Buildings to mountains in length. Used for communications.\n2. **Microwaves:** Millimeters to meters. Used for Radar, WiFi, and cooking food.\n3. **Infrared:** The heat emitted by human bodies.\n4. **Visible Light:** The colors we see.\n5. **Ultraviolet (UV):** Causes sunburns.\n6. **X-Rays:** Penetrates soft tissue, used in medicine.\n7. **Gamma Rays:** Emitted by nuclear reactions. Highly destructive."
+        },
+        {
+            "id": "wav_5",
+            "type": "content",
+            "title": "Propagation in Matter",
+            "content": "# Slowing Down Light\n\nLight travels at (c) in a perfect vacuum. But what happens when it enters a physical medium like water, glass, or diamond?\n\nThe wave interacts with the dense electric fields of the trillions of atoms in the material. This interaction physically slows the propagation of the wave down.\n\nThe speed of light in a material (v) is always LESS than (c)."
+        },
+        {
+            "id": "wav_6",
+            "type": "content",
+            "title": "Index of Refraction",
+            "content": "# The Speed Ratio (n)\n\nWe quantify how much a material slows down light using the **Index of Refraction (n)**.\n\n**n = c / v**\n\n- Vacuum: n = 1.0 (Exact)\n- Air: n = 1.0003 (Almost vacuum)\n- Water: n = 1.33 (Light travels at 75% of c)\n- Diamond: n = 2.42 (Light travels incredibly slowly, at 41% of c)\n\n*Note: The frequency of the light never changes when entering a new medium (it stays the same color). Because speed drops, the Wavelength must physically compress!*"
+        },
+        {
+            "id": "wav_7",
+            "type": "content",
+            "title": "Reflection",
+            "content": "# Bouncing Waves\n\nWhen light hits a boundary between two different media (like air and a mirror), some or all of the wave bounces back.\n\n## The Law of Reflection\nThe angle at which the incoming ray strikes the surface (Angle of Incidence) is EXACTLY equal to the angle at which it bounces off (Angle of Reflection).\n\nBoth angles are always measured relative to the \"Normal,\" an imaginary line drawn perfectly perpendicular to the surface."
+        },
+        {
+            "id": "wav_8",
+            "type": "content",
+            "title": "Refraction",
+            "content": "# Bending Waves\n\nIf the light doesn't bounce off, it enters the new medium. Because its speed changes, the path of the light instantly bends (changes direction) at the boundary. This is **Refraction**.\n\n- If light enters a **denser** medium (moves slower, higher 'n'), it bends INWARD toward the Normal line.\n- If light enters a **less dense** medium (moves faster, lower 'n'), it bends OUTWARD away from the Normal.\n\nThis is why a pencil placed in a glass of water looks broken or bent at the surface!"
+        },
+        {
+            "id": "wav_9",
+            "type": "content",
+            "title": "Snell's Law",
+            "content": "# The Math of Bending\n\nThe exact angle of the bend can be calculated using **Snell's Law**:\n\n**n1 * sin(theta_1) = n2 * sin(theta_2)**\n\nWhere:\n- **n1:** Index of refraction of the starting medium.\n- **theta_1:** Angle of incidence (incoming).\n- **n2:** Index of refraction of the new medium.\n- **theta_2:** Angle of refraction (the new bent angle)."
+        },
+        {
+            "id": "wav_10",
+            "type": "content",
+            "title": "Total Internal Reflection",
+            "content": "# The Fiber Optic Secret\n\nIf light is traveling inside a dense medium (like water) trying to escape into a less dense medium (like air), it bends away from the normal.\n\nIf you shine the light at a shallow enough angle (The Critical Angle), it bends so far away that it runs exactly flat along the surface.\n\nIf you shine it even shallower, the math breaks down. The light cannot escape at all. It acts as if the surface is a perfect mirror and bounces completely back inside!\n\nThis is **Total Internal Reflection**. It is the exact physics principle that traps laser light inside long glass cables, creating the global Fiber Optic internet!"
+        },
+        {
+            "id": "wav_11",
+            "type": "content",
+            "title": "Dispersion",
+            "content": "# Making a Rainbow\n\nWhy does a glass prism split white light into a rainbow?\n\nThe index of refraction (n) isn't actually a single constant for a material; it slightly depends on the frequency of the light!\n\n- **Blue light** (high frequency) interacts more strongly with the glass, so it moves slower (higher n) and bends a LOT.\n- **Red light** (low frequency) interacts less, moves faster (lower n), and bends a LITTLE.\n\nBecause they bend by different amounts, the colors physically separate as they exit the prism. This is called **Dispersion**."
+        },
+        {
+            "id": "wav_12",
+            "type": "content",
+            "title": "Diffraction",
+            "content": "# Bending Around Corners\n\nIf light were just a stream of bullets, shining it through a tiny slit would cast a sharp, perfect shadow on the wall.\n\nInstead, when waves pass through a slit (or past a sharp edge) that is roughly the same size as their wavelength, they fan out and spread into the shadow region.\nThis spreading is called **Diffraction**.\n\nThis is why you can hear someone talking around the corner of a building (long sound waves diffract easily), but you cannot see them (short light waves hardly diffract at all)."
+        },
+        {
+            "id": "wav_13",
+            "type": "content",
+            "title": "Young's Double-Slit Experiment",
+            "content": "# The Proof of the Wave\n\nIn 1801, Thomas Young proved definitively that light was a wave.\n\nHe shined a single light beam through two tiny, parallel slits. The light diffracted out of both slits.\n\nBecause there were now two expanding, overlapping waves, they interfered with each other!\n- Where the peaks met (Constructive Interference), they created a bright spot on the wall.\n- Where a peak met a trough (Destructive Interference), they canceled out, creating a dark spot.\n\nThe result was a striped pattern of alternating bright and dark lines on the wall (an Interference Pattern). Bullets cannot cancel each other out to create darkness; only waves can do this."
+        },
+        {
+            "id": "wav_14",
+            "type": "content",
+            "title": "Polarization",
+            "content": "# Filtering the Geometry\n\nAn electromagnetic wave is transverse (waving up/down or left/right).\nNormal light from the sun or a lightbulb is **Unpolarized**. It consists of millions of waves vibrating in every possible random direction (up/down, left/right, diagonal).\n\nA **Polarizing Filter** (like polarized sunglasses) acts like a microscopic picket fence. It only lets waves vibrating in ONE specific direction pass through, physically blocking all the others.\n\nThis cuts the glare from flat surfaces (like lakes or roads) because light that reflects off a flat surface naturally becomes partially polarized horizontally!"
+        },
+        {
+            "id": "wav_15",
+            "type": "content",
+            "title": "The Doppler Effect for Light",
+            "content": "# Redshift and Blueshift\n\nIf a police car drives toward you, the siren sounds higher pitched (the sound waves are compressed). If it drives away, it sounds lower (waves are stretched).\n\nThe same **Doppler Effect** happens with light!\n- If a star is flying TOWARD Earth, its light waves are compressed into higher frequencies. The star's color shifts slightly toward Blue (**Blueshift**).\n- If a star is flying AWAY, its waves are stretched. Its color shifts toward Red (**Redshift**).\n\nEdwin Hubble observed that almost every distant galaxy is highly redshifted, proving that the entire universe is expanding!"
+        },
+        {
+            "id": "wav_16",
+            "type": "content",
+            "title": "The Dual Nature of Light",
+            "content": "# The Wave-Particle Duality\n\nMaxwell proved light is a continuous wave. Young's double-slit experiment confirmed it.\n\nBut in 1905, Albert Einstein ruined everything. He proved the Photoelectric Effect, showing that light MUST actually be a stream of discrete, quantized particles called **Photons**.\n\nSo which is it? A continuous wave or a stream of bullet-like particles?\n\nIt is both. Modern Quantum Mechanics accepts the terrifying reality of **Wave-Particle Duality**. Light behaves perfectly like a wave as it travels through space, but behaves perfectly like a particle the exact moment it collides with an atom."
+        },
+        {
+            "id": "wav_17",
+            "type": "content",
+            "title": "Summary of EM Waves",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Nature:** Light is a transverse electromagnetic wave traveling at the universal speed limit (c).\n2. **The Spectrum:** Ranges from low-energy Radio waves to high-energy Gamma rays.\n3. **Refraction:** Waves slow down and bend when entering a denser medium. Described by Snell's Law and the Index of Refraction (n).\n4. **Diffraction and Interference:** Waves fan out through small slits and overlap to create constructive/destructive interference patterns.\n5. **Polarization:** Filtering waves to vibrate in only one direction.\n6. **Doppler Effect:** Moving sources stretch or compress the waves (Redshift/Blueshift)."
+        },
+        {
+            "id": "wav_quiz_1",
+            "type": "quiz",
+            "title": "Speed of Light Quiz",
+            "content": "Test your understanding of wave propagation.",
+            "quizQuestion": "When a beam of red laser light leaves the vacuum of space (n=1) and enters a solid block of glass (n=1.5), what happens to the physical properties of the light?",
+            "quizOptions": [
+                "Its speed remains constant (c), but its frequency changes.",
+                "Its speed decreases, its frequency stays exactly the same, and its wavelength compresses.",
+                "Its speed decreases, and its frequency decreases.",
+                "Its speed increases."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "wav_quiz_2",
+            "type": "quiz",
+            "title": "Interference Quiz",
+            "content": "Review Young's Double-Slit experiment.",
+            "quizQuestion": "In an interference pattern, what causes the dark bands (shadows) on the screen?",
+            "quizOptions": [
+                "The light hitting the edges of the slits and being absorbed.",
+                "Constructive interference (two peaks meeting).",
+                "Destructive interference (the peak of one wave perfectly overlapping the trough of another wave, canceling out).",
+                "The light running out of energy."
+            ],
+            "correctOptionIndex": 2
+        }
+    ]
+}

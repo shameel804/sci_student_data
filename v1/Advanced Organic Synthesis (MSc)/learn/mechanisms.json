@@ -1,0 +1,147 @@
+{
+    "id": "learn_mechanisms",
+    "topicId": "mechanisms",
+    "topicTitle": "Advanced Mechanisms",
+    "description": "Delve into the fascinating world of pericyclic, photochemical, radical, and organometallic reaction mechanisms.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "mech_adv_1",
+            "type": "content",
+            "title": "Welcome to Advanced Mechanisms",
+            "content": "# Advanced Reaction Mechanisms\n\nWelcome to the study of how chemical reactions actually happen at the molecular level!\n\n## What You Will Learn:\n- **Pericyclic reactions** - Reactions that proceed through cyclic transition states\n- **Photochemical reactions** - Chemistry driven by light\n- **Radical reactions** - Chemistry involving unpaired electrons\n- **Organometallic reactions** - Carbon-metal bonds and catalytic cycles\n\nLet's move beyond basic arrows and explore advanced reactivity!"
+        },
+        {
+            "id": "mech_adv_2",
+            "type": "content",
+            "title": "Pericyclic Reactions",
+            "content": "# Pericyclic Reactions\n\nA **pericyclic reaction** is a reaction in which bonds are made or broken in a concerted cyclic transition state.\n\n## Key Features:\n- **Concerted:** All bond-breaking and bond-making happens simultaneously. There are no intermediates (no cations, anions, or radicals).\n- **Cyclic:** The electrons move in a continuous ring.\n- **Orbital Symmetry:** Governed by the Woodward-Hoffmann rules, meaning the shapes of the molecular orbitals dictate whether the reaction is allowed or forbidden.\n\n> **Note:** Because they have no charged intermediates, these reactions are mostly unaffected by solvent changes!"
+        },
+        {
+            "id": "mech_adv_3",
+            "type": "content",
+            "title": "Cycloadditions",
+            "content": "# Cycloadditions\n\nIn a **cycloaddition**, two separate molecules (or parts of the same molecule) come together to form a ring.\n\n## The Diels-Alder Reaction:\nThe most famous cycloaddition is the [4+2] Diels-Alder reaction.\n- A **diene** (4 pi electrons) reacts with a **dienophile** (2 pi electrons).\n- Forms a 6-membered ring (cyclohexene derivative).\n- Highly stereospecific: the geometry of the starting materials dictates the 3D shape of the product.\n\n## [2+2] Cycloadditions:\nForming a 4-membered ring from two alkenes. Interestingly, this is usually \"thermally forbidden\" but \"photochemically allowed\" (requires UV light) due to orbital symmetry rules."
+        },
+        {
+            "id": "mech_adv_4",
+            "type": "content",
+            "title": "Electrocyclic Reactions",
+            "content": "# Electrocyclic Reactions\n\nAn **electrocyclic reaction** is an intramolecular reaction where a new sigma bond is formed between the ends of a conjugated pi system, forming a ring (or the reverse ring-opening process).\n\n## Stereochemistry (Conrotatory vs Disrotatory):\nWhen the ring closes, the groups on the ends must rotate.\n- **Conrotatory:** Both ends rotate in the same direction (e.g., both clockwise).\n- **Disrotatory:** The ends rotate in opposite directions (e.g., one clockwise, one counter-clockwise).\n\nThe choice depends on the number of pi electrons and whether heat or light is used, governed strictly by the phases of the orbitals."
+        },
+        {
+            "id": "mech_adv_5",
+            "type": "content",
+            "title": "Sigmatropic Rearrangements",
+            "content": "# Sigmatropic Rearrangements\n\nA **sigmatropic rearrangement** is a pericyclic reaction where a sigma bond migrates from one end of a conjugated pi system to the other, while the pi bonds shift.\n\n## Famous Examples:\n- **Cope Rearrangement:** A [3,3] sigmatropic rearrangement of a 1,5-diene.\n- **Claisen Rearrangement:** Similar to the Cope, but involves an oxygen atom (an allyl vinyl ether rearranging to a gamma,delta-unsaturated carbonyl).\n\n> **Concept:** These look like magic on paper because atoms jump across the molecule, but they do so through a highly organized, cyclic transition state."
+        },
+        {
+            "id": "mech_adv_quiz_1",
+            "type": "quiz",
+            "title": "Pericyclic Quiz",
+            "content": "Test your knowledge of pericyclic reactions!",
+            "quizQuestion": "Which of the following is a defining characteristic of a pericyclic reaction?",
+            "quizOptions": [
+                "It proceeds via a carbocation intermediate.",
+                "It requires a highly polar solvent.",
+                "It is a concerted process with a cyclic transition state.",
+                "It always involves a metal catalyst."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "mech_adv_6",
+            "type": "content",
+            "title": "Photochemical Reactions",
+            "content": "# Photochemical Reactions\n\n**Photochemistry** is the study of chemical reactions initiated by the absorption of light (usually UV or visible).\n\n## How it works:\n1. A molecule absorbs a photon of light.\n2. The energy promotes an electron from the Highest Occupied Molecular Orbital (HOMO) to the Lowest Unoccupied Molecular Orbital (LUMO).\n3. The molecule is now in an **excited state**, which has completely different reactivity than the ground state.\n\n> **Key Principle:** Light can provide enough energy to overcome massive activation barriers, allowing reactions that are impossible with heat alone."
+        },
+        {
+            "id": "mech_adv_7",
+            "type": "content",
+            "title": "Excited States and Transitions",
+            "content": "# Excited States: Singlets and Triplets\n\nWhen an electron is excited, its spin matters.\n\n## Singlet State (S1):\n- The excited electron has the opposite spin to its former partner.\n- The total spin is zero.\n- Usually the initial state formed upon light absorption.\n- Short-lived.\n\n## Triplet State (T1):\n- The excited electron \"flips\" its spin to be parallel to its former partner.\n- Total spin is 1.\n- Formed via **Intersystem Crossing (ISC)** from the singlet state.\n- Much longer-lived, making it very important for chemical reactions, as it has time to collide with other molecules."
+        },
+        {
+            "id": "mech_adv_8",
+            "type": "content",
+            "title": "The Jablonski Diagram",
+            "content": "# The Jablonski Diagram\n\nThe **Jablonski Diagram** maps out the possible pathways an excited molecule can take.\n\n## Physical Pathways (No chemical reaction):\n- **Fluorescence:** Emitting a photon directly from the Singlet state to Ground state (fast).\n- **Phosphorescence:** Emitting a photon from the Triplet state to Ground state (slow, \"glow in the dark\").\n- **Non-radiative decay:** Losing energy as heat (vibrations).\n\n## Chemical Pathways:\nIf the excited state encounters another molecule or is unstable, a photochemical reaction occurs (e.g., cleavage, cycloaddition, isomerization) before physical decay happens."
+        },
+        {
+            "id": "mech_adv_9",
+            "type": "content",
+            "title": "Photochemical Cleavage",
+            "content": "# Photochemical Cleavage\n\nUV light has enough energy to break covalent bonds homolytically (one electron goes to each fragment).\n\n## Norrish Reactions (Carbonyl Photochemistry):\n- **Norrish Type I:** Alpha-cleavage of a ketone. The C-C bond next to the carbonyl breaks, forming two radicals (an acyl radical and an alkyl radical).\n- **Norrish Type II:** An intramolecular hydrogen abstraction. The excited carbonyl oxygen grabs a hydrogen atom from the gamma position, leading to cleavage into an alkene and an enol.\n\n> **Application:** This is why many chemicals (like hydrogen peroxide or some vitamins) must be stored in dark brown bottles to prevent photolytic degradation."
+        },
+        {
+            "id": "mech_adv_quiz_2",
+            "type": "quiz",
+            "title": "Photochemistry Quiz",
+            "content": "Check your understanding of excited states!",
+            "quizQuestion": "In photochemistry, what is the difference between a singlet and a triplet excited state?",
+            "quizOptions": [
+                "Singlets have paired electron spins, while triplets have parallel (unpaired) electron spins.",
+                "Singlets are formed by heat, triplets are formed by light.",
+                "Singlets only undergo Norrish reactions.",
+                "Triplets have a much shorter lifespan than singlets."
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "mech_adv_10",
+            "type": "content",
+            "title": "Radical Reactions",
+            "content": "# Radical Reactions\n\nA **radical** is an atom or molecule with an unpaired electron. They are highly reactive intermediates.\n\n## Structure and Stability:\n- Carbon radicals are sp2 hybridized (planar) or shallow pyramids.\n- **Stability trend:** Tertiary > Secondary > Primary > Methyl.\n- They are stabilized by hyperconjugation and resonance (delocalization of the single electron).\n\n## Arrow Pushing:\nUnlike standard polar reactions that use double-headed arrows (moving two electrons), radical mechanisms use **single-headed (fishhook) arrows** to track the movement of single electrons."
+        },
+        {
+            "id": "mech_adv_11",
+            "type": "content",
+            "title": "Chain Reactions",
+            "content": "# Radical Chain Reactions\n\nMost radical reactions proceed via a chain mechanism with three distinct phases.\n\n## 1. Initiation:\nThe generation of the first radicals from a non-radical precursor, often requiring heat (Delta) or light (hv), or an initiator like AIBN or peroxides.\n\n## 2. Propagation:\nA radical reacts with a stable molecule to form a product and *a new radical*. This new radical continues the chain. (e.g., A* + B-C -> A-B + C*). This cycle can repeat thousands of times.\n\n## 3. Termination:\nTwo radicals collide and combine to form a stable bond, ending the chain. (e.g., A* + B* -> A-B)."
+        },
+        {
+            "id": "mech_adv_12",
+            "type": "content",
+            "title": "Important Radical Reactions",
+            "content": "# Synthetic Radical Reactions\n\nRadicals aren't just for destructive explosions; they are powerful synthetic tools.\n\n## Radical Halogenation:\nReplacing a C-H bond with a C-X bond (mostly Bromine or Chlorine). Bromine is highly selective for the most stable radical position (tertiary).\n\n## Radical Additions:\nAdding across a double bond. A famous example is the addition of HBr to an alkene in the presence of peroxides, which gives the **anti-Markovnikov** product, unlike standard electrophilic addition.\n\n## Radical Reductions:\nUsing reagents like Tributyltin hydride (Bu3SnH) to replace a halogen with a hydrogen atom via a radical chain mechanism."
+        },
+        {
+            "id": "mech_adv_quiz_3",
+            "type": "quiz",
+            "title": "Radical Quiz",
+            "content": "Test your knowledge of radical chains!",
+            "quizQuestion": "Which step of a radical chain reaction consumes radicals without generating new ones?",
+            "quizOptions": [
+                "Initiation",
+                "Propagation",
+                "Termination",
+                "Resonance"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "mech_adv_13",
+            "type": "content",
+            "title": "Organometallic Reactions",
+            "content": "# Organometallic Reactions\n\n**Organometallic chemistry** involves compounds with a direct bond between a carbon atom and a metal atom. Transition metals (Palladium, Rhodium, Ruthenium) are especially powerful.\n\n## Why are they special?\nTransition metals have accessible d-orbitals. This allows them to simultaneously hold onto multiple molecules (ligands) and bring them close together, acting as exceptional catalysts.\n\n## The Catalytic Cycle:\nMost organometallic reactions proceed through a closed loop of fundamental steps, where the metal catalyst is regenerated at the end."
+        },
+        {
+            "id": "mech_adv_14",
+            "type": "content",
+            "title": "Fundamental Organometallic Steps",
+            "content": "# Fundamental Steps\n\n## 1. Oxidative Addition:\nThe metal inserts itself into a covalent bond (like a C-X bond). The metal's oxidation state increases by +2, and it gains two new ligands.\n\n## 2. Transmetalation:\nThe exchange of a ligand (usually an alkyl or aryl group) from a main-group metal (like Tin, Boron, or Zinc) to the transition metal catalyst.\n\n## 3. Migratory Insertion:\nA ligand on the metal (like an alkyl group) migrates and attaches to another ligand (like carbon monoxide or an alkene) that is also attached to the metal.\n\n## 4. Reductive Elimination:\nThe reverse of oxidative addition. Two ligands on the metal bond together and detach, forming the final product. The metal's oxidation state decreases by -2, regenerating the catalyst."
+        },
+        {
+            "id": "mech_adv_15",
+            "type": "content",
+            "title": "Famous Cross-Couplings",
+            "content": "# Palladium-Catalyzed Cross-Couplings\n\nThese reactions connect two carbon fragments together, revolutionizing modern synthesis (Nobel Prize 2010).\n\n## Suzuki Coupling:\nCouples an organoboron compound (R-B(OH)2) with an organic halide (R'-X). Requires a base.\n\n## Heck Reaction:\nCouples an alkene with an organic halide. No transmetalation step is needed; relies on migratory insertion and beta-hydride elimination.\n\n## Stille Coupling:\nCouples an organotin compound (R-SnBu3) with an organic halide. Very versatile but toxic due to tin.\n\n> **Impact:** These are the go-to methods for building complex pharmaceutical molecules today."
+        },
+        {
+            "id": "mech_adv_16",
+            "type": "content",
+            "title": "Summary of Mechanisms",
+            "content": "# Advanced Mechanisms Summary\n\n## Key Takeaways:\n1. **Pericyclic:** Concerted, cyclic reactions driven by orbital symmetry, not charges (Diels-Alder, Cope, Electrocyclic).\n2. **Photochemistry:** Light pushes electrons to excited states (Singlets and Triplets), accessing entirely new, high-energy reaction pathways.\n3. **Radicals:** Unpaired electron chemistry proceeding via Initiation, Propagation, and Termination phases using single-electron arrows.\n4. **Organometallics:** Transition metals act as \"molecular assembly lines\" via catalytic cycles involving oxidative addition, transmetalation, and reductive elimination.\n\n> **Conclusion:** Mastering these four areas provides the tools to understand and design almost any complex organic reaction!"
+        }
+    ]
+}

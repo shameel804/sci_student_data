@@ -1,0 +1,105 @@
+{
+    "id": "learn_env_soil",
+    "topicId": "soil",
+    "topicTitle": "Soil Science",
+    "description": "Discover the complex living skin of the Earth, exploring how soil forms, why it is essential for human survival, and how we must conserve it.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "env_soil_1",
+            "type": "content",
+            "title": "Welcome to Soil Science",
+            "content": "# The Foundation of Life\n\nWelcome to **Soil Science**!\n\nSoil is not just \"dirt.\" It is a complex, living ecosystem teeming with billions of microorganisms, minerals, and organic matter. It is the literal foundation of all terrestrial life and all human agriculture.\n\n## What You Will Learn:\n- **Soil Formation** - How rock turns into life\n- **Soil Classification** - The textures of the earth\n- **Soil Conservation** - Saving the skin of the planet\n- **Land Use** - The conflict between cities and farms\n\nLet's dig in!"
+        },
+        {
+            "id": "env_soil_2",
+            "type": "content",
+            "title": "What is Soil?",
+            "content": "# More Than Dirt\n\nSoil is the loose surface material that covers most land. \n\nA healthy, ideal soil for growing crops (called a Loam) consists of:\n- **45% Minerals:** Broken down rocks (sand, silt, and clay).\n- **5% Organic Matter:** Dead, decaying plants and animals (humus), and millions of living microbes.\n- **25% Water:** Trapped in the pores between the dirt particles.\n- **25% Air:** Essential for the plant roots and soil bacteria to breathe!\n\n> **Note:** If soil becomes too compacted (like from heavy tractors driving over it), the air and water are squeezed out, and the soil \"dies.\""
+        },
+        {
+            "id": "env_soil_3",
+            "type": "content",
+            "title": "Pedogenesis",
+            "content": "# Soil Formation (Pedogenesis)\n\nSoil is created by the incredibly slow breakdown (weathering) of solid bedrock.\nIt can take 500 to 1,000 years to naturally form just ONE INCH of topsoil!\n\n## The Five Factors (CLORPT)\nScientists use the acronym CLORPT to remember the 5 factors that dictate how soil forms:\n1. **CL**imate (Rain and heat break down rocks faster).\n2. **O**rganisms (Plants and worms mix the soil and add organic matter).\n3. **R**elief (Topography - soil washes off steep hills but accumulates in flat valleys).\n4. **P**arent Material (What kind of bedrock is underneath? Limestone makes different soil than granite).\n5. **T**ime (Older soils are deeper and more developed)."
+        },
+        {
+            "id": "env_soil_quiz_1",
+            "type": "quiz",
+            "title": "Soil Composition Quiz",
+            "content": "Check your understanding of what makes soil.",
+            "quizQuestion": "Why is it biologically disastrous if heavy farm machinery tightly compacts the soil in a field?",
+            "quizOptions": [
+                "It makes the soil too warm for seeds to germinate",
+                "It squeezes out all the air and water pores, suffocating the plant roots and essential microbes",
+                "It instantly turns the soil into solid bedrock",
+                "It causes the soil to catch fire"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "env_soil_4",
+            "type": "content",
+            "title": "Soil Horizons",
+            "content": "# The Soil Profile\n\nIf you dig a deep trench, you will see that soil forms in distinct horizontal layers called **Horizons**.\n\n- **O Horizon (Organic):** The very top layer, made mostly of freshly fallen leaves and decomposing twigs.\n- **A Horizon (Topsoil):** Dark, rich mixture of minerals and highly decomposed organic matter (humus). This is where almost all plant roots and biological activity occur.\n- **B Horizon (Subsoil):** Lighter in color. Rainwater washes (leaches) minerals like iron and clay down from the A horizon and deposits them here.\n- **C Horizon:** Broken, weathered chunks of the parent bedrock.\n- **R Horizon:** The solid, unweathered bedrock."
+        },
+        {
+            "id": "env_soil_5",
+            "type": "content",
+            "title": "Soil Texture",
+            "content": "# Classifying by Texture\n\nThe most important physical property of soil is its texture. This is determined entirely by the size of the mineral particles it contains.\n\n1. **Sand:** The largest particles (feels gritty). Huge pores between grains allow water to drain instantly. Terrible at holding water or nutrients.\n2. **Silt:** Medium-sized particles (feels like flour). Holds water well.\n3. **Clay:** The smallest, microscopic particles (feels sticky). Packs together so tightly that it forms a waterproof seal. Excellent at holding chemical nutrients, but plant roots struggle to push through it.\n\n> **The Perfect Mix:** A \"Loam\" is a relatively even mixture of sand, silt, and clay. It holds exactly the right amount of water while still allowing excess to drain away."
+        },
+        {
+            "id": "env_soil_quiz_2",
+            "type": "quiz",
+            "title": "Texture Quiz",
+            "content": "Check your understanding of particle sizes.",
+            "quizQuestion": "If a farmer's field consists almost entirely of pure Sand, what is the primary problem they will face?",
+            "quizOptions": [
+                "The soil will hold too much water and drown the plants",
+                "The roots will be unable to penetrate the hard, sticky surface",
+                "Water and nutrients will drain away instantly before the plants can absorb them",
+                "The soil will be too acidic"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "env_soil_6",
+            "type": "content",
+            "title": "The Threat of Erosion",
+            "content": "# Soil Erosion\n\nRemember, it takes 1,000 years to form an inch of topsoil. \nBut a single severe rainstorm on a plowed, unprotected field can wash away an inch of topsoil in an afternoon!\n\nThis is **Erosion** (the physical removal of soil by wind or water).\n\nIf the topsoil (A Horizon) is washed away, the land becomes completely infertile. This is how the American \"Dust Bowl\" occurred in the 1930s, devastating the nation's agriculture."
+        },
+        {
+            "id": "env_soil_7",
+            "type": "content",
+            "title": "Conservation Techniques",
+            "content": "# Saving the Soil\n\nModern agriculture uses **Conservation Tillage** techniques to keep the soil locked in place.\n\n## 1. Contour Plowing and Terracing\nInstead of plowing straight up and down a hill (which creates perfect water-slides for rain to wash the dirt away), farmers plow horizontally ACROSS the slope of the hill. \nOn very steep mountains, they carve flat \"steps\" (terraces) into the mountain to stop water from rushing down.\n\n## 2. No-Till Farming\nTraditionally, farmers plow (till) the soil to turn it over and kill weeds. But this leaves the dirt bare and vulnerable to wind. \nIn **No-Till**, special tractors inject the seeds directly into the unplowed earth, leaving the dead stalks of last year's crop on the surface to act as an armor against wind and rain."
+        },
+        {
+            "id": "env_soil_8",
+            "type": "content",
+            "title": "Land Use Management",
+            "content": "# Competing for the Land\n\nWe need healthy soil to grow food for 8 billion people. But we also need land to build houses, factories, and highways.\n\n## Urban Sprawl\nHistorically, humans built cities in valleys with the richest, most fertile soil (because that's where the food grew). \nToday, as cities rapidly expand outward (**Urban Sprawl**), we are paving over our most precious, irreplaceable prime agricultural land with concrete and asphalt.\n\nSmart land use planning attempts to force cities to build \"up\" (high-density apartments) rather than \"out\" (sprawling suburbs) to protect the surrounding farmland."
+        },
+        {
+            "id": "env_soil_quiz_3",
+            "type": "quiz",
+            "title": "Conservation Quiz",
+            "content": "Check your understanding of protecting the earth.",
+            "quizQuestion": "How does 'No-Till' farming help prevent soil erosion?",
+            "quizOptions": [
+                "It covers the fields in plastic tarps",
+                "It avoids plowing the soil, leaving the residue of old crops on the surface to act as a protective barrier against wind and rain",
+                "It uses heavy rollers to compact the soil until it is as hard as rock",
+                "It relies entirely on hydroponics (growing plants in water)"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "env_soil_9",
+            "type": "content",
+            "title": "Summary of Soil",
+            "content": "# Soil Science Summary\n\n## Key Takeaways:\n\n### Composition and Formation\n- Soil is a delicate mix of minerals, water, air, and organic matter.\n- It forms incredibly slowly based on the **CLORPT** factors (Climate, Organisms, Relief, Parent Material, Time).\n- The richest layer is the **Topsoil (A Horizon)**.\n\n### Texture and Conservation\n- Texture is defined by the ratio of **Sand (large/draining)**, **Silt**, and **Clay (microscopic/waterproofing)**. A perfect mix is a **Loam**.\n- Because topsoil forms so slowly, **Erosion** is a catastrophic threat.\n- Farmers use **Contour Plowing** and **No-Till farming** to protect the topsoil from wind and rain.\n\n> **Next Up:** We move from the earth to the oceans in the Water Management module."
+        }
+    ]
+}

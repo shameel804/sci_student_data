@@ -1,0 +1,135 @@
+{
+    "id": "learn_basic",
+    "topicId": "basic",
+    "topicTitle": "Some Basic Concepts of Chemistry",
+    "description": "Master the fundamental language of chemistry, from atoms and molecules to the almighty mole concept.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "chem_basic_1",
+            "type": "content",
+            "title": "Welcome to Chemistry XI",
+            "content": "# The Central Science\n\nChemistry is the science of molecules and their transformations. It is the science not so much of the one hundred elements, but of the infinite variety of molecules that may be built from them.\n\nTo understand this vast subject, we must first learn its foundational language and the mathematical rules that govern chemical reactions.\n\n## What You Will Learn:\n- **Matter:** Elements, compounds, and mixtures.\n- **Laws of Chemical Combination:** The rules of the recipe.\n- **Dalton's Atomic Theory:** The indestructible building blocks.\n- **Atomic and Molecular Masses:** Weighing the invisible.\n- **The Mole Concept:** Counting atoms by weighing them."
+        },
+        {
+            "id": "chem_basic_2",
+            "type": "content",
+            "title": "Nature of Matter",
+            "content": "# Elements, Compounds, and Mixtures\n\nMatter is anything that has mass and occupies space. It can be classified at a macroscopic level into:\n\n1. **Pure Substances:** \n   - **Elements:** Consist of only one type of atom (e.g., Copper, Gold, Oxygen gas O2).\n   - **Compounds:** Consist of two or more *different* elements chemically combined in a fixed ratio (e.g., Water H2O, Carbon Dioxide CO2). The properties of a compound are different from its constituent elements!\n2. **Mixtures:** Contain two or more substances mixed in any ratio, where components retain their individual properties.\n   - **Homogeneous:** Uniform composition (e.g., salt water, air).\n   - **Heterogeneous:** Non-uniform composition (e.g., sand and salt)."
+        },
+        {
+            "id": "chem_basic_3",
+            "type": "content",
+            "title": "Laws of Chemical Combination",
+            "content": "# The Rules of the Recipe\n\nHow do elements combine to form compounds? They obey five fundamental laws:\n\n1. **Law of Conservation of Mass:** (Lavoisier) Matter can neither be created nor destroyed in a chemical reaction.\n2. **Law of Definite Proportions:** (Proust) A given compound always contains exactly the same proportion of elements by weight. (Water is ALWAYS 11.11% Hydrogen and 88.89% Oxygen by mass, whether from a river or a lab).\n3. **Law of Multiple Proportions:** (Dalton) If two elements combine to form more than one compound, the masses of one element that combine with a fixed mass of the other are in the ratio of small whole numbers. (e.g., CO and CO2)."
+        },
+        {
+            "id": "chem_basic_quiz_1",
+            "type": "quiz",
+            "title": "Laws Quiz",
+            "content": "Check your understanding of the fundamental laws.",
+            "quizQuestion": "Which law states that a chemical compound always contains exactly the same proportion of elements by mass?",
+            "quizOptions": [
+                "Law of Conservation of Mass",
+                "Law of Definite Proportions",
+                "Law of Multiple Proportions",
+                "Dalton's Law"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_basic_4",
+            "type": "content",
+            "title": "Dalton's Atomic Theory",
+            "content": "# The Indestructible Sphere\n\nIn 1808, John Dalton published 'A New System of Chemical Philosophy', which proposed the following:\n\n1. Matter consists of indivisible atoms.\n2. All the atoms of a given element have identical properties including identical mass. Atoms of different elements differ in mass.\n3. Compounds are formed when atoms of different elements combine in a fixed ratio.\n4. Chemical reactions involve reorganization of atoms. These are neither created nor destroyed in a chemical reaction.\n\n*Note:* We now know atoms ARE divisible (into protons, neutrons, electrons), but Dalton's theory was a massive leap forward!"
+        },
+        {
+            "id": "chem_basic_5",
+            "type": "content",
+            "title": "Atomic and Molecular Masses",
+            "content": "# Weighing the Invisible\n\nAtoms are incredibly small. We cannot weigh a single atom on a scale. \nInstead, we measure their masses *relative* to a standard.\n\nThe present standard is the **Carbon-12** isotope. \nOne **Atomic Mass Unit (amu)**, now written as 'u' (unified mass), is defined as exactly 1/12th the mass of one Carbon-12 atom.\n\n- Mass of Hydrogen atom ~ 1 u\n- Mass of Oxygen atom ~ 16 u\n\n**Molecular Mass** is the sum of atomic masses of the elements present in a molecule. \nFor Water (H2O): (2 * 1 u) + (1 * 16 u) = **18 u**."
+        },
+        {
+            "id": "chem_basic_6",
+            "type": "content",
+            "title": "The Mole Concept",
+            "content": "# The Chemist's Dozen\n\nWhen you buy eggs, you buy them by the \"dozen\" (12). When you buy paper, you buy a \"ream\" (500). \nBecause atoms are so small, chemists need a massive \"dozen\" to count them. We use the **Mole**.\n\n**One Mole** is the amount of a substance that contains exactly **6.022 x 10^23** particles (atoms, molecules, or ions). \nThis massive number is called **Avogadro's Constant (Na)**.\n\nWhy this specific number? \nBecause 1 mole of Carbon-12 atoms weighs EXACTLY 12 grams! \nThis allows us to link the atomic scale (amu) to the macroscopic scale (grams)."
+        },
+        {
+            "id": "chem_basic_7",
+            "type": "content",
+            "title": "Molar Mass",
+            "content": "# From 'u' to 'grams'\n\nThe genius of the mole concept is this:\n\nThe mass of one mole of a substance in grams (called its **Molar Mass**) is numerically equal to its atomic/molecular mass in 'u'.\n\n- The molecular mass of Water (H2O) is **18 u**.\n- The molar mass of Water is **18 grams per mole**.\n\nThis means if you pour exactly 18 grams of water into a glass, you know you have exactly one mole (6.022 x 10^23) of water molecules!"
+        },
+        {
+            "id": "chem_basic_quiz_2",
+            "type": "quiz",
+            "title": "Mole Quiz",
+            "content": "Check your understanding of the mole concept.",
+            "quizQuestion": "What is the mass of one mole of Oxygen gas (O2), given that the atomic mass of an Oxygen atom is 16 u?",
+            "quizOptions": [
+                "16 grams",
+                "32 grams",
+                "8 grams",
+                "6.022 x 10^23 grams"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_basic_8",
+            "type": "content",
+            "title": "Percentage Composition",
+            "content": "# What's in the Mix?\n\nIf we know the formula of a compound, we can calculate the percentage of each element in it by mass.\n\n`Mass % of an element = (Mass of that element in 1 mole of compound / Molar mass of the compound) * 100`\n\n**Example: Water (H2O)**\n- Molar mass of H2O = 18 g/mol\n- Mass of H in one mole = 2 g\n- Mass of O in one mole = 16 g\n\n- Mass % of H = (2 / 18) * 100 = **11.11%**\n- Mass % of O = (16 / 18) * 100 = **88.89%**"
+        },
+        {
+            "id": "chem_basic_9",
+            "type": "content",
+            "title": "Empirical and Molecular Formulas",
+            "content": "# The Simplest Ratio\n\nIf we analyze an unknown compound in a lab and find its percentage composition, we can work backward to find its formula!\n\n1. **Empirical Formula:** Represents the simplest whole-number ratio of various atoms present in a compound. \n   *Example:* The empirical formula of Hydrogen Peroxide is **HO** (1:1 ratio).\n2. **Molecular Formula:** Shows the *exact* number of different types of atoms present in a molecule. \n   *Example:* The actual molecular formula of Hydrogen Peroxide is **H2O2**.\n\nThe molecular formula is always a simple multiple of the empirical formula."
+        },
+        {
+            "id": "chem_basic_10",
+            "type": "content",
+            "title": "Stoichiometry",
+            "content": "# The Math of Reactions\n\nThe word 'stoichiometry' is derived from two Greek words: stoicheion (meaning element) and metron (meaning measure).\n\nStoichiometry deals with the calculation of masses (or volumes) of the reactants and the products involved in a chemical reaction.\n\nConsider the combustion of methane:\n`CH4(g) + 2O2(g) -> CO2(g) + 2H2O(g)`\n\nThis balanced equation tells us that **1 mole** of CH4 reacts with **2 moles** of O2 to yield **1 mole** of CO2 and **2 moles** of H2O. We can use molar masses to convert these moles into grams for laboratory work!"
+        },
+        {
+            "id": "chem_basic_11",
+            "type": "content",
+            "title": "Limiting Reagent",
+            "content": "# Running Out of Ingredients\n\nImagine baking a cake. The recipe calls for 2 cups of flour and 2 eggs. \nIf you have 10 cups of flour, but only 2 eggs, you can still only make ONE cake. The eggs are the **limiting ingredient** because they run out first, stopping the process.\n\nIn chemistry, the reactant which is entirely consumed when a reaction goes to completion is called the **limiting reagent**.\nIt is the limiting reagent that determines the amount of product formed, not the reactant that is present in excess!"
+        },
+        {
+            "id": "chem_basic_quiz_3",
+            "type": "quiz",
+            "title": "Stoichiometry Quiz",
+            "content": "Check your understanding of reactions.",
+            "quizQuestion": "In a chemical reaction, the reactant that is completely consumed first and dictates the amount of product formed is called the:",
+            "quizOptions": [
+                "Excess reagent",
+                "Limiting reagent",
+                "Catalyst",
+                "Product reagent"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_basic_12",
+            "type": "content",
+            "title": "Reactions in Solutions",
+            "content": "# Measuring Concentration\n\nA majority of reactions in laboratories are carried out in solutions. We need to know how much solute is dissolved in a solvent.\n\nThe concentration of a solution can be expressed in several ways:\n1. **Mass Percent:** (Mass of solute / Mass of solution) * 100\n2. **Mole Fraction:** Ratio of number of moles of a particular component to the total number of moles of the solution.\n3. **Molarity (M):** Number of moles of solute dissolved in 1 Litre of the solution. (Most common in labs).\n4. **Molality (m):** Number of moles of solute present in 1 kg of solvent."
+        },
+        {
+            "id": "chem_basic_13",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Compound vs Mixture:** Chemically combined in fixed ratios vs physically mixed in any ratio.\n- **Atomic Mass Unit (u):** 1/12th the mass of a Carbon-12 atom.\n- **Mole:** Avogadro's number (6.022 x 10^23) of particles.\n- **Molar Mass:** The mass of one mole of a substance in grams.\n- **Empirical Formula:** The simplest whole-number ratio of atoms in a compound.\n- **Stoichiometry:** Calculating quantities of reactants and products in a balanced chemical equation.\n- **Limiting Reagent:** The reactant that runs out first.\n- **Molarity (M):** Moles of solute per litre of solution."
+        },
+        {
+            "id": "chem_basic_14",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Basic Concepts\n\nExcellent work! Here is a recap of what we've learned:\n\n- Chemistry relies on fundamental laws like the **Law of Definite Proportions** and **Dalton's Atomic Theory**.\n- We measure atomic mass relative to Carbon-12 in **'u'**.\n- The **Mole concept** is the bridge between the microscopic world of atoms and the macroscopic world of grams. One mole contains **6.022 x 10^23** particles.\n- The **Molar Mass** in grams is numerically equal to the molecular mass in 'u'.\n- We use **Stoichiometry** and balanced chemical equations to calculate exactly how much reactant is needed, paying close attention to the **Limiting Reagent** which stops the reaction when consumed."
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "id": "learn_xray",
+    "topicId": "xray",
+    "topicTitle": "X-ray Crystallography",
+    "description": "Discover how crystal growth, diffraction theory, and refinement techniques reveal 3D molecular structures.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "xray_1",
+            "type": "content",
+            "title": "Welcome to X-ray Crystallography",
+            "content": "# X-ray Crystallography\n\nWelcome to the science of seeing atoms in 3D!\n\n## What You Will Learn:\n- **Crystal growth** - The art of making perfect crystals.\n- **Diffraction theory** - How X-rays interact with electrons.\n- **Structure solution** - Solving the \"phase problem.\"\n- **Refinement techniques** - Perfecting the final 3D model.\n\nLet's learn how we determine the exact shape of proteins, drugs, and minerals!"
+        },
+        {
+            "id": "xray_2",
+            "type": "content",
+            "title": "The Big Picture",
+            "content": "# The Big Picture\n\nHow do we \"see\" a molecule if it is smaller than the wavelength of visible light?\n\n## The Concept:\n1. We cannot use visible light; we must use X-rays, which have a wavelength similar to the distance between atoms (approx 1 Angstrom).\n2. We cannot use a lens to focus X-rays into an image.\n3. Instead, we shine X-rays at a crystal.\n4. The crystal scatters (diffracts) the X-rays into a pattern of spots on a detector.\n5. We use a computer to do the math that a lens would normally do, transforming the spot pattern back into a 3D image of the molecule."
+        },
+        {
+            "id": "xray_3",
+            "type": "content",
+            "title": "Crystal Growth",
+            "content": "# Crystal Growth\n\nThe hardest part of crystallography is often getting a crystal in the first place.\n\n## What is a Crystal?\nA solid where the molecules are arranged in a highly ordered, repeating 3D grid (the crystal lattice).\n\n## Why do we need a crystal?\nA single molecule diffuses too little X-ray light to be detected. A crystal contains trillions of identical molecules, all facing the exact same way. When the X-rays hit them, the scattered waves amplify each other, creating a detectable signal."
+        },
+        {
+            "id": "xray_4",
+            "type": "content",
+            "title": "The Vapor Diffusion Method",
+            "content": "# The Vapor Diffusion Method\n\nHow do we coax complex molecules (like proteins) into forming crystals?\n\n## Hanging Drop Vapor Diffusion:\n- A drop containing the protein and a low concentration of a precipitant (like salt or PEG) is suspended over a reservoir.\n- The reservoir contains a much higher concentration of the precipitant.\n- The chamber is sealed.\n- Water slowly evaporates from the drop and transfers to the reservoir to balance the vapor pressure.\n- As water leaves the drop, the protein concentration slowly rises until it reaches supersaturation, forcing the protein molecules to pack together into a crystal lattice."
+        },
+        {
+            "id": "xray_5",
+            "type": "content",
+            "title": "Diffraction Theory",
+            "content": "# Diffraction Theory\n\nWhen X-rays hit the crystal, they don't bounce off the nuclei; they bounce off the **electrons**.\n\n## Constructive Interference:\nWhen X-rays scatter off the repeating planes of molecules in the crystal, the waves interact.\n- If the waves are \"in phase\" (peaks align with peaks), they amplify each other. This creates a dark spot on the detector.\n- If they are \"out of phase\" (peaks align with troughs), they cancel out. The detector is blank.\n\n> **Result:** The diffraction pattern is a series of distinct spots (reflections), not a continuous blur."
+        },
+        {
+            "id": "xray_quiz_1",
+            "type": "quiz",
+            "title": "Diffraction Quiz",
+            "content": "Test your knowledge of X-ray interactions!",
+            "quizQuestion": "In X-ray crystallography, what specific part of the atom scatters the incoming X-rays?",
+            "quizOptions": [
+                "The protons in the nucleus",
+                "The neutrons in the nucleus",
+                "The electrons surrounding the nucleus",
+                "The entire atom acting as a solid sphere"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "xray_6",
+            "type": "content",
+            "title": "Bragg's Law",
+            "content": "# Bragg's Law\n\nWilliam and Lawrence Bragg (father and son) figured out the math connecting the spots to the crystal.\n\n## The Equation:\n```\nn x lambda = 2 x d x sin(theta)\n```\n\n## What it means:\n- **lambda:** Wavelength of the X-ray.\n- **d:** The distance between the repeating planes of molecules in the crystal.\n- **theta:** The angle the X-ray hits the plane.\n- **n:** An integer.\n\n> **Significance:** By measuring the angle (theta) of the spots on the detector, we can calculate the exact distances (d) between the molecules in the crystal lattice!"
+        },
+        {
+            "id": "xray_7",
+            "type": "content",
+            "title": "The Reciprocal Lattice",
+            "content": "# The Reciprocal Lattice\n\nThe pattern of spots on the detector is actually a mathematical inverse of the crystal.\n\n## The Weird Math:\n- Spots that are very close together near the center of the detector represent structural features that are very LARGE (like the overall shape of the molecule).\n- Spots that are far out at the edge of the detector represent structural features that are very SMALL (like the exact distance between two carbon atoms).\n\n> **Resolution:** This is why \"high resolution\" data means collecting spots at the far edges of the detector. If you only get spots near the center, your final 3D picture will be blurry."
+        },
+        {
+            "id": "xray_8",
+            "type": "content",
+            "title": "The Phase Problem",
+            "content": "# The Phase Problem\n\nTo recreate the 3D image using Fourier transforms, the computer needs two pieces of information from every spot on the detector:\n1. **Amplitude (Intensity):** How dark is the spot? (Easy, we just measure it).\n2. **Phase:** Was the light wave at a peak or a trough when it hit the detector? (Impossible to measure directly!).\n\n## The Crisis:\nWe lose 50% of the information the moment the X-ray hits the detector. Without the phases, we cannot calculate the structure. This is known as the **Phase Problem**."
+        },
+        {
+            "id": "xray_9",
+            "type": "content",
+            "title": "Structure Solution",
+            "content": "# Solving the Phase Problem\n\nCrystallographers have invented brilliant tricks to guess or calculate the missing phases.\n\n## 1. Direct Methods:\nFor small molecules (less than 1000 atoms), computers can use probability and statistics to guess the phases. The software tries millions of combinations until the math works out.\n\n## 2. Molecular Replacement (MR):\nIf you are studying a protein, and someone has already solved the structure of a very similar protein, you can use the phases from the known structure as a \"starting guess\" for your unknown structure."
+        },
+        {
+            "id": "xray_10",
+            "type": "content",
+            "title": "Heavy Atom Methods",
+            "content": "# Heavy Atom Methods\n\nWhat if the protein is completely new and Molecular Replacement won't work?\n\n## Isomorphous Replacement (SIR/MIR):\n- You soak the crystal in a solution containing heavy metals (like Uranium, Platinum, or Gold).\n- The heavy metal binds to the protein.\n- Because heavy metals have massive numbers of electrons, they change the intensity of the diffraction spots drastically.\n- By comparing the data from the native crystal and the heavy-metal crystal, you can calculate the phases.\n\n> **Modern Method:** SAD/MAD (Anomalous Dispersion) uses tunable X-rays at a synchrotron to make specific atoms (like Selenium) absorb and re-emit X-rays at specific wavelengths, solving the phases from a single crystal."
+        },
+        {
+            "id": "xray_quiz_2",
+            "type": "quiz",
+            "title": "Phase Problem Quiz",
+            "content": "Test your knowledge of crystallography challenges!",
+            "quizQuestion": "Which of the following describes the 'Phase Problem' in X-ray crystallography?",
+            "quizOptions": [
+                "The inability to grow a perfectly ordered crystal.",
+                "The fact that X-ray detectors can measure wave amplitude (intensity), but not the wave phase.",
+                "The damage caused to the crystal by high-energy X-rays.",
+                "The difficulty of keeping the sample frozen in the solid phase."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "xray_11",
+            "type": "content",
+            "title": "Electron Density Maps",
+            "content": "# Electron Density Maps\n\nOnce the phases are solved, the computer performs a Fourier Transform.\n\n## The Result:\nThe output is an **Electron Density Map**. It looks like a 3D wireframe cloud showing where the electrons are concentrated in space.\n\n## Interpretation:\n- High electron density = an atom is there.\n- Because X-rays scatter off electrons, heavy atoms (like Iron or Sulfur) appear as massive, bright blobs.\n- Light atoms (like Hydrogen, which only has 1 electron) are almost invisible in standard X-ray maps."
+        },
+        {
+            "id": "xray_12",
+            "type": "content",
+            "title": "Model Building",
+            "content": "# Model Building\n\nOnce you have the electron density map, you must build the molecular model into it.\n\n## The Process:\n- Using a 3D graphics program, the crystallographer manually (or semi-automatically) places atoms into the wireframe clouds.\n- You \"thread\" the known sequence of amino acids (or chemical formula) through the continuous tubes of electron density.\n- A large blob attached to the backbone is likely a Tryptophan or Phenylalanine. A small bump is an Alanine."
+        },
+        {
+            "id": "xray_13",
+            "type": "content",
+            "title": "Refinement Techniques",
+            "content": "# Refinement\n\nThe initial model built into the map is never perfect. It must be refined.\n\n## What is Refinement?\nA computational process that adjusts the position (x, y, z coordinates) of every single atom in the model to better match the experimental diffraction data.\n\n## The Cycle:\n1. Build model.\n2. Computer calculates what diffraction spots *this* model would produce.\n3. Compare calculated spots to actual experimental spots.\n4. Adjust atoms slightly to make them match better.\n5. Repeat until the model perfectly explains the experimental data."
+        },
+        {
+            "id": "xray_14",
+            "type": "content",
+            "title": "Model Validation",
+            "content": "# Model Validation: The R-factor\n\nHow do you know if your final 3D structure is correct?\n\n## The R-factor (Residual factor):\nA mathematical measure of how well your 3D model agrees with the raw experimental data.\n- **R = 0%:** A mathematically perfect (impossible) match.\n- **R = 50%:** A completely random model.\n- **R < 20%:** Generally considered a good, solved protein structure.\n\n## R-free:\nA secondary check. You hide 5% of your raw data from the refinement program. If the model is truly correct, it should accurately predict the 5% of data it was never allowed to see. This prevents \"overfitting.\""
+        },
+        {
+            "id": "xray_15",
+            "type": "content",
+            "title": "Summary of X-ray Crystallography",
+            "content": "# X-ray Crystallography Summary\n\n## Key Takeaways:\n1. **The Goal:** To determine the precise 3D arrangement of atoms in a molecule.\n2. **The Physics:** Crystals act as amplifiers, scattering X-rays off their electrons to create diffraction patterns governed by Bragg's Law.\n3. **The Problem:** Detectors only measure intensity, losing the wave phase (The Phase Problem).\n4. **The Solution:** Clever tricks like Molecular Replacement or Heavy Atom soaking recover the phases.\n5. **The Result:** We calculate an electron density map, build a model into it, and refine it until the R-factor proves our model is correct.\n\n> **Conclusion:** Crystallography gives us the most direct, beautiful look at the molecular machines of life."
+        }
+    ]
+}

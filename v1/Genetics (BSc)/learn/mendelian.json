@@ -1,0 +1,71 @@
+{
+    "id": "gen_mendelian",
+    "topicId": "mendelian",
+    "topicTitle": "Mendelian Genetics",
+    "description": "Go beyond Mendel's peas and learn the complex rules of inheritance, including codominance and epistasis.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "gmend_1",
+            "type": "content",
+            "title": "Welcome to Advanced Mendelian Genetics",
+            "content": "# Mendelian Genetics\n\nWelcome to Genetics! We will explore the fundamental laws of inheritance discovered by Gregor Mendel and look at the complex extensions of his rules that govern how traits are passed down.\n\n## What You Will Learn:\n- **Mendel's Laws** - Segregation and Independent Assortment\n- **Extensions to Mendel** - Incomplete dominance and epistasis\n- **Multiple Alleles** - How human blood types work\n- **Pedigree Analysis** - Tracing diseases through families\n\n> **Fun Fact:** Gregor Mendel's groundbreaking work was completely ignored by the scientific community for 35 years until it was rediscovered in 1900!"
+        },
+        {
+            "id": "gmend_2",
+            "type": "content",
+            "title": "Mendel's Core Principles",
+            "content": "# The Foundation of Inheritance\n\nMendel established three core principles using his famous pea plant experiments.\n\n1. **Law of Dominance:** When an organism has two different alleles for a trait (heterozygous), one allele (the dominant one) will completely mask the expression of the other (the recessive one).\n2. **Law of Segregation:** During the formation of gametes (meiosis), the two alleles for a trait separate (segregate) from each other. Each gamete carries only one allele for each gene.\n3. **Law of Independent Assortment:** The alleles for different genes segregate into gametes independently of one another. (e.g., the gene for seed color does not affect the gene for seed shape)."
+        },
+        {
+            "id": "gmend_3",
+            "type": "content",
+            "title": "Extensions to Mendel: Incomplete Dominance",
+            "content": "# Beyond Simple Dominance\n\nMendel's Law of Dominance isn't always true!\n\n## Incomplete Dominance:\n- The dominant allele does NOT completely mask the recessive allele.\n- The heterozygote exhibits a **blended** or intermediate phenotype.\n- Example: Snapdragons (flowers). Crossing a pure Red (RR) with a pure White (rr) produces all Pink (Rr) offspring! \n- If you cross two Pink flowers (Rr x Rr), you get 1 Red : 2 Pink : 1 White (1:2:1 ratio)."
+        },
+        {
+            "id": "gmend_4",
+            "type": "content",
+            "title": "Extensions to Mendel: Codominance",
+            "content": "# Codominance\n\n## Codominance:\n- Both alleles are fully and equally expressed in the heterozygote. There is no blending!\n- Example: Roan cattle. If you cross a pure Red coat cow with a pure White coat cow, the offspring is Roan. A Roan coat is NOT pink; it has distinct patches of pure red hairs and pure white hairs growing side-by-side."
+        },
+        {
+            "id": "gmend_5",
+            "type": "content",
+            "title": "Multiple Alleles",
+            "content": "# More Than Two Options\n\nMendel only studied traits that had exactly two alleles (e.g., Tall or Dwarf). But many genes in a population have three or more alleles.\n\n## Human ABO Blood Types:\nThe gene for human blood type (I) has three alleles in the population: I_A, I_B, and i.\n- **I_A** and **I_B** are codominant to each other.\n- **i** is recessive to both.\n\nPossible Genotypes and Phenotypes:\n- I_A I_A or I_A i = Type A blood\n- I_B I_B or I_B i = Type B blood\n- I_A I_B = Type AB blood (Codominance!)\n- i i = Type O blood"
+        },
+        {
+            "id": "gmend_quiz_1",
+            "type": "quiz",
+            "title": "Extensions Quiz",
+            "content": "Test your non-Mendelian knowledge.",
+            "quizQuestion": "If a red flower and a white flower are crossed, and the offspring has distinct, separate patches of both red and white color, this is an example of:",
+            "quizOptions": [
+                "Incomplete dominance",
+                "Codominance",
+                "Complete dominance",
+                "Multiple alleles"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "gmend_6",
+            "type": "content",
+            "title": "Epistasis",
+            "content": "# When Genes Interfere\n\n## Epistasis:\n- A phenomenon where the effect of one gene is modified or completely masked by one or several other genes.\n- Example: Coat color in Labrador Retrievers.\n  - Gene B determines color (B = black, b = brown).\n  - Gene E determines if the pigment gets deposited in the hair (E = yes, e = no).\n  - If a dog has the genotype 'ee', the pigment is blocked, and the dog will be a Yellow Lab, completely regardless of whether its other gene is BB, Bb, or bb! The 'e' gene is epistatic to the 'b' gene."
+        },
+        {
+            "id": "gmend_7",
+            "type": "content",
+            "title": "Pedigree Analysis",
+            "content": "# Tracing Family Histories\n\nA pedigree is a visual chart representing family relationships and the transmission of specific traits/diseases.\n\n## Standard Symbols:\n- **Square:** Male\n- **Circle:** Female\n- **Filled/Shaded:** Affected by the trait\n- **Empty/Unshaded:** Unaffected\n\n## Analyzing Modes of Inheritance:\n- **Autosomal Dominant:** Appears in every generation. Affected individuals must have an affected parent (e.g., Huntington's disease).\n- **Autosomal Recessive:** Can skip generations. Two unaffected parents can have an affected child (if both are carriers). (e.g., Cystic Fibrosis).\n- **X-Linked Recessive:** Affects males much more frequently than females. (e.g., Color blindness, Hemophilia)."
+        },
+        {
+            "id": "gmend_8",
+            "type": "content",
+            "title": "Summary: Mendelian Genetics",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Mendel's Laws:** Dominance, Segregation (alleles separate), Independent Assortment.\n- **Incomplete Dominance:** A blended phenotype (Red x White = Pink).\n- **Codominance:** Both traits are fully expressed (Roan cattle, Type AB blood).\n- **Multiple Alleles:** More than 2 alleles exist for a gene in a population (Human ABO blood groups have 3).\n- **Epistasis:** One gene masks or alters the expression of a totally different gene (Labrador coat colors).\n- **Pedigrees:** Charts used to trace autosomal dominant/recessive and sex-linked traits through generations.\n\n> **Congratulations!** You have completed the Mendelian Genetics module."
+        }
+    ]
+}

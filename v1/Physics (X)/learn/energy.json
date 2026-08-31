@@ -1,0 +1,147 @@
+{
+    "id": "learn_energy",
+    "topicId": "energy",
+    "topicTitle": "Sources of Energy",
+    "description": "Where does the power come from to run our cities, factories, and cars? Explore the fuels of today and the renewable energies of tomorrow.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "energy_1",
+            "type": "content",
+            "title": "Welcome to Sources of Energy",
+            "content": "# The Fuel for Civilization\n\nEnergy comes in different forms, and one form can be converted to another.\nFor example, if we drop a plate from a height, the potential energy of the plate is converted mostly to sound energy when it hits the ground.\n\nEnergy is conserved, but it often gets converted into less usable forms (like heat or sound).\n\n## What You Will Learn:\n- **What makes a good source of energy?**\n- **Conventional Sources:** Fossil fuels, thermal power, and hydropower.\n- **Non-Conventional Sources:** Solar, wind, geothermal, and nuclear energy.\n- **Environmental Impact:** The cost of our energy consumption."
+        },
+        {
+            "id": "energy_2",
+            "type": "content",
+            "title": "What is a Good Source of Energy?",
+            "content": "# The Ideal Fuel\n\nIf we want to cook food or run a factory, we need a source of energy. But not all sources are equally good.\n\n## Characteristics of a Good Energy Source:\n1. It would do a **large amount of work per unit volume or mass** (it has a high calorific value).\n2. It should be **easily accessible** and available in large quantities.\n3. It should be **easy to store and transport**.\n4. It should be **economical** (cheap).\n5. It should cause **minimum pollution**.\n\nThere is no \"perfect\" fuel, so we have to balance these factors when choosing how to power our society."
+        },
+        {
+            "id": "energy_3",
+            "type": "content",
+            "title": "Conventional Sources of Energy",
+            "content": "# Fossil Fuels\n\nIn ancient times, wood was the most common source of heat energy. Later, the exploitation of coal made the industrial revolution possible.\n\n## What are Fossil Fuels?\nFossil fuels (like coal, petroleum, and natural gas) were formed over millions of years from the degraded remains of plants and animals buried deep inside the earth.\n\n## The Drawbacks:\n1. **Non-renewable:** These reserves take millions of years to form. Once we use them up, they are gone forever.\n2. **Pollution:** Burning fossil fuels releases acidic oxides (causing acid rain) and greenhouse gases like carbon dioxide (causing global warming)."
+        },
+        {
+            "id": "energy_quiz_1",
+            "type": "quiz",
+            "title": "Fossil Fuels Quiz",
+            "content": "Check your understanding of conventional energy.",
+            "quizQuestion": "Which of the following is considered a non-renewable fossil fuel?",
+            "quizOptions": [
+                "Wood",
+                "Sunlight",
+                "Coal",
+                "Wind"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "energy_4",
+            "type": "content",
+            "title": "Thermal Power Plants",
+            "content": "# Burning for Electricity\n\nLarge amounts of fossil fuels are burnt every day in power stations to heat up water to produce steam.\n\n## How it works:\n1. Coal or gas is burned to boil water.\n2. The boiling water creates high-pressure steam.\n3. This steam is used to spin a **turbine**.\n4. The turbine is connected to a generator, which produces electricity via electromagnetic induction.\n\nThese are called thermal power plants because heat energy is converted into electrical energy."
+        },
+        {
+            "id": "energy_5",
+            "type": "content",
+            "title": "Hydro Power Plants",
+            "content": "# Power from Falling Water\n\nAnother traditional source of energy is the kinetic energy of flowing water or the potential energy of water at a height.\n\n## How it works:\n1. High-rise dams are constructed on rivers to obstruct the flow of water and collect water in large reservoirs. The water level rises, storing huge amounts of **potential energy**.\n2. The water from the high level is carried through pipes to a **turbine** at the bottom of the dam.\n3. The falling water spins the turbine, generating electricity.\n\n## Advantages:\nIt is a renewable source of energy and does not cause air pollution."
+        },
+        {
+            "id": "energy_6",
+            "type": "content",
+            "title": "Drawbacks of Hydro Power",
+            "content": "# The Cost of Dams\n\nWhile hydro power doesn't produce smoke, building large dams creates other massive problems:\n\n1. **Displacement:** Large areas of agricultural land and human habitation are to be sacrificed as they get submerged.\n2. **Ecosystem Destruction:** Large ecosystems are destroyed when submerged under the water in dams. The vegetation which is submerged rots under anaerobic conditions and produces large amounts of **methane**, which is a powerful greenhouse gas.\n3. **Geographic limits:** Dams can only be constructed in a limited number of places, preferably in hilly terrains."
+        },
+        {
+            "id": "energy_quiz_2",
+            "type": "quiz",
+            "title": "Hydro Power Quiz",
+            "content": "Check your understanding of dams.",
+            "quizQuestion": "What type of energy is stored in the water collected in the reservoir of a high-rise dam?",
+            "quizOptions": [
+                "Kinetic energy",
+                "Potential energy",
+                "Electrical energy",
+                "Thermal energy"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "energy_7",
+            "type": "content",
+            "title": "Biomass and Biogas",
+            "content": "# Energy from Organic Waste\n\nPlant and animal products (like wood, cow-dung, and agricultural waste) are called **biomass**.\n\n## Biogas Plants:\nCow-dung, various plant materials, and sewage are decomposed in the absence of oxygen to produce **biogas** (often called gobar gas in India).\n\n- The main component of biogas is **methane** (up to 75%), which is an excellent fuel.\n- It burns without smoke, leaves no residue like ash, and its heating capacity is high.\n- The slurry left behind is removed periodically and used as excellent manure, rich in nitrogen and phosphorus."
+        },
+        {
+            "id": "energy_8",
+            "type": "content",
+            "title": "Wind Energy",
+            "content": "# Power from the Air\n\nUnequal heating of the landmass and water bodies by solar radiation generates air movement and causes winds to blow. This kinetic energy can be harnessed by **windmills**.\n\n## How it works:\nThe rotatory motion of the windmill is used to turn the turbine of the electric generator.\n\n## Limitations:\n- Wind farms can only be established in places where wind blows for the greater part of the year.\n- The wind speed must be higher than 15 km/h to maintain the required speed of the turbine.\n- They require large areas of land and a high initial cost of establishment."
+        },
+        {
+            "id": "energy_9",
+            "type": "content",
+            "title": "Solar Energy",
+            "content": "# Power from the Sun\n\nThe Sun has been radiating an enormous amount of energy at the present rate for nearly 5 billion years!\n\n## Solar Cells (Photovoltaic cells):\nA typical solar cell converts solar energy directly into electricity. \n- A large number of solar cells are combined in an arrangement called a **solar cell panel** that can deliver enough electricity for practical use.\n- The principal advantages are that they have no moving parts, require little maintenance, and can be set up in remote, inaccessible hamlets.\n- The major limitation is that the special grade silicon for making them is expensive, and manufacturing them is a costly process."
+        },
+        {
+            "id": "energy_10",
+            "type": "content",
+            "title": "Geothermal Energy",
+            "content": "# Heat from the Earth\n\nDue to geological changes, molten rocks formed in the deeper hot regions of earth's crust are pushed upward and trapped in certain regions called 'hot spots'.\n\n## How it works:\nWhen underground water comes in contact with the hot spot, steam is generated. Sometimes hot water from that region finds outlets at the surface (hot springs).\n\nThis steam routed through a pipe to a turbine is used to generate electricity.\n- The cost of production is not much, but there are very few commercially viable sites where such energy can be exploited."
+        },
+        {
+            "id": "energy_11",
+            "type": "content",
+            "title": "Nuclear Energy",
+            "content": "# Splitting the Atom\n\nHow is nuclear energy generated?\n\n## Nuclear Fission:\nIn a process called nuclear fission, the nucleus of a heavy atom (such as uranium, plutonium, or thorium), when bombarded with low-energy neutrons, can be split apart into lighter nuclei. \nWhen this is done, a tremendous amount of energy is released!\n\nIn a nuclear reactor, a controlled chain reaction releases energy at a steady rate, which is used to produce steam and further generate electricity."
+        },
+        {
+            "id": "energy_12",
+            "type": "content",
+            "title": "The Dangers of Nuclear Energy",
+            "content": "# Radiation and Waste\n\nWhile nuclear energy does not produce carbon dioxide, it has massive risks:\n\n1. **Storage and Disposal:** Spent fuel (used Uranium) decays into extremely harmful subatomic particles (radiations). Improper storage causes environmental contamination.\n2. **Accident Risk:** There is always a risk of accidental leakage of nuclear radiation, which can be catastrophic to human life and the environment.\n3. **Cost:** The high cost of installation of a nuclear power plant."
+        },
+        {
+            "id": "energy_quiz_3",
+            "type": "quiz",
+            "title": "Alternative Energy Quiz",
+            "content": "Check your understanding of non-conventional sources.",
+            "quizQuestion": "Which source of energy uses the process of splitting heavy atoms, like Uranium, to produce immense amounts of heat?",
+            "quizOptions": [
+                "Geothermal Energy",
+                "Solar Energy",
+                "Nuclear Energy",
+                "Biogas Energy"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "energy_13",
+            "type": "content",
+            "title": "Environmental Consequences",
+            "content": "# The Clean Energy Myth\n\nExploiting any source of energy disturbs the environment in some way or the other.\n\nEven if we say a source is \"clean\" (like a solar panel), the assembly of the device would have caused some environmental damage.\n\n## The Choice:\nWe need to make informed decisions. We should choose energy sources depending on:\n- The ease of extracting energy from that source.\n- The economics (cost) of extracting energy from the source.\n- The efficiency of the technology available.\n- The environmental damage that will be caused."
+        },
+        {
+            "id": "energy_14",
+            "type": "content",
+            "title": "How Long Will Energy Last?",
+            "content": "# Renewable vs Non-Renewable\n\nBased on how long they will last, we categorize energy sources into two groups:\n\n## 1. Non-Renewable Sources:\nSources that will get depleted some day. We cannot create more of them in our lifetime. (e.g., Coal, Petroleum, Natural Gas).\n\n## 2. Renewable Sources:\nEnergy sources that can be regenerated or that will last for essentially forever (like the Sun, wind, or flowing water). Biomass is also renewable if we plant trees at the same rate that we cut them down."
+        },
+        {
+            "id": "energy_15",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Fossil Fuels:** Non-renewable fuels formed from dead organisms over millions of years.\n- **Thermal Power Plant:** Burns fuels to create steam, turning turbines to generate electricity.\n- **Hydro Power:** Uses the potential energy of falling water to generate electricity.\n- **Biomass:** Organic waste used as a fuel source.\n- **Biogas:** A methane-rich gas produced by the anaerobic decomposition of biomass.\n- **Nuclear Fission:** Splitting heavy atoms (Uranium) to release massive energy.\n- **Renewable Energy:** Energy from sources that replenish naturally (solar, wind)."
+        },
+        {
+            "id": "energy_16",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Sources of Energy\n\nExcellent work! Here is a recap of what we've learned:\n\n- An ideal energy source provides high output, is cheap, easy to transport, and minimally polluting.\n- **Conventional sources** include **fossil fuels** (which cause pollution and global warming) and **hydro power** (which requires disruptive dams).\n- **Thermal power plants** use fossil fuels to boil water; the steam turns turbines to generate electricity.\n- **Alternative/Non-conventional sources** include solar cells, wind energy, and geothermal energy.\n- **Nuclear energy** provides massive power via fission but poses severe radiation and waste disposal risks.\n- Every energy source has some environmental impact, so we must prioritize **renewable** and cleaner technologies."
+        }
+    ]
+}

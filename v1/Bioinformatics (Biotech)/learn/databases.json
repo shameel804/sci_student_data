@@ -1,0 +1,129 @@
+{
+    "id": "learn_bioinfo_databases",
+    "topicId": "databases",
+    "topicTitle": "Genomic Databases",
+    "description": "Navigate the massive online repositories of biological data, learning how to search, retrieve, and mine genomic and proteomic information.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "bioinfo_db_1",
+            "type": "content",
+            "title": "Welcome to Biological Databases",
+            "content": "# Introduction to Databases\n\nWelcome to the data side of **Bioinformatics**!\n\nDue to Next-Generation Sequencing, we are currently generating biological data faster than we are generating astronomical data! Where does all this DNA and protein data go? \n\n## What You Will Learn:\n- **Nucleotide Databases** - The world's DNA repositories\n- **Protein Databases** - Curating the functional molecules\n- **Database Searching** - How BLAST finds needles in the haystack\n- **Data Mining** - Using AI and statistics to find hidden patterns\n\nLet's dive into the biological internet!"
+        },
+        {
+            "id": "bioinfo_db_2",
+            "type": "content",
+            "title": "The Big Data Problem",
+            "content": "# The Explosion of Data\n\nIn 1982, GenBank contained exactly 606 sequences.\nToday, it contains hundreds of millions of sequences totaling trillions of base pairs!\n\n## The Need for Curation\nHaving trillions of A, T, C, and Gs is useless if you can't search them or understand what they do. Biological databases are not just hard drives; they are highly curated, annotated systems.\n\nEvery sequence uploaded must have **metadata** (annotation): What species is it from? What tissue was it extracted from? Has the function been experimentally verified, or is it just a computer prediction? \n\nWithout good metadata, a database becomes a digital junkyard."
+        },
+        {
+            "id": "bioinfo_db_3",
+            "type": "content",
+            "title": "Nucleotide Databases",
+            "content": "# The INSDC\n\nThe world's DNA data is managed by a coalition called the **International Nucleotide Sequence Database Collaboration (INSDC)**.\n\nIt consists of three major nodes that synchronize their data daily, meaning if you search one, you are effectively searching them all:\n\n1. **GenBank:** Hosted by the NCBI in the United States.\n2. **ENA (European Nucleotide Archive):** Hosted by EMBL-EBI in the UK.\n3. **DDBJ (DNA Data Bank of Japan):** Hosted in Japan.\n\n## GenBank\nGenBank is the most famous. Anyone who publishes a scientific paper containing a new DNA sequence MUST upload that sequence to GenBank and receive a unique \"Accession Number\" before the paper can be published."
+        },
+        {
+            "id": "bioinfo_db_4",
+            "type": "content",
+            "title": "The NCBI",
+            "content": "# The NCBI Ecosystem\n\nGenBank is just one part of the **National Center for Biotechnology Information (NCBI)**, a branch of the US National Institutes of Health.\n\n## Entrez\nThe NCBI uses a search engine called **Entrez** that connects all their different databases together.\n\nIf you search for a gene (like \"BRCA1\") in Entrez, it doesn't just give you the DNA sequence. It gives you:\n- The DNA sequence (GenBank)\n- The translated protein sequence\n- Known genetic mutations causing breast cancer (ClinVar)\n- 3D structural models of the protein (Structure)\n- All published scientific papers mentioning the gene (PubMed)\n\nEntrez links all human biological knowledge together!"
+        },
+        {
+            "id": "bioinfo_db_quiz_1",
+            "type": "quiz",
+            "title": "DNA Database Quiz",
+            "content": "Check your understanding of the major repositories.",
+            "quizQuestion": "Why do the three major databases of the INSDC (GenBank, ENA, and DDBJ) synchronize their data daily?",
+            "quizOptions": [
+                "To prevent hackers from stealing the data",
+                "To ensure that researchers worldwide have access to the exact same comprehensive global dataset regardless of which portal they use",
+                "To translate the DNA sequences into different languages",
+                "To delete old, outdated sequences"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "bioinfo_db_5",
+            "type": "content",
+            "title": "Protein Databases",
+            "content": "# Protein Databases Intro\n\nDNA databases are often messy because they contain massive amounts of raw, unverified data straight from sequencing machines. \n\nProtein databases are generally more highly curated.\n\n## UniProt (Universal Protein Resource)\nUniProt is the gold standard for protein sequences and functional information.\nIt is split into two main sections:\n\n1. **UniProtKB/Swiss-Prot:** The elite section. Every entry here has been manually reviewed, verified, and annotated by a human biologist. It is highly accurate but grows slowly.\n2. **UniProtKB/TrEMBL:** The automated section. It contains millions of protein sequences translated directly from DNA by computers. It grows massive and fast, but the \"predicted\" functions are not manually verified and may contain errors."
+        },
+        {
+            "id": "bioinfo_db_6",
+            "type": "content",
+            "title": "The Protein Data Bank",
+            "content": "# The PDB (Protein Data Bank)\n\nUniProt gives you the 1D sequence of amino acids (primary structure). But proteins function based on their 3D shape.\n\n## The PDB\nThe **Protein Data Bank (PDB)** is the worldwide repository for the 3D shapes of proteins, nucleic acids, and complex assemblies.\n\n- The data in the PDB is NOT predicted by computers. \n- It comes strictly from hard physical experiments, primarily **X-ray Crystallography**, **NMR Spectroscopy**, and **Cryo-Electron Microscopy**.\n- When you download a file from the PDB, you are downloading the exact XYZ 3D spatial coordinates for every single atom in that protein molecule!\n\n> **Importance:** The PDB is the foundation of modern drug discovery. Pharmaceutical companies use PDB files to design drugs that perfectly fit into the active site of a disease-causing protein."
+        },
+        {
+            "id": "bioinfo_db_quiz_2",
+            "type": "quiz",
+            "title": "Protein Database Quiz",
+            "content": "Check your understanding of protein resources.",
+            "quizQuestion": "What is the primary difference between the Swiss-Prot and TrEMBL sections of the UniProt database?",
+            "quizOptions": [
+                "Swiss-Prot contains DNA, TrEMBL contains RNA",
+                "Swiss-Prot is manually reviewed and verified by humans; TrEMBL is automatically generated by computers",
+                "Swiss-Prot requires a paid subscription",
+                "TrEMBL only contains proteins from viruses"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "bioinfo_db_7",
+            "type": "content",
+            "title": "Database Searching",
+            "content": "# Database Searching\n\nYou have just sequenced an unknown gene from a soil sample. You want to know what it is. \n\nYou need to compare your sequence against the hundreds of millions of sequences in GenBank. \n\nAs we learned in the Sequence Alignment module, using a rigorous algorithm like Needleman-Wunsch to compare your one gene against 500 million genes would take months of supercomputer time.\n\nWe need a heuristic shortcut that sacrifices a tiny bit of math perfection for massive speed."
+        },
+        {
+            "id": "bioinfo_db_8",
+            "type": "content",
+            "title": "BLAST Intro",
+            "content": "# Enter BLAST\n\n**BLAST (Basic Local Alignment Search Tool)** is the most famous and widely used program in all of bioinformatics.\n\nIt allows you to paste your unknown sequence (the **Query**) into a web browser, hit search, and get a list of the best local matches from the entire global database in about 15 seconds!\n\n## Types of BLAST:\n- **blastn:** Compares a nucleotide query against a nucleotide database.\n- **blastp:** Compares a protein query against a protein database.\n- **blastx:** Takes a nucleotide query, translates it into protein on the fly (in all 6 reading frames), and compares it against a protein database. (Extremely useful for finding out if your random DNA actually codes for a known protein!)"
+        },
+        {
+            "id": "bioinfo_db_9",
+            "type": "content",
+            "title": "How BLAST Works",
+            "content": "# The BLAST Shortcut\n\nHow does BLAST search 500 million sequences in 15 seconds?\n\n## The \"Word\" Method\n1. BLAST does NOT try to align your whole sequence at first.\n2. It breaks your Query sequence into tiny \"words\" (usually 3 amino acids long, or 11 DNA bases long).\n3. It scans the database looking ONLY for exact, perfect matches to those tiny 3-letter words. (Computers can do exact word-matching instantly).\n4. When it finds a database sequence that has a perfect word match, it flags it as a \"Hit.\"\n5. **The Extension:** BLAST then stops scanning and uses the Smith-Waterman algorithm to try and extend that tiny 3-letter hit outward in both directions to see if it forms a longer, valid local alignment.\n\nBy instantly ignoring 99% of the database that doesn't contain a word match, it saves massive amounts of time!"
+        },
+        {
+            "id": "bioinfo_db_10",
+            "type": "content",
+            "title": "Understanding E-values",
+            "content": "# The E-value\n\nWhen BLAST returns a list of matching sequences, how do you know if the match is biologically real or just a random coincidence?\n\n## The Expectation Value (E-value)\nThe E-value is the ultimate metric of a BLAST search.\n\nIt represents the number of times you would **expect** to find a match with this score purely by random chance in a database of this size.\n\n- An E-value of 10 means you'd expect to find 10 matches this good just by rolling dice. The match is garbage.\n- An E-value of 0.05 is the standard threshold for significance.\n- An E-value of `1 x 10^-50` (or approx 0) means there is mathematically zero chance this match occurred randomly. It is a true evolutionary homolog!\n\n> **The Rule:** The closer the E-value is to ZERO, the better the match!"
+        },
+        {
+            "id": "bioinfo_db_quiz_3",
+            "type": "quiz",
+            "title": "BLAST Quiz",
+            "content": "Check your understanding of the E-value.",
+            "quizQuestion": "You run a BLAST search and receive two hits. Hit A has an E-value of 2.5. Hit B has an E-value of 0.00001. Which hit is a more biologically reliable match?",
+            "quizOptions": [
+                "Hit A, because a higher E-value means higher similarity",
+                "Hit B, because a lower E-value means it is highly unlikely the match occurred by random chance",
+                "They are equally reliable",
+                "Neither, because E-values must be negative numbers"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "bioinfo_db_11",
+            "type": "content",
+            "title": "Data Mining",
+            "content": "# Data Mining in Bioinformatics\n\nWith so much data, we can move beyond searching for single genes and start \"mining\" the data to find hidden, global patterns.\n\n## Hidden Markov Models (HMMs)\nInstead of using a single sequence to search a database, we can use an MSA of 100 related proteins to build a statistical model (an HMM).\n- The HMM acts as a \"profile\" of that entire protein family.\n- It learns exactly which amino acids are allowed at position 1, position 2, etc., and calculates the probabilities.\n- We can then use that mathematical profile to scan the database to find incredibly distant, highly mutated members of that protein family that normal BLAST could never find!\n\nDatabases like **Pfam** use HMMs to classify all known proteins into functional families."
+        },
+        {
+            "id": "bioinfo_db_12",
+            "type": "content",
+            "title": "Gene Ontology",
+            "content": "# Gene Ontology (GO)\n\nOne of the biggest problems in biological databases was that different scientists used different words to describe the same thing. \n\nOne database might say a protein is involved in \"cell death,\" another says \"apoptosis,\" another says \"programmed cell death.\"\n\n## The GO Consortium\nThe Gene Ontology project created a strict, universal, machine-readable vocabulary for describing what genes do.\n\nEvery protein is tagged with GO terms in three categories:\n1. **Molecular Function:** What it physically does (e.g., \"ATP binding\")\n2. **Cellular Component:** Where it lives (e.g., \"Mitochondrial inner membrane\")\n3. **Biological Process:** The broader goal it contributes to (e.g., \"Apoptosis\")\n\nBy standardizing the language, computers can finally \"understand\" and mine the biology!"
+        },
+        {
+            "id": "bioinfo_db_13",
+            "type": "content",
+            "title": "Summary of Databases",
+            "content": "# Genomic Databases Summary\n\n## Key Takeaways:\n\n### The Repositories\n- **INSDC (GenBank, ENA, DDBJ)** stores the world's raw DNA sequences.\n- **NCBI Entrez** links DNA, proteins, papers, and diseases together.\n- **UniProt** curates proteins (Swiss-Prot is manual/accurate; TrEMBL is automatic/massive).\n- **PDB** stores exact 3D atomic coordinates from physical experiments.\n\n### Searching\n- **BLAST** uses a heuristic \"word\" method to instantly find local alignments in massive databases.\n- The **E-value** must be close to ZERO to indicate a true, non-random biological match.\n\n### Mining\n- **HMMs** use statistics to build profiles of entire protein families.\n- **Gene Ontology (GO)** standardizes biological vocabulary so computers can mine data effectively.\n\n> **Next Up:** How do we predict the 3D structure of a protein if we only have the 1D sequence?"
+        }
+    ]
+}

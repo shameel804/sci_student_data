@@ -1,0 +1,77 @@
+{
+    "id": "zoo_classification",
+    "topicId": "classification",
+    "topicTitle": "Animal Classification",
+    "description": "Survey the vast diversity of the animal kingdom, from simple sponges to complex mammals.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "zclass_1",
+            "type": "content",
+            "title": "Welcome to Animal Taxonomy",
+            "content": "# Animal Classification\n\nWelcome to Animal Taxonomy! With over a million identified animal species, we need a rigorous system to categorize them based on their evolutionary relationships.\n\n## What You Will Learn:\n- **Principles of Taxonomy** - Binomial nomenclature and cladistics\n- **Non-Chordates** - Invertebrates from sponges to starfish\n- **Chordates** - The vertebrates, including us\n- **Phylogenetic Trees** - Reading evolutionary history\n\n> **Fun Fact:** Insects make up more than half of all known living organisms on Earth!"
+        },
+        {
+            "id": "zclass_2",
+            "type": "content",
+            "title": "Taxonomy and Phylogeny",
+            "content": "# Organizing Life\n\n## Linnaean Classification:\nDeveloped by Carl Linnaeus. It uses a hierarchical system:\nDomain -> Kingdom -> Phylum -> Class -> Order -> Family -> Genus -> Species.\n*(Mnemonic: Dear King Philip Came Over For Good Soup)*.\n\n## Binomial Nomenclature:\nEvery species has a two-part scientific name in Latin: Genus (capitalized) + species (lowercase). E.g., *Homo sapiens*.\n\n## Phylogeny:\nModern classification isn't just about what animals look like; it's about their evolutionary history. We use **Cladistics** to build phylogenetic trees, grouping animals based on shared derived characteristics (e.g., all mammals share the derived trait of hair)."
+        },
+        {
+            "id": "zclass_3",
+            "type": "content",
+            "title": "Basis of Classification",
+            "content": "# How do we divide animals?\n\nAnimals are classified based on fundamental body plans.\n\n## 1. Symmetry:\n- **Asymmetrical:** No symmetry (Sponges).\n- **Radial Symmetry:** Can be divided into equal halves in many planes (Jellyfish, Starfish).\n- **Bilateral Symmetry:** Can be divided into left and right halves in only one plane (Insects, Humans).\n\n## 2. Germ Layers:\n- **Diploblastic:** Two embryonic layers (Ectoderm and Endoderm). e.g., Cnidarians.\n- **Triploblastic:** Three layers (Ectoderm, Mesoderm, Endoderm). Allows for complex organs. e.g., Flatworms to Humans.\n\n## 3. Coelom (Body Cavity):\n- A fluid-filled space between the gut and body wall, entirely lined by mesoderm. Crucial for organ development and acting as a hydrostatic skeleton."
+        },
+        {
+            "id": "zclass_4",
+            "type": "content",
+            "title": "Major Invertebrate Phyla - 1",
+            "content": "# The Simpler Invertebrates\n\n## Phylum Porifera (Sponges):\n- Asymmetrical, multicellular but NO tissues.\n- Body has pores (ostia) for water to enter and a large exit hole (osculum).\n\n## Phylum Cnidaria (Jellyfish, Corals):\n- Radial symmetry, diploblastic.\n- Possess stinging cells called **cnidocytes**.\n- Two body forms: Polyp (sessile, like corals) and Medusa (free-swimming, like jellyfish).\n\n## Phylum Platyhelminthes (Flatworms):\n- Bilateral, triploblastic, but **acoelomate** (no body cavity).\n- Dorso-ventrally flattened. Many are parasites (tapeworms)."
+        },
+        {
+            "id": "zclass_5",
+            "type": "content",
+            "title": "Major Invertebrate Phyla - 2",
+            "content": "# Complex Invertebrates\n\n## Phylum Annelida (Segmented Worms):\n- Earthworms, leeches. True coelomates with distinctly segmented bodies (metamerism).\n\n## Phylum Arthropoda (Insects, Spiders, Crabs):\n- The largest phylum. Bilateral, coelomate.\n- Defining features: **Jointed appendages** and an exoskeleton made of chitin.\n\n## Phylum Mollusca (Snails, Octopus, Clams):\n- Second largest phylum. Soft-bodied, often protected by a calcareous shell.\n- Defining features: A muscular foot, a visceral mass, and a mantle.\n\n## Phylum Echinodermata (Starfish, Sea Urchins):\n- Spiny-skinned marine animals. Adults have radial symmetry, but larvae have bilateral symmetry!\n- Possess a unique water vascular system for movement."
+        },
+        {
+            "id": "zclass_quiz_1",
+            "type": "quiz",
+            "title": "Phylum Quiz",
+            "content": "Test your invertebrate knowledge.",
+            "quizQuestion": "Which phylum is characterized by having jointed appendages and a chitinous exoskeleton?",
+            "quizOptions": [
+                "Annelida",
+                "Mollusca",
+                "Arthropoda",
+                "Echinodermata"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "zclass_6",
+            "type": "content",
+            "title": "Phylum Chordata",
+            "content": "# The Chordates\n\nWe belong to this phylum! All chordates must have four specific features at some point in their life cycle (even if just in the embryo):\n\n1. **Notochord:** A flexible rod providing support (becomes the spine in vertebrates).\n2. **Dorsal Hollow Nerve Cord:** Becomes the brain and spinal cord.\n3. **Pharyngeal Slits:** Openings in the throat (become gills in fish, disappear in humans).\n4. **Post-anal Tail:** A tail extending past the anus.\n\n## Subphylum Vertebrata:\nThe notochord is replaced by a bony or cartilaginous vertebral column (backbone)."
+        },
+        {
+            "id": "zclass_7",
+            "type": "content",
+            "title": "Vertebrate Classes - 1",
+            "content": "# Fish and Amphibians\n\n## Class Chondrichthyes (Cartilaginous Fish):\n- Sharks and rays.\n- Skeleton is made entirely of cartilage, not bone.\n- Must keep swimming to force water over gills (most lack gill covers/operculum).\n\n## Class Osteichthyes (Bony Fish):\n- Salmon, tuna, goldfish.\n- Skeleton is made of bone.\n- Have a swim bladder for buoyancy (they don't have to swim constantly).\n\n## Class Amphibia (Frogs, Salamanders):\n- \"Dual life.\" Can live on land but MUST return to water to breed (eggs lack a protective shell and will dry out).\n- Respire through lungs and their moist skin."
+        },
+        {
+            "id": "zclass_8",
+            "type": "content",
+            "title": "Vertebrate Classes - 2",
+            "content": "# Reptiles, Birds, and Mammals\n\n## Class Reptilia (Snakes, Lizards, Turtles):\n- Fully adapted to land. Possess dry, scaly skin to prevent water loss.\n- Lay **amniotic eggs** (eggs with a leathery shell) so they don't need water to breed.\n\n## Class Aves (Birds):\n- Evolved from theropod dinosaurs. Defining feature: Feathers.\n- Forelimbs modified into wings. Bones are hollow (pneumatic) to reduce weight for flight.\n- Endothermic (warm-blooded).\n\n## Class Mammalia (Humans, Dogs, Whales):\n- Defining features: Presence of **mammary glands** (to produce milk) and **hair/fur**.\n- Endothermic. Most give birth to live young (viviparous)."
+        },
+        {
+            "id": "zclass_9",
+            "type": "content",
+            "title": "Summary: Animal Classification",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Taxonomy:** Hierarchical naming based on evolutionary history (phylogeny).\n- **Basis:** Classified by symmetry (radial vs bilateral), germ layers (diplo vs triplo), and coelom presence.\n- **Invertebrates:** Porifera (sponges), Cnidaria (jellyfish), Platyhelminthes (flatworms), Annelida (segmented worms), Arthropoda (jointed legs), Mollusca (shells), Echinodermata (spiny skin).\n- **Chordates:** Must have a notochord, dorsal nerve cord, pharyngeal slits, and post-anal tail.\n- **Vertebrates:** Chondrichthyes (cartilage), Osteichthyes (bone), Amphibia (dual life), Reptilia (amniotic egg), Aves (feathers), Mammalia (hair and milk).\n\n> **Congratulations!** You have completed the Animal Classification module."
+        }
+    ]
+}

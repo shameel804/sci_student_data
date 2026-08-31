@@ -1,0 +1,141 @@
+{
+    "id": "learn_catalysis",
+    "topicId": "catalysis",
+    "topicTitle": "Asymmetric Catalysis",
+    "description": "Explore chiral catalysts, enantioselective synthesis, diastereoselective reactions, and asymmetric methodologies.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "cat_1",
+            "type": "content",
+            "title": "Welcome to Asymmetric Catalysis",
+            "content": "# Asymmetric Catalysis\n\nWelcome to the precision engineering of organic chemistry!\n\n## What You Will Learn:\n- **Chiral catalysts** - The tools for making handed molecules\n- **Enantioselective synthesis** - Making one mirror image over the other\n- **Diastereoselective reactions** - Controlling relative stereochemistry\n- **Asymmetric methodologies** - State-of-the-art synthetic techniques\n\nLet's learn how to control the 3D shape of molecules!"
+        },
+        {
+            "id": "cat_2",
+            "type": "content",
+            "title": "What is Asymmetry?",
+            "content": "# Chirality and Asymmetry\n\nA molecule is **chiral** if it cannot be superimposed on its mirror image (like your left and right hands).\n\n## Enantiomers vs Diastereomers:\n- **Enantiomers:** Non-superimposable mirror images. They have identical physical properties (boiling point, NMR) but rotate plane-polarized light in opposite directions.\n- **Diastereomers:** Stereoisomers that are NOT mirror images. They have different physical properties.\n\n## Why it matters:\nBiological receptors are chiral (made of L-amino acids). Therefore, the two enantiomers of a drug can have vastly different effects in the body. One might cure a disease, while the other might be toxic."
+        },
+        {
+            "id": "cat_3",
+            "type": "content",
+            "title": "The Challenge of Synthesis",
+            "content": "# The Stereochemical Challenge\n\nIf you mix achiral (non-handed) reagents together to create a chiral center, you will always get a **racemic mixture**.\n\n## Racemic Mixture:\nA 50:50 mixture of both enantiomers.\n\n## The Goal of Asymmetric Synthesis:\nTo bias the reaction so it produces 100% of the desired enantiomer and 0% of the wrong one.\n\n## How do we do it?\nTo create asymmetry, you must introduce asymmetry. You need a chiral influence: a chiral starting material, a chiral auxiliary, or, most efficiently, a **chiral catalyst**."
+        },
+        {
+            "id": "cat_4",
+            "type": "content",
+            "title": "Chiral Catalysts",
+            "content": "# Chiral Catalysts\n\nA **chiral catalyst** is a substance that speeds up a reaction and dictates its stereochemical outcome, without being consumed in the process.\n\n## The \"Lock and Key\" Mechanism:\n- The catalyst has a specific 3D shape (a chiral pocket).\n- The achiral starting material enters this pocket.\n- The catalyst physically blocks one face of the molecule.\n- The incoming reagent is forced to attack from the only open, unblocked face.\n- Result: Only one specific stereoisomer is formed.\n\n> **Efficiency:** A single molecule of a chiral catalyst can generate thousands or millions of molecules of chiral product!"
+        },
+        {
+            "id": "cat_5",
+            "type": "content",
+            "title": "Metal-Based Chiral Catalysts",
+            "content": "# Metal-Based Chiral Catalysts\n\nHistorically, the most powerful chiral catalysts have been transition metals surrounded by chiral ligands.\n\n## The Ligand dictates the shape:\nThe metal (like Ru, Rh, Pd) does the actual chemistry (breaking/making bonds), but the organic chiral ligands attached to it create the 3D \"fences\" that block the faces.\n\n## Famous Ligands:\n- **BINAP:** A bulky, axially chiral ligand used in Noyori hydrogenations.\n- **Salen:** A tetradentate ligand used in Jacobsen epoxidations.\n- **BOX / PyBOX:** Nitrogen-based ligands used in various Lewis acid-catalyzed reactions."
+        },
+        {
+            "id": "cat_6",
+            "type": "content",
+            "title": "Organocatalysis",
+            "content": "# Organocatalysis\n\nA newer branch of asymmetric catalysis that uses small, purely organic molecules (no metals) as catalysts (Nobel Prize 2021).\n\n## Advantages over Metal Catalysis:\n- Often less toxic (no heavy metals).\n- Cheaper and easier to handle (not air/moisture sensitive).\n- Environmentally friendly.\n\n## Famous Examples:\n- **Proline:** A simple, naturally occurring amino acid that can catalyze asymmetric Aldol and Michael reactions via an enamine intermediate.\n- **MacMillan Catalysts:** Chiral imidazolidinones that act as LUMO-lowering iminium catalysts."
+        },
+        {
+            "id": "cat_quiz_1",
+            "type": "quiz",
+            "title": "Chiral Catalysts Quiz",
+            "content": "Test your knowledge of catalysts!",
+            "quizQuestion": "In a metal-based chiral catalyst, what provides the asymmetric environment that controls stereochemistry?",
+            "quizOptions": [
+                "The metal atom itself.",
+                "The solvent.",
+                "The chiral organic ligands attached to the metal.",
+                "The temperature of the reaction."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "cat_7",
+            "type": "content",
+            "title": "Enantioselective Synthesis",
+            "content": "# Enantioselective Synthesis\n\nAn **enantioselective** reaction is one that favors the formation of one enantiomer over the other from an achiral starting material.\n\n## Prochirality:\nThe starting material must be \"prochiral\". This means it can be converted from achiral to chiral in a single step.\n\n## Example: Ketone Reduction\nAn unsymmetrical ketone (e.g., acetophenone) is flat and achiral. A hydride (H-) can attack from the top face or the bottom face. If a chiral catalyst forces the attack entirely from the top face, the reaction is enantioselective."
+        },
+        {
+            "id": "cat_8",
+            "type": "content",
+            "title": "Enantiomeric Excess (ee)",
+            "content": "# Enantiomeric Excess (ee)\n\nHow do we measure the success of an asymmetric reaction?\n\n## The Definition:\nEnantiomeric Excess (ee) is the percentage of the major enantiomer minus the percentage of the minor enantiomer.\n\n```\nee = % Major - % Minor\n```\n\n## Examples:\n- A racemic mixture (50:50) has an ee of **0%**.\n- A mixture of 90% R and 10% S has an ee of **80%** (90 - 10).\n- A pure sample (100% R, 0% S) has an ee of **100%**.\n\n> **The Standard:** In modern asymmetric catalysis, chemists aim for an ee of >95% to be considered highly successful."
+        },
+        {
+            "id": "cat_9",
+            "type": "content",
+            "title": "Kinetic Resolution",
+            "content": "# Kinetic Resolution\n\nWhat if you already have a racemic mixture and want just one enantiomer?\n\n## The Concept:\nA **kinetic resolution** uses a chiral catalyst or reagent that reacts much faster with one enantiomer than the other.\n\n## How it works:\n- You start with a 50:50 mixture of (R) and (S) starting materials.\n- You add a chiral catalyst that prefers the (R) enantiomer.\n- The catalyst quickly converts all the (R) starting material into the product.\n- The (S) starting material is left unreacted.\n- You separate the product from the unreacted (S) starting material.\n\n> **Limitation:** The maximum theoretical yield for a standard kinetic resolution is 50%, because you throw away half of your starting material."
+        },
+        {
+            "id": "cat_quiz_2",
+            "type": "quiz",
+            "title": "Enantioselectivity Quiz",
+            "content": "Check your understanding of ee!",
+            "quizQuestion": "If a reaction produces a mixture that is 85% of the (S) enantiomer and 15% of the (R) enantiomer, what is the enantiomeric excess (ee)?",
+            "quizOptions": [
+                "15%",
+                "70%",
+                "85%",
+                "100%"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "cat_10",
+            "type": "content",
+            "title": "Diastereoselective Reactions",
+            "content": "# Diastereoselective Reactions\n\nA **diastereoselective** reaction favors the formation of one diastereomer over another. \n\n## The Prerequisite:\nThis usually happens when the starting material *already has a chiral center*, and you are creating a *new* one.\n\n## Substrate Control:\nThe existing chiral center in the molecule creates a sterically hindered face. The incoming reagent prefers to attack from the less hindered face, dictating the stereochemistry of the new center.\n\n> **Difference:** Enantioselectivity creates the FIRST chiral center (needs a chiral catalyst). Diastereoselectivity creates a SECOND chiral center (often just relies on the molecule's own existing shape)."
+        },
+        {
+            "id": "cat_11",
+            "type": "content",
+            "title": "Cram and Felkin-Anh Models",
+            "content": "# Predictive Models\n\nChemists use models to predict which diastereomer will form when attacking a carbonyl adjacent to a chiral center.\n\n## The Felkin-Anh Model:\n1. Draw the molecule in a Newman projection.\n2. Place the largest group on the chiral center perpendicular (90 degrees) to the carbonyl C=O double bond.\n3. The incoming nucleophile attacks the carbonyl carbon at the Bürgi-Dunitz angle (approx 107 degrees).\n4. The nucleophile prefers to attack from the side of the smallest group on the chiral center to avoid steric clash.\n\n> **Utility:** This geometric model reliably predicts the major diastereomeric product for countless reactions."
+        },
+        {
+            "id": "cat_12",
+            "type": "content",
+            "title": "Asymmetric Aldol Reactions",
+            "content": "# Asymmetric Aldol Reactions\n\nThe Aldol reaction connects two carbonyl compounds, forming a new C-C bond and often TWO new chiral centers simultaneously.\n\n## Evans Aldol:\nA classic method using a **chiral auxiliary**.\n- Attach a chiral oxazolidinone (the auxiliary) to the starting material.\n- Perform the Aldol reaction. The auxiliary forces high diastereoselectivity.\n- Cleave off the auxiliary to reveal the pure chiral product.\n\n## Catalytic Asymmetric Aldol:\nModern methods use chiral Lewis acids or organocatalysts (like proline) to achieve the same result without needing to attach and remove an auxiliary."
+        },
+        {
+            "id": "cat_quiz_3",
+            "type": "quiz",
+            "title": "Diastereoselectivity Quiz",
+            "content": "Test your knowledge of stereochemical control!",
+            "quizQuestion": "Which model is commonly used to predict the stereochemical outcome of a nucleophilic attack on a carbonyl adjacent to an existing chiral center?",
+            "quizOptions": [
+                "The Jablonski Diagram",
+                "The Woodward-Hoffmann Rules",
+                "The Felkin-Anh Model",
+                "The Markovnikov Rule"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "cat_13",
+            "type": "content",
+            "title": "Asymmetric Hydrogenation",
+            "content": "# Asymmetric Hydrogenation\n\nAdding H2 across a double bond to create a chiral center. (Nobel Prize 2001 - Knowles and Noyori).\n\n## The Mechanism:\n- Uses Rhodium or Ruthenium metal centers with chiral phosphine ligands (like BINAP or DIPAMP).\n- The catalyst binds both the H2 and the substrate.\n- The chiral ligands force the substrate to bind in only one specific orientation.\n- The hydrogen is delivered to only one face of the double bond.\n\n## Famous Application:\nKnowles used this to synthesize **L-DOPA**, the drug used to treat Parkinson's disease. Only the L-enantiomer works in the brain!"
+        },
+        {
+            "id": "cat_14",
+            "type": "content",
+            "title": "Asymmetric Epoxidation",
+            "content": "# Asymmetric Epoxidation\n\nConverting an alkene into a chiral epoxide (a 3-membered ring with oxygen). (Nobel Prize 2001 - Sharpless).\n\n## Sharpless Epoxidation:\n- Reagents: Titanium tetraisopropoxide, a chiral tartrate ester (like DET), and an oxidant (TBHP).\n- Substrate: Allylic alcohols.\n- Result: Highly predictable delivery of the oxygen atom to either the top or bottom face of the alkene, depending solely on whether you use the (+)-tartrate or (-)-tartrate catalyst.\n\n> **Power:** Epoxides are highly reactive spring-loaded rings. Creating a chiral epoxide gives you a perfect starting point to open it up and build even more complex chiral molecules."
+        },
+        {
+            "id": "cat_15",
+            "type": "content",
+            "title": "Summary of Asymmetric Catalysis",
+            "content": "# Asymmetric Catalysis Summary\n\n## Key Takeaways:\n1. **Chirality Matters:** The 3D shape of a molecule determines its biological function.\n2. **The Goal:** Achieving high Enantiomeric Excess (ee) without generating wasteful racemic mixtures.\n3. **The Tools:** Metal-ligand complexes and small organic molecules (organocatalysts) provide the chiral environment (the \"lock\") to guide the reaction.\n4. **Diastereoselectivity:** Using existing chiral centers in the molecule to control new ones (predicted by Felkin-Anh).\n5. **Impact:** Asymmetric hydrogenation and epoxidation are industrial staples, providing the pure chiral building blocks needed for modern medicine.\n\n> **Conclusion:** Controlling stereochemistry is the ultimate display of precision in chemical synthesis."
+        }
+    ]
+}

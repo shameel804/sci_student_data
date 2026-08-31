@@ -1,0 +1,139 @@
+{
+    "id": "learn_semiconductors",
+    "topicId": "semiconductors",
+    "topicTitle": "Semiconductors",
+    "description": "Understand the physics behind the modern digital age. Learn how band theory explains the magical properties of Silicon and the P-N junction.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "semi_1",
+            "type": "content",
+            "title": "The Conductivity Spectrum",
+            "content": "# Three Types of Matter\n\nWhen it comes to carrying electricity, the universe is divided into three categories:\n\n1. **Conductors (Metals like Copper):** Electrons flow effortlessly. Their resistance is almost zero.\n2. **Insulators (Glass, Rubber):** Electrons are completely locked in place. Their resistance is virtually infinite.\n3. **Semiconductors (Silicon, Germanium):** The magical middle ground. At absolute zero, they are perfect insulators. But at room temperature, they conduct a little bit of electricity. Crucially, we can *control* exactly how much they conduct!"
+        },
+        {
+            "id": "semi_2",
+            "type": "content",
+            "title": "Band Theory of Solids",
+            "content": "# The Quantum Smear\n\nIn a single atom, electrons exist in sharp, discrete energy levels (orbitals).\n\nBut in a solid crystal, 10^23 atoms are crammed incredibly close together. The Pauli Exclusion Principle states that no two electrons can have the exact same state.\nSo, to avoid violating Pauli, the sharp energy levels are forced to smear out into massive, continuous bands of allowed energy called **Energy Bands**."
+        },
+        {
+            "id": "semi_3",
+            "type": "content",
+            "title": "Valence vs Conduction Bands",
+            "content": "# The Two Important Bands\n\nTo understand conductivity, you only need to look at the top two bands:\n\n1. **The Valence Band:** The highest energy band that is completely FULL of electrons. These electrons are stuck in traffic and cannot move to conduct electricity.\n2. **The Conduction Band:** The next energy band up, which is largely EMPTY. If an electron can jump up into this empty band, it is free to accelerate and conduct electricity!\n\nBetween these two bands is the **Band Gap (Eg)**, a forbidden zone where electrons mathematically cannot exist."
+        },
+        {
+            "id": "semi_4",
+            "type": "content",
+            "title": "Explaining the Three Materials",
+            "content": "# The Size of the Gap\n\nBand theory perfectly explains the three types of matter based entirely on the size of the Band Gap.\n\n1. **Insulators:** Have a MASSIVE band gap (Eg > 5 eV). It is physically impossible for heat or normal voltage to kick an electron across the gap. The conduction band remains empty forever.\n2. **Conductors:** Have NO band gap! The Valence and Conduction bands physically overlap. Electrons can flow freely at all times.\n3. **Semiconductors:** Have a tiny, Goldilocks band gap (Eg around 1 eV). At absolute zero, they are insulators. But at room temperature, thermal heat provides just enough energy to kick a few electrons across the small gap, allowing slight conduction."
+        },
+        {
+            "id": "semi_5",
+            "type": "content",
+            "title": "Electron-Hole Pairs",
+            "content": "# Two Types of Flow\n\nWhen a thermal kick knocks an electron from the Valence Band up into the Conduction Band, two things happen:\n\n1. The excited **Electron** is now in the empty conduction band and can flow to create current.\n2. It leaves behind an empty space in the Valence Band called a **Hole**. \n\nBecause an electron is missing, the Hole acts mathematically exactly like a Positive Charge! As other valence electrons shuffle over to fill the hole, the Hole itself physically moves through the crystal in the opposite direction. \n**Current in a semiconductor is carried by BOTH negative electrons AND positive holes!**"
+        },
+        {
+            "id": "semi_6",
+            "type": "content",
+            "title": "Intrinsic Semiconductors",
+            "content": "# Pure Silicon\n\nAn **Intrinsic Semiconductor** is an absolutely pure crystal of Silicon.\n\nSilicon has 4 valence electrons. In a crystal, every Silicon atom shares perfectly with 4 neighbors, creating a rigid, flawless tetrahedral grid with zero free electrons.\n\nThe only way it conducts is if heat accidentally breaks a bond, creating 1 electron and 1 hole. \nThe number of free electrons (n) always perfectly equals the number of holes (p). \n\nPure silicon is a terrible conductor and practically useless for building computers."
+        },
+        {
+            "id": "semi_7",
+            "type": "content",
+            "title": "Doping",
+            "content": "# Engineering the Crystal\n\nTo make Silicon useful, we intentionally contaminate it.\n\n**Doping** is the process of precisely injecting a tiny amount of foreign impurity atoms into the pure Silicon crystal lattice (about 1 impurity per million Silicon atoms).\n\nBy carefully choosing the impurity, we can completely control whether the crystal conducts using negative electrons or positive holes!"
+        },
+        {
+            "id": "semi_8",
+            "type": "content",
+            "title": "N-Type Semiconductors",
+            "content": "# Adding Electrons\n\nIf we want to create a material packed with extra negative charges, we inject **Phosphorus**.\n\nSilicon has 4 valence electrons. Phosphorus has 5.\nWhen Phosphorus takes the place of a Silicon atom in the grid, 4 of its electrons lock into the bonds. But the 5th electron has nowhere to go!\n\nThis 5th electron is highly loosely bound and easily jumps into the Conduction Band. \nThis is an **N-Type (Negative) Semiconductor**. It conducts electricity using mostly free Electrons (Majority Carriers)."
+        },
+        {
+            "id": "semi_9",
+            "type": "content",
+            "title": "P-Type Semiconductors",
+            "content": "# Adding Holes\n\nIf we want a material packed with extra positive charges, we inject **Boron**.\n\nBoron only has 3 valence electrons.\nWhen it drops into the Silicon grid, it cannot complete all 4 bonds. It leaves a permanent empty space in the lattice: a Hole.\n\nThis Hole acts as a positive charge eager to suck in nearby electrons. \nThis is a **P-Type (Positive) Semiconductor**. It conducts electricity using mostly positive Holes (Majority Carriers)."
+        },
+        {
+            "id": "semi_10",
+            "type": "content",
+            "title": "The P-N Junction",
+            "content": "# The Magic Boundary\n\nN-Type and P-Type silicon are boring on their own. They just act like slightly better conductors.\n\nThe absolute magic of modern electronics happens when you physically slam a block of P-Type and N-Type silicon together. \n\nThe microscopic boundary where they touch is called the **P-N Junction**. Every single microchip, solar cell, and LED in the world is built entirely out of these junctions."
+        },
+        {
+            "id": "semi_11",
+            "type": "content",
+            "title": "The Depletion Region",
+            "content": "# The Wall of Charge\n\nThe moment you touch P and N together, physics takes over.\n1. The N-side has a massive crowd of free Electrons. The P-side has a massive crowd of empty Holes.\n2. Through simple diffusion, electrons rush across the border to fall into the empty holes.\n3. When they fall in, they annihilate each other.\n\nThis creates a small zone right at the border that has absolutely NO free electrons and NO holes. It is perfectly depleted of carriers. This is the **Depletion Region**. It acts like a brick wall, instantly stopping the flow of electricity."
+        },
+        {
+            "id": "semi_12",
+            "type": "content",
+            "title": "The Diode",
+            "content": "# The One-Way Valve\n\nA P-N Junction is a **Diode**. It is an electronic one-way valve.\n\n- **Forward Bias:** If you connect a battery's Positive end to the P-side and Negative end to the N-side, the battery powerfully pushes the electrons and holes directly into the brick wall, crushing the Depletion Region until it vanishes. Massive current flows!\n- **Reverse Bias:** If you flip the battery, the battery violently yanks the electrons and holes AWAY from the border. The Depletion Region grows massive. Absolutely zero current flows!"
+        },
+        {
+            "id": "semi_13",
+            "type": "content",
+            "title": "Light Emitting Diodes (LEDs)",
+            "content": "# Turning Electricity into Light\n\nIf you push electrons across the P-N junction (Forward Bias), they fall from the high-energy Conduction Band down into the low-energy Holes in the Valence Band.\n\nThey must release that extra energy. In Silicon, it is released as useless heat.\nBut if you use a direct band gap semiconductor (like Gallium Arsenide), that exact energy drops perfectly as a single Photon of light!\n\nThis is an **LED**. You are converting electric current directly into pure light with near 100% efficiency."
+        },
+        {
+            "id": "semi_14",
+            "type": "content",
+            "title": "Solar Cells",
+            "content": "# Turning Light into Electricity\n\nA Solar Panel is literally just a massive LED run in reverse.\n\n1. A photon of sunlight slams into the P-N Junction.\n2. It has exactly enough energy to kick an electron up from the Valence Band into the Conduction Band, instantly creating an Electron-Hole pair.\n3. The built-in electric field of the Depletion Region acts like a slide, instantly separating the electron and the hole before they can recombine.\n4. You hook a wire to both sides, and you have free DC electric current!"
+        },
+        {
+            "id": "semi_15",
+            "type": "content",
+            "title": "The Transistor",
+            "content": "# The Brain of the Computer\n\nA Diode has 2 layers (PN). A **Transistor** has 3 layers (like N-P-N).\n\nBy injecting a tiny, microscopic control current into the thin middle P-layer (the Base), you can completely control a massive, roaring current trying to flow between the two N-layers.\n\nIt acts as an electronic switch with no moving parts. By wiring billions of these microscopic switches together on a single chip of Silicon, you can perform binary logic (0s and 1s). You have built a Computer Processor."
+        },
+        {
+            "id": "semi_16",
+            "type": "content",
+            "title": "Moore's Law",
+            "content": "# Shrinking the World\n\nIn 1965, Gordon Moore observed that engineers were shrinking transistors so quickly that the number of transistors you could fit on a microchip was doubling every two years.\n\nThis exponential growth (Moore's Law) has held true for 50 years. The transistors in your smartphone are now only a few dozen atoms wide. \nWe are reaching the absolute physical limit of silicon; if they get any smaller, electrons will begin to Quantum Tunnel directly through the closed switches, destroying the computer!"
+        },
+        {
+            "id": "semi_17",
+            "type": "content",
+            "title": "Summary of Semiconductors",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Band Gap:** Semiconductors have a small forbidden energy gap between the full Valence band and the empty Conduction band.\n2. **Holes:** Empty spots in the Valence band that act as mobile positive charges.\n3. **Doping:** Injecting Phosphorus (N-Type) adds free electrons; injecting Boron (P-Type) adds free positive holes.\n4. **P-N Junction:** The boundary between N and P types. It forms a Depletion Region that acts as a one-way valve (Diode).\n5. **Applications:** LEDs, Solar Cells, and Transistors (the foundation of all modern computers) are all created from P-N junctions."
+        },
+        {
+            "id": "semi_quiz_1",
+            "type": "quiz",
+            "title": "Band Gap Quiz",
+            "content": "Test your understanding of Band Theory.",
+            "quizQuestion": "Why is a diamond (a perfect insulator) completely unable to conduct electricity at room temperature?",
+            "quizOptions": [
+                "Because it is too hard.",
+                "Because its Band Gap is so massive that normal room temperature heat cannot provide enough energy to kick any electrons up into the Conduction band.",
+                "Because it has no Valence band.",
+                "Because its Conduction band is already completely full."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "semi_quiz_2",
+            "type": "quiz",
+            "title": "Doping Quiz",
+            "content": "Review N-Type and P-Type materials.",
+            "quizQuestion": "If you heavily dope a pure Silicon crystal with Boron (which has one FEWER valence electron than Silicon), what kind of material have you created?",
+            "quizOptions": [
+                "An N-Type Semiconductor, which conducts using extra electrons.",
+                "A P-Type Semiconductor, which conducts using extra positive holes.",
+                "A perfect insulator.",
+                "A superconductor."
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

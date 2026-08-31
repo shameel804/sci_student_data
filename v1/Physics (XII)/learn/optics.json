@@ -1,0 +1,127 @@
+{
+    "id": "learn_optics",
+    "topicId": "optics",
+    "topicTitle": "Optics",
+    "description": "Discover the behavior of light, from the mirrors and lenses of geometric optics to the interference and diffraction of wave optics.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "optics_1",
+            "type": "content",
+            "title": "Welcome to Optics",
+            "content": "# Optics\n\nWelcome to Optics, the study of light! Light is what allows us to see the universe, from the microscopic world to distant galaxies.\n\n## What You Will Learn:\n- **Reflection through Mirrors** - How light bounces\n- **Refraction through Lenses** - How light bends\n- **Optical Instruments** - Telescopes and microscopes\n- **Wave Optics** - Interference and diffraction\n\n> **Fun Fact:** Light is the only thing we can actually see! We don't see objects; we see the light reflecting off them."
+        },
+        {
+            "id": "optics_2",
+            "type": "content",
+            "title": "Ray Optics: Reflection",
+            "content": "# Reflection of Light\n\nReflection occurs when light bounces off a surface. Smooth surfaces like mirrors produce clear images.\n\n## Laws of Reflection:\n1. The incident ray, the reflected ray, and the normal to the surface at the point of incidence all lie in the same plane.\n2. The angle of incidence is exactly equal to the angle of reflection.\n\n## Types of Spherical Mirrors:\n- **Concave Mirrors:** Curve inward (like a cave). Can form real and virtual images. Used in makeup mirrors and car headlights.\n- **Convex Mirrors:** Curve outward. Always form virtual, smaller images. Used in car side-view mirrors to give a wider field of view."
+        },
+        {
+            "id": "optics_3",
+            "type": "content",
+            "title": "Mirror Formula",
+            "content": "# The Mirror Equation\n\nTo find where an image will form in a spherical mirror, we use the mirror formula.\n\n## The Equation:\n```\n1/f = 1/v + 1/u\n```\nWhere:\n- **f** is the focal length.\n- **v** is the image distance.\n- **u** is the object distance.\n\n## Magnification (m):\nMagnification tells us how large the image is compared to the object.\n```\nm = -v / u\n```\n- If m is negative, the image is inverted (upside down).\n- If m is positive, the image is erect (right side up)."
+        },
+        {
+            "id": "optics_4",
+            "type": "content",
+            "title": "Refraction",
+            "content": "# Refraction of Light\n\nRefraction is the bending of light as it passes from one transparent medium to another (e.g., air to water).\n\n## Why does it bend?\nLight travels at different speeds in different materials. When it changes speed at a boundary at an angle, the ray bends.\n- From lighter (air) to denser (glass): Bends **towards** the normal.\n- From denser to lighter: Bends **away** from the normal.\n\n## Snell's Law:\n```\nn1 * sin(i) = n2 * sin(r)\n```\nWhere **n** is the refractive index, **i** is angle of incidence, and **r** is angle of refraction."
+        },
+        {
+            "id": "optics_5",
+            "type": "content",
+            "title": "Total Internal Reflection",
+            "content": "# Total Internal Reflection (TIR)\n\nWhat happens if light travels from a dense medium to a lighter one at a very steep angle?\n\n## The Critical Angle:\nAs the angle of incidence increases, the refracted ray bends closer to the boundary. At a specific angle called the **critical angle**, the refracted ray grazes the surface.\n\n## TIR:\nIf the angle of incidence is greater than the critical angle, the light does not refract out. It is **100% reflected** back into the denser medium!\n\n## Applications:\n- **Optical Fibers:** Use TIR to transmit light (and data) over huge distances without loss.\n- **Mirages:** Caused by TIR in layers of hot and cold air.\n- **Diamonds:** Cut to maximize TIR, giving them their sparkle."
+        },
+        {
+            "id": "optics_quiz_1",
+            "type": "quiz",
+            "title": "Refraction Quiz",
+            "content": "Check your understanding of bending light.",
+            "quizQuestion": "When a light ray travels from a denser medium (like glass) to a rarer medium (like air), how does it bend?",
+            "quizOptions": [
+                "Towards the normal",
+                "Away from the normal",
+                "It doesn't bend",
+                "It reflects back perfectly"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "optics_6",
+            "type": "content",
+            "title": "Lenses",
+            "content": "# Refraction through Lenses\n\nLenses use refraction to focus or disperse light.\n\n## Types of Lenses:\n- **Convex (Converging) Lens:** Thicker in the middle. Focuses parallel light rays to a single point (focal point). Used in magnifying glasses and to correct farsightedness.\n- **Concave (Diverging) Lens:** Thinner in the middle. Spreads out parallel light rays. Used to correct nearsightedness.\n\n## Lens Maker's Formula:\nUsed to design lenses of specific focal lengths:\n```\n1/f = (n - 1) * (1/R1 - 1/R2)\n```\nWhere **R1** and **R2** are the radii of curvature of the two lens surfaces."
+        },
+        {
+            "id": "optics_7",
+            "type": "content",
+            "title": "Optical Instruments: Microscope",
+            "content": "# The Microscope\n\nMicroscopes are used to see extremely small objects.\n\n## Simple Microscope:\n- Just a single convex lens used as a magnifying glass.\n- The object is placed within the focal length to create a virtual, erect, and magnified image.\n\n## Compound Microscope:\n- Uses two convex lenses for much higher magnification.\n- **Objective Lens:** Near the object. Forms a real, magnified image.\n- **Eyepiece Lens:** Acts as a simple microscope to further magnify the image from the objective.\n- Total Magnification = Magnification of objective * Magnification of eyepiece."
+        },
+        {
+            "id": "optics_8",
+            "type": "content",
+            "title": "Optical Instruments: Telescope",
+            "content": "# The Telescope\n\nTelescopes are used to provide angular magnification of distant objects (like planets and stars).\n\n## 1. Refracting Telescope:\n- Uses lenses.\n- Consists of a large objective lens (to gather as much light as possible) and a smaller eyepiece lens.\n- Suffers from chromatic aberration (color fringing).\n\n## 2. Reflecting Telescope:\n- Invented by Isaac Newton.\n- Uses a large concave mirror as the primary objective instead of a lens.\n- Advantages: No chromatic aberration, mirrors can be made much larger than lenses, and they are easier to support mechanically.\n- Modern large observatories use reflecting telescopes."
+        },
+        {
+            "id": "optics_9",
+            "type": "content",
+            "title": "Wave Optics: Huygens Principle",
+            "content": "# Wave Optics\n\nRay optics assumes light travels in straight lines. However, to explain certain phenomena, we must treat light as a wave.\n\n## Huygens Principle:\nProposed by Christiaan Huygens in 1678.\n- Every point on a primary wavefront acts as a source of secondary wavelets.\n- These wavelets spread out in all directions with the speed of light.\n- The new wavefront is the forward envelope (tangent) of these secondary wavelets.\n\nThis simple geometric construction successfully explains both reflection and refraction from a wave perspective!"
+        },
+        {
+            "id": "optics_10",
+            "type": "content",
+            "title": "Interference of Light",
+            "content": "# Interference\n\nWhat happens when two light waves meet? They interfere!\n\n## Principle of Superposition:\nWhen two waves superimpose, the resultant displacement is the vector sum of the individual displacements.\n\n## Types of Interference:\n1. **Constructive Interference:** When the crest of one wave meets the crest of another, they add up to create a brighter light (maximum intensity).\n2. **Destructive Interference:** When the crest of one wave meets the trough of another, they cancel each other out, creating darkness (minimum intensity).\n\nFor stable interference, the two sources of light must be **coherent** (have a constant phase difference)."
+        },
+        {
+            "id": "optics_11",
+            "type": "content",
+            "title": "Young's Double Slit Experiment",
+            "content": "# Young's Double Slit Experiment\n\nIn 1801, Thomas Young definitively proved the wave nature of light with this classic experiment.\n\n## The Setup:\n- Light passes through a single narrow slit, then through two closely spaced narrow slits (S1 and S2).\n- S1 and S2 act as two coherent point sources.\n\n## The Result:\n- On a screen placed far away, a pattern of alternating bright and dark bands (fringes) is observed.\n- The bright fringes are where constructive interference occurs.\n- The dark fringes are where destructive interference occurs.\n- This pattern is impossible to explain if light were just a stream of particles!"
+        },
+        {
+            "id": "optics_quiz_2",
+            "type": "quiz",
+            "title": "Wave Optics Quiz",
+            "content": "Test your knowledge of wave phenomena.",
+            "quizQuestion": "In Young's Double Slit experiment, a dark fringe is produced by:",
+            "quizOptions": [
+                "Refraction",
+                "Diffraction",
+                "Constructive Interference",
+                "Destructive Interference"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "optics_12",
+            "type": "content",
+            "title": "Diffraction",
+            "content": "# Diffraction of Light\n\nIf you shine a light at a sharp edge or a tiny hole, it doesn't just cast a sharp shadow.\n\n## Definition:\nDiffraction is the bending of light waves around corners of an obstacle or through an aperture, encroaching into the region of geometrical shadow.\n\n## When is it noticeable?\n- Diffraction is only significant when the size of the obstacle or aperture is comparable to the **wavelength** of the light.\n- Since the wavelength of visible light is very small (around 500 nm), everyday objects cast sharp shadows. But sound waves (long wavelengths) easily diffract around corners, which is why you can hear someone in the next room!"
+        },
+        {
+            "id": "optics_13",
+            "type": "content",
+            "title": "Polarization",
+            "content": "# Polarization\n\nLight is a transverse electromagnetic wave, meaning the electric field oscillates perpendicular to the direction of travel.\n\n## Unpolarized vs Polarized:\n- **Unpolarized Light:** The electric field oscillates in ALL possible planes perpendicular to the direction of travel (like sunlight or a light bulb).\n- **Polarized Light:** The electric field oscillates in only ONE specific plane.\n\n## How to Polarize Light:\n- Passing it through a **Polaroid filter** (which absorbs all planes except one).\n- By scattering (why the sky is partially polarized).\n- By reflection (glare off water or a road is highly polarized horizontally)."
+        },
+        {
+            "id": "optics_14",
+            "type": "content",
+            "title": "Applications of Polarization",
+            "content": "# Uses of Polarization\n\nPolarization has many practical everyday applications.\n\n## Sunglasses:\nPolarized sunglasses contain vertical transmission axes. Since the annoying glare reflected off horizontal surfaces (water, roads) is mostly horizontally polarized, the sunglasses block it completely, reducing eye strain.\n\n## 3D Movies:\nIn a 3D cinema, two projectors project two slightly different images onto the screen, one polarized vertically and the other horizontally. The 3D glasses you wear have one vertically polarized lens and one horizontally polarized lens, ensuring each eye only sees one of the images, creating the illusion of depth!"
+        },
+        {
+            "id": "optics_15",
+            "type": "content",
+            "title": "Summary: Optics",
+            "content": "# Optics Summary\n\n## Key Concepts Reviewed:\n\n- **Reflection & Mirrors:** Light bounces; mirrors use `1/f = 1/v + 1/u`.\n- **Refraction & Lenses:** Light bends due to speed changes; governed by Snell's Law. Lenses focus or diverge light.\n- **TIR:** Total Internal Reflection allows optical fibers to work.\n- **Instruments:** Microscopes magnify tiny nearby objects; Telescopes magnify massive distant objects.\n- **Huygens Principle:** Every point is a source of secondary wavelets.\n- **Interference:** Waves add (bright) or cancel (dark), proven by Young's Double Slit.\n- **Diffraction:** Bending of light around tiny obstacles.\n- **Polarization:** Restricting light oscillations to a single plane.\n\n> **Congratulations!** You have completed the Optics module."
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "id": "learn_molcb_signaling",
+    "topicId": "signaling",
+    "topicTitle": "Cell Signaling",
+    "description": "Dive into the microscopic world of cellular communication, discovering how chemical messages are received and translated into massive biological actions.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "molcb_sig_1",
+            "type": "content",
+            "title": "Welcome to Cell Signaling",
+            "content": "# The Cellular Telephone\n\nWelcome to **Molecular Cell Biology**!\n\nNo cell lives in isolation. For a human body to function, its 30 trillion cells must constantly talk to each other. They do this by sending and receiving chemical messages.\n\n## What You Will Learn:\n- **Receptor Mechanisms** - How a cell \"hears\" a message\n- **Signal Transduction Pathways** - The molecular relay race\n- **Second Messengers** - Amplifying the whisper into a shout\n- **Cellular Responses** - The final action taken\n\nLet's learn how cells communicate."
+        },
+        {
+            "id": "molcb_sig_2",
+            "type": "content",
+            "title": "The Three Stages",
+            "content": "# The Three Stages of Signaling\n\nIn 1971, Earl Sutherland won the Nobel Prize for discovering that chemical signaling always occurs in three distinct, highly regulated stages:\n\n1. **Reception:** A chemical message (ligand) binds to a receptor on the outside of the cell.\n2. **Transduction:** The receptor changes shape, passing the signal inside the cell through a chain reaction of proteins.\n3. **Response:** The final protein in the chain causes the cell to do something (like secrete a hormone, contract a muscle, or turn on a gene)."
+        },
+        {
+            "id": "molcb_sig_3",
+            "type": "content",
+            "title": "Stage 1: Reception",
+            "content": "# The Lock and Key\n\nThe chemical messenger floating in the blood is called a **Ligand** (e.g., Adrenaline or Insulin). \n\nMost ligands are water-soluble proteins, meaning they physically CANNOT cross the oily lipid membrane to get inside the cell. \n\nInstead, they must bind to a specific **Receptor Protein** embedded in the cell membrane. The ligand is the key, and the receptor is the lock. When the key turns, the receptor changes its 3D shape, alerting the inside of the cell!"
+        },
+        {
+            "id": "molcb_sig_quiz_1",
+            "type": "quiz",
+            "title": "Reception Quiz",
+            "content": "Check your understanding of the first step.",
+            "quizQuestion": "Why must most chemical messengers (ligands) bind to a receptor on the OUTSIDE surface of the cell membrane, rather than going inside the cell?",
+            "quizOptions": [
+                "Because the inside of the cell is too cold",
+                "Because they are water-soluble and physically cannot pass through the oily, lipid cell membrane",
+                "Because they are immediately destroyed if they enter the cell",
+                "Because receptors only exist on the outside of the body"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "molcb_sig_4",
+            "type": "content",
+            "title": "Receptor Types: GPCRs",
+            "content": "# G Protein-Coupled Receptors\n\nThe most common and important type of receptor is the **GPCR**.\n- Over 30% of all modern pharmaceutical drugs target GPCRs!\n\n## How it works:\n1. The ligand binds to the outside of the GPCR.\n2. The GPCR changes shape on the inside of the cell.\n3. This shape change attracts and activates a nearby \"G-Protein\" by giving it a molecule of GTP (cellular energy).\n4. The activated G-Protein then speeds away like a molecular messenger to turn on the next enzyme in the chain."
+        },
+        {
+            "id": "molcb_sig_5",
+            "type": "content",
+            "title": "Receptor Types: RTKs",
+            "content": "# Receptor Tyrosine Kinases\n\nThe second major type is the **RTK**. These are primarily used for growth factors (telling the cell to divide). \n\nUnlike GPCRs which work alone, RTKs must work in pairs.\n1. Two ligands bind to two separate RTK receptors.\n2. The two receptors move together and lock onto each other (Dimerization).\n3. Once locked together, they activate each other by stealing phosphate groups from ATP.\n4. Now fully charged with phosphates, they can activate a dozen different cellular pathways simultaneously!"
+        },
+        {
+            "id": "molcb_sig_6",
+            "type": "content",
+            "title": "Stage 2: Transduction",
+            "content": "# The Phosphorylation Cascade\n\nOnce the receptor is activated, the signal must travel from the membrane all the way down to the nucleus. This is **Transduction**.\n\nIt works like a massive game of molecular \"telephone.\"\n- The primary mechanism is the **Phosphorylation Cascade**.\n- Protein Kinase 1 activates Kinase 2 by slapping a phosphate group onto it.\n- Kinase 2 activates Kinase 3 with another phosphate... and so on.\n- It is a chain reaction of exploding energy!"
+        },
+        {
+            "id": "molcb_sig_quiz_2",
+            "type": "quiz",
+            "title": "Transduction Quiz",
+            "content": "Check your understanding of the molecular relay.",
+            "quizQuestion": "In a phosphorylation cascade, what does a 'Kinase' enzyme actually do to pass the signal to the next protein in line?",
+            "quizOptions": [
+                "It physically cuts the next protein in half",
+                "It transfers a high-energy phosphate group onto the next protein, activating it",
+                "It transports the protein directly to the nucleus",
+                "It turns the protein into DNA"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "molcb_sig_7",
+            "type": "content",
+            "title": "Second Messengers",
+            "content": "# Amplifying the Signal\n\nSometimes, a kinase cascade isn't fast enough. The cell needs to flood the interior with a signal instantly. It uses **Second Messengers** (small, non-protein, water-soluble molecules).\n\n## Example: cAMP\nWhen adrenaline binds to a heart cell, the activated G-Protein turns on an enzyme that instantly converts thousands of ATP molecules into **cyclic AMP (cAMP)**.\n\nThese thousands of cAMP molecules flood the cell in milliseconds, activating thousands of kinase enzymes simultaneously. This is how one single molecule of adrenaline can cause your entire heart to beat faster!"
+        },
+        {
+            "id": "molcb_sig_8",
+            "type": "content",
+            "title": "Stage 3: Response",
+            "content": "# Taking Action\n\nAt the end of the cascade, the final activated protein causes the **Response**.\n\n## The Two Types of Responses:\n1. **Cytoplasmic Response (Fast):** The signal turns on an enzyme that is already sitting in the cytoplasm, waiting. (e.g., turning on an enzyme that breaks down glycogen into sugar for instant energy).\n2. **Nuclear Response (Slow):** The final protein enters the nucleus and acts as a Transcription Factor. It binds to the DNA and turns a specific gene ON or OFF, forcing the cell to slowly build a brand new protein from scratch."
+        },
+        {
+            "id": "molcb_sig_9",
+            "type": "content",
+            "title": "Turning it Off",
+            "content": "# Stopping the Signal\n\nEqually as important as turning a signal ON is turning it OFF.\n\nIf a growth signal cannot be turned off, the cell will divide endlessly, causing cancer. \nIf adrenaline cannot be turned off, your heart will beat until it fails.\n\nCells have specialized enzymes (like **Phosphatases**) whose sole job is to rip the phosphate groups off the kinases, instantly shutting down the cascade the moment the original ligand leaves the receptor."
+        },
+        {
+            "id": "molcb_sig_quiz_3",
+            "type": "quiz",
+            "title": "Response Quiz",
+            "content": "Check your understanding of the final action.",
+            "quizQuestion": "What is the primary difference between a Cytoplasmic response and a Nuclear response?",
+            "quizOptions": [
+                "A Nuclear response happens in the blood, a Cytoplasmic response happens in the brain",
+                "A Cytoplasmic response activates an existing enzyme quickly; a Nuclear response turns genes on or off to slowly build new proteins",
+                "A Nuclear response is always caused by viruses",
+                "A Cytoplasmic response destroys the cell"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "molcb_sig_10",
+            "type": "content",
+            "title": "Summary of Cell Signaling",
+            "content": "# Cell Signaling Summary\n\n## Key Takeaways:\n\n### The Three Stages\n- **Reception:** A ligand binds to a specific receptor (**GPCR** or **RTK**), changing its shape.\n- **Transduction:** The signal travels into the cell via a **Phosphorylation Cascade** (using Kinases) or by flooding the cell with **Second Messengers** (like cAMP) for massive amplification.\n- **Response:** The cell acts quickly (activating existing enzymes) or slowly (altering gene expression in the nucleus).\n\n### The Shut Off\n- Without enzymes to rapidly shut off the signal (Phosphatases), the cell will lose control and die.\n\n> **Next Up:** We look at what happens when the signal tells the cell to multiply, in the Cell Division module."
+        }
+    ]
+}

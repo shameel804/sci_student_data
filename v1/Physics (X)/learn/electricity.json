@@ -1,0 +1,147 @@
+{
+    "id": "learn_electricity",
+    "topicId": "electricity",
+    "topicTitle": "Electricity",
+    "description": "Uncover the invisible flow of electrons that powers our modern world, and learn the fundamental laws governing electric circuits.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "elec_1",
+            "type": "content",
+            "title": "Welcome to Electricity",
+            "content": "# The Power of the Modern World\n\nElectricity has an important place in modern society. It is a controllable and convenient form of energy for a variety of uses in homes, schools, hospitals, industries, and so on.\n\n## What constitutes electricity?\nHow does it flow in an electric circuit? What are the factors that control or regulate the current through an electric circuit?\n\n## What You Will Learn:\n- **Electric Current:** The flow of charge.\n- **Potential Difference:** The push that makes charges move (Voltage).\n- **Ohm's Law:** The relationship between current, voltage, and resistance.\n- **Heating Effect:** Why light bulbs and toasters get hot."
+        },
+        {
+            "id": "elec_2",
+            "type": "content",
+            "title": "Electric Current",
+            "content": "# The Flow of Charge\n\nJust as the flow of water constitutes a water current in rivers, the flow of electric charge constitutes an **electric current**.\n\n## What is flowing?\nIn a metallic wire, it is the **electrons** (negatively charged particles) that flow.\n\nHowever, when electricity was first discovered, electrons were not known. Therefore, electric current was considered to be the flow of positive charges.\n\n> **Convention:** By convention, in an electric circuit the direction of electric current is taken as opposite to the direction of the flow of electrons. (So if electrons flow from negative to positive, we say the \"current\" flows from positive to negative)."
+        },
+        {
+            "id": "elec_3",
+            "type": "content",
+            "title": "Measuring Current",
+            "content": "# Amperes and Charge\n\nElectric current is expressed by the amount of charge flowing through a particular area in unit time. It is the rate of flow of electric charges.\n\n## The Formula:\nIf a net charge `Q`, flows across any cross-section of a conductor in time `t`, then the current `I`, through the cross-section is:\n`I = Q / t`\n\n## Units:\n- The SI unit of electric charge is **coulomb (C)**.\n- The SI unit of electric current is the **ampere (A)**.\n\nAn instrument called an **ammeter** measures electric current in a circuit. It is always connected in **series** in a circuit."
+        },
+        {
+            "id": "elec_quiz_1",
+            "type": "quiz",
+            "title": "Current Quiz",
+            "content": "Check your understanding of flowing charge.",
+            "quizQuestion": "Which instrument is used to measure the electric current flowing through a circuit?",
+            "quizOptions": [
+                "Voltmeter",
+                "Ammeter",
+                "Galvanometer",
+                "Thermometer"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "elec_4",
+            "type": "content",
+            "title": "Electric Potential Difference",
+            "content": "# The Push\n\nWhat makes the electric charge to flow? \nWater in a perfectly horizontal tube does not flow. To make it flow, you need a pressure difference (like a pump or a slope).\n\nSimilarly, electrons move only if there is a difference of electric pressure, called the **potential difference**, along the conductor.\n\n## The Battery:\nThis difference of potential may be produced by a battery, consisting of one or more electric cells. The chemical action within a cell generates the potential difference across its terminals."
+        },
+        {
+            "id": "elec_5",
+            "type": "content",
+            "title": "Measuring Potential Difference",
+            "content": "# Volts and Work\n\nWe define the electric potential difference between two points in an electric circuit carrying some current as the **work done to move a unit charge** from one point to the other.\n\n## The Formula:\nPotential difference (V) between two points = Work done (W) / Charge (Q)\n`V = W / Q`\n\n## Units:\n- The SI unit of electric potential difference is the **volt (V)**.\n\nThe potential difference is measured by means of an instrument called the **voltmeter**. The voltmeter is always connected in **parallel** across the points between which the potential difference is to be measured."
+        },
+        {
+            "id": "elec_6",
+            "type": "content",
+            "title": "Ohm's Law",
+            "content": "# The Golden Rule of Circuits\n\nIs there a relationship between the potential difference across a conductor and the current through it? Yes!\n\nIn 1827, German physicist Georg Simon Ohm found out the relationship.\n\n## Ohm's Law:\nIt states that the potential difference, `V`, across the ends of a given metallic wire in an electric circuit is directly proportional to the current flowing through it, provided its temperature remains the same.\n\n`V is proportional to I`\n`V = I x R`\n\nHere, **R** is a constant for the given metallic wire at a given temperature and is called its **resistance**."
+        },
+        {
+            "id": "elec_7",
+            "type": "content",
+            "title": "Resistance",
+            "content": "# Fighting the Flow\n\nWhat exactly is resistance?\n\n## Definition:\nIt is the property of a conductor to resist the flow of charges through it.\n- Its SI unit is the **ohm**.\n\n## The Logic:\nFrom Ohm's law, `I = V / R`.\nThis shows that the current through a resistor is inversely proportional to its resistance. If the resistance is doubled, the current gets halved.\n\nGood conductors (like copper) offer low resistance. Poor conductors (like rubber) offer very high resistance."
+        },
+        {
+            "id": "elec_quiz_2",
+            "type": "quiz",
+            "title": "Ohm's Law Quiz",
+            "content": "Check your understanding of resistance.",
+            "quizQuestion": "According to Ohm's Law, if you double the potential difference (Voltage) across a fixed resistor, what will happen to the current?",
+            "quizOptions": [
+                "It will be halved",
+                "It will remain the same",
+                "It will be doubled",
+                "It will become zero"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "elec_8",
+            "type": "content",
+            "title": "Factors Affecting Resistance",
+            "content": "# What Makes Resistance Change?\n\nThe resistance of a conductor depends on three main factors:\n\n1. **Its length (l):** Resistance is directly proportional to length. A longer wire has more resistance than a short one.\n2. **Its area of cross-section (A):** Resistance is inversely proportional to the area. A thick wire has less resistance than a thin wire.\n3. **The nature of its material:** Copper has much lower resistance than iron.\n\nThis gives us the formula: `R = rho * (l / A)`\nWhere `rho` (the constant of proportionality) is called the **electrical resistivity** of the material of the conductor."
+        },
+        {
+            "id": "elec_9",
+            "type": "content",
+            "title": "Resistors in Series",
+            "content": "# One Path for the Current\n\nWhen two or more resistors are connected end to end consecutively, they are said to be connected in **series**.\n\n## Key Properties:\n- The **current** (I) is the **same** in every part of the circuit or the same current through each resistor.\n- The total potential difference (V) across a combination of resistors in series is equal to the sum of potential differences across individual resistors.\n  `V = V1 + V2 + V3`\n\n## Equivalent Resistance:\nThe total or equivalent resistance (Rs) is the sum of their individual resistances.\n`Rs = R1 + R2 + R3`\nThus, the total resistance is greater than any individual resistance."
+        },
+        {
+            "id": "elec_10",
+            "type": "content",
+            "title": "Resistors in Parallel",
+            "content": "# Branching Paths\n\nWhen resistors are connected together between two common points, they are said to be connected in **parallel**.\n\n## Key Properties:\n- The **potential difference** (V) across each resistor is the **same**.\n- The total current (I) is equal to the sum of the separate currents through each branch of the combination.\n  `I = I1 + I2 + I3`\n\n## Equivalent Resistance:\nThe reciprocal of the equivalent resistance (Rp) is equal to the sum of the reciprocals of the individual resistances.\n`1/Rp = 1/R1 + 1/R2 + 1/R3`\nThus, the total resistance is *less* than the smallest individual resistance!"
+        },
+        {
+            "id": "elec_quiz_3",
+            "type": "quiz",
+            "title": "Series vs Parallel Quiz",
+            "content": "Test your circuit knowledge.",
+            "quizQuestion": "In which type of circuit arrangement is the potential difference (Voltage) the same across all components?",
+            "quizOptions": [
+                "Series arrangement",
+                "Parallel arrangement",
+                "Both series and parallel",
+                "Neither series nor parallel"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "elec_11",
+            "type": "content",
+            "title": "Heating Effect of Electric Current",
+            "content": "# Turning Electricity into Heat\n\nIf the electric circuit is purely resistive (a configuration of resistors only connected to a battery), the source energy continually gets dissipated entirely in the form of heat.\nThis is known as the **heating effect of electric current**.\n\n## Applications:\nThis effect is utilized in devices such as:\n- Electric heaters\n- Electric irons\n- Electric toasters\n- Electric ovens\n- Electric kettles"
+        },
+        {
+            "id": "elec_12",
+            "type": "content",
+            "title": "Joule's Law of Heating",
+            "content": "# The Math of Heat\n\nHow much heat is produced?\n\n## Joule's Law states that the heat (H) produced in a resistor is:\n1. Directly proportional to the **square of the current** (I^2) for a given resistance,\n2. Directly proportional to the **resistance** (R) for a given current, and\n3. Directly proportional to the **time** (t) for which the current flows through the resistor.\n\n## The Formula:\n`H = I^2 x R x t`\n\nThis explains why a device with a high resistance (like the heating coil in a toaster) produces so much heat when current flows through it!"
+        },
+        {
+            "id": "elec_13",
+            "type": "content",
+            "title": "Electric Power",
+            "content": "# The Rate of Doing Work\n\nThe rate at which electric energy is dissipated or consumed in an electric circuit is termed as **electric power**.\n\n## The Formulas:\n`P = V x I`\nOr, using Ohm's law, we can write it as:\n`P = I^2 x R`\nor\n`P = V^2 / R`\n\n## Units:\nThe SI unit of electric power is the **watt (W)**.\nIt is the power consumed by a device that carries 1 A of current when operated at a potential difference of 1 V."
+        },
+        {
+            "id": "elec_14",
+            "type": "content",
+            "title": "Commercial Unit of Electrical Energy",
+            "content": "# The Electricity Bill\n\nThe watt is a very small unit. Therefore, in actual practice, we use a much larger unit called **kilowatt** (1000 watts).\n\nSince electrical energy is the product of power and time, the unit of electric energy is watt-hour (Wh).\n\n## Kilowatt-hour (kWh):\nThe commercial unit of electric energy is **kilowatt-hour (kWh)**, commonly known as 'unit' on your electricity bill.\n- 1 kWh is the energy consumed when 1 kilowatt (1000 W) of power is used for 1 hour.\n- 1 kWh = 3.6 million joules!"
+        },
+        {
+            "id": "elec_15",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Electric Current (I):** The rate of flow of electric charges. (Unit: Ampere).\n- **Potential Difference (V):** The work done to move a unit charge; the \"push\" of the circuit. (Unit: Volt).\n- **Ohm's Law:** V = I x R.\n- **Resistance (R):** Opposition to current flow. (Unit: Ohm).\n- **Series Circuit:** Components in one line. Current is constant, voltage adds up.\n- **Parallel Circuit:** Components in branches. Voltage is constant, current adds up.\n- **Electric Power (P):** The rate of consuming electrical energy. (Unit: Watt)."
+        },
+        {
+            "id": "elec_16",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Electricity\n\nExcellent work! Here is a recap of what we've learned:\n\n- **Current** (measured by an ammeter) is driven through a circuit by the **potential difference** (measured by a voltmeter) provided by a battery.\n- **Ohm's Law** states that the voltage across a conductor is directly proportional to the current (V = IR), introducing **Resistance**.\n- Resistance depends on the wire's length, thickness, and material.\n- In **series circuits**, total resistance increases. In **parallel circuits**, total resistance decreases.\n- The **heating effect** of current is governed by Joule's Law (H = I^2 x R x t) and is used in appliances like toasters and irons.\n- Electrical energy is billed commercially in **kilowatt-hours (kWh)**."
+        }
+    ]
+}

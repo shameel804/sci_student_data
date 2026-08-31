@@ -1,0 +1,117 @@
+{
+    "id": "learn_biophys_spectroscopy",
+    "topicId": "spectroscopy",
+    "topicTitle": "Biological Spectroscopy",
+    "description": "Explore the cutting-edge physical tools scientists use to measure the heat, light, and mechanical forces of individual molecules in real-time.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "biophys_spec_1",
+            "type": "content",
+            "title": "Welcome to Biological Spectroscopy",
+            "content": "# Measuring the Invisible\n\nWelcome to **Biological Spectroscopy and Techniques**!\n\nWe know what proteins look like (Structure) and how they should move in a computer (Dynamics). But how do we physically measure their energy, folding, and movement in the real world?\n\n## What You Will Learn:\n- **Spectroscopic Methods** - Using light to see shape\n- **Calorimetric Techniques** - Measuring the heat of biology\n- **Microscopy Advances** - Breaking the limit of light\n- **Single Molecule Techniques** - Playing tug-of-war with DNA\n\nLet's head into the laboratory."
+        },
+        {
+            "id": "biophys_spec_2",
+            "type": "content",
+            "title": "Spectroscopic Methods",
+            "content": "# Using Light to See Shape\n\n**Spectroscopy** is the study of how matter interacts with electromagnetic radiation (light).\n\nIf you shine a specific wavelength of light through a tube of dissolved protein, the protein will absorb some of that light. By measuring exactly which colors (wavelengths) are absorbed, we can deduce what the protein is made of, and even how it is folded!"
+        },
+        {
+            "id": "biophys_spec_3",
+            "type": "content",
+            "title": "Circular Dichroism",
+            "content": "# Circular Dichroism (CD)\n\nThe most common spectroscopic tool for biophysicists is **Circular Dichroism (CD)**.\n\nIt uses polarized light (light that spins like a corkscrew). \n- Because proteins are \"chiral\" (they have a left-handed or right-handed twist), they absorb left-spinning light differently than right-spinning light.\n- By measuring this difference, a CD machine can instantly tell you if your protein is mostly folded into Alpha-Helices, Beta-Sheets, or if it is just a random, unfolded mess!\n- It doesn't give you a perfect 3D picture, but it is incredibly fast and cheap for checking if your protein is folded correctly."
+        },
+        {
+            "id": "biophys_spec_quiz_1",
+            "type": "quiz",
+            "title": "Spectroscopy Quiz",
+            "content": "Check your understanding of using light.",
+            "quizQuestion": "What is the primary use of Circular Dichroism (CD) spectroscopy in a biophysics lab?",
+            "quizOptions": [
+                "To instantly kill all bacteria in a water sample",
+                "To determine if a protein in solution is properly folded into secondary structures (like Alpha-Helices)",
+                "To take a perfect, high-resolution 3D photograph of an atom",
+                "To measure the weight of a DNA molecule"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "biophys_spec_4",
+            "type": "content",
+            "title": "Calorimetric Techniques",
+            "content": "# Measuring Biological Heat\n\nWhenever a drug binds to a protein, or a protein folds into its 3D shape, tiny amounts of chemical energy are released as Heat (exothermic) or absorbed as Cold (endothermic).\n\n**Calorimetry** is the science of measuring these incredibly tiny temperature changes."
+        },
+        {
+            "id": "biophys_spec_5",
+            "type": "content",
+            "title": "ITC and DSC",
+            "content": "# The Two Thermometers\n\n## Isothermal Titration Calorimetry (ITC)\nUsed to measure Binding. \nYou put a protein in a tiny cup. You slowly drip a drug into the cup. As the drug binds to the protein, it releases a microscopic pulse of heat. The ITC machine measures this heat spike, telling you EXACTLY how tightly the drug binds to the protein!\n\n## Differential Scanning Calorimetry (DSC)\nUsed to measure Stability. \nYou slowly heat up a protein until it \"melts\" (unfolds). The DSC machine measures exactly how much heat energy it takes to force the protein to unfold, telling you exactly how stable the molecular machine is."
+        },
+        {
+            "id": "biophys_spec_quiz_2",
+            "type": "quiz",
+            "title": "Calorimetry Quiz",
+            "content": "Check your understanding of heat.",
+            "quizQuestion": "If a pharmaceutical company wants to know exactly how tightly their new drug physically binds to a target protein, which technique would they use to measure the microscopic heat released during binding?",
+            "quizOptions": [
+                "X-Ray Crystallography",
+                "Circular Dichroism (CD)",
+                "Isothermal Titration Calorimetry (ITC)",
+                "An oral thermometer"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "biophys_spec_6",
+            "type": "content",
+            "title": "Microscopy Advances",
+            "content": "# Breaking the Limit of Light\n\nFor a hundred years, physics dictated that you could not see anything smaller than half the wavelength of visible light (about 200 nanometers). Proteins are 5 nanometers. They were \"invisible.\"\n\nIn 2014, the Nobel Prize was awarded for **Super-Resolution Microscopy**, which broke this physical limit using clever tricks with fluorescent glowing dyes, allowing us to see individual proteins moving inside a living cell!"
+        },
+        {
+            "id": "biophys_spec_7",
+            "type": "content",
+            "title": "FRET",
+            "content": "# FRET: The Molecular Ruler\n\nHow do we know if two proteins actually touch each other inside a living cell?\nWe use **FRET (Fluorescence Resonance Energy Transfer)**.\n\n1. You attach a Blue glowing dye to Protein A, and a Green glowing dye to Protein B.\n2. You shine a light that ONLY makes the Blue dye glow.\n3. If Protein A and Protein B are far apart, you see Blue light.\n4. BUT, if they physically touch each other, the energy from the Blue dye instantly jumps over to the Green dye. Suddenly, the cell glows Green!\n\nFRET acts as a microscopic ruler to prove that two machines are interacting!"
+        },
+        {
+            "id": "biophys_spec_8",
+            "type": "content",
+            "title": "Single Molecule Techniques",
+            "content": "# Playing with Single Molecules\n\nTraditionally, science measures a beaker containing a billion proteins and takes the average. \nBut modern biophysics allows us to grab and manipulate ONE SINGLE MOLECULE at a time."
+        },
+        {
+            "id": "biophys_spec_9",
+            "type": "content",
+            "title": "Optical Tweezers",
+            "content": "# Optical Tweezers\n\nThis sounds like science fiction, but it is real (and won a Nobel Prize in 2018).\n\nAn **Optical Tweezer** uses a highly focused laser beam to physically trap and hold a microscopic plastic bead. \n- Scientists attach one end of a DNA molecule to the glass slide, and the other end to the floating bead.\n- By moving the laser beam, they can physically stretch the single DNA molecule like a rubber band!\n- They can measure exactly how much force it takes to rip the DNA apart, or watch a single motor protein crawl along the DNA and measure its individual \"footsteps\"!"
+        },
+        {
+            "id": "biophys_spec_10",
+            "type": "content",
+            "title": "Atomic Force Microscopy",
+            "content": "# Atomic Force Microscopy (AFM)\n\nInstead of using light to see a protein, what if you just touch it?\n\n**AFM** uses a microscopic needle (like the needle on an old record player) that is literally one atom thick at the tip.\n- The needle is dragged across the surface of a cell membrane.\n- As the needle bumps over individual proteins sticking out of the membrane, a laser measures how the needle bounces.\n- A computer translates the bounces into a perfect 3D topological map of the surface, allowing you to \"feel\" the shape of individual molecules!"
+        },
+        {
+            "id": "biophys_spec_quiz_3",
+            "type": "quiz",
+            "title": "Single Molecule Quiz",
+            "content": "Check your understanding of the cutting edge.",
+            "quizQuestion": "How does an 'Optical Tweezer' allow a scientist to physically stretch a single DNA molecule?",
+            "quizOptions": [
+                "By using microscopic metal pliers controlled by a robot",
+                "By freezing the DNA in ice and cracking it",
+                "By using a highly focused laser beam to trap and pull a microscopic bead attached to the end of the DNA",
+                "By using a massive electromagnet to pull the DNA"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "biophys_spec_11",
+            "type": "content",
+            "title": "Summary of Spectroscopy",
+            "content": "# Biophysics Techniques Summary\n\n## Key Takeaways:\n\n### Light and Heat\n- **Circular Dichroism (CD)** uses polarized light to check if a protein is folded correctly.\n- **Calorimetry (ITC and DSC)** measures the microscopic heat released when drugs bind or proteins unfold.\n\n### The Cutting Edge\n- **FRET** uses jumping fluorescent energy to prove when two proteins physically touch inside a cell.\n- **Optical Tweezers** use lasers to physically stretch single DNA molecules.\n- **AFM** uses a one-atom-thick needle to physically 'feel' the shape of molecules on a surface.\n\n> **Congratulations!** You have completed the entire Advanced Science Curriculum! You now understand the physics of life."
+        }
+    ]
+}

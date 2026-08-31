@@ -1,0 +1,141 @@
+{
+    "id": "learn_magnetic",
+    "topicId": "magnetic",
+    "topicTitle": "Magnetic Effects of Electric Current",
+    "description": "Discover the hidden connection between electricity and magnetism, and how this relationship powers motors and generates electricity.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "mag_1",
+            "type": "content",
+            "title": "Welcome to Magnetism",
+            "content": "# The Invisible Force\n\nIn the previous topic on Electricity, we learned about the heating effects of electric current. What could be the other effects of electric current?\n\nIn 1820, Hans Christian Oersted accidentally discovered that a compass needle gets deflected when an electric current passes through a metallic wire placed nearby. \n\nHe had discovered that **electricity and magnetism are linked to each other!**\n\n## What You Will Learn:\n- **Magnetic Fields:** The invisible area of influence around magnets.\n- **Electromagnets:** Making magnets using electricity.\n- **The Electric Motor:** Using magnetism to create motion.\n- **Electromagnetic Induction:** Using magnetism to create electricity!"
+        },
+        {
+            "id": "mag_2",
+            "type": "content",
+            "title": "Magnetic Field and Field Lines",
+            "content": "# Drawing the Invisible\n\nA compass needle is, in fact, a small bar magnet. The ends of the compass needle point approximately towards north and south directions.\n\n## The Magnetic Field:\nThe region surrounding a magnet, in which the force of the magnet can be detected, is said to have a **magnetic field**.\n\n## Magnetic Field Lines:\nWe can represent this invisible field by drawing lines along which the compass needle points. These are called **magnetic field lines**.\n\nBy convention, the field lines emerge from the **North pole** and merge at the **South pole** of the magnet."
+        },
+        {
+            "id": "mag_3",
+            "type": "content",
+            "title": "Properties of Magnetic Field Lines",
+            "content": "# The Rules of the Lines\n\nMagnetic field lines follow a few strict rules:\n\n1. They are closed curves (emerge from North, merge at South outside the magnet; move from South to North inside the magnet).\n2. The relative strength of the magnetic field is shown by the degree of closeness of the field lines. The field is stronger where the lines are crowded (near the poles).\n3. **No two field-lines are found to cross each other.** If they did, it would mean that at the point of intersection, the compass needle would point towards two directions at the same time, which is impossible!"
+        },
+        {
+            "id": "mag_quiz_1",
+            "type": "quiz",
+            "title": "Field Lines Quiz",
+            "content": "Check your understanding of magnetic mapping.",
+            "quizQuestion": "Why do two magnetic field lines never intersect each other?",
+            "quizOptions": [
+                "Because they repel each other.",
+                "Because it would mean the compass points in two directions at once.",
+                "Because the magnetic field is too weak.",
+                "Because they are parallel lines."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "mag_4",
+            "type": "content",
+            "title": "Magnetic Field due to a Current-Carrying Conductor",
+            "content": "# Wires Becoming Magnets\n\nSince Oersted discovered that current creates a magnetic field, what does that field look like?\n\n## 1. Straight Wire:\nThe magnetic field lines around a straight current-carrying wire form **concentric circles** centered on the wire.\n\n## The Right-Hand Thumb Rule:\nA convenient way of finding the direction of the magnetic field is this rule: \nImagine that you are holding a current-carrying straight conductor in your right hand such that the thumb points towards the direction of current. Then your fingers will wrap around the conductor in the direction of the field lines of the magnetic field!"
+        },
+        {
+            "id": "mag_5",
+            "type": "content",
+            "title": "Magnetic Field due to a Circular Loop",
+            "content": "# Bending the Wire\n\nWhat happens if we bend the straight wire into a circular loop and pass a current through it?\n\n- The concentric circles representing the magnetic field around it would become larger and larger as we move away from the wire.\n- By the time we reach at the center of the circular loop, the arcs of these big circles would appear as **straight lines**.\n- Every point on the wire carrying current would give rise to a magnetic field appearing as a straight line at the center of the loop."
+        },
+        {
+            "id": "mag_6",
+            "type": "content",
+            "title": "The Solenoid",
+            "content": "# The Ultimate Electromagnet\n\nA coil of many circular turns of insulated copper wire wrapped closely in the shape of a cylinder is called a **solenoid**.\n\n## The Field:\nThe pattern of the magnetic field lines around a current-carrying solenoid is exactly similar to that of a **bar magnet**! One end of the solenoid behaves as a magnetic north pole, while the other behaves as the south pole.\n\n## Electromagnets:\nA strong magnetic field produced inside a solenoid can be used to magnetize a piece of magnetic material, like soft iron, when placed inside the coil. The magnet so formed is called an **electromagnet**."
+        },
+        {
+            "id": "mag_quiz_2",
+            "type": "quiz",
+            "title": "Electromagnets Quiz",
+            "content": "Check your understanding of solenoids.",
+            "quizQuestion": "The magnetic field produced by a current-carrying solenoid is most similar to the magnetic field of a:",
+            "quizOptions": [
+                "Straight wire",
+                "U-shaped magnet",
+                "Bar magnet",
+                "Circular loop"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "mag_7",
+            "type": "content",
+            "title": "Force on a Current-Carrying Conductor in a Magnetic Field",
+            "content": "# The Kick\n\nWe saw that an electric current exerts a force on a magnet (the compass needle).\n\nFrench scientist Andre Marie Ampere suggested that the reverse must also be true. **A magnet must also exert an equal and opposite force on the current-carrying conductor.**\n\nIf you place a current-carrying wire inside a strong magnetic field, the wire experiences a physical force! It gets \"kicked\" sideways. \n\nThe direction of the force is reversed when the direction of current is reversed."
+        },
+        {
+            "id": "mag_8",
+            "type": "content",
+            "title": "Fleming's Left-Hand Rule",
+            "content": "# Finding the Direction of Force\n\nTo find the direction of the physical force on the wire, we use Fleming's Left-Hand Rule.\n\nStretch the thumb, forefinger, and middle finger of your **left hand** such that they are mutually perpendicular.\n1. **Forefinger:** Points in the direction of the magnetic field.\n2. **Middle finger:** Points in the direction of the current.\n3. **Thumb:** Will point in the direction of the motion or the **force** acting on the conductor.\n\nDevices that use this force include electric motors, electric generators, loudspeakers, microphones and measuring instruments."
+        },
+        {
+            "id": "mag_9",
+            "type": "content",
+            "title": "Electric Motor",
+            "content": "# Electricity into Motion\n\nAn electric motor is a rotating device that converts electrical energy to mechanical energy. \n\n## How it Works:\nIt works on the principle that a current-carrying conductor placed in a magnetic field experiences a force.\n1. A rectangular coil of wire is placed between the two poles of a magnetic field.\n2. Current is passed through the coil.\n3. According to Fleming's Left-Hand Rule, the magnetic force pushes one side of the coil up and the other side down, causing the coil to rotate!\n\nElectric motors are used as important components in electric fans, refrigerators, mixers, washing machines, computers, MP3 players etc."
+        },
+        {
+            "id": "mag_10",
+            "type": "content",
+            "title": "The Split-Ring Commutator",
+            "content": "# Keeping it Spinning\n\nThere is a problem with the basic motor design. After half a rotation, the coil would just get stuck or spin backward!\n\nTo make it spin continuously in one direction, the direction of the current in the coil must be reversed every half rotation.\n\n## The Solution:\nA device that reverses the direction of flow of current through a circuit is called a **commutator**. \nIn electric motors, a **split ring** acts as a commutator, reversing the current every half turn and keeping the motor spinning continuously."
+        },
+        {
+            "id": "mag_11",
+            "type": "content",
+            "title": "Electromagnetic Induction",
+            "content": "# Motion into Electricity\n\nWe have studied that when a current-carrying conductor is placed in a magnetic field, it experiences a force (the motor effect). \n\nWhat happens if the situation is reversed?\nWhat if a conductor is moved inside a magnetic field?\n\nIn 1831, Michael Faraday made an important breakthrough by discovering how a moving magnet can be used to generate electric currents!\n\nThis phenomenon is called **electromagnetic induction**."
+        },
+        {
+            "id": "mag_12",
+            "type": "content",
+            "title": "Faraday's Discovery",
+            "content": "# The Moving Magnet\n\nIf you take a coil of wire connected to a galvanometer (a device that detects current) and thrust a bar magnet into the coil, the galvanometer needle deflects!\n\n- The motion of a magnet with respect to the coil produces an **induced potential difference**, which sets up an **induced electric current** in the circuit.\n- This means you can create electricity simply by moving a magnet near a wire, or by moving a wire near a magnet!\n\nThis principle is used in electric generators to produce electricity for our homes."
+        },
+        {
+            "id": "mag_quiz_3",
+            "type": "quiz",
+            "title": "Induction Quiz",
+            "content": "Check your understanding of Faraday's discovery.",
+            "quizQuestion": "The phenomenon of electromagnetic induction is the process of:",
+            "quizOptions": [
+                "Charging a body.",
+                "Producing induced current in a coil due to relative motion between a magnet and the coil.",
+                "Generating magnetic field due to a current passing through a coil.",
+                "Rotating a coil of an electric motor."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "mag_13",
+            "type": "content",
+            "title": "Fleming's Right-Hand Rule",
+            "content": "# Finding the Induced Current\n\nTo find the direction of the *induced current* generated by motion, we use a different hand rule.\n\nStretch the thumb, forefinger, and middle finger of your **right hand** so they are mutually perpendicular.\n1. **Thumb:** Indicates the direction of motion of the conductor.\n2. **Forefinger:** Indicates the direction of the magnetic field.\n3. **Middle finger:** Shows the direction of the **induced current**.\n\n> **Memory Trick:** Left Hand for Motors (Force), Right Hand for Generators (Induced Current)."
+        },
+        {
+            "id": "mag_14",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Magnetic Field Lines:** Invisible lines mapping the magnetic force (North to South).\n- **Right-Hand Thumb Rule:** Used to find the direction of the magnetic field around a straight current-carrying wire.\n- **Solenoid:** A cylindrical coil of wire that acts like a bar magnet when current flows.\n- **Electromagnet:** A temporary magnet made by passing current through a solenoid with a soft iron core.\n- **Electric Motor:** Converts electrical energy to mechanical energy (uses Left-Hand Rule).\n- **Electromagnetic Induction:** Producing electricity by moving a magnet near a coil (uses Right-Hand Rule)."
+        },
+        {
+            "id": "mag_15",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Magnetic Effects\n\nExcellent work! Here is a recap of what we've learned:\n\n- An electric current produces a **magnetic field** around it. The field around a **solenoid** resembles a bar magnet.\n- A current-carrying conductor placed in a magnetic field experiences a force. We use **Fleming's Left-Hand Rule** to find the direction of this force.\n- This force principle is the basis of the **Electric Motor**, which uses a split-ring commutator to keep spinning continuously.\n- **Electromagnetic Induction** is the reverse process: moving a magnet near a coil (or vice versa) induces an electric current in the coil.\n- The direction of the induced current is given by **Fleming's Right-Hand Rule**, which is the principle behind electric generators."
+        }
+    ]
+}

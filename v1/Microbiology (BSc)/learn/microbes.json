@@ -1,0 +1,59 @@
+{
+    "id": "mic_microbes",
+    "topicId": "microbes",
+    "topicTitle": "Microbial Diversity",
+    "description": "Meet the invisible rulers of the Earth, from ancient extremophiles to viruses and fungi.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "mmic_1",
+            "type": "content",
+            "title": "Welcome to Microbial Diversity",
+            "content": "# Microbial Diversity\n\nWelcome to Microbiology! This is the study of organisms too small to be seen with the naked eye. Despite their size, they run the planet.\n\n## What You Will Learn:\n- **Microbial Diversity** - The hidden world of the very small\n- **Virus Structure** - The edge of life\n- **Fungi Characteristics** - Yeasts, molds, and mushrooms\n- **Protozoa Life Cycles** - Complex single-celled hunters\n\n> **Fun Fact:** There are more bacterial cells in and on your body than there are human cells. You are more microbe than human!"
+        },
+        {
+            "id": "mmic_2",
+            "type": "content",
+            "title": "The Microbial World",
+            "content": "# Domains of Life\n\nMicrobes are found in all three domains of life.\n\n## 1. Bacteria (Prokaryotes):\n- Single-celled, no nucleus. Peptidoglycan cell walls. Ubiquitous in every environment.\n\n## 2. Archaea (Prokaryotes):\n- Single-celled, no nucleus. Unique cell walls (no peptidoglycan). \n- Famous for being **extremophiles**: living in boiling hot springs, hypersaline lakes, or deep-sea hydrothermal vents.\n\n## 3. Eukarya (Eukaryotes):\n- Have a true nucleus. Includes Fungi, Protozoa, and Algae.\n\n*(Note: Viruses are not considered living and don't fit into these domains!)*"
+        },
+        {
+            "id": "mmic_3",
+            "type": "content",
+            "title": "Viruses",
+            "content": "# Viruses: The Ultimate Parasites\n\nAre they alive? Most biologists say no, because they cannot reproduce or metabolize on their own.\n\n## Structure:\n- Extremely simple and incredibly small (much smaller than bacteria).\n- **Nucleic Acid Core:** Contains the genetic code. Can be DNA or RNA, single-stranded or double-stranded.\n- **Capsid:** A protective protein coat surrounding the genetic material.\n- **Envelope (Optional):** Some viruses (like HIV or Influenza) steal a lipid membrane from the host cell as they exit, wrapping themselves in it to help infect the next cell.\n\n## The Mechanism:\nA virus must hijack a living host cell. It injects its genetic code, forcing the host's ribosomes and enzymes to build thousands of new viruses, eventually bursting (lysing) and killing the host cell."
+        },
+        {
+            "id": "mmic_4",
+            "type": "content",
+            "title": "Fungi",
+            "content": "# Kingdom Fungi\n\nFungi are eukaryotic, heterotrophic (cannot make their own food) organisms.\n\n## Key Characteristics:\n- **Cell Wall:** Made of **chitin** (the same tough material found in insect exoskeletons), NOT cellulose like plants.\n- **Body Structure:** Most are multicellular and consist of a vast network of fine, thread-like filaments called **hyphae**. The entire mass of hyphae is called the mycelium. (Yeast is an exception; it is unicellular).\n- **Nutrition:** They are absorptive heterotrophs. They secrete digestive enzymes OUTSIDE their body into the environment, break down organic matter, and then absorb the nutrients. \n- Excellent decomposers (saprophytes)."
+        },
+        {
+            "id": "mmic_5",
+            "type": "content",
+            "title": "Protozoa",
+            "content": "# Protozoa: The First Animals\n\nProtozoa are single-celled Eukaryotes that behave remarkably like tiny animals.\n\n## Key Characteristics:\n- They lack a rigid cell wall (unlike algae or fungi).\n- Most are highly motile (they can move around).\n- They are heterotrophic, often actively hunting and engulfing smaller microbes (like bacteria) via phagocytosis.\n\n## Classification by Movement:\n1. **Amoeboids:** Move using pseudopodia ('false feet' - cytoplasmic extensions). E.g., Amoeba.\n2. **Flagellates:** Move using one or more long whip-like flagella. E.g., Trypanosoma (causes sleeping sickness).\n3. **Ciliates:** Move using thousands of tiny, beating hair-like cilia. E.g., Paramecium.\n4. **Sporozoans:** Non-motile. All are internal parasites with complex life cycles. E.g., Plasmodium (causes Malaria)."
+        },
+        {
+            "id": "mmic_quiz_1",
+            "type": "quiz",
+            "title": "Microbe Quiz",
+            "content": "Test your microbial knowledge.",
+            "quizQuestion": "Which of the following microbes possesses a cell wall made of chitin?",
+            "quizOptions": [
+                "Bacteria",
+                "Viruses",
+                "Protozoa",
+                "Fungi"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "mmic_6",
+            "type": "content",
+            "title": "Summary: Microbial Diversity",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Domains:** Microbes span Bacteria, Archaea (extremophiles), and Eukarya (Fungi/Protozoa).\n- **Viruses:** Non-living obligate parasites. Consist simply of genetic material (DNA or RNA) wrapped in a protein capsid.\n- **Fungi:** Eukaryotes with chitin cell walls. Form networks of hyphae (mycelium). Secrete enzymes to digest food externally.\n- **Protozoa:** Animal-like, single-celled eukaryotes without cell walls. Classified by movement: pseudopodia, flagella, cilia, or non-motile parasites (sporozoans).\n\n> **Congratulations!** You have completed the Microbial Diversity module."
+        }
+    ]
+}

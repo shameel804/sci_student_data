@@ -1,0 +1,147 @@
+{
+    "id": "learn_reproduction",
+    "topicId": "reproduction",
+    "topicTitle": "How do Organisms Reproduce?",
+    "description": "Discover the incredible methods nature uses to create new life, from single cells splitting apart to complex human reproduction.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "repro_1",
+            "type": "content",
+            "title": "Welcome to Reproduction",
+            "content": "# The Continuation of Life\n\nWhy do organisms reproduce? Unlike nutrition or respiration, reproduction is not necessary to keep an individual organism alive. It takes a lot of energy!\n\nHowever, if an organism did not reproduce, its species would eventually die out. Reproduction is essential for the survival of a **species** over time.\n\n## What You Will Learn:\n- **Do Organisms Create Exact Copies?** The role of DNA.\n- **Asexual Reproduction:** Making babies without a partner.\n- **Sexual Reproduction in Plants:** How flowers make seeds.\n- **Human Reproduction:** How we create new life.\n- **Reproductive Health:** Keeping the body safe."
+        },
+        {
+            "id": "repro_2",
+            "type": "content",
+            "title": "The Blueprint of Life",
+            "content": "# DNA Copying\n\nHow do offspring look like their parents? The instructions for making a living being are stored in the chromosomes in the nucleus of a cell, in the form of **DNA** (Deoxyribo Nucleic Acid).\n\nWhen a cell reproduces, it must first make a copy of its DNA. However, the copying process is not absolutely perfect.\n\nThese minor errors in DNA copying lead to **variations**.\nWhile drastic errors might kill a cell, small variations are the basis for evolution. They allow a species to adapt to changing environments over time!"
+        },
+        {
+            "id": "repro_3",
+            "type": "content",
+            "title": "Asexual Reproduction: Fission",
+            "content": "# Splitting Apart\n\nAsexual reproduction involves only ONE parent. There is no mixing of DNA.\n\n## Fission:\nFor unicellular organisms, cell division leads to the creation of new individuals.\n\n1. **Binary Fission:** Many bacteria and protozoa (like *Amoeba*) simply split into two equal halves during cell division.\n2. **Multiple Fission:** Some organisms, like the malaria parasite (*Plasmodium*), divide into many daughter cells simultaneously inside a protective cyst."
+        },
+        {
+            "id": "repro_4",
+            "type": "content",
+            "title": "Asexual Reproduction: Fragmentation & Regeneration",
+            "content": "# Growing from Pieces\n\n## Fragmentation:\nIn multi-cellular organisms with relatively simple body organization, simple reproductive methods can work.\n*Example:* *Spirogyra* (an algae) simply breaks up into smaller pieces upon maturation. These pieces or fragments grow into new individuals.\n\n## Regeneration:\nIf the individual is somehow cut or broken up into many pieces, many of these pieces grow into separate individuals.\n*Example:* Simple animals like *Hydra* and *Planaria* can be cut into any number of pieces and each piece grows into a complete organism. (Note: Regeneration is not technically reproduction, as most animals wouldn't normally depend on being cut up to reproduce!)."
+        },
+        {
+            "id": "repro_5",
+            "type": "content",
+            "title": "Asexual Reproduction: Budding & Vegetative Propagation",
+            "content": "# Buds and Roots\n\n## Budding:\nOrganisms such as *Hydra* use regenerative cells for reproduction. A small outgrowth (bud) develops due to repeated cell division at one specific site. These buds develop into tiny individuals and, when fully mature, detach to become new independent organisms.\n\n## Vegetative Propagation:\nIn many plants, parts like the root, stem, and leaves develop into new plants under appropriate conditions.\n- *Natural:* Potatoes growing from \"eyes\" (stem tubers), or *Bryophyllum* leaves producing buds.\n- *Artificial:* Used in agriculture through methods like layering or grafting to grow sugarcane, roses, or grapes."
+        },
+        {
+            "id": "repro_quiz_1",
+            "type": "quiz",
+            "title": "Asexual Quiz",
+            "content": "Check your understanding of single-parent reproduction.",
+            "quizQuestion": "Which method of asexual reproduction is used by Amoeba to reproduce?",
+            "quizOptions": [
+                "Vegetative propagation",
+                "Budding",
+                "Binary fission",
+                "Fragmentation"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "repro_6",
+            "type": "content",
+            "title": "Why Sexual Reproduction?",
+            "content": "# The Power of Two\n\nIf asexual reproduction is so easy (you don't even need to find a mate!), why did nature invent sexual reproduction?\n\n## The Advantage of Variation:\nAsexual reproduction produces clones. If a disease hits, the entire population could be wiped out because they all share the exact same weaknesses.\n\nSexual reproduction involves two parents combining their DNA. This produces offspring with **new combinations of DNA (greater variation)**. This diversity makes the species as a whole much stronger and more adaptable to changing environments!"
+        },
+        {
+            "id": "repro_7",
+            "type": "content",
+            "title": "Sexual Reproduction in Flowering Plants",
+            "content": "# The Anatomy of a Flower\n\nThe reproductive parts of an angiosperm (flowering plant) are located in the flower.\n\n## Male Parts (Stamen):\nThe stamen produces **pollen grains** (which contain the male germ-cells/sperm). It consists of a stalk (filament) and a swollen top (anther).\n\n## Female Parts (Carpel/Pistil):\nThe carpel is present in the center of a flower.\n1. **Ovary:** The swollen bottom part, containing ovules (which contain the female germ-cells/eggs).\n2. **Style:** The middle elongated part.\n3. **Stigma:** The sticky top part designed to catch pollen."
+        },
+        {
+            "id": "repro_8",
+            "type": "content",
+            "title": "Pollination and Fertilization",
+            "content": "# Making a Seed\n\n## 1. Pollination:\nFor reproduction to occur, the pollen needs to be transferred from the stamen to the stigma. This is called pollination. If it happens within the same flower, it's self-pollination. If it happens between different flowers (via wind, water, or insects), it's cross-pollination.\n\n## 2. Fertilization:\nOnce on the stigma, the pollen grain grows a tube down through the style to the ovary. The male germ-cell travels down this tube and fuses with the female germ-cell (egg) inside the ovule. This fusion is called **fertilization**, producing a zygote.\n\nAfter fertilization, the ovule develops into a **seed**, and the ovary grows rapidly to become a **fruit**!"
+        },
+        {
+            "id": "repro_quiz_2",
+            "type": "quiz",
+            "title": "Plant Reproduction Quiz",
+            "content": "Check your botanical knowledge.",
+            "quizQuestion": "After fertilization in a flowering plant, what does the ovary develop into?",
+            "quizOptions": [
+                "A seed",
+                "A fruit",
+                "A new flower",
+                "A leaf"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "repro_9",
+            "type": "content",
+            "title": "Reproduction in Human Beings",
+            "content": "# Reaching Maturity\n\nHumans use sexual reproduction. However, the body must be prepared for this.\n\nThe period during adolescence when the reproductive tissues begin to mature is called **puberty**.\n- Boys develop facial hair, their voices crack, and testes begin to produce sperm.\n- Girls experience breast development, widening of hips, and the beginning of the menstrual cycle, as ovaries begin to release mature eggs."
+        },
+        {
+            "id": "repro_10",
+            "type": "content",
+            "title": "Male Reproductive System",
+            "content": "# Producing and Delivering\n\nThe male reproductive system consists of portions which produce the germ-cells and other portions that deliver the germ-cells to the site of fertilization.\n\n1. **Testes:** Located outside the abdominal cavity in the scrotum (because sperm formation requires a lower temperature than the normal body temperature). They produce sperm and the hormone testosterone.\n2. **Vas Deferens:** A tube that carries the sperm away from the testes.\n3. **Glands (Prostate & Seminal Vesicles):** Add fluid to the sperm to provide nutrition and make transport easier. This fluid + sperm = semen.\n4. **Urethra & Penis:** The common passage for both urine and sperm to exit the body."
+        },
+        {
+            "id": "repro_11",
+            "type": "content",
+            "title": "Female Reproductive System",
+            "content": "# The Site of Creation\n\nThe female germ-cells (eggs) are made in the ovaries. When a girl is born, her ovaries already contain thousands of immature eggs!\n\n1. **Ovaries:** Upon reaching puberty, one egg matures and is released by one of the ovaries every month.\n2. **Fallopian Tube (Oviduct):** The egg is carried from the ovary to the womb through this tube. **This is where fertilization (sperm meeting egg) occurs!**\n3. **Uterus (Womb):** An elastic bag where the fertilized egg (zygote) implants and develops into a baby over 9 months.\n4. **Cervix & Vagina:** The uterus opens into the vagina through the cervix. The vagina receives sperm and acts as the birth canal."
+        },
+        {
+            "id": "repro_12",
+            "type": "content",
+            "title": "What Happens when the Egg is NOT Fertilized?",
+            "content": "# Menstruation\n\nSince the ovary releases one egg every month, the uterus also prepares itself every month to receive a fertilized egg. Its lining becomes thick and spongy to nourish the embryo.\n\nIf the egg is **not** fertilized, it lives for about one day. \nBecause the thick, spongy lining of the uterus is no longer needed, it slowly breaks down and comes out through the vagina as blood and mucus. \n\nThis cycle takes place roughly every month and is known as **menstruation**. It usually lasts for about two to eight days."
+        },
+        {
+            "id": "repro_13",
+            "type": "content",
+            "title": "Reproductive Health",
+            "content": "# Staying Safe\n\nSexual maturation is a gradual process, and having a mature body does not mean the mind or body is ready for the responsibilities of sexual acts or having children.\n\n## Sexually Transmitted Diseases (STDs):\nBecause the sexual act involves an intimate connection of bodies, many diseases can be transmitted. \n- Bacterial infections: Gonorrhoea and Syphilis.\n- Viral infections: Warts and HIV-AIDS.\nUsing a condom helps to prevent the transmission of many of these infections to some extent."
+        },
+        {
+            "id": "repro_14",
+            "type": "content",
+            "title": "Contraception",
+            "content": "# Preventing Pregnancy\n\nIf a woman is not ready to have a child, pregnancy can be prevented using contraceptive methods:\n\n1. **Mechanical Barriers:** Condoms prevent the sperm from reaching the egg.\n2. **Chemical Methods:** Oral pills change the hormonal balance of the body so that eggs are not released. (They can have side effects).\n3. **Intrauterine Devices (IUDs):** Devices like the Copper-T are placed in the uterus to prevent pregnancy.\n4. **Surgical Methods:** Blocking the vas deferens in males (vasectomy) or the fallopian tubes in females (tubectomy) prevents the transfer of germ cells permanently."
+        },
+        {
+            "id": "repro_quiz_3",
+            "type": "quiz",
+            "title": "Reproduction Quiz",
+            "content": "Check your understanding of the human system.",
+            "quizQuestion": "In the human female reproductive system, where does the fertilization of the egg by the sperm typically take place?",
+            "quizOptions": [
+                "Ovary",
+                "Uterus",
+                "Fallopian Tube",
+                "Vagina"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "repro_15",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Asexual Reproduction:** Reproduction with one parent (Fission, Budding, Fragmentation).\n- **Sexual Reproduction:** Reproduction involving two parents, leading to genetic variation.\n- **Pollination:** Transfer of pollen from stamen (anther) to carpel (stigma).\n- **Fertilization:** Fusion of male and female germ-cells to form a zygote.\n- **Testes / Ovaries:** The male and female organs that produce germ-cells and hormones.\n- **Menstruation:** The monthly shedding of the unfertilized egg and the uterine lining.\n- **Contraception:** Methods used to prevent pregnancy."
+        },
+        {
+            "id": "repro_16",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Reproduction\n\nExcellent work! Here is a recap of what we've learned:\n\n- **Asexual reproduction** involves single parents making clones (e.g., Amoeba using binary fission, Hydra using budding). Errors in DNA copying create minor variations.\n- **Sexual reproduction** involves two parents, creating massive variation which is beneficial for species survival.\n- In **flowers**, pollen from the stamen lands on the stigma, fertilizing the ovule in the ovary, which becomes a seed inside a fruit.\n- In **humans**, testes produce sperm (male) and ovaries produce eggs (female). Fertilization occurs in the fallopian tube, and the baby develops in the uterus.\n- **Reproductive health** involves avoiding STDs and using contraceptive methods if pregnancy is not desired."
+        }
+    ]
+}

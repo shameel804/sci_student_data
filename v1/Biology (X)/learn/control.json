@@ -1,0 +1,141 @@
+{
+    "id": "learn_control",
+    "topicId": "control",
+    "topicTitle": "Control and Coordination",
+    "description": "How do you know when to pull your hand away from a hot stove? Explore the nervous system, hormones, and how plants move.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "ctrl_1",
+            "type": "content",
+            "title": "Welcome to Control and Coordination",
+            "content": "# The Command Center\n\nIf you touch a hot pan, you pull your hand away immediately. If a seed is planted, its roots always grow down and its shoots grow up. How does the organism \"know\" what to do?\n\nAll living organisms respond and react to changes in the environment around them. These changes in the environment to which the organisms respond and react are called **stimuli**.\n\n## What You Will Learn:\n- **The Nervous System:** How electrical signals run your body.\n- **Reflex Actions:** Thinking without the brain!\n- **The Human Brain:** The ultimate supercomputer.\n- **Chemical Coordination:** How hormones act as slow messengers in animals and plants."
+        },
+        {
+            "id": "ctrl_2",
+            "type": "content",
+            "title": "Animals: Nervous System",
+            "content": "# The Electrical Network\n\nIn animals, control and coordination are provided by nervous and muscular tissues.\n\n## The Neuron (Nerve Cell):\nThe nervous system is made up of a highly specialized network of cells called neurons. They are designed to detect information from the environment and transmit it rapidly.\n\n## Parts of a Neuron:\n1. **Dendrite:** The branch-like tips that acquire information from the environment (or other neurons).\n2. **Cell Body & Axon:** The information travels as an electrical impulse along this long tube.\n3. **Nerve Ending:** At the end of the axon, the electrical impulse sets off the release of some chemicals."
+        },
+        {
+            "id": "ctrl_3",
+            "type": "content",
+            "title": "The Synapse",
+            "content": "# Jumping the Gap\n\nNeurons do not actually touch each other! There is a tiny microscopic gap between the nerve ending of one neuron and the dendrite of the next.\n\nThis gap is called a **synapse**.\n\n## How does the signal cross?\nWhen the electrical signal reaches the end of the axon, it causes the release of chemicals (neurotransmitters). These chemicals cross the gap (synapse) and start a similar electrical impulse in a dendrite of the next neuron.\n\nThis ensures the signal only travels in one direction!"
+        },
+        {
+            "id": "ctrl_quiz_1",
+            "type": "quiz",
+            "title": "Neuron Quiz",
+            "content": "Check your understanding of nerve cells.",
+            "quizQuestion": "What is the microscopic gap between two adjacent neurons called?",
+            "quizOptions": [
+                "Axon",
+                "Dendrite",
+                "Synapse",
+                "Receptor"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "ctrl_4",
+            "type": "content",
+            "title": "What Happens in Reflex Actions?",
+            "content": "# Thinking Without the Brain\n\n'Reflex' is a word we use very commonly when we talk about some sudden action in response to something in the environment. \n*\"I pulled my hand back from the flame reflexively.\"*\n\nIf we had to consciously think about pulling our hand away, it would take too long, and our hand would get burned!\n\n## The Reflex Arc:\nInstead of the signal traveling all the way up to the brain to be processed, the nerves that detect heat (sensory nerves) are connected directly to the nerves that move muscles (motor nerves) in the **Spinal Cord**.\n\nThis short-circuit connection is called a reflex arc. It allows for an instant, automatic response without brain involvement!"
+        },
+        {
+            "id": "ctrl_5",
+            "type": "content",
+            "title": "The Human Brain",
+            "content": "# The Main Command Center\n\nWhile reflexes are handled by the spinal cord, all conscious thought and complex coordination are handled by the brain.\n\nThe brain has three such major parts or regions:\n1. **Fore-brain:** The main thinking part of the brain. It receives sensory impulses and controls voluntary actions (like deciding to pick up a pen).\n2. **Mid-brain:** Connects fore and hind brain.\n3. **Hind-brain:** Controls involuntary actions like blood pressure, salivation, and vomiting. A part of it called the **cerebellum** is responsible for the precision of voluntary actions and maintaining the posture and balance of the body."
+        },
+        {
+            "id": "ctrl_6",
+            "type": "content",
+            "title": "Protecting the Brain and Spinal Cord",
+            "content": "# Bone and Fluid Armor\n\nA delicate organ like the brain, which is so important for a variety of activities, needs to be carefully protected.\n\n## Brain Protection:\nThe brain sits inside a bony box (the skull or cranium). Inside the box, the brain is surrounded by a shock-absorbing fluid (cerebrospinal fluid) to protect it from mechanical shocks.\n\n## Spinal Cord Protection:\nThe spinal cord is protected by the vertebral column (backbone), which is a hard, bumpy structure down your back."
+        },
+        {
+            "id": "ctrl_7",
+            "type": "content",
+            "title": "Coordination in Plants",
+            "content": "# No Brain, No Muscles!\n\nAnimals have a nervous system for controlling and coordinating the activities of the body. But plants have neither a nervous system nor muscles.\nSo, how do they respond to stimuli?\n\nIf you touch the leaves of a 'touch-me-not' plant (Mimosa pudica), they fold up and droop. \nWhen a seed germinates, the root goes down, the stem comes up.\n\nPlants show two different types of movement:\n1. One dependent on growth (directional)\n2. One independent of growth (non-directional)"
+        },
+        {
+            "id": "ctrl_8",
+            "type": "content",
+            "title": "Tropic Movements (Growth Dependent)",
+            "content": "# Bending Towards the Stimulus\n\nEnvironmental triggers such as light or gravity will change the directions that plant parts grow in. These directional movements are called **tropic movements**.\n\n- **Phototropism:** Movement towards light. Shoots bend towards light (positive), roots bend away (negative).\n- **Geotropism:** Movement towards gravity. Roots grow downwards (positive), shoots grow upwards (negative).\n- **Hydrotropism:** Roots growing towards water.\n- **Chemotropism:** Growth of pollen tubes towards ovules during reproduction.\n\nThese movements are slow because they rely on actual cell growth."
+        },
+        {
+            "id": "ctrl_quiz_2",
+            "type": "quiz",
+            "title": "Plant Movement Quiz",
+            "content": "Check your botanical knowledge.",
+            "quizQuestion": "The downward growth of plant roots in response to the Earth's gravity is called:",
+            "quizOptions": [
+                "Phototropism",
+                "Positive geotropism",
+                "Negative geotropism",
+                "Hydrotropism"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "ctrl_9",
+            "type": "content",
+            "title": "Plant Hormones",
+            "content": "# Chemical Messengers\n\nHow do plants coordinate this growth without nerves? They use chemical compounds called hormones.\n\n## Key Plant Hormones (Phytohormones):\n1. **Auxin:** Synthesized at the shoot tip, it helps the cells to grow longer. When light comes from one side, auxin diffuses to the shady side, causing the cells there to grow faster, bending the plant towards the light!\n2. **Gibberellins:** Help in the growth of the stem.\n3. **Cytokinins:** Promote cell division (found in rapid growth areas like fruits and seeds).\n4. **Abscisic Acid:** Inhibits growth (e.g., causes leaves to wilt and fall off). It's the \"stop\" signal."
+        },
+        {
+            "id": "ctrl_10",
+            "type": "content",
+            "title": "Hormones in Animals",
+            "content": "# The Endocrine System\n\nNerve impulses are fast, but they cannot reach every single cell in the body, and their effect is short-lived.\n\nTo communicate continuously and reach all cells, animals use chemical messengers called **hormones**.\n\nHormones are secreted by special glands called **endocrine glands**. These glands do not have ducts (tubes); they secrete their hormones directly into the blood, which carries them throughout the body."
+        },
+        {
+            "id": "ctrl_11",
+            "type": "content",
+            "title": "Important Animal Hormones",
+            "content": "# The Chemical Controllers\n\nHere are some vital hormones that control our bodies:\n\n1. **Adrenaline:** Secreted by the adrenal glands. It prepares the body for a \"fight or flight\" response by increasing heart rate and breathing when we are scared or stressed.\n2. **Thyroxin:** Secreted by the thyroid gland. It regulates carbohydrate, protein, and fat metabolism. (Iodine is essential for its synthesis, which is why we eat iodized salt to prevent goiter).\n3. **Growth Hormone:** Secreted by the pituitary gland (the master gland). Regulates growth and development."
+        },
+        {
+            "id": "ctrl_12",
+            "type": "content",
+            "title": "Insulin and Diabetes",
+            "content": "# Regulating Sugar\n\nHave you heard of people suffering from diabetes who have to take injections?\n\n## Insulin:\nThis is a hormone produced by the **pancreas**. It helps in regulating blood sugar levels.\n\nIf it is not secreted in proper amounts, the sugar level in the blood rises, causing many harmful effects (Diabetes).\n\n## Feedback Mechanism:\nThe timing and amount of hormone released are regulated by feedback mechanisms. If blood sugar levels fall, the pancreas detects this and reduces insulin secretion, keeping everything in balance!"
+        },
+        {
+            "id": "ctrl_quiz_3",
+            "type": "quiz",
+            "title": "Hormone Quiz",
+            "content": "Check your understanding of the endocrine system.",
+            "quizQuestion": "Which gland secretes insulin to regulate blood sugar levels?",
+            "quizOptions": [
+                "Thyroid gland",
+                "Adrenal gland",
+                "Pituitary gland",
+                "Pancreas"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "ctrl_13",
+            "type": "content",
+            "title": "Comparing Nerves and Hormones",
+            "content": "# Two Ways to Communicate\n\nThe animal body uses two very different systems to communicate:\n\n## Nervous System:\n- **Method:** Electrical impulses (and chemical synapses).\n- **Speed:** Extremely fast.\n- **Target:** Specific (only reaches muscles/glands connected to nerves).\n- **Duration:** Short-lived effect.\n\n## Endocrine System (Hormones):\n- **Method:** Chemical messengers in the blood.\n- **Speed:** Relatively slow.\n- **Target:** Widespread (reaches all cells in the body).\n- **Duration:** Long-lasting effect."
+        },
+        {
+            "id": "ctrl_14",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Neuron:** The basic unit of the nervous system.\n- **Synapse:** The microscopic gap between two neurons.\n- **Reflex Arc:** The short-circuit pathway through the spinal cord for automatic responses.\n- **Cerebellum:** Hind-brain part controlling balance and posture.\n- **Tropism:** Directional growth movement in plants (Photo=light, Geo=gravity).\n- **Auxin:** Plant hormone causing cells to grow longer.\n- **Endocrine Glands:** Ductless glands that secrete hormones into blood.\n- **Insulin:** Hormone from the pancreas regulating blood sugar."
+        },
+        {
+            "id": "ctrl_15",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Control and Coordination\n\nExcellent work! Here is a recap of what we've learned:\n\n- Animals use a **nervous system** made of **neurons** to transmit fast electrical signals across gaps called **synapses**.\n- **Reflex actions** are automatic responses processed by the spinal cord to save time, bypassing the conscious brain.\n- Plants don't have nerves, so they use **hormones** (like auxin) to control growth in response to stimuli (**tropic movements** like bending towards light).\n- Animals also use the **endocrine system** to secrete chemical **hormones** (like adrenaline, thyroxin, and insulin) into the blood for slow, widespread, and long-lasting control of the body."
+        }
+    ]
+}

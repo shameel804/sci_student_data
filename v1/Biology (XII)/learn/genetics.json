@@ -1,0 +1,115 @@
+{
+    "id": "learn_genetics",
+    "topicId": "genetics",
+    "topicTitle": "Genetics & Inheritance",
+    "description": "Unlock the code of life, from Mendel's peas to the structure of DNA and genetic diseases.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "gen_1",
+            "type": "content",
+            "title": "Welcome to Genetics",
+            "content": "# Genetics & Inheritance\n\nWelcome to Genetics! Why do you look like your parents? How are diseases passed down? It's all in your genes.\n\n## What You Will Learn:\n- **Mendelian Inheritance** - The monk who discovered the rules\n- **Chromosomal Theory** - Where the genes actually live\n- **Molecular Basis** - The structure and function of DNA\n- **Genetic Disorders** - Mutations and inherited diseases\n\n> **Fun Fact:** Humans share about 99.9% of their DNA with every other human on Earth. That tiny 0.1% difference accounts for all our distinct physical variations!"
+        },
+        {
+            "id": "gen_2",
+            "type": "content",
+            "title": "Gregor Mendel",
+            "content": "# The Father of Genetics\n\nGregor Mendel was an Austrian monk who conducted brilliant experiments on garden peas in the 1850s.\n\n## Why Peas?\n- They have many distinct, contrasting traits (e.g., tall vs dwarf, yellow vs green seeds).\n- They normally self-pollinate, but can easily be cross-pollinated by hand.\n- They have a short life cycle, allowing many generations to be studied quickly.\n\n## His Method:\nMendel strictly tracked one or two traits at a time and used rigorous mathematics and statistics to analyze his results, which was revolutionary for biology at the time!"
+        },
+        {
+            "id": "gen_3",
+            "type": "content",
+            "title": "Key Terminology",
+            "content": "# The Language of Genetics\n\nTo understand Mendel, we need modern vocabulary.\n\n- **Gene:** The fundamental unit of heredity (Mendel called them 'factors'). A stretch of DNA coding for a trait.\n- **Alleles:** Different versions of the same gene. (e.g., the gene for plant height has a 'tall' allele and a 'dwarf' allele).\n- **Dominant Allele:** An allele that masks the presence of another (represented by a Capital letter, like 'T').\n- **Recessive Allele:** An allele whose effect is masked (represented by a lowercase letter, like 't').\n- **Genotype:** The actual genetic makeup (e.g., TT, Tt, or tt).\n- **Phenotype:** The observable physical trait (e.g., Tall or Dwarf)."
+        },
+        {
+            "id": "gen_4",
+            "type": "content",
+            "title": "Mendel's First Law",
+            "content": "# Law of Dominance & Segregation\n\nMendel crossed a pure Tall plant (TT) with a pure Dwarf plant (tt).\n- **F1 Generation:** ALL offspring were Tall! The dwarf trait disappeared. This proved the **Law of Dominance** (T masks t).\n\nThen he let the F1 generation (Tt) self-pollinate.\n- **F2 Generation:** He got 3 Tall plants for every 1 Dwarf plant (a 3:1 phenotypic ratio).\n\n## Law of Segregation:\nThis proved that alleles do not blend. During gamete formation (meiosis), the two alleles for a trait separate (segregate) so that each gamete only receives one allele. The 't' allele was hiding in the F1 and reappeared in the F2!"
+        },
+        {
+            "id": "gen_5",
+            "type": "content",
+            "title": "Mendel's Second Law",
+            "content": "# Law of Independent Assortment\n\nWhat happens if you track TWO traits at once? (e.g., Seed Color and Seed Shape).\n\nMendel performed a dihybrid cross: Yellow/Round seeds (YYRR) x Green/Wrinkled seeds (yyrr).\n- **F1 Generation:** All were Yellow/Round (YyRr).\n- **F2 Generation:** He found a phenotypic ratio of **9:3:3:1**.\n\n## The Law:\nThis proved that the inheritance of one trait (like color) is completely independent of the inheritance of another trait (like shape). The alleles for different genes sort into gametes independently of one another!"
+        },
+        {
+            "id": "gen_quiz_1",
+            "type": "quiz",
+            "title": "Mendel Quiz",
+            "content": "Test your pea plant knowledge.",
+            "quizQuestion": "If you cross a heterozygous tall plant (Tt) with a dwarf plant (tt), what percentage of the offspring will be dwarf?",
+            "quizOptions": [
+                "0 percent",
+                "25 percent",
+                "50 percent",
+                "100 percent"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "gen_6",
+            "type": "content",
+            "title": "Chromosomal Theory of Inheritance",
+            "content": "# Chromosomes are the Carriers\n\nMendel published his work in 1865, but nobody understood it because chromosomes hadn't been discovered yet!\n\n## The Connection (1902):\nWalter Sutton and Theodor Boveri noticed a perfect parallel between Mendel's imaginary 'factors' and the actual behavior of chromosomes during meiosis.\n\n- Chromosomes occur in pairs (just like Mendel's alleles).\n- Chromosomes separate during meiosis (just like the Law of Segregation).\n- Different chromosome pairs align independently during meiosis (just like the Law of Independent Assortment).\n\n**Conclusion:** Genes are physically located on chromosomes!"
+        },
+        {
+            "id": "gen_7",
+            "type": "content",
+            "title": "Linkage and Recombination",
+            "content": "# Exceptions to Mendel's Laws\n\nMendel got lucky. His Law of Independent Assortment only works if genes are on DIFFERENT chromosomes.\n\n## Linkage:\nIf two genes are located very close together on the SAME chromosome, they are physically linked. They tend to be inherited together as a package deal, defying independent assortment. Thomas Hunt Morgan discovered this using fruit flies.\n\n## Recombination (Crossing Over):\nDuring meiosis, homologous chromosomes pair up and can swap pieces of DNA. This process breaks linkages and creates new combinations of genes (recombinants). The further apart two genes are on a chromosome, the more likely they are to cross over!"
+        },
+        {
+            "id": "gen_8",
+            "type": "content",
+            "title": "Molecular Basis: DNA Replication",
+            "content": "# How DNA Copies Itself\n\nFor genes to be passed on, DNA must be copied accurately.\n\n## Semi-Conservative Replication:\nWatson and Crick proposed, and Meselson and Stahl proved, that DNA replication is semi-conservative.\n1. The double helix unzips (hydrogen bonds between bases are broken by the enzyme helicase).\n2. Each single strand acts as a template.\n3. The enzyme **DNA Polymerase** adds complementary free nucleotides to the template (A with T, C with G).\n4. Result: Two identical DNA molecules, each containing one OLD strand and one newly synthesized NEW strand."
+        },
+        {
+            "id": "gen_9",
+            "type": "content",
+            "title": "Central Dogma of Biology",
+            "content": "# From DNA to Protein\n\nHow does a gene actually create a physical trait? By making a protein!\n\n## The Central Dogma:\nInformation flows in one direction: **DNA -> RNA -> Protein**\n\n## Step 1: Transcription (DNA to RNA)\n- Occurs in the nucleus.\n- The DNA code is copied into a single-stranded messenger RNA (mRNA) molecule by the enzyme RNA Polymerase.\n- In RNA, Thymine (T) is replaced by Uracil (U).\n\n## Step 2: Translation (RNA to Protein)\n- Occurs at the ribosomes in the cytoplasm.\n- The mRNA is read in groups of three letters (called a **Codon**).\n- Each codon specifies a specific amino acid. Transfer RNA (tRNA) brings the correct amino acids, linking them together to form a protein chain."
+        },
+        {
+            "id": "gen_10",
+            "type": "content",
+            "title": "Mutations",
+            "content": "# Genetic Typos\n\nA mutation is a sudden, inheritable change in the DNA sequence.\n\n## Types of Mutations:\n1. **Point Mutation:** A change in a single base pair of DNA (e.g., swapping an A for a G). This can change a single amino acid in a protein.\n2. **Frameshift Mutation:** Insertion or deletion of a base pair. This shifts the entire reading frame of the codons, completely altering the entire protein from that point onward (usually disastrous).\n\n## Mutagens:\nAgents that cause mutations. Can be physical (UV radiation, X-rays) or chemical (tobacco smoke, certain dyes)."
+        },
+        {
+            "id": "gen_quiz_2",
+            "type": "quiz",
+            "title": "Central Dogma Quiz",
+            "content": "Test your molecular knowledge.",
+            "quizQuestion": "The process of copying the genetic code from DNA into mRNA is called:",
+            "quizOptions": [
+                "Replication",
+                "Translation",
+                "Transcription",
+                "Mutation"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "gen_11",
+            "type": "content",
+            "title": "Genetic Disorders: Mendelian",
+            "content": "# Mendelian Disorders\n\nThese are diseases caused by a mutation in a single gene.\n\n## Examples:\n- **Sickle-Cell Anemia:** A point mutation changes one amino acid in hemoglobin. Red blood cells become sickle-shaped, causing pain and oxygen shortage. (Autosomal recessive).\n- **Hemophilia:** The blood fails to clot properly due to a missing protein. Even a small cut can be fatal. (Sex-linked recessive - mostly affects males).\n- **Cystic Fibrosis:** Causes thick, sticky mucus in the lungs and digestive system. (Autosomal recessive)."
+        },
+        {
+            "id": "gen_12",
+            "type": "content",
+            "title": "Genetic Disorders: Chromosomal",
+            "content": "# Chromosomal Disorders\n\nThese are diseases caused by the absence, excess, or abnormal arrangement of entire chromosomes.\n\n## Aneuploidy:\nFailure of chromosomes to separate properly during meiosis, resulting in a gamete with too many or too few chromosomes.\n\n## Examples:\n- **Down Syndrome (Trisomy 21):** The individual has three copies of chromosome 21 instead of two. Causes physical and intellectual developmental delays.\n- **Turner's Syndrome:** A female missing one X chromosome (45, X0). Causes sterility and short stature.\n- **Klinefelter's Syndrome:** A male with an extra X chromosome (47, XXY). Causes female-like characteristics and sterility."
+        },
+        {
+            "id": "gen_13",
+            "type": "content",
+            "title": "Summary: Genetics",
+            "content": "# Genetics Summary\n\n## Key Concepts Reviewed:\n\n- **Mendel's Laws:** Dominance (one allele masks another), Segregation (alleles separate in gametes), Independent Assortment (traits inherit independently).\n- **Chromosomal Theory:** Genes are physically located on chromosomes.\n- **Linkage:** Genes close together on a chromosome are inherited together.\n- **DNA Replication:** Semi-conservative process using DNA Polymerase.\n- **Central Dogma:** Transcription (DNA->mRNA) and Translation (mRNA->Protein).\n- **Mutations:** Point mutations (single base change) and frameshifts (insertions/deletions).\n- **Disorders:** Mendelian (single gene, e.g., Sickle-cell) and Chromosomal (wrong number of chromosomes, e.g., Down syndrome).\n\n> **Congratulations!** You have completed the Genetics module."
+        }
+    ]
+}

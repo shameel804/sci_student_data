@@ -1,0 +1,123 @@
+{
+    "id": "learn_thermo",
+    "topicId": "thermo",
+    "topicTitle": "Thermodynamics",
+    "description": "Discover the laws of heat, temperature, and why you can't build a perpetual motion machine.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "thermo_1",
+            "type": "content",
+            "title": "Welcome to Thermodynamics",
+            "content": "# The Science of Heat\n\nIn mechanics, we dealt with the motion of particles and rigid bodies. However, mechanics does not tell us anything about the internal state of those bodies.\n\nWhen you rub your hands together, they get warm. Mechanical work was converted into heat. Thermodynamics is the branch of physics that deals with the concepts of heat and temperature and the inter-conversion of heat and other forms of energy.\n\n## What You Will Learn:\n- **Thermal Equilibrium:** What happens when things mix.\n- **First Law of Thermodynamics:** Conservation of energy with heat.\n- **Heat Engines:** How cars run.\n- **Second Law of Thermodynamics:** Why time only moves forward (Entropy)."
+        },
+        {
+            "id": "thermo_2",
+            "type": "content",
+            "title": "Thermal Equilibrium",
+            "content": "# Balancing the Heat\n\nIf you leave a hot cup of tea on a table, what happens? It cools down. If you leave a cold glass of water on the table, it warms up.\n\nIn both cases, the liquid exchanges heat with the surroundings until their temperatures become exactly the same. When the temperatures are equal and no more heat flows between them, they are said to be in **thermal equilibrium**.\n\n> **The Zeroth Law of Thermodynamics:** If body A is in thermal equilibrium with body B, and body B is in thermal equilibrium with body C, then A and C must be in thermal equilibrium with each other. (This seems obvious, but it is the foundation of how thermometers work!)"
+        },
+        {
+            "id": "thermo_3",
+            "type": "content",
+            "title": "Internal Energy",
+            "content": "# The Hidden Energy\n\nEven if a glass of water is sitting perfectly still on a table (zero macroscopic kinetic energy), it still has energy inside it.\n\nThe water molecules are constantly vibrating, rotating, and colliding with each other. This microscopic kinetic and potential energy of the molecules is called the **Internal Energy (U)** of the system.\n\nThe internal energy depends on the state of the system (its temperature, pressure, and volume), not on how it got to that state."
+        },
+        {
+            "id": "thermo_quiz_1",
+            "type": "quiz",
+            "title": "Equilibrium Quiz",
+            "content": "Check your understanding of heat transfer.",
+            "quizQuestion": "When two objects in contact reach the exact same temperature, they are said to be in:",
+            "quizOptions": [
+                "Mechanical equilibrium",
+                "Chemical equilibrium",
+                "Thermal equilibrium",
+                "Kinetic equilibrium"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "thermo_4",
+            "type": "content",
+            "title": "First Law of Thermodynamics",
+            "content": "# Energy Cannot be Created\n\nWe know that energy is conserved. The First Law of Thermodynamics is simply the general law of conservation of energy applied to a system where heat is exchanged.\n\nIf you supply some heat (`Q`) to a system (like a gas in a cylinder), where does that energy go?\n1. It can increase the internal energy of the gas (`dU`), making it hotter.\n2. It can be used by the gas to do external work (`W`), like pushing a piston upward.\n\n**The Formula:**\n`Q = dU + W`\n(Heat supplied = Change in internal energy + Work done by the system)."
+        },
+        {
+            "id": "thermo_5",
+            "type": "content",
+            "title": "Thermodynamic Processes",
+            "content": "# Changing States\n\nA system can change its state from one set of (Pressure, Volume, Temperature) to another in various ways. These are called thermodynamic processes:\n\n1. **Isothermal Process:** A process in which the **Temperature** remains constant (dt = 0). The system must exchange heat with the surroundings very slowly to keep the temperature from changing.\n2. **Adiabatic Process:** A process in which **NO Heat** flows into or out of the system (Q = 0). This usually happens if the system is perfectly insulated or if the process happens very rapidly (like a tire bursting).\n3. **Isochoric Process:** Volume remains constant.\n4. **Isobaric Process:** Pressure remains constant."
+        },
+        {
+            "id": "thermo_quiz_2",
+            "type": "quiz",
+            "title": "Processes Quiz",
+            "content": "Check your understanding of thermodynamic changes.",
+            "quizQuestion": "In an adiabatic process, which of the following remains zero?",
+            "quizOptions": [
+                "Change in temperature",
+                "Change in pressure",
+                "Work done",
+                "Heat exchanged with the surroundings"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "thermo_6",
+            "type": "content",
+            "title": "Heat Engines",
+            "content": "# Turning Heat into Motion\n\nA heat engine is a device which converts heat energy into mechanical work in a continuous cyclic process. This is how car engines and steam turbines work!\n\n## How it Works:\n1. It takes heat (`Q1`) from a hot reservoir (like burning fuel).\n2. It uses *some* of this heat to do useful work (`W`) (like turning the wheels).\n3. It dumps the remaining heat (`Q2`) into a cold reservoir (like the exhaust pipe or the atmosphere).\n\nAccording to the First Law: `W = Q1 - Q2`."
+        },
+        {
+            "id": "thermo_7",
+            "type": "content",
+            "title": "Efficiency of a Heat Engine",
+            "content": "# The Wasted Heat\n\nHow good is the engine? We define the **Efficiency (eta)** of an engine as the ratio of the useful work done to the heat absorbed.\n\n`Efficiency = Work / Heat absorbed = W / Q1`\n`Efficiency = (Q1 - Q2) / Q1 = 1 - (Q2 / Q1)`\n\nNotice that the efficiency can only be 100% (or 1) if `Q2 = 0`. That means the engine dumps *zero* heat into the cold reservoir. \nIs this possible? Can we build a perfect engine that converts ALL heat into work?"
+        },
+        {
+            "id": "thermo_8",
+            "type": "content",
+            "title": "Second Law of Thermodynamics",
+            "content": "# The Arrow of Time\n\nThe answer is NO. The Second Law of Thermodynamics puts a fundamental limit on how nature operates.\n\nThere are several ways to state it:\n- **Kelvin-Planck statement:** No process is possible whose sole result is the absorption of heat from a reservoir and the complete conversion of the heat into work. (You CANNOT build a 100% efficient engine; some heat MUST be dumped).\n- **Clausius statement:** No process is possible whose sole result is the transfer of heat from a colder object to a hotter object. (Heat naturally flows from hot to cold, never the reverse unless you do work, like in a refrigerator)."
+        },
+        {
+            "id": "thermo_9",
+            "type": "content",
+            "title": "Refrigerators and Heat Pumps",
+            "content": "# The Reverse Engine\n\nA refrigerator is essentially a heat engine running in reverse.\n\nInstead of taking heat from hot and dumping to cold to get work, a refrigerator takes heat (`Q2`) from a cold reservoir (the inside of the fridge), has external work done on it (`W`) by the electric compressor, and dumps the total heat (`Q1`) into the hot reservoir (your kitchen!).\n\nThis is why the back of your refrigerator is always warm!"
+        },
+        {
+            "id": "thermo_10",
+            "type": "content",
+            "title": "Entropy",
+            "content": "# The Measure of Chaos\n\nThe Second Law introduces a terrifying concept: **Entropy**.\n\nEntropy is a measure of the disorder or randomness of a system. \nIf you drop a glass, it shatters into a million pieces. It went from a highly ordered state (a glass) to a highly disordered state (shards).\n\nThe Second Law states that the total entropy of an isolated system can never decrease over time. The universe is constantly moving towards more disorder. This is why time only moves forward; you will never see those glass shards spontaneously reassemble themselves into a glass!"
+        },
+        {
+            "id": "thermo_quiz_3",
+            "type": "quiz",
+            "title": "Second Law Quiz",
+            "content": "Check your understanding of the limits of nature.",
+            "quizQuestion": "According to the Second Law of Thermodynamics, heat naturally flows from:",
+            "quizOptions": [
+                "A colder body to a hotter body",
+                "A hotter body to a colder body",
+                "A body with low mass to a body with high mass",
+                "It does not flow naturally at all"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "thermo_11",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Thermal Equilibrium:** When two objects in contact reach the same temperature and heat stops flowing.\n- **Internal Energy (U):** The total microscopic kinetic and potential energy of the molecules in a system.\n- **First Law:** Q = dU + W (Conservation of energy).\n- **Isothermal:** A process at constant temperature.\n- **Adiabatic:** A process with no heat exchange.\n- **Heat Engine:** A device that turns heat into work.\n- **Second Law:** Heat flows hot to cold; 100% efficiency is impossible; Entropy always increases.\n- **Entropy:** The measure of disorder in a system."
+        },
+        {
+            "id": "thermo_12",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Thermodynamics\n\nExcellent work! Here is a recap of what we've learned:\n\n- The **Zeroth Law** defines temperature via **thermal equilibrium**.\n- The **First Law of Thermodynamics** is the conservation of energy applied to heat: heat added to a system either increases its **internal energy** or does **work** (Q = dU + W).\n- Thermodynamic processes include **Isothermal** (constant temp) and **Adiabatic** (no heat flow).\n- **Heat engines** convert heat to work but must always reject some heat to a cold reservoir, meaning their efficiency can never be 100%.\n- This is governed by the **Second Law of Thermodynamics**, which dictates that heat naturally flows from hot to cold, and that the disorder (**Entropy**) of the universe is always increasing."
+        }
+    ]
+}

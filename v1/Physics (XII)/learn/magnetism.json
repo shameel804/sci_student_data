@@ -1,0 +1,115 @@
+{
+    "id": "learn_magnetism",
+    "topicId": "magnetism",
+    "topicTitle": "Magnetism",
+    "description": "Explore the principles of magnetism, the Earth's magnetic field, and how different materials react to magnetic forces.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "mag_1",
+            "type": "content",
+            "title": "Welcome to Magnetism",
+            "content": "# Magnetism\n\nWelcome to Magnetism! From sticking notes on your fridge to guiding compasses and running electric motors, magnetism is everywhere.\n\n## What You Will Learn:\n- **Earth's Magnetism** - Why compasses point North\n- **Magnetic Properties** - How materials respond to magnetic fields\n- **Magnetic Materials Classification** - Diamagnetic, Paramagnetic, Ferromagnetic\n- **Electromagnetic Applications** - Using magnets in technology\n\n> **Fun Fact:** The Earth's magnetic field acts as a massive shield, protecting us from deadly solar radiation!"
+        },
+        {
+            "id": "mag_2",
+            "type": "content",
+            "title": "The Magnetic Field",
+            "content": "# The Magnetic Field\n\nSimilar to an electric field, a magnetic field is an invisible region around a magnet where magnetic forces can be felt.\n\n## Magnetic Field Lines:\n- They form **continuous closed loops** (unlike electric field lines which start and end).\n- Outside the magnet, they emerge from the North pole and enter the South pole.\n- Inside the magnet, they travel from the South pole to the North pole.\n- They never cross each other.\n- The closer the lines, the stronger the magnetic field.\n\n## Magnetic Monopoles:\n> **Important:** Isolated magnetic poles (monopoles) do NOT exist. If you break a bar magnet in half, you get two smaller magnets, each with its own North and South pole!"
+        },
+        {
+            "id": "mag_3",
+            "type": "content",
+            "title": "Earth's Magnetism",
+            "content": "# Earth as a Giant Magnet\n\nThe Earth behaves as if it has a giant bar magnet buried deep inside its core.\n\n## The Magnetic Poles:\n- The Earth's **Magnetic South Pole** is located near the Geographic North Pole.\n- The Earth's **Magnetic North Pole** is located near the Geographic South Pole.\n- This is why the North-seeking pole of a compass needle points towards the geographic North (it is attracted to the Earth's magnetic South!).\n\n## Origin of Earth's Field:\nThe Dynamo Effect - It is believed to be caused by the convection of molten iron and nickel in the Earth's outer core, driven by the planet's rotation."
+        },
+        {
+            "id": "mag_4",
+            "type": "content",
+            "title": "Elements of Earth's Magnetic Field",
+            "content": "# Defining Earth's Magnetic Field\n\nTo completely specify the Earth's magnetic field at any point, we need three quantities (elements):\n\n## 1. Magnetic Declination:\n- The angle between the true geographic north and the magnetic north indicated by a compass.\n- It varies depending on your location on Earth.\n\n## 2. Magnetic Dip (Inclination):\n- The angle the magnetic field makes with the horizontal surface of the Earth.\n- At the magnetic equator, the dip is zero (horizontal).\n- At the magnetic poles, the dip is 90 degrees (vertical).\n\n## 3. Horizontal Component (H):\n- The component of the Earth's total magnetic field that is parallel to the surface."
+        },
+        {
+            "id": "mag_5",
+            "type": "content",
+            "title": "Magnetization and Magnetic Intensity",
+            "content": "# Magnetization\n\nHow do materials become magnetized?\n\n## Magnetization (M):\n- It represents the net magnetic dipole moment per unit volume developed inside a material when subjected to an external magnetic field.\n\n## Magnetic Intensity (H):\n- This is the external magnetic field applied to the material.\n\n## Magnetic Permeability (mu):\n- It is a measure of how easily a magnetic field can penetrate a material.\n- Formula: B = mu * H\n- Where **B** is the total magnetic flux density inside the material."
+        },
+        {
+            "id": "mag_quiz_1",
+            "type": "quiz",
+            "title": "Earth's Field Quiz",
+            "content": "Test your knowledge of our planet's shield.",
+            "quizQuestion": "If you stand exactly at the Earth's Magnetic North Pole, what will the angle of dip (inclination) be?",
+            "quizOptions": [
+                "0 degrees",
+                "45 degrees",
+                "90 degrees",
+                "180 degrees"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "mag_6",
+            "type": "content",
+            "title": "Classification of Magnetic Materials",
+            "content": "# Types of Magnetic Materials\n\nMaterials are classified into three main categories based on how they respond to an external magnetic field (identified by Faraday).\n\n## 1. Diamagnetic Materials\n## 2. Paramagnetic Materials\n## 3. Ferromagnetic Materials\n\nThe fundamental difference between these materials lies in the behavior of their atomic electrons. Every spinning electron acts as a tiny magnetic dipole!"
+        },
+        {
+            "id": "mag_7",
+            "type": "content",
+            "title": "Diamagnetic Materials",
+            "content": "# Diamagnetic Materials\n\nDiamagnetism is a weak, universally present property.\n\n## Key Characteristics:\n- They are **weakly repelled** by a magnetic field.\n- When placed in a strong magnetic field, they tend to move from the stronger to the weaker part of the field.\n- They have no permanent atomic magnetic moments (the net magnetic moment of atoms is zero).\n\n## Examples:\n- Bismuth, Copper, Water, Gold, and Silicon.\n- Superconductors exhibit perfect diamagnetism (the Meissner effect) - they expel magnetic fields completely, allowing them to levitate!"
+        },
+        {
+            "id": "mag_8",
+            "type": "content",
+            "title": "Paramagnetic Materials",
+            "content": "# Paramagnetic Materials\n\nParamagnetism requires atoms that have permanent, unpaired electrons.\n\n## Key Characteristics:\n- They are **weakly attracted** by a magnetic field.\n- When placed in a magnetic field, they tend to move from the weaker to the stronger part of the field.\n- The individual atoms have a permanent magnetic dipole moment, but thermal motion randomizes them so the net magnetism is zero until a field is applied.\n- Magnetization decreases as temperature increases (Curie's Law).\n\n## Examples:\n- Aluminum, Platinum, Chromium, Sodium, and Oxygen (at STP)."
+        },
+        {
+            "id": "mag_9",
+            "type": "content",
+            "title": "Ferromagnetic Materials",
+            "content": "# Ferromagnetic Materials\n\nFerromagnetic materials are what we normally think of when we hear the word 'magnet'.\n\n## Key Characteristics:\n- They are **strongly attracted** by a magnetic field.\n- They can be permanently magnetized.\n- The atoms form localized regions called **Domains**. In an unmagnetized state, these domains point in random directions. When an external field is applied, the domains align perfectly.\n\n## Examples:\n- Iron, Cobalt, Nickel, and their alloys (like steel).\n\n## Curie Temperature:\nIf you heat a ferromagnetic material above a certain critical temperature (the Curie Temperature), the domain structure collapses due to thermal agitation, and it becomes a paramagnetic material!"
+        },
+        {
+            "id": "mag_10",
+            "type": "content",
+            "title": "Hysteresis Loop",
+            "content": "# Magnetic Hysteresis\n\nWhat happens when you magnetize and demagnetize a ferromagnetic material? It doesn't follow the same path back!\n\n## The Hysteresis Curve (B-H Curve):\n- When the external field (H) is removed, the material still retains some magnetism. This is called **Retentivity**.\n- To completely demagnetize the material, a reverse magnetic field must be applied. The strength of this reverse field is called **Coercivity**.\n- The loop formed by plotting B against H during a complete cycle of magnetization and demagnetization is the Hysteresis loop.\n\n> **Energy Loss:** The area inside the hysteresis loop represents the energy lost as heat during the cycle. Transformers need core materials with very narrow hysteresis loops to prevent overheating!"
+        },
+        {
+            "id": "mag_quiz_2",
+            "type": "quiz",
+            "title": "Materials Quiz",
+            "content": "Check your understanding of magnetic properties.",
+            "quizQuestion": "Which type of material is weakly repelled by a magnetic field?",
+            "quizOptions": [
+                "Ferromagnetic",
+                "Paramagnetic",
+                "Diamagnetic",
+                "Non-magnetic"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "mag_11",
+            "type": "content",
+            "title": "Permanent Magnets and Electromagnets",
+            "content": "# Making Magnets\n\n## Permanent Magnets:\n- Made from ferromagnetic materials with **high retentivity** (so they stay magnetized) and **high coercivity** (so they aren't easily demagnetized by stray fields).\n- Examples: Hard steel, Alnico (Al, Ni, Co alloy).\n\n## Electromagnets:\n- Made by wrapping a coil of wire around a ferromagnetic core.\n- The core should have **high permeability** (to amplify the field) and **low retentivity** (so it loses its magnetism instantly when the current is turned off).\n- Soft iron is the ideal material for electromagnets.\n- Electromagnets are used in electric bells, cranes, MRI machines, and particle accelerators."
+        },
+        {
+            "id": "mag_12",
+            "type": "content",
+            "title": "Electromagnetic Applications",
+            "content": "# Applications of Magnetism\n\nMagnetism and electricity are deeply connected (Electromagnetism), forming the basis of modern technology.\n\n## Key Technologies:\n1. **Electric Motors:** Use magnetic fields interacting with electric currents to produce mechanical motion.\n2. **Generators:** Move wires through a magnetic field to generate electricity (the reverse of a motor).\n3. **Transformers:** Use changing magnetic fields to step up or step down AC voltage.\n4. **Data Storage:** Hard disk drives and magnetic tape use tiny magnetic domains to store digital information (0s and 1s)."
+        },
+        {
+            "id": "mag_13",
+            "type": "content",
+            "title": "Summary: Magnetism",
+            "content": "# Magnetism Summary\n\n## Key Concepts Reviewed:\n\n- **Field Lines:** Always form continuous closed loops.\n- **Earth's Field:** Described by declination, dip, and horizontal component.\n- **Diamagnetic:** Weakly repelled (e.g., water, gold).\n- **Paramagnetic:** Weakly attracted (e.g., aluminum).\n- **Ferromagnetic:** Strongly attracted, forms domains, can be permanently magnetized (e.g., iron, nickel).\n- **Curie Temperature:** The heat at which ferromagnets lose their strong magnetism.\n- **Hysteresis:** The lag between magnetization and the applied field; determines retentivity and coercivity.\n- **Electromagnets:** Use soft iron cores for temporary, powerful magnetic fields.\n\n> **Congratulations!** You have completed the Magnetism module!"
+        }
+    ]
+}

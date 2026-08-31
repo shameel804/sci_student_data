@@ -1,0 +1,139 @@
+{
+    "id": "learn_bonding",
+    "topicId": "bonding",
+    "topicTitle": "Chemical Bonding",
+    "description": "Examine the advanced theories of chemical bonding, including Valence Bond Theory, Molecular Orbital Theory, and how Band Theory explains the properties of solid metals and semiconductors.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "bond_1",
+            "type": "content",
+            "title": "Introduction to Bonding Theories",
+            "content": "# Why do atoms bond?\n\nAtoms form chemical bonds to reach a lower, more stable energy state, usually by achieving a full valence electron shell (an octet).\n\nWhile Lewis Dot Structures are great for counting electrons, they totally fail to explain the true 3D shapes, bond energies, and magnetic properties of molecules.\n\nTo understand the true nature of bonding, Inorganic Chemistry relies on three major quantum-mechanical theories:\n1. **Valence Bond Theory (VBT)**\n2. **Molecular Orbital Theory (MOT)**\n3. **Band Theory of Solids**"
+        },
+        {
+            "id": "bond_2",
+            "type": "content",
+            "title": "Valence Bond Theory (VBT)",
+            "content": "# Valence Bond Theory\n\nProposed by Linus Pauling, VBT is the most intuitive quantum model for chemists.\n\n## The Core Concept:\nA covalent bond is formed when a half-filled atomic orbital on one atom **overlaps** in space with a half-filled atomic orbital on another atom. The two unpaired electrons (with opposite spins) pair up and are shared in the overlapping space.\n\n- The greater the extent of the orbital overlap, the stronger the bond.\n- The bond points in the exact direction that the atomic orbitals are pointing, which helps explain molecular shape."
+        },
+        {
+            "id": "bond_3",
+            "type": "content",
+            "title": "Sigma and Pi Bonds",
+            "content": "# Types of Orbital Overlap\n\nVBT elegantly explains the difference between single, double, and triple bonds.\n\n## 1. Sigma Bonds\nFormed by the **head-on (end-to-end) overlap** of orbitals directly along the internuclear axis. \n- The electron density is concentrated directly between the two nuclei.\n- All single bonds are sigma bonds. They are very strong and allow free rotation.\n\n## 2. Pi Bonds\nFormed by the **side-by-side (lateral) overlap** of unhybridized p-orbitals above and below the internuclear axis.\n- The electron density is above and below the bond axis.\n- Pi bonds are weaker than sigma bonds and lock the molecule in place (no free rotation).\n- A double bond = 1 Sigma + 1 Pi. A triple bond = 1 Sigma + 2 Pi."
+        },
+        {
+            "id": "bond_4",
+            "type": "content",
+            "title": "Hybridization",
+            "content": "# The Problem with Carbon\n\nCarbon has the electron configuration [He] 2s2 2p2. It only has TWO half-filled p-orbitals. \nAccording to basic VBT, carbon should only form 2 bonds at a 90-degree angle.\n\nBut we know methane (CH4) has 4 identical bonds at 109.5-degree angles!\n\n## The Solution: Hybridization\nPauling proposed that before bonding, atoms can \"mix\" their pure atomic orbitals (s and p) to create entirely new, identical **Hybrid Orbitals** that point in the correct geometric directions to minimize repulsion."
+        },
+        {
+            "id": "bond_5",
+            "type": "content",
+            "title": "Types of Hybridization",
+            "content": "# Common Hybrid Geometries\n\nBy counting the electron domains (bonds + lone pairs) around an atom, we can easily determine its hybridization.\n\n- **sp3 Hybridization:** Mixes one 's' and three 'p' orbitals to create four identical sp3 orbitals. Points to the corners of a **Tetrahedron** (109.5 degrees). Example: Methane, Water.\n- **sp2 Hybridization:** Mixes one 's' and two 'p' orbitals. Creates three sp2 orbitals (one pure 'p' is left over for pi bonding). Points to the corners of a **Trigonal Planar** triangle (120 degrees). Example: Ethene.\n- **sp Hybridization:** Mixes one 's' and one 'p' orbital. Points in a **Linear** line (180 degrees). Two pure 'p' orbitals are left over for triple bonds. Example: Acetylene."
+        },
+        {
+            "id": "bond_6",
+            "type": "content",
+            "title": "Molecular Orbital Theory (MOT)",
+            "content": "# Molecular Orbital Theory\n\nWhile VBT is great for organic shapes, it fails spectacularly at predicting magnetic properties (like why O2 is magnetic) and excited states.\n\n**Molecular Orbital Theory (MOT)** takes a totally different approach.\n\n## The Core Concept:\nWhen atoms bond, their individual atomic orbitals completely disappear. They combine mathematically (using Linear Combination of Atomic Orbitals, LCAO) to form **Molecular Orbitals** that span across the ENTIRE molecule.\n\nElectrons in a molecule no longer belong to a single atom; they belong to the whole molecule."
+        },
+        {
+            "id": "bond_7",
+            "type": "content",
+            "title": "Bonding and Antibonding",
+            "content": "# Wave Interference in MOT\n\nBecause electrons are waves, atomic orbitals behave like water waves when they meet.\n\n## Bonding Orbitals (Constructive Interference)\nIf the waves are in phase, they add together. Electron density builds up *between* the nuclei. This glues the atoms together. This orbital is **lower in energy** than the original atomic orbitals.\n\n## Antibonding Orbitals (Destructive Interference)\nIf the waves are out of phase, they cancel each other out, creating a node (zero probability) between the nuclei. The electrons are forced outside, actively pulling the nuclei apart. This orbital is **higher in energy** (marked with a * star)."
+        },
+        {
+            "id": "bond_8",
+            "type": "content",
+            "title": "Bond Order Revisited",
+            "content": "# Calculating Stability in MOT\n\nTo figure out if a molecule will exist, we fill the molecular orbitals from bottom to top (lowest energy to highest energy), following Hund's Rule and the Pauli Principle.\n\nThen we calculate the **Bond Order**:\n**Bond Order = 0.5 * (Bonding Electrons - Antibonding Electrons)**\n\n- If Bond Order > 0, the molecule is stable and can exist.\n- If Bond Order = 0, the molecule is completely unstable (e.g., Noble gas dimers like He2 or Ne2 have 0 bond order and do not form bonds)."
+        },
+        {
+            "id": "bond_9",
+            "type": "content",
+            "title": "The O2 Paramagnetism Triumph",
+            "content": "# MOT's Greatest Victory\n\nLiquid oxygen can be picked up by a magnet. It is paramagnetic (has unpaired electrons).\n\n- **Lewis Structure / VBT:** Predicts O=O has a double bond and all electrons are perfectly paired up in lone pairs and bonds. It predicts oxygen should be diamagnetic (repelled by magnets).\n- **MOT:** When we draw the MO diagram and fill in the 12 valence electrons, the last 2 electrons must go into two degenerate (equal energy) antibonding pi* orbitals. Following Hund's rule, they go into separate orbitals and remain **unpaired**.\n\nMOT correctly predicts the paramagnetism of oxygen, proving its superior descriptive power!"
+        },
+        {
+            "id": "bond_10",
+            "type": "content",
+            "title": "Metallic Bonding",
+            "content": "# Bonding in Solid Metals\n\nHow do chunks of solid metal hold together? Metals don't have enough valence electrons to form traditional covalent bonds with all their neighbors.\n\n## The \"Sea of Electrons\" Model\nAn early, simple model. Metal atoms shed their valence electrons, becoming an array of positive cations floating in a delocalized \"sea\" or \"cloud\" of highly mobile electrons.\n- Explains malleability (cations can slide past each other without breaking specific bonds).\n- Explains electrical conductivity (the \"sea\" flows easily).\n\nBut this model cannot explain semiconductors. We need a quantum theory."
+        },
+        {
+            "id": "bond_11",
+            "type": "content",
+            "title": "Band Theory of Solids",
+            "content": "# Band Theory\n\n**Band Theory** is simply Molecular Orbital Theory applied to a massive scale (10^23 atoms).\n\nWhen two lithium atoms bond, they form 2 MOs. When a million lithium atoms bond in a wire, they form a million MOs.\n\nBecause there are so many orbitals packed into a tiny energy range, they blur together into a continuous **Band** of energy levels, rather than discrete lines.\n\nElectrons fill the lower half of the band, leaving the upper half completely empty."
+        },
+        {
+            "id": "bond_12",
+            "type": "content",
+            "title": "Conductors (Metals)",
+            "content": "# How Metals Conduct Electricity\n\nFor a material to conduct electricity, electrons must be able to move to slightly higher, empty energy states when an electric voltage is applied.\n\n## The Metallic Band Structure\nIn a metal (like Copper or Sodium), the band is only partially full of electrons. The topmost filled level is called the **Fermi Level**.\n\nBecause there is a massive, continuous block of completely empty orbitals sitting immediately above the Fermi Level (with zero energy gap), electrons can flow instantly and effortlessly when voltage is applied. This makes metals fantastic conductors."
+        },
+        {
+            "id": "bond_13",
+            "type": "content",
+            "title": "Insulators",
+            "content": "# Why Insulators Don't Conduct\n\nIn materials like glass, plastic, or diamond, the situation is different.\n\n## The Band Gap\nThe lower band (the **Valence Band**) is completely, 100% full of electrons.\nThe upper band (the **Conduction Band**) is completely empty.\n\nCrucially, there is a massive \"forbidden zone\" between them called the **Band Gap** (E_g). Electrons are not allowed to exist in the gap.\n\nBecause the valence band is full, electrons cannot move. To conduct, they must jump across the massive gap to the empty conduction band. At room temperature, they don't have anywhere near enough thermal energy to make this jump, so the material acts as a perfect insulator."
+        },
+        {
+            "id": "bond_14",
+            "type": "content",
+            "title": "Semiconductors",
+            "content": "# Semiconductors\n\nThe foundation of all modern computing (Silicon chips).\n\n## A Moderate Gap\nA semiconductor (like Silicon or Germanium) has a band structure identical to an insulator (full valence band, empty conduction band), EXCEPT the **Band Gap is very small**.\n\n- **At Absolute Zero:** It is a perfect insulator.\n- **At Room Temperature:** There is enough ambient thermal energy to kick a tiny fraction of electrons across the small gap into the conduction band.\n- Now there are a few electrons in the upper band (which can move) and a few \"holes\" left behind in the lower band (which can also move). It conducts electricity, but poorly."
+        },
+        {
+            "id": "bond_15",
+            "type": "content",
+            "title": "Doping Semiconductors",
+            "content": "# Controlling Conductivity: Doping\n\nTo make Silicon useful for computer chips, engineers must drastically increase and control its conductivity. They do this by **Doping** (adding tiny amounts of impurities).\n\n## N-Type Doping (Negative)\nAdd a group 15 element (like Phosphorus) which has 1 extra valence electron. This extra electron is forced into an energy level just *below* the empty conduction band. It easily jumps up, donating mobile electrons. (N-type = extra electrons).\n\n## P-Type Doping (Positive)\nAdd a group 13 element (like Boron) which has 1 fewer electron. This creates an empty level just *above* the full valence band. Electrons jump up to fill it, leaving behind mobile positive \"holes\" in the valence band. (P-type = extra holes)."
+        },
+        {
+            "id": "bond_16",
+            "type": "content",
+            "title": "The P-N Junction",
+            "content": "# Modern Electronics: The Diode\n\nWhat happens if you fuse a piece of P-type silicon to a piece of N-type silicon?\n\nYou create a **P-N Junction**, the fundamental building block of all diodes, LEDs, solar cells, and computer transistors.\n\nA P-N junction acts as a one-way valve for electricity. \n- If you apply voltage in one direction (forward bias), electrons and holes are pushed together and current flows freely.\n- If you reverse the battery (reverse bias), the electrons and holes are pulled apart, widening a depletion zone, and NO current flows."
+        },
+        {
+            "id": "bond_17",
+            "type": "content",
+            "title": "Summary of Chemical Bonding",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Valence Bond Theory:** Bonds form via orbital overlap. Hybridization (sp, sp2, sp3) explains 3D geometries.\n2. **Molecular Orbital Theory:** Atomic orbitals combine to form molecule-wide bonding and antibonding orbitals. Crucial for understanding paramagnetism (like O2).\n3. **Band Theory:** A massive extension of MOT that explains solids.\n4. **Metals vs Insulators:** Metals have partially filled bands (easy flow). Insulators have a massive band gap.\n5. **Semiconductors:** Have a small band gap. Conductivity can be precisely engineered using N-type and P-type doping."
+        },
+        {
+            "id": "bond_quiz_1",
+            "type": "quiz",
+            "title": "Orbital Overlap Quiz",
+            "content": "Test your knowledge of VBT.",
+            "quizQuestion": "Which type of bond is formed by the side-by-side (lateral) overlap of unhybridized p-orbitals?",
+            "quizOptions": [
+                "Sigma bond",
+                "Pi bond",
+                "Ionic bond",
+                "Hydrogen bond"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "bond_quiz_2",
+            "type": "quiz",
+            "title": "Band Theory Quiz",
+            "content": "Review the electrical properties of solids.",
+            "quizQuestion": "In Band Theory, why is a material like diamond an excellent electrical insulator at room temperature?",
+            "quizOptions": [
+                "It has a partially filled valence band.",
+                "Its electrons are trapped in a 'sea'.",
+                "It has an extremely large Band Gap between a full valence band and an empty conduction band.",
+                "It is doped with P-type impurities."
+            ],
+            "correctOptionIndex": 2
+        }
+    ]
+}

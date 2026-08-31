@@ -1,0 +1,161 @@
+{
+    "id": "learn_work",
+    "topicId": "work",
+    "topicTitle": "Work & Energy",
+    "description": "Understand the scientific definition of work, the various forms of energy, and the powerful law of energy conservation.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "work_1",
+            "type": "content",
+            "title": "Welcome to Work & Energy",
+            "content": "# The Currency of the Universe\n\nIn our daily language, studying for an exam or thinking hard is considered \"hard work\". But in science, the word 'work' has a very specific and different meaning!\n\n## What You Will Learn:\n- **Scientific Work:** When is work actually done?\n- **Energy:** The capacity to do work.\n- **Types of Energy:** Kinetic (motion) and Potential (position).\n- **Conservation of Energy:** Why energy can never be destroyed.\n- **Power:** How fast can you do work?\n\nLet's dive into the mechanics of work and energy!"
+        },
+        {
+            "id": "work_2",
+            "type": "content",
+            "title": "Scientific Definition of Work",
+            "content": "# When is Work Actually Done?\n\nIn physics, two conditions need to be satisfied for work to be done:\n1. A **force** should act on an object.\n2. The object must be **displaced** (moved).\n\n## Example of Work Done:\n- Pushing a pebble lying on a surface, making it move a certain distance.\n- Lifting a book from the floor to a table.\n\n## Example of NO Work Done:\n- Pushing hard against a massive rock that doesn't move. You may get completely exhausted, but from a scientific point of view, you have done zero work because there was no displacement!"
+        },
+        {
+            "id": "work_3",
+            "type": "content",
+            "title": "Calculating Work",
+            "content": "# The Formula for Work\n\nHow do we measure work scientifically?\n\n## The Equation:\nWork done (W) by a constant force is defined as the product of the force (F) and the displacement (s) in the direction of the force.\n\n```\nWork = Force x Displacement\nW = F x s\n```\n\n## Units of Work:\n- Force is measured in Newtons (N).\n- Displacement is measured in meters (m).\n- Therefore, the unit of work is Newton-meter (N m).\n- This unit has a special name: the **Joule (J)**.\n\n> **Definition:** 1 Joule is the amount of work done when a force of 1 Newton displaces an object by 1 meter."
+        },
+        {
+            "id": "work_4",
+            "type": "content",
+            "title": "Positive, Negative, and Zero Work",
+            "content": "# The Direction Matters\n\nWork is a scalar quantity (it has no direction), but it can be positive, negative, or zero depending on the angle between the force and the displacement.\n\n## 1. Positive Work:\nWhen the force acts in the **same direction** as the displacement.\n- *Example:* Pushing a car forward, and it moves forward.\n\n## 2. Negative Work:\nWhen the force acts in the **opposite direction** to the displacement.\n- *Example:* When you apply brakes to a moving car, the friction force is in the opposite direction of motion, doing negative work to slow it down.\n\n## 3. Zero Work:\nWhen the force acts at a **90-degree angle (perpendicular)** to the displacement.\n- *Example:* A person carrying a heavy load on his head and walking on a horizontal road. The force of gravity is downward, but motion is forward."
+        },
+        {
+            "id": "work_quiz_1",
+            "type": "quiz",
+            "title": "Work Quiz",
+            "content": "Test your scientific understanding of work.",
+            "quizQuestion": "If you push a wall with 100 N of force for an hour and the wall doesn't move, how much work have you done according to physics?",
+            "quizOptions": [
+                "100 Joules",
+                "0 Joules",
+                "A lot of work",
+                "1000 Joules"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "work_5",
+            "type": "content",
+            "title": "What is Energy?",
+            "content": "# The Capacity to do Work\n\nLife is impossible without energy. The demand for energy is ever-increasing.\n\n## Definition:\nThe **energy** possessed by an object is measured in terms of its capacity of doing work. \n- An object that possesses energy can exert a force on another object.\n- When this happens, energy is transferred from the former to the latter.\n\n## Units of Energy:\nSince energy is the capacity to do work, the unit of energy is exactly the same as that of work: the **Joule (J)**.\n- For larger quantities of energy, we use the kilojoule (kJ), where 1 kJ = 1000 J."
+        },
+        {
+            "id": "work_6",
+            "type": "content",
+            "title": "Forms of Energy",
+            "content": "# The Many Faces of Energy\n\nEnergy exists in nature in various forms. Some of them include:\n- **Mechanical energy** (Kinetic + Potential)\n- **Heat energy**\n- **Chemical energy**\n- **Electrical energy**\n- **Light energy**\n\nIn this topic, we will focus primarily on **Mechanical Energy**, which is the sum of an object's kinetic energy and potential energy."
+        },
+        {
+            "id": "work_7",
+            "type": "content",
+            "title": "Kinetic Energy",
+            "content": "# Energy of Motion\n\nA moving object can do work. A faster-moving object can do more work than a relatively slower-moving identical object.\n\n## Definition:\n**Kinetic energy** is the energy possessed by an object due to its motion.\n- A moving bullet, blowing wind, a rotating wheel, and a speeding car all possess kinetic energy.\n\n## The Formula:\nKinetic Energy depends on two things: the mass (m) of the object and its velocity (v).\n\n```\nKinetic Energy (E_k) = (1/2) x m x v^2\n```\n\n> **Important Note:** Because velocity is squared in the formula, if you double your driving speed, your kinetic energy becomes FOUR times greater! This makes high-speed crashes much more dangerous."
+        },
+        {
+            "id": "work_8",
+            "type": "content",
+            "title": "Potential Energy",
+            "content": "# Stored Energy\n\nAn object can possess energy even if it is not moving!\n\n## Definition:\n**Potential energy** is the energy possessed by an object due to its position or shape.\n\n## Examples:\n1. **Elastic Potential Energy:** When you stretch a rubber band, you do work on it. The energy is transferred to the band and stored as potential energy. When released, it turns into kinetic energy.\n2. **Gravitational Potential Energy:** When you lift a brick to the roof of a house, you do work against gravity. The energy is stored in the brick due to its high position."
+        },
+        {
+            "id": "work_9",
+            "type": "content",
+            "title": "Gravitational Potential Energy",
+            "content": "# Calculating Stored Gravity Energy\n\nHow much energy is stored in an object raised to a certain height?\n\n## The Formula:\nThe work done in lifting an object of mass 'm' to a height 'h' against the force of gravity 'g' is stored as its potential energy.\n\n- Force required to lift = weight = m x g\n- Displacement = height = h\n- Work done = Force x Displacement\n\n```\nPotential Energy (E_p) = m x g x h\n```\n\n> **Interesting Fact:** The potential energy of an object at a height depends only on the vertical distance from the ground, not on the path taken to reach that height!"
+        },
+        {
+            "id": "work_quiz_2",
+            "type": "quiz",
+            "title": "Energy Quiz",
+            "content": "Check your understanding of kinetic and potential energy.",
+            "quizQuestion": "What type of energy does a stretched bow string possess before releasing the arrow?",
+            "quizOptions": [
+                "Kinetic energy",
+                "Potential energy",
+                "Heat energy",
+                "Chemical energy"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "work_10",
+            "type": "content",
+            "title": "Energy Conversion",
+            "content": "# Changing Forms\n\nEnergy rarely stays in one form. It constantly changes from one type to another.\n\n## Examples of Energy Conversion:\n- **Hydroelectric Power Plant:** The potential energy of water stored at a height in a dam is converted into kinetic energy as it falls, which is then converted into electrical energy by a turbine.\n- **Electric Bulb:** Electrical energy is converted into light energy and heat energy.\n- **Car Engine:** Chemical energy stored in petrol is converted into heat energy and kinetic energy to move the car.\n- **Photosynthesis:** Plants convert light energy from the Sun into chemical energy stored in food."
+        },
+        {
+            "id": "work_11",
+            "type": "content",
+            "title": "Law of Conservation of Energy",
+            "content": "# The Ultimate Rule of the Universe\n\nWhenever energy changes from one form to another, the total amount of energy remains exactly the same.\n\n## The Law:\n> **\"Energy can neither be created nor destroyed; it can only be transformed from one form to another. The total energy before and after the transformation remains exactly the same.\"**\n\n## The Free Fall Example:\nImagine an object of mass 'm' at a height 'h'.\n- At the top, its Potential Energy is maximum (mgh), and Kinetic Energy is zero (it's not moving yet).\n- As it falls, its Potential Energy decreases (height decreases) and its Kinetic Energy increases (speed increases).\n- Just before hitting the ground, its Kinetic Energy is maximum, and Potential Energy is zero.\n- At any point during the fall: `Potential Energy + Kinetic Energy = Constant`"
+        },
+        {
+            "id": "work_12",
+            "type": "content",
+            "title": "Rate of Doing Work: Power",
+            "content": "# How Fast Are You Working?\n\nDo all of us work at the same rate? No. A strong person may do certain work in less time. A more powerful vehicle completes a journey in a shorter time than a less powerful one.\n\n## What is Power?\nPower measures the speed of work done.\n**Power is defined as the rate of doing work or the rate of transfer of energy.**\n\n```\nPower = Work / Time\nP = W / t\n```\n\nIf two machines do the exact same amount of work, but Machine A does it in 5 seconds and Machine B does it in 10 seconds, Machine A has twice the power of Machine B."
+        },
+        {
+            "id": "work_13",
+            "type": "content",
+            "title": "Units of Power",
+            "content": "# Measuring Power\n\nThe unit of power honours James Watt, the Scottish inventor.\n\n## The Watt:\nThe SI unit of power is the **Watt (W)**.\n- 1 Watt is the power of an agent which does work at the rate of 1 Joule per second.\n- 1 W = 1 J/s\n\n## Larger Units:\nWe often use kilowatts (kW) for larger machinery.\n- 1 kilowatt (kW) = 1000 Watts = 1000 J/s\n\n> **Horsepower:** An older unit still used for car engines is the horsepower (hp). 1 hp is approximately equal to 746 Watts."
+        },
+        {
+            "id": "work_14",
+            "type": "content",
+            "title": "Commercial Unit of Energy",
+            "content": "# Paying Your Electricity Bill\n\nThe Joule is a very small unit. If you look at your home's electricity bill, it's not measured in Joules; it's measured in \"Units\" or **kilowatt-hours (kWh)**.\n\n## What is a kilowatt-hour?\n1 kWh is the amount of energy consumed if an electrical appliance of 1 kW (1000 Watts) power is used continuously for 1 hour.\n\n## The Conversion:\nLet's convert kWh to Joules!\n- 1 kW = 1000 W = 1000 J/s\n- 1 hour = 3600 seconds\n- 1 kWh = (1000 J/s) x (3600 s) = **3,600,000 Joules** (or 3.6 x 10^6 J)\n\nSo, when your family uses \"1 unit\" of electricity, you have actually consumed 3.6 million Joules of energy!"
+        },
+        {
+            "id": "work_quiz_3",
+            "type": "quiz",
+            "title": "Power Quiz",
+            "content": "Check your understanding of power.",
+            "quizQuestion": "What is the SI unit of power?",
+            "quizOptions": [
+                "Joule",
+                "Newton",
+                "Watt",
+                "Kilogram"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "work_15",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Work (W):** Force multiplied by displacement (measured in Joules).\n- **Energy (E):** The capacity to do work (measured in Joules).\n- **Kinetic Energy (E_k):** Energy possessed by an object due to its motion (1/2 mv^2).\n- **Potential Energy (E_p):** Energy possessed by an object due to its position or configuration (mgh).\n- **Law of Conservation of Energy:** Energy cannot be created or destroyed, only transformed.\n- **Power (P):** The rate of doing work (measured in Watts)."
+        },
+        {
+            "id": "work_16",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Work & Energy\n\nExcellent work! Here is a recap of what we've learned:\n\n- **Work** is done only when a force displaces an object in the direction of the force.\n- **Energy** is required to do work, and they share the same unit: the **Joule**.\n- Mechanical energy consists of **Kinetic energy** (motion) and **Potential energy** (position).\n- The **Law of Conservation of Energy** states that total energy remains constant during any transformation.\n- **Power** is the speed at which work is done, measured in **Watts**.\n- The commercial unit of electrical energy is the **kilowatt-hour (kWh)**, which equals 3.6 million Joules."
+        },
+        {
+            "id": "work_17",
+            "type": "quiz",
+            "title": "Final Work Quiz",
+            "content": "One last question to finish the topic!",
+            "quizQuestion": "If a car's velocity is doubled, what happens to its kinetic energy?",
+            "quizOptions": [
+                "It stays the same",
+                "It doubles",
+                "It becomes four times greater",
+                "It is reduced by half"
+            ],
+            "correctOptionIndex": 2
+        }
+    ]
+}

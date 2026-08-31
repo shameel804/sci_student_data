@@ -1,0 +1,153 @@
+{
+    "id": "learn_cell",
+    "topicId": "cell",
+    "topicTitle": "Cell Biology",
+    "description": "Explore the fundamental unit of life, understanding how cells are structured, how they transport materials, and how they divide.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "cell_1",
+            "type": "content",
+            "title": "Welcome to Cell Biology",
+            "content": "# Introduction to the Cell\n\nWelcome to Cell Biology! The cell is the fundamental structural and functional unit of all living organisms.\n\n## What You Will Learn:\n- **Cell Ultrastructure** - Exploring the inside of a cell\n- **Biomembrane Functions** - How the cell boundary works\n- **Cell Division** - Mitosis and Meiosis\n- **Cellular Transport** - How things move in and out\n\n> **Fun Fact:** The human body is composed of approximately 30 to 40 trillion cells!"
+        },
+        {
+            "id": "cell_2",
+            "type": "content",
+            "title": "Cell Theory",
+            "content": "# The Cell Theory\n\nThe Cell Theory is one of the foundational principles of biology.\n\n## The Original Theory:\nFormulated by Matthias Schleiden (1838) and Theodor Schwann (1839):\n1. All living organisms are composed of one or more cells.\n2. The cell is the basic unit of structure and organization in organisms.\n\n## The Addition:\nRudolf Virchow (1855) added a crucial third tenet:\n3. *Omnis cellula e cellula* - All cells arise from pre-existing cells.\n\nThis meant that life doesn't spontaneously generate; it must come from previous life."
+        },
+        {
+            "id": "cell_3",
+            "type": "content",
+            "title": "Prokaryotic vs Eukaryotic",
+            "content": "# Two Main Cell Types\n\nCells are broadly categorized based on the presence or absence of a distinct nucleus.\n\n## 1. Prokaryotic Cells:\n- **'Pro' = before, 'karyon' = nucleus**\n- Lack a membrane-bound nucleus; genetic material is naked (nucleoid).\n- Lack membrane-bound organelles (like mitochondria, ER).\n- Generally smaller and simpler.\n- Examples: Bacteria, Archaea.\n\n## 2. Eukaryotic Cells:\n- **'Eu' = true, 'karyon' = nucleus**\n- Have a well-defined nucleus enclosed by a nuclear membrane.\n- Contain complex membrane-bound organelles.\n- Examples: Plant, Animal, Fungi, and Protist cells."
+        },
+        {
+            "id": "cell_4",
+            "type": "content",
+            "title": "Plant vs Animal Cells",
+            "content": "# Plant vs. Animal Cells\n\nBoth are eukaryotic, but they have key differences adapted to their lifestyles.\n\n## Plant Cells:\n- **Cell Wall:** Have a rigid cell wall (cellulose) outside the membrane for support.\n- **Chloroplasts:** Contain plastids for photosynthesis.\n- **Vacuole:** Have a large, central vacuole taking up most of the cell volume.\n- **Centrioles:** Usually absent.\n\n## Animal Cells:\n- **Cell Wall:** Absent (allows for flexible movement).\n- **Chloroplasts:** Absent (animals eat food, they don't make it).\n- **Vacuole:** If present, they are small and temporary.\n- **Centrioles:** Present (used in cell division)."
+        },
+        {
+            "id": "cell_5",
+            "type": "content",
+            "title": "The Plasma Membrane",
+            "content": "# Biomembrane: The Plasma Membrane\n\nThe plasma membrane is the boundary that separates the living cell from its surroundings.\n\n## Fluid Mosaic Model:\nProposed by Singer and Nicolson (1972), it is the accepted model of the membrane.\n- **'Fluid':** The lipid bilayer is viscous and individual lipid molecules can move laterally, making it flexible.\n- **'Mosaic':** Proteins are embedded in the lipid bilayer like tiles in a mosaic.\n\n## Composition:\n- **Phospholipid Bilayer:** Forms the main barrier.\n- **Proteins:** Act as channels, pumps, or receptors.\n- **Cholesterol:** Provides stability to the membrane.\n- **Carbohydrates:** Act as identification tags on the surface."
+        },
+        {
+            "id": "cell_quiz_1",
+            "type": "quiz",
+            "title": "Cell Basics Quiz",
+            "content": "Test your foundational knowledge.",
+            "quizQuestion": "Which structure is found in plant cells but NOT in animal cells?",
+            "quizOptions": [
+                "Mitochondria",
+                "Nucleus",
+                "Cell Wall",
+                "Plasma Membrane"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "cell_6",
+            "type": "content",
+            "title": "Functions of the Biomembrane",
+            "content": "# Functions of the Biomembrane\n\nThe plasma membrane does much more than just contain the cell.\n\n## Selective Permeability:\n- It is **selectively permeable**, meaning it allows some substances to pass through while blocking others.\n- This is crucial for maintaining the internal environment of the cell (homeostasis).\n\n## Key Roles:\n1. **Transport:** Moving nutrients in and waste products out.\n2. **Communication:** Receptors on the membrane receive signals (like hormones) from other cells.\n3. **Protection:** Defends against foreign entities.\n4. **Adhesion:** Helps cells stick to each other to form tissues."
+        },
+        {
+            "id": "cell_7",
+            "type": "content",
+            "title": "Cellular Transport: Passive",
+            "content": "# Passive Transport\n\nPassive transport is the movement of substances across the membrane **without the expenditure of energy (ATP)**.\n\n## 1. Simple Diffusion:\n- Movement of molecules from an area of higher concentration to an area of lower concentration (down the gradient).\n- Example: Oxygen and carbon dioxide diffusing across the membrane.\n\n## 2. Facilitated Diffusion:\n- Movement of larger or polar molecules across the membrane with the help of specific transport proteins (channels or carriers).\n- Still moves down the concentration gradient, so no energy is used.\n- Example: Glucose transport."
+        },
+        {
+            "id": "cell_8",
+            "type": "content",
+            "title": "Cellular Transport: Osmosis",
+            "content": "# Osmosis: The Diffusion of Water\n\n**Osmosis** is a special type of passive transport involving water.\n\n## Definition:\nOsmosis is the movement of water molecules across a selectively permeable membrane from a region of higher water concentration to a region of lower water concentration.\n\n## Tonicity:\n- **Isotonic Solution:** Equal concentration inside and outside. Cell stays the same.\n- **Hypotonic Solution:** Outside has higher water concentration (lower solute). Water rushes IN. Animal cells may burst; plant cells become turgid (firm).\n- **Hypertonic Solution:** Outside has lower water concentration (higher solute). Water rushes OUT. Cell shrinks (plasmolysis)."
+        },
+        {
+            "id": "cell_9",
+            "type": "content",
+            "title": "Cellular Transport: Active",
+            "content": "# Active Transport\n\nActive transport is the movement of substances across the membrane **against their concentration gradient** (from low to high).\n\n## Key Features:\n- Requires the expenditure of cellular energy, usually in the form of **ATP**.\n- Utilizes highly specific carrier proteins, often called 'pumps'.\n\n## Example: The Sodium-Potassium Pump\n- Found in almost all animal cells.\n- Uses ATP to pump 3 Sodium ions OUT of the cell and 2 Potassium ions INTO the cell, against their respective gradients.\n- This is crucial for nerve impulse transmission and muscle contraction."
+        },
+        {
+            "id": "cell_10",
+            "type": "content",
+            "title": "Endomembrane System",
+            "content": "# The Endomembrane System\n\nSeveral organelles are structurally or functionally connected, forming the endomembrane system.\n\n## 1. Endoplasmic Reticulum (ER):\n- A network of membranous tubules and sacs.\n- **Rough ER:** Studded with ribosomes. Involved in protein synthesis and secretion.\n- **Smooth ER:** Lacks ribosomes. Involved in lipid synthesis and detoxification.\n\n## 2. Golgi Apparatus:\n- Stack of flattened sacs.\n- The 'post office' of the cell. Modifies, sorts, and packages proteins and lipids received from the ER for transport to their final destinations.\n\n## 3. Lysosomes:\n- Membrane-bound sacs of digestive enzymes.\n- The 'garbage disposal'. Break down cellular waste and debris."
+        },
+        {
+            "id": "cell_11",
+            "type": "content",
+            "title": "Mitochondria and Plastids",
+            "content": "# Energy Organelles\n\nThese organelles are unique because they have their own DNA and double membranes.\n\n## Mitochondria:\n- The 'powerhouse of the cell'.\n- Site of aerobic cellular respiration.\n- Generates most of the cell's supply of ATP (energy).\n- Inner membrane is folded into **cristae** to increase surface area.\n\n## Plastids (in Plant Cells):\n- **Chloroplasts:** Contain chlorophyll. Site of photosynthesis (converting light energy into food).\n- **Chromoplasts:** Contain pigments giving colors to flowers and fruits.\n- **Leucoplasts:** Colorless plastids used for storing starch, oils, or proteins."
+        },
+        {
+            "id": "cell_quiz_2",
+            "type": "quiz",
+            "title": "Organelle Quiz",
+            "content": "Match the function to the organelle.",
+            "quizQuestion": "Which organelle is primarily responsible for modifying, sorting, and packaging proteins?",
+            "quizOptions": [
+                "Mitochondria",
+                "Smooth ER",
+                "Golgi Apparatus",
+                "Lysosome"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "cell_12",
+            "type": "content",
+            "title": "The Nucleus",
+            "content": "# The Nucleus: The Control Center\n\nThe nucleus is the most prominent organelle in a eukaryotic cell, acting as its command center.\n\n## Key Components:\n- **Nuclear Envelope:** A double membrane that surrounds the nucleus, containing pores that regulate the flow of materials in and out.\n- **Nucleoplasm:** The semi-fluid matrix inside the nucleus.\n- **Nucleolus:** A dense, spherical structure involved in synthesizing ribosomes.\n- **Chromatin:** A network of DNA and protein. During cell division, chromatin condenses to form distinct structures called **chromosomes**.\n\nThe nucleus dictates cellular function by controlling protein synthesis."
+        },
+        {
+            "id": "cell_13",
+            "type": "content",
+            "title": "The Cell Cycle",
+            "content": "# The Cell Cycle\n\nThe cell cycle is the sequence of events by which a cell duplicates its genome and divides into two daughter cells.\n\n## Two Main Phases:\n\n### 1. Interphase (The resting/prep phase):\n- The cell spends most of its life here (up to 95%).\n- **G1 phase:** Cell grows and performs normal functions.\n- **S phase (Synthesis):** DNA replication occurs. The amount of DNA doubles.\n- **G2 phase:** Cell prepares for division, synthesizing necessary proteins.\n\n### 2. M Phase (Mitosis phase):\n- The actual division of the cell nucleus (mitosis) and cytoplasm (cytokinesis)."
+        },
+        {
+            "id": "cell_14",
+            "type": "content",
+            "title": "Mitosis: Equational Division",
+            "content": "# Mitosis\n\nMitosis is the process of cell division that results in two genetically identical daughter cells.\n\n## Purpose:\n- Growth of multicellular organisms.\n- Repair and replacement of damaged tissues.\n- Asexual reproduction in some organisms.\n\n## The Four Stages (PMAT):\n1. **Prophase:** Chromatin condenses into visible chromosomes. Nuclear envelope breaks down.\n2. **Metaphase:** Chromosomes align at the equator (center) of the cell.\n3. **Anaphase:** Sister chromatids separate and are pulled to opposite poles of the cell.\n4. **Telophase:** Chromosomes decondense, and two new nuclear envelopes form.\n\nFollowed by **Cytokinesis** (division of the cytoplasm)."
+        },
+        {
+            "id": "cell_15",
+            "type": "content",
+            "title": "Meiosis: Reductional Division",
+            "content": "# Meiosis\n\nMeiosis is a specialized form of cell division that reduces the chromosome number by half.\n\n## Purpose:\n- Production of gametes (sperm and egg cells) for sexual reproduction.\n- Ensures that when fertilization occurs, the normal chromosome number is restored.\n- Introduces genetic variation.\n\n## Two Stages:\n- **Meiosis I:** Homologous (matching) chromosomes pair up and separate. This is where 'crossing over' happens (exchange of genetic material).\n- **Meiosis II:** Similar to mitosis, sister chromatids separate.\n\n**Result:** Four haploid (n) cells, each genetically unique."
+        },
+        {
+            "id": "cell_16",
+            "type": "content",
+            "title": "Mitosis vs Meiosis Summary",
+            "content": "# Comparing Cell Divisions\n\n| Feature | Mitosis | Meiosis |\n|---------|---------|---------|\n| **Purpose** | Growth and repair | Sexual reproduction (gametes) |\n| **Divisions** | One | Two |\n| **Daughter Cells** | Two | Four |\n| **Genetics** | Genetically identical to parent | Genetically unique |\n| **Chromosome #** | Same as parent (Diploid/2n) | Half of parent (Haploid/n) |\n| **Occurs in** | Somatic (body) cells | Reproductive organs |\n\n> **Key Concept:** Mitosis creates clones for growth; meiosis creates diversity for the next generation."
+        },
+        {
+            "id": "cell_quiz_3",
+            "type": "quiz",
+            "title": "Cell Cycle Check",
+            "content": "Test your knowledge of cell division.",
+            "quizQuestion": "During which phase of the cell cycle is DNA replicated?",
+            "quizOptions": [
+                "Prophase",
+                "G1 phase",
+                "S phase",
+                "Metaphase"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "cell_17",
+            "type": "content",
+            "title": "Summary: Cell Biology",
+            "content": "# Cell Biology Summary\n\n## Key Concepts Reviewed:\n\n- **Cell Theory:** All living things are made of cells; cells come from pre-existing cells.\n- **Prokaryotes vs Eukaryotes:** Eukaryotes have a true nucleus and organelles.\n- **Membrane Transport:** Passive transport (no ATP, includes osmosis) vs. Active transport (requires ATP).\n- **Organelles:** ER, Golgi, Mitochondria, and Nucleus each have highly specialized functions.\n- **Cell Cycle:** Cells prepare during Interphase and divide during M Phase.\n- **Mitosis:** Creates two identical diploid cells for growth.\n- **Meiosis:** Creates four unique haploid cells for sexual reproduction.\n\n> **Congratulations!** You have completed the Cell Biology module. You now understand the microscopic machinery that makes life possible!"
+        }
+    ]
+}

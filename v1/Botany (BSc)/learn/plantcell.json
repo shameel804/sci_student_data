@@ -1,0 +1,65 @@
+{
+    "id": "bot_plantcell",
+    "topicId": "plantcell",
+    "topicTitle": "Plant Cell Biology",
+    "description": "Examine the unique structures like cell walls and chloroplasts that make plant life possible.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "bcell_1",
+            "type": "content",
+            "title": "Welcome to Plant Cell Biology",
+            "content": "# Plant Cell Biology\n\nWelcome to Plant Cell Biology! Plant cells have unique structures that allow them to stand tall without bones and produce their own food from sunlight.\n\n## What You Will Learn:\n- **The Cell Wall** - The rigid outer armor\n- **Plastids** - Chloroplasts and their cousins\n- **The Central Vacuole** - Water storage and turgor pressure\n- **Plasmodesmata** - Cell-to-cell communication\n\n> **Fun Fact:** Without the rigid cell walls of plant cells, wood wouldn't exist, and trees would collapse under their own weight!"
+        },
+        {
+            "id": "bcell_2",
+            "type": "content",
+            "title": "Plant Cell vs Animal Cell",
+            "content": "# The Key Differences\n\nWhile plants are eukaryotes and share many organelles with animals (like a nucleus, mitochondria, and ER), they have several unique features essential to their lifestyle.\n\n## Unique to Plants:\n1. **Cell Wall:** A rigid layer outside the plasma membrane.\n2. **Plastids:** Organelles like chloroplasts used for photosynthesis and storage.\n3. **Large Central Vacuole:** A massive water sac that can take up 90% of the cell volume.\n4. **Plasmodesmata:** Channels through cell walls that connect adjacent cells.\n\n## Lacking in Plants:\n- Plant cells generally do NOT have centrioles (used in animal cell division) or lysosomes (they use their vacuole for digestion instead)."
+        },
+        {
+            "id": "bcell_3",
+            "type": "content",
+            "title": "The Cell Wall",
+            "content": "# The Plant's Armor\n\nThe cell wall provides structural support, protection, and determines the shape of the plant cell.\n\n## Composition:\n- Primarily made of **Cellulose** (a tough polysaccharide consisting of long chains of beta-glucose).\n- Hemicellulose and pectin act as a glue to hold the cellulose microfibrils together.\n\n## Layers:\n1. **Middle Lamella:** The outermost layer, rich in sticky pectins. It glues adjacent plant cells together.\n2. **Primary Cell Wall:** Formed while the cell is growing. It is thin and flexible.\n3. **Secondary Cell Wall:** Formed inside the primary wall after the cell stops growing (in some cells, like wood). It is very thick and often contains lignin for extreme strength."
+        },
+        {
+            "id": "bcell_4",
+            "type": "content",
+            "title": "Plastids: The Chloroplast",
+            "content": "# Chloroplasts: The Solar Panels\n\nPlastids are double-membrane organelles. The most famous is the chloroplast.\n\n## Structure of a Chloroplast:\n- **Thylakoids:** Flattened, disc-like sacs containing the green pigment chlorophyll. The light-dependent reactions of photosynthesis occur here.\n- **Grana:** Stacks of thylakoids (looks like a stack of coins).\n- **Stroma:** The fluid surrounding the grana. The light-independent reactions (Calvin cycle) occur here to build sugars.\n\nLike mitochondria, chloroplasts contain their own DNA and ribosomes, supporting the endosymbiotic theory (they were once free-living photosynthetic bacteria)."
+        },
+        {
+            "id": "bcell_5",
+            "type": "content",
+            "title": "Other Plastids",
+            "content": "# Leucoplasts and Chromoplasts\n\nNot all plastids are green! Plants use different plastids for different functions.\n\n## Chromoplasts:\n- Contain fat-soluble pigments like carotenes (orange) and xanthophylls (yellow).\n- They give fruits and flowers their bright colors to attract pollinators and seed dispersers.\n- Example: The red color of a tomato or a chili pepper.\n\n## Leucoplasts:\n- Colorless plastids used primarily for bulk storage in roots and non-photosynthetic tissues.\n- **Amyloplasts:** Store starch (plentiful in potatoes).\n- **Elaioplasts:** Store oils and fats.\n- **Aleuroplasts:** Store proteins."
+        },
+        {
+            "id": "bcell_quiz_1",
+            "type": "quiz",
+            "title": "Plastid Quiz",
+            "content": "Test your plant organelle knowledge.",
+            "quizQuestion": "Which type of colorless plastid is specifically responsible for storing starch in plants like potatoes?",
+            "quizOptions": [
+                "Chloroplast",
+                "Chromoplast",
+                "Amyloplast",
+                "Elaioplast"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "bcell_6",
+            "type": "content",
+            "title": "The Central Vacuole",
+            "content": "# The Central Vacuole\n\nIn mature plant cells, a single massive vacuole dominates the interior.\n\n## Functions:\n1. **Turgor Pressure:** The vacuole fills with water, pushing the plasma membrane hard against the rigid cell wall. This pressure keeps the plant upright and rigid. If the vacuole loses water, the plant wilts!\n2. **Storage:** Stores water, nutrients, and essential ions.\n3. **Waste Disposal:** Isolates toxic byproducts.\n4. **Pigmentation:** Can store water-soluble pigments (anthocyanins) that give red/purple colors to some flowers and leaves (like red onions).\n\nThe membrane surrounding the vacuole is called the **tonoplast**."
+        },
+        {
+            "id": "bcell_7",
+            "type": "content",
+            "title": "Summary: Plant Cell Biology",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Differences:** Plants have cell walls, plastids, and large vacuoles; they lack centrioles.\n- **Cell Wall:** Made of cellulose. Middle lamella glues cells together. Primary wall is flexible; secondary wall is rigid (lignin).\n- **Chloroplasts:** Double membrane. Thylakoids/Grana contain chlorophyll for light reactions. Stroma is the fluid for dark reactions.\n- **Other Plastids:** Chromoplasts provide color (fruits/flowers). Leucoplasts store starch (amyloplasts) or oils.\n- **Central Vacuole:** Stores water and creates Turgor Pressure to keep the plant rigid. Bound by the tonoplast.\n\n> **Congratulations!** You have completed the Plant Cell module."
+        }
+    ]
+}

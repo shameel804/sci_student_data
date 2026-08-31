@@ -1,0 +1,147 @@
+{
+    "id": "learn_nmr",
+    "topicId": "nmr",
+    "topicTitle": "NMR Spectroscopy",
+    "description": "Explore the principles of 1D and 2D NMR, structural elucidation, dynamic NMR, and solid state NMR.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "nmr_1",
+            "type": "content",
+            "title": "Welcome to NMR Spectroscopy",
+            "content": "# Nuclear Magnetic Resonance (NMR)\n\nWelcome to the most powerful tool in the organic chemist's arsenal!\n\n## What You Will Learn:\n- **1D and 2D NMR** - Advanced techniques for probing molecular structure.\n- **Structural elucidation** - Solving complex chemical puzzles.\n- **Dynamic NMR** - Observing molecules in motion.\n- **Solid state NMR** - Studying insoluble materials.\n\nLet's learn how to \"see\" the exact connectivity of atoms!"
+        },
+        {
+            "id": "nmr_2",
+            "type": "content",
+            "title": "NMR Theory Basics",
+            "content": "# NMR Theory Basics\n\nNMR relies on the magnetic properties of certain atomic nuclei.\n\n## Spin:\nNuclei with an odd mass number (like 1H, 13C, 19F, 31P) possess a property called \"spin.\" This makes them act like tiny bar magnets.\n\n## The External Magnetic Field:\nNormally, these nuclear magnets are oriented randomly. But when placed in a strong external magnetic field (B0), they align either WITH the field (lower energy) or AGAINST the field (higher energy).\n\n> **The Core Concept:** NMR measures the energy required to flip a nucleus from the low-energy state to the high-energy state using radio waves."
+        },
+        {
+            "id": "nmr_3",
+            "type": "content",
+            "title": "Resonance and Shielding",
+            "content": "# Resonance and Shielding\n\nNot all protons (1H nuclei) flip at the exact same frequency.\n\n## Electron Shielding:\nElectrons surrounding a nucleus circulate in the magnetic field, creating a small local magnetic field that *opposes* the external field. This \"shields\" the nucleus.\n\n## Deshielding:\nElectronegative atoms (like Oxygen or Fluorine) pull electrons away from nearby protons. This \"deshields\" the proton, meaning it feels a stronger magnetic field and requires a higher frequency radio wave to flip.\n\n> **Result:** Different chemical environments = Different radio frequencies. This is why we can distinguish between an -OH proton and a -CH3 proton!"
+        },
+        {
+            "id": "nmr_4",
+            "type": "content",
+            "title": "1D NMR: Chemical Shift",
+            "content": "# Chemical Shift\n\nThe **chemical shift** (delta, measured in parts per million or ppm) tells us the exact electronic environment of a nucleus.\n\n## Typical 1H Chemical Shifts:\n- 0-2 ppm: Alkanes (CH3, CH2, CH)\n- 2-3 ppm: Next to C=O, C=N, or aromatic rings\n- 3-4 ppm: Next to Oxygen or Halogens\n- 5-6 ppm: Alkenes (C=C-H)\n- 7-8 ppm: Aromatics (Benzene ring H)\n- 9-10 ppm: Aldehydes (CHO)\n- 10-12 ppm: Carboxylic Acids (COOH)\n\n## Integration:\nThe area under an NMR peak is proportional to the number of protons causing that peak. It tells you the ratio of different protons."
+        },
+        {
+            "id": "nmr_5",
+            "type": "content",
+            "title": "Spin-Spin Coupling",
+            "content": "# Spin-Spin Coupling (J-Coupling)\n\nSignals in 1H NMR often appear not as single lines, but as clusters (multiplets) like doublets, triplets, or quartets.\n\n## Why does it happen?\nNeighboring protons interact with each other through the bonding electrons. The spin state of one proton (up or down) affects the magnetic field felt by its neighbor.\n\n## The n+1 Rule:\nFor simple systems, a proton with 'n' equivalent neighboring protons will appear as a multiplet with 'n+1' peaks.\n- 0 neighbors = Singlet (1 peak)\n- 1 neighbor = Doublet (2 peaks)\n- 2 neighbors = Triplet (3 peaks)\n- 3 neighbors = Quartet (4 peaks)"
+        },
+        {
+            "id": "nmr_quiz_1",
+            "type": "quiz",
+            "title": "1D NMR Quiz",
+            "content": "Test your basic NMR knowledge!",
+            "quizQuestion": "In a 1H NMR spectrum, if a proton has exactly two neighboring protons, how will its signal split (assuming simple coupling)?",
+            "quizOptions": [
+                "Singlet",
+                "Doublet",
+                "Triplet",
+                "Quartet"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "nmr_6",
+            "type": "content",
+            "title": "2D NMR Introduction",
+            "content": "# 2D NMR Introduction\n\nFor large molecules, 1D NMR spectra become an overlapping mess of peaks. 2D NMR spreads the data out over two frequency axes, creating a topographical map.\n\n## How it works:\nInstead of a single pulse, 2D NMR uses a sequence of radio pulses separated by specific time delays. This allows magnetization to transfer between different nuclei.\n\n## Types of Transfer:\n- Through bonds (J-coupling): e.g., COSY, HSQC, HMBC\n- Through space (Dipole-dipole): e.g., NOESY, ROESY"
+        },
+        {
+            "id": "nmr_7",
+            "type": "content",
+            "title": "COSY (Correlation Spectroscopy)",
+            "content": "# COSY (H-H Correlation)\n\n**COSY** tells you which protons are coupled to each other (i.e., which protons are neighbors).\n\n## Reading a COSY:\n- Both the X and Y axes are 1H chemical shifts.\n- The diagonal contains the normal 1D spectrum.\n- The \"cross-peaks\" (off the diagonal) are the goldmine. If there is a cross-peak at (x,y), it means the proton at shift 'x' is coupled to the proton at shift 'y'.\n\n> **Use:** If you know one peak is the methyl group, you can trace the cross-peaks to walk down the entire carbon chain!"
+        },
+        {
+            "id": "nmr_8",
+            "type": "content",
+            "title": "HSQC and HMBC",
+            "content": "# Heteronuclear Correlation\n\nThese techniques correlate two different types of nuclei, usually 1H and 13C.\n\n## HSQC (Heteronuclear Single Quantum Coherence):\n- X-axis is 1H, Y-axis is 13C.\n- Shows directly bonded H-C pairs.\n- A spot at (2.5 ppm 1H, 40 ppm 13C) means the proton at 2.5 is physically attached to the carbon at 40.\n\n## HMBC (Heteronuclear Multiple Bond Correlation):\n- Shows long-range coupling (usually over 2 or 3 bonds).\n- Crucial for piecing together fragments of a molecule that are separated by atoms without protons (like a carbonyl C=O or a quaternary carbon)."
+        },
+        {
+            "id": "nmr_9",
+            "type": "content",
+            "title": "NOESY",
+            "content": "# NOESY (Nuclear Overhauser Effect)\n\n**NOESY** does not look at bonds; it looks through SPACE.\n\n## How it works:\nIf two protons are physically close to each other in 3D space (typically less than 5 Angstroms), they can transfer magnetization directly, creating a NOESY cross-peak.\n\n## Why is this important?\n- Determines stereochemistry (e.g., cis vs trans on a ring).\n- Determines 3D folding of proteins (if an amino acid at position 10 is close to position 50, you know the protein folds back on itself).\n- Solves structures where bond-tracing (COSY/HMBC) fails."
+        },
+        {
+            "id": "nmr_quiz_2",
+            "type": "quiz",
+            "title": "2D NMR Quiz",
+            "content": "Check your 2D NMR knowledge!",
+            "quizQuestion": "Which 2D NMR experiment would you use to determine if two protons are close to each other in 3D space, regardless of how many bonds separate them?",
+            "quizOptions": [
+                "COSY",
+                "HSQC",
+                "HMBC",
+                "NOESY"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "nmr_10",
+            "type": "content",
+            "title": "Structural Elucidation",
+            "content": "# Structural Elucidation\n\nPutting it all together to solve an unknown structure.\n\n## The Workflow:\n1. **Molecular Formula:** From Mass Spec (e.g., C9H10O2).\n2. **Degrees of Unsaturation:** Calculate rings and double bonds.\n3. **13C NMR:** How many unique carbons? Are there carbonyls (170+ ppm) or aromatics (120-140 ppm)?\n4. **1H NMR:** Integration tells you how many of each proton type. Multiplicity gives you fragments.\n5. **2D NMR (COSY/HSQC/HMBC):** Stitch the fragments together into a final structure.\n6. **NOESY:** Define the stereochemistry."
+        },
+        {
+            "id": "nmr_11",
+            "type": "content",
+            "title": "Degrees of Unsaturation",
+            "content": "# Degrees of Unsaturation (DoU)\n\nBefore looking at a spectrum, the formula gives you vital clues.\n\n## The Formula for CxHyNzOwXv:\n(Where X is halogens)\n\n`DoU = C - (H/2) - (X/2) + (N/2) + 1`\n\n## What it means:\n- **1 DoU:** One double bond OR one ring.\n- **2 DoU:** Two double bonds, two rings, one triple bond, or one ring + one double bond.\n- **4 or more DoU:** Highly suggestive of an aromatic ring (Benzene has 1 ring + 3 double bonds = 4 DoU).\n\n> **Rule:** Oxygen and Sulfur are ignored in the calculation."
+        },
+        {
+            "id": "nmr_12",
+            "type": "content",
+            "title": "Dynamic NMR",
+            "content": "# Dynamic NMR (DNMR)\n\nNMR is usually a slow \"camera.\" But we can use it to measure molecules that are moving or interconverting.\n\n## The Time Scale:\nIf a molecule flips between Shape A and Shape B faster than the NMR can take a picture, you see a blurred average. If it flips slowly, you see two distinct peaks.\n\n## Variable Temperature (VT) NMR:\nBy cooling the sample down, we can slow the molecular motion until the \"blur\" splits into distinct peaks (the coalescence point). By measuring the exact temperature where this happens, we can calculate the activation energy of the molecular rotation!"
+        },
+        {
+            "id": "nmr_13",
+            "type": "content",
+            "title": "Dynamic NMR Examples",
+            "content": "# Examples of Dynamic NMR\n\nWhat kind of motions do we measure?\n\n## 1. Amide Rotation:\nThe C-N bond in an amide has partial double bond character. It rotates, but slowly. At room temp, NMR might show two different methyl groups on an N,N-dimethylamide. If you heat it, they spin fast and blur into one peak.\n\n## 2. Ring Flipping:\nCyclohexane flips between two chair conformations. At room temp, axial and equatorial protons blur into one signal. Below -90 Celsius, the flipping stops, and you see distinct axial and equatorial peaks.\n\n## 3. Chemical Exchange:\nProtons on alcohols (OH) or amines (NH) rapidly jump between different molecules. This is why OH peaks are usually broad singlets without coupling."
+        },
+        {
+            "id": "nmr_14",
+            "type": "content",
+            "title": "Solid State NMR",
+            "content": "# Solid State NMR (ssNMR)\n\nNormal NMR requires dissolving the sample in a liquid. What if the sample is a rock, a bone, or an insoluble polymer?\n\n## The Problem with Solids:\nIn liquids, molecules tumble rapidly, averaging out complex magnetic interactions (like Chemical Shift Anisotropy and Dipolar Coupling). In solids, molecules are frozen in place. A normal NMR of a solid looks like a massive, useless blur.\n\n## The Solution: Magic Angle Spinning (MAS)\nTo fake the tumbling of a liquid, we physically spin the entire solid sample tube at incredibly high speeds (up to 100,000 times per second!)."
+        },
+        {
+            "id": "nmr_15",
+            "type": "content",
+            "title": "Magic Angle Spinning (MAS)",
+            "content": "# The Magic Angle\n\nWhy \"Magic\"?\n\n## The Math:\nThe equations that describe the line-blurring interactions in a solid all contain the term: `(3 x cos^2(theta) - 1)`\n\n## The Trick:\nIf we set the angle (theta) between the spinning sample tube and the external magnetic field to exactly **54.74 degrees**, then `(3 x cos^2(54.74) - 1) = 0`!\n\n> **Result:** By spinning the sample very fast at exactly this angle, we mathematically cancel out the line broadening, yielding high-resolution, sharp NMR spectra from solid rocks, powders, and proteins."
+        },
+        {
+            "id": "nmr_quiz_3",
+            "type": "quiz",
+            "title": "Advanced NMR Quiz",
+            "content": "Check your advanced knowledge!",
+            "quizQuestion": "In Solid State NMR, why is the sample spun at the 'Magic Angle' of 54.74 degrees?",
+            "quizOptions": [
+                "To increase the magnetic field strength.",
+                "To mathematically cancel out line-broadening interactions.",
+                "To dissolve the solid sample during the scan.",
+                "To prevent the sample tube from shattering."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "nmr_16",
+            "type": "content",
+            "title": "Summary of NMR Spectroscopy",
+            "content": "# NMR Spectroscopy Summary\n\n## Key Takeaways:\n1. **Basics:** Radio waves flip nuclear spins in a magnetic field. Shielding causes different chemical shifts.\n2. **1D NMR:** Integration gives proton count; J-coupling (n+1 rule) reveals neighbors.\n3. **2D NMR:** COSY maps H-H bonds, HSQC/HMBC maps C-H bonds, NOESY maps 3D spatial proximity.\n4. **Dynamic NMR:** Variable temperatures allow us to calculate energy barriers for molecular rotations and ring flips.\n5. **Solid State NMR:** Magic Angle Spinning (MAS) provides high-resolution data for insoluble materials by mimicking molecular tumbling.\n\n> **Conclusion:** NMR is the ultimate map for molecular architecture!"
+        }
+    ]
+}

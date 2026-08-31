@@ -1,0 +1,137 @@
+{
+    "id": "learn_geneng_cloning",
+    "topicId": "cloning",
+    "topicTitle": "Gene Cloning",
+    "description": "Dive deep into the process of gene cloning, exploring advanced vectors, expression systems, DNA libraries, and sophisticated screening methods.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "geneng_clone_1",
+            "type": "content",
+            "title": "Welcome to Gene Cloning",
+            "content": "# Introduction to Gene Cloning\n\nWelcome to **Gene Cloning**!\n\n\"Cloning\" doesn't just mean making a copy of a whole sheep. In molecular biology, gene cloning refers to the process of isolating a specific gene, inserting it into a vector, and using a host cell to make millions of identical copies of that specific DNA sequence.\n\n## What You Will Learn:\n- **Advanced Plasmid Vectors** - The anatomy of a cloning vehicle\n- **Expression Systems** - How to make the host cell actually produce the protein\n- **Genomic Libraries** - Cataloging the entire genetic code of an organism\n- **Screening Methods** - Finding the exact needle in a genetic haystack\n\nLet's start building!"
+        },
+        {
+            "id": "geneng_clone_2",
+            "type": "content",
+            "title": "Anatomy of a Vector",
+            "content": "# Plasmid Vectors Revisited\n\nTo clone a gene, we rely heavily on engineered **Plasmid Vectors**. Modern cloning plasmids are highly designed, artificial constructs optimized for laboratory work.\n\n## The Three Essential Features:\n\n1. **Origin of Replication (ORI):** \n   - This DNA sequence tells the host bacterium to copy the plasmid. \n   - Plasmids with a \"high-copy number\" ORI can result in the cell producing 500+ copies of the plasmid, yielding massive amounts of DNA!\n\n2. **Selectable Marker:**\n   - Usually an antibiotic resistance gene (like the *ampR* gene, granting resistance to ampicillin). \n   - This ensures that only bacteria that have successfully taken up the plasmid will survive when plated on an agar dish containing antibiotics.\n\n3. **Multiple Cloning Site (MCS):**\n   - Also called a polylinker. \n   - This is a short region containing dozens of unique restriction enzyme recognition sites grouped close together. It provides incredible flexibility for inserting your gene."
+        },
+        {
+            "id": "geneng_clone_3",
+            "type": "content",
+            "title": "Cloning Vectors vs Expression Vectors",
+            "content": "# Cloning vs Expression\n\nNot all plasmids do the same job. You must choose your vector based on your ultimate goal.\n\n## 1. Cloning Vectors\n- **Goal:** Just make millions of copies of the DNA sequence itself.\n- **Design:** Small, simple, high-copy number.\n- **Use:** You want to sequence a gene, or you want to build a library of DNA fragments. You DO NOT care about making the protein.\n\n## 2. Expression Vectors\n- **Goal:** Force the host cell to transcribe and translate the inserted gene into a massive amount of Protein (like human insulin).\n- **Design:** Larger, containing specific regulatory sequences.\n- **Required Addition:** An expression vector MUST have a strong **Promoter** right next to the Multiple Cloning Site. Without a promoter, the host cell's RNA Polymerase will completely ignore your inserted gene!"
+        },
+        {
+            "id": "geneng_clone_quiz_1",
+            "type": "quiz",
+            "title": "Vector Quiz",
+            "content": "Check your understanding of plasmid design.",
+            "quizQuestion": "If your goal is to have bacteria manufacture a human protein for medical use, which specific feature MUST be present on your chosen plasmid vector?",
+            "quizOptions": [
+                "A Multiple Cloning Site (MCS)",
+                "An Origin of Replication (ORI)",
+                "A strong Promoter sequence",
+                "A radioactive marker"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "geneng_clone_4",
+            "type": "content",
+            "title": "Expression Systems",
+            "content": "# Controlling Expression\n\nIf you insert a strong expression vector into a bacterium, it will immediately start churning out your foreign protein. \n\nHowever, forcing a cell to make massive amounts of a useless (to the bacteria) or potentially toxic protein will stunt its growth or kill it before you get a good yield.\n\n## The Solution: Inducible Promoters\nScientists use **Inducible Expression Systems**. They place the gene under the control of a switch that can be turned on or off by adding a specific chemical.\n\n## The IPTG System\n- The plasmid contains a repressor protein that naturally blocks the promoter.\n- The bacteria are allowed to grow normally in a warm broth until the population is huge (billions of healthy cells).\n- The scientist then adds a chemical called **IPTG** to the broth.\n- IPTG binds to the repressor, knocking it off the DNA, turning the promoter ON.\n- Suddenly, billions of cells simultaneously start producing the target protein!"
+        },
+        {
+            "id": "geneng_clone_5",
+            "type": "content",
+            "title": "Protein Purification Tags",
+            "content": "# Purification Tags\n\nOkay, your billions of bacteria have produced your human protein. Now you have a soup of exploded bacterial cells containing 5,000 different bacterial proteins mixed with your 1 human protein.\n\nHow do you separate yours? **Affinity Tags.**\n\n## The His-Tag\nWhen designing the expression vector, scientists often add the code for 6 Histidine amino acids (a \"His-tag\") directly to the end of the target gene.\n- The resulting protein will have a small tail of 6 histidines.\n\n## The Purification Process:\n1. Pour the exploded cell \"soup\" through a special column packed with Nickel beads.\n2. Histidine binds extremely tightly to Nickel. \n3. ALL the normal bacterial proteins wash straight through the column and into the trash.\n4. ONLY your tagged protein remains stuck to the Nickel!\n5. You then wash the column with a strong chemical to release the pure, tagged protein."
+        },
+        {
+            "id": "geneng_clone_quiz_2",
+            "type": "quiz",
+            "title": "Expression Quiz",
+            "content": "Check your understanding of protein production.",
+            "quizQuestion": "What is the primary purpose of using an inducible promoter (like the IPTG system) rather than a promoter that is always 'on'?",
+            "quizOptions": [
+                "To allow the bacteria to grow to a large, healthy population before forcing them to expend energy making a foreign protein",
+                "To make the resulting protein fold more accurately",
+                "To prevent the plasmid from being degraded by restriction enzymes",
+                "To attach a purification tag to the protein"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "geneng_clone_6",
+            "type": "content",
+            "title": "DNA Libraries",
+            "content": "# Genomic Libraries\n\nBefore you can clone a gene, you have to find it. This involves creating a **DNA Library**.\n\n## What is a Genomic Library?\nA collection of thousands of different bacteria, where each bacterium contains a plasmid carrying a different fragment of an organism's entire genome.\n\n## How to Build It:\n1. Extract the entire DNA genome from a human cell.\n2. Use a restriction enzyme to chop the entire genome into hundreds of thousands of random fragments.\n3. Ligate all these fragments into hundreds of thousands of open plasmids.\n4. Transform this massive mixture into a vat of E. coli bacteria.\n5. You now have a living library! Somewhere in that vat of bacteria is the specific gene you want to study."
+        },
+        {
+            "id": "geneng_clone_7",
+            "type": "content",
+            "title": "The Intron Problem",
+            "content": "# The Problem with Genomic Libraries\n\nIf your goal is to make bacteria produce a human protein (like insulin), a standard Genomic Library has a fatal flaw: **Introns**.\n\n## Eukaryotic vs Prokaryotic Genes\n- Human genes contain massive non-coding sequences (introns) that must be spliced out.\n- Bacteria **do not possess the spliceosome machinery**.\n- If you put a raw human genomic gene into a bacterium, it will translate the introns into garbage, resulting in a mutant, useless protein.\n\n> **The Requirement:** To make bacteria produce eukaryotic proteins, we MUST give them a version of the gene that already has the introns removed!"
+        },
+        {
+            "id": "geneng_clone_8",
+            "type": "content",
+            "title": "cDNA Libraries",
+            "content": "# cDNA Libraries: The Solution\n\nTo bypass the intron problem, scientists create **Complementary DNA (cDNA) Libraries**.\n\n## The Workflow:\n1. Instead of extracting DNA, extract mature **mRNA** from human cells. (The human cell has already done the hard work of splicing out all the introns!).\n2. Use an enzyme called **Reverse Transcriptase** (borrowed from retroviruses).\n3. Reverse Transcriptase reads the single-stranded mRNA and builds a complementary, single-stranded DNA molecule.\n4. Use DNA Polymerase to make the single-stranded DNA double-stranded.\n5. You now have a perfect, intron-free DNA version of the gene! (This is cDNA).\n\n> **Key Difference:** A Genomic Library contains every piece of DNA in the organism (including junk). A cDNA library ONLY contains genes that were actively being expressed into mRNA in that specific tissue!"
+        },
+        {
+            "id": "geneng_clone_quiz_3",
+            "type": "quiz",
+            "title": "Library Quiz",
+            "content": "Check your understanding of DNA libraries.",
+            "quizQuestion": "Why must scientists use cDNA instead of genomic DNA when engineering bacteria to produce human proteins?",
+            "quizOptions": [
+                "Because genomic DNA is too large to fit inside a plasmid",
+                "Because cDNA is naturally resistant to bacterial restriction enzymes",
+                "Because genomic DNA contains introns, which bacteria cannot splice out",
+                "Because cDNA replicates much faster than genomic DNA"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "geneng_clone_9",
+            "type": "content",
+            "title": "Screening Libraries",
+            "content": "# Screening: Finding the Needle\n\nYou have created a cDNA library and transformed it into bacteria. You plate the bacteria on an agar dish, and 10,000 different colonies grow.\n\nEvery single colony contains a different plasmid carrying a different human gene.\n\nHow do you find the ONE colony carrying the insulin gene? This is called **Screening**."
+        },
+        {
+            "id": "geneng_clone_10",
+            "type": "content",
+            "title": "Blue-White Screening",
+            "content": "# Blue-White Screening\n\nFirst, we need to quickly identify which bacteria actually received a plasmid with a gene inserted into it, versus bacteria that received an \"empty\" plasmid that accidentally closed back up on itself.\n\n## The lacZ System\nWe use a specially engineered plasmid containing the *lacZ* gene, which produces an enzyme that turns a chemical called X-gal **blue**.\n- Crucially, the Multiple Cloning Site (MCS) is located exactly in the MIDDLE of the *lacZ* gene.\n\n## The Results:\nWhen you plate the bacteria on agar containing X-gal:\n1. **Blue Colonies:** The *lacZ* gene is intact. The plasmid is empty. (Ignore these).\n2. **White Colonies:** Your foreign gene was successfully inserted into the MCS, disrupting and breaking the *lacZ* gene. These bacteria have a recombinant plasmid!\n\nThis simple visual trick eliminates 90% of the wrong colonies instantly!"
+        },
+        {
+            "id": "geneng_clone_11",
+            "type": "content",
+            "title": "Colony Hybridization",
+            "content": "# Colony Hybridization\n\nNow you have 1,000 white colonies, and you need to find the specific one with the insulin gene. We use **DNA Probes**.\n\n## The Probe\nA probe is a short, custom-synthesized piece of single-stranded DNA that is complementary to a known part of the insulin gene. The probe is tagged with a radioactive or fluorescent marker.\n\n## The Process:\n1. Press a nitrocellulose filter paper onto the agar dish. Some bacteria from each colony stick to the paper (creating an exact physical map of the dish).\n2. Treat the paper with chemicals to burst the cells and melt the DNA into single strands.\n3. Wash the radioactive probe over the paper.\n4. The probe will hunt around and ONLY stick (hybridize) to the DNA matching the insulin gene.\n5. Expose the paper to X-ray film. A black spot will appear exactly where the radioactive probe stuck.\n6. Match that spot back to the original living agar dish, and you have found your clone!"
+        },
+        {
+            "id": "geneng_clone_quiz_4",
+            "type": "quiz",
+            "title": "Screening Quiz",
+            "content": "Check your understanding of finding the right clone.",
+            "quizQuestion": "In Blue-White screening, why do the colonies containing your target recombinant DNA appear white?",
+            "quizOptions": [
+                "Because the inserted gene produces a white pigment",
+                "Because the inserted gene disrupts the lacZ gene, preventing the breakdown of X-gal into a blue dye",
+                "Because the bacteria are dead and have lost their color",
+                "Because the antibiotic in the plate bleaches the cells"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "geneng_clone_12",
+            "type": "content",
+            "title": "Summary of Cloning",
+            "content": "# Gene Cloning Summary\n\n## Key Takeaways:\n\n### Vectors and Expression\n- **Cloning vectors** are for making DNA copies; **Expression vectors** have promoters to make proteins.\n- **Inducible promoters** (like IPTG) allow us to grow cells before turning on protein production.\n- **Affinity tags** (like the His-tag) make protein purification easy.\n\n### DNA Libraries\n- **Genomic libraries** contain all DNA (including introns).\n- **cDNA libraries** are made from mRNA using Reverse Transcriptase, containing only coding exons (essential for bacterial expression).\n\n### Screening\n- **Blue-White screening** visually identifies plasmids that successfully received an insert (white colonies).\n- **Colony Hybridization** uses radioactive/fluorescent probes to find the specific target gene among thousands of clones.\n\n> **Congratulations!** You now understand the end-to-end process of discovering and manufacturing genes!"
+        }
+    ]
+}

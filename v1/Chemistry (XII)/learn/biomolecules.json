@@ -1,0 +1,121 @@
+{
+    "id": "learn_biomolecules",
+    "topicId": "biomolecules",
+    "topicTitle": "Biomolecules",
+    "description": "Explore the complex chemistry of life, from the sugar that fuels us to the DNA that programs us.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "biomol_1",
+            "type": "content",
+            "title": "Welcome to Biomolecules",
+            "content": "# Biomolecules\n\nWelcome to the chemistry of life! Biomolecules are the complex organic compounds that form the basis of living organisms, responsible for their growth and maintenance.\n\n## What You Will Learn:\n- **Carbohydrate Structure** - The body's fuel source\n- **Protein Folding** - The molecular machines of life\n- **Enzyme Mechanisms** - Biological catalysts\n- **Nucleic Acids** - DNA, RNA, and the code of life\n\n> **Fun Fact:** The human body is essentially a very complex, very wet chemical factory driven by millions of interacting biomolecules!"
+        },
+        {
+            "id": "biomol_2",
+            "type": "content",
+            "title": "Carbohydrates",
+            "content": "# Carbohydrates: Sweet Energy\n\nCarbohydrates are primarily produced by plants and form a very large group of naturally occurring organic compounds.\n\n## Chemical Definition:\nThey are optically active polyhydroxy aldehydes or ketones (or compounds that produce them on hydrolysis).\n\n## Classification (by Hydrolysis):\n1. **Monosaccharides:** The simplest sugars. Cannot be hydrolyzed further into simpler units. (e.g., Glucose, Fructose, Ribose).\n2. **Oligosaccharides:** Yield 2 to 10 monosaccharide units on hydrolysis. (e.g., Sucrose, Lactose).\n3. **Polysaccharides:** Yield a large number of monosaccharide units on hydrolysis. (e.g., Starch, Cellulose, Glycogen). Not sweet in taste, so they are called non-sugars."
+        },
+        {
+            "id": "biomol_3",
+            "type": "content",
+            "title": "Glucose Structure",
+            "content": "# Glucose (C6H12O6)\n\nGlucose is the most important monosaccharide. It is an aldohexose (contains an aldehyde group and 6 carbons).\n\n## Open Chain vs Cyclic:\nWhile often drawn as a straight chain, glucose primarily exists in a stable **cyclic ring structure** in aqueous solutions.\n- The aldehyde group at Carbon-1 reacts with the hydroxyl group at Carbon-5 to form a 6-membered ring (pyranose ring).\n\n## Anomers:\nBecause ring formation creates a new chiral center at Carbon-1 (the anomeric carbon), glucose exists in two distinct cyclic forms:\n- **Alpha-glucose:** The OH group is \"down\".\n- **Beta-glucose:** The OH group is \"up\"."
+        },
+        {
+            "id": "biomol_4",
+            "type": "content",
+            "title": "Disaccharides and Glycosidic Bonds",
+            "content": "# Linking Sugars Together\n\nHow do we build bigger carbohydrates?\n\n## The Glycosidic Linkage:\nTwo monosaccharides are joined together by an oxide linkage formed by the loss of a water molecule. This specific type of bond between sugars is called a **glycosidic linkage**.\n\n## Common Disaccharides:\n- **Sucrose (Table Sugar):** Made of alpha-Glucose + beta-Fructose. It is a non-reducing sugar.\n- **Maltose (Malt Sugar):** Made of two alpha-Glucose units.\n- **Lactose (Milk Sugar):** Made of beta-Galactose + beta-Glucose."
+        },
+        {
+            "id": "biomol_5",
+            "type": "content",
+            "title": "Polysaccharides",
+            "content": "# Giant Carbohydrates\n\nPolysaccharides act as food storage or structural materials.\n\n## 1. Starch:\n- The main storage polysaccharide of plants. It is a polymer of alpha-glucose.\n- Consists of two components: Amylose (water-soluble straight chain) and Amylopectin (water-insoluble highly branched chain).\n\n## 2. Glycogen:\n- The carbohydrates are stored in animal bodies as glycogen (Animal starch).\n- Structure is similar to amylopectin but much more highly branched. Stored in liver, muscles, and brain.\n\n## 3. Cellulose:\n- Occurs exclusively in plants. It is the most abundant organic substance in the plant kingdom.\n- A straight-chain polysaccharide composed only of beta-glucose units.\n- Humans cannot digest cellulose (it is dietary fiber) because we lack the enzyme to break beta-glycosidic bonds!"
+        },
+        {
+            "id": "biomol_quiz_1",
+            "type": "quiz",
+            "title": "Carb Quiz",
+            "content": "Test your sugar knowledge.",
+            "quizQuestion": "Which of the following polysaccharides is the primary structural component of plant cell walls?",
+            "quizOptions": [
+                "Starch",
+                "Glycogen",
+                "Cellulose",
+                "Amylose"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "biomol_6",
+            "type": "content",
+            "title": "Amino Acids",
+            "content": "# Amino Acids: The Protein Builders\n\nProteins are the most abundant biomolecules of the living system. All proteins are polymers of alpha-amino acids.\n\n## Structure:\nAn alpha-amino acid contains an amino group (-NH2) and a carboxyl group (-COOH) attached to the SAME carbon atom (the alpha-carbon).\n- The R-group (side chain) is what makes each amino acid unique.\n- There are 20 standard amino acids that make up human proteins.\n\n## Essential vs Non-Essential:\n- **Essential:** Cannot be synthesized by the body and must be obtained through diet (e.g., Valine, Leucine).\n- **Non-Essential:** Can be synthesized by the body (e.g., Glycine, Alanine)."
+        },
+        {
+            "id": "biomol_7",
+            "type": "content",
+            "title": "Zwitterions",
+            "content": "# The Zwitterion\n\nAmino acids exhibit a very unique chemical behavior in water.\n\n## The Mechanism:\n- The carboxyl group (-COOH) is acidic and can lose a proton.\n- The amino group (-NH2) is basic and can accept a proton.\n- In an aqueous solution, the carboxyl group loses a proton to the amino group, forming a dipolar ion known as a **Zwitterion**.\n\n## Properties:\n- A zwitterion is electrically neutral (it has both a positive and negative charge).\n- In this form, amino acids show amphoteric behavior (they react with both acids and bases)."
+        },
+        {
+            "id": "biomol_8",
+            "type": "content",
+            "title": "Proteins and Peptide Bonds",
+            "content": "# Building Proteins\n\nHow do amino acids link together?\n\n## The Peptide Bond:\nProteins are connected by amide linkages called peptide bonds.\n- A peptide bond (-CO-NH-) is formed between the carboxyl group of one amino acid and the amino group of another, with the elimination of a water molecule.\n\n## Terminology:\n- **Dipeptide:** 2 amino acids linked by 1 peptide bond.\n- **Polypeptide:** More than ten amino acids linked together.\n- **Protein:** A polypeptide with more than 100 amino acids and a well-defined 3D structure."
+        },
+        {
+            "id": "biomol_9",
+            "type": "content",
+            "title": "Protein Structure Levels",
+            "content": "# Protein Folding (4 Levels)\n\nA protein's function is entirely determined by its 3D shape.\n\n## 1. Primary Structure:\n- The exact linear sequence of amino acids in the polypeptide chain. (Like letters in a sentence).\n\n## 2. Secondary Structure:\n- How the chain begins to fold locally due to hydrogen bonding between the peptide bonds.\n- Two common shapes: **alpha-helix** (a coiled spring) and **beta-pleated sheet** (like folded paper).\n\n## 3. Tertiary Structure:\n- The overall 3D folding of the entire polypeptide chain. Driven by interactions between the R-groups (disulfide bonds, van der Waals, hydrophobic interactions).\n\n## 4. Quaternary Structure:\n- Some complex proteins (like hemoglobin) consist of two or more polypeptide chains (subunits) that fit together into a massive single structure."
+        },
+        {
+            "id": "biomol_10",
+            "type": "content",
+            "title": "Denaturation of Proteins",
+            "content": "# Denaturation\n\nProteins are delicate. Their specific 3D shape (native conformation) is essential for their biological activity.\n\n## What is Denaturation?\n- When a protein in its native form is subjected to physical change (like heat) or chemical change (like a change in pH), the weak hydrogen bonds are disturbed.\n- The protein **unfolds** (losing its secondary and tertiary structures), but the primary sequence of amino acids remains intact.\n- The protein loses its biological activity.\n\n## Examples:\n- Boiling an egg (the clear liquid albumin protein becomes a solid white mass).\n- Curdling of milk (lactic acid bacteria change the pH, denaturing the milk proteins)."
+        },
+        {
+            "id": "biomol_quiz_2",
+            "type": "quiz",
+            "title": "Protein Quiz",
+            "content": "Check your understanding of protein structure.",
+            "quizQuestion": "Which level of protein structure describes the overall, complete 3D folding of a single polypeptide chain?",
+            "quizOptions": [
+                "Primary structure",
+                "Secondary structure",
+                "Tertiary structure",
+                "Quaternary structure"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "biomol_11",
+            "type": "content",
+            "title": "Enzymes",
+            "content": "# Enzymes: Biological Catalysts\n\nLife requires thousands of complex chemical reactions to happen simultaneously and rapidly at low temperatures. This is achieved by Enzymes.\n\n## Properties:\n- Almost all enzymes are globular proteins.\n- They are extremely specific (e.g., Maltase only hydrolyzes maltose, not lactose).\n- They work under very mild conditions (temp ~37C, pH ~7).\n\n## Mechanism (Lock and Key):\n- The enzyme has an active site with a specific shape.\n- The reactant (substrate) fits perfectly into this active site like a key in a lock.\n- The enzyme-substrate complex lowers the activation energy of the reaction, rapidly creating the product, and releasing the enzyme to be used again."
+        },
+        {
+            "id": "biomol_12",
+            "type": "content",
+            "title": "Nucleic Acids: DNA and RNA",
+            "content": "# Nucleic Acids (The Code of Life)\n\nEvery generation resembles its ancestors. The nucleus of a living cell is responsible for this transmission of inherent characters (heredity).\n\n## The Molecules:\nThe particles in the nucleus responsible for heredity are called chromosomes, which are made up of proteins and **Nucleic Acids**.\n1. **DNA:** Deoxyribonucleic Acid\n2. **RNA:** Ribonucleic Acid\n\n## Nucleotides:\nNucleic acids are long polymers of nucleotides. A nucleotide has three parts:\n1. A pentose sugar (Ribose in RNA, Deoxyribose in DNA).\n2. A nitrogenous base (Adenine, Guanine, Cytosine, Thymine [DNA only], Uracil [RNA only]).\n3. A phosphoric acid group."
+        },
+        {
+            "id": "biomol_13",
+            "type": "content",
+            "title": "DNA Structure",
+            "content": "# The Double Helix\n\nIn 1953, James Watson and Francis Crick determined the structure of DNA.\n\n## The Architecture:\n- DNA consists of two strands of polynucleotides coiled around each other in a **Double Helix**.\n- The backbone of the strands is made of alternating sugar and phosphate groups.\n- The nitrogenous bases point inward, linking the two strands together via **Hydrogen Bonds**.\n\n## Base Pairing Rule:\n- The strands are complementary. \n- **Adenine (A)** ALWAYS pairs with **Thymine (T)** via 2 hydrogen bonds.\n- **Guanine (G)** ALWAYS pairs with **Cytosine (C)** via 3 hydrogen bonds.\nThis perfect pairing is how DNA accurately copies itself during cell division!"
+        },
+        {
+            "id": "biomol_14",
+            "type": "content",
+            "title": "Summary: Biomolecules",
+            "content": "# Biomolecules Summary\n\n## Key Concepts Reviewed:\n\n- **Carbohydrates:** Polyhydroxy aldehydes/ketones. Classified as mono, oligo, and polysaccharides. Linked by glycosidic bonds.\n- **Polysaccharides:** Starch (plants), Glycogen (animals), Cellulose (structural fiber).\n- **Amino Acids:** Building blocks of proteins; form Zwitterions in water.\n- **Proteins:** Linked by peptide bonds. Function depends on exact 3D folding (primary, secondary, tertiary structures).\n- **Denaturation:** Unfolding of a protein due to heat or pH, causing loss of function.\n- **Enzymes:** Highly specific protein catalysts.\n- **Nucleic Acids:** DNA and RNA. Made of nucleotides (sugar, base, phosphate). DNA is a double helix with strict A-T and G-C base pairing.\n\n> **Congratulations!** You have completed the Biomolecules module and the Chemistry course!"
+        }
+    ]
+}

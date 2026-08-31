@@ -1,0 +1,117 @@
+{
+    "id": "learn_advgen_mapping",
+    "topicId": "mapping",
+    "topicTitle": "Gene Mapping",
+    "description": "Discover the techniques scientists use to chart the exact locations of genes on chromosomes, bridging the gap from simple inheritance to physical DNA sequencing.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "advgen_map_1",
+            "type": "content",
+            "title": "Welcome to Gene Mapping",
+            "content": "# The Cartography of Life\n\nWelcome to **Advanced Genetics**!\n\nIf the genome is a vast country, **Gene Mapping** is the process of creating the map. We need to know exactly which genes live on which chromosomes, and exactly how far apart they are.\n\n## What You Will Learn:\n- **Genetic Mapping** - Using inheritance to estimate distance\n- **Linkage Analysis** - Tracking genes that travel together\n- **Physical Mapping** - Finding the exact physical street address\n- **Genome Sequencing** - Reading every letter of the map\n\nLet's map the genome!"
+        },
+        {
+            "id": "advgen_map_2",
+            "type": "content",
+            "title": "What is Gene Mapping?",
+            "content": "# The Two Types of Maps\n\nWhen navigating a city, you can use a subway map (which just shows the order of the stops, not the actual miles between them) or a GPS map (which shows exact physical distances).\n\nGenetics is the same:\n1. **Genetic Maps (Linkage Maps):** These are like subway maps. They show the relative order of genes on a chromosome based on how often they are inherited together.\n2. **Physical Maps:** These are like GPS maps. They show the actual physical distance between genes in base pairs (e.g., Gene A is exactly 5,000 base pairs away from Gene B)."
+        },
+        {
+            "id": "advgen_map_3",
+            "type": "content",
+            "title": "Genetic Mapping",
+            "content": "# Genetic Mapping and Recombination\n\nGenetic maps are built using **Linkage Analysis**.\n\nMendel's Law of Independent Assortment says genes are inherited independently. But if two genes are located right next to each other on the SAME chromosome, they are \"Linked\" and will be inherited together as a package deal.\n\n## Crossing Over (Recombination)\nThe only way linked genes can be separated is during Meiosis, when homologous chromosomes physically swap pieces of DNA (Crossing Over).\n\n> **The Core Concept:** If two genes are very far apart on a chromosome, it is highly likely a cut will happen between them. If they are right next to each other, a cut is incredibly rare!"
+        },
+        {
+            "id": "advgen_map_4",
+            "type": "content",
+            "title": "Calculating Distance",
+            "content": "# The Recombination Frequency\n\nWe can calculate the distance between two genes by breeding animals (like fruit flies) and simply counting the offspring!\n\nIf we look at 100 offspring, and 15 of them have a recombinant (mixed) phenotype that means a crossover event occurred between the two genes 15% of the time.\n\n## Centimorgans (cM)\nGenetic distance is measured in \"map units\" or **Centimorgans (cM)**, named after geneticist Thomas Hunt Morgan.\n- 1% Recombination Frequency = 1 Centimorgan.\n- Therefore, if the recombination frequency is 15%, the genes are 15 cM apart on the genetic map!"
+        },
+        {
+            "id": "advgen_map_quiz_1",
+            "type": "quiz",
+            "title": "Linkage Quiz",
+            "content": "Check your understanding of genetic distance.",
+            "quizQuestion": "If Gene A and Gene B have a recombination frequency of 3%, and Gene A and Gene C have a frequency of 40%, what can you conclude about their physical locations?",
+            "quizOptions": [
+                "Gene A and C are closer together than Gene A and B",
+                "Gene A and B are very close together on the chromosome, while Gene A and C are far apart",
+                "Gene B and Gene C must be on different chromosomes entirely",
+                "Crossing over cannot occur between Gene A and B"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "advgen_map_5",
+            "type": "content",
+            "title": "Physical Mapping",
+            "content": "# Physical Mapping Intro\n\nGenetic maps (cM) are great for finding the relative order of genes, but they don't tell us the actual number of DNA base pairs between them. \n\nFor that, we need **Physical Mapping**, which requires cutting the DNA and examining it under a microscope or running it through a gel."
+        },
+        {
+            "id": "advgen_map_6",
+            "type": "content",
+            "title": "Restriction Mapping",
+            "content": "# Restriction Mapping\n\nOne of the earliest physical mapping techniques uses **Restriction Enzymes** (molecular scissors that cut DNA at specific sequences).\n\n1. You take a piece of unknown DNA and cut it with an enzyme (e.g., EcoRI).\n2. You run the cut pieces through a gel (Electrophoresis) to measure their exact length in base pairs.\n3. By repeating this with different enzymes and solving a massive logic puzzle, you can draw a physical map showing exactly where every cutting site is located, down to the exact base pair!"
+        },
+        {
+            "id": "advgen_map_7",
+            "type": "content",
+            "title": "FISH",
+            "content": "# FISH (Fluorescence In Situ Hybridization)\n\nWhat if you want to actually SEE where a gene is on a human chromosome?\n\n1. Scientists synthesize a short piece of DNA (a probe) that perfectly matches the target gene.\n2. They attach a glowing fluorescent dye to the probe.\n3. They wash the probe over a slide containing intact human chromosomes.\n4. The probe hunts down the target gene and sticks to it.\n5. When viewed under a UV microscope, the chromosome is dark, but the specific gene glows brightly like a neon sign, allowing scientists to see exactly which band of which chromosome the gene lives on!"
+        },
+        {
+            "id": "advgen_map_quiz_2",
+            "type": "quiz",
+            "title": "Physical Map Quiz",
+            "content": "Check your understanding of finding locations.",
+            "quizQuestion": "What is the primary advantage of a physical map over a genetic linkage map?",
+            "quizOptions": [
+                "A physical map measures actual distance in DNA base pairs, rather than just relative order based on crossing-over frequency",
+                "A physical map is calculated purely by counting fruit fly offspring",
+                "A physical map requires no laboratory equipment",
+                "A physical map only works on RNA, not DNA"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "advgen_map_8",
+            "type": "content",
+            "title": "Genome Sequencing",
+            "content": "# The Ultimate Map: Sequencing\n\nThe most detailed physical map possible is a complete sequence of every single A, T, C, and G in the genome.\n\n## The Human Genome Project\nLaunched in 1990 and completed in 2003, this massive international effort cost $3 billion. It used slow, methodical **Sanger Sequencing** and mapping techniques to read the 3.2 billion base pairs of human DNA.\n\nIt fundamentally transformed biology from a wet-lab science into a data-driven computational science."
+        },
+        {
+            "id": "advgen_map_9",
+            "type": "content",
+            "title": "Whole-Genome Shotgun Sequencing",
+            "content": "# The Shotgun Approach\n\nHow do you sequence 3 billion letters? \n\nThe modern method (developed by Craig Venter) is **Whole-Genome Shotgun Sequencing**.\n1. You do not map the chromosomes first. You just blast the entire genome into millions of tiny, random, overlapping fragments.\n2. You sequence all the tiny fragments simultaneously.\n3. You feed the millions of short sequences into a supercomputer.\n4. The computer looks for overlaps and stitches the entire massive puzzle back together into one continuous sequence!\n\nThis method requires staggering computing power, but it is incredibly fast."
+        },
+        {
+            "id": "advgen_map_10",
+            "type": "content",
+            "title": "The NGS Era",
+            "content": "# Next-Generation Sequencing (NGS)\n\nToday, we have moved beyond the Human Genome Project.\n\nUsing **Next-Generation Sequencing (NGS)**, which performs millions of sequencing reactions on a single microchip, we can now sequence an entire human genome in less than 24 hours for under $500.\n\nThis has enabled **Personalized Medicine**, where doctors can sequence a patient's tumor to find the exact genetic mutation causing the cancer, and prescribe a drug targeted perfectly to that specific mutation."
+        },
+        {
+            "id": "advgen_map_quiz_3",
+            "type": "quiz",
+            "title": "Sequencing Quiz",
+            "content": "Check your understanding of reading the code.",
+            "quizQuestion": "In 'Whole-Genome Shotgun Sequencing', how are the millions of tiny DNA fragments reassembled into the correct order?",
+            "quizOptions": [
+                "By matching them to a pre-existing RNA template",
+                "By using powerful computer algorithms to find overlapping sequences and stitch them together digitally",
+                "By sorting them manually under a microscope based on size",
+                "By feeding them into a mass spectrometer"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "advgen_map_11",
+            "type": "content",
+            "title": "Summary of Gene Mapping",
+            "content": "# Gene Mapping Summary\n\n## Key Takeaways:\n\n### Types of Maps\n- **Genetic Maps (Linkage Maps):** Measure distance in **Centimorgans (cM)** based on the frequency of crossing over during meiosis.\n- **Physical Maps:** Measure actual distance in base pairs, using tools like **Restriction Enzymes** or **FISH**.\n\n### Sequencing\n- The **Human Genome Project** took 13 years to read the human code.\n- Today, **Whole-Genome Shotgun Sequencing** and **NGS** use immense computer power to stitch together random DNA fragments instantly, allowing for cheap, personalized genomic medicine.\n\n> **Next Up:** We will explore what happens when these mapped genes contain deadly mutations in the Genetic Disorders module."
+        }
+    ]
+}

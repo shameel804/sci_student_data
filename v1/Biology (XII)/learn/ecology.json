@@ -1,0 +1,103 @@
+{
+    "id": "learn_ecology",
+    "topicId": "ecology",
+    "topicTitle": "Ecology & Environment",
+    "description": "Learn how the natural world connects, from energy flowing through food webs to human impacts on the climate.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "eco_1",
+            "type": "content",
+            "title": "Welcome to Ecology",
+            "content": "# Ecology & Environment\n\nWelcome to Ecology! This is the study of how organisms interact with each other and with their physical environment.\n\n## What You Will Learn:\n- **Ecosystem Structure** - Food chains and energy flow\n- **Population Dynamics** - How groups of animals grow and crash\n- **Biodiversity Conservation** - Why saving species matters\n- **Environmental Issues** - Pollution and climate change\n\n> **Fun Fact:** The Amazon Rainforest produces more than 20% of the world's oxygen, making it the lungs of our planet!"
+        },
+        {
+            "id": "eco_2",
+            "type": "content",
+            "title": "Organisms and Populations",
+            "content": "# Levels of Organization\n\nEcology operates at several different levels:\n1. **Organism:** A single living individual.\n2. **Population:** A group of individuals of the SAME species living in the same area at the same time.\n3. **Community:** All the different populations (species) living and interacting in an area.\n4. **Ecosystem:** A biological community interacting with its non-living physical environment (water, soil, climate).\n5. **Biome:** A large regional unit characterized by major vegetation types (e.g., Desert, Tundra, Tropical Rainforest)."
+        },
+        {
+            "id": "eco_3",
+            "type": "content",
+            "title": "Population Attributes",
+            "content": "# Population Dynamics\n\nA population has certain attributes that an individual organism does not have.\n\n## Key Metrics:\n- **Birth Rate (Natality):** Number of births per capita in a given time.\n- **Death Rate (Mortality):** Number of deaths per capita in a given time.\n- **Sex Ratio:** Ratio of males to females.\n- **Age Distribution:** The proportion of individuals of different ages. A population with mostly young individuals will grow rapidly; a population with mostly old individuals will decline.\n- **Population Density:** The number of individuals in a given area. It increases with births and immigration, and decreases with deaths and emigration."
+        },
+        {
+            "id": "eco_4",
+            "type": "content",
+            "title": "Ecosystem Structure",
+            "content": "# Ecosystem Components\n\nEvery ecosystem has two main components:\n\n## 1. Abiotic Components:\n- Non-living factors: Temperature, Water, Light, Soil, Nutrients.\n\n## 2. Biotic Components:\n- Living factors, divided by how they get their food.\n- **Producers (Autotrophs):** Green plants and algae that make their own food via photosynthesis.\n- **Consumers (Heterotrophs):** Animals that eat other organisms (Herbivores, Carnivores, Omnivores).\n- **Decomposers (Saprotrophs):** Fungi and bacteria that break down dead organic matter, recycling the nutrients back into the soil."
+        },
+        {
+            "id": "eco_5",
+            "type": "content",
+            "title": "Energy Flow",
+            "content": "# Energy Flow in Ecosystems\n\nThe sun is the ultimate source of energy for almost all ecosystems.\n\n## Food Chains & Webs:\n- Energy flows from the sun to producers, then to primary consumers (herbivores), then to secondary consumers (carnivores).\n- Food chains are interconnected to form complex **Food Webs**.\n\n## The 10 Percent Law:\n- Energy transfer between trophic levels is extremely inefficient.\n- Only about **10%** of the energy from one trophic level is passed to the next level. The other 90% is lost as heat during respiration and daily activities.\n- Because of this massive energy loss, food chains rarely have more than 4 or 5 levels (there isn't enough energy left to support a top predator!)."
+        },
+        {
+            "id": "eco_quiz_1",
+            "type": "quiz",
+            "title": "Ecosystem Quiz",
+            "content": "Test your knowledge of energy.",
+            "quizQuestion": "According to the 10 percent law, if plants capture 10,000 Joules of energy from the sun, how much energy is passed to the herbivores that eat the plants?",
+            "quizOptions": [
+                "10,000 Joules",
+                "1,000 Joules",
+                "100 Joules",
+                "10 Joules"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "eco_6",
+            "type": "content",
+            "title": "Ecological Pyramids",
+            "content": "# Visualizing Ecosystems\n\nEcological pyramids are graphical representations of trophic structure.\n\n## 1. Pyramid of Number:\n- Shows the number of individuals at each level. Usually upright (many grass -> fewer grasshoppers -> few birds), but can be inverted (one large tree supporting many insects).\n\n## 2. Pyramid of Biomass:\n- Shows the total dry weight of living matter at each level. Usually upright on land, but can be inverted in aquatic ecosystems (a tiny standing crop of rapidly reproducing phytoplankton supports a large mass of zooplankton).\n\n## 3. Pyramid of Energy:\n- Shows the rate of energy flow. **ALWAYS UPRIGHT.** Energy can never flow backward, and the 10% law means it always decreases at higher levels."
+        },
+        {
+            "id": "eco_7",
+            "type": "content",
+            "title": "Biodiversity",
+            "content": "# Biodiversity and Conservation\n\nBiodiversity is the immense variety of life on Earth at all levels (genetic diversity, species diversity, ecosystem diversity).\n\n## Why is it important?\n- A highly diverse ecosystem is more stable, more productive, and more resilient to natural disasters.\n- It provides us with food, medicine, and industrial products.\n- Ethical reasons: Every species has an intrinsic value and a right to exist.\n\n## The Threat (The Sixth Extinction):\nWe are currently losing species at an alarming rate, faster than any time since the dinosaurs died. This is primarily driven by human activities."
+        },
+        {
+            "id": "eco_8",
+            "type": "content",
+            "title": "Causes of Biodiversity Loss",
+            "content": "# \"The Evil Quartet\"\n\nThe four major causes of species extinction:\n\n1. **Habitat Loss and Fragmentation:** The most important cause. Cutting down forests for agriculture or cities destroys the homes of countless species.\n2. **Over-exploitation:** Hunting or harvesting species faster than they can reproduce (e.g., the passenger pigeon, many ocean fish stocks).\n3. **Alien Species Invasions:** Introducing a foreign species into a new environment where it has no natural predators. It often outcompetes or eats native species (e.g., Nile perch in Lake Victoria).\n4. **Co-extinctions:** When one species goes extinct, any plant or animal species in an obligate relationship with it also dies out (e.g., a specific pollinator bee and its flower)."
+        },
+        {
+            "id": "eco_9",
+            "type": "content",
+            "title": "Environmental Issues",
+            "content": "# Environmental Issues\n\nHuman population growth and industrialization have caused massive environmental degradation.\n\n## 1. Air Pollution:\n- Caused by burning fossil fuels. Causes respiratory diseases.\n- **Acid Rain:** SO2 and NO2 from factories mix with rain, damaging soil, forests, and statues (like the Taj Mahal).\n\n## 2. Water Pollution:\n- Dumping sewage and industrial waste into rivers.\n- **Eutrophication:** Runoff of agricultural fertilizers (nitrates/phosphates) causes massive algae blooms in lakes, which deplete oxygen and kill fish.\n- **Biomagnification:** Toxins (like mercury or DDT pesticides) accumulate in the fat of organisms. The concentration of the toxin *increases* at successive trophic levels, severely harming top predators (like bald eagles)."
+        },
+        {
+            "id": "eco_10",
+            "type": "content",
+            "title": "Global Issues",
+            "content": "# Global Environmental Crises\n\n## 1. Ozone Depletion:\n- The ozone layer in the stratosphere protects us from deadly UV radiation.\n- Chemicals called CFCs (Chlorofluorocarbons), used in old refrigerators and aerosols, drift up and destroy ozone molecules, creating an \"Ozone Hole\" over Antarctica.\n- This leads to increased skin cancer and cataracts.\n\n## 2. Global Warming (The Greenhouse Effect):\n- Gases like CO2 and Methane act like the glass of a greenhouse; they let sunlight in but trap heat radiating back from Earth.\n- Human activity has drastically increased these gases, causing the average global temperature to rise.\n- This leads to melting polar ice caps, rising sea levels, and extreme weather events."
+        },
+        {
+            "id": "eco_quiz_2",
+            "type": "quiz",
+            "title": "Environment Quiz",
+            "content": "Test your knowledge of human impacts.",
+            "quizQuestion": "The process by which the concentration of a toxic chemical increases at each successive link in the food chain is called:",
+            "quizOptions": [
+                "Eutrophication",
+                "Biomagnification",
+                "Ozone depletion",
+                "Greenhouse effect"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "eco_11",
+            "type": "content",
+            "title": "Summary: Ecology",
+            "content": "# Ecology Summary\n\n## Key Concepts Reviewed:\n\n- **Organization:** Organism -> Population -> Community -> Ecosystem -> Biome.\n- **Components:** Abiotic (non-living) and Biotic (Producers, Consumers, Decomposers).\n- **Energy Flow:** Unidirectional. Follows the 10% law (90% lost as heat at each step).\n- **Pyramids:** Energy pyramid is ALWAYS upright.\n- **Biodiversity Threats:** Habitat loss, over-exploitation, invasive species, and co-extinctions.\n- **Biomagnification:** Toxins concentrate in top predators.\n- **Ozone Depletion:** CFCs destroy the UV shield.\n- **Global Warming:** Increased CO2 traps heat in the atmosphere.\n\n> **Congratulations!** You have completed the Ecology module."
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "id": "learn_periodic",
+    "topicId": "periodic",
+    "topicTitle": "Periodic Classification of Elements",
+    "description": "Discover the map of chemistry! Learn how scientists organized chaos into the elegant Periodic Table we use today.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "periodic_1",
+            "type": "content",
+            "title": "Welcome to the Periodic Table",
+            "content": "# Organizing the Chaos\n\nImagine a supermarket where all the goods—soaps, biscuits, vegetables—are dumped randomly in a massive pile. It would be impossible to find anything!\n\nIn the 1800s, chemistry was like that. Scientists were discovering new elements rapidly, but there was no system to organize them. They needed a way to arrange the elements so they could study them in an organized manner.\n\n## What You Will Learn:\n- **Early Attempts:** Dobereiner's Triads and Newlands' Octaves.\n- **Mendeleev's Genius:** The first true Periodic Table.\n- **The Modern Periodic Table:** Arranging by Atomic Number.\n- **Trends:** How properties change as you move across the table."
+        },
+        {
+            "id": "periodic_2",
+            "type": "content",
+            "title": "Dobereiner's Triads",
+            "content": "# The Rule of Three\n\nIn 1817, Johann Wolfgang Dobereiner, a German chemist, tried to arrange the elements with similar properties into groups.\n\n## The Triad System:\nHe identified some groups having three elements each. So he called these groups **triads**.\n\nHe showed that when the three elements in a triad were written in the order of increasing atomic masses, the atomic mass of the middle element was roughly the average of the atomic masses of the other two elements.\n\n*Example:* The triad of Lithium (Li), Sodium (Na), and Potassium (K).\n- Mass of Li = 6.9\n- Mass of K = 39.0\n- Average = 22.95 (Very close to the mass of Sodium, 23.0!).\n\n*Failure:* He could identify only three triads from the elements known at that time."
+        },
+        {
+            "id": "periodic_3",
+            "type": "content",
+            "title": "Newlands' Law of Octaves",
+            "content": "# The Musical Elements\n\nIn 1866, John Newlands, an English scientist, arranged the then known elements in the order of increasing atomic masses.\n\n## The Octave System:\nHe started with the element having the lowest atomic mass (hydrogen) and ended at thorium which was the 56th element.\nHe found that every eighth element had properties similar to that of the first.\n\nHe compared this to the octaves found in music (Sa, re, ga, ma, pa, da, ni). Therefore, he called it the **'Law of Octaves'**.\n*Example:* The properties of lithium (1st) and sodium (8th) were found to be the same.\n\n*Failure:* The law was applicable only up to calcium. After calcium, every eighth element did NOT possess properties similar to that of the first."
+        },
+        {
+            "id": "periodic_quiz_1",
+            "type": "quiz",
+            "title": "Early Attempts Quiz",
+            "content": "Check your history of chemistry.",
+            "quizQuestion": "Which scientist proposed that every eighth element has properties similar to the first, comparing it to musical notes?",
+            "quizOptions": [
+                "Dobereiner",
+                "Mendeleev",
+                "Newlands",
+                "Bohr"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "periodic_4",
+            "type": "content",
+            "title": "Mendeleev's Periodic Table",
+            "content": "# The Breakthrough\n\nThe main credit for classifying elements goes to Dmitri Ivanovich Mendeleev, a Russian chemist. He is considered the father of the Periodic Table.\n\nWhen he started his work in 1869, 63 elements were known. He examined the relationship between the **atomic masses** of the elements and their physical and chemical properties.\n\n## The Fundamental Law:\nMendeleev formulated a Periodic Law, which states that:\n> **\"The properties of elements are the periodic function of their atomic masses.\"**\n\nHe arranged the elements in a grid. The vertical columns were called 'groups' and the horizontal rows were called 'periods'."
+        },
+        {
+            "id": "periodic_5",
+            "type": "content",
+            "title": "The Genius of Mendeleev",
+            "content": "# Leaving Blanks\n\nWhat made Mendeleev's table so successful wasn't just how he organized known elements, but what he did for *unknown* elements.\n\n## Predicting the Future:\nWhile developing his table, there were a few instances where he had to place an element with a slightly greater atomic mass before an element with a slightly lower atomic mass to ensure elements with similar properties were grouped together.\n\nMore importantly, **Mendeleev boldly left some gaps in his Periodic Table**.\nInstead of looking upon these gaps as defects, Mendeleev predicted the existence of some elements that had not been discovered at that time! He even predicted their properties! \n\nLater, elements like Scandium, Gallium, and Germanium were discovered, and their properties matched Mendeleev's predictions perfectly!"
+        },
+        {
+            "id": "periodic_6",
+            "type": "content",
+            "title": "Limitations of Mendeleev's Classification",
+            "content": "# The Flaws in the Masterpiece\n\nDespite its brilliance, Mendeleev's table based on atomic mass had some problems:\n\n1. **Position of Hydrogen:** Hydrogen resembles both alkali metals (like sodium) and halogens (like chlorine). Mendeleev could not assign a correct, fixed position to hydrogen in his table.\n2. **Isotopes:** Isotopes of an element have different atomic masses but the same chemical properties. If the table is based on atomic mass, should isotopes get different slots? That would ruin the chemical groupings!\n3. **Wrong Order:** To group similar elements together, he sometimes had to place heavier elements before lighter ones (e.g., Cobalt before Nickel), which broke his own rule of increasing atomic mass."
+        },
+        {
+            "id": "periodic_quiz_2",
+            "type": "quiz",
+            "title": "Mendeleev Quiz",
+            "content": "Check your understanding of Mendeleev's genius.",
+            "quizQuestion": "What was the most significant achievement of Mendeleev's Periodic Table?",
+            "quizOptions": [
+                "He discovered the noble gases.",
+                "He arranged elements by atomic number.",
+                "He left gaps and successfully predicted the properties of undiscovered elements.",
+                "He explained the position of isotopes."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "periodic_7",
+            "type": "content",
+            "title": "The Modern Periodic Table",
+            "content": "# A New Foundation\n\nIn 1913, Henry Moseley showed that the **atomic number** of an element is a more fundamental property than its atomic mass.\n\nAccordingly, Mendeleev's Periodic Law was modified to create the Modern Periodic Law:\n> **\"Properties of elements are a periodic function of their atomic number.\"**\n\n## Why Atomic Number?\nThe atomic number gives us the number of protons in the nucleus of an atom. Since atoms are neutral, this also gives us the number of **electrons**. \nAnd it is the arrangement of these electrons (electronic configuration) that dictates the chemical properties of the element! \n\nBy sorting by atomic number, all of Mendeleev's anomalies (like isotopes and the wrong order) vanished!"
+        },
+        {
+            "id": "periodic_8",
+            "type": "content",
+            "title": "Layout of the Modern Table",
+            "content": "# Groups and Periods\n\nThe Modern Periodic Table has 18 vertical columns known as **Groups** and 7 horizontal rows known as **Periods**.\n\n## The Groups (Vertical Columns):\nElements in the same group contain the **same number of valence electrons**. \nBecause they have the same number of outer electrons, they have identical chemical properties! \n- *Example:* Group 1 (Alkali metals) like Li, Na, K all have 1 valence electron. They are all highly reactive metals.\n\n## The Periods (Horizontal Rows):\nElements in the same period have the **same number of occupied electron shells**.\n- *Example:* All elements in the 3rd period (Na, Mg, Al, Si, P, S, Cl, Ar) have their electrons filling the K, L, and M shells."
+        },
+        {
+            "id": "periodic_9",
+            "type": "content",
+            "title": "Trends in the Modern Periodic Table",
+            "content": "# Following the Patterns\n\nBecause the table is arranged so perfectly, we can observe clear trends in physical and chemical properties as we move across a period or down a group.\n\nLet's look at three major trends:\n1. Valency\n2. Atomic Size\n3. Metallic and Non-metallic properties."
+        },
+        {
+            "id": "periodic_10",
+            "type": "content",
+            "title": "Trend 1: Valency",
+            "content": "# The Combining Capacity\n\nAs you know, the valency of an element is determined by the number of valence electrons present in the outermost shell of its atom.\n\n## Across a Period (Left to Right):\nThe valency first increases from 1 to 4 and then decreases to zero.\n- Na (1), Mg (2), Al (3), Si (4), P (3), S (2), Cl (1), Ar (0).\n\n## Down a Group (Top to Bottom):\nThe valency remains the **same** because all elements in a group have the same number of valence electrons."
+        },
+        {
+            "id": "periodic_11",
+            "type": "content",
+            "title": "Trend 2: Atomic Size",
+            "content": "# The Shrinking Atom\n\nThe term atomic size refers to the radius of an atom.\n\n## Across a Period (Left to Right):\nAtomic size **decreases**.\n*Why?* As you move left to right, the nuclear charge (protons) increases, but the electrons are being added to the *same shell*. The stronger nucleus pulls the electrons closer to it, shrinking the atom!\n\n## Down a Group (Top to Bottom):\nAtomic size **increases**.\n*Why?* Because new shells are being added as we go down the group. This increases the distance between the outermost electrons and the nucleus, so the atom gets bigger."
+        },
+        {
+            "id": "periodic_12",
+            "type": "content",
+            "title": "Trend 3: Metallic and Non-metallic Properties",
+            "content": "# Losing vs Gaining\n\nMetals tend to lose electrons while forming bonds, that is, they are electropositive in nature. Non-metals tend to form bonds by gaining electrons (electronegative).\n\n## Across a Period (Left to Right):\n- The effective nuclear charge increases, so the tendency to lose electrons decreases. \n- Therefore, **metallic character decreases** and **non-metallic character increases** across a period. (We go from metals like Na/Mg, to non-metals like S/Cl).\n\n## Down a Group (Top to Bottom):\n- The outermost electrons are further away from the nucleus, so they can be lost easily.\n- Therefore, **metallic character increases** and non-metallic character decreases down a group."
+        },
+        {
+            "id": "periodic_13",
+            "type": "content",
+            "title": "The Zig-Zag Line",
+            "content": "# The Metalloids\n\nIf you look at the Modern Periodic Table, a zig-zag line separates the metals (on the left) from the non-metals (on the right).\n\nThe borderline elements—boron, silicon, germanium, arsenic, antimony, tellurium, and polonium—are intermediate in properties.\n\nThey show some properties of both metals and non-metals. Therefore, they are called **metalloids** or semi-metals."
+        },
+        {
+            "id": "periodic_quiz_3",
+            "type": "quiz",
+            "title": "Trends Quiz",
+            "content": "Check your understanding of periodic trends.",
+            "quizQuestion": "As you move from left to right across a period in the Modern Periodic Table, what happens to the atomic size?",
+            "quizOptions": [
+                "It increases",
+                "It decreases",
+                "It remains the same",
+                "It fluctuates randomly"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "periodic_14",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Dobereiner's Triads:** Early grouping of 3 elements by average mass.\n- **Newlands' Octaves:** Early arrangement where every 8th element repeated properties.\n- **Mendeleev's Periodic Law:** Properties are a periodic function of their *atomic masses*.\n- **Modern Periodic Law:** Properties are a periodic function of their *atomic numbers*.\n- **Groups:** The 18 vertical columns (elements have the same valence electrons).\n- **Periods:** The 7 horizontal rows (elements have the same number of shells).\n- **Metalloids:** Elements showing properties of both metals and non-metals."
+        },
+        {
+            "id": "periodic_15",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Periodic Classification\n\nExcellent work! Here is a recap of what we've learned:\n\n- Early classification attempts by Dobereiner and Newlands failed to accommodate all elements.\n- **Mendeleev** created the first successful table based on atomic mass and famously left gaps for undiscovered elements.\n- Henry Moseley established the **Modern Periodic Table** based on **atomic number** (number of protons), fixing Mendeleev's anomalies.\n- In the Modern Table, elements in a **group (column)** have similar chemical properties due to having the same valence electrons.\n- Across a **period (row)** (left to right): valency rises then falls, atomic size *decreases*, and non-metallic character *increases*.\n- Down a **group (column)**: valency is constant, atomic size *increases*, and metallic character *increases*."
+        }
+    ]
+}

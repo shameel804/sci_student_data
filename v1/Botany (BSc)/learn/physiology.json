@@ -1,0 +1,71 @@
+{
+    "id": "bot_physiology",
+    "topicId": "physiology",
+    "topicTitle": "Plant Physiology",
+    "description": "Dive into the biochemistry of photosynthesis, water transport, and the hormones that dictate plant growth.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "bphys_1",
+            "type": "content",
+            "title": "Welcome to Plant Physiology",
+            "content": "# Advanced Plant Physiology\n\nWelcome to advanced Plant Physiology! We will dive deep into the biochemistry and physical forces that allow plants to grow, move water, and harness the power of the sun.\n\n## What You Will Learn:\n- **Water Transport** - Water potential and transpiration\n- **Mineral Nutrition** - Essential elements and nitrogen fixation\n- **Photosynthesis Details** - The Calvin cycle and C4 plants\n- **Plant Hormones** - Auxins, Gibberellins, and growth control\n\n> **Fun Fact:** A large oak tree can transpire (sweat) over 150 gallons of water in a single day!"
+        },
+        {
+            "id": "bphys_2",
+            "type": "content",
+            "title": "Water Transport",
+            "content": "# Moving Water Without a Heart\n\nHow does water move from the soil, into the roots, and up to a leaf 100 feet in the air?\n\n## Water Potential (Psi_w):\nWater always moves from a region of higher water potential to a region of lower water potential.\n- Pure water has the highest potential (zero).\n- Adding solutes lowers the potential (makes it negative).\n\n## The Mechanism (Cohesion-Tension Theory):\n1. **Transpiration:** Water evaporates from the stomata in the leaves. This creates a negative pressure (tension) in the leaf.\n2. **Cohesion/Adhesion:** Water molecules stick together (cohesion) and stick to the xylem walls (adhesion) due to hydrogen bonding, forming an unbroken column of water.\n3. The tension pulls the entire column of water UP the xylem, dragging water in from the roots!"
+        },
+        {
+            "id": "bphys_3",
+            "type": "content",
+            "title": "Mineral Nutrition",
+            "content": "# Essential Elements\n\nPlants need more than just water and sunlight. They require specific elements from the soil.\n\n## Criteria for Essentiality:\n- The plant cannot complete its life cycle without it.\n- Its function cannot be replaced by another element.\n- It is directly involved in the plant's metabolism.\n\n## Macronutrients vs Micronutrients:\n- **Macronutrients:** Required in large amounts (Nitrogen, Phosphorus, Potassium, Calcium, Magnesium, Sulfur).\n- **Micronutrients (Trace Elements):** Required in tiny amounts but are crucial as enzyme cofactors (Iron, Manganese, Zinc, Copper, Boron).\n\nDeficiency of any of these causes specific symptoms (like chlorosis, the yellowing of leaves due to lack of Nitrogen or Magnesium)."
+        },
+        {
+            "id": "bphys_4",
+            "type": "content",
+            "title": "Nitrogen Fixation",
+            "content": "# The Nitrogen Problem\n\nPlants desperately need Nitrogen to make proteins and DNA. The atmosphere is 78% Nitrogen gas (N2), but plants CANNOT use it because the triple bond in N2 is too strong to break.\n\n## Biological Nitrogen Fixation:\nOnly certain prokaryotes (bacteria) have the enzyme **nitrogenase** required to break the N2 triple bond and convert it into usable Ammonia (NH3).\n\n## Symbiosis:\n- The bacteria *Rhizobium* forms a symbiotic relationship with the roots of leguminous plants (like peas and beans).\n- The plant builds cozy 'root nodules' for the bacteria and feeds them sugar.\n- In return, the bacteria fix atmospheric nitrogen directly into the plant's roots!\n- (This is why farmers rotate crops with legumes to naturally fertilize the soil)."
+        },
+        {
+            "id": "bphys_5",
+            "type": "content",
+            "title": "Photosynthesis: Light & Dark",
+            "content": "# The Machinery of Photosynthesis\n\n## The Light Reactions (in Thylakoids):\n- Chlorophyll absorbs photons of light.\n- This energy is used to split water (Photolysis), releasing Oxygen gas as a byproduct.\n- The electrons from the water are passed down an electron transport chain, generating ATP and NADPH (chemical energy).\n\n## The Dark Reactions (Calvin Cycle, in Stroma):\n- Does not require light directly, but requires the ATP and NADPH made in the light reactions.\n- The enzyme **RuBisCO** (the most abundant protein on Earth!) captures CO2 from the air.\n- The cycle uses the ATP and NADPH to \"fix\" the carbon, reducing it to form simple sugars (glucose)."
+        },
+        {
+            "id": "bphys_6",
+            "type": "content",
+            "title": "C3 vs C4 Plants",
+            "content": "# The RuBisCO Flaw\n\nRuBisCO has a fatal flaw: it can accidentally bind to Oxygen instead of CO2 (a wasteful process called Photorespiration), especially when it's hot and the stomata close to save water.\n\n## C3 Plants (e.g., Wheat, Rice):\n- The 'normal' plants. They suffer from high photorespiration in hot, dry climates, losing efficiency.\n\n## C4 Plants (e.g., Maize, Sugarcane):\n- Evolved a complex spatial separation to solve this!\n- They capture CO2 in outer mesophyll cells and convert it into a 4-carbon acid (hence 'C4').\n- This acid is pumped deep into inner 'bundle sheath' cells, where the CO2 is released in high concentrations right next to RuBisCO.\n- Result: Zero photorespiration! C4 plants are incredibly efficient and productive in hot, tropical climates."
+        },
+        {
+            "id": "bphys_7",
+            "type": "content",
+            "title": "Plant Hormones",
+            "content": "# Chemical Coordination in Plants\n\nPlants don't have nervous systems, so they rely entirely on Plant Growth Regulators (Hormones) to respond to their environment.\n\n## The Major Hormones:\n1. **Auxins:** Promote cell elongation at the tips of shoots. Responsible for phototropism (plants bending towards light).\n2. **Gibberellins:** Promote massive stem elongation (bolting) and seed germination.\n3. **Cytokinins:** Promote cell division and delay leaf aging (senescence).\n4. **Ethylene:** A gaseous hormone! Promotes fruit ripening (one bad apple truly spoils the bunch by releasing ethylene) and leaf drop.\n5. **Abscisic Acid (ABA):** The stress hormone. Closes stomata during severe drought and promotes seed dormancy to survive winter."
+        },
+        {
+            "id": "bphys_quiz_1",
+            "type": "quiz",
+            "title": "Hormone Quiz",
+            "content": "Test your plant chemistry.",
+            "quizQuestion": "Which plant hormone is a gas and is primarily responsible for the ripening of fruits?",
+            "quizOptions": [
+                "Auxin",
+                "Cytokinin",
+                "Gibberellin",
+                "Ethylene"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "bphys_8",
+            "type": "content",
+            "title": "Summary: Plant Physiology",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Water Transport:** Driven upward by the cohesion-tension mechanism (transpiration pull from leaves).\n- **Nutrition:** Essential macro and micro nutrients. *Rhizobium* bacteria fix atmospheric N2 in legume root nodules.\n- **Photosynthesis:** Light reactions (make ATP/NADPH/O2) and Calvin Cycle (uses ATP/NADPH to fix CO2 via RuBisCO).\n- **C4 Pathway:** An adaptation in tropical plants (like corn) to prevent wasteful photorespiration.\n- **Hormones:** Auxins (shoot growth/bending), Gibberellins (stem elongation), Cytokinins (cell division), Ethylene (fruit ripening), Abscisic acid (stress response).\n\n> **Congratulations!** You have completed the Plant Physiology module and the Botany (BSc) course!"
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "id": "learn_wave",
+    "topicId": "wave",
+    "topicTitle": "Wave-Particle Duality",
+    "description": "Step into the bizarre quantum realm where solid matter acts like a rippling wave and continuous light acts like solid bullets.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "qm_1",
+            "type": "content",
+            "title": "The End of Classical Physics",
+            "content": "# The Ultraviolet Catastrophe\n\nBy the late 1800s, physicists thought they had solved the universe. Newton explained gravity and motion, and Maxwell explained light and electromagnetism.\n\nBut there was a tiny, nagging problem. When they calculated the light emitted by a hot object (like a glowing piece of iron or the sun), the classical math predicted that the object should emit infinite amounts of ultraviolet light and instantly destroy the universe.\n\nThis was known as the **Ultraviolet Catastrophe**. Classical physics was mathematically broken."
+        },
+        {
+            "id": "qm_2",
+            "type": "content",
+            "title": "Max Planck's Desperate Trick",
+            "content": "# The Birth of the Quantum\n\nIn 1900, Max Planck discovered a mathematical trick that fixed the catastrophe. \n\nHe assumed that energy couldn't just flow continuously like water from a tap. He guessed that energy could only be emitted in tiny, indivisible, discrete \"chunks\" or packets.\n\nHe called these packets **Quanta**.\n\n**E = h * f**\n(Energy of a quantum = Planck's Constant * Frequency).\n\nPlanck thought it was just a fake math trick. He didn't believe energy was actually chunky."
+        },
+        {
+            "id": "qm_3",
+            "type": "content",
+            "title": "The Photoelectric Effect",
+            "content": "# Einstein Proves It\n\nIn 1905, Albert Einstein proved Planck's trick was physically real by solving the **Photoelectric Effect**.\n\nScientists noticed that shining bright red light on a piece of metal did nothing. But shining incredibly dim blue light on the metal instantly kicked electrons out of it.\n\nIf light was a continuous wave, the massive energy of the bright red light should eventually \"fill up\" the electron and kick it out. But it never did."
+        },
+        {
+            "id": "qm_4",
+            "type": "content",
+            "title": "The Photon",
+            "content": "# Bullets of Light\n\nEinstein explained the Photoelectric Effect by declaring that light is NOT a continuous wave. It is a stream of solid, bullet-like particles called **Photons**.\n\n- Red photons have low energy (E = hf). They bounce harmlessly off the electron like ping-pong balls.\n- Blue photons have high energy. A single blue photon hits the electron like a cannonball, instantly knocking it out.\n\nEinstein proved that Light is Quantized. For this, he won the Nobel Prize."
+        },
+        {
+            "id": "qm_5",
+            "type": "content",
+            "title": "The Duality of Light",
+            "content": "# The Impossible Reality\n\nPhysics was now in a state of sheer panic.\n\n- Thomas Young's Double-Slit experiment proved definitively that light was a **Wave** (it diffracted and interfered).\n- Einstein's Photoelectric Effect proved definitively that light was a **Particle** (it hit in discrete chunks).\n\nWhich one is it? \nIt is **Both**. Light possesses Wave-Particle Duality. How it behaves depends entirely on how you measure it."
+        },
+        {
+            "id": "qm_6",
+            "type": "content",
+            "title": "De Broglie's Wild Guess",
+            "content": "# Matter Waves\n\nIn 1924, a French PhD student named Louis de Broglie asked a crazy question:\n> \"If light (a wave) can act like a solid particle, can an electron (a solid particle) act like a wave?\"\n\nHe proposed the **De Broglie Wavelength**:\n**Lambda = h / p**\n(Wavelength = Planck's Constant / Momentum).\n\nHe claimed that EVERYTHING in the universe has a wavelength, including baseballs and human beings. We just don't notice it because our mass is so big, our wavelength is invisibly microscopic."
+        },
+        {
+            "id": "qm_7",
+            "type": "content",
+            "title": "Proving De Broglie",
+            "content": "# Electrons are Waves\n\nThree years later, Davisson and Germer fired a beam of solid, physical electrons at a crystal of nickel.\n\nIf electrons were just particles (like bullets), they should have bounced off randomly.\nInstead, they perfectly diffracted and created a stunning Interference Pattern on the detector.\n\nThe electrons had rippled and interfered with each other exactly like waves in a pond!\nDe Broglie was right. Solid matter is wavy."
+        },
+        {
+            "id": "qm_8",
+            "type": "content",
+            "title": "The Double Slit with Electrons",
+            "content": "# The Ultimate Mystery\n\nWhat happens if you fire electrons through a double slit, but you fire them ONE AT A TIME?\n\n1. The single electron leaves the gun as a particle.\n2. It hits the screen as a single, discrete dot (a particle).\n3. But over time, as you fire thousands of individual electrons, the dots build up to form a **Wave Interference Pattern**!\n\nThis means the single electron somehow went through BOTH slits simultaneously, interfered with *itself* as a wave, and then decided to land as a particle. \nThis experiment contains the central mystery of Quantum Mechanics."
+        },
+        {
+            "id": "qm_9",
+            "type": "content",
+            "title": "The Observer Effect",
+            "content": "# Looking Changes Reality\n\nPhysicists tried to cheat the double-slit experiment. They put a tiny camera next to the slits to see which slit the single electron actually went through.\n\nThe moment they turned the camera on, the electron stopped acting like a wave. It only went through one slit, and the interference pattern on the wall completely vanished, replaced by two boring stripes of bullets.\n\n**The Observer Effect:** The sheer act of measuring a quantum system forces it to collapse from a blurry wave of possibilities into a single, concrete reality."
+        },
+        {
+            "id": "qm_10",
+            "type": "content",
+            "title": "The Uncertainty Principle",
+            "content": "# Heisenberg's Limit\n\nIn 1927, Werner Heisenberg realized that because matter is wavy, it is mathematically impossible to know everything about it at once.\n\n**The Heisenberg Uncertainty Principle:** \n\"You can never simultaneously know the exact Position and the exact Momentum of a particle.\"\n\nIf you build an incredible microscope to perfectly measure exactly where an electron is (Position), the act of looking at it completely scrambles its speed (Momentum). The more you know about one, the less you know about the other."
+        },
+        {
+            "id": "qm_11",
+            "type": "content",
+            "title": "Not a Measurement Flaw",
+            "content": "# A Flaw in the Universe\n\nCrucially, Heisenberg's Uncertainty is NOT a problem with our clumsy human instruments.\n\nEven if you had a perfect, magical, god-like microscope, you still couldn't know both. \n\nThe uncertainty is built into the fundamental fabric of the universe. An electron physically DOES NOT possess a perfectly defined position and momentum at the same time. It exists as a smeared-out cloud of probabilities."
+        },
+        {
+            "id": "qm_12",
+            "type": "content",
+            "title": "Quantum Superposition",
+            "content": "# Being Everywhere at Once\n\nBecause particles are waves of probability, until they are measured, they do not exist in one specific state. They exist in all possible states simultaneously.\n\nThis is called **Superposition**.\n\nA photon isn't \"here\" or \"there.\" It is a wave smeared out across the entire room. It is only when it crashes into a detector that the wave instantly \"collapses,\" and the universe rolls the dice to decide exactly where the particle will appear."
+        },
+        {
+            "id": "qm_13",
+            "type": "content",
+            "title": "Schrödinger's Cat",
+            "content": "# The Feline Paradox\n\nErwin Schrödinger hated the idea of Superposition. He thought it was ridiculous that reality didn't exist until you looked at it.\n\nHe invented a thought experiment to mock it:\nPut a cat in a sealed steel box with a radioactive atom and a vial of poison gas. If the atom decays, the glass breaks and the cat dies. If it doesn't decay, the cat lives.\n\nBecause the atom is in a Quantum Superposition of (Decayed AND Not Decayed), the math literally states the cat must be in a superposition of (Dead AND Alive) simultaneously until you open the box!"
+        },
+        {
+            "id": "qm_14",
+            "type": "content",
+            "title": "Quantum Entanglement",
+            "content": "# Spooky Action at a Distance\n\nIf you create two electrons together, their quantum waves can become permanently linked or **Entangled**.\n\nIf you send one electron to Mars and keep one on Earth, they are still part of the exact same wave equation. \nIf you measure the Earth electron and find it is spinning \"Up\", the Mars electron instantly, in exactly zero seconds, becomes \"Down\".\n\nEinstein hated this, calling it \"spooky action at a distance\" because it seemed to communicate faster than light. But decades of experiments have proven it is 100% real!"
+        },
+        {
+            "id": "qm_15",
+            "type": "content",
+            "title": "Quantum Tunneling",
+            "content": "# Walking Through Walls\n\nImagine throwing a tennis ball at a thick concrete wall. It will always bounce back. It doesn't have the energy to break through.\n\nIn the quantum world, an electron is a probability wave. When it hits a solid barrier, the wave doesn't just stop; a tiny piece of the wave actually leaks through to the other side.\n\nThis means there is a tiny, non-zero probability that the electron will instantly teleport through the solid barrier! This is **Quantum Tunneling**. (It is the exact mechanism that allows the Sun to fuse hydrogen and burn!)."
+        },
+        {
+            "id": "qm_16",
+            "type": "content",
+            "title": "The Copenhagen Interpretation",
+            "content": "# Shut up and Calculate\n\nHow do physicists deal with all this philosophical madness?\n\nMost accept the **Copenhagen Interpretation** (led by Niels Bohr). It states:\n1. The math of probability waves is all that exists.\n2. Don't ask what the electron is \"actually doing\" when you aren't looking at it. The question is meaningless.\n3. The act of macroscopic measurement collapses the wave.\n\nAs physicist David Mermin summarized it: \"Shut up and calculate!\" The math works flawlessly every time."
+        },
+        {
+            "id": "qm_17",
+            "type": "content",
+            "title": "Summary of Wave-Particle Duality",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Quanta:** Energy is not continuous; it comes in discrete packets.\n2. **Photons:** Light acts as a particle (Einstein's Photoelectric Effect).\n3. **Matter Waves:** Solid matter acts as a wave (De Broglie and Double-Slit).\n4. **Uncertainty:** You cannot know position and momentum simultaneously (Heisenberg).\n5. **Superposition:** Unmeasured particles exist as smeared-out probability waves.\n6. **Entanglement:** Two particles can be instantaneously linked across the galaxy."
+        },
+        {
+            "id": "wav_quiz_1",
+            "type": "quiz",
+            "title": "Photoelectric Quiz",
+            "content": "Test your knowledge of Einstein's discovery.",
+            "quizQuestion": "In the Photoelectric Effect, why does incredibly bright red light fail to knock electrons out of the metal, while very dim blue light succeeds?",
+            "quizOptions": [
+                "Red light travels slower than blue light.",
+                "Red light is a wave, but blue light is a particle.",
+                "Individual red photons don't have enough discrete energy (E=hf) to dislodge an electron, regardless of how many red photons hit the metal.",
+                "The metal absorbs the red light as heat."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "wav_quiz_2",
+            "type": "quiz",
+            "title": "Heisenberg Quiz",
+            "content": "Review the Uncertainty Principle.",
+            "quizQuestion": "What is the true cause of the Heisenberg Uncertainty Principle?",
+            "quizOptions": [
+                "Our microscopes are simply not advanced or precise enough yet.",
+                "The fundamental, wavy nature of the universe makes it physically impossible for a particle to have both a precise position and momentum simultaneously.",
+                "Gravity interferes with the measurement.",
+                "The observer's breath moves the particle."
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

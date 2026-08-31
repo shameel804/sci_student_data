@@ -1,0 +1,141 @@
+{
+    "id": "learn_laws",
+    "topicId": "laws",
+    "topicTitle": "Laws of Motion",
+    "description": "Why do things move? Dive into Sir Isaac Newton's three laws and discover the invisible forces shaping the universe.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "laws_1",
+            "type": "content",
+            "title": "Welcome to the Laws of Motion",
+            "content": "# The Cause of Motion\n\nIn Kinematics, we learned how to describe motion (velocity, acceleration). But we never asked *why* things move, or why they stop moving.\n\nTo move a football at rest, someone must kick it. To throw a stone upwards, one has to give it an upward push.\n\nIt seems that an external **force** is needed to set a body in motion or to stop it.\n\n## What You Will Learn:\n- **Aristotle's Fallacy:** The ancient mistake.\n- **Newton's Three Laws:** The foundation of classical mechanics.\n- **Inertia and Momentum:** Mass in motion.\n- **Friction:** The force that opposes motion."
+        },
+        {
+            "id": "laws_2",
+            "type": "content",
+            "title": "Aristotle's Fallacy",
+            "content": "# The Old Belief\n\nThe Greek thinker Aristotle held the view that an external force is required to *keep* a body in uniform motion.\n\nIf you shoot an arrow, Aristotle thought the air pushing from behind kept it moving. If you slide a toy car, it stops because there's no force pushing it anymore.\n\nFor 2000 years, everyone believed this: \"The natural state of a body is to be at rest.\"\n\nBut Aristotle was **wrong**. He didn't understand the invisible force of friction!"
+        },
+        {
+            "id": "laws_3",
+            "type": "content",
+            "title": "Galileo and Inertia",
+            "content": "# The New Truth\n\nGalileo Galilei observed objects moving on inclined planes. He realized that if a surface was perfectly smooth (zero friction), an object moving on a horizontal plane would never stop!\n\n> \"The natural state of a body is to keep doing whatever it is already doing.\"\n\nThis property of a body to resist any change in its state of rest or uniform motion is called **inertia**.\n- A heavier object (more mass) has more inertia than a lighter one."
+        },
+        {
+            "id": "laws_quiz_1",
+            "type": "quiz",
+            "title": "Inertia Quiz",
+            "content": "Check your understanding of Galileo's concept.",
+            "quizQuestion": "Which property of matter is a direct measure of its inertia?",
+            "quizOptions": [
+                "Volume",
+                "Mass",
+                "Velocity",
+                "Acceleration"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "laws_4",
+            "type": "content",
+            "title": "Newton's First Law of Motion",
+            "content": "# The Law of Inertia\n\nSir Isaac Newton built on Galileo's ideas and formulated his First Law:\n\n> **\"Everybody continues to be in its state of rest or of uniform motion in a straight line unless compelled by some external force to act otherwise.\"**\n\nIf the net external force on a body is zero, its acceleration is zero. \nAcceleration can be non-zero only if there is a net external force on the body.\n\n*Example:* When a bus starts suddenly, you fall backward. Your lower body moves with the bus, but your upper body's *inertia* tries to remain at rest!"
+        },
+        {
+            "id": "laws_5",
+            "type": "content",
+            "title": "Momentum",
+            "content": "# Mass in Motion\n\nTo understand the Second Law, we first need to define a new quantity.\n\nImagine a ping-pong ball and a cricket ball hitting you at the exact same speed. Which one hurts more? The cricket ball, because it has more mass.\nNow imagine two cricket balls, one tossed gently, one bowled at 150 km/h. The fast one hurts more because it has more velocity.\n\nThe impact of a body depends on BOTH its mass and its velocity. Newton defined a quantity called **Momentum (p)**:\n`p = m * v`\n\nMomentum is a vector quantity."
+        },
+        {
+            "id": "laws_6",
+            "type": "content",
+            "title": "Newton's Second Law of Motion",
+            "content": "# The Famous Equation\n\nNewton's Second Law relates force to momentum:\n\n> **\"The rate of change of momentum of a body is directly proportional to the applied force and takes place in the direction in which the force acts.\"**\n\n`F = dp / dt`\nSince `p = mv`, if mass is constant, `F = m * (dv/dt)`.\nAnd since `dv/dt` is acceleration (`a`), we get the most famous equation in mechanics:\n\n`F = m * a`\n(Force = Mass x Acceleration)."
+        },
+        {
+            "id": "laws_7",
+            "type": "content",
+            "title": "Understanding F = ma",
+            "content": "# Using the Second Law\n\n`F = m * a` tells us that:\n1. If you apply the same force to a light object and a heavy object, the light object will accelerate much faster.\n2. To make a heavy object accelerate as fast as a light object, you need a much bigger force.\n\n## The Unit of Force:\nThe SI unit of force is the **Newton (N)**.\n1 Newton is the force required to accelerate a 1 kg mass at 1 m/s^2. \n`(1 N = 1 kg m s^-2)`."
+        },
+        {
+            "id": "laws_quiz_2",
+            "type": "quiz",
+            "title": "Force Quiz",
+            "content": "Check your understanding of the Second Law.",
+            "quizQuestion": "If you push a 5 kg box and it accelerates at 2 m/s^2, what is the net force acting on the box?",
+            "quizOptions": [
+                "2.5 N",
+                "7 N",
+                "10 N",
+                "20 N"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "laws_8",
+            "type": "content",
+            "title": "Impulse",
+            "content": "# The Sudden Force\n\nSometimes a very large force acts for a very short time, like a bat hitting a cricket ball.\n\nIn these cases, it's hard to measure the force and time separately. We measure their product, called **Impulse**.\n\n`Impulse = Force * time duration = Change in momentum`\n\n*Application:* A cricketer lowers his hands while catching a ball. By increasing the time it takes to stop the ball, he decreases the Force on his hands (since Change in momentum is constant)!"
+        },
+        {
+            "id": "laws_9",
+            "type": "content",
+            "title": "Newton's Third Law of Motion",
+            "content": "# Action and Reaction\n\nForces never occur alone in nature. They always occur in pairs.\n\n> **\"To every action, there is always an equal and opposite reaction.\"**\n\n- If body A exerts a force on body B, then body B exerts an equal and opposite force on body A.\n- **Important:** Action and reaction forces act on *different* bodies, not the same body. Therefore, they do NOT cancel each other out!"
+        },
+        {
+            "id": "laws_10",
+            "type": "content",
+            "title": "Examples of the Third Law",
+            "content": "# Rockets and Walking\n\nHow do we walk?\nWhen you walk, you push the ground backward (Action). The ground pushes you forward with an equal and opposite force (Reaction). It is the ground's reaction force that moves you forward!\n\nHow does a rocket fly in space where there is no air to push against?\nThe rocket pushes the exhaust gases out the back with massive force (Action). The exhaust gases push the rocket forward with equal force (Reaction)!"
+        },
+        {
+            "id": "laws_11",
+            "type": "content",
+            "title": "Conservation of Momentum",
+            "content": "# Before and After the Crash\n\nFrom the Second and Third Laws, we get a powerful principle:\n\n> **The Law of Conservation of Momentum:** In an isolated system (where no external net force acts), the total momentum of the system remains constant.\n\nIf two cars crash into each other:\nThe momentum of Car A + Car B *before* the crash is exactly equal to the momentum of Car A + Car B *after* the crash. The momentum is just transferred between them!"
+        },
+        {
+            "id": "laws_12",
+            "type": "content",
+            "title": "Friction",
+            "content": "# The Invisible Opponent\n\nRemember Aristotle's mistake? He forgot about friction.\n\nWhen a body moves over another surface, a force opposes the relative motion. This force is called **friction**.\n\n1. **Static Friction:** The force that prevents an object from moving when you first push it. It increases as you push harder, up to a maximum limit.\n2. **Kinetic (Sliding) Friction:** Once the object starts moving, the friction drops slightly to a constant value. \n\n*Rule:* Kinetic friction is always slightly less than maximum static friction."
+        },
+        {
+            "id": "laws_13",
+            "type": "content",
+            "title": "Rolling Friction",
+            "content": "# The Wheel's Secret\n\nWhy did humanity invent the wheel?\n\nBecause **Rolling Friction** is dramatically smaller than sliding (kinetic) friction!\n\nWhen a wheel rolls without slipping, the point of contact with the ground is momentarily at rest. There is almost no sliding. This is why it is vastly easier to pull a heavy suitcase on wheels than to drag it across the floor. \n\nWe also use ball bearings in machines to convert sliding friction into rolling friction to reduce wear and tear."
+        },
+        {
+            "id": "laws_quiz_3",
+            "type": "quiz",
+            "title": "Friction Quiz",
+            "content": "Check your understanding of friction types.",
+            "quizQuestion": "Which of the following forces of friction is generally the smallest in magnitude?",
+            "quizOptions": [
+                "Static Friction",
+                "Kinetic (Sliding) Friction",
+                "Rolling Friction",
+                "Fluid Friction"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "laws_14",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Inertia:** The tendency of a body to resist changes in its motion (depends on Mass).\n- **Momentum (p):** Mass times Velocity (p = mv).\n- **Newton's 1st Law:** Objects keep doing what they are doing unless a force acts on them.\n- **Newton's 2nd Law:** Force equals mass times acceleration (F = ma).\n- **Newton's 3rd Law:** Every action has an equal and opposite reaction (acting on different bodies).\n- **Impulse:** Force times time (equals the change in momentum).\n- **Friction:** A force that opposes relative motion between surfaces."
+        },
+        {
+            "id": "laws_15",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Laws of Motion\n\nExcellent work! Here is a recap of what we've learned:\n\n- Galileo corrected Aristotle by defining **Inertia**: objects in motion stay in motion without an external force.\n- **Newton's 1st Law** formalizes inertia. \n- **Newton's 2nd Law** states that the rate of change of momentum is proportional to the force applied, giving us the formula **F = ma**.\n- **Newton's 3rd Law** states that forces come in equal and opposite pairs (Action/Reaction).\n- If no external force acts on a system, its total momentum is **conserved**.\n- **Friction** opposes motion. Rolling friction is much less than kinetic friction, which is less than static friction."
+        }
+    ]
+}

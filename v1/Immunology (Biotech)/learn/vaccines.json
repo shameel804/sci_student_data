@@ -1,0 +1,129 @@
+{
+    "id": "learn_immuno_vaccines",
+    "topicId": "vaccines",
+    "topicTitle": "Vaccine Development",
+    "description": "Explore the science behind the most successful medical intervention in human history, learning how we train the immune system to recognize threats before they strike.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "immuno_vax_1",
+            "type": "content",
+            "title": "Welcome to Vaccines",
+            "content": "# Introduction to Vaccination\n\nWelcome to **Vaccine Development**!\n\nVaccines are arguably the greatest achievement in public health, responsible for eradicating Smallpox and nearly eliminating Polio.\n\n## What You Will Learn:\n- **The Principle** - How we hack immunological memory\n- **Types of Vaccines** - From whole viruses to mRNA\n- **Adjuvants** - Waking up the immune system\n- **Herd Immunity** - Protecting the vulnerable\n\nLet's learn how to build biological armor!"
+        },
+        {
+            "id": "immuno_vax_2",
+            "type": "content",
+            "title": "The Principle of Vaccination",
+            "content": "# Hacking Memory\n\nHow does a vaccine actually work? It exploits the **Adaptive Immune System's** ability to create Memory B Cells and Memory T Cells.\n\n1. We deliberately expose the body to a safe, harmless version (or fragment) of a pathogen.\n2. The immune system treats it as a real threat. It takes 7-10 days to mount a full response, create antibodies, and clear the harmless \"threat.\"\n3. **The Result:** The body creates thousands of Memory cells specifically tailored to that pathogen.\n4. If the REAL, deadly pathogen ever infects the person months or years later, the Memory cells instantly deploy millions of antibodies, destroying the virus before it can replicate and cause disease."
+        },
+        {
+            "id": "immuno_vax_3",
+            "type": "content",
+            "title": "Active vs Passive Immunity",
+            "content": "# Active vs Passive\n\n## Active Immunity\n- **What it is:** Your own body does the work to produce antibodies and memory cells (e.g., getting a vaccine, or surviving a natural infection).\n- **Duration:** Lasts for years, or even a lifetime.\n\n## Passive Immunity\n- **What it is:** You are given pre-made antibodies directly. Your body did NO work to make them. (e.g., drinking breast milk, or receiving an anti-venom injection after a snake bite).\n- **Duration:** Temporary. The antibodies degrade after a few weeks or months, and since you have no Memory cells, you are vulnerable again."
+        },
+        {
+            "id": "immuno_vax_quiz_1",
+            "type": "quiz",
+            "title": "Immunity Quiz",
+            "content": "Check your understanding of immunity types.",
+            "quizQuestion": "Why does a dose of snake anti-venom (which is pure, pre-made antibodies) provide only temporary Passive Immunity?",
+            "quizOptions": [
+                "Because snake venom destroys memory cells",
+                "Because the patient's own immune system did not do the work to create Memory B cells, so the protection fades as the injected antibodies naturally degrade",
+                "Because anti-venom is actually a live virus",
+                "Because antibodies only last for 5 minutes in the blood"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "immuno_vax_4",
+            "type": "content",
+            "title": "Types of Vaccines Intro",
+            "content": "# How Do We Make Them Safe?\n\nThe hardest part of making a vaccine is finding the exact balance between **Safety** (not making the patient sick) and **Immunogenicity** (making the immune system react strongly enough to form memory).\n\nThere are four main traditional strategies for making a safe vaccine."
+        },
+        {
+            "id": "immuno_vax_5",
+            "type": "content",
+            "title": "Live Attenuated Vaccines",
+            "content": "# 1. Live Attenuated Vaccines\n\n- **What they are:** A living virus that has been weakened (\"attenuated\") in a lab so that it can still replicate, but cannot cause severe disease.\n- **Examples:** MMR (Measles, Mumps, Rubella), Chickenpox.\n- **Pros:** They perfectly mimic a real infection. They provide the strongest, longest-lasting immunity (often lifelong with one or two doses).\n- **Cons:** Because it is a living virus, it can be dangerous for people with compromised immune systems (like cancer patients). It must be kept refrigerated."
+        },
+        {
+            "id": "immuno_vax_6",
+            "type": "content",
+            "title": "Inactivated Vaccines",
+            "content": "# 2. Inactivated (Killed) Vaccines\n\n- **What they are:** The real, whole virus or bacterium, but it has been completely killed (using heat or chemicals like formaldehyde).\n- **Examples:** Polio (the Salk shot), Rabies, Hepatitis A.\n- **Pros:** Extremely safe. A dead virus cannot possibly replicate or cause disease, even in an immunocompromised person.\n- **Cons:** Because the virus is dead, the immune system doesn't react as strongly. It often requires multiple \"booster\" shots over a lifetime to maintain immunity."
+        },
+        {
+            "id": "immuno_vax_7",
+            "type": "content",
+            "title": "Subunit and Toxoid Vaccines",
+            "content": "# 3. Subunit and 4. Toxoid Vaccines\n\n## 3. Subunit (Recombinant) Vaccines\n- **What they are:** Instead of the whole virus, scientists only inject one single purified protein (an antigen) from the surface of the virus.\n- **Examples:** Hepatitis B, HPV (Gardasil).\n- **Pros:** Zero chance of infection. Very safe.\n\n## 4. Toxoid Vaccines\n- **What they are:** Some diseases (like Tetanus) are caused by the TOXIN the bacteria secretes, not the bacteria itself. The vaccine is just a deactivated version of the toxin.\n- **Examples:** Tetanus, Diphtheria."
+        },
+        {
+            "id": "immuno_vax_quiz_2",
+            "type": "quiz",
+            "title": "Vaccine Type Quiz",
+            "content": "Check your understanding of vaccine safety.",
+            "quizQuestion": "Why are 'Live Attenuated' vaccines generally NOT given to patients undergoing heavy chemotherapy?",
+            "quizOptions": [
+                "Because the vaccine will cure their cancer too quickly",
+                "Because they are dead vaccines and won't work",
+                "Because their immune system is severely compromised, and even a weakened live virus could replicate and cause a severe infection",
+                "Because the chemotherapy chemicals will instantly kill the memory cells"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "immuno_vax_8",
+            "type": "content",
+            "title": "Modern Technology",
+            "content": "# The Next Generation\n\nTraditional vaccines take years to develop (growing viruses in millions of chicken eggs is slow!). \nModern biotech allows us to create vaccines in weeks using the genetic code."
+        },
+        {
+            "id": "immuno_vax_9",
+            "type": "content",
+            "title": "mRNA Vaccines",
+            "content": "# mRNA Vaccines\n\n- **What they are:** Instead of injecting the viral protein, we inject a piece of synthetic messenger RNA. \n- **How it works:** Your own muscle cells read the mRNA and temporarily manufacture the viral spike protein. Your immune system sees the protein, freaks out, and creates memory cells. The mRNA degrades harmlessly within days.\n- **Examples:** COVID-19 (Pfizer, Moderna).\n- **Pros:** Incredibly fast to design and manufacture. Completely safe (no live virus).\n- **Cons:** mRNA is incredibly fragile and must be stored at ultra-cold temperatures (minus 70 degrees C), making global distribution difficult."
+        },
+        {
+            "id": "immuno_vax_10",
+            "type": "content",
+            "title": "Viral Vector Vaccines",
+            "content": "# Viral Vector Vaccines\n\n- **What they are:** Scientists take a harmless, common cold virus (an Adenovirus) and hollow it out. They place the DNA instructions for the dangerous viral spike protein inside the hollow shell.\n- **How it works:** The harmless \"Trojan Horse\" virus enters your cells and delivers the DNA. Your cells read the DNA, make the spike protein, and trigger the immune response.\n- **Examples:** COVID-19 (Johnson & Johnson, AstraZeneca), Ebola.\n- **Pros:** Very strong immune response, easier to store than mRNA."
+        },
+        {
+            "id": "immuno_vax_11",
+            "type": "content",
+            "title": "Adjuvants",
+            "content": "# Adjuvants: Waking the Guards\n\nIf you inject a highly purified Subunit vaccine (just a single protein), the immune system often ignores it because there is no \"danger signal.\"\n\nTo force the immune system to react, scientists add an **Adjuvant** to the vaccine.\n\n- An adjuvant is a chemical compound (often Aluminum salts) that causes a mild, localized inflammatory response at the injection site.\n- This inflammation signals the Innate Immune System (Macrophages) to rush to the area and pick up the antigen, ensuring a strong Memory response.\n- *This localized inflammation is why your arm hurts for a day after getting a shot!*"
+        },
+        {
+            "id": "immuno_vax_quiz_3",
+            "type": "quiz",
+            "title": "Adjuvant Quiz",
+            "content": "Check your understanding of immune stimulation.",
+            "quizQuestion": "What is the primary function of adding an Adjuvant (like aluminum salts) to a highly purified subunit vaccine?",
+            "quizOptions": [
+                "To preserve the vaccine so it doesn't need refrigeration",
+                "To kill any accidental bacteria in the vial",
+                "To trigger a localized inflammatory response, ensuring the immune system notices the antigen and mounts a strong memory response",
+                "To prevent the patient's arm from becoming sore"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "immuno_vax_12",
+            "type": "content",
+            "title": "Herd Immunity",
+            "content": "# Herd Immunity\n\nWhy does the government care if YOU get vaccinated?\n\nBecause of **Herd Immunity**.\nSome people physically cannot be vaccinated (newborn babies, organ transplant recipients, cancer patients). \n\nIf 90% of the population is vaccinated, the virus hits a \"wall of immunity\" and stops spreading. The 10% who are vulnerable are protected because the virus can never reach them.\n\nIf vaccination rates drop below that threshold, the virus easily jumps between unvaccinated people, and the vulnerable suffer."
+        },
+        {
+            "id": "immuno_vax_13",
+            "type": "content",
+            "title": "Summary of Vaccines",
+            "content": "# Vaccine Summary\n\n## Key Takeaways:\n\n### The Goal\n- **Active Immunity:** Forcing the body to create lasting **Memory B and T cells** using a harmless version of the pathogen.\n- **Herd Immunity:** Protecting the vulnerable by stopping the spread in the general population.\n\n### The Technologies\n- **Traditional:** Live-attenuated (strong, risky), Inactivated (safe, weak), Subunit/Toxoid (pure protein).\n- **Modern:** mRNA (fast design, cold storage), Viral Vectors (Trojan horse).\n\n### The Extras\n- **Adjuvants** (like Aluminum) are added to purified vaccines to trigger inflammation and wake up the immune system.\n\n> **Congratulations!** You have completed the Immunology module!"
+        }
+    ]
+}

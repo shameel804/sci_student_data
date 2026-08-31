@@ -1,0 +1,143 @@
+{
+    "id": "learn_thermo_kinetic",
+    "topicId": "kinetic",
+    "topicTitle": "Kinetic Theory",
+    "description": "Understand the microscopic behavior of gases, deriving macroscopic properties from the motion of individual molecules.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "thermo_kinetic_1",
+            "type": "content",
+            "title": "Welcome to Kinetic Theory",
+            "content": "# Introduction to Kinetic Theory\n\nWelcome to **Kinetic Theory**!\n\nClassical thermodynamics studies macroscopic properties like pressure and temperature without worrying about atoms. Kinetic theory bridges the gap by explaining those macroscopic properties through the microscopic motion of billions of colliding particles.\n\n## What You Will Learn:\n- **Kinetic Theory Derivations** - How bouncing atoms create pressure\n- **Distribution Functions** - How molecular speeds are distributed\n- **Transport Phenomena** - How momentum, heat, and mass travel through a gas\n- **Real Gas Behavior** - When and why the ideal gas law fails\n\nLet's zoom in and look at the chaotic microscopic world of gases!"
+        },
+        {
+            "id": "thermo_kinetic_2",
+            "type": "content",
+            "title": "Postulates of Kinetic Theory",
+            "content": "# The Ideal Gas Postulates\n\nTo derive mathematical models, we must first define an \"ideal\" gas using several simplifying assumptions.\n\n## The Core Postulates:\n\n1. **Large Number of Particles:** The gas consists of a huge number of identical molecules moving in random directions.\n2. **Point Masses:** The volume of the molecules themselves is negligible compared to the volume of the container.\n3. **No Intermolecular Forces:** Molecules exert no forces on each other except during collisions (no attraction or repulsion).\n4. **Elastic Collisions:** Collisions between molecules and with the walls of the container are perfectly elastic (no kinetic energy is lost).\n5. **Brief Collisions:** The time spent during a collision is negligible compared to the time between collisions.\n\n> **Reality Check:** No real gas perfectly obeys all these rules, but noble gases at high temperatures and low pressures come very close!"
+        },
+        {
+            "id": "thermo_kinetic_3",
+            "type": "content",
+            "title": "Deriving Pressure",
+            "content": "# Deriving Gas Pressure\n\nHow does a bunch of bouncing particles create a steady pressure on a wall?\n\n## The Setup\nImagine a cubic container of side length L. A molecule of mass `m` moves with velocity component `v_x` toward a wall.\n\n## The Collision\nWhen it hits the wall and bounces back elastically, its velocity changes from `v_x` to `-v_x`.\n- **Change in Momentum:** `2 x m x v_x`\n\n## Time Between Collisions\nThe time it takes for the molecule to travel across the box and hit the SAME wall again is `t = 2L / v_x`.\n\n## Force and Pressure\nUsing Newton's Second Law, Force is the rate of change of momentum:\n- `Force = (Change in Momentum) / t = (m x v_x^2) / L`\n\nSumming this up for all N molecules moving in three dimensions, and dividing by Area (L^2) gives the famous result:\n```\nPressure (P) = (1/3) x (N/V) x m x v_rms^2\n```\nWhere **v_rms** is the root-mean-square speed of the molecules!"
+        },
+        {
+            "id": "thermo_kinetic_4",
+            "type": "content",
+            "title": "Temperature and Energy",
+            "content": "# Kinetic Energy and Temperature\n\nWe just derived `P = (1/3) x (N/V) x m x v_rms^2`.\n\nLet's compare this to the macroscopic Ideal Gas Law: `P x V = N x k_B x T`.\n\n## The Connection\nRearranging our derivation gives: `P x V = (1/3) x N x m x v_rms^2`\n\nSetting the two equations equal:\n```\nN x k_B x T = (1/3) x N x m x v_rms^2\nk_B x T = (1/3) x m x v_rms^2\n```\n\nSince the average translational kinetic energy of a single molecule is `(1/2) x m x v_rms^2`, we can substitute to find:\n```\nAverage Kinetic Energy = (3/2) x k_B x T\n```\n\n> **The Grand Conclusion:** Temperature is simply a direct macroscopic measure of the average microscopic translational kinetic energy of the molecules!"
+        },
+        {
+            "id": "thermo_kinetic_quiz_1",
+            "type": "quiz",
+            "title": "Kinetic Theory Quiz",
+            "content": "Test your understanding of the derivation.",
+            "quizQuestion": "According to kinetic theory, if you double the absolute temperature (Kelvin) of an ideal gas, what happens to the average kinetic energy of its molecules?",
+            "quizOptions": [
+                "It remains the same",
+                "It increases by a factor of 1.41 (square root of 2)",
+                "It doubles",
+                "It quadruples"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "thermo_kinetic_5",
+            "type": "content",
+            "title": "Distribution Functions",
+            "content": "# Maxwell-Boltzmann Distribution\n\nNot all molecules in a gas move at the same speed. Some move very fast, some very slow. \n\nJames Clerk Maxwell and Ludwig Boltzmann derived the probability distribution of molecular speeds.\n\n## The Distribution Function\nThe function `f(v)` tells us the probability of finding a molecule with speed `v`:\n\n```\nf(v) = 4 x pi x (m / 2 x pi x k_B x T)^(3/2) x v^2 x e^(-m x v^2 / 2 x k_B x T)\n```\n\n## Understanding the Shape\n- The curve starts at zero (no molecules have zero speed).\n- It rises to a peak (the most probable speed).\n- It then falls off exponentially, trailing into a long tail at high speeds.\n\n## Temperature Dependence\n- As Temperature (T) **increases**, the curve flattens and shifts to the right.\n- More molecules have higher speeds, and the \"spread\" of speeds is wider."
+        },
+        {
+            "id": "thermo_kinetic_6",
+            "type": "content",
+            "title": "Molecular Speeds",
+            "content": "# Three Important Speeds\n\nFrom the Maxwell-Boltzmann distribution, we can calculate three statistically significant speeds for a gas at temperature T.\n\n## 1. Most Probable Speed (v_p)\nThe speed at the peak of the curve. More molecules have this speed than any other specific speed.\n```\nv_p = square_root(2 x k_B x T / m)\n```\n\n## 2. Average Speed (v_avg)\nThe simple arithmetic mean of all speeds.\n```\nv_avg = square_root(8 x k_B x T / (pi x m))\n```\n\n## 3. Root-Mean-Square Speed (v_rms)\nThe square root of the average of the squared speeds. This is the speed used to calculate average kinetic energy.\n```\nv_rms = square_root(3 x k_B x T / m)\n```\n\n> **The Order:** For any gas, v_p < v_avg < v_rms. The RMS speed is always the highest of the three due to the long \"tail\" of high-speed molecules!"
+        },
+        {
+            "id": "thermo_kinetic_quiz_2",
+            "type": "quiz",
+            "title": "Speeds Quiz",
+            "content": "Check your understanding of molecular speeds.",
+            "quizQuestion": "Why is the root-mean-square speed (v_rms) higher than the most probable speed (v_p) in a gas?",
+            "quizOptions": [
+                "Because heavy molecules move slower",
+                "Because of the long tail of high-speed molecules in the Maxwell-Boltzmann distribution",
+                "Because of relativistic effects at high temperatures",
+                "Because collisions slow down the average speed"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "thermo_kinetic_7",
+            "type": "content",
+            "title": "Mean Free Path",
+            "content": "# Mean Free Path\n\nMolecules don't travel in straight lines across a room; they constantly zigzag by colliding with each other.\n\n## Definition\nThe **Mean Free Path (lambda)** is the average distance a molecule travels between successive collisions.\n\n## The Equation\nAssuming molecules are spheres with diameter `d`, and the number density is `n` (molecules per volume):\n\n```\nlambda = 1 / (square_root(2) x pi x d^2 x n)\n```\n\n## What Affects It?\n- **Density (n):** Higher density = more crowded = shorter mean free path.\n- **Size (d):** Larger molecules = bigger targets = shorter mean free path.\n- **Pressure (P):** Since n is proportional to P, higher pressure means a shorter mean free path.\n\n> **Real World:** At room temperature and atmospheric pressure, the mean free path of an air molecule is about 68 nanometers. It undergoes billions of collisions every second!"
+        },
+        {
+            "id": "thermo_kinetic_8",
+            "type": "content",
+            "title": "Transport Phenomena Intro",
+            "content": "# Transport Phenomena\n\nWhen a gas is NOT in equilibrium, physical quantities are transported from one region to another to restore equilibrium. Kinetic theory explains exactly how this happens via molecular collisions.\n\n## The Three Main Types:\n\n1. **Viscosity (Transport of Momentum)**\n   - Occurs when there is a velocity gradient.\n   - Faster layers of gas drag slower layers along.\n\n2. **Thermal Conductivity (Transport of Energy)**\n   - Occurs when there is a temperature gradient.\n   - Faster (hotter) molecules collide with slower (colder) ones, transferring kinetic energy.\n\n3. **Diffusion (Transport of Mass)**\n   - Occurs when there is a concentration gradient.\n   - Molecules naturally spread from areas of high concentration to low concentration."
+        },
+        {
+            "id": "thermo_kinetic_9",
+            "type": "content",
+            "title": "Viscosity and Conductivity",
+            "content": "# Surprising Predictions of Kinetic Theory\n\nApplying the mean free path to transport phenomena yields some very counter-intuitive results that proved kinetic theory was correct!\n\n## Viscosity of a Gas\nKinetic theory predicts the viscosity of a gas is:\n```\nViscosity approx (1/3) x density x v_avg x lambda\n```\nSince lambda is inversely proportional to density, the densities cancel out!\n**Result:** The viscosity of a gas is INDEPENDENT of its pressure/density!\n\n*(This seems wrong—shouldn't a denser gas be \"thicker\"? James Clerk Maxwell did the experiment himself and proved his own wild mathematical prediction was correct!)*\n\n## Thermal Conductivity\nSimilarly, the thermal conductivity of a gas is also largely independent of pressure (until the pressure gets so low that the mean free path hits the walls of the container).\n\nBoth viscosity and thermal conductivity **increase with temperature** (unlike liquids, which get runnier when hot)."
+        },
+        {
+            "id": "thermo_kinetic_10",
+            "type": "content",
+            "title": "Real Gas Behavior",
+            "content": "# When the Ideal Gas Law Fails\n\nThe Ideal Gas Law (`PV = nRT`) works great at high temperatures and low pressures. But at high pressures or low temperatures, gases start behaving \"really.\"\n\n## Why do Real Gases Deviate?\nRecall our original postulates that fail in extreme conditions:\n\n1. **Point Masses:** Molecules actually DO take up space. At high pressure, they are squeezed together, and their physical volume can no longer be ignored.\n2. **No Intermolecular Forces:** Molecules actually DO attract each other (Van der Waals forces). At low temperatures, they move slowly enough for these attractive forces to pull them together, reducing the pressure they exert on the walls.\n\n## The Compressibility Factor (Z)\nWe measure deviation using Z:\n```\nZ = (P x V) / (n x R x T)\n```\n- For an ideal gas, Z = 1 exactly, always.\n- For real gases, Z can be greater than 1 (volume effects dominate) or less than 1 (attractive forces dominate)."
+        },
+        {
+            "id": "thermo_kinetic_11",
+            "type": "content",
+            "title": "The Van der Waals Equation",
+            "content": "# The Van der Waals Equation\n\nJohannes Diderik van der Waals modified the ideal gas law to account for the two failing postulates.\n\n## The Equation:\n```\n(P + a x (n/V)^2) x (V - n x b) = n x R x T\n```\n\n## The Corrections:\n\n### The Volume Correction: `(V - n x b)`\n- `b` represents the volume occupied by one mole of the molecules themselves.\n- The term `(V - nb)` is the *actual free space* available for molecules to move.\n\n### The Pressure Correction: `(P + a x (n/V)^2)`\n- `a` represents the strength of the attractive intermolecular forces.\n- Molecules pulling on each other hit the wall with less force.\n- We ADD this term to the measured pressure P to get the \"ideal\" pressure the gas *would* exert without attraction.\n\n> **Note:** The constants `a` and `b` are specific to each distinct gas and are determined experimentally."
+        },
+        {
+            "id": "thermo_kinetic_quiz_3",
+            "type": "quiz",
+            "title": "Real Gas Quiz",
+            "content": "Test your knowledge of real gases.",
+            "quizQuestion": "In the Van der Waals equation, what does the constant 'b' correct for?",
+            "quizOptions": [
+                "The attractive forces between molecules",
+                "The mass of the molecules",
+                "The finite volume occupied by the molecules themselves",
+                "The energy lost during inelastic collisions"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "thermo_kinetic_12",
+            "type": "content",
+            "title": "Critical Phenomena",
+            "content": "# Critical Phenomena\n\nIf you compress a real gas enough, it will eventually turn into a liquid. This is phase condensation, which the ideal gas law cannot predict.\n\n## The Critical Point\nFor every gas, there is a specific temperature called the **Critical Temperature (T_c)**.\n- **Below T_c:** You can liquefy the gas simply by increasing the pressure.\n- **Above T_c:** The kinetic energy of the molecules is so high that no matter how much pressure you apply, the gas will NEVER liquefy.\n\n## Supercritical Fluids\nIf you exceed both the critical temperature (T_c) and critical pressure (P_c), the substance becomes a **supercritical fluid**.\n\n- It can effuse through solids like a gas.\n- It can dissolve materials like a liquid.\n- Supercritical carbon dioxide is widely used to decaffeinate coffee beans safely!"
+        },
+        {
+            "id": "thermo_kinetic_13",
+            "type": "content",
+            "title": "Summary of Kinetic Theory",
+            "content": "# Kinetic Theory Summary\n\n## Key Takeaways:\n\n### Derivations\n- Macroscopic pressure is derived from microscopic momentum changes during wall collisions.\n- Temperature is directly proportional to the average translational kinetic energy of molecules.\n\n### Statistics\n- **Maxwell-Boltzmann distribution** describes the spread of molecular speeds.\n- **v_rms** is the most physically significant speed for energy calculations.\n\n### Transport\n- **Mean free path** is the distance between collisions.\n- Viscosity (momentum transport) of a gas is independent of pressure.\n\n### Real Gases\n- Deviate from ideal behavior at high pressure (volume matters) and low temperature (attraction matters).\n- **Van der Waals equation** corrects for these two factors with constants `a` and `b`.\n\n> **Congratulations!** You've successfully linked the microscopic and macroscopic thermodynamic worlds!"
+        },
+        {
+            "id": "thermo_kinetic_quiz_4",
+            "type": "quiz",
+            "title": "Final Kinetic Quiz",
+            "content": "One last check on your knowledge.",
+            "quizQuestion": "Above the critical temperature of a substance, which of the following is true?",
+            "quizOptions": [
+                "The substance becomes a perfect ideal gas",
+                "The substance will freeze into a solid instantly",
+                "The substance cannot be liquefied by pressure alone",
+                "The Van der Waals constants become zero"
+            ],
+            "correctOptionIndex": 2
+        }
+    ]
+}

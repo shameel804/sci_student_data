@@ -1,0 +1,103 @@
+{
+    "id": "learn_carbonyl",
+    "topicId": "carbonyl",
+    "topicTitle": "Aldehydes & Ketones",
+    "description": "Study the versatile carbonyl group, the heart of many organic syntheses, flavorings, and industrial solvents.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "carb_1",
+            "type": "content",
+            "title": "Welcome to Carbonyl Compounds",
+            "content": "# Aldehydes & Ketones\n\nWelcome to Carbonyl Chemistry! The carbonyl group (>C=O) is one of the most important functional groups in organic chemistry.\n\n## What You Will Learn:\n- **Nomenclature and Preparation** - Naming and making them\n- **Chemical Properties** - How they react\n- **Reaction Mechanisms** - Nucleophilic addition\n- **Industrial Applications** - Fragrances and solvents\n\n> **Fun Fact:** Many of the pleasant flavors and odors in nature (like vanilla, cinnamon, and almonds) are due to aldehydes!"
+        },
+        {
+            "id": "carb_2",
+            "type": "content",
+            "title": "The Carbonyl Group",
+            "content": "# The >C=O Group\n\nBoth aldehydes and ketones contain a carbon-oxygen double bond, known as the carbonyl group.\n\n## Aldehydes:\n- The carbonyl carbon is bonded to at least one **hydrogen atom**.\n- General formula: R-CHO.\n- Because of the hydrogen, the carbonyl group is always at the end of the carbon chain.\n\n## Ketones:\n- The carbonyl carbon is bonded to **two carbon atoms** (alkyl or aryl groups).\n- General formula: R-CO-R'.\n- The carbonyl group is always situated in the middle of a carbon chain."
+        },
+        {
+            "id": "carb_3",
+            "type": "content",
+            "title": "Nomenclature",
+            "content": "# Naming Aldehydes and Ketones\n\nWe use IUPAC rules for systematic naming.\n\n## Aldehydes:\n- The suffix is **-al**.\n- The longest chain must include the carbonyl carbon, which is always assigned number 1.\n- Example: HCHO is Methanal (Formaldehyde). CH3CHO is Ethanal (Acetaldehyde).\n\n## Ketones:\n- The suffix is **-one**.\n- The longest chain must include the carbonyl carbon.\n- Number the chain so the carbonyl carbon gets the lowest possible number.\n- Example: CH3COCH3 is Propan-2-one (Acetone)."
+        },
+        {
+            "id": "carb_4",
+            "type": "content",
+            "title": "Preparation of Aldehydes & Ketones",
+            "content": "# Making Carbonyls\n\nHow do we synthesize them in the lab?\n\n## 1. Oxidation of Alcohols:\n- Primary alcohols oxidize to form **Aldehydes** (requires mild oxidizing agents like PCC to prevent further oxidation into carboxylic acids).\n- Secondary alcohols oxidize to form **Ketones**.\n\n## 2. Ozonolysis of Alkenes:\n- Cleaving an alkene double bond with ozone (O3) followed by zinc and water yields aldehydes and/or ketones, depending on the structure of the alkene.\n\n## 3. Hydration of Alkynes:\n- Adding water to an alkyne in the presence of acidic conditions (H2SO4 and HgSO4) yields ketones (except for ethyne, which yields ethanal)."
+        },
+        {
+            "id": "carb_quiz_1",
+            "type": "quiz",
+            "title": "Carbonyl Quiz",
+            "content": "Check your understanding of structure.",
+            "quizQuestion": "Oxidation of a secondary alcohol produces a(n):",
+            "quizOptions": [
+                "Aldehyde",
+                "Carboxylic acid",
+                "Ketone",
+                "Ester"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "carb_5",
+            "type": "content",
+            "title": "Nature of the Carbonyl Bond",
+            "content": "# The Polar Carbonyl Bond\n\nThe chemical behavior of these compounds is entirely dictated by the >C=O bond.\n\n## Polarity:\n- Oxygen is highly electronegative compared to Carbon.\n- Therefore, Oxygen pulls the shared electrons towards itself.\n- This gives the Oxygen a partial negative charge and the Carbon a partial positive charge.\n\n## The Result:\n- The Carbon acts as an **electrophile** (electron-seeker), attracting nucleophiles.\n- The Oxygen acts as a **nucleophile** (nucleus-seeker), attracting electrophiles (like protons).\n- This polarity makes their boiling points higher than hydrocarbons of similar mass!"
+        },
+        {
+            "id": "carb_6",
+            "type": "content",
+            "title": "Reaction Mechanism",
+            "content": "# Nucleophilic Addition Reactions\n\nBecause of the electrophilic carbon, the most characteristic reaction of aldehydes and ketones is nucleophilic addition.\n\n## The Mechanism:\n1. A nucleophile (Nu-) attacks the partially positive carbonyl carbon from a direction roughly perpendicular to the plane of the molecule.\n2. The double bond breaks, pushing the pi electrons onto the oxygen, forming a tetrahedral alkoxide intermediate.\n3. The intermediate captures a proton (H+) from the reaction medium to form the final electrically neutral product.\n\nAldehydes are generally **more reactive** than ketones toward nucleophilic addition due to steric (less crowding) and electronic (less electron-donating alkyl groups) reasons."
+        },
+        {
+            "id": "carb_7",
+            "type": "content",
+            "title": "Important Addition Reactions",
+            "content": "# Examples of Addition Reactions\n\n## 1. Addition of Hydrogen Cyanide (HCN):\n- Reacts to form cyanohydrins. Useful for adding a carbon atom to the chain.\n\n## 2. Addition of Grignard Reagents (RMgX):\n- Extremely important for making alcohols!\n- Formaldehyde -> Primary alcohol\n- Other Aldehydes -> Secondary alcohol\n- Ketones -> Tertiary alcohol\n\n## 3. Addition of Alcohols:\n- Aldehydes react with alcohols (in dry HCl) to form acetals (used as protecting groups in organic synthesis)."
+        },
+        {
+            "id": "carb_8",
+            "type": "content",
+            "title": "Reduction Reactions",
+            "content": "# Reduction of Carbonyls\n\nWe can reduce aldehydes and ketones back to alcohols or all the way to hydrocarbons.\n\n## 1. Reduction to Alcohols:\n- Using reducing agents like Sodium borohydride (NaBH4) or Lithium aluminum hydride (LiAlH4).\n- Aldehydes reduce to Primary Alcohols.\n- Ketones reduce to Secondary Alcohols.\n\n## 2. Reduction to Hydrocarbons (Alkanes):\n- The carbonyl group (>C=O) is completely stripped of oxygen and reduced to a methylene group (-CH2-).\n- **Clemmensen Reduction:** Uses Zinc amalgam (Zn-Hg) and concentrated HCl.\n- **Wolff-Kishner Reduction:** Uses Hydrazine (NH2NH2) followed by heating with a strong base (KOH)."
+        },
+        {
+            "id": "carb_9",
+            "type": "content",
+            "title": "Oxidation Reactions",
+            "content": "# Oxidation of Carbonyls\n\nThis is where aldehydes and ketones differ drastically!\n\n## Aldehydes:\n- Easily oxidized to carboxylic acids using mild oxidizing agents (like Tollen's reagent or Fehling's solution) or strong agents (like KMnO4).\n\n## Ketones:\n- Extremely difficult to oxidize because it requires breaking strong Carbon-Carbon bonds.\n- Require vigorous conditions (strong oxidizing agents and high temperatures).\n\n## Chemical Tests:\nBecause of this difference, we use mild oxidizers to test for aldehydes:\n- **Tollen's Test:** Aldehydes reduce silver ions to solid silver, creating a beautiful 'silver mirror' on the test tube! Ketones do not react."
+        },
+        {
+            "id": "carb_quiz_2",
+            "type": "quiz",
+            "title": "Reaction Quiz",
+            "content": "Test your organic reactions.",
+            "quizQuestion": "Which test can specifically distinguish an aldehyde from a ketone by forming a silver mirror?",
+            "quizOptions": [
+                "Fehling's Test",
+                "Clemmensen Reduction",
+                "Tollen's Test",
+                "Grignard Test"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "carb_10",
+            "type": "content",
+            "title": "Industrial Applications",
+            "content": "# Uses of Aldehydes and Ketones\n\nThese compounds are heavily used in the chemical industry.\n\n## Formaldehyde (Methanal):\n- A 40% aqueous solution is called formalin, used to preserve biological specimens.\n- Used to manufacture Bakelite (a tough plastic).\n\n## Acetaldehyde (Ethanal):\n- Primarily used as a starting material in the manufacture of acetic acid, ethyl acetate, and polymers.\n\n## Acetone (Propan-2-one):\n- An excellent industrial solvent (widely used in nail polish remover and for thinning paint).\n\n## Fragrances and Flavors:\n- Benzaldehyde: Almond flavor.\n- Vanillin: Vanilla flavor.\n- Cinnamaldehyde: Cinnamon flavor."
+        },
+        {
+            "id": "carb_11",
+            "type": "content",
+            "title": "Summary: Carbonyl Compounds",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Structure:** Contain the polar >C=O double bond. Aldehydes (end of chain), Ketones (middle of chain).\n- **Preparation:** Oxidation of primary/secondary alcohols; ozonolysis of alkenes.\n- **Mechanism:** Nucleophilic Addition is the hallmark reaction, driven by the electrophilic carbon.\n- **Reactivity:** Aldehydes are generally more reactive than ketones.\n- **Reduction:** Can be reduced to alcohols (LiAlH4) or completely to alkanes (Clemmensen/Wolff-Kishner).\n- **Oxidation/Tests:** Aldehydes are easily oxidized (Tollen's silver mirror test), ketones are not.\n- **Uses:** Solvents (acetone), preservatives (formalin), and flavorings (vanillin).\n\n> **Congratulations!** You have completed the Aldehydes & Ketones module."
+        }
+    ]
+}

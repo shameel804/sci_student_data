@@ -1,0 +1,59 @@
+{
+    "id": "mic_industrial",
+    "topicId": "industrial",
+    "topicTitle": "Industrial Microbiology",
+    "description": "See how microbes are put to work in massive factories to make medicines, food, and clean up oil spills.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "mind_1",
+            "type": "content",
+            "title": "Welcome to Industrial Microbiology",
+            "content": "# Industrial Microbiology\n\nWelcome to Industrial Microbiology! This is where science meets industry. We use microbes on a massive scale to manufacture valuable products, clean up our messes, and process our food.\n\n## What You Will Learn:\n- **Fermentation Technology** - Growing microbes in giant vats\n- **Antibiotic Production** - How we make penicillin\n- **Food Microbiology** - Cheese, yogurt, and spoiling\n- **Bioremediation** - Using bacteria to clean oil spills\n\n> **Fun Fact:** Without yeast (a single-celled fungus), we wouldn't have bread, beer, or wine!"
+        },
+        {
+            "id": "mind_2",
+            "type": "content",
+            "title": "Fermentation Technology",
+            "content": "# Industrial Fermentation\n\nIn industry, 'fermentation' broadly refers to the large-scale cultivation of microbes (whether aerobic or anaerobic) to produce a commercial product.\n\n## The Bioreactor (Fermenter):\n- A massive, stainless-steel tank (can be 500,000 liters) providing a controlled environment for optimal microbial growth.\n- **Requirements:** Must control temperature, pH, dissolved oxygen (if aerobic), and stirring (agitation) to keep cells suspended and nutrients mixed.\n- **Sterilization:** The entire vessel and all nutrients must be completely sterilized before starting to prevent contamination by unwanted microbes.\n\n## The Product:\nThe microbes might produce a useful enzyme, a chemical (like citric acid), an antibiotic, or the cells themselves might be the product (like baker's yeast)."
+        },
+        {
+            "id": "mind_3",
+            "type": "content",
+            "title": "Antibiotic Production",
+            "content": "# Making Penicillin\n\nAntibiotics are secondary metabolites (they aren't required for the microbe's basic growth, but give it an ecological advantage by killing competitors).\n\n## The Process:\n1. The fungus *Penicillium chrysogenum* is grown in a highly aerated bioreactor.\n2. **Trophophase (Growth phase):** The fungus grows rapidly but produces little penicillin.\n3. **Idiophase (Production phase):** As nutrients (like carbon) begin to run out, the fungus gets stressed and starts pumping out massive amounts of penicillin into the broth.\n4. **Downstream Processing:** The fermentation broth is filtered, and the penicillin is chemically extracted, purified, and crystallized into the drug we use."
+        },
+        {
+            "id": "mind_4",
+            "type": "content",
+            "title": "Food Microbiology",
+            "content": "# Microbes in our Food\n\nMicrobes are essential for producing many of our favorite foods through fermentation.\n\n## Dairy Products:\n- **Yogurt:** Made by adding specific Lactic Acid Bacteria (*Lactobacillus* and *Streptococcus thermophilus*) to milk. They ferment lactose sugar into lactic acid, which drops the pH, causing the milk proteins to coagulate and giving the sour taste.\n- **Cheese:** A similar process, but involves adding an enzyme (rennet) to separate the solid curds from the liquid whey. The curds are then aged with specific fungi (like *Penicillium roqueforti* for blue cheese) for flavor.\n\n## Fermented Beverages:\n- Yeast (*Saccharomyces cerevisiae*) ferments the sugars in grain (for beer) or grapes (for wine) entirely anaerobically, producing ethanol (alcohol) and carbon dioxide gas."
+        },
+        {
+            "id": "mind_quiz_1",
+            "type": "quiz",
+            "title": "Industry Quiz",
+            "content": "Test your knowledge of applied microbiology.",
+            "quizQuestion": "During industrial production of antibiotics like penicillin, the maximum amount of antibiotic is usually produced during the:",
+            "quizOptions": [
+                "Lag phase",
+                "Early log (growth) phase",
+                "Idiophase (stationary/stress phase)",
+                "Death phase"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "mind_5",
+            "type": "content",
+            "title": "Bioremediation",
+            "content": "# Cleaning Up the Planet\n\nBioremediation is the use of living microorganisms to degrade environmental pollutants or prevent pollution.\n\n## How it Works:\nMany bacteria have naturally evolved the ability to use toxic chemicals (like petroleum hydrocarbons or heavy metals) as a food source!\n\n## Applications:\n- **Oil Spills:** When a massive oil spill occurs in the ocean, scientists can spray specialized oil-eating bacteria (like *Alcanivorax*) over the slick, along with fertilizer (nitrogen/phosphorus) to speed up their growth. The bacteria literally eat the crude oil and turn it into harmless water and CO2!\n- **Sewage Treatment:** The biological stage of wastewater treatment relies entirely on a complex community of bacteria to consume the organic waste in our sewage before the water is released back into the environment."
+        },
+        {
+            "id": "mind_6",
+            "type": "content",
+            "title": "Summary: Industrial Microbiology",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Bioreactors:** Massive tanks used for controlled, large-scale growth of microbes.\n- **Antibiotics:** Secondary metabolites (like penicillin) produced primarily during the stationary/stress phase (idiophase) of growth.\n- **Food Microbiology:** Lactic acid bacteria are crucial for yogurt and cheese (lowering pH to coagulate proteins). Yeast is crucial for bread and alcohol.\n- **Bioremediation:** Using specialized microbes to consume and break down toxic pollutants, such as cleaning up crude oil spills or treating human sewage.\n\n> **Congratulations!** You have completed the Industrial Microbiology module and the Microbiology (BSc) course."
+        }
+    ]
+}

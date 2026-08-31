@@ -1,0 +1,77 @@
+{
+    "id": "zoo_physiology",
+    "topicId": "physiology",
+    "topicTitle": "Animal Physiology",
+    "description": "Examine the specialized physical and chemical processes that allow animals to survive and thrive.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "zphys_1",
+            "type": "content",
+            "title": "Welcome to Animal Physiology",
+            "content": "# Animal Physiology\n\nWelcome to advanced Animal Physiology! We will explore the specialized mechanisms that allow animals to survive, adapt, and maintain internal stability in diverse environments.\n\n## What You Will Learn:\n- **Homeostasis** - The core concept of balance\n- **Respiration Mechanisms** - Gills, lungs, and skin\n- **Excretory Systems** - How animals handle waste\n- **Sensory Physiology** - How animals perceive the world\n\n> **Fun Fact:** A cheetah's respiratory and cardiovascular systems are so highly adapted for speed that it can go from 0 to 60 mph in just 3 seconds!"
+        },
+        {
+            "id": "zphys_2",
+            "type": "content",
+            "title": "Homeostasis",
+            "content": "# Maintaining the Balance\n\nHomeostasis is the ability of an animal to maintain a stable internal environment despite massive changes in the external environment.\n\n## Negative Feedback Loops:\nThe primary mechanism for homeostasis. If a variable deviates from its set point, the body initiates a response to counteract the change and bring it back to normal.\n- **Example (Temperature):** If your body temperature rises, the brain signals sweat glands to produce sweat (cooling you down) and blood vessels in the skin to dilate (releasing heat). Once temperature returns to normal, the sweating stops.\n\n## Positive Feedback:\nRare. The response amplifies the stimulus (e.g., contractions during childbirth)."
+        },
+        {
+            "id": "zphys_3",
+            "type": "content",
+            "title": "Thermoregulation",
+            "content": "# Dealing with Heat and Cold\n\nAnimals are broadly classified by how they manage body temperature.\n\n## 1. Ectotherms (Cold-blooded):\n- Rely on external environmental heat sources to maintain body temperature.\n- Examples: Reptiles, amphibians, fish, insects.\n- They use behavioral regulation (e.g., a lizard basking in the sun on a rock to warm up, or hiding under a rock to cool down).\n- Advantage: Requires much less food energy.\n\n## 2. Endotherms (Warm-blooded):\n- Generate their own body heat through metabolic processes.\n- Examples: Mammals and birds.\n- They have insulation (hair, feathers, blubber) and physiological mechanisms (shivering, sweating).\n- Advantage: Can remain active in very cold environments."
+        },
+        {
+            "id": "zphys_4",
+            "type": "content",
+            "title": "Comparative Respiration",
+            "content": "# How Animals Breathe\n\nGas exchange always requires a moist, thin membrane with a large surface area.\n\n## 1. Cutaneous Respiration (Skin):\n- Gas exchange occurs directly across the skin.\n- Examples: Earthworms, many amphibians (frogs). Requires a moist environment.\n\n## 2. Gills:\n- Highly folded tissue for gas exchange in water.\n- Fish use a highly efficient **counter-current exchange system**: Blood flows through the gills in the opposite direction of the water flowing over them, maximizing oxygen extraction.\n\n## 3. Tracheal Systems:\n- Insects do not use blood to carry oxygen! They have a network of tiny tubes (tracheae) that branch throughout the body, delivering oxygen directly to every cell.\n\n## 4. Lungs:\n- Internal respiratory surfaces for terrestrial animals (reptiles, mammals, birds)."
+        },
+        {
+            "id": "zphys_quiz_1",
+            "type": "quiz",
+            "title": "Respiration Quiz",
+            "content": "Test your physiological knowledge.",
+            "quizQuestion": "Which group of animals relies on a network of tracheae to deliver oxygen directly to cells, bypassing the circulatory system entirely?",
+            "quizOptions": [
+                "Fish",
+                "Amphibians",
+                "Insects",
+                "Birds"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "zphys_5",
+            "type": "content",
+            "title": "Comparative Excretion",
+            "content": "# Handling Nitrogenous Waste\n\nBreaking down proteins produces highly toxic ammonia. Animals excrete nitrogen in three different forms depending on their water availability.\n\n## 1. Ammonotelic Animals:\n- Excrete pure **Ammonia**.\n- Ammonia is highly toxic but highly soluble in water.\n- Used by aquatic animals (bony fish, tadpoles) because they can instantly dilute and flush it away in the surrounding water.\n\n## 2. Ureotelic Animals:\n- Excrete **Urea**.\n- Less toxic than ammonia, requires less water to excrete, but costs energy to produce.\n- Used by mammals, adult amphibians, and sharks.\n\n## 3. Uricotelic Animals:\n- Excrete **Uric Acid**.\n- The least toxic, highly insoluble. Excreted as a white paste with almost no water loss. High energy cost to produce.\n- Used by birds, insects, and land reptiles (crucial for surviving in dry environments!)."
+        },
+        {
+            "id": "zphys_6",
+            "type": "content",
+            "title": "Muscle Physiology",
+            "content": "# The Sliding Filament Theory\n\nHow do muscles actually contract? We look at skeletal muscle fibers.\n\n## The Sarcomere:\nThe functional unit of a muscle. It contains two main protein filaments:\n1. **Myosin:** Thick filaments with 'heads'.\n2. **Actin:** Thin filaments.\n\n## The Mechanism:\n- When a nerve signals the muscle, Calcium ions are released.\n- The Calcium allows the Myosin heads to bind to the Actin filaments, forming cross-bridges.\n- Using ATP energy, the Myosin heads pivot, physically pulling the Actin filaments past them.\n- The filaments slide past each other, shortening the entire sarcomere, which results in muscle contraction!"
+        },
+        {
+            "id": "zphys_7",
+            "type": "content",
+            "title": "Sensory Physiology: Vision",
+            "content": "# Seeing the World\n\nAnimal eyes range from simple light-detecting spots to complex cameras.\n\n## Compound Eyes (Insects & Crustaceans):\n- Made of thousands of individual visual units called ommatidia.\n- Excellent at detecting rapid movement, but produce a low-resolution, mosaic image.\n\n## Camera Eyes (Vertebrates & Cephalopods):\n- Use a single lens to focus light onto a retina.\n- The retina contains photoreceptor cells:\n  - **Rods:** Highly sensitive to light, used for night vision (black and white).\n  - **Cones:** Require more light, used for color vision and sharp details.\n- Interestingly, the camera eye of an octopus evolved entirely independently from the camera eye of a vertebrate (convergent evolution!)."
+        },
+        {
+            "id": "zphys_8",
+            "type": "content",
+            "title": "Sensory Physiology: Echolocation",
+            "content": "# Hearing the World\n\nSome animals have evolved specialized sensory systems beyond human capability.\n\n## Echolocation (Biosonar):\n- Used by bats and toothed whales (dolphins, sperm whales).\n- The animal emits a high-frequency sound pulse (clicks or squeaks).\n- The sound waves bounce off objects in the environment (like a flying moth or a swimming fish) and return as echoes.\n- The animal's highly specialized brain processes the time delay and frequency shift of the returning echoes to build a precise 3D map of their surroundings in total darkness!"
+        },
+        {
+            "id": "zphys_9",
+            "type": "content",
+            "title": "Summary: Animal Physiology",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Homeostasis:** Maintaining internal balance, primarily via negative feedback loops.\n- **Thermoregulation:** Ectotherms (rely on environment) vs Endotherms (generate metabolic heat).\n- **Respiration:** Gills use counter-current exchange; insects use tracheal tubes directly to cells.\n- **Excretion:** Ammonotelic (aquatic, excretes toxic ammonia), Ureotelic (mammals, excretes urea), Uricotelic (birds/reptiles, excrete uric acid paste to save water).\n- **Muscles:** Contract via the sliding filament theory (Myosin pulling Actin).\n- **Senses:** Compound eyes (insects, good for motion) vs Camera eyes (vertebrates). Echolocation allows bats/dolphins to 'see' with sound.\n\n> **Congratulations!** You have completed the Animal Physiology module and the Zoology (BSc) course."
+        }
+    ]
+}

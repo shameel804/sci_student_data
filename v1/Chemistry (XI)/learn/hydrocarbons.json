@@ -1,0 +1,123 @@
+{
+    "id": "learn_hydrocarbons",
+    "topicId": "hydrocarbons",
+    "topicTitle": "Hydrocarbons",
+    "description": "Meet the fuels that power our world. Learn about Alkanes, Alkenes, Alkynes, and the mysterious Benzene ring.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "chem_hc_1",
+            "type": "content",
+            "title": "Welcome to Hydrocarbons",
+            "content": "# The Simplest Organic Molecules\n\nThe term 'hydrocarbon' is self-explanatory. These are compounds composed of ONLY Carbon and Hydrogen.\n\nDespite being so simple, they are incredibly important. They are the primary source of energy in the world! Petroleum, natural gas, coal, and the gasoline in your car are all mixtures of hydrocarbons.\n\n## What You Will Learn:\n- **Alkanes:** The saturated, single-bonded chains.\n- **Alkenes:** The double-bonded reactive molecules.\n- **Alkynes:** The triple-bonded powerhouses.\n- **Aromatic Hydrocarbons:** The incredibly stable Benzene ring.\n- **Carcinogenicity:** The dark side of burning hydrocarbons."
+        },
+        {
+            "id": "chem_hc_2",
+            "type": "content",
+            "title": "Classification of Hydrocarbons",
+            "content": "# Saturated vs Unsaturated\n\nHydrocarbons are broadly classified into two main categories based on the types of carbon-carbon bonds present:\n\n1. **Saturated Hydrocarbons (Alkanes):** Contain ONLY Carbon-Carbon single bonds. They contain the maximum possible number of hydrogen atoms (they are \"saturated\" with hydrogen).\n2. **Unsaturated Hydrocarbons:** Contain at least one Carbon-Carbon double bond (**Alkenes**) or triple bond (**Alkynes**). They have fewer hydrogens and are generally more reactive than alkanes."
+        },
+        {
+            "id": "chem_hc_3",
+            "type": "content",
+            "title": "Alkanes",
+            "content": "# The Paraffins\n\nAlkanes are saturated open-chain hydrocarbons containing C-C single bonds. \nTheir general formula is **CnH2n+2** (where n is the number of carbon atoms).\n\n- n=1: CH4 (Methane - the main component of natural gas)\n- n=2: C2H6 (Ethane)\n- n=3: C3H8 (Propane - used in BBQ grills)\n\nBecause all their bonds are strong sigma bonds, they are very unreactive under normal conditions (which is why they were historically called \"paraffins\", meaning \"little affinity\")."
+        },
+        {
+            "id": "chem_hc_4",
+            "type": "content",
+            "title": "Reactions of Alkanes",
+            "content": "# Burning the Fuel\n\nWhile they don't react with most things, alkanes undergo two very important reactions:\n\n1. **Combustion:** When heated in the presence of excess oxygen, alkanes burn completely to produce Carbon Dioxide (CO2), Water (H2O), and a MASSIVE amount of heat energy. This is why we use them as fuels!\n   `CH4 + 2O2 -> CO2 + 2H2O + Heat`\n\n2. **Halogenation:** In the presence of sunlight (UV light), a hydrogen atom on an alkane can be replaced by a halogen atom (like Chlorine or Bromine). This is a substitution reaction."
+        },
+        {
+            "id": "chem_hc_quiz_1",
+            "type": "quiz",
+            "title": "Alkane Quiz",
+            "content": "Check your understanding of saturated hydrocarbons.",
+            "quizQuestion": "What are the two main products formed during the complete combustion of an alkane in excess oxygen?",
+            "quizOptions": [
+                "Carbon Monoxide and Water",
+                "Carbon Dioxide and Water",
+                "Carbon and Hydrogen Gas",
+                "Carbon Dioxide and Hydrogen Gas"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_hc_5",
+            "type": "content",
+            "title": "Alkenes",
+            "content": "# The Double Bond\n\nAlkenes are unsaturated hydrocarbons containing at least one Carbon-Carbon **double bond**.\nTheir general formula is **CnH2n**.\n\n- The simplest alkene is Ethene (C2H4), often called ethylene. It is a natural plant hormone that ripens fruit!\n\nThe double bond consists of one strong sigma bond and one weaker **pi bond**. Because the pi electrons are loosely held, alkenes are much more chemically reactive than alkanes."
+        },
+        {
+            "id": "chem_hc_6",
+            "type": "content",
+            "title": "Reactions of Alkenes: Addition",
+            "content": "# Breaking the Pi Bond\n\nThe most characteristic reaction of alkenes is the **Addition Reaction**.\nBecause the pi bond is weak, a reagent can attack the double bond, break the pi bond, and add new atoms to the two carbon atoms, turning the double bond into a single bond!\n\n1. **Hydrogenation:** Adding H2 (in the presence of a catalyst like Platinum) turns an alkene into an alkane. (This process is used to turn liquid vegetable oils into solid margarine!).\n2. **Halogenation:** Adding Cl2 or Br2. Adding Bromine water (which is red) to an alkene results in a colorless liquid. This is a common laboratory test for unsaturation!"
+        },
+        {
+            "id": "chem_hc_7",
+            "type": "content",
+            "title": "Alkynes",
+            "content": "# The Triple Bond\n\nAlkynes are unsaturated hydrocarbons containing at least one Carbon-Carbon **triple bond**.\nTheir general formula is **CnH2n-2**.\n\n- The simplest alkyne is Ethyne (C2H2), commonly known as acetylene. When burned with oxygen in an oxyacetylene torch, it produces an incredibly hot flame (over 3000 degrees Celsius) used for welding and cutting metals!\n\nThe triple bond consists of one strong sigma bond and TWO weak pi bonds, making alkynes even more reactive towards addition reactions than alkenes."
+        },
+        {
+            "id": "chem_hc_quiz_2",
+            "type": "quiz",
+            "title": "Unsaturation Quiz",
+            "content": "Check your understanding of multiple bonds.",
+            "quizQuestion": "Which type of reaction is characteristic of unsaturated hydrocarbons (alkenes and alkynes) because of the presence of weak pi bonds?",
+            "quizOptions": [
+                "Substitution reactions",
+                "Elimination reactions",
+                "Addition reactions",
+                "Neutralization reactions"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "chem_hc_8",
+            "type": "content",
+            "title": "Aromatic Hydrocarbons",
+            "content": "# The Mystery of Benzene\n\nAromatic hydrocarbons are a special class of cyclic compounds. The most important one is **Benzene (C6H6)**.\n\nBenzene is a 6-membered carbon ring. Based on its formula, it should have alternating double and single bonds, making it highly unsaturated and very reactive (like an alkene).\n\nBut early chemists were baffled: Benzene is incredibly stable! It refuses to undergo the addition reactions that alkenes normally do."
+        },
+        {
+            "id": "chem_hc_9",
+            "type": "content",
+            "title": "Resonance in Benzene",
+            "content": "# The Delocalized Ring\n\nWhy is Benzene so stable? The answer lies in Quantum Mechanics and **Resonance**.\n\nThe pi electrons in Benzene are not localized between two specific carbon atoms. Instead, they are **delocalized**—they spread out evenly over the entire 6-carbon ring, forming continuous electron clouds above and below the ring.\n\nThis delocalization significantly lowers the energy of the molecule, giving it extraordinary stability. This is why aromatic compounds prefer *substitution* reactions (replacing a hydrogen) rather than *addition* reactions (which would break the stable delocalized ring!)."
+        },
+        {
+            "id": "chem_hc_10",
+            "type": "content",
+            "title": "Toxicity and Carcinogenicity",
+            "content": "# The Dark Side of Burning\n\nWhile hydrocarbons are incredibly useful as fuels and building blocks for plastics, they have a dangerous side.\n\nMany polynuclear hydrocarbons (molecules containing more than two benzene rings fused together) are toxic and **carcinogenic** (cancer-causing).\n\nThese dangerous compounds are often formed by the incomplete combustion of organic materials like tobacco, coal, and petroleum. They enter the human body and can undergo biochemical reactions that damage DNA and cause mutations leading to cancer."
+        },
+        {
+            "id": "chem_hc_quiz_3",
+            "type": "quiz",
+            "title": "Aromatic Quiz",
+            "content": "Check your understanding of Benzene.",
+            "quizQuestion": "Why is Benzene exceptionally stable and unreactive towards addition reactions compared to a typical alkene?",
+            "quizOptions": [
+                "Because it has only single bonds.",
+                "Because it is a linear molecule.",
+                "Because of the delocalization of its pi electrons (Resonance).",
+                "Because it contains no hydrogen atoms."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "chem_hc_11",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Hydrocarbon:** Compounds made of ONLY Carbon and Hydrogen.\n- **Saturated (Alkane):** Only C-C single bonds (CnH2n+2). Unreactive, but great for combustion (fuels).\n- **Unsaturated (Alkene/Alkyne):** Contains double (CnH2n) or triple bonds (CnH2n-2). Highly reactive.\n- **Addition Reaction:** Breaking a pi bond to add new atoms (typical of alkenes and alkynes).\n- **Aromatic Hydrocarbon:** Compounds containing a highly stable Benzene ring.\n- **Resonance:** The delocalization of pi electrons over the benzene ring, providing exceptional stability.\n- **Carcinogenic:** Cancer-causing."
+        },
+        {
+            "id": "chem_hc_12",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Hydrocarbons\n\nExcellent work! Here is a recap of what we've learned:\n\n- Hydrocarbons are classified by their bonds. **Alkanes** (single bonds) are saturated and relatively unreactive, used primarily for **combustion** to generate heat.\n- **Alkenes** (double bonds) and **Alkynes** (triple bonds) are unsaturated. The presence of weak pi bonds makes them highly reactive, readily undergoing **addition reactions**.\n- **Benzene** is an **aromatic hydrocarbon**. Despite having double bonds, it is incredibly stable due to **resonance** (the delocalization of its pi electrons), so it resists addition reactions.\n- Incomplete combustion of hydrocarbons can produce hazardous, **carcinogenic** compounds."
+        }
+    ]
+}

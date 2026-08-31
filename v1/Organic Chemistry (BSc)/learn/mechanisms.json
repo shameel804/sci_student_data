@@ -1,0 +1,139 @@
+{
+    "id": "learn_mechanisms",
+    "topicId": "mechanisms",
+    "topicTitle": "Reaction Mechanisms",
+    "description": "Understand how organic molecules react step-by-step, covering substitution, elimination, addition, and rearrangement mechanisms.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "mech_1",
+            "type": "content",
+            "title": "Introduction to Mechanisms",
+            "content": "# What is a Reaction Mechanism?\n\nA chemical equation simply tells you the starting materials (reactants) and the final products. It's like seeing the \"Before\" and \"After\" photos of a house renovation.\n\nA **Reaction Mechanism** is the step-by-step blueprint. It shows exactly *how* the house was renovated: which bonds broke, which bonds formed, and in what exact order.\n\n## The Language of Mechanisms\nChemists use **curved arrows** to show the movement of electrons during a reaction. \n- The tail of the arrow shows where electrons come from (a bond or a lone pair).\n- The head of the arrow shows where the electrons are going (to form a new bond or become a lone pair)."
+        },
+        {
+            "id": "mech_2",
+            "type": "content",
+            "title": "Nucleophiles and Electrophiles",
+            "content": "# The Main Actors\n\nAlmost all organic reactions involve the interaction of two main types of species:\n\n## 1. Nucleophiles (Nucleus-lovers)\n- **Definition:** Electron-rich species that donate an electron pair to form a new bond.\n- **Characteristics:** They often have a negative charge, a lone pair of electrons, or a pi bond (double/triple bond).\n- **Examples:** Hydroxide ion (OH-), Ammonia (NH3), Water (H2O).\n\n## 2. Electrophiles (Electron-lovers)\n- **Definition:** Electron-poor species that accept an electron pair to form a new bond.\n- **Characteristics:** They often have a positive charge or a partial positive charge (due to being attached to a highly electronegative atom).\n- **Examples:** Carbocations (C+), Carbonyl carbons (C=O)."
+        },
+        {
+            "id": "mech_3",
+            "type": "content",
+            "title": "Substitution Reactions",
+            "content": "# Substitution Reactions\n\nIn a **substitution reaction**, one atom or group of atoms in a molecule is replaced by another atom or group.\n\n## The General Form:\nR-X + Nu- -> R-Nu + X-\n\nWhere:\n- **R** = The organic framework (e.g., an alkyl group).\n- **X** = The **Leaving Group**. This is the group being kicked out. Good leaving groups are weak bases that are stable on their own (like Halogens: Cl-, Br-, I-).\n- **Nu-** = The **Nucleophile** that is replacing the leaving group.\n\nThere are two main pathways for nucleophilic substitution: SN1 and SN2."
+        },
+        {
+            "id": "mech_4",
+            "type": "content",
+            "title": "The SN2 Mechanism",
+            "content": "# SN2: Substitution Nucleophilic Bimolecular\n\nThe SN2 mechanism is a fast, concerted (one-step) process. It's the molecular equivalent of a dramatic takeover.\n\n## The Process:\n1. The nucleophile attacks the electrophilic carbon from the *backside* (exactly opposite to the leaving group).\n2. As the new bond forms, the old bond simultaneously breaks.\n3. The molecule undergoes an **inversion of configuration** (like an umbrella flipping inside out in the wind).\n\n## Kinetics:\nThe rate depends on BOTH the nucleophile and the electrophile.\n**Rate = k * [Electrophile] * [Nucleophile]**"
+        },
+        {
+            "id": "mech_5",
+            "type": "content",
+            "title": "Factors Favoring SN2",
+            "content": "# What makes SN2 happen?\n\nBecause the nucleophile must squeeze past the surrounding atoms to hit the target carbon from the back, **Steric Hindrance** (crowding) is the biggest factor.\n\n## Ideal Conditions for SN2:\n- **Substrate:** Methyl or Primary carbons (very little crowding). Tertiary carbons NEVER undergo SN2 because they are too crowded.\n- **Nucleophile:** Strong nucleophiles are required to force the reaction.\n- **Solvent:** Polar aprotic solvents (like acetone or DMSO) that do not surround and hinder the nucleophile.\n- **Leaving Group:** A good leaving group makes the reaction faster."
+        },
+        {
+            "id": "mech_6",
+            "type": "content",
+            "title": "The SN1 Mechanism",
+            "content": "# SN1: Substitution Nucleophilic Unimolecular\n\nThe SN1 mechanism is a step-wise process. It requires patience.\n\n## The Process:\n1. **Step 1 (Slow):** The leaving group departs on its own, leaving behind a positively charged carbon (a **carbocation** intermediate).\n2. **Step 2 (Fast):** The nucleophile attacks the carbocation.\n\nBecause the carbocation is flat (planar), the nucleophile can attack from either the front or the back, leading to a mixture of products (racemization).\n\n## Kinetics:\nThe rate depends ONLY on the electrophile breaking apart.\n**Rate = k * [Electrophile]**"
+        },
+        {
+            "id": "mech_7",
+            "type": "content",
+            "title": "Factors Favoring SN1",
+            "content": "# What makes SN1 happen?\n\nBecause the reaction relies entirely on the formation of the carbocation intermediate, **Carbocation Stability** is the most crucial factor.\n\n## Ideal Conditions for SN1:\n- **Substrate:** Tertiary carbons are best because they form highly stable tertiary carbocations. Primary carbons almost never undergo SN1.\n- **Nucleophile:** Can be weak (like water or alcohol) because the carbocation is so reactive it will grab anything.\n- **Solvent:** Polar protic solvents (like water or ethanol) which help stabilize the charged intermediate.\n- **Leaving Group:** An excellent leaving group is absolutely required for the first step to occur."
+        },
+        {
+            "id": "mech_8",
+            "type": "content",
+            "title": "Elimination Reactions",
+            "content": "# Elimination Reactions\n\nIn an **elimination reaction**, two groups are removed from adjacent carbons, resulting in the formation of a double bond (an alkene).\n\n## The General Form:\nH-C-C-X + Base -> C=C + H-Base + X-\n\nWhere:\n- **X** = The leaving group.\n- **Base** = A species that attacks and removes a proton (Hydrogen ion) from the carbon adjacent to the leaving group.\n\nJust like substitution, there are two main pathways: E1 and E2."
+        },
+        {
+            "id": "mech_9",
+            "type": "content",
+            "title": "The E2 Mechanism",
+            "content": "# E2: Elimination Bimolecular\n\nThe E2 mechanism is a concerted (one-step) elimination process, very similar to SN2.\n\n## The Process:\n1. A strong base attacks a proton on a carbon adjacent to the leaving group.\n2. As the proton is removed, its electrons fold down to form the double bond.\n3. This immediately forces the leaving group to depart.\n\n## Stereochemistry requirement:\nFor the orbitals to overlap and form the double bond, the hydrogen being removed and the leaving group must be completely opposite to each other (anti-periplanar)."
+        },
+        {
+            "id": "mech_10",
+            "type": "content",
+            "title": "Zaitsev's Rule",
+            "content": "# Predicting Elimination Products\n\nWhen multiple different adjacent hydrogens are available, which one does the base attack? Which double bond forms?\n\n## Zaitsev's Rule\n> \"In an elimination reaction, the most substituted double bond will be the major product.\"\n\n- The base will preferentially remove a proton from the carbon that has the *fewest* hydrogens already attached.\n- This leads to a more highly substituted, and therefore thermodynamically more stable, alkene.\n\n**Exception:** If you use an extremely bulky base (like t-butoxide), it cannot physically reach the interior hydrogens and will attack the easiest edge hydrogen, forming the less substituted double bond (Hoffmann product)."
+        },
+        {
+            "id": "mech_11",
+            "type": "content",
+            "title": "The E1 Mechanism",
+            "content": "# E1: Elimination Unimolecular\n\nThe E1 mechanism is step-wise and competes directly with SN1.\n\n## The Process:\n1. **Step 1 (Slow):** The leaving group departs, forming a carbocation (Identical to step 1 of SN1).\n2. **Step 2 (Fast):** A weak base removes a proton from an adjacent carbon, and the electrons fold in to form the double bond.\n\n## Kinetics & Competition\n- The rate depends only on the formation of the carbocation.\n- Because SN1 and E1 share the exact same first step, they almost always happen together. If you run a reaction under E1 conditions, you will also get SN1 products."
+        },
+        {
+            "id": "mech_12",
+            "type": "content",
+            "title": "Addition Reactions",
+            "content": "# Addition Reactions\n\nAddition reactions are the exact opposite of elimination reactions. Two groups are added to the carbons of a double or triple bond, breaking the pi bond.\n\n## Why do they happen?\nPi bonds (the second bond in a double bond) are relatively weak and their electrons are exposed. This makes double bonds excellent nucleophiles (they want to attack positive things).\n\n## Common Examples:\n- **Hydrogenation:** Adding H2 across a double bond to form an alkane.\n- **Halogenation:** Adding Cl2 or Br2.\n- **Hydrohalogenation:** Adding HCl or HBr."
+        },
+        {
+            "id": "mech_13",
+            "type": "content",
+            "title": "Electrophilic Addition Mechanism",
+            "content": "# Electrophilic Addition\n\nThe most common mechanism for adding to alkenes.\n\n## The Process (e.g., adding HBr):\n1. **Step 1:** The nucleophilic pi bond attacks the electrophilic Hydrogen of HBr. The H-Br bond breaks.\n2. **Step 2:** The Hydrogen attaches to one carbon, leaving the other carbon with a positive charge (a carbocation).\n3. **Step 3:** The negatively charged Bromide ion (Br-) attacks the carbocation, forming the final product.\n\nBut which carbon gets the Hydrogen, and which gets the Bromine?"
+        },
+        {
+            "id": "mech_14",
+            "type": "content",
+            "title": "Markovnikov's Rule",
+            "content": "# Markovnikov's Rule\n\nWhen adding an asymmetric molecule (like H-Br or H-OH) to an asymmetric double bond, the reaction is highly specific.\n\n## The Rule:\n> \"The rich get richer.\" The Hydrogen atom will add to the carbon of the double bond that already has the most Hydrogens.\n\n## The Mechanism Reason:\nThis happens because the Hydrogen adding first creates a carbocation. Nature will always choose the path that forms the most stable (most highly substituted) carbocation intermediate. The Halogen then attacks that stable carbocation."
+        },
+        {
+            "id": "mech_15",
+            "type": "content",
+            "title": "Rearrangement Reactions",
+            "content": "# Carbocation Rearrangements\n\nCarbocations are unstable, highly reactive species. If a carbocation can easily shift its structure to become more stable, it will do so almost instantly.\n\n## Types of Rearrangement:\n1. **Hydride Shift:** A hydrogen atom (with its bonding electrons) jumps from an adjacent carbon to the positive carbon.\n2. **Methyl Shift:** An entire methyl group (CH3) jumps from an adjacent carbon to the positive carbon.\n\n## When do they happen?\nA shift will ONLY occur if it results in a more stable carbocation (e.g., shifting from a secondary to a tertiary carbocation). This can completely change the expected product of an SN1 or E1 reaction!"
+        },
+        {
+            "id": "mech_16",
+            "type": "content",
+            "title": "Radical Reactions",
+            "content": "# Free Radical Substitution\n\nNot all mechanisms involve ions (positive and negative charges). Some involve **radicals** - species with a single, unpaired electron.\n\n## Halogenation of Alkanes (e.g., Methane + Chlorine)\n1. **Initiation:** UV light breaks the Cl-Cl bond evenly, creating two highly reactive Chlorine radicals (Cl dot).\n2. **Propagation:** \n   - The Cl radical steals a hydrogen from methane, creating a methyl radical.\n   - The methyl radical attacks a new Cl-Cl molecule, forming Chloromethane and a new Cl radical (the cycle continues).\n3. **Termination:** Two radicals crash into each other and form a stable bond, ending the chain reaction."
+        },
+        {
+            "id": "mech_17",
+            "type": "content",
+            "title": "Summary of Mechanisms",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **SN2:** Concerted, backside attack. Inverts stereochemistry. Needs unhindered carbons and strong nucleophiles.\n2. **SN1:** Stepwise, forms a carbocation. Needs stable (tertiary) carbons.\n3. **E2:** Concerted elimination forming a double bond. Follows Zaitsev's rule (most substituted double bond favored).\n4. **Addition:** Breaks double bonds. Follows Markovnikov's rule (Hydrogen goes to the carbon with the most Hydrogens).\n5. **Rearrangements:** Carbocations will shift if they can become more stable."
+        },
+        {
+            "id": "mech_quiz_1",
+            "type": "quiz",
+            "title": "Substitution Quiz",
+            "content": "Test your knowledge of substitution mechanisms.",
+            "quizQuestion": "Which of the following conditions is required for an SN2 mechanism to occur?",
+            "quizOptions": [
+                "Formation of a highly stable carbocation",
+                "A tertiary carbon substrate",
+                "Backside attack by the nucleophile",
+                "A polar protic solvent"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "mech_quiz_2",
+            "type": "quiz",
+            "title": "Addition Quiz",
+            "content": "Review Markovnikov's rule.",
+            "quizQuestion": "According to Markovnikov's rule, when HBr is added to a double bond, where will the Bromine atom attach?",
+            "quizOptions": [
+                "To the carbon with the most hydrogens",
+                "To the carbon that forms the most stable carbocation intermediate",
+                "It attaches randomly to either carbon",
+                "It attaches to the least substituted carbon"
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

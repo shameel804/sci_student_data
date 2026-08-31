@@ -1,0 +1,139 @@
+{
+    "id": "learn_stereo",
+    "topicId": "stereo",
+    "topicTitle": "Stereochemistry",
+    "description": "Discover the 3D nature of molecules, exploring chirality, enantiomers, diastereomers, and how spatial arrangement dictates biological activity.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "ster_1",
+            "type": "content",
+            "title": "Introduction to Stereochemistry",
+            "content": "# The 3D World of Molecules\n\n**Stereochemistry** is the study of the spatial, 3-dimensional arrangement of atoms within a molecule.\n\nTwo molecules can have the exact same chemical formula, and the exact same bonds connecting the atoms (constitutional isomers), yet still be entirely different molecules simply because the atoms point in different directions in 3D space.\n\nThese are called **Stereoisomers**.\n\n## Why does it matter?\nIn biology, 3D shape is everything. Receptors and enzymes are like highly specific locks. If a molecule has the wrong 3D shape, it will not fit in the lock, even if it has all the right atoms."
+        },
+        {
+            "id": "ster_2",
+            "type": "content",
+            "title": "Chirality",
+            "content": "# What is Chirality?\n\nThe most important concept in stereochemistry is **Chirality** (from the Greek word for \"hand\").\n\n## Definition:\nA molecule is chiral if it is **not superimposable on its mirror image**.\n\nLook at your hands. Your left hand is a mirror image of your right hand. However, you cannot place your left hand perfectly on top of your right hand (both palms down) so that all fingers match. Your hands are chiral.\n\nA molecule like a plain ball is achiral. Its mirror image is identical and superimposable."
+        },
+        {
+            "id": "ster_3",
+            "type": "content",
+            "title": "The Stereocenter",
+            "content": "# Finding Chirality: The Stereocenter\n\nHow can you tell if a molecule is chiral just by looking at its structure?\n\nYou look for a **Stereocenter** (also called a chiral center or stereogenic center).\n\n## The Rule:\nA stereocenter is a carbon atom that is bonded to **FOUR DIFFERENT groups**.\n\n- If a carbon has two hydrogens on it, it is NOT a stereocenter (because two groups are identical).\n- If a carbon is part of a double bond, it is NOT a stereocenter (it only bonds to three groups).\n- The groups can be as simple as a Hydrogen or as complex as a massive carbon chain. As long as the four paths leading away from the carbon are different, it is a stereocenter."
+        },
+        {
+            "id": "ster_4",
+            "type": "content",
+            "title": "Enantiomers",
+            "content": "# Enantiomers: Mirror Twins\n\nIf a molecule is chiral, it must have a non-superimposable mirror image. \n\nThis pair of molecules are called **Enantiomers**.\n\n## Properties of Enantiomers:\nEnantiomers are incredibly difficult to separate in the lab because they share almost all identical physical properties:\n- Same boiling point\n- Same melting point\n- Same density\n- Same reactivity with non-chiral reagents\n\nSo how are they different?"
+        },
+        {
+            "id": "ster_5",
+            "type": "content",
+            "title": "Optical Activity",
+            "content": "# Optical Activity\n\nThe primary physical difference between two enantiomers is how they interact with polarized light.\n\n## Polarized Light\nNormal light waves vibrate in all directions. Plane-polarized light vibrates in only one plane.\n\n## The Phenomenon\nWhen polarized light passes through a solution containing a chiral molecule, the plane of the light is rotated.\n- One enantiomer will rotate the light clockwise (dextrorotatory, marked as +).\n- The exact mirror image enantiomer will rotate the light exactly the same amount, but counter-clockwise (levorotatory, marked as -).\n\nAchiral molecules do NOT rotate polarized light."
+        },
+        {
+            "id": "ster_6",
+            "type": "content",
+            "title": "The Cahn-Ingold-Prelog System",
+            "content": "# Naming Enantiomers: The R/S System\n\nSince enantiomers are different molecules, they need different names. We use the **Cahn-Ingold-Prelog (CIP) priority rules** to label stereocenters as (R) or (S).\n\n## Step 1: Assign Priorities\nLook at the four atoms directly attached to the stereocenter. Rank them 1 to 4 based on **Atomic Number** (higher atomic number = higher priority).\n- e.g., Iodine (1) > Oxygen (2) > Carbon (3) > Hydrogen (4).\n\nIf there is a tie, look at the atoms one bond further out until the tie is broken."
+        },
+        {
+            "id": "ster_7",
+            "type": "content",
+            "title": "Assigning R or S",
+            "content": "# Determining the Configuration\n\nOnce priorities (1-4) are assigned, determine the 3D arrangement.\n\n## Step 2: Orient the Molecule\nRotate the molecule in 3D space so that the lowest priority group (group 4, usually Hydrogen) is pointing directly AWAY from you (into the page, represented by a dashed wedge).\n\n## Step 3: Draw a Curve\nDraw a curved arrow from group 1, to group 2, to group 3.\n- If the arrow goes **Clockwise**, the center is **(R)** (from Latin *rectus*, right).\n- If the arrow goes **Counter-Clockwise**, the center is **(S)** (from Latin *sinister*, left).\n\nThis letter is added to the beginning of the IUPAC name, e.g., (R)-2-butanol."
+        },
+        {
+            "id": "ster_8",
+            "type": "content",
+            "title": "Biological Significance of Chirality",
+            "content": "# Why Chirality is Crucial\n\nWhile enantiomers act identically in a beaker, they act entirely differently in the human body.\n\nOur bodies are made of chiral molecules (like L-amino acids and D-sugars). \n\n## Examples:\n- **Smell:** (R)-carvone smells like spearmint, while (S)-carvone smells like caraway (rye bread).\n- **Drugs (The Thalidomide Tragedy):** In the 1950s, the drug Thalidomide was sold to pregnant women. The (R)-enantiomer cured morning sickness. The (S)-enantiomer caused severe birth defects. Because they were sold as a 50/50 mix, thousands of babies were affected.\n\nModern pharmaceuticals must rigorously control which enantiomer they are producing."
+        },
+        {
+            "id": "ster_9",
+            "type": "content",
+            "title": "Racemic Mixtures",
+            "content": "# Racemic Mixtures\n\nA **Racemic Mixture** (or racemate) is a solution containing an exact 50/50 mixture of two enantiomers.\n\n## Optical Activity:\nBecause one enantiomer rotates light clockwise, and the other rotates it counter-clockwise by the exact same amount, the rotations perfectly cancel out.\n\n**A racemic mixture is optically inactive (rotation = 0 degrees).**\n\nWhen creating chiral molecules in the lab from achiral starting materials (like an SN1 reaction), you almost always produce a racemic mixture because the reagent is equally likely to attack from the top or the bottom."
+        },
+        {
+            "id": "ster_10",
+            "type": "content",
+            "title": "Diastereomers",
+            "content": "# Multiple Stereocenters\n\nWhat happens when a molecule has more than one stereocenter?\n\nRule: A molecule with 'n' stereocenters can have a maximum of **2^n stereoisomers**.\n\n## Diastereomers\nIf two stereoisomers are NOT mirror images of each other, they are **Diastereomers**.\n- To be enantiomers, *every single stereocenter* must be inverted (R becomes S, S becomes R).\n- If only *some* of the stereocenters are inverted, they are diastereomers.\n\nUnlike enantiomers, diastereomers have completely different physical properties (different boiling points, solubilities, etc.) and are easy to separate in the lab."
+        },
+        {
+            "id": "ster_11",
+            "type": "content",
+            "title": "Meso Compounds",
+            "content": "# Meso Compounds\n\nThere is a special exception to the 2^n rule.\n\nA **Meso Compound** is a molecule that contains multiple stereocenters, but the molecule as a whole is ACHIRAL.\n\n## How is this possible?\nThis happens when the molecule has an internal plane of symmetry. The \"left half\" of the molecule is the exact mirror image of the \"right half\".\n\nBecause of this internal symmetry, the molecule is superimposable on its own mirror image. Meso compounds are completely optically inactive."
+        },
+        {
+            "id": "ster_12",
+            "type": "content",
+            "title": "Cis-Trans Isomerism",
+            "content": "# Stereochemistry of Alkenes\n\nDouble bonds cannot freely rotate (unlike single bonds). This lack of rotation creates another type of stereoisomerism.\n\n## Cis and Trans\nWhen there are identical groups on either side of the double bond:\n- **Cis:** The identical groups are on the SAME side of the double bond.\n- **Trans:** The identical groups are on OPPOSITE sides of the double bond.\n\nCis and trans isomers are a specific type of **diastereomer**. They are not mirror images and have different physical properties."
+        },
+        {
+            "id": "ster_13",
+            "type": "content",
+            "title": "E/Z Nomenclature",
+            "content": "# The E/Z System for Alkenes\n\nWhat if all four groups attached to the double bond are different? You cannot use Cis and Trans.\n\nWe use the CIP priority rules (the same ones used for R/S).\n\n1. Split the double bond in half vertically.\n2. On the left carbon, assign high (1) and low (2) priority to its two groups based on atomic number.\n3. On the right carbon, do the same.\n\n- If the two High Priority groups are on the SAME side, it is **(Z)** (from German *zusammen*, together).\n- If the two High Priority groups are on OPPOSITE sides, it is **(E)** (from German *entgegen*, opposite)."
+        },
+        {
+            "id": "ster_14",
+            "type": "content",
+            "title": "Conformational Analysis",
+            "content": "# Conformational Analysis\n\nSingle bonds (unlike double bonds) can freely rotate. As they rotate, the molecule takes on different 3D shapes called **Conformations**.\n\n## Newman Projections\nChemists visualize this by looking straight down a carbon-carbon bond using a Newman Projection.\n\n## Staggered vs Eclipsed\n- **Staggered:** The atoms on the front carbon are spaced equally between the atoms on the back carbon. This minimizes repulsion and is highly stable (lowest energy).\n- **Eclipsed:** The atoms on the front carbon directly block (eclipse) the atoms on the back carbon. This causes massive electron repulsion (torsional strain) and is highly unstable (highest energy)."
+        },
+        {
+            "id": "ster_15",
+            "type": "content",
+            "title": "Cyclohexane Conformations",
+            "content": "# The 3D Shape of Rings\n\nCyclohexane (a six-carbon ring) is not flat. If it were flat, the bond angles would be forced to 120 degrees, causing massive strain.\n\n## The Chair Conformation\nTo achieve perfect 109.5 degree angles and stagger all its bonds, cyclohexane puckers into a 3D shape that resembles a lounge chair.\n\nIn the chair conformation, hydrogens point in two specific directions:\n- **Axial:** Pointing straight UP or straight DOWN.\n- **Equatorial:** Pointing OUTWARD along the equator of the ring.\n\nBulky substituents always prefer to be in the equatorial position to avoid crashing into other atoms (steric strain)."
+        },
+        {
+            "id": "ster_16",
+            "type": "content",
+            "title": "Stereoselective Reactions",
+            "content": "# Stereoselectivity in Synthesis\n\nModern chemistry focuses heavily on **stereoselective reactions**\u2014reactions that intentionally produce one specific stereoisomer over another.\n\n## Why is this hard?\nNormally, chemical reactions create racemic mixtures (50/50). \n\n## Asymmetric Synthesis\nTo force a reaction to create only one hand (e.g., only the (R) enantiomer), chemists must use **chiral catalysts** or chiral reagents. This is essentially creating a \"chiral mold\" that forces the reacting molecules to come together in one very specific 3D orientation."
+        },
+        {
+            "id": "ster_17",
+            "type": "content",
+            "title": "Summary of Stereochemistry",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Chirality:** A molecule is chiral if its mirror image is non-superimposable. Usually caused by a carbon bonded to 4 different groups.\n2. **Enantiomers:** Exact mirror image pairs. They rotate polarized light in opposite directions.\n3. **R/S System:** Rules for naming the exact 3D configuration of a stereocenter based on atomic priorities.\n4. **Diastereomers:** Stereoisomers that are NOT mirror images (have different physical properties).\n5. **Meso Compounds:** Molecules with chiral centers that are overall achiral due to a plane of symmetry.\n6. **E/Z and Cis/Trans:** Describes the stereochemistry of rigid double bonds."
+        },
+        {
+            "id": "ster_quiz_1",
+            "type": "quiz",
+            "title": "Chirality Quiz",
+            "content": "Test your ability to identify stereocenters.",
+            "quizQuestion": "Which of the following is an absolute requirement for a carbon atom to be considered a stereocenter?",
+            "quizOptions": [
+                "It must be part of a double bond.",
+                "It must be bonded to four completely different groups.",
+                "It must have at least one hydrogen atom attached.",
+                "It must rotate polarized light clockwise."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "ster_quiz_2",
+            "type": "quiz",
+            "title": "Enantiomers Quiz",
+            "content": "Review the properties of stereoisomers.",
+            "quizQuestion": "A solution containing an exact 50/50 mixture of two enantiomers is called a:",
+            "quizOptions": [
+                "Meso compound",
+                "Diastereomeric mixture",
+                "Racemic mixture",
+                "Optically active solution"
+            ],
+            "correctOptionIndex": 2
+        }
+    ]
+}

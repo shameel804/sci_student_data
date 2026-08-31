@@ -1,0 +1,135 @@
+{
+    "id": "learn_atom",
+    "topicId": "atom",
+    "topicTitle": "Structure of Atom",
+    "description": "Journey into the quantum realm to discover what atoms are really made of, and why they don't behave like anything in the macroscopic world.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "chem_atom_1",
+            "type": "content",
+            "title": "Welcome to the Structure of Atom",
+            "content": "# Inside the Indestructible Sphere\n\nDalton told us that atoms were indivisible, the smallest possible pieces of matter.\n\nBut by the end of the 19th century, scientists began finding pieces *smaller* than atoms. The atom was not a solid sphere; it had an intricate internal structure!\n\n## What You Will Learn:\n- **Subatomic Particles:** Electrons, protons, and neutrons.\n- **Atomic Models:** From plum puddings to solar systems.\n- **Bohr's Model:** Why atoms only absorb specific colors of light.\n- **Quantum Mechanics:** Dual nature of matter and Heisenberg's Uncertainty Principle.\n- **Orbitals:** The probability clouds where electrons live."
+        },
+        {
+            "id": "chem_atom_2",
+            "type": "content",
+            "title": "Discovery of Subatomic Particles",
+            "content": "# The Electron and Proton\n\n1. **The Electron:** J.J. Thomson discovered the electron using a cathode ray tube. He found negatively charged particles that were 2000 times lighter than a hydrogen atom! Since they came out of atoms, atoms must be divisible.\n2. **The Proton:** If atoms contain negative electrons but are electrically neutral overall, they must contain positive charge too. Goldstein discovered positively charged \"canal rays\", which led to the discovery of the proton.\n3. **The Neutron:** Much later (1932), Chadwick discovered a neutral particle in the nucleus with a mass slightly greater than a proton."
+        },
+        {
+            "id": "chem_atom_3",
+            "type": "content",
+            "title": "Early Atomic Models",
+            "content": "# Plum Pudding vs The Nucleus\n\nHow do these particles fit together?\n\n1. **Thomson's Plum Pudding Model:** He visualized the atom as a positive sphere of pudding, with negative electrons stuck in it like plums.\n2. **Rutherford's Gold Foil Experiment:** Ernest Rutherford shot massive, positive alpha particles at a super-thin sheet of gold foil. Most went straight through, but a few bounced straight back!\n\nRutherford concluded the Plum Pudding model was wrong. The atom is mostly empty space! All the positive charge and mass is concentrated in a tiny, incredibly dense center called the **nucleus**, with electrons orbiting it like planets."
+        },
+        {
+            "id": "chem_atom_quiz_1",
+            "type": "quiz",
+            "title": "Models Quiz",
+            "content": "Check your understanding of atomic history.",
+            "quizQuestion": "What was the major conclusion of Rutherford's Gold Foil experiment?",
+            "quizOptions": [
+                "Electrons are negatively charged.",
+                "The atom is mostly empty space with a dense, positive nucleus.",
+                "Atoms are indivisible spheres.",
+                "Neutrons exist in the nucleus."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_atom_4",
+            "type": "content",
+            "title": "Atomic Number and Mass Number",
+            "content": "# The Identity of an Atom\n\nWhat makes a Carbon atom different from an Oxygen atom?\n\n1. **Atomic Number (Z):** The number of protons in the nucleus of an atom. This is the ultimate identity of the element. (Carbon is ALWAYS Z=6, Oxygen is ALWAYS Z=8).\n2. **Mass Number (A):** The total number of protons AND neutrons (collectively called nucleons) in the nucleus. `A = Protons + Neutrons`.\n\nAtoms of the same element (same Z) can have different numbers of neutrons (different A). These are called **Isotopes**. \nFor example, Carbon-12 has 6 neutrons, but Carbon-14 has 8 neutrons!"
+        },
+        {
+            "id": "chem_atom_5",
+            "type": "content",
+            "title": "The Problem with Rutherford's Model",
+            "content": "# The Collapsing Atom\n\nRutherford's solar system model had a fatal flaw. \nAccording to classical physics, any charged particle (like an electron) moving in a circular orbit should continuously emit electromagnetic radiation.\n\nIf the electron is constantly losing energy as radiation, its orbit should shrink. It should spiral into the nucleus in a fraction of a second! \n\nBut atoms are stable. Classical physics had failed. We needed a new physics: **Quantum Mechanics**."
+        },
+        {
+            "id": "chem_atom_6",
+            "type": "content",
+            "title": "Bohr's Model of the Atom",
+            "content": "# The Quantum Leap\n\nNiels Bohr saved the atom by introducing \"quantization.\"\n\n1. Electrons can only orbit the nucleus in specific, allowed circular paths called **stationary states** or **orbits** (n = 1, 2, 3...). \n2. While in a specific orbit, the electron does NOT radiate energy. The energy of the orbit is fixed.\n3. An electron can only move between orbits by absorbing or emitting a photon of light with the exact energy difference between the two states. \n   `delta_E = E_final - E_initial = h * nu` (where h is Planck's constant and nu is frequency).\n\nThis explained why elements only emit specific colors of light (line spectra) when heated!"
+        },
+        {
+            "id": "chem_atom_quiz_2",
+            "type": "quiz",
+            "title": "Bohr Quiz",
+            "content": "Check your understanding of quantum orbits.",
+            "quizQuestion": "According to Bohr's model, what happens when an electron jumps from a higher energy orbit to a lower energy orbit?",
+            "quizOptions": [
+                "It absorbs a photon of light.",
+                "It emits a photon of light.",
+                "The nucleus becomes unstable.",
+                "The atom becomes a different element."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_atom_7",
+            "type": "content",
+            "title": "Dual Nature of Matter",
+            "content": "# Waves and Particles\n\nBohr's model worked great for Hydrogen, but failed for larger atoms. It was still treating electrons strictly as tiny particles.\n\nIn 1924, de Broglie proposed a radical idea: If light waves can behave like particles (photons), then particles of matter (like electrons) should behave like waves!\n\n`Wavelength (lambda) = h / (m * v) = h / p`\n\nThis means an electron isn't just a tiny ball orbiting the nucleus; it is also a wave smeared out around it!"
+        },
+        {
+            "id": "chem_atom_8",
+            "type": "content",
+            "title": "Heisenberg's Uncertainty Principle",
+            "content": "# The Blurry Reality\n\nIf an electron is a wave, you can't pinpoint exactly where it is.\n\nWerner Heisenberg stated that it is impossible to determine simultaneously, the exact **position** and exact **momentum** (or velocity) of an electron.\n\nIf you shine a very powerful light on an electron to see exactly where it is, the photon hits the electron and knocks it away, changing its velocity!\n\nThis principle destroyed Bohr's concept of fixed, defined circular orbits. We cannot know the exact path of an electron."
+        },
+        {
+            "id": "chem_atom_9",
+            "type": "content",
+            "title": "Quantum Mechanical Model of Atom",
+            "content": "# Probability Clouds\n\nSince we can't know exactly where the electron is, we can only calculate the *probability* of finding it in a specific region of space around the nucleus.\n\n Erwin Schrödinger developed a complex mathematical equation to describe this. The solutions to this equation are called **atomic orbitals**.\n\nAn orbital is NOT a circular path. It is a 3D region of space (a probability cloud) where the chance of finding the electron is maximum (about 90%)."
+        },
+        {
+            "id": "chem_atom_10",
+            "type": "content",
+            "title": "Quantum Numbers",
+            "content": "# The Electron's Address\n\nTo describe an electron in an atom completely, we need four Quantum Numbers (like a postal address):\n\n1. **Principal Quantum Number (n):** Determines the main energy level or shell (n = 1, 2, 3...). Corresponds to K, L, M shells.\n2. **Azimuthal/Angular Quantum Number (l):** Determines the subshell and the 3D shape of the orbital (s, p, d, f).\n3. **Magnetic Quantum Number (ml):** Determines the spatial orientation of the orbital.\n4. **Spin Quantum Number (ms):** Determines the direction of the electron's spin (+1/2 or -1/2)."
+        },
+        {
+            "id": "chem_atom_11",
+            "type": "content",
+            "title": "Shapes of Orbitals",
+            "content": "# s, p, and d\n\nBased on the azimuthal quantum number (l), orbitals have different shapes:\n\n- **s-orbital (l=0):** Spherical in shape. The probability of finding the electron is the same in all directions.\n- **p-orbital (l=1):** Dumbbell shaped. There are three p-orbitals (px, py, pz) oriented along the three axes.\n- **d-orbital (l=2):** Double-dumbbell shaped. There are five d-orbitals.\n\nEach individual orbital can hold a maximum of **two** electrons, and they must have opposite spins!"
+        },
+        {
+            "id": "chem_atom_quiz_3",
+            "type": "quiz",
+            "title": "Orbital Quiz",
+            "content": "Check your understanding of quantum shapes.",
+            "quizQuestion": "What is the 3D shape of an 's' orbital?",
+            "quizOptions": [
+                "Dumbbell shaped",
+                "Double-dumbbell shaped",
+                "Spherical shaped",
+                "Circular shaped"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "chem_atom_12",
+            "type": "content",
+            "title": "Filling the Orbitals",
+            "content": "# The Rules of the Hotel\n\nHow do electrons fill these orbitals in a multi-electron atom? They follow three rules:\n\n1. **Aufbau Principle:** Electrons fill orbitals in order of increasing energy. (They fill the lowest energy 1s orbital before moving to the 2s, and so on).\n2. **Pauli Exclusion Principle:** No two electrons in an atom can have the same four quantum numbers. (Meaning, an orbital holds a max of 2 electrons, with opposite spins).\n3. **Hund's Rule of Maximum Multiplicity:** When filling degenerate orbitals (like the three p-orbitals), put one electron in each orbital first, before pairing them up. (Electrons repel each other, so they like their own room!)."
+        },
+        {
+            "id": "chem_atom_13",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Isotopes:** Atoms of the same element (same Z) with different mass numbers (A).\n- **Bohr Model:** Electrons orbit in fixed energy levels and jump by absorbing/emitting photons.\n- **Heisenberg's Uncertainty Principle:** You cannot know both exact position and exact momentum of an electron.\n- **Orbital:** A 3D region of space with high probability of finding an electron.\n- **Quantum Numbers:** n, l, ml, ms (The address of an electron).\n- **Aufbau Principle:** Fill lowest energy orbitals first.\n- **Hund's Rule:** Singly occupy degenerate orbitals before pairing."
+        },
+        {
+            "id": "chem_atom_14",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Structure of Atom\n\nExcellent work! Here is a recap of what we've learned:\n\n- Rutherford discovered the dense positive **nucleus**, proving atoms are mostly empty space.\n- Bohr introduced quantization to explain stability: electrons live in fixed **orbits** and emit light only when jumping between them.\n- Because of the **dual nature of matter** (de Broglie) and the **Uncertainty Principle** (Heisenberg), we realized exact orbits are impossible.\n- The modern **Quantum Mechanical model** describes electrons existing in 3D probability clouds called **orbitals** (s, p, d, f).\n- We use the Aufbau principle, Pauli's exclusion principle, and Hund's rule to determine the exact **electronic configuration** of any atom."
+        }
+    ]
+}

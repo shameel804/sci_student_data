@@ -1,0 +1,139 @@
+{
+    "id": "learn_crystals",
+    "topicId": "crystals",
+    "topicTitle": "Crystal Structure",
+    "description": "Explore the flawless geometric perfection of solid matter, where billions of atoms arrange themselves into infinite, repeating 3D lattices.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "crys_1",
+            "type": "content",
+            "title": "What is Solid State Physics?",
+            "content": "# The Physics of the Macroscopic\n\nQuantum mechanics tells us how a single atom behaves. But what happens when you take 10^23 identical atoms and cram them tightly together until they form a solid block of metal or a diamond?\n\n**Solid State Physics** (Condensed Matter Physics) studies exactly this.\n\nWhen billions of atoms interact, completely new, emergent properties appear that a single atom doesn't possess—like electrical conductivity, magnetism, and superconductivity."
+        },
+        {
+            "id": "crys_2",
+            "type": "content",
+            "title": "Amorphous vs Crystalline",
+            "content": "# Order vs Chaos\n\nSolids come in two fundamental flavors, based entirely on how their atoms are arranged.\n\n## 1. Amorphous Solids\n(From Greek: \"Without form\"). The atoms are jumbled together randomly in a chaotic mess, like a jar of marbles.\nExamples: Glass, plastic, rubber, wax.\n\n## 2. Crystalline Solids\nThe atoms are arranged in a state of absolute, perfect, infinitely repeating geometric order.\nExamples: Diamonds, salt, quartz, and ALL solid metals (iron, gold, copper)."
+        },
+        {
+            "id": "crys_3",
+            "type": "content",
+            "title": "The Crystal Lattice",
+            "content": "# The Invisible Grid\n\nTo understand a crystal, physicists imagine an infinite, 3D mathematical grid called a **Lattice**.\n\nThink of the metal scaffolding of a skyscraper that repeats up, down, left, right, forward, and backward forever.\n\nWe then take a specific atom (or a small group of atoms called the **Basis**) and attach one perfectly to every single intersection point on that grid.\n**Lattice + Basis = Crystal Structure**."
+        },
+        {
+            "id": "crys_4",
+            "type": "content",
+            "title": "The Unit Cell",
+            "content": "# The Building Block\n\nBecause a crystal repeats infinitely, you don't need to study the whole thing. You only need to study the **Unit Cell**.\n\nThe Unit Cell is the absolute smallest 3D geometric box of atoms that, if you copy and pasted it in all directions, would perfectly build the entire crystal.\n\nIt is exactly like a single Lego brick. If you know the shape of the single brick, you know everything about the giant castle built from them."
+        },
+        {
+            "id": "crys_5",
+            "type": "content",
+            "title": "Cubic Unit Cells",
+            "content": "# The Simplest Blocks\n\nThe easiest unit cells to understand are perfectly cubic (all sides equal length, all corners 90 degrees). There are three main types:\n\n1. **Simple Cubic (SC):** One atom at each of the 8 corners of the cube. (Very rare in nature because it wastes too much empty space).\n2. **Body-Centered Cubic (BCC):** Atoms at all 8 corners, PLUS one extra atom floating perfectly dead-center in the middle of the cube. (e.g., Iron, Tungsten).\n3. **Face-Centered Cubic (FCC):** Atoms at all 8 corners, PLUS one atom stuck flat on each of the 6 outer \"faces\" of the cube. (e.g., Gold, Copper, Aluminum)."
+        },
+        {
+            "id": "crys_6",
+            "type": "content",
+            "title": "Packing Fraction",
+            "content": "# Cramming them in\n\nAtoms are roughly spherical. If you pack a box with tennis balls, there will always be empty air gaps between them.\n\nThe **Packing Fraction** is the percentage of the crystal's volume actually filled by hard atoms.\n\n- **Simple Cubic:** 52% full (Terrible).\n- **BCC:** 68% full (Better).\n- **FCC:** 74% full (The absolute maximum mathematical limit for packing identical spheres). This is why heavy metals like Gold and Lead are so incredibly dense!"
+        },
+        {
+            "id": "crys_7",
+            "type": "content",
+            "title": "Bravais Lattices",
+            "content": "# The 14 Shapes of Nature\n\nIn 1850, Auguste Bravais proved mathematically that there are only **14 possible unique ways** to arrange points in a repeating 3D grid without leaving weird gaps.\n\nThese are the 14 Bravais Lattices.\nThey range from the highly symmetric Cubic, to Tetragonal (stretched cubes), to Hexagonal, all the way down to Triclinic (a completely skewed, slanted box with no 90-degree angles).\n\nEvery single crystal in the universe MUST fall into one of these 14 mathematical templates."
+        },
+        {
+            "id": "crys_8",
+            "type": "content",
+            "title": "Miller Indices",
+            "content": "# Slicing the Crystal\n\nIf you want to cut a diamond, you have to cut it perfectly along specific planes of atoms.\n\nPhysicists use **Miller Indices** (h, k, l) to mathematically define specific flat planes slicing through the crystal grid.\n\n- The (1 0 0) plane slices perfectly down the side of the cube.\n- The (1 1 1) plane slices perfectly diagonally through all three axes, cutting the corner off the cube.\n\nCertain planes have atoms packed much tighter than others, making them physically harder to break."
+        },
+        {
+            "id": "crys_9",
+            "type": "content",
+            "title": "X-Ray Diffraction (XRD)",
+            "content": "# Seeing the Invisible\n\nHow do we know atoms form these shapes if we can't see them with a microscope?\n\nWe use **X-Ray Diffraction**.\nThe spacing between atoms in a crystal is roughly 0.1 to 0.2 nanometers. This happens to be the exact wavelength of an X-Ray!\n\nIf you fire X-Rays at a crystal, the waves bounce off the perfectly spaced layers of atoms and interfere with each other. By looking at the pattern of bright dots on a detector film, computers can reverse-engineer the exact 3D location of every atom."
+        },
+        {
+            "id": "crys_10",
+            "type": "content",
+            "title": "Bragg's Law",
+            "content": "# The Math of XRD\n\nIn 1913, William and Lawrence Bragg (a father-son team) solved the math for X-Ray diffraction.\n\n**n * Lambda = 2 * d * sin(theta)**\n\n- **Lambda:** Wavelength of the X-Ray.\n- **d:** The physical distance between the flat layers of atoms in the crystal.\n- **theta:** The angle the X-Ray hits the crystal.\n\nBy turning the crystal and measuring exactly which angle (theta) produces a bright reflection, you can calculate (d), perfectly measuring the atomic spacing with incredible precision!"
+        },
+        {
+            "id": "crys_11",
+            "type": "content",
+            "title": "Crystal Defects",
+            "content": "# Flaws in the Matrix\n\nNothing in nature is perfect. A real crystal always contains trillions of microscopic errors, called **Defects**.\n\nSurprisingly, these flaws are often what make the material useful!\n\n## Point Defects (0D)\n- **Vacancy:** A single atom is simply missing from its spot.\n- **Interstitial:** An extra atom is jammed forcefully into the empty space between the normal grid points.\n- **Substitutional:** A foreign atom (like Carbon) takes the place of a host atom (like Iron). This is how we make strong Steel!"
+        },
+        {
+            "id": "crys_12",
+            "type": "content",
+            "title": "Dislocations",
+            "content": "# Bending Metal (1D Defects)\n\nWhy can you bend a paperclip without it instantly shattering like glass?\n\nBecause metals contain **Dislocations** (1D Line Defects). \nImagine an extra half-plane of atoms jammed into the crystal like a wedge.\n\nWhen you push on the metal, the entire crystal doesn't slide at once (which would require immense force). Instead, this tiny line defect unzips and moves one atomic row at a time, allowing the metal to bend and deform gracefully (Plasticity) instead of snapping."
+        },
+        {
+            "id": "crys_13",
+            "type": "content",
+            "title": "Grain Boundaries",
+            "content": "# The Clashing Grids (2D Defects)\n\nWhen liquid metal freezes, millions of tiny, perfect crystals start growing simultaneously in random directions.\n\nWhen these growing crystals finally bump into each other, their grids do not align perfectly. \nThe 2D border where two misaligned crystals meet is called a **Grain Boundary**.\n\nGrain boundaries act as physical walls that stop dislocations from moving. The more grain boundaries a metal has, the harder and stronger it becomes!"
+        },
+        {
+            "id": "crys_14",
+            "type": "content",
+            "title": "Phonons",
+            "content": "# The Sound of Heat\n\nBecause the atoms in a crystal are locked together by chemical bonds (acting like springs), if you push one atom, the ripple travels through the entire crystal.\n\nJust like light waves are quantized into Photons, these physical, mechanical vibrations in the crystal lattice are quantized into particles called **Phonons**.\n\nPhonons are responsible for conducting Sound AND Heat through a solid. When you heat up a metal spoon, you are pumping millions of angry, high-energy phonons into the lattice!"
+        },
+        {
+            "id": "crys_15",
+            "type": "content",
+            "title": "The Allotropes of Carbon",
+            "content": "# Same Atom, Different Crystal\n\nThe exact same element can have drastically different properties based entirely on its crystal structure (Allotropes).\n\nLook at pure Carbon:\n1. **Graphite:** Atoms form flat, 2D hexagonal sheets stacked loosely on top of each other. It is black, opaque, incredibly soft (used in pencils), and conducts electricity.\n2. **Diamond:** Every atom is locked into a rigid 3D tetrahedral grid. It is completely transparent, the hardest natural substance on earth, and a perfect electrical insulator."
+        },
+        {
+            "id": "crys_16",
+            "type": "content",
+            "title": "Quasicrystals",
+            "content": "# The Forbidden Symmetry\n\nFor 150 years, physicists swore that crystals could only have 2, 3, 4, or 6-fold rotational symmetry. 5-fold symmetry (like a pentagon) was mathematically impossible because you cannot tile pentagons without leaving empty gaps.\n\nBut in 1982, Dan Shechtman discovered a solid metal alloy under an electron microscope that clearly possessed 5-fold and 10-fold symmetry!\n\nHe had discovered **Quasicrystals**. They are highly ordered, but they NEVER repeat the exact same pattern twice. (He was ridiculed by the scientific community for 10 years before they realized he was right, eventually winning a Nobel Prize)."
+        },
+        {
+            "id": "crys_17",
+            "type": "content",
+            "title": "Summary of Crystal Structure",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Crystals vs Amorphous:** Crystals have an infinite, repeating 3D geometric order. Amorphous solids are random.\n2. **Unit Cell:** The smallest repeating Lego brick of the lattice (e.g., Simple Cubic, BCC, FCC).\n3. **X-Ray Diffraction:** Firing X-Rays at the crystal allows us to measure atomic spacing using Bragg's Law.\n4. **Defects:** Flaws like vacancies, dislocations, and grain boundaries are what actually give metals their strength and flexibility.\n5. **Phonons:** Quantized vibrations of the physical lattice that carry heat and sound."
+        },
+        {
+            "id": "crys_quiz_1",
+            "type": "quiz",
+            "title": "Unit Cell Quiz",
+            "content": "Test your knowledge of cubic structures.",
+            "quizQuestion": "Which of the following cubic unit cells is the most efficient, cramming the maximum possible number of atoms into the space (74% packing fraction)?",
+            "quizOptions": [
+                "Simple Cubic (SC)",
+                "Body-Centered Cubic (BCC)",
+                "Face-Centered Cubic (FCC)",
+                "They all pack exactly the same amount of space."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "crys_quiz_2",
+            "type": "quiz",
+            "title": "Defects Quiz",
+            "content": "Review imperfections in the lattice.",
+            "quizQuestion": "Why does a piece of metal bend smoothly (plastic deformation) instead of shattering like a piece of glass?",
+            "quizOptions": [
+                "Metals have no defects.",
+                "Metals contain 1D line defects (Dislocations) that can easily slide and unzip through the crystal one row at a time.",
+                "The atoms in metal are perfectly soft.",
+                "Metals are amorphous, not crystalline."
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

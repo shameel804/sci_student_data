@@ -1,0 +1,123 @@
+{
+    "id": "learn_env_climate",
+    "topicId": "climate",
+    "topicTitle": "Climate Change",
+    "description": "Understand the science behind global warming, its catastrophic impacts on the Earth's systems, and the strategies we must use to mitigate it.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "env_clim_1",
+            "type": "content",
+            "title": "Welcome to Climate Change",
+            "content": "# The Defining Issue of Our Time\n\nWelcome to the module on **Climate Change**.\n\nThe Earth's climate has always changed over millions of years due to natural cycles. However, the rapid, unprecedented warming occurring today is driven almost entirely by human activity.\n\n## What You Will Learn:\n- **The Greenhouse Effect** - How the atmosphere traps heat\n- **Global Impacts** - Sea levels, extreme weather, and acidic oceans\n- **Climate Modeling** - Predicting the future\n- **Mitigation Strategies** - How we can fix it\n\nLet's look at the science of a warming planet."
+        },
+        {
+            "id": "env_clim_2",
+            "type": "content",
+            "title": "The Greenhouse Effect",
+            "content": "# The Natural Blanket\n\nThe **Greenhouse Effect** is actually a completely natural and necessary process. Without it, the Earth would be a frozen ball of ice (approx minus 18 degrees Celsius) and life could not exist.\n\n## How it works:\n1. Solar radiation (light) passes through the atmosphere and hits the Earth.\n2. The Earth absorbs this energy and warms up.\n3. The Earth radiates this heat back toward space in the form of Infrared Radiation.\n4. Certain gases in the atmosphere (Greenhouse Gases) are transparent to incoming light, but OPAQUE to outgoing infrared heat. They trap the heat, keeping the planet warm, exactly like the glass of a greenhouse!"
+        },
+        {
+            "id": "env_clim_3",
+            "type": "content",
+            "title": "The Greenhouse Gases",
+            "content": "# The Heat Trappers\n\nWhat are these gases? The most abundant natural one is actually Water Vapor. But human activity is rapidly increasing the others:\n\n- **Carbon Dioxide (CO2):** The primary driver. Released by burning fossil fuels (coal, oil, gas) and deforestation. It stays in the atmosphere for centuries.\n- **Methane (CH4):** Released by agriculture (cow burps), landfills, and natural gas leaks. It traps 25 times more heat than CO2, but only lasts about a decade in the air.\n- **Nitrous Oxide (N2O):** Released by synthetic agricultural fertilizers.\n- **Fluorinated Gases (CFCs):** Entirely man-made chemicals used in refrigeration. They are the most potent heat-trappers ever created."
+        },
+        {
+            "id": "env_clim_4",
+            "type": "content",
+            "title": "The Keeling Curve",
+            "content": "# The Smoking Gun\n\nHow do we know CO2 is increasing? \n\nIn 1958, scientist Charles Keeling began measuring CO2 levels at the Mauna Loa Observatory in Hawaii (far away from city smog).\n\nThe resulting graph, known as the **Keeling Curve**, is the most famous chart in environmental science. It shows a relentless, jagged, upward climb of CO2 in the atmosphere, rising from 315 parts per million (ppm) in 1958 to over 420 ppm today.\n\nIce core data proves that CO2 levels are now higher than they have been in at least 800,000 years."
+        },
+        {
+            "id": "env_clim_quiz_1",
+            "type": "quiz",
+            "title": "Greenhouse Quiz",
+            "content": "Check your understanding of atmospheric warming.",
+            "quizQuestion": "How do greenhouse gases actually warm the planet?",
+            "quizOptions": [
+                "They generate heat through chemical reactions in the sky",
+                "They act like a magnifying glass, focusing more sunlight onto the surface",
+                "They allow incoming sunlight to pass through, but trap and absorb the outgoing infrared heat radiating from the Earth",
+                "They trap the heat from the Earth's molten core"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "env_clim_5",
+            "type": "content",
+            "title": "Impacts of Global Warming",
+            "content": "# The Domino Effects\n\nA rise in the global average temperature of just 1.5 to 2.0 degrees Celsius might not sound like a lot, but the difference between the modern era and the last Ice Age was only about 5 degrees!\n\nThis extra energy trapped in the atmosphere causes massive disruptions to global systems."
+        },
+        {
+            "id": "env_clim_6",
+            "type": "content",
+            "title": "Sea Level Rise",
+            "content": "# The Rising Tides\n\nGlobal warming causes sea levels to rise through two distinct mechanisms:\n\n1. **Thermal Expansion:** As water gets warmer, the molecules literally expand and take up more physical space. This accounts for about half of the historical sea-level rise!\n2. **Melting Ice:** The melting of land-based ice (glaciers and massive ice sheets in Greenland and Antarctica) adds massive amounts of new water to the oceans. \n\n> **Note:** Melting sea ice (like at the North Pole) does NOT raise sea levels, because the ice is already displacing its own weight in the water (just like ice cubes melting in a glass of water)."
+        },
+        {
+            "id": "env_clim_7",
+            "type": "content",
+            "title": "Extreme Weather",
+            "content": "# Fueling the Storms\n\nHeat is energy. Adding massive amounts of heat to the atmosphere fundamentally alters the weather.\n\n- **Hurricanes:** Hurricanes are powered by warm ocean water. Warmer oceans act like high-octane fuel, creating stronger, larger, and wetter storms.\n- **Droughts and Floods:** A warmer atmosphere holds more water vapor. This means dry areas dry out faster (leading to catastrophic wildfires), but when it finally rains, it dumps massive, historic floods."
+        },
+        {
+            "id": "env_clim_8",
+            "type": "content",
+            "title": "Ocean Acidification",
+            "content": "# The Evil Twin of Global Warming\n\nNot all the CO2 we pump out stays in the air. The oceans act as a massive sponge, absorbing about 30% of human-emitted CO2.\n\nWhen CO2 mixes with ocean water, it forms Carbonic Acid. This process is called **Ocean Acidification**.\n\n- This acid slowly dissolves calcium carbonate.\n- Snails, oysters, and Coral Reefs rely on calcium carbonate to build their shells and skeletons.\n- As the ocean becomes more acidic, these creatures literally dissolve and cannot survive, threatening the entire marine food web."
+        },
+        {
+            "id": "env_clim_quiz_2",
+            "type": "quiz",
+            "title": "Impacts Quiz",
+            "content": "Check your understanding of the consequences.",
+            "quizQuestion": "Which of the following factors contributes significantly to global sea-level rise?",
+            "quizOptions": [
+                "The melting of floating sea ice at the North Pole",
+                "Thermal expansion of the ocean water as it gets warmer",
+                "Increased rainfall over the oceans",
+                "Ozone depletion"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "env_clim_9",
+            "type": "content",
+            "title": "Climate Modeling",
+            "content": "# Predicting the Future\n\nHow do scientists know what will happen in the year 2050?\n\nThey use **General Circulation Models (GCMs)**. These are massive computer simulations running on the world's most powerful supercomputers.\n\n- They divide the Earth's atmosphere and oceans into a 3D grid consisting of millions of boxes.\n- The computer calculates the laws of physics, fluid dynamics, and chemistry in every single box, thousands of times per second.\n- They test the models by plugging in data from the year 1900 and asking the computer to \"predict\" the year 2000. Because the models accurately predict the past, we trust them to predict the future!"
+        },
+        {
+            "id": "env_clim_10",
+            "type": "content",
+            "title": "Mitigation Strategies",
+            "content": "# Mitigation Strategies\n\nWe cannot stop the climate from changing, but we can \"mitigate\" the severity by stopping the flow of greenhouse gases.\n\n## The Energy Transition\nThe most critical step is transitioning the global grid away from burning fossil fuels (coal and gas) and toward **Renewable Energy**:\n- Solar and Wind power (now cheaper than coal in many places!)\n- Hydroelectric and Geothermal\n- Nuclear power (which produces zero CO2 emissions)\n\n## Electrifying Everything\nOnce the grid is powered by renewables, we must shift everything that currently burns oil (like cars and home heating furnaces) over to electricity (EVs and Heat Pumps)."
+        },
+        {
+            "id": "env_clim_11",
+            "type": "content",
+            "title": "Carbon Capture",
+            "content": "# Carbon Capture and Storage (CCS)\n\nBecause we have already pumped too much CO2 into the air, simply stopping emissions might not be enough. We might need to actively pull the poison out of the sky.\n\n## Natural Sinks\n- Reforestation (planting millions of trees to lock up carbon in wood).\n- Restoring peat bogs and wetlands.\n\n## Technological CCS\n- Building massive industrial fans that chemically scrub CO2 directly out of the ambient air (Direct Air Capture).\n- Capturing CO2 directly at the smokestack of a factory, compressing it into a liquid, and pumping it thousands of feet underground into empty oil wells to trap it in the rocks forever."
+        },
+        {
+            "id": "env_clim_quiz_3",
+            "type": "quiz",
+            "title": "Mitigation Quiz",
+            "content": "Check your understanding of the solutions.",
+            "quizQuestion": "What is the primary goal of Carbon Capture and Storage (CCS) technology?",
+            "quizOptions": [
+                "To capture sunlight more efficiently for solar panels",
+                "To extract more coal from deep underground mines",
+                "To physically remove Carbon Dioxide gas from the atmosphere or from industrial smokestacks and bury it deep underground",
+                "To capture methane from cows to use as fuel"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "env_clim_12",
+            "type": "content",
+            "title": "Summary of Climate Change",
+            "content": "# Climate Change Summary\n\n## Key Takeaways:\n\n### The Cause\n- The **Greenhouse Effect** is a natural process accelerated heavily by human emissions of **CO2** and **Methane**.\n- The **Keeling Curve** provides the undeniable data of rising CO2 levels.\n\n### The Impacts\n- Rising temperatures cause **Sea-Level Rise** (via melting land ice and thermal expansion).\n- The ocean absorbs excess CO2, causing deadly **Ocean Acidification**.\n\n### The Solutions\n- We must use **Climate Models** to prepare.\n- We must **Mitigate** the damage by transitioning rapidly to renewable energy and exploring **Carbon Capture** technology.\n\n> **Next Up:** How is this rapid change affecting the survival of the Earth's species? We look at Conservation Biology."
+        }
+    ]
+}

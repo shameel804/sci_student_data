@@ -1,0 +1,135 @@
+{
+    "id": "learn_properties",
+    "topicId": "properties",
+    "topicTitle": "Mechanical Properties of Solids and Fluids",
+    "description": "Why do rubber bands stretch? Why do ships float? Discover how materials respond to stress and the hidden rules of liquids and gases.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "prop_1",
+            "type": "content",
+            "title": "Welcome to Properties of Matter",
+            "content": "# Solids, Liquids, and Gases\n\nIn previous chapters, we treated objects as rigid bodies. But in reality, nothing is perfectly rigid! If you apply enough force, a steel rod will bend, a rubber band will stretch, and a glass will shatter.\n\nFluids (liquids and gases) have their own unique properties too. They can flow, they exert pressure, and they allow massive steel ships to float!\n\n## What You Will Learn:\n- **Elasticity:** Why things bounce back.\n- **Stress and Strain:** The language of engineering.\n- **Fluid Pressure:** The weight of the ocean and the air.\n- **Archimedes' Principle:** Why things float.\n- **Bernoulli's Principle:** Why airplanes fly."
+        },
+        {
+            "id": "prop_2",
+            "type": "content",
+            "title": "Elasticity in Solids",
+            "content": "# Bouncing Back\n\nWhen a force is applied on a body, it gets deformed. \n\n- **Elasticity:** The property of a body by virtue of which it tends to regain its original size and shape when the applied force is removed. (Example: a steel spring, or a rubber band).\n- **Plasticity:** The property of a body by virtue of which it does NOT regain its original shape, but gets permanently deformed. (Example: putty or wet clay).\n\n*Fun Fact:* Steel is actually more elastic than rubber! A steel wire will return to its original shape much more accurately than a rubber band after being stretched."
+        },
+        {
+            "id": "prop_3",
+            "type": "content",
+            "title": "Stress and Strain",
+            "content": "# The Engineering Terms\n\nTo study elasticity mathematically, we use two terms:\n\n1. **Stress:** The restoring force developed per unit area of the body. \n   `Stress = Force / Area` (Unit: N/m^2 or Pascal).\n2. **Strain:** The ratio of the change in dimension to the original dimension. It is a measure of the deformation.\n   `Strain = Change in length / Original length` (It has no units!).\n\nSo, Stress is the *cause* (the force applied), and Strain is the *effect* (the deformation)."
+        },
+        {
+            "id": "prop_quiz_1",
+            "type": "quiz",
+            "title": "Stress Quiz",
+            "content": "Check your understanding of the terms.",
+            "quizQuestion": "Which of the following is defined as the force applied per unit area?",
+            "quizOptions": [
+                "Strain",
+                "Elasticity",
+                "Stress",
+                "Plasticity"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "prop_4",
+            "type": "content",
+            "title": "Hooke's Law",
+            "content": "# The Rule of Springs\n\nIn 1679, Robert Hooke discovered a fundamental law governing elastic bodies.\n\n> **Hooke's Law:** For small deformations, the stress is directly proportional to the strain.\n\n`Stress = E * Strain`\n\nThe constant of proportionality `E` is called the **Modulus of Elasticity** (or Young's Modulus for length changes). \nA high Young's Modulus means the material is very stiff (like steel), so it takes a massive stress to produce a small strain."
+        },
+        {
+            "id": "prop_5",
+            "type": "content",
+            "title": "Fluids at Rest: Pressure",
+            "content": "# The Crushing Weight\n\nFluids are substances that can flow (liquids and gases). Unlike solids, they do not have a definite shape.\n\nWhen a fluid is at rest, it exerts a force perpendicular to any surface in contact with it. The force exerted by the fluid per unit area is called **Pressure**.\n\n`Pressure (P) = Force / Area`\n\nThe SI unit of pressure is the **Pascal (Pa)** (1 N/m^2)."
+        },
+        {
+            "id": "prop_6",
+            "type": "content",
+            "title": "Pascal's Law",
+            "content": "# The Hydraulic Lift\n\nFrench scientist Blaise Pascal discovered an amazing property of enclosed fluids.\n\n> **Pascal's Law:** If pressure is applied to an enclosed fluid, it is transmitted undiminished to every portion of the fluid and the walls of the containing vessel.\n\nThis is the principle behind the hydraulic lift used by mechanics! By applying a small force on a small area (a small cylinder), a massive force can be generated on a large area (a large cylinder) to lift a heavy car!"
+        },
+        {
+            "id": "prop_quiz_2",
+            "type": "quiz",
+            "title": "Hydraulics Quiz",
+            "content": "Check your understanding of fluid principles.",
+            "quizQuestion": "Which principle explains how a hydraulic lift can use a small force to lift a heavy car?",
+            "quizOptions": [
+                "Hooke's Law",
+                "Archimedes' Principle",
+                "Pascal's Law",
+                "Bernoulli's Principle"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "prop_7",
+            "type": "content",
+            "title": "Archimedes' Principle",
+            "content": "# The Upward Push (Buoyancy)\n\nWhy does a massive steel ship float, while a tiny steel nail sinks?\n\nWhen a body is partially or wholly immersed in a fluid, the fluid pushes upward on it. This upward force is called the **Buoyant Force**.\n\n> **Archimedes' Principle:** The buoyant force acting on a body immersed in a fluid is equal to the **weight of the fluid displaced** by the body.\n\nA ship is hollow. It displaces a massive volume of water, so the upward buoyant force is equal to the weight of that massive amount of water, which is enough to support the ship!"
+        },
+        {
+            "id": "prop_8",
+            "type": "content",
+            "title": "Fluids in Motion",
+            "content": "# Smooth Flow vs Chaos\n\nWhen fluids move, things get complicated.\n\n1. **Streamline (Steady) Flow:** The flow of the fluid is smooth and orderly. Every particle passing through a point follows exactly the same path as the particle before it.\n2. **Turbulent Flow:** If the velocity of the fluid exceeds a certain limit (critical velocity), the flow becomes irregular, chaotic, and forms whirlpools (eddies). Examples: White-water rapids, smoke from a cigarette breaking up."
+        },
+        {
+            "id": "prop_9",
+            "type": "content",
+            "title": "The Equation of Continuity",
+            "content": "# The Garden Hose\n\nHave you noticed that if you put your thumb over the end of a garden hose to make the opening smaller, the water sprays out much faster?\n\nThis is described by the **Equation of Continuity** for incompressible fluids:\n`Area * Velocity = Constant` (`A1*v1 = A2*v2`)\n\nIf the Area (A) decreases (like putting your thumb over the hose), the Velocity (v) MUST increase to keep the flow rate constant! This is why rivers flow faster in narrow gorges."
+        },
+        {
+            "id": "prop_10",
+            "type": "content",
+            "title": "Bernoulli's Principle",
+            "content": "# How Airplanes Fly\n\nDaniel Bernoulli related the pressure, speed, and height of a flowing fluid. For a horizontal pipe, his principle states a counter-intuitive truth:\n\n> **Where the speed of a fluid is high, the pressure is low, and vice versa.**\n\nThis explains why airplanes fly! \nThe wings of an airplane (aerofoils) are shaped so that air travels *faster* over the top than the bottom. \nFaster air on top = Lower pressure on top. \nThe higher pressure underneath pushes the wing up, creating **Lift**!"
+        },
+        {
+            "id": "prop_quiz_3",
+            "type": "quiz",
+            "title": "Bernoulli Quiz",
+            "content": "Check your understanding of fluid dynamics.",
+            "quizQuestion": "According to Bernoulli's principle, if the speed of a fluid increases horizontally, what happens to its pressure?",
+            "quizOptions": [
+                "It increases",
+                "It decreases",
+                "It remains the same",
+                "It becomes zero"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "prop_11",
+            "type": "content",
+            "title": "Viscosity",
+            "content": "# Fluid Friction\n\nWhy does honey pour so much slower than water?\n\nBecause honey has high **Viscosity**. Viscosity is the internal friction of a fluid. It is the property by virtue of which an internal opposing force comes into play when a fluid is in motion, trying to destroy its relative motion.\n\nThink of it as the \"thickness\" of a liquid. \nTemperature affects it: Heating honey makes it less viscous (it flows easier), while cooling it makes it more viscous."
+        },
+        {
+            "id": "prop_12",
+            "type": "content",
+            "title": "Surface Tension",
+            "content": "# The Elastic Skin\n\nHow can some insects walk on water without sinking? Why do water drops form perfect spheres in space?\n\nDue to the cohesive forces between liquid molecules, the free surface of a liquid acts like a stretched elastic membrane trying to contract and minimize its surface area. This property is called **Surface Tension**.\n\nIt is the reason why raindrops are spherical (a sphere has the minimum surface area for a given volume) and why soap bubbles form!"
+        },
+        {
+            "id": "prop_13",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Stress / Strain:** The force applied per unit area / the resulting deformation.\n- **Hooke's Law:** Stress is proportional to Strain (within elastic limits).\n- **Pascal's Law:** Pressure in an enclosed fluid is transmitted undiminished (Hydraulics).\n- **Archimedes' Principle:** The buoyant force equals the weight of the displaced fluid.\n- **Equation of Continuity:** A * v = Constant (Fluid speeds up in narrow pipes).\n- **Bernoulli's Principle:** High fluid speed = Low pressure (creates Airplane lift).\n- **Viscosity:** The internal friction/thickness of a fluid.\n- **Surface Tension:** The \"elastic skin\" of a liquid surface."
+        },
+        {
+            "id": "prop_14",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Solids and Fluids\n\nExcellent work! Here is a recap of what we've learned:\n\n- Solids have **elasticity**; they deform under **stress** (force/area) and experience **strain**. **Hooke's Law** relates these two.\n- Fluids (liquids/gases) exert **pressure**. **Pascal's Law** states that pressure transmits equally, allowing hydraulic lifts to work.\n- **Archimedes' principle** explains buoyancy: objects float if they displace a weight of fluid equal to their own weight.\n- In fluid dynamics, the **Equation of Continuity** shows that fluids speed up in narrow channels.\n- **Bernoulli's Principle** proves that faster-moving fluids have lower pressure, creating aerodynamic lift.\n- Fluids also exhibit internal friction (**viscosity**) and a tight surface membrane (**surface tension**)."
+        }
+    ]
+}

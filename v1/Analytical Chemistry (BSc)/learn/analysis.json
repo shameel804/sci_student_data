@@ -1,0 +1,139 @@
+{
+    "id": "learn_analysis",
+    "topicId": "analysis",
+    "topicTitle": "Qualitative Analysis",
+    "description": "Step into the shoes of a chemical detective. Learn the systematic wet-chemistry procedures used to identify unknown inorganic cations and anions through selective precipitation.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "qual_1",
+            "type": "content",
+            "title": "What is Qualitative Analysis?",
+            "content": "# The Chemical Detective\n\nUnlike Quantitative Analysis (which asks \"How much?\"), **Qualitative Analysis** asks \"What is it?\"\n\nBefore the invention of massive, expensive machines like Mass Spectrometers and AAS, chemists had to identify unknown powders and liquids using logic, observation, and wet-chemistry reactions.\n\n## The Goal\nTo take an unknown aqueous solution containing a mix of dozens of possible dissolved metal ions (cations) and non-metal ions (anions), and systematically prove exactly which ones are present."
+        },
+        {
+            "id": "qual_2",
+            "type": "content",
+            "title": "The Principle of Selective Precipitation",
+            "content": "# Divide and Conquer\n\nYou cannot test for Iron if there are 15 other metals in the beaker interfering with the test.\n\nQualitative analysis relies on **Selective Precipitation**.\n\nChemists add a specific reagent to the mixture that will react with ONLY a small group of metals, turning them into solid, insoluble precipitates (powder) while leaving the rest of the metals dissolved in the liquid.\n\nYou then use a centrifuge to spin the solid to the bottom, pour off the liquid (the supernatant), and you have successfully separated your suspects into smaller groups!"
+        },
+        {
+            "id": "qual_3",
+            "type": "content",
+            "title": "The Cation Groups",
+            "content": "# The Five Cation Groups\n\nFor over a century, chemists have universally agreed to separate the common metal cations into 5 distinct groups based on their solubility rules.\n\n- **Group I (The Insoluble Chlorides):** Ag+, Pb2+, Hg2 2+\n- **Group II (The Acid-Insoluble Sulfides):** Cu2+, Bi3+, Cd2+, Pb2+, Hg2+, As3+, Sb3+, Sn4+\n- **Group III (The Base-Insoluble Sulfides/Hydroxides):** Al3+, Cr3+, Fe3+, Zn2+, Ni2+, Co2+, Mn2+\n- **Group IV (The Insoluble Carbonates):** Ba2+, Ca2+, Sr2+\n- **Group V (The Soluble Group):** Na+, K+, NH4+\n\nYou MUST test them in exactly this order, or the whole system collapses!"
+        },
+        {
+            "id": "qual_4",
+            "type": "content",
+            "title": "Group I: The Insoluble Chlorides",
+            "content": "# Catching Group I\n\n**The Suspects:** Silver (Ag+), Lead (Pb2+), Mercury(I) (Hg2 2+).\n\n## The Reagent:\nAdd dilute Hydrochloric Acid (HCl).\n\n## The Logic:\nAlmost all metal chlorides are highly soluble in water and will stay invisible. But Silver, Lead, and Mercury(I) chlorides are incredibly insoluble. \n\nIf you add HCl and a heavy white precipitate forms, you know at least one of these three metals is in your sample! You spin it down, save the solid, and move the remaining liquid to Group II."
+        },
+        {
+            "id": "qual_5",
+            "type": "content",
+            "title": "Separating Group I",
+            "content": "# Interrogating the White Powder\n\nNow you have a tube of white powder (AgCl, PbCl2, and Hg2Cl2). How do you tell which is which?\n\n1. **Boiling Water:** Lead Chloride (PbCl2) is uniquely soluble in boiling hot water. Add water, boil, and spin. If Lead was there, it dissolved into the hot liquid. \n2. **Ammonia:** Take the remaining solid (AgCl and Hg2Cl2) and add Ammonia (NH3).\n   - Silver Chloride will react with the ammonia to form a soluble complex [Ag(NH3)2]+ and disappear into the liquid.\n   - Mercury(I) Chloride will undergo a strange reaction, turning into a mixture of pure liquid mercury metal and a black powder. If the white powder turns pitch black, you have Mercury!"
+        },
+        {
+            "id": "qual_6",
+            "type": "content",
+            "title": "Group II: Acid-Insoluble Sulfides",
+            "content": "# Catching Group II\n\n**The Reagent:** Hydrogen Sulfide gas (H2S) in a highly acidic solution (low pH).\n\n## The Logic:\nSulfide (S 2-) forms highly insoluble solid precipitates with many heavy metals.\n\nHowever, because the solution is highly acidic, there is massive amount of H+ present. This forces the H2S equilibrium backwards, meaning there is only a tiny, microscopic amount of free S 2- available.\n\nOnly the metals with the absolute lowest solubility products (Ksp) can precipitate under these harsh conditions. These are the Group II metals (like Copper, Bismuth, Cadmium). They form dark precipitates."
+        },
+        {
+            "id": "qual_7",
+            "type": "content",
+            "title": "Group III: Base-Insoluble Sulfides",
+            "content": "# Catching Group III\n\n**The Reagent:** Hydrogen Sulfide (H2S) in a basic solution (high pH, usually using ammonia).\n\n## The Logic:\nBecause you made the solution basic, the OH- ions consume all the H+ ions. This allows the H2S to break apart freely, flooding the solution with a massive amount of S 2- ions.\n\nNow, metals with slightly higher solubilities (like Iron, Zinc, Nickel, Cobalt) are forced to precipitate out as solid sulfides. (Also, Aluminum and Chromium precipitate as hydroxides due to the basic conditions)."
+        },
+        {
+            "id": "qual_8",
+            "type": "content",
+            "title": "Group IV: Insoluble Carbonates",
+            "content": "# Catching Group IV\n\n**The Suspects:** Barium (Ba2+), Calcium (Ca2+), Strontium (Sr2+).\n\nBy this point, all the heavy transition metals have been removed. \n\n## The Reagent:\nAdd Ammonium Carbonate ((NH4)2CO3) in a basic solution.\n\n## The Logic:\nAlkaline Earth metals form highly insoluble white precipitates with carbonate ions (forming chalk/limestone type solids). \nIf a white precipitate forms here, you have Barium, Calcium, or Strontium."
+        },
+        {
+            "id": "qual_9",
+            "type": "content",
+            "title": "Group V: The Soluble Group",
+            "content": "# The Leftovers (Group V)\n\n**The Suspects:** Sodium (Na+), Potassium (K+), Ammonium (NH4+).\n\nIf a metal makes it all the way through Groups I, II, III, and IV without precipitating, it must belong to Group V.\n\n## The Logic:\nAlkali metals are famous for being soluble with absolutely everything. You cannot precipitate them with chlorides, sulfides, or carbonates.\n\nSo how do you identify them? You don't use wet chemistry; you use Fire."
+        },
+        {
+            "id": "qual_10",
+            "type": "content",
+            "title": "Flame Tests",
+            "content": "# The Flame Test\n\nAlkali and Alkaline Earth metals can be easily identified by the color they burn.\n\nYou dip a wire in the liquid and hold it in a hot Bunsen burner flame. The heat excites the electrons, and as they fall back down, they emit distinct colors of light (Atomic Emission Spectroscopy done by eye!).\n\n## Common Colors:\n- **Sodium (Na+):** Intense, brilliant, lasting Yellow-Orange.\n- **Potassium (K+):** Fleeting, pale Lilac (purple). (Often masked by sodium, requiring a piece of blue cobalt glass to see it).\n- **Barium (Ba2+):** Pale Apple Green.\n- **Calcium (Ca2+):** Brick Red.\n- **Strontium (Sr2+):** Crimson Red."
+        },
+        {
+            "id": "qual_11",
+            "type": "content",
+            "title": "Specific Confirmatory Tests",
+            "content": "# Confirming the Suspect\n\nOnce you have separated a metal, you must run a final, highly specific reaction (a **Confirmatory Test**) to prove beyond a shadow of a doubt it is there.\n\n## Iron (Fe3+)\nAdd Potassium Thiocyanate (KSCN). If Iron is present, it will form a complex that turns the liquid an incredibly intense, terrifying **Blood Red**.\n\n## Copper (Cu2+)\nAdd excess Ammonia. Copper will form a complex [Cu(NH3)4]2+ that turns the liquid a brilliant, deep **Royal Blue**.\n\n## Nickel (Ni2+)\nAdd Dimethylglyoxime (DMG). It will form a stunning, bright **Strawberry Pink** precipitate."
+        },
+        {
+            "id": "qual_12",
+            "type": "content",
+            "title": "Anion Analysis",
+            "content": "# Identifying the Non-Metals\n\nWhile Cation analysis is a strict, linear flowchart, Anion analysis (finding Cl-, SO4 2-, NO3-, CO3 2-) is much looser. You generally just perform a series of spot tests on the original sample.\n\n## The Silver Nitrate Test\nAdding AgNO3 is the best way to find Halides.\n- **Cl-:** Forms a pure white precipitate.\n- **Br-:** Forms a pale cream precipitate.\n- **I-:** Forms a pale yellow precipitate.\n\n## The Barium Chloride Test\nAdding BaCl2 is the best way to find Sulfate (SO4 2-). Barium Sulfate is one of the most insoluble substances on earth. It instantly forms a heavy, milky white precipitate that refuses to dissolve even in concentrated acid."
+        },
+        {
+            "id": "qual_13",
+            "type": "content",
+            "title": "Gas Evolution Tests",
+            "content": "# Finding Anions via Gas\n\nSome anions are unstable in acid and will violently decompose into a gas.\n\n## Carbonate (CO3 2-)\nAdd strong acid. If the liquid violently fizzes and bubbles, it is releasing Carbon Dioxide gas (CO2). To confirm, you route the gas through \"limewater\" (Calcium Hydroxide). If the limewater turns milky white, CO2 is confirmed.\n\n## Sulfite (SO3 2-)\nAdd acid. It will release Sulfur Dioxide gas (SO2), which smells exactly like a freshly struck match.\n\n## Sulfide (S 2-)\nAdd acid. It releases Hydrogen Sulfide gas (H2S), which smells overpoweringly of rotting eggs."
+        },
+        {
+            "id": "qual_14",
+            "type": "content",
+            "title": "The Brown Ring Test",
+            "content": "# Finding Nitrate (NO3-)\n\nNitrate is the hardest anion to find because NO nitrate salts are insoluble. You cannot precipitate it.\n\nYou must use the famous, delicate **Brown Ring Test**.\n\n## The Procedure:\n1. Add Iron(II) Sulfate to the sample.\n2. Tilt the test tube to a 45-degree angle.\n3. VERY carefully, let a few drops of concentrated Sulfuric Acid run down the inside glass wall of the tube.\n4. The dense acid will sink to the bottom, creating two distinct liquid layers.\n5. If Nitrate is present, it will react at the exact boundary between the two liquids, forming a highly unstable, distinct **Brown Ring** floating between the layers."
+        },
+        {
+            "id": "qual_15",
+            "type": "content",
+            "title": "Solubility Rules Review",
+            "content": "# The Rules of the Game\n\nTo be a good chemical detective, you must memorize the basic solubility rules:\n\n1. All Nitrates (NO3-) and Acetates (CH3COO-) are always soluble.\n2. All Group 1 (Alkali metals) and Ammonium (NH4+) salts are always soluble.\n3. Most Chlorides, Bromides, and Iodides are soluble (EXCEPT Silver, Lead, and Mercury(I)).\n4. Most Sulfates are soluble (EXCEPT Barium, Strontium, and Lead).\n5. Most Hydroxides (OH-), Carbonates (CO3 2-), and Phosphates (PO4 3-) are completely **INSOLUBLE** (unless they are attached to a Group 1 metal)."
+        },
+        {
+            "id": "qual_16",
+            "type": "content",
+            "title": "Modern Alternatives",
+            "content": "# The Fate of Qualitative Analysis\n\nWhile still a cornerstone of university chemistry education (teaching crucial lab skills, logic, and stoichiometry), classical qualitative analysis is rarely used in professional commercial labs today.\n\nModern instruments like Mass Spectrometry, ICP-OES, and X-Ray Fluorescence (XRF) can identify all 70 metals in a sample in about 30 seconds with a million times more accuracy.\n\nHowever, field kits used by environmental agencies or law enforcement (like drug testing kits or water testing kits) still heavily rely on these exact same color-changing spot tests for rapid, on-site answers."
+        },
+        {
+            "id": "qual_17",
+            "type": "content",
+            "title": "Summary of Qualitative Analysis",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Selective Precipitation:** The strategy of adding reagents to form solid precipitates to separate a complex mixture into distinct groups.\n2. **The 5 Cation Groups:** Separated sequentially using HCl, acidic H2S, basic H2S, and Carbonates.\n3. **Group V:** Alkali metals cannot be precipitated and are identified using colored Flame Tests.\n4. **Anion Testing:** Relies on specific spot tests, gas evolution (fizzing in acid), and specialized reactions like the Brown Ring Test for nitrates.\n5. **Confirmatory Tests:** Final, highly visual reactions (like Blood Red for Iron) to prove a specific ion is present."
+        },
+        {
+            "id": "qual_quiz_1",
+            "type": "quiz",
+            "title": "Cation Groups Quiz",
+            "content": "Test your knowledge of the separation scheme.",
+            "quizQuestion": "In the standard qualitative analysis scheme, what reagent is added first to separate the Group I cations (Silver, Lead, and Mercury I) from the rest of the mixture?",
+            "quizOptions": [
+                "Hydrogen Sulfide (H2S)",
+                "Ammonium Carbonate ((NH4)2CO3)",
+                "Hydrochloric Acid (HCl)",
+                "Sodium Hydroxide (NaOH)"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "qual_quiz_2",
+            "type": "quiz",
+            "title": "Anion Spot Test Quiz",
+            "content": "Review common non-metal identification tests.",
+            "quizQuestion": "Adding Barium Chloride (BaCl2) to a solution will result in an incredibly stable, heavy, milky-white precipitate if which anion is present?",
+            "quizOptions": [
+                "Nitrate (NO3-)",
+                "Sulfate (SO4 2-)",
+                "Chloride (Cl-)",
+                "Carbonate (CO3 2-)"
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

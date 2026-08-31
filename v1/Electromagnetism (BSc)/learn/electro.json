@@ -1,0 +1,139 @@
+{
+    "id": "learn_electro",
+    "topicId": "electro",
+    "topicTitle": "Electrostatics",
+    "description": "Examine the physics of stationary electric charges, exploring Coulomb's Law, electric fields, potential energy, and capacitors.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "elec_1",
+            "type": "content",
+            "title": "The Spark of Life",
+            "content": "# What is Electric Charge?\n\nLong before we understood atoms, the ancient Greeks discovered that rubbing amber with fur allowed it to magically attract small pieces of straw.\n\nThey had discovered **Electric Charge**, a fundamental property of matter just like mass. The word \"Electron\" actually comes from the Greek word for amber (elektron)!\n\n## The Two Rules of Charge:\n1. There are exactly two types of charge: Positive (+) and Negative (-).\n2. Like charges repel each other. Opposite charges attract each other."
+        },
+        {
+            "id": "elec_2",
+            "type": "content",
+            "title": "The Atomic Origin",
+            "content": "# Where does charge come from?\n\nModern physics reveals that charge is carried by subatomic particles:\n- **Protons:** Carry exactly one unit of Positive charge. They are locked tightly in the nucleus.\n- **Electrons:** Carry exactly one unit of Negative charge. They orbit the nucleus loosely.\n- **Neutrons:** Carry zero charge.\n\nAn object becomes \"charged\" not by creating new charge, but by transferring electrons.\n- If it gains electrons, it becomes Negatively charged.\n- If it loses electrons, it becomes Positively charged."
+        },
+        {
+            "id": "elec_3",
+            "type": "content",
+            "title": "Conservation of Charge",
+            "content": "# A Universal Law\n\n**The Law of Conservation of Charge:** \"The net electric charge of an isolated system always remains perfectly constant.\"\n\nCharge can never be created or destroyed. It can only be shuffled around.\n\nIf you rub a glass rod with a silk cloth, the rod becomes positive and the silk becomes negative. You didn't create charge; you simply physically ripped electrons off the glass and deposited them onto the silk. The total net charge of the rod + silk is still exactly zero!"
+        },
+        {
+            "id": "elec_4",
+            "type": "content",
+            "title": "Coulomb's Law",
+            "content": "# Calculating the Force\n\nIn 1785, Charles-Augustin de Coulomb formulated the mathematical law that describes the electric force between two stationary point charges.\n\n## The Equation:\n**F = k * (|q1| * |q2|) / r^2**\n\nWhere:\n- **F:** The Electric Force (in Newtons).\n- **q1 and q2:** The magnitude of the two charges (measured in Coulombs, C).\n- **r:** The distance between their centers.\n- **k:** Coulomb's constant (a massive number: 9 x 10^9).\n\n*Notice how identical this looks to Newton's Law of Universal Gravitation! Both are inverse-square laws.*"
+        },
+        {
+            "id": "elec_5",
+            "type": "content",
+            "title": "Gravity vs Electricity",
+            "content": "# A Staggering Difference\n\nWhile the equations for Gravity and Electrostatics look identical, they have two massive differences:\n\n1. **Direction:** Gravity ONLY attracts. Electric force can attract OR repel.\n2. **Strength:** The electric force is unbelievably, almost unfathomably stronger than gravity.\n\nThe electric repulsion between two protons is roughly 10^36 times stronger than their gravitational attraction! \n\n*Why don't we feel it?* Because most macroscopic objects are perfectly electrically neutral. The immense positive and negative forces perfectly cancel out."
+        },
+        {
+            "id": "elec_6",
+            "type": "content",
+            "title": "The Electric Field (E)",
+            "content": "# Action at a Distance\n\nHow does charge Q1 \"know\" that charge Q2 is far away and push on it without touching it?\n\nPhysicists solved this by inventing the **Electric Field (E)**.\n\nA charge doesn't push directly on another charge. Instead, it alters the very fabric of space around it, creating an invisible \"aura\" or field.\nWhen a second charge wanders into that field, it feels a force from the field itself.\n\n**E = F / q**\n(The Electric Field is the Force felt per unit of test charge)."
+        },
+        {
+            "id": "elec_7",
+            "type": "content",
+            "title": "Drawing Field Lines",
+            "content": "# Visualizing the Invisible\n\nWe draw Electric Field lines to help visualize this aura.\n\n## The Rules:\n1. Field lines ALWAYS point away from Positive charges.\n2. Field lines ALWAYS point toward Negative charges.\n3. The closer together the lines are drawn, the stronger the electric field is in that region.\n4. Field lines can NEVER cross each other.\n\nIf you drop a positive \"test charge\" into the field, it will follow the arrows exactly like a leaf floating down a river."
+        },
+        {
+            "id": "elec_8",
+            "type": "content",
+            "title": "Conductors vs Insulators",
+            "content": "# Moving the Electrons\n\nMaterials are categorized by how easily they let electrons move through them.\n\n## 1. Conductors\nMaterials (like metals: Copper, Gold) where the outer valence electrons are completely detached from their parent atoms. They form a \"sea\" of free electrons that can flow effortlessly through the solid.\n\n## 2. Insulators\nMaterials (like rubber, glass, wood) where every single electron is tightly bound to its parent atom. Electrons cannot flow. You can put a massive electric charge on one side of a glass rod, and it will just sit there."
+        },
+        {
+            "id": "elec_9",
+            "type": "content",
+            "title": "Electrostatic Induction",
+            "content": "# Charging Without Touching\n\nYou can charge a conductor without ever touching it to another charged object!\n\n## The Process of Induction:\n1. Bring a highly Negative rod *close* to a neutral metal sphere.\n2. The free electrons in the metal are repelled by the rod and flee to the far side of the sphere.\n3. Connect a wire from the far side of the sphere to the Ground.\n4. The fleeing electrons escape down the wire into the Earth.\n5. Disconnect the wire, THEN remove the rod.\n6. The sphere is now permanently Positively charged!"
+        },
+        {
+            "id": "elec_10",
+            "type": "content",
+            "title": "Electric Potential Energy",
+            "content": "# Storing the Energy\n\nJust like lifting a boulder against gravity stores Gravitational Potential Energy, pushing a positive charge toward another positive charge (against its repulsive force) stores **Electric Potential Energy (U)**.\n\nIf you let go, that stored potential energy instantly converts into kinetic energy, and the charge goes flying away at high speed!\n\n**U = (k * q1 * q2) / r**\n\nThe closer you cram two identical charges together, the more explosive energy you store in the system."
+        },
+        {
+            "id": "elec_11",
+            "type": "content",
+            "title": "Electric Potential (Voltage)",
+            "content": "# The Concept of Voltage\n\nElectric Potential Energy (U) depends on how big the charge you are pushing is. This is annoying for engineers.\n\nWe created a better metric: **Electric Potential (V)**, better known as **Voltage**.\n\n**Voltage (V) = Potential Energy (U) / Charge (q)**\n\nVoltage is the \"electric pressure\" built up in a location, regardless of whether a charge is actually there. A 9-Volt battery has a potential difference of 9 Joules per Coulomb between its terminals, constantly waiting to push electrons."
+        },
+        {
+            "id": "elec_12",
+            "type": "content",
+            "title": "Equipotential Surfaces",
+            "content": "# Topography of Electricity\n\nJust as a topographical map shows lines of equal elevation on a mountain, **Equipotential Lines** show areas of equal Voltage around a charge.\n\n- They are always drawn perfectly perpendicular (at 90 degrees) to the Electric Field lines.\n- Moving a charge along an equipotential line requires exactly ZERO work (because you aren't moving it \"uphill\" or \"downhill\" against the field).\n\nThe surface of a perfect metal conductor in electrostatics is always a single, uniform equipotential surface!"
+        },
+        {
+            "id": "elec_13",
+            "type": "content",
+            "title": "Capacitance",
+            "content": "# Storing Charge\n\nA **Capacitor** is an electronic component designed to store electric charge and energy for later use (like a camera flash).\n\n## The Simplest Design:\nThe Parallel Plate Capacitor. Two flat metal plates placed very close together, separated by an insulator (air or plastic).\n\nIf you connect them to a battery, one plate fills with positive charge, the other fills with negative charge. The battery acts as a pump, moving electrons from one plate to the other until the Voltage across the plates perfectly matches the battery."
+        },
+        {
+            "id": "elec_14",
+            "type": "content",
+            "title": "The Math of Capacitors",
+            "content": "# Capacitance (C)\n\nThe ability of a capacitor to store charge is called its **Capacitance**, measured in Farads (F).\n\n**C = Q / V**\n(Capacitance = Charge stored per Volt applied).\n\nHow do you build a better capacitor?\n**C = (epsilon_0 * Area) / distance**\n1. Make the metal plates larger (more Area).\n2. Move the plates closer together (less distance). Because they are closer, the opposite charges attract each other more strongly, allowing you to cram more charge onto the plates!"
+        },
+        {
+            "id": "elec_15",
+            "type": "content",
+            "title": "Dielectrics",
+            "content": "# The Insulating Booster\n\nIf you move the plates of a capacitor too close, a spark will jump across the gap (dielectric breakdown), ruining it.\n\nTo prevent this, engineers stuff a solid insulator called a **Dielectric** (like glass, plastic, or ceramic) completely filling the gap between the plates.\n\n## The Magic Effect\nThe electric field between the plates causes the molecules in the dielectric to slightly polarize (stretch). This internal stretching actually partially cancels out the main electric field!\n\nThis immediately lowers the voltage, which magically INCREASES the total capacitance (C = Q/V). You can store vastly more energy in the same physical space."
+        },
+        {
+            "id": "elec_16",
+            "type": "content",
+            "title": "Gauss's Law",
+            "content": "# A Mathematical Masterpiece\n\nCoulomb's Law is hard to use for complex 3D shapes. Carl Friedrich Gauss provided a much more powerful alternative.\n\n**Gauss's Law** states that the total Electric Flux (the number of electric field lines) piercing outward through any closed imaginary 3D surface (a Gaussian surface) is perfectly proportional to the total net charge trapped *inside* that surface.\n\nIf you draw an imaginary sphere around a clump of charges, you don't need to know where they are inside; you just count the field lines poking out of the sphere to know the exact total charge hidden inside!"
+        },
+        {
+            "id": "elec_17",
+            "type": "content",
+            "title": "Summary of Electrostatics",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Charge:** Positive and negative. Like repels, opposite attracts. Charge is conserved.\n2. **Coulomb's Law:** An inverse-square law dictating the immense force between charges.\n3. **Electric Field:** The \"aura\" surrounding a charge that exerts forces on other charges.\n4. **Voltage:** Electric potential energy per unit charge (the electric pressure).\n5. **Capacitors:** Two parallel metal plates that store charge. Capacitance is increased by larger area, smaller distance, and inserting a dielectric.\n6. **Gauss's Law:** Relates the electric flux through a closed surface to the charge enclosed."
+        },
+        {
+            "id": "elec_quiz_1",
+            "type": "quiz",
+            "title": "Coulomb's Law Quiz",
+            "content": "Test your understanding of the inverse-square law.",
+            "quizQuestion": "According to Coulomb's Law, if you take two positive point charges and move them so they are exactly TWICE as far apart as they were before, what happens to the repulsive force between them?",
+            "quizOptions": [
+                "It drops to half (1/2) its original strength.",
+                "It drops to one-quarter (1/4) its original strength.",
+                "It doubles in strength.",
+                "It remains exactly the same."
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "elec_quiz_2",
+            "type": "quiz",
+            "title": "Capacitor Quiz",
+            "content": "Review the design of energy storage.",
+            "quizQuestion": "Which of the following physical changes would INCREASE the capacitance of a parallel-plate capacitor?",
+            "quizOptions": [
+                "Moving the metal plates further apart.",
+                "Decreasing the surface area of the metal plates.",
+                "Inserting a solid plastic dielectric between the plates instead of air.",
+                "Using a lower voltage battery."
+            ],
+            "correctOptionIndex": 2
+        }
+    ]
+}

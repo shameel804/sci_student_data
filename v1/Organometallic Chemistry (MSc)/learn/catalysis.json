@@ -1,0 +1,147 @@
+{
+    "id": "learn_om_catalysis",
+    "topicId": "catalysis",
+    "topicTitle": "Organometallic Catalysis",
+    "description": "Understand homogeneous catalysis, fundamental catalytic cycles, major industrial processes, and green chemistry applications.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "om_cat_1",
+            "type": "content",
+            "title": "Welcome to Organometallic Catalysis",
+            "content": "# Organometallic Catalysis\n\nWelcome to the engine room of modern chemical synthesis!\n\n## What You Will Learn:\n- **Homogeneous catalysis** - Catalysts dissolved in the reaction mixture.\n- **Catalytic cycles** - The step-by-step mechanisms of metal catalysts.\n- **Industrial processes** - How we make millions of tons of chemicals.\n- **Green chemistry** - Using catalysis to save the planet.\n\nLet's see how transition metals perform chemical magic!"
+        },
+        {
+            "id": "om_cat_2",
+            "type": "content",
+            "title": "Homogeneous vs Heterogeneous",
+            "content": "# Types of Catalysis\n\nCatalysis is divided into two main fields based on the physical state (phase) of the catalyst and the reactants.\n\n## Heterogeneous Catalysis:\n- The catalyst is in a DIFFERENT phase than the reactants (usually a solid catalyst with gas/liquid reactants).\n- Common in giant industrial plants (e.g., solid iron for making ammonia in the Haber process).\n- Easy to separate (just filter it), but hard to study the mechanism.\n\n## Homogeneous Catalysis:\n- The catalyst is in the SAME phase as the reactants (everything is dissolved in a liquid solvent).\n- Usually involves complex organometallic molecules."
+        },
+        {
+            "id": "om_cat_3",
+            "type": "content",
+            "title": "Advantages of Homogeneous Catalysis",
+            "content": "# Why Homogeneous?\n\nWhile harder to separate from the final product, homogeneous catalysis offers massive advantages.\n\n## 1. High Selectivity:\nBecause every single metal atom is surrounded by specific, tunable organic ligands, the catalyst can be designed to produce only one specific product (high chemo-, regio-, and stereoselectivity).\n\n## 2. All Metal Atoms Are Active:\nIn a solid heterogeneous catalyst, only the atoms on the *surface* do any work. The atoms inside the metal chunk are wasted. In a homogeneous solution, 100% of the metal atoms are available to react.\n\n## 3. Tunability:\nDon't like the result? Just change the ligand attached to the metal to tweak its electronic and steric properties."
+        },
+        {
+            "id": "om_cat_4",
+            "type": "content",
+            "title": "The 16/18 Electron Rule",
+            "content": "# The 16/18 Electron Rule\n\nJust as main group elements want an \"octet\" (8 electrons), transition metals generally want **18 electrons** in their valence shell (filling the s, p, and d orbitals).\n\n## The Rule of Thumb:\n- Stable, unreactive organometallic complexes usually have 18 valence electrons.\n- Active catalytic intermediates usually have 16 valence electrons (they have an \"empty slot\" to bind a new reactant).\n\n> **The Dance:** During a catalytic cycle, the metal center constantly bounces back and forth between being a 16-electron and an 18-electron species as it picks up and drops off molecules."
+        },
+        {
+            "id": "om_cat_quiz_1",
+            "type": "quiz",
+            "title": "Catalysis Quiz",
+            "content": "Test your knowledge of catalyst types!",
+            "quizQuestion": "What is the primary advantage of a homogeneous catalyst over a heterogeneous catalyst?",
+            "quizOptions": [
+                "It is much easier to filter out at the end of the reaction.",
+                "It always uses cheaper metals like Iron.",
+                "It offers much higher selectivity and is highly tunable via its ligands.",
+                "It works exclusively in the gas phase."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "om_cat_5",
+            "type": "content",
+            "title": "The Catalytic Cycle",
+            "content": "# The Catalytic Cycle\n\nA catalytic cycle is a closed loop of fundamental organometallic reactions.\n\n## How to read a cycle:\n1. Start at the \"Pre-catalyst\" entering the loop.\n2. Follow the arrows around the circle.\n3. Notice where reactants enter the cycle (bind to the metal).\n4. Notice where products exit the cycle (detach from the metal).\n5. The metal complex at the end of the loop must be exactly the same as the one at the beginning.\n\n## Key Concept: Turnover Number (TON)\nThe TON is the number of times one molecule of catalyst can go around the loop before it \"dies\" (degrades). High TON = great catalyst."
+        },
+        {
+            "id": "om_cat_6",
+            "type": "content",
+            "title": "Fundamental Steps: OA and RE",
+            "content": "# Oxidative Addition & Reductive Elimination\n\nThese are opposite processes that change the oxidation state of the metal.\n\n## Oxidative Addition (OA):\n- The metal inserts itself into a covalent bond (A-B).\n- The metal gains two new ligands (A and B).\n- The metal's oxidation state increases by +2.\n- The electron count increases by +2 (e.g., 16e -> 18e).\n\n## Reductive Elimination (RE):\n- The exact reverse of OA.\n- Two ligands on the metal bond to each other and leave as a single molecule (A-B).\n- The metal's oxidation state decreases by -2.\n- Usually the final step in a catalytic cycle, releasing the product!"
+        },
+        {
+            "id": "om_cat_7",
+            "type": "content",
+            "title": "Fundamental Steps: Insertion",
+            "content": "# Migratory Insertion\n\nThis step builds the carbon skeleton of the product without changing the metal's oxidation state.\n\n## The Mechanism:\n- The metal must have two specific ligands right next to each other (cis position).\n- Ligand 1 (usually an alkyl group or hydride) \"migrates\" and attaches itself to Ligand 2 (usually an unsaturated molecule like CO or an alkene).\n- The result is a new, larger ligand attached to the metal.\n\n> **Visual:** Imagine the metal holding a CH3 group in one hand and a CO molecule in the other. It pushes the CH3 onto the CO, and now it's holding an acetyl group (-COCH3) in one hand, with the other hand empty."
+        },
+        {
+            "id": "om_cat_8",
+            "type": "content",
+            "title": "Fundamental Steps: Elimination",
+            "content": "# Beta-Hydride Elimination\n\nThis is often the reverse of migratory insertion into an alkene.\n\n## The Mechanism:\n- The metal is attached to an alkyl chain.\n- The metal reaches over and grabs a hydrogen atom on the *beta-carbon* (the second carbon down the chain).\n- The bond between the metal and the alpha-carbon breaks, forming a double bond (an alkene) that falls off the metal.\n- The metal is left holding the hydrogen (a hydride ligand).\n\n> **Warning:** This is usually a side-reaction that ruins cross-coupling reactions if you aren't careful, but it's essential for some processes like the Heck reaction!"
+        },
+        {
+            "id": "om_cat_quiz_2",
+            "type": "quiz",
+            "title": "Mechanisms Quiz",
+            "content": "Check your understanding of fundamental steps!",
+            "quizQuestion": "In an Oxidative Addition step, what happens to the oxidation state of the transition metal?",
+            "quizOptions": [
+                "It decreases by 2",
+                "It remains unchanged",
+                "It increases by 1",
+                "It increases by 2"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "om_cat_9",
+            "type": "content",
+            "title": "Industrial Processes",
+            "content": "# Industrial Catalysis\n\nHomogeneous catalysis isn't just for tiny lab experiments; it makes millions of tons of bulk chemicals every year.\n\n## The Scale:\nWhen scaling up, a catalyst must be incredibly robust. It must survive high temperatures, high pressures, and trace impurities in the feedstock gases.\n\n## The Big Three:\nWe will look at three of the most famous and economically important homogeneously catalyzed processes in the world:\n1. The Wacker Process\n2. The Monsanto Acetic Acid Process\n3. Ziegler-Natta Polymerization"
+        },
+        {
+            "id": "om_cat_10",
+            "type": "content",
+            "title": "The Wacker Process",
+            "content": "# The Wacker Process\n\n**Goal:** Converting ethylene (from oil) into acetaldehyde.\n\n## The Chemistry:\n- Uses a Palladium (Pd) catalyst.\n- The Pd coordinates to the ethylene double bond.\n- Water attacks the coordinated ethylene (nucleophilic attack).\n- Beta-hydride elimination releases acetaldehyde.\n\n## The Genius Part:\nThe reaction reduces Pd(II) to Pd(0) metal, which would normally stop the reaction (the catalyst dies). The inventors added a *second* catalyst, Copper chloride (CuCl2), which re-oxidizes the Pd(0) back to Pd(II) using oxygen from the air! A beautiful dual-catalytic system."
+        },
+        {
+            "id": "om_cat_11",
+            "type": "content",
+            "title": "Monsanto Acetic Acid Process",
+            "content": "# Monsanto Acetic Acid Process\n\n**Goal:** Making acetic acid (vinegar) from methanol and carbon monoxide.\n\n## The Chemistry:\n- Uses a Rhodium (Rh) catalyst and an iodine promoter.\n- Methanol reacts with HI to form methyl iodide.\n- The Rh catalyst does an *oxidative addition* of the methyl iodide.\n- CO binds to the Rh and undergoes *migratory insertion* with the methyl group, forming an acetyl group.\n- *Reductive elimination* releases acetyl iodide, which is hydrolyzed to acetic acid.\n\n> **Economics:** This reaction is so efficient (almost 100% selectivity) that it completely replaced older methods of making acetic acid worldwide."
+        },
+        {
+            "id": "om_cat_12",
+            "type": "content",
+            "title": "Ziegler-Natta Polymerization",
+            "content": "# Ziegler-Natta Polymerization\n\n**Goal:** Making high-density polyethylene and polypropylene plastics (Nobel Prize 1963).\n\n## The Chemistry:\n- Uses Titanium (Ti) and Zirconium (Zr) catalysts activated by aluminum alkyls.\n- The reaction is a never-ending cycle of *migratory insertions*.\n- An alkene binds to the metal, then the growing polymer chain migrates onto the new alkene, making the chain one unit longer. This repeats thousands of times.\n\n## The Impact:\nBefore this, making polyethylene required extreme pressures and made a messy, highly branched plastic (low-density PE). Ziegler-Natta catalysts work at room pressure and make perfectly straight, incredibly strong plastic chains."
+        },
+        {
+            "id": "om_cat_quiz_3",
+            "type": "quiz",
+            "title": "Industry Quiz",
+            "content": "Test your knowledge of industrial chemistry!",
+            "quizQuestion": "Which industrial process uses a dual-catalyst system of Palladium and Copper to convert ethylene into acetaldehyde?",
+            "quizOptions": [
+                "Ziegler-Natta Polymerization",
+                "The Wacker Process",
+                "The Monsanto Process",
+                "The Haber Process"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "om_cat_13",
+            "type": "content",
+            "title": "Green Chemistry",
+            "content": "# Green Chemistry Applications\n\n**Green Chemistry** is the design of chemical products and processes that reduce or eliminate the use and generation of hazardous substances.\n\n## Catalysis is the Key:\nOne of the 12 Principles of Green Chemistry explicitly states: *\"Catalytic reagents are superior to stoichiometric reagents.\"*\n\n## Why?\nIf you use a stoichiometric reagent (1-to-1 ratio with your product), you generate a massive amount of chemical waste. A catalyst (used in 0.01% amounts) does the same job but generates almost zero waste from the reagent itself."
+        },
+        {
+            "id": "om_cat_14",
+            "type": "content",
+            "title": "Atom Economy",
+            "content": "# Atom Economy\n\nA critical metric in Green Chemistry.\n\n## The Definition:\nAtom economy measures how many atoms from the starting materials actually end up in the final desired product, versus how many end up as waste byproducts.\n\n```\n% Atom Economy = (Molecular Weight of Product / Total MW of all Reactants) x 100\n```\n\n## Catalysis Helps:\nOrganometallic catalysts enable reactions like addition (A + B -> C) which have 100% atom economy, replacing old multi-step routes that threw away massive leaving groups and protecting groups."
+        },
+        {
+            "id": "om_cat_15",
+            "type": "content",
+            "title": "E-factor and Catalysis",
+            "content": "# The E-factor\n\nThe **Environmental Factor (E-factor)** is the actual ratio of the mass of waste produced to the mass of product obtained.\n\n## Industry Averages:\n- Oil refining: E-factor approx 0.1 (very clean)\n- Bulk chemicals: E-factor < 5\n- Pharmaceuticals: E-factor 25 to 100 (terribly dirty!)\n\n## Fixing the Pharma Problem:\nHistorically, pharma used complex, non-catalytic stoichiometric chemistry. Modern pharma is aggressively adopting homogeneous transition metal catalysis (like cross-couplings and asymmetric hydrogenation) specifically to lower their massive E-factors and reduce toxic waste."
+        },
+        {
+            "id": "om_cat_16",
+            "type": "content",
+            "title": "Summary of Catalysis",
+            "content": "# Organometallic Catalysis Summary\n\n## Key Takeaways:\n1. **Homogeneous vs Heterogeneous:** Homogeneous offers incredible selectivity and tunability via ligands, though harder to separate.\n2. **The Mechanism:** Built on the 16/18 electron rule, cycling through Oxidative Addition, Migratory Insertion, and Reductive Elimination.\n3. **Industry:** Mega-scale processes like Wacker, Monsanto, and Ziegler-Natta rely entirely on these specific organometallic steps to make global commodities.\n4. **Green Chemistry:** Catalysis is the primary tool for improving Atom Economy and lowering the E-factor (waste production) in chemical manufacturing.\n\n> **Conclusion:** A tiny pinch of the right metal complex can change the world!"
+        }
+    ]
+}

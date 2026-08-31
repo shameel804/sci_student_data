@@ -1,0 +1,139 @@
+{
+    "id": "learn_interference",
+    "topicId": "interference",
+    "topicTitle": "Interference and Diffraction",
+    "description": "Unlock the secrets of overlapping waves. See how light can cancel itself out to create pure darkness, and how holograms are made.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "inter_1",
+            "type": "content",
+            "title": "The Principle of Superposition",
+            "content": "# When Waves Meet\n\nWhat happens when two waves crash into each other?\n\nUnlike two solid objects (which bounce off each other), waves pass perfectly through one another. While they are overlapping in the same space, their amplitudes (heights) simply add together mathematically.\n\nThis mathematical addition of overlapping waves is called the **Principle of Superposition**."
+        },
+        {
+            "id": "inter_2",
+            "type": "content",
+            "title": "Constructive Interference",
+            "content": "# Building a Bigger Wave\n\nIf two identical light waves overlap, and they are perfectly \"in phase\" (meaning the Peak of wave A perfectly aligns with the Peak of wave B), they add together.\n\n1 Peak + 1 Peak = A massive 2x Peak.\nThis is **Constructive Interference**.\n\nIn optics, this means the two overlapping light waves create a spot on the wall that is intensely, brilliantly BRIGHT."
+        },
+        {
+            "id": "inter_3",
+            "type": "content",
+            "title": "Destructive Interference",
+            "content": "# Canceling the Light\n\nIf the two identical waves overlap, but they are perfectly \"out of phase\" (meaning the Peak of wave A perfectly aligns with the Trough/Valley of wave B), they add together to equal Zero.\n\n1 Peak + (-1 Trough) = 0.\nThis is **Destructive Interference**.\n\nIn optics, this means the two overlapping beams of light completely cancel each other out, creating a spot on the wall of absolute pitch-black DARKNESS. Light + Light = Dark!"
+        },
+        {
+            "id": "inter_4",
+            "type": "content",
+            "title": "Coherence",
+            "content": "# The Required Alignment\n\nWhy don't two flashlight beams cancel each other out to create darkness when you cross them?\n\nBecause standard flashlights produce **Incoherent** light. They spit out billions of tiny, broken, random waves of light that are totally out of sync. They blur together into a messy average.\n\nTo see true quantum interference, you need **Coherent** light. The waves must have the exact same frequency, and they must march in perfect, unbroken, synchronized lockstep (like soldiers). This is why physicists use Lasers for these experiments."
+        },
+        {
+            "id": "inter_5",
+            "type": "content",
+            "title": "Young's Double-Slit Experiment",
+            "content": "# The Ultimate Proof\n\nIn 1801, Thomas Young proved light was a wave.\n\nHe shined a coherent beam of light at a barrier with two tiny slits.\nThe light diffracted (fanned out) from both slits. Because there were now two expanding, coherent circular waves, they overlapped and interfered.\n\nWhen the light hit the screen, it didn't form two bright lines. It formed a complex striped pattern of alternating intensely bright and perfectly black lines (**Interference Fringes**)."
+        },
+        {
+            "id": "inter_6",
+            "type": "content",
+            "title": "Path Difference",
+            "content": "# The Geometry of Stripes\n\nWhy does the Double-Slit create stripes?\n\nIt all depends on the distance the light has to travel. \nPick a spot on the wall. Light from Slit A travels 1000 wavelengths to get there. Light from Slit B travels 1001 wavelengths.\n\nBecause the **Path Difference** is an exact whole number (1), the waves arrive perfectly in sync (Peak to Peak), creating a Bright Stripe.\nBut if you move slightly over, Slit B travels 1001.5 wavelengths. Now they arrive Peak to Trough, creating a Dark Stripe!"
+        },
+        {
+            "id": "inter_7",
+            "type": "content",
+            "title": "Thin Film Interference",
+            "content": "# The Colors of Oil\n\nWhy does a puddle of oil in a parking lot look like a beautiful rainbow?\n\nThe oil forms an incredibly thin, microscopic film on top of the water.\n1. Sunlight hits the oil. A piece of the light bounces off the TOP of the oil.\n2. The rest of the light enters the oil, goes through it, and bounces off the BOTTOM (where the oil meets the water).\n\nNow you have two waves. The bottom wave had to travel a tiny bit further. When they recombine in your eye, they Interfere!"
+        },
+        {
+            "id": "inter_8",
+            "type": "content",
+            "title": "Creating the Rainbow",
+            "content": "# Canceling Colors\n\nBecause the oil film is microscopically thin, the extra distance the bottom wave travels is exactly equal to the wavelength of light.\n\nIf the oil is exactly the right thickness, the Red light waves will destructively interfere and vanish, leaving only Blue and Green to hit your eye.\nWhere the puddle is slightly thicker, the Blue light vanishes, leaving Red.\nThe beautiful swirling rainbow is literally a map showing you the microscopic thickness of the oil puddle, down to the nanometer!"
+        },
+        {
+            "id": "inter_9",
+            "type": "content",
+            "title": "Anti-Reflective Coatings",
+            "content": "# Engineering Interference\n\nEngineers use Thin Film Interference to build high-end camera lenses and glasses.\n\nThey coat the glass with a microscopic film exactly 1/4 of a wavelength thick.\nWhen light hits the lens, the wave that bounces off the top of the film and the wave that bounces off the glass perfectly destructively interfere and cancel each other out.\n\nAs a result, absolutely zero light is reflected! 100% of the light is forced to travel straight through the lens, completely eliminating all glare."
+        },
+        {
+            "id": "inter_10",
+            "type": "content",
+            "title": "Diffraction from a Single Slit",
+            "content": "# Bending Around Edges\n\nYou don't even need two slits to get an interference pattern. A single slit will do it!\n\nWhen a laser shines through one tiny hole, the edges of the hole act as new sources of light (Huygens' Principle). \nThe light waves from the left edge of the hole interfere with the light waves from the right edge of the hole.\n\nThis creates a massive, bright central blob of light on the wall, flanked by smaller, dimmer ripples of light. The smaller the hole, the WIDER the central blob spreads out!"
+        },
+        {
+            "id": "inter_11",
+            "type": "content",
+            "title": "Diffraction Gratings",
+            "content": "# Thousands of Slits\n\nWhat if, instead of two slits, you carve 10,000 microscopic slits per centimeter into a piece of glass?\n\nThis is a **Diffraction Grating**.\nWhen white light hits it, the 10,000 overlapping waves interfere violently. They perfectly cancel out everything except for specific, mathematically pure angles.\n\nThe grating splits the white light into a flawless, intensely bright, high-resolution rainbow. This is far more precise than a glass prism and is used by chemists to analyze the exact chemical makeup of distant stars!"
+        },
+        {
+            "id": "inter_12",
+            "type": "content",
+            "title": "X-Ray Crystallography",
+            "content": "# Nature's Grating\n\nWe cannot carve a grating small enough to diffract X-Rays. The lines would have to be 0.1 nanometers apart.\n\nBut nature already built one: The Crystal Lattice of solid atoms!\nBy firing X-rays at a crystal (like DNA or a protein), the 3D grid of atoms acts as a massive diffraction grating. By analyzing the complex interference pattern of bright dots on the wall, Rosalind Franklin was able to prove that DNA was shaped like a Double Helix."
+        },
+        {
+            "id": "inter_13",
+            "type": "content",
+            "title": "Holography",
+            "content": "# Freezing the Wave\n\nA photograph only records the Intensity (brightness) of light. It loses all the 3D depth information.\n\nA **Hologram** records both the Intensity AND the Phase of the light wave! \n\n1. You split a laser beam in half.\n2. One half (the Reference Beam) hits the film directly.\n3. The other half bounces off a 3D object (like an apple) and hits the film.\n4. The two beams collide on the film, creating a microscopic, wildly complex Interference Pattern."
+        },
+        {
+            "id": "inter_14",
+            "type": "content",
+            "title": "Reconstructing the Hologram",
+            "content": "# The 3D Ghost\n\nThe developed holographic film just looks like a grey smudge of microscopic static.\n\nBut when you shine a laser back through the film, that static acts as a custom-built diffraction grating. It forces the laser light to bend and perfectly reconstruct the exact complex 3D wavefront that bounced off the original apple.\n\nYour eyes see a perfect, flawless, 3D ghost of the apple floating in mid-air. You can move your head and look around the back of it!"
+        },
+        {
+            "id": "inter_15",
+            "type": "content",
+            "title": "The Michelson Interferometer",
+            "content": "# The Most Sensitive Ruler\n\nAlbert Michelson invented a device that splits a laser beam, sends the two halves down different tunnels, bounces them off mirrors, and recombines them.\n\nIf one mirror moves by even 1/100th of the wavelength of light (the size of an atom), the interference pattern shifts from Bright to Dark.\n\nThis device is so unbelievably sensitive that it was used in 2015 to detect Gravitational Waves—measuring a ripple in the fabric of space-time that moved the mirrors by a distance 10,000 times smaller than a single proton!"
+        },
+        {
+            "id": "inter_16",
+            "type": "content",
+            "title": "Speckle Pattern",
+            "content": "# The Laser Static\n\nIf you shine a laser pointer at a rough wall, you will notice the red dot looks like it is covered in boiling, sparkling, microscopic static.\n\nThis is a **Speckle Pattern**. Because the wall is rough on a microscopic scale, the coherent laser light bounces back with slightly different path lengths.\nAs it hits your eye, these thousands of tiny waves constantly constructively and destructively interfere, creating a random map of tiny bright and dark spots that changes every time you move your head."
+        },
+        {
+            "id": "inter_17",
+            "type": "content",
+            "title": "Summary of Interference",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Superposition:** Waves add together perfectly when they overlap.\n2. **Constructive / Destructive:** In-phase waves build bright spots; Out-of-phase waves perfectly cancel into darkness.\n3. **Double-Slit:** Proved light is a wave by creating alternating interference fringes.\n4. **Thin Film:** Oil slicks create rainbows because light bouncing off the top and bottom of the film interferes.\n5. **Diffraction Gratings:** Thousands of slits that split light into high-resolution spectra.\n6. **Holography:** Uses laser interference to record and reconstruct a perfect 3D wavefront."
+        },
+        {
+            "id": "inter_quiz_1",
+            "type": "quiz",
+            "title": "Thin Film Quiz",
+            "content": "Test your knowledge of oil slicks.",
+            "quizQuestion": "Why does a thin puddle of oil on the street look like a rainbow?",
+            "quizOptions": [
+                "Because oil contains thousands of chemical dyes.",
+                "Because the oil acts as a prism, slowing the light down.",
+                "Because light bouncing off the top of the oil interferes with light bouncing off the bottom, canceling out specific colors based on the microscopic thickness of the puddle.",
+                "Because the water underneath the oil reflects blue light."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "inter_quiz_2",
+            "type": "quiz",
+            "title": "Superposition Quiz",
+            "content": "Review wave addition.",
+            "quizQuestion": "What happens when two perfectly identical light waves overlap while exactly 'out of phase' (the peak of one aligns with the trough of the other)?",
+            "quizOptions": [
+                "They generate twice as much heat.",
+                "They create an intensely bright spot of Constructive Interference.",
+                "They perfectly cancel each other out, resulting in pure darkness (Destructive Interference).",
+                "They bounce off each other."
+            ],
+            "correctOptionIndex": 2
+        }
+    ]
+}

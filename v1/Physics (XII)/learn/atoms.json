@@ -1,0 +1,121 @@
+{
+    "id": "learn_atoms",
+    "topicId": "atoms",
+    "topicTitle": "Atoms & Nuclei",
+    "description": "Journey from the electron orbits down into the dense, energy-packed core of the atom.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "atoms_1",
+            "type": "content",
+            "title": "Welcome to Atoms & Nuclei",
+            "content": "# Atoms & Nuclei\n\nWelcome to atomic physics! We will explore the structure of the atom and journey deep into its incredibly dense core, the nucleus.\n\n## What You Will Learn:\n- **Atomic Structure Models** - From plum puddings to quantum orbits\n- **Nuclear Properties** - Size, mass, and binding energy\n- **Radioactive Decay** - Alpha, Beta, and Gamma radiation\n- **Nuclear Reactions** - Fission and Fusion\n\n> **Fun Fact:** An atom is 99.9999999% empty space. If the nucleus were the size of a marble on the 50-yard line of a football stadium, the electrons would be buzzing around the highest seats!"
+        },
+        {
+            "id": "atoms_2",
+            "type": "content",
+            "title": "J.J. Thomson's Model",
+            "content": "# Early Atomic Models\n\nIn 1897, J.J. Thomson discovered the electron, proving atoms were not indivisible.\n\n## The Plum Pudding Model (1898):\n- Thomson proposed that the atom was a sphere of continuous positive charge.\n- The negatively charged electrons were embedded within it, like raisins in a plum pudding (or chocolate chips in a cookie).\n- The total positive charge equaled the total negative charge, making the atom electrically neutral.\n\nWhile a good first attempt, this model completely failed to explain the results of later experiments."
+        },
+        {
+            "id": "atoms_3",
+            "type": "content",
+            "title": "Rutherford's Gold Foil Experiment",
+            "content": "# Rutherford's Alpha Scattering Experiment\n\nIn 1911, Ernest Rutherford and his students directed a beam of alpha particles (He nuclei) at a very thin gold foil.\n\n## Expectations (based on Thomson's model):\nAlpha particles are heavy and fast. They should punch straight through the \"soft\" plum pudding atom with very little deflection.\n\n## Shocking Observations:\n1. **Most** alpha particles passed straight through undeviated.\n2. **Some** were scattered at small angles.\n3. **A very few** (about 1 in 8000) bounced almost straight back!\n\nRutherford said it was like firing a 15-inch artillery shell at tissue paper and having it bounce back and hit you."
+        },
+        {
+            "id": "atoms_4",
+            "type": "content",
+            "title": "Rutherford's Planetary Model",
+            "content": "# The Nuclear Model\n\nTo explain the gold foil results, Rutherford proposed a radically new model.\n\n## Key Features:\n1. **The Nucleus:** Almost all the mass and all the positive charge is concentrated in a tiny, incredibly dense region at the center, called the nucleus (This explains why a few alpha particles bounced back).\n2. **Empty Space:** Most of the atom is empty space (This explains why most particles passed straight through).\n3. **Electrons:** The electrons orbit the nucleus like planets orbiting the sun.\n\n## The Flaw:\nClassical physics states that an accelerating charge (like an orbiting electron) must continuously radiate energy. Therefore, the electron should spiral into the nucleus within a fraction of a second. The atom should be highly unstable!"
+        },
+        {
+            "id": "atoms_5",
+            "type": "content",
+            "title": "Bohr's Model of the Atom",
+            "content": "# Bohr's Quantum Model\n\nIn 1913, Niels Bohr modified Rutherford's model using Max Planck's quantum theory to solve the stability problem.\n\n## Bohr's Postulates:\n1. **Stationary Orbits:** Electrons revolve in specific, permitted circular orbits without radiating energy.\n2. **Quantized Momentum:** Only those orbits are allowed where the angular momentum of the electron is an integral multiple of `h / (2 * pi)`.\n3. **Energy Transitions:** An electron emits or absorbs a photon of radiation ONLY when it jumps from one allowed orbit to another. \n   - `E_final - E_initial = h * f`"
+        },
+        {
+            "id": "atoms_quiz_1",
+            "type": "quiz",
+            "title": "Atomic Models Quiz",
+            "content": "Test your knowledge of atomic history.",
+            "quizQuestion": "Which experiment led to the discovery of the dense atomic nucleus?",
+            "quizOptions": [
+                "Millikan's Oil Drop Experiment",
+                "Rutherford's Gold Foil Experiment",
+                "Young's Double Slit Experiment",
+                "Davisson-Germer Experiment"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "atoms_6",
+            "type": "content",
+            "title": "Hydrogen Spectrum",
+            "content": "# The Hydrogen Spectrum\n\nBohr's model perfectly explained the mysterious emission spectrum of Hydrogen gas.\n\n## The Phenomenon:\nWhen hydrogen gas is excited (e.g., by electric current), it emits light. But it doesn't emit a continuous rainbow. It emits distinct, sharp lines of specific colors.\n\n## The Explanation:\n- These lines correspond to electrons dropping from higher energy orbits down to lower energy orbits.\n- The energy difference dictates the exact frequency (color) of the photon emitted.\n- **Lyman Series:** Drops down to the first orbit (UV light).\n- **Balmer Series:** Drops down to the second orbit (Visible light).\n- **Paschen Series:** Drops down to the third orbit (Infrared light)."
+        },
+        {
+            "id": "atoms_7",
+            "type": "content",
+            "title": "The Nucleus",
+            "content": "# Inside the Nucleus\n\nLet's zoom in to the center of the atom.\n\n## Composition:\nThe nucleus is made of two types of nucleons:\n1. **Protons:** Positively charged (charge +e, mass approx 1 atomic mass unit or u).\n2. **Neutrons:** Electrically neutral (charge 0, mass approx 1 u). Discovered by James Chadwick in 1932.\n\n## Atomic Notation:\n- **Atomic Number (Z):** The number of protons. Defines the element.\n- **Mass Number (A):** Total number of protons + neutrons.\n\n## Isotopes:\nAtoms of the same element (same Z) but with different numbers of neutrons (different A). For example, Carbon-12 and Carbon-14."
+        },
+        {
+            "id": "atoms_8",
+            "type": "content",
+            "title": "Mass Defect and Binding Energy",
+            "content": "# Nuclear Binding Energy\n\nIf a nucleus is full of positively charged protons, why doesn't electrical repulsion blow it apart?\n\n## The Strong Nuclear Force:\nAn attractive force between nucleons (protons/neutrons) that is vastly stronger than electrical repulsion, but only works at extremely short distances.\n\n## Mass Defect (delta_m):\nIf you weigh a nucleus, it is actually **lighter** than the sum of the individual protons and neutrons that make it up! This missing mass is the mass defect.\n\n## Binding Energy:\nWhere did the missing mass go? According to Einstein's `E = mc^2`, it was converted into energy to bind the nucleus together. The higher the binding energy per nucleon, the more stable the nucleus is (Iron-56 is the most stable)."
+        },
+        {
+            "id": "atoms_9",
+            "type": "content",
+            "title": "Radioactivity",
+            "content": "# Radioactivity\n\nRadioactivity is the spontaneous emission of radiation by an unstable nucleus to achieve greater stability.\n\n## Discovered by:\nHenri Becquerel in 1896, and extensively studied by Marie and Pierre Curie.\n\n## The Three Types of Radiation:\nWhen subjected to a magnetic field, radioactive emissions split into three distinct paths:\n1. **Alpha decay:** Positively charged particles, easily stopped.\n2. **Beta decay:** Negatively charged particles, more penetrating.\n3. **Gamma decay:** Uncharged high-energy waves, highly penetrating."
+        },
+        {
+            "id": "atoms_10",
+            "type": "content",
+            "title": "Types of Decay in Detail",
+            "content": "# Alpha, Beta, Gamma\n\n## 1. Alpha (alpha) Decay:\n- Emission of an alpha particle (a Helium nucleus: 2 protons, 2 neutrons).\n- The parent nucleus loses 4 in Mass Number and 2 in Atomic Number.\n- Stopped by a sheet of paper.\n\n## 2. Beta (beta) Decay:\n- A neutron turns into a proton and emits a fast-moving electron (beta particle) and an antineutrino.\n- The Mass Number stays the same, Atomic Number increases by 1.\n- Stopped by a sheet of aluminum.\n\n## 3. Gamma (gamma) Decay:\n- Emission of a high-energy photon (gamma ray) when a nucleus drops from an excited state to a lower state.\n- No change in Mass Number or Atomic Number.\n- Requires thick lead or concrete to stop."
+        },
+        {
+            "id": "atoms_11",
+            "type": "content",
+            "title": "Law of Radioactive Decay",
+            "content": "# Radioactive Decay Law\n\nRadioactive decay is a random, statistical process. We cannot predict when a specific nucleus will decay, but we can predict the behavior of a large sample.\n\n## The Law:\nThe rate of decay of a radioactive sample is directly proportional to the number of undecayed nuclei present.\n\n## Half-Life (T_1/2):\n- The time required for exactly **half** of the radioactive nuclei in a sample to decay.\n- After one half-life, 50% remains. After two half-lives, 25% remains, and so on.\n- Half-lives can range from fractions of a second to billions of years (e.g., Uranium-238 has a half-life of 4.5 billion years)."
+        },
+        {
+            "id": "atoms_quiz_2",
+            "type": "quiz",
+            "title": "Radioactivity Quiz",
+            "content": "Check your understanding of nuclear emissions.",
+            "quizQuestion": "Which type of radioactive decay does NOT change the atomic number or mass number of the nucleus?",
+            "quizOptions": [
+                "Alpha decay",
+                "Beta decay",
+                "Gamma decay",
+                "Neutron emission"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "atoms_12",
+            "type": "content",
+            "title": "Nuclear Energy: Fission",
+            "content": "# Nuclear Fission\n\nFission means splitting.\n\n## The Process:\n- A heavy nucleus (like Uranium-235) absorbs a slow-moving neutron.\n- It becomes highly unstable and splits into two lighter nuclei of roughly equal size.\n- Crucially, this process releases a massive amount of energy (due to mass defect) and emits 2 or 3 additional neutrons.\n\n## Chain Reaction:\nThose emitted neutrons can go on to strike other U-235 nuclei, causing them to split and release more neutrons, leading to a self-sustaining chain reaction.\n- **Controlled:** Nuclear power plants.\n- **Uncontrolled:** Nuclear weapons."
+        },
+        {
+            "id": "atoms_13",
+            "type": "content",
+            "title": "Nuclear Energy: Fusion",
+            "content": "# Nuclear Fusion\n\nFusion means combining.\n\n## The Process:\n- Two light nuclei (like isotopes of Hydrogen: Deuterium and Tritium) combine to form a single, heavier nucleus (Helium).\n- This process releases even MORE energy per nucleon than fission.\n\n## The Catch:\n- Protons repel each other strongly. To force them together, they must be moving incredibly fast.\n- This requires extreme temperatures (millions of degrees) and extreme pressure.\n\n## Where it happens:\n- Fusion is the process that powers the **Sun** and all active stars! Scientists are currently trying to build fusion reactors on Earth for clean, limitless energy."
+        },
+        {
+            "id": "atoms_14",
+            "type": "content",
+            "title": "Summary: Atoms & Nuclei",
+            "content": "# Atoms & Nuclei Summary\n\n## Key Concepts Reviewed:\n\n- **Rutherford Model:** Dense positive nucleus, lots of empty space.\n- **Bohr Model:** Electrons in quantized, stationary orbits explain spectral lines.\n- **Nucleus:** Protons and neutrons held by the strong nuclear force.\n- **Mass Defect:** Missing mass is converted to binding energy (E=mc^2).\n- **Alpha Decay:** Emits Helium nucleus.\n- **Beta Decay:** Emits an electron.\n- **Gamma Decay:** Emits high-energy photon.\n- **Half-Life:** Time for half a sample to decay.\n- **Fission:** Heavy nucleus splits (Power plants).\n- **Fusion:** Light nuclei combine (The Sun).\n\n> **Congratulations!** You have completed the Atoms & Nuclei module."
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "id": "learn_light",
+    "topicId": "light",
+    "topicTitle": "Light - Reflection and Refraction",
+    "description": "Discover the incredible properties of light, how it bounces off mirrors, bends through lenses, and forms the images we see.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "light_1",
+            "type": "content",
+            "title": "Welcome to the World of Light",
+            "content": "# The Illuminating Physics\n\nWe see a variety of objects in the world around us. However, we are unable to see anything in a dark room. On lighting up the room, things become visible.\n\n## What makes things visible?\nDuring the day, the sunlight helps us to see objects. An object reflects light that falls on it. This reflected light, when received by our eyes, enables us to see things.\n\n## What You Will Learn:\n- **Reflection:** How light bounces off smooth surfaces like mirrors.\n- **Spherical Mirrors:** The science behind funhouse mirrors and car rear-view mirrors.\n- **Refraction:** Why a pencil looks bent in a glass of water.\n- **Lenses:** How glasses and magnifying glasses work."
+        },
+        {
+            "id": "light_2",
+            "type": "content",
+            "title": "The Nature of Light",
+            "content": "# Is Light a Wave or a Particle?\n\nLight behaves in very interesting ways.\n\n- Light seems to travel in **straight lines**. The fact that a small source of light casts a sharp shadow of an opaque object points to this straight-line path, usually indicated as a **ray of light**.\n\n- However, in the 20th century, scientists discovered that light also behaves like a **wave** (it can bend around very tiny obstacles), and like a stream of **particles** (called photons).\n\nIn this topic, we will use the straight-line \"ray\" model of light, which is perfectly sufficient to understand reflection and refraction!"
+        },
+        {
+            "id": "light_3",
+            "type": "content",
+            "title": "Reflection of Light",
+            "content": "# Bouncing Back\n\nA highly polished surface, such as a mirror, reflects most of the light falling on it.\n\n## The Laws of Reflection:\nYou might remember these from earlier classes. They are always true for any reflecting surface:\n1. The **angle of incidence** is equal to the **angle of reflection**.\n2. The incident ray, the normal to the mirror at the point of incidence, and the reflected ray, all lie in the same plane.\n\nThese laws of reflection are applicable to all types of reflecting surfaces including spherical surfaces."
+        },
+        {
+            "id": "light_quiz_1",
+            "type": "quiz",
+            "title": "Laws of Reflection Quiz",
+            "content": "Check your understanding of bouncing light.",
+            "quizQuestion": "If a ray of light hits a flat mirror at an angle of incidence of 30 degrees, what will be the angle of reflection?",
+            "quizOptions": [
+                "15 degrees",
+                "30 degrees",
+                "60 degrees",
+                "90 degrees"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "light_4",
+            "type": "content",
+            "title": "Image Formation by Plane Mirrors",
+            "content": "# The Mirror on the Wall\n\nWhat kind of image is formed by the standard flat mirror in your bathroom?\n\n## Properties of a Plane Mirror Image:\n1. **Virtual and Erect:** The image cannot be caught on a screen (virtual) and it is upright (erect).\n2. **Same Size:** The image is exactly the same size as the object.\n3. **Same Distance:** The image formed is as far behind the mirror as the object is in front of it.\n4. **Laterally Inverted:** The right side of the object appears as the left side of the image (which is why the word AMBULANCE is written backward on the vehicle!)."
+        },
+        {
+            "id": "light_5",
+            "type": "content",
+            "title": "Spherical Mirrors",
+            "content": "# Curved Reflections\n\nThe reflecting surface of a spherical mirror may be curved inwards or outwards.\n\nImagine a hollow glass sphere. If you cut a piece off, you get a curved piece of glass.\n\n## 1. Concave Mirror:\nA spherical mirror, whose reflecting surface is curved inwards, that is, faces towards the center of the sphere, is called a **concave mirror**. (Think of looking into a cave).\n\n## 2. Convex Mirror:\nA spherical mirror whose reflecting surface is curved outwards, is called a **convex mirror**."
+        },
+        {
+            "id": "light_6",
+            "type": "content",
+            "title": "Terminology of Spherical Mirrors",
+            "content": "# Understanding the Curve\n\nTo understand how these mirrors work, we need to know a few terms:\n\n- **Pole (P):** The center of the reflecting surface of a spherical mirror.\n- **Center of Curvature (C):** The center of the hollow sphere of glass of which the mirror is a part.\n- **Principal Axis:** A straight line passing through the pole and the center of curvature.\n- **Principal Focus (F):** The point on the principal axis where all rays parallel to the axis converge (meet) after reflection.\n- **Focal Length (f):** The distance between the pole and the principal focus."
+        },
+        {
+            "id": "light_7",
+            "type": "content",
+            "title": "Uses of Concave Mirrors",
+            "content": "# Focusing the Light\n\nConcave mirrors are converging mirrors (they bring light rays together).\n\n## Applications:\n- **Torches and Headlights:** They are used in torches, search-lights, and vehicles' headlights to get powerful parallel beams of light. The bulb is placed at the focus.\n- **Shaving Mirrors:** They are often used as shaving mirrors to see a larger image of the face.\n- **Dentists:** Dentists use concave mirrors to see large images of the teeth of patients.\n- **Solar Furnaces:** Large concave mirrors are used to concentrate sunlight to produce heat in solar furnaces."
+        },
+        {
+            "id": "light_8",
+            "type": "content",
+            "title": "Uses of Convex Mirrors",
+            "content": "# Spreading the Light\n\nConvex mirrors are diverging mirrors (they spread light rays apart).\n\n## Applications:\n- **Rear-view Mirrors:** Convex mirrors are commonly used as rear-view (wing) mirrors in vehicles. \n\n## Why use Convex for cars?\nThey always give an erect (upright), though diminished (smaller) image. Also, they have a wider field of view as they are curved outwards. Thus, convex mirrors enable the driver to view much larger area than would be possible with a plane mirror."
+        },
+        {
+            "id": "light_quiz_2",
+            "type": "quiz",
+            "title": "Mirrors Quiz",
+            "content": "Test your knowledge of spherical mirrors.",
+            "quizQuestion": "Which type of mirror is used by dentists to see a magnified image of a tooth?",
+            "quizOptions": [
+                "Plane mirror",
+                "Convex mirror",
+                "Concave mirror",
+                "Cylindrical mirror"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "light_9",
+            "type": "content",
+            "title": "Refraction of Light",
+            "content": "# Bending Light\n\nLight seems to travel along straight-line paths in a transparent medium. But what happens when light enters from one transparent medium to another?\n\n## The Bending Effect:\nHave you observed that the bottom of a tank or a pond containing water appears to be raised? Or that a thick glass slab placed over printed letters makes the letters appear raised?\n\nThis is due to **Refraction**.\n\n> **Definition:** The phenomenon of bending of light at the interface of two media when it travels from one transparent medium into another is called refraction of light."
+        },
+        {
+            "id": "light_10",
+            "type": "content",
+            "title": "Why Does Refraction Happen?",
+            "content": "# The Speed of Light Changes\n\nRefraction is due to a change in the **speed of light** as it enters from one transparent medium to another.\n\n- Light travels fastest in a vacuum (300,000 km/s). \n- It slows down when it enters denser mediums like water or glass.\n\n## The Rules of Bending:\n1. When a ray of light travels from a **rarer medium to a denser medium** (like air to glass), it slows down and bends **towards the normal**.\n2. When a ray of light travels from a **denser medium to a rarer medium** (like glass to air), it speeds up and bends **away from the normal**."
+        },
+        {
+            "id": "light_11",
+            "type": "content",
+            "title": "Refractive Index",
+            "content": "# Measuring the Bending\n\nThe extent of the change in direction that takes place in a given pair of media is expressed in terms of the **refractive index**.\n\n## The Formula:\nThe refractive index of a medium (m) is the ratio of the speed of light in a vacuum (c) to the speed of light in the medium (v).\n\n```\nRefractive Index (n) = Speed of light in vacuum / Speed of light in medium\nn = c / v\n```\n\nThe higher the refractive index, the denser the medium, and the slower light travels through it!"
+        },
+        {
+            "id": "light_12",
+            "type": "content",
+            "title": "Spherical Lenses",
+            "content": "# Bending Light to Focus\n\nA transparent material bound by two surfaces, of which one or both surfaces are spherical, forms a **lens**.\n\n## 1. Convex Lens (Double Convex):\n- It is thicker at the middle as compared to the edges.\n- It converges (brings together) light rays falling on it. Hence, it is called a **converging lens**.\n- Used in magnifying glasses and microscopes.\n\n## 2. Concave Lens (Double Concave):\n- It is thicker at the edges and thinner in the middle.\n- It diverges (spreads out) light rays falling on it. Hence, it is called a **diverging lens**.\n- Used in peepholes in doors."
+        },
+        {
+            "id": "light_quiz_3",
+            "type": "quiz",
+            "title": "Refraction & Lenses Quiz",
+            "content": "Check your understanding of bending light.",
+            "quizQuestion": "When a ray of light travels from a rarer medium (like air) into a denser medium (like glass), how does it bend?",
+            "quizOptions": [
+                "It does not bend",
+                "It bends away from the normal",
+                "It bends towards the normal",
+                "It reflects backwards"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "light_13",
+            "type": "content",
+            "title": "Sign Convention for Mirrors and Lenses",
+            "content": "# The Cartesian Rules\n\nTo use formulas in optics, we must follow a strict set of rules for measuring distances, called the New Cartesian Sign Convention.\n\n1. The object is always placed to the **left** of the mirror/lens.\n2. All distances parallel to the principal axis are measured from the pole/optical center.\n3. Distances measured to the **right** are taken as **positive** (+).\n4. Distances measured to the **left** are taken as **negative** (-).\n5. Heights measured **upwards** are **positive** (+).\n6. Heights measured **downwards** are **negative** (-)."
+        },
+        {
+            "id": "light_14",
+            "type": "content",
+            "title": "Mirror and Lens Formulas",
+            "content": "# The Mathematics of Optics\n\nUsing the sign conventions, we can calculate exactly where an image will form!\n\n## The Mirror Formula:\n```\n1/v + 1/u = 1/f\n```\n\n## The Lens Formula:\n```\n1/v - 1/u = 1/f\n```\n\nWhere:\n- **u** = object distance\n- **v** = image distance\n- **f** = focal length"
+        },
+        {
+            "id": "light_15",
+            "type": "content",
+            "title": "Magnification and Power",
+            "content": "# Size and Strength\n\n## Magnification (m):\nMagnification gives the relative extent to which the image of an object is magnified.\n- `m = Height of image / Height of object`\n- If 'm' is negative, the image is real and inverted. If 'm' is positive, the image is virtual and erect.\n\n## Power of a Lens (P):\nThe degree of convergence or divergence of light rays achieved by a lens is expressed in terms of its power.\n- `Power = 1 / focal length (in meters)`\n- The SI unit of power of a lens is **dioptre (D)**.\n- Opticians prescribe corrective lenses indicating their power (e.g., +2.0 D or -1.5 D)."
+        },
+        {
+            "id": "light_16",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Reflection:** The bouncing back of light from a surface.\n- **Refraction:** The bending of light as it passes from one medium to another.\n- **Concave Mirror:** Converges light (used in headlights).\n- **Convex Mirror:** Diverges light (used for car rear-view mirrors).\n- **Refractive Index:** A measure of how much a medium slows down light.\n- **Convex Lens:** Converging lens (thicker in the middle).\n- **Concave Lens:** Diverging lens (thinner in the middle).\n- **Dioptre (D):** The unit of power of a lens."
+        },
+        {
+            "id": "light_17",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Light\n\nExcellent work! Here is a recap of what we've learned:\n\n- Light obeys the **laws of reflection** (angle of incidence = angle of reflection).\n- **Plane mirrors** form virtual, erect, and laterally inverted images.\n- **Concave mirrors** can converge light, while **convex mirrors** provide a wider field of view.\n- **Refraction** occurs because the speed of light changes when entering a different medium. Light bends towards the normal in a denser medium.\n- **Lenses** use refraction to focus light. Convex lenses converge; concave lenses diverge.\n- We use standard **sign conventions** and the mirror/lens formulas to calculate image positions.\n- The **power of a lens** is the reciprocal of its focal length, measured in dioptres."
+        }
+    ]
+}

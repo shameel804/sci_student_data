@@ -1,0 +1,147 @@
+{
+    "id": "learn_physiology",
+    "topicId": "physiology",
+    "topicTitle": "Plant Physiology",
+    "description": "Understand how plants function on a chemical level, from drinking water and absorbing minerals to making their own food through photosynthesis.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "phys_1",
+            "type": "content",
+            "title": "Welcome to Plant Physiology",
+            "content": "# Plant Physiology\n\nWelcome to Plant Physiology! This field studies how plants function, grow, and respond to their environment.\n\n## What You Will Learn:\n- **Plant Water Relations** - How plants absorb and transport water\n- **Mineral Nutrition** - Essential elements for plant growth\n- **Photosynthesis Mechanisms** - How plants make food from light\n- **Respiration in Plants** - How plants break down food for energy\n\n> **Fun Fact:** A large oak tree can transpire (sweat) up to 40,000 gallons of water per year!"
+        },
+        {
+            "id": "phys_2",
+            "type": "content",
+            "title": "Water in Plants",
+            "content": "# The Importance of Water\n\nWater is essential for all physiological activities of the plant and plays a very important role in all living organisms.\n\n## Why Plants Need Water:\n- It provides the medium in which most substances are dissolved.\n- A watermelon has over 92% water; most herbaceous plants have about 10 to 15% of their fresh weight as dry matter.\n- Woody parts have relatively little water, while soft parts mostly contain water.\n- A seed may appear dry but it still has water; otherwise, it would not be alive and respiring."
+        },
+        {
+            "id": "phys_3",
+            "type": "content",
+            "title": "Water Potential",
+            "content": "# Water Potential\n\nWater potential (Psi) is a fundamental concept to understand water movement.\n\n## Definition:\nIt is the potential energy of water in a system compared to pure water.\n- Water always moves from an area of **higher** water potential to an area of **lower** water potential.\n- Pure water at standard temperature and pressure has a water potential of **zero**.\n\n## Components:\nWater potential is determined by two main factors:\n1. **Solute Potential:** Adding solutes (like salt or sugar) lowers the water potential (makes it more negative).\n2. **Pressure Potential:** Physical pressure increases water potential."
+        },
+        {
+            "id": "phys_4",
+            "type": "content",
+            "title": "Osmosis and Plasmolysis",
+            "content": "# Osmosis and Plasmolysis\n\n## Osmosis:\n- The diffusion of water across a differentially or semi-permeable membrane.\n- Driven by concentration and pressure gradients.\n\n## Plasmolysis:\n- Occurs when water moves out of the cell and the cell membrane of a plant cell shrinks away from its cell wall.\n- This happens when a cell is placed in a **hypertonic** solution (has more solutes than the cell's cytoplasm).\n- The space between the cell wall and the shrunken protoplast is filled with the external solution."
+        },
+        {
+            "id": "phys_5",
+            "type": "content",
+            "title": "Transpiration",
+            "content": "# Transpiration\n\nTranspiration is the evaporative loss of water by plants.\n\n## The Process:\n- It occurs mainly through the **stomata** in the leaves.\n- Besides the loss of water vapor, exchange of oxygen and carbon dioxide in the leaf also occurs through stomata.\n- Stomata are usually open in the day and close during the night.\n\n## Significance of Transpiration:\n- Creates a **transpirational pull** for absorption and transport of plants.\n- Supplies water for photosynthesis.\n- Transports minerals from the soil to all parts of the plant.\n- Cools leaf surfaces, sometimes 10 to 15 degrees, by evaporative cooling."
+        },
+        {
+            "id": "phys_quiz_1",
+            "type": "quiz",
+            "title": "Water Relations Quiz",
+            "content": "Test your knowledge on plant water movement.",
+            "quizQuestion": "Water always moves from an area of:",
+            "quizOptions": [
+                "Lower to higher water potential",
+                "Higher to lower water potential",
+                "Lower to higher solute concentration",
+                "Zero to positive water potential"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "phys_6",
+            "type": "content",
+            "title": "Mineral Nutrition",
+            "content": "# Mineral Nutrition\n\nPlants require specific inorganic nutrients to survive and grow.\n\n## Essential Elements:\nAn element is considered essential if:\n1. The plant cannot complete its life cycle without it.\n2. Its function cannot be replaced by another element.\n3. It is directly involved in the plant's metabolism.\n\n## Categories:\n- **Macronutrients:** Required in large amounts (e.g., Carbon, Hydrogen, Oxygen, Nitrogen, Phosphorous, Potassium).\n- **Micronutrients (Trace Elements):** Required in very small amounts (e.g., Iron, Manganese, Copper, Zinc, Boron)."
+        },
+        {
+            "id": "phys_7",
+            "type": "content",
+            "title": "Role of Key Nutrients",
+            "content": "# Functions of Essential Elements\n\nEach element has a specific role. A deficiency leads to specific symptoms.\n\n## Nitrogen (N):\n- Required by all parts of a plant, particularly meristematic tissues.\n- Major constituent of proteins, nucleic acids, vitamins, and hormones.\n\n## Phosphorus (P):\n- Constituent of cell membranes, certain proteins, and all nucleic acids.\n- Required for all ATP-forming reactions.\n\n## Potassium (K):\n- Helps maintain an anion-cation balance in cells.\n- Involved in protein synthesis, opening and closing of stomata, and activation of enzymes."
+        },
+        {
+            "id": "phys_8",
+            "type": "content",
+            "title": "Nitrogen Cycle",
+            "content": "# The Nitrogen Cycle\n\nNitrogen is the most prevalent element in living organisms aside from C, H, and O.\n\n## Nitrogen Fixation:\n- Plants cannot use atmospheric nitrogen gas directly.\n- It must be converted into ammonia or nitrates by bacteria.\n- **Biological Nitrogen Fixation:** Certain prokaryotes (like *Rhizobium* in legume roots) have the enzyme nitrogenase capable of nitrogen reduction.\n\n## Other Steps:\n- **Ammonification:** Decomposition of organic nitrogen of dead plants and animals into ammonia.\n- **Nitrification:** Ammonia is oxidized to nitrite, then to nitrate by soil bacteria.\n- **Denitrification:** Nitrate is reduced back to nitrogen gas by bacteria like *Pseudomonas*."
+        },
+        {
+            "id": "phys_9",
+            "type": "content",
+            "title": "Photosynthesis Basics",
+            "content": "# Photosynthesis\n\nPhotosynthesis is a physico-chemical process by which plants use light energy to drive the synthesis of organic compounds.\n\n## The General Equation:\n```\n6 CO2 + 12 H2O + Light -> C6H12O6 + 6 O2 + 6 H2O\n```\n(Carbon dioxide + Water + Light -> Glucose + Oxygen + Water)\n\n## Site of Photosynthesis:\n- Occurs in the **chloroplasts**, primarily found in the mesophyll cells of the leaves.\n- Chloroplasts contain membranous sacs called **thylakoids** (arranged in stacks called grana) and a fluid matrix called **stroma**."
+        },
+        {
+            "id": "phys_10",
+            "type": "content",
+            "title": "Photosynthetic Pigments",
+            "content": "# Pigments Involved in Photosynthesis\n\nPigments are substances that have an ability to absorb light at specific wavelengths.\n\n## Types of Pigments:\n1. **Chlorophyll a:** The primary photosynthetic pigment. Appears bright or blue-green in the chromatogram.\n2. **Chlorophyll b:** Yellow-green.\n3. **Xanthophylls:** Yellow.\n4. **Carotenoids:** Yellow to yellow-orange.\n\n## Role of Pigments:\n- Chlorophyll a is the main pigment that drives the reaction.\n- The others are **accessory pigments**. They absorb light and transfer the energy to chlorophyll a, and protect it from photo-oxidation."
+        },
+        {
+            "id": "phys_11",
+            "type": "content",
+            "title": "Light Reactions",
+            "content": "# The Light Reactions (Photochemical Phase)\n\nThe light reactions occur in the thylakoid membranes of the chloroplast.\n\n## Key Steps:\n1. **Light Absorption:** Chlorophyll absorbs light energy.\n2. **Water Splitting (Photolysis):** Water molecules are split to release electrons, protons, and **Oxygen gas**.\n3. **ATP and NADPH Formation:** The electrons move through an electron transport system, generating ATP and reducing NADP+ to NADPH.\n\nThese products (ATP and NADPH) are the energy currency needed for the next phase."
+        },
+        {
+            "id": "phys_quiz_2",
+            "type": "quiz",
+            "title": "Photosynthesis Quiz",
+            "content": "Check your understanding of the light phase.",
+            "quizQuestion": "Oxygen released during photosynthesis comes directly from the splitting of:",
+            "quizOptions": [
+                "Carbon dioxide",
+                "Glucose",
+                "Water",
+                "Chlorophyll"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "phys_12",
+            "type": "content",
+            "title": "Dark Reactions",
+            "content": "# The Dark Reactions (Biosynthetic Phase)\n\nDespite the name, these reactions don't happen in the dark; they just don't *directly* require light. They use the ATP and NADPH produced in the light reactions.\n\n## The Calvin Cycle (C3 Pathway):\nOccurs in the stroma of the chloroplast.\n1. **Carbon Fixation:** CO2 combines with a 5-carbon sugar (RuBP), catalyzed by the enzyme **RuBisCO**.\n2. **Reduction:** ATP and NADPH are used to convert the resulting molecules into a 3-carbon sugar (G3P/Triose phosphate), which eventually forms glucose.\n3. **Regeneration:** RuBP is regenerated so the cycle can continue.\n\n> **Note:** RuBisCO is the most abundant enzyme on Earth!"
+        },
+        {
+            "id": "phys_13",
+            "type": "content",
+            "title": "Respiration in Plants",
+            "content": "# Cellular Respiration\n\nPlants must break down the food they make to release energy for cellular activities.\n\n## Do Plants Breathe?\nYes! Plants require oxygen for respiration to occur and they give out carbon dioxide. However, they don't have specialized respiratory organs like lungs; they use stomata and lenticels for gas exchange.\n\n## The General Equation:\n```\nC6H12O6 + 6 O2 -> 6 CO2 + 6 H2O + Energy (ATP)\n```\n\nNotice that this is essentially the reverse of the photosynthesis equation!"
+        },
+        {
+            "id": "phys_14",
+            "type": "content",
+            "title": "Glycolysis",
+            "content": "# Step 1: Glycolysis\n\nThe term glycolysis has originated from the Greek words, glycos for sugar, and lysis for splitting.\n\n## The Process:\n- Occurs in the **cytoplasm** of the cell.\n- It is the partial breakdown of glucose (a 6-carbon molecule) into two molecules of **pyruvic acid** (a 3-carbon molecule).\n- **No oxygen is required** for this step (it happens in both aerobic and anaerobic respiration).\n- Net gain: 2 molecules of ATP and 2 molecules of NADH."
+        },
+        {
+            "id": "phys_15",
+            "type": "content",
+            "title": "Aerobic Respiration",
+            "content": "# Aerobic Respiration\n\nIf oxygen is present, pyruvic acid enters the mitochondria for complete breakdown.\n\n## 1. Krebs Cycle (Citric Acid Cycle):\n- Occurs in the mitochondrial matrix.\n- Pyruvic acid is completely oxidized to release Carbon Dioxide.\n- Generates a large amount of NADH and FADH2.\n\n## 2. Electron Transport System (ETS):\n- Occurs on the inner mitochondrial membrane.\n- The energy stored in NADH and FADH2 is used to produce a massive amount of ATP.\n- Oxygen acts as the final electron acceptor, combining with protons to form water.\n\n**Total Yield:** Roughly 36 to 38 ATP molecules per glucose molecule!"
+        },
+        {
+            "id": "phys_quiz_3",
+            "type": "quiz",
+            "title": "Respiration Quiz",
+            "content": "Test your knowledge on energy production.",
+            "quizQuestion": "Glycolysis takes place in which part of the cell?",
+            "quizOptions": [
+                "Mitochondria",
+                "Chloroplast",
+                "Cytoplasm",
+                "Nucleus"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "phys_16",
+            "type": "content",
+            "title": "Summary: Plant Physiology",
+            "content": "# Plant Physiology Summary\n\n## Key Concepts Reviewed:\n\n- **Water Relations:** Water moves from high to low water potential. Transpiration drives the upward pull of water.\n- **Mineral Nutrition:** Plants need macronutrients (N, P, K) and micronutrients. Bacteria help fix atmospheric nitrogen.\n- **Photosynthesis:** Converts light to chemical energy. \n  - Light reactions (thylakoid): make ATP, NADPH, and O2.\n  - Dark reactions (stroma): use ATP/NADPH to fix CO2 into sugars.\n- **Respiration:** Breaks down sugars to release ATP. \n  - Glycolysis (cytoplasm) -> Krebs cycle (mitochondria) -> ETS (mitochondria).\n\n> **Congratulations!** You've completed the Plant Physiology module."
+        }
+    ]
+}

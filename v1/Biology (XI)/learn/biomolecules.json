@@ -1,0 +1,147 @@
+{
+    "id": "learn_biomolecules",
+    "topicId": "biomolecules",
+    "topicTitle": "Biomolecules",
+    "description": "Examine the chemical building blocks of life: carbohydrates, proteins, lipids, and nucleic acids, and discover how enzymes power cellular reactions.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "bio_1",
+            "type": "content",
+            "title": "Welcome to Biomolecules",
+            "content": "# Introduction to Biomolecules\n\nWelcome to Biomolecules! All living organisms are made up of the same basic chemicals. Understanding these chemicals is the key to understanding life itself.\n\n## What You Will Learn:\n- **Carbohydrate Chemistry** - Sugars and starches\n- **Protein Structure** - The building blocks of cells\n- **Lipid Classification** - Fats and oils\n- **Nucleic Acid Functions** - DNA and RNA\n\n> **Fun Fact:** Carbon is the backbone of all biomolecules because it can form four stable covalent bonds with other atoms!"
+        },
+        {
+            "id": "bio_2",
+            "type": "content",
+            "title": "Cellular Pool",
+            "content": "# The Cellular Pool\n\nIf you were to grind up a living tissue and analyze its chemical composition, what would you find?\n\n## Inorganic Compounds:\n- **Water:** The most abundant chemical in living organisms (70-90%).\n- **Minerals/Ions:** Sodium, Potassium, Calcium, Magnesium, etc.\n\n## Organic Compounds (Biomolecules):\nThese are carbon-containing compounds found in living tissues. They are divided into two fractions based on molecular weight:\n1. **Biomicromolecules:** Molecular weight less than 1000 Daltons (e.g., amino acids, simple sugars, nucleotides).\n2. **Biomacromolecules:** Molecular weight greater than 1000 Daltons (e.g., proteins, polysaccharides, nucleic acids)."
+        },
+        {
+            "id": "bio_3",
+            "type": "content",
+            "title": "Carbohydrates Basics",
+            "content": "# Carbohydrates: The Energy Source\n\nCarbohydrates are the primary source of energy for most living organisms.\n\n## Composition:\nThey consist of Carbon, Hydrogen, and Oxygen, usually in the ratio 1:2:1 (General formula: (CH2O)n).\n\n## Classification:\n1. **Monosaccharides:** Simple sugars (1 unit).\n2. **Oligosaccharides:** 2 to 10 monosaccharide units.\n3. **Polysaccharides:** Long chains of monosaccharide units.\n\n> **Note:** Sweet-tasting carbohydrates are commonly called sugars."
+        },
+        {
+            "id": "bio_4",
+            "type": "content",
+            "title": "Monosaccharides & Disaccharides",
+            "content": "# Simple Sugars\n\n## Monosaccharides:\n- The simplest carbohydrates; cannot be hydrolyzed further.\n- **Glucose:** The most important blood sugar and primary energy source.\n- **Fructose:** Fruit sugar (the sweetest natural sugar).\n- **Ribose:** A 5-carbon sugar found in RNA.\n\n## Disaccharides (A type of Oligosaccharide):\nFormed when two monosaccharides join together via a **glycosidic bond**.\n- **Sucrose (Table Sugar):** Glucose + Fructose.\n- **Lactose (Milk Sugar):** Glucose + Galactose.\n- **Maltose (Malt Sugar):** Glucose + Glucose."
+        },
+        {
+            "id": "bio_5",
+            "type": "content",
+            "title": "Polysaccharides",
+            "content": "# Polysaccharides: Complex Carbs\n\nPolysaccharides are long chains of sugars. They serve mainly as storage or structural components.\n\n## Storage Polysaccharides:\n- **Starch:** The main storage carbohydrate in plants (found in potatoes, rice, wheat).\n- **Glycogen:** The main storage carbohydrate in animals (stored in the liver and muscles). Often called 'animal starch'.\n\n## Structural Polysaccharides:\n- **Cellulose:** Forms the cell wall of plants. It is the most abundant organic molecule on Earth! Humans cannot digest it (it forms dietary fiber).\n- **Chitin:** Forms the exoskeleton of arthropods (insects, crabs) and the cell walls of fungi."
+        },
+        {
+            "id": "bio_quiz_1",
+            "type": "quiz",
+            "title": "Carb Quiz",
+            "content": "Test your carbohydrate knowledge.",
+            "quizQuestion": "Which polysaccharide is responsible for providing structural support in plant cell walls?",
+            "quizOptions": [
+                "Glycogen",
+                "Starch",
+                "Cellulose",
+                "Chitin"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "bio_6",
+            "type": "content",
+            "title": "Amino Acids",
+            "content": "# Amino Acids: Building Blocks of Proteins\n\nAmino acids are organic compounds containing an amino group and an acidic carboxyl group.\n\n## Structure:\nThey have a central carbon atom (alpha-carbon) attached to four groups:\n1. Hydrogen atom\n2. Carboxyl group (-COOH)\n3. Amino group (-NH2)\n4. **Variable R group (Side chain)**\n\nThe R group determines the specific properties of each of the 20 different amino acids used to build proteins.\n\n## Essential vs Non-Essential:\n- **Essential:** Must be obtained through diet (human body cannot synthesize them).\n- **Non-Essential:** Can be synthesized by our bodies."
+        },
+        {
+            "id": "bio_7",
+            "type": "content",
+            "title": "Proteins",
+            "content": "# Proteins: The Doers of the Cell\n\nProteins are linear polymers (polypeptides) made of amino acids linked by **peptide bonds**.\n\n## Why are they so important?\nProteins perform almost all the dynamic functions of a living being:\n- **Enzymes:** Catalyze biochemical reactions (e.g., amylase).\n- **Structural:** Form the framework of body parts (e.g., collagen, keratin).\n- **Transport:** Move molecules across membranes or through blood (e.g., hemoglobin).\n- **Hormones:** Chemical messengers (e.g., insulin).\n- **Defense:** Antibodies fight infections.\n\n> **Fact:** Collagen is the most abundant protein in the animal world!"
+        },
+        {
+            "id": "bio_8",
+            "type": "content",
+            "title": "Protein Structure Levels",
+            "content": "# The Four Levels of Protein Structure\n\nA protein's function is strictly determined by its 3D shape.\n\n## 1. Primary Structure:\n- The linear sequence of amino acids in the polypeptide chain.\n- Like a string of letters forming a word.\n\n## 2. Secondary Structure:\n- Local folding of the chain into regular structures.\n- Common types: **Alpha-helix** (coiled) and **Beta-pleated sheet** (folded).\n- Held together by hydrogen bonds.\n\n## 3. Tertiary Structure:\n- The overall 3D folding of the entire polypeptide chain.\n- Brings distant amino acids close together to form active sites.\n\n## 4. Quaternary Structure:\n- Only applies to proteins with more than one polypeptide chain (e.g., Hemoglobin has 4 chains)."
+        },
+        {
+            "id": "bio_9",
+            "type": "content",
+            "title": "Lipids",
+            "content": "# Lipids: Fats and Oils\n\nLipids are a diverse group of compounds that are generally water-insoluble (hydrophobic).\n\n## Key Characteristics:\n- Not true polymers (unlike proteins or carbs).\n- Made mostly of Carbon and Hydrogen, with very little Oxygen.\n\n## Simple Lipids (Triglycerides):\n- Formed by one molecule of **glycerol** bound to three **fatty acid** chains.\n- Provide long-term energy storage, insulation, and cushioning.\n\n## Saturated vs Unsaturated Fatty Acids:\n- **Saturated:** No double bonds between carbons. Solid at room temp (e.g., butter, animal fat).\n- **Unsaturated:** One or more double bonds (causes a 'kink' in the chain). Liquid at room temp (e.g., olive oil)."
+        },
+        {
+            "id": "bio_10",
+            "type": "content",
+            "title": "Complex Lipids",
+            "content": "# Complex Lipids\n\nThese lipids have additional groups attached to them.\n\n## Phospholipids:\n- Similar to triglycerides, but one fatty acid is replaced by a phosphate group.\n- They have a hydrophilic (water-loving) head and two hydrophobic (water-fearing) tails.\n- **Function:** They are the main structural component of all cell membranes!\n\n## Steroids:\n- Have a completely different structure: four fused carbon rings.\n- **Cholesterol:** A crucial component of animal cell membranes and a precursor for making steroid hormones.\n- **Hormones:** Testosterone, estrogen, cortisol."
+        },
+        {
+            "id": "bio_quiz_2",
+            "type": "quiz",
+            "title": "Protein and Lipid Quiz",
+            "content": "Check your understanding of proteins and lipids.",
+            "quizQuestion": "What type of bond links amino acids together to form a protein?",
+            "quizOptions": [
+                "Glycosidic bond",
+                "Peptide bond",
+                "Hydrogen bond",
+                "Phosphodiester bond"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "bio_11",
+            "type": "content",
+            "title": "Nucleic Acids",
+            "content": "# Nucleic Acids: The Information Molecules\n\nNucleic acids are the macromolecules responsible for storing, transmitting, and expressing genetic information.\n\n## Two Main Types:\n1. **DNA (Deoxyribonucleic acid):** The master blueprint of the cell.\n2. **RNA (Ribonucleic acid):** The messenger and worker that translates the blueprint into proteins.\n\n## The Building Blocks:\nNucleic acids are polymers made of repeating units called **Nucleotides**."
+        },
+        {
+            "id": "bio_12",
+            "type": "content",
+            "title": "Nucleotide Structure",
+            "content": "# Structure of a Nucleotide\n\nEvery nucleotide consists of three distinct components:\n\n## 1. Pentose Sugar (A 5-carbon sugar):\n- In DNA, it is **deoxyribose**.\n- In RNA, it is **ribose**.\n\n## 2. Nitrogenous Base:\n- **Purines (Double ring):** Adenine (A) and Guanine (G).\n- **Pyrimidines (Single ring):** Cytosine (C), Thymine (T) (found only in DNA), and Uracil (U) (found only in RNA).\n\n## 3. Phosphate Group:\n- Links the sugar of one nucleotide to the sugar of the next, forming the strong backbone of the nucleic acid strand.\n\n> **Bonding:** Nucleotides are linked by **phosphodiester bonds**."
+        },
+        {
+            "id": "bio_13",
+            "type": "content",
+            "title": "DNA Structure",
+            "content": "# DNA: The Double Helix\n\nThe famous structure discovered by Watson and Crick in 1953.\n\n## Key Features of DNA:\n- **Double-stranded:** Two long polynucleotide chains twisted around each other.\n- **Antiparallel:** The two strands run in opposite directions.\n- **Base Pairing Rules:** The strands are held together by hydrogen bonds between specific bases.\n  - Adenine (A) always pairs with Thymine (T) via 2 hydrogen bonds.\n  - Guanine (G) always pairs with Cytosine (C) via 3 hydrogen bonds.\n\nThis specific pairing ensures that the genetic code can be accurately copied during cell division."
+        },
+        {
+            "id": "bio_14",
+            "type": "content",
+            "title": "Enzymes Basics",
+            "content": "# Enzymes: Biological Catalysts\n\nAlmost all enzymes are proteins.\n\n## What do they do?\nEnzymes speed up (catalyze) chemical reactions in the body without being consumed in the process. Life would be impossible without them, as reactions would occur too slowly!\n\n## How they work:\n- Enzymes have a specific pocket called an **active site**.\n- The reactant molecule, called the **substrate**, binds perfectly to this active site (like a key in a lock).\n- The enzyme lowers the **activation energy** required for the reaction to occur, rapidly converting the substrate into the product."
+        },
+        {
+            "id": "bio_15",
+            "type": "content",
+            "title": "Factors Affecting Enzymes",
+            "content": "# Factors Affecting Enzyme Activity\n\nEnzymes are highly sensitive to their environment.\n\n## 1. Temperature:\n- Enzymes have an optimum temperature where they work best.\n- High temperatures destroy (denature) the 3D shape of the protein, rendering the enzyme useless.\n- Low temperatures render the enzyme temporarily inactive.\n\n## 2. pH:\n- Enzymes also have an optimum pH.\n- Most function near neutral (pH 7), but stomach enzymes like pepsin work best in highly acidic conditions (pH 2).\n\n## 3. Substrate Concentration:\n- Adding more substrate increases reaction rate, but only up to a point. Once all enzyme active sites are occupied, the rate plateaus (Vmax)."
+        },
+        {
+            "id": "bio_quiz_3",
+            "type": "quiz",
+            "title": "Nucleic Acid Quiz",
+            "content": "Test your DNA knowledge.",
+            "quizQuestion": "According to DNA base-pairing rules, Adenine (A) always pairs with:",
+            "quizOptions": [
+                "Guanine (G)",
+                "Cytosine (C)",
+                "Uracil (U)",
+                "Thymine (T)"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "bio_16",
+            "type": "content",
+            "title": "Summary: Biomolecules",
+            "content": "# Biomolecules Summary\n\n## Key Concepts Reviewed:\n\n- **Carbohydrates:** Sugars and polymers (starch, glycogen, cellulose) used for energy and structure. Connected by glycosidic bonds.\n- **Proteins:** Polymers of amino acids connected by peptide bonds. They perform most cellular functions. Shape determines function.\n- **Lipids:** Hydrophobic molecules including triglycerides (fats), phospholipids (membranes), and steroids.\n- **Nucleic Acids:** DNA and RNA, made of nucleotides. Store and express genetic info. A pairs with T, G pairs with C.\n- **Enzymes:** Protein catalysts that lower activation energy and are sensitive to temperature and pH.\n\n> **Congratulations!** You have completed the Biomolecules module. You now understand the chemical foundation of life!"
+        }
+    ]
+}

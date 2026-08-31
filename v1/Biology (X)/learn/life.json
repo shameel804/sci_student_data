@@ -1,0 +1,135 @@
+{
+    "id": "learn_life",
+    "topicId": "life",
+    "topicTitle": "Life Processes",
+    "description": "Discover the incredible biological machinery that keeps you alive, from digesting food to pumping blood and filtering waste.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "life_1",
+            "type": "content",
+            "title": "Welcome to Life Processes",
+            "content": "# What Keeps Us Alive?\n\nHow do we tell the difference between what is alive and what is not alive? If we see a dog running, or a cow chewing cud, or a man shouting loudly on the street, we know that these are living beings.\n\nBut what about when they are asleep? They are still alive because they are breathing, and their hearts are beating.\n\n## The Definition:\nThe processes which together perform the maintenance job of keeping an organism alive are called **life processes**.\n\n## The Big Four:\nIn this topic, we will study the four essential life processes: **Nutrition, Respiration, Transportation, and Excretion**."
+        },
+        {
+            "id": "life_2",
+            "type": "content",
+            "title": "1. Nutrition",
+            "content": "# Getting the Fuel\n\nWhen we walk or ride a bicycle, we are using up energy. Even when we are not doing any apparent activity, energy is needed to maintain a state of order in our body.\n\nWhere does this energy come from? It comes from the food we eat! This process of taking in food and utilizing it is called **Nutrition**.\n\n## Two Main Modes of Nutrition:\n1. **Autotrophic Nutrition:** \"Auto\" means self. Organisms that make their own food from simple inorganic substances (like CO2 and water). Example: Green plants.\n2. **Heterotrophic Nutrition:** \"Hetero\" means others. Organisms that depend on others for their food. Example: Animals and Fungi."
+        },
+        {
+            "id": "life_3",
+            "type": "content",
+            "title": "Autotrophic Nutrition (Plants)",
+            "content": "# The Solar Chefs\n\nGreen plants are autotrophs. They fulfill their carbon and energy requirements through a process called **photosynthesis**.\n\n## Photosynthesis:\nIt is the process by which plants take in carbon dioxide and water, and convert them into carbohydrates (glucose) in the presence of sunlight and chlorophyll.\n\n`6CO2 + 12H2O + Light -> C6H12O6 (Glucose) + 6O2 + 6H2O`\n\nThe extra glucose is stored as starch, which serves as an internal energy reserve for the plant."
+        },
+        {
+            "id": "life_4",
+            "type": "content",
+            "title": "Human Digestive System",
+            "content": "# Breaking it Down\n\nHumans are heterotrophs. We eat complex foods that need to be broken down into simple, absorbable molecules.\n\n## The Alimentary Canal (Gut):\n1. **Mouth:** Digestion starts here. Teeth crush food. Saliva contains an enzyme called **salivary amylase** that breaks down starch into sugar.\n2. **Stomach:** A large muscular bag. It secretes gastric juices containing **Hydrochloric acid (HCl)** and an enzyme called **pepsin** (which digests proteins). The acid kills bacteria and helps pepsin work.\n3. **Small Intestine:** The site of *complete* digestion. It receives secretions from the **Liver** (bile, which breaks down fats) and **Pancreas** (enzymes like trypsin and lipase). It is highly coiled and has millions of tiny finger-like projections called **villi** to absorb the digested food into the blood."
+        },
+        {
+            "id": "life_quiz_1",
+            "type": "quiz",
+            "title": "Digestion Quiz",
+            "content": "Check your knowledge of the gut.",
+            "quizQuestion": "In which part of the human digestive system does the COMPLETE digestion of carbohydrates, proteins, and fats take place?",
+            "quizOptions": [
+                "Stomach",
+                "Large Intestine",
+                "Mouth",
+                "Small Intestine"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "life_5",
+            "type": "content",
+            "title": "2. Respiration",
+            "content": "# Unlocking the Energy\n\nNutrition gives us glucose. But glucose is just stored fuel; it needs to be \"burned\" to release energy for our cells to use.\n\nThe process of breaking down food sources for cellular needs is called **Respiration**.\n\n## Two Types of Respiration:\n1. **Aerobic Respiration:** Happens in the *presence* of Oxygen. Glucose is completely broken down into CO2 and H2O, releasing a LOT of energy (38 ATP). This happens in the **mitochondria**.\n2. **Anaerobic Respiration:** Happens in the *absence* of Oxygen. Glucose is only partially broken down, releasing very little energy (2 ATP). This happens in yeast (producing alcohol) and sometimes in our muscle cells during heavy exercise (producing **lactic acid**, which causes muscle cramps)."
+        },
+        {
+            "id": "life_6",
+            "type": "content",
+            "title": "Human Respiratory System",
+            "content": "# Breathing In and Out\n\nTo perform aerobic respiration, we need a continuous supply of Oxygen and a way to get rid of Carbon Dioxide.\n\n## The Pathway:\n1. Air enters through the **nostrils** (where hairs filter out dust).\n2. It passes through the **trachea** (windpipe), which has rings of cartilage so it doesn't collapse.\n3. The trachea splits into two **bronchi**, which enter the lungs and divide into smaller **bronchioles**.\n4. These terminate in millions of tiny, balloon-like air sacs called **alveoli**.\n\nThe alveoli provide a massive surface area where gases are exchanged with the blood capillaries. Oxygen goes into the blood, and CO2 comes out!"
+        },
+        {
+            "id": "life_quiz_2",
+            "type": "quiz",
+            "title": "Respiration Quiz",
+            "content": "Check your understanding of breathing and energy.",
+            "quizQuestion": "What builds up in our muscle cells during sudden, heavy activity due to anaerobic respiration, causing cramps?",
+            "quizOptions": [
+                "Carbon dioxide",
+                "Alcohol",
+                "Lactic acid",
+                "Glucose"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "life_7",
+            "type": "content",
+            "title": "3. Transportation in Humans",
+            "content": "# The Delivery System\n\nOnce food is digested and oxygen is absorbed, they need to be delivered to every single cell in the body. This is done by the circulatory system.\n\n## Blood:\nBlood is a fluid connective tissue. It consists of a fluid medium called **plasma** (which transports food, CO2, and waste) in which the cells are suspended.\n**Red Blood Cells (RBCs)** carry oxygen using a red pigment called **hemoglobin**.\n\n## The Heart:\nThe heart is a muscular organ that pumps the blood. Because both oxygen and carbon dioxide have to be transported, the human heart has **four chambers** to prevent the oxygen-rich blood from mixing with the blood containing carbon dioxide."
+        },
+        {
+            "id": "life_8",
+            "type": "content",
+            "title": "How the Heart Works",
+            "content": "# The Double Pump\n\n1. **Right side (The Lung Pump):** De-oxygenated (CO2-rich) blood from the body enters the Right Atrium, goes to the Right Ventricle, and is pumped to the Lungs to get oxygen.\n2. **Left side (The Body Pump):** Oxygenated blood from the lungs enters the Left Atrium, goes to the Left Ventricle, and is pumped out to the rest of the Body.\n\nSince blood goes through the heart twice during one complete cycle, it is called **double circulation**. This ensures a highly efficient supply of oxygen to the body, which is necessary for warm-blooded animals like birds and mammals."
+        },
+        {
+            "id": "life_9",
+            "type": "content",
+            "title": "Transportation in Plants",
+            "content": "# Moving Water and Food\n\nPlants don't have hearts or blood, but they still need to move things around!\n\n## 1. Transport of Water (Xylem):\nRoots absorb water and minerals from the soil. The **xylem** tissue moves this water upwards to the leaves.\nThis upward movement is mainly driven by **transpiration** (the evaporation of water from the leaves), which creates a suction pull, dragging water up like a straw!\n\n## 2. Transport of Food (Phloem):\nLeaves make food (glucose) via photosynthesis. This food needs to reach the roots and growing stems.\nThe transport of soluble products of photosynthesis is called **translocation** and it occurs in the **phloem** tissue using energy from ATP."
+        },
+        {
+            "id": "life_quiz_3",
+            "type": "quiz",
+            "title": "Transport Quiz",
+            "content": "Check your understanding of the delivery systems.",
+            "quizQuestion": "In plants, what is the process of transporting food (sugars) from the leaves to other parts of the plant called?",
+            "quizOptions": [
+                "Transpiration",
+                "Photosynthesis",
+                "Translocation",
+                "Evaporation"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "life_10",
+            "type": "content",
+            "title": "4. Excretion",
+            "content": "# Taking Out the Trash\n\nAs our cells perform chemical reactions to keep us alive, they produce toxic waste products (like urea and uric acid) that must be removed.\n\nThe biological process involved in the removal of these harmful metabolic wastes from the body is called **Excretion**.\n\n## The Human Excretory System:\nIt includes a pair of kidneys, a pair of ureters, a urinary bladder, and a urethra.\n- **Kidneys:** Located in the abdomen, they filter the blood to produce urine.\n- **Ureters:** Tubes that carry urine from the kidneys to the bladder.\n- **Bladder:** Stores the urine until it is passed out through the urethra."
+        },
+        {
+            "id": "life_11",
+            "type": "content",
+            "title": "The Nephron",
+            "content": "# The Microscopic Filter\n\nHow does the kidney actually filter the blood?\n\nEach kidney has large numbers of basic filtration units called **nephrons** packed close together (about a million per kidney!).\n\n## How it works:\n1. Dirty blood enters the nephron under high pressure.\n2. A cup-shaped structure called Bowman's capsule acts as a sieve, filtering out water, urea, glucose, and salts into a long tube.\n3. As this liquid flows along the tube, useful substances like glucose, amino acids, and a lot of water are selectively **reabsorbed** back into the blood.\n4. The remaining liquid containing the toxic urea and excess salts is the **urine**."
+        },
+        {
+            "id": "life_12",
+            "type": "content",
+            "title": "Excretion in Plants",
+            "content": "# Plant Waste\n\nPlants use completely different strategies for excretion than animals.\n\n1. **Oxygen:** The oxygen produced during photosynthesis can be thought of as a waste product!\n2. **Water:** Excess water is lost by transpiration.\n3. **Leaves:** For other wastes, plants use the fact that many of their tissues consist of dead cells. They can even lose some parts such as leaves (which fall off carrying waste with them).\n4. **Resins and Gums:** Other waste products are stored as resins and gums, especially in old xylem tissue."
+        },
+        {
+            "id": "life_13",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Autotrophic:** Making food from simple inorganic sources (Plants/Photosynthesis).\n- **Heterotrophic:** Relying on other organisms for food (Animals/Humans).\n- **Aerobic Respiration:** Breaking down glucose WITH oxygen (produces lots of energy).\n- **Anaerobic Respiration:** Breaking down glucose WITHOUT oxygen (produces lactic acid/alcohol).\n- **Alveoli:** Tiny air sacs in the lungs for gas exchange.\n- **Xylem:** Plant tissue that transports water up.\n- **Phloem:** Plant tissue that transports food (translocation).\n- **Nephron:** The microscopic filtration unit of the kidney."
+        },
+        {
+            "id": "life_14",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Life Processes\n\nExcellent work! Here is a recap of what we've learned:\n\n- **Nutrition** provides the fuel. Plants use photosynthesis, while humans use a complex digestive system (Mouth -> Stomach -> Small Intestine) to break down food.\n- **Respiration** unlocks the energy from the fuel. Aerobic respiration uses oxygen (absorbed by the lungs' alveoli) to release large amounts of ATP.\n- **Transportation** moves things around. The four-chambered heart pumps blood in a double circulation loop. Plants use xylem for water and phloem for food.\n- **Excretion** removes toxic waste. The kidneys use millions of microscopic nephrons to filter blood, reabsorb useful substances, and produce urine."
+        }
+    ]
+}

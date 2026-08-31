@@ -1,0 +1,103 @@
+{
+    "id": "learn_polymers",
+    "topicId": "polymers",
+    "topicTitle": "Polymers",
+    "description": "Discover the giant molecules that make up plastics, fibers, rubber, and the modern world.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "poly_1",
+            "type": "content",
+            "title": "Welcome to Polymers",
+            "content": "# Polymers\n\nWelcome to Polymers! The word comes from Greek: 'poly' means many, and 'mer' means unit or part. Look around you: plastics, rubber, synthetic fibers, and even your DNA are polymers!\n\n## What You Will Learn:\n- **Polymer Classification** - How we group these giant molecules\n- **Addition vs Condensation** - The two ways to build a polymer\n- **Synthetic Polymers** - Man-made plastics and fibers\n- **Natural Polymers** - Rubber and silk\n\n> **Fun Fact:** The longest known polymer is DNA. If you uncoiled the DNA from a single human cell, it would be about 2 meters long!"
+        },
+        {
+            "id": "poly_2",
+            "type": "content",
+            "title": "Monomers and Macromolecules",
+            "content": "# The Building Blocks\n\nPolymers are giant molecules (macromolecules) built from repeating units.\n\n## Monomers:\n- The simple, reactive molecules that link together to form a polymer.\n- Process: Monomer + Monomer + Monomer ... -> Polymer. This process is called **Polymerization**.\n\n## Example:\n- Ethylene (a small gas molecule) is the monomer.\n- When thousands of them link together, they form Polyethylene (the plastic used in shopping bags and bottles)."
+        },
+        {
+            "id": "poly_3",
+            "type": "content",
+            "title": "Classification by Source",
+            "content": "# Where do they come from?\n\nWe can broadly classify polymers into three categories based on their origin.\n\n## 1. Natural Polymers:\n- Found in plants and animals.\n- Examples: Cellulose (wood, cotton), Starch (potatoes), Proteins (muscle, hair), Natural Rubber.\n\n## 2. Synthetic Polymers:\n- Completely man-made in laboratories and factories.\n- Examples: Plastic (Polythene, PVC), Synthetic fibers (Nylon, Polyester), Synthetic rubber (Buna-S).\n\n## 3. Semi-synthetic Polymers:\n- Derived from naturally occurring polymers by chemical modification.\n- Examples: Cellulose nitrate (used in old film), Cellulose acetate (rayon)."
+        },
+        {
+            "id": "poly_4",
+            "type": "content",
+            "title": "Classification by Structure",
+            "content": "# Polymer Architecture\n\nHow are the monomer units linked together geometrically?\n\n## 1. Linear Polymers:\n- Monomers are joined end-to-end like a long chain.\n- They pack well together, resulting in high density, high tensile strength, and high melting points.\n- Example: High-Density Polythene (HDPE), PVC.\n\n## 2. Branched Chain Polymers:\n- Linear chains with some branches extending from them.\n- Do not pack as well, so they have lower density and lower melting points.\n- Example: Low-Density Polythene (LDPE).\n\n## 3. Cross-linked (Network) Polymers:\n- Formed from bi-functional and tri-functional monomers.\n- Strong covalent bonds form cross-links between the various linear polymer chains, creating a rigid 3D network.\n- Example: Bakelite, Melamine."
+        },
+        {
+            "id": "poly_quiz_1",
+            "type": "quiz",
+            "title": "Structure Quiz",
+            "content": "Test your knowledge of polymer shapes.",
+            "quizQuestion": "Which type of polymer structure typically results in the highest density and tensile strength?",
+            "quizOptions": [
+                "Linear polymers",
+                "Branched chain polymers",
+                "Cross-linked polymers",
+                "Semi-synthetic polymers"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "poly_5",
+            "type": "content",
+            "title": "Classification by Molecular Forces",
+            "content": "# How Strong is the Plastic?\n\nThe mechanical properties of polymers (like elasticity and toughness) depend on the intermolecular forces tying the chains together.\n\n## 1. Elastomers:\n- Weakest intermolecular forces.\n- They can be stretched under stress and regain their shape when the stress is removed (like a rubber band).\n- Example: Natural rubber, Neoprene.\n\n## 2. Fibers:\n- Strongest intermolecular forces (like hydrogen bonding).\n- High tensile strength and high modulus (thread-like). Do not stretch easily.\n- Example: Nylon, Polyester.\n\n## 3. Thermoplastics:\n- Intermediate forces. They soften on heating and harden on cooling, repeatedly. They can be remolded!\n- Example: Polythene, Polystyrene.\n\n## 4. Thermosetting Plastics:\n- Heavily cross-linked. On heating, they undergo extensive cross-linking in molds and become permanently hard. They cannot be remolded!\n- Example: Bakelite."
+        },
+        {
+            "id": "poly_6",
+            "type": "content",
+            "title": "Types of Polymerization",
+            "content": "# Building the Chain\n\nThere are two main chemical mechanisms for creating synthetic polymers.\n\n## 1. Addition Polymerization (Chain Growth):\n- The repeated addition of monomer molecules possessing double or triple bonds.\n- **No byproduct** is formed. The empirical formula of the polymer is the same as the monomer.\n- Often involves free radical mechanisms.\n- Examples: Polythene (from ethene), Teflon.\n\n## 2. Condensation Polymerization (Step Growth):\n- A repetitive condensation reaction between two bi-functional monomers.\n- **A small molecule byproduct** (like water, alcohol, or HCl) is eliminated during each step.\n- Examples: Nylon 6,6 (from hexamethylenediamine and adipic acid), Polyester (Dacron)."
+        },
+        {
+            "id": "poly_7",
+            "type": "content",
+            "title": "Important Addition Polymers",
+            "content": "# Common Addition Plastics\n\n## Polythene (Polyethylene):\n- **LDPE (Low Density):** Highly branched, flexible. Used for squeeze bottles and plastic bags.\n- **HDPE (High Density):** Linear, tough and hard. Used for buckets, pipes, and dustbins.\n\n## Polytetrafluoroethylene (Teflon):\n- Monomer is tetrafluoroethene.\n- Extremely chemically inert and resistant to attack by corrosive reagents.\n- Used for making non-stick coatings on frying pans.\n\n## Polyacrylonitrile (PAN):\n- Used as a substitute for wool in making commercial fibers like Orlon or Acrilan (for blankets and sweaters)."
+        },
+        {
+            "id": "poly_8",
+            "type": "content",
+            "title": "Important Condensation Polymers",
+            "content": "# Common Condensation Plastics\n\n## Polyamides (Nylons):\n- Polymers possessing amide linkages.\n- **Nylon 6,6:** Very strong, high tensile strength. Used in making sheets, bristles for brushes, and textile fabrics.\n\n## Polyesters (Dacron/Terylene):\n- Polymers possessing ester linkages.\n- Crease-resistant. Used in blending with cotton and wool, and as glass reinforcing materials in safety helmets.\n\n## Phenol-Formaldehyde (Bakelite):\n- A thermosetting polymer formed from phenol and formaldehyde.\n- Forms a highly cross-linked, rigid mass.\n- Excellent electrical insulator. Used for making electrical switches, handles of utensils, and old phonograph records."
+        },
+        {
+            "id": "poly_quiz_2",
+            "type": "quiz",
+            "title": "Polymerization Quiz",
+            "content": "Check your synthesis knowledge.",
+            "quizQuestion": "Which type of polymerization always involves the elimination of a small byproduct molecule like water?",
+            "quizOptions": [
+                "Addition polymerization",
+                "Free radical polymerization",
+                "Condensation polymerization",
+                "Chain growth polymerization"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "poly_9",
+            "type": "content",
+            "title": "Natural Rubber",
+            "content": "# The Chemistry of Rubber\n\nNatural rubber is a highly elastic polymer obtained from the latex sap of rubber trees.\n\n## Chemical Structure:\n- It is a linear polymer of **isoprene** (2-methyl-1,3-butadiene).\n- It has a cis-configuration at every double bond, which prevents the chains from coming close together. This gives it a coiled structure and its elastic properties!\n\n## Vulcanization:\nNatural rubber becomes soft at high temps and brittle at low temps. To improve its physical properties, we **Vulcanize** it.\n- We heat raw rubber with **Sulfur**.\n- The sulfur forms cross-links at the reactive sites of double bonds, locking the chains together.\n- This makes the rubber much stiffer, more durable, and less sticky (perfect for car tires!)."
+        },
+        {
+            "id": "poly_10",
+            "type": "content",
+            "title": "Synthetic Rubbers",
+            "content": "# Man-Made Rubber\n\nTo meet industrial demand and create rubbers with specific properties (like oil resistance), we created synthetic alternatives.\n\n## 1. Neoprene:\n- Formed by addition polymerization of chloroprene.\n- Has superior resistance to vegetable and mineral oils.\n- Used for making conveyor belts, gaskets, and hoses.\n\n## 2. Buna-N:\n- A copolymer of 1,3-butadiene and acrylonitrile.\n- Resistant to the action of petrol, lubricating oil, and organic solvents.\n- Used in making oil seals and tank linings.\n\n## 3. Buna-S:\n- A copolymer of 1,3-butadiene and styrene.\n- Very tough. Used as a substitute for natural rubber in auto tires and footwear."
+        },
+        {
+            "id": "poly_11",
+            "type": "content",
+            "title": "Summary: Polymers",
+            "content": "# Polymers Summary\n\n## Key Concepts Reviewed:\n\n- **Definition:** Giant molecules made of repeating monomers.\n- **Structure:** Linear (dense, strong), Branched (low density), Cross-linked (rigid network).\n- **Molecular Forces:** Elastomers (weak), Thermoplastics (remoldable), Fibers (strong H-bonds), Thermosetting (permanently hard, Bakelite).\n- **Addition Polymerization:** Monomers with double bonds link directly (Polythene, Teflon).\n- **Condensation Polymerization:** Bi-functional monomers link, eliminating small molecules like water (Nylon, Polyester).\n- **Rubber:** Natural rubber (polyisoprene) is vulcanized with sulfur to increase strength. Synthetic rubbers (Neoprene) offer chemical resistance.\n\n> **Congratulations!** You have completed the Polymers module."
+        }
+    ]
+}

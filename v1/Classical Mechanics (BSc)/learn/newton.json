@@ -1,0 +1,139 @@
+{
+    "id": "learn_newton",
+    "topicId": "newton",
+    "topicTitle": "Newtonian Mechanics",
+    "description": "Explore the foundational laws of motion, force, and inertia that govern the macroscopic world, establishing the bedrock of classical physics.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "new_1",
+            "type": "content",
+            "title": "The Dawn of Classical Mechanics",
+            "content": "# What is Classical Mechanics?\n\n**Classical Mechanics** is the study of the motion of macroscopic bodies (from baseballs to planets) under the influence of forces.\n\nIt is \"classical\" because it deals with the world we can see and touch, long before the bizarre discoveries of Quantum Mechanics (the very small) and Relativity (the very fast).\n\nThe entire field was revolutionized in 1687 when Sir Isaac Newton published his *Principia Mathematica*, laying down the absolute foundation of physics: The Three Laws of Motion."
+        },
+        {
+            "id": "new_2",
+            "type": "content",
+            "title": "Kinematics vs Dynamics",
+            "content": "# Describing vs Explaining\n\nClassical Mechanics is broken into two main halves:\n\n## 1. Kinematics (The \"How\")\nThe purely mathematical description of motion, without caring *why* the object is moving. \n- It deals with Position, Displacement, Velocity, and Acceleration.\n- Galileo was the master of kinematics, dropping balls off towers to measure *how* they fell.\n\n## 2. Dynamics (The \"Why\")\nThe study of the physical causes of motion.\n- It deals with Mass, Force, Energy, and Momentum.\n- Newton was the master of dynamics, explaining *why* the balls fell (Gravity)."
+        },
+        {
+            "id": "new_3",
+            "type": "content",
+            "title": "Newton's First Law",
+            "content": "# The Law of Inertia\n\n**First Law:** \"An object at rest stays at rest, and an object in motion stays in motion with the same speed and in the same direction, UNLESS acted upon by a net external force.\"\n\n## The Concept of Inertia\nInertia is the natural resistance of any physical object to a change in its state of motion.\n\nBefore Newton, Aristotle thought objects naturally wanted to stop. Newton realized that stopping requires a force (like friction). In the vacuum of deep space, a thrown wrench will travel in a perfectly straight line forever!"
+        },
+        {
+            "id": "new_4",
+            "type": "content",
+            "title": "Mass as Inertia",
+            "content": "# What is Mass?\n\nIn Newtonian physics, **Mass** is not just \"how much stuff is there\" or \"how much does it weigh.\"\n\n**Mass is the quantitative measure of an object's inertia.**\n\n- A heavy bowling ball has massive inertia. It is incredibly hard to get it moving (if it's at rest), and incredibly hard to stop (if it's rolling).\n- A ping-pong ball has very low inertia. A tiny puff of wind can drastically change its motion.\n\n*Note: Mass is constant everywhere in the universe. Weight changes depending on local gravity.*"
+        },
+        {
+            "id": "new_5",
+            "type": "content",
+            "title": "Newton's Second Law",
+            "content": "# F = ma\n\n**Second Law:** \"The rate of change of momentum of a body over time is directly proportional to the force applied, and occurs in the same direction as the applied force.\"\n\nFor systems with constant mass, this simplifies to the most famous equation in physics:\n**F_net = m * a**\n\nWhere:\n- **F_net:** The Vector sum of all forces acting on the object.\n- **m:** Mass (the resistance to acceleration).\n- **a:** Acceleration (the change in velocity).\n\nIf you want to accelerate a massive object, you must push it incredibly hard!"
+        },
+        {
+            "id": "new_6",
+            "type": "content",
+            "title": "The Vector Nature of Forces",
+            "content": "# Forces are Vectors\n\nForces don't just have a magnitude (strength, measured in Newtons); they have a **direction**.\n\nIf two people push a box from opposite sides with exactly 50 Newtons of force each, the box will not accelerate.\n\nWhy? Because 50N (right) + (-50N) (left) = 0.\n\nThe **F_net** is zero. According to the First Law, the object will remain at rest, even though massive forces are acting on it. This state is called **Static Equilibrium**."
+        },
+        {
+            "id": "new_7",
+            "type": "content",
+            "title": "Newton's Third Law",
+            "content": "# Action and Reaction\n\n**Third Law:** \"For every action, there is an equal and opposite reaction.\"\n\nThis law is often deeply misunderstood. It means that forces ALWAYS exist in pairs. You cannot touch something without it touching you back with the exact same force.\n\n## The Classic Example:\nWhen you jump, your legs push DOWN on the Earth with 500 Newtons of force. Simultaneously, the Earth pushes UP on your feet with exactly 500 Newtons of force.\n\nWhy do you fly into the air while the Earth barely moves? Because of the Second Law (F=ma)! The Earth's mass (m) is so unbelievably massive that its resulting acceleration (a) is effectively zero."
+        },
+        {
+            "id": "new_8",
+            "type": "content",
+            "title": "Friction",
+            "content": "# The Invisible Resistor\n\n**Friction** is the force that opposes the relative motion of two solid surfaces in contact.\n\n## 1. Static Friction\nThe force that keeps a stationary object from moving. It increases exactly to match your pushing force, up to a maximum limit.\n(It's why a heavy couch won't budge when you push it gently).\n\n## 2. Kinetic Friction\nThe force that opposes motion once the object is sliding. It is generally weaker than maximum static friction.\n(It's why it is suddenly easier to keep pushing the couch once you finally get it sliding!)."
+        },
+        {
+            "id": "new_9",
+            "type": "content",
+            "title": "Circular Motion",
+            "content": "# Going in Circles\n\nIf an object is moving in a perfect circle at a constant speed, is it accelerating?\n\n**YES!** Velocity is a vector (speed + direction). Even though the speed is constant, the direction is constantly changing. Therefore, the velocity is changing, which means it MUST be accelerating.\n\n## Centripetal Force\nAccording to F=ma, if there is an acceleration, there MUST be a net force pulling the object toward the center of the circle. This is called the **Centripetal Force**.\n\nIf you swing a ball on a string, the tension in the string provides the centripetal force. If the string snaps, the force disappears, and the ball instantly flies off in a straight line (First Law)!"
+        },
+        {
+            "id": "new_10",
+            "type": "content",
+            "title": "Newton's Law of Universal Gravitation",
+            "content": "# The Force that Rules the Cosmos\n\nNewton's crowning achievement was realizing that the force making an apple fall to the ground is the EXACT SAME force holding the Moon in orbit around the Earth.\n\n## The Law:\n\"Every particle attracts every other particle in the universe with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers.\"\n\n**F = G * (m1 * m2) / r^2**\n\nGravity is incredibly weak (G is a tiny number). You only notice it when at least one object (like a planet) is astronomically massive."
+        },
+        {
+            "id": "new_11",
+            "type": "content",
+            "title": "Work and Energy",
+            "content": "# The Energy Perspective\n\nCalculating motion using forces and acceleration can be incredibly difficult, especially if the forces are constantly changing.\n\nPhysicists invented the concept of **Energy** as an alternative, mathematical tool to solve complex problems simply.\n\n## Work\nIn physics, **Work** is done when a Force causes a Displacement.\n**Work = Force * Distance**\n\nIf you push a concrete wall for 10 hours and get exhausted, but the wall never moves, you have done exactly ZERO Work in the physics sense."
+        },
+        {
+            "id": "new_12",
+            "type": "content",
+            "title": "Kinetic and Potential Energy",
+            "content": "# Two Forms of Energy\n\n## 1. Kinetic Energy (KE)\nThe energy of motion. Any object with mass that is moving possesses KE.\n**KE = 0.5 * m * v^2**\n(Notice that if you double your driving speed, your kinetic energy quadruples! This is why high-speed crashes are exponentially more destructive).\n\n## 2. Potential Energy (PE)\nStored energy based on an object's position or arrangement.\n- **Gravitational PE:** A boulder resting on a cliff has massive stored energy waiting to be unleashed. (PE = mgh).\n- **Elastic PE:** A drawn bowstring stores energy ready to fire an arrow."
+        },
+        {
+            "id": "new_13",
+            "type": "content",
+            "title": "Conservation of Energy",
+            "content": "# The Ultimate Law\n\n**The Law of Conservation of Energy:** \"Energy cannot be created or destroyed; it can only be transferred or transformed from one form to another.\"\n\n## The Rollercoaster Example\n1. At the top of the highest hill, a rollercoaster car has Maximum Potential Energy and Zero Kinetic Energy.\n2. As it plunges down, it loses height (losing PE) but gains speed (gaining KE). The energy is transformed perfectly.\n3. At the very bottom of the valley, it has Zero PE but Maximum KE.\n\nThe total amount of energy (Total = PE + KE) remains perfectly constant throughout the entire ride (ignoring friction losses to heat)!"
+        },
+        {
+            "id": "new_14",
+            "type": "content",
+            "title": "Momentum",
+            "content": "# Mass in Motion\n\n**Momentum (p)** is a measure of how difficult it is to stop a moving object.\n\n**p = m * v**\n(Momentum = mass * velocity)\n\nA slow-moving oil tanker has massive momentum because its mass is huge. A tiny bullet has massive momentum because its velocity is huge.\n\nUnlike Kinetic Energy (which is a scalar number), Momentum is a **Vector**. It has a specific direction."
+        },
+        {
+            "id": "new_15",
+            "type": "content",
+            "title": "Conservation of Momentum",
+            "content": "# The Law of Collisions\n\nIn a closed system (where no outside forces like friction act), **the total momentum before a collision is exactly equal to the total momentum after a collision.**\n\n## Elastic vs Inelastic Collisions\n- **Elastic:** Two billiard balls crash and bounce off each other. Both Momentum AND Kinetic Energy are perfectly conserved.\n- **Inelastic:** Two cars crash and crumple together into a single tangled wreck. Momentum is perfectly conserved, but a massive amount of Kinetic Energy is lost (converted into heat, sound, and the bending of metal).\n\nEven when cars crash and crumple, the math of momentum always holds true!"
+        },
+        {
+            "id": "new_16",
+            "type": "content",
+            "title": "The Limits of Newton",
+            "content": "# When Newton Fails\n\nNewtonian mechanics survived perfectly unchallenged for over 200 years. It successfully put humans on the moon.\n\nHowever, in the early 20th century, physicists realized F=ma completely breaks down in two extreme scenarios:\n\n1. **The Very Fast:** When objects approach the speed of light, their mass appears to increase, and time slows down. (Solved by Einstein's Special Relativity).\n2. **The Very Small:** When looking at electrons and atoms, particles act like probability waves, teleporting and existing in multiple states. (Solved by Quantum Mechanics)."
+        },
+        {
+            "id": "new_17",
+            "type": "content",
+            "title": "Summary of Newtonian Mechanics",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **First Law (Inertia):** Objects keep doing what they are doing unless forced to change.\n2. **Second Law (F=ma):** Force causes mass to accelerate.\n3. **Third Law (Action/Reaction):** Forces always exist in equal, opposite pairs.\n4. **Energy:** A scalar quantity conserved in all isolated systems, constantly converting between Kinetic (motion) and Potential (stored).\n5. **Momentum:** A vector quantity conserved in all collisions.\n6. **Gravity:** An attractive force between all masses, following an inverse-square law."
+        },
+        {
+            "id": "new_quiz_1",
+            "type": "quiz",
+            "title": "First Law Quiz",
+            "content": "Test your understanding of inertia.",
+            "quizQuestion": "If a spaceship is traveling through the deep vacuum of space at 10,000 km/h, and it completely shuts off its engines, what will happen to the ship?",
+            "quizOptions": [
+                "It will slowly grind to a halt.",
+                "It will immediately stop.",
+                "It will continue moving in a straight line at exactly 10,000 km/h forever.",
+                "It will begin to travel in a circle."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "new_quiz_2",
+            "type": "quiz",
+            "title": "Energy Quiz",
+            "content": "Review the conservation of energy.",
+            "quizQuestion": "When an apple falls from a high branch to the ground, what energy transformation is occurring?",
+            "quizOptions": [
+                "Kinetic Energy is transforming into Potential Energy.",
+                "Potential Energy is transforming into Kinetic Energy.",
+                "Thermal Energy is transforming into Kinetic Energy.",
+                "Energy is being completely destroyed."
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

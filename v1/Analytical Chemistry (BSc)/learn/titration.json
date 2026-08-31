@@ -1,0 +1,139 @@
+{
+    "id": "learn_titration",
+    "topicId": "titration",
+    "topicTitle": "Titration Methods",
+    "description": "Learn the classical volumetric analysis techniques used to precisely determine unknown concentrations, including acid-base, redox, and complexometric titrations.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "tit_1",
+            "type": "content",
+            "title": "Introduction to Titration",
+            "content": "# Volumetric Analysis\n\n**Titration** is one of the oldest, most reliable, and most precise analytical techniques in chemistry. It is a method of quantitative analysis used to determine the exact concentration of an identified analyte.\n\n## The Basic Principle\nYou carefully add a solution of known concentration (the **Titrant**) from a highly precise piece of glassware called a burette, into a flask containing the unknown sample (the **Analyte**).\n\nThe titrant reacts chemically with the analyte. By carefully measuring exactly what volume of titrant was required to completely consume the analyte, you can calculate the unknown concentration using stoichiometry."
+        },
+        {
+            "id": "tit_2",
+            "type": "content",
+            "title": "Equivalence Point vs End Point",
+            "content": "# When do you stop?\n\nThe goal of a titration is to reach the Equivalence Point.\n\n## 1. The Equivalence Point (The Theoretical Goal)\nThe exact moment when the moles of titrant added are stoichiometrically perfectly equal to the moles of analyte originally present in the flask. There is no excess of either chemical.\n\n## 2. The End Point (The Practical Reality)\nYou can't *see* moles reacting. You need a physical signal to tell you to close the burette. This physical change (like a color change from an indicator) is the End Point.\n\n*A good chemist chooses an indicator whose End Point matches the theoretical Equivalence Point as perfectly as possible.*"
+        },
+        {
+            "id": "tit_3",
+            "type": "content",
+            "title": "Standard Solutions",
+            "content": "# Primary and Secondary Standards\n\nTo calculate anything, you must know the EXACT concentration of your titrant in the burette.\n\n## Primary Standards\nA highly pure, highly stable solid chemical that can be weighed perfectly on a scale and dissolved to make a solution of exact, known concentration. (e.g., KHP for acids, Sodium Carbonate for bases).\n\n## Secondary Standards\nMany common chemicals (like NaOH or HCl) cannot be weighed accurately. NaOH absorbs water from the air instantly; HCl evaporates. You must make a rough solution, and then **standardize** it by titrating it against a Primary Standard to find its true, exact concentration."
+        },
+        {
+            "id": "tit_4",
+            "type": "content",
+            "title": "Acid-Base Titrations",
+            "content": "# Acid-Base Titrations\n\nThe most common type of titration. It relies on the neutralization reaction between an acid and a base to form water and a salt.\n\n**H+ + OH- -> H2O**\n\n- If the unknown is an acid, the titrant is a strong base (like NaOH).\n- If the unknown is a base, the titrant is a strong acid (like HCl).\n\nBy tracking the pH of the solution as the titrant is added, we generate a **Titration Curve**, which provides massive amounts of information about the chemicals involved."
+        },
+        {
+            "id": "tit_5",
+            "type": "content",
+            "title": "Strong Acid - Strong Base Curves",
+            "content": "# Strong vs Strong\n\nExample: Titrating strong HCl with strong NaOH.\n\n## The Curve Shape\n1. The pH starts very low (highly acidic).\n2. As NaOH is added, the pH rises very slowly.\n3. **The Equivalence Point:** Suddenly, with the addition of a single drop of NaOH, the pH shoots straight up vertically from pH 3 to pH 11. \n4. At exactly the halfway mark of this vertical leap, the pH is perfectly **7.0** (neutral water and salt).\n5. As excess NaOH is added, the pH levels off at a high value."
+        },
+        {
+            "id": "tit_6",
+            "type": "content",
+            "title": "Weak Acid - Strong Base Curves",
+            "content": "# Weak vs Strong\n\nExample: Titrating weak Acetic Acid with strong NaOH.\n\n## The Curve Shape\n1. The pH starts higher (around pH 3) because it's a weak acid.\n2. **The Buffer Region:** As NaOH is added, it converts some weak acid into its conjugate base, creating a buffer. The pH resists change and stays relatively flat.\n3. **The Equivalence Point:** The vertical jump is much shorter. Crucially, the pH at the equivalence point is **GREATER THAN 7** (usually around 8.5). This happens because the salt formed contains a basic anion that reacts with water.\n\n> You must use a different indicator (like Phenolphthalein) that changes color in the basic range (pH 8-10) to catch this endpoint!"
+        },
+        {
+            "id": "tit_7",
+            "type": "content",
+            "title": "The Half-Equivalence Point",
+            "content": "# Finding the pKa\n\nFor a weak acid titration, the most valuable point on the curve isn't the equivalence point; it's the **Half-Equivalence Point**.\n\nThis is the exact moment when you have added exactly half the volume of titrant needed to reach the equivalence point.\n\nAt this exact moment, exactly half of your weak acid has been converted into its conjugate base.\nAccording to the Henderson-Hasselbalch equation:\n**pH = pKa + log([Base]/[Acid])**\n\nIf [Base] = [Acid], then log(1) = 0.\nTherefore, at the half-equivalence point, **pH = pKa**!\nThis is the easiest way to experimentally determine the strength of an unknown acid."
+        },
+        {
+            "id": "tit_8",
+            "type": "content",
+            "title": "Polyprotic Acids",
+            "content": "# Titrating Polyprotic Acids\n\nAcids that can donate more than one proton (like Phosphoric acid, H3PO4) yield complex titration curves.\n\n## Multiple Bumps\nInstead of one vertical jump, the curve will look like a staircase with multiple distinct \"steps.\"\n\nEach step represents the removal of one proton. H3PO4 will have three distinct equivalence points (though the third one is often so weak it's hard to see in water).\n\nBy analyzing these multiple steps, chemists can determine the concentration of complex mixtures, such as a solution containing both HCl and weak Acetic Acid."
+        },
+        {
+            "id": "tit_9",
+            "type": "content",
+            "title": "Indicators",
+            "content": "# How Indicators Work\n\nAn acid-base indicator is simply a weak organic acid that happens to have a completely different color than its conjugate base.\n\nFor example, Phenolphthalein (HIn) is colorless. When it loses its proton to become (In-), it turns bright pink.\n\nBecause it is a weak acid itself, it will change color exactly when the pH of the flask crosses its specific pKa value. \n\nTo perform a good titration, you must choose an indicator whose pKa is as close to the expected pH of the equivalence point as possible."
+        },
+        {
+            "id": "tit_10",
+            "type": "content",
+            "title": "Redox Titrations",
+            "content": "# Redox Titrations\n\nNot all titrations involve acids and bases. **Redox Titrations** involve the transfer of electrons (Oxidation-Reduction).\n\n## The Concept\nThe titrant is either a strong oxidizing agent or a strong reducing agent. It reacts with the analyte by stealing or donating electrons.\n\n## Potassium Permanganate (KMnO4)\nThe most famous redox titrant. It is a powerful oxidizer. It is brilliant purple, but when it is reduced (gains electrons), it turns completely colorless.\n\nIt is incredibly useful because it acts as its own indicator! The moment a single drop of purple KMnO4 remains unreacted in the flask, the solution turns pink, signaling the endpoint."
+        },
+        {
+            "id": "tit_11",
+            "type": "content",
+            "title": "Complexometric Titrations",
+            "content": "# Complexometric Titrations\n\nUsed almost exclusively to determine the concentration of metal ions (like Calcium or Magnesium in \"hard water\").\n\n## EDTA\nThe ultimate titrant here is **EDTA** (Ethylenediaminetetraacetic acid). As a hexadentate ligand, it wraps around metal ions like an octopus, forming a highly stable 1:1 complex.\n\n## Metal Ion Indicators\nTo see the endpoint, chemists use special indicators (like Eriochrome Black T) that bind loosely to the metal and turn Red. As the EDTA is added, it rips the metal away from the indicator. Once all the metal is trapped by the EDTA, the free indicator turns Blue!"
+        },
+        {
+            "id": "tit_12",
+            "type": "content",
+            "title": "Precipitation Titrations",
+            "content": "# Precipitation Titrations\n\nA titration where the reaction between the titrant and the analyte forms a solid precipitate (an insoluble salt) that falls out of solution.\n\n## Argentometric Titrations\nThe most common type, involving Silver Nitrate (AgNO3) as the titrant. It is used to determine the concentration of Halides (Cl-, Br-, I-) in a sample.\n\n**Ag+ + Cl- -> AgCl (solid white powder)**\n\nThe Mohr Method uses chromate ions as an indicator. Once all the Chloride has precipitated as white AgCl, the very next drop of Silver reacts with the chromate to form a highly visible brick-red precipitate, marking the endpoint."
+        },
+        {
+            "id": "tit_13",
+            "type": "content",
+            "title": "Potentiometric Titrations",
+            "content": "# Instrumental Titrations\n\nVisual indicators are subjective. One chemist's \"faint pink\" might be another's \"dark pink.\"\n\nFor ultimate precision, modern labs use **Potentiometric Titrations**.\nInstead of using a color-changing chemical, a pH electrode (or a voltage meter for redox) is placed directly into the flask.\n\nThe machine continuously records the exact electrical potential of the solution after every drop of titrant is added. A computer then graphs the data and calculates the exact equivalence point mathematically by finding the inflection point (the steepest part) of the curve."
+        },
+        {
+            "id": "tit_14",
+            "type": "content",
+            "title": "Back Titrations",
+            "content": "# The Back Titration Strategy\n\nSometimes a direct titration is impossible. The analyte might be a solid that dissolves too slowly, or the reaction might take too long to reach the endpoint.\n\n## The Method:\n1. You intentionally add a massive, but exactly known, EXCESS amount of a reactant to the unknown sample.\n2. You wait for the sample to completely react and be destroyed.\n3. You now have leftover, unreacted reagent in the flask.\n4. You titrate the LEFTOVER reagent to see exactly how much is left.\n5. By subtracting the leftover amount from the total amount you started with, you know exactly how much reacted with your original unknown!"
+        },
+        {
+            "id": "tit_15",
+            "type": "content",
+            "title": "Karl Fischer Titration",
+            "content": "# Determining Water Content\n\nHow do pharmaceutical companies prove their dry pills don't contain hidden moisture?\n\nThey use the **Karl Fischer Titration**, the gold standard for determining trace amounts of water in a sample.\n\n## The Chemistry\nIt relies on a complex redox reaction involving Iodine, Sulfur Dioxide, and a base, which ONLY proceeds if Water is present.\n\n1 H2O molecule is required to consume 1 Iodine molecule. By measuring exactly how much Iodine is consumed, the machine can calculate the water content down to parts-per-million levels."
+        },
+        {
+            "id": "tit_16",
+            "type": "content",
+            "title": "Errors in Titration",
+            "content": "# Sources of Error\n\nTitration is highly precise, but subject to human and mechanical errors.\n\n1. **Parallax Error:** Reading the burette volume from the wrong angle, instead of perfectly eye-level with the meniscus.\n2. **Indicator Error:** Choosing an indicator whose color change happens at a pH far away from the true equivalence point.\n3. **Drop Error:** A single drop from a burette is about 0.05 mL. If the endpoint occurs mid-drop, you will always slightly overshoot the true value.\n4. **Dirty Glassware:** If the burette is wet with water before adding the titrant, the titrant is diluted, ruining the \"exact known concentration.\""
+        },
+        {
+            "id": "tit_17",
+            "type": "content",
+            "title": "Summary of Titration",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Core Concept:** Adding a known titrant to an unknown analyte until the stoichiometric Equivalence Point is reached.\n2. **Standardization:** Titrants must be standardized against Primary Standards to ensure exact concentration.\n3. **Acid-Base:** The pH at the equivalence point depends on the strength of the acid/base (Weak Acid + Strong Base = Basic equivalence point > 7).\n4. **Types:** Includes Redox (electron transfer), Complexometric (EDTA trapping metals), and Precipitation (forming solids).\n5. **Advanced Methods:** Potentiometric titrations use electrodes for computer-precise endpoints, avoiding subjective visual indicators."
+        },
+        {
+            "id": "tit_quiz_1",
+            "type": "quiz",
+            "title": "Titration Curve Quiz",
+            "content": "Test your understanding of pH curves.",
+            "quizQuestion": "When titrating a weak acid with a strong base, what valuable piece of information can be determined at the exact half-equivalence point?",
+            "quizOptions": [
+                "The concentration of the strong base.",
+                "The exact volume of the flask.",
+                "The pKa of the weak acid (because pH = pKa).",
+                "The molar mass of the weak acid."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "tit_quiz_2",
+            "type": "quiz",
+            "title": "Titrant Quiz",
+            "content": "Review common titration methods.",
+            "quizQuestion": "Which highly specific titrant is almost always used in complexometric titrations to determine the concentration of metal ions in a solution?",
+            "quizOptions": [
+                "Sodium Hydroxide (NaOH)",
+                "Potassium Permanganate (KMnO4)",
+                "Silver Nitrate (AgNO3)",
+                "EDTA (Ethylenediaminetetraacetic acid)"
+            ],
+            "correctOptionIndex": 3
+        }
+    ]
+}

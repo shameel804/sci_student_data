@@ -1,0 +1,59 @@
+{
+    "id": "eco_conservation",
+    "topicId": "conservation",
+    "topicTitle": "Conservation Biology",
+    "description": "Learn the strategies and science behind saving endangered species and protecting global ecosystems.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "econs_1",
+            "type": "content",
+            "title": "Welcome to Conservation Biology",
+            "content": "# Conservation Biology\n\nWelcome to Conservation Biology! We are in the midst of a biodiversity crisis. This module explores the active steps scientists and governments take to protect endangered species and restore ruined habitats.\n\n## What You Will Learn:\n- **Endangered Species** - The brink of extinction\n- **In Situ Conservation** - Protected areas and national parks\n- **Ex Situ Conservation** - Zoos and seed banks\n- **Habitat Restoration** - Fixing the damage\n\n> **Fun Fact:** The global network of Seed Banks currently stores over 2 billion seeds, acting as a 'doomsday vault' to protect the world's crops from extinction!"
+        },
+        {
+            "id": "econs_2",
+            "type": "content",
+            "title": "The Extinction Crisis",
+            "content": "# The Threat Level\n\nThe IUCN (International Union for Conservation of Nature) maintains the 'Red List' assessing the conservation status of species worldwide.\n\n## Key Categories:\n- **Vulnerable:** High risk of endangerment in the wild.\n- **Endangered:** Very high risk of extinction in the wild (e.g., Tigers, Blue Whales).\n- **Critically Endangered:** Extremely high risk of immediate extinction (e.g., Javan Rhino).\n- **Extinct in the Wild:** Survives only in captivity.\n- **Extinct:** No reasonable doubt that the last individual has died (e.g., Dodo bird).\n\nAmphibians are currently the most severely threatened group of vertebrates, primarily due to habitat loss and a deadly fungal disease."
+        },
+        {
+            "id": "econs_3",
+            "type": "content",
+            "title": "In Situ Conservation",
+            "content": "# Protecting the Home\n\n*In situ* conservation means protecting species within their natural habitat. This is the most effective approach because it protects the entire ecosystem.\n\n## Protected Areas:\n- **National Parks:** Strictly reserved for wildlife. Human activities like forestry, grazing, or cultivation are completely banned.\n- **Wildlife Sanctuaries:** Protection is given only to the fauna (animals). Some human activities (like collecting firewood or minor forest products) are allowed if they don't interfere with the animals.\n- **Biosphere Reserves:** Massive areas divided into zones. The core is strictly protected; the buffer zone allows limited tourism/research; the transition zone allows sustainable human settlement and agriculture."
+        },
+        {
+            "id": "econs_4",
+            "type": "content",
+            "title": "Ex Situ Conservation",
+            "content": "# The Last Resort\n\n*Ex situ* conservation means protecting species outside of their natural habitat. This is used when a species is critically endangered and its natural habitat is destroyed or too dangerous.\n\n## Methods:\n- **Zoos and Botanical Gardens:** Keeping living animals and plants for public education and captive breeding programs. The goal is often to breed them and eventually reintroduce them to the wild.\n- **Cryopreservation:** Storing tissues, sperm, and eggs at ultra-low temperatures in liquid nitrogen to preserve genetic material indefinitely.\n- **Seed Banks:** Storing millions of seeds from wild plants and crops in cold, dry conditions to protect genetic diversity for future agriculture."
+        },
+        {
+            "id": "econs_quiz_1",
+            "type": "quiz",
+            "title": "Conservation Quiz",
+            "content": "Test your knowledge of protection strategies.",
+            "quizQuestion": "Which of the following is an example of ex situ conservation?",
+            "quizOptions": [
+                "A National Park",
+                "A Biosphere Reserve",
+                "A Seed Bank",
+                "A Wildlife Sanctuary"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "econs_5",
+            "type": "content",
+            "title": "Habitat Restoration",
+            "content": "# Fixing the Damage\n\nSometimes protecting an area isn't enough; it must be actively restored.\n\n## Ecological Restoration:\nThe process of assisting the recovery of an ecosystem that has been degraded, damaged, or destroyed.\n- **Reforestation:** Planting trees in areas where forests were cut down.\n- **Bioremediation:** Using microbes or plants to clean up toxic waste (like heavy metals) from the soil in abandoned mining sites.\n- **Removing Invasive Species:** Actively hunting or removing foreign species that are destroying the native ecosystem (e.g., removing invasive rats from islands to protect nesting seabirds)."
+        },
+        {
+            "id": "econs_6",
+            "type": "content",
+            "title": "Summary: Conservation Biology",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **IUCN Red List:** Tracks species from Vulnerable to Critically Endangered to Extinct.\n- **In Situ Conservation:** On-site protection. Includes National Parks (strict protection) and Biosphere Reserves (zoned for sustainable human use).\n- **Ex Situ Conservation:** Off-site protection. Includes Zoos (captive breeding) and Seed Banks/Cryopreservation (storing genetic material).\n- **Restoration:** Actively fixing degraded environments through reforestation, removing invasive species, and bioremediation.\n\n> **Congratulations!** You have completed the Conservation Biology module."
+        }
+    ]
+}

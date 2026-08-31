@@ -1,0 +1,117 @@
+{
+    "id": "learn_biophys_structure",
+    "topicId": "structure",
+    "topicTitle": "Biomolecular Structure",
+    "description": "Discover how physicists determine the precise 3D architecture of proteins and membranes, down to the exact location of every single atom.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "biophys_struct_1",
+            "type": "content",
+            "title": "Welcome to Biomolecular Structure",
+            "content": "# The Physics of Biology\n\nWelcome to **Biophysics**!\n\nBiology tells us that enzymes cut DNA, and receptors bind to hormones. But HOW do they do it mechanically? \nBiophysics uses the laws of physics and advanced math to understand exactly how biological machines work at the atomic level.\n\n## What You Will Learn:\n- **Protein Structure** - From chains to 3D machines\n- **Structure Determination** - How we \"see\" atoms\n- **Nucleic Acid Structure** - Beyond the simple helix\n- **Membrane Structure** - The fluid boundary\n\nLet's examine the blueprints of life."
+        },
+        {
+            "id": "biophys_struct_2",
+            "type": "content",
+            "title": "What is Structure?",
+            "content": "# Form Equals Function\n\nIn Biophysics, there is one absolute rule: **Structure determines Function**.\n\nIf you want to know how a protein (like a motor protein or a digestive enzyme) works, you MUST know its exact 3D shape.\nIf a genetic mutation changes just one atom, the 3D shape might warp, breaking the machine completely (causing disease)."
+        },
+        {
+            "id": "biophys_struct_3",
+            "type": "content",
+            "title": "Protein Structure Basics",
+            "content": "# The Four Levels of Architecture\n\nProteins fold themselves into complex machines in four stages:\n\n1. **Primary Structure:** The simple, 1D linear sequence of amino acids (like beads on a string).\n2. **Secondary Structure:** The string begins to fold locally into Alpha-Helices (spirals) or Beta-Sheets (flat zig-zags), driven by hydrogen bonding.\n3. **Tertiary Structure:** The entire protein folds into its final, massive 3D shape, driven by hydrophobic (water-fearing) parts hiding on the inside.\n4. **Quaternary Structure:** Multiple separate proteins click together to form one massive super-machine (e.g., Hemoglobin is made of four separate proteins working together)."
+        },
+        {
+            "id": "biophys_struct_quiz_1",
+            "type": "quiz",
+            "title": "Structure Quiz",
+            "content": "Check your understanding of folding.",
+            "quizQuestion": "Which level of protein structure refers to the initial, localized folding into Alpha-Helices and Beta-Sheets?",
+            "quizOptions": [
+                "Primary Structure",
+                "Secondary Structure",
+                "Tertiary Structure",
+                "Quaternary Structure"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "biophys_struct_4",
+            "type": "content",
+            "title": "Structure Determination",
+            "content": "# How Do We 'See' Proteins?\n\nProteins are thousands of times smaller than the wavelength of visible light. You cannot look at them with a normal microscope. They are literally invisible.\n\nTo figure out the 3D atomic structure, biophysicists must use heavy physics machinery."
+        },
+        {
+            "id": "biophys_struct_5",
+            "type": "content",
+            "title": "X-Ray Crystallography",
+            "content": "# X-Ray Crystallography\n\nThis is the most famous technique (used by Rosalind Franklin to discover the structure of DNA!).\n\n1. **Crystallize:** The scientist must coax millions of the protein molecules to line up perfectly in a solid crystal (this is the hardest part, often taking years!).\n2. **Blast:** They blast the crystal with a high-powered beam of X-Rays.\n3. **Diffract:** The X-rays bounce (diffract) off the electron clouds of the atoms, casting a complex shadow pattern on a detector.\n4. **Calculate:** Using massive computers and complex math (Fourier transforms), they work backward from the shadow to map the exact location of every single atom!"
+        },
+        {
+            "id": "biophys_struct_6",
+            "type": "content",
+            "title": "NMR Spectroscopy",
+            "content": "# NMR Spectroscopy\n\nSome proteins are \"floppy\" and refuse to form a solid crystal. How do we see them?\n\nWe use **Nuclear Magnetic Resonance (NMR)** (the exact same technology as an MRI machine at the hospital, but scaled for molecules).\n- The protein is dissolved in a liquid solution.\n- It is placed inside a massive, supercooled magnet.\n- By blasting it with radio waves and measuring how the atomic nuclei \"ring\" like bells, physicists can calculate the distance between all the atoms.\n- **Advantage:** It shows the protein in its natural, moving liquid state, rather than frozen in a crystal."
+        },
+        {
+            "id": "biophys_struct_quiz_2",
+            "type": "quiz",
+            "title": "Technique Quiz",
+            "content": "Check your understanding of seeing the invisible.",
+            "quizQuestion": "What is the primary advantage of using NMR Spectroscopy over X-Ray Crystallography?",
+            "quizOptions": [
+                "NMR requires only a standard optical microscope",
+                "NMR allows scientists to study the protein in a liquid solution, rather than forcing it to form a solid crystal",
+                "NMR uses visible light instead of radio waves",
+                "NMR can only be used on DNA, never on proteins"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "biophys_struct_7",
+            "type": "content",
+            "title": "Nucleic Acid Structure",
+            "content": "# Beyond the Double Helix\n\nEveryone knows DNA is a double helix. But RNA structure is far more complex and interesting to biophysicists.\n\nUnlike DNA, RNA is usually single-stranded. This allows it to fold back on itself, forming complex 3D shapes (like hairpins, loops, and pseudoknots) similar to a protein!\n\nBecause it can fold into complex 3D shapes, RNA can actually act as an enzyme (a Ribozyme) and catalyze chemical reactions!"
+        },
+        {
+            "id": "biophys_struct_8",
+            "type": "content",
+            "title": "Membrane Structure",
+            "content": "# The Fluid Mosaic Model\n\nCells are surrounded by a membrane made of a Phospholipid Bilayer. \n\nBut the membrane is NOT a solid wall. It is a **Fluid Mosaic**.\n- It behaves like a thick liquid (like olive oil). The lipid molecules are constantly sliding past each other.\n- \"Mosaic\" refers to the thousands of different proteins embedded in this oily sea, floating around like icebergs."
+        },
+        {
+            "id": "biophys_struct_9",
+            "type": "content",
+            "title": "Membrane Proteins",
+            "content": "# The Embedded Machines\n\nMembrane proteins are the hardest structures for biophysicists to determine. \nWhy? Because half of the protein loves water (hydrophilic), and the other half hates water (hydrophobic, sitting inside the oily membrane). \nIf you pull the protein out of the membrane to study it, it instantly loses its shape and collapses!\n\nThese proteins are crucial. They act as the channels, pumps, and receptors that control everything going in and out of the cell."
+        },
+        {
+            "id": "biophys_struct_quiz_3",
+            "type": "quiz",
+            "title": "Membrane Quiz",
+            "content": "Check your understanding of the cellular border.",
+            "quizQuestion": "Why is the cell membrane described as a 'Fluid Mosaic'?",
+            "quizOptions": [
+                "Because it is made entirely of solid water ice",
+                "Because it consists of a fluid, oily lipid bilayer with various proteins floating in it like a mosaic",
+                "Because it is as hard as a ceramic tile",
+                "Because it shatters easily when touched"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "biophys_struct_10",
+            "type": "content",
+            "title": "Cryo-EM",
+            "content": "# The Modern Revolution: Cryo-EM\n\nIn recent years, a new technique has revolutionized structural biology: **Cryo-Electron Microscopy (Cryo-EM)**.\n\n- The sample is flash-frozen in liquid ethane so quickly that the water doesn't have time to form ice crystals (it forms a glassy state called vitreous ice).\n- It is then blasted with a beam of electrons.\n- Massive computing power stitches thousands of 2D photos into a perfect 3D model.\n- **The Breakthrough:** It doesn't require crystals (like X-Ray), and it works on massive protein complexes (unlike NMR). It is currently the most powerful tool in Biophysics!"
+        },
+        {
+            "id": "biophys_struct_11",
+            "type": "content",
+            "title": "Summary of Structure",
+            "content": "# Biomolecular Structure Summary\n\n## Key Takeaways:\n\n### The Rule of Biology\n- **Structure determines Function**. If you change the 3D shape, you change the machine.\n\n### Determination Techniques\n- **X-Ray Crystallography** bounces X-rays off solid protein crystals.\n- **NMR** uses massive magnets to study flexible proteins in a liquid state.\n- **Cryo-EM** uses flash-freezing and electron beams to map massive complexes without needing crystals.\n\n### The Targets\n- Biophysicists study folded proteins, complex 3D RNA, and the oily, dynamic **Fluid Mosaic** of the cell membrane.\n\n> **Next Up:** Now that we have a static 3D map of the machine, we need to see it move! We proceed to Molecular Dynamics."
+        }
+    ]
+}

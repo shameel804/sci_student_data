@@ -1,0 +1,123 @@
+{
+    "id": "learn_advgen_disorders",
+    "topicId": "disorders",
+    "topicTitle": "Genetic Disorders",
+    "description": "Understand the molecular basis of inherited diseases, from single-letter mutations to massive chromosomal deletions, and the role of genetic counseling.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "advgen_dis_1",
+            "type": "content",
+            "title": "Welcome to Genetic Disorders",
+            "content": "# When the Code Breaks\n\nWelcome to **Genetic Disorders**.\n\nThe human genome is a masterpiece, but it is not perfect. Errors during replication or meiosis can cause devastating diseases.\n\n## What You Will Learn:\n- **Chromosomal Abnormalities** - Errors in the big picture\n- **Single Gene Disorders** - The Mendelian diseases\n- **Multifactorial Disorders** - When genetics meets the environment\n- **Genetic Counseling** - Helping families navigate the risks\n\nLet's understand the medical side of genetics."
+        },
+        {
+            "id": "advgen_dis_2",
+            "type": "content",
+            "title": "Chromosomal Abnormalities",
+            "content": "# The Macro Errors\n\nThe most severe genetic disorders don't just affect one gene; they affect entire chromosomes (containing thousands of genes).\n\nMost large chromosomal abnormalities are lethal, resulting in early miscarriage. However, a few are survivable.\n\n## Nondisjunction\nThese errors usually occur during **Meiosis**. When chromosomes are supposed to separate and go into different sperm or egg cells, they sometimes \"stick\" together (Nondisjunction).\nThis results in a sperm or egg cell that has an extra chromosome, or is missing a chromosome entirely."
+        },
+        {
+            "id": "advgen_dis_3",
+            "type": "content",
+            "title": "Aneuploidy",
+            "content": "# Aneuploidy: The Wrong Number\n\n**Aneuploidy** is the condition of having an abnormal number of chromosomes.\n\n## Trisomy (Three Copies)\nIf an egg with two copies of Chromosome 21 is fertilized by a normal sperm, the resulting baby will have THREE copies of Chromosome 21. \nThis is **Trisomy 21**, the cause of Down Syndrome.\n\n## Sex Chromosome Aneuploidy\nThe body is surprisingly tolerant of having the wrong number of sex chromosomes:\n- **Turner Syndrome (X0):** A female missing her second X chromosome.\n- **Klinefelter Syndrome (XXY):** A male with an extra X chromosome."
+        },
+        {
+            "id": "advgen_dis_4",
+            "type": "content",
+            "title": "Structural Abnormalities",
+            "content": "# Broken Chromosomes\n\nSometimes the number is correct (46), but the physical structure of a chromosome is broken.\n\n- **Deletions:** A massive chunk of the chromosome breaks off and is lost. (e.g., Cri-du-chat syndrome is caused by a deletion on Chromosome 5).\n- **Translocations:** A piece of one chromosome breaks off and accidentally attaches to a completely different, non-homologous chromosome. This can fuse two genes together, creating a mutant \"super-gene\" that causes severe cancers like Leukemia."
+        },
+        {
+            "id": "advgen_dis_quiz_1",
+            "type": "quiz",
+            "title": "Chromosomal Quiz",
+            "content": "Check your understanding of macro errors.",
+            "quizQuestion": "What is the biological mechanism that usually causes Aneuploidy (like Trisomy 21)?",
+            "quizOptions": [
+                "A single point mutation in a skin cell",
+                "Nondisjunction (failure of chromosomes to separate properly) during Meiosis",
+                "Exposure to the influenza virus",
+                "Crossing over during Mitosis"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "advgen_dis_5",
+            "type": "content",
+            "title": "Single Gene Disorders",
+            "content": "# Mendelian Diseases\n\n**Single Gene Disorders** are caused by a mutation in one specific gene. They follow strict Mendelian inheritance patterns (Autosomal Dominant, Autosomal Recessive, or Sex-Linked)."
+        },
+        {
+            "id": "advgen_dis_6",
+            "type": "content",
+            "title": "Autosomal Disorders",
+            "content": "# Autosomal Recessive vs Dominant\n\nThese occur on the 22 pairs of non-sex chromosomes (autosomes).\n\n## Autosomal Recessive\n- You must inherit TWO broken copies (one from each parent) to be sick.\n- If you have one good and one broken copy, you are a healthy \"Carrier.\"\n- **Examples:** Cystic Fibrosis, Sickle Cell Anemia, Tay-Sachs Disease.\n\n## Autosomal Dominant\n- You only need ONE broken copy to be sick. There are no carriers.\n- If a parent has it, every child has a 50% chance of getting it.\n- **Example:** Huntington's Disease (a devastating neurological disorder that usually doesn't show symptoms until age 40, after the person has already had children)."
+        },
+        {
+            "id": "advgen_dis_7",
+            "type": "content",
+            "title": "X-Linked Disorders",
+            "content": "# X-Linked (Sex-Linked) Traits\n\nThese mutations occur on the X chromosome.\n\nBecause females have two X chromosomes (XX), they can be healthy carriers (the good X compensates for the broken X).\nBut males only have one X chromosome (XY). The Y chromosome is tiny and cannot compensate. If a male inherits a broken X, he WILL be sick.\n\n- **The Pattern:** X-linked recessive disorders almost exclusively affect males. Mothers pass it to their sons.\n- **Examples:** Hemophilia (blood won't clot) and Color Blindness."
+        },
+        {
+            "id": "advgen_dis_quiz_2",
+            "type": "quiz",
+            "title": "Single Gene Quiz",
+            "content": "Check your understanding of Mendelian traits.",
+            "quizQuestion": "Why do X-linked recessive disorders (like Hemophilia) affect males much more frequently than females?",
+            "quizOptions": [
+                "Because males do not have an immune system",
+                "Because the Y chromosome causes the disease",
+                "Because males only have one X chromosome, so a single recessive mutation cannot be masked by a healthy dominant copy",
+                "Because females do not inherit X chromosomes from their fathers"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "advgen_dis_8",
+            "type": "content",
+            "title": "Multifactorial Disorders",
+            "content": "# Complex Traits\n\nMost common human diseases do NOT follow simple Mendelian rules. They are **Multifactorial** (or Polygenic).\n\nThis means they are caused by a combination of dozens of different mutated genes, AND environmental triggers.\n\n## Examples:\n- **Heart Disease, Type 2 Diabetes, Schizophrenia, and most Cancers.**\n- You do not \"inherit\" these diseases directly. You inherit a genetic *predisposition* (a higher risk). \n- Whether you actually get the disease depends heavily on your diet, exercise, stress levels, and exposure to toxins."
+        },
+        {
+            "id": "advgen_dis_9",
+            "type": "content",
+            "title": "Genetic Counseling",
+            "content": "# Guiding the Family\n\n**Genetic Counselors** are healthcare professionals trained in both medical genetics and psychology.\n\nWhen a couple discovers a history of a severe genetic disease in their family, they visit a genetic counselor before having children to understand their risks.\n\nThe counselor's primary tool is the **Pedigree** (a family tree showing who is healthy, who is sick, and who is deceased across multiple generations)."
+        },
+        {
+            "id": "advgen_dis_10",
+            "type": "content",
+            "title": "Pedigree Analysis",
+            "content": "# Reading a Pedigree\n\nBy looking at a Pedigree, a counselor can deduce the inheritance pattern:\n\n- **If it skips a generation:** It is likely Recessive (carriers are hiding the trait).\n- **If it appears in every single generation:** It is likely Dominant.\n- **If it almost exclusively affects males:** It is likely X-Linked Recessive.\n\nOnce the pattern is known, the counselor can use Punnett squares to give the parents an exact mathematical probability of their child inheriting the disease."
+        },
+        {
+            "id": "advgen_dis_11",
+            "type": "content",
+            "title": "Prenatal Testing",
+            "content": "# Testing the Unborn\n\nIf the risk is high, counselors can offer prenatal testing to analyze the fetus's DNA during pregnancy.\n\n## 1. Amniocentesis\nA long needle is inserted through the mother's abdomen into the uterus to extract a small amount of amniotic fluid (which contains shed fetal cells). The cells are cultured, and the chromosomes are counted to check for Aneuploidy (like Down Syndrome).\n\n## 2. NIPT (Non-Invasive Prenatal Testing)\nA modern, safer blood test. During pregnancy, fragments of fetal DNA naturally leak into the mother's bloodstream. Doctors can simply draw the mother's blood, sequence the floating DNA, and diagnose genetic disorders without using needles near the baby!"
+        },
+        {
+            "id": "advgen_dis_quiz_3",
+            "type": "quiz",
+            "title": "Counseling Quiz",
+            "content": "Check your understanding of risk assessment.",
+            "quizQuestion": "When a genetic counselor analyzes a family Pedigree, what is the most likely inheritance pattern if the disease frequently 'skips' entire generations?",
+            "quizOptions": [
+                "Autosomal Dominant",
+                "Autosomal Recessive",
+                "Multifactorial",
+                "Chromosomal Nondisjunction"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "advgen_dis_12",
+            "type": "content",
+            "title": "Summary of Disorders",
+            "content": "# Genetic Disorders Summary\n\n## Key Takeaways:\n\n### Types of Disorders\n- **Chromosomal:** Massive structural errors or **Aneuploidy** (wrong number) caused by **Nondisjunction**.\n- **Single Gene:** Follow strict rules. **Autosomal Recessive** requires two bad copies; **Autosomal Dominant** requires one. **X-linked** heavily impacts males.\n- **Multifactorial:** The result of complex interactions between many genes and environmental triggers (like heart disease).\n\n### The Human Element\n- **Genetic Counselors** use **Pedigrees** and probabilities to help families understand risks.\n- **NIPT** provides safe, accurate prenatal DNA screening using a simple blood draw from the mother.\n\n> **Next Up:** How do these genes behave across millions of individuals over thousands of years? Population Genetics."
+        }
+    ]
+}

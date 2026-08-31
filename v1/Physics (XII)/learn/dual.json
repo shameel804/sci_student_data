@@ -1,0 +1,109 @@
+{
+    "id": "learn_dual",
+    "topicId": "dual",
+    "topicTitle": "Dual Nature",
+    "description": "Enter the quantum realm where light acts like particles and matter acts like waves.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "dual_1",
+            "type": "content",
+            "title": "Welcome to Dual Nature",
+            "content": "# Dual Nature of Radiation & Matter\n\nWelcome to the weird world of quantum physics! Is light a wave or a particle? Are electrons particles or waves? The answer is... both!\n\n## What You Will Learn:\n- **The Photoelectric Effect** - Proof that light acts as a particle\n- **Einstein's Equation** - The math behind the photons\n- **Matter Waves Concept** - Proof that matter acts as a wave\n- **De Broglie Hypothesis** - Calculating the wavelength of an electron\n\n> **Fun Fact:** Albert Einstein won his Nobel Prize for explaining the Photoelectric Effect, not for his famous Theory of Relativity!"
+        },
+        {
+            "id": "dual_2",
+            "type": "content",
+            "title": "The Electron Emission Problem",
+            "content": "# Electron Emission\n\nMetals contain free electrons that can move around inside the metal, but they cannot normally escape the surface.\n\n## Work Function (Phi):\nTo escape the metal surface, an electron needs a certain minimum amount of energy. This minimum energy is called the **Work Function** of the metal.\n- It is measured in electron-volts (eV).\n- It is a property of the specific metal (e.g., Cesium has a very low work function, Platinum has a high one).\n\n## How to give them energy?\n1. **Thermionic emission:** Heating the metal.\n2. **Field emission:** Applying a massive electric field.\n3. **Photoelectric emission:** Shining light of suitable frequency on the metal."
+        },
+        {
+            "id": "dual_3",
+            "type": "content",
+            "title": "The Photoelectric Effect",
+            "content": "# The Photoelectric Effect\n\nDiscovered by Heinrich Hertz in 1887.\n\n## The Phenomenon:\nWhen light of a sufficiently high frequency (like UV light) falls on a metal surface, electrons are instantly ejected from the metal. These are called **photoelectrons**.\n\n## The Puzzle:\nClassical wave theory of light could NOT explain this effect!\n- Wave theory predicted that intense red light should eventually eject electrons after warming up the metal. But it doesn't matter how intense or how long you shine red light on zinc; no electrons come out.\n- Wave theory predicted a time delay. But electrons are ejected instantaneously.\n- Wave theory couldn't explain the threshold frequency."
+        },
+        {
+            "id": "dual_4",
+            "type": "content",
+            "title": "Einstein's Solution",
+            "content": "# Einstein's Photon Picture\n\nIn 1905, Albert Einstein solved the puzzle using Max Planck's quantum theory.\n\n## The Proposal:\nEinstein proposed that light is not a continuous wave, but rather consists of discrete packets (quanta) of energy, called **Photons**.\n\n## Photon Energy:\nThe energy of each photon depends ONLY on its frequency:\n```\nE = h * f\n```\nWhere:\n- **E** is the energy of the photon.\n- **h** is Planck's constant (6.626 x 10^-34 J s).\n- **f** is the frequency of the light.\n\nHigher frequency light (like blue or UV) has more energetic photons than lower frequency light (like red)."
+        },
+        {
+            "id": "dual_5",
+            "type": "content",
+            "title": "Photoelectric Equation",
+            "content": "# Einstein's Photoelectric Equation\n\nEinstein visualized the photoelectric effect as a 1-to-1 collision between a photon and an electron.\n\n## The Mechanism:\n1. A photon with energy `h * f` hits an electron.\n2. The electron absorbs the ENTIRE photon.\n3. A portion of this energy (the work function, Phi) is used to overcome the surface barrier.\n4. Whatever energy is left over becomes the maximum kinetic energy (K_max) of the ejected electron.\n\n## The Equation:\n```\nK_max = h * f - Phi\n```\n\nThis simple, brilliant equation explained all the mysterious experimental observations!"
+        },
+        {
+            "id": "dual_quiz_1",
+            "type": "quiz",
+            "title": "Photoelectric Quiz",
+            "content": "Check your understanding of photons.",
+            "quizQuestion": "According to Einstein's photoelectric theory, increasing the INTENSITY (brightness) of light will:",
+            "quizOptions": [
+                "Increase the kinetic energy of emitted electrons",
+                "Increase the number of emitted electrons",
+                "Decrease the work function of the metal",
+                "Eject electrons faster"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "dual_6",
+            "type": "content",
+            "title": "Explaining the Observations",
+            "content": "# Why Wave Theory Failed\n\nLet's see how Einstein's equation explains the experimental facts:\n\n## 1. Threshold Frequency (f0):\nFor an electron to be ejected, the photon must have enough energy to at least cover the work function (h * f > Phi). If the frequency is below the threshold (f0), the photon lacks the energy, no matter how intense the beam is.\n\n## 2. Instantaneous Emission:\nIt is an elastic collision between a particle of light and an electron. Energy transfer happens instantly.\n\n## 3. Kinetic Energy vs Intensity:\nIncreasing intensity means MORE photons, so more electrons are ejected (higher current). But the energy of EACH photon remains the same, so the maximum kinetic energy of the electrons does not change!"
+        },
+        {
+            "id": "dual_7",
+            "type": "content",
+            "title": "Particle Nature of Light",
+            "content": "# Light is a Particle!\n\nThe photoelectric effect (along with the Compton effect) firmly established the particle nature of light.\n\n## Properties of Photons:\n- They travel at the speed of light (c) in a vacuum.\n- The rest mass of a photon is strictly **zero**.\n- They have momentum (p = E / c = h / lambda).\n- They are electrically neutral and are not deflected by electric or magnetic fields.\n- In a photon-electron collision, total energy and total momentum are conserved.\n\nSo, light shows wave-like properties in interference and diffraction, but particle-like properties in the photoelectric effect. This is **Wave-Particle Duality**."
+        },
+        {
+            "id": "dual_8",
+            "type": "content",
+            "title": "Matter Waves",
+            "content": "# Matter Waves\n\nIf light (a wave) can act like a particle, could particles act like waves?\n\n## The De Broglie Hypothesis:\nIn 1924, Louis de Broglie made a bold proposition: Material particles in motion display wave-like properties.\n\nHe proposed that the wavelength (lambda) associated with a moving particle of momentum (p) is given by:\n```\nlambda = h / p = h / (m * v)\n```\nWhere:\n- **h** is Planck's constant.\n- **m** is the mass of the particle.\n- **v** is its velocity.\n\nThese are called **Matter Waves** or **de Broglie waves**."
+        },
+        {
+            "id": "dual_9",
+            "type": "content",
+            "title": "Why Don't We See Matter Waves?",
+            "content": "# Invisible Waves\n\nIf all moving objects have a wavelength, why don't we see a baseball diffracting around a bat?\n\n## The Math Explains It:\nLet's calculate the wavelength of a 0.15 kg baseball moving at 40 m/s.\n- `lambda = (6.63 x 10^-34) / (0.15 * 40)`\n- `lambda = approx 10^-34 meters`\n\nThis wavelength is so unfathomably small that wave effects (like diffraction) are completely unobservable. Matter waves are only significant for subatomic particles like electrons, which have tiny masses!"
+        },
+        {
+            "id": "dual_10",
+            "type": "content",
+            "title": "Davisson-Germer Experiment",
+            "content": "# Proof of Matter Waves\n\nDe Broglie's hypothesis was purely theoretical until 1927.\n\n## The Experiment:\nC.J. Davisson and L.H. Germer fired a beam of accelerated electrons at a nickel crystal.\n\n## The Result:\nThey observed a diffraction pattern of scattered electrons! \n- Diffraction is a property exclusive to waves.\n- The measured wavelength of the diffracted electron beam perfectly matched the wavelength predicted by de Broglie's equation.\n\nThis proved beyond a doubt that electrons (particles of matter) behave as waves!"
+        },
+        {
+            "id": "dual_11",
+            "type": "content",
+            "title": "Heisenberg Uncertainty Principle",
+            "content": "# Heisenberg's Uncertainty Principle\n\nA direct consequence of the wave nature of matter is Heisenberg's famous principle (1927).\n\n## The Principle:\n> **\"It is impossible to determine simultaneously, with arbitrary precision, both the exact position and exact momentum of a particle.\"**\n\n## The Equation:\n```\ndelta_x * delta_p >= h / (4 * pi)\n```\n- If you know a particle's position perfectly (delta_x is small), your uncertainty about its momentum (delta_p) must be huge, and vice versa.\n- This isn't a limitation of our measuring tools; it is a fundamental property of nature due to wave-particle duality!"
+        },
+        {
+            "id": "dual_quiz_2",
+            "type": "quiz",
+            "title": "Matter Waves Quiz",
+            "content": "Test your understanding of de Broglie waves.",
+            "quizQuestion": "According to de Broglie's hypothesis, if you double the velocity of an electron, its wavelength will:",
+            "quizOptions": [
+                "Double",
+                "Quadruple",
+                "Be reduced to one half",
+                "Remain unchanged"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "dual_12",
+            "type": "content",
+            "title": "Summary: Dual Nature",
+            "content": "# Summary: Dual Nature\n\n## Key Concepts Reviewed:\n\n- **Work Function:** Minimum energy required to eject an electron.\n- **Photoelectric Effect:** Emission of electrons when illuminated by high-frequency light.\n- **Photons:** Light behaves as discrete packets of energy (E = hf).\n- **Einstein's Equation:** K_max = hf - Phi.\n- **Wave-Particle Duality (Light):** Light is both a wave (interference) and a particle (photons).\n- **De Broglie Hypothesis:** Matter also has a wave nature (lambda = h/p).\n- **Davisson-Germer:** Experimentally proved electron diffraction.\n- **Heisenberg Uncertainty:** You cannot know exact position and momentum simultaneously.\n\n> **Congratulations!** You have completed the Dual Nature module."
+        }
+    ]
+}

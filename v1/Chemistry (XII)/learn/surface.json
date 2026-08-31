@@ -1,0 +1,109 @@
+{
+    "id": "learn_surface",
+    "topicId": "surface",
+    "topicTitle": "Surface Chemistry",
+    "description": "Learn the science of surfaces, from how gas masks filter poison to why milk is white.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "surf_1",
+            "type": "content",
+            "title": "Welcome to Surface Chemistry",
+            "content": "# Surface Chemistry\n\nWelcome to Surface Chemistry! This is the study of phenomena that occur at the surfaces or interfaces of substances.\n\n## What You Will Learn:\n- **Adsorption Phenomena** - Why things stick to surfaces\n- **Catalysis Principles** - How surfaces speed up reactions\n- **Colloid Properties** - Milk, fog, and gels\n- **Surface Chemistry Applications** - Water purification to medicine\n\n> **Fun Fact:** The activated charcoal used in water filters relies entirely on surface chemistry to trap toxins!"
+        },
+        {
+            "id": "surf_2",
+            "type": "content",
+            "title": "Adsorption vs Absorption",
+            "content": "# Adsorption vs Absorption\n\nThese two sound similar but are very different!\n\n## Adsorption (Surface Phenomenon):\n- The accumulation of molecular species at the **surface** rather than in the bulk of a solid or liquid.\n- Example: Water vapor sticking to the surface of silica gel packets in a new shoe box.\n- **Adsorbate:** The substance being adsorbed (e.g., water vapor).\n- **Adsorbent:** The material providing the surface (e.g., silica gel).\n\n## Absorption (Bulk Phenomenon):\n- The substance is uniformly distributed throughout the **bulk** of the solid.\n- Example: A sponge soaking up water, or anhydrous calcium chloride absorbing water vapor."
+        },
+        {
+            "id": "surf_3",
+            "type": "content",
+            "title": "Types of Adsorption",
+            "content": "# Physisorption vs Chemisorption\n\nAdsorption of gases on solids is classified into two types based on the forces holding them together.\n\n## 1. Physical Adsorption (Physisorption):\n- Held by weak **Van der Waals forces**.\n- Not specific (any gas can be adsorbed on any surface).\n- Reversible (can easily remove the gas by lowering pressure or heating).\n- Forms multi-molecular layers.\n\n## 2. Chemical Adsorption (Chemisorption):\n- Held by strong **chemical bonds**.\n- Highly specific (only occurs if there is a chemical affinity between the gas and solid).\n- Irreversible.\n- Forms only a single (unimolecular) layer."
+        },
+        {
+            "id": "surf_4",
+            "type": "content",
+            "title": "Factors Affecting Adsorption",
+            "content": "# What Changes Adsorption?\n\nSeveral factors dictate how much gas sticks to a solid surface.\n\n## 1. Nature of the Gas:\n- Easily liquefiable gases (like NH3, HCl, CO2) have stronger van der Waals forces and are adsorbed more readily than permanent gases (like H2, N2, O2).\n\n## 2. Surface Area of Adsorbent:\n- **Crucial factor!** Adsorption is a surface phenomenon, so greater surface area equals greater adsorption.\n- Finely powdered metals or highly porous substances (like charcoal) are excellent adsorbents.\n\n## 3. Temperature:\n- Adsorption is an exothermic process (releases heat).\n- According to Le Chatelier's principle, increasing temperature favors the reverse process (desorption). So, adsorption **decreases with an increase in temperature**."
+        },
+        {
+            "id": "surf_quiz_1",
+            "type": "quiz",
+            "title": "Adsorption Quiz",
+            "content": "Test your knowledge on surface sticking.",
+            "quizQuestion": "Which of the following describes Chemisorption?",
+            "quizOptions": [
+                "It involves weak Van der Waals forces",
+                "It forms multi-molecular layers",
+                "It is highly specific",
+                "It increases with an increase in pressure indefinitely"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "surf_5",
+            "type": "content",
+            "title": "Catalysis",
+            "content": "# Catalysis\n\nCatalysts are substances that accelerate the rate of a chemical reaction and remain chemically and quantitatively unchanged after the reaction.\n\n## Types of Catalysis:\n\n### 1. Homogeneous Catalysis:\n- The catalyst is in the **same phase** (physical state) as the reactants.\n- Example: Oxidation of SO2 to SO3 using NO (nitrogen oxide) gas as a catalyst.\n\n### 2. Heterogeneous Catalysis:\n- The catalyst is in a **different phase** from the reactants (usually a solid catalyst with liquid or gaseous reactants).\n- Example: The Haber process for making ammonia (N2 + H2 gases) uses solid iron as a catalyst.\n- This heavily relies on **adsorption**! Reactants adsorb onto the solid catalyst surface, react, and then desorb."
+        },
+        {
+            "id": "surf_6",
+            "type": "content",
+            "title": "Enzyme Catalysis",
+            "content": "# Enzyme Catalysis\n\nEnzymes are complex nitrogenous organic compounds produced by living plants and animals. They are biological catalysts.\n\n## Characteristics of Enzymes:\n- **Highly Efficient:** One molecule of an enzyme can transform a million molecules of reactant per minute!\n- **Highly Specific:** One enzyme usually catalyzes only one specific reaction (like a lock and key).\n- **Optimum Temperature & pH:** They only work well within a narrow range of temperature (around human body temp, 310K) and pH (usually near neutral).\n\n## Examples:\n- Invertase converts cane sugar into glucose and fructose.\n- Zymase converts glucose into ethyl alcohol and CO2."
+        },
+        {
+            "id": "surf_7",
+            "type": "content",
+            "title": "Colloids",
+            "content": "# The Colloidal State\n\nSolutions aren't the only mixtures in liquid!\n\n## 1. True Solution:\n- Particles are tiny (< 1 nm) and completely dissolved. E.g., sugar water.\n\n## 2. Suspension:\n- Particles are large (> 1000 nm) and will eventually settle to the bottom due to gravity. E.g., sand in water.\n\n## 3. Colloidal Solution:\n- The intermediate state! Particle sizes range from **1 nm to 1000 nm**.\n- Particles do not settle down.\n- Consists of two phases:\n  - **Dispersed Phase:** The substance distributed (like the solute).\n  - **Dispersion Medium:** The continuous medium (like the solvent)."
+        },
+        {
+            "id": "surf_8",
+            "type": "content",
+            "title": "Types of Colloids",
+            "content": "# Classification of Colloids\n\nColloids are classified based on the physical state of the dispersed phase and the dispersion medium.\n\n| Dispersed Phase | Dispersion Medium | Colloid Type | Example |\n|-----------------|-------------------|--------------|---------|\n| Solid | Liquid | Sol | Paints, cell fluids |\n| Solid | Gas | Aerosol | Smoke, dust |\n| Liquid | Solid | Gel | Cheese, butter, jellies |\n| Liquid | Liquid | Emulsion | Milk, hair cream |\n| Liquid | Gas | Aerosol | Fog, mist, cloud |\n| Gas | Liquid | Foam | Froth, whipped cream |\n\nNotice there is no Gas in Gas colloid; that always forms a true solution (like air)!"
+        },
+        {
+            "id": "surf_9",
+            "type": "content",
+            "title": "Properties of Colloids",
+            "content": "# Unique Properties of Colloids\n\nBecause of their specific particle size, colloids exhibit unique behaviors.\n\n## 1. Tyndall Effect (Optical Property):\n- Colloidal particles are large enough to scatter light.\n- If you shine a laser through a true solution, the path is invisible. But shine it through a colloid (like milk or fog), and the path of the beam becomes visibly illuminated.\n\n## 2. Brownian Movement (Kinetic Property):\n- Viewed under a powerful microscope, colloidal particles appear to be in a continuous, random, zig-zag motion.\n- This is caused by the unequal bombardment of the dispersed particles by the rapidly moving molecules of the dispersion medium. This motion keeps the particles from settling!"
+        },
+        {
+            "id": "surf_10",
+            "type": "content",
+            "title": "Charge and Coagulation",
+            "content": "# Coagulation of Colloids\n\nColloidal particles typically carry an electric charge (either all positive or all negative). This mutual repulsion keeps them suspended and prevents them from clumping together.\n\n## Coagulation (Flocculation):\nIf you remove that charge, the particles will clump together and settle down (precipitate). This process is called coagulation.\n\n## How to Coagulate a Colloid:\n- **Adding an Electrolyte:** The oppositely charged ions of the added electrolyte neutralize the charge on the colloid particles. For example, adding Al3+ ions will rapidly coagulate a negatively charged sol.\n- This is how river deltas form! Fresh river water (containing clay colloids) meets salty seawater (containing electrolytes), causing the clay to coagulate and settle."
+        },
+        {
+            "id": "surf_quiz_2",
+            "type": "quiz",
+            "title": "Colloid Quiz",
+            "content": "Test your knowledge of mixtures.",
+            "quizQuestion": "The scattering of light by colloidal particles is called the:",
+            "quizOptions": [
+                "Brownian movement",
+                "Tyndall effect",
+                "Coagulation effect",
+                "Peptization"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "surf_11",
+            "type": "content",
+            "title": "Applications of Surface Chemistry",
+            "content": "# Real World Applications\n\nSurface chemistry is vital in many industries.\n\n1. **Gas Masks:** Use activated charcoal to adsorb poisonous gases.\n2. **Medicines:** Many drugs are colloidal in nature and act effectively because they have a large surface area for assimilation.\n3. **Cleansing Action of Soap:** Soaps form colloidal structures called **micelles** that trap dirt and oil.\n4. **Artificial Rain:** Achieved by spraying electrified sand or throwing silver iodide onto clouds (which act as aerosols) to cause coagulation of water droplets.\n5. **Water Purification:** Adding alum to muddy water causes the suspended impurities to coagulate and settle down."
+        },
+        {
+            "id": "surf_12",
+            "type": "content",
+            "title": "Summary: Surface Chemistry",
+            "content": "# Surface Chemistry Summary\n\n## Key Concepts Reviewed:\n\n- **Adsorption:** Sticking to the surface. Physisorption (weak forces) vs Chemisorption (chemical bonds).\n- **Factors:** Adsorption increases with high surface area and low temperature.\n- **Catalysis:** Homogeneous (same phase) and Heterogeneous (different phase, relies on adsorption). Enzymes are highly specific biological catalysts.\n- **Colloids:** Intermediate particles (1-1000 nm). Include sols, gels, aerosols, and emulsions (like milk).\n- **Tyndall Effect:** Scattering of light by colloids.\n- **Brownian Motion:** Random zig-zag motion keeping colloids suspended.\n- **Coagulation:** Neutralizing colloidal charge to make them settle, achieved by adding electrolytes.\n\n> **Congratulations!** You have completed the Surface Chemistry module."
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "id": "mic_genetics",
+    "topicId": "genetics",
+    "topicTitle": "Microbial Genetics",
+    "description": "Discover how bacteria share DNA to become superbugs and how they tightly regulate their genes.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "mgen_1",
+            "type": "content",
+            "title": "Welcome to Microbial Genetics",
+            "content": "# Microbial Genetics\n\nWelcome to Microbial Genetics! Bacteria reproduce asexually, so how do they evolve and become resistant to antibiotics so quickly? We will uncover their secret methods of sharing DNA.\n\n## What You Will Learn:\n- **Plasmids** - The extra pieces of DNA\n- **Gene Transfer Mechanisms** - Bacterial sex and viral delivery\n- **The Operon Concept** - How bacteria turn genes on and off\n- **Mutagenesis** - Changing the code\n\n> **Fun Fact:** Bacteria can literally 'fish' for DNA in their environment and incorporate it into their own genome!"
+        },
+        {
+            "id": "mgen_2",
+            "type": "content",
+            "title": "Plasmids and Transposons",
+            "content": "# Extra-Chromosomal DNA\n\nBacteria have their main circular chromosome (the nucleoid), but they often carry extra, optional pieces of DNA.\n\n## 1. Plasmids:\n- Small, circular, double-stranded DNA molecules that exist completely independently of the main chromosome.\n- They have their own origin of replication and can copy themselves.\n- They do NOT carry genes essential for basic survival, but they carry 'superpower' genes (like resistance to heavy metals, or the ability to degrade unusual chemicals).\n- **R-Plasmids:** Carry genes for Resistance to antibiotics.\n\n## 2. Transposons (Jumping Genes):\n- Segments of DNA that can move (transpose) from one location to another within the genome, or from a plasmid to the chromosome.\n- Discovered by Barbara McClintock.\n- They can disrupt normal genes when they jump into them, causing mutations."
+        },
+        {
+            "id": "mgen_3",
+            "type": "content",
+            "title": "Horizontal Gene Transfer",
+            "content": "# Sharing the Code\n\nUnlike vertical gene transfer (from parent to offspring), bacteria use Horizontal Gene Transfer (HGT) to pass DNA to their neighbors in the same generation!\n\nThere are three main mechanisms of HGT:\n1. **Transformation:** Naked DNA from the environment.\n2. **Transduction:** DNA delivered by a virus.\n3. **Conjugation:** Direct cell-to-cell transfer."
+        },
+        {
+            "id": "mgen_4",
+            "type": "content",
+            "title": "Transformation",
+            "content": "# Transformation\n\n## The Mechanism:\n- When a bacterium dies and bursts open, its DNA is released into the environment as 'naked' fragments.\n- Other living bacteria (if they are in a state called 'competent') can actively bind to this naked DNA and pull it inside their cell.\n- The foreign DNA is then spliced into the living bacterium's own chromosome.\n\nThis was famously discovered by Frederick Griffith in 1928, when he noticed that a harmless strain of *Streptococcus* suddenly became deadly after being mixed with the dead remains of a deadly strain. The harmless bacteria had 'transformed' by picking up the dead bacteria's DNA!"
+        },
+        {
+            "id": "mgen_5",
+            "type": "content",
+            "title": "Transduction",
+            "content": "# Transduction\n\n## The Mechanism:\n- This process is mediated by a **bacteriophage** (a virus that infects bacteria).\n- When a virus infects a bacterium, it chops up the host's DNA and forces the cell to build new viruses.\n- Sometimes, a piece of the host bacterium's DNA accidentally gets packaged inside a new virus head instead of the viral DNA.\n- When this 'defective' virus goes to infect a new bacterium, it injects the bacterial DNA from the first host instead of viral DNA! The new host incorporates this DNA and gains new traits."
+        },
+        {
+            "id": "mgen_6",
+            "type": "content",
+            "title": "Conjugation",
+            "content": "# Conjugation (Bacterial Sex)\n\n## The Mechanism:\n- This requires direct physical contact between two living bacteria.\n- It is mediated by a special plasmid, often called the F (fertility) factor.\n- A bacterium with the F factor (the donor) grows a long, hollow tube called a **sex pilus**.\n- The pilus attaches to a recipient bacterium and pulls it close.\n- A single strand of the plasmid DNA is transferred through the bridge into the recipient.\n- Both cells then synthesize the complementary strand. Now BOTH cells have the plasmid and can act as donors!\n\nThis is the primary way antibiotic resistance spreads rapidly through hospital populations!"
+        },
+        {
+            "id": "mgen_quiz_1",
+            "type": "quiz",
+            "title": "HGT Quiz",
+            "content": "Test your knowledge of bacterial genetics.",
+            "quizQuestion": "The process of transferring bacterial DNA from one cell to another via a viral vector (bacteriophage) is called:",
+            "quizOptions": [
+                "Conjugation",
+                "Transformation",
+                "Transduction",
+                "Transposition"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "mgen_7",
+            "type": "content",
+            "title": "The Operon Concept",
+            "content": "# Gene Regulation: The Operon\n\nBacteria don't need all their enzymes all the time. Producing them wastes energy. How do they turn genes on and off?\n\n## The Operon:\nDiscovered by Jacob and Monod, an operon is a functioning unit of genomic DNA containing a cluster of genes under the control of a single regulatory signal or promoter.\n\n## Structure of an Operon:\n1. **Promoter:** Where RNA polymerase binds to start transcription.\n2. **Operator:** The 'on/off switch'. A DNA sequence where a repressor protein can bind.\n3. **Structural Genes:** The genes that actually code for the enzymes needed.\n4. **Regulatory Gene:** Located elsewhere, it constantly produces the repressor protein."
+        },
+        {
+            "id": "mgen_8",
+            "type": "content",
+            "title": "The lac Operon",
+            "content": "# The lac Operon\n\nThe most famous example is the lac operon in *E. coli*, which controls the enzymes needed to digest lactose (milk sugar).\n\n## When Lactose is ABSENT:\n- The bacteria doesn't want to waste energy making lactose-digesting enzymes.\n- The repressor protein binds tightly to the Operator.\n- This physically blocks RNA polymerase from moving forward. The genes are **OFF**.\n\n## When Lactose is PRESENT:\n- The bacteria needs the enzymes!\n- Lactose binds to the repressor protein, changing its shape.\n- The repressor falls off the Operator.\n- RNA polymerase is free to transcribe the genes. The genes are **ON**!"
+        },
+        {
+            "id": "mgen_9",
+            "type": "content",
+            "title": "Summary: Microbial Genetics",
+            "content": "# Summary\n\n## Key Concepts Reviewed:\n\n- **Plasmids:** Extra-chromosomal circles of DNA carrying non-essential but beneficial genes (like antibiotic resistance).\n- **Transposons:** 'Jumping genes' that can move around the genome.\n- **Transformation:** Uptake of naked DNA from the environment.\n- **Transduction:** Transfer of bacterial DNA via a viral vector (bacteriophage).\n- **Conjugation:** Direct transfer of plasmid DNA via a sex pilus.\n- **Operon:** A cluster of genes controlled by one promoter/operator. A very efficient way to regulate gene expression.\n- **lac Operon:** Turned OFF by a repressor protein when lactose is absent; turned ON when lactose binds the repressor, removing it.\n\n> **Congratulations!** You have completed the Microbial Genetics module."
+        }
+    ]
+}

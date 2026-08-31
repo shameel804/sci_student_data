@@ -1,0 +1,141 @@
+{
+    "id": "learn_environment",
+    "topicId": "environment",
+    "topicTitle": "Our Environment",
+    "description": "Explore the delicate web of life, understand how energy flows, and learn how human actions impact the planet.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "env_1",
+            "type": "content",
+            "title": "Welcome to Our Environment",
+            "content": "# The Web of Life\n\nWe have heard the word 'environment' often being used on television, in newspapers, and by people around us. Our elders tell us that the 'environment' is not what it used to be earlier.\n\nOur environment is the physical and biological world where we live. Everything is connected!\n\n## What You Will Learn:\n- **Ecosystems:** The communities of living and non-living things.\n- **Food Chains:** Who eats whom?\n- **The 10% Law:** Why energy gets lost at every step.\n- **Ozone Depletion:** The hole in our protective shield.\n- **Waste Management:** Dealing with the garbage we create."
+        },
+        {
+            "id": "env_2",
+            "type": "content",
+            "title": "What is an Ecosystem?",
+            "content": "# Living Together\n\nAll organisms such as plants, animals, microorganisms and human beings as well as the physical surroundings interact with each other and maintain a balance in nature.\n\nAll the interacting organisms in an area together with the non-living constituents of the environment form an **ecosystem**.\n\n## Components of an Ecosystem:\n1. **Biotic Components:** The living parts (plants, animals, bacteria).\n2. **Abiotic Components:** The physical, non-living parts (temperature, rainfall, wind, soil, and minerals)."
+        },
+        {
+            "id": "env_3",
+            "type": "content",
+            "title": "Types of Ecosystems",
+            "content": "# Natural vs Artificial\n\nEcosystems come in all shapes and sizes.\n\n1. **Natural Ecosystems:** These exist in nature without human interference. Examples include forests, ponds, and lakes.\n2. **Artificial (Human-made) Ecosystems:** These are created and maintained by humans. Examples include gardens, crop fields, and aquariums.\n\nIf you make an aquarium, you have to provide oxygen (via an aerator), food, and clean it regularly because it is not self-sustaining like a natural pond!"
+        },
+        {
+            "id": "env_quiz_1",
+            "type": "quiz",
+            "title": "Ecosystem Quiz",
+            "content": "Check your understanding of ecosystems.",
+            "quizQuestion": "Which of the following is an example of an artificial (human-made) ecosystem?",
+            "quizOptions": [
+                "A dense forest",
+                "A crop field",
+                "A natural lake",
+                "The ocean"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "env_4",
+            "type": "content",
+            "title": "Roles in the Ecosystem",
+            "content": "# Producers, Consumers, Decomposers\n\nOrganisms in an ecosystem are grouped based on how they get their food:\n\n1. **Producers:** Organisms that can make their own food using sunlight (photosynthesis). These are all green plants and certain blue-green algae.\n2. **Consumers:** Organisms that depend on producers for food (either directly by eating plants, or indirectly by eating animals that ate plants). \n3. **Decomposers:** Microorganisms (like bacteria and fungi) that break down the dead remains and waste products of organisms, returning complex organic substances into simple inorganic substances that go back into the soil."
+        },
+        {
+            "id": "env_5",
+            "type": "content",
+            "title": "Food Chains",
+            "content": "# Who Eats Whom?\n\nA series of organisms feeding on one another forms a **food chain**.\n\nEach step or level of the food chain forms a **trophic level**.\n- 1st Trophic Level: Producers (Plants)\n- 2nd Trophic Level: Primary Consumers (Herbivores, like a grasshopper)\n- 3rd Trophic Level: Secondary Consumers (Small carnivores, like a frog)\n- 4th Trophic Level: Tertiary Consumers (Larger carnivores, like a snake or eagle)\n\n*Example:* Grass -> Grasshopper -> Frog -> Snake -> Eagle."
+        },
+        {
+            "id": "env_6",
+            "type": "content",
+            "title": "The Flow of Energy",
+            "content": "# The 10% Law\n\nThe flow of energy through a food chain is strictly **unidirectional** (one way). Energy captured by autotrophs does not revert back to the sun!\n\nMore importantly, energy gets lost at every step!\n\n## The 10 Percent Law:\nWhen green plants are eaten by primary consumers, a great deal of energy is lost as heat to the environment, some goes into digestion and doing work. \nOnly **10%** of the food eaten is turned into its own body and made available for the next level of consumers.\n\nTherefore, 10% can be taken as the average value for the amount of organic matter that is present at each step and reaches the next level of consumers."
+        },
+        {
+            "id": "env_7",
+            "type": "content",
+            "title": "Why are Food Chains Short?",
+            "content": "# Running Out of Energy\n\nBecause of the 10% Law, so little energy is available for the next level of consumers that food chains generally consist of only three or four steps.\n\nIf a plant has 10,000 Joules of energy:\n- The herbivore gets 1,000 J.\n- The carnivore gets 100 J.\n- The top carnivore gets only 10 J!\n\nThe loss of energy at each step is so great that very little usable energy remains after four trophic levels."
+        },
+        {
+            "id": "env_quiz_2",
+            "type": "quiz",
+            "title": "Energy Quiz",
+            "content": "Check your understanding of the 10% rule.",
+            "quizQuestion": "Approximately what percentage of energy is transferred from one trophic level to the next in a food chain?",
+            "quizOptions": [
+                "1%",
+                "10%",
+                "50%",
+                "90%"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "env_8",
+            "type": "content",
+            "title": "Food Webs",
+            "content": "# The Tangled Net\n\nIn nature, things are rarely as simple as a straight food chain. \n\nEach organism is generally eaten by two or more other kinds of organisms, which in turn are eaten by several other organisms.\n\nInstead of a straight line, the relationship can be shown as a series of branching lines called a **food web**.\nFood webs make ecosystems more stable. If one food source dies out, a predator can switch to eating something else!"
+        },
+        {
+            "id": "env_9",
+            "type": "content",
+            "title": "Biological Magnification",
+            "content": "# The Toxic Build-up\n\nWhile energy decreases as we go up a food chain, some chemicals do the exact opposite!\n\nPesticides and other chemicals (like DDT) used to protect crops from diseases get washed into the soil and water bodies. From the soil, these are absorbed by plants. \n\nSince these chemicals are not degradable, they get accumulated progressively at each trophic level. As human beings occupy the top level in any food chain, the maximum concentration of these chemicals gets accumulated in our bodies!\n\nThis phenomenon is known as **biological magnification**."
+        },
+        {
+            "id": "env_10",
+            "type": "content",
+            "title": "The Ozone Layer",
+            "content": "# Our Protective Shield\n\nOzone (O3) is a molecule formed by three atoms of oxygen. While normal diatomic oxygen (O2) is essential for all aerobic forms of life, ozone is a deadly poison!\n\nHowever, at the higher levels of the atmosphere (the stratosphere), ozone performs an essential function.\nIt shields the surface of the earth from **ultraviolet (UV) radiation** from the Sun.\n\nThis radiation is highly damaging to organisms, for example, it is known to cause skin cancer in human beings."
+        },
+        {
+            "id": "env_11",
+            "type": "content",
+            "title": "Ozone Depletion",
+            "content": "# The Hole in the Shield\n\nThe amount of ozone in the atmosphere began to drop sharply in the 1980s.\n\nThis decrease has been linked to synthetic chemicals like **chlorofluorocarbons (CFCs)** which are used as refrigerants and in fire extinguishers.\n\nIn 1987, the United Nations Environment Programme (UNEP) succeeded in forging an agreement to freeze CFC production. This successful global action has helped the ozone layer begin to heal!"
+        },
+        {
+            "id": "env_quiz_3",
+            "type": "quiz",
+            "title": "Ozone Quiz",
+            "content": "Check your environmental knowledge.",
+            "quizQuestion": "Which synthetic chemicals are primarily responsible for the depletion of the ozone layer?",
+            "quizOptions": [
+                "Carbon dioxide",
+                "Chlorofluorocarbons (CFCs)",
+                "Nitrogen oxides",
+                "Methane"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "env_12",
+            "type": "content",
+            "title": "Managing the Garbage we Produce",
+            "content": "# The Trash Problem\n\nIn our daily activities, we generate a lot of material that are thrown away. \n\nWhat happens to this waste? Not all waste is the same.\n\n1. **Biodegradable Waste:** Substances that are broken down by biological processes (like bacteria and fungi) are said to be biodegradable. Examples: Vegetable peels, paper, cotton.\n2. **Non-biodegradable Waste:** Substances that are not broken down in this manner are said to be non-biodegradable. These substances may be inert and simply persist in the environment for a long time. Examples: Plastics, glass, synthetic fibers."
+        },
+        {
+            "id": "env_13",
+            "type": "content",
+            "title": "The Plastic Problem",
+            "content": "# Why Can't Bacteria Eat Plastic?\n\nWhy are some materials biodegradable and others not?\n\nEnzymes secreted by bacteria and saprophytes are **specific in their action**. Specific enzymes are needed for the break-down of a particular substance.\n\nBacteria have enzymes to break down natural materials like wood and leaves. They do NOT have the enzymes to break down human-made plastics. Therefore, plastics persist in the environment, causing pollution, choking animals, and filling up landfills."
+        },
+        {
+            "id": "env_14",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Ecosystem:** The interacting system of living (biotic) and non-living (abiotic) components.\n- **Producers:** Organisms that make food via photosynthesis (Plants).\n- **Decomposers:** Microbes that break down dead organic matter.\n- **Food Chain:** A linear sequence of who eats whom.\n- **The 10% Law:** Only 10% of energy moves to the next trophic level.\n- **Biological Magnification:** The increasing concentration of toxic chemicals at higher trophic levels.\n- **Ozone (O3):** A gas in the upper atmosphere that blocks harmful UV radiation.\n- **CFCs:** Chemicals that deplete the ozone layer.\n- **Biodegradable:** Waste that can be broken down by microbes."
+        },
+        {
+            "id": "env_15",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Our Environment\n\nExcellent work! Here is a recap of what we've learned:\n\n- An **ecosystem** consists of biotic and abiotic components interacting together.\n- Energy flows in one direction through **food chains**, with 90% of energy being lost as heat at every step (the **10% Law**), which is why food chains are short.\n- In contrast, harmful chemicals like pesticides accumulate as they go up the food chain, a process called **biological magnification**.\n- The **Ozone layer** protects us from UV rays but was damaged by human-made **CFCs**.\n- We must manage our waste properly, as **non-biodegradable** wastes like plastic cannot be broken down by bacteria and persist in the environment indefinitely."
+        }
+    ]
+}

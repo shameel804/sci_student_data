@@ -1,0 +1,153 @@
+{
+    "id": "learn_motion",
+    "topicId": "motion",
+    "topicTitle": "Motion",
+    "description": "Dive into the fundamental concepts of kinematics, understanding speed, velocity, acceleration, and the equations that describe how things move.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "motion_1",
+            "type": "content",
+            "title": "Welcome to Motion",
+            "content": "# Everything Moves!\n\nIn our everyday life, we see some objects at rest and others in motion. Birds fly, fish swim, blood flows through veins, and cars move along roads. Even the Earth rotates on its axis and revolves around the Sun!\n\n## What is Motion?\nAn object is said to be in motion when its position changes continuously with respect to a stationary object taken as a reference point.\n\n## What You Will Learn:\n- **Distance vs. Displacement:** They sound similar but are very different.\n- **Uniform and Non-uniform Motion:** How speed changes over time.\n- **Acceleration:** Speeding up and slowing down.\n- **Equations of Motion:** The mathematical formulas that predict movement.\n- **Graphical Representation:** Drawing motion on a graph."
+        },
+        {
+            "id": "motion_2",
+            "type": "content",
+            "title": "Reference Point",
+            "content": "# The Starting Line\n\nTo describe the position of an object, we always need to specify a reference point.\n\n## The Origin:\nLet us assume that a school in a village is 2 km north of the railway station. We have specified the position of the school with respect to the railway station. \n- In this example, the railway station is the **reference point**.\n- We could have also chosen other reference points according to our convenience.\n\n> **Definition:** The reference point used to describe the location or position of an object is called the **origin**."
+        },
+        {
+            "id": "motion_3",
+            "type": "content",
+            "title": "Distance and Displacement",
+            "content": "# Two Ways to Measure Journey\n\nWhen an object moves from Point A to Point B, we can measure its journey in two ways.\n\n## 1. Distance (The Actual Path)\n- **Distance** is the total length of the path actually traveled by an object, irrespective of the direction.\n- If you walk 3 km East and then 4 km North, the total distance traveled is 7 km.\n\n## 2. Displacement (The Shortcut)\n- **Displacement** is the shortest distance measured from the initial position to the final position of the object, along with its direction.\n- In the example above, the displacement is a straight line from the start to the end (5 km North-East, using the Pythagorean theorem).\n\n> **Key Difference:** Distance only has magnitude (size), while Displacement has both magnitude AND direction."
+        },
+        {
+            "id": "motion_4",
+            "type": "content",
+            "title": "Zero Displacement",
+            "content": "# Can Displacement be Zero?\n\nYes, it can!\n\n## The Round Trip:\nImagine you start from your house (Point A), go to the market (Point B) which is 5 km away, and then return back to your house (Point A).\n\n- **Total Distance:** 5 km (going) + 5 km (returning) = 10 km.\n- **Total Displacement:** ZERO!\n\nWhy is displacement zero? Because your initial position and your final position are exactly the same. The shortest straight-line distance between the starting point and the end point is zero.\n\n> **Important Note:** The magnitude of displacement can never be greater than the distance traveled."
+        },
+        {
+            "id": "motion_quiz_1",
+            "type": "quiz",
+            "title": "Distance vs Displacement",
+            "content": "Check your understanding of the two measurements.",
+            "quizQuestion": "An athlete completes one round of a circular track with a radius of 50m. What is his displacement at the end of the round?",
+            "quizOptions": [
+                "50 m",
+                "100 m",
+                "314 m",
+                "0 m"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "motion_5",
+            "type": "content",
+            "title": "Uniform and Non-uniform Motion",
+            "content": "# Pacing the Journey\n\nObjects don't always move at a steady pace.\n\n## Uniform Motion:\nAn object is said to be in uniform motion if it covers **equal distances in equal intervals of time**, however small these time intervals may be.\n- *Example:* A car cruising on a straight empty highway at exactly 60 km/h for an hour.\n\n## Non-uniform Motion:\nAn object is said to be in non-uniform motion if it covers **unequal distances in equal intervals of time**.\n- *Example:* A car moving on a crowded city road. It speeds up when the road is clear, slows down for traffic, and stops at red lights."
+        },
+        {
+            "id": "motion_6",
+            "type": "content",
+            "title": "Speed",
+            "content": "# Measuring the Rate of Motion\n\nHow fast is an object moving?\n\n## Speed:\nSpeed is defined as the distance traveled by an object per unit time.\n\n```\nSpeed = Distance / Time\nv = s / t\n```\n\n## Units of Speed:\n- The SI unit of speed is **meter per second (m/s)**.\n- For vehicles, we commonly use **kilometer per hour (km/h)**.\n\n## Average Speed:\nSince most objects undergo non-uniform motion, we usually describe their rate of motion in terms of average speed.\n```\nAverage Speed = Total Distance / Total Time\n```"
+        },
+        {
+            "id": "motion_7",
+            "type": "content",
+            "title": "Velocity",
+            "content": "# Speed with Direction\n\nSpeed tells us how fast an object is moving, but it doesn't tell us where it is going.\n\n## What is Velocity?\n**Velocity** is the speed of an object moving in a definite direction.\n- Just like displacement is distance with direction, velocity is speed with direction.\n- Velocity is calculated by dividing the displacement by the time taken.\n\n```\nVelocity = Displacement / Time\n```\n\n## Changing Velocity:\nThe velocity of an object can be changed by:\n1. Changing the object's speed.\n2. Changing the object's direction of motion.\n3. Changing both speed and direction."
+        },
+        {
+            "id": "motion_quiz_2",
+            "type": "quiz",
+            "title": "Speed and Velocity Quiz",
+            "content": "Make sure you know the difference!",
+            "quizQuestion": "If a car is moving at a constant speed of 50 km/h on a circular track, is its velocity constant?",
+            "quizOptions": [
+                "Yes, because the speed is constant",
+                "No, because its direction is constantly changing",
+                "Yes, because the track is a perfect circle",
+                "No, because the distance is increasing"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "motion_8",
+            "type": "content",
+            "title": "Acceleration",
+            "content": "# Speeding Up and Slowing Down\n\nWhen you press the gas pedal or hit the brakes in a car, you are experiencing acceleration.\n\n## What is Acceleration?\n**Acceleration** is the measure of the change in velocity of an object per unit time.\n\n```\nAcceleration (a) = Change in Velocity / Time taken\na = (v - u) / t\n```\nWhere:\n- **v** = final velocity\n- **u** = initial velocity\n- **t** = time\n\n## Units:\nThe SI unit of acceleration is **meters per second squared (m/s^2)**."
+        },
+        {
+            "id": "motion_9",
+            "type": "content",
+            "title": "Types of Acceleration",
+            "content": "# Positive and Negative Acceleration\n\nAcceleration can work in two ways.\n\n## Positive Acceleration:\nIf the velocity of an object increases with time, the acceleration is positive.\n- *Example:* A car starting from rest and speeding up to 60 km/h.\n- The acceleration is in the direction of velocity.\n\n## Negative Acceleration (Retardation / Deceleration):\nIf the velocity of an object decreases with time, the acceleration is negative.\n- *Example:* A moving car applying brakes and coming to a stop.\n- The acceleration is opposite to the direction of velocity."
+        },
+        {
+            "id": "motion_10",
+            "type": "content",
+            "title": "Graphical Representation: Distance-Time",
+            "content": "# Drawing Motion on a Graph\n\nGraphs provide a convenient method to present basic information about a variety of events.\n\n## Distance-Time Graphs:\nWe plot Time on the x-axis and Distance on the y-axis.\n\n1. **Uniform Motion:** If an object travels equal distances in equal time intervals, the distance-time graph is a **straight line** sloping upwards.\n2. **Object at Rest:** If the object is not moving, the distance remains constant as time passes. The graph is a **straight horizontal line** parallel to the time axis.\n3. **Non-uniform Motion:** If the speed is changing, the graph will be a **curved line**."
+        },
+        {
+            "id": "motion_11",
+            "type": "content",
+            "title": "Graphical Representation: Velocity-Time",
+            "content": "# Velocity-Time Graphs\n\nThe variation in velocity with time for an object moving in a straight line can be represented by a velocity-time graph.\n\n## Interpreting the Graph:\nWe plot Time on the x-axis and Velocity on the y-axis.\n\n1. **Uniform Velocity:** If the object moves at a constant velocity, the graph will be a straight horizontal line parallel to the time axis.\n2. **Uniform Acceleration:** If velocity increases at a constant rate, the graph is a straight line sloping upwards.\n3. **Uniform Retardation:** If velocity decreases at a constant rate, the graph is a straight line sloping downwards.\n\n> **Super Important Fact:** The area enclosed under the velocity-time graph gives the **displacement** (distance traveled) by the object!"
+        },
+        {
+            "id": "motion_quiz_3",
+            "type": "quiz",
+            "title": "Graphs Quiz",
+            "content": "Let's see if you can visualize the graphs.",
+            "quizQuestion": "In a distance-time graph, what does a straight horizontal line parallel to the time axis indicate?",
+            "quizOptions": [
+                "The object is moving at a constant speed",
+                "The object is accelerating",
+                "The object is at rest (stationary)",
+                "The object is moving backwards"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "motion_12",
+            "type": "content",
+            "title": "Equations of Motion",
+            "content": "# The Three Famous Equations\n\nWhen an object moves along a straight line with uniform acceleration, it is possible to relate its velocity, acceleration during motion, and the distance covered by it in a certain time interval by a set of equations.\n\nThese are known as the **Equations of Motion**.\n\nLet:\n- **u** = initial velocity\n- **v** = final velocity\n- **a** = uniform acceleration\n- **t** = time taken\n- **s** = distance (displacement) traveled"
+        },
+        {
+            "id": "motion_13",
+            "type": "content",
+            "title": "The First Equation of Motion",
+            "content": "# Equation for Velocity-Time Relation\n\nThe first equation of motion gives the velocity acquired by a body in time 't'.\n\n## The Equation:\n```\nv = u + at\n```\n\n## How to use it:\nIf you know the initial velocity of a car, its acceleration, and how long it has been accelerating, you can use this equation to find its exact final velocity.\n\n*Example:* A car starts from rest (u = 0) and accelerates at 2 m/s^2 for 5 seconds (t = 5). \nFinal velocity (v) = 0 + (2 x 5) = 10 m/s."
+        },
+        {
+            "id": "motion_14",
+            "type": "content",
+            "title": "The Second Equation of Motion",
+            "content": "# Equation for Position-Time Relation\n\nThe second equation of motion gives the distance traveled by a body in time 't'.\n\n## The Equation:\n```\ns = ut + (1/2)at^2\n```\n\n## How to use it:\nIf you know how fast a car started, how much it is accelerating, and how long it traveled, you can calculate exactly how far it went.\n\n*Note:* If an object starts from rest, then u = 0, and the equation simplifies to: s = (1/2)at^2."
+        },
+        {
+            "id": "motion_15",
+            "type": "content",
+            "title": "The Third Equation of Motion",
+            "content": "# Equation for Position-Velocity Relation\n\nThe third equation of motion gives the velocity acquired by a body in traveling a distance 's'. This equation is incredibly useful when you **do not know the time**.\n\n## The Equation:\n```\nv^2 = u^2 + 2as\n```\n\n## How to use it:\nIf a car is traveling at 20 m/s (u) and applies brakes causing a deceleration of -5 m/s^2 (a) until it stops (v=0), you can use this equation to find the stopping distance (s) without needing to know how many seconds it took to stop!"
+        },
+        {
+            "id": "motion_16",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Distance:** The total path length covered by an object.\n- **Displacement:** The shortest straight-line distance from initial to final position.\n- **Uniform Motion:** Covering equal distances in equal time intervals.\n- **Speed:** Distance traveled per unit time.\n- **Velocity:** Speed in a specific direction (Displacement / time).\n- **Acceleration:** The rate of change of velocity.\n- **Retardation:** Negative acceleration (slowing down)."
+        },
+        {
+            "id": "motion_17",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Motion\n\nExcellent work! Here is a recap of what we've learned:\n\n- **Motion** requires a reference point (origin).\n- **Distance** is scalar (magnitude only), while **Displacement** is vector (magnitude and direction).\n- **Speed** is the rate of distance, and **Velocity** is the rate of displacement.\n- **Acceleration** occurs when an object speeds up, slows down, or changes direction.\n- **Distance-Time graphs:** A straight diagonal line means uniform speed. A horizontal line means rest.\n- **Velocity-Time graphs:** A straight diagonal line means uniform acceleration. The area under the graph equals displacement.\n- The three **Equations of Motion** (v=u+at, s=ut+1/2at^2, v^2=u^2+2as) allow us to calculate exact values for uniformly accelerated motion."
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "id": "learn_reproduction",
+    "topicId": "reproduction",
+    "topicTitle": "Reproduction",
+    "description": "Understand the fascinating processes that allow plants and humans to create the next generation.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "repro_1",
+            "type": "content",
+            "title": "Welcome to Reproduction",
+            "content": "# Reproduction\n\nWelcome to Reproduction! This is the fundamental biological process by which new individual organisms (offspring) are produced from their parents.\n\n## What You Will Learn:\n- **Plant Reproduction** - Flowers, pollen, and seeds\n- **Human Reproductive System** - Anatomy and gametogenesis\n- **Embryonic Development** - From zygote to baby\n- **Reproductive Health** - Contraception and disease prevention\n\n> **Fun Fact:** The largest single cell in the human body is the female ovum (egg), while the smallest is the male sperm cell!"
+        },
+        {
+            "id": "repro_2",
+            "type": "content",
+            "title": "Asexual vs Sexual",
+            "content": "# Modes of Reproduction\n\n## 1. Asexual Reproduction:\n- Involves only a single parent.\n- No fusion of gametes.\n- Offspring are exact genetic clones of the parent.\n- Examples: Binary fission in Amoeba, Budding in Hydra, Vegetative propagation in plants (like growing a new potato from an 'eye').\n\n## 2. Sexual Reproduction:\n- Involves the formation and fusion of male and female gametes.\n- Offspring are genetically unique, possessing a mix of traits from both parents.\n- This genetic variation is crucial for evolution and survival in changing environments."
+        },
+        {
+            "id": "repro_3",
+            "type": "content",
+            "title": "Plant Reproduction: The Flower",
+            "content": "# Sexual Reproduction in Flowering Plants\n\nThe flower is the fascinating reproductive organ of angiosperms.\n\n## Male Parts (Stamen):\n- **Anther:** Produces pollen grains (which contain the male gametes).\n- **Filament:** The stalk supporting the anther.\n\n## Female Parts (Pistil/Carpel):\n- **Stigma:** The sticky landing pad for pollen.\n- **Style:** The tube connecting stigma to ovary.\n- **Ovary:** Contains the ovules (which contain the female egg).\n\nWhen a pollen grain lands on the stigma, it is called **Pollination** (can be facilitated by wind, water, bees, or birds)."
+        },
+        {
+            "id": "repro_4",
+            "type": "content",
+            "title": "Double Fertilization",
+            "content": "# Double Fertilization in Plants\n\nAngiosperms have a very unique fertilization process.\n\n## The Mechanism:\n1. A pollen grain on the stigma grows a pollen tube down the style into the ovule.\n2. It releases **TWO** male gametes into the embryo sac.\n3. **Syngamy:** One male gamete fuses with the egg cell to form a diploid zygote (which becomes the embryo).\n4. **Triple Fusion:** The second male gamete fuses with two polar nuclei in the center to form a triploid primary endosperm nucleus.\n\nBecause two fusions occur, it is called **Double Fertilization**! The endosperm will develop into a nutrient-rich food supply for the growing embryo (like the white part of popcorn)."
+        },
+        {
+            "id": "repro_5",
+            "type": "content",
+            "title": "Human Male Reproductive System",
+            "content": "# Human Male Anatomy\n\nThe male reproductive system is designed to produce and deliver sperm.\n\n## Key Organs:\n- **Testes:** The primary sex organs. Produce sperm and the hormone testosterone. They are located outside the abdominal cavity in the scrotum to maintain a lower temperature (crucial for sperm survival).\n- **Epididymis:** Where sperm mature and are stored.\n- **Vas Deferens:** The tube that carries sperm from the epididymis to the urethra.\n- **Accessory Glands:** Seminal vesicles, prostate gland, and bulbourethral gland secrete fluids that nourish and protect sperm, forming semen."
+        },
+        {
+            "id": "repro_quiz_1",
+            "type": "quiz",
+            "title": "Plant Repro Quiz",
+            "content": "Test your botany knowledge.",
+            "quizQuestion": "In flowering plants, the process where one male gamete fuses with the egg and another fuses with the polar nuclei is called:",
+            "quizOptions": [
+                "Pollination",
+                "Parthenogenesis",
+                "Double Fertilization",
+                "Vegetative Propagation"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "repro_6",
+            "type": "content",
+            "title": "Human Female Reproductive System",
+            "content": "# Human Female Anatomy\n\nThe female system is designed to produce eggs, receive sperm, and support a developing fetus.\n\n## Key Organs:\n- **Ovaries:** The primary sex organs. Produce eggs (ova) and the hormones estrogen and progesterone.\n- **Fallopian Tubes (Oviducts):** Catch the released egg. This is where **fertilization** usually occurs.\n- **Uterus (Womb):** A muscular organ where the fertilized egg implants and develops into a fetus. The inner lining is the endometrium.\n- **Cervix & Vagina:** The lower portion of the uterus and the birth canal."
+        },
+        {
+            "id": "repro_7",
+            "type": "content",
+            "title": "Gametogenesis",
+            "content": "# Creating Gametes\n\nGametogenesis is the process of forming mature sex cells via meiosis (halving the chromosome number).\n\n## 1. Spermatogenesis:\n- Occurs in the testes of males.\n- Begins at puberty and continues throughout life.\n- One primary spermatocyte divides to form **four** functional, motile sperm cells.\n\n## 2. Oogenesis:\n- Occurs in the ovaries of females.\n- Begins before the female is even born! The process pauses and resumes at puberty during each menstrual cycle.\n- One primary oocyte divides unequally to form only **one** large, functional ovum and tiny non-functional polar bodies."
+        },
+        {
+            "id": "repro_8",
+            "type": "content",
+            "title": "The Menstrual Cycle",
+            "content": "# The Menstrual Cycle\n\nThis is the roughly 28-day cycle in females preparing the body for a potential pregnancy.\n\n## Key Phases:\n1. **Menstrual Phase (Days 1-5):** The shedding of the uterine lining (endometrium) if no pregnancy occurred.\n2. **Follicular Phase (Days 6-13):** A follicle in the ovary matures, and estrogen levels rise, rebuilding the uterine lining.\n3. **Ovulation (Day 14):** A surge in Luteinizing Hormone (LH) causes the ovary to release the mature egg.\n4. **Luteal Phase (Days 15-28):** The empty follicle becomes the corpus luteum, secreting progesterone to maintain the thick uterine lining in case of implantation."
+        },
+        {
+            "id": "repro_9",
+            "type": "content",
+            "title": "Fertilization and Implantation",
+            "content": "# The Journey to Pregnancy\n\n## Fertilization:\n- Sperm travel through the uterus into the Fallopian tubes.\n- If they meet an egg, one sperm penetrates the egg's protective layer.\n- Their nuclei fuse, creating a diploid single cell called a **Zygote**.\n\n## Early Development:\n- The zygote immediately begins dividing (cleavage) as it travels down the tube.\n- It forms a solid ball of cells (morula), then a hollow ball (blastocyst).\n\n## Implantation:\n- About a week after fertilization, the blastocyst burrows into the nutrient-rich endometrium of the uterus. Pregnancy has officially begun!"
+        },
+        {
+            "id": "repro_10",
+            "type": "content",
+            "title": "Embryonic Development",
+            "content": "# From Embryo to Fetus\n\nAfter implantation, incredible changes happen rapidly.\n\n## Placenta Formation:\nAn organ called the placenta develops, interlocking maternal and embryonic tissues. It provides oxygen and nutrients to the embryo and removes waste, acting via the umbilical cord.\n\n## Milestones (Gestation is ~9 months):\n- **First Trimester:** Most critical period. Heart begins to beat, all major organ systems form. It is now called a fetus.\n- **Second Trimester:** Fetus grows rapidly, movements can be felt, hair forms.\n- **Third Trimester:** Rapid weight gain, lungs mature, preparing for birth (parturition)."
+        },
+        {
+            "id": "repro_quiz_2",
+            "type": "quiz",
+            "title": "Human Repro Quiz",
+            "content": "Test your anatomy knowledge.",
+            "quizQuestion": "In the human female reproductive system, fertilization of the egg by a sperm normally occurs in the:",
+            "quizOptions": [
+                "Ovary",
+                "Uterus",
+                "Fallopian Tube",
+                "Cervix"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "repro_11",
+            "type": "content",
+            "title": "Reproductive Health",
+            "content": "# Reproductive Health\n\nAccording to the WHO, reproductive health means a total well-being in all aspects of reproduction (physical, emotional, behavioral, and social).\n\n## Population Explosion:\nRapid decline in death rates and maternal/infant mortality has led to massive population growth. Education and birth control are crucial to manage this.\n\n## Amniocentesis:\n- A medical procedure used to test amniotic fluid for genetic abnormalities in the fetus.\n- Unfortunately, it is sometimes misused for illegal sex determination, leading to female feticide."
+        },
+        {
+            "id": "repro_12",
+            "type": "content",
+            "title": "Contraception",
+            "content": "# Birth Control Methods\n\nMethods to prevent unwanted pregnancies.\n\n## 1. Natural/Traditional:\n- Periodic abstinence (avoiding sex during the fertile window around ovulation).\n\n## 2. Barrier Methods:\n- Condoms (male and female), diaphragms. They physically prevent sperm from meeting the egg. (Condoms also protect against STIs!).\n\n## 3. IUDs (Intrauterine Devices):\n- Small devices inserted by doctors into the uterus (e.g., Copper-T). They prevent implantation or kill sperm.\n\n## 4. Oral Contraceptives (The Pill):\n- Hormonal tablets (estrogen/progesterone) that inhibit ovulation.\n\n## 5. Surgical Methods:\n- Permanent sterilization: Tubal ligation in females (cutting fallopian tubes) or Vasectomy in males (cutting vas deferens)."
+        },
+        {
+            "id": "repro_13",
+            "type": "content",
+            "title": "STIs and Infertility",
+            "content": "# Diseases and Infertility\n\n## Sexually Transmitted Infections (STIs):\n- Diseases transmitted through sexual contact.\n- Examples: Gonorrhea, Syphilis, Genital Herpes, Chlamydia, Hepatitis-B, and HIV/AIDS.\n- Prevention: Use of condoms, avoiding unknown partners, and early medical treatment.\n\n## Infertility:\n- The inability to produce children despite unprotected sexual cohabitation.\n- Can be due to physical, congenital, immunological, or psychological reasons in either male or female.\n\n## ART (Assisted Reproductive Technologies):\n- **IVF (In Vitro Fertilization):** 'Test-tube baby'. Fertilization happens in a lab dish, and the embryo is transferred to the uterus.\n- **Surrogacy:** Another woman carries the pregnancy for the biological parents."
+        },
+        {
+            "id": "repro_14",
+            "type": "content",
+            "title": "Summary: Reproduction",
+            "content": "# Reproduction Summary\n\n## Key Concepts Reviewed:\n\n- **Plants:** Flowers are reproductive organs. Angiosperms use double fertilization (forming a zygote and endosperm).\n- **Male System:** Testes produce sperm continuously after puberty. Scrotum keeps them cool.\n- **Female System:** Ovaries release one egg per month. Fallopian tubes are the site of fertilization.\n- **Menstrual Cycle:** Prepares uterus for pregnancy; ovulation triggered by LH surge.\n- **Development:** Zygote -> Blastocyst -> Implantation -> Embryo -> Fetus. Placenta provides nutrients.\n- **Contraception:** Barrier (condoms), Hormonal (pills), IUDs, Surgical (vasectomy/tubal ligation).\n- **ART:** Technologies like IVF help treat infertility.\n\n> **Congratulations!** You have completed the Reproduction module."
+        }
+    ]
+}

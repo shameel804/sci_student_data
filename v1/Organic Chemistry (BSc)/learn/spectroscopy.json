@@ -1,0 +1,139 @@
+{
+    "id": "learn_spectroscopy",
+    "topicId": "spectroscopy",
+    "topicTitle": "Organic Spectroscopy",
+    "description": "Master the analytical techniques used to determine the exact structure of organic molecules, including IR, NMR, and Mass Spectrometry.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "spec_1",
+            "type": "content",
+            "title": "Introduction to Spectroscopy",
+            "content": "# Solving the Molecular Puzzle\n\nWhen a chemist synthesizes a new molecule in the lab, it usually looks like a pile of white powder or a vial of clear liquid. \n\nHow do they prove they actually made the complex 3D structure they intended?\n\nThey cannot use a microscope (molecules are too small). Instead, they use **Spectroscopy**.\n\n## The Concept\nSpectroscopy involves hitting the sample with different frequencies of the electromagnetic spectrum (light, radio waves, x-rays) and recording exactly how the molecule absorbs, emits, or interacts with that energy. The resulting graph (a spectrum) acts as a unique \"fingerprint\" for the molecule."
+        },
+        {
+            "id": "spec_2",
+            "type": "content",
+            "title": "The Electromagnetic Spectrum",
+            "content": "# The Tools of the Trade\n\nDifferent wavelengths of energy provide completely different types of information about the molecule.\n\n1. **Radio Waves (NMR):** Very low energy. Causes the nuclei of atoms to flip their magnetic spins. Tells us the carbon skeleton and hydrogen arrangement.\n2. **Microwaves:** Causes the entire molecule to rotate.\n3. **Infrared (IR):** Moderate energy. Causes chemical bonds to stretch and bend. Tells us what functional groups are present.\n4. **Visible/Ultraviolet (UV-Vis):** High energy. Excites electrons to higher orbitals. Tells us about conjugated pi bonds (alternating double bonds).\n5. **X-Rays:** Extremely high energy. Used to determine the exact 3D crystal structure of solid molecules."
+        },
+        {
+            "id": "spec_3",
+            "type": "content",
+            "title": "Infrared (IR) Spectroscopy",
+            "content": "# IR Spectroscopy: Finding Functional Groups\n\nChemical bonds are not rigid sticks; they are more like flexible springs connecting atoms. These springs are constantly vibrating.\n\n## How it Works\nIf you shine Infrared (IR) light on a molecule, a bond will absorb the light ONLY if the frequency of the light perfectly matches the natural vibrating frequency of that specific bond.\n\n- **Heavy atoms** vibrate slower (lower frequency).\n- **Stronger bonds** (like triple bonds) are stiffer springs and vibrate faster (higher frequency).\n\nBy seeing which frequencies are absorbed, we know exactly what types of \"springs\" (bonds) are in the molecule."
+        },
+        {
+            "id": "spec_4",
+            "type": "content",
+            "title": "Reading an IR Spectrum",
+            "content": "# The IR Spectrum\n\nAn IR spectrum plots % Transmittance (how much light got through) vs. Wavenumber (frequency).\n\nDownward spikes (peaks) represent absorption.\n\n## Key Functional Group Regions:\n- **3200-3600 cm-1:** A massive, broad, U-shaped peak here is the unmistakable signature of an Alcohol (-OH) group.\n- **1700 cm-1:** A very sharp, strong, dagger-like peak here indicates a Carbonyl group (C=O, found in ketones, aldehydes, esters).\n- **2100-2200 cm-1:** A sharp peak here indicates a triple bond (C-C or C-N).\n- **2800-3000 cm-1:** The messy \"teeth\" in this area are standard C-H bonds found in almost all organic molecules."
+        },
+        {
+            "id": "spec_5",
+            "type": "content",
+            "title": "Nuclear Magnetic Resonance (NMR)",
+            "content": "# NMR Spectroscopy: The Ultimate Tool\n\n**NMR** is arguably the most powerful tool in organic chemistry. It works on the exact same physical principles as an MRI machine in a hospital.\n\n## The Physics\nCertain atomic nuclei (like 1H and 13C) have an intrinsic magnetic \"spin.\" Normally, these tiny magnets point randomly.\n\nWhen placed inside a massive super-magnet, they align with the magnetic field. \n\nIf we hit them with a specific frequency of **Radio Waves**, they absorb the energy and \"flip\" their spin against the field. When they relax back, they emit a signal we can record."
+        },
+        {
+            "id": "spec_6",
+            "type": "content",
+            "title": "Proton (1H) NMR",
+            "content": "# 1H NMR: Mapping the Hydrogens\n\nProton NMR looks specifically at Hydrogen atoms. It tells us four critical pieces of information:\n\n1. **Number of Signals:** How many different *types* of environments hydrogens are living in.\n2. **Chemical Shift (Position):** What types of chemical groups are near those hydrogens.\n3. **Integration (Area under peak):** Exactly how many hydrogens of that type exist in the molecule.\n4. **Splitting (Coupling):** How many neighboring hydrogens are right next door.\n\nBy putting these four clues together, you can draw the entire carbon-hydrogen skeleton of the molecule."
+        },
+        {
+            "id": "spec_7",
+            "type": "content",
+            "title": "Chemical Equivalence",
+            "content": "# Number of Signals: Equivalence\n\nHydrogens that are in the exact same electronic environment will absorb the exact same radio frequency. They are **chemically equivalent** and will produce only ONE signal on the graph.\n\n## Examples:\n- **Methane (CH4):** All 4 hydrogens are identical. The NMR will show exactly 1 peak.\n- **Ethane (CH3-CH3):** Due to symmetry, all 6 hydrogens are identical. 1 peak.\n- **Ethanol (CH3-CH2-OH):** There are three distinct environments: the CH3 group, the CH2 group, and the OH group. The NMR will show 3 distinct peaks."
+        },
+        {
+            "id": "spec_8",
+            "type": "content",
+            "title": "Chemical Shift",
+            "content": "# Chemical Shift (The X-Axis)\n\nWhy do different hydrogens absorb different frequencies? **Shielding**.\n\nElectrons are moving charges, so they create their own tiny magnetic fields. These fields \"shield\" the nucleus from the giant machine magnet.\n\n- **Highly Shielded:** Hydrogens with lots of electrons around them (like in a CH3 group). They feel less of the main magnet, so they absorb lower frequencies (appear on the FAR RIGHT of the graph, near 1 ppm).\n- **Deshielded:** If a hydrogen is next to an electronegative atom (like Oxygen), the Oxygen steals the electrons, leaving the hydrogen naked and exposed to the magnet. It absorbs a higher frequency (appears on the LEFT, near 4-10 ppm)."
+        },
+        {
+            "id": "spec_9",
+            "type": "content",
+            "title": "Integration",
+            "content": "# Integration: Counting Hydrogens\n\nThe area under an NMR peak (the integration) is perfectly proportional to the number of hydrogens causing that signal.\n\nIf you have a molecule of ethanol (CH3-CH2-OH):\n- The peak for the CH3 group will have an area of 3.\n- The peak for the CH2 group will have an area of 2.\n- The peak for the OH group will have an area of 1.\n\nModern NMR software automatically calculates this area and draws a stepped line over the peaks, giving the chemist a direct ratio of the hydrogens present."
+        },
+        {
+            "id": "spec_10",
+            "type": "content",
+            "title": "Spin-Spin Splitting",
+            "content": "# Splitting: Meeting the Neighbors\n\nThe most complex but most useful part of NMR is **Splitting** (or Coupling).\n\nA peak is often not a single line; it gets split into a cluster of smaller peaks (a doublet, triplet, quartet, etc.).\n\n## The N+1 Rule\nThis happens because the magnetic spin of *neighboring* hydrogens interferes with the signal. \n\n**A hydrogen's signal will be split into (N + 1) peaks, where N is the number of hydrogens on adjacent carbons.**\n- 0 neighbors -> 1 peak (Singlet)\n- 1 neighbor -> 2 peaks (Doublet)\n- 2 neighbors -> 3 peaks (Triplet)\n- 3 neighbors -> 4 peaks (Quartet)"
+        },
+        {
+            "id": "spec_11",
+            "type": "content",
+            "title": "Carbon-13 (13C) NMR",
+            "content": "# 13C NMR: Mapping the Carbons\n\nWhile 1H NMR maps the hydrogens, 13C NMR directly maps the carbon skeleton.\n\n## Differences from Proton NMR:\n1. **Low Abundance:** Only 1% of carbon in nature is the magnetic 13C isotope (99% is non-magnetic 12C). This makes the signal very weak, requiring more sample and more time.\n2. **No Splitting:** Because 13C is so rare, the chance of two 13C atoms being next to each other is almost zero. Therefore, we do not see complex splitting patterns. Every unique carbon just appears as a single, sharp vertical line.\n3. **Wide Range:** The chemical shift scale is huge (0 to 220 ppm), making it very easy to see distinct types of carbons (e.g., carbonyl carbons always appear past 160 ppm)."
+        },
+        {
+            "id": "spec_12",
+            "type": "content",
+            "title": "Mass Spectrometry (MS)",
+            "content": "# Mass Spectrometry\n\nUnlike IR or NMR, Mass Spectrometry does NOT use electromagnetic radiation. It is a technique used to measure the exact **mass** (molecular weight) of the molecule and its fragments.\n\n## How it Works:\n1. **Ionization:** The sample is bombarded with high-energy electrons. This knocks an electron out of the molecule, turning it into a positively charged radical ion.\n2. **Fragmentation:** The impact is so violent that the molecule shatters into smaller pieces.\n3. **Separation:** The charged pieces are shot through a magnetic field. Lighter pieces bend easily; heavier pieces are harder to bend. \n4. **Detection:** A detector records the mass-to-charge ratio (m/z) of every fragment that hits it."
+        },
+        {
+            "id": "spec_13",
+            "type": "content",
+            "title": "Reading a Mass Spectrum",
+            "content": "# Analyzing the MS Graph\n\nA Mass Spectrum is a bar graph showing the mass of the fragments (x-axis) and their relative abundance (y-axis).\n\n## The Molecular Ion Peak (M+)\nUsually the peak furthest to the right. This represents the intact molecule that just lost one electron but didn't shatter. **This peak tells you the exact Molecular Weight of your unknown compound.**\n\n## The Base Peak\nThe tallest peak on the graph (assigned 100% abundance). It represents the most stable and common fragment the molecule broke into.\n\n## Isotopes\nMS is sensitive enough to see natural isotopes. Molecules with Chlorine will always show a characteristic M+ and an (M+2) peak in a 3:1 ratio because Chlorine exists as Cl-35 (75%) and Cl-37 (25%)."
+        },
+        {
+            "id": "spec_14",
+            "type": "content",
+            "title": "UV-Vis Spectroscopy",
+            "content": "# UV-Vis: Electronic Transitions\n\nUltraviolet-Visible spectroscopy uses high-energy light that promotes electrons from bonding orbitals into higher-energy empty antibonding orbitals.\n\n## Conjugation\nMost single bonds require extreme UV energy to excite. However, if a molecule has **Conjugation** (alternating single and double bonds, like in a benzene ring), the energy gap shrinks dramatically.\n\nThe longer the chain of alternating double bonds, the less energy is required. Eventually, the energy required drops into the Visible Light spectrum.\n\n> This is why heavily conjugated organic molecules (like beta-carotene in carrots, or chlorophyll in leaves) are brightly colored!"
+        },
+        {
+            "id": "spec_15",
+            "type": "content",
+            "title": "Putting it all together",
+            "content": "# The Holistic Approach\n\nIn reality, a chemist never relies on just one technique. They use all of them together to solve the structure of a complete unknown.\n\n1. **Mass Spec:** Tells you the exact molecular weight and potential chemical formula.\n2. **IR Spec:** Acts as a quick screener. Tells you immediately if you have an OH group, a carbonyl, or a triple bond.\n3. **13C NMR:** Tells you exactly how many unique carbons you have.\n4. **1H NMR:** The final puzzle solver. Tells you exactly how the hydrogens are attached to the carbon skeleton and to each other.\n\nSolving a structure from these four spectra is a classic logic puzzle taught to all organic chemistry students!"
+        },
+        {
+            "id": "spec_16",
+            "type": "content",
+            "title": "Modern Applications",
+            "content": "# Real-World Impact of Spectroscopy\n\nThese techniques are not just for basic research.\n\n- **Forensics:** Mass spectrometry is routinely used to identify trace amounts of explosives at airports or illegal drugs in crime labs.\n- **Medicine:** MRI (Magnetic Resonance Imaging) is literally a giant NMR machine calibrated to look at the hydrogen atoms in the water and fat inside your body, providing non-invasive 3D images of internal organs.\n- **Environmental:** IR spectroscopy is used in satellites to monitor greenhouse gases in the atmosphere."
+        },
+        {
+            "id": "spec_17",
+            "type": "content",
+            "title": "Summary of Spectroscopy",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **IR Spectroscopy:** Uses infrared light to vibrate bonds. Excellent for identifying specific functional groups (like OH or C=O).\n2. **NMR Spectroscopy:** Uses radio waves and a strong magnet to flip nuclear spins. Provides a detailed map of the carbon-hydrogen framework based on chemical shifts, integration, and splitting.\n3. **Mass Spectrometry:** Shits the molecule to measure the exact mass of the intact molecule and its fragments.\n4. **UV-Vis:** Measures electronic transitions, highly useful for studying conjugated double bonds and colored compounds.\n5. **Structure Determination:** The most reliable way to prove a chemical structure is by combining data from all these spectroscopic methods."
+        },
+        {
+            "id": "spec_quiz_1",
+            "type": "quiz",
+            "title": "IR Spectroscopy Quiz",
+            "content": "Test your knowledge of IR peaks.",
+            "quizQuestion": "In an IR spectrum, a very sharp and strong peak located around 1700 cm-1 is strongly indicative of which functional group?",
+            "quizOptions": [
+                "An Alcohol (-OH)",
+                "A Carbonyl (C=O)",
+                "A Carbon-Carbon Triple Bond",
+                "An Alkane Carbon-Hydrogen bond"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "spec_quiz_2",
+            "type": "quiz",
+            "title": "NMR Splitting Quiz",
+            "content": "Review the N+1 rule in NMR.",
+            "quizQuestion": "In a 1H NMR spectrum, a hydrogen atom that is adjacent to a carbon with exactly 2 hydrogens on it will have its signal split into a:",
+            "quizOptions": [
+                "Singlet (1 peak)",
+                "Doublet (2 peaks)",
+                "Triplet (3 peaks)",
+                "Quartet (4 peaks)"
+            ],
+            "correctOptionIndex": 2
+        }
+    ]
+}

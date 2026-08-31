@@ -1,0 +1,129 @@
+{
+    "id": "learn_molbio_translation",
+    "topicId": "translation",
+    "topicTitle": "Translation",
+    "description": "Discover how the ribosome decodes messenger RNA to synthesize proteins, and how those proteins are modified to become fully functional.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "molbio_transl_1",
+            "type": "content",
+            "title": "Welcome to Translation",
+            "content": "# Introduction to Translation\n\nWe have our processed mRNA message, and it has safely arrived in the cytoplasm. Now, the cell must change languages: from the language of nucleic acids (RNA) to the language of amino acids (proteins).\n\nThis process is called **Translation**.\n\n## What You Will Learn:\n- **The Genetic Code** - How RNA bases spell out amino acids\n- **Ribosome Structure** - The protein factory of the cell\n- **Protein Synthesis** - The step-by-step assembly of a polypeptide\n- **Post-Translational Modifications** - The final touches that make a protein functional\n\nLet's crack the code of life!"
+        },
+        {
+            "id": "molbio_transl_2",
+            "type": "content",
+            "title": "The Genetic Code",
+            "content": "# The Genetic Code\n\nThere are 4 different RNA bases (A, U, C, G), but there are 20 different amino acids that make up proteins. \n\nIf one base coded for one amino acid, we could only make 4. If two bases coded for one amino acid, we could make 16 (4x4). \n\n## The Triplet Code (Codons)\nNature uses a **triplet code**. RNA bases are read in non-overlapping groups of three, called **Codons**.\n- 4x4x4 = 64 possible codons.\n- This is more than enough to cover all 20 amino acids!\n\n## Properties of the Code:\n1. **Redundant:** Most amino acids are coded by MORE THAN ONE codon (e.g., UUU and UUC both code for Phenylalanine).\n2. **Unambiguous:** A specific codon ONLY EVER codes for one specific amino acid.\n3. **Universal:** With very few exceptions, all life on Earth uses the exact same genetic code. A human ribosome can perfectly read bacterial mRNA!"
+        },
+        {
+            "id": "molbio_transl_3",
+            "type": "content",
+            "title": "Start and Stop",
+            "content": "# Start and Stop Signals\n\nJust like sentences have capital letters and periods, the mRNA message has specific codons for starting and stopping.\n\n## The Start Codon\nThere is only one start codon: **AUG**.\n- AUG codes for the amino acid **Methionine**.\n- Therefore, almost every single protein built in a cell begins with Methionine!\n- The start codon establishes the \"reading frame\" (where the groups of three begin).\n\n## The Stop Codons\nThere are three stop codons: **UAA, UAG, and UGA**.\n- These codons do NOT code for any amino acid.\n- When the ribosome reaches one of these, it acts as a signal to terminate translation and release the finished protein.\n\n> **Memory Trick:** UAA (U Are Away), UAG (U Are Gone), UGA (U Go Away)."
+        },
+        {
+            "id": "molbio_transl_4",
+            "type": "content",
+            "title": "tRNA: The Translator",
+            "content": "# Transfer RNA (tRNA)\n\nHow does an mRNA codon physically connect to an amino acid? Through a specialized adapter molecule called **tRNA**.\n\n## Structure of tRNA\ntRNA is a single strand of RNA folded into a complex 3D shape (often drawn as a cloverleaf).\n\nIt has two crucial regions at opposite ends:\n\n1. **The Amino Acid Attachment Site:** At the 3' end, a specific enzyme covalently attaches the correct amino acid.\n2. **The Anticodon:** A loop at the bottom containing 3 RNA bases. This anticodon is perfectly complementary to an mRNA codon.\n\n## How it Works\nIf the mRNA codon is `AUG`, the tRNA with the anticodon `UAC` will bind to it via hydrogen bonds. That specific tRNA will always be carrying the amino acid Methionine!"
+        },
+        {
+            "id": "molbio_transl_quiz_1",
+            "type": "quiz",
+            "title": "Genetic Code Quiz",
+            "content": "Check your understanding of codons.",
+            "quizQuestion": "Which of the following is true regarding the Genetic Code?",
+            "quizOptions": [
+                "Each codon can code for multiple different amino acids",
+                "The genetic code is entirely different in plants compared to animals",
+                "Multiple different codons can code for the same amino acid",
+                "There are exactly 20 possible codons, one for each amino acid"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "molbio_transl_5",
+            "type": "content",
+            "title": "Ribosome Structure",
+            "content": "# The Ribosome\n\nThe **Ribosome** is the massive molecular machine that facilitates translation. It is made of ribosomal RNA (rRNA) and proteins.\n\n## The Two Subunits\nThe ribosome exists in two separate pieces that only come together when translation begins:\n- **Small Subunit:** Binds to the mRNA and holds it in place.\n- **Large Subunit:** Contains the catalytic activity (the ability to form chemical bonds between amino acids).\n\n## The Three tRNA Binding Sites (EPA)\nThe large subunit has three \"slots\" where tRNAs fit perfectly:\n1. **A Site (Aminoacyl):** Holds the tRNA carrying the NEXT amino acid to be added.\n2. **P Site (Peptidyl):** Holds the tRNA carrying the growing polypeptide chain.\n3. **E Site (Exit):** The slot where empty tRNAs leave the ribosome to go get recharged."
+        },
+        {
+            "id": "molbio_transl_6",
+            "type": "content",
+            "title": "Initiation",
+            "content": "# Step 1: Initiation\n\nHow does the process start?\n\n1. The **small ribosomal subunit** binds to the 5' cap of the mRNA and slides along until it finds the start codon (AUG).\n2. The **initiator tRNA** (carrying Methionine) binds to the AUG codon. Its anticodon (UAC) locks in via hydrogen bonds.\n3. The **large ribosomal subunit** finally arrives and clamps down on top, completing the Initiation Complex.\n\n## Crucial Detail:\nThe large subunit clamps down such that the initiator tRNA is sitting perfectly in the **P Site**. \nThe A site is empty and ready for the next tRNA to arrive!"
+        },
+        {
+            "id": "molbio_transl_7",
+            "type": "content",
+            "title": "Elongation",
+            "content": "# Step 2: Elongation\n\nNow the factory gets to work. This happens in a repeating three-step cycle:\n\n1. **Codon Recognition:** A new tRNA carrying an amino acid floats into the empty **A Site**. If its anticodon matches the mRNA codon, it stays.\n2. **Peptide Bond Formation:** The ribosome acts as a catalyst. It breaks the bond holding the polypeptide chain to the tRNA in the P site, and transfers the entire chain onto the new amino acid in the A site, forming a new **peptide bond**.\n3. **Translocation:** The ribosome ratchets forward exactly one codon (3 bases) along the mRNA.\n\n## The Shift\n- The empty tRNA that was in the P site moves to the E site and exits.\n- The tRNA carrying the growing chain moves from the A site to the P site.\n- The A site is now empty and ready for the next tRNA. Repeat!"
+        },
+        {
+            "id": "molbio_transl_8",
+            "type": "content",
+            "title": "Termination",
+            "content": "# Step 3: Termination\n\nTranslation continues until the ribosome reaches a **stop codon** (UAA, UAG, or UGA) in the A site.\n\n## The Release Factor\nRemember, there are NO tRNAs with anticodons for stop codons.\nInstead, a protein called a **Release Factor** binds to the stop codon in the A site.\n\n## The Breakup\n1. The Release Factor forces the ribosome to add a water molecule to the end of the polypeptide chain instead of an amino acid.\n2. This severs the bond, releasing the finished protein into the cytoplasm.\n3. The entire ribosomal complex breaks apart into its subunits, ready to be recycled for another translation job."
+        },
+        {
+            "id": "molbio_transl_quiz_2",
+            "type": "quiz",
+            "title": "Ribosome Sites Quiz",
+            "content": "Check your understanding of the EPA sites.",
+            "quizQuestion": "During the elongation phase of translation, into which ribosomal site does a new, incoming charged tRNA initially bind?",
+            "quizOptions": [
+                "E site",
+                "P site",
+                "A site",
+                "S site"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "molbio_transl_9",
+            "type": "content",
+            "title": "Polyribosomes",
+            "content": "# Polyribosomes (Polysomes)\n\nCells need a lot of protein, and they need it fast.\n\nInstead of waiting for one ribosome to finish translating an mRNA before starting another, cells use **Polyribosomes**.\n\n## Mass Production\nAs soon as the first ribosome moves far enough past the start codon, a second ribosome attaches and begins translating. Then a third, a fourth, etc.\n\n- A single mRNA molecule can have dozens of ribosomes attached to it simultaneously, resembling a string of pearls.\n- This allows the cell to mass-produce many copies of a polypeptide from a single mRNA blueprint in a very short amount of time!"
+        },
+        {
+            "id": "molbio_transl_10",
+            "type": "content",
+            "title": "Protein Folding",
+            "content": "# Protein Folding\n\nWhen a polypeptide chain exits the ribosome, it is just a linear string of amino acids (primary structure). It is NOT yet a functional protein.\n\n## Spontaneous Folding\nDue to the chemical properties of the amino acids (some are hydrophobic, some are charged), the chain begins folding into its 3D shape (secondary and tertiary structure) immediately as it exits the ribosome.\n\n## Chaperonins\nSometimes, proteins need help folding correctly in the crowded environment of the cell.\n**Chaperonins** are large, barrel-shaped protein complexes.\n- An unfolded polypeptide enters the barrel.\n- The barrel places a lid on top, creating an isolated, perfect chemical environment for the protein to fold without interference.\n- The lid pops off, releasing the correctly folded protein!"
+        },
+        {
+            "id": "molbio_transl_11",
+            "type": "content",
+            "title": "Post-Translational Modifications",
+            "content": "# Post-Translational Modifications (PTMs)\n\nEven after a protein is correctly folded, it often requires chemical modifications before it can do its job. These are called **Post-Translational Modifications**.\n\n## Why Modify?\n- To activate or deactivate an enzyme\n- To signal where the protein needs to be shipped (e.g., to the cell membrane)\n- To help the protein interact with other molecules\n\nThese modifications usually occur in the **Endoplasmic Reticulum (ER)** and the **Golgi Apparatus**."
+        },
+        {
+            "id": "molbio_transl_12",
+            "type": "content",
+            "title": "Types of Modifications",
+            "content": "# Common Types of PTMs\n\n## 1. Phosphorylation\n- Adding a phosphate group (usually by an enzyme called a kinase).\n- This acts as an \"ON/OFF\" switch for many cellular enzymes and signaling proteins.\n\n## 2. Glycosylation\n- Adding sugar (carbohydrate) chains to the protein, creating a glycoprotein.\n- Critical for proteins that will be embedded in the cell membrane (used for cell recognition and immune response).\n\n## 3. Cleavage (Proteolysis)\n- Some proteins are manufactured in a long, inactive form (a proenzyme) so they don't cause damage inside the cell.\n- Example: Insulin is synthesized as \"proinsulin\" and must be cut by an enzyme into a smaller piece to become active insulin.\n\n## 4. Lipidation\n- Attaching a lipid (fat) to the protein, which anchors the protein into a cell membrane."
+        },
+        {
+            "id": "molbio_transl_quiz_3",
+            "type": "quiz",
+            "title": "Modifications Quiz",
+            "content": "Check your understanding of PTMs.",
+            "quizQuestion": "Which post-translational modification is commonly used as a rapid \"ON/OFF\" switch for activating cellular enzymes?",
+            "quizOptions": [
+                "Glycosylation",
+                "Proteolytic cleavage",
+                "Phosphorylation",
+                "Poly-A tailing"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "molbio_transl_13",
+            "type": "content",
+            "title": "Summary of Translation",
+            "content": "# Translation Summary\n\n## Key Takeaways:\n\n### The Setup\n- mRNA is read in **codons** (triplets).\n- **tRNA** acts as the adapter, matching its anticodon to the codon and bringing the correct amino acid.\n\n### The Process\n- Occurs in the **ribosome**.\n- **Initiation:** Subunits assemble at the start codon (AUG).\n- **Elongation:** tRNAs move through the **A, P, and E sites**, forming peptide bonds.\n- **Termination:** A Stop codon triggers a Release Factor, breaking the complex.\n\n### Finishing Touches\n- Proteins fold (sometimes aided by **Chaperonins**).\n- **Post-Translational Modifications** (like phosphorylation or glycosylation) activate or direct the protein to its final destination.\n\n> **Congratulations!** You have traced the flow of genetic information from a strand of DNA to a fully functional protein molecule!"
+        }
+    ]
+}

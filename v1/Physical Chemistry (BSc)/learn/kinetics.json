@@ -1,0 +1,139 @@
+{
+    "id": "learn_kinetics",
+    "topicId": "kinetics",
+    "topicTitle": "Chemical Kinetics",
+    "description": "Understand the rates of chemical reactions, the factors that influence them, reaction mechanisms, and the crucial role of catalysts in physical chemistry.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "kin_1",
+            "type": "content",
+            "title": "Introduction to Kinetics",
+            "content": "# What is Chemical Kinetics?\n\nWhile thermodynamics tells us IF a reaction will happen (spontaneity) and WHERE it will end up (equilibrium), it tells us absolutely nothing about HOW FAST it will happen.\n\n**Chemical Kinetics** is the study of reaction rates, the factors that affect them, and the step-by-step mechanisms by which they occur.\n\n## Why it matters:\n- **Industry:** Maximizing production speed of chemicals while minimizing cost.\n- **Biology:** Enzymes (biological catalysts) speed up vital reactions that would otherwise take years.\n- **Everyday life:** Food rotting, iron rusting, and medicine degrading are all kinetic processes."
+        },
+        {
+            "id": "kin_2",
+            "type": "content",
+            "title": "Reaction Rate Definition",
+            "content": "# Defining Reaction Rate\n\nThe **Reaction Rate** is the change in concentration of a reactant or product per unit of time.\n\n## The Formula:\n**Rate = - Delta [Reactant] / Delta time = Delta [Product] / Delta time**\n\nWhere:\n- **[ ]** indicates concentration in Molarity (moles per liter).\n- The negative sign for reactants ensures the overall rate is a positive number (since reactant concentration goes down).\n\n## Units:\nThe standard unit for reaction rate is **M/s** (Molarity per second)."
+        },
+        {
+            "id": "kin_3",
+            "type": "content",
+            "title": "Collision Theory",
+            "content": "# Collision Theory\n\nHow do molecules actually react? They must hit each other! \n\n## The Three Requirements for a Reaction:\nAccording to Collision Theory, a reaction only occurs if three conditions are met during a collision:\n1. **Collision Frequency:** The molecules must actually collide.\n2. **Activation Energy:** The collision must have enough energy to break the old bonds. This minimum energy threshold is called the Activation Energy (Ea).\n3. **Orientation:** The molecules must collide in the correct physical alignment. If the wrong atoms hit each other, they will just bounce off."
+        },
+        {
+            "id": "kin_4",
+            "type": "content",
+            "title": "Factors Affecting Rates",
+            "content": "# What Changes the Rate?\n\nBased on Collision Theory, we can easily understand the four main factors that affect reaction rates:\n\n1. **Concentration:** Higher concentration means more molecules crowded together, leading to more frequent collisions.\n2. **Temperature:** Higher temperature means molecules move faster. This increases both collision frequency AND the percentage of collisions that have enough energy to surpass the activation energy.\n3. **Surface Area (for solids):** Crushing a solid into a powder exposes more molecules to the reactant, increasing collision frequency.\n4. **Catalysts:** Substances that lower the activation energy, allowing more collisions to be successful."
+        },
+        {
+            "id": "kin_5",
+            "type": "content",
+            "title": "The Rate Law",
+            "content": "# The Rate Law Equation\n\nThe relationship between reactant concentration and reaction rate is expressed by a mathematical equation called the **Rate Law**.\n\nFor a general reaction: A + B -> Products\n\n**Rate = k * [A]^m * [B]^n**\n\nWhere:\n- **k** = The rate constant (specific to the reaction and temperature).\n- **m** and **n** = The reaction orders.\n\n> **CRITICAL RULE:** The reaction orders (m and n) CANNOT be determined by looking at the balanced chemical equation! They must be determined experimentally."
+        },
+        {
+            "id": "kin_6",
+            "type": "content",
+            "title": "Reaction Orders",
+            "content": "# Understanding Reaction Orders\n\nThe order indicates how sensitive the rate is to a change in that specific reactant's concentration.\n\n- **Zero Order (m=0):** Changing the concentration of A has NO effect on the rate. (Rate = k * 1)\n- **First Order (m=1):** Doubling the concentration of A exactly doubles the rate. (Rate = k * [A])\n- **Second Order (m=2):** Doubling the concentration of A quadruples the rate. (Rate = k * [A]^2)\n\n## Overall Order:\nThe overall reaction order is the sum of all individual orders (m + n)."
+        },
+        {
+            "id": "kin_7",
+            "type": "content",
+            "title": "Integrated Rate Laws",
+            "content": "# Integrated Rate Laws\n\nThe basic rate law tells us the rate at a specific moment. But what if we want to know how much reactant is left after 10 minutes?\n\nWe use **Integrated Rate Laws**, derived using calculus.\n\n## First-Order Integrated Rate Law:\n**ln([A]_t) = -kt + ln([A]_0)**\n\nWhere:\n- **[A]_t** = Concentration at time t\n- **[A]_0** = Initial concentration\n\nThis equation is in the form y = mx + b. If a reaction is first-order, graphing **ln([A]) vs time** will yield a perfectly straight line with a slope of -k."
+        },
+        {
+            "id": "kin_8",
+            "type": "content",
+            "title": "Half-Life",
+            "content": "# Half-Life (t_1/2)\n\nThe **half-life** is the time required for the concentration of a reactant to decrease to exactly half of its initial value.\n\n## First-Order Half-Life:\nFor a first-order reaction (like radioactive decay), the half-life is constant and does NOT depend on the starting concentration.\n\n**t_1/2 = 0.693 / k**\n\nIf the half-life is 5 hours, it takes 5 hours to go from 100g to 50g, and ANOTHER 5 hours to go from 50g to 25g."
+        },
+        {
+            "id": "kin_9",
+            "type": "content",
+            "title": "The Arrhenius Equation",
+            "content": "# Temperature and the Rate Constant\n\nThe rate constant 'k' is only constant at a specific temperature. If temperature increases, k increases.\n\nThis relationship is defined by the **Arrhenius Equation**:\n\n**k = A * e^(-Ea / RT)**\n\nWhere:\n- **A** = Frequency factor (how often molecules collide with correct orientation)\n- **Ea** = Activation Energy\n- **R** = Ideal gas constant\n- **T** = Temperature in Kelvin\n- **e^(-Ea/RT)** = The fraction of molecules that have enough energy to react."
+        },
+        {
+            "id": "kin_10",
+            "type": "content",
+            "title": "Activation Energy Profile",
+            "content": "# The Energy Profile Diagram\n\nWe visualize reaction progress using an energy profile.\n\n- The Y-axis is Potential Energy, the X-axis is Reaction Progress.\n- The reactants start at a certain energy level.\n- They must climb an \"energy hill\" to reach the **Transition State** (an unstable, high-energy arrangement of atoms at the peak).\n- The height of this hill from the reactants is the **Activation Energy (Ea)**.\n- They then fall down to the products' energy level.\n- The difference in energy between reactants and products is the Enthalpy change (Delta H)."
+        },
+        {
+            "id": "kin_11",
+            "type": "content",
+            "title": "Reaction Mechanisms",
+            "content": "# Reaction Mechanisms\n\nMost reactions do not happen in a single, magical collision. They happen in a series of simple, elementary steps.\n\nThe complete sequence of steps is the **Reaction Mechanism**.\n\n## Intermediates\nA species that is produced in one step of the mechanism and completely consumed in a later step. It does not appear in the overall balanced equation.\n\n## Molecularity\nThe number of molecules colliding in a specific elementary step. \n- Unimolecular (1 molecule splits)\n- Bimolecular (2 molecules collide)\n- Termolecular (3 molecules collide - very rare!)"
+        },
+        {
+            "id": "kin_12",
+            "type": "content",
+            "title": "The Rate-Determining Step",
+            "content": "# The Rate-Determining Step\n\nImagine a factory assembly line. If the person installing the engine takes 1 hour, but the person putting on the tires takes 5 minutes, the overall speed of the factory is completely dictated by the engine installer.\n\nIn chemistry, this is the **Rate-Determining Step (RDS)**.\n\n> The overall rate of a reaction can never be faster than its slowest elementary step.\n\nThe experimental Rate Law is ALWAYS determined by the stoichiometry of the slow step in the mechanism."
+        },
+        {
+            "id": "kin_13",
+            "type": "content",
+            "title": "Catalysis",
+            "content": "# Catalysis\n\nA **catalyst** is a substance that increases the rate of a chemical reaction without being consumed in the process.\n\n## How does it work?\nA catalyst provides a completely different reaction mechanism (a new pathway) that has a LOWER Activation Energy (Ea).\n\nBecause the hill is lower, a much higher percentage of molecules have enough energy to climb it, significantly increasing the rate.\n\n> **Important:** A catalyst does NOT change the thermodynamics. It does not change Delta H, Delta G, or the equilibrium constant K. It just helps the system reach equilibrium faster."
+        },
+        {
+            "id": "kin_14",
+            "type": "content",
+            "title": "Types of Catalysts",
+            "content": "# Homogeneous vs Heterogeneous\n\n## Homogeneous Catalysts\n- The catalyst is in the exact same phase (usually liquid/solution) as the reactants.\n- Example: Adding liquid acid to an aqueous solution to catalyze esterification.\n- Pros: Great contact with reactants.\n- Cons: Hard to separate the catalyst from the products afterward.\n\n## Heterogeneous Catalysts\n- The catalyst is in a different phase than the reactants (usually a solid catalyst with liquid or gas reactants).\n- Example: The solid platinum in a car's catalytic converter reacting with exhaust gases.\n- Pros: Very easy to separate and reuse."
+        },
+        {
+            "id": "kin_15",
+            "type": "content",
+            "title": "Enzyme Kinetics",
+            "content": "# Biological Catalysts: Enzymes\n\nEnzymes are massive protein molecules that act as highly specific homogeneous catalysts in biological systems.\n\n## The Lock and Key Model\nEnzymes have a specific \"active site\" that perfectly fits only a specific reactant (called a substrate). \n\n## Michaelis-Menten Kinetics\nUnlike normal chemical reactions that speed up infinitely as you add more reactant, enzyme reactions have a maximum speed (Vmax).\n\nIf you add enough substrate, every single enzyme is occupied. The system is saturated, and adding more substrate will not increase the rate."
+        },
+        {
+            "id": "kin_16",
+            "type": "content",
+            "title": "Measuring Kinetics",
+            "content": "# Kinetic Measurements\n\nHow do physical chemists actually measure rates in the lab?\n\nThey must continuously monitor the concentration of a reactant or product over time. Methods include:\n\n1. **Spectrophotometry:** If a product is colored, scientists measure how much light it absorbs. As it gets darker, the absorbance increases, tracking concentration.\n2. **Conductivity:** If the reaction produces ions, the electrical conductivity of the solution will change over time.\n3. **Manometry:** If a gas is produced in a closed container, measuring the pressure increase over time gives the reaction rate."
+        },
+        {
+            "id": "kin_17",
+            "type": "content",
+            "title": "Summary of Kinetics",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Reaction Rate:** The change in concentration over time. Requires collisions with correct orientation and enough activation energy.\n2. **Rate Law:** Rate = k[A]^m[B]^n. Reaction orders must be found experimentally.\n3. **Half-Life:** Time for half the reactant to disappear (constant for first-order reactions).\n4. **Arrhenius Equation:** Shows how the rate constant exponentially increases with temperature.\n5. **Mechanisms:** Reactions happen in steps. The slowest step dictates the overall rate.\n6. **Catalysts:** Speed up reactions by providing a new pathway with a lower activation energy, without being consumed."
+        },
+        {
+            "id": "kin_quiz_1",
+            "type": "quiz",
+            "title": "Rate Law Quiz",
+            "content": "Test your understanding of reaction orders.",
+            "quizQuestion": "If a reaction is second-order with respect to reactant A, what will happen to the reaction rate if the concentration of A is tripled?",
+            "quizOptions": [
+                "The rate will triple.",
+                "The rate will increase by a factor of 6.",
+                "The rate will increase by a factor of 9.",
+                "The rate will remain the same."
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "kin_quiz_2",
+            "type": "quiz",
+            "title": "Catalysis Quiz",
+            "content": "Review the function of a catalyst.",
+            "quizQuestion": "Which of the following thermodynamic properties is altered by the addition of a catalyst?",
+            "quizOptions": [
+                "Enthalpy (Delta H)",
+                "Gibbs Free Energy (Delta G)",
+                "The Equilibrium Constant (K)",
+                "Activation Energy (Ea)"
+            ],
+            "correctOptionIndex": 3
+        }
+    ]
+}

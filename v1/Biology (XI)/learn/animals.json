@@ -1,0 +1,159 @@
+{
+    "id": "learn_animals",
+    "topicId": "animals",
+    "topicTitle": "Animal Kingdom",
+    "description": "Dive into the fascinating world of animals, exploring their diverse body plans, classification, and evolutionary journey from sea to land.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "anim_1",
+            "type": "content",
+            "title": "Welcome to Animal Kingdom",
+            "content": "# The Animal Kingdom\n\nWelcome to the Kingdom Animalia! This kingdom includes the most complex and diverse multicellular organisms on Earth, from tiny sponges to massive blue whales.\n\n## What You Will Learn:\n- **Animal Phyla Characteristics** - The major groups of invertebrates and vertebrates\n- **Vertebrate Classification** - Fishes, amphibians, reptiles, birds, and mammals\n- **Comparative Anatomy** - How different animal bodies are structured\n- **Evolutionary Relationships** - How animals are connected\n\n> **Fun Fact:** Over 95% of all animal species are invertebrates (animals without a backbone)!"
+        },
+        {
+            "id": "anim_2",
+            "type": "content",
+            "title": "Basis of Classification",
+            "content": "# How Do We Classify Animals?\n\nAnimals are incredibly diverse, so scientists use several fundamental features of their body design to classify them.\n\n## Key Criteria:\n1. **Level of Organization:** Cellular, tissue, organ, or organ system level.\n2. **Symmetry:** Asymmetrical, radial, or bilateral.\n3. **Diploblastic and Triploblastic:** Number of embryonic germ layers (two or three).\n4. **Coelom:** Presence or absence of a body cavity.\n5. **Segmentation:** Is the body divided into segments?\n6. **Notochord:** A rod-like structure (defines chordates)."
+        },
+        {
+            "id": "anim_3",
+            "type": "content",
+            "title": "Levels of Organization",
+            "content": "# Levels of Organization\n\nEven though all animals are multicellular, their cells are organized differently.\n\n## 1. Cellular Level:\n- Cells are arranged as loose aggregates.\n- They do not form tissues.\n- Seen in **Sponges (Porifera)**.\n\n## 2. Tissue Level:\n- Cells performing the same function are arranged into tissues.\n- Seen in **Coelenterates (Cnidarians)** and Ctenophores.\n\n## 3. Organ Level:\n- Tissues are grouped together to form organs, each specialized for a specific function.\n- Seen in **Platyhelminthes** (flatworms) and higher phyla.\n\n## 4. Organ System Level:\n- Organs associate to form functional systems (e.g., digestive system).\n- Seen in Annelids, Arthropods, Molluscs, Echinoderms, and Chordates."
+        },
+        {
+            "id": "anim_4",
+            "type": "content",
+            "title": "Body Symmetry",
+            "content": "# Symmetry in Animals\n\nSymmetry refers to the arrangement of body parts around a central axis.\n\n## Types of Symmetry:\n\n### 1. Asymmetry:\n- Any plane passing through the center does NOT divide them into equal halves.\n- Example: Most Sponges.\n\n### 2. Radial Symmetry:\n- Any plane passing through the central axis divides the organism into identical halves (like a pie).\n- Best for animals that are stationary or drift.\n- Example: Jellyfish, Starfish (adults).\n\n### 3. Bilateral Symmetry:\n- The body can be divided into identical left and right halves in only ONE plane.\n- Accompanied by 'cephalization' (having a distinct head).\n- Example: Insects, Humans, Dogs."
+        },
+        {
+            "id": "anim_5",
+            "type": "content",
+            "title": "The Coelom",
+            "content": "# The Coelom (Body Cavity)\n\nThe presence or absence of a cavity between the body wall and the gut wall is very important in classification.\n\n## 1. Acoelomates:\n- Animals without a body cavity. The space is filled with solid tissue.\n- Example: Flatworms (Platyhelminthes).\n\n## 2. Pseudocoelomates:\n- The body cavity is not fully lined by mesoderm (it has scattered pouches).\n- Meaning 'false cavity'.\n- Example: Roundworms (Aschelminthes).\n\n## 3. Coelomates:\n- Animals possessing a true coelom, fully lined by mesoderm.\n- Allows internal organs to grow and move independently of the outer body wall.\n- Example: Annelids, Molluscs, Arthropods, Echinoderms, and Chordates."
+        },
+        {
+            "id": "anim_quiz_1",
+            "type": "quiz",
+            "title": "Classification Quiz",
+            "content": "Test your knowledge on animal classification basics.",
+            "quizQuestion": "Humans exhibit which type of body symmetry?",
+            "quizOptions": [
+                "Asymmetry",
+                "Radial Symmetry",
+                "Bilateral Symmetry",
+                "Spherical Symmetry"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "anim_6",
+            "type": "content",
+            "title": "Invertebrate Phyla: Sponges & Cnidarians",
+            "content": "# Primitive Invertebrates\n\n## Phylum Porifera (Sponges):\n- Simplest animals; cellular level of organization.\n- Generally marine and asymmetrical.\n- Water transport system: Water enters through pores (ostia) and exits through an opening (osculum).\n- Example: *Sycon*, *Spongilla*.\n\n## Phylum Coelenterata (Cnidarians):\n- Aquatic, mostly marine.\n- Tissue level organization, radially symmetrical.\n- Possess **cnidoblasts** (stinging cells) used for defense and capturing prey.\n- Two body forms: Polyp (sessile, like Hydra) and Medusa (free-swimming, like Jellyfish)."
+        },
+        {
+            "id": "anim_7",
+            "type": "content",
+            "title": "Invertebrate Phyla: Worms",
+            "content": "# The Worms\n\n## Phylum Platyhelminthes (Flatworms):\n- Dorso-ventrally flattened body.\n- Bilaterally symmetrical, triploblastic, acoelomate.\n- Mostly endoparasites in animals, including humans.\n- Example: Tapeworm (*Taenia*), Liver fluke (*Fasciola*).\n\n## Phylum Aschelminthes (Roundworms):\n- Body is circular in cross-section.\n- Pseudocoelomates with a complete alimentary canal.\n- Many are parasitic in plants and animals.\n- Example: *Ascaris* (Roundworm), *Wuchereria* (Filaria worm)."
+        },
+        {
+            "id": "anim_8",
+            "type": "content",
+            "title": "Invertebrate Phyla: Segmented Worms & Arthropods",
+            "content": "# Advanced Invertebrates - Part 1\n\n## Phylum Annelida (Segmented Worms):\n- Their body surface is distinctly marked out into segments (metameres).\n- Coelomates with a closed circulatory system.\n- Example: Earthworm, Leech.\n\n## Phylum Arthropoda:\n- The **largest phylum** of Animalia (includes insects).\n- About 2/3 of all named species on Earth are arthropods!\n- Key features: **Jointed appendages** and a tough **chitinous exoskeleton**.\n- Example: Spiders, Crabs, Mosquitoes, Butterflies.\n\n> **Economic Importance:** Bees produce honey, silkworms produce silk, but mosquitoes are dangerous vectors of diseases."
+        },
+        {
+            "id": "anim_9",
+            "type": "content",
+            "title": "Invertebrate Phyla: Molluscs & Echinoderms",
+            "content": "# Advanced Invertebrates - Part 2\n\n## Phylum Mollusca:\n- Second largest animal phylum.\n- Soft-bodied animals, often covered by a hard calcareous shell.\n- Body divided into head, muscular foot, and visceral hump.\n- Example: Snail, Octopus, Squid.\n\n## Phylum Echinodermata:\n- 'Spiny-skinned' animals.\n- All are marine.\n- Adults have radial symmetry, but larvae are bilaterally symmetrical.\n- Unique feature: **Water vascular system** used for locomotion, capture of food, and respiration.\n- Example: Starfish, Sea Urchin."
+        },
+        {
+            "id": "anim_10",
+            "type": "content",
+            "title": "Phylum Chordata",
+            "content": "# Phylum Chordata\n\nChordates are the most advanced animals. To be a chordate, an animal must have four key features at some point in its life.\n\n## The Four Hallmarks of Chordates:\n1. **Notochord:** A flexible, rod-like structure providing support.\n2. **Dorsal Hollow Nerve Cord:** Develops into the central nervous system (brain and spinal cord).\n3. **Pharyngeal Gill Slits:** Openings in the pharynx (used for filter-feeding in primitive chordates, develop into gills or jaw structures in higher vertebrates).\n4. **Post-anal Tail:** A muscular tail extending posterior to the anus.\n\n## Subphyla:\n- Urochordata (Tunicates)\n- Cephalochordata (Lancelets)\n- Vertebrata (Vertebrates)"
+        },
+        {
+            "id": "anim_11",
+            "type": "content",
+            "title": "Subphylum Vertebrata",
+            "content": "# The Vertebrates\n\nVertebrates are chordates where the notochord is replaced by a cartilaginous or bony **vertebral column** (backbone) in the adult.\n\n## Classes of Vertebrates:\nVertebrates are divided into two super-classes based on whether they have jaws:\n\n### 1. Agnatha (Jawless Fishes):\n- Most primitive vertebrates.\n- Lack a true jaw. Sucking, circular mouth.\n- Example: Lampreys, Hagfish.\n\n### 2. Gnathostomata (Jawed Vertebrates):\n- Includes all other vertebrates.\n- Subdivided into Pisces (fishes with fins) and Tetrapoda (animals with four limbs)."
+        },
+        {
+            "id": "anim_quiz_2",
+            "type": "quiz",
+            "title": "Chordate Quiz",
+            "content": "What makes a chordate?",
+            "quizQuestion": "Which of the following is NOT a defining characteristic of all chordates at some stage of life?",
+            "quizOptions": [
+                "Notochord",
+                "Dorsal hollow nerve cord",
+                "Bony vertebral column",
+                "Pharyngeal gill slits"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "anim_12",
+            "type": "content",
+            "title": "Superclass Pisces (Fishes)",
+            "content": "# Fishes (Pisces)\n\nFishes are aquatic vertebrates that use gills for respiration and fins for locomotion.\n\n## 1. Class Chondrichthyes (Cartilaginous Fishes):\n- Skeleton made of cartilage, not bone.\n- Must swim constantly to avoid sinking (lack a swim bladder).\n- Mostly marine predators.\n- Example: Sharks, Rays, Skates.\n\n## 2. Class Osteichthyes (Bony Fishes):\n- Skeleton made of bone.\n- Have a swim bladder (air bladder) which regulates buoyancy.\n- Includes both marine and freshwater species.\n- Example: Salmon, Tuna, Seahorse, Carp."
+        },
+        {
+            "id": "anim_13",
+            "type": "content",
+            "title": "Class Amphibia",
+            "content": "# Amphibians: The Dual Life\n\nAmphibians ('amphi' = dual, 'bios' = life) can live in aquatic as well as terrestrial habitats.\n\n## Key Characteristics:\n- Require water for reproduction (lay eggs in water).\n- Skin is moist and lacks scales (used for respiration in some).\n- Larvae (like tadpoles) use gills, adults use lungs and skin.\n- Three-chambered heart.\n- Cold-blooded (poikilothermic).\n\n## Examples:\n- Frogs, Toads, Salamanders.\n\n> **Evolutionary Step:** Amphibians were the first vertebrates to transition from water to land, though they never completely severed their ties to water!"
+        },
+        {
+            "id": "anim_14",
+            "type": "content",
+            "title": "Class Reptilia",
+            "content": "# Reptiles: Conquering the Land\n\nReptiles were the first vertebrates fully adapted to life on dry land.\n\n## Key Characteristics:\n- Mostly terrestrial animals.\n- Body covered by dry, cornified skin with epidermal scales or scutes (prevents water loss).\n- Lay shelled eggs (amniotic eggs) on land, so they don't need water for reproduction.\n- Most have a three-chambered heart (crocodiles have four).\n- Cold-blooded (poikilothermic).\n\n## Examples:\n- Snakes, Lizards, Turtles, Crocodiles.\n\n> **Note:** Snakes and lizards periodically shed their scales as skin cast."
+        },
+        {
+            "id": "anim_15",
+            "type": "content",
+            "title": "Class Aves (Birds)",
+            "content": "# Birds: Masters of the Air\n\nBirds are highly specialized reptiles adapted for flight.\n\n## Key Characteristics:\n- The characteristic feature is the presence of **feathers**.\n- Forelimbs are modified into wings.\n- Hind limbs are adapted for walking, swimming, or clasping branches.\n- Have a beak (no teeth).\n- Bones are hollow with air cavities (pneumatic bones) to reduce weight.\n- Warm-blooded (homoiothermic) - they maintain a constant body temperature.\n- Four-chambered heart.\n\n## Examples:\n- Pigeon, Crow, Ostrich (flightless), Penguin."
+        },
+        {
+            "id": "anim_16",
+            "type": "content",
+            "title": "Class Mammalia",
+            "content": "# Mammals\n\nMammals are the most successful and dominant animals on Earth today.\n\n## Key Characteristics:\n- **Mammary Glands:** The most unique mammalian characteristic is the presence of milk-producing glands by which young ones are nourished.\n- **Hair:** They have hair on their skin.\n- **Ears:** Presence of external ears (pinnae).\n- Warm-blooded (homoiothermic).\n- Four-chambered heart.\n- Mostly viviparous (give birth to live young), with exceptions like the platypus.\n\n## Examples:\n- Kangaroo, Lion, Whale, Bat, Human."
+        },
+        {
+            "id": "anim_17",
+            "type": "content",
+            "title": "Evolutionary Relationships",
+            "content": "# Animal Evolution Overview\n\nThe animal kingdom demonstrates a clear evolutionary progression from simple to complex forms.\n\n## The Evolutionary Journey:\n1. **Multicellularity:** Began with sponges (loose cells).\n2. **Tissues:** Developed in cnidarians.\n3. **Bilateral Symmetry & Cephalization:** Evolved in flatworms, allowing for directional movement and brain development.\n4. **Coelom (Body Cavity):** Allowed for complex internal organs.\n5. **Segmentation:** Allowed for specialized body parts (arthropods).\n6. **Notochord to Backbone:** Allowed for large size and complex nervous systems in vertebrates.\n7. **Amniotic Egg:** Allowed reptiles, birds, and mammals to conquer dry land."
+        },
+        {
+            "id": "anim_quiz_3",
+            "type": "quiz",
+            "title": "Final Vertebrate Quiz",
+            "content": "Test your knowledge on higher animals.",
+            "quizQuestion": "Which class of vertebrates is characterized by the presence of mammary glands and hair?",
+            "quizOptions": [
+                "Amphibia",
+                "Reptilia",
+                "Aves",
+                "Mammalia"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "anim_18",
+            "type": "content",
+            "title": "Summary: Animal Kingdom",
+            "content": "# Animal Kingdom Summary\n\n## Key Concepts Reviewed:\n\n- **Invertebrates:** Dominate the animal kingdom (Porifera, Cnidaria, Platyhelminthes, Annelida, Arthropoda, Mollusca, Echinodermata).\n- **Arthropods:** The most successful and numerous phylum, known for jointed appendages.\n- **Chordates:** Defined by a notochord, dorsal nerve cord, and pharyngeal slits.\n- **Vertebrates:** Chordates with a backbone. Include Fishes (cartilaginous and bony), Amphibians, Reptiles, Birds, and Mammals.\n- **Evolutionary milestones:** Tissues, bilateral symmetry, true body cavity (coelom), and the amniotic egg.\n\n> **Congratulations!** You've completed the Animal Kingdom module. You now understand the incredible diversity and evolutionary connections of the animals we share this planet with!"
+        }
+    ]
+}

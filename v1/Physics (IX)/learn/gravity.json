@@ -1,0 +1,161 @@
+{
+    "id": "learn_gravity",
+    "topicId": "gravity",
+    "topicTitle": "Gravitation",
+    "description": "Explore the invisible force that holds the universe together, from falling apples to orbiting planets.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "gravity_1",
+            "type": "content",
+            "title": "Welcome to Gravitation",
+            "content": "# The Invisible Pull\n\nWhy does an apple fall to the ground instead of floating upward? Why does the Moon orbit the Earth without flying off into space?\n\nThe answer to these questions is **Gravitation**.\n\n## What You Will Learn:\n- **Universal Law of Gravitation:** The rule that governs everything with mass.\n- **Free Fall:** What happens when gravity is the only force acting on you.\n- **Mass vs. Weight:** Why you would weigh less on the Moon.\n- **Planetary Motion:** How the solar system stays together.\n\nLet's uncover the secrets of the most famous force in physics!"
+        },
+        {
+            "id": "gravity_2",
+            "type": "content",
+            "title": "The Concept of Gravitation",
+            "content": "# The Universal Attraction\n\nGravity isn't just about the Earth pulling things down. It is a universal property of matter.\n\n## The Fundamental Rule:\n> **Every object in the universe attracts every other object.**\n\nThis force of attraction between objects is called the **gravitational force**.\n\n- When you sit next to your friend, there is a gravitational force of attraction between you two!\n- We don't notice it because the force is extremely weak for small objects. It only becomes noticeable when at least one of the objects is massive (like a planet or a star)."
+        },
+        {
+            "id": "gravity_3",
+            "type": "content",
+            "title": "Universal Law of Gravitation",
+            "content": "# Newton's Grand Equation\n\nSir Isaac Newton formulated the Universal Law of Gravitation, which quantifies this force of attraction.\n\n## The Statement:\nEvery object in the universe attracts every other object with a force which is:\n1. **Directly proportional** to the product of their masses.\n2. **Inversely proportional** to the square of the distance between them.\n\n## The Direction:\nThe force acts along the straight line joining the centers of the two objects."
+        },
+        {
+            "id": "gravity_4",
+            "type": "content",
+            "title": "The Gravitation Formula",
+            "content": "# The Mathematics of Gravity\n\nBased on Newton's law, we get the famous equation:\n\n```\nF = G x (M x m) / d^2\n```\n\nWhere:\n- **F** = the gravitational force of attraction\n- **M** and **m** = the masses of the two objects\n- **d** = the distance between their centers\n- **G** = the Universal Gravitational Constant\n\n> **The Value of G:** G is an incredibly small number (approx 6.67 x 10^-11). This is why you don't feel the gravitational pull of everyday objects around you!"
+        },
+        {
+            "id": "gravity_quiz_1",
+            "type": "quiz",
+            "title": "Law of Gravitation Quiz",
+            "content": "Test your understanding of the formula.",
+            "quizQuestion": "According to the Universal Law of Gravitation, if you double the distance (d) between two objects, what happens to the gravitational force?",
+            "quizOptions": [
+                "It doubles",
+                "It is reduced to half",
+                "It is reduced to one-fourth",
+                "It remains the same"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "gravity_5",
+            "type": "content",
+            "title": "Importance of the Universal Law",
+            "content": "# Why is this Law so Important?\n\nThe Universal Law of Gravitation is brilliant because it successfully explains several phenomena which were previously believed to be unconnected.\n\n## What it Explains:\n1. The force that binds us to the earth.\n2. The motion of the moon around the earth.\n3. The motion of planets around the Sun.\n4. The tides due to the moon and the Sun.\n\nNewton proved that the same physical laws that apply on Earth (an apple falling) also apply to the heavens (the Moon orbiting)!"
+        },
+        {
+            "id": "gravity_6",
+            "type": "content",
+            "title": "Free Fall",
+            "content": "# Falling Under Gravity\n\nWhen you drop an object from a height, it falls towards the earth because of the earth's gravitational pull.\n\n## What is Free Fall?\nWhenever objects fall towards the earth under the influence of the gravitational force **alone**, we say that the objects are in **free fall**.\n\n## Does velocity change?\n- While falling, there is no change in the *direction* of motion.\n- However, because of the earth's attraction, the *velocity* increases continuously.\n- Any change in velocity involves acceleration."
+        },
+        {
+            "id": "gravity_7",
+            "type": "content",
+            "title": "Acceleration Due to Gravity",
+            "content": "# Acceleration of Falling Objects\n\nThe acceleration experienced by an object in free fall is called the **acceleration due to gravity**.\n\n## The Value of 'g':\n- It is denoted by the letter **g**.\n- Its unit is the same as that of acceleration, i.e., m/s^2.\n- On the surface of the Earth, the average value of 'g' is approx **9.8 m/s^2**.\n\n## Galileo's Discovery:\nGalileo proved that all objects, whether hollow or solid, big or small, fall at the exact same rate in a vacuum! The mass of the object does NOT affect its acceleration during free fall."
+        },
+        {
+            "id": "gravity_8",
+            "type": "content",
+            "title": "Mass vs Weight",
+            "content": "# Two Different Concepts\n\nIn everyday language, we often use 'mass' and 'weight' interchangeably. In physics, they are completely different!\n\n## Mass (m):\n- Mass is the quantity of matter contained in a body.\n- It is the measure of its inertia.\n- **Mass is constant everywhere.** Your mass is the same on Earth, on the Moon, or in deep space.\n- The SI unit of mass is the **kilogram (kg)**."
+        },
+        {
+            "id": "gravity_9",
+            "type": "content",
+            "title": "Weight",
+            "content": "# The Force of Gravity\n\n## Weight (W):\n- Weight is the **force** with which an object is attracted towards the earth.\n- Since weight is a force, it is calculated using Newton's Second Law (F = ma), but using 'g' for acceleration:\n  ```\n  W = m x g\n  ```\n- Because it is a force, the SI unit of weight is the **Newton (N)**, not kilograms!\n- **Weight is NOT constant.** It changes depending on where you are, because the value of 'g' changes."
+        },
+        {
+            "id": "gravity_quiz_2",
+            "type": "quiz",
+            "title": "Mass vs Weight Quiz",
+            "content": "Don't confuse these two!",
+            "quizQuestion": "If you travel to the Moon, which of your physical properties will change?",
+            "quizOptions": [
+                "Your mass only",
+                "Your weight only",
+                "Both your mass and weight",
+                "Neither mass nor weight"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "gravity_10",
+            "type": "content",
+            "title": "Weight on the Moon",
+            "content": "# Weighing Less in Space\n\nWhy do astronauts bounce around so easily on the Moon?\n\n## The Math:\n- The mass of the Moon is much less than that of the Earth.\n- Therefore, the Moon exerts a lesser force of attraction on objects.\n- The acceleration due to gravity on the Moon is about **one-sixth (1/6)** of that on Earth.\n\n## The Result:\nIf your weight on Earth is 600 Newtons, your weight on the Moon would be exactly 100 Newtons! However, your mass (e.g., 60 kg) would remain exactly the same."
+        },
+        {
+            "id": "gravity_11",
+            "type": "content",
+            "title": "Thrust and Pressure",
+            "content": "# Force Over Area\n\nSometimes, the effect of a force depends on the area over which it acts.\n\n## Thrust:\n- The force acting on an object perpendicular to the surface is called **thrust**.\n- Thrust is just a force, so its unit is the Newton (N).\n\n## Pressure:\n- The thrust acting on unit area is called **pressure**.\n- `Pressure = Thrust / Area`\n- The SI unit of pressure is N/m^2, which is called the **Pascal (Pa)**.\n\n> **Application:** This is why a sharp knife cuts easily (small area = high pressure) and why school bags have wide straps (large area = low pressure on shoulders)."
+        },
+        {
+            "id": "gravity_12",
+            "type": "content",
+            "title": "Buoyancy",
+            "content": "# Floating and Sinking\n\nWhy does a massive iron ship float on water, but a small iron nail sinks?\n\n## Buoyant Force:\nWhen an object is immersed in a fluid (liquid or gas), the fluid exerts an upward force on the object. This upward force is called the **buoyant force** or upthrust.\n\n## The Rules of Floating:\n- If the gravitational pull (weight) of the object is **greater** than the buoyant force, the object **sinks**.\n- If the gravitational pull is **less than or equal** to the buoyant force, the object **floats**."
+        },
+        {
+            "id": "gravity_13",
+            "type": "content",
+            "title": "Archimedes' Principle",
+            "content": "# Calculating the Upthrust\n\nHow much buoyant force does a fluid exert? The Greek scientist Archimedes figured this out.\n\n## Archimedes' Principle:\n> **\"When a body is immersed fully or partially in a fluid, it experiences an upward force that is equal to the weight of the fluid displaced by it.\"**\n\n## Applications:\n- It is used in designing ships and submarines.\n- It is used in lactometers (to determine the purity of a sample of milk).\n- It is used in hydrometers (to determine the density of liquids)."
+        },
+        {
+            "id": "gravity_quiz_3",
+            "type": "quiz",
+            "title": "Archimedes Quiz",
+            "content": "Check your understanding of buoyancy.",
+            "quizQuestion": "According to Archimedes' principle, the buoyant force on an object is equal to:",
+            "quizOptions": [
+                "The total weight of the fluid",
+                "The weight of the object",
+                "The weight of the fluid displaced by the object",
+                "The volume of the object"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "gravity_14",
+            "type": "content",
+            "title": "Planetary Motion",
+            "content": "# Satellites and Orbits\n\nGravitation is what keeps the planets in orbit around the Sun.\n\n## Centripetal Force:\nTo keep a planet moving in a circular orbit, a force must constantly pull it toward the center (the Sun). This is called the **centripetal force**.\n- In the solar system, the gravitational force of the Sun provides this centripetal force.\n\n## Satellites:\nThe exact same principle applies to satellites (natural or artificial) orbiting planets.\n- The Moon is a natural satellite of the Earth.\n- Communication satellites stay in orbit because of Earth's gravitational pull acting as the centripetal force."
+        },
+        {
+            "id": "gravity_15",
+            "type": "content",
+            "title": "Reviewing Key Terms",
+            "content": "# Key Vocabulary Review\n\nLet's lock in these critical terms:\n\n- **Gravitation:** The force of attraction between any two objects with mass.\n- **Universal Gravitational Constant (G):** A constant value used to calculate gravitational force.\n- **Free Fall:** The falling of an object purely under the influence of gravity.\n- **Acceleration due to gravity (g):** The acceleration of a freely falling object (approx 9.8 m/s^2 on Earth).\n- **Mass:** The amount of matter in an object (constant).\n- **Weight:** The gravitational force exerted on an object (varies by location).\n- **Buoyancy:** The upward force exerted by a fluid on an immersed object."
+        },
+        {
+            "id": "gravity_16",
+            "type": "content",
+            "title": "Topic Summary",
+            "content": "# Summary of Gravitation\n\nExcellent work! Here is a recap of what we've learned:\n\n- The **Universal Law of Gravitation** states that every object attracts every other object with a force proportional to their masses and inversely proportional to the square of the distance between them.\n- **Free fall** occurs when an object is pulled down by gravity alone, causing it to accelerate at 'g'.\n- **Mass** is constant, but **weight** changes depending on the gravitational pull of the planet you are on.\n- The Moon's gravity is 1/6th that of Earth.\n- **Thrust** is force perpendicular to a surface, and **Pressure** is thrust per unit area.\n- **Archimedes' Principle** explains that the buoyant force on an object equals the weight of the fluid it displaces."
+        },
+        {
+            "id": "gravity_17",
+            "type": "quiz",
+            "title": "Final Gravitation Quiz",
+            "content": "One last question to finish the topic!",
+            "quizQuestion": "What is the SI unit of Weight?",
+            "quizOptions": [
+                "Kilogram (kg)",
+                "Gram (g)",
+                "Newton (N)",
+                "Joule (J)"
+            ],
+            "correctOptionIndex": 2
+        }
+    ]
+}

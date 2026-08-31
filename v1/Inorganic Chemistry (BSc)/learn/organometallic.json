@@ -1,0 +1,139 @@
+{
+    "id": "learn_organometallic",
+    "topicId": "organometallic",
+    "topicTitle": "Organometallic Chemistry",
+    "description": "Explore the fascinating bridge between organic and inorganic chemistry, studying metal-carbon bonds, the 18-electron rule, and powerful catalytic cycles.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "om_1",
+            "type": "content",
+            "title": "Introduction to Organometallics",
+            "content": "# What is Organometallic Chemistry?\n\n**Organometallic Chemistry** is the study of chemical compounds containing at least one direct, covalent bond between a carbon atom of an organic molecule and a metal.\n\nIt is literally the bridge where Organic Chemistry (carbon chains) meets Inorganic Chemistry (transition metals).\n\n## Why is it important?\nOrganometallic compounds are the secret weapons of the chemical industry. They are used as highly efficient, highly specific **catalysts** for manufacturing everything from plastics (like polyethylene) to complex pharmaceuticals."
+        },
+        {
+            "id": "om_2",
+            "type": "content",
+            "title": "The Nature of the M-C Bond",
+            "content": "# The Metal-Carbon Bond\n\nThe M-C bond is unique.\n\nMetals are generally electropositive (they like to give away electrons). Carbon is more electronegative.\nTherefore, in an organometallic bond, the carbon atom carries a partial negative charge (it acts as a **carbanion**).\n\nThis completely flips normal organic chemistry on its head! In typical organic molecules (like C-Cl or C-O), the carbon is positive (an electrophile). In organometallics, the carbon acts as a powerful **nucleophile**.\n\n> Classic Example: The Grignard Reagent (R-Mg-X), where the R-group acts as a potent carbon nucleophile."
+        },
+        {
+            "id": "om_3",
+            "type": "content",
+            "title": "The 18-Electron Rule",
+            "content": "# The 18-Electron Rule\n\nIn organic chemistry, atoms are stable when they obey the Octet Rule (8 valence electrons in s and p orbitals).\n\nIn organometallic chemistry, transition metals have access to d-orbitals. They are most stable when they have a full s, p, and d valence shell.\n- 1 's' orbital (2 e-)\n- 3 'p' orbitals (6 e-)\n- 5 'd' orbitals (10 e-)\n- **Total = 18 electrons.**\n\n> **The Rule:** Transition metal organometallic complexes are exceptionally stable when the sum of the metal's valence electrons plus the electrons donated by all ligands equals exactly 18."
+        },
+        {
+            "id": "om_4",
+            "type": "content",
+            "title": "Counting Electrons",
+            "content": "# How to count to 18\n\nThere are two methods: the Neutral method and the Ionic method. The Neutral method is usually easier.\n\n## The Neutral (Covalent) Method:\n1. **Metal:** Count the group number of the metal on the periodic table (e.g., Fe is group 8, so it provides 8 electrons).\n2. **Neutral Ligands:** Count how many electrons they donate. (e.g., CO donates 2, NH3 donates 2).\n3. **Radical/Anionic Ligands:** Treat them as neutral radicals. A Chlorine atom donates 1 electron. A Methyl group (CH3) donates 1 electron.\n4. **Charge:** Subtract 1 for a positive complex charge, add 1 for a negative charge.\n5. Sum them up!"
+        },
+        {
+            "id": "om_5",
+            "type": "content",
+            "title": "Pi-Backbonding",
+            "content": "# The Magic of Pi-Backbonding\n\nHow can a neutral molecule like Carbon Monoxide (CO) form incredibly strong bonds with metals (like in metal carbonyls)?\n\nIt relies on a synergistic two-way street called **Pi-Backbonding**.\n\n1. **Forward Bond:** The carbon lone pair (sigma) donates into an empty d-orbital on the metal.\n2. **Backbond:** The metal takes its own d-electrons and donates them BACK into an empty antibonding (pi*) orbital on the Carbon Monoxide.\n\nThis double-action makes the Metal-Carbon bond incredibly strong (while simultaneously weakening the C-O triple bond)."
+        },
+        {
+            "id": "om_6",
+            "type": "content",
+            "title": "Hapticity",
+            "content": "# Hapticity (eta)\n\nSome organic ligands don't just bond through one carbon atom. They can \"slap\" the metal with an entire flat pi-system (like a double bond or a benzene ring).\n\nWe describe this using **Hapticity**, denoted by the Greek letter eta.\n\n- **eta^1 (Monohapto):** The ligand bonds through exactly 1 carbon atom (e.g., a methyl group).\n- **eta^2 (Dihapto):** The ligand bonds through 2 carbon atoms simultaneously (e.g., an ethene double bond lying flat against the metal).\n- **eta^5 (Pentahapto):** The ligand bonds through 5 carbon atoms equally (e.g., the cyclopentadienyl ring)."
+        },
+        {
+            "id": "om_7",
+            "type": "content",
+            "title": "Metallocenes (Sandwich Compounds)",
+            "content": "# Sandwich Compounds\n\nOne of the most famous structures in chemistry is **Ferrocene**, discovered in 1951.\n\n## Structure\nIt consists of an Iron(II) atom sandwiched perfectly between two flat, eta^5-cyclopentadienyl (Cp) rings.\n\n## Electron Count\n- Iron (Group 8) = 8 e-\n- Two Cp rings (each neutral ring provides 5 e-) = 10 e-\n- Total = 18 electrons.\n\nFerrocene is incredibly stable, orange, and revolutionized how chemists thought about bonding, proving that metals could bond to entire pi-clouds simultaneously."
+        },
+        {
+            "id": "om_8",
+            "type": "content",
+            "title": "Catalytic Cycles Overview",
+            "content": "# Catalytic Cycles\n\nThe most important application of organometallics is homogeneous catalysis.\n\nA **Catalytic Cycle** is a sequence of elementary organometallic reactions that convert reactants into products while completely regenerating the original metal catalyst at the end.\n\nWe will examine the four most common elementary steps that make up these cycles:\n1. Oxidative Addition\n2. Reductive Elimination\n3. Migratory Insertion\n4. Beta-Hydride Elimination"
+        },
+        {
+            "id": "om_9",
+            "type": "content",
+            "title": "Oxidative Addition",
+            "content": "# Elementary Step: Oxidative Addition\n\n**Oxidative Addition** is how a metal \"eats\" a molecule, breaking a bond and adding both pieces to itself.\n\n## The Process\nA molecule like H2 or CH3-Cl approaches the metal. The bond between the H-H breaks, and BOTH hydrogens form new bonds to the metal.\n\n## The Consequences\nBecause the metal is giving away its d-electrons to form these two new bonds:\n1. The coordination number increases by 2.\n2. The oxidation state of the metal **increases by 2** (it is oxidized).\n3. The electron count of the complex increases by 2.\n\n*(Requires a metal with a low oxidation state and an empty coordination site).*."
+        },
+        {
+            "id": "om_10",
+            "type": "content",
+            "title": "Reductive Elimination",
+            "content": "# Elementary Step: Reductive Elimination\n\n**Reductive Elimination** is the exact reverse of oxidative addition. It is usually the final step of a catalytic cycle where the finished product is \"spit out.\"\n\n## The Process\nTwo adjacent ligands on the metal (e.g., a methyl group and a hydrogen) form a bond with each other and depart from the metal as a single new molecule (CH4).\n\n## The Consequences\nBecause the departing ligands leave their bonding electrons behind on the metal:\n1. The coordination number decreases by 2.\n2. The oxidation state of the metal **decreases by 2** (it is reduced).\n3. The electron count decreases by 2."
+        },
+        {
+            "id": "om_11",
+            "type": "content",
+            "title": "Migratory Insertion",
+            "content": "# Elementary Step: Migratory Insertion\n\n**Migratory Insertion** is how carbon chains are grown on a metal.\n\n## The Process\nA metal is bonded to two ligands: usually an alkyl chain (R) and a small unsaturated molecule (like Carbon Monoxide, CO, or an alkene).\n\nThe alkyl chain literally unplugs from the metal and \"migrates\" over to attach itself to the CO. The CO is now inserted between the metal and the alkyl chain (forming an acyl group, M-C(=O)-R).\n\n## The Consequences\n- The coordination number decreases by 1 (creating a valuable empty spot for a new reactant to bind).\n- The oxidation state of the metal does NOT change."
+        },
+        {
+            "id": "om_12",
+            "type": "content",
+            "title": "Beta-Hydride Elimination",
+            "content": "# Elementary Step: Beta-Hydride Elimination\n\n**Beta-Hydride Elimination** is the reverse of inserting an alkene. It is a common way organometallic complexes decompose.\n\n## The Process\nIf an alkyl chain attached to a metal has a hydrogen atom on its second carbon (the beta position), that hydrogen can interact with an empty orbital on the metal.\n\nThe hydrogen transfers to the metal, and the alkyl chain breaks off, forming a double bond (an alkene).\n\n*To prevent this from ruining a reaction, chemists often design ligands that do not possess any beta-hydrogens.*"
+        },
+        {
+            "id": "om_13",
+            "type": "content",
+            "title": "Industrial Example: Monsanto Process",
+            "content": "# The Monsanto Acetic Acid Process\n\nLet's see a cycle in action. The Monsanto process produces millions of tons of vinegar (acetic acid) by combining Methanol and Carbon Monoxide.\n\n## The Rhodium Catalyst Cycle:\n1. **Oxidative Addition:** The active Rhodium catalyst adds CH3-I (Methyl iodide) to itself.\n2. **Binding CO:** A carbon monoxide molecule attaches to the metal.\n3. **Migratory Insertion:** The methyl group migrates onto the CO, forming an acetyl group.\n4. **Reductive Elimination:** The acetyl group and the iodine combine and depart as acetyl iodide, perfectly regenerating the starting Rhodium catalyst!\n5. (Outside the cycle, acetyl iodide reacts with water to form acetic acid)."
+        },
+        {
+            "id": "om_14",
+            "type": "content",
+            "title": "Industrial Example: Ziegler-Natta",
+            "content": "# Ziegler-Natta Polymerization\n\nHow do we make the plastics (polyethylene) used in everything from grocery bags to bulletproof vests?\n\nUsing **Ziegler-Natta Catalysts** (typically a Titanium-Aluminum complex).\n\n## The Process (A chain reaction)\n1. An ethylene molecule (C=C) binds to the Titanium.\n2. **Migratory Insertion:** The existing growing polymer chain on the Titanium migrates onto the new ethylene.\n3. This creates a new empty spot on the Titanium.\n4. A new ethylene binds, and the cycle repeats instantly.\n\nThis catalyst can rapidly stitch thousands of ethylene units together in a perfect, straight, high-density chain without branching."
+        },
+        {
+            "id": "om_15",
+            "type": "content",
+            "title": "Cross-Coupling Reactions",
+            "content": "# Nobel-Prize Winning Cross-Coupling\n\nModern pharmaceutical synthesis relies heavily on Palladium-catalyzed cross-coupling reactions (like the Suzuki, Heck, or Sonogashira reactions).\n\n## The Goal\nTo take two completely separate carbon rings (e.g., an aryl halide and an arylboronic acid) and force them to bond together (C-C bond formation).\n\n## The Cycle\n1. **Oxidative Addition:** Pd catalyst eats the Aryl Halide.\n2. **Transmetalation:** The second carbon ring swaps places with the Halide on the Pd.\n3. **Reductive Elimination:** The two carbon rings are now forced next to each other on the Pd. They bond and depart, leaving the Pd catalyst ready for another round."
+        },
+        {
+            "id": "om_16",
+            "type": "content",
+            "title": "Bioorganometallic Chemistry",
+            "content": "# Nature's Organometallics\n\nWhile largely an industrial field, nature uses organometallic chemistry too.\n\n## Vitamin B12 (Cobalamin)\nVitamin B12 features a direct, naturally occurring Cobalt-Carbon bond.\n- It is used as an enzyme cofactor in the human body to perform incredibly difficult radical reactions, such as the isomerization of molecules during DNA synthesis.\n- Without this specific biological organometallic catalyst, humans develop severe anemia and neurological damage."
+        },
+        {
+            "id": "om_17",
+            "type": "content",
+            "title": "Summary of Organometallics",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **M-C Bond:** Carbon is bound to a metal, making the carbon act as a nucleophile (carbanion).\n2. **18-Electron Rule:** The guiding principle for stability in transition metal complexes.\n3. **Pi-Backbonding:** A synergistic bonding mechanism that creates massive stability for ligands like CO.\n4. **Elementary Steps:** The Lego bricks of catalysis (Oxidative Addition, Reductive Elimination, Migratory Insertion).\n5. **Applications:** Responsible for the industrial synthesis of acetic acid, massive polymer chains (plastics), and complex pharmaceutical cross-coupling."
+        },
+        {
+            "id": "om_quiz_1",
+            "type": "quiz",
+            "title": "Electron Counting Quiz",
+            "content": "Test your knowledge of the 18-electron rule.",
+            "quizQuestion": "According to the neutral counting method, how many electrons does a neutral Carbon Monoxide (CO) ligand donate to the metal center?",
+            "quizOptions": [
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "om_quiz_2",
+            "type": "quiz",
+            "title": "Catalytic Steps Quiz",
+            "content": "Review the elementary steps of a catalytic cycle.",
+            "quizQuestion": "Which elementary step involves a metal breaking a bond in a reactant molecule, adding both pieces to itself, and increasing its oxidation state by 2?",
+            "quizOptions": [
+                "Reductive Elimination",
+                "Migratory Insertion",
+                "Beta-Hydride Elimination",
+                "Oxidative Addition"
+            ],
+            "correctOptionIndex": 3
+        }
+    ]
+}

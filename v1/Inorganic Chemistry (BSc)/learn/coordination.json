@@ -1,0 +1,139 @@
+{
+    "id": "learn_coordination",
+    "topicId": "coordination",
+    "topicTitle": "Coordination Compounds",
+    "description": "Discover the vibrant world of transition metal complexes, their unique geometries, isomerism, and the theories that explain their colors and magnetic properties.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "coord_1",
+            "type": "content",
+            "title": "What is a Coordination Compound?",
+            "content": "# Introduction to Coordination Chemistry\n\nA **Coordination Compound** (or metal complex) consists of a central metal atom or ion bonded to a surrounding array of molecules or anions.\n\n## The Key Players:\n- **Central Metal:** Usually a transition metal (like Iron, Copper, or Cobalt). It acts as a Lewis Acid (electron pair acceptor) because it has empty d-orbitals.\n- **Ligands:** The surrounding molecules or ions (like Water, Ammonia, or Chloride). They act as Lewis Bases (electron pair donors) because they have lone pairs of electrons.\n\n## The Coordinate Covalent Bond\nUnlike a normal covalent bond where each atom shares one electron, in a coordinate bond, the ligand donates BOTH electrons to form the bond with the metal."
+        },
+        {
+            "id": "coord_2",
+            "type": "content",
+            "title": "Coordination Number",
+            "content": "# The Coordination Number (CN)\n\nThe **Coordination Number** is simply the total number of ligand donor atoms to which the metal is directly bonded.\n\n## Common Coordination Numbers:\n- **CN = 2:** Forms a Linear geometry. Common for group 11/12 metals like Ag+ and Au+ (e.g., [Ag(NH3)2]+).\n- **CN = 4:** Forms either a Tetrahedral or Square Planar geometry. Common for Ni2+, Pt2+, Cu2+.\n- **CN = 6:** The most common coordination number by far! Almost always forms an Octahedral geometry. Common for Fe3+, Co3+, Cr3+.\n\nThe coordination number is determined by the size of the metal, the size of the ligands (steric hindrance), and electronic factors."
+        },
+        {
+            "id": "coord_3",
+            "type": "content",
+            "title": "Types of Ligands",
+            "content": "# Denticity (The 'Bite' of a Ligand)\n\nLigands are classified by how many coordinate bonds they can form with the central metal simultaneously.\n\n## 1. Monodentate (One-toothed)\nDonate only one pair of electrons. Examples: H2O, NH3, Cl-, CN-.\n\n## 2. Bidentate (Two-toothed)\nHave two donor atoms that can bond to the metal at the same time, forming a ring structure. Examples: ethylenediamine (en), oxalate (ox).\n\n## 3. Polydentate (Many-toothed)\nCan donate multiple pairs. The most famous is **EDTA**, a hexadentate ligand (6 teeth) that wraps completely around a metal ion, trapping it perfectly. This trapping process is called **Chelation**."
+        },
+        {
+            "id": "coord_4",
+            "type": "content",
+            "title": "Isomerism in Complexes",
+            "content": "# Isomerism Overview\n\nJust like in organic chemistry, coordination compounds can have isomers (same formula, different structure). They are broadly divided into Structural Isomers and Stereoisomers.\n\n## Structural (Constitutional) Isomerism:\nThe bonds are connected completely differently.\n- **Linkage Isomerism:** A ligand can bind through different atoms (e.g., NO2- can bind through N or through O).\n- **Coordination Isomerism:** Swapping ligands between a complex cation and a complex anion.\n- **Ionization Isomerism:** A ligand swaps places with an uncoordinated counter-ion outside the coordination sphere."
+        },
+        {
+            "id": "coord_5",
+            "type": "content",
+            "title": "Stereoisomerism: Geometrical",
+            "content": "# Geometrical (Cis-Trans) Isomerism\n\nOccurs when ligands are arranged differently in 3D space, even though the same bonds exist.\n\n## Square Planar Complexes (CN=4)\nConsider a complex with formula MA2B2 (where M is metal, A and B are ligands):\n- **Cis Isomer:** The two identical ligands (A) are exactly 90 degrees apart (next to each other).\n- **Trans Isomer:** The two identical ligands (A) are exactly 180 degrees apart (across from each other).\n\n> **Medical Example:** Cisplatin (a square planar platinum complex) is a highly effective anti-cancer drug because its cis shape allows it to bind to DNA. Transplatin is completely ineffective!"
+        },
+        {
+            "id": "coord_6",
+            "type": "content",
+            "title": "Stereoisomerism: Octahedral",
+            "content": "# Geometrical Isomerism in Octahedrals\n\nOctahedral complexes (CN=6) offer more complex geometric arrangements.\n\n## MA4B2 Complexes\n- **Cis:** The two 'B' ligands are at 90 degrees to each other.\n- **Trans:** The two 'B' ligands are at 180 degrees (at opposite poles).\n\n## MA3B3 Complexes (Facial-Meridional)\n- **Facial (fac):** The three identical ligands occupy one \"face\" of the octahedron (they are all at 90 degrees to each other).\n- **Meridional (mer):** The three identical ligands form an arc around the \"equator\" or meridian of the octahedron (one pair is at 180 degrees)."
+        },
+        {
+            "id": "coord_7",
+            "type": "content",
+            "title": "Optical Isomerism",
+            "content": "# Optical Isomerism (Chirality)\n\nJust like carbon, some metal complexes can be chiral (non-superimposable mirror images) and rotate polarized light.\n\n## When does it happen?\nOptical isomerism is extremely common in octahedral complexes that contain two or three bidentate ligands (like ethylenediamine, \"en\").\n\nA complex like [Co(en)3]3+ looks like a three-bladed propeller. Like any propeller, it can have a \"left-handed\" twist (Lambda isomer) or a \"right-handed\" twist (Delta isomer). These are enantiomers!"
+        },
+        {
+            "id": "coord_8",
+            "type": "content",
+            "title": "Bonding Theories Overview",
+            "content": "# How do we explain the bonding?\n\nOver the years, chemists developed three progressive theories to explain the colors, shapes, and magnetism of coordination compounds:\n\n1. **Valence Bond Theory (VBT):** Explains geometry and basic magnetism using orbital hybridization (sp3, d2sp3). But it totally fails to explain why complexes are brightly colored.\n2. **Crystal Field Theory (CFT):** Treats ligands as simple negative point charges that repel the metal's d-electrons. Brilliantly explains colors and advanced magnetism.\n3. **Ligand Field Theory (LFT):** The most advanced theory. It combines CFT with Molecular Orbital theory for a perfect, quantum-mechanical description."
+        },
+        {
+            "id": "coord_9",
+            "type": "content",
+            "title": "Crystal Field Theory (CFT)",
+            "content": "# The Core Concept of CFT\n\nImagine a transition metal ion sitting alone in space. Its five d-orbitals all have the exact same energy (they are degenerate).\n\nNow, bring in six negatively charged ligands to form an octahedral complex. The ligands approach along the x, y, and z axes.\n\nBecause electrons repel other electrons, the metal's d-orbitals that point *directly* at the incoming ligands will be repelled more strongly. Their energy goes UP.\n\nThe d-orbitals that point *between* the ligands are repelled less. Their energy goes DOWN."
+        },
+        {
+            "id": "coord_10",
+            "type": "content",
+            "title": "The Crystal Field Splitting",
+            "content": "# The Octahedral Splitting (Delta o)\n\nThe approach of the six ligands splits the previously equal 5 d-orbitals into two distinct energy levels:\n\n1. **The eg set (Higher Energy):** 2 orbitals (dz2, dx2-y2) that point directly at the ligands.\n2. **The t2g set (Lower Energy):** 3 orbitals (dxy, dyz, dxz) that point between the ligands.\n\nThe energy gap between the upper and lower levels is called the **Crystal Field Splitting Energy (Delta o)**.\n\nThis simple energy gap is the secret behind almost everything interesting in transition metal chemistry!"
+        },
+        {
+            "id": "coord_11",
+            "type": "content",
+            "title": "The Origin of Color",
+            "content": "# Why are transition metals colored?\n\nTransition metal complexes are famous for their brilliant, vibrant colors (like the deep blue of Copper sulfate or the blood red of Iron thiocyanate).\n\n## The d-d Transition\nWhen white light hits the complex, an electron resting in the lower energy level (t2g) can absorb a photon and jump up to the higher energy level (eg).\n\nBecause the energy gap (Delta o) happens to match the energy of visible light, the complex absorbs a specific color of light to make the jump.\n\nThe color we see with our eyes is the **complementary color** of the light that was absorbed!"
+        },
+        {
+            "id": "coord_12",
+            "type": "content",
+            "title": "The Spectrochemical Series",
+            "content": "# The Spectrochemical Series\n\nWhy are some Cobalt complexes pink, while others are yellow? Because different ligands create different sized energy gaps (Delta o)!\n\nThe **Spectrochemical Series** is a ranking of ligands based on how much they split the d-orbitals:\n\n- **Weak Field Ligands (Small gap):** Halogens (I-, Br-, Cl-), Water (H2O). They cause a small energy gap, so they absorb low-energy light (red/orange) and look Green/Blue.\n- **Strong Field Ligands (Large gap):** Cyanide (CN-), Carbon Monoxide (CO). They cause a massive energy gap, absorbing high-energy light (violet) and looking Yellow/Orange."
+        },
+        {
+            "id": "coord_13",
+            "type": "content",
+            "title": "Magnetic Properties",
+            "content": "# Magnetism in Complexes\n\nThe magnetic behavior of a complex depends entirely on whether it has unpaired electrons.\n\n## Paramagnetism\n- The complex HAS unpaired electrons.\n- It is weakly attracted to a magnetic field.\n- The more unpaired electrons, the stronger the magnetic moment.\n\n## Diamagnetism\n- ALL electrons in the complex are perfectly paired up.\n- It is slightly repelled by a magnetic field.\n\nHow do we know if the electrons will pair up or remain unpaired? It depends on the size of the Crystal Field Splitting Energy (Delta o)!"
+        },
+        {
+            "id": "coord_14",
+            "type": "content",
+            "title": "High Spin vs Low Spin",
+            "content": "# The Electron Dilemma\n\nImagine a metal with 4 d-electrons (d4). The first 3 go into the bottom three orbitals (t2g). Where does the 4th one go?\n\nIt has two choices: pay energy to pair up with a lower electron (Pairing Energy, P), or pay energy to jump the gap to the upper level (Delta o).\n\n## 1. High Spin (Weak Field)\nIf the gap is small (Weak ligands like Water), it's easier to jump the gap than to pair up. Electrons stay unpaired. This creates a highly magnetic **High Spin** complex.\n\n## 2. Low Spin (Strong Field)\nIf the gap is massive (Strong ligands like Cyanide), it's too hard to jump. The electron is forced to pair up at the bottom. This creates a poorly magnetic **Low Spin** complex."
+        },
+        {
+            "id": "coord_15",
+            "type": "content",
+            "title": "Tetrahedral Splitting",
+            "content": "# Tetrahedral Complexes (CN=4)\n\nWhat if there are only 4 ligands approaching to form a tetrahedron?\n\nBecause of the geometry of a tetrahedron, the ligands do NOT point directly at any of the d-orbitals. They point between them.\n\n## The Result:\nThe splitting pattern is exactly **REVERSED** compared to octahedral!\n- The 3 orbitals point closer to the ligands and go UP in energy.\n- The 2 orbitals go DOWN in energy.\n\nBecause the ligands don't point directly at the orbitals, the splitting gap (Delta t) is always very small. **Tetrahedral complexes are almost ALWAYS High Spin.**"
+        },
+        {
+            "id": "coord_16",
+            "type": "content",
+            "title": "Applications of Coordination Compounds",
+            "content": "# Real-World Applications\n\nCoordination chemistry is vital to life and industry.\n\n## Biology\n- **Hemoglobin:** An iron complex that carries oxygen in our blood. The oxygen acts as a ligand!\n- **Chlorophyll:** A magnesium complex responsible for photosynthesis in plants.\n- **Vitamin B12:** A massive cobalt complex essential for nerve function.\n\n## Industry and Medicine\n- **Catalysis:** Wilkinson's catalyst (a Rhodium complex) is heavily used in industrial hydrogenation.\n- **Chelation Therapy:** EDTA is injected into patients with lead poisoning. It wraps around the toxic lead metal, allowing the body to excrete it safely."
+        },
+        {
+            "id": "coord_17",
+            "type": "content",
+            "title": "Summary of Coordination Chemistry",
+            "content": "# Module Summary\n\n## Key Takeaways:\n1. **Structure:** Coordination compounds feature a central metal bonded to ligands (Lewis bases) via coordinate covalent bonds.\n2. **Isomerism:** They exhibit rich structural and geometrical (cis/trans, fac/mer) isomerism, heavily influencing their function (like Cisplatin).\n3. **Crystal Field Theory:** Ligands split the metal's d-orbitals into different energy levels.\n4. **Color:** Electrons jumping across this energy gap absorb specific visible light.\n5. **Magnetism:** The size of the gap (determined by the Spectrochemical Series) dictates whether electrons pair up (Low Spin) or stay unpaired (High Spin)."
+        },
+        {
+            "id": "coord_quiz_1",
+            "type": "quiz",
+            "title": "Ligand Quiz",
+            "content": "Test your knowledge of ligand types.",
+            "quizQuestion": "A ligand like EDTA that can form multiple coordinate bonds simultaneously with a single metal ion to form a stable ring structure is called a:",
+            "quizOptions": [
+                "Monodentate ligand",
+                "Cis-ligand",
+                "Chelating ligand (Polydentate)",
+                "Counter-ion"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "coord_quiz_2",
+            "type": "quiz",
+            "title": "Crystal Field Theory Quiz",
+            "content": "Review the principles of d-orbital splitting.",
+            "quizQuestion": "In an octahedral complex with a STRONG field ligand (like Cyanide), the large energy gap forces electrons to pair up in the lower energy level. This results in a:",
+            "quizOptions": [
+                "High Spin complex",
+                "Low Spin complex",
+                "Tetrahedral complex",
+                "Colorless complex"
+            ],
+            "correctOptionIndex": 1
+        }
+    ]
+}

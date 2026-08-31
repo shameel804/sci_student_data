@@ -1,0 +1,130 @@
+{
+    "id": "learn_advgen_population",
+    "topicId": "population",
+    "topicTitle": "Population Genetics",
+    "description": "Zoom out from individual families to entire species, exploring the mathematical models that track how evolution actually occurs at the genetic level over time.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "advgen_pop_1",
+            "type": "content",
+            "title": "Welcome to Population Genetics",
+            "content": "# The Genetics of Evolution\n\nWelcome to **Population Genetics**!\n\nClassical genetics looks at how traits are passed from two parents to a few children. Population genetics zooms out to look at how alleles (versions of a gene) flow through an entire population of thousands of individuals over thousands of years.\n\n## What You Will Learn:\n- **The Hardy-Weinberg Principle** - The mathematical baseline\n- **Genetic Drift** - The power of random chance\n- **Gene Flow** - The impact of migration\n- **Natural Selection Models** - How nature shapes the curve\n\nLet's quantify evolution!"
+        },
+        {
+            "id": "advgen_pop_2",
+            "type": "content",
+            "title": "What is Population Genetics?",
+            "content": "# The Gene Pool\n\nTo a population geneticist, a population of animals is just a giant swimming pool full of floating alleles.\n\n## Allele Frequency\nThe core metric is **Allele Frequency**. \nIf 70% of the alleles in the gene pool are for brown fur, and 30% are for white fur, the frequencies are 0.70 and 0.30.\n\n> **The Definition of Evolution:** Evolution is nothing more than a change in allele frequencies over time. If the frequency of brown fur drops to 60% next year, the population has evolved!"
+        },
+        {
+            "id": "advgen_pop_3",
+            "type": "content",
+            "title": "Hardy-Weinberg Intro",
+            "content": "# The Null Hypothesis\n\nHow do we PROVE that a population is evolving? We need a baseline that proves what it looks like when a population is NOT evolving.\n\nIn 1908, G.H. Hardy and Wilhelm Weinberg developed the **Hardy-Weinberg Principle**.\n\nIt states that allele frequencies in a population will remain perfectly constant (in equilibrium) from generation to generation... IF AND ONLY IF five strict mathematical conditions are met."
+        },
+        {
+            "id": "advgen_pop_4",
+            "type": "content",
+            "title": "The Five Conditions",
+            "content": "# The Impossible Requirements\n\nFor a population to achieve Hardy-Weinberg equilibrium (Zero Evolution), all 5 of these conditions must be true simultaneously:\n\n1. **No Mutations:** The DNA cannot change.\n2. **Random Mating:** Everyone must have an equal chance of mating with everyone else (no sexual selection or preference for pretty feathers).\n3. **No Gene Flow:** Nobody can migrate into or out of the population.\n4. **Very Large Population Size:** Infinite is preferred, to eliminate random chance.\n5. **No Natural Selection:** All traits must have an equal chance of survival.\n\nBecause these conditions are impossible in the real world, **evolution is always happening!**"
+        },
+        {
+            "id": "advgen_pop_5",
+            "type": "content",
+            "title": "The H-W Equation",
+            "content": "# The Mathematical Formula\n\nIf we assume a population is in equilibrium for a single trait with two alleles (Dominant 'A' and Recessive 'a'), we can calculate exactly how many individuals should be homozygous or heterozygous.\n\n- Let **p** = the frequency of the Dominant allele (A)\n- Let **q** = the frequency of the Recessive allele (a)\n- Rule 1: **p + q = 1** (100% of the alleles)\n\n## The Equation:\n**p^2 + 2pq + q^2 = 1**\n\n- **p^2** = Expected frequency of Homozygous Dominant individuals (AA)\n- **2pq** = Expected frequency of Heterozygous individuals (Aa)\n- **q^2** = Expected frequency of Homozygous Recessive individuals (aa)"
+        },
+        {
+            "id": "advgen_pop_quiz_1",
+            "type": "quiz",
+            "title": "Hardy-Weinberg Quiz",
+            "content": "Check your understanding of the baseline.",
+            "quizQuestion": "In the Hardy-Weinberg equation (p^2 + 2pq + q^2 = 1), what does the term '2pq' mathematically represent?",
+            "quizQuestion": "In the Hardy-Weinberg equation, what does '2pq' represent?",
+            "quizOptions": [
+                "The frequency of Homozygous Dominant individuals",
+                "The frequency of Homozygous Recessive individuals",
+                "The frequency of Heterozygous individuals (carriers)",
+                "The mutation rate"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "advgen_pop_6",
+            "type": "content",
+            "title": "Violating H-W",
+            "content": "# Breaking the Rules\n\nWhen scientists find a real population, they measure the actual frequencies and compare them to the predicted Hardy-Weinberg numbers.\n\nIf the real numbers don't match the equation, it proves the population is evolving! The next step is figuring out WHICH of the 5 rules is being broken."
+        },
+        {
+            "id": "advgen_pop_7",
+            "type": "content",
+            "title": "Genetic Drift",
+            "content": "# Breaking Rule 4: Infinite Population\n\nIf a population is small, it violates the rule of Large Population Size. This causes **Genetic Drift**.\n\nGenetic Drift is evolution driven purely by random chance (luck), not by natural selection.\n\nImagine a population of 10 red bugs and 10 blue bugs. If a human accidentally steps on 9 of the red bugs, the blue bugs will dominate the next generation. The blue bugs were not \"fitter\" or \"better adapted\"; they just got lucky!"
+        },
+        {
+            "id": "advgen_pop_8",
+            "type": "content",
+            "title": "Bottlenecks and Founders",
+            "content": "# Extreme Genetic Drift\n\nThere are two famous types of genetic drift:\n\n## 1. The Bottleneck Effect\nA massive disaster (like a forest fire) indiscriminately kills 99% of a population. The few survivors rebuild the population, but the gene pool is now tiny and random, lacking all original genetic diversity.\n\n## 2. The Founder Effect\nA tiny group of individuals breaks away from the main population and colonizes a new island. The entire new island population is built purely from the random genes of those few \"founders,\" leading to bizarre allele frequencies (e.g., an unusually high rate of a rare genetic disease on a small island)."
+        },
+        {
+            "id": "advgen_pop_9",
+            "type": "content",
+            "title": "Gene Flow",
+            "content": "# Breaking Rule 3: No Migration\n\nIf animals migrate between different populations, it violates the rule of No Gene Flow.\n\n**Gene Flow** is the physical movement of alleles from one population to another.\n- Example: A brown wolf from Forest A migrates to Forest B and mates with a white wolf, introducing the brown allele into a population that never had it before.\n- Gene flow TENDS to reduce the genetic differences between the two populations, making them more similar to each other over time."
+        },
+        {
+            "id": "advgen_pop_quiz_2",
+            "type": "quiz",
+            "title": "Drift Quiz",
+            "content": "Check your understanding of random evolution.",
+            "quizQuestion": "A hurricane blows a small flock of birds off course, causing them to land on an uninhabited island. Over centuries, they form a massive new population, but they all share the exact same rare beak shape as the few original birds. This is an example of:",
+            "quizOptions": [
+                "The Founder Effect",
+                "Gene Flow",
+                "The Bottleneck Effect",
+                "Natural Selection"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "advgen_pop_10",
+            "type": "content",
+            "title": "Natural Selection",
+            "content": "# Breaking Rule 5: No Selection\n\nIf a trait provides a survival advantage, it violates the rule of No Natural Selection. Natural selection pushes allele frequencies in three specific directions, altering the bell curve of the population."
+        },
+        {
+            "id": "advgen_pop_11",
+            "type": "content",
+            "title": "Directional and Stabilizing",
+            "content": "# Shaping the Curve\n\n## 1. Directional Selection\nNature favors ONE extreme variation of a trait.\n- Example: As trees get taller over centuries, giraffes with longer and longer necks survive, while short-necked giraffes starve. The entire bell curve shifts sharply to the right.\n\n## 2. Stabilizing Selection\nNature favors the AVERAGE trait, and punishes both extremes.\n- Example: Human birth weight. Very small babies are too fragile to survive. Very large babies cause fatal complications during birth. The highest survival rate is for average-weight babies. The bell curve gets tall and narrow in the middle."
+        },
+        {
+            "id": "advgen_pop_12",
+            "type": "content",
+            "title": "Disruptive Selection",
+            "content": "# Splitting the Curve\n\n## 3. Disruptive (Diversifying) Selection\nNature favors BOTH extremes, and punishes the average trait.\n- Example: A population of rabbits lives in an area with very dark rocks and very white snow, but no grey mud. Pure white rabbits can hide in the snow. Pure black rabbits can hide on the rocks. Grey rabbits stand out against both backgrounds and get eaten by hawks.\n- The single bell curve splits into two separate peaks. Over thousands of years, this can lead to **Speciation** (the creation of two entirely different species)!"
+        },
+        {
+            "id": "advgen_pop_quiz_3",
+            "type": "quiz",
+            "title": "Selection Quiz",
+            "content": "Check your understanding of shaping populations.",
+            "quizQuestion": "Which type of natural selection favors the average individuals in a population and selects against both extreme variations?",
+            "quizOptions": [
+                "Directional Selection",
+                "Stabilizing Selection",
+                "Disruptive Selection",
+                "Sexual Selection"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "advgen_pop_13",
+            "type": "content",
+            "title": "Summary of Population Genetics",
+            "content": "# Population Genetics Summary\n\n## Key Takeaways:\n\n### The Baseline\n- The **Hardy-Weinberg Equation** (p^2 + 2pq + q^2 = 1) calculates expected frequencies in a non-evolving population.\n- Evolution ALWAYS occurs because populations violate the 5 conditions (No mutation, random mating, large size, no migration, no selection).\n\n### Forces of Evolution\n- **Genetic Drift** is evolution by random luck, driven by small populations (**Bottlenecks** and **Founder Effects**).\n- **Gene Flow** is evolution driven by migration between populations.\n- **Natural Selection** is non-random, shaping the population curve via **Directional**, **Stabilizing**, or **Disruptive** forces.\n\n> **Congratulations!** You have completed the Advanced Genetics module!"
+        }
+    ]
+}
