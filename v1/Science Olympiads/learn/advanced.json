@@ -1,0 +1,127 @@
+{
+    "id": "advanced",
+    "topicId": "advanced",
+    "topicTitle": "Advanced Olympiad (Class 11-12)",
+    "description": "Learn about Advanced problem solving, Theoretical concepts, Experimental design, and Scientific methodology.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "adv_1",
+            "type": "content",
+            "title": "Welcome to Advanced Olympiad",
+            "content": "# Advanced Science Olympiad\n\nWelcome to the **Advanced Olympiad** (Classes 11-12)!\n\n## What You Will Learn:\n- **Advanced problem solving** - Mathematical modeling and logic\n- **Theoretical concepts** - The deep laws of physics and chemistry\n- **Experimental design** - Controlling variables and errors\n- **Scientific methodology** - How real research is conducted\n\nAt this level, rote memorization is useless. You must think critically and synthetically to solve novel problems."
+        },
+        {
+            "id": "adv_2",
+            "type": "content",
+            "title": "Advanced Problem Solving",
+            "content": "# Multi-Step Logic\n\nAdvanced Olympiad problems rarely test a single concept. They are \"synthetic.\"\n\nFor example, a problem might require you to use Chemistry to find the moles of a gas produced, use Thermodynamics (Physics) to find the pressure of that gas, and use Calculus (Math) to find how fast the pressure is changing.\n\nYou must build mental bridges between different scientific disciplines."
+        },
+        {
+            "id": "adv_3",
+            "type": "content",
+            "title": "Mathematical Modeling",
+            "content": "# Building the Model\n\nReal-world problems are messy. **Mathematical Modeling** is the skill of simplifying the world into an equation.\n\n1. **Identify the core physics:** Is this a pendulum? A chemical equilibrium? A genetic drift?\n2. **Make assumptions:** We will ignore air resistance and assume the string is massless.\n3. **Write the equation:** Translate the physical laws into algebra or differential equations.\n4. **Solve and verify:** Does the mathematical answer make physical sense?"
+        },
+        {
+            "id": "adv_4",
+            "type": "content",
+            "title": "Approximations",
+            "content": "# The Art of Guessing\n\nIn advanced physics, exact equations are often impossible to solve by hand.\n\nYou must learn the art of mathematical approximation (like Taylor Series expansions).\nIf the angle \"x\" is very small, we can assume that sin(x) is roughly equal to x. \n\nKnowing *when* it is safe to ignore a tiny variable is a hallmark of a mature scientist."
+        },
+        {
+            "id": "adv_5",
+            "type": "content",
+            "title": "Theoretical Concepts",
+            "content": "# The Deep Laws\n\nWe move beyond the surface.\n\n- **Physics:** You must understand the mathematical derivations of Conservation of Energy and Momentum, not just the final formulas.\n- **Chemistry:** You must understand Molecular Orbital Theory and Quantum Numbers, not just basic drawing of bonds.\n- **Biology:** You must understand the biochemical pathways of genetics and cellular respiration at a molecular level."
+        },
+        {
+            "id": "adv_6",
+            "type": "quiz",
+            "title": "Modeling Quiz",
+            "content": "Test your scientific logic.",
+            "quizQuestion": "What is the primary purpose of making 'assumptions' (like ignoring air resistance) when building a mathematical model of a physical event?",
+            "quizOptions": [
+                "To make the final answer completely wrong",
+                "To simplify the mathematics enough to actually solve the equation, while still keeping the core behavior of the system accurate",
+                "Because air resistance does not actually exist",
+                "To avoid using a calculator"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "adv_7",
+            "type": "content",
+            "title": "Quantum Basics",
+            "content": "# The Quantum Realm\n\nClassical mechanics (Newton) breaks down at the atomic scale.\n\nIn the Quantum world:\n- Energy is not continuous; it comes in discrete, unbreakable chunks (Quanta/Photons).\n- Particles act like waves, and waves act like particles (Wave-Particle Duality).\n- You can never know both the exact position and the exact momentum of an electron at the same time (Heisenberg's Uncertainty Principle)."
+        },
+        {
+            "id": "adv_8",
+            "type": "content",
+            "title": "Thermodynamics Principles",
+            "content": "# The Laws of Heat and Chaos\n\nThe laws of Thermodynamics govern the entire universe.\n\n1. Energy is conserved.\n2. Entropy (disorder) is always increasing. Heat always flows from hot to cold. You can never build an engine that is 100% efficient.\n3. As temperature approaches Absolute Zero, the entropy of a perfect crystal approaches zero.\n\nThese macroscopic laws are derived from the statistical, random motion of billions of microscopic atoms."
+        },
+        {
+            "id": "adv_9",
+            "type": "content",
+            "title": "Experimental Design",
+            "content": "# Designing the Test\n\nAn Olympiad student must know how to design a rigorous experiment.\n\n## Variables:\n- **Independent Variable:** The ONE thing you purposefully change (e.g., the temperature of the water).\n- **Dependent Variable:** The thing you measure to get your results (e.g., how fast the salt dissolves).\n- **Controlled Variables:** Everything else you must keep exactly the same (the amount of salt, the size of the cup) so they don't ruin the test."
+        },
+        {
+            "id": "adv_10",
+            "type": "content",
+            "title": "Controls and Blinds",
+            "content": "# Ensuring Validity\n\n## The Control Group:\nYou must have a baseline to compare against. If testing a new fertilizer, you must grow some plants with NO fertilizer to prove the new stuff actually did something!\n\n## Blind Studies:\nIn biology/medicine, the patient should not know if they got the real drug or a fake sugar pill (Placebo effect). In a *Double-Blind* study, the scientist giving the pill doesn't know either, preventing accidental bias!"
+        },
+        {
+            "id": "adv_11",
+            "type": "content",
+            "title": "Errors in Measurement",
+            "content": "# The Reality of Error\n\nNo measurement is perfect.\n\n- **Systematic Error:** The scale is broken and always reads 1 kg too heavy. This skews all your data in one direction. It can be fixed by calibrating the tool.\n- **Random Error:** The wind blowing slightly, a tiny shake of the hand. This causes small fluctuations in both directions. It can be fixed by taking the average of many trials."
+        },
+        {
+            "id": "adv_12",
+            "type": "quiz",
+            "title": "Experiment Quiz",
+            "content": "Verify your understanding of experimental design.",
+            "quizQuestion": "In an experiment testing how sunlight affects plant growth, what is the 'Independent Variable'?",
+            "quizOptions": [
+                "The height of the plant at the end of the week",
+                "The type of soil used",
+                "The amount of sunlight you purposefully expose the plants to",
+                "The amount of water given to all the plants"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "adv_13",
+            "type": "content",
+            "title": "Precision vs Accuracy",
+            "content": "# The Target Practice Analogy\n\nThese words mean different things in science.\n\nImagine shooting arrows at a target:\n- **High Precision:** All your arrows hit the exact same spot, tightly grouped together. (Your results are repeatable).\n- **High Accuracy:** Your arrows hit the center bullseye. (Your results are close to the true value).\n\nYou can be highly precise but totally inaccurate (all arrows tightly grouped, but far away from the bullseye due to a systematic error)!"
+        },
+        {
+            "id": "adv_14",
+            "type": "content",
+            "title": "Scientific Methodology",
+            "content": "# How Science Progresses\n\nScience is not a list of facts; it is a *process* for discovering truth.\n\n1. Observe a phenomenon.\n2. Formulate a falsifiable Hypothesis.\n3. Design a controlled experiment to test it.\n4. Analyze the data objectively.\n5. Draw conclusions and publish for Peer Review."
+        },
+        {
+            "id": "adv_15",
+            "type": "content",
+            "title": "Data Analysis",
+            "content": "# The Story in the Numbers\n\nData is useless until it is analyzed.\n\nAdvanced students must use Statistics (like Standard Deviation and T-tests) to determine if a result is \"Statistically Significant.\"\n\nIf the drug cured 51 people and the sugar pill cured 50 people, statistics will mathematically prove that the difference is just random luck, and the drug actually failed."
+        },
+        {
+            "id": "adv_16",
+            "type": "content",
+            "title": "Peer Review and Ethics",
+            "content": "# The Gatekeepers\n\nBefore a discovery is accepted, it must pass **Peer Review**.\nOther scientists in the same field read the paper, look for flaws in the math, and try to replicate the experiment in their own labs. If they cannot replicate it, the discovery is rejected.\n\n**Scientific Ethics** demands absolute honesty. Falsifying data or stealing ideas destroys careers and slows down human progress."
+        },
+        {
+            "id": "adv_17",
+            "type": "content",
+            "title": "Summary of Advanced Olympiad",
+            "content": "# Advanced Summary\n\n## Key Takeaways:\n- **Advanced Problem Solving** requires building mathematical models and using approximations to synthesize multiple concepts.\n- **Theoretical Concepts** delve deep into Quantum mechanics and the unavoidable laws of Thermodynamics.\n- **Experimental Design** demands strict control of Variables, distinguishing between Systematic and Random Errors, and understanding Precision vs Accuracy.\n- **Scientific Methodology** relies on statistical Data Analysis, rigorous Peer Review, and uncompromising Ethics to discover the truth."
+        }
+    ]
+}

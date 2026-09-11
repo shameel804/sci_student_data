@@ -1,0 +1,127 @@
+{
+    "id": "quantum",
+    "topicId": "quantum",
+    "topicTitle": "Quantum Materials",
+    "description": "Learn about topological insulators, the quantum Hall effect, superconducting materials, and novel quantum states.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "qm_1",
+            "type": "content",
+            "title": "Welcome to Quantum Materials",
+            "content": "# Quantum Materials\n\nWelcome to the weird and wonderful world of **Quantum Materials**!\n\n## What You Will Learn:\n- **Topological insulators** - Insulators on the inside, conductors on the outside\n- **Quantum Hall effect** - When resistance becomes quantized\n- **Superconducting materials** - Zero electrical resistance\n- **Novel quantum states** - Exotic phases of matter\n\nIn condensed matter physics, billions of interacting electrons give rise to completely new, emergent quantum phenomena."
+        },
+        {
+            "id": "qm_2",
+            "type": "content",
+            "title": "Topological Insulators",
+            "content": "# Topological Insulators\n\nA **Topological Insulator** is a material with a bizarre split personality.\n\n## The Bulk vs The Surface:\n- **The Bulk:** The interior of the material behaves exactly like a normal electrical insulator (like rubber or glass). Electrons cannot flow through it.\n- **The Surface:** The very outer edge (or surface) behaves like a perfect metal conductor. Electrons flow freely!"
+        },
+        {
+            "id": "qm_3",
+            "type": "content",
+            "title": "Protection by Topology",
+            "content": "# Topological Protection\n\nWhy is the surface so special?\n\n## Time-Reversal Symmetry:\nThe conducting state on the surface is protected by a mathematical concept called topology (specifically, time-reversal symmetry).\n\nThis means the electrons on the surface are \"locked\" in their direction of travel based on their spin. They cannot scatter backward or bounce off impurities! They travel with almost zero resistance, making them highly attractive for future quantum electronics."
+        },
+        {
+            "id": "qm_4",
+            "type": "content",
+            "title": "The Quantum Hall Effect",
+            "content": "# The Quantum Hall Effect\n\nDiscovered in 1980, this effect occurs in two-dimensional materials subjected to extreme cold and massive magnetic fields.\n\n## The Classical Hall Effect:\nNormally, a magnetic field pushes flowing electrons to one side of a wire, creating a smooth, gradually increasing voltage across the wire.\n\n## The Quantum Hall Effect:\nIn extreme conditions, the voltage does not increase smoothly. It jumps up in perfectly flat, discrete steps (like a staircase). The resistance becomes exactly quantized!"
+        },
+        {
+            "id": "qm_5",
+            "type": "content",
+            "title": "Landau Levels",
+            "content": "# Landau Levels\n\nWhy does the resistance jump in steps?\n\n## The Magnetic Confinement:\nThe strong magnetic field forces the electrons to move in tiny, tight circles. Quantum mechanics dictates that they can only orbit at specific, discrete energy levels called **Landau Levels**.\n\nWhen one energy level is completely filled with electrons, the material suddenly becomes a perfect insulator in the interior, while current flows entirely along the edges, causing the quantized \"step\" in resistance."
+        },
+        {
+            "id": "qm_6",
+            "type": "quiz",
+            "title": "Topology Quiz",
+            "content": "Test your knowledge of exotic materials.",
+            "quizQuestion": "What is the defining characteristic of a Topological Insulator?",
+            "quizOptions": [
+                "It is a perfect insulator at all temperatures",
+                "It conducts electricity perfectly through its core, but its surface is an insulator",
+                "It acts as an insulator in its bulk interior, but acts as a robust conductor on its surface",
+                "It only conducts electricity when exposed to bright light"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "qm_7",
+            "type": "content",
+            "title": "Superconducting Materials",
+            "content": "# Superconducting Materials\n\n**Superconductivity** is the phenomenon where a material suddenly loses all electrical resistance when cooled below a critical temperature.\n\n## Perfect Conductivity:\nIf you create a loop of superconducting wire and start an electric current flowing through it, that current will flow forever without ever losing energy or slowing down.\n\nNo heat is generated, making them 100% efficient."
+        },
+        {
+            "id": "qm_8",
+            "type": "content",
+            "title": "The Meissner Effect",
+            "content": "# The Meissner Effect\n\nSuperconductors are not just perfect conductors; they are also perfect diamagnets.\n\n## Expelling Magnetic Fields:\nWhen a material becomes superconducting, it actively expels all magnetic fields from its interior. If you place a magnet on top of a superconductor, the superconductor will generate an opposing field that perfectly mirrors the magnet, causing the magnet to perfectly levitate in mid-air!"
+        },
+        {
+            "id": "qm_9",
+            "type": "content",
+            "title": "Types of Superconductors",
+            "content": "# Type I vs Type II\n\n## Type I Superconductors:\nUsually pure metals (like Lead or Mercury). They expel magnetic fields completely, but if the magnetic field gets too strong, the superconductivity abruptly collapses.\n\n## Type II Superconductors:\nUsually complex alloys or ceramics. They allow strong magnetic fields to penetrate them in tiny, localized tubes called \"magnetic vortices.\" This allows them to remain superconducting in incredibly high magnetic fields (crucial for building MRI machines)."
+        },
+        {
+            "id": "qm_10",
+            "type": "content",
+            "title": "Novel Quantum States",
+            "content": "# Novel Quantum States\n\nCondensed matter physics is constantly discovering entirely new phases of matter that don't fit into the standard solid/liquid/gas categories.\n\nWhen millions of electrons interact strongly with each other, they can \"forget\" they are individual particles and act as a collective, emergent quantum state."
+        },
+        {
+            "id": "qm_11",
+            "type": "content",
+            "title": "Quantum Spin Liquids",
+            "content": "# Quantum Spin Liquids\n\nIn a normal magnet, the spins of the electrons align in an orderly pattern (like tiny compass needles all pointing North) when cooled down.\n\n## Magnetic Frustration:\nIn a **Quantum Spin Liquid**, the crystal lattice is shaped in a way (often a triangle) that makes it impossible for all the spins to \"agree\" on a direction. They become magnetically frustrated.\n\nEven at absolute zero temperature, the spins never freeze. They continue to violently fluctuate in a highly entangled quantum fluid state!"
+        },
+        {
+            "id": "qm_12",
+            "type": "quiz",
+            "title": "Superconductor Quiz",
+            "content": "Verify your understanding of superconductivity.",
+            "quizQuestion": "What happens when a material exhibits the Meissner effect?",
+            "quizOptions": [
+                "It violently explodes",
+                "It absorbs all surrounding magnetic fields",
+                "It actively expels magnetic fields from its interior, allowing magnets to levitate",
+                "It turns into a Topological Insulator"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "qm_13",
+            "type": "content",
+            "title": "Weyl Semimetals",
+            "content": "# Weyl Semimetals\n\nIn 1929, Hermann Weyl predicted the existence of massless fermions. For decades, physicists thought neutrinos might be Weyl fermions, but they were proven to have mass.\n\n## The Condensed Matter Rescue:\nWhile we haven't found Weyl fermions floating in the vacuum of space, we *have* found them living inside crystals!\n\nIn **Weyl Semimetals**, the collective motion of electrons perfectly mimics the mathematics of massless, relativistic particles, creating highly exotic electrical properties."
+        },
+        {
+            "id": "qm_14",
+            "type": "content",
+            "title": "Fractional Charges",
+            "content": "# Fractional Charges\n\nWe know that the electron is an indivisible fundamental particle with a charge of -1.\n\n## Emergent Quasiparticles:\nHowever, in certain exotic 2D materials under intense magnetic fields (the Fractional Quantum Hall Effect), the electrons interact so strongly that the resulting collective \"waves\" act exactly like particles with a fractional charge, like 1/3 or 1/5 of an electron!\n\nThe electron didn't actually split; the *collective state* behaves as if it did."
+        },
+        {
+            "id": "qm_15",
+            "type": "content",
+            "title": "The Importance of Emergence",
+            "content": "# The Power of Emergence\n\n\"More is different.\" \n\nYou cannot predict the existence of a spin liquid or a fractional charge just by looking at the equations of a single isolated electron.\n\nThese phenomena only emerge when huge numbers of particles interact. Condensed matter physics proves that the whole is truly greater than the sum of its parts."
+        },
+        {
+            "id": "qm_16",
+            "type": "content",
+            "title": "Summary of Quantum Materials",
+            "content": "# Materials Summary\n\n## Key Takeaways:\n- **Topological Insulators** conduct only on their surfaces, protected by mathematical symmetry.\n- The **Quantum Hall Effect** results in perfectly quantized, stepped electrical resistance due to magnetic confinement into Landau levels.\n- **Superconductors** conduct with zero resistance and expel magnetic fields (the Meissner effect).\n- Strong interactions lead to **Novel States** like frustrated Spin Liquids and emergent fractional charges."
+        },
+        {
+            "id": "qm_17",
+            "type": "content",
+            "title": "Module Complete",
+            "content": "# Congratulations!\n\nYou have completed the Quantum Materials module.\n\nYou now understand the cutting edge of materials science, where the strangest aspects of quantum mechanics become visible in the macroscopic world."
+        }
+    ]
+}

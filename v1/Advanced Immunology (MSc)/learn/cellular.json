@@ -1,0 +1,127 @@
+{
+    "id": "cellular",
+    "topicId": "cellular",
+    "topicTitle": "Cellular Immunology",
+    "description": "Learn about T cell subsets, B cell memory, antigen presentation, and innate lymphoid cells.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "cell_1",
+            "type": "content",
+            "title": "Welcome to Cellular Immunology",
+            "content": "# Cellular Immunology\n\nWelcome to **Cellular Immunology**!\n\n## What You Will Learn:\n- **T cell subsets** - The generals and assassins\n- **B cell memory** - How your body remembers\n- **Antigen presentation** - Showing the enemy to the immune system\n- **Innate lymphoid cells** - The rapid responders\n\nThe immune system is a complex army, and we will study the specialized roles of its cellular soldiers."
+        },
+        {
+            "id": "cell_2",
+            "type": "content",
+            "title": "T Cell Subsets",
+            "content": "# The T Cell Army\n\nT cells are the core of adaptive immunity. They are born in the bone marrow but mature in the Thymus (hence \"T\" cell).\n\nThey do not produce antibodies. Instead, they scan the body for infected or cancerous cells and manage the entire immune response.\n\nThere are two main classes: CD4+ and CD8+ T cells."
+        },
+        {
+            "id": "cell_3",
+            "type": "content",
+            "title": "CD4+ Helper T Cells",
+            "content": "# CD4+ Helper T Cells\n\nCD4+ cells are the \"Generals\" of the immune system.\n\n## Their Role:\nThey do not directly kill infected cells. Instead, when they recognize a pathogen, they rapidly multiply and secrete chemical messengers (cytokines) that give orders to the rest of the immune system.\n\nWithout CD4+ cells, the immune system is essentially blind and paralyzed (which is exactly what happens in HIV/AIDS)."
+        },
+        {
+            "id": "cell_4",
+            "type": "content",
+            "title": "Th1, Th2, and Th17",
+            "content": "# Helper T Cell Flavors\n\nDepending on the type of threat, CD4+ \"generals\" will specialize into different subtypes to issue specific orders:\n\n- **Th1 Cells:** Specialize against intracellular bacteria and viruses. They activate macrophages to become hyper-aggressive killers.\n- **Th2 Cells:** Specialize against large extracellular parasites (like worms). They stimulate B cells to make specific antibodies and activate eosinophils.\n- **Th17 Cells:** Specialize against extracellular bacteria and fungi by recruiting massive amounts of neutrophils."
+        },
+        {
+            "id": "cell_5",
+            "type": "content",
+            "title": "CD8+ Cytotoxic T Cells",
+            "content": "# CD8+ Cytotoxic T Cells\n\nIf CD4+ cells are the generals, CD8+ cells are the \"Assassins.\"\n\n## Their Role:\nViruses hide *inside* our own cells, safe from antibodies. CD8+ cells are trained to inspect our cells. If they detect viral proteins inside a cell, they latch on and inject lethal enzymes (perforin and granzymes).\n\nThese enzymes trigger apoptosis, forcing the infected human cell to peacefully commit suicide before the virus can replicate!"
+        },
+        {
+            "id": "cell_6",
+            "type": "quiz",
+            "title": "T Cell Quiz",
+            "content": "Test your knowledge of T cell functions.",
+            "quizQuestion": "Which type of T cell is responsible for directly killing our own cells that have been infected by a virus?",
+            "quizOptions": [
+                "CD4+ Helper T cells",
+                "Th2 Cells",
+                "Regulatory T cells (Tregs)",
+                "CD8+ Cytotoxic T cells"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "cell_7",
+            "type": "content",
+            "title": "B Cell Memory",
+            "content": "# B Cells and Antibodies\n\nB cells are responsible for the \"humoral\" immune response. Their job is to produce massive amounts of antibodies that float through the blood and neutralize pathogens before they enter cells.\n\nWhen a naive B cell meets its matching antigen, it becomes activated, but it needs a confirming signal from a CD4+ Helper T cell before it commits to war."
+        },
+        {
+            "id": "cell_8",
+            "type": "content",
+            "title": "Plasma Cells",
+            "content": "# Plasma Cells\n\nOnce fully activated, the B cell transforms into a **Plasma Cell**.\n\n## Antibody Factories:\nPlasma cells swell up, filling entirely with Endoplasmic Reticulum. They stop dividing and dedicate 100% of their energy to manufacturing antibodies, pumping out up to 2,000 antibody molecules per *second*!\n\nMost of these plasma cells will die once the infection is cleared, but a few migrate to the bone marrow to live for years."
+        },
+        {
+            "id": "cell_9",
+            "type": "content",
+            "title": "Somatic Hypermutation",
+            "content": "# Somatic Hypermutation\n\nDuring a prolonged infection, B cells undergo a fascinating process called **Somatic Hypermutation**.\n\n## Evolution in Real Time:\nThe B cells intentionally mutate the DNA that codes for their antibodies at a million times the normal mutation rate.\n\nThose that randomly mutate a *better* binding antibody are allowed to survive and multiply, while those that mutate a worse antibody die. Over a few weeks, the antibodies become incredibly highly tuned to the pathogen!"
+        },
+        {
+            "id": "cell_10",
+            "type": "content",
+            "title": "Memory B Cells",
+            "content": "# The Secondary Response\n\nAfter the infection is gone, a small fraction of the optimized B cells become **Memory B Cells**.\n\n## Lifelong Protection:\nThese cells go dormant and patrol the blood for decades. If you are ever exposed to the exact same virus again, the memory cells activate instantly.\n\nBecause they are already optimized, they produce a massive tsunami of antibodies before the virus even has a chance to make you feel sick. This is the entire basis of how vaccines work!"
+        },
+        {
+            "id": "cell_11",
+            "type": "content",
+            "title": "Antigen Presentation",
+            "content": "# Antigen Presentation\n\nT cells are blind. They cannot \"see\" a free-floating virus. They can only see viral proteins if they are chopped up and \"presented\" to them on a silver platter by another cell.\n\n## The Silver Platter (MHC):\nThe silver platters are called **Major Histocompatibility Complex (MHC)** molecules.\n- **MHC Class I:** Found on EVERY cell in your body with a nucleus.\n- **MHC Class II:** Found ONLY on specialized immune cells (like Dendritic Cells)."
+        },
+        {
+            "id": "cell_12",
+            "type": "quiz",
+            "title": "B Cell Quiz",
+            "content": "Verify your understanding of immunological memory.",
+            "quizQuestion": "What is the primary function of a Plasma Cell?",
+            "quizOptions": [
+                "To kill virus-infected cells directly",
+                "To act as a long-term dormant memory cell",
+                "To act as a massive factory pumping out thousands of antibodies per second",
+                "To present antigens to T cells"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "cell_13",
+            "type": "content",
+            "title": "MHC I vs MHC II",
+            "content": "# How Presentation Works\n\n## MHC Class I (The Status Report):\nEvery cell constantly chops up a tiny sample of its own internal proteins and displays them on MHC-I. It is essentially saying, \"Look at what I am making.\" \n- If a virus gets inside, viral proteins are displayed.\n- **CD8+ Assassins** scan MHC-I. If they see viral proteins, they kill the cell.\n\n## MHC Class II (The Wanted Poster):\nSpecialized cells \"eat\" bacteria from the environment, chop them up, and display them on MHC-II. It is saying, \"Look what I found outside!\"\n- **CD4+ Generals** scan MHC-II. If they see foreign proteins, they initiate a full-scale immune response."
+        },
+        {
+            "id": "cell_14",
+            "type": "content",
+            "title": "Dendritic Cells",
+            "content": "# Dendritic Cells\n\n**Dendritic Cells** are the ultimate scouts of the immune system.\n\n## The Messengers:\nThey live in your skin and mucous membranes. When they detect and eat a pathogen, they stop acting locally and crawl into your lymphatic system, traveling to the nearest lymph node.\n\nThere, they act as professional Antigen Presenting Cells (APCs), showing their MHC-II \"wanted posters\" to thousands of naive T-cells until they find the one specific T-cell that recognizes the pathogen."
+        },
+        {
+            "id": "cell_15",
+            "type": "content",
+            "title": "Innate Lymphoid Cells",
+            "content": "# Innate Lymphoid Cells (ILCs)\n\nWe recently discovered a new family of cells: ILCs. They look like T cells, but they don't have specific receptors.\n\n## The Rapid Responders:\nWhile it takes 7-10 days for T cells and B cells to spin up a custom adaptive response, ILCs are pre-positioned in your mucosal tissues (lungs, gut).\n\nWhen a tissue is damaged, it sends out alarm chemicals. ILCs sense these alarms and instantly flood the area with cytokines to start fighting the infection on day one!"
+        },
+        {
+            "id": "cell_16",
+            "type": "content",
+            "title": "Natural Killer (NK) Cells",
+            "content": "# Natural Killer (NK) Cells\n\nNK cells are the most famous type of Innate Lymphoid Cell.\n\n## The License to Kill:\nViruses are smart. Some viruses turn OFF the MHC-I \"status report\" in infected cells to hide from the CD8+ assassins.\n\nNK cells exist to counter this. They constantly scan cells, and if they find a cell that has suspiciously hidden its MHC-I molecules, the NK cell immediately kills it. No questions asked!"
+        },
+        {
+            "id": "cell_17",
+            "type": "content",
+            "title": "Summary of Cellular Immunology",
+            "content": "# Cellular Summary\n\n## Key Takeaways:\n- **CD4+ Helper T cells** command the immune response, while **CD8+ Cytotoxic T cells** kill infected host cells.\n- **B cells** become antibody-pumping **Plasma cells** and undergo somatic hypermutation to perfect their attack, leaving behind long-lasting **Memory B cells**.\n- Pathogens must be presented on **MHC molecules** by professional scouts like **Dendritic Cells** for T cells to act.\n- **NK cells** provide rapid defense by killing any cell that tries to hide its MHC-I status report."
+        }
+    ]
+}

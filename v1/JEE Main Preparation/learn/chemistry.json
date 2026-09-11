@@ -1,0 +1,127 @@
+{
+    "id": "chemistry",
+    "topicId": "chemistry",
+    "topicTitle": "JEE Main Chemistry (Mechanics Focus)",
+    "description": "Learn about Kinematics problems, Dynamics applications, Work-energy theorem, Rotational motion, and Gravitation calculations.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "chem_1",
+            "type": "content",
+            "title": "Welcome to JEE Chemistry (Mechanics)",
+            "content": "# JEE Main Chemistry: Mechanics Focus\n\nWelcome to this unique module!\n\n*(Note: According to the syllabus mapping, this section specifically tests rigorous physical mechanics calculations)*\n\n## What You Will Learn:\n- **Kinematics problems** - Describing motion mathematically\n- **Dynamics applications** - Forces and acceleration\n- **Work-energy theorem** - The alternate way to solve\n- **Rotational motion** - Spinning objects\n- **Gravitation calculations** - Planets and orbits"
+        },
+        {
+            "id": "chem_2",
+            "type": "content",
+            "title": "Kinematics Problems",
+            "content": "# Kinematics: The Language of Motion\n\nKinematics does not care *why* an object is moving. It only cares about *how* it is moving.\n\nWe use three primary variables:\n1. **Displacement:** Where is it? (Vector)\n2. **Velocity:** How fast is its position changing? (Vector)\n3. **Acceleration:** How fast is its velocity changing? (Vector)"
+        },
+        {
+            "id": "chem_3",
+            "type": "content",
+            "title": "Equations of Motion",
+            "content": "# The Big Three Equations\n\nIf acceleration is constant, all kinematic problems can be solved using three equations.\n\n1. Final velocity equals initial velocity plus acceleration times time.\n2. Displacement equals initial velocity times time plus one-half acceleration times time squared.\n3. Final velocity squared equals initial velocity squared plus two times acceleration times displacement.\n\nMastering when to use which equation is the key to speed in the JEE exam."
+        },
+        {
+            "id": "chem_4",
+            "type": "content",
+            "title": "Projectile Motion",
+            "content": "# 2D Kinematics\n\nWhen a ball is thrown in the air, it moves in two dimensions simultaneously.\n\n## The Secret Trick:\nGravity ONLY pulls down. It does not pull sideways.\n\nTherefore, you completely separate the X (horizontal) and Y (vertical) math. The horizontal velocity never changes (zero acceleration), while the vertical velocity constantly changes due to gravity. The only variable they share is Time!"
+        },
+        {
+            "id": "chem_5",
+            "type": "content",
+            "title": "Dynamics Applications",
+            "content": "# Dynamics: Why Things Move\n\nDynamics introduces **Mass** and **Force** into the equations.\n\nWhile kinematics describes the flight of the ball, dynamics explains the force of the hand that threw it, and the friction of the air slowing it down."
+        },
+        {
+            "id": "chem_6",
+            "type": "quiz",
+            "title": "Projectile Quiz",
+            "content": "Test your 2D motion logic.",
+            "quizQuestion": "In ideal projectile motion (ignoring air resistance), what happens to the horizontal component of the velocity during the flight?",
+            "quizOptions": [
+                "It constantly decreases until it hits the ground",
+                "It constantly increases due to gravity",
+                "It remains perfectly constant throughout the entire flight",
+                "It drops to zero at the highest point of the arc"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "chem_7",
+            "type": "content",
+            "title": "Friction",
+            "content": "# The Force of Friction\n\nFriction is the force that opposes sliding motion between two surfaces.\n\n## Static vs Kinetic:\n- **Static Friction:** The force required to get a stationary object to *start* moving. It is always stronger.\n- **Kinetic Friction:** The force required to *keep* an object moving. It is always weaker.\n\nIt takes more force to break a heavy box loose than it does to keep it sliding across the floor."
+        },
+        {
+            "id": "chem_8",
+            "type": "content",
+            "title": "Work-Energy Theorem",
+            "content": "# The Work-Energy Theorem\n\nThis is one of the most powerful theorems in physics.\n\n**The total Work done by all forces on an object exactly equals the change in its Kinetic Energy.**\n\nIf you push a block (doing positive work) and friction resists it (doing negative work), you add them together. The net work perfectly predicts how much faster the block is now moving!"
+        },
+        {
+            "id": "chem_9",
+            "type": "content",
+            "title": "Potential Energy",
+            "content": "# Storing Energy\n\nWork done against a \"conservative force\" (like gravity or a spring) is not lost; it is stored as Potential Energy.\n\nIf you lift a book onto a high shelf, you did work against gravity. That energy is now stored in the book's height. If the book falls, gravity does work, converting that stored potential energy back into kinetic energy (speed)."
+        },
+        {
+            "id": "chem_10",
+            "type": "content",
+            "title": "Rotational Motion",
+            "content": "# Spinning Objects\n\nEverything you learned in linear mechanics translates perfectly to rotational mechanics.\n\n- Linear Mass becomes **Moment of Inertia** (how hard it is to start spinning).\n- Linear Force becomes **Torque** (twisting force).\n- Linear Momentum becomes **Angular Momentum**."
+        },
+        {
+            "id": "chem_11",
+            "type": "content",
+            "title": "Moment of Inertia",
+            "content": "# The Resistance to Spin\n\nMoment of Inertia depends not just on how much mass an object has, but *where* that mass is located.\n\nMass located far away from the axis of rotation is much harder to spin than mass located close to the center.\n\nThis is why a tightrope walker carries a long, heavy pole. The massive pole has a huge moment of inertia, making it very difficult for the walker to accidentally tip over and spin off the rope!"
+        },
+        {
+            "id": "chem_12",
+            "type": "quiz",
+            "title": "Rotation Quiz",
+            "content": "Verify your understanding of spinning objects.",
+            "quizQuestion": "Why does an ice skater spin much faster when they pull their arms in close to their body?",
+            "quizOptions": [
+                "Because they decrease their mass",
+                "Because they increase their torque",
+                "Because pulling their arms in decreases their Moment of Inertia, and to conserve angular momentum, their spin speed must increase",
+                "Because pulling their arms in increases their friction with the ice"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "chem_13",
+            "type": "content",
+            "title": "Torque and Equilibrium",
+            "content": "# Twisting Forces\n\n**Torque** is defined as Force multiplied by the perpendicular distance from the pivot point (the lever arm).\n\nIf you want to open a heavy door, you push on the handle (far from the hinges) because the large distance creates a massive Torque. If you push right next to the hinges, the distance is tiny, so the Torque is tiny, and the door won't move."
+        },
+        {
+            "id": "chem_14",
+            "type": "content",
+            "title": "Gravitation Calculations",
+            "content": "# Newton's Law of Gravitation\n\nNewton realized that the force making an apple fall is the exact same force keeping the Moon in orbit.\n\nEvery object in the universe attracts every other object. The force is proportional to their masses, and inversely proportional to the square of the distance between them.\n\nIf you double the distance between two planets, the gravitational force between them drops to one-quarter!"
+        },
+        {
+            "id": "chem_15",
+            "type": "content",
+            "title": "Orbital Velocity",
+            "content": "# Falling Around the Earth\n\nAn orbit is simply falling forever.\n\nIf you throw a ball, it falls to the ground. If you fire it out of a massive cannon, it goes further before hitting the ground.\n\nIf you fire it fast enough (Orbital Velocity), the Earth curves away underneath the ball at the exact same rate the ball is falling. The ball never hits the ground; it is in orbit!"
+        },
+        {
+            "id": "chem_16",
+            "type": "content",
+            "title": "Escape Velocity",
+            "content": "# Leaving the Planet\n\nIf you throw an object up, gravity pulls it back down. \n\nHowever, gravity gets weaker the further away you get. If you throw a rocket incredibly fast (Escape Velocity), it will travel so far, so quickly, that gravity weakens to near zero before it can pull the rocket back.\n\nThe rocket permanently escapes the planet's gravitational well."
+        },
+        {
+            "id": "chem_17",
+            "type": "content",
+            "title": "Summary of Mechanics Applications",
+            "content": "# Mechanics Summary\n\n## Key Takeaways:\n- **Kinematics** separates 2D motion into independent X and Y components.\n- **Dynamics** relies on forces, including the difference between Static and Kinetic friction.\n- The **Work-Energy Theorem** provides a shortcut to solving problems without calculating acceleration.\n- **Rotational Motion** introduces Moment of Inertia and Torque, following the strict conservation of Angular Momentum.\n- **Gravitation** dictates orbits (falling forever) and Escape Velocity (breaking the gravitational pull entirely)."
+        }
+    ]
+}

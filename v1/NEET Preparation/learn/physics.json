@@ -1,0 +1,127 @@
+{
+    "id": "physics",
+    "topicId": "physics",
+    "topicTitle": "NEET Physics (Physiology Details)",
+    "description": "Learn about Human physiology details, Digestive system, Respiratory system, Circulatory system, Excretory system, Nervous system, and Endocrine system.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "phys_1",
+            "type": "content",
+            "title": "Welcome to NEET Physics (Physiology)",
+            "content": "# NEET Physics: Physiology Details\n\nWelcome to this special module!\n\n*(Note: According to the syllabus outline, this section focuses deeply on the biological mechanics of Human Physiology systems)*\n\n## What You Will Learn:\n- **Digestive System** - Biochemical breakdown\n- **Respiratory System** - Gas physics in the lungs\n- **Circulatory System** - Fluid dynamics of blood\n- **Excretory System** - Filtration mechanics\n- **Nervous & Endocrine Systems** - Electrical and chemical signaling"
+        },
+        {
+            "id": "phys_2",
+            "type": "content",
+            "title": "Human Physiology Details",
+            "content": "# The Machine of the Body\n\nTo understand the body, you must understand both the biology and the physics behind it.\n\n- How does pressure drive blood flow?\n- How does diffusion drive gas exchange?\n- How do electrical potentials travel down a nerve?\n\nWe will examine the major organ systems with a focus on their detailed mechanisms of action."
+        },
+        {
+            "id": "phys_3",
+            "type": "content",
+            "title": "Digestive System",
+            "content": "# The Digestive System\n\nThe goal of digestion is to take massive, complex food molecules and break them down into microscopic monomers that can physically cross the intestinal wall into the blood.\n\n## Two Phases:\n1. **Mechanical Digestion:** Chewing in the mouth and churning in the stomach to physically break food into smaller pieces, increasing the surface area.\n2. **Chemical Digestion:** Using acid and specific enzymes to break chemical bonds (e.g., breaking proteins into amino acids)."
+        },
+        {
+            "id": "phys_4",
+            "type": "content",
+            "title": "Enzymes and Absorption",
+            "content": "# Chemical Breakdown\n\nDigestion relies heavily on enzymes secreted by the pancreas and the intestinal lining.\n- **Amylase:** Breaks down carbs.\n- **Protease (Pepsin/Trypsin):** Breaks down proteins.\n- **Lipase:** Breaks down fats (with the help of bile from the liver).\n\n## Absorption:\nMost absorption occurs in the Small Intestine, which is lined with millions of microscopic finger-like projections called **Villi**. These villi massively increase the surface area available for nutrient absorption."
+        },
+        {
+            "id": "phys_5",
+            "type": "content",
+            "title": "Respiratory System",
+            "content": "# The Respiratory System\n\nThe goal is simple: Get Oxygen in, get Carbon Dioxide out.\n\n## The Pathway:\nAir travels through the nose/mouth -> Pharynx -> Larynx -> Trachea -> Bronchi -> Bronchioles -> and finally reaches the **Alveoli**.\n\nThe Alveoli are millions of tiny, microscopic air sacs wrapped in tiny blood vessels (capillaries)."
+        },
+        {
+            "id": "phys_6",
+            "type": "quiz",
+            "title": "Digestion Quiz",
+            "content": "Test your knowledge of the digestive tract.",
+            "quizQuestion": "What is the primary function of the Villi in the small intestine?",
+            "quizOptions": [
+                "To mechanically grind food",
+                "To massively increase the surface area for nutrient absorption",
+                "To produce stomach acid",
+                "To store bile"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "phys_7",
+            "type": "content",
+            "title": "Gas Exchange",
+            "content": "# The Physics of Diffusion\n\nGas exchange in the alveoli is driven purely by **Diffusion** (movement from high concentration to low concentration). No energy is required.\n\n- The air in the alveoli has HIGH oxygen and LOW carbon dioxide.\n- The blood arriving from the body has LOW oxygen and HIGH carbon dioxide.\n\nTherefore, oxygen passively diffuses across the ultra-thin cell membranes into the blood, and CO2 diffuses out into the lungs to be exhaled."
+        },
+        {
+            "id": "phys_8",
+            "type": "content",
+            "title": "Circulatory System",
+            "content": "# The Circulatory System\n\nThe delivery network of the body. It consists of the Heart (the pump), the Blood Vessels (the pipes), and the Blood (the fluid).\n\n## The Double Loop:\nHumans have a closed, double-circulatory system:\n1. **Pulmonary Circuit:** The right side of the heart pumps oxygen-poor blood to the lungs to get oxygen, and it returns to the left side.\n2. **Systemic Circuit:** The left side of the heart (which is much thicker and stronger) pumps the oxygen-rich blood to the entire rest of the body."
+        },
+        {
+            "id": "phys_9",
+            "type": "content",
+            "title": "Blood Vessels",
+            "content": "# Arteries, Veins, Capillaries\n\n- **Arteries:** Carry blood AWAY from the heart. They have thick, muscular walls to withstand the high pressure of the heartbeat.\n- **Capillaries:** Microscopic vessels where the actual exchange of nutrients and gases occurs. Their walls are only one cell thick.\n- **Veins:** Carry blood BACK to the heart. They are under very low pressure and contain one-way valves to prevent blood from flowing backward."
+        },
+        {
+            "id": "phys_10",
+            "type": "content",
+            "title": "Excretory System",
+            "content": "# The Excretory System\n\nWhen cells break down proteins, they produce highly toxic ammonia. The liver converts this to a less toxic substance called Urea, but it must be removed from the blood.\n\nThe **Kidneys** are the primary filters.\n\nThey receive 20% of the heart's blood output every single minute!"
+        },
+        {
+            "id": "phys_11",
+            "type": "content",
+            "title": "The Nephron",
+            "content": "# How the Kidney Filters\n\nEach kidney contains about a million microscopic filtering units called **Nephrons**.\n\n## The Mechanism:\n1. **Ultrafiltration:** High blood pressure physically forces water and small molecules (sugar, salt, urea) out of the blood and into the nephron tube. Large things (red blood cells, proteins) stay in the blood.\n2. **Reabsorption:** The body cannot afford to lose all that water and sugar! The nephron spends massive amounts of energy actively pumping the \"good stuff\" back into the blood.\n3. **Urine Formation:** What is left in the tube (urea, excess water/salt) becomes urine."
+        },
+        {
+            "id": "phys_12",
+            "type": "quiz",
+            "title": "Circulation Quiz",
+            "content": "Verify your understanding of blood vessels.",
+            "quizQuestion": "Which type of blood vessel contains one-way valves to prevent blood from flowing backward under low pressure?",
+            "quizOptions": [
+                "Arteries",
+                "Capillaries",
+                "Aorta",
+                "Veins"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "phys_13",
+            "type": "content",
+            "title": "Nervous System",
+            "content": "# The Nervous System\n\nThe fast-acting control center. \n\n- **Central Nervous System (CNS):** The Brain and Spinal Cord. The decision-makers.\n- **Peripheral Nervous System (PNS):** The network of nerves branching out to the entire body. The messengers.\n\nThe basic functional unit of the nervous system is the **Neuron** (nerve cell)."
+        },
+        {
+            "id": "phys_14",
+            "type": "content",
+            "title": "Action Potentials",
+            "content": "# Electrical Signals\n\nNeurons communicate using electricity. They actively pump Sodium ions out and Potassium ions in, creating an electrical charge across their membrane (Resting Potential).\n\nWhen stimulated, \"gates\" open, Sodium rushes in, and the charge suddenly flips. This electrical spark (the **Action Potential**) travels rapidly down the long axon of the neuron to the target."
+        },
+        {
+            "id": "phys_15",
+            "type": "content",
+            "title": "Endocrine System",
+            "content": "# The Endocrine System\n\nThe slow-acting control center. It consists of glands that secrete hormones directly into the bloodstream.\n\nHormones travel everywhere in the body, but they only affect target cells that have the specific receptor for that hormone.\n\nMajor glands include the Pituitary (the master gland), Thyroid (metabolism), Pancreas (blood sugar), and Adrenal glands (stress/adrenaline)."
+        },
+        {
+            "id": "phys_16",
+            "type": "content",
+            "title": "Feedback Loops",
+            "content": "# Maintaining Homeostasis\n\nThe Endocrine system usually operates on **Negative Feedback Loops** to maintain balance.\n\nExample:\n1. Blood sugar rises after a meal.\n2. The Pancreas detects this and releases Insulin.\n3. Insulin causes cells to absorb the sugar.\n4. Blood sugar falls back to normal.\n5. The Pancreas detects the normal level and *stops* releasing Insulin."
+        },
+        {
+            "id": "phys_17",
+            "type": "content",
+            "title": "Summary of Human Physiology",
+            "content": "# Physiology Details Summary\n\n## Key Takeaways:\n- **Digestion** relies on enzymes and the massive surface area of intestinal Villi.\n- **Respiration** relies on passive diffusion of gases across the Alveoli.\n- **Circulation** uses a double-loop system to pump blood through high-pressure arteries and low-pressure veins.\n- **Excretion** occurs in the Kidney's Nephrons via high-pressure ultrafiltration followed by selective reabsorption.\n- **Control systems** use rapid electrical action potentials (Nervous) and slow, widespread chemical hormones (Endocrine) to maintain Homeostasis."
+        }
+    ]
+}

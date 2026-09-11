@@ -1,0 +1,127 @@
+{
+    "id": "blackholes",
+    "topicId": "blackholes",
+    "topicTitle": "Black Holes",
+    "description": "Understand the event horizon, Hawking radiation, accretion disks, and gravitational waves.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "bh_1",
+            "type": "content",
+            "title": "Welcome to Black Holes",
+            "content": "# Black Holes\n\nWelcome to the most extreme objects in the universe: **Black Holes**!\n\n## What You Will Learn:\n- **Event horizon** - The point of no return\n- **Hawking radiation** - How black holes evaporate\n- **Accretion disks** - The brightest objects in space\n- **Gravitational waves** - Ripples in spacetime\n\nBlack holes test the absolute limits of our understanding of physics."
+        },
+        {
+            "id": "bh_2",
+            "type": "content",
+            "title": "What is a Black Hole?",
+            "content": "# Defining a Black Hole\n\nAccording to Einstein's General Relativity, gravity is the warping of spacetime by mass.\n\n## The Extreme Warp:\nIf you compress a huge amount of mass into a tiny space, the gravitational pull becomes so intense that the spacetime fabric curves in on itself.\n\nThe gravity is so strong that the escape velocity exceeds the speed of light. Since nothing can travel faster than light, nothing (not even light) can escape it."
+        },
+        {
+            "id": "bh_3",
+            "type": "content",
+            "title": "The Singularity",
+            "content": "# The Singularity\n\nAt the very center of a black hole lies the **Singularity**.\n\n## Infinite Density:\nAll the mass of the black hole is crushed down into a single, zero-dimensional point. At this point, density is infinite, gravity is infinite, and the laws of physics as we know them completely break down.\n\n*Note: Most physicists believe the singularity doesn't actually exist; it just means our math (General Relativity) fails there and needs to be replaced by Quantum Gravity.*"
+        },
+        {
+            "id": "bh_4",
+            "type": "content",
+            "title": "The Event Horizon",
+            "content": "# The Event Horizon\n\nThe boundary surrounding the singularity is called the **Event Horizon**.\n\n## The Point of No Return:\nThis is the exact spherical boundary where the escape velocity equals the speed of light.\n- If you are outside the horizon, you can theoretically escape (if you have a fast enough rocket).\n- The instant you cross the horizon, your fate is sealed. You must fall into the singularity.\n\nAny event that happens inside the horizon can never be seen by the outside universe."
+        },
+        {
+            "id": "bh_5",
+            "type": "content",
+            "title": "The Schwarzschild Radius",
+            "content": "# The Schwarzschild Radius\n\nThe size of the event horizon depends entirely on the mass of the black hole. This radius is calculated using the **Schwarzschild equation**.\n\n## Fun Fact:\nANY object can become a black hole if you crush it down to its Schwarzschild radius.\n\n- To make the Earth a black hole, you must crush it to the size of a peanut (approx 9 mm).\n- To make the Sun a black hole, crush it to a radius of 3 km."
+        },
+        {
+            "id": "bh_6",
+            "type": "quiz",
+            "title": "Black Hole Basics Quiz",
+            "content": "Check your understanding of black hole anatomy.",
+            "quizQuestion": "What do we call the spherical boundary around a black hole beyond which nothing, not even light, can escape?",
+            "quizOptions": [
+                "The Singularity",
+                "The Accretion Disk",
+                "The Event Horizon",
+                "The Schwarzschild Singularity"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "bh_7",
+            "type": "content",
+            "title": "Accretion Disks",
+            "content": "# Accretion Disks\n\nBlack holes themselves are invisible, but the environment around them is the brightest in the universe.\n\n## The Swirl of Doom:\nWhen a black hole feeds on gas (like from a companion star), the gas doesn't fall straight in. Due to the conservation of angular momentum, the gas swirls around it like water going down a drain, forming a flat **Accretion Disk**.\n\nThe friction in this swirling disk heats the gas to millions of degrees, causing it to emit blinding X-rays."
+        },
+        {
+            "id": "bh_8",
+            "type": "content",
+            "title": "Quasars and Jets",
+            "content": "# Quasars and Jets\n\nSupermassive black holes (millions to billions of times the mass of our sun) live at the centers of most galaxies.\n\n## Quasars:\nWhen a supermassive black hole is actively feeding on massive amounts of gas, the accretion disk shines brighter than the entire rest of the galaxy combined. We call this a Quasar.\n\n## Relativistic Jets:\nMagnetic fields in the disk can twist and shoot a fraction of the infalling matter out from the poles at near the speed of light, creating massive cosmic jets."
+        },
+        {
+            "id": "bh_9",
+            "type": "content",
+            "title": "Spaghettification",
+            "content": "# Spaghettification\n\nWhat happens if you fall into a black hole?\n\n## Tidal Forces:\nBecause gravity increases as you get closer, the pull on your feet (if you fall feet first) is much stronger than the pull on your head.\n\nFor a small stellar-mass black hole, this difference is so extreme it stretches you out like a piece of spaghetti long before you reach the event horizon. This morbid process is officially called **Spaghettification**."
+        },
+        {
+            "id": "bh_10",
+            "type": "content",
+            "title": "Hawking Radiation",
+            "content": "# Hawking Radiation\n\nIn 1974, Stephen Hawking proved that black holes are not perfectly black.\n\n## Quantum Effects at the Horizon:\nEmpty space is filled with virtual particle-antiparticle pairs popping in and out of existence.\n\nHawking realized that if a pair pops into existence right on the edge of the event horizon, one particle might fall in, while the other escapes into space. To the outside observer, it looks like the black hole is emitting radiation!"
+        },
+        {
+            "id": "bh_11",
+            "type": "content",
+            "title": "Black Hole Evaporation",
+            "content": "# Black Hole Evaporation\n\nBecause of Hawking Radiation, black holes slowly lose mass over time.\n\n## The Timeline:\n- The radiation is incredibly weak for massive black holes.\n- As the black hole shrinks, it gets hotter and radiates faster.\n- Eventually, it will evaporate completely in a final, massive explosion of gamma rays.\n\nHowever, a black hole the mass of our Sun would take approx 10^67 years to evaporate\u2014far longer than the current age of the universe!"
+        },
+        {
+            "id": "bh_12",
+            "type": "quiz",
+            "title": "Hawking Radiation Quiz",
+            "content": "Verify your understanding of quantum black holes.",
+            "quizQuestion": "According to Stephen Hawking, what will eventually happen to a black hole if it stops absorbing new matter?",
+            "quizOptions": [
+                "It will grow infinitely large",
+                "It will slowly evaporate over an immense amount of time due to Hawking Radiation",
+                "It will instantly explode into a supernova",
+                "It will remain exactly the same size forever"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "bh_13",
+            "type": "content",
+            "title": "The Information Paradox",
+            "content": "# The Information Paradox\n\nHawking Radiation created a massive crisis in physics.\n\n## The Problem:\nQuantum mechanics strictly states that \"information\" (the exact quantum state of particles) can never be destroyed.\n\nBut if matter falls into a black hole, and the black hole eventually evaporates into random, featureless thermal radiation, what happened to the information of the stuff that fell in? Was it destroyed? Physicists are still debating the solution today!"
+        },
+        {
+            "id": "bh_14",
+            "type": "content",
+            "title": "Gravitational Waves",
+            "content": "# Gravitational Waves\n\nIn 1916, Einstein predicted that massive accelerating objects should create ripples in the fabric of spacetime, called **Gravitational Waves**.\n\nBecause gravity is a very weak force, these ripples are microscopic. Einstein thought we would never possess the technology to detect them."
+        },
+        {
+            "id": "bh_15",
+            "type": "content",
+            "title": "Merging Black Holes",
+            "content": "# The Ultimate Cosmic Crash\n\nThe strongest gravitational waves are produced when two black holes orbit each other and finally collide.\n\nAs they spiral inward, they warp space so violently that they radiate massive amounts of energy in the form of gravitational waves. In the final fraction of a second before they merge, the power output of the gravitational waves is greater than the light output of all the stars in the observable universe combined!"
+        },
+        {
+            "id": "bh_16",
+            "type": "content",
+            "title": "LIGO and the New Astronomy",
+            "content": "# The Discovery\n\nIn 2015, exactly 100 years after Einstein's prediction, the LIGO observatory made the first-ever detection of gravitational waves.\n\n## How it Works:\nLIGO bounces lasers down massive 4-kilometer L-shaped tunnels. When a gravitational wave passes through Earth, it physically stretches one tunnel and squeezes the other by a fraction of the width of a proton.\n\nThis opened up a brand new way to observe the universe, hearing it instead of just seeing it!"
+        },
+        {
+            "id": "bh_17",
+            "type": "content",
+            "title": "Summary of Black Holes",
+            "content": "# Black Holes Summary\n\n## Key Takeaways:\n- The **Event Horizon** is the boundary where escape velocity equals the speed of light.\n- Friction in the **Accretion Disk** makes the area around a black hole glow fiercely.\n- Quantum mechanics dictates that black holes slowly evaporate via **Hawking Radiation**.\n- When black holes collide, they send out ripples in spacetime called **Gravitational Waves**, which we can now detect on Earth.\n\nCongratulations! You have completed the Astrophysics modules!"
+        }
+    ]
+}

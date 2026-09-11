@@ -1,0 +1,127 @@
+{
+    "id": "clinical",
+    "topicId": "clinical",
+    "topicTitle": "Clinical Immunology",
+    "description": "Understand autoimmunity, tumor immunology, transplantation, and immunodeficiency.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "clin_1",
+            "type": "content",
+            "title": "Welcome to Clinical Immunology",
+            "content": "# Clinical Immunology\n\nWelcome to **Clinical Immunology**!\n\n## What You Will Learn:\n- **Autoimmunity** - When the body attacks itself\n- **Tumor immunology** - The war against cancer\n- **Transplantation** - Accepting foreign organs\n- **Immunodeficiency** - When the system fails\n\nWe will examine what happens when the incredibly powerful immune system makes a mistake."
+        },
+        {
+            "id": "clin_2",
+            "type": "content",
+            "title": "Autoimmunity",
+            "content": "# Autoimmunity: Loss of Tolerance\n\nDuring V(D)J recombination, T and B cells are generated completely at random. Statistically, thousands of cells are created every day that are perfectly designed to attack your own heart, brain, or skin!\n\n## Central Tolerance:\nBefore they are allowed into the blood, T cells are rigorously tested in the Thymus. Any T cell that reacts to human proteins is immediately forced to undergo apoptosis (suicide). \n\n**Autoimmunity** occurs when this screening process fails, and a self-reactive cell escapes into the body."
+        },
+        {
+            "id": "clin_3",
+            "type": "content",
+            "title": "Molecular Mimicry",
+            "content": "# Molecular Mimicry\n\nSometimes, autoimmunity is triggered by an infection.\n\n## The Trap:\nSome bacteria evolve proteins on their surface that look almost exactly like human proteins.\n\nWhen your immune system mounts an aggressive attack against the bacteria, the resulting antibodies are so similar to your own tissue that they accidentally cross-react and attack your own organs! (e.g., Rheumatic fever attacking heart valves after a Strep throat infection)."
+        },
+        {
+            "id": "clin_4",
+            "type": "content",
+            "title": "Autoimmune Diseases",
+            "content": "# Common Autoimmune Diseases\n\nAutoimmune attacks can target specific organs or the whole body systemically.\n\n- **Type 1 Diabetes:** CD8+ T cells specifically hunt down and destroy the insulin-producing cells in the pancreas.\n- **Rheumatoid Arthritis:** The immune system attacks the joint linings, causing severe inflammation and bone erosion.\n- **Systemic Lupus Erythematosus (Lupus):** B cells produce antibodies against the patient's own DNA and cell nuclei, causing systemic damage everywhere."
+        },
+        {
+            "id": "clin_5",
+            "type": "content",
+            "title": "Tumor Immunology",
+            "content": "# Tumor Immunology\n\nCancer is not a foreign invader; it is your own cells mutating and multiplying out of control.\n\n## Immune Surveillance:\nBecause cancer cells are highly mutated, their internal proteins look \"weird.\" When they present these mutated proteins on their MHC-I molecules, CD8+ T cells recognize them as abnormal and kill the cancer cell.\n\nYour immune system likely kills dozens of microscopic cancers over your lifetime without you ever knowing!"
+        },
+        {
+            "id": "clin_6",
+            "type": "quiz",
+            "title": "Autoimmunity Quiz",
+            "content": "Test your knowledge of immune failures.",
+            "quizQuestion": "What is 'Molecular Mimicry' in the context of autoimmunity?",
+            "quizOptions": [
+                "When a virus pretends to be a red blood cell",
+                "When antibodies designed to fight a pathogen accidentally cross-react with human tissue because they look so similar",
+                "When the immune system perfectly copies the DNA of a bacteria",
+                "When a T cell changes its receptor to match a B cell"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "clin_7",
+            "type": "content",
+            "title": "Immunoediting",
+            "content": "# Cancer Immunoediting\n\nIf the immune system kills cancer, why do people get tumors?\n\n## The Evolution of Cancer:\n1. **Elimination:** The immune system kills most cancer cells.\n2. **Equilibrium:** A few highly mutated cancer cells survive the initial attack and exist in a standoff with the immune system.\n3. **Escape:** The cancer cells actively evolve defenses to hide from or suppress the immune system, eventually growing out of control into a tumor."
+        },
+        {
+            "id": "clin_8",
+            "type": "content",
+            "title": "Escaping Detection",
+            "content": "# How Cancer Escapes\n\nCancer uses several dirty tricks to evade the immune assassins:\n\n1. **Hiding the Target:** Cancer cells often mutate to completely stop expressing MHC-I molecules, making them invisible to T cells.\n2. **Trench Warfare:** Tumors secrete a massive cloud of immunosuppressive cytokines (like TGF-beta). When T cells enter the tumor microenvironment, they become exhausted and paralyzed.\n3. **Hitting the Brakes:** Cancer cells heavily express the PD-L1 \"don't shoot\" flag. When T cells see this, their PD-1 checkpoints force them to stand down."
+        },
+        {
+            "id": "clin_9",
+            "type": "content",
+            "title": "Checkpoint Inhibitors",
+            "content": "# The Immunotherapy Revolution\n\nIn 2018, the Nobel Prize in Medicine was awarded for Checkpoint Inhibitor therapy.\n\n## The Cure:\nInstead of attacking the cancer directly with toxic chemotherapy, doctors inject the patient with synthetic antibodies that block the PD-1 receptors on the patient's own T cells.\n\nBy \"cutting the brakes,\" the T cells can no longer be put to sleep by the tumor. The paralyzed T cells wake up and ruthlessly slaughter the cancer! This has resulted in complete cures for previously fatal cancers like advanced melanoma."
+        },
+        {
+            "id": "clin_10",
+            "type": "content",
+            "title": "Transplantation",
+            "content": "# Transplantation Immunology\n\nReplacing a failing heart or kidney with a donor organ is a medical miracle, but a nightmare for the immune system.\n\n## The Problem of Rejection:\nYour T cells are trained to recognize your specific MHC molecules as \"self.\" When you put a donor organ into a patient, the patient's T cells see billions of foreign MHC molecules on the donor tissue and immediately launch a massive, coordinated attack to destroy the organ."
+        },
+        {
+            "id": "clin_11",
+            "type": "content",
+            "title": "HLA Matching",
+            "content": "# HLA Matching\n\nIn humans, MHC molecules are called **HLA** (Human Leukocyte Antigens).\n\n## Finding a Match:\nThere are thousands of different HLA genetic variants in the population. The closer the HLA match between the donor and recipient (like between siblings), the less severe the immune rejection will be.\n\nHowever, because minor proteins still differ, almost all transplant patients must take heavy immunosuppressive drugs for the rest of their lives to prevent rejection."
+        },
+        {
+            "id": "clin_12",
+            "type": "quiz",
+            "title": "Cancer Quiz",
+            "content": "Verify your understanding of modern cancer treatments.",
+            "quizQuestion": "How do Checkpoint Inhibitor drugs (like anti-PD-1) fight cancer?",
+            "quizOptions": [
+                "They act as toxic chemotherapy chemicals that poison the tumor",
+                "They block the 'brakes' on the patient's own T cells, allowing the immune system to wake up and attack the cancer",
+                "They surgically remove the tumor",
+                "They prevent the cancer from growing new blood vessels"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "clin_13",
+            "type": "content",
+            "title": "Graft-Versus-Host Disease",
+            "content": "# Graft-Versus-Host Disease (GVHD)\n\nNormally, the host rejects the graft (the new organ). But in bone marrow transplants, the opposite can happen!\n\n## The Reverse Attack:\nBecause bone marrow *contains* the donor's immune system, when it is transplanted into a patient, the donor's T cells wake up, look around, and realize the entire patient's body is \"foreign.\"\n\nThe transplanted immune system attacks the patient's liver, skin, and gut. This is incredibly dangerous and must be aggressively managed."
+        },
+        {
+            "id": "clin_14",
+            "type": "content",
+            "title": "Immunodeficiency",
+            "content": "# Immunodeficiency\n\nSometimes, the immune system fails to work at all. This leaves the patient highly vulnerable to opportunistic infections.\n\n## Two Categories:\n1. **Primary Immunodeficiency:** Genetic disorders you are born with.\n2. **Secondary (Acquired) Immunodeficiency:** Caused by external factors later in life, such as malnutrition, radiation, or viruses (like HIV)."
+        },
+        {
+            "id": "clin_15",
+            "type": "content",
+            "title": "Primary Immunodeficiency",
+            "content": "# SCID (The Bubble Boy Disease)\n\nThe most severe primary immunodeficiency is **Severe Combined Immunodeficiency (SCID)**.\n\n## The Genetic Flaw:\nPatients are born with a mutation (often in the RAG enzymes) that prevents them from forming any functional T cells or B cells.\n\nWithout an adaptive immune system, even a common cold virus is 100% fatal. Patients must live in completely sterile isolation bubbles until they can receive a successful bone marrow transplant."
+        },
+        {
+            "id": "clin_16",
+            "type": "content",
+            "title": "Secondary Immunodeficiency",
+            "content": "# HIV and AIDS\n\nThe Human Immunodeficiency Virus (HIV) is an incredibly sinister pathogen because it specifically infects and destroys CD4+ Helper T cells.\n\n## The Collapse:\nAs HIV slowly kills off the CD4+ \"generals,\" the immune system loses its ability to coordinate. When the CD4+ count drops below a critical threshold, the patient develops AIDS (Acquired Immunodeficiency Syndrome).\n\nPatients do not die of HIV; they die of common, everyday fungi or mild viruses that a healthy immune system would effortlessly destroy."
+        },
+        {
+            "id": "clin_17",
+            "type": "content",
+            "title": "Summary of Clinical Immunology",
+            "content": "# Clinical Summary\n\n## Key Takeaways:\n- **Autoimmunity** happens when tolerance fails and T/B cells attack healthy tissue (e.g., Lupus, Type 1 Diabetes).\n- **Tumors** escape the immune system by hitting the PD-1 \"brakes\" on T cells; new therapies block these brakes to cure cancer.\n- **Transplantation** requires matching HLA types to prevent the host from rejecting the organ, or the organ from attacking the host (GVHD).\n- **Immunodeficiencies** like SCID (genetic) or HIV/AIDS (acquired) leave patients fatally vulnerable by crippling the adaptive immune response."
+        }
+    ]
+}

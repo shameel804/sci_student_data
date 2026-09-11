@@ -1,0 +1,127 @@
+{
+    "id": "downstream",
+    "topicId": "downstream",
+    "topicTitle": "Downstream Processing",
+    "description": "Examine cell disruption, chromatography, membrane separation, and product crystallization.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "ds_1",
+            "type": "content",
+            "title": "Welcome to Downstream Processing",
+            "content": "# Downstream Processing\n\nWelcome to **Downstream Processing**!\n\n## What You Will Learn:\n- **Cell disruption** - Breaking open the vault\n- **Chromatography** - The ultimate purification tool\n- **Membrane separation** - Filtering the soup\n- **Product crystallization** - The final solid product\n\nFermentation (Upstream) makes the drug. Downstream Processing purifies it so it is safe to inject into a human."
+        },
+        {
+            "id": "ds_2",
+            "type": "content",
+            "title": "The Challenge of Downstream",
+            "content": "# Finding the Needle\n\nWhen the bioreactor finishes, you have 20,000 liters of a disgusting, brown, smelly soup containing water, dead cells, waste products, and millions of random proteins.\n\nYour drug (the active pharmaceutical ingredient) might only make up 0.1% of that soup.\n\nDownstream processing often accounts for up to 80% of the total manufacturing cost of a drug because purifying it to 99.9% purity is incredibly difficult."
+        },
+        {
+            "id": "ds_3",
+            "type": "content",
+            "title": "Cell Disruption",
+            "content": "# Cell Disruption\n\nIf the drug was secreted into the liquid, you can just filter out the cells. But if the drug is trapped *inside* the cells, you must break them open (lysis).\n\n## Chemical Methods:\nYou can use enzymes (like Lysozyme) or detergents to dissolve the cell walls. This is gentle but very expensive at an industrial scale.\n\n## Mechanical Methods:\nYou can physically smash the cells open using extreme violence."
+        },
+        {
+            "id": "ds_4",
+            "type": "content",
+            "title": "High-Pressure Homogenization",
+            "content": "# Mechanical Disruption\n\n## High-Pressure Homogenization:\nThe liquid cell soup is forced through a microscopic valve at insanely high pressure (like a pressure washer on steroids).\n\nAs the cells exit the tiny valve, the sudden drop in pressure causes them to literally explode, releasing the drug into the liquid.\n\n*Danger: This generates massive amounts of heat, which can instantly cook and destroy the delicate protein drug if not actively cooled!*"
+        },
+        {
+            "id": "ds_5",
+            "type": "content",
+            "title": "Membrane Separation",
+            "content": "# Filtering the Soup\n\nOnce the cells are broken (or if the drug was secreted), you must separate the liquid from the solid garbage.\n\n## Dead-End Filtration:\nLike a coffee filter. The liquid is pushed straight down into a membrane. The solids quickly build up on the membrane, clogging it (filter cake). Not great for industry.\n\n## Cross-Flow Filtration (TFF):\nThe liquid flows *parallel* to the membrane. The rushing liquid constantly sweeps the membrane clean, preventing clogs! Only the pure liquid (permeate) gets sucked through the pores."
+        },
+        {
+            "id": "ds_6",
+            "type": "quiz",
+            "title": "Filtration Quiz",
+            "content": "Test your knowledge of industrial separation.",
+            "quizQuestion": "Why is Cross-Flow (Tangential Flow) Filtration preferred over traditional Dead-End filtration in the biopharma industry?",
+            "quizOptions": [
+                "It is much cheaper to build",
+                "It doesn't require electricity",
+                "The parallel flow sweeps the membrane clean, preventing the filter from instantly clogging with cellular debris",
+                "It kills bacteria better"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "ds_7",
+            "type": "content",
+            "title": "Ultrafiltration and Diafiltration",
+            "content": "# Concentrating the Drug\n\nNow you have 20,000 liters of clean liquid, but the drug is heavily diluted in water and salts.\n\n## Ultrafiltration:\nYou use a Cross-Flow membrane with pores so tiny that water and salt can pass through, but the large protein drug cannot. As you push the water out, the drug becomes highly concentrated.\n\n## Diafiltration:\nWhile concentrating, you pump in pure buffer liquid, effectively \"washing\" the drug and removing all the original fermentation salts."
+        },
+        {
+            "id": "ds_8",
+            "type": "content",
+            "title": "Chromatography",
+            "content": "# Chromatography\n\nThis is the most powerful purification tool in science. It separates molecules based on their physical or chemical properties.\n\n## The Setup:\nYou have a massive steel column packed with microscopic plastic beads (the stationary phase). You pump your liquid drug soup (the mobile phase) through the column.\n\nDepending on the coating on the beads, different proteins will flow through at different speeds."
+        },
+        {
+            "id": "ds_9",
+            "type": "content",
+            "title": "Types of Chromatography",
+            "content": "# Polishing the Drug\n\n1. **Ion Exchange (IEX):** The beads are electrically charged (e.g., positive). Negative proteins stick to the beads, while positive proteins wash right through. You then change the salt concentration to release the target protein.\n2. **Size Exclusion (SEC):** The beads have tiny holes in them. Small proteins get trapped in the maze of holes and move very slowly. Massive proteins can't fit in the holes and wash straight through quickly!"
+        },
+        {
+            "id": "ds_10",
+            "type": "content",
+            "title": "Affinity Chromatography",
+            "content": "# Affinity Chromatography\n\nThis is the ultimate \"magic bullet\" of purification.\n\n## The Lock and Key:\nThe beads are coated with a molecule (a ligand) that perfectly, physically binds ONLY to your specific drug, and completely ignores every other protein in the soup.\n\nFor example, to purify antibodies, the beads are coated with \"Protein A.\" You pour the dirty soup in, the antibody sticks to the beads, all the garbage washes away, and then you change the pH to release a 99% pure antibody!"
+        },
+        {
+            "id": "ds_11",
+            "type": "content",
+            "title": "Preparative Scale",
+            "content": "# Scaling up Chromatography\n\nLab chromatography columns are the size of a pencil.\n\nIndustrial (Preparative) chromatography columns are the size of a car, packed with millions of dollars worth of microscopic resin beads.\n\nRunning these massive columns requires intense mathematical fluid dynamics to ensure the liquid flows perfectly evenly across the entire massive bed of beads without channeling."
+        },
+        {
+            "id": "ds_12",
+            "type": "quiz",
+            "title": "Chromatography Quiz",
+            "content": "Verify your understanding of protein purification.",
+            "quizQuestion": "Which type of chromatography acts like a maze, slowing down small proteins while allowing massive proteins to wash straight through quickly?",
+            "quizOptions": [
+                "Ion Exchange Chromatography",
+                "Affinity Chromatography",
+                "Size Exclusion Chromatography",
+                "High-Pressure Homogenization"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "ds_13",
+            "type": "content",
+            "title": "Product Crystallization",
+            "content": "# The Final Step\n\nFor many small-molecule drugs (like Aspirin or Penicillin), the final step of downstream processing is forcing the pure, liquid drug to turn into a solid powder.\n\nThis is done via **Crystallization**.\n\nA solid, crystalline powder is incredibly stable, can sit on a pharmacy shelf for years without rotting, and is easy to press into pills."
+        },
+        {
+            "id": "ds_14",
+            "type": "content",
+            "title": "Supersaturation",
+            "content": "# Supersaturation\n\nTo make a crystal, you must first create a **Supersaturated** solution.\n\n## The Concept:\nYou dissolve the drug in a hot liquid. Hot liquids can hold more dissolved solid than cold liquids.\n\nThen, you slowly cool the tank down. The liquid becomes \"supersaturated\"\u2014it contains more dissolved drug than physics normally allows at that cold temperature. The drug desperately wants to crash out of the liquid and become solid."
+        },
+        {
+            "id": "ds_15",
+            "type": "content",
+            "title": "Nucleation and Growth",
+            "content": "# Building the Crystal\n\n## 1. Nucleation:\nThe hardest step. A few drug molecules bump into each other and form a microscopic, highly ordered structure (the nucleus). Often, engineers must \"seed\" the tank by throwing in a handful of pre-made crystals to get it started.\n\n## 2. Crystal Growth:\nOnce the nucleus exists, the rest of the supersaturated drug molecules rapidly stack onto it like Lego bricks, growing into massive, pure crystals!"
+        },
+        {
+            "id": "ds_16",
+            "type": "content",
+            "title": "Summary of Downstream Processing",
+            "content": "# Downstream Summary\n\n## Key Takeaways:\n- **Cell Disruption** (like High-Pressure Homogenization) violently breaks open cells to release internal drugs.\n- **Cross-Flow Filtration** separates liquids from solids without clogging.\n- **Chromatography** (Ion Exchange, Size Exclusion, Affinity) is the most powerful tool for separating proteins based on charge, size, or specific binding.\n- **Crystallization** uses supersaturation to turn a pure liquid drug into a stable, solid powder ready for pill pressing."
+        },
+        {
+            "id": "ds_17",
+            "type": "content",
+            "title": "Module Complete",
+            "content": "# Congratulations!\n\nYou have completed the Downstream Processing module.\n\nYou now know how to extract a pure, life-saving drug from a vat of biological soup."
+        }
+    ]
+}

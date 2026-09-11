@@ -1,0 +1,127 @@
+{
+    "id": "editing",
+    "topicId": "editing",
+    "topicTitle": "Genome Editing",
+    "description": "Understand Zinc finger nucleases, TALEN technology, CRISPR systems, and therapeutic genome editing.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "edit_1",
+            "type": "content",
+            "title": "Welcome to Genome Editing",
+            "content": "# Genome Editing\n\nWelcome to the final frontier of Recombinant DNA: **Genome Editing**!\n\n## What You Will Learn:\n- **Zinc finger nucleases** - The first generation of editors\n- **TALEN technology** - The second generation\n- **CRISPR systems** - The revolution\n- **Therapeutic genome editing** - Curing genetic diseases\n\nWe are moving beyond simply inserting plasmids; we are directly rewriting the host's chromosomal DNA."
+        },
+        {
+            "id": "edit_2",
+            "type": "content",
+            "title": "The Core Concept",
+            "content": "# How to Edit a Genome\n\nTo edit a genome, you need two distinct capabilities combined into one tool:\n\n1. **A DNA binding domain:** A molecular \"bloodhound\" that scans billions of base pairs and binds to ONE highly specific target sequence.\n2. **A Nuclease domain:** Molecular \"scissors\" that cut the DNA strand exactly where the bloodhound stops.\n\nOnce the DNA is cut, the cell's natural repair mechanisms kick in, allowing us to delete or insert genes at the cut site."
+        },
+        {
+            "id": "edit_3",
+            "type": "content",
+            "title": "Zinc Finger Nucleases",
+            "content": "# Zinc Finger Nucleases (ZFNs)\n\nZFNs were the first major programmable genome editing tool.\n\n## The Bloodhound:\nThey use \"Zinc Finger\" proteins, naturally occurring structural motifs that bind to DNA. Each individual zinc finger recognizes a specific 3-base-pair sequence (a triplet) of DNA.\n\nBy stringing together 3 to 6 custom zinc fingers in a row, scientists can create a domain that binds to a specific 9 to 18 base-pair target sequence."
+        },
+        {
+            "id": "edit_4",
+            "type": "content",
+            "title": "The FokI Scissors",
+            "content": "# The FokI Endonuclease\n\nFor the \"scissors\" part of the ZFN, scientists used the cutting domain from an enzyme called **FokI**.\n\n## The Catch:\nFokI only cuts DNA when it dimerizes (when TWO FokI molecules join together).\n\nTherefore, to make a cut, scientists have to engineer TWO completely different Zinc Finger proteins: one to bind the left side of the target, and one to bind the right side. When they sit next to each other, the FokI scissors merge and cut the DNA."
+        },
+        {
+            "id": "edit_5",
+            "type": "content",
+            "title": "The Downfall of ZFNs",
+            "content": "# Why We Moved On\n\nWhile revolutionary, ZFNs were incredibly difficult to use.\n\n## Context Dependency:\nZinc fingers don't always behave nicely. The way a finger binds to its 3-letter target can be disrupted by the neighboring fingers. \n\nEngineering a working ZFN was an expensive, trial-and-error nightmare that took months of lab work for a single target."
+        },
+        {
+            "id": "edit_6",
+            "type": "quiz",
+            "title": "ZFN Quiz",
+            "content": "Test your knowledge of early gene editors.",
+            "quizQuestion": "Why do scientists need to engineer TWO different Zinc Finger Nucleases to make a single cut in the DNA?",
+            "quizOptions": [
+                "Because DNA has two strands",
+                "Because the FokI cutting enzyme only works when two of them join together (dimerize)",
+                "To cut out a large chunk of DNA rather than a single slice",
+                "Because one ZFN only binds to RNA"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "edit_7",
+            "type": "content",
+            "title": "TALEN Technology",
+            "content": "# TALEN Technology\n\nTranscription Activator-Like Effector Nucleases (TALENs) emerged as the second generation of editors, solving the problems of ZFNs.\n\n## A Simpler Cipher:\nTALEs are proteins discovered in a plant pathogen. Unlike zinc fingers that bind to 3 letters at a time, each TALE domain binds to exactly ONE single letter of DNA (A, T, C, or G).\n\nThis simple 1-to-1 cipher made them vastly easier to program than ZFNs."
+        },
+        {
+            "id": "edit_8",
+            "type": "content",
+            "title": "Building TALENs",
+            "content": "# Building a TALEN\n\nJust like ZFNs, TALENs use the FokI nuclease as the scissors, so you still have to engineer a left and a right TALEN to make a cut.\n\n## The Drawback:\nBecause each TALE domain is a large chunk of protein, stringing 20 of them together to target a 20-letter sequence results in a massive, unwieldy plasmid that is difficult to deliver into mammalian cells.\n\nTALENs were easier to design than ZFNs, but harder to deliver. We needed something better."
+        },
+        {
+            "id": "edit_9",
+            "type": "content",
+            "title": "The CRISPR Revolution",
+            "content": "# The CRISPR-Cas9 Revolution\n\nDiscovered in 2012, CRISPR completely revolutionized biology and won the 2020 Nobel Prize in Chemistry.\n\n## The Paradigm Shift:\nZFNs and TALENs require scientists to engineer a custom, complex **Protein** to find the DNA target.\n\nCRISPR uses a custom piece of **RNA** to find the target. Making custom RNA in the lab takes hours and costs pennies, compared to months and thousands of dollars for custom proteins."
+        },
+        {
+            "id": "edit_10",
+            "type": "content",
+            "title": "How CRISPR Works",
+            "content": "# Anatomy of CRISPR\n\nCRISPR has two main components:\n\n1. **The Cas9 Protein:** The permanent, universal scissors. It never changes.\n2. **The Guide RNA (gRNA):** A short RNA string that docks inside Cas9. \n\nThe gRNA is exactly 20 letters long. It scans the genome, and when it finds a 20-letter DNA sequence that perfectly matches its RNA sequence via Watson-Crick base pairing, it locks on, and Cas9 cuts both strands of the DNA."
+        },
+        {
+            "id": "edit_11",
+            "type": "content",
+            "title": "The PAM Sequence",
+            "content": "# The PAM Sequence\n\nCas9 has one strict requirement: it will not cut a target unless the target is immediately followed by a short sequence called the **PAM** (Protospacer Adjacent Motif).\n\nFor the standard Cas9 (from Streptococcus pyogenes), the PAM is N-G-G (any letter, followed by two Guanines).\n\nThis acts as a safety mechanism, preventing the Cas9 from accidentally cutting the bacteria's own genome."
+        },
+        {
+            "id": "edit_12",
+            "type": "quiz",
+            "title": "CRISPR Quiz",
+            "content": "Verify your understanding of the CRISPR revolution.",
+            "quizQuestion": "Why is CRISPR-Cas9 drastically easier and cheaper to use than ZFNs or TALENs?",
+            "quizOptions": [
+                "It uses a cheap, easily customizable piece of RNA to find the target instead of a complex custom protein",
+                "It doesn't require cutting the DNA",
+                "Cas9 is a much smaller enzyme than FokI",
+                "It naturally occurs in human cells"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "edit_13",
+            "type": "content",
+            "title": "Repairing the Cut",
+            "content": "# Cellular Repair: NHEJ vs HDR\n\nOnce CRISPR cuts the DNA, the cell panics and tries to fix the break.\n\n## Non-Homologous End Joining (NHEJ):\nThe cell frantically glues the broken ends back together. This is sloppy and usually adds or deletes a few random letters, completely disabling the gene. Perfect for \"knocking out\" a disease gene.\n\n## Homology-Directed Repair (HDR):\nIf you provide a \"template\" DNA strand along with the CRISPR, the cell will use the template to flawlessly repair the break, allowing you to insert a brand new gene!"
+        },
+        {
+            "id": "edit_14",
+            "type": "content",
+            "title": "Therapeutic Genome Editing",
+            "content": "# Therapeutic Applications\n\nWe are now using these tools in human clinical trials to cure genetic diseases at their root cause.\n\n## Ex Vivo Therapy (Outside the Body):\nCells (like bone marrow stem cells) are extracted from the patient, edited in a safe lab environment to fix a genetic defect (like Sickle Cell Anemia), checked for safety, and then infused back into the patient."
+        },
+        {
+            "id": "edit_15",
+            "type": "content",
+            "title": "CAR-T Cell Therapy",
+            "content": "# CAR-T Cells\n\nOne of the most successful Ex Vivo therapies is CAR-T cell therapy for blood cancers.\n\n## The Process:\nA patient's T-cells (immune cells) are extracted. Scientists use vectors and genome editing to insert a \"Chimeric Antigen Receptor\" (CAR) gene into them.\n\nThis new gene acts like a targeting system, reprogramming the T-cells to specifically hunt down and destroy leukemia cells when infused back into the patient."
+        },
+        {
+            "id": "edit_16",
+            "type": "content",
+            "title": "Summary of Genome Editing",
+            "content": "# Genome Editing Summary\n\n## Key Takeaways:\n- Editing requires a programmable **DNA-binding domain** linked to a **cutting nuclease**.\n- **ZFNs** and **TALENs** rely on engineering complex, custom proteins to find DNA targets.\n- **CRISPR-Cas9** revolutionized the field by using easily programmable **Guide RNA** to find the target.\n- Cells repair the cuts via **NHEJ** (destroying the gene) or **HDR** (inserting a new gene).\n- **Therapies** like CAR-T cells are already curing untreatable cancers by editing the patient's own immune system."
+        },
+        {
+            "id": "edit_17",
+            "type": "content",
+            "title": "Course Complete",
+            "content": "# Congratulations!\n\nYou have completed the Recombinant DNA Technology course.\n\nYou now possess a firm grasp on the tools that are currently shaping the future of medicine, agriculture, and synthetic biology."
+        }
+    ]
+}

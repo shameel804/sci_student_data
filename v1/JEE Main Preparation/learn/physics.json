@@ -1,0 +1,127 @@
+{
+    "id": "physics",
+    "topicId": "physics",
+    "topicTitle": "JEE Main Physics",
+    "description": "Learn about Mechanics problems, Electromagnetism concepts, Optics applications, and Modern physics topics.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "phy_1",
+            "type": "content",
+            "title": "Welcome to JEE Main Physics",
+            "content": "# JEE Main Physics Overview\n\nWelcome to **JEE Main Physics**!\n\n## What You Will Learn:\n- **Mechanics problems** - The foundation of motion and forces\n- **Electromagnetism concepts** - Electricity and magnetism united\n- **Optics applications** - The physics of light and lenses\n- **Modern physics topics** - Quantum mechanics and atoms\n\nPhysics requires strong conceptual understanding and rigorous problem-solving skills."
+        },
+        {
+            "id": "phy_2",
+            "type": "content",
+            "title": "Mechanics Problems",
+            "content": "# Mechanics\n\nMechanics is the oldest branch of physics, dealing with the motion of objects and the forces that cause that motion.\n\nIt is the absolute foundation of the JEE Physics syllabus. If you do not understand mechanics, you will struggle with electromagnetism and modern physics.\n\nKey areas include Kinematics (describing motion) and Dynamics (explaining why things move)."
+        },
+        {
+            "id": "phy_3",
+            "type": "content",
+            "title": "Newton's Laws",
+            "content": "# Newton's Laws in Problem Solving\n\nMost mechanics problems boil down to applying Newton's Second Law:\n\n**Force equals mass times acceleration**\n\n## The Strategy:\n1. Draw a Free Body Diagram (FBD) for every object.\n2. Identify all forces acting on the object (gravity, normal force, tension, friction).\n3. Break forces into X and Y components.\n4. Set the sum of forces equal to mass times acceleration."
+        },
+        {
+            "id": "phy_4",
+            "type": "content",
+            "title": "Conservation Laws",
+            "content": "# The Power of Conservation\n\nSome mechanics problems are too difficult to solve using forces and acceleration.\n\nInstead, we use **Conservation Laws**:\n- **Conservation of Energy:** Total initial energy equals total final energy. (Kinetic plus Potential).\n- **Conservation of Momentum:** Total initial momentum equals total final momentum (crucial for collision problems).\n\nThese laws allow you to skip the complex middle steps and jump straight to the final answer!"
+        },
+        {
+            "id": "phy_5",
+            "type": "content",
+            "title": "Electromagnetism Concepts",
+            "content": "# Electromagnetism\n\nElectromagnetism is the study of charged particles, electric fields, and magnetic fields.\n\nIt is the most conceptually difficult part of the JEE syllabus because you cannot \"see\" an electric field the way you can see a block sliding down a ramp.\n\nIt unites electricity and magnetism into a single, elegant framework."
+        },
+        {
+            "id": "phy_6",
+            "type": "quiz",
+            "title": "Mechanics Quiz",
+            "content": "Test your problem-solving strategy.",
+            "quizQuestion": "When solving a complex collision problem where forces are unknown, which principle is usually the best to apply?",
+            "quizOptions": [
+                "Newton's First Law",
+                "Conservation of Momentum",
+                "Kinematic equations of motion",
+                "Hooke's Law for springs"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "phy_7",
+            "type": "content",
+            "title": "The Electric Field",
+            "content": "# The Electric Field\n\nA charge creates an \"aura\" around itself called an Electric Field. If another charge enters this aura, it feels a force.\n\nInstead of calculating the force between two distant charges directly, we say:\n1. Charge A creates a Field everywhere in space.\n2. Charge B sits in that Field and feels a force equal to its charge times the Field strength.\n\nThis two-step concept is vital for advanced problems."
+        },
+        {
+            "id": "phy_8",
+            "type": "content",
+            "title": "Maxwell's Connection",
+            "content": "# The Grand Connection\n\nElectricity and Magnetism are two sides of the same coin.\n\n- Moving electric charges (current) create a magnetic field.\n- A changing magnetic field creates an electric field (Electromagnetic Induction).\n\nUnderstanding how these two fields constantly generate each other is the key to solving complex circuits and understanding light waves."
+        },
+        {
+            "id": "phy_9",
+            "type": "content",
+            "title": "Optics Applications",
+            "content": "# Optics\n\nOptics is the study of light.\n\n## Two Branches:\n1. **Ray Optics (Geometrical):** Treats light as straight lines (rays) that bounce off mirrors and bend through lenses. Used to design telescopes and glasses.\n2. **Wave Optics (Physical):** Treats light as a wave that can bend around corners (diffraction) and overlap to create patterns (interference). Proves that light is a wave."
+        },
+        {
+            "id": "phy_10",
+            "type": "content",
+            "title": "Ray Optics Problems",
+            "content": "# Solving Ray Optics\n\nMost JEE problems in Ray Optics involve the Lens Formula or Mirror Formula.\n\n## The Sign Convention:\nThe most common reason students get optics problems wrong is failing to use the proper sign convention.\n- Distances measured in the direction of incoming light are positive.\n- Distances measured against the incoming light are negative.\n\nMaster the sign convention, and the math becomes easy."
+        },
+        {
+            "id": "phy_11",
+            "type": "content",
+            "title": "Interference and Diffraction",
+            "content": "# Wave Optics Phenomena\n\n## Young's Double Slit Experiment:\nThe most important experiment in Wave Optics. It proves light is a wave by showing that two beams of light can overlap and perfectly cancel each other out, creating a dark spot!\n\n## Diffraction:\nWhy can you hear someone around a corner, but you can't see them? Because sound waves are large enough to bend (diffract) around human-sized corners, but visible light waves are too tiny."
+        },
+        {
+            "id": "phy_12",
+            "type": "quiz",
+            "title": "Optics Quiz",
+            "content": "Verify your understanding of light.",
+            "quizQuestion": "Which phenomenon provides the most direct proof that light acts as a wave rather than just a stream of particles?",
+            "quizOptions": [
+                "Reflection in a mirror",
+                "Refraction through a lens",
+                "Interference patterns in Young's Double Slit Experiment",
+                "Shadows cast by a solid object"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "phy_13",
+            "type": "content",
+            "title": "Modern Physics Topics",
+            "content": "# Modern Physics\n\nModern Physics covers discoveries made after 1900, primarily Quantum Mechanics and Relativity.\n\nIn the JEE syllabus, it is often considered the most scoring section because the questions are usually direct applications of formulas with very little complex geometry or calculus required."
+        },
+        {
+            "id": "phy_14",
+            "type": "content",
+            "title": "The Photoelectric Effect",
+            "content": "# Particle Nature of Light\n\nWhile Wave Optics proved light is a wave, the **Photoelectric Effect** proved light is ALSO a particle (a photon).\n\nWhen light hits a metal plate, it knocks electrons out. But Albert Einstein proved that only the *color* (frequency) of the light matters, not the brightness. \n\nThis means light delivers energy in discrete, unbreakable packets (photons). A red photon simply doesn't have enough energy to knock an electron out, no matter how many red photons you shine!"
+        },
+        {
+            "id": "phy_15",
+            "type": "content",
+            "title": "Atomic Structure",
+            "content": "# The Bohr Model\n\nNiels Bohr combined classical physics with early quantum ideas to explain the Hydrogen atom.\n\nHe proposed that electrons orbit the nucleus, but they can only exist in specific, allowed \"energy levels.\" They cannot exist in between.\n\nWhen an electron jumps down from a high level to a low level, it spits out a photon of light with an exact, specific color. This explains why heated gases glow with specific spectral lines."
+        },
+        {
+            "id": "phy_16",
+            "type": "content",
+            "title": "Nuclear Physics",
+            "content": "# The Nucleus\n\nThe nucleus is held together by the Strong Nuclear Force, which is vastly stronger than the electrical repulsion trying to blow the protons apart.\n\n## Mass Defect:\nThe mass of a nucleus is actually *less* than the sum of its parts. The missing mass was converted entirely into binding energy, according to Einstein's famous equation relating energy to mass and the speed of light."
+        },
+        {
+            "id": "phy_17",
+            "type": "content",
+            "title": "Summary of JEE Physics",
+            "content": "# Physics Summary\n\n## Key Takeaways:\n- **Mechanics** requires rigorous application of Newton's Laws and Conservation principles.\n- **Electromagnetism** focuses on the invisible fields that dictate the motion of charged particles.\n- **Optics** treats light as both a geometric ray (for lenses) and an interfering wave (Double Slit).\n- **Modern Physics** introduces the quantum world, where light is a photon particle, and energy exists in discrete, quantized levels."
+        }
+    ]
+}

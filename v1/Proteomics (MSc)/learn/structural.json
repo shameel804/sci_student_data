@@ -1,0 +1,127 @@
+{
+    "id": "structural",
+    "topicId": "structural",
+    "topicTitle": "Structural Proteomics",
+    "description": "Understand X-ray crystallography, NMR spectroscopy, Cryo-EM, and AI protein folding.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "str_1",
+            "type": "content",
+            "title": "Welcome to Structural Proteomics",
+            "content": "# Structural Proteomics\n\nWelcome to **Structural Proteomics**!\n\n## What You Will Learn:\n- **X-ray crystallography** - The classic method\n- **NMR spectroscopy** - Seeing proteins in solution\n- **Cryo-electron microscopy** - The resolution revolution\n- **Protein folding** - AI and AlphaFold\n\nFunction follows form. To truly understand how a protein works (or how to design a drug to stop it), you must know its exact 3D shape."
+        },
+        {
+            "id": "str_2",
+            "type": "content",
+            "title": "The Visibility Problem",
+            "content": "# Why Can't We Just Look at Them?\n\nProteins are incredibly small (often just a few nanometers wide).\n\n## The Diffraction Limit:\nYou cannot use a normal light microscope to see a protein. The physical wavelength of visible light (400-700 nanometers) is vastly larger than the protein itself. The light wave just washes completely over the protein without noticing it.\n\nTo \"see\" a protein, you need a wave that is smaller than the atoms themselves: **X-rays** or **Electrons**."
+        },
+        {
+            "id": "str_3",
+            "type": "content",
+            "title": "X-ray Crystallography",
+            "content": "# X-ray Crystallography\n\nFor nearly 60 years, this was the undisputed king of structural biology. It was used to discover the structure of DNA (Rosalind Franklin) and the ribosome.\n\n## The Problem with X-rays:\nIf you shoot an X-ray at a single protein, the signal is too weak to detect. \n\n## The Solution:\nYou must force billions of identical proteins to perfectly align in a rigid, repeating 3D grid. You must grow a **Protein Crystal**."
+        },
+        {
+            "id": "str_4",
+            "type": "content",
+            "title": "The Art of Crystallization",
+            "content": "# The Bottleneck\n\nGrowing protein crystals is often described as \"black magic.\"\n\nProteins are floppy, irregular, and hate being organized. Scientists spend years testing thousands of different buffers, salts, and pH levels hoping a crystal will randomly form.\n\nMany important proteins (like human membrane receptors) simply refuse to crystallize, severely limiting this technique."
+        },
+        {
+            "id": "str_5",
+            "type": "content",
+            "title": "Diffraction Patterns",
+            "content": "# How Crystallography Works\n\n1. **The Beam:** You shoot an intense beam of X-rays (often from a massive synchrotron particle accelerator) through the protein crystal.\n2. **Diffraction:** The X-rays bounce off the electron clouds of the atoms in the crystal, scattering in specific directions.\n3. **The Pattern:** A detector captures the scattered X-rays as a pattern of thousands of tiny black dots (diffraction spots)."
+        },
+        {
+            "id": "str_6",
+            "type": "quiz",
+            "title": "Crystallography Quiz",
+            "content": "Test your knowledge of the classic structural method.",
+            "quizQuestion": "What is the biggest limitation or 'bottleneck' of X-ray Crystallography?",
+            "quizOptions": [
+                "X-rays are not small enough to see atoms",
+                "It requires growing a perfect protein crystal, which is incredibly difficult or impossible for many proteins",
+                "The mathematical equations are too hard for modern computers",
+                "It only works on DNA, not proteins"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "str_7",
+            "type": "content",
+            "title": "Electron Density Maps",
+            "content": "# Solving the Structure\n\nComputers take the complex pattern of black dots and use heavy mathematics (Fourier transforms) to work backward.\n\nThey calculate an **Electron Density Map**\u2014a 3D wireframe mesh that shows exactly where the electron clouds of the atoms are located.\n\nThe scientist then plays a 3D puzzle game, fitting the known amino acid sequence into this wireframe mesh to build the final atomic model."
+        },
+        {
+            "id": "str_8",
+            "type": "content",
+            "title": "NMR Spectroscopy",
+            "content": "# Nuclear Magnetic Resonance (NMR)\n\nWhat if a protein absolutely refuses to crystallize? Or what if you want to see how the protein wiggles and moves?\n\n## The Solution: NMR\nNMR uses the exact same physical principles as an MRI machine in a hospital, but scaled up to massive, super-cooled magnets.\n\nCrucially, NMR works on proteins floating freely in a liquid solution! No crystals required."
+        },
+        {
+            "id": "str_9",
+            "type": "content",
+            "title": "How NMR Works",
+            "content": "# Magnetic Resonance\n\n1. The protein is dissolved in liquid and placed inside a massive, superconducting magnet.\n2. The magnetic nuclei of the atoms align with the field.\n3. The machine blasts them with specific radio frequencies, causing the nuclei to \"resonate\" or flip.\n4. As they relax, they emit their own radio frequencies.\n\nBy measuring these frequencies, physicists can calculate the exact distance between every single hydrogen atom in the protein, allowing computers to build a 3D model."
+        },
+        {
+            "id": "str_10",
+            "type": "content",
+            "title": "Limitations of NMR",
+            "content": "# The Limits of NMR\n\nWhile amazing for seeing protein dynamics and movement, NMR has a major flaw: **The Size Limit**.\n\nAs proteins get larger, the number of hydrogen atoms increases exponentially. The radio signals begin to overlap into an unreadable, chaotic mess.\n\nNMR is generally limited to relatively small proteins, leaving large protein complexes unsolvable by both X-ray and NMR."
+        },
+        {
+            "id": "str_11",
+            "type": "content",
+            "title": "Cryo-Electron Microscopy",
+            "content": "# Cryo-Electron Microscopy (Cryo-EM)\n\nCryo-EM won the Nobel Prize in 2017 for triggering a \"Resolution Revolution\" in biology.\n\n## The Concept:\nInstead of X-rays, use a beam of electrons (which have incredibly short wavelengths). \n\nIn the past, the intense electron beam would instantly vaporize the biological sample. Cryo-EM solved this by freezing the sample."
+        },
+        {
+            "id": "str_12",
+            "type": "quiz",
+            "title": "NMR Quiz",
+            "content": "Verify your understanding of solution structures.",
+            "quizQuestion": "What is a major advantage of NMR Spectroscopy over X-ray Crystallography?",
+            "quizOptions": [
+                "NMR can solve much larger proteins",
+                "NMR does not require expensive equipment",
+                "NMR works on proteins freely floating in a liquid solution, so no crystals are needed",
+                "NMR uses a simple optical microscope"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "str_13",
+            "type": "content",
+            "title": "Freezing Without Ice",
+            "content": "# Vitreous Ice\n\nIf you freeze a protein in water, the expanding ice crystals will act like microscopic knives, shredding the protein.\n\n## The Trick:\nIn Cryo-EM, the sample is plunged into liquid ethane at -190 degrees Celsius.\n\nIt freezes so fast (in microseconds) that the water molecules don't have time to form an ice crystal lattice. It forms \"Vitreous (glass-like) ice.\" The protein is perfectly preserved in a state of suspended animation, and the electron beam won't destroy it."
+        },
+        {
+            "id": "str_14",
+            "type": "content",
+            "title": "Single-Particle Analysis",
+            "content": "# How Cryo-EM Works\n\n1. You take an electron microscope photo of thousands of randomly floating, frozen proteins.\n2. You get thousands of blurry, 2D shadows of the protein from every possible angle.\n3. Massive supercomputers align and average these thousands of 2D images together to mathematically construct a stunningly high-resolution 3D model.\n\nNo crystals needed, and it works perfectly on massive protein complexes! Cryo-EM is currently taking over structural biology."
+        },
+        {
+            "id": "str_15",
+            "type": "content",
+            "title": "The Protein Folding Problem",
+            "content": "# Anfinsen's Dogma\n\nIn the 1960s, Christian Anfinsen proved a fundamental law of biology:\n\n**The entire 3D shape of a protein is dictated solely by its 1D sequence of amino acids.**\n\nIf you know the sequence (which is easy to read from DNA), you *should* be able to predict the exact 3D shape using physics. But the math is so complex that for 50 years, this was considered the holy grail of biology."
+        },
+        {
+            "id": "str_16",
+            "type": "content",
+            "title": "AlphaFold and AI",
+            "content": "# The AlphaFold Revolution\n\nIn 2020, Google DeepMind announced **AlphaFold**, an Artificial Intelligence system that effectively solved the protein folding problem.\n\n## The AI Triumph:\nBy training neural networks on every known protein structure, AlphaFold learned the hidden rules of protein folding. It can now predict the 3D structure of almost any protein sequence in minutes, with an accuracy rivaling years of expensive X-ray or Cryo-EM lab work.\n\nIt has mapped nearly every protein known to science, fundamentally changing drug discovery forever."
+        },
+        {
+            "id": "str_17",
+            "type": "content",
+            "title": "Summary of Structural Proteomics",
+            "content": "# Structural Summary\n\n## Key Takeaways:\n- **X-ray Crystallography** bounces X-rays off perfect crystals to calculate electron density maps.\n- **NMR Spectroscopy** uses magnetic fields to solve the structure of small proteins freely floating in liquid.\n- **Cryo-EM** flash-freezes proteins in glass-like ice and uses electrons and supercomputers to generate 3D models without crystals.\n- **AlphaFold AI** revolutionized biology by accurately predicting 3D shapes straight from the 1D amino acid sequence."
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "id": "structure",
+    "topicId": "structure",
+    "topicTitle": "Nuclear Structure",
+    "description": "Learn about nuclear models, the shell model, the collective model, and nuclear structure calculations.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "struc_1",
+            "type": "content",
+            "title": "Welcome to Nuclear Structure",
+            "content": "# Nuclear Structure\n\nWelcome to the module on **Nuclear Structure**!\n\n## What You Will Learn:\n- **Nuclear models** - How we visualize the nucleus\n- **Shell model** - The quantum orbits of nucleons\n- **Collective model** - Whole-nucleus dynamics\n- **Nuclear structure calculations** - The mathematical framework\n\nThe atomic nucleus is a complex quantum many-body system held together by the strong force."
+        },
+        {
+            "id": "struc_2",
+            "type": "content",
+            "title": "The Need for Models",
+            "content": "# Why Do We Need Models?\n\nUnlike atoms, where the central nucleus provides a clear organizing center for electrons, the nucleus has no center.\n\n## The Challenge:\nThe strong nuclear force between protons and neutrons (collectively called nucleons) is incredibly complex and not fully understood from first principles.\n\nTo make predictions, physicists rely on simplified approximations known as **Nuclear Models**."
+        },
+        {
+            "id": "struc_3",
+            "type": "content",
+            "title": "The Liquid Drop Model",
+            "content": "# The Liquid Drop Model\n\nThe earliest and simplest model treats the nucleus like a drop of incompressible liquid.\n\n## Key Concepts:\n- **Constant Density:** Nuclei have a uniform density, just like a drop of water.\n- **Surface Tension:** Nucleons on the surface have fewer neighbors, creating a surface tension effect.\n- **Coulomb Repulsion:** The protons push against each other, trying to tear the drop apart."
+        },
+        {
+            "id": "struc_4",
+            "type": "content",
+            "title": "Semi-Empirical Mass Formula",
+            "content": "# Semi-Empirical Mass Formula\n\nBased on the Liquid Drop Model, physicists derived a formula to calculate the exact mass (and binding energy) of any nucleus.\n\n## The Terms:\n1. **Volume Term:** Binding energy increases with the total number of nucleons.\n2. **Surface Term:** Subtracts energy due to surface tension.\n3. **Coulomb Term:** Subtracts energy due to proton repulsion.\n4. **Asymmetry Term:** Penalizes nuclei that have unequal numbers of protons and neutrons.\n\nThis formula brilliantly explains nuclear fission!"
+        },
+        {
+            "id": "struc_5",
+            "type": "content",
+            "title": "The Shell Model",
+            "content": "# The Nuclear Shell Model\n\nWhile the liquid drop model explains macroscopic properties, it fails to explain the fine quantum details.\n\n## Magic Numbers:\nPhysicists noticed that nuclei with specific numbers of protons or neutrons (2, 8, 20, 28, 50, 82, 126) were exceptionally stable.\n\nThis is identical to noble gases in chemistry! It implies that nucleons arrange themselves in discrete quantum \"shells.\""
+        },
+        {
+            "id": "struc_6",
+            "type": "quiz",
+            "title": "Nuclear Models Quiz",
+            "content": "Test your understanding of the early nuclear models.",
+            "quizQuestion": "Which nuclear model best explains the phenomenon of 'Magic Numbers' and exceptional stability?",
+            "quizOptions": [
+                "The Liquid Drop Model",
+                "The Nuclear Shell Model",
+                "The Standard Model",
+                "The Plum Pudding Model"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "struc_7",
+            "type": "content",
+            "title": "Independent Particle Model",
+            "content": "# Independent Particle Model\n\nThe core assumption of the Shell Model is the independent particle approximation.\n\n## How it works:\nInstead of trying to calculate the chaotic forces between every single pair of nucleons, we assume each nucleon moves completely independently in a smooth, average \"mean field\" created by all the other nucleons combined.\n\nThis drastically simplifies the math!"
+        },
+        {
+            "id": "struc_8",
+            "type": "content",
+            "title": "Spin-Orbit Coupling",
+            "content": "# Spin-Orbit Coupling in Nuclei\n\nTo perfectly predict the magic numbers, the shell model requires one crucial modification: **Spin-Orbit Coupling**.\n\n## The Effect:\nA nucleon's intrinsic spin interacts strongly with its orbital angular momentum.\n\nUnlike in electrons where this effect is tiny (fine structure), in the nucleus, this force is massive. It severely splits the energy levels of the shells, generating the exact magic numbers observed in nature."
+        },
+        {
+            "id": "struc_9",
+            "type": "content",
+            "title": "The Collective Model",
+            "content": "# The Collective Model\n\nThe Shell Model works great for nuclei near magic numbers, but fails for nuclei sitting exactly between magic numbers.\n\n## The Aage Bohr and Mottelson Solution:\nThey combined the Liquid Drop and Shell models to create the **Collective Model**.\n\nIt assumes that the core of the nucleus behaves like a liquid drop that can deform, while the outermost valence nucleons move in quantum shells around this deformed core."
+        },
+        {
+            "id": "struc_10",
+            "type": "content",
+            "title": "Nuclear Deformation",
+            "content": "# Deformed Nuclei\n\nMost heavy nuclei are NOT perfectly spherical!\n\n## Shapes:\n- **Prolate:** Shaped like an American football or a rugby ball (most common).\n- **Oblate:** Shaped like a frisbee or a pancake.\n\nThe collective motion of the nucleons pulls the entire nucleus out of a spherical shape, which drastically changes its quantum properties."
+        },
+        {
+            "id": "struc_11",
+            "type": "content",
+            "title": "Rotational and Vibrational States",
+            "content": "# Rotational and Vibrational States\n\nBecause deformed nuclei are not perfectly round, they can rotate in space!\n\n## Rotational Bands:\nA deformed nucleus can spin faster and faster, absorbing energy to step up a ladder of excited \"rotational states.\"\n\n## Vibrational States:\nEven spherical nuclei can behave collectively by vibrating, changing shape rhythmically (like a balloon being squeezed and released) without actually rotating."
+        },
+        {
+            "id": "struc_12",
+            "type": "quiz",
+            "title": "Collective Model Quiz",
+            "content": "Verify your understanding of complex nuclear dynamics.",
+            "quizQuestion": "What type of motion is possible for a prolate (football-shaped) nucleus that is NOT possible for a perfectly spherical nucleus?",
+            "quizOptions": [
+                "Alpha decay",
+                "Independent particle motion",
+                "Collective rotation in space",
+                "Beta decay"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "struc_13",
+            "type": "content",
+            "title": "Nuclear Structure Calculations",
+            "content": "# Nuclear Structure Calculations\n\nHow do physicists actually crunch the numbers for these models today?\n\n## The Mathematical Challenge:\nSolving the Schrodinger equation for a heavy nucleus like Uranium (238 interacting particles) is impossible to do exactly, even for the world's most powerful supercomputers.\n\nWe must use advanced approximation techniques."
+        },
+        {
+            "id": "struc_14",
+            "type": "content",
+            "title": "The Hartree-Fock Method",
+            "content": "# The Hartree-Fock Method\n\nThis is a foundational computational technique used in both nuclear physics and quantum chemistry.\n\n## How it works:\nIt iteratively guesses the \"mean field\" we discussed in the Shell Model.\n\n1. Guess an initial field.\n2. Calculate how the nucleons would move in that field.\n3. Use those new movements to calculate a better, updated field.\n4. Repeat until the answer stops changing (it reaches self-consistency)."
+        },
+        {
+            "id": "struc_15",
+            "type": "content",
+            "title": "Ab Initio Methods",
+            "content": "# Ab Initio Methods\n\n**Ab Initio** means \"from the beginning.\"\n\n## The Goal:\nInstead of using approximations like the mean field or liquid drops, Ab Initio calculations attempt to solve the nucleus exactly, starting only with the raw, fundamental forces between individual protons and neutrons.\n\n## Limitations:\nDue to the massive computational power required, this is currently only possible for the lightest nuclei (up to about Oxygen or Calcium)."
+        },
+        {
+            "id": "struc_16",
+            "type": "content",
+            "title": "Interacting Boson Model",
+            "content": "# Interacting Boson Model (IBM)\n\nA highly successful algebraic model for describing heavy, collective nuclei.\n\n## The Trick:\nInstead of tracking 100 individual fermionic nucleons, the IBM groups them into pairs (like Cooper pairs in superconductors).\n\nA pair of fermions acts like a single **boson**. The math of interacting bosons is drastically simpler, allowing physicists to beautifully predict the rotational and vibrational states of heavy nuclei!"
+        },
+        {
+            "id": "struc_17",
+            "type": "content",
+            "title": "Summary of Nuclear Structure",
+            "content": "# Structure Summary\n\n## Key Takeaways:\n- The **Liquid Drop Model** treats the nucleus as a macroscopic fluid, explaining mass and fission.\n- The **Shell Model** explains quantum magic numbers using independent particles and spin-orbit coupling.\n- The **Collective Model** merges both, explaining the rotation and vibration of deformed (football-shaped) nuclei.\n- Computations range from exact **Ab Initio** methods for light nuclei to the **Hartree-Fock** and **IBM** methods for heavy nuclei."
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "id": "junior",
+    "topicId": "junior",
+    "topicTitle": "Junior Olympiad (Class 1-5)",
+    "description": "Learn about Basic science concepts, Logical reasoning, Observation skills, and Scientific thinking.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "jun_1",
+            "type": "content",
+            "title": "Welcome to Junior Olympiad",
+            "content": "# Junior Science Olympiad\n\nWelcome to the **Junior Olympiad** (Classes 1-5)!\n\n## What You Will Learn:\n- **Basic science concepts** - The world around us\n- **Logical reasoning** - Connecting the dots\n- **Observation skills** - Looking closely\n- **Scientific thinking** - Asking \"Why?\"\n\nScience starts with curiosity. Let's learn how to explore the world like a real scientist!"
+        },
+        {
+            "id": "jun_2",
+            "type": "content",
+            "title": "Basic Science Concepts",
+            "content": "# The World Around Us\n\nScience is everywhere! It explains why the sky is blue and why ice melts.\n\n## Living vs. Non-Living:\n- **Living things** (plants, animals, you!) need food, water, and air. They grow and change.\n- **Non-living things** (rocks, water, toys) do not need food and do not grow on their own."
+        },
+        {
+            "id": "jun_3",
+            "type": "content",
+            "title": "States of Matter",
+            "content": "# Solid, Liquid, Gas\n\nEverything you can touch is made of matter.\n\n- **Solid:** Has its own shape (like a block of wood or an ice cube).\n- **Liquid:** Takes the shape of its container (like water or milk). You can pour it.\n- **Gas:** Spreads out to fill all the space it can (like the air we breathe or steam from a kettle)."
+        },
+        {
+            "id": "jun_4",
+            "type": "content",
+            "title": "Day, Night, and Seasons",
+            "content": "# Our Planet in Space\n\nWhy does it get dark?\n\nThe Earth spins like a top. When our side of the Earth faces the Sun, it is **Day**. When our side spins away into the shadow, it is **Night**.\n\nBecause the Earth is slightly tilted as it travels in a giant circle around the Sun, we get different **Seasons** (Summer, Winter, Spring, Fall)!"
+        },
+        {
+            "id": "jun_5",
+            "type": "content",
+            "title": "Logical Reasoning",
+            "content": "# Thinking Like a Detective\n\n**Logical Reasoning** means using clues to figure out an answer.\n\nIf you see wet footprints on the floor, and you see your dog shaking off water, logic tells you: The dog was outside in the rain!\n\nYou didn't see the dog in the rain, but you used clues to figure it out."
+        },
+        {
+            "id": "jun_6",
+            "type": "quiz",
+            "title": "Logic Quiz",
+            "content": "Test your detective skills.",
+            "quizQuestion": "If you leave a glass of solid ice cubes on a table in a warm room, what will logically happen after one hour?",
+            "quizOptions": [
+                "The ice will turn into a rock",
+                "The ice will melt into a liquid (water)",
+                "The ice will get colder",
+                "Nothing will happen"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "jun_7",
+            "type": "content",
+            "title": "Patterns and Sequences",
+            "content": "# Finding the Pattern\n\nScience loves patterns!\n\nA pattern is something that repeats in a predictable way.\n- **Shapes:** Circle, Square, Triangle, Circle, Square... what comes next? (Triangle!)\n- **Nature:** The sun rises, the sun sets. Caterpillars turn into butterflies.\n\nFinding patterns helps scientists predict the future."
+        },
+        {
+            "id": "jun_8",
+            "type": "content",
+            "title": "Cause and Effect",
+            "content": "# Why Did That Happen?\n\nEvery action has a reaction.\n\n- **Cause:** You push a toy car.\n- **Effect:** The car rolls across the floor.\n\n- **Cause:** A plant gets no water.\n- **Effect:** The plant wilts and turns brown.\n\nScientists always look for the \"Cause\" when they see a weird \"Effect\"!"
+        },
+        {
+            "id": "jun_9",
+            "type": "content",
+            "title": "Observation Skills",
+            "content": "# Using Your Senses\n\nTo be a great scientist, you must be a great observer.\n\nYou observe using your five senses:\n1. **Sight:** What color is it?\n2. **Hearing:** Does it make a sound?\n3. **Touch:** Is it rough, smooth, hot, or cold?\n4. **Smell:** Does it smell sweet or sour?\n5. **Taste:** (Only when a grown-up says it is safe!)"
+        },
+        {
+            "id": "jun_10",
+            "type": "content",
+            "title": "Measuring and Comparing",
+            "content": "# How Big? How Heavy?\n\nObservations must be exact. We can't just say \"it is heavy.\"\n\nWe use tools to measure!\n- **Ruler:** Measures length or height.\n- **Scale:** Measures weight (is the apple heavier than the orange?).\n- **Thermometer:** Measures temperature (how hot is the water?).\n\nComparing numbers is the heart of real science."
+        },
+        {
+            "id": "jun_11",
+            "type": "content",
+            "title": "Sorting and Classifying",
+            "content": "# Putting Things in Groups\n\nWhen we have lots of objects, we group them by their properties (how they look or act).\n\nIf you have a pile of buttons, you could sort them by:\n- **Color:** All red buttons together.\n- **Size:** Big buttons vs small buttons.\n- **Material:** Plastic buttons vs metal buttons.\n\nScientists sort animals the exact same way!"
+        },
+        {
+            "id": "jun_12",
+            "type": "quiz",
+            "title": "Observation Quiz",
+            "content": "Verify your scientific tools.",
+            "quizQuestion": "Which tool would you use to observe and measure how warm a cup of hot chocolate is?",
+            "quizOptions": [
+                "A ruler",
+                "A magnifying glass",
+                "A thermometer",
+                "A weighing scale"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "jun_13",
+            "type": "content",
+            "title": "Scientific Thinking",
+            "content": "# Asking Questions\n\nThe most important word in science is: **Why?**\n\nNever accept things just because. \n- Why is grass green?\n- Why do birds sing?\n- Why do magnets stick to the fridge?\n\nEvery great scientific discovery started with a simple question."
+        },
+        {
+            "id": "jun_14",
+            "type": "content",
+            "title": "Making a Guess (Hypothesis)",
+            "content": "# The Smart Guess\n\nOnce you ask a question, you make a \"smart guess\" about the answer. Scientists call this a **Hypothesis**.\n\n*Question:* Why did my plant die?\n*Hypothesis:* I think my plant died because I forgot to water it.\n\nYour guess might be wrong, and that is completely okay! Being wrong is how we learn."
+        },
+        {
+            "id": "jun_15",
+            "type": "content",
+            "title": "Testing Your Guess",
+            "content": "# The Experiment\n\nYou have a guess, now you must test it! This is an **Experiment**.\n\nIf your guess is that plants need water to live, you test it by getting two identical plants.\n- You water Plant A every day.\n- You give zero water to Plant B.\n\nYou watch them for a week. The results will prove if your smart guess was right or wrong!"
+        },
+        {
+            "id": "jun_16",
+            "type": "content",
+            "title": "Sharing Results",
+            "content": "# Tell the World\n\nWhen an experiment is finished, a scientist always writes down what happened.\n\nThey draw pictures, make charts, and share their results with other people.\nIf you don't share your results, no one else can learn from your hard work!"
+        },
+        {
+            "id": "jun_17",
+            "type": "content",
+            "title": "Summary of Junior Science",
+            "content": "# Junior Olympiad Summary\n\n## Key Takeaways:\n- **Basic Science** teaches us about living things, states of matter, and the Earth.\n- **Logical Reasoning** helps us find patterns and understand Cause and Effect.\n- **Observation Skills** require using our five senses and precise measuring tools.\n- **Scientific Thinking** means asking \"Why?\", making a smart guess (Hypothesis), and doing an experiment to test it!"
+        }
+    ]
+}

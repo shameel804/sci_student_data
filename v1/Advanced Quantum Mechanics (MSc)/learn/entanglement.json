@@ -1,0 +1,127 @@
+{
+    "id": "entanglement",
+    "topicId": "entanglement",
+    "topicTitle": "Quantum Entanglement",
+    "description": "Understand Bell's theorem, quantum correlations, quantum information, and quantum computing basics.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "ent_1",
+            "type": "content",
+            "title": "Welcome to Entanglement",
+            "content": "# Quantum Entanglement\n\nWelcome to the module on **Quantum Entanglement** - the phenomenon Einstein famously called \"spooky action at a distance.\"\n\n## What You Will Learn:\n- **Bell's theorem** - Proving quantum mechanics is truly weird\n- **Quantum correlations** - How particles share destiny\n- **Quantum information** - Storing data in quantum states\n- **Quantum computing basics** - The future of computation\n\nLet's dive into the most fascinating aspect of quantum mechanics."
+        },
+        {
+            "id": "ent_2",
+            "type": "content",
+            "title": "What is Entanglement?",
+            "content": "# Defining Entanglement\n\n**Entanglement** occurs when pairs or groups of particles interact in ways such that the quantum state of each particle cannot be described independently of the state of the others.\n\n## The Shared State:\nEven when separated by a large distance, the particles act as a single unified system.\n\nIf you measure the spin of particle A and find it is \"Up\", you instantly know that particle B must be \"Down\" - no matter how far apart they are in the universe."
+        },
+        {
+            "id": "ent_3",
+            "type": "content",
+            "title": "The EPR Paradox",
+            "content": "# The EPR Paradox\n\nIn 1935, Einstein, Podolsky, and Rosen (EPR) published a paper arguing that quantum mechanics was incomplete.\n\n## Their Argument:\nThey felt that instant communication across the universe violated the speed of light.\n\nThey proposed that the particles must contain \"Local Hidden Variables\" - secret, unobservable instructions created when the particles first interacted, which dictate the outcome of future measurements without requiring instant communication."
+        },
+        {
+            "id": "ent_4",
+            "type": "content",
+            "title": "Bell's Theorem",
+            "content": "# Bell's Theorem\n\nFor nearly 30 years, the EPR paradox was just a philosophical debate. Then, in 1964, John Stewart Bell changed everything.\n\n## The Mathematical Proof:\nBell devised a mathematical inequality (Bell's Inequality) that tested the limits of correlations.\n\n- **If Local Hidden Variables exist:** The correlations between measurements must obey a strict mathematical limit.\n- **If pure Quantum Mechanics is right:** The correlations will exceed this limit.\n\nBell proved that philosophy could be tested in a laboratory!"
+        },
+        {
+            "id": "ent_5",
+            "type": "content",
+            "title": "Experimental Verdict",
+            "content": "# The Experimental Verdict\n\nIn the decades following Bell's theorem, physicists (like Alain Aspect, John Clauser, and Anton Zeilinger, who won the 2022 Nobel Prize) conducted rigorous experiments using entangled photons.\n\n## The Results:\nBell's inequalities are consistently violated. \n\n**Conclusion:** Local hidden variables do not exist. Quantum mechanics is correct. The universe is fundamentally non-local, meaning entangled particles truly share an instantaneous connection."
+        },
+        {
+            "id": "ent_6",
+            "type": "quiz",
+            "title": "EPR and Bell Quiz",
+            "content": "Test your knowledge on the history of entanglement.",
+            "quizQuestion": "What was the purpose of Bell's Theorem?",
+            "quizOptions": [
+                "To prove that nothing travels faster than light",
+                "To provide a testable mathematical inequality to distinguish between quantum mechanics and local hidden variables",
+                "To explain the existence of gravity",
+                "To build the first quantum computer"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "ent_7",
+            "type": "content",
+            "title": "Quantum Correlations",
+            "content": "# Quantum Correlations\n\nThe correlations between entangled particles are stronger than any classical correlation.\n\n## Superposition:\nBefore measurement, neither particle has a defined state. They exist in a superposition of all possible outcomes simultaneously.\n\n## Measurement:\nThe act of measuring Particle A forces the entire two-particle wave function to collapse instantly, defining the state of Particle B.\n\n> **Important:** This cannot be used to transmit information faster than light, because the outcome of the first measurement is always completely random."
+        },
+        {
+            "id": "ent_8",
+            "type": "content",
+            "title": "Monogamy of Entanglement",
+            "content": "# Monogamy of Entanglement\n\nEntanglement has a strict property known as \"monogamy.\"\n\n## The Principle:\nIf Particle A is fully quantumly entangled with Particle B, it cannot be entangled with a third Particle C.\n\nAs the entanglement between A and B increases, any possible entanglement between A and C must decrease.\n\nThis property is fundamental to the security of quantum cryptography."
+        },
+        {
+            "id": "ent_9",
+            "type": "content",
+            "title": "Quantum Information",
+            "content": "# Quantum Information Science\n\nQuantum Information theory studies how information is stored and processed using quantum systems.\n\n## The Qubit:\nIn classical computers, information is stored in bits (0 or 1). \n\nIn quantum computers, information is stored in **qubits**. Because of superposition, a qubit can be in a state of 0, 1, or any quantum combination of both simultaneously."
+        },
+        {
+            "id": "ent_10",
+            "type": "content",
+            "title": "No-Cloning Theorem",
+            "content": "# The No-Cloning Theorem\n\nA fundamental limitation in quantum information is the **No-Cloning Theorem**.\n\n## The Rule:\nIt is mathematically impossible to create an identical copy of an unknown, arbitrary quantum state.\n\nIf you try to read a quantum state to copy it, the act of measurement collapses the superposition, destroying the original information!\n\nThis makes quantum data incredibly secure; you cannot copy a quantum key without leaving a trace."
+        },
+        {
+            "id": "ent_11",
+            "type": "content",
+            "title": "Quantum Teleportation",
+            "content": "# Quantum Teleportation\n\nWhile you cannot clone a quantum state, you CAN teleport it!\n\n## The Process:\nUsing a pair of entangled particles shared between Alice and Bob, Alice can destroy the quantum state of a third particle in her lab and instantly recreate that exact quantum state in Bob's lab.\n\n- Matter is not physically moved.\n- The *information* about the quantum state is transferred.\n- It requires a classical communication channel to complete, so it does not violate the speed of light."
+        },
+        {
+            "id": "ent_12",
+            "type": "quiz",
+            "title": "Quantum Information Quiz",
+            "content": "Check your understanding of qubits and cloning.",
+            "quizQuestion": "According to the No-Cloning Theorem, what is impossible to do?",
+            "quizOptions": [
+                "Teleport a quantum state",
+                "Create an identical copy of an unknown quantum state",
+                "Entangle more than two particles at once",
+                "Measure the spin of an electron"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "ent_13",
+            "type": "content",
+            "title": "Quantum Computing Basics",
+            "content": "# Quantum Computing Basics\n\nA quantum computer exploits superposition and entanglement to perform calculations exponentially faster than classical computers for certain problems.\n\n## Parallel Processing:\nBecause qubits can exist in multiple states simultaneously, a quantum computer evaluates many potential solutions to a problem at the same time.\n\n## Interference:\nQuantum algorithms are designed to cause incorrect answers to destructively interfere (cancel out) and the correct answer to constructively interfere (amplify)."
+        },
+        {
+            "id": "ent_14",
+            "type": "content",
+            "title": "Quantum Gates",
+            "content": "# Quantum Gates\n\nJust as classical computers use logic gates (AND, OR, NOT), quantum computers use **Quantum Gates**.\n\n## Unitary Operations:\nQuantum gates manipulate qubits by rotating their state probabilities. Mathematically, these are represented by unitary matrices.\n\n## Example:\nThe **Hadamard Gate** takes a qubit that is definitely 0 and puts it into a perfect 50/50 superposition of 0 and 1. \n\nThe **CNOT Gate** uses one qubit to control another, and is the primary gate used to create entanglement between qubits."
+        },
+        {
+            "id": "ent_15",
+            "type": "content",
+            "title": "Quantum Algorithms",
+            "content": "# Quantum Algorithms\n\nWhat can we actually do with a quantum computer?\n\n## Shor's Algorithm:\nIt can factor massive prime numbers exponentially faster than a classical computer. This threatens modern RSA encryption, which secures the internet.\n\n## Grover's Algorithm:\nIt can search an unsorted database much faster than classically possible.\n\n## Quantum Simulation:\nAs Feynman suggested, the best way to simulate quantum chemistry and materials is by using a quantum computer."
+        },
+        {
+            "id": "ent_16",
+            "type": "content",
+            "title": "Summary of Entanglement",
+            "content": "# Entanglement Summary\n\n## Key Takeaways:\n\n- **Bell's Theorem** proved that entangled particles share a true non-local connection, disproving local hidden variables.\n- **Quantum Correlations** mean measuring one particle instantly defines the other.\n- **Qubits** utilize superposition to store vastly more complex information than classical bits.\n- **The No-Cloning Theorem** ensures quantum information cannot be perfectly copied.\n- **Quantum Computing** leverages entanglement and interference to solve specific complex problems exponentially faster."
+        },
+        {
+            "id": "ent_17",
+            "type": "content",
+            "title": "Course Complete",
+            "content": "# Congratulations!\n\nYou have completed the entire Advanced Quantum Mechanics course.\n\nFrom the relativistic Dirac equation to Quantum Field Theory and Quantum Computing, you now understand the most advanced frontiers of modern physics!"
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "id": "standard",
+    "topicId": "standard",
+    "topicTitle": "Standard Model",
+    "description": "Learn about fundamental particles, force carriers, symmetry principles, and Standard Model predictions.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "sm_1",
+            "type": "content",
+            "title": "Welcome to the Standard Model",
+            "content": "# The Standard Model of Particle Physics\n\nWelcome to the **Standard Model**!\n\n## What You Will Learn:\n- **Fundamental particles** - The building blocks of matter\n- **Force carriers** - How particles interact\n- **Symmetry principles** - The mathematical rules of nature\n- **Standard Model predictions** - The triumphs of the theory\n\nThe Standard Model is currently the most accurate and comprehensive scientific theory describing the fundamental makeup of the universe."
+        },
+        {
+            "id": "sm_2",
+            "type": "content",
+            "title": "Fundamental Particles",
+            "content": "# Fundamental Particles\n\nIn the Standard Model, all ordinary matter is built from a small set of indivisible building blocks called **Fermions**.\n\n## Two Types of Fermions:\n1. **Quarks:** These interact via all fundamental forces, including the strong nuclear force. They make up protons and neutrons.\n2. **Leptons:** These interact via the weak and electromagnetic forces, but NOT the strong force. The most famous lepton is the electron.\n\nFermions all have half-integer spin (like 1/2)."
+        },
+        {
+            "id": "sm_3",
+            "type": "content",
+            "title": "Matter and Antimatter",
+            "content": "# Matter and Antimatter\n\nEvery fundamental fermion has a corresponding **antiparticle**.\n\n## Properties of Antimatter:\n- An antiparticle has the exact same mass as its matter counterpart.\n- It has the exact opposite electrical charge.\n- For example, the antimatter equivalent of the negatively charged electron is the positively charged positron.\n\nWhen matter and antimatter meet, they annihilate each other, converting their entire mass into pure energy!"
+        },
+        {
+            "id": "sm_4",
+            "type": "content",
+            "title": "Force Carriers",
+            "content": "# Force Carriers (Bosons)\n\nFermions interact with each other by exchanging a different class of particles called **Bosons**.\n\n## The Fundamental Forces:\nThe Standard Model describes three of the four fundamental forces:\n- The Electromagnetic Force\n- The Strong Nuclear Force\n- The Weak Nuclear Force\n\n*(Note: Gravity is the fourth force, but it is NOT included in the Standard Model because we lack a working theory of quantum gravity.)*"
+        },
+        {
+            "id": "sm_5",
+            "type": "content",
+            "title": "The Boson Lineup",
+            "content": "# Meet the Bosons\n\nEach force has its own dedicated carrier particle(s):\n\n## 1. The Photon:\nCarries the electromagnetic force between electrically charged particles. It is massless.\n\n## 2. The Gluons (8 of them):\nCarry the strong nuclear force between quarks, binding them together into protons and neutrons. Also massless.\n\n## 3. The W and Z Bosons:\nCarry the weak nuclear force, responsible for radioactive decay. Unlike photons and gluons, the W and Z bosons are extremely heavy!"
+        },
+        {
+            "id": "sm_6",
+            "type": "quiz",
+            "title": "Boson Quiz",
+            "content": "Test your knowledge of force carriers.",
+            "quizQuestion": "Which Standard Model boson is responsible for mediating the strong nuclear force?",
+            "quizOptions": [
+                "Photon",
+                "Z Boson",
+                "Gluon",
+                "Electron"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "sm_7",
+            "type": "content",
+            "title": "Symmetry Principles",
+            "content": "# Symmetry Principles\n\nThe entire Standard Model is built on the mathematical concept of **Gauge Symmetries**.\n\n## What is a Symmetry?\nA physical system possesses a symmetry if you can perform a mathematical operation on it and the underlying physics remains exactly the same.\n\nThe Standard Model is defined by a specific mathematical symmetry group known as SU(3) x SU(2) x U(1)."
+        },
+        {
+            "id": "sm_8",
+            "type": "content",
+            "title": "The Hierarchy of Symmetries",
+            "content": "# The SU(3) x SU(2) x U(1) Symmetry\n\nWhat do these letters and numbers mean?\n\n- **SU(3):** Represents the symmetry of the Strong force. This symmetry requires the existence of the 8 gluons.\n- **SU(2) x U(1):** Represents the unified \"Electroweak\" symmetry. At extremely high energies (like the early universe), electromagnetism and the weak force were merged into a single force.\n\nAs the universe cooled, this electroweak symmetry \"broke,\" separating into the two distinct forces we see today."
+        },
+        {
+            "id": "sm_9",
+            "type": "content",
+            "title": "The Mass Problem",
+            "content": "# The Problem of Mass\n\nThe beautiful gauge symmetries of the Standard Model come with a huge catch:\n\n**The math strictly dictates that all force carrier bosons MUST be completely massless.**\n\nWhile this works perfectly for the massless photon and gluons, experiments proved that the W and Z bosons are incredibly heavy. This contradiction almost ruined the entire theory in the 1960s!"
+        },
+        {
+            "id": "sm_10",
+            "type": "content",
+            "title": "The Higgs Mechanism",
+            "content": "# The Higgs Mechanism\n\nTo solve the mass problem without destroying the math, physicists proposed the **Higgs Mechanism** (Spontaneous Symmetry Breaking).\n\n## The Concept:\nA new, invisible field (the Higgs field) is added to the universe.\n- Empty space is not empty; it is filled with this field.\n- The W and Z bosons constantly bump into this field as they move, slowing them down and giving them effective mass.\n- The photon does not interact with the Higgs field, so it remains massless!"
+        },
+        {
+            "id": "sm_11",
+            "type": "content",
+            "title": "The Higgs Boson",
+            "content": "# The Higgs Boson\n\nIf the Higgs field exists, quantum mechanics dictates that there must be a particle associated with exciting that field: **The Higgs Boson**.\n\n## The Final Piece:\nThe Higgs boson was the last missing piece of the Standard Model. Because the Higgs field gives mass to fermions as well (like electrons and quarks), without it, atoms could not exist, and the universe would just be a soup of massless particles zooming around at the speed of light."
+        },
+        {
+            "id": "sm_12",
+            "type": "quiz",
+            "title": "Higgs Quiz",
+            "content": "Verify your understanding of the Higgs mechanism.",
+            "quizQuestion": "Why was the Higgs mechanism added to the Standard Model?",
+            "quizOptions": [
+                "To explain how gravity works",
+                "To explain why the photon is massless",
+                "To give mass to particles like the W and Z bosons without violating mathematical symmetries",
+                "To prove the existence of antimatter"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "sm_13",
+            "type": "content",
+            "title": "Standard Model Predictions",
+            "content": "# Triumphs of the Standard Model\n\nThe Standard Model is not just an elegant idea; it is the most rigorously tested theory in human history.\n\n## Major Predictive Successes:\n- **The W and Z Bosons:** Their exact masses were predicted by the theory years before they were discovered in 1983.\n- **The Top Quark:** The theory predicted a third generation of quarks, leading to the top quark's discovery in 1995.\n- **The Higgs Boson:** Discovered in 2012 exactly where the math suggested it might be hiding."
+        },
+        {
+            "id": "sm_14",
+            "type": "content",
+            "title": "Anomalous Magnetic Moment",
+            "content": "# Precision Testing: The Electron\n\nThe greatest triumph of the Standard Model is the calculation of the electron's anomalous magnetic moment (g-2).\n\n## The Calculation:\nUsing Quantum Electrodynamics (QED), physicists have calculated this value to more than 10 decimal places.\n\nWhen experimentalists measured the value in the lab, it matched the theoretical prediction perfectly. It is the equivalent of predicting the distance from New York to Los Angeles to the width of a human hair!"
+        },
+        {
+            "id": "sm_15",
+            "type": "content",
+            "title": "Limits of the Standard Model",
+            "content": "# Where the Model Fails\n\nDespite its incredible success, we know the Standard Model is incomplete.\n\n## Major Missing Pieces:\n- **Gravity:** There is no \"graviton\" in the Standard Model.\n- **Dark Matter:** The model does not contain any particle that could make up the invisible dark matter holding galaxies together.\n- **Neutrino Mass:** The model originally predicted neutrinos have zero mass, but we now know they have a tiny mass.\n- **Matter Asymmetry:** It cannot explain why the universe has so much more matter than antimatter."
+        },
+        {
+            "id": "sm_16",
+            "type": "content",
+            "title": "Beyond the Standard Model",
+            "content": "# Beyond the Standard Model (BSM)\n\nBecause of these missing pieces, physicists are actively searching for \"New Physics.\"\n\n## Proposed Theories:\n- **Supersymmetry (SUSY):** Predicts every known particle has a heavy \"superpartner.\"\n- **Grand Unified Theories (GUTs):** Attempt to merge the strong, weak, and electromagnetic forces into a single master force.\n- **String Theory:** Proposes particles are not points, but vibrating one-dimensional strings."
+        },
+        {
+            "id": "sm_17",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Standard Model Summary\n\n## Key Takeaways:\n- The universe is made of **Fermions** (matter) and **Bosons** (force carriers).\n- The forces are defined by strict **Gauge Symmetries** (SU(3) x SU(2) x U(1)).\n- The **Higgs mechanism** is required to explain why particles have mass.\n- While incredibly accurate in its predictions, the model fails to explain gravity, dark matter, and neutrino masses, driving the search for new physics.\n\nYou have completed the Standard Model overview!"
+        }
+    ]
+}

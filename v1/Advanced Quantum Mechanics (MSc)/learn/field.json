@@ -1,0 +1,127 @@
+{
+    "id": "field",
+    "topicId": "field",
+    "topicTitle": "Quantum Field Theory",
+    "description": "Examine canonical quantization, path integral formulation, gauge theories, and renormalization.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "qft_1",
+            "type": "content",
+            "title": "Welcome to QFT",
+            "content": "# Quantum Field Theory\n\nWelcome to **Quantum Field Theory** (QFT) - the language of the Standard Model of particle physics!\n\n## What You Will Learn:\n- **Canonical quantization** - Turning classical fields into quantum operators\n- **Path integral formulation** - Feynman's alternative approach\n- **Gauge theories** - The power of symmetry\n- **Renormalization** - Taming infinity\n\nQFT combines classical field theory, quantum mechanics, and special relativity into one unified framework."
+        },
+        {
+            "id": "qft_2",
+            "type": "content",
+            "title": "What is a Field?",
+            "content": "# What is a Quantum Field?\n\nBefore QFT, we thought the universe was made of isolated particles moving through an empty void.\n\n## The Field Concept:\nIn QFT, the fundamental ingredients of the universe are continuous, fluid-like fields that permeate all of space and time.\n\n## Particles are Excitations:\nAn electron is not a fundamental object. It is a localized ripple or excitation in the underlying electron field. A photon is a ripple in the electromagnetic field."
+        },
+        {
+            "id": "qft_3",
+            "type": "content",
+            "title": "Canonical Quantization",
+            "content": "# Canonical Quantization\n\n**Canonical Quantization** is a mathematical procedure to convert a classical theory into a quantum theory.\n\n## The Process:\n1. Start with a classical field (like the electromagnetic field).\n2. Identify the field's \"position\" and \"momentum\" equivalents.\n3. Promote these variables to quantum operators.\n4. Impose commutation relations between them (similar to Heisenberg's uncertainty principle for position and momentum).\n\nThis successfully quantizes the field into discrete energy packets (particles)."
+        },
+        {
+            "id": "qft_4",
+            "type": "content",
+            "title": "The Path Integral Formulation",
+            "content": "# The Path Integral Formulation\n\nDeveloped by Richard Feynman, the **Path Integral Formulation** is a powerful alternative to canonical quantization.\n\n## The Core Idea:\nIn classical physics, a particle takes a single, defined path between point A and point B (the path of least action).\n\nIn quantum physics, the particle takes **EVERY POSSIBLE PATH** simultaneously! The final probability amplitude is calculated by summing (integrating) over all these possible histories."
+        },
+        {
+            "id": "qft_5",
+            "type": "content",
+            "title": "The Action Principle in QFT",
+            "content": "# The Action Principle\n\nIn the path integral approach, each possible path is assigned a \"weight\" based on its classical Action.\n\n## Constructive and Destructive Interference:\n- Paths near the classical trajectory have similar phases and constructively interfere, heavily contributing to the final probability.\n- Wild, chaotic paths have rapidly fluctuating phases and mostly cancel each other out via destructive interference.\n\nThis elegantly explains why macroscopic objects appear to follow classical laws!"
+        },
+        {
+            "id": "qft_6",
+            "type": "quiz",
+            "title": "Quantization Quiz",
+            "content": "Check your understanding of QFT formulations.",
+            "quizQuestion": "In Feynman's Path Integral Formulation, how does a quantum particle travel from point A to point B?",
+            "quizOptions": [
+                "It takes the single path of least action",
+                "It takes every possible path simultaneously",
+                "It teleports instantly without crossing the space between",
+                "It only travels in straight lines"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "qft_7",
+            "type": "content",
+            "title": "Gauge Theories",
+            "content": "# Gauge Theories\n\n**Gauge theories** are a class of quantum field theories that form the basis of the Standard Model.\n\n## What is a Gauge Theory?\nIt is a theory based on the idea that nature possesses local symmetries. \n\nA symmetry means you can change something about the system, and the underlying physics remains exactly the same.\n\nIf you demand that this symmetry holds locally (at every distinct point in space and time independently), it forces the existence of force-carrying fields!"
+        },
+        {
+            "id": "qft_8",
+            "type": "content",
+            "title": "Local vs Global Symmetry",
+            "content": "# Local vs Global Symmetry\n\n## Global Symmetry:\nImagine turning every clock on Earth forward by exactly one hour simultaneously. The laws of physics don't change. This is a global symmetry.\n\n## Local Gauge Symmetry:\nNow imagine changing the clocks by different, arbitrary amounts depending on the city. To keep the physics consistent everywhere, you have to introduce a \"force\" that communicates and compensates for these local changes.\n\nIn QFT, demanding local gauge symmetry is what generates the fundamental forces of nature!"
+        },
+        {
+            "id": "qft_9",
+            "type": "content",
+            "title": "Yang-Mills Theory",
+            "content": "# Yang-Mills Theory\n\nElectromagnetism is the simplest gauge theory. **Yang-Mills theory** extends this concept to more complex symmetries.\n\n## Non-Abelian Gauge Theories:\nUnlike photons, which carry no charge and don't interact with themselves, Yang-Mills theories describe force carriers that DO interact with themselves.\n\nFor example, the gluons that carry the strong nuclear force possess \"color charge,\" meaning they can emit and absorb other gluons! This makes the math incredibly complex."
+        },
+        {
+            "id": "qft_10",
+            "type": "content",
+            "title": "The Problem of Infinity",
+            "content": "# The Problem of Infinity\n\nIn the early days of QFT, physicists encountered a massive roadblock: whenever they tried to calculate a physical quantity beyond the simplest approximation, the math blew up to infinity.\n\n## Why Infinities?\nThese infinities arise because QFT assumes particles are point-like. When you calculate interactions at zero distance, energies diverge to infinity.\n\nIf the mass and charge of an electron are infinite, the theory is useless!"
+        },
+        {
+            "id": "qft_11",
+            "type": "content",
+            "title": "Renormalization",
+            "content": "# Renormalization\n\n**Renormalization** is the mathematical technique developed to tame these infinities and extract meaningful physical predictions.\n\n## The Concept:\nThe \"bare\" mass and charge of a particle in the equations are unobservable. We only ever measure the \"physical\" mass and charge, which include a cloud of virtual particles surrounding the bare particle.\n\nRenormalization absorbs the infinities into the definitions of these bare parameters, leaving finite, measurable predictions."
+        },
+        {
+            "id": "qft_12",
+            "type": "quiz",
+            "title": "Gauge and Renormalization Quiz",
+            "content": "Check your understanding of advanced QFT concepts.",
+            "quizQuestion": "What is the primary purpose of Renormalization in Quantum Field Theory?",
+            "quizOptions": [
+                "To prove that particles can travel faster than light",
+                "To remove mathematical infinities and yield finite predictions",
+                "To combine gravity with quantum mechanics",
+                "To explain the existence of dark matter"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "qft_13",
+            "type": "content",
+            "title": "Running Coupling Constants",
+            "content": "# Running Coupling Constants\n\nA bizarre consequence of renormalization is that coupling constants (the numbers that measure the strength of a force) are not constant!\n\n## The Running Coupling:\nThe strength of a force changes depending on the energy scale (or distance) at which you probe it.\n\n- The electromagnetic force gets stronger at high energies (short distances).\n- The strong nuclear force gets weaker at high energies (a phenomenon known as Asymptotic Freedom)."
+        },
+        {
+            "id": "qft_14",
+            "type": "content",
+            "title": "Cutoffs and Effective Theories",
+            "content": "# Effective Field Theories\n\nModern physicists view renormalization differently than the pioneers did.\n\n## The Cutoff:\nInstead of viewing QFT as the ultimate truth down to zero distance, we view it as an \"Effective Field Theory.\"\n\nWe impose a high-energy \"cutoff\" where we admit our theory stops working (perhaps at the Planck scale where gravity dominates). The low-energy physics we observe is heavily insulated from the unknown physics at the cutoff."
+        },
+        {
+            "id": "qft_15",
+            "type": "content",
+            "title": "The Standard Model",
+            "content": "# The Standard Model\n\nThe culmination of all these concepts is the Standard Model of particle physics.\n\nIt is a massive gauge theory incorporating:\n- The electromagnetic force (QED)\n- The weak nuclear force\n- The strong nuclear force (Quantum Chromodynamics)\n\nIt describes all known fundamental particles as excitations of underlying quantum fields, successfully predicting the Higgs boson and much more."
+        },
+        {
+            "id": "qft_16",
+            "type": "content",
+            "title": "Summary of QFT",
+            "content": "# Quantum Field Theory Summary\n\n## Key Takeaways:\n\n- **Fields are fundamental:** Particles are just ripples in continuous quantum fields.\n- **Quantization:** We can use Canonical methods or Feynman's Path Integral to build quantum models.\n- **Gauge Symmetries:** Demanding that symmetries hold locally requires the existence of fundamental forces.\n- **Renormalization:** A vital mathematical technique to tame infinities by redefining bare parameters into measurable physical quantities."
+        },
+        {
+            "id": "qft_17",
+            "type": "content",
+            "title": "Module Complete",
+            "content": "# Congratulations!\n\nYou have completed the module on Quantum Field Theory.\n\nYou now possess a conceptual grasp of the most successful mathematical framework in the history of science."
+        }
+    ]
+}

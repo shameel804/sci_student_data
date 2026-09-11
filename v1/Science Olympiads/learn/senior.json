@@ -1,0 +1,127 @@
+{
+    "id": "senior",
+    "topicId": "senior",
+    "topicTitle": "Senior Olympiad (Class 6-10)",
+    "description": "Learn about Physics fundamentals, Chemistry basics, Biology principles, and Earth science concepts.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "sen_1",
+            "type": "content",
+            "title": "Welcome to Senior Olympiad",
+            "content": "# Senior Science Olympiad\n\nWelcome to the **Senior Olympiad** (Classes 6-10)!\n\n## What You Will Learn:\n- **Physics fundamentals** - Forces, motion, and energy\n- **Chemistry basics** - Atoms, bonds, and reactions\n- **Biology principles** - Cells, genetics, and ecology\n- **Earth science concepts** - Our planet and the solar system\n\nThis is where science gets rigorous. We will explore the fundamental laws that govern the universe."
+        },
+        {
+            "id": "sen_2",
+            "type": "content",
+            "title": "Physics: Force and Motion",
+            "content": "# Physics Fundamentals\n\n**Physics** is the study of matter and energy.\n\n## Newton's Laws:\n1. An object at rest stays at rest unless pushed or pulled (Inertia).\n2. Force equals mass times acceleration. (Heavy things are harder to push).\n3. For every action, there is an equal and opposite reaction."
+        },
+        {
+            "id": "sen_3",
+            "type": "content",
+            "title": "Energy and Work",
+            "content": "# Energy Transformations\n\n**Energy cannot be created or destroyed**, only changed from one form to another.\n\n- **Potential Energy:** Stored energy (like a stretched rubber band or a roller coaster at the top of a hill).\n- **Kinetic Energy:** The energy of motion (like the roller coaster zooming down).\n\nWhen a force moves an object, we say **Work** has been done."
+        },
+        {
+            "id": "sen_4",
+            "type": "content",
+            "title": "Electricity and Magnetism",
+            "content": "# The Flow of Charge\n\n**Electricity** is the flow of electrons through a conductor (like a copper wire).\n\n- **Voltage:** The \"push\" that moves the electrons.\n- **Current:** How many electrons are flowing.\n- **Resistance:** The friction slowing them down.\n\nElectricity and Magnetism are linked; running electricity through a coiled wire creates an Electromagnet!"
+        },
+        {
+            "id": "sen_5",
+            "type": "content",
+            "title": "Chemistry: Atoms and Molecules",
+            "content": "# Chemistry Basics\n\n**Chemistry** is the study of what things are made of and how they change.\n\nEverything is made of **Atoms**. \nAn atom has a heavy nucleus (protons and neutrons) surrounded by a cloud of tiny, fast-moving electrons.\n\nWhen two or more atoms stick together, they form a **Molecule** (like H2O, water)."
+        },
+        {
+            "id": "sen_6",
+            "type": "quiz",
+            "title": "Physics Quiz",
+            "content": "Test your knowledge of forces.",
+            "quizQuestion": "According to Newton's First Law (Inertia), what will happen to a moving spaceship in deep space if it turns its engines completely off?",
+            "quizOptions": [
+                "It will immediately stop moving",
+                "It will slowly grind to a halt",
+                "It will keep moving forward at the exact same speed forever",
+                "It will fly backward"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "sen_7",
+            "type": "content",
+            "title": "Chemical Reactions",
+            "content": "# Mixing and Changing\n\nA **Physical Change** (like melting ice) doesn't change the molecules. Water is still water.\n\nA **Chemical Reaction** actually breaks the molecules apart and builds brand new ones!\n\nSigns of a chemical reaction:\n- Bubbles (gas) are made.\n- The color changes.\n- It gets very hot or cold.\n- A solid appears in a liquid."
+        },
+        {
+            "id": "sen_8",
+            "type": "content",
+            "title": "Acids and Bases",
+            "content": "# The pH Scale\n\nChemicals can be grouped into Acids and Bases using the **pH scale** (0 to 14).\n\n- **Acids (pH 0-6):** Taste sour, can dissolve metals (e.g., Lemon juice, stomach acid).\n- **Neutral (pH 7):** Pure water.\n- **Bases (pH 8-14):** Feel slippery, taste bitter, often used for cleaning (e.g., Soap, bleach).\n\nMixing an acid and a base neutralizes them, creating salt and water!"
+        },
+        {
+            "id": "sen_9",
+            "type": "content",
+            "title": "Biology: The Cell",
+            "content": "# Biology Principles\n\n**Biology** is the study of life.\n\nThe **Cell** is the basic building block of all living things.\n- **Nucleus:** The \"brain\" of the cell, holding the DNA.\n- **Mitochondria:** The \"powerhouse,\" turning food into energy.\n- **Cell Membrane:** The \"skin\" that controls what goes in and out.\n\nPlant cells also have a rigid Cell Wall and green Chloroplasts for making food."
+        },
+        {
+            "id": "sen_10",
+            "type": "content",
+            "title": "Human Body Systems",
+            "content": "# Working Together\n\nCells form Tissues, Tissues form Organs, Organs form Systems.\n\n- **Digestive System:** Breaks food into tiny nutrients.\n- **Respiratory System:** Brings in Oxygen, removes Carbon Dioxide.\n- **Circulatory System:** The heart pumps blood to deliver the oxygen and nutrients to every cell in the body.\n- **Nervous System:** The brain and nerves control everything."
+        },
+        {
+            "id": "sen_11",
+            "type": "content",
+            "title": "Ecosystems and Food Webs",
+            "content": "# The Web of Life\n\nAn **Ecosystem** is a community of living things interacting with their non-living environment.\n\nEnergy flows through a **Food Web**:\n1. **Producers:** Plants use the sun to make food.\n2. **Consumers:** Animals eat the plants (herbivores) or eat other animals (carnivores).\n3. **Decomposers:** Fungi and bacteria eat dead things, recycling the nutrients back into the soil."
+        },
+        {
+            "id": "sen_12",
+            "type": "quiz",
+            "title": "Chemistry Quiz",
+            "content": "Verify your understanding of matter.",
+            "quizQuestion": "Which of the following is an example of a Chemical Reaction?",
+            "quizOptions": [
+                "Melting a block of solid ice into liquid water",
+                "Tearing a piece of paper in half",
+                "Baking a cake in an oven, causing it to rise and turn brown",
+                "Dissolving salt in a glass of water"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "sen_13",
+            "type": "content",
+            "title": "Earth Science: Structure of the Earth",
+            "content": "# Earth Science Concepts\n\nOur planet is not a solid rock. It has layers:\n1. **Crust:** The thin, cool outer layer we live on.\n2. **Mantle:** A massive layer of super-hot, slowly flowing rock (magma).\n3. **Outer Core:** Liquid iron and nickel (creates our magnetic field).\n4. **Inner Core:** Solid iron under immense pressure.\n\nThe crust is cracked into \"Tectonic Plates\" that slowly move, causing earthquakes and building mountains!"
+        },
+        {
+            "id": "sen_14",
+            "type": "content",
+            "title": "The Solar System",
+            "content": "# Our Cosmic Neighborhood\n\nThe Sun is a star at the center of our Solar System. Its massive gravity holds everything in orbit.\n\n- **Inner Planets:** Mercury, Venus, Earth, Mars (Small, rocky).\n- **Outer Planets:** Jupiter, Saturn, Uranus, Neptune (Giant balls of gas and ice).\n\nThe moon orbits the Earth, and its gravity pulls on our oceans, creating the Tides."
+        },
+        {
+            "id": "sen_15",
+            "type": "content",
+            "title": "Weather and Climate",
+            "content": "# The Atmosphere\n\n**Weather** is what happens outside today (rain, snow, sunny). **Climate** is the average weather over many years.\n\nThe sun heats the Earth unevenly (hot at the equator, cold at the poles). This temperature difference causes the air to move, creating wind and driving the water cycle (evaporation, condensation, precipitation)."
+        },
+        {
+            "id": "sen_16",
+            "type": "content",
+            "title": "Conservation and Environment",
+            "content": "# Protecting Our Home\n\nHumans have a massive impact on the Earth.\n\nBurning fossil fuels (coal, oil) releases extra Carbon Dioxide into the air. This gas traps the sun's heat like a blanket (The Greenhouse Effect), causing Global Warming.\n\n**Conservation** means protecting resources: recycling, using renewable energy (solar/wind), and protecting habitats from destruction."
+        },
+        {
+            "id": "sen_17",
+            "type": "content",
+            "title": "Summary of Senior Science",
+            "content": "# Senior Olympiad Summary\n\n## Key Takeaways:\n- **Physics** explains motion (Newton's Laws), energy transformations, and electricity.\n- **Chemistry** explores how atoms combine into molecules, and how chemical reactions build or destroy them.\n- **Biology** focuses on the Cell as the unit of life, human organ systems, and the energy flow in Ecosystems.\n- **Earth Science** teaches us about Earth's tectonic layers, the Solar System, and our responsibility to conserve the environment."
+        }
+    ]
+}

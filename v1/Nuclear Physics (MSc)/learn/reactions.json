@@ -1,0 +1,127 @@
+{
+    "id": "reactions",
+    "topicId": "reactions",
+    "topicTitle": "Nuclear Reactions",
+    "description": "Examine reaction mechanisms, cross-section measurements, nuclear astrophysics, and synthesis processes.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "rxn_1",
+            "type": "content",
+            "title": "Welcome to Nuclear Reactions",
+            "content": "# Nuclear Reactions\n\nWelcome to the module on **Nuclear Reactions**.\n\n## What You Will Learn:\n- **Reaction mechanisms** - How nuclei interact\n- **Cross-section measurements** - The probability of a reaction\n- **Nuclear astrophysics** - Powering the stars\n- **Synthesis processes** - How the elements were made\n\nNuclear reactions are the engines of the universe, responsible for all the elements heavier than lithium."
+        },
+        {
+            "id": "rxn_2",
+            "type": "content",
+            "title": "Reaction Mechanisms",
+            "content": "# Reaction Mechanisms\n\nA nuclear reaction occurs when a projectile (like a proton, neutron, or another nucleus) hits a target nucleus.\n\n## Two Extremes of Reactions:\n1. **Direct Reactions:** The projectile grazes the target, knocking out or transferring just one or two nucleons in a fraction of a second.\n2. **Compound Nucleus Reactions:** The projectile crashes head-on, completely merging with the target to form a highly excited, boiling \"compound nucleus\" that later decays."
+        },
+        {
+            "id": "rxn_3",
+            "type": "content",
+            "title": "Fission vs Fusion",
+            "content": "# Fission and Fusion\n\nThe two most famous nuclear reactions release immense amounts of energy.\n\n## Fission:\nA heavy nucleus (like Uranium) splits into two lighter fragments. This releases energy because the fragments are more tightly bound. This powers nuclear reactors.\n\n## Fusion:\nTwo light nuclei (like Hydrogen) smash together and merge into a heavier nucleus (Helium). This powers the sun and hydrogen bombs."
+        },
+        {
+            "id": "rxn_4",
+            "type": "content",
+            "title": "The Coulomb Barrier",
+            "content": "# The Coulomb Barrier\n\nWhy don't nuclei undergo fusion all the time?\n\n## Electrostatic Repulsion:\nBecause all nuclei are positively charged, they repel each other fiercely. This repulsive force creates a massive energy wall known as the **Coulomb Barrier**.\n\nTo achieve fusion, nuclei must be hurled at each other at incredible speeds (requiring temperatures of millions of degrees) to overcome this barrier and get close enough for the strong nuclear force to take over."
+        },
+        {
+            "id": "rxn_5",
+            "type": "content",
+            "title": "Cross-Section Measurements",
+            "content": "# Cross-Section Measurements\n\nIn nuclear physics, we measure the probability that a specific reaction will occur using the concept of a **Cross-Section**.\n\n## The Target Area:\nImagine throwing darts at a wall. The cross-section is the effective \"size\" of the target bullseye. \n\n- A large cross-section means the reaction is highly probable.\n- A small cross-section means the reaction is rare."
+        },
+        {
+            "id": "rxn_6",
+            "type": "quiz",
+            "title": "Reactions Quiz",
+            "content": "Check your understanding of basic reaction types.",
+            "quizQuestion": "What force creates the massive barrier that prevents light nuclei from easily undergoing fusion at room temperature?",
+            "quizOptions": [
+                "The Weak Nuclear Force",
+                "Gravity",
+                "The Strong Nuclear Force",
+                "Coulomb Repulsion (Electromagnetic Force)"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "rxn_7",
+            "type": "content",
+            "title": "The Barn Unit",
+            "content": "# The Barn\n\nNuclear cross-sections are measured in a unit whimsically called the **Barn**.\n\n## The Origin:\nDuring the Manhattan Project, physicists described a uranium nucleus as being \"as big as a barn\" for a slow-moving neutron to hit.\n\n**1 Barn = 10^-28 square meters.** \n\nIt is an unimaginably small area to us, but for a neutron, it is a massive, easy-to-hit target!"
+        },
+        {
+            "id": "rxn_8",
+            "type": "content",
+            "title": "Resonances",
+            "content": "# Nuclear Resonances\n\nCross-sections are not constant; they depend heavily on the energy of the incoming projectile.\n\n## Excitation Functions:\nIf you plot the cross-section against the energy of the incoming particle, you often see massive spikes called **Resonances**.\n\nThis happens when the energy of the projectile perfectly matches a natural quantum vibration frequency of the target nucleus, dramatically increasing the probability of absorption."
+        },
+        {
+            "id": "rxn_9",
+            "type": "content",
+            "title": "Nuclear Astrophysics",
+            "content": "# Nuclear Astrophysics\n\nNuclear Astrophysics is the study of how nuclear reactions power the stars and synthesize the elements of the periodic table.\n\n## The Big Bang:\nThe Big Bang only created three elements: Hydrogen, Helium, and a tiny trace of Lithium.\n\nEvery single other element in your body\u2014the carbon in your DNA, the iron in your blood, the calcium in your bones\u2014was forged in the crushing heat of a star!"
+        },
+        {
+            "id": "rxn_10",
+            "type": "content",
+            "title": "Stellar Nucleosynthesis",
+            "content": "# Stellar Nucleosynthesis\n\nStars are essentially giant, floating nuclear fusion reactors.\n\n## The p-p Chain:\nIn stars like our Sun, the core temperature is about 15 million degrees. The primary reaction is the **proton-proton (p-p) chain**, which slowly fuses four single protons (hydrogen) into one helium nucleus, releasing energy that keeps the star from collapsing under its own gravity."
+        },
+        {
+            "id": "rxn_11",
+            "type": "content",
+            "title": "The CNO Cycle",
+            "content": "# The CNO Cycle\n\nIn stars much heavier and hotter than our Sun, hydrogen fusion occurs via a different mechanism: the **CNO Cycle**.\n\n## Catalytic Fusion:\nCarbon, Nitrogen, and Oxygen act as catalysts. They capture protons in a loop, eventually spitting out a Helium nucleus and regenerating the original Carbon.\n\nThis cycle is incredibly sensitive to temperature and runs much faster than the p-p chain, which is why massive stars burn out and die much quicker than small stars."
+        },
+        {
+            "id": "rxn_12",
+            "type": "quiz",
+            "title": "Astrophysics Quiz",
+            "content": "Verify your knowledge of stellar fusion.",
+            "quizQuestion": "Which elements were the only ones created directly by the Big Bang?",
+            "quizOptions": [
+                "Hydrogen, Helium, and Lithium",
+                "Carbon, Nitrogen, and Oxygen",
+                "Iron and Uranium",
+                "All elements up to Iron"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "rxn_13",
+            "type": "content",
+            "title": "Synthesis of Heavy Elements",
+            "content": "# Synthesis Processes\n\nStars can fuse elements up to Iron. Iron has the highest binding energy per nucleon; fusing it actually *consumes* energy instead of releasing it.\n\nSo how do we get gold, lead, and uranium?\n\n## Neutron Capture:\nHeavy elements are built via neutron capture. Because neutrons have no charge, they ignore the Coulomb barrier and easily slip into heavy nuclei, building them up step by step."
+        },
+        {
+            "id": "rxn_14",
+            "type": "content",
+            "title": "The s-Process and r-Process",
+            "content": "# Slow and Rapid Neutron Capture\n\n## The s-Process (Slow):\nOccurs inside dying red giant stars. Neutrons are captured slowly over thousands of years. This allows unstable nuclei time to undergo beta decay before capturing another neutron. This process creates about half of the elements heavier than iron.\n\n## The r-Process (Rapid):\nOccurs in violent cosmic explosions, like supernovas or colliding neutron stars. Nuclei are bombarded by billions of neutrons in less than a second! This creates the heaviest elements like Gold and Uranium."
+        },
+        {
+            "id": "rxn_15",
+            "type": "content",
+            "title": "Superheavy Elements",
+            "content": "# Synthesizing Superheavy Elements\n\nThe heaviest elements on the periodic table (like Oganesson, element 118) do not exist in nature. They must be synthesized in laboratories.\n\n## Cold and Hot Fusion:\nPhysicists use particle accelerators to smash heavy ion beams (like Calcium-48) into ultra-heavy targets (like Californium). \n\nIf the stars align perfectly, they overcome the Coulomb barrier and fuse into a superheavy element, which usually decays in a fraction of a millisecond."
+        },
+        {
+            "id": "rxn_16",
+            "type": "content",
+            "title": "Summary of Nuclear Reactions",
+            "content": "# Reactions Summary\n\n## Key Takeaways:\n- Reactions require overcoming the **Coulomb Barrier**.\n- Reaction probabilities are measured in **Barns** (cross-sections), which spike wildly at certain energy **Resonances**.\n- **Stellar nucleosynthesis** powers stars via the p-p chain and CNO cycle.\n- Heavy elements are forged by the **s-process** (in red giants) and the **r-process** (in supernovas and neutron star collisions).\n- **Superheavy elements** are artificially created in lab accelerators."
+        },
+        {
+            "id": "rxn_17",
+            "type": "content",
+            "title": "Module Complete",
+            "content": "# Congratulations!\n\nYou have completed the module on Nuclear Reactions.\n\nYou now understand the mechanisms that forge the elements and light up the night sky."
+        }
+    ]
+}

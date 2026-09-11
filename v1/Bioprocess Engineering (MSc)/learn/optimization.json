@@ -1,0 +1,127 @@
+{
+    "id": "optimization",
+    "topicId": "optimization",
+    "topicTitle": "Process Optimization",
+    "description": "Understand DoE methodology, metabolic flux, online monitoring, and Quality by Design.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "opt_1",
+            "type": "content",
+            "title": "Welcome to Process Optimization",
+            "content": "# Process Optimization\n\nWelcome to the final module: **Process Optimization**!\n\n## What You Will Learn:\n- **DoE methodology** - The smart way to do experiments\n- **Metabolic flux** - Finding the bottlenecks in biology\n- **Online monitoring** - Watching the process in real-time\n- **Quality by Design (QbD)** - Engineering perfection from the start\n\nMaking a drug is good. Making a drug 10 times faster, 10 times cheaper, and with zero defects is the goal of a Bioprocess Engineer."
+        },
+        {
+            "id": "opt_2",
+            "type": "content",
+            "title": "The Old Way of Experimenting",
+            "content": "# OFAT: One Factor At a Time\n\nHistorically, if a scientist wanted to optimize a bioreactor, they used OFAT.\n\nThey would hold pH and Oxygen constant, and run 5 batches at different Temperatures to find the best one.\nThen they hold Temperature constant, and change the pH 5 times.\n\n## The Problem:\nThis ignores **interactions**. What if the best pH changes depending on what the temperature is? OFAT misses this entirely, leading to sub-optimal processes."
+        },
+        {
+            "id": "opt_3",
+            "type": "content",
+            "title": "Design of Experiments (DoE)",
+            "content": "# Design of Experiments (DoE)\n\n**DoE** is a heavily statistical, multivariate approach to running experiments.\n\n## The Method:\nInstead of changing one variable at a time, you use a computer matrix to change ALL variables (pH, Temp, Oxygen, Sugar) simultaneously in a highly structured, mathematical pattern.\n\nBy analyzing the results with statistics, you can see exactly how variables interact with each other (e.g., \"High temp is only good if pH is also high\")."
+        },
+        {
+            "id": "opt_4",
+            "type": "content",
+            "title": "Response Surface Methodology",
+            "content": "# Response Surface Methodology\n\nDoE software takes your experimental data and generates a 3D topological map called a **Response Surface**.\n\nIt looks like a mountain range.\n- The X and Y axes are your variables (e.g., Temp and pH).\n- The Z axis (the height of the mountain) is the drug yield.\n\nBy simply looking at the map, the engineer can find the highest peak and instantly know the exact perfect combination of Temp and pH to maximize yield!"
+        },
+        {
+            "id": "opt_5",
+            "type": "content",
+            "title": "Metabolic Flux",
+            "content": "# Metabolic Flux\n\nOptimization isn't just about the tank; it's about the cell itself.\n\n## The Factory Floor:\nImagine the cell as a car factory. \n- Station A makes the chassis.\n- Station B puts the engine in.\n- Station C puts the wheels on.\n\n**Metabolic Flux** is the rate at which molecules flow through these enzymatic \"stations\" inside the living cell."
+        },
+        {
+            "id": "opt_6",
+            "type": "quiz",
+            "title": "DoE Quiz",
+            "content": "Test your knowledge of statistical engineering.",
+            "quizQuestion": "Why is Design of Experiments (DoE) vastly superior to testing One Factor At a Time (OFAT)?",
+            "quizOptions": [
+                "DoE doesn't require computers",
+                "DoE allows you to see how different variables (like Temp and pH) interact with each other to affect the final yield",
+                "DoE only requires running one single experiment",
+                "DoE is a much older and simpler method"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "opt_7",
+            "type": "content",
+            "title": "Finding the Bottleneck",
+            "content": "# Metabolic Bottlenecks\n\nIf Station A makes 100 chassis an hour, and Station C makes 100 sets of wheels, but Station B can only install 5 engines an hour, the factory will only output 5 cars an hour.\n\nStation B is the **Bottleneck**.\n\nIn biology, if you pump the cell full of sugar, but one specific enzyme in the pathway is naturally slow, the sugar will just build up as toxic waste, and drug production will stall."
+        },
+        {
+            "id": "opt_8",
+            "type": "content",
+            "title": "Flux Balance Analysis",
+            "content": "# Fixing the Bottleneck\n\nEngineers use computer models (Flux Balance Analysis) to mathematically identify exactly which enzyme is the bottleneck.\n\n## The Genetic Fix:\nOnce identified, they use Recombinant DNA technology to insert multiple extra copies of the gene for that specific enzyme into the cell.\n\nNow Station B has 10 workers instead of 1. The bottleneck is cleared, the metabolic flux dramatically increases, and drug yield skyrockets!"
+        },
+        {
+            "id": "opt_9",
+            "type": "content",
+            "title": "Online Monitoring",
+            "content": "# Process Analytical Technology (PAT)\n\nHistorically, you only found out if a 2-week fermentation batch was good *after* it finished and you tested it in a lab. If it failed, you threw away 5 million dollars.\n\n## The PAT Initiative:\nThe FDA pushes companies to use Online Monitoring. You place advanced sensors (like Raman spectrometers) directly *inside* the bioreactor to measure the exact drug concentration and quality every single second in real-time."
+        },
+        {
+            "id": "opt_10",
+            "type": "content",
+            "title": "Soft Sensors",
+            "content": "# Soft Sensors\n\nSometimes, you can't put a physical sensor inside the tank (e.g., measuring total biomass might require taking a physical sample).\n\n## Mathematical Sensors:\nEngineers use \"Soft Sensors.\" They feed the data from easy-to-measure things (like oxygen consumption rate and CO2 exhaust rate) into a complex mathematical model.\n\nThe computer model calculates exactly how much biomass must exist to produce that much CO2, giving you a real-time virtual measurement without taking a physical sample!"
+        },
+        {
+            "id": "opt_11",
+            "type": "content",
+            "title": "Quality by Design",
+            "content": "# Quality by Design (QbD)\n\nQuality by Design is a philosophy demanded by regulatory agencies like the FDA.\n\n## The Old Way (Quality by Testing):\nMake the drug, test the final pill. If it fails, throw it away.\n\n## The QbD Way:\nQuality cannot be tested *into* a product; it must be built *into* the design from day one. You must comprehensively understand every single variable that could possibly affect the drug before you ever build the factory."
+        },
+        {
+            "id": "opt_12",
+            "type": "quiz",
+            "title": "PAT Quiz",
+            "content": "Verify your understanding of modern manufacturing.",
+            "quizQuestion": "What is the primary goal of Process Analytical Technology (PAT) in a bioreactor?",
+            "quizOptions": [
+                "To replace human workers with robots",
+                "To reduce the temperature of the tank",
+                "To measure the quality and concentration of the drug continuously in real-time while the batch is running",
+                "To genetically modify the cells faster"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "opt_13",
+            "type": "content",
+            "title": "Critical Quality Attributes",
+            "content": "# CQAs\n\nThe first step of QbD is defining the **Critical Quality Attributes (CQAs)**.\n\nWhat makes this drug safe and effective? \n- Does it need to be 99.5% pure?\n- Does the pill need to dissolve in exactly 3 minutes in stomach acid?\n- Does the antibody need a specific sugar attached to it to work?\n\nThese CQAs become the absolute law. The entire engineering process is designed backward from these goals."
+        },
+        {
+            "id": "opt_14",
+            "type": "content",
+            "title": "The Design Space",
+            "content": "# Establishing the Design Space\n\nUsing DoE (Design of Experiments), the engineer creates a \"Design Space.\"\n\n## The Safe Zone:\nThis is a mathematically proven range of operating conditions. (e.g., \"As long as Temperature is between 35-37C, and pH is between 6.8-7.2, the drug is guaranteed to meet all CQAs.\")\n\nIf the bioreactor accidentally fluctuates to 36.5C, the engineer does not panic, because they mathematically proved it is still inside the safe Design Space!"
+        },
+        {
+            "id": "opt_15",
+            "type": "content",
+            "title": "Risk Assessment",
+            "content": "# Risk Assessment\n\nQbD requires paranoid levels of Risk Assessment (often using tools like FMEA - Failure Mode and Effects Analysis).\n\nThe engineer must sit down and brainstorm every single thing that could possibly go wrong (e.g., a pump breaks, the power goes out, a sensor drifts out of calibration).\n\nThey must then build automated control systems to instantly detect and correct those failures before they ruin the batch."
+        },
+        {
+            "id": "opt_16",
+            "type": "content",
+            "title": "Summary of Process Optimization",
+            "content": "# Optimization Summary\n\n## Key Takeaways:\n- **DoE (Design of Experiments)** uses statistics to test multiple variables at once, generating 3D Response Surfaces to find the perfect operating conditions.\n- **Metabolic Flux** analysis identifies genetic bottlenecks inside the cell so they can be engineered away.\n- **PAT** uses advanced sensors to monitor the batch in real-time.\n- **Quality by Design (QbD)** is a regulatory philosophy that guarantees drug safety by deeply understanding the process and operating within a mathematically proven **Design Space**."
+        },
+        {
+            "id": "opt_17",
+            "type": "content",
+            "title": "Course Complete",
+            "content": "# Congratulations!\n\nYou have completed the Bioprocess Engineering (MSc) course.\n\nYou now possess the knowledge required to design, run, and optimize a world-class biopharmaceutical manufacturing facility."
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "id": "cosmology",
+    "topicId": "cosmology",
+    "topicTitle": "Cosmology",
+    "description": "Examine cosmological models, dark matter evidence, dark energy properties, and the cosmic microwave background.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "cosmo_1",
+            "type": "content",
+            "title": "Welcome to Cosmology",
+            "content": "# Cosmology\n\nWelcome to **Cosmology**, the study of the origin, evolution, and ultimate fate of the entire universe!\n\n## What You Will Learn:\n- **Cosmological models** - The Big Bang and Inflation\n- **Dark matter evidence** - The invisible scaffolding\n- **Dark energy properties** - The accelerating expansion\n- **Cosmic microwave background** - The echo of creation"
+        },
+        {
+            "id": "cosmo_2",
+            "type": "content",
+            "title": "The Expanding Universe",
+            "content": "# The Expanding Universe\n\nIn the 1920s, Edwin Hubble made a discovery that changed science forever.\n\n## Hubble's Law:\nHe observed that almost every galaxy in the night sky is moving away from us. More importantly, the further away a galaxy is, the faster it is receding.\n\nThis means the universe is not static; the very fabric of space is expanding!"
+        },
+        {
+            "id": "cosmo_3",
+            "type": "content",
+            "title": "The Big Bang Theory",
+            "content": "# The Big Bang Theory\n\nIf the universe is expanding today, it must have been smaller in the past.\n\n## The Origin:\nExtrapolating backward, the entire observable universe must have once been compressed into an infinitesimally small, infinitely hot, and infinitely dense point (a singularity).\n\nApprox 13.8 billion years ago, space itself began expanding rapidly from this state. This is the **Big Bang Theory**."
+        },
+        {
+            "id": "cosmo_4",
+            "type": "content",
+            "title": "Cosmic Inflation",
+            "content": "# Cosmic Inflation\n\nThe standard Big Bang theory had a few problems (like why the universe is so uniformly flat and even in temperature everywhere).\n\n## The Solution: Inflation\nPhysicists proposed that in the first fraction of a second after the Big Bang (around 10^-36 seconds), the universe expanded at an exponential, faster-than-light rate.\n\nThis brief period of \"Inflation\" stretched out any quantum wrinkles, resulting in the incredibly smooth and flat universe we observe today."
+        },
+        {
+            "id": "cosmo_5",
+            "type": "content",
+            "title": "The Evidence for Dark Matter",
+            "content": "# The Missing Mass Problem\n\nWhen astronomers look at galaxies, the math doesn't add up.\n\n## Galaxy Rotation Curves:\nStars at the outer edges of spiral galaxies are orbiting much faster than they should be, based on the visible mass (stars and gas) in the galaxy.\n\nAccording to normal gravity, these fast-moving outer stars should fly off into space. Something invisible must be providing extra gravity to hold the galaxy together."
+        },
+        {
+            "id": "cosmo_6",
+            "type": "quiz",
+            "title": "Dark Matter Quiz",
+            "content": "Check your understanding of cosmic mysteries.",
+            "quizQuestion": "What primary observational evidence led astronomers to propose the existence of dark matter?",
+            "quizOptions": [
+                "The accelerating expansion of the universe",
+                "The cosmic microwave background",
+                "Stars at the edges of galaxies orbiting faster than visible mass allows",
+                "The existence of black holes"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "cosmo_7",
+            "type": "content",
+            "title": "Gravitational Lensing",
+            "content": "# Gravitational Lensing\n\nAnother massive piece of evidence for dark matter is **Gravitational Lensing**.\n\n## Bending Light:\nEinstein proved that mass bends the fabric of space. When light from a distant galaxy passes near a massive cluster of galaxies, the light bends, acting like a magnifying glass.\n\nWhen we calculate the mass required to bend the light that much, it is vastly more than the visible matter in the cluster. Most of the cluster is made of invisible dark matter!"
+        },
+        {
+            "id": "cosmo_8",
+            "type": "content",
+            "title": "What is Dark Matter?",
+            "content": "# Properties of Dark Matter\n\nWe know what dark matter is *not*. \n\n- It is not dark clouds of normal gas (we would see them absorb light).\n- It is not antimatter (we would see gamma rays from annihilations).\n- It is not black holes (we would see more gravitational anomalies).\n\nIt is likely a brand new, undiscovered fundamental particle that simply does not interact with the electromagnetic force (light), making it completely invisible."
+        },
+        {
+            "id": "cosmo_9",
+            "type": "content",
+            "title": "The Fate of the Universe",
+            "content": "# The Ultimate Fate\n\nFor decades, cosmologists wondered how the universe would end.\n\nWould gravity eventually pull everything back together in a \"Big Crunch\"? Or would it expand forever, slowing down gradually?\n\nTo find out, in 1998, two independent teams measured the distance to very far Supernovae to see how much the expansion of the universe was slowing down."
+        },
+        {
+            "id": "cosmo_10",
+            "type": "content",
+            "title": "The Discovery of Dark Energy",
+            "content": "# Dark Energy\n\nThe 1998 Supernova results shocked the world: the expansion of the universe is NOT slowing down. It is **accelerating**.\n\n## The Anti-Gravity Force:\nSome unknown energy is causing the fabric of space to stretch faster and faster. We call this **Dark Energy**.\n\nBecause it accelerates expansion, the universe will likely end in a \"Big Freeze,\" expanding forever until all stars die and matter drifts apart."
+        },
+        {
+            "id": "cosmo_11",
+            "type": "content",
+            "title": "The Cosmological Constant",
+            "content": "# The Cosmological Constant\n\nEinstein originally added a \"Cosmological Constant\" to his equations of General Relativity to keep the universe static, but later called it his biggest blunder.\n\n## The Blunder was Right:\nToday, the Cosmological Constant perfectly describes Dark Energy! It represents the intrinsic, vacuum energy of empty space itself.\n\nAs the universe expands, there is *more* empty space, which means *more* dark energy, leading to exponential acceleration."
+        },
+        {
+            "id": "cosmo_12",
+            "type": "quiz",
+            "title": "Dark Energy Quiz",
+            "content": "Verify your understanding of the expanding universe.",
+            "quizQuestion": "What is the primary effect of Dark Energy on the universe?",
+            "quizOptions": [
+                "It holds galaxies together",
+                "It causes the expansion of the universe to accelerate",
+                "It causes stars to go supernova",
+                "It slows down the expansion of the universe"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "cosmo_13",
+            "type": "content",
+            "title": "The Cosmic Microwave Background",
+            "content": "# The Echo of the Big Bang\n\nIf the Big Bang theory is true, there should be a faint glow of radiation left over from the extreme heat of the early universe.\n\n## The CMB:\nThis glow was accidentally discovered in 1965. It is the **Cosmic Microwave Background (CMB)**.\n\nIt permeates all of space uniformly and has a temperature of exactly 2.7 Kelvin (just above absolute zero). It is the oldest light we can possibly see."
+        },
+        {
+            "id": "cosmo_14",
+            "type": "content",
+            "title": "The Recombination Epoch",
+            "content": "# The Recombination Epoch\n\nWhy can't we see light from before the CMB?\n\n## The Opaque Universe:\nFor the first 380,000 years, the universe was a super-hot plasma. Electrons roamed free, and photons (light) could not travel without instantly crashing into an electron.\n\n## Let There Be Light:\nAs it expanded and cooled, protons finally captured electrons to form neutral hydrogen atoms. Suddenly, there were no free electrons to block the light. The universe became transparent, and that first burst of free light is the CMB!"
+        },
+        {
+            "id": "cosmo_15",
+            "type": "content",
+            "title": "Temperature Fluctuations",
+            "content": "# CMB Temperature Fluctuations\n\nWhen satellites (like WMAP and Planck) mapped the CMB in high definition, they found it wasn't perfectly smooth.\n\n## The Seeds of Galaxies:\nThere are microscopic temperature differences (fluctuations of 1 part in 100,000). \n\nThese tiny hot and cold spots represent tiny density differences in the early universe. Over billions of years, gravity pulled more matter into the dense spots, eventually growing into the galaxies and stars we see today!"
+        },
+        {
+            "id": "cosmo_16",
+            "type": "content",
+            "title": "The Recipe of the Universe",
+            "content": "# The Cosmic Pie Chart\n\nThanks to precise measurements of the CMB, supernovae, and galaxy clustering, we now know the exact \"recipe\" of our universe.\n\n- **Normal Matter (Stars, Planets, Us):** approx 5%\n- **Dark Matter:** approx 27%\n- **Dark Energy:** approx 68%\n\n95% of the universe is completely invisible and made of physics we do not fully understand!"
+        },
+        {
+            "id": "cosmo_17",
+            "type": "content",
+            "title": "Summary of Cosmology",
+            "content": "# Cosmology Summary\n\n## Key Takeaways:\n- The universe began with the **Big Bang** and expanded exponentially via **Inflation**.\n- **Dark Matter** provides the extra gravity needed to hold galaxies together.\n- **Dark Energy** is the vacuum energy of space causing the expansion of the universe to accelerate.\n- The **Cosmic Microwave Background** is the oldest light in the universe, providing a snapshot of the cosmos at 380,000 years old.\n\nYou have completed the Cosmology module!"
+        }
+    ]
+}

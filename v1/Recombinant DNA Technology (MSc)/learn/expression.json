@@ -1,0 +1,127 @@
+{
+    "id": "expression",
+    "topicId": "expression",
+    "topicTitle": "Gene Expression Systems",
+    "description": "Examine promoter systems, inducible expression, secretion systems, and protein targeting.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "exp_1",
+            "type": "content",
+            "title": "Welcome to Gene Expression",
+            "content": "# Gene Expression Systems\n\nWelcome to the module on **Gene Expression Systems**!\n\n## What You Will Learn:\n- **Promoter systems** - The ignition switch for genes\n- **Inducible expression** - Turning genes on and off on command\n- **Secretion systems** - Getting proteins out of the cell\n- **Protein targeting** - Sending proteins to specific organelles\n\nGetting a gene inside a cell is only half the battle; controlling how it behaves is the true art of molecular biology."
+        },
+        {
+            "id": "exp_2",
+            "type": "content",
+            "title": "Promoter Systems",
+            "content": "# Promoter Systems\n\nA **Promoter** is a specific DNA sequence located right before a gene. It acts as the binding site for RNA Polymerase (the enzyme that transcribes DNA into RNA).\n\n## The Ignition Switch:\nWithout a promoter, a gene is just dead code. The promoter is the ignition switch that turns the gene on.\n\nBy choosing different promoters, scientists can control exactly how much protein is made, and in which specific tissues it is made."
+        },
+        {
+            "id": "exp_3",
+            "type": "content",
+            "title": "Constitutive vs Inducible",
+            "content": "# Types of Promoters\n\n## 1. Constitutive Promoters:\nThese are \"always on.\" The cell will transcribe the gene constantly, day and night, at a steady rate. Great for proteins the cell needs to survive.\n\n## 2. Inducible Promoters:\nThese are normally \"off.\" They only turn on when a specific chemical signal (the inducer) is added to the environment. This gives the scientist total control over *when* the protein is made."
+        },
+        {
+            "id": "exp_4",
+            "type": "content",
+            "title": "Viral Promoters",
+            "content": "# Strong Viral Promoters\n\nWhen we want to produce a massive amount of protein in mammalian cells, we often steal promoters from viruses.\n\n## The CMV Promoter:\nDerived from the Cytomegalovirus, this is one of the strongest constitutive promoters used in biotech.\n\nViruses evolved to aggressively hijack the host cell's machinery to mass-produce viral proteins. By putting our gene behind a viral promoter, the host cell aggressively mass-produces our protein instead!"
+        },
+        {
+            "id": "exp_5",
+            "type": "content",
+            "title": "Inducible Expression",
+            "content": "# Why Use Inducible Expression?\n\nIf we want to make a lot of protein, why not just leave it \"always on\"?\n\n## The Toxicity Problem:\nMany proteins we want to produce (like certain hormones or toxins) are harmful to the bacteria making them.\n\nIf we use a constitutive promoter, the bacteria will die before they can multiply. \n\nWith an inducible promoter, we let the bacteria multiply into the billions first, and *then* we flip the switch to make the toxic protein all at once!"
+        },
+        {
+            "id": "exp_6",
+            "type": "quiz",
+            "title": "Promoters Quiz",
+            "content": "Test your understanding of gene control.",
+            "quizQuestion": "Why might a scientist choose an inducible promoter instead of a constitutive 'always on' promoter?",
+            "quizOptions": [
+                "Because inducible promoters are easier to clone into plasmids",
+                "Because the protein being produced is toxic and would kill the host cell if produced too early",
+                "Because constitutive promoters only work in plant cells",
+                "Because inducible promoters do not require RNA polymerase"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "exp_7",
+            "type": "content",
+            "title": "The Lac Operon",
+            "content": "# The Lac Operon System\n\nThe most famous inducible system comes from E. coli bacteria.\n\n## How it works:\nNormally, a \"repressor\" protein physically sits on the promoter, blocking RNA polymerase. The gene is OFF.\n\nWhen you add a specific sugar analog called **IPTG**, it binds to the repressor and changes its shape. The repressor falls off the DNA, RNA polymerase rushes in, and the gene turns ON!"
+        },
+        {
+            "id": "exp_8",
+            "type": "content",
+            "title": "Tet-On and Tet-Off",
+            "content": "# Tetracycline Systems\n\nFor mammalian cells, the most common inducible systems are controlled by the antibiotic Tetracycline (or Doxycycline).\n\n## Tet-Off:\nThe gene is ON by default. When you give the cells the antibiotic, it binds the transcription factor and turns the gene OFF.\n\n## Tet-On:\nThe gene is OFF by default. Adding the antibiotic turns it ON.\n\nThis allows researchers to precisely control genes in living mice just by adding medicine to their drinking water!"
+        },
+        {
+            "id": "exp_9",
+            "type": "content",
+            "title": "Secretion Systems",
+            "content": "# Secretion Systems\n\nOnce the cell makes the protein, it is trapped inside the cytoplasm. \n\nTo harvest it, we usually have to physically crush the cells open, which releases thousands of unwanted junk proteins we have to filter out.\n\n## The Elegant Solution:\nWe engineer the cell to secrete (pump) the protein out into the surrounding liquid media. Then, we simply filter out the intact cells and collect the pure protein from the liquid!"
+        },
+        {
+            "id": "exp_10",
+            "type": "content",
+            "title": "Signal Peptides",
+            "content": "# Signal Peptides: The ZIP Code\n\nHow does the cell know which proteins to keep and which to pump out?\n\n## The Molecular ZIP Code:\nProteins destined for secretion have a short, specific sequence of amino acids at their very beginning called a **Signal Peptide**.\n\nAs the ribosome translates the protein, cellular machinery reads this signal peptide, grabs the protein, and drags it to the cell membrane to be exported."
+        },
+        {
+            "id": "exp_11",
+            "type": "content",
+            "title": "Periplasmic Secretion",
+            "content": "# Periplasmic vs Extracellular\n\nIn bacteria like E. coli, secretion is tricky because they have two membranes.\n\n## Periplasmic Space:\nMost bacterial secretion systems only pump the protein across the inner membrane into the \"periplasm\" (the gap between the inner and outer membranes).\n\nWhile this is better than leaving it in the cytoplasm (it allows for better protein folding), researchers must still use mild chemicals to crack the outer membrane to harvest the drug."
+        },
+        {
+            "id": "exp_12",
+            "type": "quiz",
+            "title": "Secretion Quiz",
+            "content": "Verify your understanding of protein logistics.",
+            "quizQuestion": "What serves as the molecular 'ZIP code' to tell a cell that a newly made protein needs to be secreted?",
+            "quizOptions": [
+                "The Ribosome Binding Site",
+                "A specific sugar molecule",
+                "A Signal Peptide at the beginning of the protein chain",
+                "The T7 viral promoter"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "exp_13",
+            "type": "content",
+            "title": "Protein Targeting",
+            "content": "# Protein Targeting in Eukaryotes\n\nUnlike simple bacteria, Eukaryotic cells (like human or yeast cells) are divided into many specialized compartments (organelles) like the nucleus, mitochondria, and lysosomes.\n\nWhen we engineer these cells, we often need our synthetic protein to go to a very specific room in the house."
+        },
+        {
+            "id": "exp_14",
+            "type": "content",
+            "title": "Nuclear Localization",
+            "content": "# Nuclear Localization Signals (NLS)\n\nIf we design a protein that edits DNA (like the CRISPR Cas9 enzyme), it absolutely must get inside the cell nucleus where the DNA is stored.\n\n## The NLS Tag:\nWe engineer a **Nuclear Localization Signal (NLS)** onto the end of the Cas9 gene. This is a short sequence of basic amino acids (like Arginine and Lysine).\n\nSpecial transport proteins see this NLS tag and actively drag the massive Cas9 enzyme through the nuclear pore complex into the nucleus."
+        },
+        {
+            "id": "exp_15",
+            "type": "content",
+            "title": "Endoplasmic Reticulum Retention",
+            "content": "# ER Retention Signals\n\nSometimes we want a protein to stay in the Endoplasmic Reticulum (ER) so it can undergo complex folding and modification.\n\n## The KDEL Sequence:\nThe standard \"stay in the ER\" signal is the amino acid sequence K-D-E-L (Lysine, Aspartic Acid, Glutamic Acid, Leucine) placed at the very end of the protein.\n\nIf the protein accidentally escapes the ER, receptor proteins in the Golgi apparatus recognize the KDEL tag and immediately ship it back!"
+        },
+        {
+            "id": "exp_16",
+            "type": "content",
+            "title": "Summary of Gene Expression",
+            "content": "# Expression Summary\n\n## Key Takeaways:\n- **Promoters** act as ignition switches; **viral promoters** are fiercely strong, while **inducible promoters** allow for precise timing (vital for toxic proteins).\n- Chemicals like IPTG or Tetracycline are used as the \"keys\" to unlock inducible systems.\n- **Signal Peptides** are molecular ZIP codes that force the cell to secrete the protein into the media for easy harvesting.\n- **Protein Targeting** uses tags like NLS or KDEL to route synthetic proteins to exact organelles inside complex eukaryotic cells."
+        },
+        {
+            "id": "exp_17",
+            "type": "content",
+            "title": "Module Complete",
+            "content": "# Congratulations!\n\nYou have completed the Gene Expression Systems module.\n\nYou now know how to masterfully control the genetic machinery of a living cell."
+        }
+    ]
+}

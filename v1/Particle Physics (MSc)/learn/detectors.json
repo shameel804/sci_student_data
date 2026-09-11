@@ -1,0 +1,127 @@
+{
+    "id": "detectors",
+    "topicId": "detectors",
+    "topicTitle": "Particle Detectors",
+    "description": "Understand detection principles, accelerator technology, data analysis, and experimental techniques.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "det_1",
+            "type": "content",
+            "title": "Welcome to Particle Detectors",
+            "content": "# Particle Detectors and Accelerators\n\nWelcome to the experimental side of Particle Physics!\n\n## What You Will Learn:\n- **Accelerator technology** - Smashing particles\n- **Detection principles** - Seeing the invisible\n- **Experimental techniques** - How modern detectors are built\n- **Data analysis** - Finding the needle in a haystack\n\nTheory is useless without experiments to prove it!"
+        },
+        {
+            "id": "det_2",
+            "type": "content",
+            "title": "Why Accelerate?",
+            "content": "# Accelerator Technology\n\nWhy do we need massive particle accelerators like the Large Hadron Collider (LHC)?\n\n## E = mc^2\nTo create heavy, undiscovered particles (like the Higgs boson or Top quark), you need an immense amount of energy.\n\nBy accelerating stable particles (like protons) to 99.9999% the speed of light and smashing them together, their kinetic energy is converted into a shower of brand new, massive particles."
+        },
+        {
+            "id": "det_3",
+            "type": "content",
+            "title": "Types of Accelerators",
+            "content": "# Types of Accelerators\n\n## 1. Linear Accelerators (Linacs):\nParticles are shot in a perfectly straight line, riding a wave of oscillating electromagnetic fields. Great for electrons, which lose energy if forced to turn.\n\n## 2. Synchrotrons (Circular):\nParticles travel in a massive circle, guided by powerful superconducting magnets. The particles pass through the same accelerating regions thousands of times a second, reaching much higher energies than Linacs."
+        },
+        {
+            "id": "det_4",
+            "type": "content",
+            "title": "Detection Principles",
+            "content": "# Detection Principles\n\nOnce the particles crash and create new particles, how do we \"see\" them? They are far too small for any microscope.\n\n## The Core Principle:\nWe cannot see the particle itself. We only see the **interaction** between the particle and the detector material.\n\nWhen high-energy particles pass through matter, they knock electrons off atoms (ionization) or cause atoms to emit light (scintillation). We detect these secondary electrical or light signals."
+        },
+        {
+            "id": "det_5",
+            "type": "content",
+            "title": "Cherenkov Radiation",
+            "content": "# Cherenkov Radiation\n\nOne of the most visually stunning detection methods involves **Cherenkov Radiation**.\n\n## The Concept:\nNothing can travel faster than light *in a vacuum*. However, light slows down when passing through a medium like water.\n\nIf a high-energy particle enters water moving faster than the local speed of light in water, it creates an optical \"sonic boom,\" emitting a cone of eerie blue light. Detectors measure this light to determine the particle's speed and direction."
+        },
+        {
+            "id": "det_6",
+            "type": "quiz",
+            "title": "Accelerator Quiz",
+            "content": "Test your knowledge of particle smashing.",
+            "quizQuestion": "Why do particle physicists smash protons together at nearly the speed of light?",
+            "quizOptions": [
+                "To break the protons into smaller pieces of dust",
+                "To convert their kinetic energy into new, heavy, undiscovered particles",
+                "To generate free electricity for the power grid",
+                "To measure the speed of light accurately"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "det_7",
+            "type": "content",
+            "title": "Modern Detector Design",
+            "content": "# Experimental Techniques\n\nA modern detector (like ATLAS or CMS at CERN) is not a single machine. It is a massive cylinder, built in concentric layers like an onion.\n\nEach layer is designed to measure a specific type of particle or property.\n\n## The Main Layers:\n1. Inner Tracking System\n2. Electromagnetic Calorimeter\n3. Hadronic Calorimeter\n4. Muon Spectrometer"
+        },
+        {
+            "id": "det_8",
+            "type": "content",
+            "title": "The Tracker",
+            "content": "# 1. The Inner Tracker\n\nThe innermost layer surrounds the collision point.\n\n## Purpose:\nTo precisely map the paths (tracks) of electrically charged particles without slowing them down.\n\n## The Magnetic Field:\nThe entire tracker is immersed in a powerful magnetic field. This forces charged particles to curve. \n- The **direction** of the curve tells us the particle's charge (positive vs negative).\n- The **sharpness** of the curve tells us the particle's momentum (fast particles fly straight, slow ones curl tightly)."
+        },
+        {
+            "id": "det_9",
+            "type": "content",
+            "title": "The Calorimeters",
+            "content": "# 2 & 3. The Calorimeters\n\nOutside the tracker are the calorimeters, designed to completely stop particles and measure their total energy.\n\n## Electromagnetic Calorimeter (ECAL):\nDesigned specifically to stop electrons and photons. When they hit the dense metal in the ECAL, they create a shower of secondary particles, depositing all their energy.\n\n## Hadronic Calorimeter (HCAL):\nQuarks (which form protons and neutrons) blast right through the ECAL. The HCAL uses even denser material (like brass or steel) to force these heavy hadrons to stop and deposit their energy."
+        },
+        {
+            "id": "det_10",
+            "type": "content",
+            "title": "The Muon Spectrometer",
+            "content": "# 4. The Muon Spectrometer\n\nMuons are the heavy cousins of the electron. \n\n## The Ghost Particle:\nBecause they are heavy and don't feel the strong force, muons are incredibly penetrating. They will punch cleanly through the tracker, the ECAL, AND the HCAL without stopping!\n\nTherefore, the outermost layer of the entire facility is the Muon Spectrometer. If a particle makes it all the way to the outside edge of the detector, physicists know with near certainty that it must be a muon."
+        },
+        {
+            "id": "det_11",
+            "type": "content",
+            "title": "Identifying Particles",
+            "content": "# How We Identify Particles\n\nBy looking at which layers a particle hit, computers can deduce what it was:\n\n- **Electron:** Leaves a curved track in the inner tracker, stops in the ECAL.\n- **Photon:** Leaves NO track in the tracker (neutral charge), stops in the ECAL.\n- **Proton/Neutron:** Punches through to the HCAL.\n- **Muon:** Leaves a track everywhere and exits the entire building.\n- **Neutrino:** Leaves absolutely zero trace in any detector. We only know it was there by calculating \"missing energy\" from the collision!"
+        },
+        {
+            "id": "det_12",
+            "type": "quiz",
+            "title": "Detector Layers Quiz",
+            "content": "Verify your knowledge of detector layers.",
+            "quizQuestion": "If a particle leaves a curved track in the inner tracker, passes through the calorimeters, and is detected on the very outer edge of the facility, what particle is it?",
+            "quizOptions": [
+                "Electron",
+                "Photon",
+                "Neutrino",
+                "Muon"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "det_13",
+            "type": "content",
+            "title": "Data Analysis",
+            "content": "# Data Analysis: The Data Deluge\n\nThe Large Hadron Collider creates about 1 billion particle collisions EVERY SECOND.\n\nIt is physically impossible to save all this data to hard drives. The data rate is equivalent to thousands of high-definition movies per second.\n\n## The Solution: The Trigger System\nDetectors use super-fast hardware and software \"triggers.\" These computer systems act as bouncers, analyzing collisions in microseconds and throwing away 99.999% of the \"boring\" events, saving only the most interesting physics for later study."
+        },
+        {
+            "id": "det_14",
+            "type": "content",
+            "title": "Finding the Higgs",
+            "content": "# Finding the Needle\n\nEven after the trigger system filters the data, finding a new particle is incredibly difficult.\n\n## The Challenge:\nThe Higgs boson decays into other particles (like two photons) almost instantly. But normal, boring Standard Model processes can also produce two photons!\n\nPhysicists must look for a tiny \"bump\" in the data\u2014a slight excess of events at a specific energy level that stands out above the massive \"background\" noise."
+        },
+        {
+            "id": "det_15",
+            "type": "content",
+            "title": "Statistical Significance",
+            "content": "# Statistical Significance\n\nBecause quantum mechanics relies on probability, a small bump in the data might just be a random statistical fluctuation.\n\n## The 5-Sigma Rule:\nIn particle physics, you cannot claim a discovery until the data reaches a significance level of 5-sigma.\n\nThis means the probability (the **p-value**) that the signal is just a random fluke of background noise is less than 1 in 3.5 million! Only then is it an official discovery."
+        },
+        {
+            "id": "det_16",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Detectors Summary\n\n## Key Takeaways:\n- **Accelerators** smash particles to convert kinetic energy into new mass (E=mc^2).\n- Detectors rely on interactions like ionization or **Cherenkov radiation** to see particles.\n- Modern detectors use concentric layers: **Trackers** (for momentum/charge), **Calorimeters** (to stop particles and measure energy), and **Muon Spectrometers** on the outside.\n- **Data analysis** requires intense filtering (triggers) and rigorous statistical standards (5-sigma) to claim a discovery."
+        },
+        {
+            "id": "det_17",
+            "type": "content",
+            "title": "Course Complete",
+            "content": "# Congratulations!\n\nYou have completed the Particle Physics course.\n\nYou now understand the fundamental rules governing the universe, the particles that obey them, and the massive machines we use to study them!"
+        }
+    ]
+}

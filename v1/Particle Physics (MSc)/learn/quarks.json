@@ -1,0 +1,127 @@
+{
+    "id": "quarks",
+    "topicId": "quarks",
+    "topicTitle": "Quarks and Leptons",
+    "description": "Explore quark properties, lepton characteristics, generation patterns, and mixing phenomena.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "ql_1",
+            "type": "content",
+            "title": "Welcome to Quarks and Leptons",
+            "content": "# Quarks and Leptons\n\nWelcome to the study of the fundamental matter particles: **Quarks and Leptons**.\n\n## What You Will Learn:\n- **Quark properties** - Fractional charges and color\n- **Lepton characteristics** - Electrons, muons, and neutrinos\n- **Generation patterns** - The three families of matter\n- **Mixing phenomena** - How particles transform into one another"
+        },
+        {
+            "id": "ql_2",
+            "type": "content",
+            "title": "Meet the Quarks",
+            "content": "# Quark Properties\n\n**Quarks** are the building blocks of hadrons (like protons and neutrons).\n\n## Unique Features:\n1. **Fractional Electric Charge:** Unlike protons (+1) or electrons (-1), quarks have fractional charges of +2/3 or -1/3.\n2. **They feel the Strong Force:** Quarks are the only matter particles that interact via the strong nuclear force, mediated by gluons.\n3. **Flavors:** There are six different types (or \"flavors\") of quarks."
+        },
+        {
+            "id": "ql_3",
+            "type": "content",
+            "title": "Color Charge",
+            "content": "# Color Charge\n\nIn electromagnetism, the charge is just \"positive\" or \"negative.\" But the strong force has three different types of charge, whimsically called **Color Charge**.\n\n## Red, Green, and Blue:\nEvery quark carries one of three color charges (Red, Green, or Blue).\n\nJust as red, green, and blue light mix to form white light, quarks must combine in ways that their total color charge is \"white\" (colorless or neutral)."
+        },
+        {
+            "id": "ql_4",
+            "type": "content",
+            "title": "Quark Confinement",
+            "content": "# Quark Confinement\n\nYou can never hold a single, isolated quark in your hand. This rule is called **Color Confinement**.\n\n## The Rubber Band Effect:\nThe strong force behaves like a rubber band between quarks. If you try to pull two quarks apart, the energy in the strong force field increases drastically.\n\nEventually, there is so much energy built up that it snaps, converting that energy (E=mc^2) into a brand new pair of quarks! Therefore, quarks are always found bound together."
+        },
+        {
+            "id": "ql_5",
+            "type": "content",
+            "title": "Meet the Leptons",
+            "content": "# Lepton Characteristics\n\n**Leptons** are the other family of fundamental matter particles.\n\n## Key Differences from Quarks:\n- Leptons do **NOT** feel the strong nuclear force.\n- They do not have color charge.\n- They have integer electric charges (-1 or 0).\n\nThe most famous lepton is the **electron**, which governs all of chemistry and electricity."
+        },
+        {
+            "id": "ql_6",
+            "type": "quiz",
+            "title": "Quarks vs Leptons Quiz",
+            "content": "Check your understanding of fundamental matter.",
+            "quizQuestion": "Which of the following is a key difference between quarks and leptons?",
+            "quizOptions": [
+                "Leptons are much heavier than all quarks",
+                "Quarks experience the strong nuclear force, while leptons do not",
+                "Leptons have fractional electric charges",
+                "Quarks do not experience gravity"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "ql_7",
+            "type": "content",
+            "title": "The Three Generations",
+            "content": "# Generation Patterns\n\nFor reasons physicists still do not fully understand, all matter in the universe comes in three exact copies, called **Generations** or **Families**.\n\nEach generation contains two quarks and two leptons. The particles in higher generations behave exactly like the first generation, except they are significantly heavier and unstable."
+        },
+        {
+            "id": "ql_8",
+            "type": "content",
+            "title": "Generation 1: The Everyday World",
+            "content": "# The First Generation\n\n100% of the normal matter you interact with every day is made entirely of the first generation of particles.\n\n## The Quarks:\n- **Up Quark (u):** Charge +2/3\n- **Down Quark (d):** Charge -1/3\n*(A proton is Up-Up-Down. A neutron is Up-Down-Down.)*\n\n## The Leptons:\n- **Electron (e-):** Charge -1\n- **Electron Neutrino:** Charge 0, extremely light, almost never interacts."
+        },
+        {
+            "id": "ql_9",
+            "type": "content",
+            "title": "Generations 2 and 3",
+            "content": "# The Heavy Generations\n\n## Generation 2:\n- **Quarks:** Charm (c) and Strange (s)\n- **Leptons:** Muon (a heavy electron) and Muon Neutrino\n\n## Generation 3:\n- **Quarks:** Top (t) and Bottom (b)\n- **Leptons:** Tau (an extremely heavy electron) and Tau Neutrino\n\nThese heavy particles are created in high-energy cosmic rays or particle accelerators, but they decay in fractions of a second back into Generation 1 particles."
+        },
+        {
+            "id": "ql_10",
+            "type": "content",
+            "title": "The Mass Hierarchy",
+            "content": "# The Mass Hierarchy Puzzle\n\nThe mass difference between generations is enormous.\n\n- The electron is very light.\n- The muon is 200 times heavier than the electron.\n- The top quark is so heavy it weighs about as much as an entire Gold atom!\n\nThis extreme variation in mass (spanning many orders of magnitude) is one of the greatest unsolved mysteries in the Standard Model. Why three generations? Why such weird masses? We don't know."
+        },
+        {
+            "id": "ql_11",
+            "type": "content",
+            "title": "Mixing Phenomena",
+            "content": "# Particle Mixing\n\nIn the quantum world, the rules of identity are blurred.\n\nWhen a quark undergoes radioactive decay (changing its flavor via the weak force), it doesn't always stay within its own generation. A strange quark (Gen 2) can decay into an up quark (Gen 1). \n\nThis is known as **Quark Mixing**."
+        },
+        {
+            "id": "ql_12",
+            "type": "quiz",
+            "title": "Generations Quiz",
+            "content": "Verify your knowledge of the particle families.",
+            "quizQuestion": "Which generation of particles makes up protons, neutrons, and the atoms of everyday matter?",
+            "quizOptions": [
+                "Generation 1",
+                "Generation 2",
+                "Generation 3",
+                "All three generations equally"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "ql_13",
+            "type": "content",
+            "title": "The CKM Matrix",
+            "content": "# The CKM Matrix\n\nQuark mixing is described by a mathematical grid called the **CKM Matrix** (Cabibbo-Kobayashi-Maskawa).\n\n## What it does:\nIt calculates the exact probability of any one quark flavor decaying into another. \n\nThe matrix shows that quarks strongly \"prefer\" to decay into their own generation, but there is a small, non-zero probability they will jump across generations."
+        },
+        {
+            "id": "ql_14",
+            "type": "content",
+            "title": "Neutrino Oscillations",
+            "content": "# Neutrino Oscillations\n\nLeptons experience their own bizarre mixing phenomena: **Neutrino Oscillation**.\n\n## The Discovery:\nScientists studying neutrinos coming from the Sun noticed that 2/3 of the expected neutrinos were \"missing.\" \n\nIt turns out, as an electron neutrino travels through space, it actually transforms (oscillates) back and forth into a muon neutrino and a tau neutrino!"
+        },
+        {
+            "id": "ql_15",
+            "type": "content",
+            "title": "The PMNS Matrix and Mass",
+            "content": "# The PMNS Matrix\n\nNeutrino mixing is described by the **PMNS Matrix**. Unlike quarks, neutrinos mix wildly across all three generations.\n\n## The Proof of Mass:\nAccording to quantum mechanics, for a particle to experience time and oscillate between states, it MUST travel slower than the speed of light. Therefore, neutrinos MUST possess mass!\n\nThis discovery proved the original Standard Model (which assumed massless neutrinos) was slightly wrong."
+        },
+        {
+            "id": "ql_16",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Quarks and Leptons Summary\n\n## Key Takeaways:\n- **Quarks** feel the strong force, have color charge, and cannot exist alone (confinement).\n- **Leptons** (like electrons) do not feel the strong force.\n- Matter comes in **three generations**, with generations 2 and 3 being heavy, unstable copies of generation 1.\n- Particles can \"mix\" and decay across generations (described by the CKM matrix).\n- Neutrinos oscillate between flavors, proving they have mass."
+        },
+        {
+            "id": "ql_17",
+            "type": "content",
+            "title": "Module Complete",
+            "content": "# Congratulations!\n\nYou have completed the Quarks and Leptons module.\n\nYou now know the fundamental ingredients of every star, planet, and living being in the universe."
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "id": "chemistry",
+    "topicId": "chemistry",
+    "topicTitle": "JEE Advanced Chemistry (Electromagnetism Focus)",
+    "description": "Learn about Electrostatics advanced, Magnetostatics complex, EM theory applications, and Wave optics advanced.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "adv_chem_1",
+            "type": "content",
+            "title": "Welcome to JEE Advanced Chemistry (EM)",
+            "content": "# JEE Advanced Chemistry: EM Focus\n\nWelcome to this unique module!\n\n*(Note: According to the syllabus mapping, this section specifically tests advanced applications of Electromagnetism and Optics)*\n\n## What You Will Learn:\n- **Electrostatics advanced** - Gauss's law and complex charges\n- **Magnetostatics complex** - Advanced magnetic fields\n- **EM theory applications** - Maxwell's grand equations\n- **Wave optics advanced** - Diffraction and polarization"
+        },
+        {
+            "id": "adv_chem_2",
+            "type": "content",
+            "title": "Electrostatics Advanced",
+            "content": "# Continuous Charge Distributions\n\nIn basic physics, you calculated the force between two distinct \"point\" charges.\n\nIn Advanced, the charge is smeared out! You might have a charged solid sphere, a charged infinite wire, or a charged flat sheet.\n\nYou cannot use basic Coulomb's law. You must use Calculus to integrate the force from millions of tiny charge pieces, OR you can use a powerful shortcut: Gauss's Law."
+        },
+        {
+            "id": "adv_chem_3",
+            "type": "content",
+            "title": "Gauss's Law Applications",
+            "content": "# Gauss's Law\n\nGauss's Law states that the total Electric Flux (the amount of electric field) piercing through a closed imaginary 3D surface is exactly proportional to the total charge trapped *inside* that surface.\n\nIf you draw a clever imaginary shape (a Gaussian cylinder or sphere) around your complex object, the heavy calculus cancels out, and you can solve the problem with simple algebra in two lines!"
+        },
+        {
+            "id": "adv_chem_4",
+            "type": "content",
+            "title": "Dielectrics",
+            "content": "# Dielectrics in Capacitors\n\nA **Dielectric** is an insulating material (like plastic or glass) placed between the plates of a capacitor.\n\n## The Effect:\nThe electric field from the plates causes the atoms in the dielectric to stretch and polarize. This internal polarization creates its own reverse electric field, which partially cancels out the main field.\n\nThis allows the capacitor to store vastly more charge at the same voltage!"
+        },
+        {
+            "id": "adv_chem_5",
+            "type": "content",
+            "title": "Magnetostatics Complex",
+            "content": "# Advanced Magnetostatics\n\nCalculating the magnetic field of a straight wire is easy. \n\nCalculating the magnetic field of a spinning charged disk, or a complex helical coil (solenoid), requires the **Biot-Savart Law**.\n\nJust like Coulomb's law for charges, Biot-Savart requires you to use vector calculus to add up the magnetic contribution of every single microscopic piece of the wire."
+        },
+        {
+            "id": "chem_quiz_1",
+            "type": "quiz",
+            "title": "Electrostatics Quiz",
+            "content": "Test your knowledge of field calculations.",
+            "quizQuestion": "What is the primary advantage of using Gauss's Law over Coulomb's Law in advanced electrostatics?",
+            "quizOptions": [
+                "It works for moving charges",
+                "It allows you to bypass complex integration and solve for electric fields using simple algebra by drawing symmetrical imaginary surfaces",
+                "It only works in a vacuum",
+                "It calculates the magnetic field instead of the electric field"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "adv_chem_7",
+            "type": "content",
+            "title": "Ampere's Law",
+            "content": "# The Magnetic Shortcut\n\nJust as Gauss's Law is a mathematical shortcut for Electric fields, **Ampere's Law** is a shortcut for Magnetic fields.\n\nAmpere's Law states that if you draw an imaginary closed loop in space, the magnetic field along that loop is proportional to the total electric current passing *through* the loop.\n\nIt is the fastest way to calculate the field inside a long coil (solenoid)."
+        },
+        {
+            "id": "adv_chem_8",
+            "type": "content",
+            "title": "Magnetic Dipoles",
+            "content": "# The Magnetic Dipole\n\nUnlike electricity (where you can have a single positive charge), magnetism always comes in pairs (North and South). There is no such thing as a magnetic monopole.\n\nA simple loop of wire carrying current acts exactly like a tiny bar magnet! It has a North side and a South side. This is called a **Magnetic Dipole**, and it is the reason atoms can be magnetic."
+        },
+        {
+            "id": "adv_chem_9",
+            "type": "content",
+            "title": "EM Theory Applications",
+            "content": "# Maxwell's Equations\n\nIn the 1860s, James Clerk Maxwell took Gauss's Law, Ampere's Law, and Faraday's Law, fixed a mathematical error, and unified them into four elegant equations.\n\nThese four equations completely describe every electrical and magnetic phenomenon in the universe."
+        },
+        {
+            "id": "adv_chem_10",
+            "type": "content",
+            "title": "Electromagnetic Waves",
+            "content": "# The Birth of Light\n\nMaxwell realized something incredible from his equations:\n- A changing electric field creates a changing magnetic field.\n- That changing magnetic field creates a changing electric field.\n\nThey can continuously create each other, leapfrogging through empty space forever! \n\nHe calculated the speed of this self-sustaining wave and found it was exactly the speed of light. He had proven that Light IS an Electromagnetic Wave!"
+        },
+        {
+            "id": "adv_chem_11",
+            "type": "content",
+            "title": "The Poynting Vector",
+            "content": "# Energy Transport\n\nIf light is a wave of electric and magnetic fields, how does it carry energy (like the heat from the sun)?\n\nThe **Poynting Vector** is a mathematical vector that calculates exactly how much energy is flowing through a given area per second in an electromagnetic wave.\n\nIt proves that the energy flows perfectly perpendicular to both the electric and magnetic fields."
+        },
+        {
+            "id": "chem_quiz_2",
+            "type": "quiz",
+            "title": "EM Wave Quiz",
+            "content": "Verify your understanding of Maxwell's theory.",
+            "quizQuestion": "How does an electromagnetic wave (like light) travel through the empty vacuum of space?",
+            "quizOptions": [
+                "It bounces off invisible air molecules",
+                "It uses a changing electric field to generate a changing magnetic field, and vice versa, allowing them to continually push each other forward",
+                "It relies on gravitational pull to move",
+                "It is carried by a physical string in space"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "adv_chem_13",
+            "type": "content",
+            "title": "Wave Optics Advanced",
+            "content": "# Advanced Optics\n\nWhile Young's Double Slit experiment uses two slits, advanced optics looks at what happens when you use thousands of slits, or just one single slit."
+        },
+        {
+            "id": "adv_chem_14",
+            "type": "content",
+            "title": "Diffraction Gratings",
+            "content": "# Diffraction Gratings\n\nA diffraction grating is a piece of glass with thousands of microscopic parallel scratches on it.\n\nWhen white light hits it, the thousands of waves interfere, perfectly splitting the light into a brilliant rainbow. It is far more precise than a glass prism and is used by astronomers to analyze the exact chemical makeup of distant stars."
+        },
+        {
+            "id": "adv_chem_15",
+            "type": "content",
+            "title": "Resolving Power",
+            "content": "# The Limits of Vision\n\nBecause light is a wave, it bends (diffracts) slightly when it enters a telescope lens or a human eye.\n\nIf two distant stars are very close together, their diffracted light waves will overlap and blur into a single blob. \n\n**Resolving Power** is the mathematical ability of a lens to distinguish between two close objects. To increase resolving power, you must build a wider telescope or use a shorter wavelength of light."
+        },
+        {
+            "id": "adv_chem_16",
+            "type": "content",
+            "title": "Polarization",
+            "content": "# Polarized Light\n\nNormal light waves vibrate in all possible 3D directions.\n\nA **Polarizing Filter** is like a picket fence. It physically blocks all light waves except those vibrating in one specific direction (e.g., straight up and down).\n\nWhen sunlight reflects off a flat surface (like water or a road), it naturally becomes horizontally polarized (glare). Polarized sunglasses use vertical filters to completely block this glare!"
+        },
+        {
+            "id": "adv_chem_17",
+            "type": "content",
+            "title": "Summary of EM and Optics",
+            "content": "# EM/Optics Summary\n\n## Key Takeaways:\n- **Gauss's and Ampere's Laws** provide mathematical shortcuts to bypass calculus when calculating electric and magnetic fields for symmetrical objects.\n- **Maxwell's Equations** prove that changing electric and magnetic fields generate each other, creating **Electromagnetic Waves** (Light).\n- The **Poynting Vector** tracks the energy flow of these waves.\n- **Advanced Optics** utilizes diffraction (Gratings/Resolving Power) and **Polarization** (filtering the vibration direction) to manipulate light."
+        }
+    ]
+}

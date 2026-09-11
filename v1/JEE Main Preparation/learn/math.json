@@ -1,0 +1,127 @@
+{
+    "id": "math",
+    "topicId": "math",
+    "topicTitle": "JEE Main Mathematics (Electromagnetism Focus)",
+    "description": "Learn about Electrostatics problems, Current electricity, Magnetic effects, EM induction, and AC circuits.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "math_1",
+            "type": "content",
+            "title": "Welcome to JEE Math (Electromagnetism)",
+            "content": "# JEE Main Math: Electromagnetism Focus\n\nWelcome to this unique module!\n\n*(Note: According to the syllabus mapping, this section specifically tests the rigorous mathematical calculations of Electromagnetism)*\n\n## What You Will Learn:\n- **Electrostatics problems** - Charges at rest\n- **Current electricity** - Charges in motion\n- **Magnetic effects** - The math of magnetic fields\n- **EM induction** - Creating electricity from magnets\n- **AC circuits** - Alternating current math"
+        },
+        {
+            "id": "math_2",
+            "type": "content",
+            "title": "Electrostatics Problems",
+            "content": "# Charges at Rest\n\nElectrostatics is the study of charges that are not moving.\n\nThe foundational equation is **Coulomb's Law**, which states that the force between two charges is proportional to their magnitudes and inversely proportional to the square of the distance between them.\n\nIt looks mathematically identical to Newton's Law of Gravitation, but electrical forces can repel, while gravity only attracts."
+        },
+        {
+            "id": "math_3",
+            "type": "content",
+            "title": "Electric Potential",
+            "content": "# Voltage and Energy\n\n**Electric Potential (Voltage)** is the electrical potential energy per unit charge.\n\nThink of it like a hill. Positive charges naturally want to roll \"down\" the hill from high voltage to low voltage. \n\nWhen we solve electrostatics problems, calculating the voltage at a point in space is often much easier than calculating the complex force vectors."
+        },
+        {
+            "id": "math_4",
+            "type": "content",
+            "title": "Capacitors",
+            "content": "# Storing Charge\n\nA **Capacitor** is a device that stores electrical energy by holding positive charges on one metal plate and negative charges on a parallel metal plate.\n\nThe math of capacitors is crucial for JEE. \n- Capacitors in Parallel: Add their values directly.\n- Capacitors in Series: Add their reciprocals (fractions)."
+        },
+        {
+            "id": "math_5",
+            "type": "content",
+            "title": "Current Electricity",
+            "content": "# Charges in Motion\n\nWhen you connect a wire between high voltage and low voltage, charges flow. This is **Current**.\n\n## Ohm's Law:\nVoltage equals Current times Resistance. \n\nResistance is the friction of the wire, converting the electrical energy into heat (which is how a toaster or a lightbulb works)."
+        },
+        {
+            "id": "math_6",
+            "type": "quiz",
+            "title": "Circuits Quiz",
+            "content": "Test your circuit logic.",
+            "quizQuestion": "If you add more resistors in a PARALLEL circuit, what happens to the TOTAL resistance of the circuit?",
+            "quizOptions": [
+                "It increases",
+                "It decreases",
+                "It remains the same",
+                "It drops to zero"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "math_7",
+            "type": "content",
+            "title": "Kirchhoff's Laws",
+            "content": "# Solving Complex Circuits\n\nOhm's Law cannot solve complex circuits with multiple batteries and branching wires. You must use Kirchhoff's Laws:\n\n1. **Junction Rule:** Total current entering a junction equals total current leaving. (Conservation of Charge).\n2. **Loop Rule:** The sum of all voltage drops and gains around any closed loop must equal zero. (Conservation of Energy).\n\nThese laws turn a circuit into a system of algebraic math equations."
+        },
+        {
+            "id": "math_8",
+            "type": "content",
+            "title": "Magnetic Effects of Current",
+            "content": "# Moving Charges Create Magnets\n\nIn 1820, a scientist noticed that a compass needle twitched when placed near a wire carrying current.\n\nThis proved that moving electrical charges *create* magnetic fields. \n\nThe math to calculate the exact shape and strength of this magnetic field is given by the **Biot-Savart Law** or **Ampere's Law**."
+        },
+        {
+            "id": "math_9",
+            "type": "content",
+            "title": "Force on a Moving Charge",
+            "content": "# The Magnetic Force\n\nIf a wire creates a magnetic field, what happens when a free-floating electron flies through a magnetic field?\n\nIt feels a force! But the math is strange:\n- The force is perfectly perpendicular to both the velocity of the electron AND the magnetic field.\n- If the electron is stationary, or moving parallel to the field, it feels absolutely zero force.\n\nThis perpendicular force forces the electron to fly in perfect circles."
+        },
+        {
+            "id": "math_10",
+            "type": "content",
+            "title": "EM Induction",
+            "content": "# Generating Electricity\n\nIf electricity creates magnetism, can magnetism create electricity?\n\nYes, but with a catch. A stationary magnet does nothing. Only a **changing** magnetic field can induce an electric current in a wire. \n\nThis is **Electromagnetic (EM) Induction**, discovered by Faraday. It is the fundamental math behind every power plant on Earth."
+        },
+        {
+            "id": "math_11",
+            "type": "content",
+            "title": "Lenz's Law",
+            "content": "# The Law of Defiance\n\nNature hates change.\n\n**Lenz's Law** states that the induced electric current will always flow in a direction that creates its *own* magnetic field to oppose the original change that created it.\n\nIf you try to push a magnet into a coil of wire, the wire generates a current that acts like a repulsive magnet to push you away. You must do physical math (work) to overcome this, which is converted into electrical energy!"
+        },
+        {
+            "id": "math_12",
+            "type": "quiz",
+            "title": "Induction Quiz",
+            "content": "Verify your understanding of power generation.",
+            "quizQuestion": "According to Faraday's Law of EM Induction, what is required to generate an electric current in a wire coil?",
+            "quizOptions": [
+                "A stationary, powerful magnet placed near the coil",
+                "A changing magnetic field (e.g., a magnet moving in or out of the coil)",
+                "Heating the coil with fire",
+                "Connecting the coil to a resistor"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "math_13",
+            "type": "content",
+            "title": "AC Circuits",
+            "content": "# Alternating Current\n\nBecause power plants spin magnets inside coils, the electricity they generate pushes forward, then pulls backward, 50 or 60 times a second.\n\nThis is **Alternating Current (AC)**.\n\nThe math for AC is entirely different from DC (batteries) because the voltage is constantly following a Sine wave."
+        },
+        {
+            "id": "math_14",
+            "type": "content",
+            "title": "RMS Values",
+            "content": "# Root Mean Square Math\n\nWhat is the \"average\" voltage of an AC outlet? Because it spends half the time positive and half the time negative, the true mathematical average is Zero!\n\nTo do useful power calculations, we use **Root Mean Square (RMS)** math. We square the Sine wave (making everything positive), find the average, and then take the square root.\n\nWhen a wall outlet says \"220 Volts,\" that is the RMS voltage, not the peak voltage."
+        },
+        {
+            "id": "math_15",
+            "type": "content",
+            "title": "Inductors and Capacitors in AC",
+            "content": "# Reactance\n\nIn a DC circuit, a capacitor eventually acts like a broken wire (stops current), and a coil of wire (Inductor) acts like a normal wire.\n\nIn an AC circuit, the math changes:\n- **Capacitors** allow AC current to \"flow\" through them, but they cause the current to lead the voltage.\n- **Inductors** resist the rapidly changing AC current, causing the current to lag behind the voltage."
+        },
+        {
+            "id": "math_16",
+            "type": "content",
+            "title": "Resonance",
+            "content": "# AC Resonance\n\nIf you put a Resistor, Inductor, and Capacitor together in an AC circuit (an RLC circuit), a mathematical miracle happens at one specific frequency.\n\nThe lagging effect of the Inductor perfectly cancels out the leading effect of the Capacitor. The overall resistance of the circuit drops to a minimum, and massive amounts of current flow.\n\nThis is **Resonance**, and it is the exact math used to tune a radio to a specific station!"
+        },
+        {
+            "id": "math_17",
+            "type": "content",
+            "title": "Summary of Electromagnetism Calculations",
+            "content": "# Electromagnetism Summary\n\n## Key Takeaways:\n- **Electrostatics** deals with Coulomb's Law and Electric Potential.\n- **Current Electricity** requires Kirchhoff's Laws to solve complex branching math.\n- **Magnetic Effects** prove that moving charges create magnetic fields, and experience perpendicular forces in them.\n- **EM Induction** (Faraday and Lenz) is the mathematical basis of generating power from changing magnetic flux.\n- **AC Circuits** rely on RMS calculations and phase shifts (Resonance) to handle alternating Sine wave currents."
+        }
+    ]
+}

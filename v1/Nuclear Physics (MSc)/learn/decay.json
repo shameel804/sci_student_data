@@ -1,0 +1,127 @@
+{
+    "id": "decay",
+    "topicId": "decay",
+    "topicTitle": "Radioactive Decay",
+    "description": "Understand decay modes, half-life measurements, dating methods, and medical applications.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "dec_1",
+            "type": "content",
+            "title": "Welcome to Radioactive Decay",
+            "content": "# Radioactive Decay\n\nWelcome to the study of **Radioactivity**.\n\n## What You Will Learn:\n- **Decay modes** - How unstable nuclei break down\n- **Half-life measurements** - The ticking clock of nature\n- **Dating methods** - Looking back in time\n- **Medical applications** - Radiation in healthcare\n\nWhen a nucleus has too much energy or a bad ratio of protons to neutrons, it will spontaneously decay to reach a stable state."
+        },
+        {
+            "id": "dec_2",
+            "type": "content",
+            "title": "Alpha Decay",
+            "content": "# Alpha Decay\n\n**Alpha decay** typically occurs in very heavy nuclei (like Uranium or Radium) that are simply too large to be stable.\n\n## The Mechanism:\nThe nucleus spits out an \"alpha particle,\" which is a tightly bound cluster of 2 protons and 2 neutrons (essentially a Helium nucleus).\n\n- The original atom's atomic number drops by 2.\n- Its mass number drops by 4.\n- Alpha particles are massive and highly ionizing, but can be stopped by a simple sheet of paper."
+        },
+        {
+            "id": "dec_3",
+            "type": "content",
+            "title": "Beta Decay",
+            "content": "# Beta Decay\n\n**Beta decay** occurs when a nucleus has too many neutrons (or too many protons). It utilizes the Weak Nuclear Force.\n\n## Beta-Minus Decay:\nA neutron turns into a proton, emitting an electron (the beta particle) and an antineutrino. This moves the atom one step UP the periodic table.\n\n## Beta-Plus Decay:\nA proton turns into a neutron, emitting a positron (antimatter) and a neutrino. This moves the atom one step DOWN the periodic table."
+        },
+        {
+            "id": "dec_4",
+            "type": "content",
+            "title": "Gamma Decay and Electron Capture",
+            "content": "# Gamma Decay & Electron Capture\n\n## Gamma Decay:\nAfter an alpha or beta decay, the new nucleus is often left in an excited, high-energy state. It drops to its ground state by emitting a highly energetic photon (a **Gamma ray**). Gamma rays are pure energy and can only be stopped by thick lead.\n\n## Electron Capture:\nAn alternative to beta-plus decay. A proton in the nucleus \"captures\" one of the atom's own inner-shell electrons, turning into a neutron and emitting a neutrino."
+        },
+        {
+            "id": "dec_5",
+            "type": "content",
+            "title": "Half-Life Measurements",
+            "content": "# The Concept of Half-Life\n\nRadioactive decay is a purely random, quantum process. You cannot predict when a single specific atom will decay.\n\n## Statistical Certainty:\nHowever, if you have billions of atoms, the statistics become perfectly predictable.\n\nThe **Half-Life** is the exact amount of time it takes for exactly half of the radioactive atoms in a sample to decay."
+        },
+        {
+            "id": "dec_6",
+            "type": "quiz",
+            "title": "Decay Modes Quiz",
+            "content": "Check your understanding of radiation types.",
+            "quizQuestion": "Which type of radioactive decay involves the emission of a highly energetic photon (pure light) rather than a physical particle with mass?",
+            "quizOptions": [
+                "Alpha decay",
+                "Beta-minus decay",
+                "Gamma decay",
+                "Electron capture"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "dec_7",
+            "type": "content",
+            "title": "The Exponential Decay Law",
+            "content": "# The Exponential Decay Law\n\nThe math of radioactivity is governed by exponential decay.\n\n## The Formula Concept:\nThe number of remaining atoms decreases exponentially over time. \n\nIf you start with 1000 atoms and the half-life is 1 day:\n- Day 1: 500 left\n- Day 2: 250 left\n- Day 3: 125 left\n\nIt never truly reaches zero; the math just approaches it infinitely!"
+        },
+        {
+            "id": "dec_8",
+            "type": "content",
+            "title": "Activity and Becquerels",
+            "content": "# Measuring Activity\n\nThe rate at which a sample decays is called its **Activity**.\n\n## Units of Activity:\n- **Becquerel (Bq):** The SI unit. 1 Bq = exactly 1 decay per second. It is a very small unit.\n- **Curie (Ci):** The historical unit, based on the activity of 1 gram of Radium-226. 1 Ci = 37 billion decays per second!\n\nA sample with a very short half-life will have incredibly high activity, dumping all its radiation out very quickly."
+        },
+        {
+            "id": "dec_9",
+            "type": "content",
+            "title": "Dating Methods",
+            "content": "# Radioactive Dating\n\nBecause half-lives are absolutely constant and immune to heat, pressure, or chemical changes, radioactive isotopes act as perfect natural clocks.\n\nBy measuring the ratio of the original radioactive \"parent\" isotope to the stable \"daughter\" isotope it decays into, scientists can determine exactly how much time has passed since a rock formed or an organism died."
+        },
+        {
+            "id": "dec_10",
+            "type": "content",
+            "title": "Radiocarbon Dating",
+            "content": "# Radiocarbon (C-14) Dating\n\nThe most famous dating method is used by archaeologists to date organic (once-living) materials.\n\n## How it works:\n- Cosmic rays create radioactive Carbon-14 in the atmosphere.\n- Plants absorb it via CO2, and animals eat the plants.\n- While alive, the ratio of C-14 to normal C-12 in your body matches the atmosphere.\n- When you die, you stop eating. The C-14 slowly decays (half-life of approx 5730 years).\n- By measuring the remaining C-14, we can date bones, wood, and cloth up to about 50,000 years old."
+        },
+        {
+            "id": "dec_11",
+            "type": "content",
+            "title": "Uranium-Lead Dating",
+            "content": "# Uranium-Lead Dating\n\nTo date the Earth itself, we need a clock that ticks much slower than Carbon-14.\n\n## Deep Time:\nUranium-238 decays into stable Lead-206 with a staggering half-life of 4.5 billion years (about the age of the solar system).\n\nWhen certain crystals (like Zircons) form in cooling magma, they trap Uranium inside, but reject Lead. Any Lead found inside a Zircon crystal today MUST be the result of Uranium decay. This is how we know the exact age of the Earth!"
+        },
+        {
+            "id": "dec_12",
+            "type": "quiz",
+            "title": "Dating Quiz",
+            "content": "Verify your knowledge of natural clocks.",
+            "quizQuestion": "Why can't Radiocarbon (C-14) dating be used to determine the age of dinosaur bones (which are 65 million years old)?",
+            "quizOptions": [
+                "Dinosaurs did not eat carbon",
+                "Carbon-14 only works on rocks, not bones",
+                "The half-life of C-14 is too short; after 65 million years, essentially no C-14 is left to measure",
+                "Dinosaur bones are too heavy for the mass spectrometer"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "dec_13",
+            "type": "content",
+            "title": "Medical Applications",
+            "content": "# Medical Applications of Radioactivity\n\nRadiation is not just dangerous; when carefully controlled, it is one of the most powerful tools in modern medicine.\n\nWe divide medical applications into two main categories:\n1. **Diagnostics (Imaging):** Seeing inside the body.\n2. **Therapy (Treatment):** Destroying diseased tissue."
+        },
+        {
+            "id": "dec_14",
+            "type": "content",
+            "title": "PET Scans",
+            "content": "# Positron Emission Tomography (PET)\n\nPET scans are a marvel of applied physics using antimatter!\n\n## How it works:\n1. A patient is injected with a sugar molecule containing a radioactive, beta-plus emitting isotope (like Fluorine-18).\n2. Cancer tumors consume massive amounts of sugar, so the isotope gathers there.\n3. The isotope decays, emitting a positron (antimatter).\n4. The positron immediately hits an electron in the body, annihilating and shooting out two gamma rays in exactly opposite directions.\n5. Detectors map these rays to build a precise 3D image of the cancer."
+        },
+        {
+            "id": "dec_15",
+            "type": "content",
+            "title": "Radiotherapy",
+            "content": "# Radiotherapy (Treatment)\n\nRadiation damages DNA. While bad for healthy cells, it is deadly to rapidly dividing cancer cells.\n\n## Gamma Knife and Linacs:\nDoctors use linear accelerators or highly radioactive Cobalt-60 sources to shoot focused beams of gamma rays at a tumor from multiple angles. The beams intersect exactly at the tumor, delivering a lethal dose while sparing the surrounding healthy tissue."
+        },
+        {
+            "id": "dec_16",
+            "type": "content",
+            "title": "Targeted Alpha Therapy",
+            "content": "# Targeted Alpha Therapy (TAT)\n\nThis is the cutting edge of cancer treatment.\n\n## The Alpha Advantage:\nAlpha particles are massive and highly destructive, but travel very short distances (just a few cell diameters).\n\nScientists attach alpha-emitting isotopes to synthetic antibodies designed to hunt down and attach specifically to cancer cells. Once attached, the isotope fires an alpha particle, completely obliterating the cancer cell without harming the healthy cell right next to it!"
+        },
+        {
+            "id": "dec_17",
+            "type": "content",
+            "title": "Summary of Radioactive Decay",
+            "content": "# Decay Summary\n\n## Key Takeaways:\n- Unstable nuclei undergo **Alpha, Beta, or Gamma decay** to reach stability.\n- Decay follows strict statistical **exponential laws**, measured by **Half-life**.\n- We use these constant half-lives for **radiometric dating** (like C-14 for human history and U-Pb for geology).\n- **Medicine** utilizes antimatter (PET scans) for imaging and targeted radiation (gamma beams, alpha therapy) for destroying cancer cells.\n\nCongratulations! You have completed the Nuclear Physics course!"
+        }
+    ]
+}

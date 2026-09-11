@@ -1,0 +1,127 @@
+{
+    "id": "pharmacodynamics",
+    "topicId": "pharmacodynamics",
+    "topicTitle": "Pharmacodynamics",
+    "description": "Learn about receptor theory, dose-response curves, agonists and antagonists, and signal transduction.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "pd_1",
+            "type": "content",
+            "title": "Welcome to Pharmacodynamics",
+            "content": "# Pharmacodynamics\n\nWelcome to **Pharmacodynamics**!\n\n## What You Will Learn:\n- **Receptor theory** - How drugs find their targets\n- **Dose-response curves** - Measuring the effect\n- **Agonists and antagonists** - Turning switches on and off\n- **Signal transduction** - Sending messages inside the cell\n\nIn simple terms, Pharmacodynamics is the study of *what the drug does to the body*."
+        },
+        {
+            "id": "pd_2",
+            "type": "content",
+            "title": "Receptor Theory",
+            "content": "# Receptor Theory\n\nDrugs do not create new functions in the body. They only modify existing functions.\n\n## The Target:\nTo work, a drug must physically bind to a specific target molecule, usually a protein called a **Receptor**. \n\nReceptors normally wait for natural chemicals (like hormones or neurotransmitters) to bind to them. Drugs \"hijack\" these receptors."
+        },
+        {
+            "id": "pd_3",
+            "type": "content",
+            "title": "Lock and Key vs Induced Fit",
+            "content": "# How Drugs Bind\n\n## The Lock and Key Model:\nOriginally, scientists thought the receptor was a rigid \"lock\" and the drug was a rigid \"key\" that fit perfectly into it.\n\n## The Induced Fit Model:\nToday we know proteins are flexible. When the drug (the key) approaches, the receptor (the lock) actively changes its 3D shape to wrap tightly around the drug. This shape change is what triggers the biological effect!"
+        },
+        {
+            "id": "pd_4",
+            "type": "content",
+            "title": "Types of Receptors",
+            "content": "# Major Receptor Families\n\nDrugs generally target one of four main receptor families:\n1. **Ligand-gated ion channels:** Fast! (e.g., nerve impulses).\n2. **G-protein coupled receptors (GPCRs):** The largest family, targeted by 40% of all prescription drugs.\n3. **Kinase-linked receptors:** Slow, involved in cell growth and targeted by many cancer drugs.\n4. **Nuclear receptors:** Found *inside* the cell; they directly alter DNA transcription (e.g., steroid hormones)."
+        },
+        {
+            "id": "pd_5",
+            "type": "content",
+            "title": "Dose-Response Curves",
+            "content": "# Dose-Response Curves\n\nTo understand a drug, pharmacologists plot the Dose (amount of drug) against the Response (biological effect) on a graph.\n\n## The S-Curve:\nBecause the dose is usually plotted on a logarithmic scale, the resulting graph looks like an \"S\".\n- At low doses, there is no effect.\n- As dose increases, the effect shoots up quickly.\n- Eventually, it flattens out at the top because every single receptor in the body is full (saturated). Giving more drug will NOT increase the effect."
+        },
+        {
+            "id": "pd_6",
+            "type": "quiz",
+            "title": "Receptor Quiz",
+            "content": "Test your knowledge of drug targets.",
+            "quizQuestion": "According to the Induced Fit model, what happens when a drug binds to a receptor?",
+            "quizOptions": [
+                "The drug perfectly fits into a rigid, unchanging receptor",
+                "The drug permanently destroys the receptor",
+                "The receptor changes its 3D shape to wrap around the drug, triggering an effect",
+                "The drug turns into a receptor"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "pd_7",
+            "type": "content",
+            "title": "Efficacy vs Potency",
+            "content": "# Efficacy vs Potency\n\nThese terms are often confused, but mean very different things in drug design.\n\n## Efficacy:\nThe *maximum* possible effect a drug can produce. (How tall is the S-curve?) A drug with high efficacy works very well, regardless of the dose required.\n\n## Potency:\nHow *much* drug is needed to get the effect. If Drug A requires 1mg, and Drug B requires 100mg to get the exact same effect, Drug A is 100 times more potent. (How far to the left is the S-curve?)"
+        },
+        {
+            "id": "pd_8",
+            "type": "content",
+            "title": "EC50 and the Therapeutic Window",
+            "content": "# Safety Metrics\n\n## EC50 (Effective Concentration 50%):\nThe exact dose required to reach 50% of the drug's maximum possible effect. It is the standard mathematical measure of potency.\n\n## The Therapeutic Window:\nThe gap between the dose that cures you and the dose that kills you (Toxic Dose).\n- **Wide window:** Very safe (like Penicillin or Ibuprofen).\n- **Narrow window:** Very dangerous; requires constant blood monitoring (like Warfarin or Lithium)."
+        },
+        {
+            "id": "pd_9",
+            "type": "content",
+            "title": "Agonists",
+            "content": "# Agonists\n\nAn **Agonist** is a drug that binds to a receptor and turns it ON, mimicking the body's natural chemicals.\n\n## Full vs Partial:\n- **Full Agonist:** Can produce 100% of the maximum possible effect if you give enough dose. (e.g., Morphine).\n- **Partial Agonist:** Can only produce a fraction of the maximum effect (like 50%), even if you give a massive dose and fill every receptor in the body! (e.g., Buprenorphine)."
+        },
+        {
+            "id": "pd_10",
+            "type": "content",
+            "title": "Antagonists",
+            "content": "# Antagonists\n\nAn **Antagonist** is a drug that binds to a receptor but does NOT turn it on. It just sits there, blocking the body's natural chemicals from binding.\n\nIt has zero efficacy on its own; it only works by stopping something else.\n\nFor example, Antihistamines block the histamine receptor, preventing the allergic response."
+        },
+        {
+            "id": "pd_11",
+            "type": "content",
+            "title": "Competitive vs Non-Competitive",
+            "content": "# Types of Blockers\n\n## Competitive Antagonists:\nThey fight for the exact same binding spot as the natural chemical. If you flood the system with enough natural chemical, you can overcome the blocker. The drug's effect is reversible.\n\n## Non-Competitive Antagonists:\nThey bind to a completely different (allosteric) site on the receptor, permanently warping its shape so the natural chemical can't fit anymore. Flooding the system does nothing. The receptor is essentially broken until the body builds a new one."
+        },
+        {
+            "id": "pd_12",
+            "type": "quiz",
+            "title": "Agonist Quiz",
+            "content": "Verify your understanding of drug actions.",
+            "quizQuestion": "What is the defining feature of a Partial Agonist?",
+            "quizOptions": [
+                "It permanently breaks the receptor",
+                "It blocks the receptor without activating it",
+                "It cannot produce 100% of the maximum biological effect, even if every receptor is occupied",
+                "It only works on 50% of the patients"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "pd_13",
+            "type": "content",
+            "title": "Signal Transduction",
+            "content": "# Signal Transduction\n\nOnce a drug binds to a receptor on the outside of the cell, how does the message get to the inside of the cell?\n\nThis process is called **Signal Transduction**.\n\nThe receptor acts like a doorbell. The drug pushes the button outside, and a complex electrical/chemical ringing happens inside."
+        },
+        {
+            "id": "pd_14",
+            "type": "content",
+            "title": "G-Protein Coupled Receptors",
+            "content": "# GPCRs\n\nGPCRs are the most common drug targets. They snake through the cell membrane 7 times.\n\n## The Mechanism:\n1. The drug binds the outside.\n2. The GPCR changes shape on the inside.\n3. It activates a \"G-protein\" attached to its inner tail.\n4. The G-protein breaks off and swims away to turn on other enzymes inside the cell."
+        },
+        {
+            "id": "pd_15",
+            "type": "content",
+            "title": "Second Messengers",
+            "content": "# Amplifying the Signal\n\nThe G-protein usually turns on an enzyme that produces **Second Messengers** (like cAMP or Calcium ions).\n\n## Amplification:\nThis is a massive chain reaction. One drug molecule activates one receptor. That receptor activates 10 G-proteins. Each G-protein produces 1,000 second messengers!\n\nThis is why drugs can be so potent; a tiny dose gets mathematically amplified by the cell's internal machinery."
+        },
+        {
+            "id": "pd_16",
+            "type": "content",
+            "title": "Summary of Pharmacodynamics",
+            "content": "# Pharmacodynamics Summary\n\n## Key Takeaways:\n- Drugs work by binding to **Receptors**, causing them to change shape (Induced Fit).\n- **Potency** is the dose required (EC50), while **Efficacy** is the maximum effect possible.\n- **Agonists** turn receptors ON, while **Antagonists** block them.\n- The **Therapeutic Window** dictates how safe a drug is.\n- **Signal Transduction** uses cascades (like G-proteins and second messengers) to massively amplify the drug's signal inside the cell."
+        },
+        {
+            "id": "pd_17",
+            "type": "content",
+            "title": "Module Complete",
+            "content": "# Congratulations!\n\nYou have completed the Pharmacodynamics module.\n\nYou now know what drugs do to the human body."
+        }
+    ]
+}

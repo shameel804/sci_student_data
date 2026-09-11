@@ -1,0 +1,127 @@
+{
+    "id": "nanophysics",
+    "topicId": "nanophysics",
+    "topicTitle": "Nanophysics",
+    "description": "Examine quantum dots, nanowires, 2D materials like graphene, and nanoscale phenomena.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "nano_1",
+            "type": "content",
+            "title": "Welcome to Nanophysics",
+            "content": "# Nanophysics\n\nWelcome to the module on **Nanophysics**!\n\n## What You Will Learn:\n- **Quantum dots** - Artificial atoms\n- **Nanowires** - One-dimensional conductors\n- **2D materials** - The magic of graphene\n- **Nanoscale phenomena** - Weird physics at the bottom\n\nWhen you shrink a material to the nanoscale, classical physics steps back, and quantum mechanics takes the wheel."
+        },
+        {
+            "id": "nano_2",
+            "type": "content",
+            "title": "Quantum Confinement",
+            "content": "# The Core Concept: Quantum Confinement\n\nIn a bulk semiconductor, electrons can have a wide range of continuous energies (bands).\n\n## The Shrink:\nWhen you shrink the material down until it is smaller than the natural wavelength of its electrons, the electrons feel \"trapped.\"\n\nBecause they are confined in a tiny box, their energy levels can no longer be continuous. They become discrete and quantized, exactly like the energy levels in a single atom."
+        },
+        {
+            "id": "nano_3",
+            "type": "content",
+            "title": "Quantum Dots",
+            "content": "# Quantum Dots: Zero Dimensions\n\nA **Quantum Dot** is a semiconductor nanoparticle confined in all three spatial dimensions. They are often called \"artificial atoms.\"\n\n## Tunable Properties:\nBecause the energy levels depend on the size of the \"box,\" you can change the optical and electronic properties of a quantum dot simply by changing its physical size!\n\nA large dot might glow red, while a smaller dot of the exact same material will glow blue. You are tuning quantum mechanics with geometry!"
+        },
+        {
+            "id": "nano_4",
+            "type": "content",
+            "title": "Applications of Quantum Dots",
+            "content": "# Using Artificial Atoms\n\nThe ability to tune the bandgap and color of quantum dots has led to explosive commercial applications.\n\n## QLED TVs:\nModern high-end televisions use quantum dots to produce exceptionally pure and vibrant colors. The backlight excites the dots, and because their size is perfectly controlled, they emit very specific, sharp wavelengths of red or green light.\n\n## Biology:\nQuantum dots are heavily used as bright, long-lasting fluorescent tags for tracking cells and proteins under microscopes."
+        },
+        {
+            "id": "nano_5",
+            "type": "content",
+            "title": "Nanowires",
+            "content": "# Nanowires: One Dimension\n\nIf you confine electrons in two dimensions but let them flow freely in the third, you have a **Nanowire** (a 1D system).\n\n## Ballistic Transport:\nIn a macroscopic wire, electrons constantly crash into impurities (resistance). In a perfect, ultra-clean nanowire, the electrons can travel straight from one end to the other without hitting anything.\n\nThis is called **ballistic transport**, and it allows for incredibly fast electronics with minimal heat generation."
+        },
+        {
+            "id": "nano_6",
+            "type": "quiz",
+            "title": "Quantum Confinement Quiz",
+            "content": "Test your knowledge of nanoscale dimensions.",
+            "quizQuestion": "Why does changing the physical size of a Quantum Dot change the color of light it emits?",
+            "quizOptions": [
+                "Because smaller dots reflect more light",
+                "Because quantum confinement alters the discrete energy levels based on the size of the particle",
+                "Because smaller dots heat up faster",
+                "It doesn't; all quantum dots of the same material emit the same color"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "nano_7",
+            "type": "content",
+            "title": "2D Materials",
+            "content": "# 2D Materials\n\nIf you confine electrons in just one dimension, leaving them free to move on a flat plane, you get a 2D material.\n\nFor a long time, physicists believed true 2D crystals were thermodynamically unstable and could not exist in reality.\n\nThat all changed in 2004 when two scientists used a roll of sticky tape to peel a single atomic layer of carbon off a chunk of graphite, discovering **Graphene**."
+        },
+        {
+            "id": "nano_8",
+            "type": "content",
+            "title": "Graphene",
+            "content": "# The Miracle Material: Graphene\n\nGraphene is a single layer of carbon atoms arranged in a hexagonal honeycomb lattice.\n\n## Extreme Properties:\n- It is the thinnest material possible (one atom thick).\n- It is the strongest material ever tested (200 times stronger than steel).\n- It is highly flexible and transparent.\n- It conducts electricity better than copper and conducts heat better than any known material."
+        },
+        {
+            "id": "nano_9",
+            "type": "content",
+            "title": "Dirac Cones",
+            "content": "# Electrons acting like Light\n\nThe electrical properties of Graphene are truly bizarre.\n\n## Dirac Cones:\nDue to the unique honeycomb lattice, the electrons moving through graphene lose their effective mass. They behave like massless relativistic particles (photons), zooming through the material at a constant speed (approx 1/300th the speed of light).\n\nThis makes graphene an exceptional testing ground for relativistic quantum mechanics on a tabletop!"
+        },
+        {
+            "id": "nano_10",
+            "type": "content",
+            "title": "Beyond Graphene",
+            "content": "# Transition Metal Dichalcogenides (TMDs)\n\nWhile graphene is amazing, it has one major flaw for electronics: it does not have a bandgap (it cannot easily be \"switched off\").\n\n## Enter TMDs:\nScientists discovered other 2D materials, like Molybdenum Disulfide (MoS2). \n\nUnlike graphene, TMDs have a natural bandgap, making them perfect for creating ultra-thin, flexible, transparent transistors and solar cells."
+        },
+        {
+            "id": "nano_11",
+            "type": "content",
+            "title": "Nanoscale Phenomena",
+            "content": "# Nanoscale Phenomena\n\nWhen working at the nanoscale, several bizarre physical effects dominate that we never notice in the macroscopic world."
+        },
+        {
+            "id": "nano_12",
+            "type": "quiz",
+            "title": "Graphene Quiz",
+            "content": "Verify your understanding of 2D materials.",
+            "quizQuestion": "Why is pure graphene difficult to use for standard computer transistors despite its incredible conductivity?",
+            "quizOptions": [
+                "It is too thick",
+                "It melts at room temperature",
+                "It lacks a bandgap, meaning it cannot easily be switched 'off'",
+                "It is highly radioactive"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "nano_13",
+            "type": "content",
+            "title": "The Coulomb Blockade",
+            "content": "# The Coulomb Blockade\n\nImagine a tiny quantum dot connected to two wires. You want to pass a current through it.\n\n## Traffic Jam:\nBecause the dot is so small, adding just a single electron to it massively increases its negative electrostatic charge. This repels any other electrons from entering the dot.\n\nCurrent is blocked (the Coulomb Blockade) until you provide enough voltage to force the next electron in. This allows physicists to control electrical current *one single electron at a time*."
+        },
+        {
+            "id": "nano_14",
+            "type": "content",
+            "title": "Quantum Interference",
+            "content": "# Quantum Interference in Wires\n\nIn standard wires, resistance is caused by electrons scattering off impurities. It behaves classically.\n\n## A Wave Game:\nIn nanoscale rings or wires at very low temperatures, the electron acts entirely like a wave. As it passes through a ring, the electron wave splits, travels down both sides, and recombines.\n\nDepending on the magnetic field present, the waves can constructively interfere (high current) or destructively interfere (zero current). You can turn a wire on or off just by changing its quantum phase!"
+        },
+        {
+            "id": "nano_15",
+            "type": "content",
+            "title": "The Casimir Effect",
+            "content": "# The Casimir Effect\n\nAt the nanoscale, even empty space exerts a physical force.\n\n## Quantum Vacuum Fluctuations:\nEmpty space is full of virtual particles popping in and out of existence. If you place two uncharged, perfectly flat metal plates just a few nanometers apart, the gap restricts the wavelengths of virtual particles that can exist between them.\n\nBecause there are more virtual particles bouncing on the *outside* of the plates than the *inside*, a measurable pressure pushes the plates together!"
+        },
+        {
+            "id": "nano_16",
+            "type": "content",
+            "title": "Summary of Nanophysics",
+            "content": "# Nanophysics Summary\n\n## Key Takeaways:\n- **Quantum Dots (0D):** Confine electrons in all directions, creating artificial atoms with size-tunable colors and properties.\n- **Nanowires (1D):** Allow for ultra-fast, ballistic electron transport.\n- **2D Materials:** Graphene features massless electrons and incredible strength, while TMDs provide the bandgap needed for flexible electronics.\n- **Nanoscale Physics:** The rules change. Devices are dominated by single-electron charging (Coulomb Blockade), quantum wave interference, and vacuum forces (Casimir Effect)."
+        },
+        {
+            "id": "nano_17",
+            "type": "content",
+            "title": "Course Complete",
+            "content": "# Congratulations!\n\nYou have completed the Condensed Matter (MSc) course.\n\nYou now have a deep understanding of how quantum mechanics dictates the properties of the physical materials that will build our future."
+        }
+    ]
+}

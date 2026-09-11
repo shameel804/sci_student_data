@@ -1,0 +1,147 @@
+{
+    "id": "nanoparticles",
+    "topicId": "nanoparticles",
+    "topicTitle": "Nanoparticles",
+    "description": "Learn about nanoparticle synthesis, core-shell structures, functionalization methods, and characterization techniques.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "nano_1",
+            "type": "content",
+            "title": "Welcome to Nanoparticles",
+            "content": "# Introduction to Nanoparticles\n\nWelcome to the study of **Nanoparticles**! This module covers the fundamental building blocks of nanochemistry.\n\n## What You Will Learn:\n- **Nanoparticle synthesis** - How to create them\n- **Core-shell structures** - Advanced nanoparticle design\n- **Functionalization methods** - Modifying surfaces\n- **Characterization techniques** - How to see and measure them\n\n> **Fun Fact:** A nanometer is one billionth of a meter. A sheet of paper is approx 100,000 nanometers thick!"
+        },
+        {
+            "id": "nano_2",
+            "type": "content",
+            "title": "What are Nanoparticles?",
+            "content": "# Defining Nanoparticles\n\n**Nanoparticles** are particles between 1 and 100 nanometers in size. In nanochemistry, materials exhibit unique properties at this scale.\n\n## Key Concepts:\n\n### Size and Surface Area\nAs size decreases, the surface area to volume ratio increases exponentially. This makes nanoparticles highly reactive.\n\n### Quantum Confinement\nAt the nanoscale, the physical extent of the particle is comparable to the wavelength of its electrons, leading to discrete energy levels.\n\n> **Note:** The properties of a material at the nanoscale can be entirely different from its bulk form!"
+        },
+        {
+            "id": "nano_3",
+            "type": "content",
+            "title": "Nanoparticle Synthesis",
+            "content": "# Nanoparticle Synthesis\n\nSynthesizing nanoparticles requires precise control over their size, shape, and composition.\n\n## Synthesis Methods Overview:\n- **Chemical Reduction**\n- **Sol-Gel Process**\n- **Co-precipitation**\n- **Hydrothermal Synthesis**\n\nThe goal is to achieve a narrow size distribution, meaning the standard deviation (**s**) of the particle sizes is very small."
+        },
+        {
+            "id": "nano_4",
+            "type": "content",
+            "title": "Chemical Reduction Method",
+            "content": "# Chemical Reduction Method\n\nThis is the most common method for synthesizing metal nanoparticles, like gold and silver.\n\n## The Process:\n1. A metal salt (e.g., gold chloride) is dissolved in a solvent.\n2. A reducing agent (e.g., sodium borohydride or citrate) is added.\n3. The metal ions are reduced to zero-valent metal atoms.\n4. These atoms nucleate and grow into nanoparticles.\n\n## Stabilizing Agents:\nTo prevent the particles from aggregating, a capping agent or stabilizer is added during the reaction."
+        },
+        {
+            "id": "nano_5",
+            "type": "content",
+            "title": "Sol-Gel Process",
+            "content": "# Sol-Gel Process\n\nThe **Sol-Gel process** is widely used for producing metal oxide nanoparticles, such as silica or titanium dioxide.\n\n## Steps in Sol-Gel:\n- **Hydrolysis:** Metal precursors react with water.\n- **Condensation:** Molecules link together to form a colloidal suspension (the \"sol\").\n- **Gelation:** The sol forms a continuous network (the \"gel\").\n- **Drying and Calcination:** The solvent is removed, leaving solid nanoparticles.\n\n> **Advantage:** Sol-gel allows for synthesis at relatively low temperatures with high purity."
+        },
+        {
+            "id": "nano_6",
+            "type": "quiz",
+            "title": "Synthesis Quick Check",
+            "content": "Test your understanding of nanoparticle synthesis!",
+            "quizQuestion": "Which method is commonly used to produce zero-valent metal nanoparticles like gold and silver?",
+            "quizOptions": [
+                "Sol-Gel Process",
+                "Chemical Reduction Method",
+                "Mechanical Milling",
+                "Lithography"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "nano_7",
+            "type": "content",
+            "title": "Core-Shell Structures",
+            "content": "# Core-Shell Structures\n\n**Core-shell nanoparticles** consist of an inner material (the core) and an outer layer (the shell) made of a different material.\n\n## Why use Core-Shell Structures?\n- **Protection:** The shell can protect a sensitive core from oxidation or corrosion.\n- **Enhanced Properties:** Combining two materials can lead to synergistic effects (e.g., enhanced plasmonics or magnetism).\n- **Biocompatibility:** A toxic core can be coated with a biocompatible shell for medical applications."
+        },
+        {
+            "id": "nano_8",
+            "type": "content",
+            "title": "Types of Core-Shell Structures",
+            "content": "# Types of Core-Shell Architectures\n\nCore-shell nanoparticles can be classified based on their material composition:\n\n## Common Combinations:\n- **Inorganic/Inorganic:** e.g., Gold core with a Silica shell.\n- **Inorganic/Organic:** e.g., Iron oxide core with a polymer shell.\n- **Organic/Inorganic:** e.g., Polystyrene core with a metal shell.\n- **Organic/Organic:** e.g., Lipid core with a polymer shell.\n\nBy carefully choosing the materials, scientists can tune the properties for specific applications like targeted drug delivery."
+        },
+        {
+            "id": "nano_9",
+            "type": "content",
+            "title": "Synthesis of Core-Shell Nanoparticles",
+            "content": "# Synthesizing Core-Shell Nanoparticles\n\nCreating core-shell structures requires multi-step synthesis.\n\n## The Seed-Mediated Approach:\n1. **Seed Formation:** First, the core nanoparticles are synthesized (these act as \"seeds\").\n2. **Shell Growth:** The seed particles are introduced into a new solution containing the precursors for the shell material.\n3. The shell material nucleates and grows specifically on the surface of the core seeds.\n\n> **Key Factor:** The lattice match between the core and shell materials affects how evenly the shell grows."
+        },
+        {
+            "id": "nano_10",
+            "type": "content",
+            "title": "Functionalization Methods",
+            "content": "# Functionalization Methods\n\n**Functionalization** is the process of attaching molecules to the surface of a nanoparticle to change its properties.\n\n## Goals of Functionalization:\n- **Prevent Aggregation:** Keeping particles dispersed in solution.\n- **Targeting:** Attaching antibodies so the nanoparticle binds to specific cells (e.g., cancer cells).\n- **Solubility:** Making hydrophobic particles soluble in water.\n\nSurface functionalization is crucial for bringing nanomaterials from the lab to real-world applications."
+        },
+        {
+            "id": "nano_11",
+            "type": "content",
+            "title": "Ligand Exchange",
+            "content": "# Ligand Exchange\n\nA very common functionalization technique is **Ligand Exchange**.\n\n## How it works:\nNanoparticles are often synthesized with initial stabilizing ligands on their surface. In ligand exchange, these original ligands are replaced by new molecules that have a stronger affinity for the nanoparticle surface.\n\n### Example:\nReplacing weak citrate ligands on gold nanoparticles with strong thiol (-SH) containing molecules. The gold-sulfur bond is very strong, ensuring the new functional groups remain stably attached."
+        },
+        {
+            "id": "nano_12",
+            "type": "quiz",
+            "title": "Core-Shell and Functionalization Quiz",
+            "content": "Check your knowledge on advanced nanoparticle structures.",
+            "quizQuestion": "What is the primary purpose of a ligand exchange reaction?",
+            "quizOptions": [
+                "To change the metal atoms in the core",
+                "To increase the size of the nanoparticle core",
+                "To replace surface molecules with different ones",
+                "To break the nanoparticle into smaller pieces"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "nano_13",
+            "type": "content",
+            "title": "Characterization Techniques",
+            "content": "# Characterization Techniques\n\nOnce nanoparticles are synthesized, we must characterize them to know their size, shape, and composition.\n\n## The Importance of Characterization:\nYou cannot manage what you cannot measure! Since nanoparticles are too small for optical microscopes, we rely on advanced analytical tools.\n\n### Key Techniques:\n- **Electron Microscopy** (TEM, SEM)\n- **X-ray Diffraction** (XRD)\n- **Dynamic Light Scattering** (DLS)\n- **UV-Vis Spectroscopy**"
+        },
+        {
+            "id": "nano_14",
+            "type": "content",
+            "title": "Electron Microscopy",
+            "content": "# Electron Microscopy\n\nElectron microscopes use a beam of electrons instead of light to achieve atomic-scale resolution.\n\n## Transmission Electron Microscopy (TEM):\n- Electrons pass *through* an ultra-thin sample.\n- Provides 2D images with incredibly high resolution.\n- Excellent for measuring exact size and observing core-shell structures.\n\n## Scanning Electron Microscopy (SEM):\n- Electrons scan the *surface* of a sample.\n- Provides detailed 3D topographical information.\n- Slightly lower resolution than TEM, but great for observing surface morphology."
+        },
+        {
+            "id": "nano_15",
+            "type": "content",
+            "title": "X-ray Diffraction (XRD)",
+            "content": "# X-ray Diffraction (XRD)\n\n**XRD** is a powerful technique for determining the crystalline structure of nanoparticles.\n\n## How it works:\nX-rays are directed at the sample and diffract off the crystal lattice planes. The angles of diffraction tell us about the crystal structure.\n\n## The Scherrer Equation:\nXRD can also estimate crystallite size. Broader diffraction peaks indicate smaller nanoparticle sizes.\n\n> **Application:** XRD can confirm if you synthesized pure gold nanoparticles or if they have an oxide impurity."
+        },
+        {
+            "id": "nano_16",
+            "type": "content",
+            "title": "Dynamic Light Scattering (DLS)",
+            "content": "# Dynamic Light Scattering (DLS)\n\n**DLS** is used to measure the size of nanoparticles dispersed in a liquid.\n\n## Principles:\n- Particles in a liquid undergo Brownian motion (random movement).\n- Smaller particles move faster than larger ones.\n- A laser is directed into the sample, and the scattered light fluctuates as particles move.\n- The speed of these fluctuations is mathematically converted into a particle size distribution.\n\n> **Note:** DLS measures the hydrodynamic radius, which includes the particle and any solvent molecules attached to its surface."
+        },
+        {
+            "id": "nano_17",
+            "type": "content",
+            "title": "UV-Vis Spectroscopy",
+            "content": "# UV-Vis Spectroscopy\n\nMany metal nanoparticles have unique optical properties that can be analyzed using UV-Vis Spectroscopy.\n\n## Surface Plasmon Resonance (SPR):\nGold and silver nanoparticles strongly absorb and scatter specific wavelengths of light due to SPR. \n\n- The peak absorbance wavelength shifts depending on the nanoparticle size and shape.\n- For example, spherical gold nanoparticles typically have a peak around 520 nm (appearing red to the eye).\n- As they grow larger or become rod-shaped, the peak shifts to longer wavelengths."
+        },
+        {
+            "id": "nano_18",
+            "type": "quiz",
+            "title": "Characterization Quiz",
+            "content": "Test your knowledge on characterization tools.",
+            "quizQuestion": "Which technique relies on the Brownian motion of particles in a liquid to determine their size?",
+            "quizOptions": [
+                "X-ray Diffraction (XRD)",
+                "Transmission Electron Microscopy (TEM)",
+                "Dynamic Light Scattering (DLS)",
+                "Scanning Electron Microscopy (SEM)"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "nano_19",
+            "type": "content",
+            "title": "Summary of Nanoparticles",
+            "content": "# Nanoparticles Summary\n\n## Key Takeaways:\n\n### Synthesis:\n- Methods include Chemical Reduction, Sol-Gel, and Co-precipitation.\n- Creating core-shell structures adds functionality and protection.\n\n### Functionalization:\n- Modifying surfaces is essential for stability, targeting, and avoiding aggregation.\n- Ligand exchange is a standard approach.\n\n### Characterization:\n- **TEM/SEM:** For direct imaging of size and shape.\n- **XRD:** For crystal structure and crystallite size.\n- **DLS:** For hydrodynamic size in solution.\n\nYou have completed the first topic in Nanochemistry!"
+        }
+    ]
+}

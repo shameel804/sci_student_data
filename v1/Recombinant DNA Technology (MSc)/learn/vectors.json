@@ -1,0 +1,127 @@
+{
+    "id": "vectors",
+    "topicId": "vectors",
+    "topicTitle": "Advanced Vector Design",
+    "description": "Learn about vector design principles, expression optimization, synthetic biology, and metabolic engineering.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "vec_1",
+            "type": "content",
+            "title": "Welcome to Vector Design",
+            "content": "# Advanced Vector Design\n\nWelcome to the module on **Advanced Vector Design**!\n\n## What You Will Learn:\n- **Vector design principles** - Building genetic vehicles\n- **Expression optimization** - Maximizing protein output\n- **Synthetic biology** - Engineering life like software\n- **Metabolic engineering** - Reprogramming cell factories\n\nVectors are the essential delivery vehicles of recombinant DNA technology."
+        },
+        {
+            "id": "vec_2",
+            "type": "content",
+            "title": "What is a Vector?",
+            "content": "# The Genetic Vehicle\n\nIn molecular biology, a **vector** is a DNA molecule used to carry foreign genetic material into another cell, where it can be replicated and/or expressed.\n\n## Plasmids:\nThe most common vectors are plasmids\u2014small, circular, double-stranded DNA molecules that occur naturally in bacteria. Scientists engineer these plasmids into highly efficient laboratory tools."
+        },
+        {
+            "id": "vec_3",
+            "type": "content",
+            "title": "Vector Design Principles",
+            "content": "# Anatomy of a Plasmid Vector\n\nA modern engineered plasmid requires three essential components:\n\n1. **Origin of Replication (ori):** The DNA sequence where the host cell's enzymes bind to start copying the plasmid.\n2. **Selectable Marker:** A gene (usually antibiotic resistance) that allows scientists to kill off any cells that didn't take up the plasmid.\n3. **Multiple Cloning Site (MCS):** A short region containing several unique restriction enzyme cut sites where the foreign gene is inserted."
+        },
+        {
+            "id": "vec_4",
+            "type": "content",
+            "title": "Advanced Vector Features",
+            "content": "# Advanced Features\n\nBasic cloning vectors only copy DNA. **Expression vectors** are designed to actually produce the protein encoded by the DNA.\n\n## They require:\n- **Promoters:** To initiate transcription of the gene into mRNA.\n- **Ribosome Binding Sites (RBS):** To initiate translation of mRNA into protein.\n- **Terminators:** To cleanly stop transcription so the RNA polymerase doesn't read the whole plasmid."
+        },
+        {
+            "id": "vec_5",
+            "type": "content",
+            "title": "Expression Optimization",
+            "content": "# Expression Optimization\n\nJust inserting a human gene into a bacterium doesn't guarantee the bacterium will produce a lot of human protein. You must optimize the process.\n\n## Codon Optimization:\nThe genetic code is redundant (multiple codons code for the same amino acid). However, humans and bacteria \"prefer\" different codons. \n\nBy artificially rewriting the DNA sequence to use the host's preferred codons (without changing the final protein sequence), you drastically increase production speed and yield."
+        },
+        {
+            "id": "vec_6",
+            "type": "quiz",
+            "title": "Vector Design Quiz",
+            "content": "Test your knowledge of plasmid anatomy.",
+            "quizQuestion": "Which part of a plasmid vector allows scientists to easily insert a foreign gene of interest?",
+            "quizOptions": [
+                "The Origin of Replication (ori)",
+                "The Multiple Cloning Site (MCS)",
+                "The Selectable Marker (antibiotic resistance)",
+                "The Terminator sequence"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "vec_7",
+            "type": "content",
+            "title": "Translational Tuning",
+            "content": "# Tuning Translation\n\nSometimes, making *too much* protein too fast kills the host cell. We need fine control.\n\n## Ribosome Binding Sites:\nBy subtly changing the DNA sequence of the RBS, we can change how strongly the ribosome binds to the mRNA.\n\n- A \"strong\" RBS produces massive amounts of protein.\n- A \"weak\" RBS produces a slow, steady trickle of protein, which is often better for complex proteins that need time to fold correctly."
+        },
+        {
+            "id": "vec_8",
+            "type": "content",
+            "title": "Synthetic Biology",
+            "content": "# Synthetic Biology\n\n**Synthetic Biology** takes genetic engineering to the next level by applying engineering principles (like standardization and abstraction) to biology.\n\n## BioBricks:\nInstead of custom-designing every experiment, synthetic biologists use standardized, interchangeable DNA parts called \"BioBricks.\"\n\nYou can pull a promoter, a gene, and a terminator \"off the shelf\" and snap them together like Lego blocks to build new biological circuits."
+        },
+        {
+            "id": "vec_9",
+            "type": "content",
+            "title": "Biological Logic Gates",
+            "content": "# Biological Logic Gates\n\nUsing Synthetic Biology, we can build computers out of living cells!\n\n## Cellular Computing:\nBy carefully designing interacting promoters and repressor proteins, scientists can build biological AND, OR, and NOT gates.\n\nFor example, an engineered immune cell might have an AND gate: IT ONLY attacks if it detects Cancer Marker A **AND** Cancer Marker B. This prevents it from attacking healthy tissue."
+        },
+        {
+            "id": "vec_10",
+            "type": "content",
+            "title": "Minimal Genomes",
+            "content": "# Minimal Genomes\n\nWhat is the absolute minimum amount of DNA required for a cell to live?\n\n## The \"Chassis\" Cell:\nSynthetic biologists are systematically deleting genes from bacteria to create a \"minimal genome.\"\n\nThis stripped-down cell acts as a perfect, clean \"chassis.\" Because it wastes zero energy on unnecessary survival mechanisms, it can dedicate 100% of its energy to producing whatever drug or chemical we engineer into it."
+        },
+        {
+            "id": "vec_11",
+            "type": "content",
+            "title": "Metabolic Engineering",
+            "content": "# Metabolic Engineering\n\n**Metabolic Engineering** is the practice of reprogramming the entire metabolic network of a cell to overproduce a specific substance.\n\n## The Cell Factory:\nWe aren't just adding one gene; we are hijacking the cell's entire metabolism. \n\nIf a cell naturally converts Sugar -> A -> B -> C, and we want chemical B, we will engineer the cell to upregulate the A->B enzymes, and completely delete the B->C enzymes so chemical B pools up inside the cell."
+        },
+        {
+            "id": "vec_12",
+            "type": "quiz",
+            "title": "Synthetic Bio Quiz",
+            "content": "Verify your understanding of engineered biology.",
+            "quizQuestion": "In synthetic biology, what is a biological 'AND' gate designed to do?",
+            "quizOptions": [
+                "Only activate a response if TWO specific conditions are met simultaneously",
+                "Produce twice as much protein as a normal gene",
+                "Delete two genes at the same time",
+                "Fuse two different cells together"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "vec_13",
+            "type": "content",
+            "title": "Flux Balance Analysis",
+            "content": "# Flux Balance Analysis (FBA)\n\nMetabolism is incredibly complex. Changing one pathway might accidentally shut down the cell's ability to make essential amino acids.\n\n## Computational Biology:\nBefore touching a pipette, scientists use mathematical computer models (FBA) to simulate the entire metabolic network of a cell.\n\nThe computer calculates the \"flux\" (flow rate) of molecules through every pathway, predicting exactly which genes need to be tweaked to maximize production without killing the cell."
+        },
+        {
+            "id": "vec_14",
+            "type": "content",
+            "title": "Production of Biofuels",
+            "content": "# Engineering Biofuels\n\nA major goal of metabolic engineering is creating sustainable energy.\n\n## Algae and Bacteria:\nScientists have engineered bacteria to consume plant waste (cellulose) and run it through a synthetic metabolic pathway to produce Isobutanol or advanced lipid molecules.\n\nThese biological molecules are exact chemical replacements for gasoline and jet fuel, offering a carbon-neutral alternative to fossil fuels."
+        },
+        {
+            "id": "vec_15",
+            "type": "content",
+            "title": "Production of Pharmaceuticals",
+            "content": "# Engineering Medicines\n\nMany of our most powerful drugs (like the anti-malaria drug Artemisinin) naturally come from plants that are hard to grow.\n\n## The Yeast Solution:\nScientists took the complex, multi-step genetic pathway from the sweet wormwood plant and engineered it into common baker's yeast.\n\nNow, we can brew vital, life-saving medicines in massive industrial vats just like brewing beer, drastically lowering the cost of global healthcare."
+        },
+        {
+            "id": "vec_16",
+            "type": "content",
+            "title": "Summary of Vector Design",
+            "content": "# Advanced Vectors Summary\n\n## Key Takeaways:\n- **Plasmids** require an origin, a selectable marker, and a cloning site.\n- **Expression Optimization** involves tuning codons and ribosome binding sites to maximize protein yield.\n- **Synthetic Biology** treats DNA like interchangeable hardware parts (BioBricks) to build logical circuits in cells.\n- **Metabolic Engineering** reprograms entire cellular networks (using tools like Flux Balance Analysis) to turn cells into living factories for biofuels and drugs."
+        },
+        {
+            "id": "vec_17",
+            "type": "content",
+            "title": "Module Complete",
+            "content": "# Congratulations!\n\nYou have completed the Advanced Vector Design module.\n\nYou now understand how we program living organisms like software!"
+        }
+    ]
+}

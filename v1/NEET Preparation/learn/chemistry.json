@@ -1,0 +1,127 @@
+{
+    "id": "chemistry",
+    "topicId": "chemistry",
+    "topicTitle": "NEET Chemistry (Plant Sciences)",
+    "description": "Learn about Photosynthesis, Respiration in plants, Plant growth regulators, Mineral nutrition, and Transport in plants.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "chem_1",
+            "type": "content",
+            "title": "Welcome to NEET Chemistry (Plants)",
+            "content": "# NEET Chemistry: Plant Sciences\n\nWelcome to this special module!\n\n*(Note: According to the syllabus outline, this section focuses on the biochemical and chemical processes of Plant Physiology)*\n\n## What You Will Learn:\n- **Photosynthesis** - The chemistry of light and sugar\n- **Respiration in plants** - Burning the sugar for energy\n- **Plant growth regulators** - Chemical hormones in plants\n- **Mineral nutrition** - The elements of life\n- **Transport in plants** - The physics of moving water"
+        },
+        {
+            "id": "chem_2",
+            "type": "content",
+            "title": "Photosynthesis",
+            "content": "# The Ultimate Chemical Reaction\n\nPhotosynthesis is an anabolic, endergonic chemical process.\n\n**6 CO2 + 12 H2O + Light Energy -> C6H12O6 (Glucose) + 6 O2 + 6 H2O**\n\nIt occurs entirely within the **Chloroplasts** of plant cells, utilizing the green pigment Chlorophyll to capture the energy of the sun."
+        },
+        {
+            "id": "chem_3",
+            "type": "content",
+            "title": "Light and Dark Reactions",
+            "content": "# Two Distinct Phases\n\n## 1. Light-Dependent Reactions:\nOccur in the thylakoid membranes. Solar energy is used to literally split water molecules (photolysis), releasing Oxygen gas as a waste product, and creating high-energy chemical batteries (ATP and NADPH).\n\n## 2. Light-Independent Reactions (Calvin Cycle):\nOccur in the fluid stroma. The plant takes the ATP and NADPH batteries and uses their energy to chemically glue Carbon Dioxide molecules together to build a 6-carbon Glucose sugar."
+        },
+        {
+            "id": "chem_4",
+            "type": "content",
+            "title": "Respiration in Plants",
+            "content": "# Plant Cellular Respiration\n\nPlants don't just make sugar; they must also burn it to stay alive!\n\nCellular Respiration is the exact chemical opposite of photosynthesis. It is a catabolic, exergonic process that breaks down Glucose using Oxygen to release usable energy (ATP) for the cell, producing CO2 and Water as waste."
+        },
+        {
+            "id": "chem_5",
+            "type": "content",
+            "title": "The Three Stages of Respiration",
+            "content": "# The Biochemical Pathway\n\n1. **Glycolysis:** Occurs in the cytoplasm. The 6-carbon glucose is split in half into two 3-carbon pyruvates. Yields a tiny amount of ATP.\n2. **Krebs Cycle (Citric Acid Cycle):** Occurs in the Mitochondria. The pyruvates are completely dismantled into CO2, charging up \"carrier\" molecules (NADH).\n3. **Electron Transport Chain:** The carrier molecules drop their electrons onto a membrane. The flow of these electrons generates massive amounts of ATP, and Oxygen catches the electrons at the very end to form Water."
+        },
+        {
+            "id": "chem_6",
+            "type": "quiz",
+            "title": "Photosynthesis Quiz",
+            "content": "Test your biochemical knowledge.",
+            "quizQuestion": "Where does the Oxygen gas produced during photosynthesis actually come from?",
+            "quizOptions": [
+                "From the breakdown of Carbon Dioxide",
+                "From the splitting of Water molecules during the light reactions",
+                "From the breakdown of Glucose",
+                "From the soil"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "chem_7",
+            "type": "content",
+            "title": "Plant Growth Regulators",
+            "content": "# Chemical Messengers\n\nPlants do not have a nervous system. They control their entire life cycle using chemical hormones called **Plant Growth Regulators (PGRs)**.\n\nThese chemicals are effective in incredibly low concentrations and can act locally or be transported far away."
+        },
+        {
+            "id": "chem_8",
+            "type": "content",
+            "title": "The Five Major PGRs",
+            "content": "# The Plant Hormones\n\n1. **Auxins:** Promote stem elongation and apical dominance (making the plant grow tall, not wide). Causes plants to bend towards light.\n2. **Gibberellins:** Promote massive stem growth and seed germination.\n3. **Cytokinins:** Promote rapid cell division; delay aging in leaves.\n4. **Ethylene:** The only *gas* hormone! Promotes fruit ripening and leaf fall.\n5. **Abscisic Acid (ABA):** The stress hormone. Closes stomata during drought and inhibits seed germination."
+        },
+        {
+            "id": "chem_9",
+            "type": "content",
+            "title": "Mineral Nutrition",
+            "content": "# The Elements of Life\n\nPlants need more than just air and water; they need specific chemical elements from the soil to survive.\n\n## Essential Elements:\nAn element is \"essential\" if the plant absolutely cannot complete its life cycle without it, and no other element can substitute for it.\n\nThey are divided into **Macronutrients** (needed in large amounts, like Nitrogen, Phosphorus, Potassium) and **Micronutrients** (needed in tiny trace amounts, like Iron, Zinc, Copper)."
+        },
+        {
+            "id": "chem_10",
+            "type": "content",
+            "title": "The Nitrogen Cycle",
+            "content": "# The Nitrogen Problem\n\nNitrogen is essential for making DNA and Proteins.\n\nThe air is 78% Nitrogen gas (N2), but plants cannot use it because the triple bond in N2 is too strong to break.\n\nThey rely entirely on **Nitrogen-Fixing Bacteria** in the soil (or lightning strikes) to convert N2 gas into Ammonia or Nitrates, which the plant roots can then absorb."
+        },
+        {
+            "id": "chem_11",
+            "type": "content",
+            "title": "Mineral Deficiencies",
+            "content": "# Deficiency Symptoms\n\nIf a plant lacks a specific mineral, it shows specific chemical symptoms.\n\n- **Chlorosis:** Yellowing of leaves due to loss of chlorophyll (often caused by lack of Nitrogen, Magnesium, or Iron).\n- **Necrosis:** Death of tissue spots on the leaf (often Calcium or Potassium deficiency).\n- **Stunted Growth:** Overall small size (Nitrogen deficiency)."
+        },
+        {
+            "id": "chem_12",
+            "type": "quiz",
+            "title": "PGR Quiz",
+            "content": "Verify your understanding of plant hormones.",
+            "quizQuestion": "Which plant growth regulator is a gas that stimulates the rapid ripening of fruit?",
+            "quizOptions": [
+                "Auxin",
+                "Cytokinin",
+                "Ethylene",
+                "Abscisic Acid"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "chem_13",
+            "type": "content",
+            "title": "Transport in Plants",
+            "content": "# The Physics of Transport\n\nHow does a 300-foot-tall Redwood tree pump water from its roots to its highest leaves without a heart or any moving parts?\n\nIt relies entirely on the physical and chemical properties of water."
+        },
+        {
+            "id": "chem_14",
+            "type": "content",
+            "title": "Cohesion and Adhesion",
+            "content": "# Water Chemistry\n\nWater molecules are polar, meaning they act like tiny magnets.\n\n- **Cohesion:** Water molecules stick tightly to *other* water molecules (via hydrogen bonds).\n- **Adhesion:** Water molecules stick to the walls of the xylem tubes in the plant.\n\nBecause of cohesion, a column of water in a plant acts like a solid physical rope. If you pull on the top, the whole rope moves up."
+        },
+        {
+            "id": "chem_15",
+            "type": "content",
+            "title": "The Transpiration Pull",
+            "content": "# Transpiration Pull Theory\n\nThis is the driving force of water transport.\n\n1. As the sun beats down on a leaf, water evaporates out of the microscopic pores (stomata). This is **Transpiration**.\n2. Because water molecules are linked together by cohesion, as one molecule evaporates into the air, it literally pulls the next molecule up to take its place.\n3. This creates a massive negative pressure (tension) that pulls a continuous, unbroken chain of water all the way up from the roots!"
+        },
+        {
+            "id": "chem_16",
+            "type": "content",
+            "title": "Phloem Transport",
+            "content": "# Moving the Sugar\n\nWhile water moves passively, moving sugar requires energy.\n\n## Pressure Flow Hypothesis:\n1. The plant uses ATP energy to actively pump sugar into the Phloem tubes at the leaf (the Source).\n2. This high sugar concentration causes water from the neighboring xylem to rush into the phloem by osmosis.\n3. This massive influx of water creates high physical pressure, pushing the sugary sap down the tube towards the roots (the Sink), where the sugar is pumped out and stored."
+        },
+        {
+            "id": "chem_17",
+            "type": "content",
+            "title": "Summary of Plant Biochemical Processes",
+            "content": "# Plant Processes Summary\n\n## Key Takeaways:\n- **Photosynthesis** converts solar energy into chemical energy (Glucose), while **Respiration** burns that Glucose in the mitochondria to create ATP.\n- **Plant Growth Regulators (PGRs)** like Auxins and Ethylene are chemical hormones that dictate the plant's life cycle.\n- **Mineral Nutrition** relies on soil bacteria to fix Nitrogen, and deficiencies lead to chemical symptoms like Chlorosis.\n- **Transport** of water is a passive physical process driven by evaporation (Transpiration Pull) and the cohesive chemical nature of water, while sugar transport requires active energy."
+        }
+    ]
+}

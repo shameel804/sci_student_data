@@ -1,0 +1,127 @@
+{
+    "id": "physics",
+    "topicId": "physics",
+    "topicTitle": "JEE Advanced Physics",
+    "description": "Learn about Advanced kinematics, Rigid body dynamics, Fluid mechanics, and Thermal physics advanced.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "adv_phy_1",
+            "type": "content",
+            "title": "Welcome to JEE Advanced Physics",
+            "content": "# JEE Advanced Physics Overview\n\nWelcome to **JEE Advanced Physics**!\n\n## What You Will Learn:\n- **Advanced kinematics** - Complex motion and frames of reference\n- **Rigid body dynamics** - Rolling, slipping, and spinning\n- **Fluid mechanics** - The physics of liquids and gases\n- **Thermal physics advanced** - Heat, work, and entropy\n\nJEE Advanced requires you to combine multiple concepts from different chapters to solve a single, complex problem."
+        },
+        {
+            "id": "adv_phy_2",
+            "type": "content",
+            "title": "Advanced Kinematics",
+            "content": "# Beyond Constant Acceleration\n\nIn JEE Main, you used the three standard equations of motion because acceleration was constant.\n\nIn JEE Advanced, acceleration is almost always **Variable** (changing with time or position).\n\nYou can no longer use the standard algebraic equations. You must use Calculus (differentiation and integration) to find velocity and position."
+        },
+        {
+            "id": "adv_phy_3",
+            "type": "content",
+            "title": "Non-Inertial Frames",
+            "content": "# Frames of Reference\n\nAn **Inertial Frame** is a point of view that is not accelerating (like standing on the ground). Newton's Laws work perfectly here.\n\nA **Non-Inertial Frame** is a point of view that IS accelerating (like sitting inside a car that is slamming on the brakes).\n\nIf you try to apply Newton's Laws inside a braking car, they appear to fail! Objects seem to fly forward with no visible force pushing them."
+        },
+        {
+            "id": "adv_phy_4",
+            "type": "content",
+            "title": "Pseudo Forces",
+            "content": "# The Mathematical Fix\n\nTo make Newton's Laws work inside an accelerating frame, we invent a **Pseudo Force** (a fake force).\n\nThe Pseudo Force is mathematically equal to the mass of the object multiplied by the acceleration of the frame, but directed in the *opposite* direction.\n\nAdding this imaginary force to your Free Body Diagram allows you to solve the problem perfectly!"
+        },
+        {
+            "id": "adv_phy_5",
+            "type": "content",
+            "title": "Rigid Body Dynamics",
+            "content": "# Rigid Body Dynamics\n\nThis is historically the hardest chapter in JEE Advanced.\n\nA \"rigid body\" means the object has a physical size (it is not a single dot) and its shape cannot bend or deform.\n\nThis introduces the complex interplay between moving forward (Translation) and spinning (Rotation) at the same time."
+        },
+        {
+            "id": "adv_phy_6",
+            "type": "quiz",
+            "title": "Kinematics Quiz",
+            "content": "Test your understanding of reference frames.",
+            "quizQuestion": "When must you use a Pseudo Force in a physics calculation?",
+            "quizOptions": [
+                "When calculating the friction of a stationary object",
+                "When you are observing a problem from a Non-Inertial (accelerating) frame of reference",
+                "When the object is falling in a vacuum",
+                "When the object has constant velocity"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "adv_phy_7",
+            "type": "content",
+            "title": "Rolling Without Slipping",
+            "content": "# Pure Rolling\n\nWhen a car tire rolls perfectly on the road (without skidding), it is called **Rolling Without Slipping**.\n\n## The Paradox:\nEven though the car is moving forward at 100 kilometers per hour, the very bottom of the tire (the exact point touching the road) has a velocity of ZERO!\n\nThis is because the backward spinning velocity perfectly cancels out the forward driving velocity at that one specific contact point."
+        },
+        {
+            "id": "adv_phy_8",
+            "type": "content",
+            "title": "Angular Momentum Conservation",
+            "content": "# Advanced Conservation\n\nIn complex collision problems involving rigid bodies (like a bullet hitting a wooden door), you must conserve both Linear Momentum AND **Angular Momentum**.\n\nAngular momentum is conserved as long as there is no external Torque acting on the system. \n\nRemember: even a bullet traveling in a straight line has angular momentum relative to the door's hinges!"
+        },
+        {
+            "id": "adv_phy_9",
+            "type": "content",
+            "title": "Fluid Mechanics",
+            "content": "# Fluid Mechanics\n\nFluids include both liquids and gases.\n\n- **Fluid Statics:** Fluids at rest. Focuses on pressure changing with depth (Pascal's Principle) and buoyancy (Archimedes' Principle).\n- **Fluid Dynamics:** Fluids in motion. Focuses on how pressure, velocity, and height interact in a flowing pipe."
+        },
+        {
+            "id": "adv_phy_10",
+            "type": "content",
+            "title": "Bernoulli's Principle",
+            "content": "# Bernoulli's Equation\n\nBernoulli's equation is simply the Conservation of Energy applied to a flowing fluid.\n\n**Pressure plus Kinetic Energy Density plus Potential Energy Density equals a Constant.**\n\n## The Consequence:\nIf a fluid speeds up (like wind blowing over a curved airplane wing), its internal pressure drops! This low pressure above the wing creates the upward Lift that allows airplanes to fly."
+        },
+        {
+            "id": "adv_phy_11",
+            "type": "content",
+            "title": "Viscosity and Reynolds Number",
+            "content": "# Real Fluids\n\nIdeal fluids have no friction. Real fluids have **Viscosity** (internal friction or \"thickness\").\n\n## The Reynolds Number:\nThis is a dimensionless number used to predict how a fluid will flow.\n- Low Number: **Laminar Flow** (smooth, orderly layers).\n- High Number: **Turbulent Flow** (chaotic, swirling eddies).\n\nEngineers must calculate this to design efficient pipes and airplane wings."
+        },
+        {
+            "id": "adv_phy_12",
+            "type": "quiz",
+            "title": "Fluids Quiz",
+            "content": "Verify your understanding of fluid dynamics.",
+            "quizQuestion": "According to Bernoulli's Principle, what happens to the pressure of a fluid when its velocity increases?",
+            "quizOptions": [
+                "The pressure increases",
+                "The pressure remains exactly the same",
+                "The pressure drops (decreases)",
+                "The pressure fluctuates randomly"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "adv_phy_13",
+            "type": "content",
+            "title": "Thermal Physics Advanced",
+            "content": "# Thermal Physics\n\nThermal physics bridges the gap between the microscopic world of moving atoms and the macroscopic world of temperature and pressure.\n\n## Kinetic Theory of Gases:\nWe pretend a gas is made of billions of tiny, perfectly bouncy balls flying around. The physical pressure on the wall of a balloon is just the mathematical average of billions of tiny balls crashing into the rubber!"
+        },
+        {
+            "id": "adv_phy_14",
+            "type": "content",
+            "title": "The Laws of Thermodynamics",
+            "content": "# The Rules of Heat\n\n1. **First Law (Conservation of Energy):** Heat added to a system equals the change in its internal energy plus the physical work it does (like a hot gas expanding and pushing a piston).\n2. **Second Law (Entropy):** Heat always flows naturally from Hot to Cold. You cannot build a perfectly efficient engine; some energy is always lost as waste heat."
+        },
+        {
+            "id": "adv_phy_15",
+            "type": "content",
+            "title": "Entropy",
+            "content": "# The Arrow of Time\n\n**Entropy** is a mathematical measure of disorder or randomness in a system.\n\nThe Second Law states that the total Entropy of the universe is always increasing. Things naturally decay, break, and mix. \n\nYou can decrease entropy locally (by organizing your room or building a crystal), but you must expend energy and generate heat to do it, meaning the *overall* entropy of the universe still goes up!"
+        },
+        {
+            "id": "adv_phy_16",
+            "type": "content",
+            "title": "Summary of Advanced Mechanics",
+            "content": "# Advanced Physics Summary\n\n## Key Takeaways:\n- **Advanced Kinematics** requires Calculus for variable acceleration and Pseudo Forces for non-inertial frames.\n- **Rigid Body Dynamics** combines translation and rotation, utilizing Torque and Angular Momentum.\n- **Fluid Mechanics** uses Bernoulli's principle to relate fluid velocity to pressure drops.\n- **Thermal Physics** connects the kinetic energy of atoms to macroscopic Thermodynamics and the inescapable increase of Entropy."
+        },
+        {
+            "id": "adv_phy_17",
+            "type": "content",
+            "title": "Module Complete",
+            "content": "# Congratulations!\n\nYou have completed the Advanced Physics module.\n\nYou are now prepared for the most rigorous mechanics problems."
+        }
+    ]
+}

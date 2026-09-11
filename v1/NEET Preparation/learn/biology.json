@@ -1,0 +1,127 @@
+{
+    "id": "biology",
+    "topicId": "biology",
+    "topicTitle": "NEET Biology",
+    "description": "Learn about Human physiology systems, Plant physiology mechanisms, Reproduction biology, and Genetics and evolution concepts.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "bio_1",
+            "type": "content",
+            "title": "Welcome to NEET Biology",
+            "content": "# NEET Biology Overview\n\nWelcome to **NEET Biology**!\n\n## What You Will Learn:\n- **Human physiology systems** - How the human body works\n- **Plant physiology mechanisms** - How plants survive and grow\n- **Reproduction biology** - The continuation of life\n- **Genetics and evolution concepts** - Heredity and the origin of species\n\nBiology carries the highest weightage in the NEET exam (50% of the paper)."
+        },
+        {
+            "id": "bio_2",
+            "type": "content",
+            "title": "Human Physiology Systems",
+            "content": "# Human Physiology\n\nHuman physiology is the study of how the organs and systems of the body function together to maintain life (Homeostasis).\n\nKey systems include:\n- **Digestive System:** Breaking down food for energy.\n- **Respiratory System:** Exchanging oxygen and carbon dioxide.\n- **Circulatory System:** Transporting nutrients and waste.\n- **Nervous & Endocrine Systems:** Coordinating and controlling the body."
+        },
+        {
+            "id": "bio_3",
+            "type": "content",
+            "title": "Control and Coordination",
+            "content": "# Nervous vs Endocrine\n\nThe body is controlled by two main systems:\n\n## The Nervous System:\nUses electrical impulses traveling through neurons for rapid, point-to-point communication (e.g., pulling your hand away from a hot stove).\n\n## The Endocrine System:\nUses chemical messengers (hormones) released into the blood for slow, widespread, and long-lasting effects (e.g., growth or puberty)."
+        },
+        {
+            "id": "bio_4",
+            "type": "content",
+            "title": "Circulation and Excretion",
+            "content": "# Transport and Waste\n\n## The Heart:\nA muscular pump with four chambers (in humans) that ensures oxygen-rich blood is separated from oxygen-poor blood.\n\n## The Kidneys:\nThe primary excretory organs. They filter the blood, removing toxic nitrogenous waste (urea) while carefully reabsorbing essential water and salts back into the blood."
+        },
+        {
+            "id": "bio_5",
+            "type": "content",
+            "title": "Plant Physiology Mechanisms",
+            "content": "# Plant Physiology\n\nUnlike animals, plants cannot move to find food or escape danger. Their physiology is adapted to stationary life.\n\nKey mechanisms include:\n- **Photosynthesis:** Making food from light.\n- **Transpiration:** Pulling water up from the roots.\n- **Mineral Nutrition:** Absorbing essential elements from the soil.\n- **Plant Hormones:** Controlling growth towards light or water."
+        },
+        {
+            "id": "bio_6",
+            "type": "quiz",
+            "title": "Physiology Quiz",
+            "content": "Test your basic physiology knowledge.",
+            "quizQuestion": "Which system uses chemical messengers traveling through the blood to exert slow, long-lasting effects on the body?",
+            "quizOptions": [
+                "Nervous System",
+                "Endocrine System",
+                "Respiratory System",
+                "Digestive System"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "bio_7",
+            "type": "content",
+            "title": "Photosynthesis Basics",
+            "content": "# Photosynthesis\n\nPhotosynthesis is the foundation of almost all life on Earth.\n\n## The Equation:\nPlants take Carbon Dioxide and Water, and using Light energy, convert them into Glucose (sugar) and Oxygen.\n\nThis occurs in the **Chloroplasts**. The light-dependent reactions capture solar energy, and the light-independent reactions (Calvin Cycle) use that energy to build the sugar."
+        },
+        {
+            "id": "bio_8",
+            "type": "content",
+            "title": "Transport in Plants",
+            "content": "# Xylem and Phloem\n\nPlants have two distinct plumbing systems:\n\n## Xylem:\nA one-way street carrying Water and Minerals UP from the roots to the leaves. This is driven passively by Transpiration (water evaporating from the leaves, pulling more water up like a straw).\n\n## Phloem:\nA two-way street carrying Food (sugars) from the leaves (where it is made) to the roots or fruits (where it is stored or used). This requires active energy."
+        },
+        {
+            "id": "bio_9",
+            "type": "content",
+            "title": "Reproduction Biology",
+            "content": "# Reproduction\n\nReproduction is essential for the survival of a species, not an individual.\n\n## Two Types:\n- **Asexual:** A single parent produces clones. Fast, but provides no genetic variation.\n- **Sexual:** Two parents contribute genetic material (gametes) to produce unique offspring. Slower, but the genetic variation helps the species survive changing environments."
+        },
+        {
+            "id": "bio_10",
+            "type": "content",
+            "title": "Human Reproduction",
+            "content": "# Human Reproduction\n\nHuman reproduction is strictly sexual and involves specialized organs.\n\n- **Male System:** Designed to continuously produce millions of motile sperm (spermatogenesis) and deliver them.\n- **Female System:** Designed to produce one mature egg per month (oogenesis), receive the sperm, and provide a safe, highly controlled environment (the uterus) for the fetus to develop for 9 months."
+        },
+        {
+            "id": "bio_11",
+            "type": "content",
+            "title": "Reproduction in Flowering Plants",
+            "content": "# Angiosperm Reproduction\n\nFlowers are the reproductive organs of Angiosperms (flowering plants).\n\n- **Male parts (Stamen):** Produce pollen grains (which contain the male gametes).\n- **Female parts (Pistil/Carpel):** Contain the ovary with ovules (female gametes).\n\nPollination is the transfer of pollen to the female part. This is followed by double fertilization, unique to flowering plants, which produces both the embryo and the food supply (endosperm)."
+        },
+        {
+            "id": "bio_12",
+            "type": "quiz",
+            "title": "Plant Transport Quiz",
+            "content": "Verify your understanding of plant tissues.",
+            "quizQuestion": "Which plant tissue is responsible for transporting sugars (food) from the leaves to the rest of the plant?",
+            "quizOptions": [
+                "Xylem",
+                "Phloem",
+                "Epidermis",
+                "Cambium"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "bio_13",
+            "type": "content",
+            "title": "Genetics and Evolution",
+            "content": "# Genetics and Evolution\n\nGenetics explains how traits are passed down (heredity), while Evolution explains how those traits change over millions of years to create new species.\n\nGregor Mendel laid the foundation of classical genetics with his pea plant experiments, discovering dominant and recessive traits before anyone knew what DNA was."
+        },
+        {
+            "id": "bio_14",
+            "type": "content",
+            "title": "The Molecular Basis of Inheritance",
+            "content": "# DNA Structure\n\nTraits are determined by **DNA** (Deoxyribonucleic Acid).\n\nDNA is a double helix made of four chemical bases: Adenine (A), Thymine (T), Cytosine (C), and Guanine (G).\n\nThe specific sequence of these letters provides the exact instructions for building proteins. A gene is simply a specific sequence of DNA that codes for a specific protein."
+        },
+        {
+            "id": "bio_15",
+            "type": "content",
+            "title": "Mutations",
+            "content": "# Mutations and Variation\n\nA **Mutation** is a random change in the DNA sequence.\n\nMost mutations are harmless or bad, but very rarely, a mutation provides a beneficial new trait.\n\nMutations are the ultimate source of all genetic variation in the world. Without mutations, evolution would be completely impossible because every organism would be exactly identical."
+        },
+        {
+            "id": "bio_16",
+            "type": "content",
+            "title": "Natural Selection",
+            "content": "# Darwin's Theory\n\nCharles Darwin proposed **Natural Selection** as the mechanism of evolution.\n\n1. **Variation:** Individuals in a population have different traits (caused by mutations).\n2. **Overproduction:** More offspring are born than can survive.\n3. **Competition:** They fight for limited resources.\n4. **Selection:** Those with the best traits for their specific environment survive, reproduce, and pass those winning traits to the next generation."
+        },
+        {
+            "id": "bio_17",
+            "type": "content",
+            "title": "Summary of NEET Biology",
+            "content": "# Biology Summary\n\n## Key Takeaways:\n- **Human Physiology** involves complex systems (Digestive, Circulatory, Nervous) working together to maintain homeostasis.\n- **Plant Physiology** focuses on making food (Photosynthesis) and moving water (Xylem/Transpiration).\n- **Reproduction** ensures species survival, with sexual reproduction providing vital genetic variation.\n- **Genetics and Evolution** explain how DNA passes instructions to offspring, and how Natural Selection acts on random mutations to drive the evolution of life."
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "id": "interactions",
+    "topicId": "interactions",
+    "topicTitle": "Protein Interactions",
+    "description": "Examine Yeast two-hybrid, Co-immunoprecipitation, Surface plasmon resonance, and interactome mapping.",
+    "baseKP": 75,
+    "slides": [
+        {
+            "id": "int_1",
+            "type": "content",
+            "title": "Welcome to Protein Interactions",
+            "content": "# Protein Interactions\n\nWelcome to the study of **Protein-Protein Interactions (PPIs)**!\n\n## What You Will Learn:\n- **Yeast two-hybrid** - The genetic bait and prey\n- **Co-immunoprecipitation** - Pulling proteins from the crowd\n- **Surface plasmon resonance** - Watching them bind in real time\n- **Interactome mapping** - The social network of the cell\n\nProteins rarely work alone; they form massive, dynamic complexes to keep you alive."
+        },
+        {
+            "id": "int_2",
+            "type": "content",
+            "title": "The Social Network",
+            "content": "# The Cellular Social Network\n\nIf the genome is the dictionary of the cell, the **Interactome** is the conversation.\n\nTo understand a disease, you must understand which proteins are \"talking\" to each other. For example, if Protein A normally binds to Protein B to stop a tumor from growing, a mutation that breaks their interaction can cause cancer.\n\nWe need tools to detect these microscopic handshakes."
+        },
+        {
+            "id": "int_3",
+            "type": "content",
+            "title": "The Yeast Two-Hybrid System",
+            "content": "# The Yeast Two-Hybrid (Y2H) System\n\nInvented in 1989, Y2H is a brilliant genetic trick used to discover if two proteins bind together *inside* a living cell.\n\n## The Transcription Factor:\nIt relies on a special protein (a transcription factor) that turns on a reporter gene. This factor has two parts: a DNA-Binding Domain (DBD) and an Activation Domain (AD).\n\nIf you physically separate the DBD and the AD, the gene stays OFF. They must be physically close to work."
+        },
+        {
+            "id": "int_4",
+            "type": "content",
+            "title": "Bait and Prey",
+            "content": "# The Bait and Prey\n\n## The Setup:\n1. You fuse your Protein of Interest to the DBD. This is the **Bait**.\n2. You fuse a mystery protein to the AD. This is the **Prey**.\n\n## The Result:\nIf the Bait protein and the Prey protein naturally bind to each other, they drag the DBD and the AD together! The transcription factor is reassembled, the reporter gene turns ON (usually making the yeast turn blue or survive on toxic media), proving the proteins interacted!"
+        },
+        {
+            "id": "int_5",
+            "type": "content",
+            "title": "Pros and Cons of Y2H",
+            "content": "# Analyzing Y2H\n\n## The Advantages:\n- It happens inside a living cell (in vivo), which is more natural than a test tube.\n- You can screen millions of \"Prey\" proteins simultaneously against one \"Bait\" to discover entirely unknown interactions.\n\n## The Disadvantages:\n- Yeast cells are not human cells. Human proteins might not fold correctly in yeast.\n- It forces the interaction to happen in the nucleus (where the DNA is), which is bad if your proteins normally only interact at the cell membrane."
+        },
+        {
+            "id": "int_6",
+            "type": "quiz",
+            "title": "Yeast Two-Hybrid Quiz",
+            "content": "Test your knowledge of the bait and prey system.",
+            "quizQuestion": "In a Yeast Two-Hybrid assay, what specifically causes the reporter gene to turn ON?",
+            "quizOptions": [
+                "The yeast cell is exposed to UV light",
+                "The Bait protein and Prey protein physically bind to each other, bringing the two halves of the transcription factor together",
+                "A virus infects the yeast",
+                "The proteins fail to interact, leaving the DNA exposed"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "int_7",
+            "type": "content",
+            "title": "Co-Immunoprecipitation",
+            "content": "# Co-Immunoprecipitation (Co-IP)\n\nWhat if you want to find interactions happening natively inside human cells?\n\n## The Concept:\n**Immunoprecipitation (IP)** uses a highly specific antibody to grab a single target protein out of a soup of millions of crushed-up cell proteins.\n\n**Co-Immunoprecipitation** is when the antibody grabs the target protein, and *accidentally* drags along any other proteins that were physically bound to the target!"
+        },
+        {
+            "id": "int_8",
+            "type": "content",
+            "title": "The Co-IP Process",
+            "content": "# How to do a Co-IP\n\n1. **Lysis:** Gently burst open the human cells, keeping protein complexes intact.\n2. **The Hook:** Add an antibody designed to bind only to Protein A. The antibody is attached to a heavy, magnetic microscopic bead.\n3. **Pull Down:** Use a magnet to pull the beads to the bottom of the tube. Wash away the millions of unbound junk proteins.\n4. **Analysis:** If Protein B is found stuck to the beads alongside Protein A, they must interact!"
+        },
+        {
+            "id": "int_9",
+            "type": "content",
+            "title": "Surface Plasmon Resonance",
+            "content": "# Surface Plasmon Resonance (SPR)\n\nY2H and Co-IP only tell you \"Yes\" or \"No.\" What if you want to know exactly how *fast* they bind, and how *tightly* they hold on?\n\n## The Real-Time Tracker:\n**SPR** (often sold under the brand name Biacore) measures protein binding kinetics in real-time, without using any chemical labels or dyes."
+        },
+        {
+            "id": "int_10",
+            "type": "content",
+            "title": "How SPR Works",
+            "content": "# The Physics of SPR\n\n1. **The Chip:** Protein A is permanently glued to an ultra-thin film of gold.\n2. **The Laser:** A laser is bounced off the back of the gold film. The angle of the reflected light is incredibly sensitive to the mass on the front of the gold.\n3. **The Flow:** Liquid containing Protein B is flowed over the gold.\n4. **The Signal:** As Protein B binds to Protein A, the mass on the gold increases, slightly shifting the angle of the reflected laser. The machine records this shift in real-time!"
+        },
+        {
+            "id": "int_11",
+            "type": "content",
+            "title": "Kinetics and Affinity",
+            "content": "# What SPR Tells Us\n\nBy watching the laser shift curve, you learn three critical things:\n\n1. **Association Rate (on-rate):** How fast does Protein B latch onto Protein A?\n2. **Dissociation Rate (off-rate):** When you wash the chip with clean water, how fast does Protein B fall off?\n3. **Affinity (Kd):** Calculated from the on/off rates, this tells you the overall strength of the interaction. Crucial for designing drugs that must bind tightly!"
+        },
+        {
+            "id": "int_12",
+            "type": "quiz",
+            "title": "SPR Quiz",
+            "content": "Verify your understanding of binding kinetics.",
+            "quizQuestion": "What is the primary advantage of Surface Plasmon Resonance (SPR) over Co-IP?",
+            "quizOptions": [
+                "SPR is much cheaper",
+                "SPR occurs inside a living yeast cell",
+                "SPR provides real-time data on exactly how fast and how tightly the proteins bind",
+                "SPR uses magnetic beads to pull proteins out of a solution"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "int_13",
+            "type": "content",
+            "title": "Interactome Mapping",
+            "content": "# Mapping the Interactome\n\nUsing high-throughput Y2H and massive Mass Spectrometry pipelines, scientists are trying to map every single protein interaction in the human body.\n\n## The Network:\nThis creates a map that looks like a tangled hairball or a massive airline route map. \n\nEach protein is a \"node,\" and each interaction is an \"edge.\""
+        },
+        {
+            "id": "int_14",
+            "type": "content",
+            "title": "Hubs and Bottlenecks",
+            "content": "# Network Biology\n\nWhen we analyze the interactome, we find it is not random. It is a \"scale-free\" network (just like the Internet or the human social network).\n\n## Hub Proteins:\nMost proteins only have 1 or 2 connections. But a few rare proteins (like p53) have hundreds of connections. These are \"Hubs.\"\n\nIf a virus or a mutation destroys a node with 1 connection, the cell is fine. If a mutation destroys a Hub, the entire cellular network crashes, usually leading to disease or death."
+        },
+        {
+            "id": "int_15",
+            "type": "content",
+            "title": "Disease Modules",
+            "content": "# Disease Modules\n\nProteins that are involved in the same disease tend to physically interact with each other, forming local neighborhoods or \"Disease Modules\" in the network.\n\n## The Predictive Power:\nIf we map the interactome, and we find a brand new, unknown protein that physically interacts with 10 proteins known to cause Alzheimer's disease... there is a very high probability that the new protein is also involved in Alzheimer's! This speeds up drug discovery."
+        },
+        {
+            "id": "int_16",
+            "type": "content",
+            "title": "Summary of Protein Interactions",
+            "content": "# Interactions Summary\n\n## Key Takeaways:\n- **Yeast Two-Hybrid (Y2H)** uses a split transcription factor to test if \"Bait\" and \"Prey\" proteins bind inside a living cell.\n- **Co-Immunoprecipitation (Co-IP)** uses antibodies and magnets to pull native protein complexes out of human cells.\n- **Surface Plasmon Resonance (SPR)** bounces lasers off gold chips to measure the exact speed and strength (kinetics) of binding in real-time.\n- **Interactome Mapping** reveals the social network of the cell, highlighting critical \"Hub\" proteins that are essential for life."
+        },
+        {
+            "id": "int_17",
+            "type": "content",
+            "title": "Module Complete",
+            "content": "# Congratulations!\n\nYou have completed the Protein Interactions module.\n\nYou now know how to decipher the complex communication networks inside every cell."
+        }
+    ]
+}
