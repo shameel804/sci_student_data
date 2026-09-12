@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Cell Cycle Regulation by Cyclins ⏳",
+    "ques": "Explain the core mechanism of **cell cycle regulation** involving cyclins and Cyclin-Dependent Kinases (CDKs).",
+    "answer": {
+      "type": "text",
+      "content": "* **The Partnership:** The cell cycle is driven by two key proteins: CDKs (which are enzymes that phosphorylate other proteins) and cyclins (which activate the CDKs).\n* **The Mechanism:** The concentration of CDKs remains constant throughout the cycle, but they are inactive. The concentration of cyclins fluctuates (cycles) during different phases. When a specific cyclin reaches a high enough concentration, it binds to its CDK partner. This active Cyclin-CDK complex then phosphorylates target proteins, driving the cell into the next phase of the cycle."
+    },
+    "explanation": "The cyclin-CDK system represents the molecular clock of the cell, ensuring events happen in the correct order and only when the cell is ready."
+  },
+  {
+    "title": "The Importance of Checkpoint Controls 🛑",
+    "ques": "Describe the function of the G1/S checkpoint in the cell cycle. What is the cell 'checking' for?",
+    "answer": {
+      "type": "text",
+      "content": "* **Function:** The G1/S checkpoint (often called the restriction point) is the crucial decision point where the cell commits to dividing.\n* **What it checks:** Before passing this point, the cell assesses its environment. It checks if it has grown large enough, if there are sufficient nutrients, if external growth factors are present, and most importantly, if its DNA is undamaged. If conditions are unfavorable or DNA is mutated, the cell halts the cycle to attempt repairs or enters a resting state (G0)."
+    },
+    "explanation": "Checkpoints are the quality control inspectors of biology, preventing the replication of damaged DNA which could lead to cancer."
+  },
+  {
+    "title": "Cancer Cell Biology: Bypassing the Rules 🦠",
+    "ques": "How does **cancer cell biology** differ from normal cell biology in terms of contact inhibition and anchorage dependence?",
+    "answer": {
+      "type": "text",
+      "content": "* **Normal Cells:** They exhibit **contact inhibition** (they stop dividing when they touch other cells, forming a single layer) and **anchorage dependence** (they must be attached to a solid surface like the extracellular matrix to divide).\n* **Cancer Cells:** They lose these regulatory mechanisms. They continue to divide even when crowded, piling up to form tumors (loss of contact inhibition), and they can survive and divide while floating freely, allowing them to metastasize and spread through the bloodstream (loss of anchorage dependence)."
+    },
+    "explanation": "Cancer is fundamentally a disease of broken cellular regulation; understanding these lost rules explains how tumors grow and spread."
+  },
+  {
+    "title": "Apoptosis: Programmed Cell Death 🍂",
+    "ques": "Define apoptosis (programmed **cell death**) and explain why it is a necessary, healthy process in a multicellular organism.",
+    "answer": {
+      "type": "text",
+      "content": "* **Definition:** Apoptosis is a highly controlled, orderly sequence of events where a cell intentionally dismantles itself from the inside out, safely packaging its remains to be consumed by immune cells without causing inflammation.\n* **Necessity:** \n    1. **Development:** It shapes organs (e.g., removing the webbing between human fingers during embryonic development).\n    2. **Protection:** It eliminates cells that are damaged beyond repair, infected by viruses, or possess severe DNA mutations, preventing them from becoming cancerous."
+    },
+    "explanation": "Death is just as important as division in cell biology; apoptosis is the mechanism for removing the obsolete or the dangerous."
+  }
+]

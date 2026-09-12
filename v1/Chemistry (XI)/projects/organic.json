@@ -1,0 +1,38 @@
+[
+  {
+    "title": "IUPAC nomenclature",
+    "ques": "Write the IUPAC name for the following compound: **CH3-CH(CH3)-CH2-CH3**.",
+    "answer": {
+      "type": "text",
+      "content": "1.  Find the longest carbon chain: The longest continuous chain has 4 carbons (Butane).\n2.  Identify substituents: There is a methyl group (-CH3).\n3.  Number the chain to give the substituent the lowest number: Numbering from left to right puts the methyl group on carbon 2.\n* **IUPAC Name:** **2-Methylbutane**"
+    },
+    "explanation": "This tests the basic rules of systematic organic nomenclature (longest chain, lowest numbering)."
+  },
+  {
+    "title": "Isomerism concepts",
+    "ques": "Define **Structural Isomerism** and give an example.",
+    "answer": {
+      "type": "text",
+      "content": "**Structural Isomerism** occurs when compounds have the same molecular formula but different arrangements of atoms (different structural formulas).\n\n* **Example:** C4H10 can exist as two structural isomers:\n  1. **n-butane** (a straight chain: CH3-CH2-CH2-CH3)\n  2. **isobutane** (a branched chain: CH3-CH(CH3)-CH3)"
+    },
+    "explanation": "This introduces the concept that formula does not uniquely determine structure in organic chemistry."
+  },
+  {
+    "title": "Reaction mechanisms",
+    "ques": "What is the difference between a **Nucleophile** and an **Electrophile**?",
+    "answer": {
+      "type": "text",
+      "content": "* **Nucleophile ('nucleus loving'):** A chemical species that is electron-rich (has a lone pair or negative charge) and attacks electron-deficient centers in a reaction. (Example: OH-, Cl-, NH3).\n* **Electrophile ('electron loving'):** A chemical species that is electron-deficient (has a positive charge or empty orbital) and attacks electron-rich centers. (Example: H+, NO2+)."
+    },
+    "explanation": "This defines the two primary 'actors' in organic reaction mechanisms."
+  },
+  {
+    "title": "Functional group chemistry",
+    "ques": "What happens during a **homolytic cleavage** of a covalent bond, and what reactive species is formed?",
+    "answer": {
+      "type": "text",
+      "content": "In **homolytic cleavage**, the shared pair of electrons in a covalent bond is split equally, with one electron going to each atom.\n\nThis symmetrical breaking results in the formation of **free radicals** (highly reactive species with a single, unpaired electron)."
+    },
+    "explanation": "This covers the fundamental ways bonds break to initiate chemical reactions."
+  }
+]

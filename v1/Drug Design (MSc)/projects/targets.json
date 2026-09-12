@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Receptor Biology Fundamentals",
+    "ques": "What is the primary function of a receptor in **Receptor biology**, and how does an agonist differ from an antagonist?",
+    "answer": {
+      "type": "text",
+      "content": "A receptor's primary function is to receive chemical signals from outside the cell and transmit them inward to initiate a cellular response. An agonist is a drug that binds to the receptor and activates it, mimicking the natural signal. An antagonist binds to the receptor but does not activate it; instead, it blocks the natural signal from binding."
+    },
+    "explanation": "Receptors are the primary targets for the majority of therapeutic drugs currently on the market."
+  },
+  {
+    "title": "Designing Enzyme Inhibitors",
+    "ques": "Explain the difference between competitive and non-competitive **Enzyme inhibitors** in terms of where they bind.",
+    "answer": {
+      "type": "text",
+      "content": "* **Competitive inhibitors:** Bind directly to the active site of the enzyme, physically blocking the natural substrate from entering.\n* **Non-competitive inhibitors:** Bind to a different, allosteric site on the enzyme. This binding causes a conformational change in the enzyme that alters the active site, making it unable to process the substrate, even though the active site was not directly blocked."
+    },
+    "explanation": "Understanding the mode of inhibition is critical for dosing, as competitive inhibition can be overcome by high substrate concentrations, while non-competitive cannot."
+  },
+  {
+    "title": "Ion Channel Modulators",
+    "ques": "Why are **Ion channel modulators** particularly important in treating neurological and cardiovascular diseases?",
+    "answer": {
+      "type": "text",
+      "content": "Ion channels control the flow of charged ions (like sodium, potassium, and calcium) across cell membranes. This rapid flow of charge is what generates action potentials (electrical signals) in neurons and coordinates the rhythmic contraction of heart muscle cells. Modulating these channels directly controls the electrical excitability of the brain and heart."
+    },
+    "explanation": "Many anti-epileptic drugs and anti-arrhythmic medications work specifically by targeting these specialized pore proteins."
+  },
+  {
+    "title": "GPCR Targeting Strategies",
+    "ques": "G-protein-coupled receptors (GPCRs) are the largest class of drug targets. Briefly describe the unique signaling mechanism involved in **GPCR targeting** once a drug binds.",
+    "answer": {
+      "type": "text",
+      "content": "When a drug binds to the exterior of a GPCR, it causes a conformational change that activates a G-protein attached to the interior of the receptor inside the cell. The G-protein then detaches and moves along the inner membrane to activate other enzymes or ion channels, triggering a cascade of secondary messengers (like cAMP) that amplify the signal throughout the cell."
+    },
+    "explanation": "GPCRs act as molecular switches that translate a single extracellular binding event into a massive intracellular response."
+  }
+]

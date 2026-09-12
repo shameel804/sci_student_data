@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Reaction rate determination",
+    "ques": "Define the **rate of a chemical reaction**. What are its units?",
+    "answer": {
+      "type": "text",
+      "content": "The **rate of a reaction** is the change in the concentration of any one of the reactants or products per unit of time.\n\n* **Units:** Usually expressed in **mol/(L*s)** (moles per liter per second) or M/s."
+    },
+    "explanation": "This establishes the fundamental metric for how fast a chemical process occurs."
+  },
+  {
+    "title": "Rate law expressions",
+    "ques": "What is the difference between the **order** of a reaction and its **molecularity**?",
+    "answer": {
+      "type": "text",
+      "content": "* **Order:** The sum of the powers of the concentration terms in the experimentally determined rate law expression. It can be a fraction or zero. It is an **experimental** concept.\n* **Molecularity:** The number of reacting species (atoms, ions, or molecules) that must collide simultaneously in an elementary step to bring about the reaction. It must be a whole number (1, 2, or 3). It is a **theoretical** concept."
+    },
+    "explanation": "This distinguishes between an empirical observation and a theoretical mechanism."
+  },
+  {
+    "title": "Reaction mechanisms",
+    "ques": "What is an **elementary reaction** versus a **complex reaction**?",
+    "answer": {
+      "type": "text",
+      "content": "* **Elementary Reaction:** A reaction that completes in a **single step**. The molecularity equals the order.\n* **Complex Reaction:** A reaction that occurs in a **sequence of multiple elementary steps**. The overall rate is determined by the slowest step (the rate-determining step)."
+    },
+    "explanation": "This covers how reactions actually proceed on a molecular level, step-by-step."
+  },
+  {
+    "title": "Catalysis effects",
+    "ques": "How does a positive **catalyst** increase the rate of a chemical reaction according to collision theory?",
+    "answer": {
+      "type": "text",
+      "content": "A positive catalyst increases the reaction rate by providing an **alternative reaction pathway** that has a **lower activation energy**.\n\nBecause the activation energy barrier is lower, a much larger fraction of the reactant molecules will have enough kinetic energy to successfully collide and react at any given temperature."
+    },
+    "explanation": "This explains the mechanism of catalysis in terms of energy barriers."
+  }
+]

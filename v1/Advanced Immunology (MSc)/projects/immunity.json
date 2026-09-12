@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Immune Cell Development",
+    "ques": "Where in the body do T cells and B cells undergo their primary **Immune cell development** and maturation?",
+    "answer": {
+      "type": "text",
+      "content": "Both T cells and B cells originate from hematopoietic stem cells in the bone marrow. B cells remain and mature entirely within the Bone marrow. T cells, however, migrate to and mature in the Thymus."
+    },
+    "explanation": "Understanding the primary lymphoid organs is fundamental to immunology."
+  },
+  {
+    "title": "Central Tolerance Mechanisms",
+    "ques": "Describe the process of negative selection as a crucial **Tolerance mechanism** to prevent autoimmunity.",
+    "answer": {
+      "type": "text",
+      "content": "Negative selection occurs during lymphocyte maturation. Developing T cells or B cells are exposed to self-antigens (proteins native to the body). If a cell's receptor binds too strongly to these self-antigens, the cell is triggered to undergo apoptosis (programmed cell death). This ensures that immune cells capable of attacking the body's own tissues are eliminated before they enter circulation."
+    },
+    "explanation": "Central tolerance is the immune system's primary quality control check to distinguish self from non-self."
+  },
+  {
+    "title": "Immunological Memory Responses",
+    "ques": "Why is the secondary immune response to a pathogen much faster and stronger than the primary response, reflecting effective **Memory responses**?",
+    "answer": {
+      "type": "text",
+      "content": "During a primary response, it takes time for naive B and T cells to recognize the antigen, activate, and multiply. However, a fraction of these activated cells become long-lived 'memory cells'. Upon a second exposure to the same pathogen, these memory cells are already present in large numbers, possess high-affinity receptors, and can activate almost immediately to produce a massive wave of antibodies and effector cells."
+    },
+    "explanation": "Memory is the defining feature of the adaptive immune system and the basis for all vaccination."
+  },
+  {
+    "title": "Principles of Vaccine Immunology",
+    "ques": "In **Vaccine immunology**, what is an adjuvant and why is it often necessary in modern subunit or recombinant vaccines?",
+    "answer": {
+      "type": "text",
+      "content": "An adjuvant is a substance added to a vaccine to enhance the body's immune response to the antigen. Modern subunit vaccines use highly purified proteins which are very safe but poorly immunogenic on their own. Adjuvants act by mimicking 'danger signals' (like bacterial components) to strongly activate the innate immune system (e.g., dendritic cells), which is required to subsequently trigger a robust and long-lasting adaptive T and B cell response."
+    },
+    "explanation": "Without innate activation, the adaptive immune system may ignore the pure antigen, resulting in a failed vaccine."
+  }
+]

@@ -1,0 +1,131 @@
+{
+    "id": "learn_scaleup",
+    "topicId": "scaleup",
+    "topicTitle": "Process Scale-up",
+    "description": "Learn the engineering principles of taking a biological process from the lab bench to industrial manufacturing.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "scaleup_1",
+            "type": "content",
+            "title": "Welcome to Process Scale-up",
+            "content": "# Process Scale-up\n\nWelcome to Bioprocess Engineering!\n\nMaking 1 milligram of a drug in a lab flask is science. Making 100 kilograms of it safely and profitably in a factory is **Bioprocess Engineering**.\n\n## What You Will Learn:\n- **Scale-up Criteria**: The physics of making things bigger.\n- **Process Economics**: The cost of manufacturing.\n- **Regulatory Compliance**: Following the rules (cGMP).\n- **Technology Transfer**: Moving from R&D to the factory."
+        },
+        {
+            "id": "scaleup_2",
+            "type": "content",
+            "title": "The Scale-up Challenge",
+            "content": "# The Scale-up Challenge\n\nYou cannot just build a bigger tank and expect the same results.\n\n## Why Scale-up is Hard:\nAs a bioreactor gets larger, the **Volume** increases much faster than the **Surface Area**.\n- A 1L flask has a high surface-to-volume ratio, making oxygen transfer and cooling easy.\n- A 10,000L tank has a low surface-to-volume ratio. Getting enough oxygen to the cells in the middle, and removing the heat they generate, becomes a massive engineering challenge."
+        },
+        {
+            "id": "scaleup_3",
+            "type": "content",
+            "title": "Scale-up Criteria",
+            "content": "# Scale-up Criteria\n\nEngineers use specific criteria to ensure the environment inside a large tank feels the same to the cells as the small flask did.\n\n## Common Criteria:\n1. **Constant Power Input per Volume (P/V)**: Ensures the mixing intensity (shear stress) is similar.\n2. **Constant Impeller Tip Speed**: Prevents the stirring blades from spinning so fast that they shred the delicate mammalian cells.\n3. **Constant Oxygen Transfer Rate (kLa)**: Ensures cells don't suffocate in the large tank.\n\n> **The Trade-off**: You can almost never keep all criteria constant simultaneously. If you keep P/V constant, tip speed usually increases. Engineers must choose which parameter is most critical for their specific cells."
+        },
+        {
+            "id": "scaleup_4",
+            "type": "content",
+            "title": "Mixing and Aeration",
+            "content": "# Mixing and Aeration\n\nBioreactors rely on spargers (to introduce bubbles) and impellers (to mix).\n\n## The Problem of Heterogeneity:\nIn a 10,000L tank, mixing is not instantaneous.\n- If you add a concentrated base to adjust pH at the top of the tank, it might take 60 seconds to mix thoroughly.\n- Cells near the top experience a highly alkaline \"zone of death\" for a minute, while cells at the bottom are in an acidic environment.\n\n> **Solution**: Scale-down models (using small tanks programmed to mimic the poor mixing of large tanks) are used in R&D to see if the cells can survive these fluctuating zones."
+        },
+        {
+            "id": "scaleup_quiz_1",
+            "type": "quiz",
+            "title": "Scale-up Quiz",
+            "content": "Test your scale-up knowledge.",
+            "quizQuestion": "Why is it difficult to maintain adequate cooling and aeration as a bioreactor scales up from 1L to 10,000L?",
+            "quizOptions": [
+                "Because the cells mutate at larger volumes",
+                "Because the volume increases much faster than the surface area",
+                "Because large tanks cannot hold pressure",
+                "Because gravity acts differently on large tanks"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "scaleup_5",
+            "type": "content",
+            "title": "Process Economics",
+            "content": "# Process Economics\n\nA bioprocess must be profitable. Engineers analyze the **Cost of Goods Sold (COGS)**.\n\n## Components of COGS:\n1. **Materials**: Media, feed, purification resins (Protein A resin is notoriously expensive!).\n2. **Labor**: Operators, QA/QC staff.\n3. **Overhead**: Facility maintenance, utilities (water, steam, electricity).\n4. **Depreciation**: The cost of the expensive stainless-steel tanks over time.\n\n## Titer vs Yield:\n- **Titer**: Grams of product per Liter of bioreactor volume (e.g., 5 g/L). Higher titer = lower upstream cost.\n- **Yield**: The percentage of product recovered after purification. Higher yield = lower downstream cost."
+        },
+        {
+            "id": "scaleup_6",
+            "type": "content",
+            "title": "Single-Use Technologies",
+            "content": "# Single-Use Technologies (SUT)\n\nA major trend in modern biomanufacturing is moving away from stainless steel to disposable plastic.\n\n## Stainless Steel vs Single-Use:\n- **Stainless Steel**: Requires massive upfront capital. Requires extensive cleaning (CIP) and steaming (SIP) between batches, which consumes huge amounts of water, energy, and time.\n- **Single-Use**: Giant plastic bags inside a support shell. Used once and thrown away.\n\n## Benefits of SUT:\n- Faster facility turnaround time.\n- Zero cross-contamination risk between batches.\n- Lower upfront facility cost.\n- *Drawback*: Higher ongoing consumable costs and plastic waste."
+        },
+        {
+            "id": "scaleup_quiz_2",
+            "type": "quiz",
+            "title": "Economics Quiz",
+            "content": "Check your economics understanding.",
+            "quizQuestion": "Which of the following is a primary advantage of Single-Use Technologies (SUT) over traditional stainless-steel bioreactors?",
+            "quizOptions": [
+                "They are immune to changes in temperature",
+                "They eliminate the need for costly and time-consuming cleaning and sterilization (CIP/SIP) between batches",
+                "They have a lower ongoing consumable cost",
+                "They can handle much higher pressures"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "scaleup_7",
+            "type": "content",
+            "title": "Regulatory Compliance",
+            "content": "# Regulatory Compliance (cGMP)\n\nBiopharmaceuticals are highly regulated by agencies like the FDA (USA) or EMA (Europe).\n\n## cGMP (Current Good Manufacturing Practice):\n\"Quality cannot be tested into a product; it must be built into it.\"\n\n- **Traceability**: Every raw material must be tracked.\n- **Standard Operating Procedures (SOPs)**: Every action must follow a written, approved instruction.\n- **Documentation**: \"If it isn't documented, it didn't happen.\"\n- **Validation**: Proving mathematically that your equipment and processes consistently do what they are supposed to do."
+        },
+        {
+            "id": "scaleup_8",
+            "type": "content",
+            "title": "Cleanrooms",
+            "content": "# Cleanrooms\n\nBiomanufacturing happens inside highly controlled environments.\n\n## Cleanroom Grades (ISO / EU):\n- Rooms are classified by the number of particles allowed per cubic meter of air.\n- **HEPA Filters**: High-Efficiency Particulate Air filters constantly scrub the air.\n- **Positive Pressure**: Cleanest rooms have the highest air pressure, so if a door opens, air blows OUT (preventing dirty air from coming IN).\n- **Gowning**: Operators are the dirtiest things in a cleanroom. They must wear sterile suits (\"bunny suits\") covering all skin and hair."
+        },
+        {
+            "id": "scaleup_quiz_3",
+            "type": "quiz",
+            "title": "Regulations Quiz",
+            "content": "Let's review regulatory environments.",
+            "quizQuestion": "Why are the cleanest rooms in a biomanufacturing facility kept under positive air pressure?",
+            "quizOptions": [
+                "To compress the gases in the bioreactors",
+                "To ensure that when a door opens, clean air flows outward, preventing contaminated air from entering",
+                "To help the operators breathe easier in their suits",
+                "To speed up the drying of equipment"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "scaleup_9",
+            "type": "content",
+            "title": "Technology Transfer",
+            "content": "# Technology Transfer (Tech Transfer)\n\n**Tech Transfer** is the formal process of moving a developed bioprocess from the R&D lab to the manufacturing facility.\n\n## The TT Process:\n1. **Process Description**: R&D writes a detailed document of the exact process.\n2. **Gap Analysis**: Manufacturing compares the R&D process to their own equipment. (e.g., R&D used a centrifuge, but the factory only has depth filters).\n3. **Engineering Runs**: Practice runs at scale using water or buffer to ensure equipment works.\n4. **Validation Runs**: Usually 3 consecutive successful runs at full scale to prove to the FDA that the factory can consistently make the drug."
+        },
+        {
+            "id": "scaleup_10",
+            "type": "content",
+            "title": "Comparability",
+            "content": "# Comparability Studies\n\nWhen you move a process to a new factory, or scale it up from 2,000L to 10,000L, you must prove to regulators that the drug is exactly the same.\n\n## The \"Process is the Product\":\nIn biologics, a slight change in stirring speed could change the glycosylation pattern (PTM) on an antibody, completely altering its safety profile.\n\n## Comparability:\nExtensive analytical testing (Mass Spec, HPLC, Bioassays) is performed to prove that the drug made in Factory A is biochemically and functionally identical to the drug made in Factory B."
+        },
+        {
+            "id": "scaleup_quiz_4",
+            "type": "quiz",
+            "title": "Tech Transfer Quiz",
+            "content": "Check your understanding of tech transfer.",
+            "quizQuestion": "In biomanufacturing, what is the purpose of 'Validation Runs' during technology transfer?",
+            "quizOptions": [
+                "To train the sales team on the new product",
+                "To demonstrate that the process can consistently produce a product meeting predetermined quality specifications at commercial scale",
+                "To discover the biological mechanism of the drug",
+                "To test the drug on animal models"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "scaleup_11",
+            "type": "content",
+            "title": "Module Summary",
+            "content": "# Process Scale-up Summary\n\n## Key Takeaways:\n- **Scale-up**: Requires maintaining constant engineering parameters (P/V, tip speed) as volume outpaces surface area.\n- **Economics**: Evaluates COGS, Titer, and Yield. Single-use technologies offer flexibility over stainless steel.\n- **cGMP**: Strict regulations demanding documentation, validation, and cleanroom environments.\n- **Tech Transfer**: The rigorous process of moving a drug from the lab to commercial manufacturing, requiring comparability studies.\n\n> **Congratulations!** You have completed the Process Scale-up module."
+        }
+    ]
+}

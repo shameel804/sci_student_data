@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The Purpose of Molecular Simulations 💻",
+    "ques": "Explain the fundamental goal of performing **molecular simulations** (like Molecular Dynamics) on a protein.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Goal:** A static 3D structure (like from X-ray crystallography) is just a snapshot. Molecular simulations aim to bring that snapshot to life. By applying the laws of classical physics (Newton's equations of motion) to every single atom in the protein and surrounding water, computers calculate how the atoms push, pull, and vibrate against each other over time.\n* **The Result:** This generates a 'movie' of the protein moving, folding, or interacting with drugs, revealing dynamic behaviors that static images cannot show."
+    },
+    "explanation": "Biology is constantly in motion. Simulations allow researchers to observe the invisible, rapid jiggling of atoms that drives biological function."
+  },
+  {
+    "title": "The Process of Energy Minimization 📉",
+    "ques": "What is **energy minimization** in computational biophysics, and why must it be performed before running a full molecular dynamics simulation?",
+    "answer": {
+      "type": "text",
+      "content": "* **What it is:** A mathematical algorithm that slightly adjusts the positions of all atoms in a model to find the nearest local minimum on the potential energy surface—essentially letting the molecule relax into a comfortable state.\n* **Why it's necessary:** When building a model or adding water molecules around a protein, atoms might accidentally be placed too close together. These artificial 'clashes' create massive, unrealistic repulsive energies. If a simulation started immediately, these forces would blow the simulated protein apart. Minimization resolves these clashes first."
+    },
+    "explanation": "Minimization is the necessary 'cleanup' step, ensuring the starting point of a simulation obeys basic physical laws."
+  },
+  {
+    "title": "Techniques of Conformational Analysis 🤸",
+    "ques": "Describe the concept of a 'free energy landscape' used in **conformational analysis** of protein folding.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Concept:** Imagine a rugged, funnel-shaped terrain. The 'altitude' represents the free energy of the protein, and the horizontal coordinates represent all the different possible 3D shapes (conformations) the protein could take.\n* **The Process:** An unfolded protein starts at the high, wide rim of the funnel. As it folds, it 'rolls down' the landscape, seeking lower and lower energy states, guided by physical forces. The native, fully folded functional structure is usually the lowest point at the very bottom of the funnel."
+    },
+    "explanation": "The free energy landscape provides a powerful visual metaphor for the thermodynamics of how a chaotic, linear chain finds its highly specific functional shape."
+  },
+  {
+    "title": "Observing Dynamic Processes: Allostery ⚙️",
+    "ques": "Use the concept of allostery to explain why understanding **dynamic processes** is crucial for drug design.",
+    "answer": {
+      "type": "text",
+      "content": "* **Allostery:** This occurs when a molecule (like a drug) binds to a protein at a site completely separate from the active site, but that binding causes a ripple effect of movement through the protein, subtly changing the shape of the active site and turning the enzyme on or off.\n* **Crucial for Drugs:** You cannot see allostery in a static picture. You need dynamic simulations to trace the mechanical pathway of how binding at point A physically alters point B, allowing for the design of 'allosteric drugs' that are often safer and more specific than traditional active-site inhibitors."
+    },
+    "explanation": "Proteins are like mechanical engines; pushing a lever on one side can open a valve on the other. Dynamics reveals these hidden mechanical connections."
+  }
+]

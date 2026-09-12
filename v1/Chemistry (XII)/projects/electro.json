@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Electrochemical cells",
+    "ques": "Explain the difference between a **Galvanic (Voltaic) cell** and an **Electrolytic cell**.",
+    "answer": {
+      "type": "text",
+      "content": "* **Galvanic Cell:** Converts **chemical energy into electrical energy**. A spontaneous redox reaction generates an electric current (e.g., a standard battery).\n* **Electrolytic Cell:** Converts **electrical energy into chemical energy**. An external electric current is used to drive a non-spontaneous chemical reaction (e.g., electroplating or splitting water)."
+    },
+    "explanation": "This contrasts the two fundamental types of electrochemical devices based on energy flow."
+  },
+  {
+    "title": "Conductance measurements",
+    "ques": "What happens to the **molar conductivity** of a strong electrolyte upon dilution?",
+    "answer": {
+      "type": "text",
+      "content": "The molar conductivity of a strong electrolyte **increases slightly** upon dilution.\n\nBecause it is already completely dissociated into ions, dilution does not increase the number of ions. However, dilution increases the distance between the ions, reducing the inter-ionic attractive forces, which allows the ions to move faster and conduct electricity better."
+    },
+    "explanation": "This tests the nuanced understanding of how concentration affects electrical flow in solutions."
+  },
+  {
+    "title": "Battery technology",
+    "ques": "What is a **fuel cell**, and what is its primary advantage?",
+    "answer": {
+      "type": "text",
+      "content": "A **fuel cell** is a specialized Galvanic cell that continuously converts the chemical energy of a fuel (like hydrogen, methane, or methanol) directly into electrical energy, as long as the fuel and an oxidant are supplied.\n\n* **Advantage:** They are highly efficient and, in the case of hydrogen fuel cells, pollution-free (the only byproduct is pure water)."
+    },
+    "explanation": "This introduces modern, sustainable energy generation technologies."
+  },
+  {
+    "title": "Corrosion science",
+    "ques": "Corrosion is essentially an electrochemical phenomenon. In the rusting of iron, what acts as the **anode** and what acts as the **cathode**?",
+    "answer": {
+      "type": "text",
+      "content": "In the rusting of iron:\n* **Anode:** A particular spot on the iron object where oxidation occurs (Iron loses electrons to become Fe2+ ions).\n* **Cathode:** Another spot on the iron object where the electrons flow and reduce the dissolved oxygen in the presence of H+ ions (from moisture/carbonic acid) to form water."
+    },
+    "explanation": "This applies electrochemical theory to a widespread and costly real-world problem."
+  }
+]

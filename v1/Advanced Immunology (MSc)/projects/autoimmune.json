@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Autoimmune Pathogenesis",
+    "ques": "Define autoimmunity and give one example of a disease resulting from **Autoimmune pathogenesis**.",
+    "answer": {
+      "type": "text",
+      "content": "Autoimmunity occurs when the immune system fails to recognize self-tissues and mounts an immune response against the body's own healthy cells. An example is Type 1 Diabetes, where the immune system destroys insulin-producing beta cells in the pancreas, or Rheumatoid Arthritis, where it attacks the joints."
+    },
+    "explanation": "Autoimmunity represents a catastrophic failure of immunological tolerance mechanisms."
+  },
+  {
+    "title": "Primary vs. Secondary Immunodeficiency",
+    "ques": "Differentiate between a primary and a secondary **Immunodeficiency disease**.",
+    "answer": {
+      "type": "text",
+      "content": "* **Primary immunodeficiency:** Caused by genetic mutations inherited at birth that result in a missing or defective component of the immune system (e.g., SCID).\n* **Secondary immunodeficiency:** Acquired later in life due to external factors such as viral infections (e.g., HIV causing AIDS), malnutrition, or immunosuppressive medical treatments (like chemotherapy)."
+    },
+    "explanation": "Understanding the source of the deficiency dictates the potential treatment strategies."
+  },
+  {
+    "title": "Types of Hypersensitivity Reactions",
+    "ques": "Describe a Type I (immediate) **Hypersensitivity reaction** and identify the specific antibody class involved.",
+    "answer": {
+      "type": "text",
+      "content": "A Type I hypersensitivity reaction is an allergic response that occurs rapidly (within minutes) upon re-exposure to an allergen. It is mediated by **IgE** antibodies. The allergen binds to IgE already attached to mast cells, causing them to immediately degranulate and release histamine, leading to symptoms ranging from sneezing to life-threatening anaphylaxis."
+    },
+    "explanation": "Type I reactions are the classic 'allergies' that affect a significant portion of the population."
+  },
+  {
+    "title": "Challenges in Transplant Immunology",
+    "ques": "Explain the role of Major Histocompatibility Complex (MHC) molecules in **Transplant immunology** and graft rejection.",
+    "answer": {
+      "type": "text",
+      "content": "MHC molecules (called HLA in humans) are proteins on cell surfaces that display peptide fragments to T cells. They are highly polymorphic, meaning every individual has a nearly unique set. If an organ is transplanted from a donor to a recipient with different MHC molecules, the recipient's T cells immediately recognize the donor MHC as 'foreign' and mount a massive, targeted immune attack to destroy the transplanted tissue (graft rejection)."
+    },
+    "explanation": "MHC matching between donor and recipient is the most critical factor in ensuring long-term organ transplant survival."
+  }
+]

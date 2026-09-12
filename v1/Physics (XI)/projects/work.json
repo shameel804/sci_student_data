@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Work-energy theorem",
+    "ques": "State the **Work-Energy Theorem**.",
+    "answer": {
+      "type": "text",
+      "content": "The **Work-Energy Theorem** states that the net work done by all forces (both conservative and non-conservative) acting on a body is equal to the change in its kinetic energy.\n\n* **Formula:** Work_net = Final Kinetic Energy - Initial Kinetic Energy"
+    },
+    "explanation": "This is a fundamental theorem linking dynamics (forces) with energy."
+  },
+  {
+    "title": "Conservative forces",
+    "ques": "What defines a **conservative force**? Give one example.",
+    "answer": {
+      "type": "text",
+      "content": "A force is **conservative** if the work done by or against it in moving an object depends only on the initial and final positions, and is completely **independent of the path taken**.\n\nAlternatively, the total work done by a conservative force in a closed loop is zero.\n\n* **Example:** Gravitational force, electrostatic force."
+    },
+    "explanation": "This distinguishes between forces that conserve mechanical energy and those that dissipate it (like friction)."
+  },
+  {
+    "title": "Power and efficiency",
+    "ques": "How is the **efficiency** of a machine defined?",
+    "answer": {
+      "type": "text",
+      "content": "The **efficiency** of a machine is the ratio of the useful work output to the total work (or energy) input.\n\nIt is often expressed as a percentage: **Efficiency = (Useful Power Output / Total Power Input) * 100%**."
+    },
+    "explanation": "This connects theoretical physics to practical engineering performance."
+  },
+  {
+    "title": "Collision theory",
+    "ques": "What is the difference between an **elastic collision** and an **inelastic collision**?",
+    "answer": {
+      "type": "text",
+      "content": "* **Elastic Collision:** A collision in which both total momentum AND total kinetic energy are conserved. (e.g., collisions between ideal gas molecules).\n* **Inelastic Collision:** A collision in which total momentum is conserved, but total kinetic energy is NOT conserved (some energy is lost to heat, sound, or deformation). (e.g., two cars crashing)."
+    },
+    "explanation": "This categorizes interactions based on the conservation laws they obey."
+  }
+]

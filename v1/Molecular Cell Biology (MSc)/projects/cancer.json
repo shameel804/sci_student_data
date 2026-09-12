@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Proto-oncogenes vs. Oncogenes 🚗💨",
+    "ques": "Explain the difference between a proto-oncogene and an **oncogene** using the analogy of a car's accelerator pedal.",
+    "answer": {
+      "type": "text",
+      "content": "* **Proto-oncogene:** A normal, healthy gene that codes for proteins that stimulate normal cell growth and division. In the car analogy, this is a functioning accelerator pedal that you press when you need to go.\n* **Oncogene:** A mutated, hyperactive version of the proto-oncogene. It continuously stimulates cell division even when it shouldn't. In the analogy, the accelerator pedal is stuck to the floor, causing the car (the cell cycle) to race out of control."
+    },
+    "explanation": "Oncogenes represent a 'gain of function' mutation, actively driving the uncontrolled proliferation characteristic of cancer."
+  },
+  {
+    "title": "The Role of Tumor Suppressors 🛑",
+    "ques": "Describe the normal function of **tumor suppressor** genes (like p53). What happens when they are mutated?",
+    "answer": {
+      "type": "text",
+      "content": "* **Normal Function:** These genes code for proteins that inhibit cell division, repair damaged DNA, or trigger apoptosis if damage is too severe. They are the 'brakes' of the cell cycle.\n* **Mutation:** When tumor suppressor genes are mutated, they lose their function (a 'loss of function' mutation). The 'brakes' fail. If a cell sustains DNA damage, it won't pause to fix it or die; instead, it will continue to divide, passing the mutations to daughter cells and contributing to tumor development."
+    },
+    "explanation": "Cancer typically requires multiple hits: the accelerator must be stuck (oncogene) AND the brakes must fail (mutated tumor suppressor)."
+  },
+  {
+    "title": "Cancer Genetics: The Multi-Hit Hypothesis 🎯",
+    "ques": "Discuss the 'multi-hit hypothesis' in **cancer genetics**. Why does cancer risk generally increase with age?",
+    "answer": {
+      "type": "text",
+      "content": "* **The Hypothesis:** Cancer is rarely caused by a single mutation. It requires the accumulation of multiple genetic mutations (hits) in the same cell over time—activating oncogenes, disabling tumor suppressors, and bypassing cell death pathways.\n* **Age Correlation:** Because mutations occur randomly (due to environmental toxins, radiation, or natural replication errors), it takes decades to accumulate the 'perfect storm' of 5 to 7 specific mutations in one single cell lineage required to turn a healthy cell fully malignant."
+    },
+    "explanation": "Cancer is an evolutionary process on a microscopic scale, requiring time and repeated genetic 'hits' to overcome the body's defenses."
+  },
+  {
+    "title": "Targeted Therapeutic Approaches 💊",
+    "ques": "How do modern targeted **therapeutic approaches** (like Herceptin or Gleevec) differ from traditional chemotherapy?",
+    "answer": {
+      "type": "text",
+      "content": "* **Traditional Chemotherapy:** Acts like a sledgehammer, indiscriminately killing any rapidly dividing cell in the body, which causes severe side effects (hair loss, nausea) because it also hits healthy rapidly dividing cells (hair follicles, gut lining).\n* **Targeted Therapies:** Act like a sniper. They are specifically designed to attack the unique molecular flaws of the cancer cells. For example, they might block the specific hyperactive mutant receptor (the oncogene product) that is driving the tumor, largely sparing normal, healthy cells."
+    },
+    "explanation": "Understanding the specific molecular biology of a tumor allows for the design of precise, less toxic drugs tailored to the patient's exact cancer."
+  }
+]

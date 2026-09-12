@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Anatomy of Ribosome Structure 🏭",
+    "ques": "Describe the basic **ribosome structure**, specifically mentioning its two subunits and the functional sites (A, P, and E) involved in translation.",
+    "answer": {
+      "type": "text",
+      "content": "* **Subunits:** A ribosome consists of a large subunit and a small subunit, both made of ribosomal RNA (rRNA) and proteins. They clamp together around the mRNA.\n* **Functional Sites (Large Subunit):**\n    * **A site (Aminoacyl):** Holds the tRNA carrying the next amino acid to be added.\n    * **P site (Peptidyl):** Holds the tRNA carrying the growing polypeptide chain.\n    * **E site (Exit):** Where discharged, empty tRNAs leave the ribosome."
+    },
+    "explanation": "The ribosome is the massive molecular factory of the cell, and its specific docking sites coordinate the complex machinery of translation."
+  },
+  {
+    "title": "Deciphering the Genetic Code 📖",
+    "ques": "Explain what is meant by the terms 'codon' and 'anticodon' within the context of the **genetic code**, and why the code is described as 'degenerate'.",
+    "answer": {
+      "type": "text",
+      "content": "* **Codon:** A three-nucleotide sequence on the mRNA that specifies a particular amino acid.\n* **Anticodon:** A complementary three-nucleotide sequence on a transfer RNA (tRNA) molecule that recognizes and binds to a specific mRNA codon.\n* **Degeneracy:** The genetic code is 'degenerate' (or redundant) because multiple different codons can specify the exact same amino acid. For example, there are 64 possible codons but only 20 standard amino acids."
+    },
+    "explanation": "The genetic code is the universal dictionary of life. Understanding codons and anticodons explains how RNA sequence is translated into protein sequence."
+  },
+  {
+    "title": "The Steps of Protein Synthesis ⚙️",
+    "ques": "Briefly outline the three main phases of **protein synthesis** (translation): Initiation, Elongation, and Termination.",
+    "answer": {
+      "type": "text",
+      "content": "* **Initiation:** The small ribosomal subunit binds to the mRNA and an initiator tRNA carrying methionine binds to the start codon. The large subunit then joins to form the complete translation complex.\n* **Elongation:** tRNAs bring amino acids to the ribosome one by one. Peptide bonds form between the amino acids in the P and A sites, and the ribosome shifts down the mRNA by one codon.\n* **Termination:** When the ribosome reaches a stop codon, a release factor enters the A site instead of a tRNA, causing the release of the newly formed polypeptide chain and the disassembly of the ribosome."
+    },
+    "explanation": "Translation is a dynamic, multi-step process that sequentially links amino acids to build a functional protein based on the mRNA blueprint."
+  },
+  {
+    "title": "Post-Translational Modifications 🛠️",
+    "ques": "Provide two examples of **post-translational modifications** and explain why they are often necessary for a protein to become fully functional.",
+    "answer": {
+      "type": "text",
+      "content": "* **Examples:** \n    1. **Phosphorylation:** The addition of a phosphate group, often used as an 'on/off' switch for enzyme activity.\n    2. **Glycosylation:** The addition of sugar molecules, crucial for proteins that will be secreted or embedded in the cell membrane.\n* **Necessity:** A newly synthesized polypeptide is often just an inactive, linear chain. Post-translational modifications are required to ensure the protein folds into its correct 3D shape, is targeted to the correct cellular location, or is properly regulated."
+    },
+    "explanation": "Protein synthesis doesn't end at the ribosome. Chemical modifications after translation drastically expand the functional diversity of the proteome."
+  }
+]

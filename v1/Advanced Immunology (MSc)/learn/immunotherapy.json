@@ -1,0 +1,155 @@
+{
+    "id": "learn_immunotherapy",
+    "topicId": "immunotherapy",
+    "topicTitle": "Immunotherapy",
+    "description": "Explore how the immune system is harnessed to treat diseases, focusing on cancer immunology, checkpoint inhibitors, and CAR-T cell therapy.",
+    "baseKP": 90,
+    "slides": [
+        {
+            "id": "immuno_1",
+            "type": "content",
+            "title": "Welcome to Immunotherapy",
+            "content": "# Immunotherapy\n\nWelcome to the frontier of medicine!\n\n**Immunotherapy** is a type of treatment that uses the body's own immune system to fight diseases, particularly cancer. \n\n## What You Will Learn:\n- **Cancer Immunology**: How tumors interact with the immune system\n- **Immunotherapy Approaches**: Different strategies to boost immunity\n- **Checkpoint Inhibitors**: Unleashing the T cells\n- **CAR-T Cell Therapy**: Engineering super-cells\n\nLet's dive into the science of harnessing immunity!"
+        },
+        {
+            "id": "immuno_2",
+            "type": "content",
+            "title": "Cancer Immunology",
+            "content": "# Cancer Immunology\n\nThe immune system constantly patrols the body to find and destroy abnormal cells. This process is called **Immune Surveillance**.\n\n## The Three E's of Cancer Immunoediting:\n1. **Elimination**: The immune system successfully recognizes and destroys potential cancer cells.\n2. **Equilibrium**: The immune system controls tumor growth, but some tumor cells survive and remain dormant.\n3. **Escape**: Tumor cells acquire mutations that allow them to evade immune detection or suppress the immune response, leading to clinical cancer."
+        },
+        {
+            "id": "immuno_3",
+            "type": "content",
+            "title": "How Tumors Escape",
+            "content": "# Tumor Escape Mechanisms\n\nHow do tumors evade the immune system?\n\n## 1. Losing Antigens\nTumor cells may stop expressing the antigens that the immune system uses to recognize them.\n\n## 2. Losing MHC Class I\nTumor cells may downregulate MHC Class I molecules so that CD8+ T cells cannot recognize them. (Note: This makes them vulnerable to Natural Killer (NK) cells instead).\n\n## 3. Immunosuppression\nTumors secrete immunosuppressive cytokines (like TGF-beta) or recruit Regulatory T cells (Tregs) and Myeloid-Derived Suppressor Cells (MDSCs) into the tumor microenvironment (TME).\n\n## 4. Inhibitory Checkpoints\nTumors upregulate proteins (like PD-L1) that turn OFF T cells."
+        },
+        {
+            "id": "immuno_quiz_1",
+            "type": "quiz",
+            "title": "Immunoediting Quiz",
+            "content": "Check your understanding of tumor escape.",
+            "quizQuestion": "In which phase of cancer immunoediting does the tumor acquire mutations to evade immune detection?",
+            "quizOptions": [
+                "Elimination",
+                "Equilibrium",
+                "Escape",
+                "Eradication"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "immuno_4",
+            "type": "content",
+            "title": "Immunotherapy Approaches",
+            "content": "# Broad Approaches to Immunotherapy\n\nImmunotherapies can be classified into two main categories:\n\n## Active Immunotherapies:\nAim to stimulate the patient's own immune system to respond against the tumor.\n- Cancer Vaccines\n- Cytokine therapy (e.g., IL-2, Interferons)\n- Checkpoint Inhibitors\n\n## Passive Immunotherapies:\nProvide the patient with immune components created outside the body.\n- Monoclonal Antibodies (targeting tumor antigens directly)\n- Adoptive Cell Transfer (like CAR-T cells)"
+        },
+        {
+            "id": "immuno_5",
+            "type": "content",
+            "title": "Cytokine Therapy",
+            "content": "# Cytokine Therapy\n\n**Cytokines** are signaling proteins that modulate the immune system.\n\n## Historical Use:\n- **Interleukin-2 (IL-2)**: Promotes the proliferation of T cells. High-dose IL-2 was one of the first immunotherapies for melanoma and kidney cancer.\n- **Interferon-alpha (IFN-a)**: Enhances the activity of macrophages and NK cells.\n\n## The Problem:\nSystemic administration of cytokines is like turning on the immune system everywhere in the body, leading to severe toxicity (cytokine storm, capillary leak syndrome). Today, they are often used in combination with other therapies or targeted more locally."
+        },
+        {
+            "id": "immuno_6",
+            "type": "content",
+            "title": "Monoclonal Antibodies (mAbs)",
+            "content": "# Monoclonal Antibodies (mAbs)\n\nmAbs are lab-created molecules designed to serve as substitute antibodies.\n\n## Mechanisms of Action:\n1. **Direct Targeting**: Bind to a specific target on cancer cells and mark them for destruction by NK cells (ADCC) or macrophages (Phagocytosis). *Example: Trastuzumab for HER2+ breast cancer.*\n2. **Blocking Growth Signals**: Bind to growth factor receptors on tumors, blocking the signals that tell the cell to divide.\n3. **Drug Delivery**: Antibodies conjugated with a toxic drug or radioactive particle deliver the payload directly to the tumor cell (Antibody-Drug Conjugates)."
+        },
+        {
+            "id": "immuno_quiz_2",
+            "type": "quiz",
+            "title": "Therapy Types Quiz",
+            "content": "Let's review the types of immunotherapy.",
+            "quizQuestion": "Which of the following is considered an ACTIVE immunotherapy?",
+            "quizOptions": [
+                "Monoclonal Antibodies targeting HER2",
+                "Cancer Vaccines",
+                "Adoptive Cell Transfer (CAR-T)",
+                "Antibody-Drug Conjugates"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "immuno_7",
+            "type": "content",
+            "title": "Immune Checkpoints",
+            "content": "# Immune Checkpoints\n\n**Immune checkpoints** are normal regulatory pathways built into the immune system to maintain self-tolerance and prevent autoimmunity.\n\n## The Brakes on T Cells\nWhen T cells are activated, they eventually express checkpoint receptors that act as \"brakes\" to stop the immune response from causing too much collateral damage.\n\n## The Tumor's Trick\nTumors exploit these checkpoints. They express the ligands (the keys) that bind to the T cell checkpoint receptors (the locks), essentially forcing the T cells to turn OFF and ignore the tumor."
+        },
+        {
+            "id": "immuno_8",
+            "type": "content",
+            "title": "CTLA-4 Checkpoint",
+            "content": "# The CTLA-4 Checkpoint\n\n**CTLA-4** is an inhibitory receptor on T cells.\n\n## How it Works:\n- For a T cell to activate, it needs Signal 1 (MHC-peptide) and Signal 2 (CD28 on T cell binding to B7 on APC).\n- Once activated, the T cell expresses CTLA-4.\n- CTLA-4 binds to B7 with much higher affinity than CD28, stripping B7 away and sending an inhibitory signal to the T cell.\n\n## The Inhibitor:\nDrugs like **Ipilimumab** block CTLA-4. By blocking the brake, T cells remain activated and can attack the tumor. This primarily acts during the initial T cell activation phase in the lymph nodes."
+        },
+        {
+            "id": "immuno_9",
+            "type": "content",
+            "title": "PD-1/PD-L1 Checkpoint",
+            "content": "# The PD-1/PD-L1 Checkpoint\n\n**PD-1** (Programmed Death-1) is another checkpoint receptor found on exhausted T cells.\n\n## How it Works:\n- Normal tissues express **PD-L1** (the ligand) to tell T cells \"Don't attack me.\"\n- Tumors upregulate PD-L1 on their surface.\n- When a T cell enters the tumor and its PD-1 receptor binds to the tumor's PD-L1, the T cell is \"exhausted\" and deactivated.\n\n## The Inhibitor:\nDrugs like **Pembrolizumab** (anti-PD-1) or **Atezolizumab** (anti-PD-L1) block this interaction. This \"takes the foot off the brake\" specifically within the Tumor Microenvironment (TME), allowing the T cell to kill the cancer cell."
+        },
+        {
+            "id": "immuno_10",
+            "type": "content",
+            "title": "Side Effects of Checkpoint Inhibitors",
+            "content": "# Immune-Related Adverse Events (irAEs)\n\nBecause checkpoint inhibitors remove the brakes from the immune system globally, they can lead to autoimmunity-like side effects.\n\n## Common irAEs:\n- **Colitis**: Inflammation of the colon (severe diarrhea)\n- **Pneumonitis**: Inflammation of the lungs\n- **Dermatitis**: Skin rashes\n- **Endocrinopathies**: Thyroid dysfunction, Type 1 Diabetes\n\n> **Management**: Severe irAEs are managed by pausing the immunotherapy and administering high-dose corticosteroids (like Prednisone) to calm the immune system down."
+        },
+        {
+            "id": "immuno_quiz_3",
+            "type": "quiz",
+            "title": "Checkpoints Quiz",
+            "content": "Test your knowledge of immune checkpoints.",
+            "quizQuestion": "Tumor cells often upregulate which molecule on their surface to deactivate T cells via the PD-1 receptor?",
+            "quizOptions": [
+                "CD28",
+                "CTLA-4",
+                "PD-L1",
+                "B7"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "immuno_11",
+            "type": "content",
+            "title": "Adoptive Cell Transfer (ACT)",
+            "content": "# Adoptive Cell Transfer (ACT)\n\n**ACT** is a highly personalized therapy that involves collecting a patient's own immune cells, growing and/or modifying them in the lab, and infusing them back into the patient.\n\n## Types of ACT:\n1. **Tumor-Infiltrating Lymphocytes (TILs)**: Extract T cells that have naturally penetrated the tumor, expand the most active ones in the lab, and give them back.\n2. **T Cell Receptor (TCR) Engineered T Cells**: Take patient T cells and insert a gene for a specific TCR that recognizes a known tumor antigen.\n3. **CAR-T Cells**: The most famous and successful form of ACT to date."
+        },
+        {
+            "id": "immuno_12",
+            "type": "content",
+            "title": "CAR-T Cell Therapy",
+            "content": "# CAR-T Cell Therapy\n\n**Chimeric Antigen Receptor (CAR) T cells** are genetically engineered \"super T cells\".\n\n## What is a CAR?\nIt's a synthetic receptor that combines the best of B cells and T cells:\n- **Outside**: The antigen-binding domain of an antibody. This allows the CAR-T cell to recognize tumor antigens directly on the surface, without needing MHC presentation!\n- **Inside**: The signaling domains of a T cell (CD3-zeta plus co-stimulatory domains like CD28 or 4-1BB). This provides strong activation signals as soon as the antigen is bound."
+        },
+        {
+            "id": "immuno_13",
+            "type": "content",
+            "title": "The CAR-T Process",
+            "content": "# How CAR-T is Made and Given\n\n## The Journey:\n1. **Leukapheresis**: Blood is drawn from the patient, and T cells are separated.\n2. **Engineering**: In a lab, a viral vector is used to insert the CAR gene into the T cells.\n3. **Expansion**: The engineered CAR-T cells are multiplied by the millions.\n4. **Lymphodepletion**: The patient receives mild chemotherapy to make room for the new cells.\n5. **Infusion**: The CAR-T cells are infused back into the patient.\n\n> **Success**: CD19-targeted CAR-T cells have achieved remarkable remission rates in certain blood cancers like Acute Lymphoblastic Leukemia (ALL)."
+        },
+        {
+            "id": "immuno_14",
+            "type": "content",
+            "title": "Challenges with CAR-T",
+            "content": "# Challenges with CAR-T Therapy\n\nWhile highly effective for some blood cancers, CAR-T has limitations.\n\n## 1. Cytokine Release Syndrome (CRS)\nMassive activation of CAR-T cells releases a storm of cytokines (like IL-6), causing high fevers, dangerous blood pressure drops, and organ failure. Treated with anti-IL-6 drugs (Tocilizumab).\n\n## 2. Neurotoxicity (ICANS)\nConfusion, delirium, or seizures can occur following CAR-T infusion.\n\n## 3. Solid Tumors\nCAR-T struggles against solid tumors because:\n- The dense tumor microenvironment physically blocks entry.\n- The tumor microenvironment is highly immunosuppressive.\n- Finding a truly unique target antigen is difficult (to avoid attacking healthy tissue)."
+        },
+        {
+            "id": "immuno_quiz_4",
+            "type": "quiz",
+            "title": "CAR-T Quiz",
+            "content": "Let's review CAR-T cells.",
+            "quizQuestion": "What is a major advantage of the Chimeric Antigen Receptor (CAR) over a normal T Cell Receptor (TCR)?",
+            "quizOptions": [
+                "It does not release any cytokines",
+                "It can recognize antigens without requiring MHC presentation",
+                "It cannot cause autoimmune side effects",
+                "It only works on solid tumors"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "immuno_15",
+            "type": "content",
+            "title": "Module Summary",
+            "content": "# Immunotherapy Summary\n\n## Key Takeaways:\n- **Tumor Escape**: Cancers evade immunity by losing antigens or exploiting checkpoints.\n- **Immunotherapy**: Uses the immune system to fight cancer (Active vs Passive).\n- **Checkpoints**: PD-1/PD-L1 and CTLA-4 are 'brakes'. Inhibiting them unleashes T cells against the tumor.\n- **CAR-T Cells**: T cells genetically engineered with synthetic receptors to directly recognize and destroy cancer cells without needing MHC presentation.\n- **Side Effects**: Enhancing immunity can lead to autoimmune-like adverse events (irAEs) or Cytokine Release Syndrome (CRS).\n\n> **Congratulations!** You have completed the Immunotherapy module."
+        }
+    ]
+}

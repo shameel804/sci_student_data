@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Electromagnetic spectrum",
+    "ques": "Arrange the following electromagnetic waves in order of **increasing frequency**: Microwaves, X-rays, Radio waves, Visible light.",
+    "answer": {
+      "type": "text",
+      "content": "The order of increasing frequency (and decreasing wavelength) is:\n1.  **Radio waves** (lowest frequency)\n2.  **Microwaves**\n3.  **Visible light**\n4.  **X-rays** (highest frequency among these)"
+    },
+    "explanation": "This tests familiarity with the broad organization of the electromagnetic spectrum."
+  },
+  {
+    "title": "Wave properties",
+    "ques": "State one common property shared by all **electromagnetic waves** in a vacuum.",
+    "answer": {
+      "type": "text",
+      "content": "All electromagnetic waves (regardless of their frequency or wavelength) travel at the exact same **speed of light in a vacuum**, which is approximately **3 * 10^8 m/s**."
+    },
+    "explanation": "This highlights the unifying physical constant that applies to all EM radiation."
+  },
+  {
+    "title": "Propagation mechanisms",
+    "ques": "What is **sky wave propagation** in radio communication, and which layer of the atmosphere makes it possible?",
+    "answer": {
+      "type": "text",
+      "content": "**Sky wave propagation** is a method of long-distance radio communication where radio waves are directed upwards and reflected back to Earth.\n\nThis reflection is made possible by the **Ionosphere**, a layer of the Earth's upper atmosphere containing charged ions."
+    },
+    "explanation": "This covers the physical mechanisms that allow for global, over-the-horizon wireless communication."
+  },
+  {
+    "title": "Communication applications",
+    "ques": "Which part of the electromagnetic spectrum is primarily used for **radar systems** in aircraft navigation?",
+    "answer": {
+      "type": "text",
+      "content": "**Microwaves** are primarily used for radar systems. Their short wavelengths are suitable for transmitting concentrated beams and reflecting off relatively small objects like aircraft."
+    },
+    "explanation": "This connects specific bands of the EM spectrum to their specialized technological applications."
+  }
+]

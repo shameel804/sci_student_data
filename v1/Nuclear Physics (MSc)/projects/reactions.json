@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Basic Reaction Mechanisms",
+    "ques": "Differentiate between a direct nuclear reaction and a compound nucleus **reaction mechanism**.",
+    "answer": {
+      "type": "text",
+      "content": "* **Direct reaction:** The incident projectile interacts with only one or a few nucleons on the surface of the target nucleus and immediately transfers energy or particles. It occurs very rapidly.\n* **Compound nucleus reaction:** The incident projectile is completely absorbed by the target, forming a highly excited, short-lived intermediate state (the compound nucleus). The energy is shared among all nucleons before it decays, taking much longer than a direct reaction."
+    },
+    "explanation": "These two mechanisms represent the two extremes of timescales and energy distribution in nuclear collisions."
+  },
+  {
+    "title": "Cross-Section Measurements",
+    "ques": "Define the term 'nuclear cross-section' in the context of **cross-section measurements** and explain what a value of 1 barn signifies.",
+    "answer": {
+      "type": "text",
+      "content": "A nuclear cross-section is a measure of the quantum mechanical probability that a specific nuclear reaction will occur when a projectile strikes a target. It is expressed as an effective area. 1 barn is a unit of area equal to 10^-28 square meters, which is roughly the geometric cross-sectional area of a typical medium-sized nucleus."
+    },
+    "explanation": "Cross-sections are the fundamental observable quantities linking experimental collision rates with theoretical reaction models."
+  },
+  {
+    "title": "Nuclear Astrophysics Processes",
+    "ques": "Explain the role of the s-process and r-process in **nuclear astrophysics** regarding the creation of elements heavier than iron.",
+    "answer": {
+      "type": "text",
+      "content": "Elements heavier than iron cannot be formed by standard stellar fusion because it costs energy. They are created by neutron capture.\n* **s-process (slow):** Occurs in AGB stars where the neutron capture rate is slower than the beta decay rate, forming elements along the valley of stability up to Bismuth.\n* **r-process (rapid):** Occurs in extreme environments (like supernova explosions or neutron star mergers) where extreme neutron fluxes cause rapid captures before beta decay can occur, creating the heaviest elements like Uranium."
+    },
+    "explanation": "These processes explain the origin of all heavy elements in the universe."
+  },
+  {
+    "title": "Heavy Element Synthesis Processes",
+    "ques": "What is the primary obstacle in laboratory **synthesis processes** used to create superheavy elements (Z > 104) via heavy-ion fusion?",
+    "answer": {
+      "type": "text",
+      "content": "The primary obstacle is the immense Coulomb repulsion between the heavily charged projectile and target nuclei. Even if they overcome this barrier to fuse, the resulting compound nucleus is highly excited and highly unstable. In almost all cases, it instantly undergoes spontaneous fission rather than cooling down by emitting neutrons to form a stable superheavy element. The probability (cross-section) for successful synthesis is vanishingly small."
+    },
+    "explanation": "Creating the heaviest elements pushes the limits of nuclear stability and experimental detection capabilities."
+  }
+]

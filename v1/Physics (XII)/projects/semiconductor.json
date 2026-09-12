@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Semiconductor physics",
+    "ques": "What is the difference between an **n-type** and a **p-type** extrinsic semiconductor?",
+    "answer": {
+      "type": "text",
+      "content": "* **n-type:** Formed by doping a pure semiconductor (like Silicon) with pentavalent impurity atoms (like Phosphorus). The majority charge carriers are **electrons** (negative).\n* **p-type:** Formed by doping with trivalent impurity atoms (like Boron). The majority charge carriers are **holes** (which act as positive charges)."
+    },
+    "explanation": "This covers the fundamental process of doping used to create modern electronic components."
+  },
+  {
+    "title": "Diode characteristics",
+    "ques": "What is a **p-n junction diode**, and what is its primary function in a circuit?",
+    "answer": {
+      "type": "text",
+      "content": "A **p-n junction diode** is formed when a p-type semiconductor is joined to an n-type semiconductor.\n\nIts primary function is to allow electric current to flow easily in **only one direction** (when forward-biased) while blocking it in the reverse direction. It is widely used as a **rectifier** to convert AC to DC."
+    },
+    "explanation": "This tests knowledge of the most basic semiconductor device and its application."
+  },
+  {
+    "title": "Transistor operation",
+    "ques": "Name the three terminals of a standard **Bipolar Junction Transistor (BJT)**.",
+    "answer": {
+      "type": "text",
+      "content": "The three terminals of a BJT are:\n1.  **Emitter (E):** Heavily doped, emits charge carriers.\n2.  **Base (B):** Very thin and lightly doped, controls the flow of carriers.\n3.  **Collector (C):** Moderately doped, collects the charge carriers."
+    },
+    "explanation": "This introduces the anatomy of the device that revolutionized modern electronics and computing."
+  },
+  {
+    "title": "Digital electronics basics",
+    "ques": "What is the function of a **NOT logic gate** (Inverter)? Write its truth table.",
+    "answer": {
+      "type": "text",
+      "content": "A **NOT gate** takes a single input and produces the opposite (inverted) output. If the input is High (1), the output is Low (0), and vice versa.\n\n**Truth Table:**\n* Input (A) = 0  --> Output (Y) = 1\n* Input (A) = 1  --> Output (Y) = 0"
+    },
+    "explanation": "This covers the simplest building block of digital logic circuits."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Genetic Mapping Techniques 🗺️",
+    "ques": "Explain the fundamental difference between genetic (linkage) mapping and physical mapping of a genome.",
+    "answer": {
+      "type": "text",
+      "content": "* **Genetic Mapping:** Determines the relative position of genes on a chromosome based on recombination frequencies during meiosis. It measures distance in centiMorgans (cM), which represents probability, not physical length.\n* **Physical Mapping:** Determines the absolute physical distance between genes or markers on a chromosome, measured in base pairs (bp). It uses techniques like restriction mapping or direct sequencing."
+    },
+    "explanation": "Understanding the two maps is like knowing the difference between a subway map (relative stops) and a street map (actual physical distance)."
+  },
+  {
+    "title": "Linkage Analysis Calculations 🧮",
+    "ques": "How is the frequency of crossing over (recombination frequency) used in **linkage analysis** to determine the distance between two linked genes?",
+    "answer": {
+      "type": "text",
+      "content": "* **The Principle:** The closer two genes are on a chromosome, the less likely a recombination event (crossing over) will occur exactly between them during meiosis.\n* **The Calculation:** Recombination frequency is calculated as the number of recombinant offspring divided by the total number of offspring. A frequency of 1% is defined as one map unit (or 1 centiMorgan). By calculating these frequencies for multiple pairs of genes, a relative map order can be constructed."
+    },
+    "explanation": "Linkage analysis was the earliest method for mapping genomes, turning observed inheritance patterns into chromosomal geography."
+  },
+  {
+    "title": "Constructing Physical Maps 📏",
+    "ques": "Describe how restriction mapping is used as a technique for constructing a **physical map** of a DNA segment.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Method:** A DNA segment is digested with different restriction enzymes, both individually and in combinations (double digests).\n* **The Analysis:** The resulting fragments are separated by size on a gel. By logically analyzing the sizes of the fragments produced by single versus double digests, researchers can deduce the exact physical order of the restriction sites along the DNA molecule, creating a map."
+    },
+    "explanation": "Physical mapping bridges the gap between abstract genetic inheritance and the concrete biochemistry of the DNA molecule."
+  },
+  {
+    "title": "The Era of Genome Sequencing 🧬",
+    "ques": "Discuss the 'shotgun sequencing' approach used in modern **genome sequencing** projects.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Approach:** Instead of mapping first, the entire genome is randomly sheared into millions of small, overlapping fragments.\n* **The Sequencing:** Each small fragment is sequenced rapidly using high-throughput technology.\n* **The Assembly:** Powerful computers analyze the millions of short sequences, find where the sequences overlap, and piece them together like a massive jigsaw puzzle to reconstruct the complete, continuous genomic sequence."
+    },
+    "explanation": "Shotgun sequencing revolutionized genomics by relying on massive computational power to bypass the slow, tedious process of early physical mapping."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Core PCR Principles 🌡️",
+    "ques": "Outline the three fundamental temperature steps of a single **PCR (Polymerase Chain Reaction)** cycle and briefly explain what happens at each step.",
+    "answer": {
+      "type": "text",
+      "content": "* **1. Denaturation (approx 95°C):** The high heat breaks the hydrogen bonds holding the double-stranded DNA template together, creating two single strands.\n* **2. Annealing (approx 50-65°C):** The temperature is lowered to allow short, synthetic DNA primers to bind (anneal) to their complementary sequences on the single-stranded templates.\n* **3. Extension (approx 72°C):** The temperature is raised to the optimal working temperature for Taq polymerase, which synthesizes a new DNA strand by extending outward from the primers."
+    },
+    "explanation": "PCR is essentially DNA replication in a test tube, using controlled temperature shifts to mimic the enzymatic unwinding seen in living cells."
+  },
+  {
+    "title": "Real-time vs. Traditional PCR ⏱️",
+    "ques": "Explain the major advantage of **Real-time PCR (qPCR)** over traditional end-point PCR.",
+    "answer": {
+      "type": "text",
+      "content": "* **Traditional PCR:** You can only see the results (the amount of DNA produced) at the very end of all the cycles, usually by running a gel. It is primarily qualitative.\n* **Real-time PCR Advantage:** It utilizes fluorescent dyes or probes that light up as more DNA is synthesized. This allows researchers to monitor the amplification of DNA in 'real-time' during the exponential phase of the reaction, making it highly **quantitative**. You can determine exactly how much initial DNA template was present."
+    },
+    "explanation": "While standard PCR simply makes copies, Real-time PCR turns the technique into a powerful quantitative measurement tool for diagnostics and gene expression."
+  },
+  {
+    "title": "Mutation Detection via PCR 🧬",
+    "ques": "Describe how PCR can be adapted for **mutation detection**, specifically using a technique like allele-specific PCR.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Strategy:** Allele-specific PCR uses specially designed primers whose very last 3-prime nucleotide matches the exact point of the suspected mutation.\n* **Mechanism:** If the template DNA has the mutation, the primer binds perfectly, Taq polymerase can extend it, and amplification occurs. If the template is normal (wild-type), there is a mismatch at the very tip of the primer, Taq polymerase cannot extend it, and no amplification occurs. The presence or absence of a PCR product immediately indicates if the mutation is present."
+    },
+    "explanation": "PCR is sensitive enough to differentiate between sequences that differ by only a single nucleotide, making it a frontline tool for genetic testing."
+  },
+  {
+    "title": "PCR in DNA Sequencing 🔠",
+    "ques": "Discuss how a modified version of PCR is utilized as the foundational step in Sanger **DNA sequencing**.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Modification:** Sanger sequencing uses a standard PCR mix but adds special chain-terminating nucleotides (ddNTPs) that lack a crucial oxygen atom. \n* **The Process:** As the polymerase builds new DNA, it occasionally grabs a terminating nucleotide instead of a normal one. Once added, synthesis stops completely for that specific fragment. \n* **The Result:** This modified PCR creates millions of DNA fragments of every possible length. By sorting these fragments by size and reading the fluorescent tag on the terminating nucleotide at the end of each fragment, the exact genetic sequence can be read."
+    },
+    "explanation": "Sanger sequencing elegantly leverages the mechanics of PCR, intentionally breaking the extension phase to decipher the sequence of life."
+  }
+]

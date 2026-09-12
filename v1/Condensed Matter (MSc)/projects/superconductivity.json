@@ -1,0 +1,38 @@
+[
+  {
+    "title": "BCS Theory Details",
+    "ques": "According to **BCS theory details**, what is a Cooper pair and what interaction binds them together?",
+    "answer": {
+      "type": "text",
+      "content": "A Cooper pair is a bound pair of electrons with opposite spins and momenta. Despite their mutual electrostatic repulsion, they are weakly bound together at very low temperatures by an attractive interaction mediated by vibrations in the crystal lattice (phonons)."
+    },
+    "explanation": "The formation of Cooper pairs, which act like bosons and condense into a single ground state, is the mechanism behind conventional superconductivity."
+  },
+  {
+    "title": "High-Tc Mechanisms",
+    "ques": "Why is the phonon-mediated pairing of BCS theory insufficient to explain **High-Tc mechanisms** in cuprate superconductors?",
+    "answer": {
+      "type": "text",
+      "content": "BCS theory predicts a theoretical maximum critical temperature (Tc) of around 30 Kelvin based on lattice vibrations. Cuprate superconductors exhibit Tc values well above 100 Kelvin (above the boiling point of liquid nitrogen). This implies that a different, much stronger pairing mechanism—likely related to magnetic spin fluctuations rather than phonons—must be responsible."
+    },
+    "explanation": "Understanding the exact mechanism of High-Tc superconductivity remains one of the biggest unsolved problems in physics."
+  },
+  {
+    "title": "Superconducting Applications",
+    "ques": "Provide one major real-world example of **superconducting applications** that relies on their ability to carry high currents without resistance.",
+    "answer": {
+      "type": "text",
+      "content": "Magnetic Resonance Imaging (MRI) machines in hospitals use superconducting electromagnets. Because the coils have zero resistance, they can carry massive currents to generate the extremely strong and stable magnetic fields required for high-resolution imaging without melting from resistive heating."
+    },
+    "explanation": "Without superconductors, maintaining such strong magnetic fields continuously would be prohibitively expensive and technically impossible."
+  },
+  {
+    "title": "Understanding Josephson Junctions",
+    "ques": "Describe the DC Josephson effect that occurs across **Josephson junctions**.",
+    "answer": {
+      "type": "text",
+      "content": "A Josephson junction consists of two superconductors separated by a very thin insulating barrier. The DC Josephson effect is the phenomenon where a direct electrical current of Cooper pairs can tunnel through the insulator from one superconductor to the other with absolutely zero voltage applied across the junction."
+    },
+    "explanation": "Josephson junctions are highly sensitive to magnetic fields and form the basis of SQUIDs (Superconducting Quantum Interference Devices) and many quantum computer qubits."
+  }
+]

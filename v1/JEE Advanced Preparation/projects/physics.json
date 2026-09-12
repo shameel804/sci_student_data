@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Advanced Kinematics",
+    "ques": "In **Advanced kinematics**, a particle moves along a curve such that its velocity vector is always perpendicular to its position vector from the origin. What is the shape of its path?",
+    "answer": {
+      "type": "text",
+      "content": "The shape of the path is a perfect circle centered at the origin. Because the velocity is always perpendicular to the position vector (radius), the particle can never move closer to or further from the origin; its distance remains constant."
+    },
+    "explanation": "This geometric constraint mathematically forces the motion into a circular trajectory."
+  },
+  {
+    "title": "Rigid Body Dynamics",
+    "ques": "Consider a solid sphere and a hollow spherical shell of the same mass and radius rolling down an incline without slipping. Using **Rigid body dynamics**, which one reaches the bottom first and why?",
+    "answer": {
+      "type": "text",
+      "content": "The solid sphere reaches the bottom first. The hollow shell has its mass concentrated further from the center of rotation, giving it a larger moment of inertia. This means it requires more of the available gravitational potential energy to be converted into rotational kinetic energy, leaving less energy for translational (forward) kinetic energy compared to the solid sphere."
+    },
+    "explanation": "A larger moment of inertia means greater resistance to changes in rotation, slowing down the overall descent."
+  },
+  {
+    "title": "Fluid Mechanics Principles",
+    "ques": "According to Bernoulli's principle in **Fluid mechanics**, what happens to the internal pressure of a fluid when its velocity increases in a horizontal pipe?",
+    "answer": {
+      "type": "text",
+      "content": "When the fluid's velocity increases (for example, by passing through a narrower section of the pipe), its internal pressure decreases. This is a direct consequence of the conservation of energy in a flowing fluid."
+    },
+    "explanation": "This principle explains how airplane wings generate lift and how atomizers spray perfume."
+  },
+  {
+    "title": "Thermal Physics Advanced",
+    "ques": "In **Thermal physics advanced**, explain why the entropy of the universe must strictly increase during any real, spontaneous process according to the Second Law of Thermodynamics.",
+    "answer": {
+      "type": "text",
+      "content": "Real processes are inherently irreversible (due to friction, heat escaping, etc.). The Second Law states that in any irreversible process occurring in a closed system, the total amount of disorder, or entropy, must increase. Since the universe is the ultimate closed system, its total entropy is always increasing towards a state of maximum disorder."
+    },
+    "explanation": "Entropy provides the fundamental 'arrow of time' that distinguishes the past from the future."
+  }
+]

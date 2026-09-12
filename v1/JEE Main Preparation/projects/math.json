@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Electrostatics Problems",
+    "ques": "In **Electrostatics problems**, what is the relationship between the distance separating two point charges and the electrical force between them according to Coulomb's Law?",
+    "answer": {
+      "type": "text",
+      "content": "Coulomb's Law states that the electrical force is inversely proportional to the square of the distance between the charges. If you double the distance between the charges, the force becomes one-fourth as strong."
+    },
+    "explanation": "This inverse-square law governs all electrostatic interactions in nature."
+  },
+  {
+    "title": "Current Electricity",
+    "ques": "State Ohm's Law as it applies to **Current electricity** and provide the mathematical formula.",
+    "answer": {
+      "type": "text",
+      "content": "Ohm's Law states that the current passing through a conductor between two points is directly proportional to the voltage across the two points, provided the temperature remains constant. The formula is Voltage = Current * Resistance (V = I * R)."
+    },
+    "explanation": "Ohm's law is the foundational equation for analyzing all basic electrical circuits."
+  },
+  {
+    "title": "Magnetic Effects and EM Induction",
+    "ques": "Explain the principle of **EM induction** discovered by Faraday.",
+    "answer": {
+      "type": "text",
+      "content": "Faraday's law of electromagnetic induction states that a changing magnetic field within a closed loop of wire induces an electromotive force (voltage) in the wire. Moving a magnet through a coil of wire will literally generate an electrical current."
+    },
+    "explanation": "This principle is the basis for almost all modern electricity generation, from wind turbines to nuclear power plants."
+  },
+  {
+    "title": "AC Circuits",
+    "ques": "Why is alternating current (AC) preferred over direct current (DC) in large-scale power grids, involving **AC circuits**?",
+    "answer": {
+      "type": "text",
+      "content": "AC is preferred because its voltage can be easily and efficiently stepped up (increased) or stepped down (decreased) using transformers. For long-distance transmission, stepping the voltage extremely high minimizes energy loss due to heating in the wires. It is then safely stepped down for household use."
+    },
+    "explanation": "The ability to use transformers makes AC the only viable option for modern, widespread electrical grids."
+  }
+]

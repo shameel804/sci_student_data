@@ -1,0 +1,155 @@
+{
+    "id": "learn_immunity",
+    "topicId": "immunity",
+    "topicTitle": "Advanced Immunity",
+    "description": "Deep dive into immune cell development, tolerance mechanisms, memory responses, and vaccine immunology.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "immunity_1",
+            "type": "content",
+            "title": "Welcome to Advanced Immunity",
+            "content": "# Advanced Immunity\n\nWelcome to Advanced Immunity! In this module, we will explore the intricate mechanisms that protect the body from pathogens and maintain immune homeostasis.\n\n## What You Will Learn:\n- **Immune Cell Development** - How immune cells are born and mature\n- **Tolerance Mechanisms** - How the immune system avoids attacking self\n- **Memory Responses** - How the body remembers past infections\n- **Vaccine Immunology** - The science behind immunization\n\nLet's dive into the fascinating world of the immune system!"
+        },
+        {
+            "id": "immunity_2",
+            "type": "content",
+            "title": "Hematopoiesis",
+            "content": "# Hematopoiesis: The Birth of Blood Cells\n\n**Hematopoiesis** is the process by which all cellular components of blood and the immune system are formed.\n\n## Key Concepts:\n- **Hematopoietic Stem Cells (HSCs)**: Multipotent cells found in the bone marrow\n- **Myeloid Lineage**: Produces macrophages, neutrophils, eosinophils, basophils, and dendritic cells\n- **Lymphoid Lineage**: Produces T cells, B cells, and Natural Killer (NK) cells\n\n> **Did You Know?** The bone marrow produces approx 500 billion blood cells every day!"
+        },
+        {
+            "id": "immunity_3",
+            "type": "content",
+            "title": "B Cell Development",
+            "content": "# B Cell Development\n\nB cells develop entirely within the bone marrow before migrating to secondary lymphoid organs.\n\n## Stages of Development:\n1. **Pro-B Cell**: V(D)J recombination begins for the heavy chain\n2. **Pre-B Cell**: Expression of the pre-B cell receptor (pre-BCR)\n3. **Immature B Cell**: Expression of surface IgM\n4. **Mature B Cell**: Expression of both surface IgM and IgD\n\n## Quality Control:\n- **Negative Selection**: B cells that strongly bind to self-antigens in the bone marrow undergo apoptosis (clonal deletion) or receptor editing to prevent autoimmunity."
+        },
+        {
+            "id": "immunity_4",
+            "type": "content",
+            "title": "T Cell Development",
+            "content": "# T Cell Development\n\nUnlike B cells, T cells originate in the bone marrow but migrate to the **Thymus** to mature.\n\n## Thymic Education:\n- **Double Negative (DN) Stage**: Lack CD4 and CD8\n- **Double Positive (DP) Stage**: Express both CD4 and CD8. T Cell Receptor (TCR) gene rearrangement occurs.\n\n## Positive and Negative Selection:\n- **Positive Selection**: Ensures TCR can bind to self-MHC molecules (MHC restriction)\n- **Negative Selection**: Eliminates T cells that bind too strongly to self-antigens presented by MHC (central tolerance)\n\n> **Outcome**: Surviving cells become Single Positive (SP) - either CD4+ helper T cells or CD8+ cytotoxic T cells."
+        },
+        {
+            "id": "immunity_quiz_1",
+            "type": "quiz",
+            "title": "Cell Development Check",
+            "content": "Test your knowledge on immune cell development!",
+            "quizQuestion": "Where do T cells undergo their primary maturation and selection process?",
+            "quizOptions": [
+                "Bone Marrow",
+                "Thymus",
+                "Lymph Nodes",
+                "Spleen"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "immunity_5",
+            "type": "content",
+            "title": "Central Tolerance",
+            "content": "# Central Tolerance\n\n**Tolerance** is the immune system's state of unresponsiveness to specific antigens, particularly self-antigens.\n\n## Central Tolerance Mechanisms:\nCentral tolerance occurs during lymphocyte development in primary lymphoid organs (bone marrow and thymus).\n\n### Mechanisms:\n- **Clonal Deletion**: Apoptosis of highly self-reactive cells (Negative selection)\n- **Receptor Editing**: Mainly in B cells; changing the BCR specificity if it is self-reactive\n- **Development of Tregs**: Some self-reactive CD4+ T cells in the thymus differentiate into regulatory T cells (tTregs) instead of dying.\n\n> **Goal**: To establish a repertoire of lymphocytes that do not attack the host's own tissues."
+        },
+        {
+            "id": "immunity_6",
+            "type": "content",
+            "title": "Peripheral Tolerance",
+            "content": "# Peripheral Tolerance\n\nSince central tolerance is not perfect, **Peripheral Tolerance** mechanisms act as a backup in secondary lymphoid organs and tissues.\n\n## Key Mechanisms:\n1. **Anergy**: Functional inactivation of lymphocytes. Occurs when a T cell recognizes antigen (Signal 1) without co-stimulation (Signal 2).\n2. **Suppression by Tregs**: Regulatory T cells secrete inhibitory cytokines (like IL-10 and TGF-beta) to suppress effector T cells.\n3. **Clonal Deletion (Apoptosis)**: Activation-induced cell death (AICD) upon repeated stimulation.\n4. **Immune Privilege**: Certain sites (e.g., eyes, brain, testes) restrict immune cell entry and promote tolerance."
+        },
+        {
+            "id": "immunity_7",
+            "type": "content",
+            "title": "Regulatory T Cells (Tregs)",
+            "content": "# Regulatory T Cells (Tregs)\n\nTregs are specialized T cells essential for maintaining immune tolerance and preventing autoimmune diseases.\n\n## Characteristics:\n- Express **CD4** and **CD25** on their surface\n- Express the master transcription factor **FoxP3**\n\n## How Tregs Work:\n- **Cytokine Secretion**: Release anti-inflammatory cytokines (IL-10, TGF-beta)\n- **Metabolic Disruption**: Consume local IL-2 (a growth factor for T cells), starving effector T cells\n- **Direct Contact**: Inhibit Antigen Presenting Cells (APCs) via molecules like CTLA-4\n\n> **Clinical Note**: Mutations in the FoxP3 gene lead to IPEX syndrome, a severe autoimmune disease, highlighting the critical role of Tregs."
+        },
+        {
+            "id": "immunity_quiz_2",
+            "type": "quiz",
+            "title": "Tolerance Quiz",
+            "content": "Let's review immune tolerance.",
+            "quizQuestion": "Which of the following is a primary mechanism of peripheral tolerance?",
+            "quizOptions": [
+                "Positive selection in the thymus",
+                "Receptor editing in the bone marrow",
+                "Anergy due to lack of co-stimulation",
+                "V(D)J recombination"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "immunity_8",
+            "type": "content",
+            "title": "Immunological Memory",
+            "content": "# Immunological Memory\n\nThe hallmark of the adaptive immune system is **Immunological Memory** - the ability to respond more rapidly and effectively to pathogens encountered previously.\n\n## Primary vs Secondary Response:\n- **Primary Response**: Occurs upon first exposure. Slow onset (days to weeks), lower antibody affinity, mainly IgM.\n- **Secondary Response**: Occurs upon re-exposure. Faster onset (hours to days), higher antibody affinity, mainly IgG (due to class switching).\n\n> **The Result**: You often don't even know you've been exposed a second time because the memory response clears the pathogen before symptoms develop!"
+        },
+        {
+            "id": "immunity_9",
+            "type": "content",
+            "title": "Memory B Cells",
+            "content": "# Memory B Cells\n\nMemory B cells are long-lived cells that patrol the body ready to produce antibodies.\n\n## Generation:\nThey are generated in **Germinal Centers** of lymph nodes during the primary immune response.\n\n## Key Features:\n- Have undergone **class switching** (e.g., from IgM to IgG, IgA, or IgE)\n- Have undergone **somatic hypermutation**, giving their B Cell Receptors (BCR) higher affinity for the antigen\n- Rapidly differentiate into plasma cells upon re-encountering the antigen, producing large amounts of high-affinity antibodies."
+        },
+        {
+            "id": "immunity_10",
+            "type": "content",
+            "title": "Memory T Cells",
+            "content": "# Memory T Cells\n\nMemory T cells provide rapid protection against intracellular pathogens like viruses.\n\n## Subsets of Memory T Cells:\n1. **Central Memory T Cells (Tcm)**: Reside in secondary lymphoid organs. Have high proliferative potential.\n2. **Effector Memory T Cells (Tem)**: Patrol peripheral tissues. Provide rapid effector functions but have limited proliferation.\n3. **Tissue-Resident Memory T Cells (Trm)**: Permanently reside in epithelial barrier tissues (skin, gut, lungs). Act as the first line of defense at the site of entry.\n\n> **Teamwork**: Together, these subsets ensure global surveillance and immediate local defense."
+        },
+        {
+            "id": "immunity_quiz_3",
+            "type": "quiz",
+            "title": "Memory Check",
+            "content": "Check your understanding of immunological memory.",
+            "quizQuestion": "Which type of memory T cell permanently resides in barrier tissues like the skin or lungs?",
+            "quizOptions": [
+                "Central Memory T Cells (Tcm)",
+                "Effector Memory T Cells (Tem)",
+                "Tissue-Resident Memory T Cells (Trm)",
+                "Regulatory T Cells (Tregs)"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "immunity_11",
+            "type": "content",
+            "title": "Vaccine Immunology Basics",
+            "content": "# Vaccine Immunology Basics\n\n**Vaccination** is the administration of antigenic material to stimulate an individual's immune system to develop adaptive immunity to a pathogen.\n\n## The Goal:\nTo safely induce **Immunological Memory** without causing the actual disease.\n\n## Herd Immunity:\nWhen a high percentage of the population is vaccinated (often >= 80-90%), it provides indirect protection to those who are not immune (e.g., newborns, immunocompromised individuals).\n\n> **Impact**: Vaccines are considered one of the greatest public health achievements, responsible for the global eradication of smallpox!"
+        },
+        {
+            "id": "immunity_12",
+            "type": "content",
+            "title": "Types of Vaccines",
+            "content": "# Types of Vaccines\n\nDifferent approaches are used to create vaccines, each with pros and cons.\n\n## 1. Live Attenuated Vaccines:\n- Contain weakened forms of the pathogen\n- Induce strong, lifelong immunity (B and T cell responses)\n- Example: MMR (Measles, Mumps, Rubella)\n\n## 2. Inactivated (Killed) Vaccines:\n- Pathogen is killed via heat or chemicals\n- Safer, but may require booster shots\n- Example: Polio (Salk vaccine), Hepatitis A\n\n## 3. Subunit/Recombinant Vaccines:\n- Use specific pieces of the pathogen (e.g., a protein)\n- Very safe, few side effects\n- Example: Hepatitis B, HPV\n\n## 4. Toxoid Vaccines:\n- Use a toxin made by the germ\n- Example: Tetanus, Diphtheria"
+        },
+        {
+            "id": "immunity_13",
+            "type": "content",
+            "title": "Modern Vaccine Technologies",
+            "content": "# Modern Vaccine Technologies\n\nRecent advances have introduced new platforms for rapid vaccine development.\n\n## mRNA Vaccines:\n- Deliver genetic instructions (mRNA) directly into cells\n- Cells translate the mRNA into a viral protein (like the Spike protein)\n- The immune system recognizes the protein and builds a response\n- Fast to design and manufacture\n- Example: COVID-19 mRNA vaccines\n\n## Viral Vector Vaccines:\n- Use a harmless virus (like an adenovirus) to deliver the genetic code of the target pathogen into cells\n- Induces robust immune responses\n- Example: Ebola, some COVID-19 vaccines"
+        },
+        {
+            "id": "immunity_14",
+            "type": "content",
+            "title": "Adjuvants in Vaccines",
+            "content": "# Adjuvants in Vaccines\n\n**Adjuvants** are substances added to vaccines to enhance the body's immune response to an antigen.\n\n## Why Use Adjuvants?\n- Subunit and inactivated vaccines often have low immunogenicity on their own.\n- Adjuvants help stimulate the innate immune system (Signal 0), leading to better activation of adaptive immunity.\n- They can reduce the amount of antigen needed per dose.\n\n## How They Work:\n- Creating a \"depot\" effect for slow antigen release\n- Activating Pattern Recognition Receptors (PRRs) like Toll-Like Receptors (TLRs) on Dendritic Cells\n\n> **Common Adjuvants**: Aluminum salts (Alum) have been used for decades. Newer ones include squalene emulsions (AS03) and lipid nanoparticles."
+        },
+        {
+            "id": "immunity_quiz_4",
+            "type": "quiz",
+            "title": "Vaccines Quiz",
+            "content": "Test your knowledge on vaccines!",
+            "quizQuestion": "Which type of vaccine delivers genetic instructions for cells to make a viral protein?",
+            "quizOptions": [
+                "Live attenuated vaccines",
+                "Toxoid vaccines",
+                "Inactivated vaccines",
+                "mRNA vaccines"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "immunity_15",
+            "type": "content",
+            "title": "Summary",
+            "content": "# Module Summary\n\n## Key Takeaways:\n\n### Cell Development:\n- B cells mature in the Bone Marrow, T cells in the Thymus\n- Selection processes ensure functional but non-self-reactive cells\n\n### Tolerance:\n- Central tolerance deletes auto-reactive cells during development\n- Peripheral tolerance (anergy, Tregs) controls auto-reactive cells that escaped to the periphery\n\n### Memory:\n- Adaptive immunity creates Memory B and T cells\n- Secondary responses are faster, stronger, and more specific\n\n### Vaccines:\n- Safely mimic infections to generate immunological memory\n- Various platforms exist: from live-attenuated to modern mRNA technology\n\n> **Congratulations!** You've completed the Advanced Immunity module!"
+        }
+    ]
+}

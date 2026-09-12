@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Magnetic materials classification",
+    "ques": "Classify magnetic materials into three main categories based on their behavior in an external magnetic field.",
+    "answer": {
+      "type": "text",
+      "content": "1.  **Diamagnetic materials:** Weakly repelled by a magnetic field (e.g., Water, Copper).\n2.  **Paramagnetic materials:** Weakly attracted by a magnetic field (e.g., Aluminum, Oxygen).\n3.  **Ferromagnetic materials:** Strongly attracted by a magnetic field and can be permanently magnetized (e.g., Iron, Cobalt, Nickel)."
+    },
+    "explanation": "This tests the fundamental categorization of matter based on its magnetic properties."
+  },
+  {
+    "title": "Earth's magnetism",
+    "ques": "Name the three elements (parameters) required to completely specify **Earth's magnetic field** at any place.",
+    "answer": {
+      "type": "text",
+      "content": "The three elements of Earth's magnetism are:\n1.  **Magnetic Declination:** The angle between the true geographic north and the magnetic north.\n2.  **Magnetic Dip (or Inclination):** The angle that the total magnetic field of Earth makes with the horizontal plane.\n3.  **Horizontal Component of Earth's Magnetic Field:** The component of the total field acting along the horizontal direction."
+    },
+    "explanation": "This covers the specific metrics used in navigation and geomagnetism."
+  },
+  {
+    "title": "Magnetic properties",
+    "ques": "What is the **Curie temperature** of a ferromagnetic material?",
+    "answer": {
+      "type": "text",
+      "content": "The **Curie temperature** is the specific temperature at which a ferromagnetic material loses its ferromagnetic properties and transitions into a paramagnetic material, due to the thermal agitation disrupting the alignment of magnetic domains."
+    },
+    "explanation": "This links thermal physics with magnetism, highlighting phase transitions in materials."
+  },
+  {
+    "title": "Electromagnetic applications",
+    "ques": "Give one reason why **soft iron** is preferred over steel for making the core of a transformer or an electromagnet.",
+    "answer": {
+      "type": "text",
+      "content": "**Soft iron** is preferred because it has a **high permeability** (it magnetizes easily) and a **low retentivity/low hysteresis loss** (it demagnetizes easily when the current is switched off, minimizing energy loss in AC circuits)."
+    },
+    "explanation": "This applies knowledge of magnetic hysteresis to practical electrical engineering design."
+  }
+]

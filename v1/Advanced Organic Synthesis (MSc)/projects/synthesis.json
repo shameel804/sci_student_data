@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The Logic of Retrosynthetic Analysis 🧠",
+    "ques": "Define **retrosynthetic analysis** and explain the purpose of identifying a 'disconnection' (represented by a double-line arrow).",
+    "answer": {
+      "type": "text",
+      "content": "* **Definition:** A problem-solving technique in organic chemistry where a chemist starts with the final complex target molecule and mentally breaks it down, step-by-step, backwards into simpler, commercially available starting materials.\n* **Disconnection:** This is an imaginary, reverse chemical reaction. It identifies a specific bond in the target molecule that can be logically broken on paper, leading back to a known, reliable forward reaction that could have formed it. It is the core tool for planning a synthesis."
+    },
+    "explanation": "Retrosynthesis revolutionized organic chemistry by turning synthesis planning from a game of guesswork into a systematic, logical discipline."
+  },
+  {
+    "title": "Synthetic Strategy Design 🗺️",
+    "ques": "When performing **synthetic strategy design**, why is a 'convergent synthesis' generally preferred over a long 'linear synthesis' for a complex target?",
+    "answer": {
+      "type": "text",
+      "content": "* **Linear Synthesis:** You build the molecule one step at a time in a straight line (A -> B -> C -> D). The overall yield drops drastically with every step. If step 10 fails, the entire project fails.\n* **Convergent Synthesis:** You build two separate halves of the molecule independently (A->B and C->D) and join them together at the very end (B + D -> Target). \n* **Preference:** Convergent synthesis is vastly superior because it drastically improves overall yield, requires less material early on, and allows different chemists to work on different halves simultaneously."
+    },
+    "explanation": "Strategy is as important as the chemistry itself. A brilliant reaction is useless if the overall route is too long and inefficient."
+  },
+  {
+    "title": "Challenges of Complex Molecule Synthesis 🧩",
+    "ques": "Discuss the necessity of 'protecting groups' in **complex molecule synthesis**. Why are they considered a necessary evil?",
+    "answer": {
+      "type": "text",
+      "content": "* **Necessity:** Complex molecules often have multiple reactive functional groups (e.g., an alcohol and an amine). If a chemist wants to react only the amine, the reagents might accidentally react with the alcohol too. A protecting group is temporarily added to 'hide' the alcohol, allowing the reaction to proceed safely on the amine.\n* **Necessary Evil:** They add two completely non-productive steps to the synthesis: putting the protecting group on, and taking it off (deprotection). This reduces overall yield, wastes time, and decreases the atom economy (greenness) of the synthesis."
+    },
+    "explanation": "Managing reactivity across a molecule is the hardest part of synthesis. Minimizing the use of protecting groups is a major goal in modern methodology."
+  },
+  {
+    "title": "The Art of Natural Product Synthesis 🌿",
+    "ques": "Why do chemists undertake the incredibly difficult total synthesis of a **natural product** (like a cancer drug derived from a rare sea sponge) if the molecule already exists in nature?",
+    "answer": {
+      "type": "text",
+      "content": "* **1. Supply:** The natural source might be incredibly rare or endangered. Total synthesis provides a reliable, scalable supply of the drug without destroying ecosystems.\n* **2. Proof of Structure:** Synthesizing the molecule from scratch and proving it perfectly matches the natural sample is the absolute final proof that the proposed chemical structure is correct.\n* **3. Analogs:** Once the synthetic route is established, chemists can tweak it to create 'unnatural' versions (analogs) that might be more potent, less toxic, or more soluble than the original natural product."
+    },
+    "explanation": "Total synthesis is not just chemical mimicry; it is a vital engine for drug discovery, structural verification, and methodological innovation."
+  }
+]

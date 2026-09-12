@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Bottom-up Approaches",
+    "ques": "Briefly explain what **bottom-up approaches** mean in nanomaterial synthesis and give one example of a chemical method used.",
+    "answer": {
+      "type": "text",
+      "content": "Bottom-up approaches build nanomaterials atom-by-atom or molecule-by-molecule. A common chemical method is the sol-gel process, where molecular precursors form a colloidal suspension (sol) and then a solid network (gel)."
+    },
+    "explanation": "Bottom-up techniques allow for precise control over the molecular composition of the nanomaterial."
+  },
+  {
+    "title": "Top-down Methods",
+    "ques": "Identify a major challenge associated with **top-down methods** (like lithography) when scaling down to the nanoscale.",
+    "answer": {
+      "type": "text",
+      "content": "A major challenge is the inherent limitation in resolution (e.g., diffraction limits in optical lithography) and the generation of significant material waste and surface defects during the etching or milling process."
+    },
+    "explanation": "While excellent for large-scale manufacturing, top-down methods struggle with producing extremely small, defect-free nanostructures."
+  },
+  {
+    "title": "Self-Assembly Processes",
+    "ques": "Describe the driving forces behind **self-assembly processes** in forming ordered nanomaterials.",
+    "answer": {
+      "type": "text",
+      "content": "Self-assembly is primarily driven by non-covalent interactions, such as hydrogen bonding, van der Waals forces, electrostatic interactions, and hydrophobic effects. These weak forces allow molecules to spontaneously organize into thermodynamically stable, ordered structures."
+    },
+    "explanation": "Self-assembly mimics biological systems, providing a low-energy pathway to complex nanostructures."
+  },
+  {
+    "title": "Template Synthesis Techniques",
+    "ques": "Explain how **template synthesis** can be utilized to create nanowires with precise dimensions.",
+    "answer": {
+      "type": "text",
+      "content": "Template synthesis uses a porous material (like anodic aluminum oxide) as a mold. A desired material is deposited into the cylindrical pores (e.g., via electrodeposition). Once the template is selectively dissolved or etched away, free-standing nanowires with the exact diameter of the pores are left behind."
+    },
+    "explanation": "Templating offers unparalleled control over the morphology and aspect ratio of 1D nanomaterials."
+  }
+]

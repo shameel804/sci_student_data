@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Soft vs. Hard Ionization Techniques ⚡",
+    "ques": "Compare Electron Impact (EI) and Matrix-Assisted Laser Desorption/Ionization (MALDI) as **ionization techniques** in mass spectrometry.",
+    "answer": {
+      "type": "text",
+      "content": "* **Electron Impact (EI):** A 'hard' technique. The sample is blasted with high-energy electrons. This forcefully knocks an electron off the molecule to create an ion, but the energy is so high that the molecule often shatters into many smaller fragment ions. Excellent for determining the structure of small molecules based on how they break.\n* **MALDI:** A 'soft' technique. The sample is mixed into a chemical matrix and hit with a laser. The matrix absorbs the harsh laser energy and gently transfers a proton to the sample molecule, lifting it into the gas phase intact. Essential for analyzing large, fragile biological molecules like proteins that would be destroyed by EI."
+    },
+    "explanation": "The choice of ionization method determines whether you want to see the whole molecule intact (to find its weight) or smash it to pieces (to find its structure)."
+  },
+  {
+    "title": "Separating Ions: Mass Analyzers 🧲",
+    "ques": "Describe the basic mechanism by which a Time-of-Flight (TOF) **mass analyzer** separates ions.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Mechanism:** In a TOF analyzer, all generated ions are given the exact same pulse of kinetic energy using an electric field, and then fired down a long, high-vacuum flight tube.\n* **The Separation:** Because kinetic energy is related to mass and velocity, if all ions have the same energy, the lighter ions will travel much faster than the heavier ions. The detector at the end of the tube simply records the precise time it takes for each ion to arrive. The time of flight is directly converted into the mass-to-charge ratio."
+    },
+    "explanation": "Mass analyzers are the heart of the instrument, employing fundamental physics to separate molecules in space or time based purely on their weight."
+  },
+  {
+    "title": "The Power of Tandem MS (MS/MS) 🔨",
+    "ques": "Explain the concept of **Tandem MS** (MS/MS) and why it is superior to a single mass spectrometry run for structural analysis.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Concept:** Tandem MS involves linking two mass analyzers together, separated by a collision chamber.\n* **The Process:** \n    1. The first analyzer selects only one specific, intact 'parent' ion out of a complex mixture and throws everything else away.\n    2. This parent ion is fired into a collision chamber filled with inert gas, where it crashes and shatters into smaller 'daughter' fragments (Collision-Induced Dissociation).\n    3. The second analyzer measures the masses of these fragments.\n* **The Superiority:** It provides complete structural sequencing of a specific molecule even if it is buried inside a dirty, complex mixture, acting as both a separation tool and an analytical tool simultaneously."
+    },
+    "explanation": "Tandem MS is the ultimate tool for decoding structures, allowing researchers to pick out a single molecule from a crowd and systematically tear it apart to see how it was built."
+  },
+  {
+    "title": "Mass Spec in Proteomic Applications 🧬",
+    "ques": "How is Tandem MS utilized in 'bottom-up' **proteomic applications** to identify unknown proteins in a biological sample?",
+    "answer": {
+      "type": "text",
+      "content": "* **The Preparation:** The unknown proteins are first chemically digested into shorter peptide chains using an enzyme like trypsin.\n* **The MS Analysis:** These peptides are run through Tandem MS (MS/MS). The instrument shatters the peptides and records the mass of every fragment. Because peptide bonds break in predictable ways, the resulting fragment masses act as a 'fingerprint' for the amino acid sequence of that specific peptide.\n* **The Identification:** Powerful software compares these experimental peptide fingerprints against a massive database of theoretically predicted fingerprints derived from the organism's genome, identifying the original protein with high confidence."
+    },
+    "explanation": "Mass spectrometry is the engine of modern proteomics, capable of identifying thousands of proteins in a cell simultaneously without the need for specific antibodies."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Navigating GenBank Resources 🧬",
+    "ques": "Describe what **GenBank** is and what type of information a researcher would expect to find in a standard GenBank record.",
+    "answer": {
+      "type": "text",
+      "content": "* **What it is:** GenBank is a massive, publicly available database maintained by the NCBI that houses an annotated collection of all publicly available DNA sequences.\n* **Record Contents:** A standard record includes the raw nucleotide sequence, but crucially, it also contains metadata (annotations). This includes the organism it came from, publications associated with the discovery, and feature annotations detailing exactly where the coding regions (exons), promoters, and untranslated regions are located within the sequence."
+    },
+    "explanation": "GenBank is the foundational repository of genetic data. Knowing how to read its records is a basic requirement for bioinformatics research."
+  },
+  {
+    "title": "Primary vs. Secondary Protein Databases 🥩",
+    "ques": "Explain the difference between a primary protein database (like UniProtKB/TrEMBL) and a secondary **protein database** (like PROSITE or Pfam).",
+    "answer": {
+      "type": "text",
+      "content": "* **Primary Databases:** These store the linear amino acid sequences themselves, often translated directly from genomic DNA data. They are comprehensive but can contain unverified, computationally predicted proteins.\n* **Secondary Databases:** These do not store raw sequences. Instead, they store the results of analyzing the primary databases. They contain identified patterns, motifs, and functional domains. Researchers use secondary databases to input an unknown sequence and figure out what protein family it belongs to or what function it might have."
+    },
+    "explanation": "Distinguishing between data storage (primary) and data analysis (secondary) databases helps researchers choose the right tool for identifying protein functions."
+  },
+  {
+    "title": "Data Mining in Genomics ⛏️",
+    "ques": "Define the concept of **data mining** in the context of genomics. Provide one example of how it is used.",
+    "answer": {
+      "type": "text",
+      "content": "* **Definition:** Data mining is the automated computational process of discovering patterns, correlations, and anomalies within massive genomic datasets that would be impossible to find manually.\n* **Example:** A researcher might use data mining tools to analyze the gene expression profiles (RNA-seq data) of thousands of tumor samples from a database. By mining this data, they might discover a previously unknown cluster of genes that are consistently overexpressed only in a specific, aggressive subtype of breast cancer."
+    },
+    "explanation": "With the explosion of sequencing data, biology has become a data science. Mining is how we extract actual biological knowledge from terabytes of raw A, T, C, and Gs."
+  },
+  {
+    "title": "Mastering Database Searching with BLAST 💥",
+    "ques": "Explain how the BLAST algorithm improves upon traditional dynamic programming methods for **database searching**.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Problem:** Using Needleman-Wunsch to compare one query sequence against the millions of sequences in GenBank would take days.\n* **The BLAST Solution:** BLAST (Basic Local Alignment Search Tool) uses a heuristic approach. Instead of aligning the whole sequence immediately, it breaks the query into short 'words'. It rapidly scans the database for exact matches to these short words. Only when it finds a solid word match does it pause and try to extend the alignment outward. This sacrifices a tiny bit of absolute accuracy for a massive increase in speed, making global database searches practical."
+    },
+    "explanation": "BLAST is arguably the most important software tool in modern biology. Understanding its speed-vs-accuracy tradeoff is vital for proper use."
+  }
+]

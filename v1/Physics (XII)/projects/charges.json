@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Coulomb's law applications",
+    "ques": "State **Coulomb's Law** of electrostatics.",
+    "answer": {
+      "type": "text",
+      "content": "**Coulomb's Law** states that the force of attraction or repulsion between two stationary point charges is directly proportional to the product of the magnitudes of the two charges and inversely proportional to the square of the distance between them.\n\n* **Formula:** F = k * (q1 * q2) / r^2"
+    },
+    "explanation": "This establishes the fundamental quantitative law governing the interaction of static electrical charges."
+  },
+  {
+    "title": "Electric field calculations",
+    "ques": "What is an **electric field line**? Give two important properties of these lines.",
+    "answer": {
+      "type": "text",
+      "content": "An **electric field line** is an imaginary curve drawn in an electric field such that the tangent to it at any point gives the direction of the net electric field at that point.\n\n* **Properties:**\n1.  They always start from positive charges and end at negative charges.\n2.  Two electric field lines can never intersect each other."
+    },
+    "explanation": "This introduces the visual and conceptual tool used to understand invisible electric forces."
+  },
+  {
+    "title": "Electric dipole moment",
+    "ques": "Define **Electric Dipole Moment**. Is it a scalar or a vector quantity?",
+    "answer": {
+      "type": "text",
+      "content": "**Electric Dipole Moment** (p) is defined as the product of the magnitude of either charge (q) of the dipole and the distance of separation (2a) between them. \n* **Formula:** p = q * 2a\n\nIt is a **vector quantity**, and its direction is conventionally taken from the negative charge to the positive charge."
+    },
+    "explanation": "This focuses on a specific arrangement of charges that is highly relevant in atomic physics and chemistry."
+  },
+  {
+    "title": "Gauss's law applications",
+    "ques": "What does **Gauss's Law** in electrostatics state?",
+    "answer": {
+      "type": "text",
+      "content": "**Gauss's Law** states that the total electric flux passing through any closed surface (Gaussian surface) is equal to 1/epsilon_0 times the net charge enclosed by that surface.\n\nThis law is extremely useful for calculating the electric field produced by highly symmetrical charge distributions."
+    },
+    "explanation": "This covers a powerful theorem linking charge geometry to the resulting electric field."
+  }
+]

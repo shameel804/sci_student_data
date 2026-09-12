@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Batch Fermentation Basics 🏭",
+    "ques": "Describe the standard phases of microbial growth (lag, log, stationary, death) as they occur in a typical **batch fermentation** process.",
+    "answer": {
+      "type": "text",
+      "content": "* **Lag Phase:** Microbes adapt to the new medium; little to no cell division occurs.\n* **Log (Exponential) Phase:** Cells divide at their maximum rate. This is when primary metabolites are often produced.\n* **Stationary Phase:** Nutrients deplete and toxic waste accumulates. Growth rate equals death rate. Secondary metabolites (like many antibiotics) are typically produced here.\n* **Death Phase:** Cells die off rapidly due to harsh conditions."
+    },
+    "explanation": "Understanding the growth curve is essential for timing the harvest of different types of microbial products in a closed system."
+  },
+  {
+    "title": "Continuous Fermentation Systems 🔄",
+    "ques": "Explain how a chemostat works in **continuous fermentation** and what its main advantage is over batch fermentation.",
+    "answer": {
+      "type": "text",
+      "content": "* **How it works:** Fresh nutrient medium is continuously added to the bioreactor, while an equal volume of the culture liquid (containing cells and products) is continuously removed.\n* **The Advantage:** It allows the operator to maintain the microbial population in a perpetual state of exponential (log) growth. This leads to a much higher, continuous yield of primary metabolites compared to the start-and-stop nature of batch processes."
+    },
+    "explanation": "Continuous systems represent the shift from simple batch brewing to highly efficient, ongoing industrial biomanufacturing."
+  },
+  {
+    "title": "The Fed-Batch Strategy ⚖️",
+    "ques": "Why might a biochemical engineer choose a **fed-batch process** over both batch and continuous processes for producing a specific secondary metabolite?",
+    "answer": {
+      "type": "text",
+      "content": "* **The Strategy:** A fed-batch process starts like a batch culture, but specific nutrients are periodically added as they are consumed, without removing any culture fluid.\n* **The Reason:** It allows for high cell densities (like continuous) while also allowing the operator to intentionally starve the cells of a specific nutrient later in the run. This controlled starvation triggers the stationary phase, which is exactly when cells start producing valuable secondary metabolites."
+    },
+    "explanation": "Fed-batch represents a hybrid approach, offering precise control over the metabolic state of the culture to maximize specific yields."
+  },
+  {
+    "title": "Process Optimization Techniques 📈",
+    "ques": "Discuss two critical environmental parameters that must be monitored and adjusted during **process optimization** in an industrial fermenter.",
+    "answer": {
+      "type": "text",
+      "content": "* **1. pH Level:** Microbial enzymes have strict pH optimums. As microbes grow and release metabolic acids or bases, the pH shifts. Buffers or automated acid/base pumps are required to keep the pH stable.\n* **2. Dissolved Oxygen (DO):** For aerobic fermentations, microbes quickly consume the available oxygen. Agitators (impellers) and spargers (air bubblers) must be optimized to ensure enough oxygen dissolves into the liquid medium to support high-density growth without causing excessive foaming."
+    },
+    "explanation": "Biology in a flask is simple; scaling it up to industrial levels requires rigorous engineering and continuous environmental control."
+  }
+]

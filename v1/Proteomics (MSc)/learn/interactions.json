@@ -1,127 +1,149 @@
 {
-    "id": "interactions",
+    "id": "learn_interactions",
     "topicId": "interactions",
     "topicTitle": "Protein Interactions",
-    "description": "Examine Yeast two-hybrid, Co-immunoprecipitation, Surface plasmon resonance, and interactome mapping.",
-    "baseKP": 75,
+    "description": "Learn the techniques used to study how proteins interact with each other, including yeast two-hybrid, Co-IP, arrays, and network analysis.",
+    "baseKP": 90,
     "slides": [
         {
-            "id": "int_1",
+            "id": "interactions_1",
             "type": "content",
             "title": "Welcome to Protein Interactions",
-            "content": "# Protein Interactions\n\nWelcome to the study of **Protein-Protein Interactions (PPIs)**!\n\n## What You Will Learn:\n- **Yeast two-hybrid** - The genetic bait and prey\n- **Co-immunoprecipitation** - Pulling proteins from the crowd\n- **Surface plasmon resonance** - Watching them bind in real time\n- **Interactome mapping** - The social network of the cell\n\nProteins rarely work alone; they form massive, dynamic complexes to keep you alive."
+            "content": "# Protein-Protein Interactions (PPIs)\n\nWelcome to Protein Interactions!\n\nProteins rarely act alone. They form complexes, machines, and signaling networks. Understanding these interactions is crucial to understanding cellular function.\n\n## What You Will Learn:\n- **Yeast Two-Hybrid (Y2H)**: A genetic screen for interactions.\n- **Co-Immunoprecipitation (Co-IP)**: A biochemical pull-down method.\n- **Protein Arrays**: High-throughput screening.\n- **Network Analysis**: Making sense of the \"Interactome\"."
         },
         {
-            "id": "int_2",
+            "id": "interactions_2",
             "type": "content",
-            "title": "The Social Network",
-            "content": "# The Cellular Social Network\n\nIf the genome is the dictionary of the cell, the **Interactome** is the conversation.\n\nTo understand a disease, you must understand which proteins are \"talking\" to each other. For example, if Protein A normally binds to Protein B to stop a tumor from growing, a mutation that breaks their interaction can cause cancer.\n\nWe need tools to detect these microscopic handshakes."
+            "title": "Why Study PPIs?",
+            "content": "# The Importance of PPIs\n\nWhy do we care which proteins bind to each other?\n\n1. **Inferring Function**: If an unknown protein interacts with three known proteins involved in DNA repair, the unknown protein is likely also involved in DNA repair (Guilt by Association).\n2. **Drug Targets**: Disrupting specific protein-protein interactions (e.g., between a viral protein and a host receptor) is a major goal of modern drug design.\n3. **System Level Understanding**: Moving from studying single genes to understanding the entire molecular machinery of the cell."
         },
         {
-            "id": "int_3",
+            "id": "interactions_3",
             "type": "content",
-            "title": "The Yeast Two-Hybrid System",
-            "content": "# The Yeast Two-Hybrid (Y2H) System\n\nInvented in 1989, Y2H is a brilliant genetic trick used to discover if two proteins bind together *inside* a living cell.\n\n## The Transcription Factor:\nIt relies on a special protein (a transcription factor) that turns on a reporter gene. This factor has two parts: a DNA-Binding Domain (DBD) and an Activation Domain (AD).\n\nIf you physically separate the DBD and the AD, the gene stays OFF. They must be physically close to work."
+            "title": "Yeast Two-Hybrid (Y2H) Basics",
+            "content": "# Yeast Two-Hybrid (Y2H) Screen\n\nY2H is a genetic technique used *in vivo* (in living yeast cells) to discover PPIs.\n\n## The Principle:\nIt exploits transcription factors (like GAL4), which have two modular domains:\n1. **DNA-Binding Domain (BD)**: Binds to the promoter DNA.\n2. **Activation Domain (AD)**: Recruits RNA polymerase to start transcription.\n\n> **The Trick**: The BD and AD can be physically separated. Transcription ONLY occurs if they are brought close together again."
         },
         {
-            "id": "int_4",
+            "id": "interactions_4",
             "type": "content",
-            "title": "Bait and Prey",
-            "content": "# The Bait and Prey\n\n## The Setup:\n1. You fuse your Protein of Interest to the DBD. This is the **Bait**.\n2. You fuse a mystery protein to the AD. This is the **Prey**.\n\n## The Result:\nIf the Bait protein and the Prey protein naturally bind to each other, they drag the DBD and the AD together! The transcription factor is reassembled, the reporter gene turns ON (usually making the yeast turn blue or survive on toxic media), proving the proteins interacted!"
+            "title": "How Y2H Works",
+            "content": "# The Y2H Mechanism\n\n## The Setup:\n- **Bait**: Your protein of interest is fused to the DNA-Binding Domain (BD).\n- **Prey**: A library of other proteins is fused to the Activation Domain (AD).\n\n## The Test:\n- If the Bait and Prey proteins interact, the BD and AD are brought together.\n- This reconstitutes a functional transcription factor.\n- A **Reporter Gene** (e.g., a gene for amino acid synthesis or a color-changing enzyme) is turned on.\n\n> **Result**: Yeast colonies will only grow on selective plates (or turn blue) if an interaction occurred!"
         },
         {
-            "id": "int_5",
-            "type": "content",
-            "title": "Pros and Cons of Y2H",
-            "content": "# Analyzing Y2H\n\n## The Advantages:\n- It happens inside a living cell (in vivo), which is more natural than a test tube.\n- You can screen millions of \"Prey\" proteins simultaneously against one \"Bait\" to discover entirely unknown interactions.\n\n## The Disadvantages:\n- Yeast cells are not human cells. Human proteins might not fold correctly in yeast.\n- It forces the interaction to happen in the nucleus (where the DNA is), which is bad if your proteins normally only interact at the cell membrane."
-        },
-        {
-            "id": "int_6",
+            "id": "interactions_quiz_1",
             "type": "quiz",
-            "title": "Yeast Two-Hybrid Quiz",
-            "content": "Test your knowledge of the bait and prey system.",
-            "quizQuestion": "In a Yeast Two-Hybrid assay, what specifically causes the reporter gene to turn ON?",
+            "title": "Y2H Quiz",
+            "content": "Test your Y2H knowledge.",
+            "quizQuestion": "In a Yeast Two-Hybrid assay, what triggers the transcription of the reporter gene?",
             "quizOptions": [
-                "The yeast cell is exposed to UV light",
-                "The Bait protein and Prey protein physically bind to each other, bringing the two halves of the transcription factor together",
-                "A virus infects the yeast",
-                "The proteins fail to interact, leaving the DNA exposed"
-            ],
-            "correctOptionIndex": 1
-        },
-        {
-            "id": "int_7",
-            "type": "content",
-            "title": "Co-Immunoprecipitation",
-            "content": "# Co-Immunoprecipitation (Co-IP)\n\nWhat if you want to find interactions happening natively inside human cells?\n\n## The Concept:\n**Immunoprecipitation (IP)** uses a highly specific antibody to grab a single target protein out of a soup of millions of crushed-up cell proteins.\n\n**Co-Immunoprecipitation** is when the antibody grabs the target protein, and *accidentally* drags along any other proteins that were physically bound to the target!"
-        },
-        {
-            "id": "int_8",
-            "type": "content",
-            "title": "The Co-IP Process",
-            "content": "# How to do a Co-IP\n\n1. **Lysis:** Gently burst open the human cells, keeping protein complexes intact.\n2. **The Hook:** Add an antibody designed to bind only to Protein A. The antibody is attached to a heavy, magnetic microscopic bead.\n3. **Pull Down:** Use a magnet to pull the beads to the bottom of the tube. Wash away the millions of unbound junk proteins.\n4. **Analysis:** If Protein B is found stuck to the beads alongside Protein A, they must interact!"
-        },
-        {
-            "id": "int_9",
-            "type": "content",
-            "title": "Surface Plasmon Resonance",
-            "content": "# Surface Plasmon Resonance (SPR)\n\nY2H and Co-IP only tell you \"Yes\" or \"No.\" What if you want to know exactly how *fast* they bind, and how *tightly* they hold on?\n\n## The Real-Time Tracker:\n**SPR** (often sold under the brand name Biacore) measures protein binding kinetics in real-time, without using any chemical labels or dyes."
-        },
-        {
-            "id": "int_10",
-            "type": "content",
-            "title": "How SPR Works",
-            "content": "# The Physics of SPR\n\n1. **The Chip:** Protein A is permanently glued to an ultra-thin film of gold.\n2. **The Laser:** A laser is bounced off the back of the gold film. The angle of the reflected light is incredibly sensitive to the mass on the front of the gold.\n3. **The Flow:** Liquid containing Protein B is flowed over the gold.\n4. **The Signal:** As Protein B binds to Protein A, the mass on the gold increases, slightly shifting the angle of the reflected laser. The machine records this shift in real-time!"
-        },
-        {
-            "id": "int_11",
-            "type": "content",
-            "title": "Kinetics and Affinity",
-            "content": "# What SPR Tells Us\n\nBy watching the laser shift curve, you learn three critical things:\n\n1. **Association Rate (on-rate):** How fast does Protein B latch onto Protein A?\n2. **Dissociation Rate (off-rate):** When you wash the chip with clean water, how fast does Protein B fall off?\n3. **Affinity (Kd):** Calculated from the on/off rates, this tells you the overall strength of the interaction. Crucial for designing drugs that must bind tightly!"
-        },
-        {
-            "id": "int_12",
-            "type": "quiz",
-            "title": "SPR Quiz",
-            "content": "Verify your understanding of binding kinetics.",
-            "quizQuestion": "What is the primary advantage of Surface Plasmon Resonance (SPR) over Co-IP?",
-            "quizOptions": [
-                "SPR is much cheaper",
-                "SPR occurs inside a living yeast cell",
-                "SPR provides real-time data on exactly how fast and how tightly the proteins bind",
-                "SPR uses magnetic beads to pull proteins out of a solution"
+                "The addition of a specific chemical substrate to the yeast media",
+                "The Bait protein acting as an enzyme",
+                "The physical interaction between the Bait and Prey proteins bringing the BD and AD domains together",
+                "The DNA-Binding Domain acting alone"
             ],
             "correctOptionIndex": 2
         },
         {
-            "id": "int_13",
+            "id": "interactions_5",
             "type": "content",
-            "title": "Interactome Mapping",
-            "content": "# Mapping the Interactome\n\nUsing high-throughput Y2H and massive Mass Spectrometry pipelines, scientists are trying to map every single protein interaction in the human body.\n\n## The Network:\nThis creates a map that looks like a tangled hairball or a massive airline route map. \n\nEach protein is a \"node,\" and each interaction is an \"edge.\""
+            "title": "Pros and Cons of Y2H",
+            "content": "# Evaluating Y2H\n\n## Advantages:\n- **In vivo**: Interactions happen in a living eukaryotic cell.\n- **High-throughput**: Can screen libraries of thousands of proteins simultaneously to find unknown interactors.\n- **Scalable**: Has been used to map entire species' interactomes.\n\n## Disadvantages:\n- **False Positives**: Proteins that normally never meet (e.g., one in mitochondria, one in nucleus) might interact if forced together in the yeast nucleus.\n- **False Negatives**: Proteins requiring specific mammalian PTMs (which yeast lack) may fail to interact.\n- Must take place in the nucleus (hard for membrane proteins)."
         },
         {
-            "id": "int_14",
+            "id": "interactions_6",
             "type": "content",
-            "title": "Hubs and Bottlenecks",
-            "content": "# Network Biology\n\nWhen we analyze the interactome, we find it is not random. It is a \"scale-free\" network (just like the Internet or the human social network).\n\n## Hub Proteins:\nMost proteins only have 1 or 2 connections. But a few rare proteins (like p53) have hundreds of connections. These are \"Hubs.\"\n\nIf a virus or a mutation destroys a node with 1 connection, the cell is fine. If a mutation destroys a Hub, the entire cellular network crashes, usually leading to disease or death."
+            "title": "Co-Immunoprecipitation (Co-IP)",
+            "content": "# Co-Immunoprecipitation (Co-IP)\n\nCo-IP is the \"Gold Standard\" biochemical method to prove two proteins interact in their native state.\n\n## The Principle:\nIf you use an antibody to pull a specific protein out of a cell lysate, any *other* proteins bound to it will be pulled out too.\n\n## The Workflow:\n1. **Lysis**: Break open cells gently to preserve interactions.\n2. **Incubation**: Add an antibody specific to Protein A.\n3. **Capture**: Use heavy beads (e.g., Protein G agarose) that bind to the antibodies to pull them to the bottom of a tube via centrifugation.\n4. **Wash**: Wash away unbound proteins.\n5. **Analysis**: Use Western Blot or Mass Spec to see if Protein B was pulled down along with Protein A."
         },
         {
-            "id": "int_15",
+            "id": "interactions_7",
             "type": "content",
-            "title": "Disease Modules",
-            "content": "# Disease Modules\n\nProteins that are involved in the same disease tend to physically interact with each other, forming local neighborhoods or \"Disease Modules\" in the network.\n\n## The Predictive Power:\nIf we map the interactome, and we find a brand new, unknown protein that physically interacts with 10 proteins known to cause Alzheimer's disease... there is a very high probability that the new protein is also involved in Alzheimer's! This speeds up drug discovery."
+            "title": "Affinity Purification Mass Spec (AP-MS)",
+            "content": "# AP-MS: The Discovery Engine\n\nClassic Co-IP requires you to know what Protein B you are looking for (to use the right Western Blot antibody). What if you want to discover *new* interactors?\n\n## AP-MS Workflow:\n- Perform an affinity purification (like a Co-IP, or using an epitope tag like FLAG-tag on your Bait protein).\n- Instead of a Western blot, digest the entire pulled-down complex with trypsin.\n- Run the sample through an LC-MS/MS system.\n\n> **Power**: MS will identify all the proteins in the complex, allowing for unbiased discovery of novel interactors in mammalian cell lines."
         },
         {
-            "id": "int_16",
-            "type": "content",
-            "title": "Summary of Protein Interactions",
-            "content": "# Interactions Summary\n\n## Key Takeaways:\n- **Yeast Two-Hybrid (Y2H)** uses a split transcription factor to test if \"Bait\" and \"Prey\" proteins bind inside a living cell.\n- **Co-Immunoprecipitation (Co-IP)** uses antibodies and magnets to pull native protein complexes out of human cells.\n- **Surface Plasmon Resonance (SPR)** bounces lasers off gold chips to measure the exact speed and strength (kinetics) of binding in real-time.\n- **Interactome Mapping** reveals the social network of the cell, highlighting critical \"Hub\" proteins that are essential for life."
+            "id": "interactions_quiz_2",
+            "type": "quiz",
+            "title": "Co-IP Quiz",
+            "content": "Check your Co-IP understanding.",
+            "quizQuestion": "In Co-Immunoprecipitation, what is used to specifically target and 'pull down' the primary protein of interest from the cell lysate?",
+            "quizOptions": [
+                "A DNA-Binding Domain",
+                "A specific Antibody",
+                "Mass Spectrometry",
+                "A Reporter Gene"
+            ],
+            "correctOptionIndex": 1
         },
         {
-            "id": "int_17",
+            "id": "interactions_8",
             "type": "content",
-            "title": "Module Complete",
-            "content": "# Congratulations!\n\nYou have completed the Protein Interactions module.\n\nYou now know how to decipher the complex communication networks inside every cell."
+            "title": "Protein Microarrays",
+            "content": "# Protein Microarrays\n\nProtein microarrays allow for rapid, high-throughput screening of thousands of proteins on a small glass slide.\n\n## The Concept:\n- Thousands of purified proteins are \"printed\" as microscopic spots on a glass slide in a grid pattern.\n- You know exactly which protein is in which spot.\n\n## PPI Screening:\n- You wash the array with a fluorescently labeled probe protein.\n- If the probe interacts with a protein on the array, the spot will glow.\n- A laser scanner reads the slide to identify the binding partners."
+        },
+        {
+            "id": "interactions_9",
+            "type": "content",
+            "title": "Applications of Arrays",
+            "content": "# What can we do with Protein Arrays?\n\nProtein arrays are incredibly versatile beyond just PPIs.\n\n## 1. Protein-Small Molecule Interactions:\nScreen drugs against thousands of human proteins to test for off-target binding effects.\n\n## 2. Protein-DNA/RNA Interactions:\nFind which transcription factors bind to a specific DNA promoter sequence.\n\n## 3. Autoantibody Screening:\nPrint human proteins on an array, then wash with a patient's blood serum. If the patient has an autoimmune disease, their autoantibodies will bind to specific spots, helping diagnose the exact disease."
+        },
+        {
+            "id": "interactions_10",
+            "type": "content",
+            "title": "Proximity Labeling (BioID/APEX)",
+            "content": "# Proximity Labeling\n\nA modern alternative to Co-IP for mapping interactions in living cells.\n\n## The Problem with Co-IP:\nTransient or weak interactions often break apart when you lyse the cell.\n\n## The BioID Solution:\n- Fuse your Bait protein to a promiscuous biotin ligase enzyme.\n- In the living cell, this enzyme stamps a \"biotin\" tag onto any protein that comes within a few nanometers of your Bait.\n- You can then lyse the cells using harsh detergents (breaking all complexes) and pull down all the biotin-tagged proteins using streptavidin beads.\n\n> **Result**: A \"history\" of all proteins that came near your Bait protein while the cell was alive!"
+        },
+        {
+            "id": "interactions_quiz_3",
+            "type": "quiz",
+            "title": "Advanced Techniques Quiz",
+            "content": "Test your knowledge on arrays and proximity labeling.",
+            "quizQuestion": "Which technique allows you to capture a 'history' of weak or transient interactions by chemically tagging neighboring proteins in living cells?",
+            "quizOptions": [
+                "Proximity Labeling (BioID)",
+                "Protein Microarrays",
+                "Co-Immunoprecipitation",
+                "Yeast Two-Hybrid"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "interactions_11",
+            "type": "content",
+            "title": "The Interactome",
+            "content": "# The Interactome\n\nThe **Interactome** is the complete set of molecular interactions in a particular cell or organism.\n\n## Network Theory:\nWe visualize the interactome using graphs:\n- **Nodes**: Represent the proteins.\n- **Edges (lines)**: Represent the physical interactions between them.\n\n## Scale-Free Networks:\nBiological networks are typically \"scale-free\". This means they are not randomly distributed. Most proteins have very few interactions, but a small number of proteins have a massive number of interactions."
+        },
+        {
+            "id": "interactions_12",
+            "type": "content",
+            "title": "Network Hubs",
+            "content": "# Hub Proteins\n\nThose few highly connected proteins are called **Hubs**.\n\n## Characteristics of Hubs:\n- **Essentiality**: Deleting a hub protein is usually lethal to the cell (Centrality-Lethality rule).\n- **Disease Links**: Mutations in hub proteins are frequently linked to diseases (like cancer - e.g., p53 is a major hub).\n- **Bottlenecks**: Hubs act to connect different functional modules (e.g., connecting a signaling pathway to the transcription machinery).\n\n> **Analogy**: If the interactome is an airline network, most proteins are small regional airports, but Hubs are major hubs like JFK or Heathrow."
+        },
+        {
+            "id": "interactions_13",
+            "type": "content",
+            "title": "Analyzing Networks",
+            "content": "# Making Sense of Networks\n\nBioinformatics tools (like Cytoscape) are used to analyze these massive hairball networks.\n\n## Key Analysis Types:\n1. **Clustering**: Finding densely connected sub-networks (cliques). These often represent functional protein complexes (e.g., the proteasome).\n2. **Gene Ontology (GO) Enrichment**: If you find a cluster, you analyze the known functions of the genes. If 80% of them are involved in \"ribosome biogenesis,\" you can infer the function of the uncharacterized proteins in that cluster.\n3. **Pathway Mapping**: Overlaying interaction data onto known metabolic or signaling pathways."
+        },
+        {
+            "id": "interactions_quiz_4",
+            "type": "quiz",
+            "title": "Network Quiz",
+            "content": "Check your understanding of interactome networks.",
+            "quizQuestion": "In a protein interaction network, what term describes highly connected proteins that are often essential for cell survival?",
+            "quizOptions": [
+                "Nodes",
+                "Edges",
+                "Modules",
+                "Hubs"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "interactions_14",
+            "type": "content",
+            "title": "Module Summary",
+            "content": "# Protein Interactions Summary\n\n## Key Takeaways:\n- **Y2H**: Genetic *in vivo* screen using split transcription factors (Bait/Prey).\n- **Co-IP & AP-MS**: Biochemical pull-downs using antibodies to find native complexes; paired with MS for unbiased discovery.\n- **Arrays**: High-throughput printing of proteins for rapid screening of interactions or autoantibodies.\n- **Proximity Labeling (BioID)**: Tags neighboring proteins in living cells to catch transient interactions.\n- **Network Analysis**: Visualizing the interactome to find functional modules and critical \"Hub\" proteins.\n\n> **Congratulations!** You have completed the Protein Interactions module."
         }
     ]
 }

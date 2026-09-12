@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Understanding ADME Properties",
+    "ques": "What do the letters in the acronym **ADME properties** stand for in pharmacology, and why are they critical?",
+    "answer": {
+      "type": "text",
+      "content": "ADME stands for **Absorption, Distribution, Metabolism, and Excretion**. They are critical because they dictate what the body does to the drug. A drug can be perfectly potent in a test tube, but if it is not absorbed into the blood, cannot distribute to the target tissue, is instantly metabolized, or cannot be excreted, it will be useless or highly toxic in a patient."
+    },
+    "explanation": "ADME profiling is the filter that eliminates the vast majority of promising lead compounds during drug development."
+  },
+  {
+    "title": "Toxicity Assessment Principles",
+    "ques": "What is the primary goal of acute vs. chronic **Toxicity assessment** during preclinical testing?",
+    "answer": {
+      "type": "text",
+      "content": "* **Acute toxicity:** Determines the immediate, short-term effects of a single, high dose of the drug (e.g., to find the lethal dose or maximum tolerated dose).\n* **Chronic toxicity:** Determines the long-term effects of repeated, lower doses over an extended period (months to years), looking for cumulative damage to organs (like the liver or kidneys) or cancer-causing potential."
+    },
+    "explanation": "Safety is always the primary concern before a drug is ever given to a human."
+  },
+  {
+    "title": "Formulation Development",
+    "ques": "Give one example of how **Formulation development** can improve the delivery of a drug that is easily destroyed by stomach acid.",
+    "answer": {
+      "type": "text",
+      "content": "Formulation scientists can create an enteric coating for the pill. This specialized polymer coating is designed to remain intact in the highly acidic environment of the stomach, protecting the drug inside. Once the pill moves into the more alkaline environment of the small intestine, the coating dissolves, releasing the drug where it can be safely absorbed."
+    },
+    "explanation": "Formulation is the science of turning the active chemical ingredient into a usable, effective medicine."
+  },
+  {
+    "title": "Clinical Trial Design Phases",
+    "ques": "Describe the main objective of Phase I in a standard **Clinical trial design**.",
+    "answer": {
+      "type": "text",
+      "content": "The main objective of a Phase I clinical trial is to evaluate the safety and dosage of the new drug in humans for the very first time. It is typically conducted on a small group (20-100) of healthy volunteers to determine the safe dosage range and identify any severe side effects, rather than testing if the drug actually cures the disease."
+    },
+    "explanation": "Phase I is purely about safety; efficacy is evaluated in Phases II and III."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The Yeast Two-Hybrid System",
+    "ques": "Explain the basic principle of how the **Yeast two-hybrid** system detects a physical interaction between two proteins (the 'bait' and the 'prey').",
+    "answer": {
+      "type": "text",
+      "content": "The system exploits a transcription factor that is split into a DNA-binding domain (attached to the 'bait' protein) and an activation domain (attached to the 'prey' protein). If the bait and prey proteins physically interact in the yeast cell, they bring the two halves of the transcription factor together. This reconstituted complex binds to DNA and activates a reporter gene (like causing the yeast to turn blue or survive on specific media), indicating an interaction."
+    },
+    "explanation": "Y2H is a powerful genetic trick to visualize protein-protein interactions inside a living cell."
+  },
+  {
+    "title": "Co-immunoprecipitation (Co-IP)",
+    "ques": "How does **Co-immunoprecipitation** differ from a standard immunoprecipitation, and what does it tell you about a protein complex?",
+    "answer": {
+      "type": "text",
+      "content": "Standard IP uses an antibody to pull a single specific target protein out of a solution. Co-IP uses an antibody targeting Protein A, but the conditions are kept mild so that any other proteins physically bound to Protein A (e.g., Protein B) are pulled out of the solution along with it. Detecting Protein B in the final precipitate proves it forms a complex with Protein A in the natural cell lysate."
+    },
+    "explanation": "Co-IP is the gold standard for confirming that an interaction identified in screens actually occurs in a biological context."
+  },
+  {
+    "title": "Applications of Protein Arrays",
+    "ques": "Describe one major advantage of using **Protein arrays** (microarrays) for studying protein interactions compared to Co-IP.",
+    "answer": {
+      "type": "text",
+      "content": "Protein arrays involve printing thousands of different, purified proteins onto a small glass slide. The major advantage is high-throughput multiplexing. A researcher can flow a single labeled 'query' protein over the slide and simultaneously test its interaction with thousands of potential binding partners in a single experiment, which would be impossible to do one-by-one with Co-IP."
+    },
+    "explanation": "Arrays allow for the rapid discovery of novel interaction networks across the entire proteome."
+  },
+  {
+    "title": "Network Analysis in Systems Biology",
+    "ques": "In the context of protein **Network analysis**, what is a 'hub' protein, and why are mutations in hub proteins often highly detrimental to the cell?",
+    "answer": {
+      "type": "text",
+      "content": "A 'hub' protein is a node in a protein interaction network that has a very high number of connections (interactions) with other proteins. Because they are central to so many different pathways and complexes, a mutation that disables a hub protein usually causes systemic failure of multiple cellular processes, often leading to cell death or severe disease."
+    },
+    "explanation": "Network analysis helps shift focus from individual proteins to understanding the robust architecture of cellular systems."
+  }
+]

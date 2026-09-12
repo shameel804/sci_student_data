@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Understanding Secondary Structure 🧬",
+    "ques": "Describe the two most common types of protein **secondary structure** and explain the type of chemical bonding that stabilizes them.",
+    "answer": {
+      "type": "text",
+      "content": "* **Types:** The most common structures are the **alpha helix** (a coiled spring shape) and the **beta-pleated sheet** (strands lying side-by-side like a folded fan).\n* **Stabilization:** Both of these structures are stabilized entirely by **hydrogen bonds** that form between the oxygen and nitrogen atoms of the polypeptide backbone itself, independent of the variable side chains (R-groups)."
+    },
+    "explanation": "Secondary structure is the first level of 3D folding, driven by the inherent geometry of the peptide bond backbone."
+  },
+  {
+    "title": "Forces Driving Tertiary Structure 🧶",
+    "ques": "Explain how the hydrophobic effect and disulfide bridges contribute to the final 3D **tertiary structure** of a globular protein.",
+    "answer": {
+      "type": "text",
+      "content": "* **Hydrophobic Effect:** In an aqueous cellular environment, amino acids with nonpolar (hydrophobic) side chains are repelled by water. They pack tightly together into the interior core of the protein, driving the overall folding process.\n* **Disulfide Bridges:** These are strong, covalent bonds that form between two cysteine amino acids located in different parts of the polypeptide chain. They act like molecular 'staples', locking the folded tertiary structure firmly in place."
+    },
+    "explanation": "Tertiary structure determines the precise shape of the active site; understanding the forces that mold this shape is crucial for structural biology."
+  },
+  {
+    "title": "The Logic of Homology Modeling 📐",
+    "ques": "Describe the basic premise of **homology modeling** for protein structure prediction.",
+    "answer": {
+      "type": "text",
+      "content": "* **Premise:** During evolution, a protein's 3D structure is conserved much more strongly than its underlying amino acid sequence. \n* **How it works:** If you have an unknown protein sequence, you search a database for a related sequence (a homolog) that already has a known, experimentally determined 3D structure (the template). Because they are related, you can computationally thread your unknown sequence onto the 3D backbone of the template, creating a highly accurate predicted model of your unknown protein."
+    },
+    "explanation": "Homology modeling is the most reliable computational method for predicting structure, relying on the evolutionary principle that form follows function."
+  },
+  {
+    "title": "Ab Initio Structure Prediction 🧠",
+    "ques": "Contrast homology modeling with *ab initio* (de novo) **structure prediction**. Why is *ab initio* so computationally difficult?",
+    "answer": {
+      "type": "text",
+      "content": "* **Contrast:** While homology relies on copying an existing template, *ab initio* prediction attempts to calculate the 3D structure from scratch, using only the amino acid sequence and the laws of physics and thermodynamics.\n* **Difficulty:** The difficulty lies in Levinthal's paradox. Even a small protein has an astronomical number of possible ways it could fold. Calculating the energy state for every single possible conformation to find the most stable one requires immense, often prohibitive, computational power."
+    },
+    "explanation": "While AI like AlphaFold has revolutionized this field, understanding the underlying thermodynamic challenge of *ab initio* folding highlights the complexity of proteins."
+  }
+]

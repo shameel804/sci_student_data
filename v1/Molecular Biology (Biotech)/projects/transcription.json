@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The Role of RNA Polymerase ✍️",
+    "ques": "Describe the primary function of **RNA polymerase** during transcription and explain how it differs from DNA polymerase.",
+    "answer": {
+      "type": "text",
+      "content": "* **Function:** RNA polymerase is the main enzyme that synthesizes a messenger RNA (mRNA) transcript from a DNA template. It unwinds a short segment of DNA and builds the RNA strand.\n* **Difference:** Unlike DNA polymerase, RNA polymerase does not require a primer to initiate synthesis, and it incorporates Uracil (U) instead of Thymine (T) when pairing with Adenine in the DNA template."
+    },
+    "explanation": "RNA polymerase is the core driver of transcription, converting stable DNA archives into transient RNA messages."
+  },
+  {
+    "title": "Initiation and Transcription Factors 🚦",
+    "ques": "Explain the role of the promoter region and **transcription factors** in initiating the transcription process in eukaryotes.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Promoter:** A specific DNA sequence located upstream of a gene that signals where transcription should begin.\n* **Transcription Factors:** In eukaryotes, RNA polymerase cannot bind to the promoter on its own. It requires a complex of proteins called general transcription factors to bind to the promoter first. Once these factors assemble, they recruit RNA polymerase to form the transcription initiation complex, allowing transcription to start."
+    },
+    "explanation": "Transcription initiation is heavily regulated; it requires specific recognition sequences and helper proteins to begin the process accurately."
+  },
+  {
+    "title": "Eukaryotic RNA Processing ✂️",
+    "ques": "Detail the three major steps of **RNA processing** that a primary transcript (pre-mRNA) must undergo before leaving the eukaryotic nucleus.",
+    "answer": {
+      "type": "text",
+      "content": "* **1. 5-Prime Capping:** A modified guanine nucleotide is added to the 5-prime end. This protects the mRNA from degradation and helps ribosomes attach later.\n* **2. Poly-A Tail:** A long sequence of adenine nucleotides is added to the 3-prime end, aiding in export from the nucleus and providing stability.\n* **3. Splicing:** Non-coding sequences called **introns** are precisely cut out, and the coding sequences called **exons** are spliced (joined) together to form the continuous, mature coding sequence."
+    },
+    "explanation": "RNA processing is a crucial distinction between prokaryotic and eukaryotic molecular biology, adding layers of regulation and transcript diversity."
+  },
+  {
+    "title": "Complex Gene Regulation 🎛️",
+    "ques": "Discuss how **gene regulation** can be achieved at the transcriptional level using enhancers and repressor proteins.",
+    "answer": {
+      "type": "text",
+      "content": "* **Enhancers:** These are DNA sequences that can be located far away from the gene they regulate. Specific activator proteins bind to enhancers, causing the DNA to loop around and stimulate the transcription initiation complex, greatly increasing the transcription rate.\n* **Repressors:** These proteins bind to specific DNA sequences called silencers. They physically block RNA polymerase or prevent activator proteins from functioning, thereby decreasing or completely stopping transcription of the target gene."
+    },
+    "explanation": "Advanced gene regulation allows cells to respond dynamically to their environment by turning specific genes 'up' or 'down' rather than just 'on' or 'off'."
+  }
+]

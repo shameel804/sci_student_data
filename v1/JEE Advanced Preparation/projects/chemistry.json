@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Electrostatics Advanced",
+    "ques": "In **Electrostatics advanced**, describe the electric field strictly inside the material of a solid, ideal conductor that is in electrostatic equilibrium.",
+    "answer": {
+      "type": "text",
+      "content": "The electric field inside a solid, ideal conductor in electrostatic equilibrium is exactly zero everywhere. If it were not zero, the free electrons would instantly move until they reached the surface and rearranged themselves to exactly cancel out any internal field."
+    },
+    "explanation": "This property is what allows conducting materials to be used as Faraday cages to block external electric fields."
+  },
+  {
+    "title": "Magnetostatics Complex",
+    "ques": "Using Ampere's Law in **Magnetostatics complex**, what is the magnetic field exactly at the center axis of an infinitely long, straight wire carrying a steady current uniformly distributed across its cross-section?",
+    "answer": {
+      "type": "text",
+      "content": "The magnetic field exactly at the central axis is zero. While the field increases linearly from the center out to the surface of the wire, exactly at the center (radius = 0), the enclosed current loop is zero, so the magnetic field is zero."
+    },
+    "explanation": "The magnetic field exists in loops around the current; at the exact center, the loops cancel out."
+  },
+  {
+    "title": "EM Theory Applications",
+    "ques": "How do Maxwell's equations unify electricity and magnetism in **EM theory applications** to predict the existence of light?",
+    "answer": {
+      "type": "text",
+      "content": "Maxwell mathematically combined the laws of electricity and magnetism, adding a 'displacement current' term. His combined equations showed that a changing electric field creates a changing magnetic field, which in turn creates a changing electric field, and so on. This self-sustaining wave propagates through empty space at a specific speed, which perfectly matched the known speed of light, proving that light is an electromagnetic wave."
+    },
+    "explanation": "Maxwell's synthesis is one of the greatest achievements in the history of physics."
+  },
+  {
+    "title": "Wave Optics Advanced",
+    "ques": "In **Wave optics advanced**, explain why a thin film of oil on water creates a colorful rainbow pattern when illuminated by white light.",
+    "answer": {
+      "type": "text",
+      "content": "This is caused by thin-film interference. White light reflects off both the top surface of the oil and the bottom boundary between the oil and water. These two reflected waves interfere with each other. Because the film thickness varies slightly across the puddle, different wavelengths (colors) of light constructively or destructively interfere at different locations, separating the white light into colorful bands."
+    },
+    "explanation": "Interference provides direct evidence for the wave nature of light."
+  }
+]

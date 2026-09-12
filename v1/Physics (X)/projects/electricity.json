@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Ohm's law applications",
+    "ques": "State **Ohm's Law**. What is the mathematical relationship between Voltage (V), Current (I), and Resistance (R)?",
+    "answer": {
+      "type": "text",
+      "content": "**Ohm's Law** states that the potential difference (Voltage) across a metallic conductor is directly proportional to the current flowing through it, provided its temperature remains constant.\n\n* **Mathematical Relationship:** `V = I * R`"
+    },
+    "explanation": "This is the most fundamental law in basic circuit theory."
+  },
+  {
+    "title": "Series and parallel circuits",
+    "ques": "What happens to the **total resistance** when resistors are connected in series compared to when they are connected in parallel?",
+    "answer": {
+      "type": "text",
+      "content": "* **Series:** The total (equivalent) resistance **increases** (R_total = R1 + R2 + ...). It is greater than the largest individual resistance.\n* **Parallel:** The total (equivalent) resistance **decreases** (1/R_total = 1/R1 + 1/R2 + ...). It is smaller than the smallest individual resistance."
+    },
+    "explanation": "This contrasts the two primary ways components can be arranged in electrical circuits."
+  },
+  {
+    "title": "Electrical power calculation",
+    "ques": "Define **Electrical Power**. Write its formula in terms of Voltage (V) and Current (I).",
+    "answer": {
+      "type": "text",
+      "content": "**Electrical Power** is the rate at which electrical energy is dissipated or consumed in an electric circuit.\n\n* **Formula:** `P = V * I` (Power = Voltage multiplied by Current)."
+    },
+    "explanation": "This introduces the concept of power in the context of electricity, crucial for understanding appliance ratings."
+  },
+  {
+    "title": "Heating effect of current",
+    "ques": "State **Joule's Law of Heating**. Name two devices that work on this principle.",
+    "answer": {
+      "type": "text",
+      "content": "**Joule's Law of Heating** states that the heat (H) produced in a resistor is directly proportional to the square of the current (I), proportional to the resistance (R), and proportional to the time (t) for which the current flows. \n*(Formula: H = I^2 * R * t)*\n\n* **Devices:** Electric iron, electric toaster, electric heater."
+    },
+    "explanation": "This explores how electrical energy is converted into thermal energy, with practical examples."
+  }
+]

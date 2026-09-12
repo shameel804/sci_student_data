@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Distance and displacement",
+    "ques": "Explain the difference between **distance** and **displacement** with a simple example.",
+    "answer": {
+      "type": "text",
+      "content": "* **Distance** is the total length of the path traveled by an object, regardless of direction. It is a **scalar quantity**.\n* **Displacement** is the shortest straight-line distance from the initial to the final position of the object, along with its direction. It is a **vector quantity**.\n\n*Example:* If you walk 4 meters North and 3 meters East, your distance is 7 meters, but your displacement is 5 meters North-East (the straight line connecting start to finish)."
+    },
+    "explanation": "This exercise clarifies the fundamental difference between scalar (path-dependent) and vector (shortest-path) measurements of movement."
+  },
+  {
+    "title": "Uniform and accelerated motion",
+    "ques": "What is the difference between **uniform motion** and **uniformly accelerated motion**?",
+    "answer": {
+      "type": "text",
+      "content": "* **Uniform Motion:** An object moves in a straight line covering equal distances in equal intervals of time. Here, the velocity is constant, and acceleration is zero.\n* **Uniformly Accelerated Motion:** An object's velocity increases (or decreases) by equal amounts in equal intervals of time. Here, acceleration is constant but non-zero (e.g., a freely falling object)."
+    },
+    "explanation": "This tests the understanding of constant velocity versus constant acceleration, which are core concepts in kinematics."
+  },
+  {
+    "title": "Equations of motion",
+    "ques": "Write down the **three equations of motion** for an object moving with uniform acceleration.",
+    "answer": {
+      "type": "text",
+      "content": "The three equations of motion are:\n1.  **v = u + at**\n2.  **s = ut + (1/2)at^2**\n3.  **v^2 - u^2 = 2as**\n\n*(Where u = initial velocity, v = final velocity, a = acceleration, t = time, and s = displacement)*"
+    },
+    "explanation": "This requires recalling the standard algebraic tools used to solve kinematic problems."
+  },
+  {
+    "title": "Graphical representation",
+    "ques": "On a **velocity-time graph**, what does the area under the curve represent, and what does the slope of the line represent?",
+    "answer": {
+      "type": "text",
+      "content": "* The **area under the curve** of a velocity-time graph represents the **displacement** (or distance traveled) by the object.\n* The **slope** (or steepness) of the line represents the **acceleration** of the object."
+    },
+    "explanation": "This assesses the ability to interpret motion graphically, connecting geometry to physical quantities."
+  }
+]

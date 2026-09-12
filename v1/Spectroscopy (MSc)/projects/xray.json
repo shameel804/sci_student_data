@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The Challenge of Crystal Growth 💎",
+    "ques": "Why is **crystal growth** the most significant bottleneck in X-ray crystallography, especially for biological macromolecules like proteins?",
+    "answer": {
+      "type": "text",
+      "content": "* **The Requirement:** X-ray crystallography requires the molecules to be arranged in a massive, perfectly repeating, highly ordered 3D lattice (a crystal). This order is necessary so the X-rays diffract in a concentrated, readable pattern.\n* **The Biological Bottleneck:** Proteins evolved to float flexibly in water, not to stack rigidly like bricks. Forcing a highly flexible, complex protein to precipitate out of solution slowly enough to form a perfect crystal instead of useless amorphous dust relies heavily on trial and error, screening thousands of different chemical conditions (pH, salts, precipitants) often with no guarantee of success."
+    },
+    "explanation": "Crystallography is unparalleled in resolution, but it demands an unnatural physical state that many important biological molecules refuse to adopt."
+  },
+  {
+    "title": "Bragg's Law and Diffraction Theory 📐",
+    "ques": "Explain the role of Bragg's Law in the **diffraction theory** of X-ray crystallography. What physical relationship does it define?",
+    "answer": {
+      "type": "text",
+      "content": "* **The Setup:** When an X-ray beam hits a crystal, it bounces (diffracts) off the distinct parallel planes of atoms within the crystal lattice.\n* **Bragg's Law:** It states that strong, readable diffracted beams only occur at very specific angles where the X-rays bouncing off different planes remain perfectly in phase (constructive interference).\n* **The Relationship:** The mathematical equation of Bragg's Law directly relates the specific angle of the diffracted X-rays to the actual physical distance between the planes of atoms in the crystal, forming the mathematical foundation for calculating the molecular structure."
+    },
+    "explanation": "Bragg's Law is the mathematical bridge that allows scientists to convert the macroscopic angles of scattered light into microscopic atomic distances."
+  },
+  {
+    "title": "The Phase Problem in Structure Solution 🧩",
+    "ques": "Describe 'the phase problem' encountered during **structure solution** in crystallography. Why can't a computer just directly calculate the structure from the diffraction image?",
+    "answer": {
+      "type": "text",
+      "content": "* **The Nature of Light:** An X-ray wave has two properties: amplitude (brightness) and phase (where the peak of the wave is located at a given time).\n* **The Problem:** The detector (like photographic film or a digital sensor) only records the amplitude (intensity) of the diffracted X-ray spots. All information regarding the 'phase' of the waves is permanently lost the moment the image is taken.\n* **The Consequence:** Because calculating the 3D electron density map requires BOTH amplitude and phase, the structure cannot be directly computed. Crystallographers must use complex chemical tricks (like adding heavy metals to the crystal) or advanced statistics to mathematically guess or retrieve the missing phase information."
+    },
+    "explanation": "The phase problem is the central mathematical hurdle of crystallography. The data recorded is only half the information needed to solve the puzzle."
+  },
+  {
+    "title": "The Goal of Refinement Techniques 🔧",
+    "ques": "What is the purpose of structural **refinement techniques**, and what does the R-factor represent in this process?",
+    "answer": {
+      "type": "text",
+      "content": "* **The Purpose:** Once the phase problem is solved, you get a rough electron density map and build an initial 3D model of the molecule into it. Refinement is the computational process of making tiny adjustments to the atomic positions and thermal vibrations of that model to make it fit the experimental data as perfectly as possible.\n* **The R-factor:** The R-factor (Reliability factor) is a statistical metric of how well the theoretical diffraction pattern of your model matches the actual, experimental diffraction pattern recorded by the machine. A lower R-factor (typically below 0.20 for a good structure) means the model is a highly accurate representation of reality."
+    },
+    "explanation": "An initial structure is just a hypothesis; refinement is the rigorous statistical process of proving that the hypothesis fits the experimental evidence."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Basics of Cancer Immunology",
+    "ques": "Explain the concept of 'immunosurveillance' in **Cancer immunology**.",
+    "answer": {
+      "type": "text",
+      "content": "Immunosurveillance is the theory that the immune system constantly patrols the body to identify and eliminate newly arising cancerous or pre-cancerous cells before they can grow into a detectable tumor. Cancer only develops when malignant cells manage to evade this surveillance."
+    },
+    "explanation": "The immune system is our first line of defense against both pathogens and internal cellular corruption."
+  },
+  {
+    "title": "Overview of Immunotherapy Approaches",
+    "ques": "How does immunotherapy fundamentally differ from traditional chemotherapy as an **Immunotherapy approach** to treating cancer?",
+    "answer": {
+      "type": "text",
+      "content": "Traditional chemotherapy uses toxic chemicals to directly kill rapidly dividing cells (both cancerous and healthy). Immunotherapy, on the other hand, does not attack the tumor directly. Instead, it stimulates, enhances, or engineered the patient's own immune system to better recognize and destroy the cancer cells itself."
+    },
+    "explanation": "Immunotherapy shifts the weapon from external toxins to the body's natural defense mechanisms."
+  },
+  {
+    "title": "Mechanism of Checkpoint Inhibitors",
+    "ques": "Describe how **Checkpoint inhibitors** (like anti-PD-1 drugs) work to unleash the immune system against tumors.",
+    "answer": {
+      "type": "text",
+      "content": "T cells have 'checkpoint' proteins (like PD-1) that act as 'off switches' to prevent overactivation and autoimmunity. Tumors often exploit this by expressing the corresponding binding protein (PD-L1), effectively putting the attacking T cells to sleep. Checkpoint inhibitor drugs block this interaction, removing the brakes and allowing the T cells to remain active and destroy the tumor cells."
+    },
+    "explanation": "Checkpoint inhibitors do not create a new immune response; they remove the tumor-induced suppression of an existing one."
+  },
+  {
+    "title": "Engineering CAR-T Cell Therapy",
+    "ques": "Outline the basic steps involved in creating and administering **CAR-T cell therapy** for a patient.",
+    "answer": {
+      "type": "text",
+      "content": "1. **Extraction:** T cells are extracted from the patient's blood.\n2. **Engineering:** The T cells are genetically modified in a lab to express a Chimeric Antigen Receptor (CAR) on their surface that specifically recognizes a target on the patient's cancer cells.\n3. **Multiplication:** The engineered CAR-T cells are multiplied in the lab by the millions.\n4. **Infusion:** The massive army of cancer-specific CAR-T cells is infused back into the patient's bloodstream to seek and destroy the tumor."
+    },
+    "explanation": "CAR-T therapy represents the cutting edge of personalized, living cellular medicine."
+  }
+]

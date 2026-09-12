@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Understanding Stem Cell Types 🏗️",
+    "ques": "Differentiate between totipotent, pluripotent, and multipotent **stem cell types**, providing a brief biological example for each.",
+    "answer": {
+      "type": "text",
+      "content": "* **Totipotent:** Can form absolutely every cell type in a body, plus the extra-embryonic tissues (like the placenta). Example: The very early cells (blastomeres) of a 4-cell embryo.\n* **Pluripotent:** Can form any of the three germ layers (ectoderm, mesoderm, endoderm) and thus any cell in the adult body, but cannot form the placenta. Example: Embryonic Stem Cells (ESCs) taken from the inner cell mass of a blastocyst.\n* **Multipotent:** More restricted; can only form a closely related family of cells. Example: Hematopoietic stem cells in the bone marrow, which can form all blood cells but not muscle or nerve cells."
+    },
+    "explanation": "Stem cell potency dictates their potential utility in research and medicine. The more restricted the potency, the easier they are to control but the fewer tissues they can repair."
+  },
+  {
+    "title": "Navigating Differentiation Pathways 🛤️",
+    "ques": "Explain the role of transcription factors in guiding stem cell **differentiation pathways**.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Role:** Stem cells are essentially blank slates with access to the entire genome. Differentiation is the process of turning specific sets of genes 'on' and others 'off'.\n* **The Mechanism:** Transcription factors are proteins that enter the nucleus, bind to specific DNA sequences, and act as master switches. If a stem cell is exposed to signals that activate a specific 'muscle' transcription factor (like MyoD), that protein will force the cell down a one-way path, permanently activating muscle-specific genes and turning the cell into a muscle fiber."
+    },
+    "explanation": "Differentiation is entirely driven by gene expression. Transcription factors are the molecular steering wheels that determine a cell's final destination."
+  },
+  {
+    "title": "Promises of Regenerative Medicine 🦎",
+    "ques": "Describe the concept of Induced Pluripotent Stem Cells (iPSCs) and why they are considered a massive breakthrough in **regenerative medicine**.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Concept:** iPSCs are adult, fully differentiated cells (like a patient's own skin cells) that have been genetically 'reprogrammed' in the lab back into an embryonic-like, pluripotent state by artificially forcing the expression of specific master transcription factors.\n* **The Breakthrough:** They bypass the ethical concerns of using embryos. More importantly, because they are made from the patient's own body, any tissues grown from them (like new heart muscle) will be a perfect genetic match, completely eliminating the risk of immune rejection during transplantation."
+    },
+    "explanation": "iPSCs represent the Holy Grail of personalized medicine: unlimited, custom-matched replacement parts for the human body."
+  },
+  {
+    "title": "Challenges in Therapeutic Applications ⚕️",
+    "ques": "Discuss a major biological hurdle (aside from immune rejection) that must be overcome before stem cells can be widely used in routine **therapeutic applications**.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Hurdle (Tumorigenicity):** Pluripotent stem cells, by definition, have a massive capacity for rapid, uncontrolled division—a trait they share with cancer cells.\n* **The Danger:** If a batch of lab-grown stem cells intended to repair a spinal cord contains even a few cells that haven't fully differentiated and remain pluripotent, injecting them into a patient can lead to the formation of a teratoma (a chaotic tumor containing random tissues like hair, teeth, and bone). Ensuring 100% controlled differentiation before injection is a critical safety challenge."
+    },
+    "explanation": "The very power that makes stem cells useful—their ability to grow infinitely and turn into anything—is precisely what makes them biologically dangerous if not perfectly controlled."
+  }
+]

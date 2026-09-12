@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Principles of Chromatography 🧪",
+    "ques": "Briefly explain the separation principle behind **Affinity Chromatography (AC)** and **Ion Exchange Chromatography (IEX)**. Which method is typically used as the primary 'capture' step for monoclonal antibodies, and why?",
+    "answer": {
+      "type": "text",
+      "content": "* **Affinity Chromatography (AC):** Separates biomolecules based on a highly specific, reversible biological interaction between a target molecule (e.g., a protein) and a specific ligand attached to a solid support matrix.\n* **Ion Exchange Chromatography (IEX):** Separates biomolecules based on differences in their net surface charge. Proteins bind to a charged resin (anion or cation exchanger) and are eluted by changing the salt concentration or pH of the buffer.\n* **Capture Step for Antibodies:** **Affinity Chromatography** (specifically using Protein A resin) is almost universally used as the primary capture step for monoclonal antibodies. This is because Protein A has an extraordinarily high specificity for the Fc region of antibodies, allowing it to isolate the target protein from a complex mixture with very high purity and yield in a single step."
+    },
+    "explanation": "Chromatography is the workhorse of biomanufacturing. Understanding the fundamental mechanisms of AC and IEX is critical for designing an effective purification sequence."
+  },
+  {
+    "title": "Advanced Filtration Techniques 🧫",
+    "ques": "Compare and contrast **Normal Flow Filtration (NFF)** and **Tangential Flow Filtration (TFF)**. Describe a specific scenario in downstream processing where TFF is strongly preferred over NFF.",
+    "answer": {
+      "type": "text",
+      "content": "* **Normal Flow Filtration (NFF):** Fluid is directed perpendicularly through the filter membrane. As particles are trapped, a filter cake builds up, leading to fouling and a gradual decrease in flow rate over time. It is typically used for sterile filtration or clarifying fluids with low particulate loads.\n* **Tangential Flow Filtration (TFF):** Fluid is pumped parallel (tangentially) to the membrane surface. This sweeping action prevents the buildup of a filter cake, allowing the filter to operate continuously for longer periods.\n* **Preferred Scenario for TFF:** TFF is strongly preferred for **ultrafiltration/diafiltration (UF/DF)** steps used to concentrate the final protein product and exchange it into its final formulation buffer. NFF would quickly clog due to the high concentration of protein, whereas TFF maintains a high flux by keeping the membrane surface clean."
+    },
+    "explanation": "Filtration is used throughout bioprocessing. Selecting between NFF and TFF depends entirely on the fluid characteristics and the operational goal, making this a critical engineering decision."
+  },
+  {
+    "title": "Crystallization in Bioprocessing 💎",
+    "ques": "While more common in small-molecule pharmaceuticals, crystallization is sometimes used for large biomolecules. Outline the primary mechanism driving protein crystallization. What is the role of a **precipitant** in this process?",
+    "answer": {
+      "type": "text",
+      "content": "* **Mechanism:** Protein crystallization is driven by bringing the protein solution into a state of **supersaturation**, where the protein concentration exceeds its equilibrium solubility. This forces the proteins to spontaneously assemble into highly ordered, solid crystal lattices to return to an equilibrium state.\n* **Role of a Precipitant:** A precipitant (e.g., ammonium sulfate, PEG) is added to the solution to lower the solubility of the protein. By competing with the protein for water molecules or altering the dielectric constant of the solvent, the precipitant slowly pushes the protein solution into the supersaturated state required for crystal nucleation and growth."
+    },
+    "explanation": "Crystallization offers a way to achieve extraordinarily high purity and can sometimes be used as a formulation strategy for stable storage, requiring a deep understanding of phase equilibria."
+  },
+  {
+    "title": "Formulation and Stability 🧊",
+    "ques": "The final step in biomanufacturing is formulation. Define **lyophilization** and explain why it is frequently used for biopharmaceutical products. List **two types of excipients** added during formulation to protect the protein.",
+    "answer": {
+      "type": "text",
+      "content": "* **Lyophilization:** Also known as freeze-drying, it is a process where a liquid product is frozen and then placed under a vacuum, causing the ice to sublimate directly from a solid to a vapor without passing through a liquid phase.\n* **Why it is used:** Biopharmaceuticals (like proteins) are incredibly fragile and degrade rapidly in aqueous solutions due to hydrolysis, aggregation, and physical instability. Lyophilization removes water, resulting in a dry powder that significantly increases the product's shelf-life and allows it to be stored and shipped at room temperature instead of requiring cold-chain logistics.\n* **Excipient Types:**\n    1. **Cryoprotectants/Lyoprotectants** (e.g., sugars like sucrose or trehalose): Protect the protein structure during freezing and drying stresses.\n    2. **Buffers** (e.g., histidine or phosphate): Maintain the optimal pH when the powder is reconstituted into a liquid prior to administration."
+    },
+    "explanation": "A pure protein is useless if it degrades before reaching the patient. Formulation engineering ensures the product remains structurally intact and biologically active throughout its intended shelf-life."
+  }
+]

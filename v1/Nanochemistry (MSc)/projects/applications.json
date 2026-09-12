@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Overview of Characterization Methods",
+    "ques": "List three fundamental **characterization methods** essential for evaluating newly synthesized nanoparticles.",
+    "answer": {
+      "type": "text",
+      "content": "1. Scanning Electron Microscopy (SEM) for surface topography.\n2. X-ray Diffraction (XRD) for crystal structure.\n3. UV-Vis Spectroscopy for optical properties."
+    },
+    "explanation": "A multi-faceted approach is required because no single technique provides all necessary information about a nanomaterial."
+  },
+  {
+    "title": "Size Determination Techniques",
+    "ques": "Why is it important to use both electron microscopy (like SEM/TEM) and Dynamic Light Scattering (DLS) for accurate **size determination**?",
+    "answer": {
+      "type": "text",
+      "content": "Electron microscopy provides the absolute, 'dry' physical size and shape of the core particle. DLS provides the hydrodynamic diameter, which includes the particle core plus any capping agents, hydration layers, and solvent interactions. Together, they give a complete picture of how the particle behaves in both dry and solvated states."
+    },
+    "explanation": "Relying on only one method can lead to misleading conclusions about the effective size of nanoparticles in biological or catalytic applications."
+  },
+  {
+    "title": "Advanced Surface Analysis",
+    "ques": "Explain how X-ray Photoelectron Spectroscopy (XPS) is utilized for **surface analysis** of nanomaterials.",
+    "answer": {
+      "type": "text",
+      "content": "XPS irradiates the nanomaterial with X-rays, causing the ejection of core electrons. By measuring the kinetic energy of these emitted electrons, one can determine the elemental composition, empirical formula, and chemical state (oxidation state) of the elements present specifically on the surface (top 1-10 nm) of the material."
+    },
+    "explanation": "Since nanomaterials have a high surface-area-to-volume ratio, surface chemistry heavily dictates their overall behavior, making XPS crucial."
+  },
+  {
+    "title": "Structural Characterization via XRD",
+    "ques": "Describe how X-ray Diffraction (XRD) provides **structural characterization**, specifically regarding crystallinity and crystallite size.",
+    "answer": {
+      "type": "text",
+      "content": "XRD measures the scattering of X-rays by the crystalline lattice of the nanomaterial. The positions of the diffraction peaks reveal the crystal phase and lattice parameters. The width of these peaks can be used to estimate the crystallite size using the Scherrer equation: broader peaks indicate smaller crystallite domains."
+    },
+    "explanation": "XRD is the gold standard for confirming the phase purity and understanding the underlying atomic arrangement of nanomaterials."
+  }
+]

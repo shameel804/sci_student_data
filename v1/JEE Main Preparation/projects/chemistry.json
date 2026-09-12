@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Kinematics Problems",
+    "ques": "In **Kinematics problems**, if a car accelerates from rest at a constant rate of 2 m/s^2, how fast will it be going after 5 seconds?",
+    "answer": {
+      "type": "text",
+      "content": "Using the kinematic equation: final velocity = initial velocity + (acceleration * time)\nv = 0 + (2 * 5)\nv = 10 m/s"
+    },
+    "explanation": "Kinematics focuses purely on the motion of objects without concerning the forces causing the motion."
+  },
+  {
+    "title": "Dynamics Applications",
+    "ques": "Explain why it is harder to start pushing a heavy box than it is to keep it moving, using **Dynamics applications** concepts.",
+    "answer": {
+      "type": "text",
+      "content": "This is due to the difference between static and kinetic friction. Static friction (the force resisting the initial movement) is generally stronger than kinetic friction (the force resisting ongoing movement). You must apply a larger force to overcome static friction to get the box moving, but less force to overcome kinetic friction to keep it moving."
+    },
+    "explanation": "Friction is a reactive force that depends on the state of motion of the interacting surfaces."
+  },
+  {
+    "title": "Work-Energy Theorem",
+    "ques": "State the **Work-energy theorem** and explain how it applies to a car braking to a stop.",
+    "answer": {
+      "type": "text",
+      "content": "The work-energy theorem states that the net work done on an object equals the change in its kinetic energy. When a car brakes, the friction from the brakes does negative work on the car. This negative work exactly equals the loss of kinetic energy as the car slows down to a stop."
+    },
+    "explanation": "This theorem provides a powerful alternative to using Newton's laws for solving motion problems."
+  },
+  {
+    "title": "Rotational Motion and Gravitation",
+    "ques": "How does the concept of moment of inertia in **Rotational motion** compare to mass in linear motion? Briefly relate this to **Gravitation calculations** for planetary orbits.",
+    "answer": {
+      "type": "text",
+      "content": "Moment of inertia is the rotational equivalent of mass; it represents an object's resistance to changes in its rotational speed, depending on both its mass and how that mass is distributed. In gravitation calculations, planets possess both linear momentum (along their orbital path) and rotational momentum (spin). Gravity provides the centripetal force keeping the planet in a curved orbit, while conservation of angular momentum governs its spin."
+    },
+    "explanation": "Rotational mechanics perfectly mirror linear mechanics but account for the distribution of mass relative to an axis."
+  }
+]

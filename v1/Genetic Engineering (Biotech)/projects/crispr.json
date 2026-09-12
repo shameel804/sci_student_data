@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Understanding the CRISPR Mechanism ✂️",
+    "ques": "Explain the two main components of the **CRISPR-Cas9 mechanism** and how they work together to cut a specific DNA sequence.",
+    "answer": {
+      "type": "text",
+      "content": "* **Guide RNA (gRNA):** A customizable, short piece of RNA designed by researchers to be perfectly complementary to a specific target DNA sequence in the genome. It acts as the 'GPS'.\n* **Cas9 Enzyme:** A nuclease protein that acts as the molecular 'scissors'.\n* **How it works:** The guide RNA binds to the Cas9 enzyme and navigates it to the target DNA. Once the guide RNA matches and binds to the target DNA, Cas9 activates and makes a precise double-stranded cut in the DNA helix at that exact location."
+    },
+    "explanation": "The simplicity and programmability of the guide RNA are what make CRISPR-Cas9 fundamentally revolutionary compared to older gene-editing tools."
+  },
+  {
+    "title": "Gene Editing Applications: Knockout vs. Knock-in 🧬",
+    "ques": "After Cas9 makes a cut, the cell tries to repair it. Differentiate between how this repair process leads to gene 'knockouts' versus gene 'knock-ins' in **gene editing applications**.",
+    "answer": {
+      "type": "text",
+      "content": "* **Knockout (NHEJ):** If the cell repairs the cut quickly via Non-Homologous End Joining, it often makes mistakes, adding or deleting random bases. This shifts the reading frame, permanently breaking or 'knocking out' the gene's function.\n* **Knock-in (HDR):** If researchers provide an artificial DNA template along with the CRISPR machinery, the cell can use Homology-Directed Repair. The cell uses the provided template as a blueprint to fix the cut, allowing researchers to precisely paste in ('knock-in') a completely new gene or correct a mutation."
+    },
+    "explanation": "CRISPR relies on hijacking the cell's natural DNA repair pathways to solidify the desired genetic changes."
+  },
+  {
+    "title": "Therapeutic Uses in Medicine 🏥",
+    "ques": "Provide a concrete example of how CRISPR is currently being explored for **therapeutic uses** in treating human genetic diseases.",
+    "answer": {
+      "type": "text",
+      "content": "* **Sickle Cell Disease Example:** Sickle cell disease is caused by a single mutation affecting red blood cells. Researchers are extracting a patient's own bone marrow stem cells, using CRISPR in a lab to correct the mutation or stimulate the production of healthy fetal hemoglobin, and then infusing the edited, healthy stem cells back into the patient.\n* **Advantage:** Because it targets the underlying genetic cause and uses the patient's own cells, it has the potential to be a permanent, one-time cure rather than a lifetime of symptom management."
+    },
+    "explanation": "Translating CRISPR from basic lab research to clinical trials represents the frontier of modern genetic medicine."
+  },
+  {
+    "title": "Navigating Ethical Considerations ⚖️",
+    "ques": "Discuss a major **ethical consideration** regarding the use of CRISPR technology, specifically differentiating between somatic and germline editing.",
+    "answer": {
+      "type": "text",
+      "content": "* **Somatic Editing (Generally accepted):** Editing cells in an adult patient (like liver or blood cells) to cure a disease. The changes affect only that patient and are not passed on to their children.\n* **Germline Editing (Highly controversial):** Editing human embryos, sperm, or eggs. These genetic changes become permanent in the human gene pool and will be passed down to all future generations.\n* **The Concern:** Germline editing raises profound ethical issues about consent (future generations cannot consent), the potential for unforeseen long-term biological consequences, and the sociopolitical risk of 'designer babies' and genetic inequality."
+    },
+    "explanation": "The ease of CRISPR makes it imperative for scientists and society to establish strict ethical boundaries regarding human evolution and genetic modification."
+  }
+]

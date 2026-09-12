@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Basic Detection Principles",
+    "ques": "Explain the fundamental **detection principles** used in a tracking chamber to identify the path of a charged particle.",
+    "answer": {
+      "type": "text",
+      "content": "A tracking chamber is filled with gas. When a charged particle passes through, it ionizes the gas atoms. An applied electric field causes the freed electrons to drift towards wires, creating an electrical signal. By analyzing which wires are hit, the exact trajectory of the particle can be reconstructed."
+    },
+    "explanation": "Ionization is the most basic mechanism by which we 'see' invisible high-energy particles."
+  },
+  {
+    "title": "Accelerator Technology and Energy",
+    "ques": "Why is high-energy **accelerator technology**, like the LHC, necessary for discovering new, heavy fundamental particles?",
+    "answer": {
+      "type": "text",
+      "content": "According to Einstein's mass-energy equivalence (E = mc^2), creating massive new particles requires an enormous amount of concentrated energy. Accelerators smash particles together at near light-speed to convert their kinetic energy into the mass of new, short-lived particles that otherwise do not exist in everyday matter."
+    },
+    "explanation": "Accelerators are essentially 'time machines' that recreate the extreme energy densities of the early universe."
+  },
+  {
+    "title": "Data Analysis in High Energy Physics",
+    "ques": "In the context of **data analysis** at colliders, why is the concept of 'background' so critical when searching for a rare signal like the Higgs boson?",
+    "answer": {
+      "type": "text",
+      "content": "In a particle collision, billions of standard, well-known processes occur simultaneously with the rare event being searched for. These standard processes produce 'background' signals that can mimic the sought-after particle. Data analysis must precisely model and subtract this massive background to reveal the tiny statistical bump representing the true signal."
+    },
+    "explanation": "Finding a new particle is less about taking a 'picture' and more about finding a statistical anomaly in an ocean of noise."
+  },
+  {
+    "title": "Advanced Experimental Techniques",
+    "ques": "Describe how calorimeters are used as **experimental techniques** to measure the total energy of neutral particles, which leave no track in a tracking chamber.",
+    "answer": {
+      "type": "text",
+      "content": "Calorimeters are blocks of dense material designed to force incident particles to interact and create a shower of secondary particles. As the shower develops, it deposits all its energy into the material, producing light or charge proportional to the original particle's energy. Because neutral particles (like photons or neutrons) interact with the dense material, their total energy can be captured and measured."
+    },
+    "explanation": "Calorimeters are essential for capturing particles that slip invisibly through standard tracking detectors."
+  }
+]

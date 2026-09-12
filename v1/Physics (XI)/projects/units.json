@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Fundamental and derived units",
+    "ques": "What is the difference between **fundamental** (base) units and **derived** units in the SI system? Give two examples of each.",
+    "answer": {
+      "type": "text",
+      "content": "* **Fundamental Units:** These are the independent base units that cannot be derived from one another. Examples: **Meter** (length), **Kilogram** (mass), **Second** (time).\n* **Derived Units:** These are units that are obtained by multiplying or dividing fundamental units. Examples: **Newton** (force = kg*m/s^2), **Joule** (energy = kg*m^2/s^2)."
+    },
+    "explanation": "This establishes the basic building blocks of physical measurement."
+  },
+  {
+    "title": "Dimensional analysis",
+    "ques": "What is the **dimensional formula** for Force?",
+    "answer": {
+      "type": "text",
+      "content": "The dimensional formula for Force is **[MLT^-2]**.\n\n*Reasoning:* Force = mass * acceleration. Mass has dimension [M]. Acceleration is velocity/time, which has dimension [LT^-2]. Therefore, Force = [M] * [LT^-2]."
+    },
+    "explanation": "This tests the student's ability to express complex physical quantities in terms of basic dimensions."
+  },
+  {
+    "title": "Measurement techniques",
+    "ques": "What is the **least count** of a measuring instrument?",
+    "answer": {
+      "type": "text",
+      "content": "The **least count** is the smallest value that can be accurately measured using a specific measuring instrument. It represents the precision of that instrument."
+    },
+    "explanation": "This covers practical laboratory concepts and the limitations of physical measurement."
+  },
+  {
+    "title": "Significant figures",
+    "ques": "How many **significant figures** are present in the measurement 0.004050 kg?",
+    "answer": {
+      "type": "text",
+      "content": "There are **four** significant figures in 0.004050.\n\n*Reasoning:* Leading zeros (0.00) are never significant. The non-zero digits (4 and 5) are significant. The trapped zero is significant. The trailing zero is significant because there is a decimal point. So, the significant digits are 4, 0, 5, 0."
+    },
+    "explanation": "This tests the rules for determining the precision of reported data."
+  }
+]

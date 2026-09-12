@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Restriction Enzymes: Molecular Scissors ✂️",
+    "ques": "Explain the function of **restriction enzymes** in recombinant DNA technology and describe what 'sticky ends' are.",
+    "answer": {
+      "type": "text",
+      "content": "* **Function:** Restriction enzymes (endonucleases) act as molecular scissors, cutting DNA molecules at specific, recognized sequences of nucleotides.\n* **Sticky Ends:** Many restriction enzymes make staggered cuts in the double helix. This leaves short, single-stranded overhangs called 'sticky ends'. These ends are crucial because they easily hydrogen bond with complementary sticky ends from any other DNA fragment cut by the same enzyme."
+    },
+    "explanation": "Restriction enzymes are the fundamental tools that allow biologists to precisely isolate and manipulate specific segments of DNA."
+  },
+  {
+    "title": "DNA Ligation: The Molecular Glue 🧬",
+    "ques": "Describe the process of **DNA ligation** and the specific role the enzyme DNA ligase plays in creating recombinant DNA.",
+    "answer": {
+      "type": "text",
+      "content": "* **Process:** Once two DNA fragments with complementary sticky ends come together via hydrogen bonding, they are not yet permanently attached; the sugar-phosphate backbone is still broken.\n* **Role of Ligase:** DNA ligase acts as the 'glue' by catalyzing the formation of covalent phosphodiester bonds between the adjacent nucleotides, permanently sealing the two DNA fragments together to form a stable, continuous recombinant DNA molecule."
+    },
+    "explanation": "While restriction enzymes cut, ligase completes the process by sealing the new genetic combination into a permanent structure."
+  },
+  {
+    "title": "Choosing Vector Systems 🛸",
+    "ques": "Define what a **vector system** is in recombinant DNA technology and list two common types of vectors used for cloning.",
+    "answer": {
+      "type": "text",
+      "content": "* **Definition:** A vector is a DNA molecule used as a vehicle to artificially carry foreign genetic material into another cell, where it can be replicated and/or expressed.\n* **Types:** \n    1. **Plasmids:** Small, circular DNA molecules commonly found in bacteria, ideal for inserting relatively small DNA fragments.\n    2. **Bacteriophages:** Viruses that infect bacteria, used as vectors to carry larger fragments of DNA than plasmids can handle."
+    },
+    "explanation": "Vectors are essential delivery systems. Without them, foreign DNA would rapidly degrade or fail to replicate upon entering a host cell."
+  },
+  {
+    "title": "Methods of Transformation ⚡",
+    "ques": "Discuss two distinct **transformation methods** used to introduce a recombinant plasmid vector into a host bacterial cell.",
+    "answer": {
+      "type": "text",
+      "content": "* **1. Heat Shock Transformation:** Bacteria are chemically treated (often with calcium chloride) to make their membranes permeable ('competent'). They are mixed with the plasmids and subjected to a sudden, brief spike in temperature (heat shock), which forces the plasmids into the cells.\n* **2. Electroporation:** The bacterial cells and plasmids are placed in an electric field. A brief, high-voltage pulse temporarily creates microscopic pores in the bacterial cell membrane, allowing the plasmids to enter."
+    },
+    "explanation": "Getting recombinant DNA into a host cell is a major bottleneck. These physical and chemical techniques overcome the natural barrier of the cell membrane."
+  }
+]

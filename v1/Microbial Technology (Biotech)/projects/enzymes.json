@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Basics of Enzyme Kinetics ⏱️",
+    "ques": "Define the Michaelis-Menten constant (Km) and maximum velocity (Vmax) in the context of **enzyme kinetics**. What does a low Km indicate?",
+    "answer": {
+      "type": "text",
+      "content": "* **Vmax:** The maximum rate of an enzymatic reaction, achieved when all enzyme active sites are fully saturated with substrate.\n* **Km:** The substrate concentration required to reach half of the Vmax.\n* **Low Km Meaning:** A low Km indicates that the enzyme has a high affinity for its substrate; it only requires a small amount of substrate to reach a high reaction velocity."
+    },
+    "explanation": "Understanding Km and Vmax is crucial for evaluating how efficiently an enzyme will perform under specific industrial conditions."
+  },
+  {
+    "title": "Enzyme Immobilization Techniques 🧲",
+    "ques": "Explain what **enzyme immobilization** is and provide one common method used to achieve it.",
+    "answer": {
+      "type": "text",
+      "content": "* **Definition:** Immobilization involves physically confining or localizing an enzyme to a solid support material, rather than letting it float freely in a solution.\n* **Method Example (Entrapment):** Enzymes are mixed into a liquid polymer (like sodium alginate). The polymer is then solidified into beads, trapping the enzymes inside the porous bead structure. The substrate can diffuse in, react, and the product diffuses out, while the enzyme remains trapped."
+    },
+    "explanation": "Immobilization is a key biotech strategy that allows expensive enzymes to be easily separated from the final product and reused multiple times."
+  },
+  {
+    "title": "Industrial Applications of Enzymes 🏭",
+    "ques": "Provide two distinct examples of how specific enzymes are used in large-scale **industrial applications**.",
+    "answer": {
+      "type": "text",
+      "content": "* **1. Detergent Industry:** Proteases and lipases are added to laundry detergents. They biologically break down protein stains (like blood) and fat stains (like grease) at low wash temperatures, saving energy compared to hot water washing.\n* **2. Food Industry (High Fructose Corn Syrup):** Glucose isomerase is used on an industrial scale to convert glucose (derived from corn starch) into fructose, which is much sweeter, creating the ubiquitous sweetener HFCS."
+    },
+    "explanation": "Enzymes offer green, highly specific, and lower-energy alternatives to traditional harsh chemical processes in industry."
+  },
+  {
+    "title": "The Frontier of Enzyme Engineering 🧬",
+    "ques": "Describe how directed evolution is used in **enzyme engineering** to create enzymes with better properties than those found in nature.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Process:** Researchers take the gene for a natural enzyme and intentionally introduce random mutations to create a massive 'library' of variant genes. \n* **Selection:** These genes are expressed in bacteria, and the resulting thousands of mutant enzymes are screened for a desired trait (e.g., the ability to work at high temperatures or in harsh solvents).\n* **Evolution:** The best-performing mutant is selected, its gene is isolated, and the mutation process is repeated over several generations until a highly optimized, engineered enzyme is produced."
+    },
+    "explanation": "We are no longer limited to the enzymes nature provides. Engineering allows us to custom-build biocatalysts for highly specific industrial needs."
+  }
+]

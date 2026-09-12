@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The DNA Double Helix 🧬",
+    "ques": "Describe the foundational structure of the **DNA double helix**, specifically detailing the backbone and the orientation of the two strands.",
+    "answer": {
+      "type": "text",
+      "content": "* **Backbone:** The outer backbone of the DNA molecule consists of alternating sugar (deoxyribose) and phosphate groups.\n* **Orientation:** The two strands run **antiparallel** to each other, meaning one strand runs in the 5-prime to 3-prime direction, while the opposite strand runs in the 3-prime to 5-prime direction."
+    },
+    "explanation": "Understanding the antiparallel double-helix structure is the first crucial step in molecular biology, as it dictates how DNA is replicated and transcribed."
+  },
+  {
+    "title": "Base Pairing Rules 🤝",
+    "ques": "Explain the rules of **complementary base pairing** in DNA and state the types of bonds that hold these pairs together.",
+    "answer": {
+      "type": "text",
+      "content": "* **Rules:** Adenine (A) always pairs with Thymine (T), and Guanine (G) always pairs with Cytosine (C). This ensures uniform width of the double helix.\n* **Bonding:** These base pairs are held together by **hydrogen bonds** across the interior of the helix. A and T share two hydrogen bonds, while G and C share three hydrogen bonds, making G-C pairs stronger."
+    },
+    "explanation": "Base pairing is the mechanism that allows DNA to act as a template for its own replication, ensuring accurate genetic transmission."
+  },
+  {
+    "title": "DNA Topology and Supercoiling 🪢",
+    "ques": "Define **DNA topology**, focusing on the concept of supercoiling. Why is supercoiling biologically necessary for a cell?",
+    "answer": {
+      "type": "text",
+      "content": "* **Topology:** Refers to the spatial coiling and twisting of the DNA double helix upon itself, known as **supercoiling**.\n* **Necessity:** \n    1. **Compaction:** DNA molecules are immensely long; supercoiling packs them tightly so they can fit inside the microscopic cell nucleus or nucleoid.\n    2. **Regulation:** The degree of supercoiling affects how easily the DNA strands can be separated, regulating processes like transcription and replication."
+    },
+    "explanation": "Beyond the basic helix, DNA exists in complex topological states that directly influence cellular function and DNA packaging."
+  },
+  {
+    "title": "Chromatin Structure and Nucleosomes 📦",
+    "ques": "Describe the hierarchical organization of **chromatin structure** in eukaryotes, starting from the DNA double helix up to the nucleosome level.",
+    "answer": {
+      "type": "text",
+      "content": "* **Histone Proteins:** In eukaryotes, DNA does not exist 'naked'. It wraps around specialized basic proteins called histones.\n* **The Nucleosome:** The fundamental repeating unit of chromatin is the nucleosome, which consists of approximately 147 base pairs of DNA wrapped nearly twice around a core octamer of histone proteins (resembling 'beads on a string').\n* **Higher-Order Folding:** These nucleosomes then fold and coil further into thicker fibers, ultimately forming the dense chromosomes seen during cell division."
+    },
+    "explanation": "Chromatin structure is the ultimate level of DNA organization in eukaryotes, determining gene accessibility and epigenetic regulation."
+  }
+]

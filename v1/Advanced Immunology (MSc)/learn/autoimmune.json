@@ -1,0 +1,155 @@
+{
+    "id": "learn_autoimmune",
+    "topicId": "autoimmune",
+    "topicTitle": "Autoimmune Diseases",
+    "description": "Learn about autoimmune pathogenesis, immunodeficiencies, hypersensitivities, and transplant immunology.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "autoimmune_1",
+            "type": "content",
+            "title": "Introduction to Immune Disorders",
+            "content": "# Immune System Disorders\n\nThe immune system is a powerful defense mechanism, but when it malfunctions, it can cause severe disease.\n\n## Broad Categories:\n- **Autoimmunity**: The immune system attacks the body's own tissues.\n- **Immunodeficiency**: The immune system is weakened or absent.\n- **Hypersensitivity**: The immune system overreacts to harmless substances.\n- **Transplant Rejection**: The immune system attacks transplanted organs.\n\nIn this module, we will explore the pathology behind these conditions."
+        },
+        {
+            "id": "autoimmune_2",
+            "type": "content",
+            "title": "Autoimmune Pathogenesis",
+            "content": "# Autoimmune Pathogenesis\n\n**Autoimmunity** occurs when tolerance breaks down, and the immune system fails to distinguish 'self' from 'non-self'.\n\n## Factors Contributing to Autoimmunity:\n1. **Genetic Susceptibility**: Certain MHC (HLA) alleles are strongly linked to autoimmune diseases.\n2. **Environmental Triggers**: Infections, toxins, or tissue injury can initiate the process.\n3. **Hormonal Factors**: Many autoimmune diseases are more common in females, suggesting hormonal influences (e.g., estrogen).\n\n> **Key Concept**: Autoimmunity is usually multifactorial, requiring both a genetic predisposition and an environmental trigger."
+        },
+        {
+            "id": "autoimmune_3",
+            "type": "content",
+            "title": "Mechanisms of Autoimmunity",
+            "content": "# Mechanisms of Autoimmunity\n\nHow does an infection trigger autoimmunity?\n\n## 1. Molecular Mimicry\n- A pathogen expresses antigens that structurally resemble self-antigens.\n- The immune response against the pathogen cross-reacts with host tissues.\n- *Example*: Rheumatic fever after a Streptococcus infection.\n\n## 2. Epitope Spreading\n- Tissue damage from a primary infection releases hidden self-antigens.\n- The immune system encounters these newly exposed antigens and mounts a response.\n\n## 3. Bystander Activation\n- Severe inflammation activates Antigen Presenting Cells (APCs).\n- These APCs non-specifically activate pre-existing auto-reactive T cells in the area."
+        },
+        {
+            "id": "autoimmune_4",
+            "type": "content",
+            "title": "Examples of Autoimmune Diseases",
+            "content": "# Common Autoimmune Diseases\n\nAutoimmune diseases can be systemic (affecting multiple organs) or organ-specific.\n\n## Systemic Autoimmunity:\n- **Systemic Lupus Erythematosus (SLE)**: Antibodies form against DNA and nuclear proteins. Causes widespread inflammation, rashes, and kidney damage.\n- **Rheumatoid Arthritis**: Immune attack on joint synovium, leading to cartilage destruction.\n\n## Organ-Specific Autoimmunity:\n- **Type 1 Diabetes**: T cells destroy insulin-producing beta cells in the pancreas.\n- **Multiple Sclerosis**: T cells attack the myelin sheath surrounding neurons in the CNS.\n- **Hashimoto's Thyroiditis**: Antibodies attack the thyroid gland, leading to hypothyroidism."
+        },
+        {
+            "id": "autoimmune_quiz_1",
+            "type": "quiz",
+            "title": "Autoimmunity Check",
+            "content": "Test your understanding of autoimmunity triggers.",
+            "quizQuestion": "Which mechanism describes an immune response where pathogen antigens cross-react with self-antigens?",
+            "quizOptions": [
+                "Epitope spreading",
+                "Bystander activation",
+                "Molecular mimicry",
+                "Central tolerance"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "autoimmune_5",
+            "type": "content",
+            "title": "Primary Immunodeficiencies",
+            "content": "# Primary Immunodeficiencies (PID)\n\n**Primary Immunodeficiencies** are congenital (genetic) defects in the immune system.\n\n## Characteristics:\n- Often present in early childhood\n- Susceptibility to recurrent, unusual, or severe infections\n\n## Examples:\n1. **Severe Combined Immunodeficiency (SCID)**: Defect in both T and B cell function (e.g., ADA deficiency or RAG mutations). \"Boy in the bubble\" disease.\n2. **X-linked Agammaglobulinemia (XLA)**: Defect in BTK gene leading to lack of mature B cells and antibodies.\n3. **DiGeorge Syndrome**: Thymic aplasia leading to a lack of mature T cells."
+        },
+        {
+            "id": "autoimmune_6",
+            "type": "content",
+            "title": "Secondary Immunodeficiencies",
+            "content": "# Secondary Immunodeficiencies\n\n**Secondary Immunodeficiencies** are acquired later in life due to external factors.\n\n## Common Causes:\n1. **Infection**: **HIV** infects and destroys CD4+ Helper T cells, eventually leading to AIDS.\n2. **Malnutrition**: Lack of protein or micronutrients (zinc, vitamins) impairs immune cell function.\n3. **Medical Treatments**: Chemotherapy, radiation, or immunosuppressive drugs (used in transplants or autoimmune disease).\n4. **Aging (Immunosenescence)**: Gradual decline in immune function with age.\n\n> **Note**: Secondary immunodeficiencies are much more common globally than primary (genetic) ones."
+        },
+        {
+            "id": "autoimmune_quiz_2",
+            "type": "quiz",
+            "title": "Immunodeficiency Quiz",
+            "content": "Let's review immunodeficiencies.",
+            "quizQuestion": "Which of the following is considered a Secondary Immunodeficiency?",
+            "quizOptions": [
+                "Severe Combined Immunodeficiency (SCID)",
+                "DiGeorge Syndrome",
+                "X-linked Agammaglobulinemia (XLA)",
+                "Acquired Immunodeficiency Syndrome (AIDS)"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "autoimmune_7",
+            "type": "content",
+            "title": "Hypersensitivity Type I",
+            "content": "# Type I Hypersensitivity: Allergy\n\n**Hypersensitivity** reactions are exaggerated immune responses to typically harmless antigens (allergens).\n\n## Type I: Immediate Hypersensitivity\n- **Mechanism**: IgE antibodies bind to mast cells. Upon re-exposure, the allergen cross-links the IgE, causing immediate mast cell degranulation (release of histamine).\n- **Timing**: Minutes\n\n## Clinical Manifestations:\n- Allergic rhinitis (hay fever)\n- Asthma\n- Food allergies\n- **Anaphylaxis**: A severe, systemic, life-threatening allergic reaction causing airway constriction and blood pressure drop."
+        },
+        {
+            "id": "autoimmune_8",
+            "type": "content",
+            "title": "Hypersensitivity Type II",
+            "content": "# Type II Hypersensitivity: Cytotoxic\n\n## Mechanism:\n- Antibodies (**IgG** or **IgM**) bind to antigens on the surface of specific cells or tissues.\n- This leads to cell destruction via complement activation, phagocytosis, or NK cell-mediated Antibody-Dependent Cellular Cytotoxicity (ADCC).\n- **Timing**: Hours to days\n\n## Clinical Examples:\n1. **Hemolytic Disease of the Newborn**: Maternal IgG antibodies cross the placenta and attack fetal red blood cells (e.g., Rh incompatibility).\n2. **Transfusion Reactions**: Giving wrong blood type causes immediate RBC destruction.\n3. **Goodpasture Syndrome**: Antibodies attack basement membranes in lungs and kidneys."
+        },
+        {
+            "id": "autoimmune_9",
+            "type": "content",
+            "title": "Hypersensitivity Type III",
+            "content": "# Type III Hypersensitivity: Immune Complex\n\n## Mechanism:\n- Soluble antigens bind to antibodies (**IgG** or **IgM**) forming free-floating **immune complexes** in the blood.\n- These complexes deposit in small blood vessels, joints, or kidneys.\n- They activate complement and attract neutrophils, causing massive tissue inflammation and damage.\n- **Timing**: Hours to days\n\n## Clinical Examples:\n1. **Serum Sickness**: Reaction to non-human proteins (e.g., anti-venom or older medications).\n2. **Systemic Lupus Erythematosus (SLE)**: DNA-anti-DNA complexes deposit in kidneys (lupus nephritis).\n3. **Rheumatoid Arthritis**: Complexes deposit in joints."
+        },
+        {
+            "id": "autoimmune_10",
+            "type": "content",
+            "title": "Hypersensitivity Type IV",
+            "content": "# Type IV Hypersensitivity: Delayed\n\n## Mechanism:\n- This is the ONLY hypersensitivity type mediated by **T cells**, not antibodies.\n- Helper T cells (Th1) secrete cytokines that activate macrophages, leading to inflammation and tissue damage.\n- **Timing**: 48 to 72 hours (Delayed)\n\n## Clinical Examples:\n1. **Contact Dermatitis**: Poison ivy, nickel allergy.\n2. **Tuberculin (PPD) Test**: Skin test for TB exposure.\n3. **Multiple Sclerosis**: T cell attack on myelin.\n4. **Type 1 Diabetes**: T cell attack on pancreas beta cells."
+        },
+        {
+            "id": "autoimmune_quiz_3",
+            "type": "quiz",
+            "title": "Hypersensitivity Check",
+            "content": "Check your understanding of the 4 types of hypersensitivity.",
+            "quizQuestion": "Which type of hypersensitivity is mediated by T cells rather than antibodies?",
+            "quizOptions": [
+                "Type I",
+                "Type II",
+                "Type III",
+                "Type IV"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "autoimmune_11",
+            "type": "content",
+            "title": "Transplant Immunology",
+            "content": "# Transplant Immunology\n\nTransplantation involves transferring cells, tissues, or organs from a donor to a recipient.\n\n## The Challenge: Alloreactivity\nThe recipient's immune system recognizes the donor's MHC (Major Histocompatibility Complex) molecules as foreign and mounts a strong immune attack.\n\n## Types of Grafts:\n- **Autograft**: From self (e.g., skin graft from leg to arm). No rejection.\n- **Isograft/Syngeneic**: Between identical twins. No rejection.\n- **Allograft**: Between non-identical individuals of the same species. **Causes rejection**.\n- **Xenograft**: Between different species (e.g., pig valve to human). Severe rejection."
+        },
+        {
+            "id": "autoimmune_12",
+            "type": "content",
+            "title": "Types of Rejection",
+            "content": "# Mechanisms of Organ Rejection\n\nRejection occurs in different phases based on the mechanism:\n\n## 1. Hyperacute Rejection\n- **Timing**: Minutes to hours\n- **Mechanism**: Pre-existing recipient antibodies (IgG/IgM) immediately bind to graft endothelium, causing rapid thrombosis and ischemia.\n- **Prevention**: Blood typing and cross-matching.\n\n## 2. Acute Rejection\n- **Timing**: Weeks to months\n- **Mechanism**: Primarily T cell-mediated (CD8+ CTLs destroy graft cells, CD4+ T cells cause inflammation).\n- **Prevention**: Immunosuppressive drugs.\n\n## 3. Chronic Rejection\n- **Timing**: Months to years\n- **Mechanism**: Slow, progressive fibrosis and narrowing of graft blood vessels, often due to chronic low-grade inflammation."
+        },
+        {
+            "id": "autoimmune_13",
+            "type": "content",
+            "title": "Graft-Versus-Host Disease (GVHD)",
+            "content": "# Graft-Versus-Host Disease (GVHD)\n\nGVHD is a unique complication primarily seen in **Bone Marrow Transplants** (Hematopoietic Stem Cell Transplants).\n\n## The Reversal:\n- In solid organ transplants, the Host rejects the Graft.\n- In GVHD, the immune cells INSIDE the Graft (donor T cells) recognize the Host's body as foreign and attack the Host.\n\n## Target Organs:\nGVHD typically attacks the skin (rash), liver (jaundice), and gastrointestinal tract (diarrhea).\n\n> **Note**: A mild form of GVHD can actually be beneficial in treating leukemia, as the donor T cells also attack residual cancer cells (Graft-versus-Leukemia effect)."
+        },
+        {
+            "id": "autoimmune_14",
+            "type": "content",
+            "title": "Immunosuppression",
+            "content": "# Immunosuppressive Therapy\n\nTo prevent allograft rejection, patients must take immunosuppressive drugs for life.\n\n## Common Drug Classes:\n1. **Corticosteroids** (e.g., Prednisone): Broadly anti-inflammatory; downregulate many cytokine genes.\n2. **Calcineurin Inhibitors** (e.g., Cyclosporine, Tacrolimus): Specifically block T cell activation by inhibiting IL-2 production.\n3. **Anti-proliferatives** (e.g., Mycophenolate): Inhibit DNA synthesis, preventing rapid division of T and B cells.\n4. **Biologics**: Monoclonal antibodies targeting specific immune pathways (e.g., Anti-CD3, Anti-IL-2 receptor).\n\n> **The Catch**: Immunosuppression significantly increases the risk of opportunistic infections and certain cancers."
+        },
+        {
+            "id": "autoimmune_quiz_4",
+            "type": "quiz",
+            "title": "Transplant Quiz",
+            "content": "Test your transplant knowledge.",
+            "quizQuestion": "Which type of rejection happens within minutes to hours and is caused by pre-existing antibodies?",
+            "quizOptions": [
+                "Acute rejection",
+                "Chronic rejection",
+                "Hyperacute rejection",
+                "Graft-Versus-Host Disease"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "autoimmune_15",
+            "type": "content",
+            "title": "Module Summary",
+            "content": "# Autoimmune Diseases Summary\n\n## Key Takeaways:\n- **Autoimmunity**: Results from loss of tolerance, triggered by genetics and environmental factors (e.g., molecular mimicry).\n- **Immunodeficiencies**: Can be genetic (Primary, like SCID) or acquired (Secondary, like HIV/AIDS).\n- **Hypersensitivity**: Pathological immune responses.\n  - Type I: IgE/Mast cells (Allergy)\n  - Type II: IgG/IgM against cells\n  - Type III: Immune complexes\n  - Type IV: T cells (Delayed)\n- **Transplantation**: Allografts are rejected by T cells (Acute) or antibodies (Hyperacute). Bone marrow transplants risk GVHD.\n\n> **Congratulations!** You have completed the Autoimmune Diseases module."
+        }
+    ]
+}

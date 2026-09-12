@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Colligative properties",
+    "ques": "What is a **colligative property**? Give one example.",
+    "answer": {
+      "type": "text",
+      "content": "A **colligative property** is a property of a solution that depends only on the **number** of solute particles in the solution, and not on the chemical nature or identity of the solute particles.\n\n* **Example:** Elevation of boiling point (adding salt to water makes it boil at a higher temperature)."
+    },
+    "explanation": "This establishes the core concept of solution chemistry where quantity matters more than quality."
+  },
+  {
+    "title": "Solution concentration",
+    "ques": "What is the difference between **Molarity** (M) and **Molality** (m)? Which one is preferred for experiments involving temperature changes?",
+    "answer": {
+      "type": "text",
+      "content": "* **Molarity (M):** Moles of solute per **Liter of solution** (volume-based).\n* **Molality (m):** Moles of solute per **Kilogram of solvent** (mass-based).\n\n**Molality** is preferred for experiments involving temperature changes because mass does not change with temperature, whereas volume (and therefore Molarity) expands or contracts with temperature changes."
+    },
+    "explanation": "This distinguishes between two vital concentration metrics and their practical laboratory implications."
+  },
+  {
+    "title": "Raoult's law applications",
+    "ques": "State **Raoult's Law** for a solution containing volatile liquids.",
+    "answer": {
+      "type": "text",
+      "content": "**Raoult's Law** states that for a solution of volatile liquids, the partial vapor pressure of each component in the solution is directly proportional to its **mole fraction** present in solution."
+    },
+    "explanation": "This is the fundamental law governing the vapor pressure of mixtures."
+  },
+  {
+    "title": "Abnormal molecular masses",
+    "ques": "What is the **van't Hoff factor** (i), and why is it used?",
+    "answer": {
+      "type": "text",
+      "content": "The **van't Hoff factor (i)** is a measure of the effect of a solute on colligative properties. It is the ratio of the actual concentration of particles produced when the substance is dissolved to the concentration of a substance as calculated from its mass.\n\nIt is used to account for **abnormal molecular masses** that occur when a solute undergoes **dissociation** (like NaCl splitting into Na+ and Cl-, i=2) or **association** (molecules clumping together) in solution."
+    },
+    "explanation": "This covers the correction factor necessary when theoretical colligative equations meet real-world electrolytes."
+  }
+]

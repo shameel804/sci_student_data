@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Basics of Kinetic Theory Derivations 💨",
+    "ques": "List the core assumptions of the **Kinetic Theory of Gases** that allow us to model macroscopic pressure from microscopic particle collisions.",
+    "answer": {
+      "type": "text",
+      "content": "* **Assumptions:**\n    1. A gas consists of a large number of tiny particles (atoms or molecules).\n    2. The volume of the particles themselves is negligible compared to the volume of the container.\n    3. The particles are in constant, random motion.\n    4. Collisions between particles and with the container walls are perfectly elastic.\n    5. There are no intermolecular forces acting between the particles except during collisions."
+    },
+    "explanation": "These derivations are foundational, showing how simplifying microscopic assumptions lead directly to the macroscopic Ideal Gas Law."
+  },
+  {
+    "title": "Maxwell-Boltzmann Distribution Functions 📊",
+    "ques": "Describe the shape and physical meaning of the **Maxwell-Boltzmann distribution** of molecular speeds in a gas. How does it change as temperature increases?",
+    "answer": {
+      "type": "text",
+      "content": "* **Shape and Meaning:** The distribution is an asymmetric, bell-like curve that plots the probability of finding a molecule with a specific speed. It shows that most molecules move at a moderate speed, while very few are completely stationary or moving extremely fast.\n* **Temperature Effect:** As temperature increases, the curve flattens and shifts to the right, meaning the average speed increases and the distribution of speeds becomes wider."
+    },
+    "explanation": "Understanding velocity distributions is essential for grasping how kinetic energy is distributed statistically among billions of gas molecules."
+  },
+  {
+    "title": "Transport Phenomena: Viscosity and Diffusion 🚚",
+    "ques": "Explain the kinetic theory approach to **transport phenomena**, specifically contrasting diffusion (transport of mass) and thermal conductivity (transport of energy).",
+    "answer": {
+      "type": "text",
+      "content": "* **Mechanism:** Transport phenomena occur when a system is not in equilibrium, causing a net flow of a physical quantity due to molecular collisions.\n* **Diffusion:** Driven by a concentration gradient. Molecules move randomly, but there is a net flow of mass from regions of high concentration to low concentration.\n* **Thermal Conductivity:** Driven by a temperature gradient. Faster-moving molecules in hot regions collide with slower molecules in cold regions, transferring kinetic energy without a net transfer of mass."
+    },
+    "explanation": "Transport phenomena connect microscopic molecular free paths to macroscopic observable gradients like temperature and concentration."
+  },
+  {
+    "title": "Deviations: Real Gas Behavior 🌬️",
+    "ques": "Why do real gases deviate from ideal behavior, and how does the **van der Waals equation** correct for these deviations?",
+    "answer": {
+      "type": "text",
+      "content": "* **Deviations:** Real gases deviate at high pressures and low temperatures because the Kinetic Theory's assumptions fail: molecules *do* occupy finite volume, and they *do* exert attractive intermolecular forces.\n* **Van der Waals Corrections:**\n    1. **Volume Correction:** Subtracts a term related to the actual volume of the molecules, recognizing that the entire container volume isn't available for movement.\n    2. **Pressure Correction:** Adds a term to the observed pressure to account for intermolecular attractions that pull molecules inward, reducing the force of their collisions with the walls."
+    },
+    "explanation": "Transitioning from ideal to real gas behavior highlights the limitations of simple kinetic models and introduces empirical corrections."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Basic Vector Design Principles",
+    "ques": "List three essential components (features) that must be present in a standard plasmid according to **Vector design principles** for it to be useful in genetic engineering.",
+    "answer": {
+      "type": "text",
+      "content": "1. **Origin of Replication (ori):** To allow the plasmid to replicate independently within the host cell.\n2. **Selectable Marker (e.g., antibiotic resistance gene):** To identify and select only the cells that have successfully taken up the plasmid.\n3. **Multiple Cloning Site (MCS):** A region with unique restriction enzyme cut sites for inserting the foreign DNA."
+    },
+    "explanation": "These three elements are the absolute minimum requirements for cloning and amplifying DNA."
+  },
+  {
+    "title": "Strategies for Expression Optimization",
+    "ques": "When expressing a human gene in E. coli, why is codon optimization a crucial step in **Expression optimization**?",
+    "answer": {
+      "type": "text",
+      "content": "The genetic code is redundant, meaning multiple codons can code for the same amino acid. However, different organisms have different 'codon biases'—they prefer certain codons over others based on their available tRNA pools. If a human gene uses codons that are rare in E. coli, translation will stall, resulting in low protein yield. Codon optimization changes the DNA sequence to use the host's preferred codons without changing the final amino acid sequence."
+    },
+    "explanation": "Matching the gene's vocabulary to the host's vocabulary is essential for efficient protein synthesis."
+  },
+  {
+    "title": "Introduction to Synthetic Biology",
+    "ques": "How does **Synthetic biology** differ from traditional recombinant DNA technology?",
+    "answer": {
+      "type": "text",
+      "content": "Traditional recombinant DNA technology usually involves transferring one or two existing genes from one organism to another. Synthetic biology applies engineering principles to biology, aiming to design and construct entirely new, standardized biological parts, devices, and systems (like synthetic genetic circuits) that do not exist in nature, rather than just tinkering with existing ones."
+    },
+    "explanation": "Synthetic biology moves biology from a purely descriptive science to a predictive engineering discipline."
+  },
+  {
+    "title": "Metabolic Engineering Applications",
+    "ques": "Describe the ultimate goal of **Metabolic engineering** using a microbe to produce a valuable chemical, such as a biofuel.",
+    "answer": {
+      "type": "text",
+      "content": "The goal is to intentionally redirect a microbe's natural metabolic pathways to overproduce a specific target molecule. This involves introducing new enzyme genes to create novel biochemical pathways, deleting genes that divert resources to competing pathways, and optimizing the flow of carbon (flux) to maximize the yield of the desired product (like biofuel) from an inexpensive carbon source."
+    },
+    "explanation": "Metabolic engineering turns cells into highly efficient, programmable chemical factories."
+  }
+]

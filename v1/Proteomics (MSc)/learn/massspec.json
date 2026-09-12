@@ -1,0 +1,155 @@
+{
+    "id": "learn_massspec",
+    "topicId": "massspec",
+    "topicTitle": "Mass Spectrometry",
+    "description": "Deep dive into the instrumentation, data acquisition, spectral analysis, and quantification methods of mass spectrometry.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "massspec_1",
+            "type": "content",
+            "title": "Welcome to Mass Spectrometry",
+            "content": "# Mass Spectrometry (MS)\n\nWelcome to the core technology of proteomics!\n\n**Mass Spectrometry** is an analytical technique used to measure the mass-to-charge ratio (m/z) of ions.\n\n## What You Will Learn:\n- **Instrumentation Principles**: How the machine works (Ion source, mass analyzer, detector).\n- **Data Acquisition**: How the instrument decides what to scan.\n- **Spectral Analysis**: How to read a mass spectrum.\n- **Quantification**: Advanced methods for measuring abundance.\n\nLet's get ionized!"
+        },
+        {
+            "id": "massspec_2",
+            "type": "content",
+            "title": "The Three Main Components",
+            "content": "# The Anatomy of a Mass Spectrometer\n\nEvery mass spectrometer consists of three essential parts acting in a vacuum:\n\n1. **Ion Source**: Generates gas-phase ions from the sample.\n2. **Mass Analyzer**: Sorts and separates the ions based on their m/z ratio using electric or magnetic fields.\n3. **Detector**: Records the impact of ions, generating an electrical signal proportional to the number of ions.\n\n> **Why a vacuum?** Ions must travel without colliding with air molecules, which would scatter them and destroy the signal."
+        },
+        {
+            "id": "massspec_3",
+            "type": "content",
+            "title": "Ionization Methods: ESI",
+            "content": "# Electrospray Ionization (ESI)\n\nHow do we get large biomolecules (like peptides) into the gas phase without destroying them?\n\n## The ESI Process:\n1. The liquid sample from the HPLC flows through a tiny metal capillary.\n2. A high voltage (e.g., 2000-4000 Volts) is applied to the capillary tip.\n3. This creates a fine mist of highly charged droplets.\n4. As the solvent evaporates, the droplets shrink until the charge density causes them to explode, releasing bare gas-phase ions.\n\n> **Feature**: ESI is a \"soft\" ionization technique, meaning it doesn't break the peptides apart. It also frequently produces multiply charged ions (e.g., +2, +3)."
+        },
+        {
+            "id": "massspec_4",
+            "type": "content",
+            "title": "Ionization Methods: MALDI",
+            "content": "# MALDI\n\n**Matrix-Assisted Laser Desorption/Ionization (MALDI)** is another soft ionization technique.\n\n## The MALDI Process:\n1. The sample is mixed with a chemical \"matrix\" and dried on a metal plate.\n2. A laser pulse fires at the plate.\n3. The matrix absorbs the laser energy, vaporizing itself and carrying the sample molecules into the gas phase.\n4. Charge is transferred from the matrix to the sample.\n\n> **Feature**: MALDI typically produces singly charged ions (+1), making spectra easier to interpret, and is often paired with a Time-of-Flight (TOF) analyzer."
+        },
+        {
+            "id": "massspec_quiz_1",
+            "type": "quiz",
+            "title": "Ion Source Quiz",
+            "content": "Test your understanding of ionization.",
+            "quizQuestion": "Which \"soft\" ionization technique involves applying high voltage to a liquid flowing through a capillary to create a mist of charged droplets?",
+            "quizOptions": [
+                "MALDI",
+                "Electron Impact (EI)",
+                "Electrospray Ionization (ESI)",
+                "Fast Atom Bombardment (FAB)"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "massspec_5",
+            "type": "content",
+            "title": "Mass Analyzers: Quadrupole",
+            "content": "# The Quadrupole Mass Analyzer\n\nThe **Quadrupole** consists of four parallel metal rods.\n\n## How it Works:\n- Alternating AC and DC voltages are applied to the rods.\n- This creates an oscillating electric field.\n- At any given voltage combination, only ions with a specific m/z ratio have a stable trajectory and can pass through to the detector.\n- All other ions have unstable trajectories and crash into the rods.\n\n> **Use**: Quadrupoles act as excellent \"mass filters\" and are very fast, though they have lower resolution."
+        },
+        {
+            "id": "massspec_6",
+            "type": "content",
+            "title": "Mass Analyzers: TOF",
+            "content": "# Time-of-Flight (TOF)\n\nThe **TOF** analyzer measures the time it takes for an ion to fly through a flight tube.\n\n## Principle:\n- Ions are given the exact same amount of kinetic energy.\n- Since Kinetic Energy = (1/2)mv^2, lighter ions will have a higher velocity and reach the detector faster than heavier ions.\n- By measuring the exact time of flight, the m/z can be calculated.\n\n> **Reflectron**: Modern TOFs use an ion mirror (reflectron) to bounce the ions back, doubling the flight path and correcting for slight initial energy differences, vastly improving resolution."
+        },
+        {
+            "id": "massspec_7",
+            "type": "content",
+            "title": "Mass Analyzers: Orbitrap",
+            "content": "# The Orbitrap\n\nThe **Orbitrap** is a modern, ultra-high resolution mass analyzer.\n\n## How it Works:\n- Ions are injected into an electrostatic field between a central spindle electrode and an outer barrel electrode.\n- Ions become trapped, orbiting the central spindle while simultaneously oscillating back and forth along its axis.\n- The frequency of this axial oscillation is directly related to the ion's m/z ratio.\n- The moving charges induce a current in the outer electrodes (image current).\n\n> **Fourier Transform**: A mathematical operation (Fourier Transform) converts this complex current signal into a highly precise mass spectrum."
+        },
+        {
+            "id": "massspec_quiz_2",
+            "type": "quiz",
+            "title": "Mass Analyzers Quiz",
+            "content": "Check your understanding of mass analyzers.",
+            "quizQuestion": "Which mass analyzer calculates m/z by measuring the time it takes for ions to travel through a vacuum tube?",
+            "quizOptions": [
+                "Quadrupole",
+                "Orbitrap",
+                "Ion Trap",
+                "Time-of-Flight (TOF)"
+            ],
+            "correctOptionIndex": 3
+        },
+        {
+            "id": "massspec_8",
+            "type": "content",
+            "title": "Tandem Mass Spectrometry (MS/MS)",
+            "content": "# Tandem Mass Spectrometry (MS/MS)\n\nMeasuring the mass of an intact peptide (MS1) isn't enough to identify it. We need the amino acid sequence. We do this by breaking it apart in MS/MS.\n\n## The MS/MS Workflow:\n1. **MS1 Scan**: Measure the masses of all intact peptides coming out of the HPLC.\n2. **Isolation**: The quadrupole selects ONE specific peptide (the \"precursor ion\") and filters out all others.\n3. **Fragmentation**: The selected peptide is collided with a neutral gas (like Argon or Nitrogen) to break it into pieces (Collision-Induced Dissociation - CID/HCD).\n4. **MS2 Scan**: A second mass analyzer measures the masses of the broken pieces (the \"product ions\")."
+        },
+        {
+            "id": "massspec_9",
+            "type": "content",
+            "title": "Spectral Analysis: b and y ions",
+            "content": "# Reading an MS/MS Spectrum\n\nWhen a peptide fragments via CID/HCD, it usually breaks along the peptide backbone.\n\n## b and y Ions:\n- **b-ions**: These are the fragments containing the N-terminus of the peptide.\n- **y-ions**: These are the fragments containing the C-terminus of the peptide.\n\n## Sequencing:\nThe mass difference between adjacent peaks in a y-ion series (or b-ion series) corresponds exactly to the mass of a single amino acid! \n\n*Example: If peak y4 is 500 Da and peak y5 is 587 Da, the difference is 87 Da, which is the mass of the amino acid Serine.*"
+        },
+        {
+            "id": "massspec_10",
+            "type": "content",
+            "title": "Data Acquisition: DDA",
+            "content": "# Data-Dependent Acquisition (DDA)\n\nHow does the instrument decide which peptides to fragment?\n\n## The DDA Strategy:\n1. The MS takes a quick survey scan (MS1) to see what peptides are present.\n2. Software identifies the Top N most intense peaks (e.g., Top 10 or Top 20).\n3. The instrument sequentially isolates and fragments (MS2) those Top N peptides.\n4. It ignores the rest of the lower-intensity peaks.\n\n> **Drawback**: DDA is biased towards highly abundant proteins. Rare proteins might be missed entirely because their peaks aren't intense enough to be selected for MS2."
+        },
+        {
+            "id": "massspec_11",
+            "type": "content",
+            "title": "Data Acquisition: DIA",
+            "content": "# Data-Independent Acquisition (DIA)\n\nTo solve the missing data problem of DDA, we use DIA (like SWATH-MS).\n\n## The DIA Strategy:\n- Instead of selecting individual peaks, the instrument selects a wide \"window\" of m/z (e.g., everything from 400 to 425 m/z).\n- ALL peptides within that window are fragmented TOGETHER.\n- The instrument steps through the entire mass range window by window.\n\n> **Benefit**: A complete, comprehensive digital archive of ALL fragments in the sample.\n> **Drawback**: The resulting MS2 spectra are incredibly complex (chimeric spectra) because multiple peptides are fragmented simultaneously, requiring advanced software to decode."
+        },
+        {
+            "id": "massspec_quiz_3",
+            "type": "quiz",
+            "title": "Acquisition Quiz",
+            "content": "Test your knowledge of MS data acquisition.",
+            "quizQuestion": "In Data-Dependent Acquisition (DDA), how does the instrument choose which peptides to fragment?",
+            "quizOptions": [
+                "It selects a wide window of m/z values and fragments everything",
+                "It fragments peptides based on their hydrophobicity",
+                "It selects the top N most intense peaks from the MS1 scan",
+                "It only fragments peptides containing PTMs"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "massspec_12",
+            "type": "content",
+            "title": "Resolution and Mass Accuracy",
+            "content": "# Key MS Metrics\n\n## Mass Resolution (R):\n- The ability of an instrument to separate two closely related mass peaks.\n- A high-resolution instrument (like an Orbitrap) can distinguish two peaks that differ by tiny fractions of a Dalton.\n\n## Mass Accuracy:\n- How close the measured mass is to the true, theoretical mass.\n- Usually expressed in parts per million (ppm).\n- *Example: 5 ppm accuracy on a 1000 Da peptide means the measurement will be within 0.005 Da of the true value.*\n\n> High resolution and mass accuracy are critical for confident peptide identification and determining exact PTMs."
+        },
+        {
+            "id": "massspec_13",
+            "type": "content",
+            "title": "Targeted Quantification (SRM/MRM)",
+            "content": "# Targeted Proteomics (SRM/MRM)\n\nIf you want to precisely measure a *known* set of proteins (e.g., biomarkers) rather than discovering new ones, you use Targeted MS.\n\n## Selected Reaction Monitoring (SRM):\n- Usually performed on a Triple Quadrupole instrument.\n- **Q1**: Set to transmit ONLY the intact peptide mass (Precursor).\n- **Q2 (Collision Cell)**: Fragments the peptide.\n- **Q3**: Set to transmit ONLY a specific fragment mass (Product ion).\n\n> **Result**: By looking for a specific transition (Precursor -> Product), SRM is incredibly sensitive and filters out almost all background noise. It's the gold standard for absolute quantification."
+        },
+        {
+            "id": "massspec_14",
+            "type": "content",
+            "title": "Parallel Reaction Monitoring (PRM)",
+            "content": "# Parallel Reaction Monitoring (PRM)\n\nPRM is the high-resolution successor to SRM.\n\n## How it Works:\n- Uses a high-resolution instrument (like a Quadrupole-Orbitrap).\n- **Q1**: Selects the target precursor peptide.\n- **Collision Cell**: Fragments the peptide.\n- **Orbitrap (Analyzer)**: Measures ALL product ions simultaneously at high resolution, instead of just selecting one like Q3 in SRM.\n\n> **Advantage**: Provides better confirmation of peptide identity (because you see the whole fragmentation pattern) while maintaining excellent quantitative precision."
+        },
+        {
+            "id": "massspec_quiz_4",
+            "type": "quiz",
+            "title": "Targeted MS Quiz",
+            "content": "Check your targeted MS knowledge.",
+            "quizQuestion": "Which targeted proteomics technique uses a triple quadrupole to monitor specific precursor-to-product ion transitions for maximum sensitivity?",
+            "quizOptions": [
+                "Data-Independent Acquisition (DIA)",
+                "Selected Reaction Monitoring (SRM/MRM)",
+                "Top-Down Proteomics",
+                "Matrix-Assisted Laser Desorption/Ionization (MALDI)"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "massspec_15",
+            "type": "content",
+            "title": "Module Summary",
+            "content": "# Mass Spectrometry Summary\n\n## Key Takeaways:\n- **Components**: MS requires an Ion Source (ESI/MALDI), Mass Analyzer (Quadrupole/TOF/Orbitrap), and Detector.\n- **MS/MS**: Tandem MS fragments peptides (producing b and y ions) to determine their amino acid sequence.\n- **Acquisition**: DDA focuses on intense peaks, while DIA attempts to fragment everything in sweeping windows.\n- **Targeted MS**: SRM and PRM are highly sensitive methods for precise quantification of predefined target proteins.\n\n> **Congratulations!** You have completed the Mass Spectrometry module."
+        }
+    ]
+}

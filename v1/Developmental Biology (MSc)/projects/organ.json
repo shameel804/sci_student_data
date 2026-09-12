@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The Basics of Organ Formation 🫀",
+    "ques": "Define 'organogenesis' and specify which of the three primary germ layers is generally responsible for forming the nervous system.",
+    "answer": {
+      "type": "text",
+      "content": "* **Organogenesis:** The phase of embryonic development where the three primary germ layers begin to fold, split, and condense to form the preliminary structures of the body's internal organs.\n* **Nervous System Origin:** The entire nervous system (brain, spinal cord, and peripheral nerves) is derived from the **ectoderm** (the outermost germ layer)."
+    },
+    "explanation": "Knowing which germ layer produces which tissue is fundamental to understanding the structural logic of the vertebrate body plan."
+  },
+  {
+    "title": "The Power of Tissue Interactions 🤝",
+    "ques": "Explain the concept of 'embryonic induction' using the formation of the vertebrate eye as an example of crucial **tissue interactions**.",
+    "answer": {
+      "type": "text",
+      "content": "* **Embryonic Induction:** A process where one group of cells secretes chemical signals that dictate the developmental fate of an adjacent, responding group of cells.\n* **Eye Example:** The developing brain forms a bulge (the optic vesicle) that grows outward until it touches the overlying surface ectoderm (skin). The optic vesicle secretes signals (induces) that force the skin cells to change their fate, thickening and invaginating to become the lens of the eye. Without this specific tissue interaction, no lens forms."
+    },
+    "explanation": "Organs do not develop in isolation. They are built through continuous 'conversations' between neighboring tissues that coordinate their mutual assembly."
+  },
+  {
+    "title": "Hox Genes in Developmental Genetics 🧬",
+    "ques": "Describe the function of Hox genes in **developmental genetics**. What happens if a Hox gene is mutated?",
+    "answer": {
+      "type": "text",
+      "content": "* **Function:** Hox genes are master regulatory genes that control the body plan of an embryo along the head-to-tail axis. They tell the developing segments what kind of structures they should grow (e.g., 'grow antennae here', 'grow legs here').\n* **Mutation Consequence (Homeosis):** If a Hox gene is mutated, a body part can develop in the completely wrong location. A classic example in fruit flies is the *Antennapedia* mutation, where a defect in a Hox gene causes fully formed legs to grow out of the fly's head in place of antennae."
+    },
+    "explanation": "Hox genes reveal the deep underlying genetic code that acts as a set of architectural blueprints for animal development."
+  },
+  {
+    "title": "Evo-Devo: Evolutionary Developmental Biology 🦖🐔",
+    "ques": "How does the field of **evolutionary developmental biology** (Evo-Devo) use comparative embryology to explain major evolutionary changes, such as the loss of limbs in snakes?",
+    "answer": {
+      "type": "text",
+      "content": "* **The Principle:** Evo-Devo argues that major evolutionary changes in body shape are usually not caused by inventing completely new genes, but by tweaking the *timing* or *location* of when existing developmental genes (like Hox genes) are turned on or off in the embryo.\n* **Snake Example:** Snakes evolved from four-legged lizards. They still have the genetic blueprints for legs. However, changes in the regulatory DNA sequences that control where certain Hox genes are expressed along the snake's long torso effectively 'turn off' the limb-building signals during embryonic development, resulting in a limbless adult."
+    },
+    "explanation": "Evo-Devo bridges genetics and paleontology, showing that evolution often works by simply reprogramming the existing software of embryonic development."
+  }
+]

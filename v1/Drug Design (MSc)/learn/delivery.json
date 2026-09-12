@@ -1,0 +1,149 @@
+{
+    "id": "learn_delivery",
+    "topicId": "delivery",
+    "topicTitle": "Drug Delivery Systems",
+    "description": "Learn how drugs actually get into the body and reach their targets, focusing on ADME properties, toxicity, and formulations.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "delivery_1",
+            "type": "content",
+            "title": "Welcome to Drug Delivery",
+            "content": "# Drug Delivery Systems\n\nWelcome to Drug Delivery!\n\nDesigning a potent molecule is only half the battle. The other half is ensuring that molecule can survive the journey through the human body to reach its target.\n\n## What You Will Learn:\n- **ADME Properties**: Absorption, Distribution, Metabolism, Excretion.\n- **Toxicity Assessment**: Ensuring safety.\n- **Formulation Development**: Turning a chemical into a pill or injection.\n- **Advanced Delivery**: Liposomes and targeted systems."
+        },
+        {
+            "id": "delivery_2",
+            "type": "content",
+            "title": "Pharmacokinetics (PK)",
+            "content": "# Pharmacokinetics: What the Body Does to the Drug\n\nWhile Pharmacodynamics (PD) studies what the drug does to the body (potency, targeting), **Pharmacokinetics (PK)** studies the drug's journey through the body.\n\n## The ADME Framework:\nPK is governed by four distinct phases:\n1. **A**bsorption: Getting into the blood.\n2. **D**istribution: Traveling to the tissues.\n3. **M**etabolism: Being broken down.\n4. **E**xcretion: Leaving the body."
+        },
+        {
+            "id": "delivery_3",
+            "type": "content",
+            "title": "Absorption",
+            "content": "# Absorption (A in ADME)\n\nUnless a drug is injected directly into a vein (IV), it must be absorbed into the bloodstream.\n\n## Oral Delivery Challenges:\nThe most convenient way to take a drug is orally (a pill), but it's the hardest route for the drug!\n- **Stomach Acid**: Can destroy delicate molecules (like proteins/peptides).\n- **Cell Membranes**: The drug must cross the lipid membranes of the intestinal wall to reach the blood.\n- This requires a delicate balance of solubility (to dissolve in gut fluid) and lipophilicity (to cross the greasy cell membrane)."
+        },
+        {
+            "id": "delivery_4",
+            "type": "content",
+            "title": "The First-Pass Effect",
+            "content": "# The First-Pass Effect\n\nThere's a major trap for oral drugs: The Liver.\n\n## The Portal Vein Trap:\n- Blood leaving the intestines doesn't go straight to the heart.\n- It goes directly to the liver via the Hepatic Portal Vein.\n- The liver is the body's detoxification center, packed with destructive enzymes.\n- **First-Pass Metabolism**: The liver might destroy 90% of your drug before it ever reaches systemic circulation!\n\n> **Workarounds**: Sublingual (under the tongue) or transdermal (patch) delivery routes bypass the liver entirely."
+        },
+        {
+            "id": "delivery_quiz_1",
+            "type": "quiz",
+            "title": "Absorption Quiz",
+            "content": "Check your understanding of absorption.",
+            "quizQuestion": "Why is oral delivery particularly challenging for many drugs?",
+            "quizOptions": [
+                "Because of the 'First-Pass Effect' in the liver which can destroy the drug",
+                "Because they enter the bloodstream too quickly",
+                "Because the stomach lacks acid",
+                "Because patients forget to take them"
+            ],
+            "correctOptionIndex": 0
+        },
+        {
+            "id": "delivery_5",
+            "type": "content",
+            "title": "Distribution",
+            "content": "# Distribution (D in ADME)\n\nOnce in the blood, where does the drug go?\n\n## Factors Affecting Distribution:\n- **Blood Flow**: Organs with high blood flow (brain, heart, kidneys) receive drugs faster than fat or bone.\n- **Protein Binding**: Many drugs stick to proteins in the blood (like Albumin). Only the \"free\" (unbound) drug can leave the blood and have an effect.\n\n## The Blood-Brain Barrier (BBB):\nA tightly packed layer of cells protecting the brain. \n- Great for protecting against toxins.\n- Terrible if you are trying to design a drug to treat Alzheimer's or depression, as most drugs cannot cross the BBB."
+        },
+        {
+            "id": "delivery_6",
+            "type": "content",
+            "title": "Metabolism",
+            "content": "# Metabolism (M in ADME)\n\nThe body treats drugs as foreign invaders (xenobiotics) and actively tries to destroy them.\n\n## The Cytochrome P450 System (CYP450):\n- This is a \"super-family\" of enzymes primarily located in the liver.\n- Their main job is to add oxygen (oxidize) to drug molecules.\n- This makes the drug more water-soluble (polar), making it easier for the kidneys to excrete in urine.\n\n> **Drug Interactions**: If Patient takes Drug A and Drug B, and they are both metabolized by the exact same CYP450 enzyme, they will compete, leading to toxic build-ups of one of the drugs."
+        },
+        {
+            "id": "delivery_7",
+            "type": "content",
+            "title": "Prodrugs",
+            "content": "# The Prodrug Strategy\n\nSometimes chemists use metabolism to their advantage by creating a **Prodrug**.\n\n## What is a Prodrug?\nIt's an inactive chemical compound that is administered to the patient. Once inside the body, the liver's metabolic enzymes process it, converting it into the active drug.\n\n## Why use Prodrugs?\n- To improve oral absorption (making it more lipophilic so it crosses the gut wall, then activating it inside).\n- To reduce stomach irritation.\n- To prolong the duration of action."
+        },
+        {
+            "id": "delivery_quiz_2",
+            "type": "quiz",
+            "title": "Metabolism Quiz",
+            "content": "Let's review metabolism.",
+            "quizQuestion": "What is the primary role of the Cytochrome P450 (CYP450) enzyme system?",
+            "quizOptions": [
+                "To absorb drugs from the intestine",
+                "To carry drugs across the Blood-Brain Barrier",
+                "To metabolize (break down) drugs in the liver",
+                "To activate the immune system"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "delivery_8",
+            "type": "content",
+            "title": "Excretion",
+            "content": "# Excretion (E in ADME)\n\nHow does the drug leave the body?\n\n## Primary Routes:\n1. **Kidneys (Renal Excretion)**: The most common route. Drugs must be water-soluble to be filtered into urine. (This is why metabolism makes drugs more water-soluble!).\n2. **Biliary (Feces)**: Some large or heavily lipid-soluble drugs are secreted into bile by the liver and eliminated in feces.\n3. **Lungs**: For volatile drugs (like inhaled anesthetics).\n\n## Half-Life (t1/2):\nThe time it takes for the concentration of the drug in the blood to drop by 50%. A short half-life means you have to take the pill multiple times a day."
+        },
+        {
+            "id": "delivery_9",
+            "type": "content",
+            "title": "Toxicity Assessment",
+            "content": "# Toxicity Assessment\n\nSafety is paramount. Before clinical trials, drugs undergo rigorous toxicity testing in animals (In Vivo) and cells (In Vitro).\n\n## Key Tests:\n- **Acute Toxicity**: What happens after a single high dose?\n- **Chronic Toxicity**: What happens after taking it daily for 6 months?\n- **Genotoxicity (Ames Test)**: Does it cause DNA mutations (cancer risk)?\n- **Teratogenicity**: Does it cause birth defects if taken during pregnancy?\n\n> **Therapeutic Index (TI)**: The ratio between the toxic dose and the effective dose. A high TI is safe (like Penicillin). A low TI requires careful monitoring (like Warfarin)."
+        },
+        {
+            "id": "delivery_10",
+            "type": "content",
+            "title": "Formulation Development",
+            "content": "# Formulation (Pharmaceutics)\n\nYou never take just the pure active drug. You take a **Formulation**.\n\n## Excipients:\nThese are the inactive ingredients added to the active drug.\n- **Fillers**: Add bulk to make a pill large enough to handle (e.g., lactose).\n- **Binders**: Hold the powder together.\n- **Disintegrants**: Help the pill explode and dissolve rapidly in the stomach.\n- **Coatings**: Hide a bad taste or protect the drug from stomach acid (Enteric coating).\n\n> **The Art of Pharmacy**: A poorly formulated pill of a great drug will fail because it never dissolves!"
+        },
+        {
+            "id": "delivery_quiz_3",
+            "type": "quiz",
+            "title": "Excretion & Tox Quiz",
+            "content": "Check your understanding of the final stages.",
+            "quizQuestion": "The Therapeutic Index (TI) compares the effective dose of a drug to its:",
+            "quizOptions": [
+                "Half-life",
+                "Absorption rate",
+                "Toxic dose",
+                "Molecular weight"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "delivery_11",
+            "type": "content",
+            "title": "Advanced Delivery: Liposomes",
+            "content": "# Nanotechnology: Liposomes\n\nStandard pills distribute the drug everywhere in the body, causing side effects. How do we target the drug just to the disease site?\n\n## Liposomes:\n- These are microscopic spheres made of a lipid bilayer (like a tiny artificial cell).\n- You trap the drug (e.g., a toxic chemotherapy agent) inside the water core of the liposome.\n- The lipid shell protects the drug from degradation and protects the healthy tissues from the toxic drug.\n- They tend to accumulate in tumors due to the \"leaky\" blood vessels in cancer tissue (EPR effect)."
+        },
+        {
+            "id": "delivery_12",
+            "type": "content",
+            "title": "Antibody-Drug Conjugates (ADCs)",
+            "content": "# Antibody-Drug Conjugates (ADCs)\n\nADCs are the ultimate \"smart bombs\" in targeted delivery.\n\n## The Three Parts:\n1. **The Antibody**: Specifically seeks out and binds only to cancer cells.\n2. **The Payload**: A highly toxic chemotherapy drug (too toxic to give on its own).\n3. **The Linker**: Connects the two. It is designed to be stable in the blood but break apart once inside the cancer cell.\n\n> **Mechanism**: The antibody binds the tumor, the cell swallows the complex, the linker breaks, and the toxic payload is released directly inside the cancer cell, sparing healthy tissue."
+        },
+        {
+            "id": "delivery_13",
+            "type": "content",
+            "title": "Clinical Trials",
+            "content": "# Clinical Trial Phases\n\nOnce formulated and proven safe in animals, testing in humans begins.\n\n## Phase I: Is it Safe?\n- Small group (20-100) of **healthy volunteers**.\n- Goal: Determine the maximum safe dose and observe ADME in humans.\n\n## Phase II: Does it Work?\n- Larger group (100-300) of **patients with the disease**.\n- Goal: Evaluate efficacy and find the optimal dose.\n\n## Phase III: Is it Better?\n- Huge group (1000-3000+) across multiple hospitals.\n- Goal: Compare the new drug against the current standard-of-care or placebo in a randomized, double-blind trial."
+        },
+        {
+            "id": "delivery_quiz_4",
+            "type": "quiz",
+            "title": "Trials & Targeting Quiz",
+            "content": "Test your clinical knowledge.",
+            "quizQuestion": "What is the primary goal of a Phase I Clinical Trial?",
+            "quizOptions": [
+                "To test the drug on patients with the disease to see if it works",
+                "To compare the drug against a placebo",
+                "To determine safety, dosage, and side effects in a small group of healthy volunteers",
+                "To get final FDA approval"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "delivery_14",
+            "type": "content",
+            "title": "Module Summary",
+            "content": "# Drug Delivery Summary\n\n## Key Takeaways:\n- **ADME**: The pharmacokinetics journey (Absorption, Distribution, Metabolism, Excretion).\n- **First-Pass Effect**: The liver metabolizes many oral drugs before they reach circulation.\n- **Prodrugs**: Inactive compounds activated by metabolism.\n- **Formulation**: Using excipients to turn active ingredients into viable medicines.\n- **Targeted Delivery**: Liposomes and ADCs minimize toxicity by guiding drugs directly to the disease site.\n- **Clinical Trials**: Phase I (Safety), Phase II (Efficacy), Phase III (Comparison).\n\n> **Congratulations!** You have completed the Drug Delivery module."
+        }
+    ]
+}

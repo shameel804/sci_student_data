@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Zeroth Law: Thermal Equilibrium 🌡️",
+    "ques": "Explain the concept of thermal equilibrium using the **Zeroth Law of Thermodynamics** and describe how it forms the basis for temperature measurement.",
+    "answer": {
+      "type": "text",
+      "content": "* **Thermal Equilibrium:** If system A is in thermal equilibrium with system B, and system B is in thermal equilibrium with system C, then system A is in thermal equilibrium with system C.\n* **Application:** This transitive property allows us to use system B as a thermometer to measure the temperature of systems A and C, ensuring they are at the same temperature without direct contact."
+    },
+    "explanation": "This exercise introduces the foundational concept of temperature measurement based on the Zeroth law, which is crucial for all thermodynamic studies."
+  },
+  {
+    "title": "First Law: Energy Conservation ⚡",
+    "ques": "State the **First Law of Thermodynamics** for a closed system undergoing a cycle. Then, write its mathematical formulation using plain text terms (Internal Energy, Heat, Work) and describe a real-world application.",
+    "answer": {
+      "type": "text",
+      "content": "* **Statement:** Energy cannot be created or destroyed, only transformed from one form to another. For a cycle, the net heat added equals the net work done.\n* **Formulation:** Change in Internal Energy = Heat added to the system - Work done by the system.\n* **Application:** A steam engine transforms heat from burning coal into mechanical work, while adhering to energy conservation principles."
+    },
+    "explanation": "This exercise connects the abstract concept of energy conservation to a practical formulation, ensuring understanding of the First Law without complex notation."
+  },
+  {
+    "title": "Second Law: Entropy and Direction 🔄",
+    "ques": "Compare the **Kelvin-Planck** and **Clausius** statements of the Second Law of Thermodynamics. Explain why they are considered equivalent.",
+    "answer": {
+      "type": "text",
+      "content": "* **Kelvin-Planck Statement:** It is impossible to construct an engine that operates in a cycle and produces no other effect than the extraction of heat from a reservoir and the performance of an equivalent amount of work.\n* **Clausius Statement:** Heat cannot spontaneously flow from a colder body to a hotter body without external work.\n* **Equivalence:** Violating one statement automatically leads to the violation of the other. For instance, a perpetual motion machine of the second kind (violating Kelvin-Planck) could be used to transfer heat from a cold to hot reservoir without work (violating Clausius)."
+    },
+    "explanation": "The Second Law establishes the direction of spontaneous processes. Comparing its two main statements deepens conceptual understanding."
+  },
+  {
+    "title": "Third Law: Absolute Zero ❄️",
+    "ques": "Discuss the implications of the **Third Law of Thermodynamics** regarding absolute zero and the entropy of a perfect crystal.",
+    "answer": {
+      "type": "text",
+      "content": "* **Third Law:** The entropy of a perfect crystal approaches zero as the temperature approaches absolute zero (0 Kelvin).\n* **Implications:** It is impossible to cool a system to exactly absolute zero in a finite number of steps. It also provides a baseline to calculate absolute entropy values for substances at higher temperatures."
+    },
+    "explanation": "This advanced exercise explores the limits of cooling and the absolute reference point for entropy calculations, capping off the laws of thermodynamics."
+  }
+]

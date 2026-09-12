@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Gas laws applications",
+    "ques": "State **Boyle's Law** and write its mathematical expression.",
+    "answer": {
+      "type": "text",
+      "content": "**Boyle's Law** states that at a constant temperature, the pressure of a fixed mass of a gas is inversely proportional to its volume.\n\n* **Mathematical expression:** `P * V = constant` (or P1*V1 = P2*V2), where P is pressure and V is volume."
+    },
+    "explanation": "This tests the most fundamental relationship between pressure and volume in gases."
+  },
+  {
+    "title": "Liquid state properties",
+    "ques": "Define **Surface Tension** of a liquid.",
+    "answer": {
+      "type": "text",
+      "content": "**Surface Tension** is the property of a liquid surface due to which it behaves like a stretched elastic membrane, tending to contract and occupy the minimum possible surface area.\n\nIt is caused by the unbalanced downward cohesive forces acting on the molecules at the surface of the liquid."
+    },
+    "explanation": "This applies intermolecular forces to explain macroscopic properties of liquids."
+  },
+  {
+    "title": "Solid state characteristics",
+    "ques": "What is the primary difference between a **crystalline solid** and an **amorphous solid**?",
+    "answer": {
+      "type": "text",
+      "content": "* **Crystalline Solid:** The constituent particles (atoms, ions, or molecules) are arranged in a regular, highly ordered, repeating three-dimensional pattern (long-range order). *Example:* Salt, Quartz.\n* **Amorphous Solid:** The constituent particles lack a regular three-dimensional arrangement (short-range order only). *Example:* Glass, Rubber."
+    },
+    "explanation": "This categorizes solid matter based on its internal microscopic structure."
+  },
+  {
+    "title": "State changes",
+    "ques": "Write the **Ideal Gas Equation** and identify each term.",
+    "answer": {
+      "type": "text",
+      "content": "The Ideal Gas Equation is: **PV = nRT**\n\nWhere:\n* **P** = Pressure\n* **V** = Volume\n* **n** = Number of moles\n* **R** = Universal Gas Constant\n* **T** = Absolute Temperature (in Kelvin)"
+    },
+    "explanation": "This is the master equation combining Boyle's, Charles's, and Avogadro's laws for theoretical gases."
+  }
+]

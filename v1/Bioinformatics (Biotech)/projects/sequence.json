@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Fundamentals of Pairwise Alignment 🧬",
+    "ques": "Explain the difference between global and local **pairwise alignment** when comparing two DNA or protein sequences.",
+    "answer": {
+      "type": "text",
+      "content": "* **Global Alignment:** Attempts to align the entire length of both sequences from end to end. This is best used when the two sequences are roughly the same length and are expected to be similar overall (e.g., comparing the same gene from two closely related species).\n* **Local Alignment:** Searches for highly similar sub-regions or motifs within the two sequences, ignoring the poorly aligned regions outside of these matches. This is ideal for sequences of different lengths or when searching for specific functional domains shared by otherwise different proteins."
+    },
+    "explanation": "Choosing between global and local alignment is the foundational decision in sequence analysis, dictating whether you are looking for overall homology or specific shared features."
+  },
+  {
+    "title": "Multiple Sequence Alignment (MSA) 📊",
+    "ques": "What is the primary biological purpose of performing a **multiple sequence alignment** on a group of related protein sequences?",
+    "answer": {
+      "type": "text",
+      "content": "* **Purpose:** By aligning three or more related sequences simultaneously, researchers can identify conserved regions. \n* **Biological Meaning:** If a specific amino acid or motif remains unchanged (conserved) across many divergent species, it strongly implies that this specific region is structurally or functionally critical to the protein. MSA is essential for identifying active sites in enzymes or tracing evolutionary lineage (phylogenetics)."
+    },
+    "explanation": "MSA expands pairwise comparison to a population level, allowing researchers to spot evolutionary constraints and pinpoint biologically vital sequence motifs."
+  },
+  {
+    "title": "Dynamic Programming in Alignment Algorithms 💻",
+    "ques": "Briefly describe how dynamic programming is utilized in **alignment algorithms** like Needleman-Wunsch.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Problem:** Trying every possible alignment combination for long sequences would take an impossible amount of computing time.\n* **Dynamic Programming Solution:** Algorithms like Needleman-Wunsch break the large alignment problem into smaller, manageable sub-problems. It calculates and scores the alignment of short segments, stores those scores in a matrix, and then uses those stored results to systematically build up to the absolute optimal alignment for the entire sequence."
+    },
+    "explanation": "Understanding the computational logic behind alignment tools demystifies the software and explains how computers can find optimal matches quickly."
+  },
+  {
+    "title": "Scoring Matrices: PAM vs. BLOSUM 🧮",
+    "ques": "Differentiate between the PAM and BLOSUM **scoring matrices** used in protein sequence alignment.",
+    "answer": {
+      "type": "text",
+      "content": "* **Purpose:** Both matrices provide the scores for matching or mismatching specific amino acids based on how frequently those substitutions occur in nature.\n* **PAM (Point Accepted Mutation):** Based on global alignments of very closely related proteins. Higher PAM numbers (e.g., PAM250) are extrapolated to compare more distantly related sequences.\n* **BLOSUM (Blocks Substitution Matrix):** Based on local alignments of highly conserved regions (blocks) across diverse proteins. Lower BLOSUM numbers (e.g., BLOSUM45) are used to compare more distantly related sequences, while higher numbers (BLOSUM62) are for closer relations."
+    },
+    "explanation": "Scoring matrices are the statistical heart of sequence alignment; choosing the wrong matrix can lead to missing true biological relationships."
+  }
+]

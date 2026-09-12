@@ -1,0 +1,149 @@
+{
+    "id": "learn_design",
+    "topicId": "design",
+    "topicTitle": "Drug Design Principles",
+    "description": "Learn the core principles of creating new medicines, from target identification to lead optimization and structure-activity relationships.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "design_1",
+            "type": "content",
+            "title": "Welcome to Drug Design",
+            "content": "# Drug Design Principles\n\nWelcome to the science of discovering new medicines!\n\n**Drug Design** is the inventive process of finding new medications based on the knowledge of a biological target.\n\n## What You Will Learn:\n- **Target Identification**: Finding the disease's weak point.\n- **Lead Discovery**: Finding a starting molecule.\n- **Structure-Activity Relationships (SAR)**: How changing the molecule changes its effect.\n- **Optimization Strategies**: Making a good molecule into a great drug."
+        },
+        {
+            "id": "design_2",
+            "type": "content",
+            "title": "The Drug Discovery Pipeline",
+            "content": "# The Long Journey to a Drug\n\nDiscovering a new drug is an incredibly long, expensive, and risky process.\n\n## The Timeline:\n1. **Basic Research & Target ID**: 1-3 years\n2. **Lead Discovery & Optimization**: 2-3 years\n3. **Preclinical Testing (Animals)**: 1-2 years\n4. **Clinical Trials (Humans - Phases I, II, III)**: 5-7 years\n5. **FDA Review**: 1-2 years\n\n> **The Reality**: Out of 10,000 initial compounds tested, only 1 might eventually make it to the pharmacy shelf. Total cost can exceed $2 billion!"
+        },
+        {
+            "id": "design_3",
+            "type": "content",
+            "title": "Target Identification",
+            "content": "# Target Identification\n\nThe first step is finding a \"druggable\" target. \n\n## What is a Target?\nUsually, it's a protein (enzyme, receptor, ion channel) whose activity is linked to a disease.\n- If a disease is caused by an overactive enzyme, the target is that enzyme (we want an inhibitor).\n- If a disease is caused by a missing signal, the target is the receptor (we want an agonist).\n\n## Target Validation:\nBefore spending millions, scientists must *prove* that hitting the target actually affects the disease. This is often done using genetic knockouts in mice or siRNA in cells."
+        },
+        {
+            "id": "design_4",
+            "type": "content",
+            "title": "Druggability",
+            "content": "# Is the Target Druggable?\n\nNot all proteins make good drug targets.\n\n## Features of a \"Druggable\" Target:\n1. **Has a binding pocket**: It needs a physical groove or pocket where a small molecule drug can bind tightly.\n2. **Accessible**: Is it on the cell surface (easy) or inside the nucleus (harder to reach)?\n3. **Unique**: Does it have a unique shape? If it looks too much like other essential proteins, the drug will cause severe side effects.\n\n> **Note**: Proteins that lack deep pockets (like transcription factors) were long considered \"undruggable,\" though modern techniques are starting to tackle them."
+        },
+        {
+            "id": "design_quiz_1",
+            "type": "quiz",
+            "title": "Target Quiz",
+            "content": "Check your understanding of targets.",
+            "quizQuestion": "In drug discovery, what is meant by 'Target Validation'?",
+            "quizOptions": [
+                "Testing if a drug is safe in humans",
+                "Synthesizing large amounts of the drug",
+                "Proving that manipulating a specific protein actually alters the course of the disease",
+                "Finding the molecular weight of the target"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "design_5",
+            "type": "content",
+            "title": "Lead Discovery: HTS",
+            "content": "# Lead Discovery: High-Throughput Screening (HTS)\n\nOnce you have a validated target, you need a starting molecule (a **\"Hit\"**).\n\n## The Brute Force Approach (HTS):\n- Pharmaceutical companies maintain \"libraries\" of millions of chemical compounds.\n- Robots test these compounds against the target protein in tiny wells on 384- or 1536-well plates.\n- If a compound binds to the target or blocks its activity, it's considered a \"Hit\".\n\n> **Limitation**: HTS only finds molecules that are *already* in the library."
+        },
+        {
+            "id": "design_6",
+            "type": "content",
+            "title": "Rational Drug Design",
+            "content": "# Rational Drug Design (Structure-Based)\n\nInstead of testing millions of random compounds, what if we design a drug specifically to fit the target?\n\n## The Rational Approach:\n1. Use X-ray crystallography or Cryo-EM to determine the exact 3D atomic structure of the target protein's binding pocket.\n2. Use computer software (CADD - Computer-Aided Drug Design) to virtually \"dock\" thousands of molecular structures into the pocket.\n3. Identify molecules that perfectly complement the pocket's shape and charge.\n4. Synthesize those specific molecules in the lab.\n\n> **Example**: The HIV protease inhibitors were designed this way, revolutionizing HIV treatment."
+        },
+        {
+            "id": "design_7",
+            "type": "content",
+            "title": "From Hit to Lead",
+            "content": "# From 'Hit' to 'Lead'\n\nA \"Hit\" from a screen is rarely a good drug. It might be weak, toxic, or unstable.\n\n## The \"Lead\" Compound:\nA Hit is evaluated and refined into a **Lead**. A Lead is a prototypical chemical structure that shows the desired biological activity but still needs significant tweaking to become a drug.\n\n## Requirements for a Lead:\n- Synthetically accessible (chemists can actually make variations of it).\n- Active in low concentrations (high potency).\n- Shows some specificity for the target."
+        },
+        {
+            "id": "design_quiz_2",
+            "type": "quiz",
+            "title": "Discovery Methods Quiz",
+            "content": "Let's review discovery methods.",
+            "quizQuestion": "Which drug discovery approach relies on knowing the exact 3D atomic structure of the target protein?",
+            "quizOptions": [
+                "High-Throughput Screening (HTS)",
+                "Rational Drug Design (Structure-Based)",
+                "Combinatorial Chemistry",
+                "Phenotypic Screening"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "design_8",
+            "type": "content",
+            "title": "Structure-Activity Relationships (SAR)",
+            "content": "# Structure-Activity Relationships (SAR)\n\nOnce a Lead is identified, Medicinal Chemists begin the **Optimization** phase using SAR.\n\n## The SAR Concept:\nSAR is the relationship between the 3D chemical structure of a molecule and its biological activity.\n- Chemists synthesize dozens or hundreds of slight variations (analogs) of the Lead.\n- They test each analog.\n- By seeing which changes increase activity and which destroy it, they learn exactly which parts of the molecule are essential for binding."
+        },
+        {
+            "id": "design_9",
+            "type": "content",
+            "title": "SAR in Practice",
+            "content": "# How SAR Works\n\nImagine the Lead compound is a key, and the target is a lock.\n\n- **Change 1 (Add a methyl group)**: Activity increases 10x. (The methyl group fills a small hydrophobic pocket in the lock).\n- **Change 2 (Add a large phenyl ring)**: Activity drops to zero. (The ring is too big, the key no longer fits the lock).\n- **Change 3 (Change an oxygen to a nitrogen)**: Activity increases 100x. (The nitrogen forms a new, strong hydrogen bond with the lock).\n\n> **The Goal**: Iteratively combine all the positive changes to create a \"super-key\"."
+        },
+        {
+            "id": "design_10",
+            "type": "content",
+            "title": "Pharmacophores",
+            "content": "# The Pharmacophore\n\nThrough SAR studies, chemists define the **Pharmacophore**.\n\n## Definition:\nA pharmacophore is the specific spatial arrangement of structural features (like hydrogen bond donors/acceptors, hydrophobic regions, positive/negative charges) that is strictly necessary for the drug to bind to its target.\n\n## Why is this useful?\nOnce you know the pharmacophore, you can design entirely different molecular \"scaffolds\" that hold those essential features in the exact same 3D arrangement. This is a great way to circumvent patents on existing drugs!"
+        },
+        {
+            "id": "design_quiz_3",
+            "type": "quiz",
+            "title": "SAR Quiz",
+            "content": "Check your understanding of SAR.",
+            "quizQuestion": "What is the primary goal of studying Structure-Activity Relationships (SAR)?",
+            "quizOptions": [
+                "To determine how to manufacture the drug at scale",
+                "To understand how specific chemical changes to a lead compound affect its biological activity",
+                "To test the drug on animal models",
+                "To find out how the drug is metabolized in the liver"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "design_11",
+            "type": "content",
+            "title": "Optimization: Beyond Potency",
+            "content": "# Optimization Strategies\n\nDuring Lead Optimization, chemists don't just care about potency (how tightly it binds). A super-potent molecule is useless if it can't survive in the human body.\n\n## Balancing Properties:\nChemists must simultaneously optimize:\n1. **Potency & Selectivity**: Hitting the target hard, while ignoring other proteins.\n2. **Solubility**: The drug must dissolve in aqueous body fluids (blood, gut).\n3. **Permeability**: The drug must be able to cross lipid cell membranes to reach its target or be absorbed.\n4. **Metabolic Stability**: It shouldn't be immediately destroyed by the liver."
+        },
+        {
+            "id": "design_12",
+            "type": "content",
+            "title": "Lipinski's Rule of 5",
+            "content": "# Lipinski's Rule of 5\n\nTo predict if a molecule will be easily absorbed if taken as a pill (oral bioavailability), chemists use **Lipinski's Rule of 5**.\n\nA molecule is more likely to be an effective oral drug if it has:\n1. **Molecular Weight <= 500 Daltons**\n2. **Lipophilicity (LogP) <= 5** (Not too greasy, not too watery)\n3. **<= 5 Hydrogen Bond Donors** (Sum of NH and OH groups)\n4. **<= 10 Hydrogen Bond Acceptors** (Sum of N and O atoms)\n\n> **Note**: They are all multiples of 5! Biological drugs (like antibodies) wildly violate these rules and therefore must be injected, not swallowed."
+        },
+        {
+            "id": "design_13",
+            "type": "content",
+            "title": "Bioisosterism",
+            "content": "# Bioisosterism: The Chemist's Trick\n\nWhat if a functional group on your Lead is perfect for binding, but it gets rapidly degraded by liver enzymes?\n\n## The Solution: Bioisosteres\nChemists swap the problematic group with a **Bioisostere**.\n\n**Bioisosteres** are chemical substituents with similar physical or chemical properties which produce broadly similar biological properties to the original group.\n\n- *Example*: Swapping a Hydrogen atom (H) for a Fluorine atom (F). They are similar in size, but the C-F bond is incredibly strong, blocking liver enzymes from breaking that part of the molecule."
+        },
+        {
+            "id": "design_quiz_4",
+            "type": "quiz",
+            "title": "Optimization Quiz",
+            "content": "Test your knowledge of optimization guidelines.",
+            "quizQuestion": "According to Lipinski's Rule of 5, which of the following is generally TRUE for a good oral drug candidate?",
+            "quizOptions": [
+                "It should have a molecular weight greater than 1000 Daltons",
+                "It should have more than 15 hydrogen bond donors",
+                "It should have a molecular weight of 500 Daltons or less",
+                "It should be extremely hydrophilic (water-loving)"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "design_14",
+            "type": "content",
+            "title": "Module Summary",
+            "content": "# Drug Design Principles Summary\n\n## Key Takeaways:\n- **Process**: Drug discovery is long, moving from Target ID to Lead Discovery to Optimization.\n- **Discovery**: HTS uses brute force; Rational Design uses 3D protein structures.\n- **SAR**: Systematically changing a molecule's structure to optimize its biological activity.\n- **Pharmacophore**: The essential 3D arrangement of atoms required for binding.\n- **Optimization**: Requires balancing potency with drug-like properties (Lipinski's Rule of 5, solubility, stability).\n\n> **Congratulations!** You have completed the Drug Design Principles module."
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Introduction to the Dirac Equation",
+    "ques": "What fundamental problem with the Klein-Gordon equation did the **Dirac equation** resolve, and what property of the electron did it naturally predict?",
+    "answer": {
+      "type": "text",
+      "content": "The Dirac equation resolved the issue of negative probability densities that arose in the Klein-Gordon equation. It naturally predicted the existence of intrinsic angular momentum, or electron spin, without needing to introduce it ad hoc."
+    },
+    "explanation": "The Dirac equation is a cornerstone of relativistic quantum mechanics, successfully combining special relativity with quantum mechanics for spin-1/2 particles."
+  },
+  {
+    "title": "Understanding Relativistic Effects",
+    "ques": "Describe two observable **relativistic effects** in heavy atoms (like gold or mercury) that cannot be explained by non-relativistic quantum mechanics.",
+    "answer": {
+      "type": "text",
+      "content": "1. **Orbital contraction and stabilization:** The inner s and p orbitals contract due to the relativistic mass increase of electrons moving at speeds close to the speed of light, which stabilizes them.\n2. **Spin-orbit splitting:** The strong coupling between the electron's spin and its orbital angular momentum causes energy levels (like p, d, f orbitals) to split into distinct states."
+    },
+    "explanation": "These effects explain macroscopic properties, such as the characteristic yellow color of gold and the liquid state of mercury at room temperature."
+  },
+  {
+    "title": "Basics of Quantum Electrodynamics (QED)",
+    "ques": "Briefly explain the role of virtual photons in **Quantum electrodynamics** when describing the electromagnetic force between two electrons.",
+    "answer": {
+      "type": "text",
+      "content": "In QED, the electromagnetic force between two charged particles (like electrons) is not described by an action-at-a-distance field, but rather by the continuous exchange of virtual photons. These virtual photons act as force carriers, transferring momentum and energy between the interacting electrons."
+    },
+    "explanation": "QED is the most precisely tested theory in physics, replacing classical fields with particle exchange mechanisms."
+  },
+  {
+    "title": "Principles of Field Quantization",
+    "ques": "Explain the concept of **Field quantization** (second quantization) and how it treats particles and vacuums compared to first quantization.",
+    "answer": {
+      "type": "text",
+      "content": "In first quantization, particles are fundamental and their states are described by wavefunctions, while fields (like EM fields) remain classical. In **field quantization**, fields are the fundamental entities, and particles are treated as excited states (quanta) of these underlying fields. The vacuum is not empty; it is the ground state of the fields, buzzing with zero-point energy and virtual particle fluctuations."
+    },
+    "explanation": "Second quantization is necessary to handle systems where particle number is not conserved, allowing for the creation and annihilation of particles."
+  }
+]

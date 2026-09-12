@@ -1,127 +1,131 @@
 {
-    "id": "optimization",
+    "id": "learn_optimization",
     "topicId": "optimization",
     "topicTitle": "Process Optimization",
-    "description": "Understand DoE methodology, metabolic flux, online monitoring, and Quality by Design.",
-    "baseKP": 75,
+    "description": "Discover how bioprocesses are mathematically modeled, optimized, and controlled using Quality by Design (QbD) principles.",
+    "baseKP": 80,
     "slides": [
         {
             "id": "opt_1",
             "type": "content",
             "title": "Welcome to Process Optimization",
-            "content": "# Process Optimization\n\nWelcome to the final module: **Process Optimization**!\n\n## What You Will Learn:\n- **DoE methodology** - The smart way to do experiments\n- **Metabolic flux** - Finding the bottlenecks in biology\n- **Online monitoring** - Watching the process in real-time\n- **Quality by Design (QbD)** - Engineering perfection from the start\n\nMaking a drug is good. Making a drug 10 times faster, 10 times cheaper, and with zero defects is the goal of a Bioprocess Engineer."
+            "content": "# Process Optimization\n\nWelcome to Process Optimization!\n\nOnce a process works, how do we make it better, faster, and more reliable?\n\n## What You Will Learn:\n- **Process Modeling**: Using math to predict biology.\n- **Parameter Optimization**: Finding the \"sweet spot\" (DoE).\n- **Quality by Design (QbD)**: Designing quality in from the start.\n- **Process Analytical Technology (PAT)**: Real-time monitoring."
         },
         {
             "id": "opt_2",
             "type": "content",
-            "title": "The Old Way of Experimenting",
-            "content": "# OFAT: One Factor At a Time\n\nHistorically, if a scientist wanted to optimize a bioreactor, they used OFAT.\n\nThey would hold pH and Oxygen constant, and run 5 batches at different Temperatures to find the best one.\nThen they hold Temperature constant, and change the pH 5 times.\n\n## The Problem:\nThis ignores **interactions**. What if the best pH changes depending on what the temperature is? OFAT misses this entirely, leading to sub-optimal processes."
+            "title": "Process Modeling",
+            "content": "# Process Modeling\n\nA **Model** is a mathematical representation of a biological or physical process.\n\n## Types of Models:\n1. **Mechanistic Models (White Box)**: Based on actual physical/biological laws (e.g., Monod kinetics for cell growth based on substrate consumption). Highly accurate but very hard to build.\n2. **Empirical Models (Black Box)**: Based purely on data statistics (e.g., Artificial Neural Networks). The model finds patterns linking inputs to outputs without \"understanding\" the biology.\n3. **Hybrid Models**: Combine both approaches."
         },
         {
             "id": "opt_3",
             "type": "content",
-            "title": "Design of Experiments (DoE)",
-            "content": "# Design of Experiments (DoE)\n\n**DoE** is a heavily statistical, multivariate approach to running experiments.\n\n## The Method:\nInstead of changing one variable at a time, you use a computer matrix to change ALL variables (pH, Temp, Oxygen, Sugar) simultaneously in a highly structured, mathematical pattern.\n\nBy analyzing the results with statistics, you can see exactly how variables interact with each other (e.g., \"High temp is only good if pH is also high\")."
+            "title": "Why Use Models?",
+            "content": "# The Power of Modeling\n\nWhy spend months doing math?\n\n- **Prediction**: Predict how much drug will be produced in 14 days without actually running a 14-day experiment.\n- **Optimization**: Find the theoretically perfect feeding strategy before touching a bioreactor.\n- **Troubleshooting**: If a batch fails, a model can help identify which parameter (e.g., a temperature spike on day 3) was responsible.\n\n> **Digital Twins**: The ultimate goal is a \"Digital Twin\" - a real-time virtual replica of the physical bioreactor."
         },
         {
-            "id": "opt_4",
-            "type": "content",
-            "title": "Response Surface Methodology",
-            "content": "# Response Surface Methodology\n\nDoE software takes your experimental data and generates a 3D topological map called a **Response Surface**.\n\nIt looks like a mountain range.\n- The X and Y axes are your variables (e.g., Temp and pH).\n- The Z axis (the height of the mountain) is the drug yield.\n\nBy simply looking at the map, the engineer can find the highest peak and instantly know the exact perfect combination of Temp and pH to maximize yield!"
-        },
-        {
-            "id": "opt_5",
-            "type": "content",
-            "title": "Metabolic Flux",
-            "content": "# Metabolic Flux\n\nOptimization isn't just about the tank; it's about the cell itself.\n\n## The Factory Floor:\nImagine the cell as a car factory. \n- Station A makes the chassis.\n- Station B puts the engine in.\n- Station C puts the wheels on.\n\n**Metabolic Flux** is the rate at which molecules flow through these enzymatic \"stations\" inside the living cell."
-        },
-        {
-            "id": "opt_6",
+            "id": "opt_quiz_1",
             "type": "quiz",
-            "title": "DoE Quiz",
-            "content": "Test your knowledge of statistical engineering.",
-            "quizQuestion": "Why is Design of Experiments (DoE) vastly superior to testing One Factor At a Time (OFAT)?",
+            "title": "Modeling Quiz",
+            "content": "Check your understanding of models.",
+            "quizQuestion": "Which type of process model relies purely on statistical patterns in data rather than underlying physical or biological laws?",
             "quizOptions": [
-                "DoE doesn't require computers",
-                "DoE allows you to see how different variables (like Temp and pH) interact with each other to affect the final yield",
-                "DoE only requires running one single experiment",
-                "DoE is a much older and simpler method"
+                "Mechanistic Models",
+                "Empirical (Black Box) Models",
+                "First-Principles Models",
+                "Kinetic Models"
             ],
             "correctOptionIndex": 1
         },
         {
-            "id": "opt_7",
+            "id": "opt_4",
             "type": "content",
-            "title": "Finding the Bottleneck",
-            "content": "# Metabolic Bottlenecks\n\nIf Station A makes 100 chassis an hour, and Station C makes 100 sets of wheels, but Station B can only install 5 engines an hour, the factory will only output 5 cars an hour.\n\nStation B is the **Bottleneck**.\n\nIn biology, if you pump the cell full of sugar, but one specific enzyme in the pathway is naturally slow, the sugar will just build up as toxic waste, and drug production will stall."
+            "title": "Parameter Optimization",
+            "content": "# Parameter Optimization\n\nA bioprocess has dozens of variables (pH, Temp, Dissolved Oxygen, feed rate, agitation). How do you find the best combination?\n\n## The Old Way: OFAT\n**One-Factor-At-a-Time (OFAT)**:\n- Keep everything constant, change Temperature. Find the best Temp.\n- Keep new Temp constant, change pH. Find the best pH.\n- **Problem**: This completely misses *interactions* between variables (e.g., maybe high Temp is only good if pH is also high). It's also very slow."
         },
         {
-            "id": "opt_8",
+            "id": "opt_5",
             "type": "content",
-            "title": "Flux Balance Analysis",
-            "content": "# Fixing the Bottleneck\n\nEngineers use computer models (Flux Balance Analysis) to mathematically identify exactly which enzyme is the bottleneck.\n\n## The Genetic Fix:\nOnce identified, they use Recombinant DNA technology to insert multiple extra copies of the gene for that specific enzyme into the cell.\n\nNow Station B has 10 workers instead of 1. The bottleneck is cleared, the metabolic flux dramatically increases, and drug yield skyrockets!"
+            "title": "Design of Experiments (DoE)",
+            "content": "# Design of Experiments (DoE)\n\n**DoE** is a statistical approach to optimization.\n\n## How DoE Works:\n- Instead of changing one thing at a time, you change *multiple* variables simultaneously in a highly structured matrix of experiments.\n- A software program analyzes the results and generates a 3D surface map of the process.\n- It mathematically identifies both the main effects AND the interactions between variables.\n\n> **Result**: DoE finds the true, global optimal conditions with far fewer experiments than OFAT."
         },
         {
-            "id": "opt_9",
-            "type": "content",
-            "title": "Online Monitoring",
-            "content": "# Process Analytical Technology (PAT)\n\nHistorically, you only found out if a 2-week fermentation batch was good *after* it finished and you tested it in a lab. If it failed, you threw away 5 million dollars.\n\n## The PAT Initiative:\nThe FDA pushes companies to use Online Monitoring. You place advanced sensors (like Raman spectrometers) directly *inside* the bioreactor to measure the exact drug concentration and quality every single second in real-time."
-        },
-        {
-            "id": "opt_10",
-            "type": "content",
-            "title": "Soft Sensors",
-            "content": "# Soft Sensors\n\nSometimes, you can't put a physical sensor inside the tank (e.g., measuring total biomass might require taking a physical sample).\n\n## Mathematical Sensors:\nEngineers use \"Soft Sensors.\" They feed the data from easy-to-measure things (like oxygen consumption rate and CO2 exhaust rate) into a complex mathematical model.\n\nThe computer model calculates exactly how much biomass must exist to produce that much CO2, giving you a real-time virtual measurement without taking a physical sample!"
-        },
-        {
-            "id": "opt_11",
-            "type": "content",
-            "title": "Quality by Design",
-            "content": "# Quality by Design (QbD)\n\nQuality by Design is a philosophy demanded by regulatory agencies like the FDA.\n\n## The Old Way (Quality by Testing):\nMake the drug, test the final pill. If it fails, throw it away.\n\n## The QbD Way:\nQuality cannot be tested *into* a product; it must be built *into* the design from day one. You must comprehensively understand every single variable that could possibly affect the drug before you ever build the factory."
-        },
-        {
-            "id": "opt_12",
+            "id": "opt_quiz_2",
             "type": "quiz",
-            "title": "PAT Quiz",
-            "content": "Verify your understanding of modern manufacturing.",
-            "quizQuestion": "What is the primary goal of Process Analytical Technology (PAT) in a bioreactor?",
+            "title": "DoE Quiz",
+            "content": "Let's review optimization strategies.",
+            "quizQuestion": "What is a major advantage of using Design of Experiments (DoE) over the One-Factor-At-a-Time (OFAT) approach?",
             "quizOptions": [
-                "To replace human workers with robots",
-                "To reduce the temperature of the tank",
-                "To measure the quality and concentration of the drug continuously in real-time while the batch is running",
-                "To genetically modify the cells faster"
+                "DoE requires only a single experiment",
+                "DoE ignores the effects of pH and temperature",
+                "DoE can identify complex interactions between multiple variables",
+                "DoE does not require any mathematical analysis"
             ],
             "correctOptionIndex": 2
         },
         {
-            "id": "opt_13",
+            "id": "opt_6",
             "type": "content",
-            "title": "Critical Quality Attributes",
-            "content": "# CQAs\n\nThe first step of QbD is defining the **Critical Quality Attributes (CQAs)**.\n\nWhat makes this drug safe and effective? \n- Does it need to be 99.5% pure?\n- Does the pill need to dissolve in exactly 3 minutes in stomach acid?\n- Does the antibody need a specific sugar attached to it to work?\n\nThese CQAs become the absolute law. The entire engineering process is designed backward from these goals."
+            "title": "Quality by Design (QbD)",
+            "content": "# Quality by Design (QbD)\n\n**QbD** is a modern regulatory framework championed by the FDA.\n\n## Traditional Approach:\n\"Test into compliance.\" Make a batch, test it at the end. If it fails, throw it away. (High waste, poor understanding).\n\n## QbD Approach:\n\"Quality is built into the product and process by design.\"\n- You must thoroughly understand *why* the process works.\n- You identify every parameter that could affect quality and prove you can control it."
         },
         {
-            "id": "opt_14",
+            "id": "opt_7",
+            "type": "content",
+            "title": "CQAs and CPPs",
+            "content": "# The Vocabulary of QbD\n\n## Critical Quality Attributes (CQAs)\nPhysical, chemical, or biological properties of the *drug itself* that must be within an appropriate limit to ensure desired product quality (e.g., Glycosylation pattern, protein aggregation %).\n\n## Critical Process Parameters (CPPs)\nVariables in the *manufacturing process* that impact a CQA and therefore should be monitored or controlled (e.g., Bioreactor pH, Chromatography flow rate).\n\n> **The Goal**: By tightly controlling the CPPs, you guarantee the CQAs will be met, every single time."
+        },
+        {
+            "id": "opt_8",
             "type": "content",
             "title": "The Design Space",
-            "content": "# Establishing the Design Space\n\nUsing DoE (Design of Experiments), the engineer creates a \"Design Space.\"\n\n## The Safe Zone:\nThis is a mathematically proven range of operating conditions. (e.g., \"As long as Temperature is between 35-37C, and pH is between 6.8-7.2, the drug is guaranteed to meet all CQAs.\")\n\nIf the bioreactor accidentally fluctuates to 36.5C, the engineer does not panic, because they mathematically proved it is still inside the safe Design Space!"
+            "content": "# The Design Space\n\nBy executing DoE studies, engineers define the **Design Space**.\n\n## Definition:\nThe multidimensional combination and interaction of input variables (CPPs) that have been demonstrated to provide assurance of quality.\n\n## Regulatory Benefit:\nIf you file a Design Space with the FDA, you are legally allowed to change your process parameters *anywhere within that space* without having to ask the FDA for permission again. This offers massive manufacturing flexibility."
         },
         {
-            "id": "opt_15",
-            "type": "content",
-            "title": "Risk Assessment",
-            "content": "# Risk Assessment\n\nQbD requires paranoid levels of Risk Assessment (often using tools like FMEA - Failure Mode and Effects Analysis).\n\nThe engineer must sit down and brainstorm every single thing that could possibly go wrong (e.g., a pump breaks, the power goes out, a sensor drifts out of calibration).\n\nThey must then build automated control systems to instantly detect and correct those failures before they ruin the batch."
+            "id": "opt_quiz_3",
+            "type": "quiz",
+            "title": "QbD Quiz",
+            "content": "Check your understanding of QbD terminology.",
+            "quizQuestion": "In Quality by Design, what does CQA stand for?",
+            "quizOptions": [
+                "Continuous Quality Assessment",
+                "Critical Quality Attribute",
+                "Constant Quantitative Analysis",
+                "Control Quality Action"
+            ],
+            "correctOptionIndex": 1
         },
         {
-            "id": "opt_16",
+            "id": "opt_9",
             "type": "content",
-            "title": "Summary of Process Optimization",
-            "content": "# Optimization Summary\n\n## Key Takeaways:\n- **DoE (Design of Experiments)** uses statistics to test multiple variables at once, generating 3D Response Surfaces to find the perfect operating conditions.\n- **Metabolic Flux** analysis identifies genetic bottlenecks inside the cell so they can be engineered away.\n- **PAT** uses advanced sensors to monitor the batch in real-time.\n- **Quality by Design (QbD)** is a regulatory philosophy that guarantees drug safety by deeply understanding the process and operating within a mathematically proven **Design Space**."
+            "title": "Process Analytical Technology (PAT)",
+            "content": "# Process Analytical Technology (PAT)\n\nIf QbD is the philosophy, **PAT** is the tool that makes it happen.\n\n## What is PAT?\nPAT is a system for designing, analyzing, and controlling manufacturing through **timely measurements** (i.e., during processing) of critical quality and performance attributes.\n\n## Traditional vs PAT:\n- **Traditional**: Take a sample, send to lab, wait 2 days for results.\n- **PAT**: A probe inside the bioreactor measures the attribute in real-time, allowing the control system to instantly correct any deviations."
         },
         {
-            "id": "opt_17",
+            "id": "opt_10",
             "type": "content",
-            "title": "Course Complete",
-            "content": "# Congratulations!\n\nYou have completed the Bioprocess Engineering (MSc) course.\n\nYou now possess the knowledge required to design, run, and optimize a world-class biopharmaceutical manufacturing facility."
+            "title": "Examples of PAT Tools",
+            "content": "# PAT in Action\n\nWhat kind of sensors do we use?\n\n- **Raman Spectroscopy**: A laser probe inside the tank that reads the molecular \"fingerprint\" of the broth. It can measure glucose, lactate, and even cell density simultaneously in real-time.\n- **Dielectric Spectroscopy (Capacitance)**: Measures the electrical capacitance of the broth, which directly correlates to the *viable* (living) cell mass, ignoring dead cells.\n- **At-line HPLC**: Automated systems that pull a tiny sample every hour and run a fast chromatography assay right next to the bioreactor."
+        },
+        {
+            "id": "opt_quiz_4",
+            "type": "quiz",
+            "title": "PAT Quiz",
+            "content": "Test your knowledge on real-time analysis.",
+            "quizQuestion": "What is the primary goal of Process Analytical Technology (PAT)?",
+            "quizOptions": [
+                "To reduce the number of operators needed",
+                "To perform real-time measurements during the process to enable immediate control and correction",
+                "To test the final product after manufacturing is complete",
+                "To design the physical layout of the facility"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "opt_11",
+            "type": "content",
+            "title": "Module Summary",
+            "content": "# Process Optimization Summary\n\n## Key Takeaways:\n- **Modeling**: Uses math (Mechanistic or Empirical) to predict and troubleshoot bioprocesses.\n- **DoE**: A statistical method to optimize multiple parameters simultaneously, finding interactions that OFAT misses.\n- **QbD**: A regulatory framework focused on building quality into the process by understanding how CPPs affect CQAs.\n- **Design Space**: The safe operating range proven to yield good product.\n- **PAT**: Real-time sensors (like Raman) used to measure and control the process live.\n\n> **Congratulations!** You have completed the Process Optimization module."
         }
     ]
 }

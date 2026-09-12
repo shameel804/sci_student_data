@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Zinc Finger Nucleases (ZFNs)",
+    "ques": "Briefly explain the two-part structure of **Zinc finger nucleases** and how they achieve targeted DNA cleavage.",
+    "answer": {
+      "type": "text",
+      "content": "A ZFN is an artificial restriction enzyme consisting of two domains: \n1. A DNA-binding domain made of engineered 'zinc finger' protein motifs, each designed to recognize a specific 3-base pair sequence.\n2. A DNA-cleaving domain (usually from the FokI endonuclease) which must dimerize to cut DNA. \nWhen two ZFNs bind to opposite DNA strands at the target site, the FokI domains meet, dimerize, and create a double-strand break."
+    },
+    "explanation": "ZFNs were the first major success in programmable genome editing, relying on protein-DNA recognition."
+  },
+  {
+    "title": "Advancements with TALEN Technology",
+    "ques": "Why is **TALEN technology** generally considered easier to design for specific DNA sequences compared to Zinc Finger Nucleases?",
+    "answer": {
+      "type": "text",
+      "content": "While Zinc fingers recognize 3-base pair triplets (which can be context-dependent and hard to stitch together), TALENs use Transcription Activator-Like Effectors where each protein repeat recognizes exactly ONE single base pair. This simple 1-to-1 code makes it much more straightforward and predictable to engineer a TALEN to bind to any given DNA sequence."
+    },
+    "explanation": "The modularity of TALENs represented a significant leap in the ease of custom genome engineering."
+  },
+  {
+    "title": "The CRISPR-Cas9 System",
+    "ques": "In **CRISPR systems**, what is the specific role of the guide RNA (gRNA), and how does it differ fundamentally from how ZFNs and TALENs recognize DNA?",
+    "answer": {
+      "type": "text",
+      "content": "The guide RNA is a short RNA molecule that binds to the Cas9 nuclease and guides it to the target DNA. It recognizes the target through simple Watson-Crick base pairing (RNA-DNA hybridization). This is fundamentally different from ZFNs and TALENs, which require engineering entirely new, complex proteins for every new DNA target. With CRISPR, the Cas9 protein remains the same; only the short RNA sequence needs to be changed."
+    },
+    "explanation": "Using RNA to find the target makes CRISPR incredibly cheap, fast, and versatile compared to protein-based editing tools."
+  },
+  {
+    "title": "Challenges in Therapeutic Genome Editing",
+    "ques": "Identify and explain the primary safety concern, known as 'off-target effects', in **Therapeutic genome editing** using CRISPR.",
+    "answer": {
+      "type": "text",
+      "content": "An 'off-target effect' occurs when the CRISPR-Cas9 system mistakenly binds to and cuts a DNA sequence that is similar, but not identical, to the intended target sequence. If this unintended cut happens in a crucial gene (like a tumor suppressor gene), it could cause mutations that lead to cancer or other severe diseases, making extreme precision critical for human therapies."
+    },
+    "explanation": "Ensuring absolute specificity is the highest hurdle before genome editing can be widely used in the clinic."
+  }
+]

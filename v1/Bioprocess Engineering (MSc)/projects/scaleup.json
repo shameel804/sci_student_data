@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Understanding Scale-up Criteria 🏭",
+    "ques": "Briefly define **scale-up** in the context of bioprocessing. List **three key engineering criteria** often kept constant when scaling up a bioreactor from laboratory to industrial scale.",
+    "answer": {
+      "type": "text",
+      "content": "* **Definition:** Scale-up is the process of translating a bioprocess developed at a small scale (like a lab flask) into a larger production scale (like an industrial bioreactor) while maintaining product quality and yield.\n* **Key Criteria:**\n    1. **Constant power input per unit volume (P/V):** Ensures similar mixing and shear conditions.\n    2. **Constant volumetric mass transfer coefficient (kLa):** Maintains similar oxygen transfer rates for aerobic cultures.\n    3. **Constant tip speed:** Helps to keep maximum shear stress similar across scales to prevent cell damage."
+    },
+    "explanation": "This exercise introduces the fundamental concept of scaling up a process and highlights the most common parameters engineers try to match between scales to ensure reproducible cellular behavior."
+  },
+  {
+    "title": "Process Economics Fundamentals 💰",
+    "ques": "In a bioprocess manufacturing facility, costs are typically divided into Capital Expenditures (CAPEX) and Operating Expenditures (OPEX). Provide **two examples** of CAPEX and **two examples** of OPEX. Why is it important to optimize downstream processing to improve overall process economics?",
+    "answer": {
+      "type": "text",
+      "content": "* **CAPEX Examples:**\n    1. Purchase of large-scale bioreactors and chromatography columns.\n    2. Construction of the cleanroom facility and associated infrastructure.\n* **OPEX Examples:**\n    1. Raw materials (e.g., cell culture media, purification buffers).\n    2. Operator salaries and utilities (electricity, water).\n* **Importance of Downstream Optimization:** Downstream processing (purification) often accounts for 50 percent to 80 percent of the total manufacturing costs for biological products. Optimizing these steps (e.g., reducing the number of purification steps or increasing column capacity) significantly reduces OPEX, improving the overall profitability of the process."
+    },
+    "explanation": "Understanding the difference between capital and operational costs is crucial for bioprocess engineers. It highlights where process improvements yield the highest financial return, often pointing towards downstream operations."
+  },
+  {
+    "title": "Navigating Regulatory Compliance 📜",
+    "ques": "Explain the concept of **Good Manufacturing Practice (GMP)**. Why is strict adherence to GMP essential when manufacturing a biopharmaceutical product intended for human use?",
+    "answer": {
+      "type": "text",
+      "content": "* **Concept of GMP:** GMP refers to the minimum standard that a medicines manufacturer must meet in their production processes. It involves clear documentation, trained personnel, validated equipment, and strict quality control procedures to ensure consistent product quality.\n* **Essential Nature of GMP:** Adherence is essential to ensure that the final biopharmaceutical product is **safe**, **pure**, and **effective** for human use. Unlike traditional drugs, biologics are complex and highly sensitive to manufacturing variations. GMP prevents contamination, mix-ups, and errors, ensuring that every batch meets rigorous safety specifications before it reaches the patient."
+    },
+    "explanation": "Regulatory compliance is not just paperwork; it is the framework that guarantees patient safety. Mastery of GMP principles is a non-negotiable requirement for an MSc-level bioprocess engineer."
+  },
+  {
+    "title": "Executing Technology Transfer 🔄",
+    "ques": "What is **technology transfer** in biomanufacturing? Describe the role of a **Process Performance Qualification (PPQ)** campaign during the transfer of a process from a pilot plant to a commercial manufacturing facility.",
+    "answer": {
+      "type": "text",
+      "content": "* **Technology Transfer:** It is the formal process of transferring process knowledge, analytical methods, and manufacturing procedures from a developing site (e.g., R&D or pilot plant) to a receiving site (e.g., commercial manufacturing facility) to achieve successful, reproducible production.\n* **Role of PPQ Campaign:** A PPQ campaign is a critical milestone during tech transfer. It involves running the process at the commercial scale under normal operating conditions to definitively prove that the process consistently delivers a product meeting all predefined quality attributes. Successful PPQ batches (typically three consecutive runs) are required for regulatory approval before commercial distribution can begin."
+    },
+    "explanation": "Tech transfer bridges the gap between development and commercialization. The PPQ campaign is the ultimate test to validate that the process behaves as expected at scale and is ready for routine manufacturing."
+  }
+]

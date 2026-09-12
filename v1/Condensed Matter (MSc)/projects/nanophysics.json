@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Introduction to Quantum Dots",
+    "ques": "What is a quantum dot, and why are **Quantum dots** often referred to as 'artificial atoms'?",
+    "answer": {
+      "type": "text",
+      "content": "A quantum dot is a nanoscale semiconductor particle that confines electrons in all three spatial dimensions. Because of this extreme confinement, their energy levels become discrete (quantized), much like the distinct electron shells in individual atoms, earning them the nickname 'artificial atoms'."
+    },
+    "explanation": "Quantum confinement is the key principle behind the unique optical and electrical properties of quantum dots."
+  },
+  {
+    "title": "Properties of Nanowires",
+    "ques": "Explain why **Nanowires** (1D nanostructures) exhibit significantly different electrical conductivity compared to bulk materials.",
+    "answer": {
+      "type": "text",
+      "content": "In nanowires, electrons are confined in two dimensions and free to move in only one. This restricted geometry limits the number of available scattering paths for electrons. In extremely thin wires with high purity, electron transport can become ballistic (moving without scattering), leading to quantized conductance, completely unlike the continuous resistive flow in bulk metals."
+    },
+    "explanation": "Nanowires serve as excellent models for studying 1D quantum transport."
+  },
+  {
+    "title": "Exploring 2D Materials",
+    "ques": "Graphene is the most famous of all **2D materials**. Describe its basic structure and one exceptional property it possesses.",
+    "answer": {
+      "type": "text",
+      "content": "Graphene is a single layer of carbon atoms arranged in a two-dimensional hexagonal (honeycomb) lattice. It possesses exceptional properties, such as being incredibly strong (stronger than steel) while remaining highly flexible, and it is an excellent conductor of both heat and electricity."
+    },
+    "explanation": "The isolation of graphene proved that purely 2D crystalline materials could be stable and possess revolutionary properties."
+  },
+  {
+    "title": "Nanoscale Phenomena and Surface Plasmon Resonance",
+    "ques": "Describe Surface Plasmon Resonance as an example of unique **Nanoscale phenomena** occurring in noble metal nanoparticles.",
+    "answer": {
+      "type": "text",
+      "content": "When light hits a noble metal nanoparticle (like gold or silver) that is much smaller than the wavelength of light, the oscillating electric field of the light causes the free conduction electrons on the particle's surface to oscillate collectively. This resonant oscillation strongly absorbs and scatters specific wavelengths of light, giving the nanoparticles distinct, intense colors that depend on their size and shape."
+    },
+    "explanation": "This phenomenon is responsible for the brilliant colors in stained glass windows and forms the basis for highly sensitive biosensors."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Canonical Quantization Fundamentals",
+    "ques": "What is the primary procedure involved in **Canonical quantization** when moving from classical mechanics to quantum field theory?",
+    "answer": {
+      "type": "text",
+      "content": "Canonical quantization involves taking classical fields and their conjugate momenta and promoting them to quantum operators. These operators must then satisfy equal-time commutation (or anti-commutation) relations, replacing the classical Poisson brackets."
+    },
+    "explanation": "This method is a direct generalization of how classical particle mechanics is quantized using position and momentum operators."
+  },
+  {
+    "title": "Path Integral Formulation",
+    "ques": "How does the **Path integral formulation**, introduced by Feynman, compute the transition amplitude between two quantum states?",
+    "answer": {
+      "type": "text",
+      "content": "Instead of solving a differential equation for a wavefunction, the path integral computes the transition amplitude by summing (integrating) over all possible classical and non-classical paths a system can take between the initial and final states. Each path is weighted by a phase factor proportional to the classical action of that path."
+    },
+    "explanation": "The path integral provides a highly intuitive and covariant approach to quantum field theory, making it exceptionally useful for gauge theories."
+  },
+  {
+    "title": "Understanding Gauge Theories",
+    "ques": "Define **Gauge theories** and explain the role of local gauge invariance in generating fundamental forces.",
+    "answer": {
+      "type": "text",
+      "content": "Gauge theories are field theories where the Lagrangian is invariant under continuous local transformations (gauge transformations). To maintain this local symmetry, one must introduce a new gauge field (like the electromagnetic field). The interaction between matter and this gauge field naturally gives rise to the fundamental forces."
+    },
+    "explanation": "All fundamental forces in the Standard Model (electromagnetic, weak, and strong) are described by gauge theories."
+  },
+  {
+    "title": "The Necessity of Renormalization",
+    "ques": "Why is **Renormalization** necessary in Quantum Field Theory calculations, and how does it generally resolve the issue?",
+    "answer": {
+      "type": "text",
+      "content": "Renormalization is necessary because higher-order quantum corrections (loop diagrams) often yield infinite results for physical quantities like mass and charge. It resolves this by absorbing these infinities into the redefinition of bare, unobservable parameters, yielding finite, measurable physical predictions that depend on an energy scale."
+    },
+    "explanation": "Renormalization is not a mathematical trick, but a profound statement about how physical interactions change depending on the energy scale at which they are probed."
+  }
+]

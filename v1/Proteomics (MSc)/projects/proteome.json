@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Protein Separation via 2D PAGE",
+    "ques": "Explain the two distinct dimensions used in Two-Dimensional Polyacrylamide Gel Electrophoresis (2D PAGE) for **Protein separation**.",
+    "answer": {
+      "type": "text",
+      "content": "1. **First dimension (Isoelectric Focusing):** Proteins are separated based on their isoelectric point (pI), the pH at which they have no net charge.\n2. **Second dimension (SDS-PAGE):** Proteins are then separated based on their molecular mass. This combination provides extremely high resolution, capable of separating thousands of proteins in a complex mixture."
+    },
+    "explanation": "Separation is the critical first step in proteomics to isolate individual proteins before identification."
+  },
+  {
+    "title": "Mass Spectrometry Identification",
+    "ques": "After a protein spot is cut from a gel, it is usually digested with an enzyme like trypsin before **Mass spectrometry**. Why is digestion into peptides necessary rather than analyzing the whole intact protein?",
+    "answer": {
+      "type": "text",
+      "content": "Intact proteins are often too large, complex, and difficult to ionize efficiently for accurate mass measurement and fragmentation analysis in a standard mass spectrometer. Trypsin specifically cleaves proteins into smaller, predictably sized peptides that ionize well and produce clear fragmentation patterns (MS/MS spectra), making database searching and protein identification much more reliable."
+    },
+    "explanation": "The 'bottom-up' approach of analyzing peptides to infer the parent protein is the workhorse of modern proteomics."
+  },
+  {
+    "title": "Quantitative Proteomics (SILAC)",
+    "ques": "Describe how Stable Isotope Labeling by Amino acids in Cell culture (SILAC) is used in **Quantitative proteomics** to compare protein levels between two different cell states (e.g., healthy vs. diseased).",
+    "answer": {
+      "type": "text",
+      "content": "In SILAC, one cell population is grown in a medium with 'light' (normal) amino acids, while the other is grown with 'heavy' (isotope-labeled, e.g., Carbon-13) amino acids. Proteins from both are mixed, digested, and analyzed together in the mass spectrometer. The heavy and light versions of the same peptide appear as twin peaks separated by a known mass difference. The ratio of their peak intensities provides the exact relative abundance of that protein between the two cell states."
+    },
+    "explanation": "SILAC eliminates run-to-run variations by analyzing samples simultaneously, providing highly accurate relative quantification."
+  },
+  {
+    "title": "Detecting Post-translational Modifications (PTMs)",
+    "ques": "How can mass spectrometry specifically identify the location of **Post-translational modifications** like phosphorylation on a protein sequence?",
+    "answer": {
+      "type": "text",
+      "content": "A PTM adds a specific mass to an amino acid residue (e.g., a phosphate group adds approx 80 Da). During tandem mass spectrometry (MS/MS), the peptide is broken apart. By analyzing the mass differences between the resulting fragment ions, researchers can read the amino acid sequence and precisely pinpoint which specific residue carries the extra mass of the modification."
+    },
+    "explanation": "PTMs dictate protein function and localization; identifying them is crucial for understanding cellular signaling."
+  }
+]

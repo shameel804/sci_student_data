@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The Hardy-Weinberg Principle ⚖️",
+    "ques": "State the conditions required for a population to remain in Hardy-Weinberg equilibrium. What does it mean if a population is NOT in equilibrium?",
+    "answer": {
+      "type": "text",
+      "content": "* **Conditions:** 1. No mutations. 2. Random mating. 3. No gene flow (no migration in or out). 4. Very large population size. 5. No natural selection.\n* **Meaning of Non-Equilibrium:** The Hardy-Weinberg principle acts as a null hypothesis. If the frequencies of alleles or genotypes in a population are changing over generations (meaning it is NOT in equilibrium), it proves that evolution is actively occurring."
+    },
+    "explanation": "Hardy-Weinberg is the baseline mathematical model of population genetics, used to detect when evolutionary forces are at work."
+  },
+  {
+    "title": "The Impact of Genetic Drift 🎲",
+    "ques": "Explain the concept of **genetic drift**, particularly highlighting the 'bottleneck effect'. Why does drift affect small populations more than large ones?",
+    "answer": {
+      "type": "text",
+      "content": "* **Genetic Drift:** The random, chance fluctuation of allele frequencies in a population from generation to generation, independent of natural selection.\n* **Bottleneck Effect:** A severe reduction in population size due to a random event (like a natural disaster). The survivors' allele frequencies may differ completely from the original population purely by chance.\n* **Size Impact:** In a small population, random chance (like one individual failing to mate) can wipe out a rare allele entirely. In a massive population, random variations average out."
+    },
+    "explanation": "Evolution isn't always driven by survival of the fittest; sometimes it's just survival of the luckiest."
+  },
+  {
+    "title": "Gene Flow and Population Homogenization 🌉",
+    "ques": "Describe how **gene flow** (migration) affects the genetic diversity within a single population versus the diversity between two separate populations.",
+    "answer": {
+      "type": "text",
+      "content": "* **Within a Population:** Gene flow generally *increases* genetic diversity within a receiving population by introducing new alleles from outside.\n* **Between Populations:** Gene flow acts to *decrease* the genetic differences between the two populations. If they constantly exchange individuals, their allele frequencies will eventually blend and become homogenized, preventing them from diverging into separate species."
+    },
+    "explanation": "Migration is a powerful evolutionary force that acts like a genetic mixing spoon across geographic landscapes."
+  },
+  {
+    "title": "Natural Selection Models 🦅",
+    "ques": "Compare directional selection and stabilizing selection, providing a brief example of how each alters the phenotype distribution in a population.",
+    "answer": {
+      "type": "text",
+      "content": "* **Directional Selection:** Favors individuals at one extreme end of the phenotypic range. Over time, the entire population curve shifts in that direction. Example: Industrial melanism, where darker moths became favored over lighter moths as soot darkened the trees.\n* **Stabilizing Selection:** Favors intermediate variants and acts against extreme phenotypes. It narrows the population curve, reducing variation. Example: Human birth weight; babies born too small or too large have lower survival rates than average-sized babies."
+    },
+    "explanation": "Natural selection is not a monolith; it can shape populations in different directions depending on the specific environmental pressures."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Kepler's laws",
+    "ques": "State **Kepler's First Law** (Law of Orbits) regarding planetary motion.",
+    "answer": {
+      "type": "text",
+      "content": "**Kepler's First Law** states that all planets move in **elliptical orbits**, with the Sun situated at one of the two foci of the ellipse."
+    },
+    "explanation": "This corrects the ancient misconception of perfectly circular orbits."
+  },
+  {
+    "title": "Gravitational field",
+    "ques": "What is meant by the **gravitational field intensity** at a point?",
+    "answer": {
+      "type": "text",
+      "content": "The **gravitational field intensity** at a point in space is defined as the gravitational force experienced by a unit mass placed at that point.\n\nIt is mathematically equivalent to the acceleration due to gravity (g) at that location."
+    },
+    "explanation": "This introduces the field concept, shifting focus from direct forces between distant objects to localized properties of space."
+  },
+  {
+    "title": "Satellite motion",
+    "ques": "What is an **escape velocity**?",
+    "answer": {
+      "type": "text",
+      "content": "**Escape velocity** is the minimum initial velocity that an object (like a rocket) must achieve to completely overcome and escape the gravitational pull of a planet (or celestial body) and never fall back."
+    },
+    "explanation": "This applies energy conservation to space travel and celestial mechanics."
+  },
+  {
+    "title": "Gravitational potential",
+    "ques": "Why is the **gravitational potential energy** of an object near Earth always considered to be negative?",
+    "answer": {
+      "type": "text",
+      "content": "Gravitational potential energy is considered zero at an infinite distance (where the gravitational force is zero). \n\nBecause gravity is an **attractive force**, work must be done *against* gravity to move an object from Earth's surface to infinity. Therefore, the energy at any finite distance closer than infinity must be less than zero, making it negative."
+    },
+    "explanation": "This is a challenging conceptual topic regarding the arbitrary choice of zero energy and the nature of attractive fields."
+  }
+]

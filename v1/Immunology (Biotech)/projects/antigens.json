@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Understanding Antigens and Epitopes 🧩",
+    "ques": "Define what an antigen is, and explain the concept of **epitope mapping** in the context of an antibody's binding site.",
+    "answer": {
+      "type": "text",
+      "content": "* **Antigen:** Any substance (usually a foreign protein or polysaccharide) that induces a targeted immune response in the body.\n* **Epitope:** An antigen is usually a large molecule. Antibodies do not bind to the whole thing; they bind to a very specific, small structural region on the surface of the antigen. This specific binding site is the epitope.\n* **Epitope Mapping:** This is the analytical process of identifying the exact location and amino acid sequence of the epitope on an antigen that a specific antibody binds to."
+    },
+    "explanation": "Antigen-antibody binding is lock-and-key. Epitope mapping defines exactly the shape of the 'lock' on the pathogen's surface."
+  },
+  {
+    "title": "Monoclonal Antibody Production 🏭",
+    "ques": "Describe the hybridoma technology used for monoclonal **antibody production**. Why are hybrid cells necessary?",
+    "answer": {
+      "type": "text",
+      "content": "* **The Process:** A mouse is immunized with an antigen. The mouse's spleen is harvested to extract B cells producing the desired antibody. These B cells are then fused in a lab with immortal myeloma (cancer) cells to create a 'hybridoma'.\n* **Why it's necessary:** Normal B cells die quickly in laboratory culture. Myeloma cells can divide forever but don't produce the right antibody. The fused hybridoma cell inherits the best of both: the ability to produce the specific antibody from the B cell, and the immortality to be grown endlessly in large vats from the cancer cell."
+    },
+    "explanation": "Hybridoma technology revolutionized medicine by allowing the industrial-scale production of identical, highly specific therapeutic antibodies."
+  },
+  {
+    "title": "The Mechanics of Immunoassays (ELISA) 🧪",
+    "ques": "Explain the basic mechanism of a sandwich ELISA, a common type of **immunoassay** used to detect the presence of a specific viral antigen in a patient's blood.",
+    "answer": {
+      "type": "text",
+      "content": "* **Step 1:** The bottom of a plastic well is coated with a 'capture antibody' specific to the virus.\n* **Step 2:** The patient's blood sample is added. If the viral antigen is present, it binds to the capture antibody.\n* **Step 3:** A second 'detection antibody' is added, which binds to a different epitope on the trapped viral antigen, sandwiching it.\n* **Step 4:** This detection antibody is linked to an enzyme. When a colorless substrate is added, the enzyme converts it into a colored product. The intensity of the color is directly proportional to the amount of virus in the blood."
+    },
+    "explanation": "ELISAs leverage the incredible specificity of antigen-antibody reactions to create highly sensitive diagnostic tests for labs and hospitals."
+  },
+  {
+    "title": "Diagnostic Applications: Rapid Antigen Tests ⚕️",
+    "ques": "How do lateral flow assays (like home COVID tests or pregnancy tests) utilize antigen-antibody reactions for rapid **diagnostic applications**?",
+    "answer": {
+      "type": "text",
+      "content": "* **Mechanism:** The sample liquid moves along a paper-like strip via capillary action. It picks up mobile antibodies tagged with colored gold nanoparticles that bind to the target antigen (if present).\n* **The Test Line:** The liquid carries these complexes down the strip over a 'Test Line' that is painted with fixed antibodies. If the antigen is present, the fixed antibodies grab the antigen-antibody-gold complex, concentrating the gold particles and forming a visible colored line.\n* **The Control Line:** Excess mobile antibodies continue past the test line and are caught by a 'Control Line', proving the liquid flowed correctly and the test is valid."
+    },
+    "explanation": "Translating complex immunoassays into simple paper strips allows for rapid, point-of-care diagnostics accessible to the general public."
+  }
+]

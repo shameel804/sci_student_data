@@ -1,0 +1,149 @@
+{
+    "id": "learn_targets",
+    "topicId": "targets",
+    "topicTitle": "Drug Targets",
+    "description": "Explore the major classes of proteins that drugs interact with, including receptors, enzymes, ion channels, and GPCRs.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "targets_1",
+            "type": "content",
+            "title": "Welcome to Drug Targets",
+            "content": "# Drug Targets\n\nWelcome to Drug Targets!\n\nTo change a disease state, a drug must physically bind to a molecule in the body and alter its function. That molecule is the **Target**.\n\n## What You Will Learn:\n- **Receptor Biology**: How cells receive signals.\n- **Enzyme Inhibitors**: Stopping biochemical reactions.\n- **Ion Channel Modulators**: Controlling cellular electricity.\n- **GPCR Targeting**: The most common drug target family.\n\nLet's look at the molecules that run the body."
+        },
+        {
+            "id": "targets_2",
+            "type": "content",
+            "title": "The Big Four Target Classes",
+            "content": "# The Major Classes of Drug Targets\n\nWhile drugs can technically bind to DNA, RNA, or lipids, the vast majority of drugs target **Proteins**.\n\n## The \"Big Four\" Protein Targets:\n1. **Receptors** (approx 45% of all drugs)\n2. **Enzymes** (approx 28% of all drugs)\n3. **Ion Channels** (approx 5% of all drugs)\n4. **Transporters/Carriers** (approx 5% of all drugs)\n\n> **Why Proteins?** Proteins have complex 3D shapes with specific pockets and grooves, making them perfect \"locks\" for drug \"keys\"."
+        },
+        {
+            "id": "targets_3",
+            "type": "content",
+            "title": "Receptor Biology Basics",
+            "content": "# Receptor Biology\n\n**Receptors** are proteins (usually on the cell surface) that receive chemical signals from outside the cell.\n\n## The Natural Process:\n1. A natural chemical messenger (a **ligand**, like a hormone or neurotransmitter) binds to the receptor.\n2. The receptor changes its 3D shape.\n3. This shape change triggers a cascade of signals inside the cell, altering the cell's behavior.\n\n> **Drug Strategy**: Drugs target receptors to either mimic the natural signal (turn it on) or block the natural signal (turn it off)."
+        },
+        {
+            "id": "targets_4",
+            "type": "content",
+            "title": "Agonists vs Antagonists",
+            "content": "# Agonists and Antagonists\n\nDrugs that bind to receptors fall into two main categories:\n\n## 1. Agonists\n- They bind to the receptor and **activate** it.\n- They mimic the natural ligand.\n- *Example*: Albuterol is an agonist for beta-2 receptors in the lungs, causing airways to open (used in asthma).\n\n## 2. Antagonists (Blockers)\n- They bind to the receptor but **do NOT activate** it.\n- They sit in the binding pocket, physically blocking the natural ligand from attaching.\n- *Example*: Beta-blockers (like Propranolol) sit on heart receptors, blocking adrenaline and slowing the heart rate."
+        },
+        {
+            "id": "targets_quiz_1",
+            "type": "quiz",
+            "title": "Receptors Quiz",
+            "content": "Check your understanding of receptor drugs.",
+            "quizQuestion": "A drug that binds to a receptor, preventing the natural ligand from binding, but does NOT activate the receptor itself is called an:",
+            "quizOptions": [
+                "Agonist",
+                "Antagonist",
+                "Enzyme",
+                "Inverse Agonist"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "targets_5",
+            "type": "content",
+            "title": "G-Protein Coupled Receptors (GPCRs)",
+            "content": "# G-Protein Coupled Receptors (GPCRs)\n\n**GPCRs** are the absolute superstars of drug discovery. Over 30% of all FDA-approved drugs target them!\n\n## Structure:\nThey are famous for threading through the cell membrane exactly **7 times** (7-transmembrane receptors).\n\n## How they Work:\n- When a ligand binds on the outside, the GPCR changes shape on the inside.\n- This activates a \"G-protein\" attached to its inside surface.\n- The G-protein detaches and acts as an intracellular messenger, turning other enzymes on or off.\n\n> **Variety**: GPCRs mediate our senses of sight, smell, and taste, and react to adrenaline, dopamine, serotonin, and histamine."
+        },
+        {
+            "id": "targets_6",
+            "type": "content",
+            "title": "Targeting GPCRs",
+            "content": "# Drugs Targeting GPCRs\n\nBecause GPCRs control so many physiological processes, they are targeted for numerous diseases.\n\n## Classic Examples:\n- **Antihistamines** (e.g., Claritin): Antagonists of the Histamine H1 GPCR. Block allergy symptoms.\n- **Opioids** (e.g., Morphine): Agonists of the Mu-opioid GPCR. Provide profound pain relief.\n- **Antipsychotics** (e.g., Haloperidol): Antagonists of Dopamine D2 GPCRs.\n\n> **The Challenge**: There are hundreds of very similar GPCRs. Creating a drug that hits *only* the specific GPCR you want (Selectivity) is very difficult."
+        },
+        {
+            "id": "targets_7",
+            "type": "content",
+            "title": "Enzymes as Targets",
+            "content": "# Enzymes as Drug Targets\n\n**Enzymes** are proteins that act as biological catalysts, speeding up chemical reactions.\n\n## The Natural Process:\n- An enzyme has an **Active Site**.\n- A natural **Substrate** enters the active site.\n- The enzyme converts the substrate into a **Product**.\n\n## Drug Strategy:\nMost drugs targeting enzymes are **Inhibitors**. They bind to the enzyme and stop it from producing its product. This is useful if the product is causing disease (like excess inflammation or high cholesterol)."
+        },
+        {
+            "id": "targets_quiz_2",
+            "type": "quiz",
+            "title": "GPCR & Enzyme Quiz",
+            "content": "Let's review GPCRs and Enzymes.",
+            "quizQuestion": "What is a defining structural characteristic of G-Protein Coupled Receptors (GPCRs)?",
+            "quizOptions": [
+                "They are located inside the cell nucleus",
+                "They thread through the cell membrane exactly 7 times",
+                "They form ion channels that let sodium pass",
+                "They act as biological catalysts to speed up reactions"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "targets_8",
+            "type": "content",
+            "title": "Competitive Enzyme Inhibitors",
+            "content": "# Competitive Inhibitors\n\nThis is the most common type of enzyme inhibition.\n\n## Mechanism:\n- The drug structurally resembles the natural substrate.\n- It competes with the substrate for access to the **Active Site**.\n- If the drug gets there first, it blocks the substrate from binding.\n\n## Overcoming Inhibition:\nBecause they compete for the same spot, if the body produces a massive amount of the natural substrate, it can \"outcompete\" the drug and reverse the inhibition.\n\n> **Example**: Statins (cholesterol drugs) competitively inhibit the HMG-CoA reductase enzyme."
+        },
+        {
+            "id": "targets_9",
+            "type": "content",
+            "title": "Non-Competitive Inhibitors",
+            "content": "# Non-Competitive (Allosteric) Inhibitors\n\nSometimes, hitting the active site isn't the best strategy.\n\n## Mechanism:\n- The drug binds to a completely different site on the enzyme (an **Allosteric Site**), NOT the active site.\n- Binding at this secondary site causes the entire enzyme to change shape.\n- Because the shape changed, the active site is now distorted, and the natural substrate can no longer fit.\n\n> **Advantage**: Adding more natural substrate does NOT reverse this inhibition, because they aren't competing for the same spot."
+        },
+        {
+            "id": "targets_10",
+            "type": "content",
+            "title": "Reversible vs Irreversible",
+            "content": "# Reversible vs Irreversible Inhibition\n\nHow long does the drug stay attached?\n\n## Reversible Inhibitors:\n- Bind using weak intermolecular forces (hydrogen bonds, Van der Waals).\n- The drug eventually detaches, and the enzyme returns to normal function.\n- *Most drugs are reversible.*\n\n## Irreversible Inhibitors:\n- Form strong **Covalent Bonds** with the enzyme.\n- The enzyme is permanently destroyed. The body must synthesize brand new enzyme molecules to restore function.\n- *Example*: Aspirin permanently inactivates the COX enzyme to stop pain/inflammation. Penicillin irreversibly destroys bacterial cell wall enzymes."
+        },
+        {
+            "id": "targets_quiz_3",
+            "type": "quiz",
+            "title": "Inhibition Quiz",
+            "content": "Check your knowledge of enzyme inhibitors.",
+            "quizQuestion": "An inhibitor that binds to a site OTHER than the active site, causing a shape change that deactivates the enzyme, is called:",
+            "quizOptions": [
+                "A competitive inhibitor",
+                "An allosteric (non-competitive) inhibitor",
+                "An agonist",
+                "A substrate"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "targets_11",
+            "type": "content",
+            "title": "Ion Channels as Targets",
+            "content": "# Ion Channels\n\n**Ion Channels** are pore-forming proteins that allow specific ions (Na+, K+, Ca2+, Cl-) to pass through the cell membrane.\n\n## Why are they important?\nThey control the electrical activity of cells, which is crucial for:\n- Nerve impulse transmission (Brain and Nerves)\n- Muscle contraction (Heart and Skeletal muscles)\n\n## Drug Strategy:\nDrugs can act as **Blockers** (plugging the pore to stop ion flow) or **Openers** (forcing the pore to stay open)."
+        },
+        {
+            "id": "targets_12",
+            "type": "content",
+            "title": "Targeting Ion Channels",
+            "content": "# Ion Channel Drugs\n\nModulating electrical activity is highly effective for specific conditions.\n\n## 1. Local Anesthetics (e.g., Lidocaine)\n- **Target**: Sodium (Na+) channels in nerve cells.\n- **Action**: They block the channel. If sodium can't enter the nerve cell, the nerve cannot fire a pain signal to the brain.\n\n## 2. Calcium Channel Blockers (e.g., Amlodipine)\n- **Target**: Calcium (Ca2+) channels in heart and blood vessel muscles.\n- **Action**: Blocking calcium prevents the muscle from contracting forcefully, leading to relaxed blood vessels and lower blood pressure."
+        },
+        {
+            "id": "targets_13",
+            "type": "content",
+            "title": "Transporters as Targets",
+            "content": "# Transporters / Carrier Proteins\n\nUnlike ion channels which are open pores, **Transporters** physically grab a molecule on one side of the membrane, change shape, and release it on the other side.\n\n## Important Drug Class: SSRIs\nSelective Serotonin Reuptake Inhibitors (SSRIs) like Prozac (Fluoxetine) are widely used antidepressants.\n- **Mechanism**: They block the Serotonin Transporter (SERT) in the brain.\n- Normally, SERT acts like a vacuum, cleaning up serotonin after a nerve signal.\n- By blocking the vacuum, serotonin stays in the synapse longer, enhancing mood signaling."
+        },
+        {
+            "id": "targets_quiz_4",
+            "type": "quiz",
+            "title": "Channels & Transporters Quiz",
+            "content": "Let's review channels and transporters.",
+            "quizQuestion": "Local anesthetics like Lidocaine stop pain signals by physically blocking which type of channel in nerve cells?",
+            "quizOptions": [
+                "Calcium channels",
+                "Sodium channels",
+                "Potassium channels",
+                "Chloride channels"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "targets_14",
+            "type": "content",
+            "title": "Module Summary",
+            "content": "# Drug Targets Summary\n\n## Key Takeaways:\n- **Receptors**: Drugs can activate them (Agonists) or block them (Antagonists).\n- **GPCRs**: The largest class of receptors, threading the membrane 7 times.\n- **Enzymes**: Drugs usually inhibit them. Inhibition can be Competitive (at the active site) or Allosteric (at a different site); Reversible or Irreversible (covalent).\n- **Ion Channels**: Control cellular electricity (nerves/muscles); targeted by anesthetics and blood pressure meds.\n- **Transporters**: Move molecules across membranes; targeted by antidepressants (SSRIs).\n\n> **Congratulations!** You have completed the Drug Targets module."
+        }
+    ]
+}

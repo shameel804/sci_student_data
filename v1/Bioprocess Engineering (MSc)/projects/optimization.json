@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Basics of Process Modeling 🖥️",
+    "ques": "Define **mechanistic modeling** and **empirical modeling** in the context of bioprocessing. Give **one advantage** of using a mechanistic model over an empirical one.",
+    "answer": {
+      "type": "text",
+      "content": "* **Mechanistic Modeling:** This approach uses mathematical equations based on fundamental physical, chemical, and biological laws (e.g., mass balances, reaction kinetics) to describe a process.\n* **Empirical Modeling:** This approach relies on statistical analysis of experimental data (e.g., machine learning, regression) to find relationships between inputs and outputs, without requiring underlying physical knowledge.\n* **Advantage of Mechanistic Models:** They have better extrapolative capabilities, meaning they can accurately predict process behavior outside the range of historical experimental data because they rely on fundamental laws."
+    },
+    "explanation": "This exercise tests the foundational understanding of process modeling strategies. Knowing when to apply a mechanistic versus a data-driven empirical model is a key skill in process optimization."
+  },
+  {
+    "title": "Parameter Optimization via DOE 📈",
+    "ques": "A bioprocess engineer is trying to optimize the yield of a fermentation. Explain what a **Design of Experiments (DoE)** approach is and why it is superior to the traditional **One-Factor-At-A-Time (OFAT)** method.",
+    "answer": {
+      "type": "text",
+      "content": "* **Design of Experiments (DoE):** DoE is a structured, statistical approach to experimentation where multiple process parameters (e.g., pH, temperature, feed rate) are varied simultaneously in a planned set of experiments to understand their impact on the process output (e.g., yield).\n* **Superiority over OFAT:** The OFAT method changes one variable while keeping others constant, which fails to capture interactions between variables. DoE is superior because it efficiently identifies these **interactions** (e.g., how pH and temperature might combinedly affect yield) and requires significantly **fewer experiments** to find the true optimal conditions."
+    },
+    "explanation": "Parameter optimization is central to maximizing process efficiency. DoE is the industry standard tool for this, allowing engineers to map out the entire design space mathematically."
+  },
+  {
+    "title": "Implementing Quality by Design (QbD) 🎯",
+    "ques": "Define the terms **Critical Quality Attribute (CQA)** and **Critical Process Parameter (CPP)** within the Quality by Design (QbD) framework. How do these two concepts relate to each other?",
+    "answer": {
+      "type": "text",
+      "content": "* **Critical Quality Attribute (CQA):** A physical, chemical, biological, or microbiological property or characteristic of the final product that must be within an appropriate limit to ensure the desired product quality, safety, and efficacy (e.g., protein purity, aggregation level).\n* **Critical Process Parameter (CPP):** A process input or operating parameter (e.g., bioreactor temperature, agitation speed) whose variability has an impact on a CQA and therefore should be monitored or controlled.\n* **Relationship:** The core goal of QbD is to establish a thorough understanding of how variations in CPPs influence the CQAs. By strictly controlling the CPPs within an established design space, the process inherently guarantees that the CQAs are met in the final product."
+    },
+    "explanation": "QbD shifts the paradigm from 'testing quality into the product' to 'building quality into the process by design'. Identifying and controlling the link between CPPs and CQAs is the essence of modern biopharmaceutical manufacturing."
+  },
+  {
+    "title": "Process Analytical Technology (PAT) Integration 🔍",
+    "ques": "Describe the concept of **Process Analytical Technology (PAT)**. Provide an example of an **in-line** PAT sensor used in a bioreactor and explain how it enables real-time process control.",
+    "answer": {
+      "type": "text",
+      "content": "* **Process Analytical Technology (PAT):** PAT is a system for designing, analyzing, and controlling manufacturing through timely measurements (i.e., during processing) of critical quality and performance attributes of raw materials, in-process materials, and processes, with the goal of ensuring final product quality.\n* **In-line Sensor Example & Control:** An example is an **in-line Raman spectroscopy probe** placed directly inside a bioreactor. \n* **Real-time Control:** Instead of waiting hours for a lab sample to be analyzed, the Raman probe provides continuous, real-time data on metabolite concentrations (e.g., glucose, lactate). This real-time data allows the automated control system to dynamically adjust the nutrient feed rate the moment glucose levels drop, keeping the culture precisely within its optimal state."
+    },
+    "explanation": "PAT is the physical realization of QbD principles. It allows engineers to monitor processes in real-time, drastically reducing batch failures and enabling continuous manufacturing strategies."
+  }
+]

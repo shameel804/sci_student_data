@@ -1,0 +1,117 @@
+{
+    "id": "learn_purification",
+    "topicId": "purification",
+    "topicTitle": "Protein Purification",
+    "description": "Explore downstream processing techniques used to separate the target drug from cell debris, DNA, and host cell proteins.",
+    "baseKP": 90,
+    "slides": [
+        {
+            "id": "puri_1",
+            "type": "content",
+            "title": "Welcome to Downstream Processing",
+            "content": "# Protein Purification (Downstream)\n\nWelcome to Downstream Processing!\n\nThe bioreactor (Upstream) makes a complex soup containing your drug, billions of cells, DNA, RNA, and thousands of Host Cell Proteins (HCPs).\n\n## What You Will Learn:\n- **Primary Recovery**: Getting rid of the cells.\n- **Chromatography**: The precision tool for separating proteins.\n- **Filtration Techniques**: Polishing the product.\n- **Formulation**: Final prep for the patient."
+        },
+        {
+            "id": "puri_2",
+            "type": "content",
+            "title": "The Purification Pipeline",
+            "content": "# The Standard Downstream Workflow\n\nPurifying a biologic usually follows a specific sequence of operations:\n\n1. **Harvest (Primary Recovery)**: Centrifugation or depth filtration to remove whole cells and large debris.\n2. **Capture**: The first chromatography step. Grabs the target protein while letting most impurities wash away.\n3. **Viral Inactivation**: Often using low pH to destroy enveloped viruses.\n4. **Intermediate/Polishing**: 1 or 2 more chromatography steps to remove specific tricky impurities (DNA, aggregates).\n5. **Viral Filtration**: A physical nano-filter to remove small viruses.\n6. **Ultrafiltration/Diafiltration (UF/DF)**: Final concentration and buffer exchange."
+        },
+        {
+            "id": "puri_3",
+            "type": "content",
+            "title": "Primary Recovery",
+            "content": "# Primary Recovery\n\nFirst, we must separate the liquid broth containing the drug from the cells.\n\n## Centrifugation:\n- Uses immense G-forces (spinning) to force the heavy cells to the bottom (pellet) while the liquid stays on top (supernatant).\n- Continuous centrifuges (like Disk-Stack centrifuges) are used at industrial scales.\n\n## Depth Filtration:\n- Uses thick, tortuous pads of cellulose and diatomaceous earth.\n- Captures cells and debris throughout the depth of the filter, not just on the surface.\n- Often positively charged to capture negatively charged DNA and cell fragments."
+        },
+        {
+            "id": "puri_quiz_1",
+            "type": "quiz",
+            "title": "Recovery Quiz",
+            "content": "Check your understanding of primary recovery.",
+            "quizQuestion": "Which step is typically the FIRST operation in downstream processing?",
+            "quizOptions": [
+                "Viral Inactivation",
+                "Capture Chromatography",
+                "Harvest (Removal of whole cells and debris)",
+                "Ultrafiltration"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "puri_4",
+            "type": "content",
+            "title": "Chromatography Principles",
+            "content": "# Chromatography\n\n**Chromatography** is the heart of protein purification.\n\n## How it Works:\n- **Stationary Phase**: A column packed with microscopic porous beads (Resin).\n- **Mobile Phase**: The liquid buffer carrying the proteins.\n- Proteins are separated based on how strongly they interact with the resin beads.\n- Proteins that don't interact wash right through (Flow-through).\n- Proteins that interact are caught, and then released later (Elution) by changing the buffer (e.g., adding salt or changing pH)."
+        },
+        {
+            "id": "puri_5",
+            "type": "content",
+            "title": "Affinity Chromatography",
+            "content": "# Affinity Chromatography\n\nThe most powerful \"Capture\" step.\n\n## Mechanism:\n- The resin beads are coated with a specific molecule (ligand) that binds exclusively to your target protein, like a lock and key.\n- Everything else flows through.\n- You elute your protein by changing the pH to disrupt the lock-and-key bond.\n\n## Protein A for Antibodies:\n- **Protein A** is a bacterial protein that naturally binds tightly to the Fc region of human IgG antibodies.\n- Almost all monoclonal antibody drugs use Protein A chromatography as their capture step. It can yield 95% purity in one step!"
+        },
+        {
+            "id": "puri_6",
+            "type": "content",
+            "title": "Ion Exchange Chromatography",
+            "content": "# Ion Exchange Chromatography (IEX)\n\nSeparates proteins based on their surface **Charge**.\n\n## Mechanism:\n- **Anion Exchange (AEX)**: Resin is positively charged; binds negatively charged proteins.\n- **Cation Exchange (CEX)**: Resin is negatively charged; binds positively charged proteins.\n\n## Elution Strategy:\n- You wash the bound proteins off the column by gradually increasing the salt concentration (e.g., NaCl).\n- The salt ions (Na+ or Cl-) compete with the proteins for the charged sites on the resin, forcing the proteins to detach."
+        },
+        {
+            "id": "puri_7",
+            "type": "content",
+            "title": "Size Exclusion Chromatography",
+            "content": "# Size Exclusion Chromatography (SEC)\n\nSeparates proteins purely based on their **Size** (hydrodynamic volume). Also called Gel Filtration.\n\n## Mechanism:\n- The resin beads have microscopic pores of specific sizes.\n- **Large proteins** cannot fit into the pores. They bypass the beads and travel quickly down the column (Elute FIRST).\n- **Small proteins** wander into the pores, getting delayed. They travel slowly (Elute LAST).\n\n> **Use**: Excellent for 'polishing'\u2014removing protein aggregates (clumps of drug) from monomeric (single) drug molecules."
+        },
+        {
+            "id": "puri_quiz_2",
+            "type": "quiz",
+            "title": "Chromatography Quiz",
+            "content": "Let's review chromatography techniques.",
+            "quizQuestion": "In Size Exclusion Chromatography (SEC), which molecules elute from the column FIRST?",
+            "quizOptions": [
+                "The most positively charged molecules",
+                "The smallest molecules",
+                "The largest molecules",
+                "The most hydrophobic molecules"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "puri_8",
+            "type": "content",
+            "title": "Viral Clearance",
+            "content": "# Viral Clearance\n\nWhen making drugs in mammalian cells (like CHO cells), there is a risk of endogenous retroviruses or accidental viral contamination. Regulators require proof of viral removal.\n\n## 1. Viral Inactivation:\n- Typically performed right after Protein A capture.\n- The protein pool is held at a low pH (e.g., pH 3.5) for 30-60 minutes.\n- This destroys the lipid envelope of enveloped viruses.\n\n## 2. Viral Filtration:\n- A dedicated nano-filter step.\n- Pores are incredibly small (e.g., 20 nanometers) to physically trap small, non-enveloped viruses while letting the drug protein squeeze through."
+        },
+        {
+            "id": "puri_9",
+            "type": "content",
+            "title": "UF/DF (Final Polish)",
+            "content": "# Ultrafiltration / Diafiltration (UF/DF)\n\nThe final step in the purification train.\n\n## Ultrafiltration (Concentration):\n- Uses a membrane with pores smaller than the drug protein.\n- Pressure forces water and salts through the membrane, but the drug is retained.\n- Result: The drug concentration increases.\n\n## Diafiltration (Buffer Exchange):\n- While retaining the drug, you continuously pump in the final \"formulation buffer\" while pushing the old buffer out.\n- Result: The drug is transferred from the chromatography salt buffer into the final liquid it will be injected in."
+        },
+        {
+            "id": "puri_quiz_3",
+            "type": "quiz",
+            "title": "Final Steps Quiz",
+            "content": "Check your knowledge on viral clearance and UF/DF.",
+            "quizQuestion": "What is the primary purpose of the low pH hold step in downstream processing?",
+            "quizOptions": [
+                "To concentrate the protein",
+                "To unfold the protein",
+                "To inactivate enveloped viruses",
+                "To remove DNA"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "puri_10",
+            "type": "content",
+            "title": "Continuous Downstream Processing",
+            "content": "# The Future: Continuous Processing\n\nHistorically, biomanufacturing is done in \"Batches\" (fill a tank, process it, stop, start over). The industry is shifting to **Continuous Processing**.\n\n## Continuous Chromatography (SMB/PCC):\n- Instead of one giant column, several smaller columns are linked together.\n- While one is loading, another is washing, and another is eluting.\n- **Benefits**: Uses much less expensive resin, smaller footprint, and processes the drug faster (reducing degradation time).\n\n> **Challenge**: Connecting a continuous bioreactor to continuous purification requires incredibly complex PAT and control software."
+        },
+        {
+            "id": "puri_11",
+            "type": "content",
+            "title": "Module Summary",
+            "content": "# Protein Purification Summary\n\n## Key Takeaways:\n- **Workflow**: Harvest -> Capture -> Inactivation -> Polishing -> Viral Filtration -> UF/DF.\n- **Affinity**: Protein A is the gold standard capture step for antibodies.\n- **IEX & SEC**: Separate proteins based on Charge (IEX) and Size (SEC).\n- **Viral Clearance**: Mandatory safety steps involving low pH (inactivation) and nano-filters (removal).\n- **UF/DF**: Uses membrane filtration for final concentration and buffer exchange.\n\n> **Congratulations!** You have completed the Protein Purification module."
+        }
+    ]
+}

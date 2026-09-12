@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The Role of Chiral Catalysts 🎭",
+    "ques": "Define what a **chiral catalyst** is and explain why its use is considered more efficient than using a chiral pool (chiral starting materials) for asymmetric synthesis.",
+    "answer": {
+      "type": "text",
+      "content": "* **Definition:** A chiral catalyst is a molecule that possesses 'handedness' (it is not superimposable on its mirror image) and speeds up a reaction without being consumed by it. It forces the reaction to produce primarily one specific enantiomer (mirror image) of the product.\n* **Efficiency:** If you use a chiral starting material, you need a full stoichiometric amount (1:1 ratio with your product). A single molecule of a chiral catalyst, however, can participate in the reaction cycle thousands of times, meaning a tiny, sub-stoichiometric amount of an expensive catalyst can produce massive amounts of chiral product."
+    },
+    "explanation": "Chiral catalysis is the ultimate goal in modern synthesis, achieving high selectivity with incredible atomic and economic efficiency."
+  },
+  {
+    "title": "Enantioselective Synthesis in Pharmaceuticals 💊",
+    "ques": "Why is **enantioselective synthesis** absolutely critical in the modern pharmaceutical industry?",
+    "answer": {
+      "type": "text",
+      "content": "* **The Biological Reality:** Human bodies are entirely chiral environments (made of L-amino acids and D-sugars). \n* **The Consequence:** Because our receptors are chiral, they interact differently with the left-handed and right-handed versions (enantiomers) of a drug. One enantiomer might cure a disease (like the painkiller ibuprofen), while the exact mirror image enantiomer might be completely inactive, or worse, highly toxic (like the tragic case of Thalidomide). Enantioselective synthesis ensures only the safe, active version is produced."
+    },
+    "explanation": "In pharmacology, a molecule's mirror image is essentially a completely different drug. Controlling 3D space is a matter of life and death."
+  },
+  {
+    "title": "Understanding Diastereoselective Reactions 🔀",
+    "ques": "Contrast an enantioselective reaction with a **diastereoselective reaction**. What dictates the selectivity in the latter?",
+    "answer": {
+      "type": "text",
+      "content": "* **Enantioselective:** Creates a new chiral center in a molecule that previously had none, favoring one mirror image over the other (requires an external chiral influence, like a catalyst).\n* **Diastereoselective:** Occurs when a molecule *already* contains a chiral center, and a reaction creates a *second*, new chiral center nearby. \n* **The Selectivity:** The existing chiral center physically blocks one face of the molecule (steric hindrance), forcing the incoming reagent to attack from the less hindered side. The selectivity is dictated internally by the molecule's own existing 3D shape."
+    },
+    "explanation": "Diastereoselectivity relies on the concept of 'substrate control,' using the molecule's own built-in asymmetry to guide the formation of new bonds."
+  },
+  {
+    "title": "Evaluating Asymmetric Methodologies 🏆",
+    "ques": "What is 'enantiomeric excess' (ee) and why is it the most important metric for evaluating new **asymmetric methodologies**?",
+    "answer": {
+      "type": "text",
+      "content": "* **Definition:** Enantiomeric excess (ee) is a measurement of purity for chiral substances. It represents the percentage of the major enantiomer minus the percentage of the minor enantiomer (e.g., a mixture of 90% R and 10% S has an ee of 80%).\n* **Importance:** A standard, non-chiral reaction produces a 50/50 mix (0% ee). An asymmetric methodology is only considered successful and practically useful if it can consistently produce the desired product with a very high ee (typically >95%), proving that the chiral catalyst or reagent exerted nearly total control over the 3D outcome of the reaction."
+    },
+    "explanation": "In asymmetric synthesis, simply making the molecule isn't enough; the success of a method is entirely judged by how purely it can make one specific mirror image."
+  }
+]

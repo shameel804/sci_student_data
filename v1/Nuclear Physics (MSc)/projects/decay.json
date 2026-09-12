@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Identifying Decay Modes",
+    "ques": "Describe the three primary **decay modes** (alpha, beta, and gamma) in terms of the particles emitted.",
+    "answer": {
+      "type": "text",
+      "content": "* **Alpha decay:** Emission of a helium nucleus (2 protons, 2 neutrons).\n* **Beta decay:** Emission of a high-speed electron (or positron) and a neutrino (or antineutrino) as a neutron turns into a proton (or vice versa).\n* **Gamma decay:** Emission of high-energy electromagnetic radiation (photons) as the nucleus transitions from an excited state to a lower energy state."
+    },
+    "explanation": "Understanding the type of radiation emitted is critical for shielding and application purposes."
+  },
+  {
+    "title": "Half-Life Measurements",
+    "ques": "If a radioactive isotope has a half-life of 10 days, what fraction of the original sample remains after exactly 30 days? Demonstrate your reasoning based on **half-life measurements**.",
+    "answer": {
+      "type": "text",
+      "content": "30 days represents exactly 3 half-lives (30 / 10 = 3). \nAfter 1 half-life, 1/2 remains.\nAfter 2 half-lives, 1/4 remains.\nAfter 3 half-lives, 1/8 remains.\nTherefore, 1/8 (or 12.5%) of the original sample remains."
+    },
+    "explanation": "The concept of half-life is fundamental to exponential radioactive decay calculations."
+  },
+  {
+    "title": "Radiometric Dating Methods",
+    "ques": "Explain why Carbon-14 is useful for archaeological **dating methods** but completely useless for determining the age of dinosaur fossils.",
+    "answer": {
+      "type": "text",
+      "content": "Carbon-14 is incorporated into living organisms and decays after they die. It has a relatively short half-life of approx 5730 years. It is highly accurate for dating artifacts up to about 50,000 years old. Dinosaur fossils are roughly 65 million years old. After that immense amount of time, the amount of C-14 remaining is effectively zero and undetectable, making it useless for such ancient dating. Isotopes with much longer half-lives, like Uranium-238, must be used instead."
+    },
+    "explanation": "Selecting the correct radioisotope based on its half-life is crucial for accurate radiometric dating."
+  },
+  {
+    "title": "Medical Applications of Decay",
+    "ques": "In Positron Emission Tomography (PET) scans, a **medical application** of beta-plus decay, what actual physical event produces the gamma rays detected by the scanner?",
+    "answer": {
+      "type": "text",
+      "content": "The radioactive tracer undergoes beta-plus decay, emitting a positron (anti-electron). This positron travels a very short distance in tissue before colliding with an ordinary electron. This collision results in matter-antimatter annihilation, converting both particles completely into energy. This energy is released as two 511 keV gamma ray photons traveling in exactly opposite directions, which the PET scanner detects to pinpoint the location of the decay."
+    },
+    "explanation": "PET scans rely on the fundamental physics of antimatter annihilation to achieve precise biological imaging."
+  }
+]

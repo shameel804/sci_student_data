@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Understanding Promoter Systems",
+    "ques": "What is the function of a promoter in **Promoter systems**, and how does a 'strong' promoter differ from a 'weak' one?",
+    "answer": {
+      "type": "text",
+      "content": "A promoter is a specific DNA sequence located upstream of a gene where RNA polymerase binds to initiate transcription. A 'strong' promoter has a high affinity for RNA polymerase, leading to frequent transcription initiation and high levels of mRNA production. A 'weak' promoter binds RNA polymerase less efficiently, resulting in lower baseline transcription."
+    },
+    "explanation": "The choice of promoter dictates the fundamental expression level of the recombinant protein."
+  },
+  {
+    "title": "Mechanism of Inducible Expression",
+    "ques": "Explain the advantage of using an **Inducible expression** system (like the lac promoter) rather than a constitutive (always on) promoter when producing a toxic protein.",
+    "answer": {
+      "type": "text",
+      "content": "If a recombinant protein is toxic to the host cell, constitutive expression will kill the cells before they can grow to a high density, resulting in a very low yield. An inducible system keeps the gene turned 'off' while the cells multiply to a large biomass. Once a high density is reached, a chemical inducer (like IPTG) is added to turn the gene 'on', allowing a massive burst of protein production just before the cells die."
+    },
+    "explanation": "Separating the growth phase from the production phase is crucial for the successful synthesis of difficult proteins."
+  },
+  {
+    "title": "Bacterial Secretion Systems",
+    "ques": "Why might a researcher design a construct to utilize bacterial **Secretion systems** to export a recombinant protein out of the cytoplasm and into the periplasm or culture medium?",
+    "answer": {
+      "type": "text",
+      "content": "Exporting the protein has several advantages: 1) The oxidizing environment of the periplasm allows for proper disulfide bond formation, which is impossible in the reducing cytoplasm. 2) It avoids the protein forming insoluble aggregates (inclusion bodies) in the cytoplasm. 3) It massively simplifies the downstream purification process, as there are far fewer contaminating host proteins in the periplasm or extracellular medium."
+    },
+    "explanation": "Directing where the protein ends up is just as important as producing it in the first place."
+  },
+  {
+    "title": "Precision Protein Targeting",
+    "ques": "How is **Protein targeting** achieved at the molecular level to ensure a synthesized protein ends up in the correct eukaryotic organelle (e.g., the nucleus)?",
+    "answer": {
+      "type": "text",
+      "content": "Protein targeting is achieved by adding specific short amino acid sequences to the protein, known as signal peptides or localization signals. For example, a Nuclear Localization Signal (NLS) acts like a molecular 'zip code'. Transport proteins recognize this specific sequence and actively transport the protein through the nuclear pores into the nucleus."
+    },
+    "explanation": "Without these encoded signal sequences, recombinant proteins would remain trapped in the cytoplasm."
+  }
+]

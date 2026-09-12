@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Basics of 1D and 2D NMR 🧲",
+    "ques": "Explain the fundamental difference in the information provided by a standard 1D Proton NMR spectrum versus a **2D NMR** spectrum like COSY.",
+    "answer": {
+      "type": "text",
+      "content": "* **1D NMR:** Displays a simple graph (intensity vs. chemical shift). It tells you how many different types of protons are in the molecule, their chemical environments, and how many immediate neighbors they have (via splitting).\n* **2D NMR (like COSY):** Uses two frequency axes to create a topographical map. It shows correlations (cross-peaks) between protons that are directly coupled to each other. Instead of just showing *how many* neighbors a proton has, 2D NMR explicitly tells you *exactly which* other protons in the spectrum it is connected to."
+    },
+    "explanation": "2D NMR elevates spectroscopy from simple counting to drawing a direct, physical connectivity map of the molecule's framework."
+  },
+  {
+    "title": "The Logic of Structural Elucidation 🕵️",
+    "ques": "Describe the general workflow a chemist uses for the **structural elucidation** of a completely unknown organic compound using NMR and IR spectroscopy.",
+    "answer": {
+      "type": "text",
+      "content": "* **Step 1 (IR):** Use Infrared Spectroscopy to quickly identify the major functional groups present (e.g., 'I see a sharp peak at 1700, so there is a carbonyl group').\n* **Step 2 (1D NMR):** Use 1D Proton and Carbon NMR to count the number of unique carbon and hydrogen environments and piece together small fragments of the molecule based on chemical shifts and splitting patterns.\n* **Step 3 (2D NMR & Assembly):** Use 2D NMR techniques (like COSY or HMBC) to see how those small fragments connect to one another, acting like instructions to assemble the pieces into the final, complete chemical structure."
+    },
+    "explanation": "Structural elucidation is essentially solving a complex logic puzzle, integrating different pieces of physical data to arrive at a single undeniable structure."
+  },
+  {
+    "title": "Observing Movement: Dynamic NMR ⏱️",
+    "ques": "What phenomenon can be observed using **Dynamic NMR**, and how is the experiment typically performed?",
+    "answer": {
+      "type": "text",
+      "content": "* **The Phenomenon:** Dynamic NMR is used to observe chemical processes that happen on a timescale similar to the NMR measurement itself, such as molecules rapidly flipping between two conformations (like a substituted cyclohexane ring flipping).\n* **The Experiment:** The experiment is performed by taking NMR spectra of the sample at varying temperatures (Variable Temperature or VT NMR). At low temperatures, the molecule moves slowly, and the NMR shows distinct peaks for each conformation. As the temperature is raised, the molecule flips so rapidly that the NMR machine only sees an 'average' blur, and the distinct peaks coalesce into a single broad peak."
+    },
+    "explanation": "NMR is not just for static structures; by playing with temperature, it can act as a high-speed camera for molecular motion and chemical exchange."
+  },
+  {
+    "title": "Challenges of Solid State NMR 🧱",
+    "ques": "Why is **Solid State NMR** significantly more complex than standard solution-state NMR, and what technique is used to overcome this challenge?",
+    "answer": {
+      "type": "text",
+      "content": "* **The Challenge:** In liquids, molecules tumble rapidly and randomly in all directions. This tumbling averages out complex magnetic interactions, resulting in sharp, clear NMR peaks. In a solid powder, molecules are frozen in random orientations, causing severe broadening of the peaks until the spectrum becomes an unreadable blur.\n* **The Solution (MAS):** To overcome this, scientists use Magic Angle Spinning (MAS). The solid sample tube is spun mechanically at incredibly high speeds (thousands of times per second) at a very specific angle (54.74 degrees) relative to the magnetic field. This physical spinning artificially mimics the tumbling of a liquid, averaging out the interactions and producing sharp, readable peaks."
+    },
+    "explanation": "Solid-state NMR pushes the limits of physics and engineering to analyze materials (like bone or advanced polymers) that cannot be dissolved."
+  }
+]

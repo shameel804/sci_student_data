@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Newton's laws of motion",
+    "ques": "State **Newton's First Law of Motion** (also known as the Law of Inertia).",
+    "answer": {
+      "type": "text",
+      "content": "**Newton's First Law of Motion** states that an object will remain at rest or in uniform motion in a straight line unless acted upon by an external, unbalanced force."
+    },
+    "explanation": "This is the foundational law of dynamics, establishing the concept of inertia."
+  },
+  {
+    "title": "Inertia and momentum",
+    "ques": "Define **momentum**. How is it calculated?",
+    "answer": {
+      "type": "text",
+      "content": "**Momentum** is the 'quantity of motion' possessed by a moving body. It is defined as the product of an object's mass and its velocity.\n\n* **Formula:** p = m * v\n*(Where p = momentum, m = mass, and v = velocity)*"
+    },
+    "explanation": "This bridges the gap between mass/velocity (kinematics) and force/impact (dynamics)."
+  },
+  {
+    "title": "Conservation of momentum",
+    "ques": "Explain the **Law of Conservation of Momentum** using a simple example.",
+    "answer": {
+      "type": "text",
+      "content": "The **Law of Conservation of Momentum** states that if no external force acts on a system of two or more colliding objects, their total momentum remains constant before and after the collision.\n\n*Example:* When a bullet is fired from a gun, the forward momentum of the bullet is exactly equal to the backward momentum (recoil) of the gun, so the total initial and final momentum of the system is zero."
+    },
+    "explanation": "This tests the understanding of isolated systems and the predictive power of momentum conservation."
+  },
+  {
+    "title": "Force and acceleration",
+    "ques": "According to Newton's Second Law, how is **force** related to **mass** and **acceleration**?",
+    "answer": {
+      "type": "text",
+      "content": "Newton's Second Law states that the rate of change of momentum of an object is directly proportional to the applied unbalanced force.\n\nMathematically, it simplifies to: **Force = mass * acceleration** (F = m * a). \nThis means that for a given mass, a greater force produces a greater acceleration."
+    },
+    "explanation": "This is the core quantitative law of classical mechanics, connecting cause (force) and effect (acceleration)."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Methods of Protein Structure Determination 🔬",
+    "ques": "Briefly compare X-ray crystallography and Cryo-Electron Microscopy (Cryo-EM) as methods for **protein structure determination**.",
+    "answer": {
+      "type": "text",
+      "content": "* **X-ray Crystallography:** The traditional gold standard. Requires forcing the protein into a highly ordered, solid crystal lattice. X-rays are diffracted through the crystal, and the resulting pattern is analyzed to calculate the 3D structure. Limitation: Many proteins (like membrane proteins) refuse to crystallize.\n* **Cryo-EM:** A newer, revolutionary technique. Proteins are rapidly flash-frozen in a thin layer of vitreous ice (keeping them in their natural state) and blasted with a stream of electrons. Thousands of 2D images are computationally combined into a 3D model. Advantage: Does not require crystallization."
+    },
+    "explanation": "Determining structure is the first step in biophysics. The recent rise of Cryo-EM has fundamentally changed how we visualize complex biological machines."
+  },
+  {
+    "title": "Complexities of Nucleic Acid Structure 🧬",
+    "ques": "Beyond the standard double helix, describe two complex forms of **nucleic acid structure** found in RNA, and why RNA forms them while DNA usually does not.",
+    "answer": {
+      "type": "text",
+      "content": "* **Complex Forms:** RNA often folds back on itself to form complex 3D structures like stem-loops (hairpins) and pseudoknots.\n* **Why RNA?** DNA exists primarily as a long, stable double-stranded archive. RNA is usually synthesized as a single strand. Because it is single-stranded, its bases are free to seek out complementary sequences within the same molecule, folding into complex 3D shapes that allow RNA to act not just as a messenger, but as a structural scaffold or even a catalyst (ribozymes)."
+    },
+    "explanation": "Nucleic acids are not just straight ladders; their ability to form intricate 3D shapes is crucial for their function in translation and gene regulation."
+  },
+  {
+    "title": "Dynamics of Membrane Structure 🫧",
+    "ques": "Explain the Fluid Mosaic Model of biological **membrane structure**. What role does cholesterol play in this model?",
+    "answer": {
+      "type": "text",
+      "content": "* **Fluid Mosaic Model:** The membrane is not a rigid solid. It is a 'fluid' sea of phospholipid molecules that are constantly moving laterally. Embedded within this sea is a 'mosaic' of various proteins floating around.\n* **Role of Cholesterol:** Cholesterol acts as a temperature buffer for fluidity. At high temperatures, it restrains phospholipid movement, preventing the membrane from becoming too fluid and falling apart. At low temperatures, it prevents the phospholipids from packing too closely together, preventing the membrane from freezing solid."
+    },
+    "explanation": "Membranes are highly dynamic, self-assembling boundaries that must maintain a precise level of fluidity to function correctly."
+  },
+  {
+    "title": "Advancements in Structural Biology Techniques 💻",
+    "ques": "How has the integration of Artificial Intelligence (like AlphaFold) impacted modern **structural biology techniques**?",
+    "answer": {
+      "type": "text",
+      "content": "* **The Impact:** Historically, determining a protein's 3D structure experimentally took years of tedious lab work.\n* **The AI Revolution:** Programs like AlphaFold use deep learning networks trained on decades of experimental data to accurately predict the 3D structure of almost any protein solely from its 1D amino acid sequence in a matter of minutes or hours. It has effectively solved the protein folding problem for most standard proteins, shifting the field's focus from determining structures to understanding how those structures interact dynamically."
+    },
+    "explanation": "AI represents a paradigm shift in biophysics, democratizing access to structural information and accelerating drug discovery."
+  }
+]

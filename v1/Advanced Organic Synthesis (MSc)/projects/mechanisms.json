@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Basics of Pericyclic Reactions 🔄",
+    "ques": "Describe the defining characteristic of all **pericyclic reactions** (like the Diels-Alder reaction) in terms of their transition state and intermediates.",
+    "answer": {
+      "type": "text",
+      "content": "* **Defining Characteristic:** Pericyclic reactions occur via a single, concerted step through a cyclic transition state.\n* **Mechanism:** The electrons move around a closed loop simultaneously to break old bonds and form new ones. Crucially, there are absolutely no true intermediates (like carbocations, carbanions, or free radicals) formed during the reaction path."
+    },
+    "explanation": "Pericyclic reactions are governed by orbital symmetry, offering a highly predictable and stereospecific way to build complex ring systems without messy ionic intermediates."
+  },
+  {
+    "title": "Driving Photochemical Reactions ☀️",
+    "ques": "Explain how **photochemical reactions** differ fundamentally from thermal reactions in how they overcome the activation energy barrier.",
+    "answer": {
+      "type": "text",
+      "content": "* **Thermal Reactions:** Rely on adding heat (kinetic energy) to increase molecular collisions until they have enough energy to pass over the ground-state activation barrier.\n* **Photochemical Reactions:** Instead of heat, the molecule absorbs a photon of ultraviolet or visible light. This specific packet of energy excites an electron to a higher orbital, moving the molecule into a completely different, highly reactive excited electronic state. This allows reactions to occur (like [2+2] cycloadditions) that are literally impossible under thermal conditions due to orbital symmetry rules."
+    },
+    "explanation": "Light provides access to unique excited-state chemistry, allowing chemists to bypass standard ground-state limitations to synthesize highly strained molecules."
+  },
+  {
+    "title": "Controlling Radical Reactions ⚡",
+    "ques": "Briefly describe the three standard phases of chain-reaction **radical reactions** (Initiation, Propagation, Termination).",
+    "answer": {
+      "type": "text",
+      "content": "* **1. Initiation:** A relatively weak bond (like in a peroxide) is broken by heat or light to generate the very first highly reactive free radicals.\n* **2. Propagation:** The crucial phase where the actual synthetic work happens. The radical reacts with a stable molecule, forming a new bond and creating a new radical in the process. This new radical continues the chain, allowing one initiation event to cause thousands of reactions.\n* **3. Termination:** The chain reaction stops when two free radicals happen to collide and combine, forming a stable covalent bond and consuming the radical species without generating new ones."
+    },
+    "explanation": "While once considered too chaotic, modern chemists have learned to harness radical chain reactions for highly selective, complex bond formations."
+  },
+  {
+    "title": "Power of Organometallic Reactions 🧲",
+    "ques": "Explain the concept of 'Umpolung' (polarity reversal) and how **organometallic reactions** (like using a Grignard reagent) achieve it.",
+    "answer": {
+      "type": "text",
+      "content": "* **Normal Polarity:** In standard organic chemistry, carbon is usually bonded to a more electronegative atom (like a halogen), making the carbon partially positive (an electrophile that wants to accept electrons).\n* **Umpolung (Reversal):** In an organometallic reagent (like Grignard, R-MgBr), the carbon is bonded directly to a highly electropositive metal (Magnesium). \n* **The Result:** The electrons are pulled completely toward the carbon, making the carbon incredibly nucleophilic (negatively charged and wanting to attack other carbons). This reversal allows chemists to form new Carbon-Carbon bonds, the hardest and most important task in synthesis."
+    },
+    "explanation": "Organometallics are the heavy artillery of organic synthesis, forcing carbon to act against its normal nature to build complex carbon frameworks."
+  }
+]

@@ -1,0 +1,149 @@
+{
+    "id": "learn_proteome",
+    "topicId": "proteome",
+    "topicTitle": "Proteome Analysis",
+    "description": "Comprehensive study of the proteome, including separation techniques, mass spectrometry, quantitative methods, and post-translational modifications.",
+    "baseKP": 80,
+    "slides": [
+        {
+            "id": "proteome_1",
+            "type": "content",
+            "title": "Welcome to Proteomics",
+            "content": "# Proteome Analysis\n\nWelcome to Proteomics! \n\nThe **Proteome** is the entire set of proteins produced or modified by an organism or system.\n\n## What You Will Learn:\n- **Protein Separation**: How we isolate specific proteins from a complex mixture.\n- **Mass Spectrometry**: The workhorse technique for identifying proteins.\n- **Quantitative Proteomics**: How we measure the *amount* of proteins.\n- **Post-Translational Modifications (PTMs)**: How proteins are altered after being built."
+        },
+        {
+            "id": "proteome_2",
+            "type": "content",
+            "title": "The Challenge of Proteomics",
+            "content": "# The Complexity of the Proteome\n\nWhy is proteomics harder than genomics?\n\n1. **No Amplification**: You cannot amplify proteins like you can amplify DNA with PCR. What you have is what you get.\n2. **Dynamic Range**: In human serum, the most abundant protein (albumin) is present in billions of times higher concentration than the rarest proteins (like cytokines).\n3. **Splicing & PTMs**: One gene can produce many different protein variants (isoforms) through alternative splicing and post-translational modifications."
+        },
+        {
+            "id": "proteome_3",
+            "type": "content",
+            "title": "Protein Separation Basics",
+            "content": "# Protein Separation\n\nBefore analyzing proteins, we usually need to separate them from the complex 'soup' of the cell.\n\n## Separation Criteria:\nProteins can be separated based on their:\n- **Size/Mass**\n- **Charge** (Isoelectric point)\n- **Hydrophobicity**\n- **Affinity** (Binding to specific molecules)\n\n> **Goal**: To reduce sample complexity so that the mass spectrometer is not overwhelmed."
+        },
+        {
+            "id": "proteome_4",
+            "type": "content",
+            "title": "2D Gel Electrophoresis",
+            "content": "# 2D Gel Electrophoresis\n\nA classic technique for protein separation.\n\n## First Dimension: Isoelectric Focusing (IEF)\n- Proteins are separated in a tube gel containing a pH gradient.\n- They migrate until they reach the pH where their net charge is zero (their **Isoelectric Point** or **pI**).\n\n## Second Dimension: SDS-PAGE\n- The tube gel is placed on top of a slab gel.\n- SDS gives all proteins a negative charge.\n- Proteins migrate based ONLY on their **molecular weight** (mass).\n\n> **Result**: A 2D map of spots, where each spot is theoretically a single protein."
+        },
+        {
+            "id": "proteome_quiz_1",
+            "type": "quiz",
+            "title": "Separation Check",
+            "content": "Test your knowledge of protein separation.",
+            "quizQuestion": "In 2D Gel Electrophoresis, what property is used to separate proteins in the first dimension?",
+            "quizOptions": [
+                "Molecular weight",
+                "Hydrophobicity",
+                "Isoelectric point (charge)",
+                "Binding affinity"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "proteome_5",
+            "type": "content",
+            "title": "Liquid Chromatography (LC)",
+            "content": "# Liquid Chromatography (LC)\n\nModern proteomics largely uses High-Performance Liquid Chromatography (HPLC) instead of gels.\n\n## How it Works:\n- **Stationary Phase**: A column packed with tiny beads.\n- **Mobile Phase**: A liquid solvent carrying the peptide mixture.\n- Peptides interact differently with the beads. Some stick tightly, some pass through quickly.\n\n## Reverse-Phase LC (RPLC):\n- The most common type.\n- Stationary phase is **hydrophobic** (e.g., C18 column).\n- Peptides are eluted (washed off) by gradually increasing the concentration of an organic solvent (like acetonitrile)."
+        },
+        {
+            "id": "proteome_6",
+            "type": "content",
+            "title": "Bottom-Up vs Top-Down",
+            "content": "# Approaches to Proteomics\n\n## 1. Bottom-Up Proteomics (Shotgun)\n- Proteins are digested into smaller **peptides** using an enzyme (like Trypsin) BEFORE analysis.\n- The mass spectrometer analyzes the peptides, and software reconstructs the original proteins.\n- *Advantage*: Easier to separate and analyze small peptides.\n\n## 2. Top-Down Proteomics\n- Intact, whole proteins are analyzed directly in the mass spectrometer.\n- *Advantage*: Preserves information about PTM combinations on a single protein.\n- *Disadvantage*: Technically very challenging due to the large mass of intact proteins."
+        },
+        {
+            "id": "proteome_7",
+            "type": "content",
+            "title": "Mass Spectrometry Overview",
+            "content": "# Mass Spectrometry in Proteomics\n\nMass Spectrometry (MS) measures the **mass-to-charge ratio (m/z)** of ions.\n\n## Three Main Components:\n1. **Ion Source**: Converts liquid peptides into gas-phase ions (e.g., Electrospray Ionization - ESI).\n2. **Mass Analyzer**: Sorts the ions based on their m/z ratio (e.g., Time-of-Flight, Orbitrap).\n3. **Detector**: Records the number of ions at each m/z value.\n\n> **Output**: A mass spectrum (a graph of intensity vs. m/z)."
+        },
+        {
+            "id": "proteome_quiz_2",
+            "type": "quiz",
+            "title": "MS Approaches Quiz",
+            "content": "Let's review the approaches to proteomics.",
+            "quizQuestion": "Which proteomics approach involves digesting proteins into peptides with enzymes like trypsin before mass spectrometry analysis?",
+            "quizOptions": [
+                "Top-Down Proteomics",
+                "Bottom-Up (Shotgun) Proteomics",
+                "2D Gel Electrophoresis",
+                "Western Blotting"
+            ],
+            "correctOptionIndex": 1
+        },
+        {
+            "id": "proteome_8",
+            "type": "content",
+            "title": "Quantitative Proteomics",
+            "content": "# Quantitative Proteomics\n\nIdentifying proteins isn't enough; we often need to know *how much* of a protein is present (e.g., comparing healthy vs. diseased tissue).\n\n## Label-Free Quantification:\n- Compares the intensity of peptide peaks directly between different MS runs.\n- Cheaper and simpler, but requires highly reproducible LC-MS conditions.\n\n## Stable Isotope Labeling:\n- Incorporates \"heavy\" isotopes (like 13C or 15N) into the proteins or peptides of one sample.\n- Heavy and light samples are mixed and run together.\n- The mass spectrometer can distinguish them by their slight mass difference, allowing exact relative quantification."
+        },
+        {
+            "id": "proteome_9",
+            "type": "content",
+            "title": "SILAC",
+            "content": "# SILAC: Stable Isotope Labeling by Amino acids in Cell culture\n\nSILAC is a powerful *in vivo* labeling method.\n\n## The Method:\n1. Cells are grown in culture media containing either \"Light\" (normal) or \"Heavy\" (isotope-labeled) amino acids (usually Lysine and Arginine).\n2. After several cell divisions, the cells fully incorporate the heavy amino acids into all their proteins.\n3. The light (e.g., Control) and heavy (e.g., Treated) cell lysates are mixed 1:1.\n4. They are digested and analyzed together by MS.\n\n> **Benefit**: Mixing happens early in the workflow, minimizing experimental error."
+        },
+        {
+            "id": "proteome_10",
+            "type": "content",
+            "title": "Isobaric Tagging (TMT/iTRAQ)",
+            "content": "# Isobaric Tagging (Chemical Labeling)\n\nWhat if you can't grow your sample in culture (like human tissue biopsies)? You use chemical tags like TMT (Tandem Mass Tags).\n\n## How it Works:\n- Extracted peptides are chemically reacted with a tag.\n- The tags are \"isobaric\" - meaning they all have the exact same total mass.\n- Therefore, labeled peptides from different samples appear as a *single* peak in the first MS scan.\n- During fragmentation (MS/MS), the tags break off, releasing \"reporter ions\" of different masses.\n- The intensity of these reporter ions tells you the relative amount of the peptide in each original sample."
+        },
+        {
+            "id": "proteome_quiz_3",
+            "type": "quiz",
+            "title": "Quantification Check",
+            "content": "Test your knowledge of quantification methods.",
+            "quizQuestion": "Which stable isotope labeling method involves growing cells in media containing heavy amino acids?",
+            "quizOptions": [
+                "TMT (Tandem Mass Tags)",
+                "Label-Free Quantification",
+                "SILAC",
+                "iTRAQ"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "proteome_11",
+            "type": "content",
+            "title": "Post-Translational Modifications",
+            "content": "# Post-Translational Modifications (PTMs)\n\nPTMs are chemical changes made to a protein after it has been translated from RNA. They are crucial for regulating protein function.\n\n## Why Study PTMs?\n- They act as molecular switches (turning enzymes on/off).\n- They determine protein localization within the cell.\n- They mark proteins for degradation.\n\n## Common PTMs:\n- **Phosphorylation**: Addition of a phosphate group (kinases add, phosphatases remove).\n- **Acetylation**: Addition of an acetyl group (often on histones for gene regulation).\n- **Ubiquitination**: Addition of a small protein (ubiquitin) to mark for destruction.\n- **Glycosylation**: Addition of sugar chains."
+        },
+        {
+            "id": "proteome_12",
+            "type": "content",
+            "title": "Detecting PTMs by MS",
+            "content": "# Detecting PTMs by Mass Spectrometry\n\nPTMs change the mass of a peptide, making MS the perfect tool to detect them.\n\n## Mass Shifts:\n- **Phosphorylation**: Adds exactly 80 Daltons (Da) to the peptide mass.\n- **Acetylation**: Adds 42 Da.\n\n## The Challenge:\nPTMs are often sub-stoichiometric. This means only a small fraction (e.g., 5%) of a specific protein might be phosphorylated at any given time.\n\n> **The Solution**: We usually need an **Enrichment Step** (like using titanium dioxide beads to specifically pull out phosphorylated peptides) before MS analysis."
+        },
+        {
+            "id": "proteome_13",
+            "type": "content",
+            "title": "Bioinformatics in Proteomics",
+            "content": "# Bioinformatics in Proteomics\n\nMass spectrometers generate massive amounts of data (gigabytes per run). Bioinformatics is essential.\n\n## Database Searching:\n- The experimental MS/MS spectra are compared against a theoretical database of protein sequences.\n- The search engine (like Mascot or MaxQuant) looks for the best match between the experimental fragmentation pattern and the predicted pattern for known peptides.\n\n## False Discovery Rate (FDR):\n- To ensure reliability, we use statistical methods to control the FDR (usually set at 1%). This means we accept that 1% of our protein identifications might be false positives."
+        },
+        {
+            "id": "proteome_quiz_4",
+            "type": "quiz",
+            "title": "PTM Quiz",
+            "content": "Let's check your understanding of PTMs.",
+            "quizQuestion": "Which post-translational modification involves the addition of a phosphate group, resulting in an 80 Dalton mass shift?",
+            "quizOptions": [
+                "Acetylation",
+                "Glycosylation",
+                "Phosphorylation",
+                "Ubiquitination"
+            ],
+            "correctOptionIndex": 2
+        },
+        {
+            "id": "proteome_14",
+            "type": "content",
+            "title": "Module Summary",
+            "content": "# Proteome Analysis Summary\n\n## Key Takeaways:\n- **Complexity**: The proteome is highly complex and dynamic compared to the genome.\n- **Separation**: Liquid Chromatography (LC) is essential to simplify peptide mixtures before MS.\n- **Approaches**: Bottom-up (shotgun) proteomics digests proteins into peptides prior to analysis.\n- **Quantification**: Methods like SILAC (metabolic) and TMT (chemical) use isotopes for precise relative quantification.\n- **PTMs**: Mass spec can detect modifications like phosphorylation by identifying characteristic mass shifts, though enrichment is often required.\n\n> **Congratulations!** You've completed the Proteome Analysis module."
+        }
+    ]
+}

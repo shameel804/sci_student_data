@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Topological Insulators",
+    "ques": "Explain the defining characteristic of a **topological insulator** regarding its electrical conductivity.",
+    "answer": {
+      "type": "text",
+      "content": "A topological insulator is a material that behaves as an electrical insulator in its interior (bulk) but has highly conductive states on its surface (or edges). These surface states are 'topologically protected', meaning they are robust against impurities and defects."
+    },
+    "explanation": "Topological materials represent a new phase of matter categorized by topology rather than symmetry breaking."
+  },
+  {
+    "title": "The Quantum Hall Effect",
+    "ques": "Describe the main observable feature of the **Quantum Hall effect** when measuring the Hall resistance of a 2D electron gas at low temperatures and high magnetic fields.",
+    "answer": {
+      "type": "text",
+      "content": "Unlike the classical Hall effect where resistance increases linearly with the magnetic field, in the Quantum Hall effect, the Hall resistance exhibits distinct, flat plateaus. The resistance at these plateaus is exactly quantized in integer (or fractional) multiples of fundamental constants (h/e^2)."
+    },
+    "explanation": "This quantization is so precise it is used to define the standard of electrical resistance."
+  },
+  {
+    "title": "Superconducting Materials Properties",
+    "ques": "What are the two absolute defining properties of all **superconducting materials** when cooled below their critical temperature?",
+    "answer": {
+      "type": "text",
+      "content": "1. **Zero electrical resistance:** They can carry a direct electrical current without any energy loss.\n2. **Perfect diamagnetism (The Meissner effect):** They completely expel applied magnetic fields from their interior."
+    },
+    "explanation": "A superconductor is not just a perfect conductor; the Meissner effect is what truly defines the superconducting state."
+  },
+  {
+    "title": "Exploring Novel Quantum States",
+    "ques": "Briefly describe what a quantum spin liquid is, as an example of **novel quantum states** in condensed matter.",
+    "answer": {
+      "type": "text",
+      "content": "A quantum spin liquid is a state of matter where the magnetic moments (spins) of the atoms do not freeze into an ordered pattern (like a ferromagnet) even at absolute zero. Instead, due to quantum fluctuations and geometric frustration, the spins remain in a highly entangled, fluctuating liquid-like state."
+    },
+    "explanation": "Quantum spin liquids are highly sought after because their long-range entanglement could be useful for fault-tolerant quantum computing."
+  }
+]

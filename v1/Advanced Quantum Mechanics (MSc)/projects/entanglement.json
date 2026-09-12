@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Understanding Bell's Theorem",
+    "ques": "Summarize the significance of **Bell's theorem** in the context of quantum mechanics versus classical physics.",
+    "answer": {
+      "type": "text",
+      "content": "Bell's theorem demonstrates that no local hidden variable theory can reproduce all the predictions of quantum mechanics. It proved that the universe is fundamentally non-local, meaning entangled particles exhibit correlations stronger than any classical local theory allows."
+    },
+    "explanation": "This theorem shifted the debate over quantum mechanics from philosophy to experimental testability."
+  },
+  {
+    "title": "Exploring Quantum Correlations",
+    "ques": "Explain how **Quantum correlations** in an entangled state differ from standard statistical correlations (like a pair of gloves).",
+    "answer": {
+      "type": "text",
+      "content": "In statistical correlations, the properties (like left/right gloves) are predetermined before observation. In quantum correlations of entangled particles, the specific properties do not exist prior to measurement. Measuring one particle instantaneously collapses the state of the other, regardless of the distance between them."
+    },
+    "explanation": "Quantum correlations define the 'spooky action at a distance' that bothered Einstein."
+  },
+  {
+    "title": "Applications in Quantum Information",
+    "ques": "Describe one way entanglement is utilized as a resource in **Quantum information** theory, specifically mentioning quantum teleportation.",
+    "answer": {
+      "type": "text",
+      "content": "Entanglement is the core resource for quantum teleportation. By sharing an entangled pair between a sender and receiver, the sender can transmit the exact quantum state of a third particle to the receiver, without sending the particle itself, by performing joint measurements."
+    },
+    "explanation": "Entanglement transforms from a philosophical puzzle into a tool for revolutionary communication protocols."
+  },
+  {
+    "title": "Quantum Computing Basics",
+    "ques": "How do entangled qubits provide a computational advantage in **Quantum computing basics** over classical bits?",
+    "answer": {
+      "type": "text",
+      "content": "Classical bits exist independently as 0 or 1. Entangled qubits form a single, inseparable quantum system. Because of this entanglement, operations performed on one qubit affect the entire system, allowing quantum computers to process massive amounts of information simultaneously and solve specific complex problems exponentially faster."
+    },
+    "explanation": "Entanglement, alongside superposition, is the source of the exponential speedup promised by quantum algorithms."
+  }
+]

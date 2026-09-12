@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Nanoparticle Synthesis Strategies",
+    "ques": "Describe the main differences between top-down and bottom-up approaches for **nanoparticle synthesis**, providing one example of each.",
+    "answer": {
+      "type": "text",
+      "content": "* **Top-down approach:** Involves breaking down bulk material into nano-sized particles (e.g., mechanical milling).\n* **Bottom-up approach:** Involves building nanoparticles from individual atoms or molecules (e.g., chemical vapor deposition)."
+    },
+    "explanation": "Understanding synthesis methods is fundamental in nanochemistry to control particle size and properties."
+  },
+  {
+    "title": "Core-Shell Nanostructures",
+    "ques": "Explain the concept of **core-shell structures** in nanoparticles and discuss why they are advantageous compared to single-component nanoparticles.",
+    "answer": {
+      "type": "text",
+      "content": "Core-shell structures consist of an inner core material completely surrounded by an outer shell material. They are advantageous because they can combine the properties of both materials, protect the core from oxidation or degradation, and enhance stability and biocompatibility."
+    },
+    "explanation": "Core-shell nanoparticles offer tailored functionalities critical for biomedical and catalytic applications."
+  },
+  {
+    "title": "Functionalization of Nanoparticles",
+    "ques": "Discuss two common **functionalization methods** used to modify the surface of gold nanoparticles for targeted drug delivery.",
+    "answer": {
+      "type": "text",
+      "content": "1. **Thiol functionalization:** Using molecules with thiol (-SH) groups that form strong bonds with the gold surface.\n2. **Polyethylene glycol (PEG) coating:** Attaching PEG chains (PEGylation) to increase circulation time in the bloodstream and prevent immune system clearance."
+    },
+    "explanation": "Surface functionalization dictates how nanoparticles interact with biological systems."
+  },
+  {
+    "title": "Advanced Characterization Techniques",
+    "ques": "Compare and contrast Transmission Electron Microscopy (TEM) and Dynamic Light Scattering (DLS) as **characterization techniques** for determining nanoparticle size.",
+    "answer": {
+      "type": "text",
+      "content": "* **TEM:** Provides a direct, real-space image of the nanoparticles, allowing for precise measurement of primary particle size and shape. However, it requires a dried sample in a vacuum.\n* **DLS:** Measures the hydrodynamic radius of particles in suspension based on Brownian motion. It is faster and measures particles in their native liquid state, but it often overestimates size compared to TEM and cannot resolve shape."
+    },
+    "explanation": "Using complementary techniques is essential for a complete understanding of nanoparticle physical characteristics."
+  }
+]

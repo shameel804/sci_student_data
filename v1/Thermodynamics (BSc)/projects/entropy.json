@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Basic Entropy Calculations 🧮",
+    "ques": "Describe the general process for calculating the change in entropy for a reversible isothermal expansion of an ideal gas.",
+    "answer": {
+      "type": "text",
+      "content": "* **Concept:** Entropy change (Delta S) for a reversible process is the heat transferred (Q) divided by the absolute temperature (T).\n* **Calculation for Isothermal Expansion:** Since temperature is constant, Delta S = Q / T. Because the internal energy of an ideal gas depends only on temperature (which is constant), the heat added equals the work done by the gas.\n* **Result:** The entropy of the gas increases as it expands and its volume increases."
+    },
+    "explanation": "This exercise tests the fundamental understanding of entropy change in a simple, reversible isothermal process."
+  },
+  {
+    "title": "Understanding Thermodynamic Potentials 🔋",
+    "ques": "Define the four main thermodynamic potentials (Internal Energy, Enthalpy, Helmholtz Free Energy, Gibbs Free Energy) and state the natural variables for each.",
+    "answer": {
+      "type": "text",
+      "content": "* **Internal Energy (U):** The total energy of the system. Natural variables: Entropy, Volume.\n* **Enthalpy (H):** Useful for constant pressure processes. Natural variables: Entropy, Pressure.\n* **Helmholtz Free Energy (F):** Useful for constant temperature and volume processes. Natural variables: Temperature, Volume.\n* **Gibbs Free Energy (G):** Useful for constant temperature and pressure processes. Natural variables: Temperature, Pressure."
+    },
+    "explanation": "Thermodynamic potentials are crucial for determining the equilibrium state of a system under different constraints."
+  },
+  {
+    "title": "Deriving Maxwell Relations 🔗",
+    "ques": "Explain the mathematical principle behind the **Maxwell relations** in thermodynamics and give an example of what they relate.",
+    "answer": {
+      "type": "text",
+      "content": "* **Principle:** Maxwell relations arise from the fact that thermodynamic potentials are state functions, meaning their mixed partial derivatives are equal, regardless of the order of differentiation.\n* **Example Application:** They allow us to relate difficult-to-measure quantities (like the change in entropy with respect to volume at constant temperature) to easily measurable quantities (like the change in pressure with respect to temperature at constant volume)."
+    },
+    "explanation": "Maxwell relations provide a powerful tool to substitute unmeasurable partial derivatives with measurable ones."
+  },
+  {
+    "title": "Entropy in Phase Transitions 💧➡️💨",
+    "ques": "Analyze the entropy change during a first-order phase transition, such as the boiling of water at constant pressure and temperature.",
+    "answer": {
+      "type": "text",
+      "content": "* **Mechanism:** During a phase transition like boiling, the temperature remains constant while heat (latent heat of vaporization) is added to the system.\n* **Entropy Change:** The entropy of the system increases significantly because the gaseous phase has many more accessible microstates (more disorder) compared to the liquid phase.\n* **Calculation:** The change in entropy is simply the latent heat divided by the boiling temperature."
+    },
+    "explanation": "Phase transitions are classic examples of entropy changes occurring at constant temperature, illustrating the connection between heat, temperature, and disorder."
+  }
+]

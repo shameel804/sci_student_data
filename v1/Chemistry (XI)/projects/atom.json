@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Atomic models development",
+    "ques": "State one major failure of **Rutherford's nuclear model** of the atom, which led to the development of Bohr's model.",
+    "answer": {
+      "type": "text",
+      "content": "Rutherford's model could not explain the **stability of the atom**. \n\nAccording to classical electromagnetic theory, a charged particle (like an electron) revolving in a circular orbit should continuously emit radiation and lose energy. Consequently, its orbit should become smaller and smaller until it spirals into the nucleus, making the atom unstable. Bohr proposed discrete, non-radiating orbits to fix this."
+    },
+    "explanation": "This highlights the transition from classical physics to early quantum concepts."
+  },
+  {
+    "title": "Quantum numbers",
+    "ques": "What does the **Principal Quantum Number** (n) indicate about an electron in an atom?",
+    "answer": {
+      "type": "text",
+      "content": "The **Principal Quantum Number** (n = 1, 2, 3...) indicates the main electron shell or energy level in which the electron resides.\n\nIt primarily determines the **size** of the orbital and the **energy** of the electron (larger 'n' means further from the nucleus and higher energy)."
+    },
+    "explanation": "This introduces the mathematical coordinate system used to describe electron locations."
+  },
+  {
+    "title": "Electronic configuration",
+    "ques": "State the **Pauli Exclusion Principle**.",
+    "answer": {
+      "type": "text",
+      "content": "The **Pauli Exclusion Principle** states that no two electrons in the same atom can have the exact same set of all four quantum numbers.\n\nAs a consequence, a single orbital can hold a maximum of only **two electrons**, and they must have opposite spins (+1/2 and -1/2)."
+    },
+    "explanation": "This is a fundamental rule governing the arrangement of electrons in atoms."
+  },
+  {
+    "title": "Atomic spectra",
+    "ques": "Why do different elements produce distinct **line emission spectra** when heated?",
+    "answer": {
+      "type": "text",
+      "content": "When an atom is heated, its electrons absorb energy and jump to higher, unstable energy levels (excited state). \n\nWhen they drop back down to lower energy levels, they emit energy in the form of light (photons). Because each element has a unique arrangement of energy levels, the energy differences (and thus the specific wavelengths or colors of light emitted) act like a unique **chemical fingerprint** for that element."
+    },
+    "explanation": "This connects atomic structure to observable physical phenomena used in analytical chemistry."
+  }
+]

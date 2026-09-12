@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Thermal properties",
+    "ques": "Define **Specific Heat Capacity** of a substance.",
+    "answer": {
+      "type": "text",
+      "content": "**Specific Heat Capacity** is the amount of heat energy required to raise the temperature of a unit mass (e.g., 1 kg) of a substance by 1 degree Celsius (or 1 Kelvin)."
+    },
+    "explanation": "This introduces the intrinsic thermal property that dictates how substances respond to heat."
+  },
+  {
+    "title": "Heat transfer mechanisms",
+    "ques": "Briefly explain the three modes of heat transfer: **Conduction, Convection, and Radiation**.",
+    "answer": {
+      "type": "text",
+      "content": "1.  **Conduction:** Heat transfer through a material by direct molecular collisions, without actual movement of the matter (mainly in solids).\n2.  **Convection:** Heat transfer by the actual bulk movement of the heated fluid itself (liquids and gases).\n3.  **Radiation:** Heat transfer via electromagnetic waves. It does not require any material medium (can travel through a vacuum, like the Sun's heat reaching Earth)."
+    },
+    "explanation": "This categorizes the physical mechanisms by which thermal energy moves."
+  },
+  {
+    "title": "Thermodynamic processes",
+    "ques": "What is an **Isothermal process** and an **Adiabatic process**?",
+    "answer": {
+      "type": "text",
+      "content": "* **Isothermal process:** A thermodynamic process that occurs at a constant **temperature**.\n* **Adiabatic process:** A process in which there is **no heat exchange** between the system and its surroundings (perfectly insulated)."
+    },
+    "explanation": "This defines the standard idealized processes used to analyze thermodynamic systems."
+  },
+  {
+    "title": "Heat engine efficiency",
+    "ques": "State the **Second Law of Thermodynamics** (Kelvin-Planck statement) regarding heat engines.",
+    "answer": {
+      "type": "text",
+      "content": "The Kelvin-Planck statement of the Second Law of Thermodynamics states that it is impossible to construct a heat engine that operates in a cycle and converts all the heat absorbed from a hot reservoir entirely into work.\n\nIn other words, no heat engine can be 100% efficient; some heat must always be rejected to a colder reservoir."
+    },
+    "explanation": "This covers the fundamental limitation on energy conversion in the universe."
+  }
+]

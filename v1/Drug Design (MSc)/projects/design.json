@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Target Identification Basics",
+    "ques": "In drug discovery, what does 'Target identification' refer to, and why is it the crucial first step?",
+    "answer": {
+      "type": "text",
+      "content": "Target identification is the process of isolating the specific biological molecule (usually a protein, like an enzyme or receptor) whose function is associated with a disease. It is crucial because a drug must have a specific target to interact with to produce a therapeutic effect without causing widespread toxicity."
+    },
+    "explanation": "You cannot design a lock (drug) without first knowing the exact shape of the keyhole (target)."
+  },
+  {
+    "title": "Methods of Lead Discovery",
+    "ques": "Describe High-Throughput Screening (HTS) as a method for **Lead discovery**.",
+    "answer": {
+      "type": "text",
+      "content": "HTS is an automated process where thousands to millions of distinct chemical compounds are rapidly tested for their ability to bind to or inhibit the specific biological target. Robotics and specialized software are used to handle the massive number of tests, looking for 'hits'—compounds that show desired activity—which can then be developed into 'leads'."
+    },
+    "explanation": "HTS transformed drug discovery from a slow, serendipitous process to an industrial-scale search."
+  },
+  {
+    "title": "Structure-Activity Relationships (SAR)",
+    "ques": "Explain the fundamental goal of analyzing **Structure-activity relationships** during the drug design process.",
+    "answer": {
+      "type": "text",
+      "content": "The goal of SAR is to systematically understand how changes to the chemical structure of a lead compound affect its biological activity against the target. By slightly altering the molecule (e.g., adding a methyl group or changing a ring structure) and measuring the resulting change in binding affinity, chemists can map which parts of the molecule are essential for efficacy and which cause unwanted side effects."
+    },
+    "explanation": "SAR provides the rational blueprint for improving a moderately effective lead into a highly potent drug."
+  },
+  {
+    "title": "Optimization Strategies",
+    "ques": "What is the primary objective of lead **Optimization strategies** before a drug enters clinical trials?",
+    "answer": {
+      "type": "text",
+      "content": "The primary objective is not just to maximize potency against the target, but to balance potency with favorable drug-like properties. This includes optimizing its solubility, metabolic stability, oral bioavailability, and minimizing toxicity to healthy cells. An incredibly potent molecule that is instantly destroyed by the liver is useless as a drug."
+    },
+    "explanation": "Optimization is about turning a good chemical inhibitor into a viable, safe medicine."
+  }
+]

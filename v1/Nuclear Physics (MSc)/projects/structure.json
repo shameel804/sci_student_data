@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Introduction to Nuclear Models",
+    "ques": "Briefly state why physicists need different **Nuclear models** (like the liquid drop model and the shell model) instead of one single comprehensive model.",
+    "answer": {
+      "type": "text",
+      "content": "The strong nuclear force is incredibly complex and cannot be solved exactly for many-body systems like heavy nuclei. Therefore, physicists use different models depending on the property being studied: the liquid drop model is great for bulk properties like binding energy, while the shell model is needed for individual nucleon states and magic numbers."
+    },
+    "explanation": "No single analytical model can currently capture both the collective macroscopic behavior and the microscopic quantum states of a nucleus."
+  },
+  {
+    "title": "Understanding the Shell Model",
+    "ques": "Explain how the **Shell model** accounts for the existence of 'magic numbers' in nuclear physics.",
+    "answer": {
+      "type": "text",
+      "content": "The shell model treats nucleons (protons and neutrons) as independent particles moving in a quantized potential well created by all the other nucleons. Due to a strong spin-orbit coupling interaction, the energy levels group into distinct 'shells'. When a shell is completely filled with nucleons, the nucleus is exceptionally stable. The specific number of nucleons needed to fill these shells are the 'magic numbers' (e.g., 2, 8, 20, 28, 50)."
+    },
+    "explanation": "The shell model successfully applied the concept of atomic electron shells to the much denser environment of the nucleus."
+  },
+  {
+    "title": "The Collective Model",
+    "ques": "In what specific physical scenario does the **Collective model** succeed where the pure shell model fails?",
+    "answer": {
+      "type": "text",
+      "content": "The pure shell model assumes a spherical nucleus. However, nuclei located far from magic numbers often possess large permanent deformations (they are ellipsoidal). The Collective model succeeds here by describing the nucleus as a liquid drop whose surface can undergo collective rotations and vibrations, successfully predicting the rotational energy spectra observed in these deformed nuclei."
+    },
+    "explanation": "The collective model bridges the gap between individual nucleon motion and bulk fluid-like behavior."
+  },
+  {
+    "title": "Complex Nuclear Structure Calculations",
+    "ques": "What is the primary computational challenge in ab initio **nuclear structure calculations** for nuclei heavier than Carbon?",
+    "answer": {
+      "type": "text",
+      "content": "Ab initio calculations attempt to solve the nuclear many-body problem starting purely from the fundamental interactions between individual nucleons (two-body and three-body forces). The primary challenge is the combinatorial explosion of the Hilbert space. As the number of nucleons increases beyond light nuclei, the number of possible interacting quantum states grows exponentially, quickly exceeding the memory and processing limits of the most powerful supercomputers."
+    },
+    "explanation": "First-principles calculations are the ultimate goal of nuclear theory but are severely restricted by computational scaling limits."
+  }
+]

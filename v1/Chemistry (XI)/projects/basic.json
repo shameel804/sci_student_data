@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Mole concept applications",
+    "ques": "Calculate the number of moles present in 90 grams of water (H2O). (Given: Atomic mass of H = 1 u, O = 16 u)",
+    "answer": {
+      "type": "text",
+      "content": "First, find the molar mass of H2O.\n* Molar mass of H2O = (2 * 1) + 16 = 18 g/mol.\n\nNow, apply the mole formula:\n* Number of moles = Given mass / Molar mass\n* Moles = 90 g / 18 g/mol = **5 moles**."
+    },
+    "explanation": "This is a fundamental application of the mole concept, translating macroscopic mass into chemical amounts."
+  },
+  {
+    "title": "Stoichiometry calculations",
+    "ques": "In the reaction: N2 + 3H2 -> 2NH3, how many moles of ammonia (NH3) are produced if 2 moles of nitrogen (N2) react completely with excess hydrogen?",
+    "answer": {
+      "type": "text",
+      "content": "According to the balanced chemical equation, 1 mole of N2 produces 2 moles of NH3.\n\nTherefore, if 2 moles of N2 react, the amount of NH3 produced will be:\n* 2 moles N2 * (2 moles NH3 / 1 mole N2) = **4 moles of NH3**."
+    },
+    "explanation": "This tests the ability to use balanced equations to predict product yields based on stoichiometric ratios."
+  },
+  {
+    "title": "Empirical formula determination",
+    "ques": "What is the difference between an **Empirical Formula** and a **Molecular Formula**?",
+    "answer": {
+      "type": "text",
+      "content": "* **Empirical Formula:** Represents the simplest whole-number ratio of the different atoms present in a compound (e.g., the empirical formula of hydrogen peroxide is **HO**).\n* **Molecular Formula:** Represents the actual, exact number of each type of atom present in one molecule of the compound (e.g., the molecular formula of hydrogen peroxide is **H2O2**)."
+    },
+    "explanation": "This clarifies the two distinct ways chemical formulas are represented based on analytical data."
+  },
+  {
+    "title": "Concentration terms",
+    "ques": "Define **Molarity** (M) as a term used to express the concentration of a solution.",
+    "answer": {
+      "type": "text",
+      "content": "**Molarity** is defined as the number of moles of the solute dissolved per liter (or cubic decimeter) of the solution.\n\n* **Formula:** Molarity = (Moles of solute) / (Volume of solution in Liters)"
+    },
+    "explanation": "This introduces standard laboratory terminology for describing how strong or weak a chemical solution is."
+  }
+]

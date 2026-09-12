@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Simple harmonic motion",
+    "ques": "Define **Simple Harmonic Motion (SHM)**. What is the specific relationship between restoring force and displacement?",
+    "answer": {
+      "type": "text",
+      "content": "**Simple Harmonic Motion (SHM)** is a special type of periodic oscillatory motion.\n\nIn SHM, the restoring force acting on the particle is directly proportional to its displacement from the mean (equilibrium) position and is always directed back towards the mean position. \n* **Formula:** F = -kx (where k is the force constant and x is displacement)."
+    },
+    "explanation": "This defines the most basic and common type of oscillation in physics."
+  },
+  {
+    "title": "Wave characteristics",
+    "ques": "Differentiate between **transverse waves** and **longitudinal waves** based on particle oscillation.",
+    "answer": {
+      "type": "text",
+      "content": "* **Transverse Waves:** The particles of the medium oscillate **perpendicular** to the direction of wave propagation (e.g., light waves, ripples on a string).\n* **Longitudinal Waves:** The particles of the medium oscillate **parallel** to the direction of wave propagation, creating compressions and rarefactions (e.g., sound waves in air)."
+    },
+    "explanation": "This categorizes mechanical waves based on their geometric structure."
+  },
+  {
+    "title": "Sound wave properties",
+    "ques": "On what physical property of a sound wave does its **pitch** depend? On what does its **loudness** depend?",
+    "answer": {
+      "type": "text",
+      "content": "* **Pitch** depends on the **frequency** of the wave (higher frequency = higher pitch).\n* **Loudness** depends primarily on the **amplitude** of the wave (larger amplitude = louder sound, specifically intensity is proportional to amplitude squared)."
+    },
+    "explanation": "This connects the abstract mathematical properties of waves to human auditory perception."
+  },
+  {
+    "title": "Doppler effect",
+    "ques": "Describe the **Doppler Effect** in sound.",
+    "answer": {
+      "type": "text",
+      "content": "The **Doppler Effect** is the apparent change in the frequency (or pitch) of a wave observed whenever there is relative motion between the source of the wave and the observer.\n\nFor example, the siren of an approaching ambulance sounds higher in pitch as it comes towards you, and lower in pitch as it moves away."
+    },
+    "explanation": "This explains a common everyday phenomenon using relative wave kinematics."
+  }
+]

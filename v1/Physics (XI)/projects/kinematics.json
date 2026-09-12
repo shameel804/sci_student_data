@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Motion in straight line",
+    "ques": "Define **instantaneous velocity**.",
+    "answer": {
+      "type": "text",
+      "content": "**Instantaneous velocity** is the velocity of an object at a specific, infinitely small instant of time. Mathematically, it is the limit of the average velocity as the time interval approaches zero (the derivative of position with respect to time: dx/dt)."
+    },
+    "explanation": "This introduces calculus concepts into the understanding of motion."
+  },
+  {
+    "title": "Motion in plane",
+    "ques": "When an object moves in a circular path with constant speed, why is its motion considered **accelerated**?",
+    "answer": {
+      "type": "text",
+      "content": "Even though the speed (magnitude) is constant, the **direction** of the velocity vector is continuously changing at every point along the circular path.\n\nSince velocity is a vector (magnitude + direction), a change in direction means the velocity is changing, which by definition means the object is accelerating (centripetal acceleration)."
+    },
+    "explanation": "This tests the understanding of vectors in two-dimensional motion."
+  },
+  {
+    "title": "Relative velocity",
+    "ques": "Train A is moving East at 50 km/h, and Train B is moving West at 60 km/h on parallel tracks. What is the **relative velocity of Train A with respect to Train B**?",
+    "answer": {
+      "type": "text",
+      "content": "Since they are moving in opposite directions, we add their magnitudes to find the relative speed.\n\nRelative velocity = Velocity of A - Velocity of B\nAssuming East is positive (+50) and West is negative (-60):\nRelative velocity = 50 - (-60) = **110 km/h towards East**."
+    },
+    "explanation": "This applies vector addition/subtraction to real-world scenarios from different frames of reference."
+  },
+  {
+    "title": "Projectile motion",
+    "ques": "For a given initial velocity, at what **angle of projection** is the horizontal range of a projectile maximum?",
+    "answer": {
+      "type": "text",
+      "content": "The horizontal range is maximum when the angle of projection is **45 degrees**."
+    },
+    "explanation": "This is a classic optimization problem in kinematics."
+  }
+]

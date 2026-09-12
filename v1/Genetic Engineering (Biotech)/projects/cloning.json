@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Anatomy of Plasmid Vectors ⭕",
+    "ques": "Identify three essential features that a **plasmid vector** must contain to be useful for gene cloning.",
+    "answer": {
+      "type": "text",
+      "content": "* **1. Origin of Replication (ori):** A DNA sequence that allows the plasmid to be independently replicated by the host cell's machinery.\n* **2. Selectable Marker:** Typically an antibiotic resistance gene. This allows researchers to kill off any host cells that did not successfully take up the plasmid, leaving only the successfully transformed cells.\n* **3. Multiple Cloning Site (MCS):** A short region containing several unique restriction enzyme sites where foreign DNA can be inserted without disrupting the plasmid's essential functions."
+    },
+    "explanation": "A plasmid is not just random circular DNA; it is specifically engineered to ensure replication, selection, and easy insertion of new genes."
+  },
+  {
+    "title": "Designing Expression Systems 🏭",
+    "ques": "Explain the difference between a standard cloning vector and an **expression system** (expression vector). What additional elements are required?",
+    "answer": {
+      "type": "text",
+      "content": "* **Difference:** A cloning vector is simply designed to carry and replicate DNA. An expression vector is designed not just to replicate the DNA, but to force the host cell to transcribe and translate that DNA into a protein.\n* **Additional Elements:** An expression system requires a strong **promoter** sequence to initiate transcription, a **ribosome binding site** for translation, and often transcription termination signals, all strategically placed around the inserted gene."
+    },
+    "explanation": "Cloning just copies the blueprint; expression systems are built to actively manufacture the product described by the blueprint."
+  },
+  {
+    "title": "Building Genomic Libraries 📚",
+    "ques": "Describe the process of creating a **genomic library**. What does this library actually contain?",
+    "answer": {
+      "type": "text",
+      "content": "* **Process:** The entire genome of an organism is extracted and digested into thousands of fragments using restriction enzymes. Every single one of these fragments is then ligated into a separate vector, and these vectors are transformed into a population of host bacteria.\n* **Contents:** The resulting collection (library) of bacterial clones contains, across its entire population, at least one copy of every single DNA sequence present in the organism's original genome."
+    },
+    "explanation": "Genomic libraries are the biological equivalent of an encyclopedia set, chopping an entire complex genome into manageable, stored pieces for later searching."
+  },
+  {
+    "title": "Screening Methods for Clones 🕵️",
+    "ques": "Once a library is created, discuss a common **screening method** (like Blue-White screening) used to identify which bacterial colonies contain a plasmid with a successful DNA insert.",
+    "answer": {
+      "type": "text",
+      "content": "* **Blue-White Screening Mechanism:** The plasmid vector is designed so the Multiple Cloning Site is located inside a gene (often lacZ) that produces a blue pigment. \n* **The Results:**\n    * If a bacterium takes up an **empty plasmid**, the lacZ gene is intact, and the colony turns **blue**.\n    * If a bacterium takes up a **recombinant plasmid** (with foreign DNA inserted), the lacZ gene is disrupted and broken. These colonies remain **white**.\n* Researchers simply pick the white colonies, knowing they contain the successfully cloned DNA insert."
+    },
+    "explanation": "Cloning creates thousands of colonies; ingenious biochemical screening methods are required to visually identify the needle in the haystack."
+  }
+]

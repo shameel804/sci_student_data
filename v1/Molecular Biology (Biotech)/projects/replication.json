@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Enzymes of DNA Replication 🛠️",
+    "ques": "List three primary **enzymes involved** in DNA replication and briefly describe the specific function of each.",
+    "answer": {
+      "type": "text",
+      "content": "* **Helicase:** Unzips the double helix by breaking the hydrogen bonds between base pairs, creating two single template strands.\n* **DNA Polymerase:** Synthesizes the new DNA strand by adding complementary nucleotides to the template strand in the 5-prime to 3-prime direction.\n* **Ligase:** Acts as the cellular 'glue', sealing the nicks between Okazaki fragments on the lagging strand to form a continuous DNA molecule."
+    },
+    "explanation": "Replication is a highly orchestrated process requiring a specific toolkit of enzymes to unwind, copy, and seal the genetic material."
+  },
+  {
+    "title": "Navigating the Replication Fork 🔀",
+    "ques": "Explain the dynamics at the **replication fork**, specifically detailing the difference between the leading strand and the lagging strand synthesis.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Fork:** The Y-shaped region where the DNA is actively being unwound.\n* **Leading Strand:** Because DNA Polymerase only works in the 5-prime to 3-prime direction, one strand (the leading strand) is synthesized continuously toward the replication fork.\n* **Lagging Strand:** The opposite strand must be synthesized away from the fork. It is created discontinuously in short segments known as **Okazaki fragments**, which are later joined together."
+    },
+    "explanation": "Understanding the antiparallel nature of DNA is critical to visualizing why one strand is copied continuously and the other is fragmented."
+  },
+  {
+    "title": "Proofreading Mechanisms 🔍",
+    "ques": "Describe the **proofreading mechanisms** employed during DNA replication to ensure high fidelity of the genetic code.",
+    "answer": {
+      "type": "text",
+      "content": "* **Initial Catch:** DNA Polymerase has a built-in proofreading ability. Before it adds a new nucleotide, it checks if the previously added base is correctly paired with the template.\n* **Exonuclease Activity:** If an incorrect base was inserted (a mismatch), the polymerase uses its 3-prime to 5-prime exonuclease activity to step backward, remove the incorrect nucleotide, and replace it with the correct one before continuing synthesis."
+    },
+    "explanation": "Proofreading is essential to prevent mutations. The inherent self-correcting nature of DNA polymerase is the first line of defense."
+  },
+  {
+    "title": "Post-Replication DNA Repair Systems 🩹",
+    "ques": "Discuss what happens when errors escape initial proofreading, focusing on the mechanism of **mismatch repair (MMR)**.",
+    "answer": {
+      "type": "text",
+      "content": "* **The Problem:** Sometimes incorrect base pairs slip past the proofreading phase of DNA polymerase.\n* **Mismatch Repair (MMR):** Shortly after replication, a complex of MMR proteins scans the newly synthesized DNA for deformities caused by mismatched pairs (e.g., a G paired with a T).\n* **The Fix:** The repair proteins identify the newly synthesized strand, excise a segment of DNA containing the error, and a repair DNA polymerase fills in the correct sequence, which is then sealed by ligase."
+    },
+    "explanation": "DNA repair systems highlight the cell's redundant mechanisms to maintain genomic integrity against replication errors and environmental damage."
+  }
+]
